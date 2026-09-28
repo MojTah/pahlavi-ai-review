@@ -1,0 +1,231 @@
+{
+  "created": "2026-09-20",
+  "purpose": "Credited study resources for a future Pahlavi-to-Farsi-and-English translator",
+  "local_copies": "Selected inert source/document/data reference files under resources/local; excluded from Git. Not installed software or a complete website mirror.",
+  "entries": [
+    {
+      "repo": "openscilab/parsipy",
+      "commit": "3e388d8681004835dbda343653d4959bb9288371",
+      "license_spdx": "MIT",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/README.md",
+          "bytes": 8112,
+          "sha256": "efca7c8daf774d481a8730422062dcb227d1eec611b74e756c5f1f9d5fc6e301",
+          "local_path": "resources/local/parsipy/3e388d868100/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/LICENSE",
+          "bytes": 1066,
+          "sha256": "0a4eaf60f20cb46f9ceba5bf3cada8631f960c82e47aedca92bcdb518190830a",
+          "local_path": "resources/local/parsipy/3e388d868100/LICENSE"
+        },
+        {
+          "path": "parsipy/data.py",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/data.py",
+          "bytes": 2164,
+          "sha256": "179786499295176c0d6415c9764db7ac9574ffc422d130c7849c1031b49a6adc",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/data.py"
+        },
+        {
+          "path": "parsipy/p2t.py",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/p2t.py",
+          "bytes": 1986,
+          "sha256": "ce97507b1786f8fa34997beb02d738fcbd8b7cb5c74768db32fe5f866dd3ffed",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/p2t.py"
+        },
+        {
+          "path": "parsipy/word_stemmer.py",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/word_stemmer.py",
+          "bytes": 2307,
+          "sha256": "30526d54bac130e9b0755ad7a94518fbf92686d25df03ab216837b2a5f0e1370",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/word_stemmer.py"
+        },
+        {
+          "path": "parsipy/tokenizer.py",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/tokenizer.py",
+          "bytes": 980,
+          "sha256": "0220b46e54afcb2613251baae727c25d3feea389814b521177fc657ee9d8e24d",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/tokenizer.py"
+        },
+        {
+          "path": "parsipy/files/roots.json",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/files/roots.json",
+          "bytes": 63399,
+          "sha256": "8bedae050861b80ffcc4aaf9be130e34712a0c701619f1df6e84bf4b214aee39",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/files/roots.json"
+        },
+        {
+          "path": "parsipy/files/stems.csv",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/files/stems.csv",
+          "bytes": 109156,
+          "sha256": "a677f349da4ca7879041b46f8d4c538a172b41b77b496b5d5bff4024029a3235",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/files/stems.csv"
+        },
+        {
+          "path": "parsipy/files/transition.csv",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/files/transition.csv",
+          "bytes": 2447,
+          "sha256": "64edadf0409340085b57c0d3ab8c1933d8c52d4f8c095921d924492905765cb3",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/files/transition.csv"
+        },
+        {
+          "path": "parsipy/files/emission.csv",
+          "url": "https://raw.githubusercontent.com/openscilab/parsipy/3e388d8681004835dbda343653d4959bb9288371/parsipy/files/emission.csv",
+          "bytes": 681444,
+          "sha256": "e3b6bdc2748a78341d9626f66b17ad30a0e27ac0465bc85a1bdbdbf2a0fcf2eb",
+          "local_path": "resources/local/parsipy/3e388d868100/parsipy/files/emission.csv"
+        }
+      ],
+      "accessed": "2026-09-20",
+      "license_from_actual_file": "MIT",
+      "executed": false,
+      "installed": false,
+      "retained_license_path": "resources/licenses/parsipy-LICENSE.txt",
+      "coverage": "Selected documentation and license consulted; see resources/README.md for individual depth."
+    },
+    {
+      "repo": "roshan-research/hazm",
+      "commit": "a399c8293c5165544aaef76ead78bda9f4275888",
+      "license_spdx": "MIT",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/roshan-research/hazm/a399c8293c5165544aaef76ead78bda9f4275888/README.md",
+          "bytes": 7585,
+          "sha256": "5f44a7ef3e3179211c50a8b851f1f4f8bc9ed0ebf53016ea1c4e537044102aff",
+          "local_path": "resources/local/hazm/a399c8293c51/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/roshan-research/hazm/a399c8293c5165544aaef76ead78bda9f4275888/LICENSE",
+          "bytes": 1083,
+          "sha256": "5acd1bd6a100e111160be714b374f7d3dcc0e3fc959aaddb92e8e893fbf2d62e",
+          "local_path": "resources/local/hazm/a399c8293c51/LICENSE"
+        }
+      ],
+      "accessed": "2026-09-20",
+      "license_from_actual_file": "MIT",
+      "executed": false,
+      "installed": false,
+      "retained_license_path": "resources/licenses/hazm-LICENSE.txt",
+      "coverage": "Selected documentation and license consulted; see resources/README.md for individual depth."
+    },
+    {
+      "repo": "Dadmatech/DadmaTools",
+      "commit": "8e779244b980672be90f032c1e7a3a5360aa77c4",
+      "license_spdx": "Apache-2.0",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Dadmatech/DadmaTools/8e779244b980672be90f032c1e7a3a5360aa77c4/README.md",
+          "bytes": 20081,
+          "sha256": "c8d17f6d8f116dcfc6c2ca211e9f3c15f0c1ae7f6f14d9518ab6e9167d67c013",
+          "local_path": "resources/local/dadmatools/8e779244b980/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/Dadmatech/DadmaTools/8e779244b980672be90f032c1e7a3a5360aa77c4/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "local_path": "resources/local/dadmatools/8e779244b980/LICENSE"
+        }
+      ],
+      "accessed": "2026-09-20",
+      "license_from_actual_file": "Apache-2.0",
+      "executed": false,
+      "installed": false,
+      "retained_license_path": "resources/licenses/dadmatools-LICENSE.txt",
+      "coverage": "Selected documentation and license consulted; see resources/README.md for individual depth."
+    },
+    {
+      "repo": "stanfordnlp/stanza",
+      "commit": "1f4bfdd2bff400969444cf9f290d402448c9d6d5",
+      "license_spdx": "NOASSERTION",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/stanfordnlp/stanza/1f4bfdd2bff400969444cf9f290d402448c9d6d5/README.md",
+          "bytes": 11369,
+          "sha256": "b4f5360262f710da999086d585e29fa060e0db2e52387ae7d59c5b7dc7d84eca",
+          "local_path": "resources/local/stanza/1f4bfdd2bff4/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/stanfordnlp/stanza/1f4bfdd2bff400969444cf9f290d402448c9d6d5/LICENSE",
+          "bytes": 603,
+          "sha256": "9e65adb49698e6f81223d81bae0ee00ac4ddf3cb8d429b85ef85e38b95ea8a50",
+          "local_path": "resources/local/stanza/1f4bfdd2bff4/LICENSE"
+        }
+      ],
+      "accessed": "2026-09-20",
+      "license_from_actual_file": "Apache-2.0",
+      "executed": false,
+      "installed": false,
+      "retained_license_path": "resources/licenses/stanza-LICENSE.txt",
+      "coverage": "Selected documentation and license consulted; see resources/README.md for individual depth."
+    },
+    {
+      "repo": "google/sentencepiece",
+      "commit": "b2db4719c3f41e1b0c61dd948c5d8bf445bef1a0",
+      "license_spdx": "Apache-2.0",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/google/sentencepiece/b2db4719c3f41e1b0c61dd948c5d8bf445bef1a0/README.md",
+          "bytes": 9678,
+          "sha256": "348dac366fe872b74e3a6e35b620b890324199724704c91dc3ef962a138e9c13",
+          "local_path": "resources/local/sentencepiece/b2db4719c3f4/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/google/sentencepiece/b2db4719c3f41e1b0c61dd948c5d8bf445bef1a0/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "local_path": "resources/local/sentencepiece/b2db4719c3f4/LICENSE"
+        }
+      ],
+      "accessed": "2026-09-20",
+      "license_from_actual_file": "Apache-2.0",
+      "executed": false,
+      "installed": false,
+      "retained_license_path": "resources/licenses/sentencepiece-LICENSE.txt",
+      "coverage": "Selected documentation and license consulted; see resources/README.md for individual depth."
+    },
+    {
+      "repo": "mjpost/sacrebleu",
+      "commit": "c596d9d2072a8f84200574a7a5c56c618e8d37e8",
+      "license_spdx": "Apache-2.0",
+      "license_path": "LICENSE.txt",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/mjpost/sacrebleu/c596d9d2072a8f84200574a7a5c56c618e8d37e8/README.md",
+          "bytes": 37446,
+          "sha256": "098e9d1283d53ecc672e9255f726e0cc45a0a19e7958a7b5c3375da88c5aa56e",
+          "local_path": "resources/local/sacrebleu/c596d9d2072a/README.md"
+        },
+        {
+          "path": "LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/mjpost/sacrebleu/c596d9d2072a8f84200574a7a5c56c618e8d37e8/LICENSE.txt",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "local_path": "resources/local/sacrebleu/c596d9d2072a/LICENSE.txt"
+        }
+      ],
+      "accessed": "2026-09-20",
+      "license_from_actual_file": "Apache-2.0",
+      "executed": false,
+      "installed": false,
+      "retained_license_path": "resources/licenses/sacrebleu-LICENSE.txt",
+      "coverage": "Selected documentation and license consulted; see resources/README.md for individual depth."
+    }
+  ]
+}

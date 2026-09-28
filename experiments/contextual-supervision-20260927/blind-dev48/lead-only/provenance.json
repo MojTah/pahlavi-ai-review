@@ -1,0 +1,53 @@
+{
+  "status": "LOCAL_BLIND_CONTEXTUAL_DEV48_PREPARED",
+  "contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "launch": {
+    "run_id": "555064e068b54aacafee67e37375ec78",
+    "source_commit": "0c2b869c0e0c0bd08fd0014a9130c14b4366e934",
+    "spec_sha256": "8fbd1d6b422e9d084757090932b11c367c3087714867281fbada06e40e23af70",
+    "command_sha256": "596595227e88c575d411a898b8bcb5350f65e8cf0fb5932c0b247686e7f1bab4"
+  },
+  "completion": {
+    "complete": true,
+    "training_complete": true,
+    "recorded_outputs": 48,
+    "completed_outputs": 48,
+    "adapter_tensor_validation": "Server provenance only; no local weights opened"
+  },
+  "source_files_sha256": {
+    "benchmarks/pal-reference-v1/manifest.json": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+    "benchmarks/pal-reference-v1/PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "benchmarks/pal-reference-v1/benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "benchmarks/pal-reference-v1/holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62"
+  },
+  "reviewers": 2,
+  "outputs_per_reviewer": 48,
+  "expert_adjudicated": false,
+  "seeds": {
+    "A": 2026092711,
+    "B": 2026092712
+  },
+  "preparer_sha256": "1e100fd41535db1d0b361e9096d65af0885a3747f0f4fc8c8bf458977677e7af",
+  "files": {
+    "lead-only/raw/execution.json": "bf2ac585bfc307bcee401c3e9d59da775cfd3a1da5af70475f93128204092b48",
+    "lead-only/raw/execution-preparation.json": "4a0f59c7275ee07777fe44304d53f54c941f9040eee402381f5b11c2b8174d49",
+    "lead-only/raw/recovery.json": "74cddf0473189284f7e7a02a71066b32b5fd325e519e0cb0b35baeda6bd56d72",
+    "lead-only/raw/run.json": "8a13f2288322de32125498d0967e67af3565e3d89473e771c745e345da2bbf2c",
+    "lead-only/raw/training/run.json": "26b46719991904ea96455d57cd625f93d5928cdf66b1a38fc62e966c9d53db41",
+    "lead-only/raw/evaluation/run.json": "b41f4a4c4bd4666aa5bec5cc75f6e1da63e8133d2ca4982c902084a7b6e947f0",
+    "lead-only/raw/evaluation/predictions.jsonl": "4591d2bda18292a1c587b9ca3803df81e0953b6bc732e92478ecc1ff1368d823",
+    "lead-only/raw/export-manifest.json": "4d65de731cbe389cfb0700fc7edef074b17f7b2d5faf98dd30062f899fba0b2b",
+    "lead-only/frozen/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "lead-only/frozen/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "lead-only/frozen/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62",
+    "reviewer-A/packet.jsonl": "fed9363626c4a61fe7733827c49c84ac0c13a92b5350ff7511619da25ba7faa9",
+    "reviewer-A/INSTRUCTIONS.md": "f5f240e8cdbcea2ed9a37d7354ccc02ce419d7d28e92371d81b6792ea0cc2947",
+    "reviewer-B/packet.jsonl": "e79baeb597d640d05f8d2e5312c80487e73fcdba54b9da7501a57769514dea3e",
+    "reviewer-B/INSTRUCTIONS.md": "f5f240e8cdbcea2ed9a37d7354ccc02ce419d7d28e92371d81b6792ea0cc2947",
+    "lead-only/mapping.jsonl": "7ba8b8a9a373116844a1f48feadbca4ad01f6fba02ff1deaa3ea309538f9b9e4"
+  }
+}

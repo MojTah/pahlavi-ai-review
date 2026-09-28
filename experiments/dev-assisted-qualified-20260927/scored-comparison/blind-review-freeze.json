@@ -1,0 +1,14 @@
+{
+  "A": {
+    "sha256": "4e89104f4f26e0f40010add2cf0e04f1f8d219f19a8a22475ad5baf5abc4f2e6",
+    "rows": 96,
+    "reviewer_type": "AI",
+    "expert_adjudicated": false
+  },
+  "B": {
+    "sha256": "55ff464d3d192ab5ea56637d044a19dcb2f96d0db33a6002f7e46ff9f60e413f",
+    "rows": 96,
+    "reviewer_type": "AI",
+    "expert_adjudicated": false
+  }
+}

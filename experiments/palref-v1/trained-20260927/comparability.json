@@ -1,0 +1,29 @@
+{
+  "compared_fields": [
+    "benchmark_id",
+    "benchmark_manifest_sha256",
+    "original_inputs_sha256",
+    "source_only_inputs_sha256",
+    "model_id",
+    "model_revision",
+    "runtime",
+    "runner_sha256",
+    "base_files",
+    "tokenizer_files",
+    "chat_template_sha256",
+    "decoding",
+    "seed",
+    "max_new_tokens",
+    "max_generation_seconds",
+    "retrieval",
+    "fresh_context_each_case",
+    "system_prompt",
+    "rendered_system_instruction",
+    "enable_thinking",
+    "direction"
+  ],
+  "matching_conditions": true,
+  "baseline_condition": "bf16-original",
+  "trained_condition": "bf16-original-plus-adapter",
+  "interpretation": "Only adapter presence differs in tested model condition; benchmark and inference protocol unchanged."
+}

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "job_id": "6ab9237d52d0dbd7f1d9c66b",
+  "run_id": "555064e068b54aacafee67e37375ec78",
+  "small_files": 18,
+  "small_bytes": 278467,
+  "provider_inventory_objects": 21,
+  "training": {
+    "control": {
+      "completed_steps": 48,
+      "consumed_slots": 768,
+      "initial_adapter_sha256": "df16670b3b7bfc24da89c91724849d297b4b0a1db6298f1e8be16d1a62a53014",
+      "initial_rng_sha256": "6548df786f22f50f7f1da509f18b95b6190e7859a800c5a4ff2e2685b6f8e695",
+      "train_begin_rng_sha256": "6548df786f22f50f7f1da509f18b95b6190e7859a800c5a4ff2e2685b6f8e695",
+      "final_adapter_sha256": "08fcb97fa759b8628fffd573fe9ef868cb724b505009a837483a55fd259eac89",
+      "adapter_files": {
+        "README.md": "1dc2b05f9e415bf4fb2a08eff0f9d7d48f86d1d534b11ac95c0519be052df7c1",
+        "adapter_model.safetensors": "8d617381b0e17cb769fd38f90791c6a40c251ad03b0474e9c46ab4da6173152b",
+        "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+      },
+      "training_loss": 0.6281095277518034
+    },
+    "candidate": {
+      "completed_steps": 48,
+      "consumed_slots": 768,
+      "initial_adapter_sha256": "df16670b3b7bfc24da89c91724849d297b4b0a1db6298f1e8be16d1a62a53014",
+      "initial_rng_sha256": "6548df786f22f50f7f1da509f18b95b6190e7859a800c5a4ff2e2685b6f8e695",
+      "train_begin_rng_sha256": "6548df786f22f50f7f1da509f18b95b6190e7859a800c5a4ff2e2685b6f8e695",
+      "final_adapter_sha256": "58020b380977a22a5d17fc506b573ea75f998747793264933f8ed2b77237da15",
+      "adapter_files": {
+        "README.md": "1dc2b05f9e415bf4fb2a08eff0f9d7d48f86d1d534b11ac95c0519be052df7c1",
+        "adapter_model.safetensors": "303102041a8ca105c38fec7d60342d8dab756279289c7153434c640e34e69c3e",
+        "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+      },
+      "training_loss": 0.6246321133027474
+    }
+  },
+  "successful_first_attempts": 48,
+  "total_output_tokens": 3003,
+  "prompt_identities": 24,
+  "uniform_contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "all_eight_source_bindings_unchanged": true,
+  "training_canary": {
+    "status": "passed",
+    "optimizer_updates": 0,
+    "id": "parsig:301001003:pal>fa",
+    "input_tokens": 660,
+    "logits_shape": [
+      1,
+      660,
+      262144
+    ],
+    "native_loss": 0.9666206240653992,
+    "manual_loss": 0.9666206240653992,
+    "loss_atol": 0.0001,
+    "loss_rtol": 0.0001,
+    "autocast_dtype": "bfloat16",
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_use_reentrant": false,
+    "elapsed_seconds": 3.2987446999759413,
+    "peak_gpu_bytes": 28851974144,
+    "adapter_sha256": "df16670b3b7bfc24da89c91724849d297b4b0a1db6298f1e8be16d1a62a53014"
+  },
+  "evaluation_canary": {
+    "status": "passed",
+    "id": "QUALITYDEV1-024:plain",
+    "input_tokens": 456,
+    "rendered_input_ids_sha256": "78f82faed8ce2c6439d69f8261c5654d5f7215e7e00961949539483214f79254",
+    "elapsed_seconds": 0.27268562000244856,
+    "peak_allocated_bytes": 64137364480,
+    "peak_reserved_bytes": 64451772416,
+    "output_generated": false,
+    "experimental_attempts": 0,
+    "deadline_utc": "2026-09-27T15:15:40.848148+00:00"
+  },
+  "terminal_confirmation": {
+    "event": "shutdown_status",
+    "job_id": "6ab9237d52d0dbd7f1d9c66b",
+    "stage": "CANCELED",
+    "utc": "2026-09-27T14:59:55.992567+00:00"
+  },
+  "all18_jobs_terminal": true,
+  "credit_change": "-2.08",
+  "period_usage_change": "2.08",
+  "observed_running_start_to_terminal_seconds": 2954.219567,
+  "elapsed_rate_arithmetic_usd": "2.05155777830315",
+  "arithmetic_is_not_invoice_or_upper_bound": true,
+  "no_local_weights": true,
+  "no_reviewer_ratings_read": true,
+  "evidence_sha256": {
+    "experiments\\contextual-supervision-20260927\\attempt-2\\execution.json": "bf2ac585bfc307bcee401c3e9d59da775cfd3a1da5af70475f93128204092b48",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\execution-preparation.json": "4a0f59c7275ee07777fe44304d53f54c941f9040eee402381f5b11c2b8174d49",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\recovery.json": "74cddf0473189284f7e7a02a71066b32b5fd325e519e0cb0b35baeda6bd56d72",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\recovered\\manifest.json": "4d65de731cbe389cfb0700fc7edef074b17f7b2d5faf98dd30062f899fba0b2b",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\recovered\\contextual\\training\\run.json": "26b46719991904ea96455d57cd625f93d5928cdf66b1a38fc62e966c9d53db41",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\recovered\\contextual\\run.json": "8a13f2288322de32125498d0967e67af3565e3d89473e771c745e345da2bbf2c",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\recovered\\contextual\\evaluation\\run.json": "b41f4a4c4bd4666aa5bec5cc75f6e1da63e8133d2ca4982c902084a7b6e947f0",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\recovered\\contextual\\evaluation\\predictions.jsonl": "4591d2bda18292a1c587b9ca3803df81e0953b6bc732e92478ecc1ff1368d823",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\post-stop-inventory.json": "4878fabc41d7bf4352c285d47fc06da1fa8841a322b9e93a2cdbde6a4cd9c454",
+    "experiments\\contextual-supervision-20260927\\attempt-2\\post-stop-billing.json": "cb16e12d6376cf5a09ed68b524a51e5eb1a8195dd8b4b407a75704e4de2a20d4",
+    "experiments\\contextual-supervision-20260927\\blind-dev48\\lead-only\\provenance.json": "5824c1d43ca2fbdb6a89c18d18e491cee022e15c11a6e48a7bc631f7838720cd",
+    "resources\\local\\hf-contextual-run-20260927-attempt-2\\events.jsonl": "0722b58f03d2b3599a28e58ce32b303aaa02ad90ed2a88a01515f743cf6ad1d6",
+    "resources\\local\\hf-contextual-run-20260927-attempt-2\\spec.json": "8fbd1d6b422e9d084757090932b11c367c3087714867281fbada06e40e23af70"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "avesta",
+  "seeds": [
+    "https://www.avesta.org/mp/",
+    "https://www.avesta.org/denkard/denkard.htm",
+    "https://www.avesta.org/mp/SGV.pdf",
+    "https://www.avesta.org/dhalla/nyaish1.htm"
+  ],
+  "roots": [
+    "https://www.avesta.org/mp/",
+    "https://www.avesta.org/denkard/"
+  ],
+  "rights": "Mixed: retain per-document notices. Historical edition age does not automatically license modern translations or electronic editions."
+}

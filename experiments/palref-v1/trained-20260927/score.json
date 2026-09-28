@@ -1,0 +1,104 @@
+{
+  "benchmark_manifest_sha256": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+  "assessment": "provisional recorded judgments; not automatic semantic validation or model qualification",
+  "reviewer_type": "ai",
+  "reviewer_id": "/root/blind_palref_review_b",
+  "model_id": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "artifact_hashes": {
+    "run.json": "1ebb060597f59bda35f4e102a39b777ba6c29cc34ceacb7433de1af7c5d2101f",
+    "predictions.jsonl": "fec20ebde33897c7103b7427d3a00ca2ca8f51b415a55b59db5f9ec1a4473396",
+    "reviews.jsonl": "dac6eecc5106ff32c6820ef9f33de4d562f02890e5a9f06790db09e85d1abbb7"
+  },
+  "directions": {
+    "pal>fa": {
+      "total": 40,
+      "complete_outputs": 40,
+      "accepted": 15,
+      "meaning_error": 13,
+      "critical_error": 10,
+      "uncertain": 2,
+      "abstain": 0,
+      "timeout": 0,
+      "error": 0,
+      "accepted_percent": 37.5,
+      "critical_error_percent": 25.0,
+      "complete_output_percent": 100.0
+    }
+  },
+  "by_work": {
+    "pal>fa": {
+      "parsig:104": {
+        "total": 8,
+        "complete_outputs": 8,
+        "accepted": 3,
+        "meaning_error": 3,
+        "critical_error": 2,
+        "uncertain": 0,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 37.5,
+        "critical_error_percent": 25.0,
+        "complete_output_percent": 100.0
+      },
+      "parsig:110": {
+        "total": 4,
+        "complete_outputs": 4,
+        "accepted": 0,
+        "meaning_error": 3,
+        "critical_error": 0,
+        "uncertain": 1,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 0.0,
+        "critical_error_percent": 0.0,
+        "complete_output_percent": 100.0
+      },
+      "parsig:116": {
+        "total": 10,
+        "complete_outputs": 10,
+        "accepted": 6,
+        "meaning_error": 3,
+        "critical_error": 1,
+        "uncertain": 0,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 60.0,
+        "critical_error_percent": 10.0,
+        "complete_output_percent": 100.0
+      },
+      "parsig:130": {
+        "total": 10,
+        "complete_outputs": 10,
+        "accepted": 3,
+        "meaning_error": 3,
+        "critical_error": 3,
+        "uncertain": 1,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 30.0,
+        "critical_error_percent": 30.0,
+        "complete_output_percent": 100.0
+      },
+      "parsig:132": {
+        "total": 8,
+        "complete_outputs": 8,
+        "accepted": 3,
+        "meaning_error": 1,
+        "critical_error": 4,
+        "uncertain": 0,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 37.5,
+        "critical_error_percent": 50.0,
+        "complete_output_percent": 100.0
+      }
+    }
+  },
+  "scope": "PAL-REF v1 pal>fa projection: forty cases; other directions not evaluated"
+}

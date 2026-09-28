@@ -1,0 +1,24 @@
+{
+  "benchmark_id": "pal-reference-v1",
+  "prepared_utc": "2026-09-26T01:31:57.793981+00:00",
+  "passages": 40,
+  "source_records": 42,
+  "works": 5,
+  "directional_cases": 160,
+  "primary_cases": 80,
+  "secondary_cases": 80,
+  "expert_adjudicated": false,
+  "files": {
+    "ASSEMBLY_SOURCE.py.txt": "25e5f99589853e2618e4f4762c201a3285168efcc7e86f5ddd340ee213a98bdc",
+    "benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "inputs.jsonl": "13124e8683099a1b3cf1bda56071de1a004eed83c895ce65e26ffd939f2bd759",
+    "PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "READING_SET_FA.md": "a9ffb1c5f016a07846373fb39f798d1de1a1a5e6caa5a1f8419f08ab067e20cf",
+    "README_FA.md": "0e8148ba973256a89dea24ab350d828807eadacd6628636db6abe5d0e47718ab",
+    "references.jsonl": "4b5974a87bb8c3c73eade6e72d0e6bc58042fa67ab7b722ae92e4ee5c64106e8",
+    "selection-audit.json": "8031658d89138a961e1c2c83da2364b53896e956c7df4076ab398905ffca6faf",
+    "SELECTION_NOTES.md": "3cf440b28bcdd38772bc5c5c90b54d27d740e7bcb0134f40f90eeb8134a489ce",
+    "source-evidence.jsonl": "97883f3a5251ff2bb77e17793b986928dbb8d2ce04af2a91ea62de72cb4f3701"
+  }
+}

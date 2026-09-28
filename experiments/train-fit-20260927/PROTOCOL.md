@@ -1,0 +1,29 @@
+# Conditional fit and source dependence
+
+27 September 2026. Predeclared mechanism diagnostic; preparation only, no paid run admitted. Classic + Critic. Root is the sole cloud execution owner. This follows the incomplete seen-TRAIN recall probe, whose original results and failed first attempt remain unchanged.
+
+## Question and fixed comparison
+
+Does the qualified step-280 adapter improve conditional likelihood of known TRAIN answers, and do those likelihoods respond to the actual Pahlavi source? Weak free-generation recall, a repetition failure and declining logged training loss leave this unresolved. Correct short glosses/functions did not establish full-passage accuracy. This check informs the next learning intervention; it does not measure translation merit, prove a causal mechanism or establish generalization.
+
+Use all twenty parents already frozen in `../train-recall-20260927/inputs.jsonl`, with original answers and saved tokens/labels from qualified TRAIN2237. No DEV/PAL-REF target or correction is used. Exactly four conditions per parent: adapter on/off crossed with correct source/one predetermined mismatched source. Eighty forward evaluations, zero optimizer updates and no free generation or resampling. Load the same pinned BF16 Gemma base and step-280 adapter once. The earlier training used NF4; this checks the BF16 inference configuration and does not silently equate the two.
+
+Use the exact original translation-training instruction. Correct-source inputs/labels must equal the frozen training row byte/token representation. For mismatched source, replace only the source passage with the designated different parent's source; preserve the original target token sequence and terminator, task instruction, target language and answer-only loss boundary. Never store this negative control as a valid translation pair. Preserve all source/target qualifications.
+
+`source-control.json` fixes one permutation before any fit result: use the smallest positive cyclic shift of the existing twenty-parent order that has no same-parent or same-work pairing. The resulting shift is5; mapping SHA256 is `3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0`. Each original source appears exactly once in the mismatched condition. These are deliberately unpaired sources, not semantically adjudicated negatives or a natural corruption model; overlapping content is possible. Source length/content and teacher-forced gold prefixes limit interpretation.
+
+## Numerical checks and outputs
+
+Use eval mode, inference-only execution, no KV reuse, no trainable updates and the same precision/backend across all conditions. Seed42; start with `[on/correct, off/correct, on/mismatched, off/mismatched]` and rotate left by zero-based parent index modulo4. Verify exact adapter identity and reliable enabled/disabled restoration. Check all prompts untruncated before loading the model. Preserve target IDs and count every loss-bearing token, including the training terminator.
+
+Independently calculate causal shifted answer-only cross-entropy from the forward logits; compare it with the model's reported masked loss within a declared numerical tolerance validated before launch. Prompts and padding must not contribute. Record sum NLL, supervised-token count and mean NLL for every parent/condition, finite-value checks, input/target identities and runtime/model/adapter hashes. A small real CPU numerical test must verify shifting/masking and adapter toggling before cloud launch; local random test tensors are permitted, pretrained model weights remain on the server.
+
+Report each parent's adapter effect (off minus on NLL) separately for correct and mismatched source, and mismatch penalty (mismatched minus correct NLL) separately for adapter on/off. Report equal-parent summaries and by-work summaries; token-weighted results, if included, are labelled separately. No tuned threshold, significance/promotion claim or added condition follows inspection. All twenty parents remain scheduled; partial/missing results remain explicit. Persist evidence after each forward result and stop safely on structural/numerical failure, with no automatic retry.
+
+## Interpretation and next gate
+
+Lower correct-source loss with the adapter and a positive mismatch penalty strengthen evidence of familiar conditional fit. They cannot prove correct translation reasoning; gold answer prefixes can conceal weak source use. Weak or inconsistent effects call for checking objective/masking/adapter consistency before attributing the problem to insufficient labels. Good conditional fit with poor free generation would make further ordinary epochs less directly justified and motivate a narrowly defined construction/rollout intervention. These are diagnostic considerations, not automatic causal decisions.
+
+Any training candidate must retain its matched translation-only control, explicit parent/token exposure, and the unchanged source-only DEV merit function. No fit score is pooled with PAL-REF, DEV or recall acceptance. Do not retry the earlier capped generation or refill missing recall slots under this experiment.
+
+Before any paid run: exact implementation tests and independent review, token/memory census, code/data hashes and source checkpoint, current credit/rate/job inventory, native timeout and export reserve. Use one bounded A10080 run with a provisional USD1.50 incremental ceiling; choose its exact timeout from measured setup and forward-work estimates, within that ceiling. Existing funded credit is authorized strategically; no recharge, purchase or local pretrained-weight download is authorized. Store only small diagnostic evidence locally and verify cloud persistence before stopping compute. No new reference upload is needed: the original TRAIN targets already exist inside the approved private training bundle.

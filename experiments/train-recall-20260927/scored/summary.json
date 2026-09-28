@@ -1,0 +1,1357 @@
+{
+  "status": "TWO_SEPARATE_SEEN_TRAIN_RECALL_REVIEWS",
+  "reviewers": {
+    "A": {
+      "conditions": {
+        "training": {
+          "denominator": 20,
+          "meaning_and_execution_counts": {
+            "meaning_error": 4,
+            "unattempted": 7,
+            "error": 1,
+            "accepted": 5,
+            "critical_error": 2,
+            "uncertain": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 6,
+            "grammatical_roles": 4,
+            "omissions": 6,
+            "unsupported_additions": 6,
+            "negation_modality": 2
+          },
+          "unknown_span_handling": {
+            "uncertain": 11,
+            "no_unknown_span": 9
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 13,
+            "unassessable": 14,
+            "contradicted": 1
+          },
+          "by_work": {
+            "parsig:101": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:107": {
+              "denominator": 5,
+              "meaning_and_execution_counts": {
+                "accepted": 4,
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 5
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 5
+              }
+            },
+            "parsig:108": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:109": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 2
+              }
+            },
+            "parsig:115": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "critical_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "negation_modality": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:119": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "uncertain": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:134": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "critical_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "negation_modality": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1,
+                "contradicted": 1
+              }
+            },
+            "parsig:136": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "accepted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:150": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "error": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 3
+              }
+            },
+            "parsig:151": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:509": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:511": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:515": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:521": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:550": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:555": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            }
+          }
+        },
+        "evaluation": {
+          "denominator": 20,
+          "meaning_and_execution_counts": {
+            "accepted": 4,
+            "unattempted": 8,
+            "meaning_error": 5,
+            "uncertain": 1,
+            "critical_error": 2
+          },
+          "failed_categories": {
+            "lexical_meaning": 7,
+            "grammatical_roles": 4,
+            "omissions": 7,
+            "unsupported_additions": 7,
+            "negation_modality": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 9,
+            "uncertain": 10,
+            "overconfident": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 13,
+            "unassessable": 14,
+            "contradicted": 1
+          },
+          "by_work": {
+            "parsig:101": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "critical_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:107": {
+              "denominator": 5,
+              "meaning_and_execution_counts": {
+                "accepted": 3,
+                "meaning_error": 2
+              },
+              "failed_categories": {
+                "lexical_meaning": 2,
+                "omissions": 2,
+                "unsupported_additions": 2,
+                "grammatical_roles": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 5
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 5
+              }
+            },
+            "parsig:108": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:109": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 2
+              }
+            },
+            "parsig:115": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:119": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "uncertain": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "overconfident": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:134": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "critical_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "negation_modality": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1,
+                "contradicted": 1
+              }
+            },
+            "parsig:136": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "accepted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:150": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 3
+              }
+            },
+            "parsig:151": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:509": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:511": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:515": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:521": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:550": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:555": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            }
+          }
+        }
+      },
+      "paired_parent_denominator": 20,
+      "paired_cases": [
+        {
+          "case_id": "TRAINRECALL1-001",
+          "work_id": "parsig:101",
+          "training": "meaning_error",
+          "evaluation": "critical_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-002",
+          "work_id": "parsig:107",
+          "training": "meaning_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-003",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-004",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-005",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-006",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-007",
+          "work_id": "parsig:108",
+          "training": "meaning_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-008",
+          "work_id": "parsig:109",
+          "training": "meaning_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-009",
+          "work_id": "parsig:115",
+          "training": "critical_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-010",
+          "work_id": "parsig:119",
+          "training": "uncertain",
+          "evaluation": "uncertain"
+        },
+        {
+          "case_id": "TRAINRECALL1-011",
+          "work_id": "parsig:134",
+          "training": "critical_error",
+          "evaluation": "critical_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-012",
+          "work_id": "parsig:136",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-013",
+          "work_id": "parsig:150",
+          "training": "error",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-014",
+          "work_id": "parsig:151",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-015",
+          "work_id": "parsig:509",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-016",
+          "work_id": "parsig:511",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-017",
+          "work_id": "parsig:515",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-018",
+          "work_id": "parsig:521",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-019",
+          "work_id": "parsig:550",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-020",
+          "work_id": "parsig:555",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        }
+      ],
+      "paired_transitions": {
+        "meaning_error -> critical_error": 1,
+        "meaning_error -> meaning_error": 3,
+        "accepted -> accepted": 4,
+        "accepted -> meaning_error": 1,
+        "critical_error -> meaning_error": 1,
+        "uncertain -> uncertain": 1,
+        "critical_error -> critical_error": 1,
+        "error -> unattempted": 1,
+        "unattempted -> unattempted": 7
+      }
+    },
+    "B": {
+      "conditions": {
+        "training": {
+          "denominator": 20,
+          "meaning_and_execution_counts": {
+            "critical_error": 2,
+            "error": 1,
+            "unattempted": 7,
+            "accepted": 5,
+            "uncertain": 1,
+            "meaning_error": 4
+          },
+          "failed_categories": {
+            "lexical_meaning": 6,
+            "grammatical_roles": 3,
+            "negation_modality": 2,
+            "omissions": 3,
+            "unsupported_additions": 3
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 9,
+            "uncertain": 9,
+            "overconfident": 2
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 12,
+            "contradicted": 2,
+            "unassessable": 14
+          },
+          "by_work": {
+            "parsig:101": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "overconfident": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:107": {
+              "denominator": 5,
+              "meaning_and_execution_counts": {
+                "accepted": 4,
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 5
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 5
+              }
+            },
+            "parsig:108": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:109": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 2
+              }
+            },
+            "parsig:115": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "critical_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "negation_modality": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "overconfident": 1
+              },
+              "local_scope_findings_not_merit": {
+                "contradicted": 1
+              }
+            },
+            "parsig:119": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "uncertain": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:134": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "critical_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "negation_modality": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1,
+                "contradicted": 1
+              }
+            },
+            "parsig:136": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "accepted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:150": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "error": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 3
+              }
+            },
+            "parsig:151": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:509": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:511": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:515": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:521": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:550": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:555": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            }
+          }
+        },
+        "evaluation": {
+          "denominator": 20,
+          "meaning_and_execution_counts": {
+            "meaning_error": 6,
+            "unattempted": 8,
+            "accepted": 4,
+            "critical_error": 1,
+            "uncertain": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 7,
+            "grammatical_roles": 3,
+            "negation_modality": 1,
+            "omissions": 3,
+            "unsupported_additions": 3
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 9,
+            "uncertain": 8,
+            "overconfident": 3
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 13,
+            "contradicted": 1,
+            "unassessable": 14
+          },
+          "by_work": {
+            "parsig:101": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "critical_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "overconfident": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:107": {
+              "denominator": 5,
+              "meaning_and_execution_counts": {
+                "meaning_error": 2,
+                "accepted": 3
+              },
+              "failed_categories": {
+                "lexical_meaning": 2
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 5
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 5
+              }
+            },
+            "parsig:108": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:109": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 2
+              }
+            },
+            "parsig:115": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "overconfident": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:119": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "uncertain": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "overconfident": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:134": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "meaning_error": 1
+              },
+              "failed_categories": {
+                "lexical_meaning": 1,
+                "grammatical_roles": 1,
+                "negation_modality": 1,
+                "omissions": 1,
+                "unsupported_additions": 1
+              },
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1,
+                "contradicted": 1
+              }
+            },
+            "parsig:136": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "accepted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "no_unknown_span": 1
+              },
+              "local_scope_findings_not_merit": {
+                "preserved": 1
+              }
+            },
+            "parsig:150": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 3
+              }
+            },
+            "parsig:151": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:509": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:511": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            },
+            "parsig:515": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:521": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:550": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 2
+              }
+            },
+            "parsig:555": {
+              "denominator": 1,
+              "meaning_and_execution_counts": {
+                "unattempted": 1
+              },
+              "failed_categories": {},
+              "unknown_span_handling": {
+                "uncertain": 1
+              },
+              "local_scope_findings_not_merit": {
+                "unassessable": 1
+              }
+            }
+          }
+        }
+      },
+      "paired_parent_denominator": 20,
+      "paired_cases": [
+        {
+          "case_id": "TRAINRECALL1-001",
+          "work_id": "parsig:101",
+          "training": "meaning_error",
+          "evaluation": "critical_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-002",
+          "work_id": "parsig:107",
+          "training": "meaning_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-003",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-004",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-005",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-006",
+          "work_id": "parsig:107",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-007",
+          "work_id": "parsig:108",
+          "training": "meaning_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-008",
+          "work_id": "parsig:109",
+          "training": "meaning_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-009",
+          "work_id": "parsig:115",
+          "training": "critical_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-010",
+          "work_id": "parsig:119",
+          "training": "uncertain",
+          "evaluation": "uncertain"
+        },
+        {
+          "case_id": "TRAINRECALL1-011",
+          "work_id": "parsig:134",
+          "training": "critical_error",
+          "evaluation": "meaning_error"
+        },
+        {
+          "case_id": "TRAINRECALL1-012",
+          "work_id": "parsig:136",
+          "training": "accepted",
+          "evaluation": "accepted"
+        },
+        {
+          "case_id": "TRAINRECALL1-013",
+          "work_id": "parsig:150",
+          "training": "error",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-014",
+          "work_id": "parsig:151",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-015",
+          "work_id": "parsig:509",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-016",
+          "work_id": "parsig:511",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-017",
+          "work_id": "parsig:515",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-018",
+          "work_id": "parsig:521",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-019",
+          "work_id": "parsig:550",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        },
+        {
+          "case_id": "TRAINRECALL1-020",
+          "work_id": "parsig:555",
+          "training": "unattempted",
+          "evaluation": "unattempted"
+        }
+      ],
+      "paired_transitions": {
+        "meaning_error -> critical_error": 1,
+        "meaning_error -> meaning_error": 3,
+        "accepted -> accepted": 4,
+        "accepted -> meaning_error": 1,
+        "critical_error -> meaning_error": 2,
+        "uncertain -> uncertain": 1,
+        "error -> unattempted": 1,
+        "unattempted -> unattempted": 7
+      }
+    }
+  },
+  "execution_completion": {
+    "complete": false,
+    "declared_status": "incomplete",
+    "recorded_outputs": 25,
+    "recovered_prediction_lines": 25,
+    "attempted_outputs": 25,
+    "active_output_id": null
+  },
+  "expert_adjudicated": false,
+  "scopes_are_merit": false,
+  "limits": "Seen-TRAIN recall only. No pooled reviewer merit, generalization, significance, DEV/PALREF result, improvement screen or automatic promotion.",
+  "review_files_sha256": {
+    "A": "f757cfc91eb55ec4b5c907ea1ece8197753ccff01407c801f5a3829f6f656d3b",
+    "B": "0bb9eeaf73d5865bb6bb1d8830790e0546490a5121268e2ccec96cab7a6b682d"
+  },
+  "packet_provenance_sha256": "0eef3fc69b9f9d2099648de954731041614d36a126c3c8b22f68943353b01aeb"
+}

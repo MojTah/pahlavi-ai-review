@@ -1,0 +1,130 @@
+{
+  "adapter_files": {
+    "training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "training/adapter/adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+    "training/provenance.json": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69",
+    "training/status.json": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"
+  },
+  "automatic_full_resume_supported": false,
+  "bootstrap_hashes": {
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "compute_seconds": 3900,
+  "contextual_status": "complete",
+  "cross_job_sha256_verified": false,
+  "evaluation_complete": true,
+  "export_reserve_seconds": 300,
+  "files": {
+    "base-provenance.json": {
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+    },
+    "bundle-manifest.json": {
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+    },
+    "contextual-status.json": {
+      "bytes": 2327,
+      "sha256": "463421b2b0a60f211b69a098892d1df6c2f472fefbe580335b11575878e79047"
+    },
+    "contextual/evaluation/predictions.jsonl": {
+      "bytes": 73487,
+      "sha256": "4591d2bda18292a1c587b9ca3803df81e0953b6bc732e92478ecc1ff1368d823"
+    },
+    "contextual/evaluation/run.json": {
+      "bytes": 11720,
+      "sha256": "b41f4a4c4bd4666aa5bec5cc75f6e1da63e8133d2ca4982c902084a7b6e947f0"
+    },
+    "contextual/run.json": {
+      "bytes": 10294,
+      "sha256": "8a13f2288322de32125498d0967e67af3565e3d89473e771c745e345da2bbf2c"
+    },
+    "contextual/training/candidate/adapter/README.md": {
+      "bytes": 5228,
+      "sha256": "1dc2b05f9e415bf4fb2a08eff0f9d7d48f86d1d534b11ac95c0519be052df7c1"
+    },
+    "contextual/training/candidate/adapter/adapter_config.json": {
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    "contextual/training/candidate/adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "sha256": "303102041a8ca105c38fec7d60342d8dab756279289c7153434c640e34e69c3e"
+    },
+    "contextual/training/candidate/metrics.json": {
+      "bytes": 25149,
+      "sha256": "17bed8774b3c727d1b6c880b60a2221dc5f44a32e9524a637f488bcce19a71b3"
+    },
+    "contextual/training/candidate/progress.jsonl": {
+      "bytes": 1713,
+      "sha256": "5ea45c0565a5c0b4a193692cd20d80bf18bb10caece67c4982473f6d744db3c6"
+    },
+    "contextual/training/control/adapter/README.md": {
+      "bytes": 5228,
+      "sha256": "1dc2b05f9e415bf4fb2a08eff0f9d7d48f86d1d534b11ac95c0519be052df7c1"
+    },
+    "contextual/training/control/adapter/adapter_config.json": {
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    "contextual/training/control/adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "sha256": "8d617381b0e17cb769fd38f90791c6a40c251ad03b0474e9c46ab4da6173152b"
+    },
+    "contextual/training/control/metrics.json": {
+      "bytes": 25147,
+      "sha256": "54a063f36756411406caacb0473e78c1aab3ca57952c5bf4ae118d7b02e7c2db"
+    },
+    "contextual/training/control/progress.jsonl": {
+      "bytes": 1713,
+      "sha256": "5ea45c0565a5c0b4a193692cd20d80bf18bb10caece67c4982473f6d744db3c6"
+    },
+    "contextual/training/run.json": {
+      "bytes": 81347,
+      "sha256": "26b46719991904ea96455d57cd625f93d5928cdf66b1a38fc62e966c9d53db41"
+    },
+    "driver.log": {
+      "bytes": 19729,
+      "sha256": "b09ff1f01cae64b260e0ad8b1bb3d5eee697052f4d07061af9aa80519468fd53"
+    },
+    "package-manifest.json": {
+      "bytes": 2859,
+      "sha256": "7920e92e73bb1fee9d606b67c2055c0e114d225252d72bddcfb0071abbe7a7c1"
+    },
+    "trained-manifest.json": {
+      "bytes": 5949,
+      "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
+    }
+  },
+  "inputs_name": "qualitydev1-06ac58310bf6.jsonl",
+  "inputs_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "internal_seconds": 4200,
+  "latest_optimizer_checkpoint": null,
+  "local_model_verified": false,
+  "max_export_bytes": 2147483648,
+  "maximum_wait_seconds": 300,
+  "native_timeout_minutes": 75,
+  "operation": "contextual_pilot",
+  "package_manifest_sha256": "7920e92e73bb1fee9d606b67c2055c0e114d225252d72bddcfb0071abbe7a7c1",
+  "package_name": "contextual-pilot-bb3795d9a499.zip",
+  "package_sha256": "bb3795d9a49927f333e8f565fc1b961c35d7069d9848a9649421ddf233243563",
+  "quality_validated": false,
+  "remote_inventory_verified": false,
+  "run_id": "555064e068b54aacafee67e37375ec78",
+  "scheduled_outputs": 48,
+  "schema_version": 1,
+  "script_hashes": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "steps_per_arm": 48,
+  "trained_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "trained_prefix": "continuations/1ae0f16dae9c4dffa36d15a24345fded",
+  "training_schedule_completed": true
+}

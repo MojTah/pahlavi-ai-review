@@ -1,0 +1,152 @@
+"""One-time, source-preserving reference benchmark assembly; no model execution."""
+import collections
+import difflib
+import hashlib
+import json
+import pathlib
+import re
+import sys
+import unicodedata
+from datetime import datetime, timezone
+
+sys.stdout.reconfigure(encoding="utf-8")
+ROOT = pathlib.Path(__file__).resolve().parents[2]
+TRAINER = pathlib.Path(r"C:\Users\mojta\Documents\Codex Projects\01-Software\Pahlavi Translator")
+DATASET_ID = "6f442563128d3a4c49dd5024af6882f6911b3f1b11eb5a2d4ef0d28a453acf0c"
+DATASET = TRAINER / "runs/datasets" / DATASET_ID
+ARCHIVE = ROOT / "sources/local/parsig-2026-09-20"
+OUT = ROOT / "benchmarks/pal-reference-v1"
+
+# Source/reference-only curation. No candidate predictions determine inclusion.
+# Each entry is (source unit suffixes, reference-grounded meaning checks).
+CHOICES = {
+    "104": [
+        ([18], ["Wisdom is associated with both virtue and wealth.", "Good action is founded on wisdom."]),
+        ([19], ["Even a hundred years of life does not prevent the eventual journey to the Bridge.", "Preserve the quantity one hundred and the eventual outcome."]),
+        ([21], ["The wise person knows at the beginning; the ignorant sees at the end.", "Do not reverse the two people or the beginning/end contrast."]),
+        ([24], ["The pack animal will not leave without a load.", "Arriving fate cannot be driven away; preserve both negatives."]),
+        ([27], ["Wealth and rule pass to another lord; the wife considers another husband.", "Property passes to another owner; preserve the three clauses and possessive relations."]),
+        ([28], ["The soul is single and the body alone; the corpse remains in its place.", "Dogs and birds gather by it in rivalry; do not interchange soul and corpse."]),
+        ([29], ["Great and low, master and servant, poor and noble all come to the same abode.", "The lowest person is included, not excepted."]),
+        ([31], ["The passage at the beginning of two paths is the lofty Chinwad Bridge.", "The soul sees what the body has done; preserve observer and actor."]),
+    ],
+    "110": [
+        ([9], ["The Holy Spirit has good thought, speech and action.", "Preserve pure Gathic Mazdayasnian religion, good character and righteousness as the remaining attributes."]),
+        ([12], ["The Evil Spirit has evil thought, speech and action.", "Its religion is sorcery, profession heresy and way deceit; do not replace these with the good attributes."]),
+        ([13], ["The instruction forbids committing sin.", "Great hope of merit/good deeds is the circumstance, not permission to sin."]),
+        ([17], ["The speaker conveys ancient wise counsel truthfully to the audience.", "Accepting it brings benefit in both worlds; preserve the conditional and both worlds."]),
+    ],
+    "116": [
+        ([4], ["Remain steadfast in and practise the religion, without turning away.", "Distinguish benefit/harm, sin/good deed, good/evil, light/darkness, and Mazda/demon worship."]),
+        ([5], ["The second duty is marriage and continuation of earthly progeny.", "Be diligent in it and do not turn away."]),
+        ([9], ["Good deeds bring benefit and sin brings harm.", "Ohrmazd is the speaker's friend, Ahriman the foe, and the religious path is one."]),
+        ([12], ["There are two original principles/powers.", "One is the creator and the other the destroyer; preserve the number and contrast."]),
+        ([15], ["Everybody is mortal except Soshans and the seven Kays/kings.", "Preserve the exception and the number seven."]),
+        ([20], ["Stand with all good people.", "Doing so accords with the law of the good religion."]),
+        ([37], ["Wisdom is the means of defeating lust and wrongful desire.", "Do not reverse the agent/instrument and the undesirable qualities."]),
+        ([44], ["Go daily to the assembly of good people for consultation/conversation.", "More attendance brings a greater share of good deeds and righteousness."]),
+        ([45], ["Go to the fire temple three times each day and worship the fire.", "More attendance and worship bring greater wealth and righteousness."]),
+        ([46], ["Strictly avoid hurting/annoying father, mother and lord/superior.", "The purpose is to prevent bodily ill-fame and wickedness of the soul."]),
+    ],
+    "130": [
+        ([1], ["Zoroaster asks Ohrmazd why people esteem Hordad day in Frawardin above other days.", "Preserve the question, speaker/addressee and distinction between named day and month."]),
+        ([6], ["On Hordad day in Frawardin, Mihrih and Mihriyanih spring from the earth.", "Preserve both people, their emergence and its origin."]),
+        ([9], ["On Hordad day in Frawardin, Jam makes the world deathless and ageless.", "Preserve both removal of death and removal of aging."]),
+        ([12, 13, 14], ["On Hordad day in Frawardin, Faredun divides the world: Rome to Salm, Turkestan to Toz/Tur, Iran to Erej/Iraj.", "He requests the three daughters of Bokht-Khosrow, king of the Arabs, and gives them as wives to his sons; preserve quantity, kinship and recipient roles."]),
+        ([15], ["Salm and Toz disobey their father.", "They kill their own brother Erej; preserve actors, victim and kinship."]),
+        ([16], ["On Hordad day in Frawardin, Manushchihr avenges Erej.", "He kills Salm and Toz for that revenge; do not reverse killer and victims."]),
+        ([20], ["On Hordad day in Frawardin, Kay-Khosrow son of Siyawakhsh kills Frasiyag the Turanian.", "The act avenges his father; preserve genealogy and motive."]),
+        ([22], ["On Hordad day in Frawardin, Manushchihr and Eresh/Arash the swift-arrowed take back the land.", "The land is recovered from Frasiyag the Turanian, not given to him."]),
+        ([23], ["On Hordad day in Frawardin, Kay-Khosrow son of Siyawakhsh entrusts kingship to Lohrasp.", "Kay-Khosrow himself goes victoriously to Garodman/Paradise; preserve the two actors' roles."]),
+        ([25], ["On Hordad day in Frawardin, Zoroaster the Spitamid receives the Mazdayasnian religion.", "He receives it from Ohrmazd the Lord; do not reverse giver and receiver."]),
+    ],
+    "132": [
+        ([3], ["Do not keep thoughts of vengeance.", "The purpose is that enemies should not rise against you; preserve both negation and purpose."]),
+        ([6], ["Giving truthful testimony makes a person righteous.", "Withholding the truthful testimony one possesses makes a person wicked."]),
+        ([8], ["Moderation in eating is good for the body.", "Moderation in speech is good for the soul; preserve the parallel pairings."]),
+        ([11], ["Take a wife from one's own lineage.", "The purpose is continuation of that lineage; this is historical source content, not present-day advice."]),
+        ([16], ["Welcome travelers.", "The purpose is to be well received both here and there; preserve reciprocity and both settings."]),
+        ([23], ["Be content/patient in adversity and misfortune.", "Trust good action rather than life itself; preserve the negative/positive contrast."]),
+        ([64], ["Do not harm/sin against water, fire, cattle, sheep, dogs or dog-family animals.", "The purpose is that the road to paradise and Garodman not be closed."]),
+        ([65], ["Keep the door open for doing good to arrivals from both far and near.", "Failing to do so closes the door of paradise and Garodman to that person."]),
+    ],
+}
+
+def sha(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+def dump(path, value):
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+def lines(path, values):
+    path.write_text("".join(json.dumps(x, ensure_ascii=False) + "\n" for x in values), encoding="utf-8")
+
+def norm(text):
+    text = unicodedata.normalize("NFC", text).casefold().replace("ي", "ی").replace("ك", "ک")
+    return " ".join("".join(c for c in text if c.isalnum() or c.isspace()).split())
+
+CITATION = re.compile(r"\((?P<author>[^()\n,،]+)[,،]\s*(?P<year>(?:[12][0-9]{3}|[۱۲][۰-۹]{3}|n\.d\.))(?P<locator>[^()]*)\)\s*[.،,؛;]*\s*$")
+def split_credit(text):
+    match = CITATION.search(text)
+    if not match:
+        raise ValueError("Missing final source citation")
+    return text[:match.start()].rstrip(), match.group().strip()
+
+def main():
+    if OUT.exists():
+        raise SystemExit("Refusing to overwrite existing benchmark")
+    data = {s: [json.loads(l) for l in (DATASET / f"{s}-records.jsonl").read_text("utf-8").splitlines()] for s in ("train", "dev", "test")}
+    records = {r["id"]: r for r in data["test"]}
+    archive = {r["id"]: r for r in map(json.loads, (ARCHIVE / "exports/text-units.jsonl").read_text("utf-8").splitlines())}
+    assert sha(ARCHIVE / "exports/text-units.jsonl") == "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789"
+    seen, exposure_files = set(), []
+    for path in (TRAINER / "runs").rglob("*"):
+        if path.is_file() and path.suffix in (".json", ".jsonl") and (path.name.startswith("predictions") or path.name in ("inputs.json", "responses.json")):
+            seen.update(re.findall(r"parsig:\d{9}", path.read_text("utf-8")))
+            exposure_files.append({"path": str(path.relative_to(TRAINER)), "sha256": sha(path)})
+    selected, items, evidence, collisions = [], [], [], []
+    all_prior = [(s, r, norm(r["transcription"])) for s in ("train", "dev") for r in data[s]]
+    for work, choices in CHOICES.items():
+        for suffixes, checks in choices:
+            ids = [f"parsig:{work}000{n:03d}" for n in suffixes]
+            assert not set(ids) & seen, ("Previously recorded model exposure", ids)
+            segments = []
+            for rid in ids:
+                r, original = records[rid], archive[rid]
+                assert r["work_id"] not in {b["work_id"] for s in ("train", "dev") for b in data[s]}
+                raw_texts = {"pal": "\n".join(original["transcription"]), "fa": "\n".join(original["farsi_translation"]), "en": "\n".join(x["text"] for x in original["additional_layers"] if x.get("language") == "en" and x.get("role") == "translation")}
+                texts = {"pal": r["transcription"], **{k: r["translations"][k]["text"] for k in ("en", "fa")}}
+                credits = {"pal": r["edition"], **{k: r["translations"][k]["credit"] for k in ("en", "fa")}}
+                for lang in texts:
+                    assert split_credit(raw_texts[lang]) == (texts[lang], credits[lang]), (rid, lang, "source altered")
+                response = ARCHIVE / original["source"]["file"]
+                assert sha(response) == original["source"]["sha256"]
+                ns = norm(texts["pal"])
+                for split, other, no in all_prior:
+                    if min(len(ns), len(no)) / max(len(ns), len(no)) >= .82:
+                        matcher = difflib.SequenceMatcher(None, ns, no, autojunk=False)
+                        if matcher.quick_ratio() >= .85 and matcher.ratio() >= .85:
+                            collisions.append([rid, split, other["id"], "source", matcher.ratio()])
+                    for lang in ("en", "fa"):
+                        if lang in other["translations"] and norm(texts[lang]) == norm(other["translations"][lang]["text"]):
+                            collisions.append([rid, split, other["id"], lang, 1.0])
+                segments.append({"record_id": rid, "texts": texts, "credits": credits, "source": original["source"], "edition_locator": r["locator"]})
+                evidence.append(original)
+            selected.extend(ids)
+            items.append({"id": f"PALREF1-{len(items)+1:03d}", "work_id": "parsig:" + work, "work_title": archive[ids[0]]["book_title"], "record_ids": ids, "texts": {lang: "\n".join(s["texts"][lang] for s in segments) for lang in ("pal", "en", "fa")}, "segments": segments, "meaning_checks": checks, "review_status": "published_references_screened_for_consistency", "expert_adjudicated": False})
+    assert len(items) == 40 and len(selected) == len(set(selected)) == 42
+    assert not collisions, collisions
+    OUT.mkdir(parents=True)
+    lines(OUT / "references.jsonl", items)
+    lines(OUT / "source-evidence.jsonl", evidence)
+    cases = []
+    for item in items:
+        for source, target in (("pal", "en"), ("pal", "fa"), ("en", "pal"), ("fa", "pal")):
+            cases.append({"id": item["id"] + ":" + source + ">" + target, "passage_id": item["id"], "work_id": item["work_id"], "source_language": source, "target_language": target, "source_text": item["texts"][source], "track": "forward_translation" if source == "pal" else "attested_reconstruction"})
+    lines(OUT / "inputs.jsonl", cases)
+    dump(OUT / "selection-audit.json", {"created_utc": datetime.now(timezone.utc).isoformat(), "dataset_id": DATASET_ID, "mode": "Classic Codex; single lead; no external reviewer authorized at assembly", "selection_basis": "source/reference suitability only; no model outputs used to choose cases", "candidate_pool": {"trilingual_test_records": 199, "works": 5}, "passages": 40, "source_records": 42, "work_counts": dict(collections.Counter(i["work_id"] for i in items)), "dataset_hashes": {p.name: sha(p) for p in DATASET.glob("*.jsonl")}, "archive_export_sha256": sha(ARCHIVE / "exports/text-units.jsonl"), "source_response_hashes_verified": True, "prior_exposure_scan": exposure_files, "excluded_for_saved_response_exposure": ["parsig:104000006", "parsig:104000017", "parsig:104000003", "parsig:104000008", "parsig:104000012"], "train_dev_source_matches_at_0_85_or_above": collisions, "train_dev_exact_normalized_target_matches": [], "normalization": "NFC, casefold, Arabic yeh/kaf to Persian, alphanumeric/whitespace only, collapse whitespace", "near_match_algorithm": "difflib.SequenceMatcher(autojunk=False); length ratio >= .82 and quick_ratio >= .85 before ratio >= .85", "limits": ["Not a random representative sample; selected for reference agreement.", "Five work clusters; 160 directions are not 160 independent passages.", "Public foundation-model pretraining contamination cannot be ruled out.", "Prior source-study readers saw this public archive. Curator reviewed candidate references on this date.", "Exposure scan covers 22 saved prediction/input/response files; unrecorded interactive exposure is unknowable.", "Matching cannot exclude semantic paraphrases, undocumented witnesses or translation lineage overlap.", "Published English/Farsi references are preserved, not independently certified against manuscripts."]})
+    dump(OUT / "holdout-policy.json", {"benchmark_id": "pal-reference-v1", "never_train_or_retrieve_answers": True, "excluded_work_ids": sorted(CHOICES), "excluded_work_ids_canonical": ["parsig:" + w for w in sorted(CHOICES)], "record_ids": selected, "also_exclude": "Parallel witnesses, translations, paraphrases, reverse pairs and answer-equivalent copies of these works. Original TEST partition remains intact and keeps its existing exclusions.", "existing_test_status": "42 record references were deliberately curator-inspected to construct this user-requested benchmark; do not call them never-inspected TEST. No new model predictions were generated."})
+    print(json.dumps({"output": str(OUT), "passages": len(items), "directional_cases": len(cases), "source_records": len(evidence), "checks": "source hashes, exact extraction, work isolation, normalized near/exact overlap, saved exposure all passed"}))
+
+if __name__ == "__main__":
+    main()

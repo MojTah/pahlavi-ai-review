@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-27T15:11:23.472956+00:00",
+  "fresh_context": true,
+  "identities_hidden_until_both_reviews_complete": true,
+  "reviewers": {
+    "A": {
+      "agent_id": "/root/contextual_blind_a",
+      "sha256": "5980d8f7aeb912518103ddda99f28ee6819b6bcf9df772463906e0dc835cbfdd",
+      "rows": 48,
+      "expert_adjudicated": false
+    },
+    "B": {
+      "agent_id": "/root/contextual_blind_b",
+      "sha256": "6e3f08c0c5cb2d0c0631421be0fa4a0bb5651e7928d86a35bc7644e489760578",
+      "rows": 48,
+      "expert_adjudicated": false
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "status": "FROZEN_BEFORE_NEW_COMPARISON_OUTPUTS",
+  "direction": "pal>fa",
+  "new_metric_created": false,
+  "source_files_sha256": {
+    "benchmarks/pal-reference-v1/manifest.json": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+    "benchmarks/pal-reference-v1/PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "benchmarks/pal-reference-v1/benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "benchmarks/pal-reference-v1/holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62"
+  },
+  "development": {
+    "inputs": 24,
+    "whole_denominator": 15,
+    "constrained_count": 9,
+    "primary": "accepted / 15, separately for each blinded reviewer",
+    "critical": "critical_error / 15 with paired accepted-to-critical transitions",
+    "constrained": "supported-span errors and unsupported certainty; never pooled with whole acceptance",
+    "case_assessment": {
+      "QUALITYDEV1-001": "constrained_meanings_only",
+      "QUALITYDEV1-002": "provisional_whole_translation",
+      "QUALITYDEV1-003": "provisional_whole_translation",
+      "QUALITYDEV1-004": "constrained_meanings_only",
+      "QUALITYDEV1-005": "provisional_whole_translation",
+      "QUALITYDEV1-006": "provisional_whole_translation",
+      "QUALITYDEV1-007": "provisional_whole_translation",
+      "QUALITYDEV1-008": "provisional_whole_translation",
+      "QUALITYDEV1-009": "provisional_whole_translation",
+      "QUALITYDEV1-010": "provisional_whole_translation",
+      "QUALITYDEV1-011": "constrained_meanings_only",
+      "QUALITYDEV1-012": "provisional_whole_translation",
+      "QUALITYDEV1-013": "provisional_whole_translation",
+      "QUALITYDEV1-014": "provisional_whole_translation",
+      "QUALITYDEV1-015": "provisional_whole_translation",
+      "QUALITYDEV1-016": "constrained_meanings_only",
+      "QUALITYDEV1-017": "provisional_whole_translation",
+      "QUALITYDEV1-018": "constrained_meanings_only",
+      "QUALITYDEV1-019": "constrained_meanings_only",
+      "QUALITYDEV1-020": "provisional_whole_translation",
+      "QUALITYDEV1-021": "provisional_whole_translation",
+      "QUALITYDEV1-022": "constrained_meanings_only",
+      "QUALITYDEV1-023": "constrained_meanings_only",
+      "QUALITYDEV1-024": "constrained_meanings_only"
+    }
+  },
+  "standard_benchmark": {
+    "id": "pal-reference-v1",
+    "direction_denominator": 40,
+    "primary": "accepted / 40",
+    "critical": "critical_error / 40",
+    "condition": "source-only; assistance requires separately named score",
+    "never_pool_with_development": true
+  },
+  "review": {
+    "categories": [
+      "lexical_meaning",
+      "grammatical_roles",
+      "negation_modality",
+      "names",
+      "numbers_quantities",
+      "omissions",
+      "unsupported_additions",
+      "source_uncertainty"
+    ],
+    "labels": [
+      "accepted",
+      "meaning_error",
+      "critical_error",
+      "uncertain"
+    ],
+    "reviewers": 2,
+    "each_reviews_all_new_outputs": true,
+    "blind_to": [
+      "model",
+      "condition",
+      "support_examples",
+      "other_reviewer_ratings",
+      "historical_scores",
+      "prior_model_outputs"
+    ],
+    "expert_adjudicated": false,
+    "alternatives": "Allow defensible source-supported paraphrases and readings; uncertainty is not a pass.",
+    "uncertainty_pass": "Includes no material unresolved source uncertainty; preserve the recorded clarification.",
+    "fresh_context_each_reviewer": true
+  },
+  "comparison": {
+    "conditions": [
+      "gemma280_plain",
+      "gemma280_assisted",
+      "qwen36_27b_plain",
+      "qwen36_27b_assisted"
+    ],
+    "outputs_per_condition": 24,
+    "total_outputs": 96,
+    "first_attempt_only": true,
+    "retain_failures_timeouts_abstentions": true,
+    "no_case_replacement_or_denominator_shrinkage": true,
+    "report_each_reviewer_and_work_and_paired_transition": true,
+    "screen": {
+      "both_reviewers_min_net_accepted_gain": 2,
+      "min_works_with_gains": 2,
+      "critical_count_must_not_increase": true,
+      "no_accepted_to_critical": true,
+      "no_worse_constrained_critical_or_new_unsupported_certainty": true
+    },
+    "screen_is_significance_or_delivery_threshold": false,
+    "different_adaptation_and_decoding_disclosed": true
+  },
+  "inference_boundary": "This scoring contract and its reference files stay local; inference receives source-only inputs and the same frozen qualified TRAIN evidence where applicable.",
+  "historical_scores": "Preserve originals; do not merge different case sets or independent older rater panels as if they were matched."
+}

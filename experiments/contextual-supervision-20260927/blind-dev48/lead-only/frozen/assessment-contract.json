@@ -1,0 +1,233 @@
+{
+  "status": "FROZEN_BEFORE_MODEL_OUTPUTS",
+  "utc": "2026-09-27T03:00:07.291626+00:00",
+  "reviewer": "/root/blind_palref_review_b",
+  "lead": "/root",
+  "expert_adjudicated": false,
+  "inputs_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "references_sha256": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+  "whole_translation_denominator": 15,
+  "constrained_case_count": 9,
+  "case_count_retained": 24,
+  "primary_rule": "Report accepted/meaning_error/critical_error/uncertain plus execution outcomes for fixed15 only, paired by condition and by work. Report all24 execution coverage. No population accuracy or formal significance claim.",
+  "secondary_rule": "For nine constrained cases, record supported-span errors and treatment of unknown spans; no overall accepted label and no pooling into primary correctness. Alternative permitted readings are not errors.",
+  "selection_rule": "No replacements, no output-driven expansions, no repair of gold from model guesses.",
+  "cases": [
+    {
+      "id": "QUALITYDEV1-001",
+      "record_id": "parsig:103000071",
+      "work_id": "parsig:103",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Imperative and good-fortune consequence assessable; huframan obeying versus issuing commands remains unresolved.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/103.json:1431",
+      "context_record_ids": "103000071"
+    },
+    {
+      "id": "QUALITYDEV1-002",
+      "record_id": "parsig:103000034",
+      "work_id": "parsig:103",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-003",
+      "record_id": "parsig:103000120",
+      "work_id": "parsig:103",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-004",
+      "record_id": "parsig:103000032",
+      "work_id": "parsig:103",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Preserve both published fear/caution formulations concerning battle burden; negation scope not settled by surface matching.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/103.json:651",
+      "context_record_ids": "103000032"
+    },
+    {
+      "id": "QUALITYDEV1-005",
+      "record_id": "parsig:103000136",
+      "work_id": "parsig:103",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-006",
+      "record_id": "parsig:103000001",
+      "work_id": "parsig:103",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-007",
+      "record_id": "parsig:112000009",
+      "work_id": "parsig:112",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-008",
+      "record_id": "parsig:112000012",
+      "work_id": "parsig:112",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-009",
+      "record_id": "parsig:112000021",
+      "work_id": "parsig:112",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-010",
+      "record_id": "parsig:112000003",
+      "work_id": "parsig:112",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-011",
+      "record_id": "parsig:112000020",
+      "work_id": "parsig:112",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Banquet/food/wine context confirmed; lacuna remains unresolved. Subsequent blessing/diligence clauses assessable.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/112.json:411",
+      "context_record_ids": "112000019-020"
+    },
+    {
+      "id": "QUALITYDEV1-012",
+      "record_id": "parsig:112000018",
+      "work_id": "parsig:112",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-013",
+      "record_id": "parsig:138002097",
+      "work_id": "parsig:138",
+      "assessment": "provisional_whole_translation",
+      "constraint": "Complete introductory clause. Accept technical six-month rule; do not require following instructions or continuous washing for six months.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/138.json:2643",
+      "context_record_ids": "138002097-099"
+    },
+    {
+      "id": "QUALITYDEV1-014",
+      "record_id": "parsig:138010017",
+      "work_id": "parsig:138",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-015",
+      "record_id": "parsig:138002056",
+      "work_id": "parsig:138",
+      "assessment": "provisional_whole_translation",
+      "constraint": "Corpse-pollution/dog-viewing ritual established. Accept either published presentation direction; do not require the note about reduced pollution afterward.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/138.json:1577",
+      "context_record_ids": "138002055-057"
+    },
+    {
+      "id": "QUALITYDEV1-016",
+      "record_id": "parsig:138002060",
+      "work_id": "parsig:138",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Direct versus indirect contact assessable; which participant is eleventh remains unresolved.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/138.json:1681",
+      "context_record_ids": "138002060"
+    },
+    {
+      "id": "QUALITYDEV1-017",
+      "record_id": "parsig:138002091",
+      "work_id": "parsig:138",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-018",
+      "record_id": "parsig:138010008",
+      "work_id": "parsig:138",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Prohibition, wrongful slaughter and hair/blade punishment assessable; starred final verb struck versus killed remains uncertain.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/138.json:6340",
+      "context_record_ids": "138010008"
+    },
+    {
+      "id": "QUALITYDEV1-019",
+      "record_id": "parsig:517000015",
+      "work_id": "parsig:517",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Az descent, wet/dry destinations and subsequent association assessable; supplied seed gloss antecedent unresolved.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/517.json:386",
+      "context_record_ids": "517000011-016"
+    },
+    {
+      "id": "QUALITYDEV1-020",
+      "record_id": "parsig:517000031",
+      "work_id": "parsig:517",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-021",
+      "record_id": "parsig:517000038",
+      "work_id": "parsig:517",
+      "assessment": "provisional_whole_translation",
+      "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+      "local_context_pointer": null,
+      "context_record_ids": null
+    },
+    {
+      "id": "QUALITYDEV1-022",
+      "record_id": "parsig:517000051",
+      "work_id": "parsig:517",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Actions, negations and five Amehraspands assessable; xyshmywryst is untranslated in reference and must remain uncertain.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/517.json:1286",
+      "context_record_ids": "517000051"
+    },
+    {
+      "id": "QUALITYDEV1-023",
+      "record_id": "parsig:517000041",
+      "work_id": "parsig:517",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Resolved clauses/list members assessable; cbwrgyy remains an unknown member.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/517.json:1036",
+      "context_record_ids": "517000041"
+    },
+    {
+      "id": "QUALITYDEV1-024",
+      "record_id": "parsig:517000040",
+      "work_id": "parsig:517",
+      "assessment": "constrained_meanings_only",
+      "constraint": "Explicit events and quantities assessable; final composition/clothing/entering participant bindings unresolved.",
+      "local_context_pointer": "sources/local/parsig-2026-09-20/corpus/517.json:1011",
+      "context_record_ids": "517000038-043"
+    }
+  ]
+}

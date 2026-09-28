@@ -1,0 +1,139 @@
+{
+  "created_utc": "2026-09-26T01:20:24.930067+00:00",
+  "dataset_id": "6f442563128d3a4c49dd5024af6882f6911b3f1b11eb5a2d4ef0d28a453acf0c",
+  "mode": "Classic Codex; single lead; no external reviewer authorized at assembly",
+  "selection_basis": "source/reference suitability only; no model outputs used to choose cases",
+  "candidate_pool": {
+    "trilingual_test_records": 199,
+    "works": 5
+  },
+  "passages": 40,
+  "source_records": 42,
+  "work_counts": {
+    "parsig:104": 8,
+    "parsig:110": 4,
+    "parsig:116": 10,
+    "parsig:130": 10,
+    "parsig:132": 8
+  },
+  "dataset_hashes": {
+    "dev-records.jsonl": "6f341a94518405d5569b0d0cb806e38b92f0326c3ef9e1840dbc3b01e2f863e2",
+    "dev.jsonl": "ab77f6283714aebfacc207dedbe505d7be724ab7e93fc6dc7fa61ff20ae1332b",
+    "test-records.jsonl": "ea510178112a75369f152bb3891cdc123702f06dc7b5b6ecbab105dead5195c7",
+    "test.jsonl": "ae0555a12937694e28abd4c89b3f7e77b8da90fd6dc89492ed010b2f5093a7ed",
+    "train-records.jsonl": "3b3edf5550e95b13baaf9842ecaeaf53a50a0aa130d9a5dfe17d366ee62d7d43",
+    "train.jsonl": "485d063523b9efb7692c0384cfc9a87aafb3c2a86aaf3e16848eaab3fdefd070"
+  },
+  "archive_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+  "source_response_hashes_verified": true,
+  "prior_exposure_scan": [
+    {
+      "path": "runs\\acceptance\\known-meanings-20260921T115806Z\\inputs.json",
+      "sha256": "f4ca355712aec84f6081033c4a95c363f7ec4051d9f7349851910a9c8ff78cf1"
+    },
+    {
+      "path": "runs\\acceptance\\known-meanings-20260921T115806Z\\responses.json",
+      "sha256": "3428c9c30b7ddf7ee30544b4c2666b912e4262718314f16042d73ba48ef7198b"
+    },
+    {
+      "path": "runs\\diagnostics\\prompt-match-20260925\\predictions.json",
+      "sha256": "8b2df9b5f48baa552c97c2752df8370f11cdddd4c6a89ad61bc28f5f232d9bde"
+    },
+    {
+      "path": "runs\\experiments\\20260924T043204Z-40d978\\jobs\\regression_checked\\predictions.jsonl",
+      "sha256": "42fbdc9ae3d1e2cc15bc5b234e7afb5e0e720064beaec0da2d7ee97541028913"
+    },
+    {
+      "path": "runs\\experiments\\20260924T043204Z-40d978\\jobs\\regression_quality\\predictions.jsonl",
+      "sha256": "a947330d3a536e06b647c9e6dcf599d54d308feb2a538e6bf1b42e5394effa4f"
+    },
+    {
+      "path": "runs\\experiments\\20260924T043204Z-40d978\\jobs\\regression_single\\predictions.jsonl",
+      "sha256": "d0b2b15fb253ba0dc60d8cf72aa6ae0472ed3addcb98c2cc76dc2d2bc38bae8e"
+    },
+    {
+      "path": "runs\\experiments\\20260924T043204Z-40d978\\jobs\\screen_checked\\predictions.jsonl",
+      "sha256": "f5772611010c2d5c3e301174be5e5ae7fd5205b5e82025f1e7900c56246c823f"
+    },
+    {
+      "path": "runs\\experiments\\20260924T043204Z-40d978\\jobs\\screen_quality\\predictions.jsonl",
+      "sha256": "f037c11dff2f967794f9d0cf1ac5d1509d81846773e113114445ecec258f2c51"
+    },
+    {
+      "path": "runs\\experiments\\20260924T043204Z-40d978\\jobs\\screen_single\\predictions.jsonl",
+      "sha256": "4fdd38fe3b11ee8bd9a146a0ed80285c47634c0bdea2eb2de5014735b2ac4e0d"
+    },
+    {
+      "path": "runs\\experiments\\20260924T131021Z-d01beb\\jobs\\pilot_greedy\\predictions.jsonl",
+      "sha256": "c055cd6f5a6529d09478618c3f06950b523cfe5562e7a3bddc73cf49edf14572"
+    },
+    {
+      "path": "runs\\experiments\\20260924T131021Z-d01beb\\jobs\\pilot_sample\\predictions.jsonl",
+      "sha256": "6ec05ab483fd392160d1a060521da63e7527909efe7d0e15b6be54b02003bd15"
+    },
+    {
+      "path": "runs\\experiments\\20260924T235139Z-a6db66\\jobs\\pilot_sample\\predictions.jsonl",
+      "sha256": "253dd9ec11494cd56bc3de803223fc7dec411c7a14d9c8eb9444ce7091bcc34c"
+    },
+    {
+      "path": "runs\\experiments\\20260925T002437Z-52e7aa\\jobs\\pilot_direct\\predictions.jsonl",
+      "sha256": "bef9621bb1ee1ec8c54281521ed784b763d81a6f5384d1c14d5749b6e4ef5710"
+    },
+    {
+      "path": "runs\\experiments\\20260925T002437Z-52e7aa\\jobs\\pilot_grounded\\predictions.jsonl",
+      "sha256": "8b1d0950b8c8266c7759a9b3027faa531c41dfa9b8e3616d3ec1c331ae1ea921"
+    },
+    {
+      "path": "runs\\experiments\\20260925T022248Z-01d1d0\\jobs\\regression_qwen-trained\\predictions.jsonl",
+      "sha256": "3e5f1c065eb7f8bdb4561c87af12b8f32e1c6139be3cd53ec2e81ac14efe8b7f"
+    },
+    {
+      "path": "runs\\experiments\\20260925T022248Z-01d1d0\\jobs\\screen_qwen-trained\\predictions.jsonl",
+      "sha256": "6dc903b0c7e7ad112f1d9e10427d0ade00b8a10874e8468e799b7d224dba5b2e"
+    },
+    {
+      "path": "runs\\experiments\\20260925T062230Z-d82588\\jobs\\pilot_existing_literal_evidence\\predictions.jsonl",
+      "sha256": "a968461a618e5dec988cb55734a059d4bac31d245725c8ef95d9872397079b7d"
+    },
+    {
+      "path": "runs\\experiments\\20260925T062230Z-d82588\\jobs\\pilot_existing_plus_recovered_literal_senses\\predictions.jsonl",
+      "sha256": "60070e853ebaee048e2a70b7b821d3c40e0d2c6e200078b503a45d1d6faa8f64"
+    },
+    {
+      "path": "runs\\experiments\\20260925T080441Z-7c28cb\\jobs\\pilot_source_only\\predictions.jsonl",
+      "sha256": "fbb84bd86835fd54589b4b0aa8bddb9bf46f1f75609cf9a80674664d28f0d09d"
+    },
+    {
+      "path": "runs\\experiments\\20260925T080441Z-7c28cb\\jobs\\pilot_source_plus_grammar\\predictions.jsonl",
+      "sha256": "9388e5577084458d562597304bf1b53879a5d2ed93c67aa139957912fde2d365"
+    },
+    {
+      "path": "runs\\retrieval-ablation-20260921\\predictions.jsonl",
+      "sha256": "dc100160723d2c030a3613c5432d1843095b986e4654c23c688852029040d3c7"
+    },
+    {
+      "path": "runs\\sampling-control-20260921\\predictions.jsonl",
+      "sha256": "0fbc7e063bf1266d776e2a9e3a2c4f084ba4b2bc009465197822aca4b1e1cb9c"
+    }
+  ],
+  "excluded_for_saved_response_exposure": [
+    "parsig:104000006",
+    "parsig:104000017",
+    "parsig:104000003",
+    "parsig:104000008",
+    "parsig:104000012"
+  ],
+  "train_dev_source_matches_at_0_85_or_above": [],
+  "train_dev_exact_normalized_target_matches": [],
+  "normalization": "NFC, casefold, Arabic yeh/kaf to Persian, alphanumeric/whitespace only, collapse whitespace",
+  "near_match_algorithm": "difflib.SequenceMatcher(autojunk=False); length ratio >= .82 and quick_ratio >= .85 before ratio >= .85",
+  "limits": [
+    "Not a random representative sample; selected for reference agreement.",
+    "Five work clusters; 160 directions are not 160 independent passages.",
+    "Public foundation-model pretraining contamination cannot be ruled out.",
+    "Prior source-study readers saw this public archive. Curator reviewed candidate references on this date.",
+    "Exposure scan covers 22 saved prediction/input/response files; unrecorded interactive exposure is unknowable.",
+    "Matching cannot exclude semantic paraphrases, undocumented witnesses or translation lineage overlap.",
+    "Published English/Farsi references are preserved, not independently certified against manuscripts."
+  ]
+}

@@ -1,0 +1,1586 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-24",
+  "generated_utc": "2026-09-24T03:49:38.984904+00:00",
+  "result": "PASS",
+  "task": "Full saved paragraph-layer study of eight previously unread short Pahlavi records",
+  "source_file": "sources/local/parsig-2026-09-20/exports/text-units.jsonl",
+  "source_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+  "inventory_at_selection_sha256": "11821546eb667091bb09dae407c26e3e84c0200fee8db0b01dd17d91909e57cb",
+  "summary": {
+    "records": 8,
+    "saved_units": 81,
+    "units_read": 81,
+    "transcription_fields_read": 81,
+    "farsi_fields_read": 81,
+    "english_translation_layers_read": 14,
+    "note_bodies_supplied_and_read": 0,
+    "farsi_credit_only_units": 1,
+    "farsi_uninterpreted_fragment_units": 1,
+    "new_authored_study_examples": 4,
+    "complete_works_claim": false,
+    "original_script_fluency_claim": false,
+    "independent_translation_accuracy_measured": false,
+    "model_training_performed": false
+  },
+  "records": [
+    {
+      "record_id": "105",
+      "title": "اندرز پیشینیان 1",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/105/105000/All",
+      "saved_unit_count": 11,
+      "read_unit_count": 11,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:105000000",
+        "parsig:105000001",
+        "parsig:105000002",
+        "parsig:105000003",
+        "parsig:105000004",
+        "parsig:105000005",
+        "parsig:105000006",
+        "parsig:105000007",
+        "parsig:105000008",
+        "parsig:105000009",
+        "parsig:105000010"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": null,
+      "units": [
+        {
+          "id": "parsig:105000000",
+          "chapter_id": "105000",
+          "sequence": 0,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000001",
+          "chapter_id": "105000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000002",
+          "chapter_id": "105000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000003",
+          "chapter_id": "105000",
+          "sequence": 3,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000004",
+          "chapter_id": "105000",
+          "sequence": 4,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000005",
+          "chapter_id": "105000",
+          "sequence": 5,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000006",
+          "chapter_id": "105000",
+          "sequence": 6,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000007",
+          "chapter_id": "105000",
+          "sequence": 7,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "unresolved_lexical_expression",
+            "editorially_supplied_connective"
+          ]
+        },
+        {
+          "id": "parsig:105000008",
+          "chapter_id": "105000",
+          "sequence": 8,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000009",
+          "chapter_id": "105000",
+          "sequence": 9,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:105000010",
+          "chapter_id": "105000",
+          "sequence": 10,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "record_id": "106",
+      "title": "اندرز پیشینیان 2",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/106/106000/All",
+      "saved_unit_count": 11,
+      "read_unit_count": 11,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:106000000",
+        "parsig:106000001",
+        "parsig:106000002",
+        "parsig:106000003",
+        "parsig:106000004",
+        "parsig:106000005",
+        "parsig:106000006",
+        "parsig:106000007",
+        "parsig:106000008",
+        "parsig:106000009",
+        "parsig:106000010"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": null,
+      "units": [
+        {
+          "id": "parsig:106000000",
+          "chapter_id": "106000",
+          "sequence": 0,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000001",
+          "chapter_id": "106000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000002",
+          "chapter_id": "106000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000003",
+          "chapter_id": "106000",
+          "sequence": 3,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000004",
+          "chapter_id": "106000",
+          "sequence": 4,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000005",
+          "chapter_id": "106000",
+          "sequence": 5,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000006",
+          "chapter_id": "106000",
+          "sequence": 6,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000007",
+          "chapter_id": "106000",
+          "sequence": 7,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000008",
+          "chapter_id": "106000",
+          "sequence": 8,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "participant_shift_needs_review"
+          ]
+        },
+        {
+          "id": "parsig:106000009",
+          "chapter_id": "106000",
+          "sequence": 9,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:106000010",
+          "chapter_id": "106000",
+          "sequence": 10,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "record_id": "108",
+      "title": "اندرز پیشینیان 4",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/108/108000/All",
+      "saved_unit_count": 14,
+      "read_unit_count": 14,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:108000000",
+        "parsig:108000001",
+        "parsig:108000002",
+        "parsig:108000003",
+        "parsig:108000004",
+        "parsig:108000005",
+        "parsig:108000006",
+        "parsig:108000007",
+        "parsig:108000008",
+        "parsig:108000009",
+        "parsig:108000010",
+        "parsig:108000011",
+        "parsig:108000012",
+        "parsig:108000013"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": null,
+      "units": [
+        {
+          "id": "parsig:108000000",
+          "chapter_id": "108000",
+          "sequence": 0,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000001",
+          "chapter_id": "108000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000002",
+          "chapter_id": "108000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000003",
+          "chapter_id": "108000",
+          "sequence": 3,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000004",
+          "chapter_id": "108000",
+          "sequence": 4,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000005",
+          "chapter_id": "108000",
+          "sequence": 5,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000006",
+          "chapter_id": "108000",
+          "sequence": 6,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000007",
+          "chapter_id": "108000",
+          "sequence": 7,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000008",
+          "chapter_id": "108000",
+          "sequence": 8,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:108000009",
+          "chapter_id": "108000",
+          "sequence": 9,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "historical_sexist_assertion_source_not_reviewer"
+          ]
+        },
+        {
+          "id": "parsig:108000010",
+          "chapter_id": "108000",
+          "sequence": 10,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "lord_deity_ambiguity"
+          ]
+        },
+        {
+          "id": "parsig:108000011",
+          "chapter_id": "108000",
+          "sequence": 11,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "lord_deity_ambiguity"
+          ]
+        },
+        {
+          "id": "parsig:108000012",
+          "chapter_id": "108000",
+          "sequence": 12,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "lord_deity_ambiguity"
+          ]
+        },
+        {
+          "id": "parsig:108000013",
+          "chapter_id": "108000",
+          "sequence": 13,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "record_id": "109",
+      "title": "اندرز خسرو قبادان",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/109/109000/All",
+      "saved_unit_count": 15,
+      "read_unit_count": 15,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:109000000",
+        "parsig:109000001",
+        "parsig:109000002",
+        "parsig:109000003",
+        "parsig:109000004",
+        "parsig:109000005",
+        "parsig:109000006",
+        "parsig:109000007",
+        "parsig:109000008",
+        "parsig:109000009",
+        "parsig:109000010",
+        "parsig:109000011",
+        "parsig:109000012",
+        "parsig:109000013",
+        "parsig:109000014"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": "Asha, n.d.",
+      "units": [
+        {
+          "id": "parsig:109000000",
+          "chapter_id": "109000",
+          "sequence": 0,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000001",
+          "chapter_id": "109000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "farsi_english_distance_interpretation_differs"
+          ]
+        },
+        {
+          "id": "parsig:109000002",
+          "chapter_id": "109000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "farsi_english_health_peace_interpretation_differs"
+          ]
+        },
+        {
+          "id": "parsig:109000003",
+          "chapter_id": "109000",
+          "sequence": 3,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000004",
+          "chapter_id": "109000",
+          "sequence": 4,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000005",
+          "chapter_id": "109000",
+          "sequence": 5,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000006",
+          "chapter_id": "109000",
+          "sequence": 6,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "farsi_english_arrogance_negligence_interpretation_differs"
+          ]
+        },
+        {
+          "id": "parsig:109000007",
+          "chapter_id": "109000",
+          "sequence": 7,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000008",
+          "chapter_id": "109000",
+          "sequence": 8,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "farsi_english_major_reading_disagreement"
+          ]
+        },
+        {
+          "id": "parsig:109000009",
+          "chapter_id": "109000",
+          "sequence": 9,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000010",
+          "chapter_id": "109000",
+          "sequence": 10,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "farsi_english_predicate_and_world_terms_disagree"
+          ]
+        },
+        {
+          "id": "parsig:109000011",
+          "chapter_id": "109000",
+          "sequence": 11,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000012",
+          "chapter_id": "109000",
+          "sequence": 12,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000013",
+          "chapter_id": "109000",
+          "sequence": 13,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:109000014",
+          "chapter_id": "109000",
+          "sequence": 14,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [
+            {
+              "language": "en",
+              "role": "translation"
+            }
+          ],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "record_id": "113",
+      "title": "بنیان کار گیتی",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/113/113000/All",
+      "saved_unit_count": 8,
+      "read_unit_count": 8,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:113000000",
+        "parsig:113000001",
+        "parsig:113000002",
+        "parsig:113000003",
+        "parsig:113000004",
+        "parsig:113000005",
+        "parsig:113000006",
+        "parsig:113000007"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": null,
+      "units": [
+        {
+          "id": "parsig:113000000",
+          "chapter_id": "113000",
+          "sequence": 0,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:113000001",
+          "chapter_id": "113000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "asterisk_and_bracket_editorial_marks_preserved"
+          ]
+        },
+        {
+          "id": "parsig:113000002",
+          "chapter_id": "113000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:113000003",
+          "chapter_id": "113000",
+          "sequence": 3,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:113000004",
+          "chapter_id": "113000",
+          "sequence": 4,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:113000005",
+          "chapter_id": "113000",
+          "sequence": 5,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "asterisk_editorial_mark_preserved"
+          ]
+        },
+        {
+          "id": "parsig:113000006",
+          "chapter_id": "113000",
+          "sequence": 6,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "five_announced_four_farsi_list_items"
+          ]
+        },
+        {
+          "id": "parsig:113000007",
+          "chapter_id": "113000",
+          "sequence": 7,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "record_id": "124",
+      "title": "قطعه1، جاماسب‌آسانا، ص 72",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/124/124000/All",
+      "saved_unit_count": 7,
+      "read_unit_count": 7,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:124000001",
+        "parsig:124000002",
+        "parsig:124000003",
+        "parsig:124000004",
+        "parsig:124000005",
+        "parsig:124000006",
+        "parsig:124000007"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": null,
+      "units": [
+        {
+          "id": "parsig:124000001",
+          "chapter_id": "124000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "uninterpreted_fragment",
+          "original_script_deciphered": false,
+          "flags": [
+            "fragmentary",
+            "farsi_uninterpreted_list_not_approved_translation"
+          ]
+        },
+        {
+          "id": "parsig:124000002",
+          "chapter_id": "124000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "editorial_uncertainty_preserved"
+          ]
+        },
+        {
+          "id": "parsig:124000003",
+          "chapter_id": "124000",
+          "sequence": 3,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Avestan quotation"
+          ],
+          "farsi_translation_status": "missing_credit_only",
+          "original_script_deciphered": false,
+          "flags": [
+            "quoted_avestan",
+            "farsi_credit_only_translation_missing"
+          ]
+        },
+        {
+          "id": "parsig:124000004",
+          "chapter_id": "124000",
+          "sequence": 4,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "editorial_uncertainty_preserved"
+          ]
+        },
+        {
+          "id": "parsig:124000005",
+          "chapter_id": "124000",
+          "sequence": 5,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "editorial_uncertainty_preserved"
+          ]
+        },
+        {
+          "id": "parsig:124000006",
+          "chapter_id": "124000",
+          "sequence": 6,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian",
+            "Avestan prayer term"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "avestan_prayer_term_in_middle_persian"
+          ]
+        },
+        {
+          "id": "parsig:124000007",
+          "chapter_id": "124000",
+          "sequence": 7,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "record_id": "125",
+      "title": "قطعه2، جاماسب‌آسانا، ص 78",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/125/125000/All",
+      "saved_unit_count": 3,
+      "read_unit_count": 3,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:125000000",
+        "parsig:125000001",
+        "parsig:125000002"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": null,
+      "units": [
+        {
+          "id": "parsig:125000000",
+          "chapter_id": "125000",
+          "sequence": 0,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:125000001",
+          "chapter_id": "125000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "ritual_terms_require_gloss"
+          ]
+        },
+        {
+          "id": "parsig:125000002",
+          "chapter_id": "125000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "source_spelling_fazaft_preserved"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "135",
+      "title": "سخنی چند از آذرفرنبغ فرخزادان",
+      "previous_study_status": "collected_not_read",
+      "proposed_status": "rendered_text_read",
+      "status_scope": "All saved offered numbered transcription/translation/note layers; not original script, word details, introductions or other editions.",
+      "source_url": "https://mpdb.parsigdatabase.com/surf/paragraph/135/135000/All",
+      "saved_unit_count": 12,
+      "read_unit_count": 12,
+      "all_saved_units_read": true,
+      "unit_ids_read": [
+        "parsig:135000000",
+        "parsig:135000001",
+        "parsig:135000002",
+        "parsig:135000003",
+        "parsig:135000004",
+        "parsig:135000005",
+        "parsig:135000006",
+        "parsig:135000007",
+        "parsig:135000008",
+        "parsig:135000009",
+        "parsig:135000010",
+        "parsig:135000011"
+      ],
+      "farsi_credit": "گشتاسب و حاجی‌پور، 1398",
+      "english_credit": null,
+      "units": [
+        {
+          "id": "parsig:135000000",
+          "chapter_id": "135000",
+          "sequence": 0,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000001",
+          "chapter_id": "135000",
+          "sequence": 1,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000002",
+          "chapter_id": "135000",
+          "sequence": 2,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000003",
+          "chapter_id": "135000",
+          "sequence": 3,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000004",
+          "chapter_id": "135000",
+          "sequence": 4,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000005",
+          "chapter_id": "135000",
+          "sequence": 5,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000006",
+          "chapter_id": "135000",
+          "sequence": 6,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000007",
+          "chapter_id": "135000",
+          "sequence": 7,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000008",
+          "chapter_id": "135000",
+          "sequence": 8,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000009",
+          "chapter_id": "135000",
+          "sequence": 9,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        },
+        {
+          "id": "parsig:135000010",
+          "chapter_id": "135000",
+          "sequence": 10,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": [
+            "wizidarih_gloss_provisional"
+          ]
+        },
+        {
+          "id": "parsig:135000011",
+          "chapter_id": "135000",
+          "sequence": 11,
+          "transcription_read": true,
+          "farsi_field_read": true,
+          "additional_layers_read": [],
+          "notes_read_count": 0,
+          "language_scope_review": [
+            "Middle Persian"
+          ],
+          "farsi_translation_status": "supplied_read_not_independently_validated",
+          "original_script_deciphered": false,
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No manuscript or original-script collation",
+    "No independent blind translation assessment",
+    "Reading completeness refers only to saved source paragraph layers",
+    "Unresolved editorial and translation disagreements preserved in accompanying Markdown"
+  ]
+}

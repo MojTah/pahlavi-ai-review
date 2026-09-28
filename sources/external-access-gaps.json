@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-09-20",
+  "mpcd": {
+    "url": "https://www.mpcorpus.org/",
+    "browser_access": "working",
+    "browser_text_list_count": 102,
+    "bulk_corpus_export": "not_obtained",
+    "command_line_results": [
+      "HTTP 418",
+      "HTTP 500"
+    ],
+    "normal_browser_api": "HTTP 200 for /api/texts/?page_size=200; metadata only inspected",
+    "disclaimer": "Preliminary corpus; preannotations can be erroneous or hypothetical. Working translations should not be quoted without consulting the responsible philologist.",
+    "not_collected": "Complete corpus, token annotations and working translations"
+  },
+  "ud_mpcd": {
+    "repository": "https://github.com/UniversalDependencies/UD_Middle_Persian-MPCD",
+    "tree": "c153be545a37dc780b8b6cdad7053257a6d2d674",
+    "files": [
+      "CONTRIBUTING.md",
+      "LICENSE.txt",
+      "README.md",
+      "eval.log",
+      "stats.xml"
+    ],
+    "conllu_files": 0
+  },
+  "harvard_teaching_materials": {
+    "discovery_url": "https://nelc.fas.harvard.edu/people/p-oktor-skjaervo",
+    "linked_url": "https://www.fas.harvard.edu/~iranian/",
+    "result": "404 when opened through official faculty-page link"
+  },
+  "rahamasha_old_site": {
+    "url": "http://www.rahamasha.net/",
+    "result": "not accessible through web tool; related author-hosted editions collected from Perso-Aryan Studies"
+  },
+  "superseded_probe": {
+    "berkeley_document_route": "api/document/MP0003 returned 404; all 152 documents successfully obtained using advertised DTS passage URLs"
+  },
+  "pdf_extraction_recovery": {
+    "source": "https://www.persoaryanstudies.org/uploads/1/4/3/4/143405260/avesta.pdf",
+    "issue": "pypdf produced surrogate code units that could not be written directly as UTF-8",
+    "resolution": "UTF-16 surrogate decoding for affected page text; unpaired units replaced and original escaped extraction retained alongside an explicit review note"
+  }
+}

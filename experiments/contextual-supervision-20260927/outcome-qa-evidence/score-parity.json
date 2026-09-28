@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "full_reviewer_conditions_perwork_pairs_transitions_disagreements_exact": true,
+  "raw_frozen_reviews_unchanged": true,
+  "score_contract_provenance_bound": true,
+  "comparison_sha256": "988bcec7d0202f5f94b3c7a3a2d11b6fa6e5ba2e8b92ce09cc90f68751b6b888",
+  "blind_review_freeze_sha256": "ec7915e11bb681e4600ea0e81e38264d6d4719796a2aebb4353997461a84936b",
+  "receipts_sha256": "3a369d561fd59403f63563652ee797f4a807ee69a05e0faa3501227dda42fdda",
+  "scorer_sha256": "1e100fd41535db1d0b361e9096d65af0885a3747f0f4fc8c8bf458977677e7af"
+}

@@ -1,0 +1,47 @@
+{
+  "observed_complete_utc": "2026-09-27T13:14:05.297651+00:00",
+  "status": "PASS_LOCAL_COMPONENTS_ONLY",
+  "command": "& 'C:/Users/mojta/.venvs/codex-science/Scripts/python.exe' -B 'cloud_pilot/test_contextual_train.py' -v",
+  "exit_code": 0,
+  "tests_passed": 9,
+  "unittest_runtime_seconds": 4.191,
+  "checks": [
+    "identical_streams_identical_final_adapter_after_reset",
+    "changed_targets_change_final_adapter",
+    "same_initial_adapter_rng_fresh_empty_optimizer_scheduler",
+    "native_sequential_consumed_order_and_exact_completed_updates",
+    "reject_actual_order_corruption",
+    "preserve_completed_control_when_candidate_fails",
+    "reject_buffer_mutation",
+    "reject_nonfinite_gradient_before_update",
+    "reject_expired_deadline_without_output",
+    "reject_invalid_streams_masks_and_output_overwrite"
+  ],
+  "bindings": {
+    "cloud_pilot/contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "cloud_pilot/test_contextual_train.py": "942b0fe78e04c39963a14a518ef7584ad77d891c50405f9f019ca2c7cdccfb8f",
+    "cloud_pilot/runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "uniform_evaluation_contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "uniform_bound_files_verified_unchanged": {
+    "benchmarks/pal-reference-v1/manifest.json": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+    "benchmarks/pal-reference-v1/PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "benchmarks/pal-reference-v1/benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "benchmarks/pal-reference-v1/holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62"
+  },
+  "test_model": "random tiny Gemma4 with nonzero LoRA, CPU float32, two updates per arm",
+  "not_exercised": [
+    "pretrained_weights",
+    "production_GPU_NF4_BF16_gradient_checkpointing",
+    "cloud_wrapper",
+    "full_BF16_evaluation_switching",
+    "cloud_export_recovery",
+    "live_cost_admission"
+  ],
+  "paid_job_launched": false,
+  "quality_improvement_claimed": false
+}

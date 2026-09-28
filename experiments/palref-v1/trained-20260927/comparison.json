@@ -1,0 +1,106 @@
+{
+  "before": {
+    "total": 40,
+    "complete_outputs": 40,
+    "accepted": 5,
+    "meaning_error": 20,
+    "critical_error": 14,
+    "uncertain": 1,
+    "abstain": 0,
+    "timeout": 0,
+    "error": 0,
+    "accepted_percent": 12.5,
+    "critical_error_percent": 35.0,
+    "complete_output_percent": 100.0
+  },
+  "after": {
+    "total": 40,
+    "complete_outputs": 40,
+    "accepted": 15,
+    "meaning_error": 13,
+    "critical_error": 10,
+    "uncertain": 2,
+    "abstain": 0,
+    "timeout": 0,
+    "error": 0,
+    "accepted_percent": 37.5,
+    "critical_error_percent": 25.0,
+    "complete_output_percent": 100.0
+  },
+  "transitions": [
+    {
+      "before": "accepted",
+      "after": "accepted",
+      "cases": 3
+    },
+    {
+      "before": "accepted",
+      "after": "meaning_error",
+      "cases": 2
+    },
+    {
+      "before": "critical_error",
+      "after": "accepted",
+      "cases": 2
+    },
+    {
+      "before": "critical_error",
+      "after": "critical_error",
+      "cases": 8
+    },
+    {
+      "before": "critical_error",
+      "after": "meaning_error",
+      "cases": 3
+    },
+    {
+      "before": "critical_error",
+      "after": "uncertain",
+      "cases": 1
+    },
+    {
+      "before": "meaning_error",
+      "after": "accepted",
+      "cases": 10
+    },
+    {
+      "before": "meaning_error",
+      "after": "critical_error",
+      "cases": 2
+    },
+    {
+      "before": "meaning_error",
+      "after": "meaning_error",
+      "cases": 7
+    },
+    {
+      "before": "meaning_error",
+      "after": "uncertain",
+      "cases": 1
+    },
+    {
+      "before": "uncertain",
+      "after": "meaning_error",
+      "cases": 1
+    }
+  ],
+  "newly_accepted": [
+    "PALREF1-001:pal>fa",
+    "PALREF1-002:pal>fa",
+    "PALREF1-015:pal>fa",
+    "PALREF1-018:pal>fa",
+    "PALREF1-019:pal>fa",
+    "PALREF1-020:pal>fa",
+    "PALREF1-021:pal>fa",
+    "PALREF1-022:pal>fa",
+    "PALREF1-023:pal>fa",
+    "PALREF1-028:pal>fa",
+    "PALREF1-033:pal>fa",
+    "PALREF1-035:pal>fa"
+  ],
+  "formerly_accepted_now_not_accepted": [
+    "PALREF1-030:pal>fa",
+    "PALREF1-031:pal>fa"
+  ],
+  "assessment": "Provisional independent blind AI single reviews; no specialist adjudication or general accuracy claim."
+}

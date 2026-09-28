@@ -1,0 +1,116 @@
+{
+  "utc": "2026-09-27T13:05:05.295460+00:00",
+  "status": "TWELVE_PROVISIONAL_CONTEXTUAL_DEVELOPMENT_QUALIFICATIONS",
+  "expert_adjudicated": false,
+  "training_admitted": false,
+  "parents": 12,
+  "works": 9,
+  "bindings": {
+    "proposals.jsonl": "f465bfac2d3f818c1960386dc0ef1edbc6b2a87561ede3b0e6c657ed2860923e",
+    "extension-proposals.jsonl": "17cc66d7a880ef6ad64d79493ac447602465f2f62356d448800c523d87d0c5a4",
+    "REVIEW.md": "b89e70e48023c757af3b449fe0fca5923b5b48f6bb22f7bd08c6a3352eb8bf13",
+    "EXTENSION-REVIEW.md": "9ab579f1b87007f2a96120852ddceda1cf9fcb56634f1b0bf020a33188e1b5a7",
+    "published-occurrence.json": "07cdd3ca85e26114bbac4a93a51ae4fd5c05f7152570920077db8e3fc39a19e5",
+    "qualification-decision.json": "c50dd4e57d10b33631f74df8cc5ce81b9cfeae39d91612bb927f1f961436c823"
+  },
+  "decisions": [
+    {
+      "id": "CONTEXT1-107000001",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "pad-dard ast",
+      "target": "دردمند است",
+      "limits": "Occurrence-level phrase alignment inferred from primary book evidence plus published witness; transcription/construction limits preserved; no generic morphology or word-gold claim.",
+      "review": "REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-108000001",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "tā",
+      "target": "همتا، جفت",
+      "limits": "Attributed exact occurrence gloss; full publisher alternatives retained; UI transcription fidelity not independently established; Nyberg-only bare-ta alignment remains withheld.",
+      "review": "REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-109000005",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "ma apparēd",
+      "target": "مدزدید",
+      "limits": "Occurrence-level phrase alignment inferred from primary book evidence plus published witness; transcription/construction limits preserved; no generic morphology or word-gold claim.",
+      "review": "REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-151026026",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "adard",
+      "target": "عاری از درد",
+      "limits": "Observed whole adard token and exact published pain-free span only; no automatic morpheme split.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-518000014",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "dard",
+      "target": "درد",
+      "limits": "Bare pain noun in this healing context only; no verbal morphology.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-151001046",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "ma appar",
+      "target": "مدزد",
+      "limits": "Complete negative predicate only; no universal appar-to-negative-command mapping or unique inflection.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-151045004",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "be apparēd",
+      "target": "برباید",
+      "limits": "Taking predicate in this conditional context; subsequent ne is outside focus; no mood/person/tense or be label.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-509000008",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "appurd",
+      "target": "غارت کردند",
+      "limits": "Provisional form correspondence and whole Persian compound; unresolved source morphology/participant analysis; preserve bracket additions and idiom qualification.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-513000002",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "appar",
+      "target": "غارت",
+      "limits": "Internal noun stem within appar-iz only; preserve gaps; no -iz label or complete avoidance construction.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-151001162",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "tā ō činwad puhl",
+      "target": "تا پل چینود",
+      "limits": "Spatial endpoint phrase only; preserve NBSP; no universal bare-ta gloss.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-136005007",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "tā zīndag bawēm",
+      "target": "تا زنده باشم",
+      "limits": "Published duration phrase in this oath; no new person/number paradigm.",
+      "review": "EXTENSION-REVIEW.md"
+    },
+    {
+      "id": "CONTEXT1-137001027",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "tā šab",
+      "target": "تا شب",
+      "limits": "Saved database temporal-endpoint witness only; Hajipour1400 forthcoming metadata retained, final print edition unverified; full context brackets preserved.",
+      "review": "EXTENSION-REVIEW.md"
+    }
+  ],
+  "original_proposal_statuses_preserved": true,
+  "scope": "Development qualification only; one controlled recipe still requires token census, frozen settings, implementation and paid lifecycle admission."
+}

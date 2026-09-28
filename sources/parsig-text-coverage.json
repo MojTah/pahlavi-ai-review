@@ -1,0 +1,656 @@
+{
+  "books": 126,
+  "chapters": 334,
+  "numbered_units": 4507,
+  "units_with_nonempty_content": {
+    "original_script_source": 4343,
+    "transcription": 4507,
+    "farsi_translation": 4445,
+    "notes": 563
+  },
+  "additional_field_classified_units": {
+    "en:translation": 916,
+    "fr:translation": 843,
+    "fa:commentary": 33
+  },
+  "export_file": "exports/text-units.jsonl",
+  "export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+  "per_book": [
+    {
+      "id": "101",
+      "units": 4,
+      "chapters": 1
+    },
+    {
+      "id": "103",
+      "units": 156,
+      "chapters": 1
+    },
+    {
+      "id": "104",
+      "units": 33,
+      "chapters": 1
+    },
+    {
+      "id": "105",
+      "units": 11,
+      "chapters": 1
+    },
+    {
+      "id": "106",
+      "units": 11,
+      "chapters": 1
+    },
+    {
+      "id": "107",
+      "units": 8,
+      "chapters": 1
+    },
+    {
+      "id": "108",
+      "units": 14,
+      "chapters": 1
+    },
+    {
+      "id": "109",
+      "units": 15,
+      "chapters": 1
+    },
+    {
+      "id": "110",
+      "units": 22,
+      "chapters": 1
+    },
+    {
+      "id": "111",
+      "units": 37,
+      "chapters": 1
+    },
+    {
+      "id": "112",
+      "units": 23,
+      "chapters": 1
+    },
+    {
+      "id": "113",
+      "units": 8,
+      "chapters": 1
+    },
+    {
+      "id": "114",
+      "units": 18,
+      "chapters": 1
+    },
+    {
+      "id": "115",
+      "units": 13,
+      "chapters": 1
+    },
+    {
+      "id": "116",
+      "units": 61,
+      "chapters": 1
+    },
+    {
+      "id": "117",
+      "units": 127,
+      "chapters": 1
+    },
+    {
+      "id": "118",
+      "units": 24,
+      "chapters": 1
+    },
+    {
+      "id": "119",
+      "units": 10,
+      "chapters": 1
+    },
+    {
+      "id": "120",
+      "units": 13,
+      "chapters": 1
+    },
+    {
+      "id": "121",
+      "units": 2,
+      "chapters": 1
+    },
+    {
+      "id": "122",
+      "units": 18,
+      "chapters": 1
+    },
+    {
+      "id": "123",
+      "units": 62,
+      "chapters": 1
+    },
+    {
+      "id": "124",
+      "units": 7,
+      "chapters": 1
+    },
+    {
+      "id": "125",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "126",
+      "units": 13,
+      "chapters": 1
+    },
+    {
+      "id": "127",
+      "units": 2,
+      "chapters": 1
+    },
+    {
+      "id": "128",
+      "units": 2,
+      "chapters": 1
+    },
+    {
+      "id": "130",
+      "units": 49,
+      "chapters": 1
+    },
+    {
+      "id": "131",
+      "units": 2,
+      "chapters": 1
+    },
+    {
+      "id": "132",
+      "units": 80,
+      "chapters": 1
+    },
+    {
+      "id": "133",
+      "units": 267,
+      "chapters": 1
+    },
+    {
+      "id": "134",
+      "units": 209,
+      "chapters": 9
+    },
+    {
+      "id": "135",
+      "units": 12,
+      "chapters": 1
+    },
+    {
+      "id": "136",
+      "units": 146,
+      "chapters": 8
+    },
+    {
+      "id": "137",
+      "units": 90,
+      "chapters": 3
+    },
+    {
+      "id": "138",
+      "units": 278,
+      "chapters": 10
+    },
+    {
+      "id": "139",
+      "units": 45,
+      "chapters": 5
+    },
+    {
+      "id": "150",
+      "units": 57,
+      "chapters": 1
+    },
+    {
+      "id": "151",
+      "units": 1336,
+      "chapters": 63
+    },
+    {
+      "id": "152",
+      "units": 570,
+      "chapters": 36
+    },
+    {
+      "id": "201",
+      "units": 5,
+      "chapters": 5
+    },
+    {
+      "id": "202",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "203",
+      "units": 2,
+      "chapters": 2
+    },
+    {
+      "id": "204",
+      "units": 2,
+      "chapters": 2
+    },
+    {
+      "id": "205",
+      "units": 32,
+      "chapters": 32
+    },
+    {
+      "id": "206",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "207",
+      "units": 2,
+      "chapters": 2
+    },
+    {
+      "id": "208",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "209",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "210",
+      "units": 2,
+      "chapters": 2
+    },
+    {
+      "id": "211",
+      "units": 4,
+      "chapters": 4
+    },
+    {
+      "id": "212",
+      "units": 2,
+      "chapters": 2
+    },
+    {
+      "id": "213",
+      "units": 3,
+      "chapters": 3
+    },
+    {
+      "id": "214",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "215",
+      "units": 6,
+      "chapters": 6
+    },
+    {
+      "id": "216",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "217",
+      "units": 3,
+      "chapters": 3
+    },
+    {
+      "id": "218",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "219",
+      "units": 4,
+      "chapters": 4
+    },
+    {
+      "id": "220",
+      "units": 2,
+      "chapters": 2
+    },
+    {
+      "id": "221",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "222",
+      "units": 16,
+      "chapters": 16
+    },
+    {
+      "id": "223",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "224",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "225",
+      "units": 2,
+      "chapters": 2
+    },
+    {
+      "id": "301",
+      "units": 142,
+      "chapters": 7
+    },
+    {
+      "id": "302",
+      "units": 10,
+      "chapters": 4
+    },
+    {
+      "id": "501",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "502",
+      "units": 8,
+      "chapters": 1
+    },
+    {
+      "id": "503",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "504",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "505",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "506",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "507",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "508",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "509",
+      "units": 10,
+      "chapters": 1
+    },
+    {
+      "id": "510",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "511",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "512",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "513",
+      "units": 2,
+      "chapters": 1
+    },
+    {
+      "id": "514",
+      "units": 6,
+      "chapters": 1
+    },
+    {
+      "id": "515",
+      "units": 4,
+      "chapters": 1
+    },
+    {
+      "id": "516",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "517",
+      "units": 57,
+      "chapters": 1
+    },
+    {
+      "id": "518",
+      "units": 19,
+      "chapters": 1
+    },
+    {
+      "id": "519",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "520",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "521",
+      "units": 6,
+      "chapters": 1
+    },
+    {
+      "id": "522",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "523",
+      "units": 4,
+      "chapters": 1
+    },
+    {
+      "id": "524",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "525",
+      "units": 6,
+      "chapters": 1
+    },
+    {
+      "id": "526",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "527",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "528",
+      "units": 7,
+      "chapters": 1
+    },
+    {
+      "id": "529",
+      "units": 11,
+      "chapters": 1
+    },
+    {
+      "id": "530",
+      "units": 13,
+      "chapters": 1
+    },
+    {
+      "id": "531",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "532",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "533",
+      "units": 6,
+      "chapters": 1
+    },
+    {
+      "id": "534",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "535",
+      "units": 12,
+      "chapters": 1
+    },
+    {
+      "id": "536",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "537",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "538",
+      "units": 42,
+      "chapters": 1
+    },
+    {
+      "id": "539",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "540",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "541",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "542",
+      "units": 11,
+      "chapters": 1
+    },
+    {
+      "id": "543",
+      "units": 5,
+      "chapters": 1
+    },
+    {
+      "id": "544",
+      "units": 1,
+      "chapters": 1
+    },
+    {
+      "id": "545",
+      "units": 8,
+      "chapters": 1
+    },
+    {
+      "id": "546",
+      "units": 6,
+      "chapters": 1
+    },
+    {
+      "id": "547",
+      "units": 6,
+      "chapters": 1
+    },
+    {
+      "id": "548",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "549",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "550",
+      "units": 6,
+      "chapters": 1
+    },
+    {
+      "id": "551",
+      "units": 4,
+      "chapters": 1
+    },
+    {
+      "id": "552",
+      "units": 8,
+      "chapters": 1
+    },
+    {
+      "id": "553",
+      "units": 4,
+      "chapters": 1
+    },
+    {
+      "id": "554",
+      "units": 17,
+      "chapters": 1
+    },
+    {
+      "id": "555",
+      "units": 4,
+      "chapters": 1
+    },
+    {
+      "id": "556",
+      "units": 9,
+      "chapters": 1
+    },
+    {
+      "id": "557",
+      "units": 3,
+      "chapters": 1
+    },
+    {
+      "id": "558",
+      "units": 2,
+      "chapters": 1
+    },
+    {
+      "id": "559",
+      "units": 4,
+      "chapters": 1
+    }
+  ],
+  "limitations": [
+    "EnTranslation is a mixed-language, mixed-role source field.",
+    "Legacy original-script strings require the source font; they are not ordinary modern Farsi.",
+    "Missing translations remain missing. No automatic translation or alignment was added.",
+    "Collected does not mean read, linguistically validated, or trained."
+  ]
+}

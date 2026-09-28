@@ -1,0 +1,589 @@
+{
+  "status": "four unchanged provisional scorings complete",
+  "expert_adjudicated": false,
+  "blind_review_hashes": {
+    "A": {
+      "sha256": "1464fc91fb203cc4993140955b98642790ace22c1d446757259a24b4801e3c37",
+      "rows": 80
+    },
+    "B": {
+      "sha256": "8ee1205ee267c968c24090c9e5dd53f236eead2f1db87ff9509485831ef593e6",
+      "rows": 80
+    }
+  },
+  "paired": {
+    "A": {
+      "previous": {
+        "total": 40,
+        "complete_outputs": 40,
+        "accepted": 14,
+        "meaning_error": 14,
+        "critical_error": 9,
+        "uncertain": 3,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 35.0,
+        "critical_error_percent": 22.5,
+        "complete_output_percent": 100.0
+      },
+      "candidate": {
+        "total": 40,
+        "complete_outputs": 40,
+        "accepted": 16,
+        "meaning_error": 16,
+        "critical_error": 7,
+        "uncertain": 1,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 40.0,
+        "critical_error_percent": 17.5,
+        "complete_output_percent": 100.0
+      },
+      "accepted_change_percentage_points": 5.0,
+      "critical_error_change_percentage_points": -5.0,
+      "newly_accepted": [
+        "PALREF1-015:pal>fa",
+        "PALREF1-026:pal>fa",
+        "PALREF1-030:pal>fa",
+        "PALREF1-031:pal>fa",
+        "PALREF1-040:pal>fa"
+      ],
+      "lost_acceptance": [
+        "PALREF1-007:pal>fa",
+        "PALREF1-008:pal>fa",
+        "PALREF1-011:pal>fa"
+      ],
+      "transitions": {
+        "accepted -> accepted": 11,
+        "uncertain -> meaning_error": 1,
+        "critical_error -> critical_error": 4,
+        "meaning_error -> meaning_error": 10,
+        "meaning_error -> critical_error": 1,
+        "accepted -> meaning_error": 2,
+        "accepted -> critical_error": 1,
+        "critical_error -> meaning_error": 3,
+        "meaning_error -> accepted": 3,
+        "uncertain -> accepted": 1,
+        "uncertain -> critical_error": 1,
+        "critical_error -> uncertain": 1,
+        "critical_error -> accepted": 1
+      },
+      "cases": [
+        {
+          "id": "PALREF1-001:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-002:pal>fa",
+          "previous": "uncertain",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-003:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-004:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-005:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-006:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-007:pal>fa",
+          "previous": "accepted",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-008:pal>fa",
+          "previous": "accepted",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-009:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-010:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-011:pal>fa",
+          "previous": "accepted",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-012:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-013:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-014:pal>fa",
+          "previous": "critical_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-015:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-016:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-017:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-018:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-019:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-020:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-021:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-022:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-023:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-024:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-025:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-026:pal>fa",
+          "previous": "uncertain",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-027:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-028:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-029:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-030:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-031:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-032:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-033:pal>fa",
+          "previous": "uncertain",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-034:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-035:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-036:pal>fa",
+          "previous": "critical_error",
+          "candidate": "uncertain"
+        },
+        {
+          "id": "PALREF1-037:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-038:pal>fa",
+          "previous": "critical_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-039:pal>fa",
+          "previous": "critical_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-040:pal>fa",
+          "previous": "critical_error",
+          "candidate": "accepted"
+        }
+      ]
+    },
+    "B": {
+      "previous": {
+        "total": 40,
+        "complete_outputs": 40,
+        "accepted": 16,
+        "meaning_error": 14,
+        "critical_error": 9,
+        "uncertain": 1,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 40.0,
+        "critical_error_percent": 22.5,
+        "complete_output_percent": 100.0
+      },
+      "candidate": {
+        "total": 40,
+        "complete_outputs": 40,
+        "accepted": 17,
+        "meaning_error": 16,
+        "critical_error": 7,
+        "uncertain": 0,
+        "abstain": 0,
+        "timeout": 0,
+        "error": 0,
+        "accepted_percent": 42.5,
+        "critical_error_percent": 17.5,
+        "complete_output_percent": 100.0
+      },
+      "accepted_change_percentage_points": 2.5,
+      "critical_error_change_percentage_points": -5.0,
+      "newly_accepted": [
+        "PALREF1-015:pal>fa",
+        "PALREF1-026:pal>fa",
+        "PALREF1-030:pal>fa",
+        "PALREF1-031:pal>fa",
+        "PALREF1-036:pal>fa",
+        "PALREF1-040:pal>fa"
+      ],
+      "lost_acceptance": [
+        "PALREF1-007:pal>fa",
+        "PALREF1-011:pal>fa",
+        "PALREF1-012:pal>fa",
+        "PALREF1-033:pal>fa",
+        "PALREF1-037:pal>fa"
+      ],
+      "transitions": {
+        "accepted -> accepted": 11,
+        "critical_error -> critical_error": 4,
+        "meaning_error -> meaning_error": 9,
+        "meaning_error -> critical_error": 2,
+        "accepted -> meaning_error": 4,
+        "critical_error -> meaning_error": 3,
+        "meaning_error -> accepted": 3,
+        "uncertain -> accepted": 1,
+        "accepted -> critical_error": 1,
+        "critical_error -> accepted": 2
+      },
+      "cases": [
+        {
+          "id": "PALREF1-001:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-002:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-003:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-004:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-005:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-006:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-007:pal>fa",
+          "previous": "accepted",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-008:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-009:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-010:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-011:pal>fa",
+          "previous": "accepted",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-012:pal>fa",
+          "previous": "accepted",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-013:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-014:pal>fa",
+          "previous": "critical_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-015:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-016:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-017:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-018:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-019:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-020:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-021:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-022:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-023:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-024:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-025:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-026:pal>fa",
+          "previous": "uncertain",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-027:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-028:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-029:pal>fa",
+          "previous": "critical_error",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-030:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-031:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-032:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-033:pal>fa",
+          "previous": "accepted",
+          "candidate": "critical_error"
+        },
+        {
+          "id": "PALREF1-034:pal>fa",
+          "previous": "meaning_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-035:pal>fa",
+          "previous": "accepted",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-036:pal>fa",
+          "previous": "critical_error",
+          "candidate": "accepted"
+        },
+        {
+          "id": "PALREF1-037:pal>fa",
+          "previous": "accepted",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-038:pal>fa",
+          "previous": "critical_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-039:pal>fa",
+          "previous": "critical_error",
+          "candidate": "meaning_error"
+        },
+        {
+          "id": "PALREF1-040:pal>fa",
+          "previous": "critical_error",
+          "candidate": "accepted"
+        }
+      ]
+    }
+  },
+  "reviewer_agreement": {
+    "previous": {
+      "total": 40,
+      "exact_judgment_agreement": 36,
+      "acceptance_agreement": 36,
+      "disagreements": [
+        {
+          "id": "PALREF1-002:pal>fa",
+          "A": "uncertain",
+          "B": "accepted"
+        },
+        {
+          "id": "PALREF1-008:pal>fa",
+          "A": "accepted",
+          "B": "meaning_error"
+        },
+        {
+          "id": "PALREF1-012:pal>fa",
+          "A": "meaning_error",
+          "B": "accepted"
+        },
+        {
+          "id": "PALREF1-033:pal>fa",
+          "A": "uncertain",
+          "B": "accepted"
+        }
+      ]
+    },
+    "candidate": {
+      "total": 40,
+      "exact_judgment_agreement": 37,
+      "acceptance_agreement": 37,
+      "disagreements": [
+        {
+          "id": "PALREF1-002:pal>fa",
+          "A": "meaning_error",
+          "B": "accepted"
+        },
+        {
+          "id": "PALREF1-036:pal>fa",
+          "A": "uncertain",
+          "B": "accepted"
+        },
+        {
+          "id": "PALREF1-037:pal>fa",
+          "A": "accepted",
+          "B": "meaning_error"
+        }
+      ]
+    }
+  }
+}

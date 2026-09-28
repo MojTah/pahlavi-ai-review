@@ -1,0 +1,332 @@
+{
+  "benchmark_id": "pal-reference-v1",
+  "benchmark_manifest_sha256": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+  "original_inputs_sha256": "13124e8683099a1b3cf1bda56071de1a004eed83c895ce65e26ffd939f2bd759",
+  "source_only_inputs_sha256": "0616b50838339e9b520f06fe8b2ed9c0fd9b399b67c8f68cd680a62115a12f37",
+  "model_id": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "adapter_sha256_or_none": "e329333a79a30e82dfad7a751939afa71529800570fb6f8b0cfac78427ec2827",
+  "adapter_files": {
+    "adapter_config.json": "e481bc2a4d4031ca070c3099133a85b22aa5406cb11b4503e3c1873fa0f1bbb5",
+    "adapter_model.safetensors": "e329333a79a30e82dfad7a751939afa71529800570fb6f8b0cfac78427ec2827"
+  },
+  "runtime": "{\"gpu\": {\"bytes\": 85093777408, \"name\": \"NVIDIA A100-SXM4-80GB\"}, \"machine\": \"x86_64\", \"packages\": {\"accelerate\": \"1.14.0\", \"bitsandbytes\": \"0.50.2\", \"huggingface-hub\": \"1.23.0\", \"peft\": \"0.21.0\", \"safetensors\": \"0.8.0\", \"tokenizers\": \"0.22.2\", \"torch\": \"2.11.0+cu128\", \"transformers\": \"5.13.1\"}, \"python\": \"3.12.3\", \"runtime_sha256\": \"5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d\", \"system\": \"Linux\"}",
+  "runner_sha256": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+  "bundle_manifest_sha256": "61915990810fe4b85b0cdb679a2cfde9c77c3aa4178d570cf5b25a20ec250314",
+  "base_files": {
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "config.json": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+    "generation_config.json": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de",
+    "model-00001-of-00002.safetensors": "eeef8791537bc04f110967c513149e037d2a9ae97d49add7291ebfa62806bbfa",
+    "model-00002-of-00002.safetensors": "018912220f559f7025d60333e0996183cd538aa77ad6f4988a89ce47be681f10",
+    "model.safetensors.index.json": "d4aff3b976d69c123a29d1c085d7ba4de1ac3f4ca1726a7f81e1b11462a64ea2",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+  },
+  "tokenizer_files": {
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633",
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4"
+  },
+  "chat_template_sha256": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+  "decoding": "greedy",
+  "seed": 42,
+  "max_new_tokens": 4096,
+  "max_generation_seconds": 1200,
+  "retrieval": "none",
+  "reviewer_id": "/root/blind_pair_b",
+  "reviewer_type": "ai",
+  "review_status": "provisional_single_review",
+  "fresh_context_each_case": true,
+  "system_prompt": "Translate the supplied text from {source_language} into {target_language}. Preserve its meaning, participants, negation, names, quantities, and uncertainty. Do not add explanations, citations, or facts. Return only the translation. For Middle Persian output, use scholarly Latin transcription. If you cannot translate it, return exactly [UNRESOLVED].",
+  "rendered_system_instruction": "Translate the supplied text from Middle Persian (Pahlavi), scholarly Latin transcription into Persian (Farsi). Preserve its meaning, participants, negation, names, quantities, and uncertainty. Do not add explanations, citations, or facts. Return only the translation. For Middle Persian output, use scholarly Latin transcription. If you cannot translate it, return exactly [UNRESOLVED].",
+  "enable_thinking": false,
+  "direction": "pal>fa",
+  "deadline_utc": "2026-09-27T02:34:04.872668+00:00",
+  "condition": "bf16-original-plus-adapter",
+  "status": "completed",
+  "completed_cases": 40,
+  "case_metadata": [
+    {
+      "id": "PALREF1-001:pal>fa",
+      "input_tokens": 152,
+      "output_tokens": 37,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-002:pal>fa",
+      "input_tokens": 126,
+      "output_tokens": 20,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-003:pal>fa",
+      "input_tokens": 119,
+      "output_tokens": 22,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-004:pal>fa",
+      "input_tokens": 123,
+      "output_tokens": 21,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-005:pal>fa",
+      "input_tokens": 142,
+      "output_tokens": 35,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-006:pal>fa",
+      "input_tokens": 131,
+      "output_tokens": 33,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-007:pal>fa",
+      "input_tokens": 141,
+      "output_tokens": 35,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-008:pal>fa",
+      "input_tokens": 146,
+      "output_tokens": 34,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-009:pal>fa",
+      "input_tokens": 164,
+      "output_tokens": 51,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-010:pal>fa",
+      "input_tokens": 163,
+      "output_tokens": 50,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-011:pal>fa",
+      "input_tokens": 112,
+      "output_tokens": 17,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-012:pal>fa",
+      "input_tokens": 158,
+      "output_tokens": 44,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-013:pal>fa",
+      "input_tokens": 210,
+      "output_tokens": 81,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-014:pal>fa",
+      "input_tokens": 128,
+      "output_tokens": 30,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-015:pal>fa",
+      "input_tokens": 144,
+      "output_tokens": 38,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-016:pal>fa",
+      "input_tokens": 127,
+      "output_tokens": 31,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-017:pal>fa",
+      "input_tokens": 134,
+      "output_tokens": 27,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-018:pal>fa",
+      "input_tokens": 118,
+      "output_tokens": 19,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-019:pal>fa",
+      "input_tokens": 112,
+      "output_tokens": 17,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-020:pal>fa",
+      "input_tokens": 162,
+      "output_tokens": 38,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-021:pal>fa",
+      "input_tokens": 180,
+      "output_tokens": 48,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-022:pal>fa",
+      "input_tokens": 133,
+      "output_tokens": 29,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-023:pal>fa",
+      "input_tokens": 153,
+      "output_tokens": 38,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-024:pal>fa",
+      "input_tokens": 122,
+      "output_tokens": 19,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-025:pal>fa",
+      "input_tokens": 123,
+      "output_tokens": 22,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-026:pal>fa",
+      "input_tokens": 190,
+      "output_tokens": 61,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-027:pal>fa",
+      "input_tokens": 137,
+      "output_tokens": 19,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-028:pal>fa",
+      "input_tokens": 143,
+      "output_tokens": 33,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-029:pal>fa",
+      "input_tokens": 136,
+      "output_tokens": 29,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-030:pal>fa",
+      "input_tokens": 139,
+      "output_tokens": 35,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-031:pal>fa",
+      "input_tokens": 150,
+      "output_tokens": 40,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-032:pal>fa",
+      "input_tokens": 135,
+      "output_tokens": 28,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-033:pal>fa",
+      "input_tokens": 121,
+      "output_tokens": 18,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-034:pal>fa",
+      "input_tokens": 141,
+      "output_tokens": 30,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-035:pal>fa",
+      "input_tokens": 123,
+      "output_tokens": 22,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-036:pal>fa",
+      "input_tokens": 116,
+      "output_tokens": 26,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-037:pal>fa",
+      "input_tokens": 125,
+      "output_tokens": 18,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-038:pal>fa",
+      "input_tokens": 144,
+      "output_tokens": 35,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-039:pal>fa",
+      "input_tokens": 151,
+      "output_tokens": 41,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    },
+    {
+      "id": "PALREF1-040:pal>fa",
+      "input_tokens": 168,
+      "output_tokens": 37,
+      "hit_output_cap_without_eos": false,
+      "stop_reason": null
+    }
+  ],
+  "review_model_identity_blinded": true
+}

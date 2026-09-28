@@ -1,0 +1,34 @@
+{
+  "utc": "2026-09-27T12:51:12.188379+00:00",
+  "status": "THREE_PROVISIONAL_CONTEXTUAL_DEVELOPMENT_QUALIFICATIONS",
+  "proposal_sha256": "f465bfac2d3f818c1960386dc0ef1edbc6b2a87561ede3b0e6c657ed2860923e",
+  "review_sha256": "b89e70e48023c757af3b449fe0fca5923b5b48f6bb22f7bd08c6a3352eb8bf13",
+  "published_occurrence_sha256": "07cdd3ca85e26114bbac4a93a51ae4fd5c05f7152570920077db8e3fc39a19e5",
+  "expert_adjudicated": false,
+  "training_admitted": false,
+  "decisions": [
+    {
+      "id": "CONTEXT1-107000001",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "pad-dard ast",
+      "target": "دردمند است",
+      "limits": "Occurrence-level phrase alignment inferred from primary book evidence plus published witness; transcription/construction limits preserved; no generic morphology or word-gold claim."
+    },
+    {
+      "id": "CONTEXT1-108000001",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "tā",
+      "target": "همتا، جفت",
+      "limits": "Attributed exact occurrence gloss; full publisher alternatives retained; UI transcription fidelity not independently established; Nyberg-only bare-ta alignment remains withheld."
+    },
+    {
+      "id": "CONTEXT1-109000005",
+      "status": "PROVISIONAL_DEVELOPMENT_QUALIFIED",
+      "source_focus": "ma apparēd",
+      "target": "مدزدید",
+      "limits": "Occurrence-level phrase alignment inferred from primary book evidence plus published witness; transcription/construction limits preserved; no generic morphology or word-gold claim."
+    }
+  ],
+  "immutable_proposal_statuses_preserved": true,
+  "training_gate": "Three-anchor-only paid recipe deferred; recurrent-context/contrast qualification and actual task/token/loss census still required."
+}
