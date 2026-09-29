@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "source_commit": "0c4422e2aca9eaf4babd442c54a74af7d2f4065c",
+  "source_commit": "fd718143524ccce9c3ee761d60811eef43ea7304",
   "scope": "Public research review with explicit corpus omissions; no model weights",
   "files": [
     {
@@ -555,8 +555,8 @@
     },
     {
       "path": "DATASET-READINESS.md",
-      "bytes": 11447,
-      "sha256": "e95a23a798d724d6e4ab1835c0fa693cf44dceab35975540359110733e72e7e7"
+      "bytes": 12254,
+      "sha256": "0c0d078c9a50da79a51ea761029d081c6c9bf604cbca4838bfb2b7e397b485b0"
     },
     {
       "path": "dictionary/entries.json",
@@ -1449,6 +1449,36 @@
       "sha256": "da4fd944957e20b55fa903be9c6cb8fd010d0f4b244cefcb7b9a198351015273"
     },
     {
+      "path": "experiments/data-recheck-20260929/diagnostic-token-census.json",
+      "bytes": 3122,
+      "sha256": "450f77cacbd30fb57634aa5fe956561020b878b8c4620423f2b68561b64601f3"
+    },
+    {
+      "path": "experiments/data-recheck-20260929/integrity.json",
+      "bytes": 14183,
+      "sha256": "86e1980588a9b15750f6be286d0ec18f21341c56c61942635127348de26a48d4"
+    },
+    {
+      "path": "experiments/data-recheck-20260929/INTEGRITY.md",
+      "bytes": 7549,
+      "sha256": "aa3eeb8f140411bb7cae46855b3edc25f2020d8f92153f8ee85ed17488e5f691"
+    },
+    {
+      "path": "experiments/data-recheck-20260929/integrity_check.py",
+      "bytes": 18040,
+      "sha256": "403dd858a432be823789302814c8485bacd4826f4cf4d80af0cd13c8e153cf1c"
+    },
+    {
+      "path": "experiments/data-recheck-20260929/REPORT.md",
+      "bytes": 8442,
+      "sha256": "50a26d93b70c7a0eabdc74e3a0e31a3e3a33d6d34800e65177948f11b3908b0d"
+    },
+    {
+      "path": "experiments/data-recheck-20260929/SEMANTIC-SPOTCHECK.md",
+      "bytes": 13261,
+      "sha256": "25d397e6f00ae4588fb56feab30ea1cbea14023556ef9c8ad74f81050834834a"
+    },
+    {
       "path": "experiments/dataset-expansion-20260928/ARCHIVE-RECOVERY.md",
       "bytes": 15181,
       "sha256": "ba22347a7ef3ab263162c45adfb21257875cb8af5ec2f6a5df16e8a5b5a417e3"
@@ -2287,6 +2317,11 @@
       "path": "experiments/learning-diagnosis-20260929/diagnose.py",
       "bytes": 10952,
       "sha256": "39d7a1fe627539c6f5b5970cb0a1a28531a61616c100e9c1913e4db899bea2ed"
+    },
+    {
+      "path": "experiments/learning-diagnosis-20260929/INDEPENDENT-LAUNCH-REVIEW.md",
+      "bytes": 6694,
+      "sha256": "debea152737531c8a8a89fbe3f41c46e48fbd01aa38702ad60d0bb6ddaa8429d"
     },
     {
       "path": "experiments/learning-diagnosis-20260929/inputs.jsonl",
@@ -4530,8 +4565,8 @@
     },
     {
       "path": "GITHUB-REVIEW.md",
-      "bytes": 5713,
-      "sha256": "24fb6c44717feb3dda1759636ae0d27b6ee052f46a90a1d60a6b2bf62ab91eb0"
+      "bytes": 6250,
+      "sha256": "0f7efd3684940d91e07be0551ec92c2f0800d701613071ef2372f1960fb6cbec"
     },
     {
       "path": "GOAL.md",
@@ -4875,8 +4910,8 @@
     },
     {
       "path": "PROJECT_STATE.md",
-      "bytes": 17730,
-      "sha256": "8f61f178d37098fc2930a3904cc764a6977f4a1e096c1e9b910b1cbe938fb91a"
+      "bytes": 19031,
+      "sha256": "11a39aea074005fe1d24ced751fd4a698289689b00ecc793c2819c4961364d74"
     },
     {
       "path": "PROJECT_STATE_HISTORY_20260928.md",
@@ -4885,8 +4920,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5713,
-      "sha256": "24fb6c44717feb3dda1759636ae0d27b6ee052f46a90a1d60a6b2bf62ab91eb0"
+      "bytes": 6250,
+      "sha256": "0f7efd3684940d91e07be0551ec92c2f0800d701613071ef2372f1960fb6cbec"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -4945,8 +4980,8 @@
     },
     {
       "path": "review/PACKAGE.md",
-      "bytes": 1865,
-      "sha256": "7c05aa9569db030604c88767cbc7535ac7f004df943a8318b9b6a3e3da25660b"
+      "bytes": 1993,
+      "sha256": "28ebd41da13d91241267d6d49b44c9769f4170c8e64b2b9b6c2f5466de3ad450"
     },
     {
       "path": "review/PUBLIC-COPY-CHANGES.json",
@@ -4965,8 +5000,8 @@
     },
     {
       "path": "REVIEW.md",
-      "bytes": 5713,
-      "sha256": "24fb6c44717feb3dda1759636ae0d27b6ee052f46a90a1d60a6b2bf62ab91eb0"
+      "bytes": 6250,
+      "sha256": "0f7efd3684940d91e07be0551ec92c2f0800d701613071ef2372f1960fb6cbec"
     },
     {
       "path": "scripts/analyze_train_fit.py",

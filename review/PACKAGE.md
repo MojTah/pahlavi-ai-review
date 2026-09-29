@@ -21,5 +21,6 @@ Model binaries, credentials, account/billing responses, dependency installations
 trees are omitted. This is not a complete execution environment or a public model release.
 
 GitHub visibility is temporarily public at the owner's request. Reading it requires no GitHub account.
-Making it private later does not revoke copies already downloaded. No automatic visibility-change
-date has been set; the owner decides when the review has finished.
+Making it private later does not revoke copies already downloaded. The approved restore-to-private
+automation is scheduled for 30 September 2026 at 18:10:04 UTC (15:10:04 America/Halifax).
+The Codex automation must be available to execute; this snapshot update does not extend that deadline.

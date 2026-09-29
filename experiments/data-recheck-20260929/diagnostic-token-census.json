@@ -1,0 +1,123 @@
+{
+  "scope": "Local reference serialization length only, not a generated-output or quality test",
+  "references_sha256": "ff4548af6dced50411e15628c3034f19d54a5a9a64718d24bad5925ddaea6d42",
+  "tokenizer_sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "generation_cap": 512,
+  "cases": [
+    {
+      "case_id": "LD-001",
+      "reference_tokens_including_terminator": 12
+    },
+    {
+      "case_id": "LD-002",
+      "reference_tokens_including_terminator": 9
+    },
+    {
+      "case_id": "LD-003",
+      "reference_tokens_including_terminator": 31
+    },
+    {
+      "case_id": "LD-004",
+      "reference_tokens_including_terminator": 30
+    },
+    {
+      "case_id": "LD-005",
+      "reference_tokens_including_terminator": 5
+    },
+    {
+      "case_id": "LD-006",
+      "reference_tokens_including_terminator": 21
+    },
+    {
+      "case_id": "LD-007",
+      "reference_tokens_including_terminator": 8
+    },
+    {
+      "case_id": "LD-008",
+      "reference_tokens_including_terminator": 8
+    },
+    {
+      "case_id": "LD-009",
+      "reference_tokens_including_terminator": 7
+    },
+    {
+      "case_id": "LD-010",
+      "reference_tokens_including_terminator": 4
+    },
+    {
+      "case_id": "LD-011",
+      "reference_tokens_including_terminator": 10
+    },
+    {
+      "case_id": "LD-012",
+      "reference_tokens_including_terminator": 24
+    },
+    {
+      "case_id": "LD-013",
+      "reference_tokens_including_terminator": 12
+    },
+    {
+      "case_id": "LD-014",
+      "reference_tokens_including_terminator": 9
+    },
+    {
+      "case_id": "LD-015",
+      "reference_tokens_including_terminator": 34
+    },
+    {
+      "case_id": "LD-016",
+      "reference_tokens_including_terminator": 39
+    },
+    {
+      "case_id": "LD-017",
+      "reference_tokens_including_terminator": 57
+    },
+    {
+      "case_id": "LD-018",
+      "reference_tokens_including_terminator": 10
+    },
+    {
+      "case_id": "LD-019",
+      "reference_tokens_including_terminator": 22
+    },
+    {
+      "case_id": "LD-020",
+      "reference_tokens_including_terminator": 17
+    },
+    {
+      "case_id": "LD-021",
+      "reference_tokens_including_terminator": 47
+    },
+    {
+      "case_id": "LD-022",
+      "reference_tokens_including_terminator": 113
+    },
+    {
+      "case_id": "LD-023",
+      "reference_tokens_including_terminator": 111
+    },
+    {
+      "case_id": "LD-024",
+      "reference_tokens_including_terminator": 22
+    },
+    {
+      "case_id": "LD-025",
+      "reference_tokens_including_terminator": 24
+    },
+    {
+      "case_id": "LD-026",
+      "reference_tokens_including_terminator": 48
+    },
+    {
+      "case_id": "LD-027",
+      "reference_tokens_including_terminator": 83
+    },
+    {
+      "case_id": "LD-028",
+      "reference_tokens_including_terminator": 68
+    }
+  ],
+  "maximum_reference_tokens": 113,
+  "references_over_cap": [],
+  "limit": "A model can still exceed the cap or the time deadline even when its reference fits."
+}

@@ -8,13 +8,14 @@ The retained reference is qualified Gemma4-31B step280. The latest mixed-supervi
 
 The expanded source-qualified release contains 10,152 typed records, or 10,151 after one prepared duplicate collapse. These are **not 10,151 translated sentences**. The latest run used 1,536 examples: 1,152 historical and 384 auxiliary, including 192 lexical records. It did not test training on the full expanded corpus. There was no matched historical-only continuation, so the result cannot isolate the effect of adding the data.
 
-The latest offline learning diagnostic prepares 28 prompts per checkpoint, separating selected lexical/conditioned learning from contextual transfer. It is deliberately a training-side diagnosis, not a new generalization score. Its inference runner is under prelaunch validation. Consult `experiments/learning-diagnosis-20260929/LAUNCH-READINESS.md` for the saved status; preparation and passing mock tests do not prove real GPU execution.
+The latest offline learning diagnostic prepares 28 prompts per checkpoint to compare auxiliary-task recall with contextual translation on a fixed sample; it cannot by itself establish acquisition or transfer. It is deliberately a training-side diagnosis, not a new generalization score. Its local checks are complete, including correction of a launcher settings-contract defect and independent tiny-model CPU checks. **The real server comparison has not run; training and paid inference are on hold at the user's instruction.** Consult `experiments/data-recheck-20260929/REPORT.md` for 53 structural checks, the bounded 21-record source review, configuration evidence and remaining limits. Passing these checks does not certify every corpus meaning or real GPU execution.
 
 ## Evidence map
 
 | Area | Start here |
 |---|---|
 | Current state and objective | `PROJECT_STATE.md`, `GOAL.md`, `DATASET-READINESS.md`, `SOURCE-COVERAGE.md` |
+| Latest local data/configuration recheck | `experiments/data-recheck-20260929/REPORT.md`, `INTEGRITY.md`, `SEMANTIC-SPOTCHECK.md`; `experiments/learning-diagnosis-20260929/INDEPENDENT-LAUNCH-REVIEW.md` |
 | Fresh independent audit of an external review | `experiments/strategy-audit-20260929/RESPONSE.md` and `external-review.txt` |
 | Complete data release and limitations | `experiments/data-qualification-20260928/README.md`, `release-v1.json`, `coverage-v1.json` |
 | Actual mixture and exposure | `experiments/mixed-supervision-20260929/prepare.py`, `PLAN.md`, `data-manifest.json`, `saved-data-inventory.json` |

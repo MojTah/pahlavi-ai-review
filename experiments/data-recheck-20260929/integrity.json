@@ -1,0 +1,488 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-29T18:28:43.663453+00:00",
+  "script_sha256": "403dd858a432be823789302814c8485bacd4826f4cf4d80af0cd13c8e153cf1c",
+  "scope": "Structural integrity and existing exclusion policy; not complete semantic certification",
+  "canonical_files": [
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/documentary-en.jsonl",
+      "bytes": 79224,
+      "rows": 57,
+      "sha256": "d604e2b66e8c38de18b5e0675fbc9a58f739efd6c845d3cf0a3661542796924b",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/duplicate-groups.jsonl",
+      "bytes": 13498,
+      "rows": 37,
+      "sha256": "d62951c5adf43a652e4c39a28ca2356925901b4722da9115bf72cc0cd22be0d4",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/edition-spans-en.jsonl",
+      "bytes": 5060,
+      "rows": 4,
+      "sha256": "62bed1c4712b464326c82e2dc0e7bb2cdbd754a88a23471ef7208d05a1ca2bf1",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/excluded.jsonl",
+      "bytes": 310672,
+      "rows": 2317,
+      "sha256": "8bd3aad462b9e9dd7802337acbd15f94b2d4edd3bf3115972749b9ce0a58abf0",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/historical-control-fa.jsonl",
+      "bytes": 5401884,
+      "rows": 2237,
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/inscription-fa.jsonl",
+      "bytes": 7258,
+      "rows": 6,
+      "sha256": "c56c346750d23910a96ab6be3dab6f1bfc153bfa9286c5517581fa8dbe6de6cc",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/lexical-en.jsonl",
+      "bytes": 5106904,
+      "rows": 3506,
+      "sha256": "4d8c2489eca369d0d11a3364f5844cb5440d32eb53777c4ad138f5aff16c0f48",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/lexical-fa.jsonl",
+      "bytes": 2195313,
+      "rows": 2676,
+      "sha256": "7979a688dc73a67f646920a668fbdeed6d1e21eb3f10f3810a59de9c427290fe",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/lexical-mmp-en.jsonl",
+      "bytes": 1465646,
+      "rows": 1426,
+      "sha256": "8411819339113f16ba45dab1c67ce8a044cb6ec5df3d589e912772ba207ff2aa",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/pedagogy-fa.jsonl",
+      "bytes": 287645,
+      "rows": 240,
+      "sha256": "d96d95610ac354222029d30ae0252425df57859ab8f23bfd14d68a6b71a8edd6",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/duplicates.jsonl",
+      "bytes": 164,
+      "rows": 1,
+      "sha256": "f7309ce15a59c272b3cec7c0b840bbc19c2f3ba870b144575376925c74f834dc",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/exclusions.jsonl",
+      "bytes": 0,
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/learning-projections.jsonl",
+      "bytes": 3784715,
+      "rows": 10152,
+      "sha256": "cca1cbdd84b8afc6e4d7cc28629e4fafeb2e10b501994709c53936f047f60bef",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/pool.jsonl",
+      "bytes": 18796392,
+      "rows": 10151,
+      "sha256": "e0c4a7ca6eeda6b498b3c8345c73b517c841019af2fc3c88350f131e730d80ed",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/row-audit.jsonl",
+      "bytes": 4873559,
+      "rows": 10151,
+      "sha256": "0bb3c5b4e8dbfa998768989fa00508f6b329f2f95eeadaf2ee47db18f62d9fb6",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/train.jsonl",
+      "bytes": 3546782,
+      "rows": 1536,
+      "sha256": "c32a7f21639c34107fd4a86c1c8dae3a8815b40c8107ff8c3075e0167535dc4a",
+      "frozen_identity_matches": true
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/census.json",
+      "bytes": 52067,
+      "rows": 1,
+      "sha256": "ebda721f77db1c60377d75cd3e9d578aebeb749a244c386d2ac96e896427b6fe",
+      "frozen_identity_matches": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "release_bound_by_mixed_manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "release_builder_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "mixed_builder_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "bundle_helper_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "canonical_file_sets",
+      "status": "PASS"
+    },
+    {
+      "check": "file_identity:documentary-en.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:duplicate-groups.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:edition-spans-en.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:excluded.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:historical-control-fa.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:inscription-fa.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:lexical-en.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:lexical-fa.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:lexical-mmp-en.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:pedagogy-fa.jsonl:ready-v1",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:duplicates.jsonl:data",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:exclusions.jsonl:data",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:learning-projections.jsonl:data",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:pool.jsonl:data",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:row-audit.jsonl:data",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "file_identity:train.jsonl:data",
+      "status": "PASS",
+      "blank_lines": 0
+    },
+    {
+      "check": "census_exact_manifest_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "no_blank_canonical_jsonl_lines",
+      "status": "PASS"
+    },
+    {
+      "check": "release_global_unique_ids",
+      "status": "PASS"
+    },
+    {
+      "check": "required_learning_fields_nonblank",
+      "status": "PASS",
+      "count": 0,
+      "example_ids": []
+    },
+    {
+      "check": "projections_unique_nonblank_ids",
+      "status": "PASS",
+      "rows": 10152
+    },
+    {
+      "check": "pool_unique_nonblank_ids",
+      "status": "PASS",
+      "rows": 10151
+    },
+    {
+      "check": "train_unique_nonblank_ids",
+      "status": "PASS",
+      "rows": 1536
+    },
+    {
+      "check": "row-audit_unique_nonblank_ids",
+      "status": "PASS",
+      "rows": 10151
+    },
+    {
+      "check": "verbatim_release_to_learning_projection",
+      "status": "PASS",
+      "mismatches": 0,
+      "example_ids": []
+    },
+    {
+      "check": "exact_complete_context_duplicate_policy",
+      "status": "PASS",
+      "collapsed_records": 1,
+      "duplicate_ids": [
+        {
+          "removed": "recovered:kosh:mmp:1267",
+          "retained": "recovered:kosh:mmp:1030"
+        }
+      ]
+    },
+    {
+      "check": "released_pool_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "train_is_exact_pool_subset",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_selection_and_consumed_order",
+      "status": "PASS"
+    },
+    {
+      "check": "per_update_12_2_2_order",
+      "status": "PASS",
+      "valid_updates": 96
+    },
+    {
+      "check": "tokenizer_identity:chat_template.jinja",
+      "status": "PASS"
+    },
+    {
+      "check": "tokenizer_identity:tokenizer.json",
+      "status": "PASS"
+    },
+    {
+      "check": "tokenizer_identity:tokenizer_config.json",
+      "status": "PASS"
+    },
+    {
+      "check": "pool_token_masks_boundaries_and_lengths",
+      "status": "PASS",
+      "checked_rows": 10151,
+      "bad_ids": []
+    },
+    {
+      "check": "pool_verbatim_target_and_terminator_decode",
+      "status": "PASS",
+      "checked_rows": 10151,
+      "bad_ids": []
+    },
+    {
+      "check": "row_audit_independent_hashes",
+      "status": "PASS",
+      "checked_rows": 10151,
+      "bad_ids": []
+    },
+    {
+      "check": "historical_token_arrays_unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "protected_policy_agrees",
+      "status": "PASS",
+      "protected_work_ids": [
+        103,
+        104,
+        110,
+        111,
+        112,
+        114,
+        116,
+        117,
+        118,
+        120,
+        124,
+        130,
+        132,
+        138,
+        152,
+        517
+      ]
+    },
+    {
+      "check": "historical_protected_work_exclusion",
+      "status": "PASS",
+      "bad_ids": []
+    },
+    {
+      "check": "historical_ledger_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "historical_exact_eligible_ledger_join",
+      "status": "PASS",
+      "ledger_rows": 2484,
+      "excluded_historical_rows": 247
+    },
+    {
+      "check": "excluded_ids_absent_from_learning",
+      "status": "PASS",
+      "exact_overlap_ids": []
+    },
+    {
+      "check": "persian_parent_resource_holds_excluded",
+      "status": "PASS",
+      "held_parent_count": 123
+    },
+    {
+      "check": "all_888_s22_glossary_groups_remain_excluded",
+      "status": "PASS",
+      "glossary_groups": 888,
+      "released_overlap_count": 0
+    },
+    {
+      "check": "source_archive_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "existing_source_only_containment_screen",
+      "status": "PASS",
+      "screened_rows": 61,
+      "short_rows_outside_policy": 246,
+      "protected_source_strings": 1555,
+      "bad_ids": []
+    },
+    {
+      "check": "surface_repetition_register_preserved",
+      "status": "PASS",
+      "surface_groups": 37
+    },
+    {
+      "check": "original_17_files_unchanged_after_read",
+      "status": "PASS"
+    }
+  ],
+  "targeted_exposure": {
+    "id": "S22GRAM-095",
+    "released_count": 1,
+    "projection_count": 1,
+    "pool_count": 1,
+    "train_count": 1,
+    "saved_consumed_count": 1,
+    "train_index_1_based": 1183,
+    "decoded_target_matches_release": true,
+    "target_sha256": "39375b34086f9a7be4dc54b26fb7bac1e7e0628c30889dcaccedfe30612cd965",
+    "semantic_status": "Initial omission claim withdrawn after independent source-page views: the extra gloss belongs to the following ka entry. Existing ku inventory and reported-speech context are retained correctly; no correction warranted. See SEMANTIC-SPOTCHECK.md; byte parity is not semantic certification."
+  },
+  "counts": {
+    "released_by_task": {
+      "documentary-en": 57,
+      "edition-spans-en": 4,
+      "historical-control-fa": 2237,
+      "inscription-fa": 6,
+      "lexical-en": 3506,
+      "lexical-fa": 2676,
+      "lexical-mmp-en": 1426,
+      "pedagogy-fa": 240
+    },
+    "pool_by_task": {
+      "historical-control-fa": 2237,
+      "lexical-fa": 2676,
+      "lexical-en": 3506,
+      "lexical-mmp-en": 1425,
+      "pedagogy-fa": 240,
+      "documentary-en": 57,
+      "inscription-fa": 6,
+      "edition-spans-en": 4
+    },
+    "train_by_task": {
+      "historical-control-fa": 1152,
+      "lexical-en": 64,
+      "lexical-fa": 96,
+      "documentary-en": 57,
+      "edition-spans-en": 4,
+      "pedagogy-fa": 127,
+      "lexical-mmp-en": 32,
+      "inscription-fa": 4
+    },
+    "exclusions_by_component": {
+      "lexical-fa": 123,
+      "lexical-en": 720,
+      "lexical-mmp-en": 564,
+      "unspecified": 16,
+      "textbook-glossary": 888,
+      "parsig-format-recovery": 4,
+      "s23": 2
+    },
+    "surface_repetition_groups": 37,
+    "shared_lexical_form_groups": 1108,
+    "historical_work_count": 76,
+    "historical_largest_work": [
+      [
+        "parsig:151",
+        1099
+      ]
+    ],
+    "selected_historical_largest_work": [
+      [
+        "parsig:133",
+        144
+      ]
+    ],
+    "pool_supervised_tokens": 234561,
+    "train_supervised_tokens": 67456,
+    "train_sequence_tokens": 258988,
+    "maximum_pool_sequence": 1144
+  },
+  "limits": [
+    "No new linguistic adjudication or source acquisition.",
+    "No benchmark reference answers parsed; source-only archived transcriptions used for copy screen.",
+    "Exact held-ID and >=5-word normalized containment checks do not prove absence of paraphrases, alternate witnesses or shared formulas.",
+    "Short forms and shared lexical forms are expected overlap; homonyms and source-scoped alternatives are not collapsed.",
+    "Cloud weights, cloud state, training/inference and source-redistribution rights were not revalidated."
+  ]
+}
