@@ -168,6 +168,36 @@
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
+    "path": "experiments/full-pretraining-audit-20260929/HISTORICAL.md",
+    "source_sha256": "087c5d2417f1e64a2f115e8efc6cc9c41507910ee5ef23421c5f9961163e961c",
+    "public_sha256": "811f7681f91836a8fa078512eb28d858daf6a28c9924c61e91a40e378171cef3",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/full-pretraining-audit-20260929/LEXICAL-FA-MMP.md",
+    "source_sha256": "1741065653a1e81927dc938547e96fbcb5aae8847fcd1355ddddd34da0cb707b",
+    "public_sha256": "3da6087d6fb29bc2e2c1e374a06ee6a76c886722a9cc1c9a9d1cc53b4da8b3d5",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/full-pretraining-audit-20260929/TRAINING.md",
+    "source_sha256": "771e9362806b39962002d83472f967e599be15ce90d803910949a34a91fa3dda",
+    "public_sha256": "d1e76aaeac0588877d764199fbad6b8b493472d24a6f20ba8ddac4721fc3046f",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/full-pretraining-audit-20260929/training-audit.json",
+    "source_sha256": "5339a4a2e2302a7d9f7d8dbefd5d7cb36070b580527b6127bd882c1fb452341c",
+    "public_sha256": "08fa94fee81d5b8998a3f78d79424ac1428b016653d016157afd1814dd2b2272",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/full-pretraining-audit-20260929/training_check.py",
+    "source_sha256": "a71f69bd583d22cb61bc5979cc9093e9674a19001115507a0889450c8e259150",
+    "public_sha256": "1ea71ac959721098aba4c2f7cf5837e1d1882a5b45d6067c2f15626303ed517c",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
     "path": "experiments/kosh-acquisition-20260928/QUALITY-HANDOFF.md",
     "source_sha256": "f1ad943a7c25e7bc3884e96ce2113263e3654bbbe0e4184e5a7378aaa6899234",
     "public_sha256": "a1a617527ed23f932d8783c4eff0f6881174fd652a37d4e6eda57388d3ec8a42",

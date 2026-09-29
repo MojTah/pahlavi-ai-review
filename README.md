@@ -4,6 +4,8 @@ Prepared 29 September 2026. Start with [the complete review prompt](REVIEW-PROMP
 
 ## Present conclusion
 
+**Latest full pretraining review: HOLD.** The [all-record audit](experiments/full-pretraining-audit-20260929/REPORT.md) found source-faithful but underdetermined lexical prompts: 150 groups / 319 rows have identical inputs with different complete-inventory targets. It also records standalone crossreference/note issues and 17 inherited formatting artifacts. A recovery-status bug was reproduced and fixed locally. Review the new evidence before relying on the earlier structural pass. Frozen data/results remain unchanged; no new cloud run or training is authorized.
+
 The retained reference is qualified Gemma4-31B step280. The latest mixed-supervision continuation completed, but did not improve the fixed development screen and increased critical errors. No new model is promoted. NLLB training and its later familiar-example diagnostic also completed; recommendations written before those runs are historical.
 
 The expanded source-qualified release contains 10,152 typed records, or 10,151 after one prepared duplicate collapse. These are **not 10,151 translated sentences**. The latest run used 1,536 examples: 1,152 historical and 384 auxiliary, including 192 lexical records. It did not test training on the full expanded corpus. There was no matched historical-only continuation, so the result cannot isolate the effect of adding the data.
@@ -15,6 +17,7 @@ The latest offline learning diagnostic prepares 28 prompts per checkpoint to com
 | Area | Start here |
 |---|---|
 | Current state and objective | `PROJECT_STATE.md`, `GOAL.md`, `DATASET-READINESS.md`, `SOURCE-COVERAGE.md` |
+| Superseding full pretraining review | `experiments/full-pretraining-audit-20260929/REPORT.md` and its five component reviews / all-record metadata ledgers |
 | Latest local data/configuration recheck | `experiments/data-recheck-20260929/REPORT.md`, `INTEGRITY.md`, `SEMANTIC-SPOTCHECK.md`; `experiments/learning-diagnosis-20260929/INDEPENDENT-LAUNCH-REVIEW.md` |
 | Fresh independent audit of an external review | `experiments/strategy-audit-20260929/RESPONSE.md` and `external-review.txt` |
 | Complete data release and limitations | `experiments/data-qualification-20260928/README.md`, `release-v1.json`, `coverage-v1.json` |

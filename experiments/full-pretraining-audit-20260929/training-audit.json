@@ -1,0 +1,170 @@
+{
+  "status": "PARTIAL",
+  "network_used": false,
+  "pretrained_weights_used": false,
+  "project_training_performed": false,
+  "scratch": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\resources\\local\\full-pretraining-audit-20260929\\runtime-tests",
+  "checks": {
+    "existing_tests": {
+      "passed": true,
+      "count": 27,
+      "failures": [],
+      "errors": [],
+      "log": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\resources\\local\\full-pretraining-audit-20260929\\runtime-tests\\existing-tests.log",
+      "scope": "Original tests, only SCRATCH assignments redirected in memory; tiny random CPU Gemma/LoRA only."
+    },
+    "original_native_loss_vs_mixed_override": {
+      "model_accepts_loss_kwargs_default": false,
+      "supervised_tokens": 7,
+      "native_num_items_in_batch": null,
+      "native_accumulated_loss": 3.469421148300171,
+      "manual_pooled_loss": 3.4922726154327393,
+      "manual_equal_example_loss": 3.469421148300171,
+      "max_gradient_difference_native_vs_pooled": 0.09763864427804947,
+      "scope": "Pinned Transformers/PEFT tiny CPU native loss and backward, no optimizer; historical GPU execution not replayed."
+    },
+    "actual_frozen_train": {
+      "rows": 1536,
+      "unique_ids": 1536,
+      "sequence_tokens": 258988,
+      "supervised_tokens": 67456,
+      "max_sequence": 1144,
+      "train_sha256": "c32a7f21639c34107fd4a86c1c8dae3a8815b40c8107ff8c3075e0167535dc4a",
+      "tokenizer_sha256": {
+        "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+      },
+      "terminators_match": true
+    },
+    "transport": {
+      "command_arg_utf8_bytes": [
+        6,
+        2,
+        2,
+        70100,
+        61360,
+        4
+      ],
+      "command_total_utf8_bytes_with_nul": 131480,
+      "decoded_command_sha256": "d4734e20d60cf4e7e02dbb4155d80d612b2babb521ec5dc5dcf5b08454ddc439"
+    },
+    "evaluation_failure_status_reproduction": {
+      "inner_training": {
+        "status": "completed",
+        "completed_steps": 96,
+        "consumed_slots": 1536
+      },
+      "outer_training_schedule_completed": false,
+      "outer_evaluation_complete": false,
+      "partial_receipt_exported": true,
+      "path": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\resources\\local\\full-pretraining-audit-20260929\\runtime-tests\\wrapper-failure-1790707604571987800\\exported"
+    },
+    "helper_pins": {
+      "contextual_train.py": true,
+      "runtime.py": true,
+      "bundle.py": true,
+      "dev_assisted.py": true,
+      "dev_diagnostic.py": true,
+      "palref_eval.py": true
+    },
+    "full_data_replay": {
+      "files": 7,
+      "all_bytes_equal": true,
+      "manifest_equal": true,
+      "script_sha256": "2aacc66128669e26b34db22c3f12139558ae88207a435cc43f1d6c2c61365ca2"
+    }
+  },
+  "source_sha256": {
+    "hf_mixed.py": "4fec5d53e300da55be2b297002e9ffe67397f335a2d30c7bca32c905b0eee23a",
+    "mixed_run.py": "514ad71cb634bbc3c24b13562a61815be823f02e0191a104200c8b965ff1cd72",
+    "mixed_train.py": "b81dd8dcd873f5e6134780def3541b7e1c9ce5e813041e5da224b78ac161adf4",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "bundle.py": "60094706124ee58b78a2b73b6a43c30eb9310a2a1d3786f83749e95b597b1a2d"
+  },
+  "local_environment": {
+    "system": "Windows",
+    "machine": "AMD64",
+    "python": "3.11.15",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.13.1",
+      "peft": "0.21.0",
+      "bitsandbytes": null,
+      "accelerate": "1.14.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.23.0",
+      "safetensors": "0.8.0"
+    },
+    "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "elapsed_seconds": 30.125,
+  "check_status": "PASS",
+  "findings": [
+    {
+      "id": "TRAIN-001",
+      "severity": "P2",
+      "location": "cloud_pilot/hf_mixed.py:127-157",
+      "summary": "Evaluation failure leaves outer training completion false despite completed inner training.",
+      "reproduced": true
+    }
+  ],
+  "after_repair_review": {
+    "status": "PASS",
+    "tests": 3,
+    "invalid_subcases": 11,
+    "extra_missing_receipt_checks": 2,
+    "elapsed_seconds": 3.9219999999995707,
+    "reviewer": "/root/report_training_audit",
+    "no_cloud_or_model_loading": true,
+    "serialized_validator_executed": true,
+    "original_error_preserved": true,
+    "source_sha256": {
+      "hf_mixed.py": "9c3a33135c7eb7eef446873243bcf7d0360377e42c0748faca026d9005f358de",
+      "test_hf_mixed_recovery.py": "b3367e76acca52de0e09080dd84aa73f4ee26486f963f5c31a7922a848a97c39"
+    },
+    "transport": {
+      "decoded_command_sha256": "3ca827c73fa3fc1e02650058537266e24cc9903237a7138dbe7e56d18f98794a",
+      "command_arg_utf8_bytes": [
+        6,
+        2,
+        2,
+        70608,
+        61360,
+        4
+      ],
+      "command_total_utf8_bytes_with_nul": 131988
+    },
+    "log": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\resources\\local\\full-pretraining-audit-20260929\\runtime-tests\\after-repair-tests.log"
+  },
+  "after_repair_final_confirmation": {
+    "status": "PASS",
+    "tests": 3,
+    "invalid_subcases": 12,
+    "includes_unchanged_canary_rejection": true,
+    "source_stable_during_tests": true,
+    "source_sha256": {
+      "hf_mixed.py": "9c3a33135c7eb7eef446873243bcf7d0360377e42c0748faca026d9005f358de",
+      "test_hf_mixed_recovery.py": "b3367e76acca52de0e09080dd84aa73f4ee26486f963f5c31a7922a848a97c39"
+    },
+    "no_cloud_or_model_loading": true,
+    "note": "Final count supersedes the earlier hard-coded invalid_subcases=11 report field; the original evidence is preserved."
+  },
+  "historical_replay_guard": {
+    "status": "PASS",
+    "expected_refusal_exit_code": 1,
+    "historical_evidence_unchanged_by_refusal": true,
+    "pre_repair_launcher_sha256": "4fec5d53e300da55be2b297002e9ffe67397f335a2d30c7bca32c905b0eee23a",
+    "current_launcher_sha256": "9c3a33135c7eb7eef446873243bcf7d0360377e42c0748faca026d9005f358de",
+    "guarded_check_script_sha256": "a71f69bd583d22cb61bc5979cc9093e9674a19001115507a0889450c8e259150",
+    "tests_or_project_training_rerun": false
+  },
+  "current_status": {
+    "verdict": "PASS_SCOPED_TRAIN_001_REPAIR",
+    "cloud_readiness": "UNVERIFIED",
+    "original_status_scope": "Historical pre-repair audit; original PARTIAL and reproduction preserved.",
+    "inactive_historical_wrapper": "Unmodified analogous risk; not a current approved execution path.",
+    "historical_reproducer": "Pinned to pre-repair launcher SHA; refuses stale replay without rewriting evidence."
+  }
+}

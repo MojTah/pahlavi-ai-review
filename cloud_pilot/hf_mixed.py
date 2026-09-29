@@ -17,17 +17,49 @@ emit, fresh_output, export_evidence = hf_train.emit, hf_train_recall.fresh_outpu
 run_logged = old.run_logged
 
 
-def completed_mixed(output, rows, settings):
+def completed_training(output, settings):
+    """Validate closed training evidence independently of later evaluation."""
     run = json.loads((output / 'run.json').read_text('utf-8'))
     training = json.loads((output / 'training/run.json').read_text('utf-8'))
+    manifest_path = output.parent / 'data-manifest.json'
+    if file_sha256(manifest_path) != settings['data_manifest_sha256']:
+        raise ValueError('Training recovery manifest checksum differs')
+    manifest = json.loads(manifest_path.read_text('utf-8'))
+    ordered = manifest['pilot']['selected_ids_in_order']
+    if (training.get('status') != 'completed' or training['completed_steps'] != 96
+            or training['consumed_slots'] != 1536 or len(ordered) != 1536 or len(set(ordered)) != 1536
+            or training['ordered_ids'] != ordered or training['parent_order_verified'] is not True
+            or training['settings'] != settings['training_settings'] or training['fresh_optimizer'] is not True
+            or training['admission']['admitted'] is not True
+            or training['canary_adapter_changed'] is not True
+            or training['runner_sha256'] != settings['script_hashes']['mixed_train.py']
+            or run['settings'] != settings['training_settings']
+            or run['train_sha256'] != settings['train_sha256']
+            or manifest['outputs']['train.jsonl']['sha256'] != settings['train_sha256']
+            or run['data_manifest_sha256'] != settings['data_manifest_sha256']
+            or run['runner_sha256'] != settings['script_hashes']['mixed_run.py']
+            or run['script_hashes'] != settings['script_hashes']):
+        raise ValueError('Incomplete or mismatched training recovery receipt')
+    folder, files = output / 'training/adapter', training['adapter_files']
+    required = {'adapter_config.json', 'adapter_model.safetensors'}
+    if (not isinstance(files, dict) or not required <= set(files)
+            or any(Path(name).name != name for name in files)
+            or not folder.is_dir() or {p.name for p in folder.iterdir()} != set(files)):
+        raise ValueError('Training recovery adapter inventory differs')
+    for name, expected in files.items():
+        path = folder / name
+        if (not path.is_file() or path.is_symlink() or path.stat().st_size == 0
+                or file_sha256(path) != expected):
+            raise ValueError('Training recovery adapter checksum differs')
+
+
+def completed_mixed(output, rows, settings):
+    completed_training(output, settings)
+    run = json.loads((output / 'run.json').read_text('utf-8'))
     evaluation = json.loads((output / 'evaluation/run.json').read_text('utf-8'))
     results = [json.loads(s) for s in (output / 'evaluation/predictions.jsonl').read_text('utf-8').splitlines()]
     expected = settings['evaluation_schedule']
-    if (run.get('status') != 'completed' or training.get('status') != 'completed'
-            or training['completed_steps'] != 96 or training['consumed_slots'] != 1536
-            or training['settings'] != settings['training_settings'] or training['fresh_optimizer'] is not True
-            or training['parent_order_verified'] is not True or training['admission']['admitted'] is not True
-            or run['train_sha256'] != settings['train_sha256'] or run['runner_sha256'] != settings['script_hashes']['mixed_run.py']
+    if (run.get('status') != 'completed'
             or evaluation.get('status') != 'completed' or evaluation['completed_outputs'] != 24
             or evaluation['completed_cases'] != 24 or evaluation['attempted_outputs'] != 24
             or evaluation['recorded_outputs'] != 24 or evaluation['unattempted_output_ids']
@@ -40,9 +72,6 @@ def completed_mixed(output, rows, settings):
         if (result['status'] not in {'success', 'abstain'} or result['arm'] != 'candidate'
                 or result['input_sha256'] != hashlib.sha256(row['source_text'].encode()).hexdigest()):
             raise ValueError('Mixed evaluation source/first attempt differs')
-    for name, expected_hash in training['adapter_files'].items():
-        if file_sha256(output / 'training/adapter' / name) != expected_hash:
-            raise ValueError('Final adapter checksum differs')
 
 
 def mixed_body(settings, stage, deadline, evidence):
@@ -155,6 +184,12 @@ def execute_mixed(settings, scripts, bootstrap_prefix):
     except BaseException as error:
         failure = error
         identity.update(error_type=type(error).__name__, error=str(error))
+        try:
+            completed_training(evidence / 'mixed', settings)
+        except Exception as validation_error:
+            emit('training_completion_unverified', error_type=type(validation_error).__name__)
+        else:
+            identity['training_schedule_completed'] = True
         emit("mixed_incomplete", **identity)
     finally:
         signal.alarm(max(1, int(max(0, deadline - time.monotonic()))))
@@ -210,7 +245,7 @@ def prepare(train_path, manifest_path, run_id=None):
         export_reserve_seconds=600, maximum_wait_seconds=300, max_export_bytes=2 * 1024**3)
     code = 'import base64,hashlib,json,os,re,signal,stat,sys,tempfile,time,zipfile\nfrom pathlib import Path,PurePosixPath\n'
     for function in (file_sha256, safe_extract, remaining, emit, fresh_output, export_evidence,
-                     completed_mixed, run_logged, mixed_body, execute_mixed):
+                     completed_training, completed_mixed, run_logged, mixed_body, execute_mixed):
         code += inspect.getsource(function) + '\n'
     code += 'settings = ' + repr(settings) + '\nscripts = ' + repr(scripts) + '\n'
     code += 'execute_mixed(settings, scripts, ' + repr(prefix) + ')\n'

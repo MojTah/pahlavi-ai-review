@@ -4,6 +4,8 @@ Prepared 29 September 2026 for static scientific and implementation review. This
 
 ## Identity and checkpoint lineage
 
+Current reuse restriction: the [full pretraining review](experiments/full-pretraining-audit-20260929/REPORT.md) places the unchanged full-pool learning projection on HOLD. Executed recipes below remain historical evidence. The mixed wrapper now verifies training completion independently when later evaluation fails; that local recovery repair does not alter any previous checkpoint or authorize a new run.
+
 | System | Frozen identity | Executed lineage |
 |---|---|---|
 | Gemma original | [`google/gemma-4-31B-it`](https://huggingface.co/google/gemma-4-31B-it), revision `842da3794eaa0b77d5f08bae87a17459d91ff475`; `Gemma4ForConditionalGeneration` | Pinned pretrained base, without the project's adapter. |
