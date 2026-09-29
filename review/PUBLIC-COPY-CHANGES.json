@@ -252,6 +252,18 @@
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
+    "path": "experiments/training-ready-v2-20260929/READINESS.md",
+    "source_sha256": "3bd51a38facea8bbcd7cc723c7d7de502236294e199f4ff985aed5c8686224d3",
+    "public_sha256": "e8fe8c100e13493a8855bbe18a29e74c8eb2338e8af204cf82bf467ec017d703",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/training-ready-v2-20260929/lexical-review.md",
+    "source_sha256": "cac0448e9e45af08187c2d1af7d5559946b7aa908da25088bd9de6a9544c1be8",
+    "public_sha256": "d283151aa0e5e983ba00c58b4dacf533e33dc51295d45f1a2216b6252b63a5a2",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
     "path": "output/research-2026-09-25/TRAINING_STRATEGIC_CONSULTATION.md",
     "source_sha256": "7c7044fac303747f02c255374a4be5de3fe4e153d0da5716f15537e3b75e57de",
     "public_sha256": "c851bd3c3b1094477bca4f09c0c2224d775886b025c6b944e972a3e8239611f8",

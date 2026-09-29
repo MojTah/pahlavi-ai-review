@@ -214,7 +214,11 @@ def prepare(train_path, manifest_path, run_id=None):
     root = Path(__file__).resolve().parent
     train_sha, manifest_sha = file_sha256(train_path), file_sha256(manifest_path)
     settings = dict(train_sha256=train_sha, data_manifest_sha256=manifest_sha)
-    mixed_run.read_data(train_path, manifest_path, settings)
+    _, manifest = mixed_run.read_data(train_path, manifest_path, settings)
+    if (manifest.get('version') != 'corrected-v2'
+            or manifest.get('status') != 'LOCAL_DATA_CHECKS_PASS_NOT_LAUNCH_AUTHORIZATION'
+            or manifest.get('unresolved_prompt_collisions') != 0):
+        raise ValueError('Corrected and validated v2 data required; historical projections cannot be relaunched')
     prompts_path = root.parent / 'resources/local/contextual-run-package/dev-prompt-identities.json'
     prompt_manifest = json.loads(prompts_path.with_name('manifest.json').read_text('utf-8'))
     if (file_sha256(prompts_path.with_name('manifest.json')) != old.PACKAGE_MANIFEST_SHA256

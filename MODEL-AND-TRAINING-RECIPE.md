@@ -4,7 +4,7 @@ Prepared 29 September 2026 for static scientific and implementation review. This
 
 ## Identity and checkpoint lineage
 
-Current reuse restriction: the [full pretraining review](experiments/full-pretraining-audit-20260929/REPORT.md) places the unchanged full-pool learning projection on HOLD. Executed recipes below remain historical evidence. The mixed wrapper now verifies training completion independently when later evaluation fails; that local recovery repair does not alter any previous checkpoint or authorize a new run.
+Current reuse restriction: the unchanged v1 projection remains blocked by the [full pretraining review](experiments/full-pretraining-audit-20260929/REPORT.md). Its [corrected v2 successor](experiments/training-ready-v2-20260929/README.md) passed local data/package checks and has a prepared96-update repair comparison from retained step280; **that run has not occurred**. Live funding and GPU/persistence gates remain pending. Executed recipes below remain historical evidence. Recovery and early data-admission repairs do not alter previous checkpoints or authorize a new run.
 
 | System | Frozen identity | Executed lineage |
 |---|---|---|

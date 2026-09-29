@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-29",
+  "reviewer": "/root/uncertainty_closure",
+  "status": "PASS_WITH_NARROW_HOLDS_AND_EXACT_DERIVATIONS",
+  "scope": "Eight flagged nonlexical semantic cases plus all17 target-formatting rows; no evaluation targets read. This is bounded AI/source review, not whole-corpus expert certification.",
+  "inputs": {
+    "resources/local/data-qualification-20260928/ready-v1/historical-control-fa.jsonl": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+    "resources/local/data-qualification-20260928/ready-v1/documentary-en.jsonl": "d604e2b66e8c38de18b5e0675fbc9a58f739efd6c845d3cf0a3661542796924b",
+    "experiments/full-pretraining-audit-20260929/historical-audit.json": "10db2881959cd3b928f37faccfc7c53ab61d0e6026694a5a032c78abcb1bbb1e",
+    "experiments/full-pretraining-audit-20260929/auxiliary-audit.json": "7f026303b7c2756167d80aae673104a738d2ea4e6a73776256f2eabbe0f4110c",
+    "experiments/mixed-supervision-20260929/prepare.py": "2aacc66128669e26b34db22c3f12139558ae88207a435cc43f1d6c2c61365ca2"
+  },
+  "hold_ids": [
+    "parsig:151061036:pal>fa",
+    "parsig:123000032:pal>fa",
+    "parsig:136006008:pal>fa",
+    "iedc:IEDC1262:folio0",
+    "iedc:IEDC1265:folio0",
+    "iedc:IEDC1040:folio0",
+    "openampd:MP6003:full"
+  ],
+  "unchanged_admit_ids": [
+    "openampd:MP2100:greeting"
+  ],
+  "blanket_proposed_rule_approved": false,
+  "blanket_rule_issue": "Deleting U+200E/U+00AD joins Persian letters. Use exact-ID control-to-ZWNJ substitutions instead, with one independently sourced missing conjunction boundary repaired in an already affected row.",
+  "summary": {
+    "semantic_cases": 8,
+    "holds": 7,
+    "unchanged_source_conditioned_admissions": 1,
+    "typography_rows": 17,
+    "repeated_zwnj_rows": 14,
+    "exact_control_to_zwnj_rows": 3,
+    "additional_space_boundary_rows_within_same17": 1
+  },
+  "additional_damage_scope_check": {
+    "method": "Scanned all released OpenAMPD raw ab blocks for damage/del/add/choice/subst/sic/corr/orig/reg, then checked selected line scopes.",
+    "MP6003": "A retained empty damage element after xwaday was lost by the existing renderer; row held.",
+    "MP2561": "Only other damage element lies on excluded line1. Released lines2–4 do not include it; no new hold.",
+    "full_corpus_cleared": false
+  },
+  "limitations": [
+    "No independent manuscript decipherment or professional philological certification.",
+    "No claim that the7 held translations are false, nor that they caused previous model regression.",
+    "MP2100 remains an edition interpretation, not literal temporal completeness gold.",
+    "Raw/frozen data unmodified; proposed derivations must be applied only to a new version with exact before/after hashes, retokenization and admission checks.",
+    "No model inference, project training, cloud/network/credential actions or evaluation-answer reads."
+  ],
+  "decisions": [
+    {
+      "id": "parsig:151061036:pal>fa",
+      "decision": "HOLD",
+      "reason_code": "APPARATUS_NEGATIVE_SCOPE",
+      "reason": "The exact archived source includes an angle-bracketed negative inside a negative conditional, while the Persian purpose clause is positive. Adjacent archived paragraph explains harmful creatures dying through ritual, but does not establish the edition's bracket/deletion convention. Do not allege a reversal or delete negation; hold this row pending convention and scope resolution.",
+      "confirmed_translation_error": false,
+      "source_sha256": "95cb615fa24544aedc66d5afc9d59442a0a051ee16b869aecc5d5c7c5f2005d9",
+      "target_sha256": "1e548575d8a0840fde986121fc58c57a75a414b2d6e6c98c8f52a7e42c63ba28",
+      "context_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/c6516c028cf9a7a0b097d4ee4751b0a76aa196e2a9958a26e7609974096f4c02.json",
+      "raw_sha256": "0ed23a5f30d6810401844364f749cb21899e9cda07d9a3b5a9c59e94c20817d0",
+      "raw_locator": {
+        "json_pointer": "/36",
+        "publisher_code": "151061036"
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "hold"
+    },
+    {
+      "id": "parsig:123000032:pal>fa",
+      "decision": "HOLD",
+      "reason_code": "APPARATUS_PARTICIPANT_SCOPE",
+      "reason": "Persian and the archived English translation both treat Amitus as Caesar's nephew. The source has bracketed ud in the participant expression. Parallel editions support the appositional reading, but the present plain translation input supplies no apparatus convention explaining the bracketed conjunction. Hold rather than choose or train away a potentially material participant distinction.",
+      "confirmed_translation_error": false,
+      "source_sha256": "16fbc9832a42a5c779ff7708dcabbe2d257cc58268cb3c68383b981e1115bb3d",
+      "target_sha256": "125413b10a91ee2934e5701663cec1507016dae680f347ce79769b03526b579d",
+      "context_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/7ceb05bbd36b94491437e221fa51b596bebcb44a42866f8a5da1a15f42141635.json",
+      "raw_sha256": "f941f2c7813181cec60f6ab969bb3f0cdd8d829a7f6a9f26f791a8e764953318",
+      "raw_locator": {
+        "json_pointer": "/32",
+        "publisher_code": "123000032"
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "hold"
+    },
+    {
+      "id": "parsig:136006008:pal>fa",
+      "decision": "HOLD",
+      "reason_code": "UNCONDITIONED_ALTERNATIVE_READING",
+      "reason": "The source explicitly lists kym/kē-m/nūn alternatives. Persian اکنون and archived French À présent both choose the now reading. This supports a published interpretation, not resolution of the alternatives in the unconditioned input. Hold until a reviewed apparatus-conditioned projection can represent that choice without pretending alternatives disappeared.",
+      "confirmed_translation_error": false,
+      "source_sha256": "9a29304112b275b07a082f48d852ec5b0a023dea183e215d42509bd2c426b113",
+      "target_sha256": "4bbd673220d8f0050414eaf91ee8f9ce54b0fe0af08f3a62d7999eb6430a95af",
+      "context_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/1f436ad904e0837a64b53278aa9fc67646d4ef0f627c33db5b60e144917eff88.json",
+      "raw_sha256": "a245cb91f4ed74c29a3ec668476b8df22df70e7ec806d6da24f6fd1a69e39081",
+      "raw_locator": {
+        "json_pointer": "/7",
+        "publisher_code": "136006008"
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "hold"
+    },
+    {
+      "id": "iedc:IEDC1262:folio0",
+      "decision": "HOLD",
+      "reason_code": "UNMARKED_UNCERTAIN_RECIPIENT",
+      "reason": "Archived source has restored/questioned ra[hīg] [?], but its English servant has no corresponding uncertainty mark. Complete current prompt/context requests retaining uncertainty. Source-side warning is present but does not make a certain-looking supervised target fulfill that task. Hold instead of inventing a target annotation.",
+      "confirmed_translation_error": false,
+      "source_sha256": "92c557cafedfc0ce179cec846ad92b52dee5d1d0767a723ec7ad146346e5f22a",
+      "target_sha256": "7b780a30fcd0ec04ae37fa8c37336f0aeabaea05e0f5427f4e9bff00fdb6e735",
+      "context_sha256": "83c466d06a9c035595413434cb730468a938382bd648acffe9bc47501ff65e34",
+      "raw_path": "sources/local/public-texts-2026-09-20/invisible-east/raw/731b861881223408575150879df686759f0b56bbb368dca6ab17edff1f5ade6f.source",
+      "raw_sha256": "94a517d2048e245e14e5d0c5ec025e8bc7a10ac16727ca01b7a0dec3287d9fb3",
+      "raw_locator": {
+        "source": {
+          "json_pointer": "/6/folios/0/transcription"
+        },
+        "target": {
+          "json_pointer": "/6/folios/0/translation"
+        }
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "hold"
+    },
+    {
+      "id": "iedc:IEDC1265:folio0",
+      "decision": "HOLD",
+      "reason_code": "UNMARKED_UNCERTAIN_PERSON",
+      "reason": "Alternative hungry one/for the food readings are retained in English, but source Burzādur [?] becomes an unqualified name. This is a narrow uncertainty-retention concern, not a finding that the name or entire translation is false. Hold until source-derived uncertainty can be represented with a reviewed mapping.",
+      "confirmed_translation_error": false,
+      "source_sha256": "f7ca929dd2edbb00826c065f7f6ced9ae60ccc12b5510b1ee4f27deb07d28c5c",
+      "target_sha256": "bd4280e500264f5bba224ebb06f9bf3d9af898c702ee3f42a20412d785b39daa",
+      "context_sha256": "c2829aec57a422803e5578cfc14cfae01db87c4aaa1e740392b89a9a4a470165",
+      "raw_path": "sources/local/public-texts-2026-09-20/invisible-east/raw/731b861881223408575150879df686759f0b56bbb368dca6ab17edff1f5ade6f.source",
+      "raw_sha256": "94a517d2048e245e14e5d0c5ec025e8bc7a10ac16727ca01b7a0dec3287d9fb3",
+      "raw_locator": {
+        "source": {
+          "json_pointer": "/149/folios/0/transcription"
+        },
+        "target": {
+          "json_pointer": "/149/folios/0/translation"
+        }
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "hold"
+    },
+    {
+      "id": "iedc:IEDC1040:folio0",
+      "decision": "HOLD",
+      "reason_code": "UNMARKED_UNCERTAIN_MEASURE",
+      "reason": "Source pēlag [?] becomes unqualified pēlag in target. Raw edition content summary also explicitly describes uncertainty concerning payer and payment. Existing fragment/edition context is preserved, but the target does not retain the local question. Hold under the exact uncertainty-preservation task; no new payer, unit or meaning is inferred.",
+      "confirmed_translation_error": false,
+      "source_sha256": "65db124973f69247ba4e8f12b295621511e7af9800dcf3b62f3bfd3388d794da",
+      "target_sha256": "383589876ec519bcc2e420e1d2c256b0a4787d5dfbb63139e048020e7293cb73",
+      "context_sha256": "1f11edc74a5db3f1228f2a915a5fed55f25497bc6f57b14a33dccd1ebcd416bc",
+      "raw_path": "sources/local/public-texts-2026-09-20/invisible-east/raw/731b861881223408575150879df686759f0b56bbb368dca6ab17edff1f5ade6f.source",
+      "raw_sha256": "94a517d2048e245e14e5d0c5ec025e8bc7a10ac16727ca01b7a0dec3287d9fb3",
+      "raw_locator": {
+        "source": {
+          "json_pointer": "/157/folios/0/transcription"
+        },
+        "target": {
+          "json_pointer": "/157/folios/0/translation"
+        }
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "hold"
+    },
+    {
+      "id": "openampd:MP6003:full",
+      "decision": "HOLD",
+      "reason_code": "UNMARKED_UNCERTAINTY_AND_DROPPED_TEI_DAMAGE",
+      "reason": "Unclear source letters in address/name are not mirrored in the target; target has separate questioned names. Independently reading raw TEI also finds an empty damage element after xwadāy, absent from serialized source because the current renderer only annotates gap/unclear/supplied. Hold this row; do not fix by symmetrically adding question marks without source-bound annotation rules.",
+      "confirmed_translation_error": false,
+      "source_sha256": "13c146399ce2d318c3855960da10843fadacc2612c52b83f3441aaa11a624024",
+      "target_sha256": "0e7194148d6cff886f8959e3e442059fcbed25234c8cbd49dd5f8e0798a41629",
+      "context_sha256": "8784fc71ec2f7e73b46eb2a468850ac0f1e21902600173e5a2c9cbd1c3578875",
+      "raw_path": "sources/local/public-texts-2026-09-20/berkeley/raw/e53e7ccfc4251bd932ae6df4a49b4aed751638c4f642bfee894427c266172f37.source",
+      "raw_sha256": "50689e881e71207730f3dd4ddcbdbc3b9a5f066a41149443179971cdfea8e699",
+      "raw_locator": {
+        "source": [
+          {
+            "block_id": "MP6003_trc-p1",
+            "labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11"
+            ],
+            "type": "transcription",
+            "language": "pal"
+          }
+        ],
+        "target": [
+          {
+            "block_id": "MP6003_trans-p1",
+            "labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11"
+            ],
+            "type": "translation",
+            "language": "en"
+          }
+        ]
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "hold"
+    },
+    {
+      "id": "openampd:MP2100:greeting",
+      "decision": "ADMIT_UNCHANGED_WITH_EXISTING_CONTEXT",
+      "reason_code": "SOURCE_BOUND_IDIOM_NOT_LITERAL_GOLD",
+      "reason": "The original TEI lines4–6 express a greeting with hamē; English has no separately explicit temporal adverb. The whole selected scope and its plural wish, health/fortune, gaps and editorial parentheses agree with the archive; greetings can express a continuing wish idiomatically. A missing standalone English word is insufficient evidence of a defective translation. Admit as the already scoped published documentary interpretation, not as expert-verified literal temporal gold. Preserve complete context and source uncertainty; do not generate an always repair.",
+      "confirmed_translation_error": false,
+      "source_sha256": "71759aa3456844b6c2837c59c1e6df4efec556783ac732d4f5ddb1bdbe62bc0e",
+      "target_sha256": "9862fd1a19616dac0c9ddf10f9134af7cae5ba9b46eb0f70b4e3e979f5ec2320",
+      "context_sha256": "e57ed060b9d9b5b81161ba9617f6d69095e7e30d9fa7048c0f6687934312dbbd",
+      "raw_path": "sources/local/public-texts-2026-09-20/berkeley/raw/644c70757410c66369455f60b1c8c33d3e1bfb81d73ed3d576084ac57ee093de.source",
+      "raw_sha256": "1a47953b3d336cf4d746e82ae9ee7cbbd8b2f97dd9fa596bac8cbe1f2083c126",
+      "raw_locator": {
+        "source": {
+          "block_id": "MP2100_trc-p1",
+          "labels": [
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "target": {
+          "block_id": "MP2100_trans-p1",
+          "labels": [
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      },
+      "target_replacement": null,
+      "raw_source_read": true,
+      "canonical_source_target_and_context_read": true,
+      "action": "admit"
+    }
+  ],
+  "typography": [
+    {
+      "id": "parsig:133000037:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "220ed7f2d9a52a4898c23f86204f68e6876e132a450540ec2dbe37f2ab20e512",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/348b5dcdbb77680ae9914502ed82bad9c920c36a7d3c40f9e0c358d807b739c6.json",
+      "raw_sha256": "6dfec24d96af16d5461a42fe9abe5dbe93888083a6f86b8a412a9937c93b18dd",
+      "raw_json_pointer": "/37",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "20c784f02d0fdfc45daa954c87c760672cfde7a02ab6647aa5c970289558c087",
+      "after_sha256": "2b5a10f9ee5bf1aadbc815291f254f3b16de18bb3bf807d2c287fa3950dd63cd",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:133000089:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "b39fab9debd71e10f1d96443c4d6de6627734335876037596ff6be8500caa4ab",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/348b5dcdbb77680ae9914502ed82bad9c920c36a7d3c40f9e0c358d807b739c6.json",
+      "raw_sha256": "6dfec24d96af16d5461a42fe9abe5dbe93888083a6f86b8a412a9937c93b18dd",
+      "raw_json_pointer": "/89",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "f2b4a0dabc27943d1a5b31313a0d348f9c8801f3ef51587c99736b7a89953064",
+      "after_sha256": "43334f54df8850cfe2de0577974f588dc98490ba50fc9a415b2341df2ba27f8a",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:133000265:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "49ab22af534fd314b46d23ea872ed9f8c5e465a7594929f3270493ee16646b6a",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/348b5dcdbb77680ae9914502ed82bad9c920c36a7d3c40f9e0c358d807b739c6.json",
+      "raw_sha256": "6dfec24d96af16d5461a42fe9abe5dbe93888083a6f86b8a412a9937c93b18dd",
+      "raw_json_pointer": "/265",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "846f0742627e61e4a313a3936f7a9085d9d66659e3c0b326657fd20dc11d21f0",
+      "after_sha256": "dced09e00dd00ccee0f65645b8be152365f8c29d0801f3ecffc50b6b387e0f0b",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:151001160:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "8e667ce2f3e910c6161be1499cc29ba98a857035358aae9788ff43b1b6997b41",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/d5837e516d7d01f61da4f44f68f64167a69b42183c46b31d0057b59141651154.json",
+      "raw_sha256": "546c32d199bf9c32c930904de0042342342256aeee3b0e0effadea55c08faa31",
+      "raw_json_pointer": "/160",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "90596004bc0786ac81e9656339eb26fd8c308df73eb6c25458ec75cbf2864379",
+      "after_sha256": "6097274be1b910084560276d7a650b7752f35ee6fc35b068182e1857781a00a9",
+      "operations": [
+        {
+          "old": "بزه‎ای",
+          "new": "بزه‌ای",
+          "expected_occurrences": 1,
+          "reason": "Replace accidental format control at an attested Persian morphological boundary with ZWNJ; deleting it joins the letters."
+        }
+      ]
+    },
+    {
+      "id": "parsig:151006015:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "d40dc9920d6f73051207c58ca07a7a80a02dc4ffdaaf90fe11d3a679d2e9d27d",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/94d6cfda0c2cfd5f2361eb5e310147fa300960d6146eaa00716e5f8ed5270692.json",
+      "raw_sha256": "158b55346c42c16066d0908fd6fa3a8cefda23536c5df330e71988e3e7559119",
+      "raw_json_pointer": "/15",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "d20350d86a425722d3c57bd0bcd19e4753f0df7708c39993b44240a99bc7481c",
+      "after_sha256": "17b4372969062ee1ef24a521574351ce4052c3f38847ccc2ea18ea96cdb86c8a",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        },
+        {
+          "old": "خوش‌ترو",
+          "new": "خوش‌تر و",
+          "expected_occurrences": 1,
+          "reason": "Separate existing Persian conjunction; archived Pahlavi explicitly has xwaštar ud. No letter, word or sense is supplied."
+        }
+      ]
+    },
+    {
+      "id": "parsig:151042005:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "618a45c74cd25d2a614a4499409fb62bc55d167bc38088451d27eee0aff749fa",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/7cb6da2134404c8cd24921cade130a49f82305c1b168fdfb928d954b2f6ecb60.json",
+      "raw_sha256": "1dda21a997fccb5bb8ddbb289f9eddf4cda7c0ad7e310e2727a0f67178861a71",
+      "raw_json_pointer": "/5",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "35e2387f0b1881ac9dc60378f8ac8fcbb3a7ddad4b83dd1b896ef4a9bdcd3a83",
+      "after_sha256": "31a8693e65bcb117049b0ac0cfa12cea741f8a5fab0430059771b661f4b7ce50",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:134007039:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "8456b1442d5571c6e373dcc05570ed553c1057adb271ad6f38831d2a09babb53",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/d16626d600771a523ed15915fe93eded69fe4fbb316155ac86ceae8c5725de33.json",
+      "raw_sha256": "8c70b315f693de91d4d06dcc018b01b767538ceafc92bfa10fceaa7721dbbcd3",
+      "raw_json_pointer": "/38",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "f458b0a29294e5ba61430592d325c0836b8c7c110e994e157ba926c9c6b663bc",
+      "after_sha256": "c10e96afd10cd939c4c06316145fc955270e80cf842ae1e5921bd9e0e4ec574a",
+      "operations": [
+        {
+          "old": "‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:109000003:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "bc16d46872fa6c0bfa768c0c771779f8660bfb387015d94bc60ed03a8623828f",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/df124169fbb186fec6e6acbd4bb26890239d779708e2e408edd0a58f76f5feb7.json",
+      "raw_sha256": "61d210ec6f59c44cd45305ccabebbe493f0de63867d22d442a17ae5095ae04e7",
+      "raw_json_pointer": "/3",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "a40c0f662418375a2f83b32bbd769a682889e19f946d25e7e9b9a1a5dd9fee8e",
+      "after_sha256": "94fc78e834d02517e7b5c67e3f1c4e97ee4f1045d38bb67c165627aea66cdf17",
+      "operations": [
+        {
+          "old": "به­کار",
+          "new": "به‌کار",
+          "expected_occurrences": 1,
+          "reason": "Replace accidental format control at an attested Persian morphological boundary with ZWNJ; deleting it joins the letters."
+        }
+      ]
+    },
+    {
+      "id": "parsig:109000011:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "c37963ec3e85b451e0c671d3bb38f48e9e6a2fcdb049df0f9d546931bd0f6ee8",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/df124169fbb186fec6e6acbd4bb26890239d779708e2e408edd0a58f76f5feb7.json",
+      "raw_sha256": "61d210ec6f59c44cd45305ccabebbe493f0de63867d22d442a17ae5095ae04e7",
+      "raw_json_pointer": "/11",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "d38fbb0144d7e38267cd4bb2c43c2eba5b25a74f13272950b10d4e514ab2478c",
+      "after_sha256": "e8cea3df58de7190322eb6fe304cd4016799859f79c694a0081603372cac4c10",
+      "operations": [
+        {
+          "old": "می­خواهند",
+          "new": "می‌خواهند",
+          "expected_occurrences": 1,
+          "reason": "Replace accidental format control at an attested Persian morphological boundary with ZWNJ; deleting it joins the letters."
+        }
+      ]
+    },
+    {
+      "id": "parsig:559000003:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "331bdd29f6202e8e68537a45e581acc772a6cf1772331a1d7f3794d7a753a1f7",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/d5a489713f448a3df373a346edbfc09f6f9f869a793b909c623e6a10f686dae2.json",
+      "raw_sha256": "e9defd29a37fb10a49e6bcc16d2e95a8f895bb69552026e40566dfdbba76c40d",
+      "raw_json_pointer": "/2",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "f126b0d7fd705640f4ad0cc2fd30c1b0b3cd0f0cbc40088dde111a7bface2cff",
+      "after_sha256": "2664e7c90931441e89d6ef11c63354e4c6d9cc0cafece1dd2e6efef924e6af1a",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:540000003:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "a5241f85a8e85ea1ebe2a4e07ffe0f4921dddce49e9286941db146c7c71aaf14",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/86c69ce11ff329a5712f693e13c2cb601a5ff2dc3b0ad8115594fec1f0b43804.json",
+      "raw_sha256": "64d845eaa4abd31c466adde194b514c348bef19db3e5734e9f61cf04c695be80",
+      "raw_json_pointer": "/2",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "3407233dff7458f163faba3505a1bdf3b8108c2ee98b6a8e568f3b871809f9e0",
+      "after_sha256": "ac44eb829282402507bee7606d0e0d3748226a4af607e7ceab56c449cbff3683",
+      "operations": [
+        {
+          "old": "‌‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:531000003:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "fbe98bfa69662a2324d2b90728191811cd8ba5f68563fe00c57970215418742b",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/ddd57ce51af2bf70f81a1e16803f6e0cceb500a201b295c0973ad675b19549d0.json",
+      "raw_sha256": "154312325dad433cfa6c456702d5ea04ba06cd24bbc6ec95e44bc5033d05bd14",
+      "raw_json_pointer": "/2",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "a5e1a65191117dd2f239e25c3569f7cff10f6f67ba000a7050317bdf2e8f0627",
+      "after_sha256": "e04cb5fb2825ebb5fada5f758ae4861f60883eb70aaa68d4fef5491b229c789a",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:539000003:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "b0422e07e46b67c1f8d4b141ceab4e0cd359b2bd28229e96a5a9f7f3e16cf21b",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/41705ca6107bc8f3d94eaf314e7b85336a915052f7246029eab4869f0191932b.json",
+      "raw_sha256": "e54247550d9d92648c50bf6be7a6411fb4b0acaca1c4d0373fa5c1c20ac69f5e",
+      "raw_json_pointer": "/2",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "b9e2ff7ea0254551d1a9fbb9c3449b478f05837119346be683cbd4f42f085a5e",
+      "after_sha256": "240516fe844708ef1e7ff02dc7c6ecb7f78629c8887ae5e327cdddabd9edd3f6",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 2,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:557000001:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "b968fe880829069f1f855ff7e194f1f021d8354fde6752f6e3ae84d4deece544",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/e3cea542ddf2c2b6b838d95ca2fbec7b18320eb3cb6e10af84f9238ba99fc0f2.json",
+      "raw_sha256": "3ed842db1c2b4f2c0384b78ce2d039a16f58fcef8b6621f04a9314e36e11285a",
+      "raw_json_pointer": "/0",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "d461b7dcbcc010f02e13869bade41cded9e4c18d5d8f84256b6938bc467d983e",
+      "after_sha256": "a609c1ab92f972de820cbe494a899cc0d7b19171da1fb4fc52c651d993e85ff5",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 2,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:557000002:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "dcb7edd0514f342d33f94be229624222714394e71f39abc9210518b32d529a03",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/e3cea542ddf2c2b6b838d95ca2fbec7b18320eb3cb6e10af84f9238ba99fc0f2.json",
+      "raw_sha256": "3ed842db1c2b4f2c0384b78ce2d039a16f58fcef8b6621f04a9314e36e11285a",
+      "raw_json_pointer": "/1",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "59288dd04312a188edf860593c4777a7bdaa574102a3d500a08cb1ba7a5656ee",
+      "after_sha256": "a6c0c4f3bd06492ea4dc67fe336c21068a19954979344e1ce716afbbc5429978",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 2,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:557000003:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "d367316f0e2ee87d47d9b12a4fd1439d984080cd56a3fc755f6669ab551087c3",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/e3cea542ddf2c2b6b838d95ca2fbec7b18320eb3cb6e10af84f9238ba99fc0f2.json",
+      "raw_sha256": "3ed842db1c2b4f2c0384b78ce2d039a16f58fcef8b6621f04a9314e36e11285a",
+      "raw_json_pointer": "/2",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "6466b4f95d1c096841f0e9d420b412d9cb1944c110f649f99dd2f192e293b8b0",
+      "after_sha256": "06d045ddc3f2f5abce7a6cc0ef0cb98596907d411cf8b602de942f9b4c6ad448",
+      "operations": [
+        {
+          "old": "‌‌",
+          "new": "‌",
+          "expected_occurrences": 1,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    },
+    {
+      "id": "parsig:541000001:pal>fa",
+      "decision": "ADMIT_AFTER_EXACT_TARGET_TYPOGRAPHY_DERIVATION",
+      "source_sha256": "f2ac9fd8c216bf5633479846ecd4c2496bd5607628adfe3d4989a4ce5fac9344",
+      "raw_path": "sources/local/parsig-2026-09-20/responses/8e0575632fc671f3ec5afe0409b91ce4cd95bca235909c9e0cf532991cb2218e.json",
+      "raw_sha256": "ae37f89b7ba36a4104f4cf0942bb19dcaa8801afe4b092471214dcfe5027f078",
+      "raw_json_pointer": "/0",
+      "raw_target_contains_canonical_exactly": true,
+      "whole_source_and_before_after_target_read": true,
+      "noncontrol_nonspace_characters_unchanged": true,
+      "source_unchanged": true,
+      "before_sha256": "cf798970f7d433817b05ef9753642dc339674e3f715672e58eb58775f5b4f445",
+      "after_sha256": "5a65f96f909fc4c71f82d09cce958c72bc5363573425e97305a9756019f5de6d",
+      "operations": [
+        {
+          "old": "‌‌‌‌",
+          "new": "‌",
+          "expected_occurrences": 2,
+          "reason": "Collapse duplicate nonjoining controls, preserving one boundary."
+        }
+      ]
+    }
+  ]
+}

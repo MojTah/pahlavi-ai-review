@@ -1,0 +1,335 @@
+{
+  "status": "PASS_LOCAL_ADMISSION_REPAIR_PENDING_SERVER_GATES",
+  "current_status": "PASS_LOCAL_ADMISSION_REPAIR_PENDING_SERVER_GATES",
+  "status_note": "Current repaired admission result is PASS: see after_repair and findings_current_status. pre_repair preserves superseded accepted-invalid-fixture evidence; it is not current behavior. Real server, funding and persistence gates remain separate.",
+  "pre_repair": {
+    "status": "PARTIAL",
+    "synthetic_input_admission": {
+      "valid": {
+        "accepted": true
+      },
+      "duplicate_ids": {
+        "accepted": true
+      },
+      "failed_manifest": {
+        "accepted": true
+      },
+      "out_of_vocabulary": {
+        "accepted": true
+      }
+    }
+  },
+  "exact_artifact": {
+    "decoded_command_sha256": "cac6547ca6c1da2d3a38ec0c8664843fd8e648212596e512b73eeeca9a5e1c20",
+    "command_sha256": "e811b8476d23ef96205d6f2193689b57f9c026a4082fa397ebec54c80dcf039c",
+    "largest_argument_bytes": 70612,
+    "total_argument_bytes": 131992,
+    "all_embedded_scripts_match": true,
+    "script_checks": {
+      "mixed_run.py": true,
+      "mixed_train.py": true,
+      "contextual_run.py": true,
+      "contextual_train.py": true,
+      "dev_assisted.py": true,
+      "dev_diagnostic.py": true,
+      "palref_eval.py": true
+    },
+    "serialized_functions": [
+      "file_sha256",
+      "safe_extract",
+      "remaining",
+      "emit",
+      "fresh_output",
+      "export_evidence",
+      "completed_training",
+      "completed_mixed",
+      "run_logged",
+      "mixed_body",
+      "execute_mixed"
+    ],
+    "no_smoke_entry_in_bootstrap": true,
+    "image": "pytorch/pytorch@sha256:eee11b3b3872a8c838e35ef48f08b2d5def2080902c7f666831310ca1a0ef2be",
+    "native_timeout": "100m"
+  },
+  "environment": {
+    "system": "Windows",
+    "machine": "AMD64",
+    "python": "3.11.15",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.13.1",
+      "peft": "0.21.0",
+      "bitsandbytes": null,
+      "accelerate": "1.14.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.23.0",
+      "safetensors": "0.8.0"
+    },
+    "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "source_hashes": {
+    "hf_mixed.py": "9c3a33135c7eb7eef446873243bcf7d0360377e42c0748faca026d9005f358de",
+    "mixed_run.py": "514ad71cb634bbc3c24b13562a61815be823f02e0191a104200c8b965ff1cd72",
+    "mixed_train.py": "b81dd8dcd873f5e6134780def3541b7e1c9ce5e813041e5da224b78ac161adf4",
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "hf_preflight.py": "bc754729cfb1b21dd0aa5c5d74fcfaad88b9eee082303e91ebb151b103259ee6",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "network_used": false,
+  "cloud_used": false,
+  "models_or_optimizers_created": false,
+  "reviewer": "/root/runtime_readiness",
+  "utc": "2026-09-29T19:18:40.213973+00:00",
+  "scope": "Offline synthetic input admission and exact artifact; no model or optimizer.",
+  "findings": [
+    {
+      "id": "RUNTIME-V2-001",
+      "severity": "P2",
+      "file": "cloud_pilot/mixed_run.py",
+      "line": 31,
+      "behavior": "Duplicate IDs admitted before training; completion rejects after training.",
+      "action": "Reject duplicate IDs before model loading."
+    },
+    {
+      "id": "RUNTIME-V2-002",
+      "severity": "P2",
+      "file": "cloud_pilot/mixed_run.py",
+      "line": 26,
+      "behavior": "Checksum-bound manifest marked FAIL accepted.",
+      "action": "Require admitted status and corrected projection receipt."
+    },
+    {
+      "id": "RUNTIME-V2-003",
+      "severity": "P2",
+      "file": "cloud_pilot/mixed_run.py",
+      "line": 31,
+      "behavior": "Out-of-vocabulary token 999999999 accepted.",
+      "action": "Check pinned tokenizer ID range before model loading."
+    }
+  ],
+  "historical_timing": {
+    "full_pool": {
+      "rows": 10151,
+      "sequence_tokens": 1365977,
+      "supervised_tokens": 234561
+    },
+    "pilot": {
+      "rows": 1536,
+      "sequence_tokens": 258988,
+      "supervised_tokens": 67456
+    },
+    "ratios": {
+      "rows": 6.608723958333333,
+      "sequence_tokens": 5.274286839544689,
+      "supervised_tokens": 3.4772444259962048
+    },
+    "measured_training_seconds": 1852.1399583669845,
+    "measured_final_step": 96,
+    "full_pool_linear_row_hours": 3.400078254735109,
+    "full_pool_linear_sequence_hours": 2.7135326131693986,
+    "archived_price_micro_usd_per_minute": 41667,
+    "full_pool_linear_row_training_usd": 8.500263638402869,
+    "full_pool_linear_sequence_training_usd": 6.78388580357576,
+    "provider_stages": [
+      {
+        "stage": "bootstrap_started",
+        "utc": "2026-09-29T09:19:56.722326+00:00"
+      },
+      {
+        "stage": "bootstrap_complete",
+        "utc": "2026-09-29T09:20:16.138911+00:00"
+      },
+      {
+        "stage": "gpu_admission",
+        "utc": "2026-09-29T09:20:25.961509+00:00"
+      },
+      {
+        "stage": "base_download_started",
+        "utc": "2026-09-29T09:20:25.961573+00:00"
+      },
+      {
+        "stage": "base_download_verified",
+        "utc": "2026-09-29T09:24:39.294853+00:00"
+      },
+      {
+        "stage": "mixed_started",
+        "utc": "2026-09-29T09:24:39.295017+00:00"
+      },
+      {
+        "stage": "mixed_finished",
+        "utc": "2026-09-29T10:03:00.745368+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:00.808773+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:00.858480+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:00.886287+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:00.946834+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:01.021261+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:01.021993+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:01.022496+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:01.023273+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:01.023868+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:02.653199+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:02.654837+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:02.655849+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:04.341605+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:04.342475+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:04.343269+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:04.376116+00:00"
+      },
+      {
+        "stage": "artifact_closed",
+        "utc": "2026-09-29T10:03:04.430944+00:00"
+      },
+      {
+        "stage": "ready_to_persist",
+        "utc": "2026-09-29T10:03:04.462996+00:00"
+      },
+      {
+        "stage": "persistence_window_expired",
+        "utc": "2026-09-29T10:08:04.463212+00:00"
+      }
+    ]
+  },
+  "new_corpus_validated": false,
+  "new_paid_launch_authorized": false,
+  "cloud_readiness_verified": false,
+  "model_loaded": false,
+  "optimizer_steps": 0,
+  "training_launches": 0,
+  "prior_test_evidence": {
+    "path": "experiments/full-pretraining-audit-20260929/training-audit.json",
+    "sha256": "5339a4a2e2302a7d9f7d8dbefd5d7cb36070b580527b6127bd882c1fb452341c",
+    "existing_tests_passed": 27,
+    "after_repair_tests": 3,
+    "after_repair_invalid_subcases": 12,
+    "unchanged_source_matches": {
+      "mixed_run.py": false,
+      "mixed_train.py": true,
+      "contextual_train.py": true,
+      "runtime.py": true,
+      "bundle.py": true
+    },
+    "recovery_source_matches": {
+      "hf_mixed.py": false,
+      "test_hf_mixed_recovery.py": true
+    }
+  },
+  "after_repair": {
+    "status": "PASS",
+    "utc": "2026-09-29T19:20:55.018771+00:00",
+    "checked_negative_cases": {
+      "duplicate_ids": {
+        "rejected": true,
+        "error": "Mixed training IDs must be unique"
+      },
+      "failed_manifest": {
+        "rejected": true,
+        "error": "Mixed data admission/tokenizer binding differs"
+      },
+      "out_of_vocabulary": {
+        "rejected": true,
+        "error": "Mixed vocabulary/answer terminator differs"
+      },
+      "vocabulary_boundary": {
+        "rejected": true,
+        "error": "Mixed vocabulary/answer terminator differs"
+      },
+      "unknown_token": {
+        "rejected": true,
+        "error": "Mixed vocabulary/answer terminator differs"
+      },
+      "bad_suffix": {
+        "rejected": true,
+        "error": "Mixed vocabulary/answer terminator differs"
+      },
+      "conflicting_complete_prefix": {
+        "rejected": true,
+        "error": "Mixed complete input prompts must be unique"
+      },
+      "wrong_tokenizer_binding": {
+        "rejected": true,
+        "error": "Mixed data admission/tokenizer binding differs"
+      },
+      "missing_tokenizer_binding": {
+        "rejected": true,
+        "error": "Mixed data admission/tokenizer binding differs"
+      },
+      "legacy_launch": {
+        "rejected": true,
+        "error": "Corrected and validated v2 data required; historical projections cannot be relaunched"
+      }
+    },
+    "valid_corrected_reader_accepted": true,
+    "legacy_read_only_compatibility": true,
+    "exact_synthetic_artifact": true,
+    "largest_argument_bytes": 71300,
+    "total_argument_bytes": 132680,
+    "decoded_command_sha256": "674c4a017d7dab2eea243e2f0574b777b30248f655c020d860b091bf8d23f6a9",
+    "command_sha256": "5925ac8534153eefe8c909a3403c02e702a744a65f9dd59059e170401f453db5",
+    "source_sha256": {
+      "mixed_run.py": "1326526a5a32d9200ee58851d75cb9acda4e039ea95f9b594abc64e997287249",
+      "hf_mixed.py": "c710a063e5157f5ad645ede8e3ffc5a0bc6d57681d5771e7df0cf9cc7accba37",
+      "mixed_train.py": "b81dd8dcd873f5e6134780def3541b7e1c9ce5e813041e5da224b78ac161adf4",
+      "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122"
+    },
+    "new_real_corpus_tested": false,
+    "network_used": false,
+    "model_loaded": false,
+    "optimizer_steps": 0,
+    "cloud_actions": 0
+  },
+  "findings_current_status": {
+    "RUNTIME-V2-001": "RESOLVED",
+    "RUNTIME-V2-002": "RESOLVED",
+    "RUNTIME-V2-003": "RESOLVED"
+  }
+}

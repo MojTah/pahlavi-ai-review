@@ -1,0 +1,39 @@
+{
+  "status": "PASS_LOCAL_DATA_AND_EXACT_PACKAGE",
+  "completed_utc": "2026-09-29T19:32:23.197432+00:00",
+  "data_manifest_sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54",
+  "train_sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+  "independent_review_sha256": "1e9f15afa1362bfe9f0607967e8ce005a7ea635572eb7fef891a1df12f14231f",
+  "unit_tests": 10,
+  "unit_test_log": {
+    "path": "tmp/training-ready-v2-tests.log",
+    "sha256": "cd88bf99149219ab3b1b5e335db6335d4126c64448282f788994cce6d3e4f18e"
+  },
+  "frozen_original_files_unchanged": 17,
+  "benchmark": {
+    "status": "PASS",
+    "passages": 40,
+    "cases": 160,
+    "manifest_sha256": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8"
+  },
+  "exact_staging_to_frozen_match": true,
+  "data_replay": "PASS",
+  "job_replay": "PASS",
+  "model_weights_loaded": false,
+  "project_training_run": false,
+  "cloud_submitted": false,
+  "source_sha256": {
+    "experiments/training-ready-v2-20260929/prepare.py": "36d8147ac6e7c45383f29f8a1f46c4b6cfdab90c2a8e80a91dc33451f57deebf",
+    "experiments/training-ready-v2-20260929/prepare_job.py": "c65a08ca2d6519631479dda706adb8f70de97e199627c1b5940757a79203aa48",
+    "experiments/training-ready-v2-20260929/lexical.py": "e055aee1685674ad126a8043b3c9a7a656f8bc7257e9a54f7a74575273871982",
+    "cloud_pilot/mixed_run.py": "1326526a5a32d9200ee58851d75cb9acda4e039ea95f9b594abc64e997287249",
+    "cloud_pilot/hf_mixed.py": "c710a063e5157f5ad645ede8e3ffc5a0bc6d57681d5771e7df0cf9cc7accba37",
+    "cloud_pilot/test_mixed.py": "24f87e923fa8b70768c61cd93eef4eac10aa762f69b04236d528be3013e1449f",
+    "cloud_pilot/test_hf_mixed_recovery.py": "b3367e76acca52de0e09080dd84aa73f4ee26486f963f5c31a7922a848a97c39"
+  },
+  "pending_external": [
+    "current funded credit/cumulative cost/rate/idle jobs",
+    "actual A100/Linux/runtime and persistence canaries",
+    "user launch instruction"
+  ]
+}

@@ -4,7 +4,7 @@ Prepared 29 September 2026. Start with [the complete review prompt](REVIEW-PROMP
 
 ## Present conclusion
 
-**Latest full pretraining review: HOLD.** The [all-record audit](experiments/full-pretraining-audit-20260929/REPORT.md) found source-faithful but underdetermined lexical prompts: 150 groups / 319 rows have identical inputs with different complete-inventory targets. It also records standalone crossreference/note issues and 17 inherited formatting artifacts. A recovery-status bug was reproduced and fixed locally. Review the new evidence before relying on the earlier structural pass. Frozen data/results remain unchanged; no new cloud run or training is authorized.
+**Latest local result: corrected v2 data/package passed; paid launch remains closed.** The [corrected package](experiments/training-ready-v2-20260929/README.md) resolves the150 lexical-input ambiguity groups while preserving supported meanings, scopes20 dictionary apparatus cases, repairs17 typography records and holds seven unresolved cases. Its9,973 unique inputs represent10,145 original records. Independent source/token reconstruction, deterministic replay and10 runtime/regression tests passed. The exact1,536-example repair pilot is prepared but not submitted. [Readiness](experiments/training-ready-v2-20260929/READINESS.md) keeps live funding/GPU/persistence gates pending. The preceding [all-record audit](experiments/full-pretraining-audit-20260929/REPORT.md) remains the defect discovery record; the unchanged v1 projection remains disallowed for relaunch. No new training result, promotion or improvement is claimed.
 
 The retained reference is qualified Gemma4-31B step280. The latest mixed-supervision continuation completed, but did not improve the fixed development screen and increased critical errors. No new model is promoted. NLLB training and its later familiar-example diagnostic also completed; recommendations written before those runs are historical.
 
@@ -17,6 +17,7 @@ The latest offline learning diagnostic prepares 28 prompts per checkpoint to com
 | Area | Start here |
 |---|---|
 | Current state and objective | `PROJECT_STATE.md`, `GOAL.md`, `DATASET-READINESS.md`, `SOURCE-COVERAGE.md` |
+| Corrected data and exact prepared job | `experiments/training-ready-v2-20260929/README.md`, `INDEPENDENT-REVIEW.md`, `READINESS.md`, `verification.json`, `data-manifest.json` |
 | Superseding full pretraining review | `experiments/full-pretraining-audit-20260929/REPORT.md` and its five component reviews / all-record metadata ledgers |
 | Latest local data/configuration recheck | `experiments/data-recheck-20260929/REPORT.md`, `INTEGRITY.md`, `SEMANTIC-SPOTCHECK.md`; `experiments/learning-diagnosis-20260929/INDEPENDENT-LAUNCH-REVIEW.md` |
 | Fresh independent audit of an external review | `experiments/strategy-audit-20260929/RESPONSE.md` and `external-review.txt` |

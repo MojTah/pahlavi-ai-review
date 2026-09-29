@@ -119,8 +119,8 @@ class MixedTest(unittest.TestCase):
         with self.assertRaises(ValueError):core.validate_rows(rows,SETTINGS)
 
     def test_forecast_and_exact_artifact(self):
-        train=ROOT/'resources/local/mixed-supervision-20260929/data/train.jsonl'
-        manifest=ROOT/'experiments/mixed-supervision-20260929/data-manifest.json'
+        train=ROOT/'resources/local/training-ready-v2-20260929/data/train.jsonl'
+        manifest=ROOT/'experiments/training-ready-v2-20260929/data-manifest.json'
         spec, settings=hf_mixed.prepare(train,manifest,'1'*32)
         rows,_=mixed_run.read_data(train,manifest,settings)
         self.assertFalse(core.forecast(rows,20,1000,1200)['admitted'])
@@ -142,6 +142,36 @@ class MixedTest(unittest.TestCase):
             self.assertEqual(data,(ROOT/'cloud_pilot'/name).read_bytes())
             compile(data,name,'exec')
         self.assertEqual(settings['scheduled_outputs'],24)
+
+    def test_corrected_data_rejects_bad_admission_before_model_load(self):
+        train=ROOT/'resources/local/training-ready-v2-20260929/data/train.jsonl'
+        manifest=ROOT/'experiments/training-ready-v2-20260929/data-manifest.json'
+        original_rows=[json.loads(s) for s in train.read_text('utf-8').splitlines()]
+        original_manifest=json.loads(manifest.read_text('utf-8'))
+        self.out.mkdir()
+        path, receipt=self.out/'train.jsonl', self.out/'manifest.json'
+        for case in ('duplicate_id','failed_status','out_of_vocabulary','unknown_token',
+                     'wrong_terminator','duplicate_prefix','wrong_tokenizer'):
+            with self.subTest(case=case):
+                rows, m=copy.deepcopy(original_rows), copy.deepcopy(original_manifest)
+                if case=='duplicate_id': rows[1]['id']=rows[0]['id']
+                elif case=='failed_status': m['status']='FAIL'
+                elif case=='out_of_vocabulary': rows[0]['input_ids'][0]=262144
+                elif case=='unknown_token': rows[0]['input_ids'][0]=3
+                elif case=='wrong_terminator':
+                    rows[0]['input_ids'][-1]=rows[0]['labels'][-1]=108
+                elif case=='duplicate_prefix':
+                    identifier=rows[1]['id']; rows[1]=copy.deepcopy(rows[0]); rows[1]['id']=identifier
+                elif case=='wrong_tokenizer': m['tokenizer_sha256']={}
+                path.write_text(''.join(json.dumps(r)+'\n' for r in rows),encoding='utf-8')
+                m['outputs']['train.jsonl'].update(sha256=mixed_run.runtime.digest(path),bytes=path.stat().st_size)
+                m['pilot']['selected_ids_in_order']=[r['id'] for r in rows]
+                receipt.write_text(json.dumps(m),encoding='utf-8')
+                settings=dict(train_sha256=mixed_run.runtime.digest(path),data_manifest_sha256=mixed_run.runtime.digest(receipt))
+                with self.assertRaises(ValueError): mixed_run.read_data(path,receipt,settings)
+        with self.assertRaisesRegex(ValueError,'Corrected and validated v2'):
+            hf_mixed.prepare(ROOT/'resources/local/mixed-supervision-20260929/data/train.jsonl',
+                             ROOT/'experiments/mixed-supervision-20260929/data-manifest.json','2'*32)
 
     def test_candidate_generation_and_failure_no_retry(self):
         class Stub(torch.nn.Module):

@@ -24,11 +24,26 @@ def read_data(path, manifest_path, settings):
     if runtime.digest(manifest_path) != settings['data_manifest_sha256'] or runtime.digest(path) != settings['train_sha256']:
         raise ValueError('Mixed data/manifest checksum differs')
     manifest = runtime.read_json(manifest_path)
+    if (manifest.get('status') not in {'PASS', 'LOCAL_DATA_CHECKS_PASS_NOT_LAUNCH_AUTHORIZATION'}
+            or manifest.get('tokenizer_sha256') != bundle.TOKENIZER_HASHES):
+        raise ValueError('Mixed data admission/tokenizer binding differs')
     entry = manifest['outputs']['train.jsonl']
     if entry['sha256'] != settings['train_sha256'] or entry['bytes'] != Path(path).stat().st_size or entry['rows'] != 1536:
         raise ValueError('Mixed manifest training binding differs')
     rows = [json.loads(line) for line in Path(path).read_text('utf-8').splitlines()]
     ids = core.validate_rows(rows)
+    if len(set(ids)) != len(ids):
+        raise ValueError('Mixed training IDs must be unique')
+    prefixes = set()
+    for row in rows:
+        # These token identities are bound to the checked TOKENIZER_HASHES above.
+        if (any(token >= 262144 or token == 3 for token in row['input_ids'])
+                or row['input_ids'][-2:] != [106, 107]):
+            raise ValueError('Mixed vocabulary/answer terminator differs')
+        prefix = tuple(row['input_ids'][:row['prompt_tokens']])
+        if manifest.get('version') == 'corrected-v2' and prefix in prefixes:
+            raise ValueError('Mixed complete input prompts must be unique')
+        prefixes.add(prefix)
     pilot = manifest['pilot']
     if (pilot['selected_ids_in_order'] != ids or pilot['updates'] != 96 or pilot['microbatch'] != 1
             or pilot['gradient_accumulation'] != 16 or pilot['per_update'] != {'historical': 12, 'lexical': 2, 'other': 2}):
