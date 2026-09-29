@@ -1,0 +1,784 @@
+{
+  "reviewer": "/root/seen20_blind_a",
+  "reviewed_collections": {
+    "dmx": 1030
+  },
+  "review_type": "Full compact manual literal/semantic anomaly scan, then original-XML and targeted complete MacKenzie XML checks; not specialist certification",
+  "holds": {
+    "kosh:dmx:22": "Original XML has بدن غم in a pain/sorrow-free sense inventory; apparent missing و in the Persian phrase. Hold unchanged for source-page resolution, not an automatic correction.",
+    "kosh:dmx:67": "Original XML contains صقت in the explanatory parenthesis; apparent spelling defect.",
+    "kosh:dmx:70": "Original XML contains بهذین in the explanation of the Zoroastrian religion; suspect spelling in the published target, retained unchanged.",
+    "kosh:dmx:75": "abesīhēnisn appears to lose the š of the nominal ending; compare neighboring abesīhišn and source page. This is a suspected form defect, not permission to silently standardize transcription.",
+    "kosh:dmx:83": "drawēnd has a present finite ending while the sole target is درو کردند. Context/edition check needed before a tense-bearing mapping; historical usage is not ruled out by this hold.",
+    "kosh:dmx:112": "aziš-mehān includes مهمان alongside مهتران، بزرگتران. Possible مهمان/مهان text defect; do not force a guest sense or replace it without print.",
+    "kosh:dmx:133": "a-pōhišn is glossed بدون تشنگی. MacKenzie full XML cpd:d2d568d81871b90ee6d0e16d1fe9b1d81c5ecae0 gives incorruptible for this form; preserve the disagreement and require Tafazzoli headword/context rather than majority-voting the sense.",
+    "kosh:dmx:191": "Previously held محققاف is present in original XML; source-page correction remains unresolved.",
+    "kosh:dmx:194": "Original form azbāyiōn is suspect. MacKenzie full XML cpd:142a161fda00ddc5c65366095a2fe4e007626ed1 distinguishes azbāy- invoke and azbāy-išn invocation. Do not manufacture a replacement DMX form.",
+    "kosh:dmx:201": "aspāndār is assigned اسب, while DMX199 identifies a scribe and MacKenzie asp has horse/chess-knight senses. Prior POLY026 already required headword inspection. Hold the horse mapping pending Tafazzoli print; do not delete the proper-name record or merge the two.",
+    "kosh:dmx:239": "XML contains کرانهف and صفت زردان; both need original-page inspection, with no silent replacement.",
+    "kosh:dmx:307": "āmāzēnd paired with آموزند is a suspected form-vowel defect. MacKenzie cpd:df3e76289635b74cb836c854c24f995da6cb6af0 explicitly references āmōz-/hammōz-. Source print must decide whether DMX is erroneous or a variant.",
+    "kosh:dmx:350": "an-āgāhīhā target combines ناآگاهانه with از روی بی اخلاقی. MacKenzie an-āgāh is unaware/unwitting; the morality clause is a potential substantive misprint or unsupported extension. Preserve both raw glosses and hold, without replacing بی اخلاقی by a guessed word.",
+    "kosh:dmx:352": "The source is the finite phrase anāgīh wēnēd, but target only عذاب. The noun gloss cannot be certified as the meaning of the whole printed phrase; source layout needed.",
+    "kosh:dmx:367": "خوب سختن گفتن contains suspect سختن, already in original XML.",
+    "kosh:dmx:387": "hangārēnd gloss mixes انگارند / تصور کنند with حساب آوردند. The last Persian verb has an apparent extra د and different tense; source check required, not automatic tense correction.",
+    "kosh:dmx:389": "andčhand differs from MacKenzie full-XML cross-reference and-čand; extra h in the DMX form is suspicious. Edition/transcription check required before normalization.",
+    "kosh:dmx:401": "ō xwēšīh is a short prepositional phrase but target به ملکیت ... درآید includes a finite verb and open slot. Preserve as unresolved source-layout/context mapping, not an unconditional phrase translation.",
+    "kosh:dmx:402": "ō xwēšīh ī āward is paired with the same open-slot درآید target as DMX401. Source construction, anomalous ī and tense/voice need edition/context resolution.",
+    "kosh:dmx:406": "andarzēnīdan is an infinitive, while target explicitly adds first-person past speaker and second-person addressee, plus passive paraphrase. MacKenzie handarzēnīdan has the verb sense advise. Requires source example/lemma scope resolution; do not train those participants as inherent in the infinitive.",
+    "kosh:dmx:435": "Original XML has اعتقد and explicitly says شاید به معنی شهادت، گواهی باشد. The maybe clause is the lexicographer’s uncertain interpretation, not a modal meaning of the headword. Hold the spelling defect and uncertain sense assignment without dropping or promoting the alternative.",
+    "kosh:dmx:448": "Original trc xwšīh lacks the vowel in the otherwise attested xwašīh family (DMX543). Needs print to distinguish transcription omission from intended notation; no silent completion.",
+    "kosh:dmx:474": "hōm explanation opens (= but has no closing parenthesis in the full original XML. Hold until the source page establishes whether only punctuation or any text is missing. This does not claim the plant gloss itself is false.",
+    "kosh:dmx:479": "humeniδn contains Greek δ in a place where the related MacKenzie hu-menišn entry has the good-thought formation. The literal source-form anomaly requires print; no mechanical δ-to-š substitution authorized.",
+    "kosh:dmx:485": "Source šāyīd hād has no overt negator, while target ممکن نمی شدمی is negative. Hold until source context establishes whether omitted context licenses the negation; do not silently delete it.",
+    "kosh:dmx:502": "huaršt-gāh is assigned جای / اندیشه نیک, duplicating the thought wording of humat-gāh. MacKenzie full XML huwaršt = good deed, humat = good thought. Potential copied/misaligned gloss; inspect original entry before choosing a corrected target.",
+    "kosh:dmx:526": "Both the source byt? and Persian میوه؟ are explicitly uncertain. Meaning is not wholly absent, but the form/meaning assignment is unresolved and must not become an unqualified inventory.",
+    "kosh:dmx:554": "barsom explanation has an unclosed parenthesis in the full XML. Hold for page-level completeness/punctuation check, without asserting that its ritual-object definition is semantically wrong.",
+    "kosh:dmx:562": "bōy is paired with بودن. MacKenzie full XML distinguishes bōy perception/sense and bōy smell/scent; neither resolves the DMX infinitive gloss. Hold for Tafazzoli source evidence, not automatic replacement with بو.",
+    "kosh:dmx:579": "bunag target کامل فکری is not a clear matching inventory. MacKenzie full XML gives baggage and abode/camp, with a separate bunag dāštan construction. Possible target/headword corruption; unresolved rather than outvoted.",
+    "kosh:dmx:616": "پیچیده، خامص contains suspect خامص. Preserve the exact source and require page confirmation.",
+    "kosh:dmx:649": "Previously held نخستف is present in original XML; no correction authorized.",
+    "kosh:dmx:713": "Previously held دیگرف is present in original XML; no correction authorized.",
+    "kosh:dmx:718": "tadrīstīh may have lost n. MacKenzie full XML cpd:f40ba0d8a185c780123a087d8bd7eb5375ca0d25 has tan-drustīh health. Orthographic variation alone is not disproved; source print must resolve this spelling.",
+    "kosh:dmx:722": "The entire definition شاید نوعی باز باشد is a tentative bird identification, not the lexical meaning of a modal verb. Preserve that uncertainty; do not qualify a definite falcon sense.",
+    "kosh:dmx:780": "XML has بسیار کناهکار بودن alongside گناهکار; apparent spelling defect.",
+    "kosh:dmx:827": "Original target starts عغمگین; suspect extra initial ع, retained unchanged.",
+    "kosh:dmx:830": "duš-wirrawišnīh target گردش بد اعتقاد، نادرست may mix movement and belief readings or lose punctuation. MacKenzie full XML separately identifies duš-wurrōyišnīh heresy. Preserve unresolved form/sense scope; do not substitute that headword or suppress a possible source-specific meaning.",
+    "kosh:dmx:866": "spās-gōwišnīh is glossed سپاسگزاری در رفتار. MacKenzie full XML binds gōwišn to speech, making رفتار versus گفتار a material suspected source typo. Do not silently correct.",
+    "kosh:dmx:887": "stūrīh rāyēnēd is a finite predicate but its target is only قیمومیت. Verify whether the gloss belongs to the noun or the whole expression; no participant/verb can be generated.",
+    "kosh:dmx:904": "šāyistan target contains مکن بودن, an apparent truncation of a word in its modal gloss. This spelling defect is distinct from legitimate possibility/ability meanings.",
+    "kosh:dmx:908": "Previously held هشتنف is present in original XML; source-page check still required.",
+    "kosh:dmx:1011": "nigōsār target سرنگون، نابودن has suspect trailing ن in نابودن; retain pending print.",
+    "kosh:dmx:1023": "nīišīm has an unusual duplicated vowel sequence. MacKenzie full XML explicitly assigns seat/perch to nišēm and abode to nišēmag; source-form checking required without inventing a corrected DMX form.",
+    "kosh:dmx:1028": "nigerīdan target نگزیدن، نگریستن contains a suspect first Persian verb. MacKenzie full XML nigerīdan = look/observe corroborates inspection, not a silent replacement.",
+    "kosh:dmx:1037": "warīišn has a suspect duplicated vowel; MacKenzie full XML warišn = conduct/behaviour. Source transcription may vary, so hold for print rather than automatically standardizing."
+  },
+  "releases": {
+    "kosh:dmx:181": "No new semantic hold: MacKenzie full XML has distinct ēwāz word/utterance and ēwāz sole/only entries. This supports a homograph distinction, not an exact claim that its English gloss is voice. Preserve source-specific آواز rather than reject it because another entry means only.",
+    "kosh:dmx:249": "Anomaly cleared: MacKenzie arzōmand full XML gives valuable/worthy with Persian arǰumand comparison. Preserve ارجمند.",
+    "kosh:dmx:318": "Anomaly cleared: MacKenzie full XML explicitly groups xwārīh and xwāhrīh with happiness/bliss; preserve خوشی.",
+    "kosh:dmx:329": "No new hold on خوشی: supported by the related MacKenzie xwārīh/xwāhrīh sense inventory; spelling differences remain source-specific.",
+    "kosh:dmx:853": "Retain cultivation inventory. MacKenzie kištan = till/furrow/sow is distinct from kuštan = kill; unvowelled Persian کشتن alongside کاشتن does not license a killing sense. Reuses POLY096.",
+    "kosh:dmx:902": "Anomaly cleared: MacKenzie sōg entry1 explicitly means use/profit/advantage; do not reject a benefit compound merely because another sōg means burning.",
+    "kosh:dmx:928": "Prior POLY095 concern clarified: MacKenzie kirrēnīdan full XML explicitly lists rend and daevic create as separate senses. Preserve creation with source context; no forced merge.",
+    "kosh:dmx:929": "Prior POLY095 concern clarified by the same complete MacKenzie kirrēnīdan entry. Preserve tearing/rending beside creation, not a single winning gloss.",
+    "kosh:dmx:905": "Preserve possibility/ability as lexical modality: ممکن است، می توان is not editorial uncertainty of the شاید نوعی... kind; MacKenzie šāyēd supports one can/it is possible."
+  },
+  "release_scope": "Removes only the named provisional semantic concern in this review; not training admission or override of independent lineage/rights checks.",
+  "evidence": {
+    "kosh:dmx:22": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     a-bēš\n    "
+      ],
+      "meaning_as_published": "بی درد، بدون رنج، بدن غم",
+      "source_xml_sha256": "e4a8be1774d2e4b785e873883dc4ddd293f8c5ca254b0ddbd72670f76c4bc80f",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:67": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     ābčihrag\n    "
+      ],
+      "meaning_as_published": "دارنده گوهر آبی (صقت دسته ای از ستارگان)",
+      "source_xml_sha256": "8bc83ae678867df47bb6e61efc2e6c784f7983e6f4cf67b6630450b919f7d3ab",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:70": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     awēzag/ abēzag\n    "
+      ],
+      "meaning_as_published": "پاک (صفت بهذین= آیین زرتشتی)",
+      "source_xml_sha256": "783cd18baf8553a8fe6eb1915544cc218305b7f70ca3e2a58fa6a4139e0f0be3",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:75": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     abesīhēnisn\n    "
+      ],
+      "meaning_as_published": "تباهی، نابودی",
+      "source_xml_sha256": "eef96ea0c8f5bef89dcbde89a1597b3ee9f7f8b491afa00623c36a4371703f5a",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:83": {
+      "category": "GRAMMATICAL_SCOPE",
+      "forms_as_published": [
+        "\n     drawēnd\n    "
+      ],
+      "meaning_as_published": "درو کردند",
+      "source_xml_sha256": "d9555fe3107288285ef4ba63fbbe9ee8bb3c3dc5af801d09a0359c6e26233adf",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:112": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     aziš-mehān\n    "
+      ],
+      "meaning_as_published": "مهمان، مهتران، بزرگتران",
+      "source_xml_sha256": "6aeadb748d79a937eebea84522cba290fd9121d4893a4c77fc464c9de7cd0ede",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:133": {
+      "category": "SEMANTIC_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     a-pōhišn\n    "
+      ],
+      "meaning_as_published": "بدون تشنگی",
+      "source_xml_sha256": "1e333d0f86a94e55f05cf1a3a629f7bf03e6a2607975fbe201c36135120174a5",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:191": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     ēwar\n    "
+      ],
+      "meaning_as_published": "بی شک، محققاف مسلما",
+      "source_xml_sha256": "90e1e9ea3c10e8fc9d98a0f7fec2bb92a06e9c15ff4e54c8fe9ccfbddce234e2",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:194": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     azbāyiōn\n    "
+      ],
+      "meaning_as_published": "پرستش، عبادت (از ریشه اوستایی zaw/zbā)",
+      "source_xml_sha256": "f929ead25da7a38f41ca2ecd0ca54a22ce6452abfc573ddc1af086c0bf7ca7ef",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:201": {
+      "category": "HEADWORD_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     aspāndār\n    "
+      ],
+      "meaning_as_published": "اسب",
+      "source_xml_sha256": "d153711caa73a7d4dd536dcda5085f99787d508e5bcd55a00a3369319e054c32",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:239": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     a-kanārag\n    "
+      ],
+      "meaning_as_published": "بی کناره، بی کرانهف بی انتها (صفت زردان)",
+      "source_xml_sha256": "4a0de065a01cc58c59f4e487bd27bda59a9d220770a4d2bfed5b12cd2c27a817",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:307": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     āmāzēnd\n    "
+      ],
+      "meaning_as_published": "آموزند (= یاد دهند)",
+      "source_xml_sha256": "866462833963797ff0931d2a270392c4aa4f22babf50ad08f3891cce8a51de00",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:350": {
+      "category": "SEMANTIC_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     an - āgāhīhā\n    "
+      ],
+      "meaning_as_published": "ناآگاهانه، از روی بی اخلاقی",
+      "source_xml_sha256": "1069757845dc7ad620fdfe40732e9965a957adc53b9b02db2acde44d7786ce01",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:352": {
+      "category": "COMPOUND_TARGET_SCOPE",
+      "forms_as_published": [
+        "\n     anāgīh wēnēd\n    "
+      ],
+      "meaning_as_published": "عذاب",
+      "source_xml_sha256": "162943e9856c4b3a0fe08c3d54d2ab81ba63490d2c89d7824b83c92bcbc6bd5e",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:367": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     xūb-dranǰišnīh\n    "
+      ],
+      "meaning_as_published": "خوب سختن گفتن",
+      "source_xml_sha256": "86d4a5197f503c934d1febadaef1d71a6379324a01ff5ad708c33910d96625dc",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:387": {
+      "category": "GRAMMATICAL_SCOPE",
+      "forms_as_published": [
+        "\n     hangārēnd\n    "
+      ],
+      "meaning_as_published": "انگارند (= تصور کنند، حساب آوردند)",
+      "source_xml_sha256": "c05be8abeb1490044757088890100ae1dc13e5e043531cdb76202312981ef474",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:389": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     andčhand\n    "
+      ],
+      "meaning_as_published": "اندچند، هرچند، هرچه (بیشتر)",
+      "source_xml_sha256": "ef0d7c7b064b99725beeef7f1d5204d4f8435533c138076b6062ed72f87faeb9",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:401": {
+      "category": "COMPOUND_TARGET_SCOPE",
+      "forms_as_published": [
+        "\n     ō xwēšīh\n    "
+      ],
+      "meaning_as_published": "به ملکیت ... درآید",
+      "source_xml_sha256": "101a09037ecdacbb3bfc2e8abedc2a7659e3abbcca4bfac23e779c6a8205d1ff",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:402": {
+      "category": "COMPOUND_TARGET_SCOPE",
+      "forms_as_published": [
+        "\n     ō xwēšīh ī āward\n    "
+      ],
+      "meaning_as_published": "به ملکیت ... درآید",
+      "source_xml_sha256": "5ce1f725428c510e461b915f588d1d7e06347710b8da73ddb4e991a1cd358e16",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:406": {
+      "category": "GRAMMATICAL_SCOPE",
+      "forms_as_published": [
+        "\n     andarzēnīdan\n    "
+      ],
+      "meaning_as_published": "به تو اندرز دادم (بوسیله من به تو اندرز داده شد)",
+      "source_xml_sha256": "0f07b7232110a4362fab4c638d0ec9e89487fa558b03b74f2facc65656a1d191",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:435": {
+      "category": "LITERAL_DEFECT_AND_EDITORIAL_UNCERTAINTY",
+      "forms_as_published": [
+        "\n     hustēwān-gōwišnīh\n    "
+      ],
+      "meaning_as_published": "از روی اعتقد سخن گفتن، شاید به معنی «شهادت، گواهی» باشد.",
+      "source_xml_sha256": "a87caff67e49917f9811fcf91432d28ae1813f0d419c9c0d3d55ceeec6af345c",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:448": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     xwšīh\n    "
+      ],
+      "meaning_as_published": "خوشی",
+      "source_xml_sha256": "a37c13dce79eda7c203f70f9ba8b0502fee94499d541d4a3787b41c592b403fb",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:474": {
+      "category": "TARGET_COMPLETENESS",
+      "forms_as_published": [
+        "\n     hōm\n    "
+      ],
+      "meaning_as_published": "هوم (= گیاهی که شیره آن را در مراسم دینی به کار می برده اند",
+      "source_xml_sha256": "0e550d369cede00b68a77619833970769512c11a99a8d02ef62058fa1a4371ef",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:479": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     humeniδn\n    "
+      ],
+      "meaning_as_published": "نیک اندیشی",
+      "source_xml_sha256": "fdfeff3a1d7f30d37b6c141b4a14854b07ab750f7ea4d84785f51adc71024a27",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:485": {
+      "category": "NEGATION_SCOPE",
+      "forms_as_published": [
+        "\n     šāyīd hād\n    "
+      ],
+      "meaning_as_published": "ممکن نمی شدمی",
+      "source_xml_sha256": "e10d837cc32a308077c1f9f6ca93608b0a063d9a3bc9482be864cfa2e3f028a1",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:502": {
+      "category": "SEMANTIC_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     huaršt-gāh\n    "
+      ],
+      "meaning_as_published": "جای / اندیشه نیک (نام یکی از طبقات بهشت)",
+      "source_xml_sha256": "cdaac7ca9ac539428d6f09298deb567a4fbc64095174443482877a1523692411",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:526": {
+      "category": "EDITORIAL_UNCERTAINTY",
+      "forms_as_published": [
+        "\n     byt?\n    "
+      ],
+      "meaning_as_published": "میوه؟",
+      "source_xml_sha256": "17b2e37edcdc680dda197700a580ebf839a5d1da627425b395f8b425e2d3a160",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:554": {
+      "category": "TARGET_COMPLETENESS",
+      "forms_as_published": [
+        "\n     barsom\n    "
+      ],
+      "meaning_as_published": "بر سم (شاخه بریده درختی که آنها را دسته می کردند و در مراسم دینی به کار می بردند.",
+      "source_xml_sha256": "fbfcf1819c080fd809d9c627ce172fcbab47088c7eecd113dfe3eca5b255e941",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:562": {
+      "category": "SEMANTIC_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     bōy\n    "
+      ],
+      "meaning_as_published": "بودن",
+      "source_xml_sha256": "bb94116bc5be6e3aeed00b1abff8e6f704a6fdf318ea2b7b6c55d2e54c4fd792",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:579": {
+      "category": "SEMANTIC_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     bunag\n    "
+      ],
+      "meaning_as_published": "کامل فکری",
+      "source_xml_sha256": "2f97b79549a2d061026fd2e245af0d4262b7791fecc73c443e74d2160298f631",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:616": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     pēčidag\n    "
+      ],
+      "meaning_as_published": "پیچیده، خامص",
+      "source_xml_sha256": "9c1049fd8aa7eec81c6b342d495733c5fa33510ac212c1988b3f91f9759419f1",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:649": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     fradom\n    "
+      ],
+      "meaning_as_published": "نخستف نخستین",
+      "source_xml_sha256": "31213c84c1a69447e5c1dfe3a760fe7e640350f9334d1c66dbe76de5ff413da2",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:713": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     did\n    "
+      ],
+      "meaning_as_published": "دیگرف دیگری",
+      "source_xml_sha256": "3a9e997fae63ef8b1654f8878f8e36f5606be7533a17f9d9e87737402fcd22d7",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:718": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     tadrīstīh\n    "
+      ],
+      "meaning_as_published": "تندرستی",
+      "source_xml_sha256": "2a2f251c3e031dfe250266453a5809b84f68660bde0d996b70e1c6d69b8f4a46",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:722": {
+      "category": "EDITORIAL_UNCERTAINTY",
+      "forms_as_published": [
+        "\n     čihrāb\n    "
+      ],
+      "meaning_as_published": "شاید نوعی باز باشد",
+      "source_xml_sha256": "85e24c4be11156992a4c9dfb8d2e58cbfa48d9d66bd92e76a6b617785d4a113e",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:780": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     garān-wināhīh\n    "
+      ],
+      "meaning_as_published": "سخت گناهکار بودن، بسیار کناهکار بودن",
+      "source_xml_sha256": "e764532607a0f3c97f269feaf71b6556844af109be0650f4f7bb188f4a5aec9a",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:827": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     dušrām\n    "
+      ],
+      "meaning_as_published": "عغمگین، اندوهگین",
+      "source_xml_sha256": "0e0ab2b0ac19ae8bc664bc7007047904e55d8186e467c0f23f33837bbec134e4",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:830": {
+      "category": "SEMANTIC_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     duš-wirrawišnīh\n    "
+      ],
+      "meaning_as_published": "گردش بد اعتقاد، نادرست",
+      "source_xml_sha256": "a3393ede47cff554a7bdace3099f8b0f30b0ba6f43a5136052a58a155cc000e5",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:866": {
+      "category": "SEMANTIC_ASSIGNMENT_UNRESOLVED",
+      "forms_as_published": [
+        "\n     spās-gōwišnīh\n    "
+      ],
+      "meaning_as_published": "سپاسگزاری در رفتار",
+      "source_xml_sha256": "6beec30a6862e022f58908e0f6cbf55b9a77c60da622d97f13c9f8dd20e49bc5",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:887": {
+      "category": "COMPOUND_TARGET_SCOPE",
+      "forms_as_published": [
+        "\n     stūrīh rāyēnēd\n    "
+      ],
+      "meaning_as_published": "قیمومیت",
+      "source_xml_sha256": "c66eaa9c8cf79865f8b7e1cf8fed08e5d02c8e9cce948e3361c8b42971f43953",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:904": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     šāyistan\n    "
+      ],
+      "meaning_as_published": "شایستن، مکن بودن، توانستن",
+      "source_xml_sha256": "d96a57d6bfb39bfa0cf8350650dab209c719840ba06f6a2f0c1ac23095dd35ea",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:908": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     hištan\n    "
+      ],
+      "meaning_as_published": "هشتنف رها کردن",
+      "source_xml_sha256": "d26302857ad42a25dfcf9de828eeb2d94ecd8123169e469fdeadad2503e80b86",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:1011": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     nigōsār\n    "
+      ],
+      "meaning_as_published": "سرنگون، نابودن",
+      "source_xml_sha256": "43a4d9d69f576124540e9a4f9dac9fa71c08bd2b0d7edf9b7e026eea0251fe2a",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:1023": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     nīišīm\n    "
+      ],
+      "meaning_as_published": "جای نشستن",
+      "source_xml_sha256": "7824495037786ddb70b494f170263e17dfeae276feb79b9e44bf86912382faaa",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:1028": {
+      "category": "LITERAL_TARGET_DEFECT",
+      "forms_as_published": [
+        "\n     nigerīdan\n    "
+      ],
+      "meaning_as_published": "نگزیدن، نگریستن",
+      "source_xml_sha256": "cfb8400a860c68359c6045292b7a6217486b5248a7f92b158400eff3fe0b8cbb",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    },
+    "kosh:dmx:1037": {
+      "category": "SOURCE_FORM_DEFECT",
+      "forms_as_published": [
+        "\n     warīišn\n    "
+      ],
+      "meaning_as_published": "رفتار",
+      "source_xml_sha256": "7dd3df8429d90119457d4e57eef9285cbe865dcfc6e377448a01912711443ed8",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+      "raw_sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+      "observations_path": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl"
+    }
+  },
+  "mackenzie_full_xml_evidence": {
+    "kosh:cpd:ab3c02a571e3491e52e1675ea21f338724b83730": {
+      "source_xml_sha256": "8af78cf340f69a9f2d3e8daf4c96e8245c2535380656b833ef7bfbedc9209bdc",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:d2d568d81871b90ee6d0e16d1fe9b1d81c5ecae0": {
+      "source_xml_sha256": "59896c43f4bfbcc63ef3acfd9aa880e4aba4e3be180addd8c7a94e5495276016",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:96ea5f2a37a643d09e87aae7c3f002f77d258fbb": {
+      "source_xml_sha256": "555e8ad4d5477285f4a9e201e8f58d627d8f31d9a4d7a77fac5395c1eece8cd9",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:142a161fda00ddc5c65366095a2fe4e007626ed1": {
+      "source_xml_sha256": "6a68d84c6e9c63011dbe3664b3009ee00e1e18fd7be987e1954b83fb8d75222b",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:48004234d1815d92a6b6da0735bac423613bbd56": {
+      "source_xml_sha256": "34ab15c879e5c30d867d9358adff31bc5b05ff021a7408f8c8b9fa3276c970a6",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:86b7b6ceee0a3481e9d7868337b47896b9971677": {
+      "source_xml_sha256": "fcf09fe73723f6cd9be5589ce0030fb05c2e47e3d789053eb81d8d8d8ededf59",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:cc5e28e1086da2300c4508263bc45e1871fef4d3": {
+      "source_xml_sha256": "fd96bbe6a09909f6048017ed2736733f522736ee4569646f147b520be7d86f8c",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:a13c3e09860257a56f0565b92f57ec111750f24d": {
+      "source_xml_sha256": "3d6e6d51bd8309d8ccb5eeb8f13d83f41bee280fd469313c0fbb3f043e3a0455",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:02658d19a9c8e0c3becfddb8c2b49e8415e78c2e": {
+      "source_xml_sha256": "0f00fe393b23329c737e91b10e8568deea188c18da855696495e3db50e388c6f",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:18fe4afcfd51a508291db1e3c478b11c09183f7c": {
+      "source_xml_sha256": "9aeb3dcacf4190f185515070a1f9ee0b500f79465db309b99ef97e25eef8a116",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:c17c0ebe8ccc2e70daf280b7d25363192f109dae": {
+      "source_xml_sha256": "9dde75ac77cde579a6f8f6c2b52a4bd7f90f5bc1227f2b8e284efee97b60086d",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:6b57ed6f84f000d72a291d4bb467e8a9c2654704": {
+      "source_xml_sha256": "846a28c7f79a08e4427710ca936724fa81337beb3b62a32de29abc4fd8d75f90",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:b513242fb7c600c56a40765a2e000ceda16c5c62": {
+      "source_xml_sha256": "cc875429dd2ad1814e651945d7ea0631ce34442e6450d9c64f7a58fc024e30b7",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:94718db38aa6f17a11d0b9768d457c1cac76446b": {
+      "source_xml_sha256": "06d868ec75726643f2ea96e0c7597cd2689ebf7da517cddd1c93ef225a4c8c1d",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:736fe3d9e57fe33dadfbd04bc0e5605f7c1322de": {
+      "source_xml_sha256": "98d1fc4ad28d76f48ab0ad9c06036c0f8e56d7b15d3891c792a4673f7c7414dd",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:95fa7ec43228b4225146bd5b10643ebc53640b37": {
+      "source_xml_sha256": "e33433c147de80644e23fac390197426a45bdad3afd3fdc6f9e3c4448ac595ce",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:f40ba0d8a185c780123a087d8bd7eb5375ca0d25": {
+      "source_xml_sha256": "5b45590eb3a16a4e9b8e14034c47b9c5ffb084e73648ab3a5aa24213a8ceeae3",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:0653e2fdf0d49be8768e4efe4d47b6e813b8f414": {
+      "source_xml_sha256": "1b7503433be838b789d3de716a44ccf371b8dba8134233b7f93f928e07750a14",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:fc8e48ee5fe1fcd777e99eeb39b38ad20f1c3b48": {
+      "source_xml_sha256": "96c6679d9d322614ee5221b46cabe85022cf8a253861e64ca28e22b032625b9b",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:df3e76289635b74cb836c854c24f995da6cb6af0": {
+      "source_xml_sha256": "5a0544be0684d9d2ba169c240ed2af0165956cf3ffd4ec92dd8b1b84ff11afc6",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:a83fe56ac9c0e8e685a9892d4d1b63507cdecfee": {
+      "source_xml_sha256": "7d9498f8253268cd6e543070f58b3fe058142019fe76cdd1adc5403a01082b24",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:b930097f42ad8bdedc4cdd7b07abf776a2732012": {
+      "source_xml_sha256": "2eb1d85dcf4e41028213378a2fe12286a6da93af29cf2f4d9213f46794d2793a",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:c24e8b77df60f790e4b4f18480cdf1c0e65aca8c": {
+      "source_xml_sha256": "2c454533f5a1fc8c3e6b9ad5e3f28cdcc5b4bd9de976338505c6fd58e45d7e46",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:d747904b8e3f33dbb83a54c5d8289a569403850d": {
+      "source_xml_sha256": "864b67ebbeddc36c8cfbe05b8e1999a464a4de464043e65a82fc4e8e2a8b5341",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:fca369be5668de2ab1b0aa39445474361baf311d": {
+      "source_xml_sha256": "669e1e607413f75db6eb3bb307b3fb22098d0773e1def77cb51714c5f5157e56",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:98a198807b8588024c756d42b3ad14569cc0f57c": {
+      "source_xml_sha256": "21287d50ee263d70d6af395b1bf293d4c9f85d2fd03d0e7c3ae3a541767d3233",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:472c8060e4423b3792a4eba74d509db499db5faf": {
+      "source_xml_sha256": "42e7aa88fb47c8d9f9e678a828c0c96c933539a4037f5b40c490cb9f434b8126",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    },
+    "kosh:cpd:3925e77286cf11c1c52524b49c8d4af17dd21e36": {
+      "source_xml_sha256": "5c12f85bf01cf8543a3fdfd1d33b937f80af27143e0671a11166b39347f5ef2f",
+      "raw_file": "kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+      "raw_sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+    }
+  },
+  "coverage": {
+    "groups": 1030,
+    "unique_observations": 1039,
+    "read_batches_1_based": [
+      [
+        1,
+        210
+      ],
+      [
+        211,
+        420
+      ],
+      [
+        421,
+        630
+      ],
+      [
+        631,
+        840
+      ],
+      [
+        841,
+        1030
+      ]
+    ],
+    "hold_observations": 46,
+    "hold_groups": 46,
+    "remaining_no_new_anomaly_hold_groups": 984
+  },
+  "prior_review_reuse": {
+    "path": "resources/local/candidate-review-20260928/root-review-v2.jsonl",
+    "total_prior_cases": 200,
+    "cases_involving_dmx_indexed": 132,
+    "targeted_decisions_reused": [
+      "POLY026",
+      "POLY095",
+      "POLY096",
+      "POLY104"
+    ],
+    "scope": "Reused relevant executed decisions and CONTENT-REVIEW discussion; no Gemini outputs were read or rerun."
+  },
+  "limits": [
+    "No Tafazzoli glossary print pages newly inspected; literal source defects remain holds rather than corrected targets.",
+    "MacKenzie is corroborating source evidence, not a majority vote or authority to overwrite DMX.",
+    "Unflagged means no new anomaly detected in this bounded scan, not error-free, expert-certified, corpus-qualified or training-admitted.",
+    "Potential variants ašhahānih, kannām, gēhān-marnǰnīdār and nīmadōmend were noticed but are not rejected solely for unfamiliar form; specialist/source-layout review may still find defects.",
+    "All original numbered senses, qualifiers, bundles, homographs and grammatical roles remain unchanged.",
+    "Full original XML was used for scoped MacKenzie comparisons; a flattened last sense is not a complete definition."
+  ],
+  "inputs_sha256": {
+    "resources/local/dataset-expansion-20260928/lexicon-v1/lexical-resources.jsonl": "3f963c94c00f79cf8c04421fcd55a539649c1b2a62eb4ac029ae195c1d73871c",
+    "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl": "3b0b14ce6e6520ad801839388d7362596c0cdfd1480f1a5b63d378071c0c1a65",
+    "experiments/data-qualification-20260928/PLAN.md": "0af896b83eb79d91f7704e7702fb814f36656fb1bc229cd8c26060704569723c",
+    "experiments/data-qualification-20260928/persian-root-review.json": "231a8ca704d518a168c94048929e4b82a0c0fb5bac7c7783dfcb60d1a3f4f647",
+    "resources/local/candidate-review-20260928/root-review-v2.jsonl": "22e6011478b3dedd9bd3ce5818a677d56d1f879ea0891335202acdd763475f6a"
+  },
+  "training_admitted": false,
+  "expert_certified": false,
+  "validation": {
+    "all_1030_groups_read": true,
+    "all_1039_observation_senses_match_inventory_after_nfc_whitespace_normalization": true,
+    "hold_ids_resolve": true,
+    "evidence_xml_hashes_match": true,
+    "cultivation_not_merged_with_killing": true,
+    "raw_sources_edited": false,
+    "input_hashes_rechecked": true
+  }
+}

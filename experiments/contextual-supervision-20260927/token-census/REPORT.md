@@ -44,7 +44,7 @@ Duplicate screening (report-only; full 66-pair values are in result.json):
 Reproduce from the project root:
 
 ```powershell
-& 'C:/Users/mojta/.venvs/codex-science/Scripts/python.exe' -B resources/local/contextual-token-census/census.py
+& '[USER_HOME]/.venvs/codex-science/Scripts/python.exe' -B resources/local/contextual-token-census/census.py
 ```
 
 Script SHA-256: `83a53d66d38bef6a5ceb3d826de010c3088d3b50049536d7b8d2c424dd2969fa`

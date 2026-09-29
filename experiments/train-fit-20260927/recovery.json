@@ -1,0 +1,42 @@
+{
+  "utc": "2026-09-27T12:30:27.373118+00:00",
+  "job_id": "6ab90a5e6b030d633f699327",
+  "run_id": "5e4fe4fbd90c47748bdb608bcb8b3cda",
+  "manifest_sha256": "34a218c906b10ffbbb6d06564bcfb840386ecf9666b5bdeb0451f1decfa8f00e",
+  "files": {
+    "base-provenance.json": {
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+    },
+    "bundle-manifest.json": {
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+    },
+    "fit-status.json": {
+      "bytes": 2295,
+      "sha256": "756a0ca8b3481979b54a6454706315b6f2ab9afa75b498367d4fa8d9b4b6e73f"
+    },
+    "fit/results.jsonl": {
+      "bytes": 94681,
+      "sha256": "477a8a891c1bc39ffe605e8e62b9f2269c6064c41e82e8a954186c5f2f8eb23f"
+    },
+    "fit/run.json": {
+      "bytes": 48396,
+      "sha256": "599fb5ce53197744247980cf846809a32eb1d89003d647f4c525cb909694b99a"
+    },
+    "source-control.json": {
+      "bytes": 8881,
+      "sha256": "3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0"
+    },
+    "trained-manifest.json": {
+      "bytes": 5949,
+      "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
+    }
+  },
+  "full_sha_recovery_verified": true,
+  "file_count": 7,
+  "total_bytes": 164349,
+  "fit_status": "complete",
+  "provider_inventory_committed": true,
+  "model_weights_downloaded": false
+}

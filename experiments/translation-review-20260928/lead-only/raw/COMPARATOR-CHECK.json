@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-28T07:58:56.810986+00:00",
+  "status": "pass",
+  "validator": "scripts.prepare_blind_dev_assisted.validate_run",
+  "files": {
+    "experiments/dev-assisted-qualified-20260927/blind-comparison/lead-only/raw/gemma280/run.json": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca",
+    "experiments/dev-assisted-qualified-20260927/blind-comparison/lead-only/raw/gemma280/predictions.jsonl": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19",
+    "experiments/dev-assisted-qualified-20260927/uniform-evaluation-contract.json": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182"
+  },
+  "checked_original_records": 48,
+  "comparator_records": 24,
+  "condition": "plain",
+  "adapter_step": 280,
+  "model": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "denominators": {
+    "whole": 15,
+    "constrained": 9
+  },
+  "ratings": "Fresh blind ratings required; historical ratings not reused"
+}

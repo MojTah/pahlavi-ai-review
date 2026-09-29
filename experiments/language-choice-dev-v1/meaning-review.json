@@ -1,0 +1,95 @@
+{
+  "reviewer": "Codex, same lead; single AI review, not blinded or independent",
+  "expert_adjudicated": false,
+  "benchmark": "exploratory DEV, not PAL-REF scoring",
+  "predictions_sha256": "59fce1b72ff2acf3c03d442ea8ad5c5607395ed7b619056b3c53f501b366a314",
+  "reference_screen_sha256": "5b8cab89fff3132408dc6a6d81b9bff3ab94cd61585aaa54219282a36c2abfb0",
+  "per_language_denominator": 6,
+  "language_winner": "NOT ESTABLISHED",
+  "reviews": [
+    {
+      "id": "PALDEV1-001:pal>en",
+      "output_sha256": "1625e1ea49a9a2130f6666d04ccb88d91939d5fcc966d5d023f94d629c184ee4",
+      "assessment": "not_acceptable_provisional",
+      "reason": "Clothing/washing and the Avesta are replaced with the back of a body/back.",
+      "reference_reading_caveat": true
+    },
+    {
+      "id": "PALDEV1-001:pal>fa",
+      "output_sha256": "dbe7b3be8483c7b5d252a6ff075fad0fbf7af333994a621f6a7987c8901fb4c0",
+      "assessment": "not_acceptable_provisional",
+      "reason": "Six-month washing and Avesta meaning are not preserved; husband is introduced.",
+      "reference_reading_caveat": true
+    },
+    {
+      "id": "PALDEV1-006:pal>en",
+      "output_sha256": "4b17c98373fd4f7bc93c9a48ed8dc61e1977c854ca47f2d936a9e3bd8d2ce483",
+      "assessment": "not_acceptable_provisional",
+      "reason": "Attribution to commentaries becomes son-of parentage; differing opinions become unjust condemnation.",
+      "reference_reading_caveat": true
+    },
+    {
+      "id": "PALDEV1-006:pal>fa",
+      "output_sha256": "29991529048daca34e54544f043e59dc9f60d6d09204b1ad49413b83495f1a8c",
+      "assessment": "not_acceptable_provisional",
+      "reason": "Commentaries become well/kingship and differing opinions are not clearly conveyed.",
+      "reference_reading_caveat": true
+    },
+    {
+      "id": "PALDEV1-002:pal>en",
+      "output_sha256": "e8600339b5483bcb3753708ea5946929abc741a67bae248d3f6696b0694e62b2",
+      "assessment": "not_acceptable_provisional",
+      "reason": "Cutting the earthen wall but not plaster is replaced by silence/speaking; Roshn is rendered Light.",
+      "reference_reading_caveat": false
+    },
+    {
+      "id": "PALDEV1-002:pal>fa",
+      "output_sha256": "5d6335e608a442f73903c3c7ef890fa953febe6ea1049aa6bd6a4e1a2ba20fb3",
+      "assessment": "not_acceptable_provisional",
+      "reason": "A herd replaces the earthen wall; the should/should-not contrast is not conveyed.",
+      "reference_reading_caveat": false
+    },
+    {
+      "id": "PALDEV1-003:pal>en",
+      "output_sha256": "748d96951a736c9470de07a824f78d522a9f3162d240807cc028d1408485dd38",
+      "assessment": "unresolved_reference_with_observed_errors",
+      "reason": "Even the shared clause loses removing clothing and pollution; shortest way is invented.",
+      "reference_reading_caveat": true
+    },
+    {
+      "id": "PALDEV1-003:pal>fa",
+      "output_sha256": "6b0e0cc640a33c4480e063e85e586c5350b0303e054a7a6aada33950a5ea87b7",
+      "assessment": "unresolved_reference_with_observed_errors",
+      "reason": "Repeated innocence replaces removing clothing and pollution.",
+      "reference_reading_caveat": true
+    },
+    {
+      "id": "PALDEV1-004:pal>en",
+      "output_sha256": "e0ca3619a7f44f661a0305b78594c4b5a294f9623a9533fc628211decb48c6f6",
+      "assessment": "not_acceptable_provisional",
+      "reason": "Separate stacked cushions and corpse pollution become childbirth, father and kindness.",
+      "reference_reading_caveat": false
+    },
+    {
+      "id": "PALDEV1-004:pal>fa",
+      "output_sha256": "348da8ed4cdfa76edd3c165b7b14efd588c761ffe85aca50603061c9a4338d19",
+      "assessment": "not_acceptable_provisional",
+      "reason": "The cushions and separate/not-one-piece condition are not conveyed; not doing one act is substituted.",
+      "reference_reading_caveat": false
+    },
+    {
+      "id": "PALDEV1-005:pal>en",
+      "output_sha256": "08e06b5f821ed5006063b7ec1399e7cf06272f77831f5c0025d3feb01fc4908d",
+      "assessment": "unresolved_reference_with_observed_errors",
+      "reason": "Death by a cord around the neck becomes sleeping in bed and crying.",
+      "reference_reading_caveat": true
+    },
+    {
+      "id": "PALDEV1-005:pal>fa",
+      "output_sha256": "f8d8d772b6d3903dec06aab0fd767c3ea67237191a280a4a8d46361e24a5ee03",
+      "assessment": "unresolved_reference_with_observed_errors",
+      "reason": "Cord/neck are glossed as journey/sea; shared source meaning is lost before the disputed condition.",
+      "reference_reading_caveat": true
+    }
+  ]
+}

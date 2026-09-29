@@ -1,0 +1,77 @@
+{
+  "status": "small_metadata_sha_verified",
+  "model_tensors_downloaded": false,
+  "manifest_sha256": "ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388",
+  "files": [
+    {
+      "path": "base-provenance.json",
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+    },
+    {
+      "path": "bundle-manifest.json",
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+    },
+    {
+      "path": "contract.json",
+      "bytes": 5221,
+      "sha256": "2f974dca27dc8c68664efe6721f7f420a801513c6cf95d80aace8c18d5e940cc"
+    },
+    {
+      "path": "job-provenance.json",
+      "bytes": 1301,
+      "sha256": "3b11f33530f0dbbc0fe8052e027f9f0f9fb8bcaceb399dc045591f41688db519"
+    },
+    {
+      "path": "training/canary-adapter/README.md",
+      "bytes": 5220,
+      "sha256": "17759c6245789f4ef5a6b1ad4b142836270884313ba7796917655e9937d37309"
+    },
+    {
+      "path": "training/canary-adapter/adapter_config.json",
+      "bytes": 1209,
+      "sha256": "2a86ce4e6e1684bbe0b13b2be4eec361ff0c0bf5a2c59bf65f7e92d083d8b093"
+    },
+    {
+      "path": "training/checkpoint-20/README.md",
+      "bytes": 5220,
+      "sha256": "17759c6245789f4ef5a6b1ad4b142836270884313ba7796917655e9937d37309"
+    },
+    {
+      "path": "training/checkpoint-20/adapter_config.json",
+      "bytes": 1209,
+      "sha256": "2a86ce4e6e1684bbe0b13b2be4eec361ff0c0bf5a2c59bf65f7e92d083d8b093"
+    },
+    {
+      "path": "training/checkpoint-20/trainer_state.json",
+      "bytes": 4418,
+      "sha256": "324e51b2786343b936b1b8c5812cafa4d19c063f2f29b3cabd16f9fe31c92984"
+    },
+    {
+      "path": "training/contract.json",
+      "bytes": 5221,
+      "sha256": "2f974dca27dc8c68664efe6721f7f420a801513c6cf95d80aace8c18d5e940cc"
+    },
+    {
+      "path": "training/environment.json",
+      "bytes": 483,
+      "sha256": "429260153685f49c164921c00b386b215513a8ad81c54a1e758d05456f3d64a8"
+    },
+    {
+      "path": "training/metrics.json",
+      "bytes": 298,
+      "sha256": "2596bd038e73e5283e250e9ae67b123fe63af2e606551ea8aec28bdfba8bb015"
+    },
+    {
+      "path": "training/provenance.json",
+      "bytes": 2108,
+      "sha256": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69"
+    },
+    {
+      "path": "training/status.json",
+      "bytes": 149,
+      "sha256": "a6d41135dd3c2dbd477092e9f286ff83582f70d3140f53ff6766a664eed05a5a"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "status": "PUBLISHED_DEFINITIONS_VISUALLY_CHECKED_NOT_ADJUDICATED_CONTEXT_LABELS",
+  "reviewer": "/root",
+  "reviewer_type": "AI",
+  "expert_adjudicated": false,
+  "training_admitted": false,
+  "source": {
+    "source_id": "S24",
+    "author": "Henrik Samuel Nyberg",
+    "title": "A Manual of Pahlavi II",
+    "edition": "Wiesbaden: Otto Harrassowitz, 1974",
+    "path": "sources/A-Manual-of-Pahlavi-II-Dictionary.pdf",
+    "sha256": "d49aaebbe1f51ebc07c616f538ff40a2a8d7ae9c3b810836c65689ab8a50f8c9",
+    "access": "Previously authorized local study copy; no Drive access or new acquisition.",
+    "scope": "Six brief dictionary-definition checks on five page images. No passage examples or dictionary-wide ingestion. Original rights retained."
+  },
+  "method": "Existing OCR located candidate pages; root inspected full rendered pages87,180,228,229,230. Printed page numbers were checked visually. Unicode display of headwords is editorial; page images remain authoritative. Generic definitions provide lexical support, not the exact contextual Persian target or a blanket normalization rule.",
+  "checks": [
+    {
+      "packet_ids": ["LEXFEAS1-011"],
+      "source_form": "frazand",
+      "dictionary_headword_display": "frazand",
+      "printed_page": 78,
+      "pdf_page": 87,
+      "column": "left",
+      "brief_definition_quote": "child",
+      "correspondence_status": "EXACT_HEADWORD",
+      "remaining_question": "The generic sense supports the draft child/offspring interpretation; contextual scope and Persian annotation still need review."
+    },
+    {
+      "packet_ids": ["LEXFEAS1-010"],
+      "source_form": "xrad",
+      "dictionary_headword_display": "xrat",
+      "printed_page": 219,
+      "pdf_page": 228,
+      "column": "right",
+      "brief_definition_quote": "reason, intellect, intelligence, wisdom, understanding",
+      "correspondence_status": "TRANSCRIPTION_VARIANT_REQUIRES_DOCUMENTED_MAPPING",
+      "remaining_question": "Do not silently normalize final d/t or turn several generic senses into one universal contextual meaning."
+    },
+    {
+      "packet_ids": ["LEXFEAS1-012"],
+      "source_form": "xwāstag",
+      "dictionary_headword_display": "xᵘāstak",
+      "printed_page": 221,
+      "pdf_page": 230,
+      "column": "right",
+      "brief_definition_quote": "property",
+      "correspondence_status": "TRANSCRIPTION_VARIANT_REQUIRES_DOCUMENTED_MAPPING",
+      "remaining_question": "Verify the local w/superscript-u and final g/k correspondence; the dictionary does not adjudicate the surrounding judgment."
+    },
+    {
+      "packet_ids": ["LEXFEAS1-013"],
+      "source_form": "ruwān",
+      "dictionary_headword_display": "ruvān",
+      "printed_page": 171,
+      "pdf_page": 180,
+      "column": "right",
+      "brief_definition_quote": "soul",
+      "correspondence_status": "TRANSCRIPTION_VARIANT_REQUIRES_DOCUMENTED_MAPPING",
+      "remaining_question": "Verify w/v correspondence and preserve the distinction between the noun and the source translation's parenthetical interpretation about caring for the soul."
+    },
+    {
+      "packet_ids": ["LEXFEAS1-014"],
+      "source_form": "hunsandīh",
+      "dictionary_headword_display": "xᵘansandēh",
+      "printed_page": 220,
+      "pdf_page": 229,
+      "column": "left",
+      "brief_definition_quote": "contentedness, modesty",
+      "correspondence_status": "LEXICAL_FAMILY_CANDIDATE_NOT_FORM_EQUIVALENCE_PROOF",
+      "remaining_question": "Initial spelling and abstract-noun suffix differ; do not assert equivalence from semantic resemblance or import the quarantined occurrence annotation."
+    },
+    {
+      "packet_ids": ["LEXFEAS1-008", "LEXFEAS1-009"],
+      "source_form": "frazaft.",
+      "dictionary_headword_display": "frazāftan; past form frazāft",
+      "printed_page": 78,
+      "pdf_page": 87,
+      "column": "left",
+      "brief_definition_quote": "finished",
+      "correspondence_status": "TRANSCRIPTION_VARIANT_REQUIRES_DOCUMENTED_MAPPING",
+      "remaining_question": "The entry specifically mentions book subscriptions. Verify vowel-length convention; the two TRAIN occurrences remain one recall group, not independent novel-word tests."
+    }
+  ]
+}

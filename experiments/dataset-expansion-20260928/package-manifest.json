@@ -1,0 +1,76 @@
+{
+  "status": "SOURCE_RESOURCE_CHECKPOINT_NOT_TRAINING_RELEASE",
+  "historical_training_pairs": 2237,
+  "historical_training_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "new_training_admissions": 0,
+  "prior_s22_packet": {
+    "path": "experiments/composition-evidence-20260928/candidates.jsonl",
+    "sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9"
+  },
+  "lexical_manifest": {
+    "path": "experiments/dataset-expansion-20260928/lexicon-summary-v1.json",
+    "sha256": "32fc1eeae3a5508a088ab6c96ee34515dbba8bbc9d9ea90d14a05f557290bfbc"
+  },
+  "parallel_and_pedagogical_packets": {
+    "s22-candidates.jsonl": {
+      "path": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "records": 9
+    },
+    "s22-supplement.jsonl": {
+      "path": "experiments/dataset-expansion-20260928/s22-supplement.jsonl",
+      "sha256": "a328fe6b7075c58e3e27125f26d90d1ad5c3a17bb0c2aa8e9c17d412aa72ec78",
+      "records": 104
+    },
+    "parsig-format-candidates.jsonl": {
+      "path": "experiments/dataset-expansion-20260928/parsig-format-candidates.jsonl",
+      "sha256": "f4dbc011c80bc7616f9f31c9ff46db0cc938aadc7c47fd7ae1e94ceba45042aa",
+      "records": 4
+    },
+    "archive-candidates.jsonl": {
+      "path": "experiments/dataset-expansion-20260928/archive-candidates.jsonl",
+      "sha256": "fe2e80cbb323b2072c673fb0e715dba8d100f670bad9fbaf975b4b3b2ddba48d",
+      "records": 53
+    }
+  },
+  "census": {
+    "flat_lexical_candidate_records": 26402,
+    "full_form_coverage": {
+      "unique_normalized_full_trc": 17094,
+      "matches_normalized_training_whole_source": 1,
+      "matches_training_whole_source_token_sequence": 7,
+      "occurs_as_exact_contiguous_training_token_sequence": 2689,
+      "not_found_as_training_token_sequence": 14405,
+      "empty_after_source_token_normalization": 0
+    },
+    "recovered_mmp_form_coverage": {
+      "unique_normalized_full_trc": 2054,
+      "matches_normalized_training_whole_source": 0,
+      "matches_training_whole_source_token_sequence": 1,
+      "occurs_as_exact_contiguous_training_token_sequence": 719,
+      "not_found_as_training_token_sequence": 1335,
+      "empty_after_source_token_normalization": 0
+    },
+    "recovered_mmp_forms_not_in_old_flat_candidates": 1332,
+    "new_s22_records_by_type": {
+      "pedagogical_clause": 9,
+      "pedagogical_finite_paradigm": 16,
+      "pedagogical_finite_predicate": 23,
+      "pedagogical_derivational_form": 65
+    },
+    "new_s22_distinct_source_strings": 110,
+    "new_s22_exact_source_repeats_of_prior_seven": [],
+    "new_s22_repeated_source_strings_with_different_contexts": {
+      "wēn-ēm/om/am": 2,
+      "wēn-ēd": 2,
+      "raft estēm": 2
+    },
+    "new_s22_whitespace_terms": {
+      "source": 152,
+      "target": 168
+    },
+    "limits": "Different grains are not summed into training pairs. Lexical coverage is orthographic, not semantic novelty. S22 counts preserve variants and polysemy; no independent-attestation or tokenizer count claim."
+  },
+  "code_sha256": "833a144987e11c528b7d870f77b445df7df6869b5603b6987c903ee3ec002da2",
+  "bound_evidence_files_checked": 63
+}

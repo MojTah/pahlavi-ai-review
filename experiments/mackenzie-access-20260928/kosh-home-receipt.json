@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-28T11:53:14.379653+00:00",
+  "requested_url": "https://kosh.uni-koeln.de/",
+  "final_url": "https://kosh-docs.vercel.app/",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 36420,
+  "sha256": "2810b21e6df61c23ba3b0f8cdfe22579edd5ba90f2968b06a0ef9761d98b9b90"
+}

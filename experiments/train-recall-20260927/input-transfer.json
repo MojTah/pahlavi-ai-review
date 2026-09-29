@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-27T11:06:26.690466+00:00",
+  "bucket": "Mojionix/pahlavi-pilot",
+  "remote": "inputs/train-recall-5a2b29c878b6.jsonl",
+  "bytes": 5561,
+  "sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+  "xet_hash": "2cdca63e2288b0356e2fcae23dc6dc80e14ef631aa62a854113be37374b1eec8",
+  "full_sha_roundtrip_verified": true,
+  "reference_uploaded": false
+}

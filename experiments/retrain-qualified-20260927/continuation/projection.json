@@ -1,0 +1,13 @@
+{
+  "expected_total_steps": 280,
+  "remaining_steps": 260,
+  "canary_train_seconds": 364.204,
+  "baseline_generation_seconds": 170.8188028060831,
+  "final_evaluation_allowance_seconds": 420,
+  "model_reload_reserve_seconds": 180,
+  "model_reload_reserve_is_estimate": true,
+  "safety_multiplier": 1.3,
+  "export_reserve_seconds": 300,
+  "projected_seconds": 7055.047600000001,
+  "available_seconds": 8399.379420224112
+}

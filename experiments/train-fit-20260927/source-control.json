@@ -1,0 +1,171 @@
+{
+  "status": "FROZEN_BEFORE_FIT_OUTPUTS",
+  "source_input_sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+  "method": "Smallest positive cyclic shift with no shared parent or work",
+  "shift": 5,
+  "count": 20,
+  "contains_reference_answers": false,
+  "never_training_pairs": true,
+  "pairs": [
+    {
+      "target_parent_id": "TRAINRECALL1-001",
+      "target_record_id": "parsig:101000002",
+      "correct_source_sha256": "058e2ae2290bc7dd87e66a5a316e7fe9bcf0d5d33a2a623cf4f4006f358da952",
+      "mismatched_source_parent_id": "TRAINRECALL1-006",
+      "mismatched_source_record_id": "parsig:107000006",
+      "mismatched_source_sha256": "2ddd20b7ae93fa3d273560daa1d6f2d423c54c57e794b62cde2f59b2ce45a8e9"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-002",
+      "target_record_id": "parsig:107000001",
+      "correct_source_sha256": "dec8d0ea9136b50e22af403cb44e14a57631f390773deb4d6b2469f4caa18cd5",
+      "mismatched_source_parent_id": "TRAINRECALL1-007",
+      "mismatched_source_record_id": "parsig:108000001",
+      "mismatched_source_sha256": "54d88044d51087cf037b62d23f13584f5fc506d352f17ead8295a5e3e20362e0"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-003",
+      "target_record_id": "parsig:107000003",
+      "correct_source_sha256": "aed8a04294e56610eb187f041c31a420de9fb0ce4ec89844767788ab57688386",
+      "mismatched_source_parent_id": "TRAINRECALL1-008",
+      "mismatched_source_record_id": "parsig:109000005",
+      "mismatched_source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-004",
+      "target_record_id": "parsig:107000004",
+      "correct_source_sha256": "4505690fe346ee3fdb76028cc8fbc518aa5d79205409dcb4e9a5f227502b1e1b",
+      "mismatched_source_parent_id": "TRAINRECALL1-009",
+      "mismatched_source_record_id": "parsig:115000009",
+      "mismatched_source_sha256": "9ad95e2b8381d3b43cb29b50e94cb16af9336ab9fc23f6189ce930fff2b04320"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-005",
+      "target_record_id": "parsig:107000005",
+      "correct_source_sha256": "367f4070090839b9d537a51fc355d8b03bd372dc6bc962309e3e75710ea496a1",
+      "mismatched_source_parent_id": "TRAINRECALL1-010",
+      "mismatched_source_record_id": "parsig:119000002",
+      "mismatched_source_sha256": "44961a31c778ddf22fe9b674bf3a131c94ee6bfefa46beaf31bda78d798dd8c0"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-006",
+      "target_record_id": "parsig:107000006",
+      "correct_source_sha256": "2ddd20b7ae93fa3d273560daa1d6f2d423c54c57e794b62cde2f59b2ce45a8e9",
+      "mismatched_source_parent_id": "TRAINRECALL1-011",
+      "mismatched_source_record_id": "parsig:134002003",
+      "mismatched_source_sha256": "7e7bcb96a3183c34e053163eaa46a985e4be0795935263cf4ca238eff84d04ee"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-007",
+      "target_record_id": "parsig:108000001",
+      "correct_source_sha256": "54d88044d51087cf037b62d23f13584f5fc506d352f17ead8295a5e3e20362e0",
+      "mismatched_source_parent_id": "TRAINRECALL1-012",
+      "mismatched_source_record_id": "parsig:136001015",
+      "mismatched_source_sha256": "1b76656e50ae8fd77b0d71e38e46203cc7cb17ed45e1a53a0321699b8f292e65"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-008",
+      "target_record_id": "parsig:109000005",
+      "correct_source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b",
+      "mismatched_source_parent_id": "TRAINRECALL1-013",
+      "mismatched_source_record_id": "parsig:150000053",
+      "mismatched_source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-009",
+      "target_record_id": "parsig:115000009",
+      "correct_source_sha256": "9ad95e2b8381d3b43cb29b50e94cb16af9336ab9fc23f6189ce930fff2b04320",
+      "mismatched_source_parent_id": "TRAINRECALL1-014",
+      "mismatched_source_record_id": "parsig:151001020",
+      "mismatched_source_sha256": "41463c49e2c1c4c478caa9b9df61ba99c1657b0f26c95430825c47ee7df3a312"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-010",
+      "target_record_id": "parsig:119000002",
+      "correct_source_sha256": "44961a31c778ddf22fe9b674bf3a131c94ee6bfefa46beaf31bda78d798dd8c0",
+      "mismatched_source_parent_id": "TRAINRECALL1-015",
+      "mismatched_source_record_id": "parsig:509000001",
+      "mismatched_source_sha256": "ec51fc748ec794a86343c4a8ad609f4243b0e87186e00f40c565a967beb8656a"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-011",
+      "target_record_id": "parsig:134002003",
+      "correct_source_sha256": "7e7bcb96a3183c34e053163eaa46a985e4be0795935263cf4ca238eff84d04ee",
+      "mismatched_source_parent_id": "TRAINRECALL1-016",
+      "mismatched_source_record_id": "parsig:511000001",
+      "mismatched_source_sha256": "cda142c4c6965d6413a0723d6d45bafcf0da8217a11d37d8fefb565ba67c37a6"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-012",
+      "target_record_id": "parsig:136001015",
+      "correct_source_sha256": "1b76656e50ae8fd77b0d71e38e46203cc7cb17ed45e1a53a0321699b8f292e65",
+      "mismatched_source_parent_id": "TRAINRECALL1-017",
+      "mismatched_source_record_id": "parsig:515000002",
+      "mismatched_source_sha256": "c8b407528607d9d3d76fca516d7a1217cfedea09005e80bb9f77d96e49139a6f"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-013",
+      "target_record_id": "parsig:150000053",
+      "correct_source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d",
+      "mismatched_source_parent_id": "TRAINRECALL1-018",
+      "mismatched_source_record_id": "parsig:521000003",
+      "mismatched_source_sha256": "e3096e9ef29f76982762f189da400b6b8cf1eb4fd13ce139698bda1707b7ef0a"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-014",
+      "target_record_id": "parsig:151001020",
+      "correct_source_sha256": "41463c49e2c1c4c478caa9b9df61ba99c1657b0f26c95430825c47ee7df3a312",
+      "mismatched_source_parent_id": "TRAINRECALL1-019",
+      "mismatched_source_record_id": "parsig:550000001",
+      "mismatched_source_sha256": "4e38c8089b542c54f190234546afca74f69daf37e6a6ee26d3809a5f9b8afbd6"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-015",
+      "target_record_id": "parsig:509000001",
+      "correct_source_sha256": "ec51fc748ec794a86343c4a8ad609f4243b0e87186e00f40c565a967beb8656a",
+      "mismatched_source_parent_id": "TRAINRECALL1-020",
+      "mismatched_source_record_id": "parsig:555000002",
+      "mismatched_source_sha256": "ad02076cd9f2eaf14a3d870178ff19ec5bd0c3bd3aeb8bca9c62cfa12a89ab99"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-016",
+      "target_record_id": "parsig:511000001",
+      "correct_source_sha256": "cda142c4c6965d6413a0723d6d45bafcf0da8217a11d37d8fefb565ba67c37a6",
+      "mismatched_source_parent_id": "TRAINRECALL1-001",
+      "mismatched_source_record_id": "parsig:101000002",
+      "mismatched_source_sha256": "058e2ae2290bc7dd87e66a5a316e7fe9bcf0d5d33a2a623cf4f4006f358da952"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-017",
+      "target_record_id": "parsig:515000002",
+      "correct_source_sha256": "c8b407528607d9d3d76fca516d7a1217cfedea09005e80bb9f77d96e49139a6f",
+      "mismatched_source_parent_id": "TRAINRECALL1-002",
+      "mismatched_source_record_id": "parsig:107000001",
+      "mismatched_source_sha256": "dec8d0ea9136b50e22af403cb44e14a57631f390773deb4d6b2469f4caa18cd5"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-018",
+      "target_record_id": "parsig:521000003",
+      "correct_source_sha256": "e3096e9ef29f76982762f189da400b6b8cf1eb4fd13ce139698bda1707b7ef0a",
+      "mismatched_source_parent_id": "TRAINRECALL1-003",
+      "mismatched_source_record_id": "parsig:107000003",
+      "mismatched_source_sha256": "aed8a04294e56610eb187f041c31a420de9fb0ce4ec89844767788ab57688386"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-019",
+      "target_record_id": "parsig:550000001",
+      "correct_source_sha256": "4e38c8089b542c54f190234546afca74f69daf37e6a6ee26d3809a5f9b8afbd6",
+      "mismatched_source_parent_id": "TRAINRECALL1-004",
+      "mismatched_source_record_id": "parsig:107000004",
+      "mismatched_source_sha256": "4505690fe346ee3fdb76028cc8fbc518aa5d79205409dcb4e9a5f227502b1e1b"
+    },
+    {
+      "target_parent_id": "TRAINRECALL1-020",
+      "target_record_id": "parsig:555000002",
+      "correct_source_sha256": "ad02076cd9f2eaf14a3d870178ff19ec5bd0c3bd3aeb8bca9c62cfa12a89ab99",
+      "mismatched_source_parent_id": "TRAINRECALL1-005",
+      "mismatched_source_record_id": "parsig:107000005",
+      "mismatched_source_sha256": "367f4070090839b9d537a51fc355d8b03bd372dc6bc962309e3e75710ea496a1"
+    }
+  ]
+}

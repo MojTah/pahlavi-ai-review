@@ -1,0 +1,154 @@
+{
+  "status": "server_committed_inventory_verified",
+  "job_id": "6ab8a8c66b030d633f698091",
+  "manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "files": [
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/after/predictions.jsonl",
+      "bytes": 13775,
+      "xet_hash": "317a121e97ffcb505a5cdaafa906c5cc784183e9472b8d8fe038251b865c6ec6"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/after/run.json",
+      "bytes": 10726,
+      "xet_hash": "2008d9325defc1febeef924b185479d0c7aeb1e2dca99720ff540454e90f13b4"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/canary-manifest.json",
+      "bytes": 4499,
+      "xet_hash": "30aa04c3c44c1316c539cbf7bd85753d187f05a6160b202b470627cfe9d8a138"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/canary-provenance.json",
+      "bytes": 2108,
+      "xet_hash": "49b016e9c8f8328f6dab43b65f6921a66fc171d3d2ff6c99d7c5575111932bf7"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/continuation-status.json",
+      "bytes": 1354,
+      "xet_hash": "040b1fb038e6c028630739a557b2bdee739f17eab34597fcb525b288bc6a8862"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/controller-admission.json",
+      "bytes": 1040,
+      "xet_hash": "2c4500fdd28bcb377109f5c222d4f40f089fcc30abc503be65c691c53b98fe32"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/original-bundle-manifest.json",
+      "bytes": 1825,
+      "xet_hash": "bdf40c635056b6b4071ceb3f678357cfff810969176f170d69be70924272da45"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/original-contract.json",
+      "bytes": 5221,
+      "xet_hash": "553df639f2dffb73034bafa5b11cf8266ef1cfac1ee73d7153fd913b69d37e8a"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/projection.json",
+      "bytes": 420,
+      "xet_hash": "01e0da2180615e7cffb5a53fd75242fe2677c5d534ab3b340fb9b4bc18efa8d3"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/readiness-evidence.json",
+      "bytes": 1717,
+      "xet_hash": "e091ed1cfbc8a5939cd9d0d4f7d541766fbcfae22c3ff6cfc5b56dba7f5b4f00"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/resumed-bundle-manifest.json",
+      "bytes": 1825,
+      "xet_hash": "369656ea281258e5f86b5531eba8626b2d3b775892c06bb8fe4f33f58cbe314d"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/resumed-contract.json",
+      "bytes": 5216,
+      "xet_hash": "29e1e93cfeec9a9e9164e1b48390bf5e4a16acfaf1d850b6b88921a5703dc516"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/README.md",
+      "bytes": 5232,
+      "xet_hash": "fb64b0ac5456af3f131997e056e9aca0faf6586836e02bfb9fdf88fcb7b2d1d3"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_config.json",
+      "bytes": 1215,
+      "xet_hash": "11fb4ff1cd82713fa2078dc011abf39168a0beba16824ed2023f3da31e2adef6"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_model.safetensors",
+      "bytes": 489840816,
+      "xet_hash": "eee3d09facbc624c4a3d417311d371005cde7b78ed2451395d1a00958ee573f2"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/README.md",
+      "bytes": 5232,
+      "xet_hash": "fb64b0ac5456af3f131997e056e9aca0faf6586836e02bfb9fdf88fcb7b2d1d3"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/adapter_config.json",
+      "bytes": 1215,
+      "xet_hash": "11fb4ff1cd82713fa2078dc011abf39168a0beba16824ed2023f3da31e2adef6"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/adapter_model.safetensors",
+      "bytes": 489840816,
+      "xet_hash": "eee3d09facbc624c4a3d417311d371005cde7b78ed2451395d1a00958ee573f2"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/optimizer.pt",
+      "bytes": 980130111,
+      "xet_hash": "5a0ef355a3c7df7d54ae805978472bbbf17973b19e06c69025a787398b7f5707"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/rng_state.pth",
+      "bytes": 14645,
+      "xet_hash": "7f5ae9fce67551ad94e9d6c69dbae3ab41c0d88d705c78f7fa038a73e93b2ce0"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/scheduler.pt",
+      "bytes": 1465,
+      "xet_hash": "03a79d3a6cf4609c0c5b85e575d9740a505cb95445d69a93cf2a545effd012c1"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/trainer_state.json",
+      "bytes": 52179,
+      "xet_hash": "9c0652092208e9dc905944231c998d7232bfb3847b08d9f269680a4804171bba"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/checkpoint-280/training_args.bin",
+      "bytes": 5201,
+      "xet_hash": "82499bf52640ca8f5ed678afc3bb8051fa542d296f7674fcec36a01d34ce1c2a"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/contract.json",
+      "bytes": 5221,
+      "xet_hash": "553df639f2dffb73034bafa5b11cf8266ef1cfac1ee73d7153fd913b69d37e8a"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/environment.json",
+      "bytes": 483,
+      "xet_hash": "f498f7e507b5b989836985990da3f4b21488346467e210f0177a88b557510ec9"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/metrics.json",
+      "bytes": 289,
+      "xet_hash": "007712449c2f89a12110a94b856706459cb92ab9262fb9e07b2da74123cb2dfe"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/provenance.json",
+      "bytes": 2108,
+      "xet_hash": "49b016e9c8f8328f6dab43b65f6921a66fc171d3d2ff6c99d7c5575111932bf7"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/resume-checkpoint.json",
+      "bytes": 6447,
+      "xet_hash": "cdf44aab5374b1d7375264c0fada6c8198cf415a2f9bd5dd88d7dba74db3c526"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/status.json",
+      "bytes": 149,
+      "xet_hash": "3f4c5ac1306fbd45023649056f086534202c29573f4bb8a05b59db2688741453"
+    }
+  ],
+  "cross_job_sha256_verified": false,
+  "resume_requires_all_file_sha256": true
+}

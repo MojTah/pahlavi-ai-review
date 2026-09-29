@@ -1,0 +1,7 @@
+{
+  "status": "canary_pass",
+  "global_step": 20,
+  "adapter": "canary-adapter",
+  "quality_validated": false,
+  "cloud_shutdown_performed": false
+}

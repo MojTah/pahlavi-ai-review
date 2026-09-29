@@ -1,0 +1,176 @@
+{
+  "checked_at": "2026-09-25",
+  "currency": "USD",
+  "compute_region": "us-central1",
+  "kind": "planning_scenarios_not_runtime_predictions",
+  "rates_usd_vm_hour": {
+    "a2-ultragpu-1g": {
+      "ondemand": 5.06879789,
+      "spot": 3.041237534,
+      "flex": 2.4,
+      "gpus": 1,
+      "gpu": "A100 80GB",
+      "vcpu": 12,
+      "ram_gib": 170
+    },
+    "a2-ultragpu-2g": {
+      "ondemand": 10.137595781,
+      "spot": 6.082475068,
+      "flex": 4.8,
+      "gpus": 2,
+      "gpu": "A100 80GB",
+      "vcpu": 24,
+      "ram_gib": 340
+    },
+    "a2-ultragpu-4g": {
+      "ondemand": 20.275191562,
+      "spot": 12.164950137,
+      "flex": 9.6,
+      "gpus": 4,
+      "gpu": "A100 80GB",
+      "vcpu": 48,
+      "ram_gib": 680
+    },
+    "a2-ultragpu-8g": {
+      "ondemand": 40.550383123,
+      "spot": 24.329900274,
+      "flex": 19.2,
+      "gpus": 8,
+      "gpu": "A100 80GB",
+      "vcpu": 96,
+      "ram_gib": 1360
+    },
+    "a3-highgpu-1g": {
+      "ondemand": null,
+      "spot": 6.620287068,
+      "flex": 4.79,
+      "gpus": 1,
+      "gpu": "H100 80GB",
+      "vcpu": 26,
+      "ram_gib": 234
+    },
+    "a3-highgpu-2g": {
+      "ondemand": null,
+      "spot": 13.240574137,
+      "flex": 9.58,
+      "gpus": 2,
+      "gpu": "H100 80GB",
+      "vcpu": 52,
+      "ram_gib": 468
+    },
+    "a3-highgpu-4g": {
+      "ondemand": null,
+      "spot": 26.481148274,
+      "flex": 19.16,
+      "gpus": 4,
+      "gpu": "H100 80GB",
+      "vcpu": 104,
+      "ram_gib": 936
+    },
+    "a3-highgpu-8g": {
+      "ondemand": 88.490000119,
+      "spot": 52.962296548,
+      "flex": 38.32,
+      "gpus": 8,
+      "gpu": "H100 80GB",
+      "vcpu": 208,
+      "ram_gib": 1872
+    },
+    "g4-standard-48": {
+      "ondemand": 4.49993,
+      "spot": 1.77164,
+      "flex": 2.25,
+      "gpus": 1,
+      "gpu": "RTX PRO 6000 96GB",
+      "vcpu": 48,
+      "ram_gib": 180
+    }
+  },
+  "api_assumptions": {
+    "pricing_location": "global",
+    "input_tokens_per_call": 20000,
+    "billed_output_tokens_per_call": 2000,
+    "includes_billed_reasoning": true,
+    "input_limit_for_quoted_rate": 200000,
+    "gemini_3_1_pro_preview_per_million": {
+      "input": 2,
+      "output": 12
+    },
+    "gemini_2_5_pro_per_million": {
+      "input": 1.25,
+      "output": 10
+    }
+  },
+  "sft_assumptions": {
+    "model": "Gemini 2.5 Pro",
+    "dataset_formatted_tokens": 3000000,
+    "epochs": 4,
+    "usd_per_million_training_tokens": 25
+  },
+  "basket_usd": {
+    "api_31": 64,
+    "api_25": 45,
+    "sft": 300,
+    "byt5": 243.30229874399998,
+    "open_small_mid": 101.3759578,
+    "open_large": 101.37595781,
+    "storage_allowance": 50
+  },
+  "basket_total_usd": 905.054214354,
+  "contingency_fraction": 0.3,
+  "basket_with_contingency_usd": 1176.5704786602,
+  "allocations_hours": {
+    "byt5_xl_a2_2g": 24,
+    "small_and_mid_inference_a2_1g": 20,
+    "large_inference_a2_4g": 5,
+    "long_campaign_8gpu": 672
+  },
+  "large_campaign_usd": {
+    "a2_8g_28days": 27249.857458656,
+    "a3_8g_28days": 59465.280079968
+  },
+  "quality_forecast": null,
+  "quality_forecast_reason": "No matched Pahlavi evaluation for proposed cloud candidates.",
+  "proposed_investment_rule": {
+    "acceptable_translation_absolute_gain": 0.1,
+    "or_correction_time_relative_reduction": 0.2,
+    "critical_error_guardrail": "No material increase; margin must be frozen before confirmation.",
+    "coverage_guardrail": "Do not improve acceptance solely by abstaining on difficult passages."
+  },
+  "illustrative_roi": {
+    "expert_usd_hour": 60,
+    "minutes_saved": 2,
+    "extra_inference_usd_passage": 0.2,
+    "extra_fixed_usd": 1000,
+    "net_saved_usd_passage": 1.8,
+    "break_even_passages": 556,
+    "observed": false
+  },
+  "exclusions": [
+    "expert and engineering labor",
+    "source acquisition",
+    "tax",
+    "unbounded retries",
+    "network traffic beyond allowance",
+    "cloud provisioning or spending authorization"
+  ],
+  "sources": {
+    "ondemand": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+    "spot": "https://cloud.google.com/spot-vms/pricing",
+    "flex": "https://cloud.google.com/products/dws/pricing",
+    "hardware": "https://docs.cloud.google.com/compute/docs/accelerator-optimized-machines",
+    "managed": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+    "tuning": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/tuning/supervised-tuning",
+    "storage": "https://cloud.google.com/storage/pricing",
+    "disks": "https://cloud.google.com/compute/disks-image-pricing"
+  },
+  "limitations": [
+    "Prices are public lists, not user-account quote/capacity check.",
+    "Spot rates variable; Flex prices scheduled to change November 2026.",
+    "Flex allocation maximum seven days.",
+    "A3 High 1/2/4 GPUs unavailable on ordinary on-demand.",
+    "A2 Ultra 1g SSD listed inconsistently as 275/375GiB; hardware spec says 375.",
+    "G4 optional SSD not treated as bundled.",
+    "Hours are allocations, not measured runtimes or equal-work comparisons."
+  ]
+}

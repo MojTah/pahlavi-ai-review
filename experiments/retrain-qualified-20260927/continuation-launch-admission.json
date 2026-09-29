@@ -1,0 +1,41 @@
+{
+  "status": "READY_BOUNDED_CONTINUATION_WITH_REMOTE_RECOVERY_GATE",
+  "utc": "2026-09-27T05:25:14.047843+00:00",
+  "source_commit": "bb68d8055579621f6ca488bd7501a7408d2b884d",
+  "run_id": "1ae0f16dae9c4dffa36d15a24345fded",
+  "spec_sha256": "77103fba497e3c3d1511b1e2b9902168267af0ae6bf6ee2ff590d28cc2631208",
+  "provenance_sha256": "6abffc617bd05a5a83e1f37b3dd4aabb1c086fee069bf312ca336be5d81227f7",
+  "terminal_jobs": 11,
+  "canary_inventory_files": 20,
+  "inputs": [
+    {
+      "path": "inputs/cloud-pilot-qualified-20260927.zip",
+      "bytes": 6372448,
+      "xet_hash": "1ceffc0b2329346b1cee5362870fc4b64bef10d8eb2e71668b427e3b6a43ef00",
+      "sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9"
+    },
+    {
+      "path": "inputs/palref-eval-050a38880c68.py",
+      "bytes": 10219,
+      "xet_hash": "f6cbf00c6c2496d48d61d3fc0c1fdcdec6ffde16a577d63d394959513841dd3c",
+      "sha256": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+    },
+    {
+      "path": "inputs/palref-v1-pal-fa-inputs-0616b5083833.jsonl",
+      "bytes": 12115,
+      "xet_hash": "adf5463f26d204b910f26bd8ef8b293e029f954e43f5125e8b7541a20fbf619c",
+      "sha256": "0616b50838339e9b520f06fe8b2ed9c0fd9b399b67c8f68cd680a62115a12f37"
+    },
+    {
+      "path": "inputs/qualified-continuation-admission-513dc48cf10f.json",
+      "bytes": 1040,
+      "xet_hash": "2c4500fdd28bcb377109f5c222d4f40f089fcc30abc503be65c691c53b98fe32",
+      "sha256": "513dc48cf10fcba9578f3d1c6d0b6fd1947dc8461cb4b1e285bf7f48d3818d3a"
+    }
+  ],
+  "cloud_full_sha_recovery_required_before_base_download": true,
+  "max_minutes": 150,
+  "cumulative_cap_usd": 25,
+  "prior_compute_rounded_usd": 7.71,
+  "no_model_tensors_downloaded_locally": true
+}

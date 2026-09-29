@@ -1,0 +1,104 @@
+{
+  "scope": "RAW CAPTURE ID RECONCILIATION; NOT SEMANTIC DEDUPLICATION OR TRAINING ADMISSION",
+  "baseline": {
+    "file": "intake-snapshot-5992.json",
+    "sha256": "923a3c045ca8e1cbeaf96d64afdcab69874a990fce7343553038e480c41607f2",
+    "raw_entries": 5992
+  },
+  "supplement": {
+    "file": "size1000-pass-final.json",
+    "sha256": "f7445e466c22ca315accdaadf494afd1f5953574c4a59ce822a5d674997768c0"
+  },
+  "collections": {
+    "cpd": {
+      "baseline_ids": 100,
+      "supplement_ids": 1000,
+      "new_ids": 900,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 1000,
+      "xml_errors_for_quarantine": [
+        {
+          "id": "8a25cd9aab91d28e0ee26362420a038d79c28d90",
+          "error": "not well-formed (invalid token): line 1, column 194"
+        }
+      ]
+    },
+    "cpd_de": {
+      "baseline_ids": 100,
+      "supplement_ids": 1000,
+      "new_ids": 900,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 1000,
+      "xml_errors_for_quarantine": []
+    },
+    "da": {
+      "baseline_ids": 100,
+      "supplement_ids": 103,
+      "new_ids": 3,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 103,
+      "xml_errors_for_quarantine": []
+    },
+    "dd1": {
+      "baseline_ids": 100,
+      "supplement_ids": 368,
+      "new_ids": 268,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 368,
+      "xml_errors_for_quarantine": []
+    },
+    "dk5": {
+      "baseline_ids": 100,
+      "supplement_ids": 413,
+      "new_ids": 313,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 413,
+      "xml_errors_for_quarantine": []
+    },
+    "dk6": {
+      "baseline_ids": 100,
+      "supplement_ids": 323,
+      "new_ids": 223,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 323,
+      "xml_errors_for_quarantine": []
+    },
+    "dk7": {
+      "baseline_ids": 100,
+      "supplement_ids": 715,
+      "new_ids": 615,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 715,
+      "xml_errors_for_quarantine": []
+    },
+    "dk8": {
+      "baseline_ids": 100,
+      "supplement_ids": 483,
+      "new_ids": 383,
+      "overlapping_ids": 100,
+      "baseline_ids_absent_from_supplement": [],
+      "same_id_changed_payload": [],
+      "union_ids": 483,
+      "xml_errors_for_quarantine": []
+    }
+  },
+  "additional_collection_ids": 3605,
+  "total_unique_collection_ids": 9597,
+  "retained_legacy_cpd_records_separate": 4218,
+  "complete_site_export": false,
+  "stop_reason": "HTTPError: HTTP Error 503: Service Unavailable"
+}

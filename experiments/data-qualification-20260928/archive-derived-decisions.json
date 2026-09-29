@@ -1,0 +1,22 @@
+{
+  "source_packet_sha256": "051b4644ef0a4613f48232b9149398242a953f19726f36670919b10eb320019c",
+  "raw_packet_unchanged": true,
+  "integrator": "/root",
+  "corrections": {
+    "openampd:MP0046:full": {
+      "field": "derived_target_text",
+      "original_substring": "transction",
+      "derived_substring": "transaction",
+      "expected_occurrences": 1,
+      "reason": "Explicit English spelling repair in the published translation; no change to the translated transaction or its modality. The full source/target, gaps, amounts and negated further demand were independently scope-reviewed and root re-read the exact paired text. Original misspelling remains in the immutable edition packet."
+    },
+    "openampd:MP0416:full": {
+      "field": "derived_target_text",
+      "original_substring": "Spandaimad",
+      "derived_substring": "Spandarmad",
+      "expected_occurrences": 1,
+      "reason": "Explicit proper-name transcription repair: source line3 visibly reads Spandarmad; target's corresponding named calendar day has an i/r spelling defect. Preserve all numerals, restorations and editorial glosses. Original target remains in the immutable edition packet."
+    }
+  },
+  "scope": "These narrowly declared spelling repairs do not resolve the underlying documentary lacunae or turn annotated fragments into certain prose. Independent archive critic must approve this derived overlay before final release."
+}

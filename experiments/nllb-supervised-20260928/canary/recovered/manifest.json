@@ -1,0 +1,127 @@
+{
+  "automatic_full_resume_supported": false,
+  "bootstrap_hashes": {
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "completed_steps": 20,
+  "compute_seconds": 720,
+  "cross_job_sha256_verified": false,
+  "dev_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "files": {
+    "driver.log": {
+      "bytes": 17938,
+      "sha256": "e7635379763ec646b78c11e8639f2e3b7dfab15a9133a350d2f541d02b88691d"
+    },
+    "nllb/canary.json": {
+      "bytes": 798,
+      "sha256": "91ac4b15abcaf8c23bb68e990514d008d04af7d51605197016839fb3f1d81a59"
+    },
+    "nllb/model/config.json": {
+      "bytes": 781,
+      "sha256": "82f052837f91b32a62b33e7f1e4a5adeea8f02b68350ca27739713372396226e"
+    },
+    "nllb/model/generation_config.json": {
+      "bytes": 184,
+      "sha256": "ea60866fa9cbe3bca3c94b94956faf3e1e2b72a7be404e8af1b0ff3422dcfdfa"
+    },
+    "nllb/model/model-00001-of-00002.safetensors": {
+      "bytes": 2997573200,
+      "sha256": "8ecdac490dc3801e30c6c1a6447375ff1186d8c6c10992f15af1352f2c0d26a5"
+    },
+    "nllb/model/model-00002-of-00002.safetensors": {
+      "bytes": 2485137120,
+      "sha256": "92b258ed8565e38059f013f9473e0198ea749fc34c3af6dea81131fccbf72ac8"
+    },
+    "nllb/model/model.safetensors.index.json": {
+      "bytes": 89858,
+      "sha256": "1efac115cefbf3b9fdaf01d07f685f1b5648f301032413bc93634f9754544eda"
+    },
+    "nllb/model/optimizer.pt": {
+      "bytes": 10966065394,
+      "sha256": "714a43d024afc75db5725387032e3fd843be13703bb5ef795eb98f4fc13a79f0"
+    },
+    "nllb/model/rng.pt": {
+      "bytes": 6789,
+      "sha256": "17d520c01e49831bcbc7c92796390243cbef753fba623ee661be9a680293fb68"
+    },
+    "nllb/model/tokenizer.json": {
+      "bytes": 32240968,
+      "sha256": "69d6e27dc9ed4a21a80cc302aedd8acf26a36523803537a110f991a8dac92ee2"
+    },
+    "nllb/model/tokenizer_config.json": {
+      "bytes": 3756,
+      "sha256": "ff4acbc476f405c8caa923410cee244ef69f441ab9f7be0b6bffc20c384318c9"
+    },
+    "nllb/model/training-state.json": {
+      "bytes": 738,
+      "sha256": "0e9cd4564f57891caa9ad862fe3f922b05b7f93765a3b9b3f87d3fd35e9428e6"
+    },
+    "nllb/predictions.jsonl": {
+      "bytes": 34909,
+      "sha256": "c9cdcecf928ef728cb01fc85807186584adbddad02e7400dd68574c0c84777b2"
+    },
+    "nllb/run.json": {
+      "bytes": 1020,
+      "sha256": "40770be7d56f622692a7802719b43f260966bf429fe971cfd1892d9f7babbb3f"
+    },
+    "nllb/schedule.json": {
+      "bytes": 377647,
+      "sha256": "44c0a0446f80d84b6ae9e3702e60a28db56631e832984c6719ae5aaf41ee7939"
+    },
+    "nllb/training.jsonl": {
+      "bytes": 3532,
+      "sha256": "5f5cd7e3f2f610bdf93232f9ceda8d588b4645266a2ebe3326f2bfa3e254b3c2"
+    },
+    "package-manifest.json": {
+      "bytes": 4659,
+      "sha256": "3e6fe3f6a7327d1b725708c14b7c403a09be74592bd806fd0ddc6c2ead89de05"
+    },
+    "status.json": {
+      "bytes": 1681,
+      "sha256": "7fb19d5591f031b31ed7fcd63aa7fa421b64bb559551c57ca2e4b4edbfb1c180"
+    }
+  },
+  "internal_seconds": 1080,
+  "latest_optimizer_checkpoint": null,
+  "local_model_verified": false,
+  "max_export_bytes": 25769803776,
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "native_timeout_minutes": 20,
+  "nllb_status": "canary_complete",
+  "operation": "nllb_supervised",
+  "output_prefix": "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e",
+  "package_manifest_sha256": "3e6fe3f6a7327d1b725708c14b7c403a09be74592bd806fd0ddc6c2ead89de05",
+  "package_name": "nllb-4ff0ae48c2de917a.zip",
+  "package_sha256": "4ff0ae48c2de917af47525dc456d8d58604d914b3aea3a7e393dfa689e267229",
+  "phase": "canary",
+  "quality_validated": false,
+  "remote_inventory_verified": false,
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "run_id": "3f445ed35bd94fe9b1724ef8cce2753e",
+  "schema_version": 1,
+  "settings": {
+    "autocast_dtype": "bfloat16",
+    "do_sample": false,
+    "effective_batch": 16,
+    "epochs": 5,
+    "forced_bos_token_id": 256053,
+    "label_smoothing": 0,
+    "loss": "sum_target_CE/global_update_nonpadding_tokens",
+    "lr": 3e-05,
+    "max_grad_norm": 1.0,
+    "max_new_tokens": 512,
+    "microbatch": 4,
+    "num_beams": 1,
+    "parameters_dtype": "float32",
+    "seed": 3407,
+    "suppress_tokens": [
+      256204,
+      256205
+    ],
+    "updates": 700,
+    "warmup_updates": 42,
+    "weight_decay": 0.01
+  },
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc"
+}

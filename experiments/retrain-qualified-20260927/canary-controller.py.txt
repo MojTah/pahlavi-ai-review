@@ -1,0 +1,215 @@
+"""One fresh qualified-data canary. Bounded observation recovery, no repeat submission."""
+import hashlib
+import json
+import os
+from pathlib import Path, PurePosixPath
+import re
+import subprocess
+import time
+from datetime import datetime, timezone
+
+import httpx
+from huggingface_hub import HfApi, Volume, set_client_factory
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / 'resources/local/hf-qualified-canary-run-20260927'
+SPEC = ROOT / 'resources/local/hf-qualified-canary-20260927.json'
+PROVENANCE = ROOT / 'resources/local/hf-qualified-canary-20260927-provenance.json'
+TERMINAL = {'COMPLETED', 'ERROR', 'CANCELED', 'CANCELLED', 'DELETED'}
+PRIOR_ESTIMATE = 7.12
+RATE = 2.50002
+BUCKET = 'Mojionix/pahlavi-pilot'
+os.environ['HF_XET_CACHE'] = str(ROOT / 'resources/local/hf-xet-cache')
+
+
+def emit(**event):
+    event['utc'] = datetime.now(timezone.utc).isoformat()
+    line = json.dumps(event)
+    print(line, flush=True)
+    with (OUT / 'events.jsonl').open('a', encoding='utf-8') as stream:
+        stream.write(line + '\n')
+
+
+class ObservationUnavailable(Exception):
+    pass
+
+
+def observe(call, sleep=time.sleep):
+    # Retry only read-only requests; a submission is never passed here.
+    for attempt in range(3):
+        try:
+            return call()
+        except httpx.TransportError as error:
+            if attempt == 2:
+                raise ObservationUnavailable(type(error).__name__) from error
+            sleep(2)
+
+
+def checked_inventory(manifest, entries, prefix, identity):
+    for key in ('run_id', 'bundle_name', 'bundle_sha256'):
+        assert manifest[key] == identity[key], 'Manifest identity changed'
+    assert manifest['global_step'] == 20 and manifest['canary_compute_pass'] is True
+    files = manifest['files']
+    assert 1 <= len(files) <= 100
+    required = {'training/status.json', 'training/provenance.json', 'training/metrics.json',
+        'training/checkpoint-20/trainer_state.json', 'training/checkpoint-20/optimizer.pt',
+        'training/checkpoint-20/scheduler.pt', 'training/checkpoint-20/rng_state.pth',
+        'training/checkpoint-20/adapter_model.safetensors',
+        'training/checkpoint-20/adapter_config.json',
+        'training/canary-adapter/adapter_model.safetensors',
+        'training/canary-adapter/adapter_config.json', 'job-provenance.json'}
+    assert required <= files.keys(), 'Incomplete resumable checkpoint'
+    assert sum(record['bytes'] for record in files.values()) <= 2 * 1024**3
+    observed = []
+    for name, record in files.items():
+        path = PurePosixPath(name)
+        assert not path.is_absolute() and '..' not in path.parts and '\\' not in name and ':' not in name
+        assert name == path.as_posix() and re.fullmatch('[a-f0-9]{64}', record['sha256'])
+        assert type(record['bytes']) is int and record['bytes'] >= 0
+        entry = entries.get(prefix + '/' + name)
+        if entry is None or entry.size != record['bytes'] or not entry.xet_hash:
+            return None
+        observed.append({'path': entry.path, 'bytes': entry.size, 'xet_hash': entry.xet_hash})
+    return observed
+
+
+def main():
+    # Exclusive owner directory prevents duplicate or uncertain submissions.
+    OUT.mkdir(exist_ok=False)
+    set_client_factory(lambda: httpx.Client(timeout=15, follow_redirects=True))
+    api = HfApi()
+    identity = json.loads(PROVENANCE.read_text('utf-8'))
+    spec_bytes = SPEC.read_bytes()
+    assert hashlib.sha256(spec_bytes).hexdigest() == identity['spec_sha256']
+    assert hashlib.sha256(Path(__file__).read_bytes()).hexdigest() == identity['controller_sha256']
+    revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+    assert revision == identity['source_commit']
+    spec = json.loads(spec_bytes)
+    assert spec['namespace'] == 'Mojionix' and spec['flavor'] == 'a100-large' and spec['timeout'] == '30m'
+    assert spec['labels']['trial_id'] == identity['run_id']
+    assert not spec.get('secrets') and api.whoami()['name'] == 'Mojionix'
+    assert PRIOR_ESTIMATE + RATE * 35 / 60 + 0.75 < 25
+    assert RATE * 35 / 60 + 0.75 < 3
+    assert identity['training_sha256'] == '15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc'
+    assert identity['training_rows'] == 2237 and identity['expected_total_steps'] == 280
+    assert not [j.id for j in api.list_jobs(namespace='Mojionix', timeout=15) if j.status.stage not in TERMINAL]
+    spec['volumes'] = [Volume(**v) for v in spec['volumes']]
+    prefix = identity['output_prefix']
+    assert prefix == 'trials/' + identity['run_id']
+    assert not list(api.list_bucket_tree(BUCKET, prefix=prefix+'/', recursive=True))
+    emit(event='admitted', source_commit=revision, spec_sha256=identity['spec_sha256'], run_id=identity['run_id'])
+    start = time.monotonic()
+    deadline = start + 1800
+    active = None
+    uncertain = []
+    submission_unconfirmed = False
+    inventory_verified = False
+    last_progress = None
+    last_contact = start
+    logs = ""
+    try:
+        try:
+            active = api.run_job(**spec)
+        except Exception as error:
+            submission_unconfirmed = True
+            emit(event='submission_response_failed', error_type=type(error).__name__)
+            # Read-only reconciliation: never repeat the POST.
+            for attempt in range(3):
+                try:
+                    observed_jobs = observe(lambda: list(api.list_jobs(
+                        namespace='Mojionix', labels={'trial_id': identity['run_id']}, timeout=15)))
+                    uncertain = [j for j in observed_jobs
+                                 if (j.labels or {}).get('trial_id') == identity['run_id']]
+                except Exception as reconcile_error:
+                    emit(event='submission_reconciliation_failed', attempt=attempt + 1,
+                         error_type=type(reconcile_error).__name__)
+                    if not isinstance(reconcile_error, ObservationUnavailable):
+                        break
+                if uncertain:
+                    submission_unconfirmed = False
+                    break
+                time.sleep(10)
+            if not uncertain:
+                emit(event='URGENT_submission_unconfirmed', run_id=identity['run_id'])
+            raise
+        emit(event='submitted', job_id=active.id, url=active.url)
+        while time.monotonic() < deadline:
+            try:
+                info = observe(lambda: api.inspect_job(job_id=active.id, namespace='Mojionix'))
+                last_contact = time.monotonic()
+            except ObservationUnavailable as error:
+                emit(event='observation_delayed', request='status', error_type=str(error))
+                if time.monotonic() - last_contact > 180:
+                    raise TimeoutError('Provider status unavailable for more than three minutes')
+                time.sleep(5)
+                continue
+            try:
+                logs = observe(lambda: '\n'.join(api.fetch_job_logs(job_id=active.id, namespace='Mojionix', follow=False)))
+            except ObservationUnavailable as error:
+                emit(event='observation_delayed', request='logs', error_type=str(error))
+            (OUT / 'provider.log').write_text(logs, encoding='utf-8')
+            emit(event='status', job_id=active.id, stage=info.status.stage,
+                 elapsed_seconds=round(time.monotonic()-start),
+                 conservative_compute_usd=round(PRIOR_ESTIMATE + (time.monotonic()-start)*RATE/3600, 4))
+            lines = [s for s in logs.splitlines() if '"stage":' in s or "'loss':" in s]
+            if lines and lines[-1] != last_progress:
+                last_progress = lines[-1]
+                emit(event='progress', line=last_progress[:1800])
+            ready = None
+            for line in logs.splitlines():
+                if '"stage": "ready_to_persist"' in line:
+                    candidate = json.loads(line[line.index('{'):])
+                    if candidate.get('stage') == 'ready_to_persist':
+                        ready = candidate
+            if ready is not None:
+                entries = {f.path: f for f in observe(lambda: list(api.list_bucket_tree(BUCKET, prefix=prefix+'/', recursive=True))) if hasattr(f, 'size')}
+                remote_manifest = entries.get(prefix + '/manifest.json')
+                if remote_manifest and remote_manifest.size == ready['manifest_bytes'] and remote_manifest.xet_hash:
+                    path = OUT / 'manifest.json'
+                    if not path.exists():
+                        observe(lambda: api.download_bucket_files(BUCKET, [(remote_manifest, path)], raise_on_missing_files=True))
+                    assert hashlib.sha256(path.read_bytes()).hexdigest() == ready['manifest_sha256']
+                    manifest = json.loads(path.read_text('utf-8'))
+                    assert manifest == ready['manifest']
+                    inventory = checked_inventory(manifest, entries, prefix, identity)
+                    if inventory is not None:
+                        proof = {'status': 'server_committed_inventory_verified', 'job_id': active.id,
+                            'manifest_sha256': ready['manifest_sha256'], 'files': inventory,
+                            'cross_job_sha256_verified': False, 'resume_requires_all_file_sha256': True}
+                        (OUT / 'inventory-verification.json').write_text(json.dumps(proof, indent=2)+'\n', encoding='utf-8')
+                        inventory_verified = True
+                        emit(event='inventory_verified', file_count=len(inventory), full_sha_recovery_pending=True)
+                        break
+            if info.status.stage in TERMINAL:
+                break
+            time.sleep(min(20, max(0, deadline-time.monotonic())))
+        if not inventory_verified:
+            raise RuntimeError('Canary inventory not verified; no automatic retry')
+    finally:
+        pending = {j.id: j for j in uncertain}
+        if active is not None:
+            pending[active.id] = active
+        stop_deadline = min(start+2100, time.monotonic()+300)
+        while pending and time.monotonic() < stop_deadline:
+            for job_id in list(pending):
+                try:
+                    stage = api.inspect_job(job_id=job_id, namespace='Mojionix').status.stage
+                    emit(event='shutdown_status', job_id=job_id, stage=stage)
+                    if stage in TERMINAL:
+                        del pending[job_id]
+                        continue
+                    api.cancel_job(job_id=job_id, namespace='Mojionix')
+                except Exception as error:
+                    emit(event='shutdown_check_error', error_type=type(error).__name__, job_id=job_id)
+            if pending:
+                time.sleep(10)
+        if pending:
+            emit(event='URGENT_termination_unconfirmed', job_ids=list(pending))
+            raise RuntimeError('Remote termination not confirmed')
+        emit(event='finished', inventory_verified=inventory_verified, cloud_terminal=not submission_unconfirmed,
+             conservative_compute_usd=round(PRIOR_ESTIMATE+(time.monotonic()-start)*RATE/3600,4),
+             elapsed_seconds=round(time.monotonic()-start), automatic_continuation=False)
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-27",
+  "decision": "PROVISIONALLY_QUALIFIED_AUXILIARY_DEVELOPMENT_ONLY",
+  "lead": "/root",
+  "critic": "/root/final_external_judge",
+  "expert_adjudicated": false,
+  "training_admitted": false,
+  "paid_launch_admitted": false,
+  "proposal_files_unchanged": true,
+  "source_files_sha256": {
+    "experiments/grounded-supervision-20260927/published-occurrences.json": "dcd0c41b66cc17623426b0d49da7cbad6a9efa576479bdaf4afd244eacc93301",
+    "experiments/grounded-supervision-20260927/lexical-packet.jsonl": "60fc03d2b93549e31435f06b1011d570802654572c5a0099004ca5339d461a83",
+    "experiments/grounded-supervision-20260927/DIRECTIVE-PILOT.json": "c74482c97eff39759356c44ddb6c1f3a4b21c3dcf0a4ff34c484e4e554db4cf9",
+    "experiments/grounded-supervision-20260927/SCHOLARLY-GRAMMAR-CHECK.md": "ecf5c6e9ee1bf2458e46b5645a5e1cbdc4e6daf40b8485e81e9cfd37f8715bd7",
+    "experiments/grounded-supervision-20260927/REVIEW.md": "d6922164dfe34399c3095bc272c2eca976784f26eaa55e99bb02e70421eb2462"
+  },
+  "accepted": [
+    {
+      "annotation_id": "GROUNDEDLEX1-107000001004",
+      "train_id": "parsig:107000001:pal>fa",
+      "work_id": "parsig:107",
+      "qualified_scope": "Verbatim published translation1 for this exact occurrence only",
+      "kind": "published_contextual_gloss"
+    },
+    {
+      "annotation_id": "GROUNDEDLEX1-107000003004",
+      "train_id": "parsig:107000003:pal>fa",
+      "work_id": "parsig:107",
+      "qualified_scope": "Verbatim published translation1 for this exact occurrence only",
+      "kind": "published_contextual_gloss"
+    },
+    {
+      "annotation_id": "GROUNDEDLEX1-107000004004",
+      "train_id": "parsig:107000004:pal>fa",
+      "work_id": "parsig:107",
+      "qualified_scope": "Verbatim published translation1 for this exact occurrence only",
+      "kind": "published_contextual_gloss"
+    },
+    {
+      "annotation_id": "GROUNDEDLEX1-107000006006",
+      "train_id": "parsig:107000006:pal>fa",
+      "work_id": "parsig:107",
+      "qualified_scope": "Verbatim published translation1 for this exact occurrence only",
+      "kind": "published_contextual_gloss"
+    },
+    {
+      "annotation_id": "GROUNDEDLEX1-119000002009",
+      "train_id": "parsig:119000002:pal>fa",
+      "work_id": "parsig:119",
+      "qualified_scope": "Verbatim published translation1 for this exact occurrence only",
+      "kind": "published_contextual_gloss"
+    },
+    {
+      "annotation_id": "parsig:109000005:pal>fa:ma1",
+      "train_id": "parsig:109000005:pal>fa",
+      "work_id": "parsig:109",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The coordinated positive bēd clause is outside the selected source scope; ēd does not receive an imperative-morphology label."
+    },
+    {
+      "annotation_id": "parsig:134002003:pal>fa:ma1",
+      "train_id": "parsig:134002003:pal>fa",
+      "work_id": "parsig:134",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "Reported context is retained. This occurrence does not determine the scope of the next prohibition."
+    },
+    {
+      "annotation_id": "parsig:134002003:pal>fa:ma2",
+      "train_id": "parsig:134002003:pal>fa",
+      "work_id": "parsig:134",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The published exception wording is retained without defining paywand or generalizing the prohibition beyond it."
+    },
+    {
+      "annotation_id": "parsig:136001015:pal>fa:ma1",
+      "train_id": "parsig:136001015:pal>fa",
+      "work_id": "parsig:136",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The label applies inside the reported request, not to the narrator’s assertion that protection was requested."
+    },
+    {
+      "annotation_id": "parsig:150000053:pal>fa:ma1",
+      "train_id": "parsig:150000053:pal>fa",
+      "work_id": "parsig:150",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "One complete local prohibition is selected from a long list of positive and negative reported instructions."
+    },
+    {
+      "annotation_id": "parsig:150000053:pal>fa:ma2",
+      "train_id": "parsig:150000053:pal>fa",
+      "work_id": "parsig:150",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The supplied target [خويش] remains bracketed; no independent source alignment or lexical sense is asserted for that addition."
+    },
+    {
+      "annotation_id": "parsig:151001020:pal>fa:ma1",
+      "train_id": "parsig:151001020:pal>fa",
+      "work_id": "parsig:151",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The idiomatic Persian witness is retained; bar is not assigned the Persian verb’s lexical sense or a universal morphological tag."
+    },
+    {
+      "annotation_id": "parsig:509000001:pal>fa:ma1",
+      "train_id": "parsig:509000001:pal>fa",
+      "work_id": "parsig:509",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "Earlier supplied missionary names and the Mani gloss survive unchanged and are not needed to label this local command."
+    },
+    {
+      "annotation_id": "parsig:511000001:pal>fa:ma1",
+      "train_id": "parsig:511000001:pal>fa",
+      "work_id": "parsig:511",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "Opening gaps are outside this locally complete clause. The target Mani gloss is retained, not newly asserted; morphology stays unresolved."
+    },
+    {
+      "annotation_id": "parsig:515000002:pal>fa:ma1",
+      "train_id": "parsig:515000002:pal>fa",
+      "work_id": "parsig:515",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "andarz and the parallel Persian support a negative directive function, but ma hēb bawēnd is not assigned an imperative, optative or jussive morphological tag."
+    },
+    {
+      "annotation_id": "parsig:515000002:pal>fa:ma2",
+      "train_id": "parsig:515000002:pal>fa",
+      "work_id": "parsig:515",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The terminal lacuna survives. The proposal covers only the extant local clause and leaves the finite mood unassigned."
+    },
+    {
+      "annotation_id": "parsig:521000003:pal>fa:ma1",
+      "train_id": "parsig:521000003:pal>fa",
+      "work_id": "parsig:521",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The proposal labels the requested non-action only; it does not infer the addressee’s identity or add a lexical gloss."
+    },
+    {
+      "annotation_id": "parsig:550000001:pal>fa:ma1",
+      "train_id": "parsig:550000001:pal>fa",
+      "work_id": "parsig:550",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "The opening ellipsis is retained. The frequency wording is part of the bounded witness, so this is not relabeled as an unconditional ban on every oath."
+    },
+    {
+      "annotation_id": "parsig:550000001:pal>fa:ma2",
+      "train_id": "parsig:550000001:pal>fa",
+      "work_id": "parsig:550",
+      "qualified_scope": "bounded_local_scope",
+      "kind": "local_directive_function",
+      "limitations": "Two coordinated negative directives have separate predicates and target witnesses; the source’s ēd ending does not establish unique mood."
+    },
+    {
+      "annotation_id": "parsig:555000002:pal>fa:ma1",
+      "train_id": "parsig:555000002:pal>fa",
+      "work_id": "parsig:555",
+      "qualified_scope": "minimal_supported_scope_only",
+      "kind": "local_directive_function",
+      "limitations": "Initial damage is retained. The following coordinated phrase may extend the object scope; this proposal labels only the minimal locally supported span and does not claim an exhaustive clause scope."
+    }
+  ],
+  "abstentions": [
+    {
+      "annotation_id": "parsig:551000002:pal>fa:ma1",
+      "train_id": "parsig:551000002:pal>fa",
+      "work_id": "parsig:551",
+      "qualified_scope": null,
+      "kind": "local_directive_function",
+      "limitations": "ABSTAIN: third-person ma…kunād with the following kū clause and Persian مبادا leaves warning/wish versus directive function and full subordinate scope unresolved in this bounded check. Do not infer an imperative or a clause-polarity label. The exact predicate and witness are retained solely for review."
+    }
+  ],
+  "accepted_count": 20,
+  "accepted_rows": 16,
+  "accepted_works": 13,
+  "limits": [
+    "Publisher UI observation is lead-transcribed, not independently replayed or a raw API export",
+    "No exhaustive sense inventory, lemma or imperative morphology labels",
+    "Directive examples all contain ma; assertion and positive-command contrasts remain required",
+    "Reported advice in515 remains morphology-neutral;555 has minimal non-exhaustive scope",
+    "No new translation-quality result; unchanged uniform merit contract",
+    "This packet alone does not justify another paid training run"
+  ]
+}

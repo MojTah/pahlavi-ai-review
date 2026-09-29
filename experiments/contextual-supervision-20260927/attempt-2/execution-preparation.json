@@ -1,0 +1,61 @@
+{
+  "run_id": "555064e068b54aacafee67e37375ec78",
+  "inputs_name": "qualitydev1-06ac58310bf6.jsonl",
+  "inputs_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "package_name": "contextual-pilot-bb3795d9a499.zip",
+  "package_sha256": "bb3795d9a49927f333e8f565fc1b961c35d7069d9848a9649421ddf233243563",
+  "package_manifest_sha256": "7920e92e73bb1fee9d606b67c2055c0e114d225252d72bddcfb0071abbe7a7c1",
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "trained_prefix": "continuations/1ae0f16dae9c4dffa36d15a24345fded",
+  "trained_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "adapter_files": {
+    "training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "training/adapter/adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+    "training/provenance.json": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69",
+    "training/status.json": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"
+  },
+  "bootstrap_hashes": {
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "script_hashes": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "scheduled_outputs": 48,
+  "steps_per_arm": 48,
+  "native_timeout_minutes": 75,
+  "compute_seconds": 3900,
+  "internal_seconds": 4200,
+  "export_reserve_seconds": 300,
+  "maximum_wait_seconds": 300,
+  "max_export_bytes": 2147483648,
+  "output_prefix": "contextual-pilot/555064e068b54aacafee67e37375ec78",
+  "command_transport": "gzip-base64-stdlib",
+  "decoded_command_sha256": "8480b94a7358d05ab9150ab7d8b5db127dc32d2cf7a470c3293bb4fdecee5c37",
+  "decoded_command_utf8_bytes": 133680,
+  "command_arg_utf8_bytes": [
+    6,
+    2,
+    2,
+    56136,
+    61360,
+    4
+  ],
+  "command_total_utf8_bytes_with_nul": 117516,
+  "command_sha256": "596595227e88c575d411a898b8bcb5350f65e8cf0fb5932c0b247686e7f1bab4",
+  "spec_sha256": "8fbd1d6b422e9d084757090932b11c367c3087714867281fbada06e40e23af70",
+  "controller_sha256": "0bd876d2d7986db49b55d1d6153a9908b31154afd12f21f90cd5b1ffacede857",
+  "source_commit": "0c2b869c0e0c0bd08fd0014a9130c14b4366e934",
+  "review_sha256": {
+    "INTEGRATION-QA.md": "2d690ae16287bcd5a2c99658ab8a517315232ccfab0d7df861dd3ea4393c4c5b",
+    "INTEGRATION-JUDGE.md": "43bc485f98839b050d43a9522dbf8bc89b90babe35ca7f693ca64eda2cac5ba4",
+    "COMPANY-GATE.md": "9c32a74f2155bd655ad7e083949909f16d936644a0458ec6604f29f8b98473a3",
+    "TRANSPORT-REPAIR-QA.md": "eb86ca4f377b23a4636ff88a96b536f5e08b85bc061ec12f2d19d66509e6e4f8",
+    "TRANSPORT-REPAIR-JUDGE.md": "3e96e70449cedc6e977c0f5179266fb41161f37ab53e9b78899d570337eeb34b"
+  }
+}

@@ -1,0 +1,1058 @@
+{
+  "catalogue_fields": [
+    "attest",
+    "attest_with_avestan",
+    "attest_without_avestan",
+    "category",
+    "citation",
+    "comment",
+    "created",
+    "definition",
+    "gram",
+    "gramm",
+    "id",
+    "lang",
+    "orig_trc",
+    "pah",
+    "pos",
+    "see",
+    "sense",
+    "tlc",
+    "trc",
+    "trl",
+    "xml"
+  ],
+  "returned_json_fields": [
+    "attest",
+    "attest_with_avestan",
+    "category",
+    "citation",
+    "comment",
+    "created",
+    "definition",
+    "gram",
+    "gramm",
+    "id",
+    "lang",
+    "pos",
+    "see",
+    "sense",
+    "trc",
+    "trl",
+    "xml"
+  ],
+  "xml_element_names": [
+    "attest",
+    "attest_with_avestan",
+    "attest_without_avestan",
+    "ave",
+    "br",
+    "category",
+    "citation",
+    "comment",
+    "def",
+    "definition",
+    "eg",
+    "em",
+    "entry",
+    "etym",
+    "form",
+    "gr",
+    "gram",
+    "gramGrp",
+    "gramm",
+    "h2",
+    "hi",
+    "idg",
+    "itype",
+    "lang",
+    "lbl",
+    "mentioned",
+    "mood",
+    "note",
+    "number",
+    "orig_trc",
+    "p",
+    "pb",
+    "pos",
+    "q",
+    "ref",
+    "see",
+    "sense",
+    "tr",
+    "trc",
+    "trcEvid",
+    "trl",
+    "usg",
+    "xr"
+  ],
+  "collections": {
+    "acpv1_7": {
+      "entries": 2602,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "attest_with_avestan",
+        "attest_without_avestan",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest_with_avestan": 2602,
+        "created": 2602,
+        "id": 2602,
+        "sense": 2602,
+        "trc": 2602,
+        "xml": 2602
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest_with_avestan": 2602,
+        "attest_without_avestan": 2602,
+        "entry": 2602,
+        "sense": 2602,
+        "trc": 2602
+      },
+      "declared_fields_absent_from_json": [
+        "attest_without_avestan"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "afnan": {
+      "entries": 324,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 324,
+        "id": 324,
+        "sense": 324,
+        "trc": 324,
+        "xml": 324
+      },
+      "xml_element_occurrences_by_entry": {
+        "entry": 324,
+        "form": 324,
+        "sense": 324,
+        "trc": 324
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "awn": {
+      "entries": 367,
+      "declared_display_fields": [
+        "id",
+        "trl",
+        "trc",
+        "sense",
+        "citation",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "citation": 204,
+        "created": 367,
+        "id": 367,
+        "sense": 358,
+        "trc": 366,
+        "xml": 367
+      },
+      "xml_element_occurrences_by_entry": {
+        "citation": 204,
+        "entry": 367,
+        "form": 366,
+        "sense": 358,
+        "trc": 366,
+        "trl": 56
+      },
+      "declared_fields_absent_from_json": [
+        "trl"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "cpd": {
+      "entries": 3103,
+      "declared_display_fields": [
+        "id",
+        "trl",
+        "trc",
+        "sense",
+        "gram",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 3103,
+        "gram": 44,
+        "id": 3103,
+        "sense": 2816,
+        "trc": 3103,
+        "trl": 2876,
+        "xml": 3103
+      },
+      "xml_element_occurrences_by_entry": {
+        "def": 52,
+        "eg": 6,
+        "entry": 3101,
+        "etym": 341,
+        "form": 3101,
+        "gram": 53,
+        "gramGrp": 20,
+        "hi": 4,
+        "idg": 296,
+        "itype": 2,
+        "lang": 2167,
+        "lbl": 744,
+        "mentioned": 2166,
+        "mood": 6,
+        "note": 4,
+        "number": 7,
+        "q": 6,
+        "ref": 339,
+        "sense": 2868,
+        "tr": 2814,
+        "trc": 3101,
+        "trcEvid": 2077,
+        "trl": 2874,
+        "usg": 84,
+        "xr": 338
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": [
+        {
+          "id": "8a25cd9aab91d28e0ee26362420a038d79c28d90",
+          "error": "not well-formed (invalid token): line 1, column 194"
+        },
+        {
+          "id": "18e5fce7abcc6ac96b157109ffd59b462a3a1e65",
+          "error": "junk after document element: line 1, column 230"
+        }
+      ]
+    },
+    "cpd_de": {
+      "entries": 4589,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "attest",
+        "comment",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 4589,
+        "comment": 4589,
+        "created": 4589,
+        "id": 4589,
+        "sense": 4589,
+        "trc": 4589,
+        "xml": 4589
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 4589,
+        "comment": 4589,
+        "entry": 4589,
+        "sense": 4589,
+        "trc": 4589
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "da": {
+      "entries": 103,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "trl",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 103,
+        "id": 103,
+        "sense": 103,
+        "trc": 103,
+        "trl": 103,
+        "xml": 103
+      },
+      "xml_element_occurrences_by_entry": {
+        "entry": 103,
+        "sense": 103,
+        "trc": 103,
+        "trl": 103
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "dd1": {
+      "entries": 368,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "trl",
+        "sense",
+        "attest",
+        "pos",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 368,
+        "created": 368,
+        "id": 368,
+        "pos": 368,
+        "sense": 368,
+        "trc": 368,
+        "trl": 368,
+        "xml": 368
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 368,
+        "entry": 368,
+        "pos": 368,
+        "sense": 368,
+        "trc": 368,
+        "trl": 368
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "dk5": {
+      "entries": 413,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "tlc",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 413,
+        "created": 413,
+        "id": 413,
+        "sense": 413,
+        "trc": 413,
+        "xml": 413
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 413,
+        "entry": 413,
+        "form": 413,
+        "sense": 413,
+        "trc": 413,
+        "trl": 413
+      },
+      "declared_fields_absent_from_json": [
+        "tlc"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "dk6": {
+      "entries": 323,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 323,
+        "created": 323,
+        "id": 323,
+        "sense": 323,
+        "trc": 323,
+        "xml": 323
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 323,
+        "entry": 323,
+        "form": 323,
+        "sense": 323,
+        "trc": 323
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "dk7": {
+      "entries": 715,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 715,
+        "created": 715,
+        "id": 715,
+        "sense": 715,
+        "trc": 715,
+        "xml": 715
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 715,
+        "entry": 715,
+        "form": 715,
+        "sense": 715,
+        "trc": 715
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "dk8": {
+      "entries": 483,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 483,
+        "created": 483,
+        "id": 483,
+        "sense": 483,
+        "trc": 483,
+        "xml": 483
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 483,
+        "entry": 483,
+        "form": 483,
+        "sense": 483,
+        "trc": 483
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "dmx": {
+      "entries": 1039,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "trl",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 1039,
+        "id": 1039,
+        "sense": 1039,
+        "trc": 1039,
+        "xml": 1039
+      },
+      "xml_element_occurrences_by_entry": {
+        "entry": 1039,
+        "form": 1039,
+        "sense": 1039,
+        "trc": 1039
+      },
+      "declared_fields_absent_from_json": [
+        "trl"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "gbd": {
+      "entries": 797,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 797,
+        "id": 797,
+        "sense": 797,
+        "trc": 797,
+        "xml": 797
+      },
+      "xml_element_occurrences_by_entry": {
+        "entry": 797,
+        "form": 797,
+        "sense": 797,
+        "trc": 797
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "gpv": {
+      "entries": 0,
+      "declared_display_fields": [
+        "id",
+        "pah",
+        "trc",
+        "orig_trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {},
+      "xml_element_occurrences_by_entry": {},
+      "declared_fields_absent_from_json": [
+        "created",
+        "id",
+        "orig_trc",
+        "pah",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "hkr": {
+      "entries": 539,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 539,
+        "created": 539,
+        "id": 539,
+        "sense": 539,
+        "trc": 539,
+        "xml": 539
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 539,
+        "entry": 539,
+        "sense": 539,
+        "trc": 539
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "hn": {
+      "entries": 2314,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "tlc",
+        "pos",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 2314,
+        "created": 2314,
+        "id": 2314,
+        "pos": 2314,
+        "sense": 2314,
+        "trc": 2314,
+        "xml": 2314
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 2314,
+        "entry": 2314,
+        "form": 2314,
+        "pos": 2314,
+        "sense": 2314,
+        "trc": 2314,
+        "trl": 2314
+      },
+      "declared_fields_absent_from_json": [
+        "tlc"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "lfv": {
+      "entries": 1713,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "gramm",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 1713,
+        "created": 1713,
+        "gramm": 1712,
+        "id": 1713,
+        "sense": 1713,
+        "trc": 1713,
+        "xml": 1713
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 1713,
+        "entry": 1713,
+        "gramm": 1712,
+        "sense": 1713,
+        "trc": 1713
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "mmp": {
+      "entries": 5837,
+      "declared_display_fields": [
+        "id",
+        "trl",
+        "lang",
+        "trc",
+        "gramm",
+        "sense",
+        "attest",
+        "see",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 4984,
+        "created": 5837,
+        "gramm": 4977,
+        "id": 5837,
+        "lang": 5450,
+        "see": 846,
+        "sense": 4536,
+        "trc": 4990,
+        "trl": 5837,
+        "xml": 5837
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 4984,
+        "entry": 5837,
+        "form": 5837,
+        "gramm": 4977,
+        "lang": 5450,
+        "see": 846,
+        "sense": 4536,
+        "trc": 4990,
+        "trl": 5837
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "mpcd_term_tech": {
+      "entries": 1666,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "definition",
+        "category",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "category": 1666,
+        "created": 1666,
+        "definition": 1666,
+        "id": 1666,
+        "sense": 1666,
+        "trc": 1666,
+        "xml": 1666
+      },
+      "xml_element_occurrences_by_entry": {
+        "category": 1666,
+        "definition": 1666,
+        "entry": 1666,
+        "sense": 1666,
+        "trc": 1666
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "mz": {
+      "entries": 161,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "trl",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 161,
+        "created": 161,
+        "id": 161,
+        "sense": 161,
+        "trc": 161,
+        "trl": 161,
+        "xml": 161
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 161,
+        "entry": 161,
+        "form": 161,
+        "sense": 161,
+        "trc": 161,
+        "trl": 161
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "nmp": {
+      "entries": 2924,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "trl",
+        "orig_trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 2924,
+        "id": 2924,
+        "sense": 2923,
+        "trc": 2924,
+        "trl": 2512,
+        "xml": 2924
+      },
+      "xml_element_occurrences_by_entry": {
+        "br": 2,
+        "em": 1,
+        "entry": 2924,
+        "form": 2924,
+        "gr": 97,
+        "orig_trc": 2924,
+        "sense": 2924,
+        "trc": 2924,
+        "trl": 2512
+      },
+      "declared_fields_absent_from_json": [
+        "orig_trc"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "pahlrivdd": {
+      "entries": 380,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "tlc",
+        "pos",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 380,
+        "created": 380,
+        "id": 380,
+        "pos": 380,
+        "sense": 380,
+        "trc": 380,
+        "xml": 380
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 380,
+        "entry": 380,
+        "form": 380,
+        "pos": 380,
+        "sense": 380,
+        "trc": 380,
+        "trl": 380
+      },
+      "declared_fields_absent_from_json": [
+        "tlc"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "ps": {
+      "entries": 480,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "pos",
+        "sense",
+        "comment",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "comment": 480,
+        "created": 480,
+        "id": 480,
+        "pos": 480,
+        "sense": 480,
+        "trc": 480,
+        "xml": 480
+      },
+      "xml_element_occurrences_by_entry": {
+        "comment": 480,
+        "entry": 480,
+        "pos": 480,
+        "sense": 480,
+        "trc": 480
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "pyv": {
+      "entries": 2951,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "orig_trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 2951,
+        "id": 2951,
+        "sense": 2951,
+        "trc": 2945,
+        "xml": 2951
+      },
+      "xml_element_occurrences_by_entry": {
+        "ave": 5,
+        "entry": 2951,
+        "form": 2951,
+        "h2": 12,
+        "orig_trc": 2951,
+        "p": 13,
+        "pb": 207,
+        "sense": 2951,
+        "trc": 2945
+      },
+      "declared_fields_absent_from_json": [
+        "orig_trc"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "raf": {
+      "entries": 285,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "trl",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 285,
+        "created": 285,
+        "id": 285,
+        "sense": 285,
+        "trc": 285,
+        "trl": 285,
+        "xml": 285
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 285,
+        "entry": 285,
+        "sense": 285,
+        "trc": 285,
+        "trl": 285
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "sgw": {
+      "entries": 416,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 416,
+        "created": 416,
+        "id": 416,
+        "sense": 416,
+        "trc": 416,
+        "xml": 416
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 416,
+        "entry": 416,
+        "sense": 416,
+        "trc": 416
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "sns": {
+      "entries": 325,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 325,
+        "id": 325,
+        "sense": 325,
+        "trc": 325,
+        "xml": 325
+      },
+      "xml_element_occurrences_by_entry": {
+        "entry": 325,
+        "form": 325,
+        "sense": 325,
+        "trc": 325
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "wdpw": {
+      "entries": 2431,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "tlc",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 2431,
+        "created": 2431,
+        "id": 2431,
+        "sense": 2431,
+        "trc": 2431,
+        "xml": 2431
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 2431,
+        "entry": 2431,
+        "form": 2431,
+        "sense": 2431,
+        "trc": 2431,
+        "trl": 2431
+      },
+      "declared_fields_absent_from_json": [
+        "tlc"
+      ],
+      "xml_errors_for_quarantine": []
+    },
+    "wmiar": {
+      "entries": 437,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 437,
+        "id": 437,
+        "sense": 437,
+        "trc": 437,
+        "xml": 437
+      },
+      "xml_element_occurrences_by_entry": {
+        "entry": 437,
+        "sense": 437,
+        "trc": 437
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "wz": {
+      "entries": 460,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "sense",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "created": 460,
+        "id": 460,
+        "sense": 460,
+        "trc": 460,
+        "xml": 460
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 460,
+        "entry": 460,
+        "form": 460,
+        "sense": 460,
+        "trc": 460,
+        "trl": 460
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    },
+    "yz": {
+      "entries": 141,
+      "declared_display_fields": [
+        "id",
+        "trc",
+        "trl",
+        "sense",
+        "attest",
+        "created",
+        "xml"
+      ],
+      "json_field_occurrences": {
+        "attest": 141,
+        "created": 141,
+        "id": 141,
+        "sense": 141,
+        "trc": 141,
+        "trl": 141,
+        "xml": 141
+      },
+      "xml_element_occurrences_by_entry": {
+        "attest": 141,
+        "entry": 141,
+        "sense": 141,
+        "trc": 141,
+        "trl": 141
+      },
+      "declared_fields_absent_from_json": [],
+      "xml_errors_for_quarantine": []
+    }
+  },
+  "all_raw_hashes_and_sizes_verified": true,
+  "unique_collection_ids": 38686,
+  "records_with_original_xml": 38686,
+  "parsed_xml_records": 38684,
+  "malformed_xml_records": [
+    {
+      "collection": "cpd",
+      "id": "8a25cd9aab91d28e0ee26362420a038d79c28d90",
+      "error": "not well-formed (invalid token): line 1, column 194"
+    },
+    {
+      "collection": "cpd",
+      "id": "18e5fce7abcc6ac96b157109ffd59b462a3a1e65",
+      "error": "junk after document element: line 1, column 230"
+    }
+  ],
+  "training_admitted": false
+}

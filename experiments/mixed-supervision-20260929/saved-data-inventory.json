@@ -1,0 +1,89 @@
+{
+  "utc": "2026-09-29T11:22:33.692462+00:00",
+  "status": "ALL_16_CANONICAL_DATA_FILES_PRESENT_AND_HASH_VERIFIED",
+  "files": {
+    "resources/local/data-qualification-20260928/ready-v1/documentary-en.jsonl": {
+      "bytes": 79224,
+      "sha256": "d604e2b66e8c38de18b5e0675fbc9a58f739efd6c845d3cf0a3661542796924b",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/duplicate-groups.jsonl": {
+      "bytes": 13498,
+      "sha256": "d62951c5adf43a652e4c39a28ca2356925901b4722da9115bf72cc0cd22be0d4",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/edition-spans-en.jsonl": {
+      "bytes": 5060,
+      "sha256": "62bed1c4712b464326c82e2dc0e7bb2cdbd754a88a23471ef7208d05a1ca2bf1",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/excluded.jsonl": {
+      "bytes": 310672,
+      "sha256": "8bd3aad462b9e9dd7802337acbd15f94b2d4edd3bf3115972749b9ce0a58abf0",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/historical-control-fa.jsonl": {
+      "bytes": 5401884,
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/inscription-fa.jsonl": {
+      "bytes": 7258,
+      "sha256": "c56c346750d23910a96ab6be3dab6f1bfc153bfa9286c5517581fa8dbe6de6cc",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/lexical-en.jsonl": {
+      "bytes": 5106904,
+      "sha256": "4d8c2489eca369d0d11a3364f5844cb5440d32eb53777c4ad138f5aff16c0f48",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/lexical-fa.jsonl": {
+      "bytes": 2195313,
+      "sha256": "7979a688dc73a67f646920a668fbdeed6d1e21eb3f10f3810a59de9c427290fe",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/lexical-mmp-en.jsonl": {
+      "bytes": 1465646,
+      "sha256": "8411819339113f16ba45dab1c67ce8a044cb6ec5df3d589e912772ba207ff2aa",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/data-qualification-20260928/ready-v1/pedagogy-fa.jsonl": {
+      "bytes": 287645,
+      "sha256": "d96d95610ac354222029d30ae0252425df57859ab8f23bfd14d68a6b71a8edd6",
+      "manifest": "experiments/data-qualification-20260928/release-v1.json"
+    },
+    "resources/local/mixed-supervision-20260929/data/duplicates.jsonl": {
+      "bytes": 164,
+      "sha256": "f7309ce15a59c272b3cec7c0b840bbc19c2f3ba870b144575376925c74f834dc",
+      "manifest": "experiments/mixed-supervision-20260929/data-manifest.json"
+    },
+    "resources/local/mixed-supervision-20260929/data/exclusions.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "manifest": "experiments/mixed-supervision-20260929/data-manifest.json"
+    },
+    "resources/local/mixed-supervision-20260929/data/learning-projections.jsonl": {
+      "bytes": 3784715,
+      "sha256": "cca1cbdd84b8afc6e4d7cc28629e4fafeb2e10b501994709c53936f047f60bef",
+      "manifest": "experiments/mixed-supervision-20260929/data-manifest.json"
+    },
+    "resources/local/mixed-supervision-20260929/data/pool.jsonl": {
+      "bytes": 18796392,
+      "sha256": "e0c4a7ca6eeda6b498b3c8345c73b517c841019af2fc3c88350f131e730d80ed",
+      "manifest": "experiments/mixed-supervision-20260929/data-manifest.json"
+    },
+    "resources/local/mixed-supervision-20260929/data/row-audit.jsonl": {
+      "bytes": 4873559,
+      "sha256": "0bb3c5b4e8dbfa998768989fa00508f6b329f2f95eeadaf2ee47db18f62d9fb6",
+      "manifest": "experiments/mixed-supervision-20260929/data-manifest.json"
+    },
+    "resources/local/mixed-supervision-20260929/data/train.jsonl": {
+      "bytes": 3546782,
+      "sha256": "c32a7f21639c34107fd4a86c1c8dae3a8815b40c8107ff8c3075e0167535dc4a",
+      "manifest": "experiments/mixed-supervision-20260929/data-manifest.json"
+    }
+  },
+  "ignored_local_data_retained": true,
+  "git_alone_is_not_complete_data_backup": true,
+  "local_model_weights_downloaded": false
+}

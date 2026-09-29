@@ -1,0 +1,15 @@
+{
+  "planned_incremental_limit_usd": 1,
+  "run_id": "7bc1eeee63a344b1bd08493080b42c77",
+  "source_commit": "3675e36dfb75280443ff9f25b97e4f9f52848dfe",
+  "submitted_utc": "2026-09-28T10:35:46.133757+00:00",
+  "spec_sha256": "8ab38a82c84018d6c2b6a635823ce148680f08c8a7343f3cdb6d2abc58f80130",
+  "command_sha256": "2f901fd5a0b563be21a9c63e7b5fa39e1af64abea72090c41bd4b2c70149dda0",
+  "native_timeout": "15m",
+  "phase": "seen",
+  "reservation_usd": "3.208353",
+  "execution_owner": "/root",
+  "prelaunch_jobs": 20,
+  "job_id": "6aba43026b030d633f69c6bb",
+  "job_url": "https://huggingface.co/jobs/Mojionix/6aba43026b030d633f69c6bb"
+}

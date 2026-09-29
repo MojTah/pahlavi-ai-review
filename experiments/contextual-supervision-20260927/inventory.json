@@ -1,0 +1,1979 @@
+{
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "patterns": {
+    "affliction_candidates": "[^\\W_]*(?:dard|dart)[^\\W_]*",
+    "theft_candidates": "[^\\W_]*(?:appar|appur)[^\\W_]*",
+    "equal_or_homograph_candidates": "(?<!\\w)(?:tā|tāk|ham-tāk|hamtā|hamtāk)(?!\\w)"
+  },
+  "selection": "One census of all2237 qualified TRAIN sources only; surface candidates do not assign senses or alignment. No DEV/PAL reference or output selection. No silent new inflection/sense claim.",
+  "summary": {
+    "affliction_candidates": {
+      "parents": 17,
+      "works": 5,
+      "occurrences": 18
+    },
+    "theft_candidates": {
+      "parents": 13,
+      "works": 4,
+      "occurrences": 14
+    },
+    "equal_or_homograph_candidates": {
+      "parents": 69,
+      "works": 12,
+      "occurrences": 77
+    }
+  },
+  "candidates": [
+    {
+      "record_id": "parsig:133000172",
+      "work_id": "parsig:133",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            6,
+            8
+          ]
+        }
+      ],
+      "source_text": "ōy kē tā tan drust kāmag-hanǰāmīh, ud ka tan wēmār bawēd drustīh ī tan, ud ka tan anummēdīh bawēd bōxtagīh ī ruwān.",
+      "target_text": "آن که تا تن درست [و سلامت است] کامکاری؛ و چون تن بیمار شود سلامتِ تن؛ و آنگاه که ناامیدی [از] تن باشد، رستگاریِ روان.",
+      "source_sha256": "706edc06e9085b7bf7efce2d734c5d6c86db54f4fa66569a69682139abbd4900",
+      "target_sha256": "8d7f47abb585de0fedab7fc8eba80830b04ae74744889f036137d8567a054401",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151000028",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            41,
+            43
+          ]
+        }
+      ],
+      "source_text": "kū nē-š tis kard kē-š nē ruwān kard <ud> tā nūn,",
+      "target_text": "که: «کسی که تاکنون کاری برای روانش نکرده است، کاری نکرده است»،",
+      "source_sha256": "dd9ab6e90b72c0b9564997c2c751c0472847400eb6d541a1a7fda5156706e3a9",
+      "target_sha256": "51bad6b5914fd3e447e5a20808a257396f5361dea33fc156a897dfd1103724dd",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001018",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            42,
+            44
+          ]
+        }
+      ],
+      "source_text": "u-š hāmōyēn wināh ud bazag ō menišn ōftēd tā be-nišastan ī xēšm,",
+      "target_text": "و هر گونه گناه و بزه به اندیشه‌اش افتد تا نشستن خشم،",
+      "source_sha256": "a5ad43e03ebfb906e1ee7bf4066caf6917d53ff8aa09c361a15da4bf6caae335",
+      "target_sha256": "1bc47ffb6889bbaffe3df97361739b31d8a30b53e5fc3afe68bb6dfc6280c14d",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001046",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appar",
+          "span": [
+            22,
+            27
+          ]
+        }
+      ],
+      "source_text": "az xwāstag ī kasān ma appar,",
+      "target_text": "از خواستۀ دیگران مدزد،",
+      "source_sha256": "7757fdf3584848079f9e6a24b5b67b7becf151ec1a3f94034008c1501608e725",
+      "target_sha256": "686f95f5d0aa9cbd13561e59fef10b3fa063a57d9050e745aa01064265a3a71f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001114",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "source_text": "ud tā se rōz-šabān ruwān pad bālēn ī tan nišīnēd,",
+      "target_text": "و تا سه شبانه‌روز روان به بالینِ تن نشیند،",
+      "source_sha256": "fc81b6479cb99d28ea2e81c0896e98b499f767e5a9548d8f6f1e7bf43ec025f2",
+      "target_sha256": "9973fe3fd03e57db4f6dbb17b3f8916dcb9c30cbc690be17190264686db28d0f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001115",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            207,
+            209
+          ]
+        }
+      ],
+      "source_text": "ud rōz ī čahārom andar ōšbām pad abāgīh ī srōš ahlā ud way [ī] weh ud wahrām ī amāwand ud hamēstārīh ī astwihād ud way ī wattar ud frazēšt dēw ud nizēšt dēw ud duškām-kardārīh ī xēšm ī anāg-kardār ī xurdruš tā ō činwad puhl ī buland ī *sahmgen, ka har ahlaw ud druwand awiš madār (šawēd),",
+      "target_text": "و روز چهارم بامدادان به همراهی سروش مقدس و وایِ نیک و بهرام نیرومند و با مخالفت اَستووِهات و وایِ بد و فرَزیشت دیو و نِزیشت دیو و با بدخواهی خشم بدکارِ دارندۀ نیزۀ خونین تا به پل چینودِ بلند سهمگین می‌رود، که هر مؤمن و هر کافری بدان می‌آید،",
+      "source_sha256": "73a734a43665c64a3b3ab192d007858b00f8c59a54b839795423a8a611d57147",
+      "target_sha256": "c4f8284d14defbebb74f745e60f54850c2b5736a3226fd6c1f3401080c09df18",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001132",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appar",
+          "span": [
+            31,
+            36
+          ]
+        },
+        {
+          "text": "appar",
+          "span": [
+            117,
+            122
+          ]
+        }
+      ],
+      "source_text": "ud ka-t dīd kū kas kē stahm ud appar kard ud weh mardōm bēšīd ud tar kard ud xwāstag az bazag handōxt ēg tō stahm ud appar ī xwēš az dāmān abāz dāšt.",
+      "target_text": "و چون دیدی که کسی ستم و دزدی کرد و مردم نیک را آزرد و تحقیر کرد و خواسته از بزه اندوخت، آنگاه تو ستم و دزدی خویش را از آفریدگان بازداشتی.",
+      "source_sha256": "339ef69593375808dcdfc86c8e267eded680d7726a76262cec63c085331e64db",
+      "target_sha256": "99c1f8f54ab27c0b4c9164dc695ed49df547e79d1f16ec302622fcdc88016558",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001157",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "source_text": "ud tā hamē-ud-hamē-rawišnīh pad harwisp xwārīh ēstēd abāg mēnōgān yazadān hamē-rawišnīhā.",
+      "target_text": "و تا ابد در خوشی کامل با ایزدان مینوی، جاودانه، می‌ماند.",
+      "source_sha256": "5f71e33fa7856c33370cb96542b6ac99ee6c389a7db5c257fd86e245ac39f53f",
+      "target_sha256": "be17c8ebadac22625154631254eb20c6074144b89139d6e2aaa3f3b84427486f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001162",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            36,
+            38
+          ]
+        }
+      ],
+      "source_text": "ud pad hamēstārīh ī srōš ahlā nayēd tā ō činwad puhl.",
+      "target_text": "و علیرغم مخالفت سروش مقدس او را تا پل چینود می‌کشد.",
+      "source_sha256": "468b08532ab0e805ff48a4bec2b44adc68f71ff9247c50309aba34bf51ab8a50",
+      "target_sha256": "e4de527f8efc85be4c423e05076905a393d575a4f19f821b5ca09008d1367ea3",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151001193",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "source_text": "ud tā rist-āxēz ud tan ī pasēn pad was anāgīh ud pādifrāh ī ēwēnag-ēwēnag pad dušox abāyēd būd,",
+      "target_text": "و تا رستاخیز و تنِ پسین با عذاب بسیار و پادافره گوناگون باید در دوزخ باشد،",
+      "source_sha256": "521726fa352b70b639d22be8200afe5e711dfb91d14617c51acf089749df0755",
+      "target_sha256": "ebd05375819fb1aaa8c7f5a77fb8e153888e31904fe9725846bc66ab7441e5c8",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151006009",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            32,
+            34
+          ]
+        }
+      ],
+      "source_text": "kū: wahišt fradom az star-pāyag tā māh-pāyag,",
+      "target_text": "که: بهشت نخست از ستاره‌پایه تا ماه‌پایه،",
+      "source_sha256": "1a21e1275d067942955772ace3342bcba2c8c2e0756fa85d40f7c68a2b339883",
+      "target_sha256": "58307d2a015ad569580c03cd7d3b2654307874e91160260c4fd11d3230650c88",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151006010",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            24,
+            26
+          ]
+        }
+      ],
+      "source_text": "ud dudīgar az māh-pāyag tā xwarxšēd-pāyag,",
+      "target_text": "و دوم از ماه‌پایه تا خورشیدپایه،",
+      "source_sha256": "a5c10edba9d7a7700cc58197dd81fcea3d37939036b52af68d33292a1ce97495",
+      "target_sha256": "7949d77fc90905c254ffc8026cc732d3ac24e49854d7a9ed482eaa3deb34df3c",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151006011",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            29,
+            31
+          ]
+        }
+      ],
+      "source_text": "ud sidīgar az xwarxšēd-pāyag tā garōdmān, kū dādār ohrmazd abar nišīnēd.",
+      "target_text": "و سوم از خورشیدپایه تا گرزمان، آنجا که آفریدگار اورمزد برنشیند.",
+      "source_sha256": "09604b8a41f1097c8495c511af762782e39b270d3ea3f131a586fbe3a58504a3",
+      "target_sha256": "adf95be9f77e9ef15aed7083f06168d445601ffd2ed8ae759f300e16d702d1ef",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151006017",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            84,
+            86
+          ]
+        }
+      ],
+      "source_text": "u-šān nišast ud rawišn ud wēnišn ud rāmišn abāg yazadān ud amahraspandān ud ahlawān tā hamē-ud-hamē-rawišnīh.",
+      "target_text": "و نشست و حرکت و دیدار و شادمانیشان با ایزدان و امشاسپندان و مؤمنان است تا ابد.",
+      "source_sha256": "a0c6e6bb082267d07b47330f7b3a57caf65b7db7e9f0d3e509fe61ba73f99e8e",
+      "target_sha256": "e8dc6c086cc18cac8d406d9f9429b656a79adc8fa8cecff741cb081bf17d7f99",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151006018",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            34,
+            36
+          ]
+        }
+      ],
+      "source_text": "hamēstagān rāy paydāg kū az zamīg tā star-pāyag,",
+      "target_text": "در مورد برزخ این معلوم است که از زمین تا ستاره‌پایه است،",
+      "source_sha256": "e410e892fb1046cd063ba469254458ef46f7a3a07c39f598ea5c43e70de93956",
+      "target_sha256": "9358547b460caff95fe3c78dc54197c6b0ae0365e1ad3d9f477a8f085daaa65f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151007009",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "adard",
+          "span": [
+            48,
+            53
+          ]
+        }
+      ],
+      "source_text": "ēd rāy čē zurwān ī akanārag azarmān ud amarg ud adard ud asōhišn ud *apōhišn ud apetyārag ud tā hamē-ud-hamē-rawišnīh ēč kas be stadan ud az xwēš-kārīh abādixšā kardan nē tuwān.",
+      "target_text": "زیرا که زروان بیکران عاری از پیری و مرگ و درد و تباهی و فساد و آفت است و تا ابد هیچ کس نمی‌تواند او را بستاند و از وظیفه‌اش باز دارد.",
+      "source_sha256": "f206acdd778e23cee06db329d5a3e4ce6344a436c083165947f7545fbc4af14c",
+      "target_sha256": "e4c6ba5339bdbf0bfaf91463885503d554aa52f56c5e5cb8d4de998623caa497",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151007009",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            93,
+            95
+          ]
+        }
+      ],
+      "source_text": "ēd rāy čē zurwān ī akanārag azarmān ud amarg ud adard ud asōhišn ud *apōhišn ud apetyārag ud tā hamē-ud-hamē-rawišnīh ēč kas be stadan ud az xwēš-kārīh abādixšā kardan nē tuwān.",
+      "target_text": "زیرا که زروان بیکران عاری از پیری و مرگ و درد و تباهی و فساد و آفت است و تا ابد هیچ کس نمی‌تواند او را بستاند و از وظیفه‌اش باز دارد.",
+      "source_sha256": "f206acdd778e23cee06db329d5a3e4ce6344a436c083165947f7545fbc4af14c",
+      "target_sha256": "e4c6ba5339bdbf0bfaf91463885503d554aa52f56c5e5cb8d4de998623caa497",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151011009",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "apparēnd",
+          "span": [
+            45,
+            53
+          ]
+        }
+      ],
+      "source_text": "ōyšān abāxtarān čand-išān tuwān *bawēd az-iš apparēnd,",
+      "target_text": "آن سیارات تا آنجا که توانایی بدانان داده شده است، از آنان می‌ربایند،",
+      "source_sha256": "31e7442c6d89a88c7de4e12b730e5c6d73b068552a4301388d6c8f2732d1c876",
+      "target_sha256": "443417b704549235ab37182cf9391ab162597ea5b2b3c36b54f20547ac178739",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151012003",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            12,
+            14
+          ]
+        }
+      ],
+      "source_text": "ud mardōmān tā-šān hammōzišn abar nē barēnd ud was ranǰ ud uzēnag pad-iš nē kunēnd dānišn ī mardōmīh ayāftan ud dānistan nē tuwān?",
+      "target_text": "[ولی] مردمان تا بر آنان آموزش نبرند و بسیار رنج و هزینه [صرف] نکنند، نمی‌توانند دانش مردمی را بیابند و بدانند؟",
+      "source_sha256": "b219b1f7bfa8b68634f0351dd91250769f6e2a5aade91fcb595c8c1572687430",
+      "target_sha256": "99bbe6cdd4c0b35154eefe9f9f290885eadae1b656326f742f36795281dec1e2",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151014008",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appurd",
+          "span": [
+            27,
+            33
+          ]
+        }
+      ],
+      "source_text": "čē kirbag ōy xwēš kē az-iš appurd ēstēd,",
+      "target_text": "چه کار نیک از آن کسی است که از وی [آن مال] ربوده شده است،",
+      "source_sha256": "2b4b04d552827e886a05712320d0abdbb202d59329233fe904293ee2debbc467",
+      "target_sha256": "128a3f9e0babb4f3f5c02c95e6e68da869b53ae382fe75b93dcb0edebf1719e2",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151014029",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appar",
+          "span": [
+            12,
+            17
+          ]
+        }
+      ],
+      "source_text": "ud stahm ud appar ud adādestānīh andar kār dārēd,",
+      "target_text": "و ستم و دزدی و بیداد در کار دارد،",
+      "source_sha256": "ceee5333b5b627a0df7484c43ea6a60479579456dbc1804b9e7cf2f708bb2b49",
+      "target_sha256": "619b6fdc77fa48a80f3e6c0c2779d1f744b66f76d03383555fafc1e49b62c43f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151015005",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            46,
+            48
+          ]
+        }
+      ],
+      "source_text": "čē mardōm ud *čahār-pāy kē az mādar be zāyēnd tā ān ī ka-šān xwarišn (tuwān) xwardan ēg-išān rōyišn ud parwarišn az šīr",
+      "target_text": "چه مردم و چارپای که از مادر بزایند تا زمانی که بتوانند غذا بخورند، نمو و پرورششان از شیر است،",
+      "source_sha256": "31054d663b2f82ed1b53f808e0029027ac0ed3db19b387cd59e3a4f53d9df4b8",
+      "target_sha256": "4c7e4e9a44f43059f73d61d269d05482b432fd8b031a0606e6f06370f47a47b9",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151020023",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            12,
+            14
+          ]
+        }
+      ],
+      "source_text": "ud ast ī ka tā frašgird paywandēd,",
+      "target_text": "و گاهی هم تا فرشگرد دوام می‌یابد،",
+      "source_sha256": "68e7bd2feffc150d4fef7137e6ae41ccc60315975dab2bd4eee2a30d78822cea",
+      "target_sha256": "53580c98e2fad0601d9fe3018a604b8dd3efdb9cf5be29b15f7e19d3b8ba08fd",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151020026",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "source_text": "ud tā frašgird hamē paywandēd.",
+      "target_text": "و تا فرشگرد همچنان دوام می‌یابد.",
+      "source_sha256": "7f2197caa9fb7b68d8f18a5b60663a200347b5b0186cf7be40353f56813ea9ac",
+      "target_sha256": "cfbffd304d5acbba38954a5e36e8461d9c53d65e0f3011378e18d9ea67785ff3",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151025009",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appar",
+          "span": [
+            47,
+            52
+          ]
+        }
+      ],
+      "source_text": "ud dušāgāh mard ēg-iš hāmōyēn kāmag ō stahm ud appar.",
+      "target_text": "[در صورتی که] همه کامه مرد نادان به ستم و دزدی است.",
+      "source_sha256": "630c8b2dfb721dee4f93d399089f43696f75b63b12bf9909526cab21847e3314",
+      "target_sha256": "23e635ca9aef77512a2ad607cc855bd8e9433d55f54a78ffaa18e94cbf9d1685",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151026002",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            87,
+            89
+          ]
+        }
+      ],
+      "source_text": "kū: čē rāy mardōm ī az gayōmart ud ān-iz ī az hōšyang ī pēšdād xwadāyān ud dahibedān ī tā ō wištāsp ī šāhān-šāh ēdōn kāmag-widār būd hēnd,",
+      "target_text": "که: چرا مردمی که در زمان گیومرث و هوشنگ پیشداد و فرمانروایان و حکمرانان بودند تا زمان گشتاسب شاهنشاه چنین کامکار بودند،",
+      "source_sha256": "7d1632d0a939feffe4a634da64372c6c7e7c3b6589c8b45af04466394f2bcc59",
+      "target_sha256": "c21356a684521de19ac22ad38ea97c5e1b95877e5ab9b311bd5997114bf61bd3",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151026012",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widardag",
+          "span": [
+            44,
+            52
+          ]
+        }
+      ],
+      "source_text": "čiyōn az-iz ham paywand ī ōyšān pēšēnīgān ī widardag paydāg",
+      "target_text": "چنان‌که از همان خانواده آن پیشینیان گذشته هم پیداست",
+      "source_sha256": "1a53c6b054793a5bef6f33ad5a83cb2e28e490357553ceb8422218fd9717599e",
+      "target_sha256": "a078b5b754260071c71492b32c806690a8c8acc93545fe319a0f689da0de967d",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151026026",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "adard",
+          "span": [
+            3,
+            8
+          ]
+        }
+      ],
+      "source_text": "ud adard ud azarmān ud apetyārag kard hēnd.",
+      "target_text": "و آنان را عاری از درد و پیری و آفت کرد.",
+      "source_sha256": "511a71a52079c99e20a476aaa549bbc2f61dc9b4f6ff7585477b303138f464f5",
+      "target_sha256": "a9a61e81e1c84555de271e01d842ded303ec3c23588a6906cc043aa3867a9c6f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151026036",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            23,
+            25
+          ]
+        }
+      ],
+      "source_text": "ud ka be ō xēšm mad hē tā rist-āxēz ud tan ī pasēn nē šāyist hē az-iš be stadan,",
+      "target_text": "و اگر به خشم رسیده بود تا رستاخیز و تن پسین باز ستدن آن از او ممکن نمی‌شد،",
+      "source_sha256": "56685611ace439091730dcd89e7bafa4c2e7626fcd67c2f1b6e0e05331c462c8",
+      "target_sha256": "f8a080ddbcd933d372f8ba5099bb64028776778efd99977f661b0a158453d9bb",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151026044",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            25,
+            27
+          ]
+        }
+      ],
+      "source_text": "ud az zamīg padišxwārgar tā bun ī guzag, čiyōn frāsiyāg grift ēstād, pad paymān az frāsiyāg abāz stad ud ō xwēšīh ī ērān-šahr āwurd, ud abzūdan ī zrēh ī kayānseh, čiyōn frāsiyāg be spurd u-š āb az-iš bē kard.",
+      "target_text": "و از زمین پدِشخوارگر تا بنِ گوزگ که افراسیاب گرفته بود، به پیمان از افراسیاب باز ستد و به ملکیت ایران‌شهر آورد، و افزودن دریاچه کانسه که افراسیاب آن را پایمال کرده بود، و آب را از آن روانه ساخت.",
+      "source_sha256": "5753bff9f712e19c4599020f8ace8752b0cc0ec38b19ad84d40c2d0d20d3f5fd",
+      "target_sha256": "d381d1ff3cc03dce5d753290d4ec74563bfdc4de8085b1e856ab68a2e39117b7",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151035030",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widard",
+          "span": [
+            42,
+            48
+          ]
+        }
+      ],
+      "source_text": "ud wīst [ud] haftom kē pad ān ī (uzīd ud) widard tis ahunsandīh kunēd,",
+      "target_text": "و بیست و هفتم کسی که درباره چیزی که از میان رفته است، ناخرسندی کند،",
+      "source_sha256": "ae3d02496fe6f359c731814b35b2503e19c9103940cb4ada7839ee2dd011fc53",
+      "target_sha256": "25f3c63df3a1bb707e2e3200d7ba804818bccfc43f8eabfbb72c021e274ac229",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151036023",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widard",
+          "span": [
+            23,
+            29
+          ]
+        }
+      ],
+      "source_text": "ud wīstom kē pad tis ī widard ud uzīd bēš nē barēd,",
+      "target_text": "و بیستم کسی که برای چیز گذشته و از‌دست‌رفته غم نخورد،",
+      "source_sha256": "729a3658ec824d118b13a57d7934c73c173184b57a4e6ecd6337a1fd1e36dde6",
+      "target_sha256": "77e3c740fa4071d09813a4232eba6cd06a50b5ff14745053d93e58d5c3e6f658",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151037005",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "apparišn",
+          "span": [
+            65,
+            73
+          ]
+        }
+      ],
+      "source_text": "bē ka-šān nē hamwārag abar rasēd stahmagīh ī ahreman ud dēwān ud apparišn ī ān haft abāxtar rāy.",
+      "target_text": "اما اگر از روی حساب به آنان نمی‌رسد، به سبب ستم اهریمن و دیوان و دزدی آن هفت سیاره است.",
+      "source_sha256": "cb2a83cd309c0cd4fd1a779e293cb782b411121fe79582c0f6abe9de5dc3346d",
+      "target_sha256": "fc9cf2ea681a9537c2e7c070d8c991ff4d76b949109a85ac8d14b3456ecdbdaf",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151039007",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appurdan",
+          "span": [
+            17,
+            25
+          ]
+        }
+      ],
+      "source_text": "[ud] čē ān ī kas appurdan nē tuwān,",
+      "target_text": "و چیست آن چیزی که کسی نتواند آن را برباید،",
+      "source_sha256": "518d748e46f98b4744f8b5ca798e9a0293fa06b4267a1f43bf3ef0fe6b81bc46",
+      "target_sha256": "0899267a32756fde15fda49f7c71b0ad5b5672428e1a0bccc8c471e543c8c528",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151039020",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appurdan",
+          "span": [
+            31,
+            39
+          ]
+        }
+      ],
+      "source_text": "ud frahang ud hunar ast kē kas appurdan nē tuwān,",
+      "target_text": "و فرهنگ و هنر است که کسی نمی‌تواند آن را برباید،",
+      "source_sha256": "7085c24e030930c5dcfcfb463052b797b2bd2fac945cf005749e1c40cfea7f40",
+      "target_sha256": "76e396550ede7d18d6586eb2eaec4cb198f29b8623f180482ef02c2d16570f76",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151039030",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            101,
+            103
+          ]
+        }
+      ],
+      "source_text": "ud mēnōg, pad frazām ān ī ahlawān ruwān azarmān ud amarg ud apetyārag ud purr-xwarrah ud purr-rāmišn tā hamē-ud-hamē-rawišnīh abāg yazadān ud amahraspandān ud frawahr ī ahlawān.",
+      "target_text": "و مینو در فرجام چنین است که روان پارسایان بدون پیری و مرگ و آسیب، پرفرّه و پرخوشی، جاودانه با ایزدان و امشاسپندان و فروهر نیکوکاران است.",
+      "source_sha256": "74eca92c803411b6d132f7038e5f7ad9b58cf48c450340ce94d79baa38e2b830",
+      "target_sha256": "aa423265881281422f69dfce633f27ed3ef5e68aa3aa488a177b5b8286c25360",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151039031",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            50,
+            52
+          ]
+        }
+      ],
+      "source_text": "ud puhl ud drōš ud pādifrāh ī druwandān pad dušox tā hamē-ud-hamē-rawišnīh.",
+      "target_text": "و عقوبت و درفش و پادافره بدکاران در دوزخ جاودانه است.",
+      "source_sha256": "0868f8aa12f8ff0ab9d0a84d85fac09da4ea3bf920c80d4aa1c58f4c3a23ea38",
+      "target_sha256": "8d890e38df417c63e4a5b69e4b56af4c8b38aa10a68fb70492d91a9dd285cbab",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151043023",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            0,
+            2
+          ]
+        }
+      ],
+      "source_text": "tā-šān abārīg petyārag kem.",
+      "target_text": "ولی آفت‌های دیگر کم دارند.",
+      "source_sha256": "bce1fde4f72b5819dd5a4ec36ab6f879b74b6eb9e313d5c47652ff7a268eac35",
+      "target_sha256": "e273bba247e39df606e7a831c0b5f0a5f6a55a96ed77bad38336775e7c3858d3",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151043027",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "dard",
+          "span": [
+            6,
+            10
+          ]
+        }
+      ],
+      "source_text": "u-šān dard ud wēmārīh kem,",
+      "target_text": "و درد و بیماری کم دارند،",
+      "source_sha256": "f788770cd27aacceeda729eb2ac3afa41d7ada5ddeeee12281068467a0fb2ea4",
+      "target_sha256": "cadb1bdc0a875055fc66d2c9fadfedc136c8bf1cdb4da5c856af629d6174ef08",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151045004",
+      "work_id": "parsig:151",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "apparēd",
+          "span": [
+            84,
+            91
+          ]
+        }
+      ],
+      "source_text": "kū: ahreman ka az mardōmān zīndagīh ud zan ud frazand ud hāmōyēn nēkīh ī gētīgīg be apparēd nē pad ēd dārēd kū-š tis-iz zyān pad ōy kas kard,",
+      "target_text": "که: اهریمن هنگامی که از مردمان زندگی و زن و فرزند و همه نیک‌های گیتی را برباید، نمی‌پندارد که به هیچ وجه زیانی به آن کس رسانیده است،",
+      "source_sha256": "9b6d42588066ab992cd57a956f988b05d81582ce1ebc8307c6773e5a65f70513",
+      "target_sha256": "fd42b0f8a70e3b628c890465a56b8b0913f9c57b27e215153323e1be92e26b52",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151056018",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "dard",
+          "span": [
+            0,
+            4
+          ]
+        }
+      ],
+      "source_text": "dard ud wēmārīh ī mardōmān ud stōrān ud gāwān ud gōspandān ud abārīg gyānwarān be-šnāxtan ud dārūg ud darmān ud tan-drustīh ud āsānīh awiš burdan nērōg ī xrad rāy abērtar šāyēnd kardan.",
+      "target_text": "و شناختن درد و بیماری مردمان و ستوران و گاوان و گوسفندان و جانوران دیگر و دارو و درمان و تندرستی و آسایش به آنان بردن، به نیروی خرد بیشتر ممکن است انجام گیرد.",
+      "source_sha256": "7859e72d9255ae3d0ff7720e5ea956a66b9a52603189bb691e9c93fd963e0fbc",
+      "target_sha256": "3b39ea10af8e4fc17cc4490f13ba0f0c4c99332956d8870d1b68c6364c15b530",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151061019",
+      "work_id": "parsig:151",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "dard",
+          "span": [
+            6,
+            10
+          ]
+        }
+      ],
+      "source_text": "u-šān dard ud petyārag kem.",
+      "target_text": "و درد و آفت کم دارند.",
+      "source_sha256": "ecfbdbdd24d03d038061bb0b9916052e1b6e3c08c6346e848ec1c8bdad6d56c8",
+      "target_sha256": "1c250a0a8c02391a401e780fb9cb54429199fd93cdc7bc3df270ded88d8884f6",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151061021",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            80,
+            82
+          ]
+        }
+      ],
+      "source_text": "ud pad ān dašt bē ǰōrdā ud xwarišnīg, tis ī kārēnd ud drūnēnd ud pad-iš zīwēnd, tā any *giyā ud draxt ud urwar nēst,",
+      "target_text": "و در آن دشت به‌جز غله و چیزهای خوردنی که می‌کارند و می‌دروند و بدان زندگی می‌کنند، هیچگونه گیاه و درخت و روییدنی دیگر نیست،",
+      "source_sha256": "e8ace15ad06fbf505a242859b17a8deccd3f35de56e105431e69652bfdf9a196",
+      "target_sha256": "8ee2eda83fc7b288752c130cdd14d5cef3828e59378e6404a452ef152f2c06dd",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:151061042",
+      "work_id": "parsig:151",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "source_text": "kū tā tištar āb abāg ān harwispīn tōm stānād ud abāg ān wārān pad gēhān wārād.",
+      "target_text": "تا تیشتر آب را با همۀ آن تخم‌ها بستاند و با آن باران به جهان ببارد.",
+      "source_sha256": "92914a0a28a3f819cfc55bff2d6965185e9fc44cf86926bef72e438e63cf5267",
+      "target_sha256": "90660ddce219c5c3a0452b834888e6ea317f6a08b82d4615c7b3889100b4969d",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:134004031",
+      "work_id": "parsig:134",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            67,
+            69
+          ]
+        }
+      ],
+      "source_text": "ayāb pad ān ī nidom āwām yazišn pad dō mard pādixšāy bawēd kardan, tā ēn dēn pad nēstīh ud nizārīh nē rasēd; pad ē(w)-sad pad ē(w)-hazār pad bēwar ēk-ē bawēd kē pad ēn dēn wurrōyēd; ān-iz ī wurrōyēd kār az-iš nē kunēd; ātaxš ī wahrām be ō nēstīh ud nizārīh rasēd, az ē(w)-hazār abāz ō ēk pahrēzēnd ān-iz ēsm ud bōy dādīhā pad-iš nē dahēnd.",
+      "target_text": "یا که در آن پست‌ترین زمان، یزشن کردنِ با دو مرد جایز باشد، تا این دین به نیستی و نزاری نرسد، در یک‌صد، در یک‌هزار، در ده‌هزار یکی باشد که به این دین گرود؛ آن که گرود، نیز از آن کار نگیرد (=بر طبق آن عمل نکند)؛ آتش بهرام به نیستی و نزاری رسد، از یک‌هزار [آتش] یکی را نگه دارند، آن [یکی] را نیز، چنان که باید، هیزم و بوی ندهند.",
+      "source_sha256": "889ce5dd0644bb89d44e5e72ae6a78c52b11eac415847a251f50fcc97ebb44ad",
+      "target_sha256": "56968732e084f09f74df9b47ad31383442296bc7edaba78f0fa23a5fc0c80351",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:134007015",
+      "work_id": "parsig:134",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            26,
+            28
+          ]
+        }
+      ],
+      "source_text": "ud amar ul spāh nixwārēnd tā ō gilistag ī dēwān ēdōn be ōzanēnd kū hazār zan pay mard-ē wēnēnd ud be bōyēnd.",
+      "target_text": "و سپاه بی‌شمار تا به سوراخ دیوان بشتابند و چنان بکشند که [اگر] هزار زن پیِ مردی بینند، ببویند.",
+      "source_sha256": "a683abe4e2f9b778aa78215dd81d3b1adda3677ade715a2b451825274b9807d4",
+      "target_sha256": "93e7822d8a9f9514adc61fe14726437e69ccea9fee8a514ab2df2a2e285eed9d",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:134009015",
+      "work_id": "parsig:134",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            141,
+            143
+          ]
+        }
+      ],
+      "source_text": "pas ān ahlomōγ ēdōn ham-čiyōn ēn drāyēd, az ān čiyōn azdahāg az bīm ī ān ī frēdōn dēsag pad kirb ī frēdōn pēš ul ēstēd, ān fradom nē wiyōzēd tā ka ahlomōγ ān band ud čōb az bun be wiyōzēd.",
+      "target_text": "پس آن اهلموغ چون ایدون گوید، اژدهاک از بیم آن که دیسه (= پیکر) فریدون به پیکر فریدون، پیش او برخیزد، نخست آن بند را نگلسلد، تا آن‌گاه که اهلموغ آن بند [و] چوب را از بن بگسلد.",
+      "source_sha256": "91a3ea63b2386a338c2fb8ae83c1117154f1fa7025f8d5a0595b39bf9e8c1151",
+      "target_sha256": "027974a2756467648fcc6407a869baf10e6ff5d2f6eb6e5f1a259f2c6771261c",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:134009018",
+      "work_id": "parsig:134",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            48,
+            50
+          ]
+        }
+      ],
+      "source_text": "ud garzišn ēn kunēd kū: frēdōn zīndag abāz kun, tā azdahāg be ōzanēd, čē agar tō ohrmazd ēn nē kunē amā pad gētīg nē šāyēm būdan.",
+      "target_text": "چنین گله کنند که: «فریدون را باز زنده کن! تا اژدهاک را بکشد، چه اگر تو، ای اورمزد! تو این نکنی، ما در جهان نشاییم بودن (= نتوانیم در جهان باشیم)».",
+      "source_sha256": "c8289a6f17e1b68a3728e681e85beb7d48c665e03b69e569740c4f8aeded2c81",
+      "target_sha256": "4fe66c76f1d218fde55f88bd3bf9a11cb22a75dfe8556ad2bad0385203d960fd",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:134009020",
+      "work_id": "parsig:134",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            99,
+            101
+          ]
+        }
+      ],
+      "source_text": "ud pas man ohrmazd ī dādār ō srōš ud nēryōsang yazad gōwēm kū: tan ī sāmān ī karsāsp be ǰumbānēnēd tā abar āxēzēd.",
+      "target_text": "و پس من، دادار اورمزد، به سروش و ایزد نریوسنگ گویم که: «تن گرشاسب سام را بجنبانند، تا برخیزد!»",
+      "source_sha256": "e63674900200fa3ffcc00d0c3bd575a8c3352f51df045adc660aaa837994b09d",
+      "target_sha256": "daade7c47e1bfde7c3c8d879b73ab8f2f1d99b0b857d59053f99f3b443604dbe",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:301001003",
+      "work_id": "parsig:301",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            471,
+            473
+          ]
+        }
+      ],
+      "source_text": "niwēyēnēm hangerdēnēm asnay ī ahlāyīh rad. ud hāwan ī ahlaw ahlāyīh rad. niwēyēnēm hangerdēnēm sawang {mēnōg abāg hāwan ham-kār} ud wis-iz ī ahlaw ī ahlāyīh rad {ī mardōm andar xwēš-kārīh ī mowbed}. niwēyēnēm hangerdēnēm mihr ī frāy-gōyōd ī hazār-gōš ī bēwar-čašm {u-š hazār-gōšīh ēd kū-š panǰ-sad mēnōg ō sar nišīnēnd u-š kār ī gōšīh kunēnd kū ēn niyōxš ud ān niyōxš u-š bēwar-čašmīh ay kū-š panǰ-hazār mēnōg ō sar nišīnēnd ud kār ī čašmīh kunēnd kū ēn wēn ud ān-iz wēn tā mihr čašm dō} guft-nām yazad {kū-š nām pad ēn dēn guft ēstēd} rāmišn xwālom {ān mēnōg ī ka mizag-iz ī xwarišn dānēnd pad rāh ī ōy}",
+      "target_text": "آغاز می‌کنم و کامل می‌کنم [پرستش] اسنیِ (=ایزد ساعات روز) رد اهلایی را. و هاون (=مینوی صبح) اهلای رد اهلایی را. آغاز می‌کنم و کامل می‌کنم [پرستش] سَوَنگ را {مینویی است همکار با هاون} و نیز ویسِ (=ایزد ناظر بر ده) اهلای رد اهلایی را {که مردم [آن] در خویشکاری موبدند}. آغاز می‌کنم و کامل می‌کنم [پرستش] مهر فراخ چراگاهِ هزار گوشِ ده هزار چشم را، {و هزار گوشی‌اش اینکه او را پانصد مینو بر سر نشینند و او را کار گوشی کنند (= به منزلۀ گوش مهر عمل می‌کنند) که این را بشنو و آن را بشنو و ده هزار چشمی‌اش یعنی پنج هزار مینو بر سرش نشینند و کار چشمی کنند (= به منزلۀ چشم مهر باشند) که این را ببین و آن را نیز ببین، در حالی که مهر را دو چشم است} ایزد نام‌برده‌شده {یعنی نام او در این دین گفته شده است}، طعم‌دهنده به خوراک را {آن مینویی که اگر طعم غذا را می‌فهمند به واسطۀ اوست}",
+      "source_sha256": "44ecead54a316ca79b6fb7465e5753a0f6b0c4ae5dfb3930aa8272ca06ead89b",
+      "target_sha256": "c83f43533ecad60c3a865e8db0e94b96ab74d5a05de7b16cad7653ddbeae76b3",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:301002003",
+      "work_id": "parsig:301",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            635,
+            637
+          ]
+        }
+      ],
+      "source_text": "pad ēn zōhrag ud barsom asnay ī ahlaw ī ahlāyīh rad xwāhēm ō ēn yazišn. hāwan ī ahlaw ī ahlāyīh rad xwāhēm ō ēn yazišn. sawang {mēnōg-ē abāg hāwan ham-kār} ud wis-iz ī ahlaw ī ahlāyīh rad xwāhēm ō ēn yazišn {mardōm andar xwēš-kārīh ī mowbed}. pad ēn zōhrag ud barsom mihr ī fray-gōyōd ī hazār-gōš ī bēwar-čašm ī guft-nām yazad xwāhēm ō ēn yazišn. {u-š fray-gōyōdīh ay kū ka mardōm ē(w)-tāg pad dašt frāz rawēd pad rāh ī mihr. u-š hazār-gōšīh ēd kū-š panǰ-sad yazad ō sar nišīnēnd u-š kār ī gōšīh kunēnd kū ēn niyōxš ud ān niyōxš. u-š bēwar-čašmīh ay kū-š panǰ-hazār mēnōg ō sar nišīnēnd ud kār ī čašmīh kunēnd kū ēn wēn [ud] ān-iz wēn tā mihr čašm dō} guft-nām yazad {kū-š nām pad ēn dēn guft ēstēd}. rāmišn xwālom {ān mēnōg [kē] ka mizag ī xwarišn dānēnd pad rāh ī ōy}",
+      "target_text": "با این شیر آمیخته با زوهر و برسم، اسنیِ (=ایزد ساعات روز) اهلای رد اهلایی را برای این پرستش می‌خواهم. هاون (=مینوی صبح) اهلای رد اهلایی را برای این پرستش می‌خواهم. سَوَنگ {مینویی است همکار با هاون} و نیز ویسِ (=ایزد ناظر بر ده) اهلای رد اهلایی را برای این پرستش می‌خواهم {مردم [آن] در خویشکاری موبدند}. با این شیرآمیخته به زوهر و برسم، مهر فراخ‌چراگاهِ هزار گوشِ ده هزار چشم، ایزدِ نامبرده‌شده را برای این پرستش می‌خواهم {فراخ‌چراگاهیِ او یعنی آن زمان که انسان به‌تنهایی در دشت فراز می‌رود به واسطۀ مهر است (= با راهبریِ مهر است) و هزار گوشی‌اش اینکه او را پانصد ایزد بر سر نشینند و او را کار گوشی کنند (= به منزلۀ گوش مهر عمل می‌کنند) که این را بشنو و آن را بشنو و ده هزار چشمی‌اش یعنی پنج هزار مینو بر سرش نشینند و کار چشمی کنند (= به منزلۀ چشم مهر باشند) که این را ببین [و] آن را نیز ببین، در حالی که مهر را دو چشم است} ایزد نام‌برده‌شده {یعنی نام او در این دین گفته شده است}. طعم‌دهنده به خوراک را {آن مینویی که اگر طعم غذا را می‌فهمند به واسطۀ اوست}",
+      "source_sha256": "8a84230e12c6b4d495f1c6a97927fa436defa5cf8eeea6f34d7462b8fd2ee779",
+      "target_sha256": "4f95317263e2927f132017ac07f35dfad6d356e67c54d4d83128fcff23477c2c",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:301003005",
+      "work_id": "parsig:301",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            475,
+            477
+          ]
+        }
+      ],
+      "source_text": "xwāhēm ō ēn yazišn asnay ī ahlāyīh rad. pad hāwan ī ahlaw ī ahlāyīh rad. xwāhēm ō ēn yazišn sawang {mēnōg ī abāg hāwan ī ham-kār} ud wis-iz ī ahlaw ī ahlāyīh rad {mardōm andar xwēš-kārīh ī mowbed}. xwāhēm ō ēn yazišn mihr ī frāy-gōyōd ī hazār-gōš ī bēwar-čašm {u-š hazār-gōšīh ēd *kū-š panǰ-sad mēnōg ō sar nišīnēnd u-š kār ī gōšīh kunēnd kū ēn niyōxš ān-iz <ī> niyōxš. u-š bēwar-čašmīh ay *kū-š panǰ-hazār mēnōg ō sar nišīnēnd ud kār ī čašmīh kunēnd kū ēn wēn ān-iz <ī> wēn tā mihr čašm dō} guft-nām yazad {kū-š nām pad ēn dēn guft ēstēd} rāmišn xwālom {ān mēnōg ka mizag xwarišn dānēnd pad rāh ī ōy}",
+      "target_text": "می‌خواهم برای این پرستش اسنی (=ایزد ساعات روز) رد اهلایی را، در [هنگام] هاون (=مینوی صبح) اهلای ردِ اهلایی. می‌خواهم برای این پرستش سونگ را {مینویی است همکار با هاون} و نیز ویس (=ایزد ناظر بر ده) اهلای ردِ اهلایی را {مردم [آن] در خویشکاری موبدند}. می‌خواهم برای این پرستش مهر فراخ چراگاه هزارگوش ده هزارچشم {و هزار گوشی‌اش اینکه او را پانصد مینو بر سر نشینند و او را کار گوشی کنند (= به منزلۀ گوش مهر عمل می‌کنند) که این را بشنو آن را نیز بشنو. و ده هزار چشمی‌اش یعنی پنج هزار مینو بر سرش نشینند و کار چشمی کنند (= به منزلۀ چشم مهر عمل می‌کنند) که این را ببین آن را نیز ببین، در حالی که مهر را دو چشم است} ایزد نام برده شده را {یعنی نام او در دین گفته شده است}. طعم دهنده به خوراک را {آن مینویی که اگر طعم غذا را می‌فهمند بواسطۀ اوست}",
+      "source_sha256": "d136891ac8de8484bbf220c4e9073e0066c68017efb82b9f5a5e6a9be4ed8dc4",
+      "target_sha256": "5a525736899eac6499ee551d63ec68661d14143daa8f5f986155cc48b3b1ba87",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:301004008",
+      "work_id": "parsig:301",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            530,
+            532
+          ]
+        }
+      ],
+      "source_text": "ōyšān niwēyēnēm asnay ahlāyīh rad. hāwan ī ahlaw ī ahlāyīh rad pad yazišn niyāyišn ud šnāyēnīdārīh *frāz-wābarīgānīh. ōyšān niwēyēnēm sawang ī {mēnōg-ē ī abāg hāwan ī ham-kār} ud wis-iz ī ahlaw ī ahlāyīh rad pad yazišn ud niyāyišn šnāyēnīdārīh ud *frāz-wābarīgānīh. ōyšān niwēyēnēm, mihr ī frāy-gōyōd hazār-gōš bēwar-čašm {u-š hazār-gōšīh ēd kū-š panǰ-sad mēnōg ō sar nišīnēnd u-š kār ī gōšīh kunēnd kū ēn niyōxš ud ān niyōxš u-š bēwar-čašmīh ēd kū-š panǰ-hazār mēnōg ō sar nišīnēnd u-š kār ī čašmīh kunēnd kū ēn wēn ud ān-iz wēn tā mihr čašm dō} guft-nām yazad {kū-š nām pad ēn dēn guft ēstēd} rāmišn xwālom {ān mēnōg ī ka mizag xwarišn dānēnd pad rāh ī ōy} pad yazišn niyāyišn šnāyēnīdārīh *frāz-wābarīgānīh",
+      "target_text": "[پرستش]آنها را آغاز می‌کنم، اسنی (=ایزد ساعات روز) رد اهلایی را. هاون (=مینوی صبح) اهلای رد اهلایی را، با پرستش، نیایش و خشنود کردن [و] ایمان. [پرستش] آنها را آغاز می‌کنم، سونگ را که {مینویی است همکار با هاون} و نیز ویس (=ایزد ناظر بر ده) اهلای رد اهلایی را با پرستش و نیایش، خشنود کردن و ایمان. [پرستش] آنها را آغاز می‌کنم، مهر فراخ‌چراگاه هزارگوش ده‌هزارچشم را {هزار گوشی‌اش اینکه او را پانصد مینو بر سر نشینند و او را کار گوشی کنند (= به منزلۀ گوش مهر عمل می‌کنند) که این را بشنو و آن را بشنو و ده هزار چشمی‌اش یعنی که پنج هزار مینو بر سرش نشینند و او را کار چشمی کنند (= به منزلۀ چشم مهر باشند) که این را ببین [و] آن را نیز ببین، در حالی که مهر را دو چشم است}، ایزد نام‌برده‌شده را {یعنی نام او در این دین گفته شده است}. طعم‌دهنده به خوراک را {آن مینویی که اگر طعم غذا را می‌فهمند به واسطۀ اوست}، [آغاز می‌کنم] با پرستش، نیایش، خشنود کردن [و] ایمان",
+      "source_sha256": "ff0aca96e943422e3ff068a2937f8e3800621eda7331a917bf3a45d29bba2220",
+      "target_sha256": "380af28a4844e59371bfd7e2c80ae57d569da3d69874f02e0d0713528bb876a6",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:301007005",
+      "work_id": "parsig:301",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            465,
+            467
+          ]
+        }
+      ],
+      "source_text": "pad ahlāyīh be dahēm asnay ī ahlāyīh rad. pad hāwan ahlaw ī ahlāyīh rad. pad ahlāyīh be dahēm sawang {mēnōg-ē abāg hāwan ham-kār} ud wis-iz ī ahlaw ahlāyīh rad {mardōm andar xwēš-kārīh ī mowbed}. pad ahlāyīh be dahēm mihr ī frāy-gōyōd ī hazār-gōš ī bēwar-čašm {u-š hazār-gōšīh ay kū-š panǰ-sad mēnōg ō sar nišīnēnd u-š kār ī gōšīh kunēnd kū ēn niyōxš ān-iz niyōxš. u-š bēwar-čašmīh ay kū-š panǰ-hazār mēnōg ō sar nišīnēnd ud kār ī čašmīh kunēnd kū ēn wēn ān-iz wēn tā mihr čašm dō} guft-nām yazad {kū-š nām pad ēn dēn guft ēstēd} rāmišn-xwālom {ān mēnōg ka mizag ī xwarišn dānēnd pad rāh ī ōy}",
+      "target_text": "با اهلایی پیشکش می‌کنم برای اسنی (=ایزد ساعات روز) رد اهلایی. در [هنگام] هاون (=مینوی صبح) اهلای ردِ اهلایی. با اهلایی پیشکش می‌کنم برای سونگ {مینویی است همکار با هاون} و نیز برای ویس (=ایزد ناظر بر ده) اهلای ردِ اهلایی {مردم [آن] در خویشکاری موبدند}. با اهلایی پیشکش می‌کنم برای مهر فراخ چراگاه هزارگوش ده هزارچشم {و هزار گوشی‌اش اینکه او را پانصد مینو بر سر نشینند و او را کار گوشی کنند (= به منزلۀ گوش مهر عمل می‌کنند) که این را بشنو آن را نیز بشنو. و ده‌هزار چشمی‌اش یعنی پنج هزار مینو بر سرش نشینند و کار چشمی کنند (= به منزلۀ چشم مهر عمل می‌کنند) که این را ببین آن را نیز ببین، در حالی که مهر را دو چشم است} ایزد نام برده شده {یعنی نام او در دین گفته شده است}. برای طعم دهنده به خوراک {آن مینویی که اگر طعم غذا را می‌فهمند بواسطۀ اوست}",
+      "source_sha256": "5d835d7308bef9f010d4e315ba4837d6365df82cf9fb5c90158e40f9338638d3",
+      "target_sha256": "ab74ef0e462d8f25032d4ac6e1793550c19e9f2314bf0461e046cf47e30d45cf",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:301007025",
+      "work_id": "parsig:301",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            114,
+            116
+          ]
+        }
+      ],
+      "source_text": "ān ī ō amāh dahē pad ēn axwān pad-iz ī mēnōgān kū ēdōn pad ān ēdōn abar *rasān ō ēd tō sālārīh ud ahlāyīh-iz hamē tā ō wisp",
+      "target_text": "آنچه به ما می‌دهی در این جهان [و] نیز به [جهان] مینو، که اینچنین به آن برسم، به سالاری و نیز اهلایی تو، تا جاویدان",
+      "source_sha256": "d05463b60026b437e09939122c385c0c5190a2e2cdba68db7ee57c6a435677ba",
+      "target_sha256": "a717ddbd175ae6cda05eddad1d73b756f980e97e94413f5270be42e0833547a3",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136001018",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            19,
+            21
+          ]
+        }
+      ],
+      "source_text": "ud pābag framūd kū tā dast ī ǰāmag paymōzan ī xwadāywār awiš āwurd hēnd, ud ō sāsān dād hēnd kū paymōz, ud sāsān ham-gōnag kard.",
+      "target_text": "و پاپک فرمود که دستِ جامه و پوشاک خدایوار (=شاهوار) بهش (= برایش) آوردند و به ساسان دادند که بپوش؛ ساسان همانگونه کرد.",
+      "source_sha256": "cca11c3ea5d126c4e74401333d1ba47a31af53a97f0d22f27c9b51d9995ad6e0",
+      "target_sha256": "1ac4b81693ab84487e95b077484791b48e5aaf63d7cc1178e3dc3957128b3f7f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136001019",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            29,
+            31
+          ]
+        }
+      ],
+      "source_text": "ud pābag sāsān rāy framūd kū tā čand rōz pad xwarišn dārišn nēk sazāgwār parward.",
+      "target_text": "و پاپک ساسان را فرمود که تا چند روز به خورش [و] دارش (=مراقبت، پرستاری) نیک و سزاوار پرورد.",
+      "source_sha256": "97e9c25e58d1afecfc6b37636bb5c414ad6c0639ae7e9272ba20cea25c0c250b",
+      "target_sha256": "c595516d929bfb669aff2372271bfdac2737ad7d0f11c6a93c7143bbab9c0814",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136002007",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            59,
+            61
+          ]
+        }
+      ],
+      "source_text": "u-mān kāmag kū ōy [ō] dar amā frēstē ud nazdīkīh amā āyēd, tā abāg frazandān wāspuhragān bawēd, u-š pad frahang ī-š ast, bar pādāšn framāyēm.",
+      "target_text": "ما را کام (= میل، خواست) [است] که او به در (= درگاه، بارگاه) ما فرستی و نزدیک ما آید تا با فرزند و واسپوهرکان (=شاهزادگان، بزرگ‌زادگان) بود، او را به فرهنگی که در او هست، بر و پاداش فرمائیم.",
+      "source_sha256": "4606427c7cd5c445b2581e7e1054d9fe9607faf1edbd2046b480e35601a4a3ef",
+      "target_sha256": "9ee62b532c1adb5c50550c5bf21a8ca4d92327f01424686b1b925b5469867755",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136002014",
+      "work_id": "parsig:136",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widard",
+          "span": [
+            20,
+            26
+          ]
+        },
+        {
+          "text": "widard",
+          "span": [
+            183,
+            189
+          ]
+        }
+      ],
+      "source_text": "gōr-ē andar dašt be widard ud ardaxšīr ud pus ī meh ardawān az pas ī ān gōr tāxt; ud ardaxšīr andar rasīd tigr-ē ēdōn ō gōr zad kū tigr tā parr pad aškamb andar šud ud dudīgar sōg be widard ud gōr abar gyāg murd.",
+      "target_text": "گوری اندر دشت بگذشت و اردشیر و پسر مه (= بزرگ) اردوان از پس آن گور تاختند؛ و اردشیر اندر رسید تیری ایدون به گور زد که تیر تا پر به شکم اندر شد و دیگر سوی بگذشت و گور اندر جای مرد.",
+      "source_sha256": "5984d2c493cb7cdc6b099e8b2e68d864194e684f0d059bf9def7d4661e333219",
+      "target_sha256": "9b4f5b16ad6bc4f5f2beeddb0750558efeb43230fb81f7ffe874ed59021f51f7",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136002014",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            136,
+            138
+          ]
+        }
+      ],
+      "source_text": "gōr-ē andar dašt be widard ud ardaxšīr ud pus ī meh ardawān az pas ī ān gōr tāxt; ud ardaxšīr andar rasīd tigr-ē ēdōn ō gōr zad kū tigr tā parr pad aškamb andar šud ud dudīgar sōg be widard ud gōr abar gyāg murd.",
+      "target_text": "گوری اندر دشت بگذشت و اردشیر و پسر مه (= بزرگ) اردوان از پس آن گور تاختند؛ و اردشیر اندر رسید تیری ایدون به گور زد که تیر تا پر به شکم اندر شد و دیگر سوی بگذشت و گور اندر جای مرد.",
+      "source_sha256": "5984d2c493cb7cdc6b099e8b2e68d864194e684f0d059bf9def7d4661e333219",
+      "target_sha256": "9b4f5b16ad6bc4f5f2beeddb0750558efeb43230fb81f7ffe874ed59021f51f7",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136003003",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            164,
+            166
+          ]
+        }
+      ],
+      "source_text": "ud pas az ān abāz ardaxšīr mad ud dōstīh ud dōšāram kard. paywast hamāg pad šab ka ardawān be-šudag-baxt be xuft, ān kanīzag pad-nihān ō nazdīkīh ī ardaxšīr šud ud tā nazd bām abāg ardaxšīr būd ud pas abāz ō pēš ardawān šud.",
+      "target_text": "و پس از آن بازِ اردشیر آمد (= نزد اردشیر آمد) و دوستی و مهر (= عشق) کرد. پیوسته همی به شب، هنگامی که اردوان بشده‌بخت (= بخت‌برگشته) بخفت، آن کنیزک به‌نهان به نزدیکی اردشیر شد و تا نزدیک بامداد پیش اردشیر بود و پس باز به پیش اردوان شد.",
+      "source_sha256": "e0271244b5e7d70a2171af0eacf720107c0913c735d8c7dd1ee1e5c4900eb055",
+      "target_sha256": "a26adf3f91438535a4cc5d3d852b4cff38dbc19711078cf81d452a8d4394ca7d",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136003007",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            93,
+            95
+          ]
+        }
+      ],
+      "source_text": "did-iz murw-nīšān sālār ō pēš mad u-š guft kū ēdōn paydāg kū har kē bandag mard kē az im-rōz tā se rōz az xwadāy ī xwēš be wirēzēd ō wuzurgīh pādixšāyīh rasēd abar ān ī xwēš xwadāy kāmag-hanǰām ud pērōzgar bawēd.",
+      "target_text": "دیگر سردار پیشگو نیز به پیش آمد و گفت که ایدون پیداست که هر که بنده مرد که از امروز تا 3 روز از خداوند خویش بگریزد به بزرگی و پادشاهی رسد، بر آنِ خداوند خویش کام‌انجام (= کامروا) و پیروزگر بود.",
+      "source_sha256": "df6df1f64f215cc3868c459fdaf8d5e1cbc01ce47e7c4aabe7b40bd2b5b94ec7",
+      "target_sha256": "b6e1a6c3cc98764f1d34e56a37a3664ad7471b226cc65a00b385858993aa7c3d",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136003010",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            213,
+            215
+          ]
+        }
+      ],
+      "source_text": "u-š ō kanīzag guft kū agar-it menišn abāg man rāst ud ē(w)-gānag ast anī-z andar ēn se rōz ī wizīdag ī dānāgān axtarmārān guft ēstēd [kū] har kē az xwadāy ī xwēš be wirēxt ō wuzurgīh ud pādixšāyīh rasēd [az] ēdar tā gēhān gīrēm be šawēm.",
+      "target_text": "و به کنیزک گفت که اگرت منش با من راست و یگانه هست، پس اندر این 3 روز گزیده، که دانایان و اخترشماران گفته‌اند «هر که از خداوند خویش به‌گریزد، به بزرگی و پادشاهی رسد»، از ایدر تا گیهان گیریم، بشویم.",
+      "source_sha256": "b46614538836d41e91d3c476aa8512c15f10543d8431f969d6d966493f8875b8",
+      "target_sha256": "e6ca8022001bd3d00ecbb7e8bf5cdedb71ef7af73545c0ce8b0d23d991b82262",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136003017",
+      "work_id": "parsig:136",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widard",
+          "span": [
+            108,
+            114
+          ]
+        }
+      ],
+      "source_text": "ardaxšīr tarsīd kū ma agar mardōm ī deh wēnēnd, šnāsēnd ud griftār kunēnd andar deh nē, bē pad kustag ī deh widard.",
+      "target_text": "و اردشیر ترسید که مگر مردم ده ببینند، شناسند و گرفتار کنند، نه اندر ده، به (= بلکه) به کسته (= ناحیه، سوی)ِ دیه گذشت. (=",
+      "source_sha256": "5b285d61cf183ad214a39d312cea22ac47940ec53180dd7de85cac2bca67f0df",
+      "target_sha256": "0279ff05714d92e3049008bd9b7fdf2dbca1745fe10d67ae5ab6ad1a79ce2850",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136004005",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            58,
+            60
+          ]
+        }
+      ],
+      "source_text": "u-š axtarmārān sālār xwāst ud guft kū zūd bāš ud be niger tā ān wināhgār abāg ān ǰeh ī rōspīg kadām gyāg šud ud kay šāyēm griftan!",
+      "target_text": "و اخترشماران سردار را خواست و گفت زود باش و بنگر تا آن گناهکار با آن جه (= زن بدکاره) روسپی کدام سوی شد و کی شاییم (= می‌توانیم) گرفتن!",
+      "source_sha256": "4a1f0c49ecac74886a17ab492c1a63231a4cc5321cd5203511b3b6a67ed84fa5",
+      "target_sha256": "efa06b367b438e8a1ab54f2626284b1e9095b12601deeb8a328fc723783bc338",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136004007",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            71,
+            73
+          ]
+        }
+      ],
+      "source_text": "ēdōn paydāg kū ardaxšīr wirēxt šud, u-š rōy ō kust ī pārs ast, ud agar tā se rōz griftan nē šāyēd pas az ān griftan nē tuwān.",
+      "target_text": "و ایدون پیداست که اردشیر گریخته رفت (= به گریز رفت)، *او را روی به کسته پارس است و اگر تا 3 روز گرفتن نشاید، پس از آن گرفتن نتوان.",
+      "source_sha256": "79742394f3182154a47d28fd3a4b99179112e1e6d4c02f267d7d9909678d751a",
+      "target_sha256": "67d37004638021d242d24af2cd432e5b95849b33e59ab1eaa56ff5692f58ca38",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136004008",
+      "work_id": "parsig:136",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widard",
+          "span": [
+            125,
+            131
+          ]
+        }
+      ],
+      "source_text": "ardawān andar zamān spāh čahār-hazār ārāst rāh ō pārs pay ī ardxšīr grift, ud ka nēm-rōz būd ō gyāg rasīd kū rāh ī pārs ānōh widard.",
+      "target_text": "اردوان اندر زمان سپاه چهارهزار آراست و راه به پارس، پی اردشیر گرفت. و چون نیمروز بود به جایی رسید که راه پارس آنجا می‌گذشت",
+      "source_sha256": "c71bc2f3629f9194def38754b5bab0eb0448fc4756712bafaf7b50b0317234be",
+      "target_sha256": "863b070ac17ffc1eb29c366288919057dca12a8dfcd7815615e85e259cd68379",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136004009",
+      "work_id": "parsig:136",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widard",
+          "span": [
+            60,
+            66
+          ]
+        }
+      ],
+      "source_text": "u-š pursīd kū ān dō aswār ī ō ēn kust rōn āmad, čē zamān be widard?",
+      "target_text": "پرسید که آن 2 سوار که به‌سوی این کسته آمدند، چه زمان بگذشتند؟",
+      "source_sha256": "3f32ab32958305196f17c933d4dff98d0ace4b699b15210f89422b7337d75e97",
+      "target_sha256": "10406997e65cd6629ad6a0bb281a44a5c9743054baec31b9dded5e0764174900",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136004012",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            9,
+            11
+          ]
+        }
+      ],
+      "source_text": "dānēm kū tā nūn was frasang zamīg šud, u-tān griftan nē tuwān.",
+      "target_text": "و دانیم که تاکنون بس فرسنگ زمین شده‌اند و شما را [ایشان] گرفتن نتوان.",
+      "source_sha256": "cd73361101d5b42e086237bd1763708902cb9445a22dd94b6952045cc9a13f45",
+      "target_sha256": "3aacd9937c13a3b492757adc6e7a838bd3eaddc9a19449e190f30edd89f5011c",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136004014",
+      "work_id": "parsig:136",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widard",
+          "span": [
+            64,
+            70
+          ]
+        }
+      ],
+      "source_text": "ka ō any gyāg-ē mad az mardōmān pursīd kū ān dō aswār čē gāh be widard hēnd.",
+      "target_text": "چون به دیگر جای آمد، از مردمان پرسید که آن دو سوار چه گاه بگذشته‌اند؟",
+      "source_sha256": "c3b5cb47940ba67f5fce23d579f4977cf0fa9159501675f3440c39eab479251e",
+      "target_sha256": "2b4a64b615cf447a430d2e9f0d928df24723e237f019f88ee334fb51a84d363c",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136005007",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            67,
+            69
+          ]
+        }
+      ],
+      "source_text": "pas banāg ō pēš ardaxšīr mad ud sōgand xward ud abēgumānīh dād kū, tā zīndag bawēm xwad abāg frazandān framān-burdār tō bawēm.",
+      "target_text": "پس بناک به پیش اردشیر آمد و سوگند خورد و بیگمانی داد که تا زنده باشم، خود با فرزندان فرمان‌بردار تو باشم.",
+      "source_sha256": "6425b5edd201e2783794b8a72300a593c148da7eaa88f0a6a1dac6e6384d19ff",
+      "target_sha256": "4c01d3ba05870aae877e9ec6b607453effbd60ab0b105fc21c4faec813a36288",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136008003",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            44,
+            46
+          ]
+        }
+      ],
+      "source_text": "andar zamān *tigr-ē čōbak az diz *frōd mad, tā parr pad warrag abar xwān būd be nišast.",
+      "target_text": "اندر زمان تیری چوبی از دژ فرود آمد، تا پر به بره که بر خوان بود به‌نشست.",
+      "source_sha256": "8e1efa38fe2c9a7c410b9b07eabf1e7b8195770b32c14e16286f0318932411fe",
+      "target_sha256": "ecf670e762561293cc15ef5721ad5512654e2fd4c18d1f9347d734763ecdcd99",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136008006",
+      "work_id": "parsig:136",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "widardan",
+          "span": [
+            98,
+            106
+          ]
+        }
+      ],
+      "source_text": "spāh ī kerm az pas ī ardaxšīr awištāft gyāg ī tang abar ōyšān ēdōn be grift kū spāh ī ardaxšīr be widardan nē šāyist, ud ardaxšīr xwad tanīhā ō bār drayā ōbast.",
+      "target_text": "سپاه کرم از پس اردشیر شتافت و جای تنگ بر ایشان ایدون بگرفت که سپاه اردشیر بگذشتن نشایست؛ و اردشیر خود به تنهایی به بار (کنار، ساحل) دریا افتاد.",
+      "source_sha256": "52d8ae733aa0e1a7cb6749dfade0fc1b8643a84e898b66a42f15f2c084ffefe2",
+      "target_sha256": "0ea3b301297bc565008cb27febb48ab351b5df8988b041fc5a92bc79a8d218ef",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:136008007",
+      "work_id": "parsig:136",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            100,
+            102
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            411,
+            413
+          ]
+        }
+      ],
+      "source_text": "ēdōn gōwēnd kū xwarrah ī kayān pad dūr be būd andar pēš ī ardaxšīr ēstād, ud andak-andak hamāg raft tā ardaxšīr az ān gyāg ī dušwidarag az dast ī dušmenān abēwizendīhā bērōn *āmad. frāz ō deh [ī] mānd xwānēnd, rasīd. andar ō šab ō xānag ī brādar dō, ēk burzag ud ēk burzādur nām būd, mad; ō ōyšān guft kū man az aswārān ī ardaxšīr hēm kē az kārezār ī kerm pad stōwīh āmad ēstēm; ud im-rōz aspinǰ framāyēd dādan tā āgāhīh spāh ī ardaxšīr be āyēd kū ō kadām zamīg ōbast hēnd.",
+      "target_text": "ایدون گویند که خره کیان که بدور بود، اکنون اندر پیش اردشیر ایستاد و اندک اندک همی‌رفت تا اردشیر از آن جایِ دوش‌گذر (= سخت‌گذر، صعب‌العبور) از دست دشمنان بی‌گزندانه بیرون آمد و فراز به دهی که «ماند» خوانند، رسید. اندر شب به خانه دو برادر، یکی «برزک» و یکی «برزآتور» نام بود آمد؛ به ایشان گفت که من از سواران اردشیرم که از کارزار کرم به ستوهی آمده‌ام و امروز اسپنج (= جایی که به مهمان دهند) فرمایید دادن تا آگاهی سپاه اردشیر بیاید که به کدام زمین افتاده‌اند.",
+      "source_sha256": "0372baf4bb669bab89c1508cc6c9507cd4bb4a99d75237a7d7bf639cead91761",
+      "target_sha256": "96658daa7d6413cb243599bb7aee3ca534bd1dc2b6055337cbbb44c7d804b744",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001000",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            126,
+            128
+          ]
+        }
+      ],
+      "source_text": "ān zand-āgāhīh, nazdist abar bun-dahišnīh ī ohrmazd ud petyāragīh ī ganāg-mēnōg; pas abar čiyōnīh ī gēhān dām az bun-dahišnīh tā frazām; čiyōn az dēn ī māzdēsnān paydāg; pas abar xīr *kē *gēhān dārēd pad wizārišn ī čēīh ud čiyōnīh.",
+      "target_text": "هان! زندآگاهی، نخست، دربارۀ آفرینش آغازین هرمزد و پتیارگی اهریمن؛ سپس، دربارۀ چگونگی آفریدگان مادی از آغاز آفرینش تا فرجام است، همانگونه که از دین مزدیسنان پیدا است؛ سپس دربارۀ آنچه که جهان دارا است با گزارش چئی و چگونگی [آن].",
+      "source_sha256": "c7e19dbcb6e8db9e0333100d40e2a01b3782e82b50db175514e4bc45629ba331",
+      "target_sha256": "ab89420106e6a6e2e091bb93489fbb8e7d3e15f041c209c7ea2967b7e3ed88b4",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001011",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            57,
+            59
+          ]
+        }
+      ],
+      "source_text": "did bowandag pādixšāyīh ī dām ī ohrmazd pad tan ī pasēn, tā hamē-hamē-rawišnīh; ud ān ast akanāragīh.",
+      "target_text": "که [همانا] پادشائیِ کاملِ آفریدگانِ هرمزد به تنِ پسین است، جاودانه؛ و آن بی‌کرانگی است.",
+      "source_sha256": "5e9c3389a4bde502b09143d320941d51b7a8deb0f79fb75f19a67f760ff5450c",
+      "target_sha256": "b9fa4b6aea9a34f585e94365acdcef82f7b0f6ec461727da5a45ea1998525ddc",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001013",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            122,
+            124
+          ]
+        }
+      ],
+      "source_text": "ohrmazd pad harwisp-āgāhīh dānist kū ganāg-mēnōg ast, abar handāzēd ud gīrēd pad arešk-kāmagīh, čiyōn gumēzēd *az fragān *tā frazām, pad *čē ud čand abzārān. u-š mēnōgīhā, ān dām ī pad ān abzār andar abāyēd, frāz brēhēnīd.",
+      "target_text": "هرمزد به همه‌آگاهی دانست که اهریمن هست، برتازد و [جهان را] به رشک‌کامگی [فرو] گیرد، و چگونه از آغاز تا فرجام با چه و چند افزاران بیامیزد. [پس] او، به مینوئی، آن آفریدگان را که [برای مقابله] با آن افزار دربایست، فراز آفرید.",
+      "source_sha256": "df19df4ec2d8e852daff2f9ef4cf32de13c2d3fc582f574d49eb112e1fbbd3b5",
+      "target_sha256": "26ae61e5c240d460f2ea30070f881a64ead08b6f47db3b30dd8155cfc0a47fb3",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001020",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            165,
+            167
+          ]
+        }
+      ],
+      "source_text": "ēg ohrmazd abāg-iz čē-ēwēnag dānistan ī dām ī frazām ī kār, ō padīrag ī ganāg-mēnōg āštīh abar dāšt ud guft kū ganāg-mēnōg abar ō dām ī man ayārīh bar, stāyišn dah, tā pad ān pādāšn amarg ud azarmān ud asōhišn ud apōhišn bawē.",
+      "target_text": "آنگاه هرمزد، با دانستن چگونگیِ فرجامِ کارِ آفرینش، به پذیرۀ اهریمن آشتی برداشت و گفت که «اهریمن! بر آفریدگان من یاری بر، ستایش کن، تا به پاداش آن بی‌مرگ، بی‌پیری، نافرسودنی و ناپوسیدنی شوی.",
+      "source_sha256": "d8f2efab683ad3eb4ebfb18803b85d1adbf5503087b200b778b58d0e00b1b9dd",
+      "target_sha256": "4a4f576ffdb68ba3e14c1a12d29a0d00f00ee852a720ac3a2f4f4dca236de580",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001022",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            109,
+            111
+          ]
+        }
+      ],
+      "source_text": "u-š drāyīd gannāg-mēnōg kū nē barēm ō dām-iz ī tō ayārīh ud nē dahēm stāyišn; bē tō ud dām-iz ī tō murnǰēnēm tā hamē-hamē-rawišnīh, be hāzēm harwisp dām ī tō ō adōstīh ī tō ud dōstīh ī man.",
+      "target_text": "اهریمن گفت که «نَبَرَم بر آفریدگانِ تو یاری و نَدهَم ستایش؛ بلکه تو و آفردیگان تو را نیز جاودانه بمیرانم [و] بِگرَوانَم همۀ آفریدگان تو را به نادوستیِ تو و دوستیِ خود».",
+      "source_sha256": "687c9c9740394396572d5a8a8929a1ccb6740ff7fb8f8c08aaa7fb934cd6131b",
+      "target_sha256": "157ccb54a05ad1b7024aa4d2f990253e6f8d2b258866913a1e6f24f500a394c5",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001026",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            47,
+            49
+          ]
+        }
+      ],
+      "source_text": "u-š guft ohrmazd ō ganāg-mēnōg kū zamān kardan tā kārezār pad ēn pašn ō nō-hazār sāl frāz abganēm. čē-š dānist kū pad ēn zamān kardan agārēnēd ganāg-mēnōg.",
+      "target_text": "هرمزد به اهریمن گفت که «زمان کن تا کارزار را بدین پیمان به نه هزار سال فراز افگنیم»: زیرا دانست که بدین زمان کردن اهریمن را از کار بیفگند.",
+      "source_sha256": "633f944eb47c24243b5a6e7d2f789a635cb96dbc9df30daa391f494c3803b75d",
+      "target_sha256": "5ee2f103d4fdf6102a677c7d780ce4b9beca267e08f2c0a5df28ec885327f0e7",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001027",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            144,
+            146
+          ]
+        }
+      ],
+      "source_text": "ēg ganāg-mēnōg, awēnāg-frazāmīh rāy pad ān paymānag ham-dādestān būd, ēdōn čiyōn dō mard [ī] ham-kōxšišn kē zamān frāz kunēnd kū-mān wahmān rōz tā šab kārezār kunēm.",
+      "target_text": "آنگاه، اهریمن، به سبب نادیدن فرجامِ [کار]، بدان پیمان همداستان شد، به همان گونه که دو مردِ هم‌نبرد زمان فراز کنند که «ما بهمان روز تا شب کارزار کنیم».",
+      "source_sha256": "c15037b883608384e9bbf9287b64300f57bab596ba3631a5260c44fb54db832b",
+      "target_sha256": "2b6d90e9764b38b708538ac0767a8639e20e50c649b96542971445fe76657c93",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137001042",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            179,
+            181
+          ]
+        }
+      ],
+      "source_text": "čē zamān-iz ī dagrand-xwadāy nazdist dām ī-š frāz brēhēnīd; čē akanārag būd pēš az gumēzišnīh hamēīh, ī ohrmazd kanāragōmand brēhēnīd, az ān akanārag; kū az bun-dahišn ka dām dād tā ō frazām kū ganāg-mēnōg agār bawēd, paymānag-ē dwāzdah-hazār sāl kū kanāragōmand. pas ō akanāragōmandīh gumēzēd ud wardēd kū dām-iz ī ohrmazd abēzagīha abāg ohrmazd hamēīg bawēnd.",
+      "target_text": "زمان درنگ‌خدای نخستین آفریده بود که او فراز آفرید؛ زیرا، پیش از آمیختگی، [زمان] تماماً بیکرانه بود و هرمزد، از آن [زمانِ] بیکرانه، [زمان] کرانه‌مند را آفرید؛ چون از آغازِ آفرینش که تمام آفریدگان تا به فرجام که اهریمن از کار بیفتد، به اندازۀ دوازده هزار سال است، که کرانه‌مند است. سپس، به بیکرانگی بیامیزد و بگردد که [آن هنگامی است که] آفریدگان هرمزد بپاکی با هرمزد جاودانه شوند.",
+      "source_sha256": "46853e0734737683f50c11208c7daac038e65f6b4bc098f7d45070f480a83378",
+      "target_sha256": "7fe53cb2da884faacee80308d985b9dc29498c2554776e63fc46e3de2b86e0b9",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137002016",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            76,
+            78
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            123,
+            125
+          ]
+        }
+      ],
+      "source_text": "nazdist, asmān brēhēnīd pad čehel rōz čiyōn az rōz ī ohrmazd, māh frawardīn tā rōz ī ābān māh ardwahišt. panǰ rōz abar pād tā rōz ī day-pad-mihr, ān panǰ rōz ī gāhānbār u-š nām mēdyōzarm. u-š wizārišn ēn kū māništ ī mihr ud *mah ud zargōnīh ō paydāgīh mad.",
+      "target_text": "نخست، آسمان را آفرید به چهل روز که از روز هرمزد، ماه فروردین تا روز آبان، ماه اردیبهشت است. پنج روز درنگ کرد تا روز دی-بمهر. آن پنج روز گاهنبار و آن را نام مَدیُوزَرم است. آن را گزارش این که زیستگاهِ مهر و ماه و سبزی به پیدائی آمد.",
+      "source_sha256": "eaf9445ea7801c75387e4a4964228fb1bf14ca79e8b4b413d1922de5cfc56159",
+      "target_sha256": "752a522439c3ffd9c7d4f7efbef70fac8ad39ad93f68aa1a9c679a0720a4d02d",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137002017",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            68,
+            70
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            108,
+            110
+          ]
+        }
+      ],
+      "source_text": "dudīgar āb dād pad panǰāh panǰ rōz čiyōn az rōz mihr, māh ardwahišt tā rōz ābān, māh tīr, panǰ rōz abar pād tā rōz ī day-pad-mihr, ān panǰ rōz gāhānbār u-š nām mēdyōšim kē-š wizārišn ēn kū-š āb rōšn be kard, čē nazdist tērag būd.",
+      "target_text": "دیگر، آب را آفرید به پنجاه و پنج روز که از روز مهر، ماه اردیبهشت است تا روز آبان، ماه تیر، پنج روز درنگ کرد تا روز دی بمهر. آن پنج روز گاهنبار و آن را نام مَدیُوشَم، که آن را گزارش این که او آب را روشن بکرد، زیرا نخست تیره بود.",
+      "source_sha256": "23fa5b550469ecefb8b57c995f0e8467a78b506621b753d0e6407dc05117d95b",
+      "target_sha256": "829d09f0618cb34fb82f030c484bf8b49932a0ee788a0a000d3b920703aa6504",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:137002018",
+      "work_id": "parsig:137",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            61,
+            63
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            108,
+            110
+          ]
+        }
+      ],
+      "source_text": "sidīgar, zamīg dād pad haftād rōz čiyōn az rōz mihr, māh tīr tā rōz ard, māh šahrewar, ān panǰ rōz abar pād tā rōz anagrān. ān panǰ rōz gāhānbār u-š nām pēdišah. u-š wizārišn ēn kū pāy-rawišnīh [ī] dāmān pad zamīg paydāg be kard.",
+      "target_text": "سدیگر، زمین را به هفتاد روز آفرید که از روز مهر، ماه تیر تا روز اَرد، ماه شهریور است. آن پنج روز را درنگ کرد تا روز اَنَغران. آن پنج روز گاهنبار و او را نام پدیشهه است. او را گزارش این که به پای رفتن آفریدگان را بر زمین پدید آورد.",
+      "source_sha256": "428156c888bb756d76239d5163611509da6809e2bb3225bc2b5812a520910fe7",
+      "target_sha256": "d96b98c226300433500471cbb6c7a848dc76c7bb04ce2e8f17e02b316bf58693",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:150000001",
+      "work_id": "parsig:150",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            37,
+            39
+          ]
+        }
+      ],
+      "source_text": "pursīd hašāgird ōšnar ī dānāg kū: ēk tā hazār har *mārīg-ē rāy *saxwan-ē pad-frahang be gōw.",
+      "target_text": "پرسید شاگرد [از]  اوشنر دانا که: [از] یک تا هزار، برای هر عدد، سخنی اندرزگونه  بگو.",
+      "source_sha256": "1a233a85172bbc889dd4242244504921e7cc79e0c3fcb9e52fc565b0e1b121eb",
+      "target_sha256": "c3dd8d7cfc193eb3fab575186baa59af0c4ffb19a5707a45c5a657266621f96e",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:150000028",
+      "work_id": "parsig:150",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            11,
+            13
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            53,
+            55
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            71,
+            73
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            92,
+            94
+          ]
+        },
+        {
+          "text": "tā",
+          "span": [
+            129,
+            131
+          ]
+        }
+      ],
+      "source_text": "čahār hēnd tā ō gāh rasēnd guftan nē abāyēd, xwarišn tā gugārēd ud zan tā mīrēd ud nēw mard tā az kārezār abāz āyēd ud bar zamīg tā ō hambār kunēd.",
+      "target_text": "چهار [چیز] هستند [که] تا به گاه رسند (= پیش از آنکه وقتش برسد)، نباید گفت [و داوری کرد]، خورش [و غذا] تا گُوارد [و هضم شود]، و زن تا بمیرد، و مرد دلیر تا از کارزار بازآید، و بَر [و حاصلِ] زمین تا به انبار کرده شود.",
+      "source_sha256": "7495ab98e038ff47bca6f7533f954a6c9aeab792ef9f8e72e49867b26572fb00",
+      "target_sha256": "26b6c13e144dc8762cbdb9402edae2bbb887e1711f4fa412aa5bd104f423adbf",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:150000053",
+      "work_id": "parsig:150",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "dard",
+          "span": [
+            88,
+            92
+          ]
+        }
+      ],
+      "source_text": "kē pad-xrad kāmēd būdan, gōw kū bowandag-menišn bāš; kē pad-xēm kāmēd būdan, gōw kū dil-dard bāš; kē pad-šnāyēnišn kāmēd būdan, gōw kū weh dōst bāš; kē pad ruwān dōst kāmēd būdan, gōw kū rād bāš; kē pad-sūdōmand kāmēd būdan, gōw kū afsōs ma kun; kē pad-xūb-gōwišn kāmēd būdan, gōw kū rāst-gōwišn bāš; kē wistāxīh abāg ruwān ī xwēš kāmēd kardan, gōw kū har kas dōst bāš xōg wad ma kun; kē pad-hubrahmag kāmēd būdan, gōw kū xūb-hammōzišn bāš.",
+      "target_text": "كسي را كه مي‌خواهد خردمند  باشد، بگو كه بزرگ‌منش باش؛ كسي را كه مي‌خواهد نيك‌خيم [و نيك‌سرشت] باشد، بگو كه دلدرد [و نیکخواه] باش؛  كسي را كه مي‌خواهد محترم  باشد، بگو كه دوستِ نيكي [و خوبي‌ها]  باش؛ كسي را كه مي‌خواهد با روانِ [خود] دوست باشد، بگو كه راد [و بخشنده] باش؛  كسي را كه مي‌خواهد سودمند باشد، بگو كه ريشخند مكن؛  كسي را كه مي‌خواهد نيك گفتار باشد، بگو كه راست گفتار باش؛ كسي را كه مي‌خواهد به روان خويش اعتماد كند، بگو كه با هر كس دوست باش [و] خُلق [خويش] بد مكن؛ كسي را كه مي‌خواهد نيك‌روش باشد، بگو كه نيك‌آموختار باش [و دانش نيك بياموز].",
+      "source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d",
+      "target_sha256": "a9875df83d7e3cbdca389a57c8d114ddd13cc71535e5b9b86519530d441bf447",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:107000001",
+      "work_id": "parsig:107",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "dard",
+          "span": [
+            4,
+            8
+          ]
+        }
+      ],
+      "source_text": "pad-dard ast kē xrad nē dārēd.",
+      "target_text": "دردمند است کسی که خرد ندارد.",
+      "source_sha256": "dec8d0ea9136b50e22af403cb44e14a57631f390773deb4d6b2469f4caa18cd5",
+      "target_sha256": "2b0d455da5de2611695dbf9992749f45b5e8e0d28360a09c3417fafb9013312a",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:119000004",
+      "work_id": "parsig:119",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            10,
+            12
+          ]
+        }
+      ],
+      "source_text": "az im-rōz tā fradāg weh šāyēd būdan dāng-ē sang.",
+      "target_text": "از امروزتا فردا بهتر ممکن است باشد، یک دانگ سنگ.",
+      "source_sha256": "6690733c179b7cd62ff0c3c4df0992a49866fa5d2d914357636b2a5d0c222b9e",
+      "target_sha256": "111b2a5cedccb659e7a511ee42cede3a1656e1e6f7eab518209da17786ca2035",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:101000002",
+      "work_id": "parsig:101",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            300,
+            302
+          ]
+        }
+      ],
+      "source_text": "be niger ka čand wad abgand ān druz pad ēn gēhān ka nēst wattar az ōy *andar gēhān. az amā be āyēd ān šāh wahrām ī warzāwand az dūdag [ī] kayān be āwarēm kēn ī tāzīgān čiyōn rōdstahm āwurd ē(w)-sad kēn ī syāwaxšān, mazgitīhā frōd hilēm, be nišānēm ātaxšān uzdēszārīhā be kanēm ud pāk kunēm az gēhān, tā wany šawēnd druz-wišūdagān az ēn gēhān.",
+      "target_text": "بنگر که چند (= چه اندازه) بد افکند (= بدی کرد) آن دروج بدین جهان، که نیست بدتر از او در جهان. از ما بیاید آن شاه بهرام ورجاوند از دوده کیان، [تا] بیاوریم کین تازیان، چونان‌که رستم آورد یک‌صد کین سیاوشان، مزگت‌ها (= مسجدها) فرو هلیم (=رها کنیم)، بنشانیم آتشان، بتکده‌ها را برکَنیم و پاک کنیم از جهان، تا نابود شوند دروج‌زادگان از این جهان.",
+      "source_sha256": "058e2ae2290bc7dd87e66a5a316e7fe9bcf0d5d33a2a623cf4f4006f358da952",
+      "target_sha256": "f978d714c0e940dc51fe9186271f01402884755f5c3c1597b0284cbae90bec2e",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:109000005",
+      "work_id": "parsig:109",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "apparēd",
+          "span": [
+            49,
+            56
+          ]
+        }
+      ],
+      "source_text": "pad bahr ī xwēš hunsand bēd ud bahr ī any kas ma apparēd.",
+      "target_text": "به بهره (و سهم) خویش[در زندگی] خرسند (= راضی) باشید و بهرۀ کس دیگر را مدزدید.",
+      "source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b",
+      "target_sha256": "37d619f8712b4963d0a31b28a1e7dae06ab57c7d6db4c00534fa369486d29596",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:109000008",
+      "work_id": "parsig:109",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            10,
+            12
+          ]
+        }
+      ],
+      "source_text": "wehān bāš tā garōdmānīg bawē.",
+      "target_text": "[از] بهان (= نیکان) باش تا گرودمانی (= بهشتی) باشی.",
+      "source_sha256": "e1f5a5b4120a9bca6df3378f3f9eeaefba9ae1ba4006aa0c94fb2e38f70511a4",
+      "target_sha256": "d18e181f9c669b445e3f7d39c5822f234505ca20135141239820ad8415a37acb",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:109000009",
+      "work_id": "parsig:109",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            13,
+            15
+          ]
+        }
+      ],
+      "source_text": "afsōs ma kun tā xwarrahōmand bawē čē nēkīh ud ǰuttarīh pad har gāh ud pad har kas šāyēd būdan.",
+      "target_text": "افسوس (= ریشخند، مسخره) مکن تا فرهمند (= باشکوه، خوشبخت) باشی، زیرا نیکی و بدی به هر گاه (= زمان/ مکان) و نسبت به هر کس شاید بودن.",
+      "source_sha256": "5da1cfd6bca11edd451c50d5f0b1e580183eaa607a41c6f7688d3ed5d28a8fa0",
+      "target_sha256": "9b54eb2f0ecd37fa210d22ca0993597fc4e7d45c6420c095a09dadbee7cdda1b",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:518000014",
+      "work_id": "parsig:518",
+      "family": "affliction_candidates",
+      "matches": [
+        {
+          "text": "dard",
+          "span": [
+            14,
+            18
+          ]
+        }
+      ],
+      "source_text": "u-m tanwār az dard bēšāzēnād /u-m az afrasāgīh padixšarāwend kunād",
+      "target_text": "تنم را از درد شفا دهد / و به دور از خواری بزرگم بدارد",
+      "source_sha256": "7c558598f0b0d7cd7f0ef363c8f9c85e9bd07ff7344b2b36397884d9cd3f5788",
+      "target_sha256": "05e971700569e87c24efe6d841a35daf2b182e672db13acd02777ee8a5aaf311",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:122000007",
+      "work_id": "parsig:122",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            54,
+            56
+          ]
+        }
+      ],
+      "source_text": "ud pas frēdōn ō war [ī] frazdān nīd ud pad-nihān dāšt tā *dahom paywand, ka az ān kanīg pus zād.",
+      "target_text": "و [او را] سپس فریدون به دریاچۀ فرزدان هدایت کرد و پنهان داشت تا پیوند (= نسل) دهم؛ هنگامی که از آن کنیز پسر زاده شد.",
+      "source_sha256": "c7f6116cb1d4a83fe6e2ee88cbe06b4ed2d9b4db6ee4aa7daa75c1eff3f922ff",
+      "target_sha256": "a280de7de3a8cd2105d8e22095af0a41d6f3a5533b8a8f6f59a63a05621d68bb",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:108000001",
+      "work_id": "parsig:108",
+      "family": "equal_or_homograph_candidates",
+      "matches": [
+        {
+          "text": "tā",
+          "span": [
+            12,
+            14
+          ]
+        }
+      ],
+      "source_text": "dānāgīh rāy tā nēst.",
+      "target_text": "دانایی را همتا نیست.",
+      "source_sha256": "54d88044d51087cf037b62d23f13584f5fc506d352f17ead8295a5e3e20362e0",
+      "target_sha256": "6b54340aacb51e9d3607a3d29b64bdfe64bb92c51d5c0ed845c8f419d33c090f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:509000008",
+      "work_id": "parsig:509",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appurd",
+          "span": [
+            154,
+            160
+          ]
+        }
+      ],
+      "source_text": "mānāg dar īg gōšān ō ōy merd, kē pad rāh ī bag raft abāg was ganz. pas dō gēg nazd gōš ēstād, pad gōwišn ī xwaš wīft, ō gyāg ī dūr nīd, u-š ōzad, ganz-iš appurd. dudī, mānāg ō kanīg ī huzihr, kē pad diz parzīd, ud merd ī wībāg, kē pad bun ī dēwār niwāg ī šīrēn frasrūd, dā ka hān kanīg az zarīg ba murd.",
+      "target_text": "دروازۀ گوشها، مانند آن مرد[ی] است که با گنج بسیار به راه امن می‌رفت. پس دو دزد او را به حرف گرفتند [و] با کلام خوش فریفتند، به جای دور هدایت کردند و او را کشتند [و] گنجش را غارت کردند. دیگر، مانند دختری زیبا است که در دژ[ی] محبوس بود و مردی فریفتار که پایین دیوار نوای شیرین می‌سرود، تا آن دختر از غم بمرد.",
+      "source_sha256": "ef256f2233ea6253068990449e12824db62742dac3b0f97d86ead235d6a28d43",
+      "target_sha256": "22011ac228d88a1651e5a103d9c3a7cb172127c5f62cf5e23df5f6170a8c7a7a",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    },
+    {
+      "record_id": "parsig:513000002",
+      "work_id": "parsig:513",
+      "family": "theft_candidates",
+      "matches": [
+        {
+          "text": "appar",
+          "span": [
+            87,
+            92
+          ]
+        }
+      ],
+      "source_text": "...ī dārēd, az awezmāh ud marzišn, ud dušmatīh dušxūftīh ud dušxwāštīh nihēnzād. ud az appar-iz ud zyān ud mastubarīh ud anāmurzīgīh dast hēb dārēd. ud ǰār-ǰār az zamīg ud āb ud ādur ud draxt ud urwar ud dad ud dām hēb parzīrēd, u-šān kamb hēb zanēd. čē ōyšān-iz az hān rōšnīh ud xwašan ī yazadān frazīwēnd. čeʾōn hān ardīkkar ud warzīgar merd ...",
+      "target_text": "... که دارد، از شهوت و جماع، و اندیشۀ بد، گفتار بد و کردار بد دوری کند. و نیز از غارت و زیان رساندن و ظلم و قساوت اجتناب کند. همواره از زمین و آب و آتش و درخت و گیاه و دد و دام بپرهیزد و کم آنها را بزند. چون آنان نیز از  آن روشنایی و درخشش ایزدان حیات دارند. مانند آن مرد جنگاور و برزگر...",
+      "source_sha256": "40f626037183cbca91aeeb7a97c06708e58235dce31933ac01059d5378089c29",
+      "target_sha256": "051b8795150153c73d2ff9717132a2f6d0a1c2c9f88b736c7b03c9cbb962bd4f",
+      "status": "SURFACE_CANDIDATE_ONLY_NOT_A_SENSE_LABEL"
+    }
+  ]
+}

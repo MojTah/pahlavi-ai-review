@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "controller_sha256": "340f8accac8b88239f65460f99dae80e3988a1e461b294fd58d38f6eec69778a",
+  "admission_cases": 7,
+  "expired_during_provider_reads_zero_post": "PASS",
+  "inventory_negative_cases": 10,
+  "small_only_selection": "PASS",
+  "one_post_and_relaunch_rejected": "PASS",
+  "ambiguous_known_job_cleanup": true,
+  "post_submit_record_failure_cleanup": true,
+  "stop_without_execution_exact_trial_only": true
+}

@@ -1,0 +1,48 @@
+{
+  "status": "LOCAL_BLIND_DEV96_PREPARED",
+  "contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "source_files_sha256": {
+    "benchmarks/pal-reference-v1/manifest.json": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+    "benchmarks/pal-reference-v1/PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "benchmarks/pal-reference-v1/benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "benchmarks/pal-reference-v1/holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62"
+  },
+  "conditions": {
+    "gemma280": {
+      "run_sha256": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca",
+      "predictions_sha256": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19",
+      "declared_status": "completed",
+      "identity_sha256": "c852e4d06997fecc4e3ba3e4e7bc826251b8f0ae0186385a3542888f81b2d059"
+    },
+    "qwen36_27b": {
+      "run_sha256": "622893723084e383b164ec9a55f14f07b5b3f36afcc6b4d802d35434ded4fd82",
+      "predictions_sha256": "2982d7f1b8922218f39cef6002e0a738e252ad17b8c8d799a2b9b213c5f2070a",
+      "declared_status": "completed",
+      "identity_sha256": "9faaf11f1ece34276b0e37742ad0ebefecb207a641f7809d66b688540e0e7066"
+    }
+  },
+  "reviewers": 2,
+  "outputs_per_reviewer": 96,
+  "expert_adjudicated": false,
+  "seeds": {
+    "A": 2026092703,
+    "B": 2026092704
+  },
+  "first_attempt_evidence": "Exact runner identity, ordered prefix, sequence/counters and explicit retry metadata checked; raw artifacts preserved.",
+  "preparer_sha256": "dbb601e9ec806b4c4fe69c0fb39f2261d8e978441cf0fbf0975918ed4197153e",
+  "files": {
+    "lead-only/raw/gemma280/run.json": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca",
+    "lead-only/raw/gemma280/predictions.jsonl": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19",
+    "lead-only/raw/qwen36_27b/run.json": "622893723084e383b164ec9a55f14f07b5b3f36afcc6b4d802d35434ded4fd82",
+    "lead-only/raw/qwen36_27b/predictions.jsonl": "2982d7f1b8922218f39cef6002e0a738e252ad17b8c8d799a2b9b213c5f2070a",
+    "reviewer-A/packet.jsonl": "08dbfc124a0ab3a761b216c850d3b3e0b6c170ee80c6676283c425447bedeff3",
+    "reviewer-A/INSTRUCTIONS.md": "2c74ce6888a2934703008ae41682361c0ed4371507b91c9ab33cc5632e15fc7f",
+    "reviewer-B/packet.jsonl": "75a0e869e28d7f1aef2f3c4503e2d3b31787b211dc52d8caa6025d9e0f920bad",
+    "reviewer-B/INSTRUCTIONS.md": "2c74ce6888a2934703008ae41682361c0ed4371507b91c9ab33cc5632e15fc7f",
+    "lead-only/mapping.jsonl": "310c1ebbdcfad7bad9ea2c22ad3807f2010c3efa53e3850f336da125f4957f0b"
+  }
+}

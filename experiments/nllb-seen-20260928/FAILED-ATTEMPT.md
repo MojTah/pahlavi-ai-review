@@ -1,0 +1,17 @@
+# First TRAIN20 diagnostic: numerical readiness failure retained
+
+28 September2026. Job `6aba43026b030d633f69c6bb`, run `7bc1eeee63a344b1bd08493080b42c77`, source commit `3675e36dfb75280443ff9f25b97e4f9f52848dfe`. Provider terminal state is **ERROR**, finished10:42:03.765UTC. All21 jobs were terminal at10:45:29UTC. This was a real failed attempt, not a completed experiment or translation result.
+
+The server verified all eight inference files (5,515,046,606bytes), exact tokenizer/input map, model configuration and tied embeddings. The first smallest readiness forward failed the native-versus-independent loss equality check. No scored likelihood call or generation began; all60 slots remain unattempted. The five small exported files and manifest were recovered with committed inventory and SHA checks. See [recovery](execution/recovery.json), [runtime](execution/recovered/seen/run.json), [trace](execution/recovered/driver.log), [terminal receipt](execution/terminal.json) and [validated missingness](failed-analysis/likelihood-analysis.json). No weights were downloaded to the laptop.
+
+Conservative elapsed time including scheduling is377.631243seconds, rounded to7minutes: estimated computeUSD0.291669 at the pinned rate. This is not a fresh invoice. Prelaunch authenticated billing showed12.12 credit and18.28 period usage with no recharge. No further paid call is admitted by those now-stale readings.
+
+## Matching local reproduction and bounded repair
+
+Root and critic independently reproduced a CUDA BF16 native-cross-entropy discrepancy on the RTX4060 using synthetic logits and no pretrained weights. For the critic's6x256215 case, native CE under autocast returned an FP32 scalar12.947916984558105, matching BF16-rounded per-token losses averaged inFP32. Explicit FP32 CE was12.933894157409668; independent FP32 log-softmax/gather was12.933893362681070; FP64 reference was12.933893249499508. CPU calibration passed, explaining why the earlier CPU-only model tests did not expose this boundary. The effect also occurs at vocabulary32 and does not depend on inference-mode or2D/3D layout. Four exact evidence files are preserved in `numerical-reproduction/`.
+
+The A100 failure did not record its raw values; this is a concrete matching mechanism, not a direct reconstruction of its exact discrepancy. The repair preserves raw native mean/dtype/difference, and calibrates the unchanged FP32 likelihood estimand against explicit FP32 CE outside autocast at the unchanged1e-5 absolute/relative tolerance. It does not relax the numerical tolerance, alter labels/model/generation, or convert a failed attempt into success. New regression checks run on actual CUDA, compare FP64, exercise padded tiny-model forwarding and reject a tampered reference.
+
+The original training runner already used explicit `F.cross_entropy(response.logits.float(), ...)` with explicit decoder inputs. This particular raw native-loss path does not implicate its training objective or invalidate prior semantic evaluations.
+
+One separately reviewed corrected readiness attempt is proposed in `precision-repair/`, with a fresh source identity, namespace, billing and package roundtrip. The first records/package remain untouched. Revised combined two-attempt allocationUSD1.25 covers0.291669 plus proposed0.875005; cumulative fundedUSD25 remains the hard cap. A second distinct real failure would invalidate the entire readiness decision; no automatic retry loop is enabled.

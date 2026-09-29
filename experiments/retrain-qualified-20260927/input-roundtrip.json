@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FULL_SHA256_ROUNDTRIP",
+  "utc": "2026-09-27T05:00:53.455070+00:00",
+  "bucket": "Mojionix/pahlavi-pilot",
+  "private": true,
+  "remote_path": "inputs/cloud-pilot-qualified-20260927.zip",
+  "bytes": 6372448,
+  "sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "xet_hash": "1ceffc0b2329346b1cee5362870fc4b64bef10d8eb2e71668b427e3b6a43ef00",
+  "contains_model_weights": false,
+  "submitted_job": false
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-28T17:41:50.530646+00:00",
+  "result": "PARTIAL_EXACT_BOOK_NOT_PUBLICLY_ACQUIRED_TWO_PRIMARY_PDFS_RECOVERED",
+  "research_started_utc": "2026-09-28T17:27:50+00:00",
+  "purpose": "Exact Nasrollahzadeh2019 volume1 access and additional authentic direct MP-Persian source material; no training admission",
+  "policy": {
+    "archive_helper": "scripts/collect_public_texts.py:Archive",
+    "per_file_bytes_strictly_below": 50000000,
+    "total_bytes_strictly_below": 150000000,
+    "max_new_downloaded_files": 10,
+    "on_403_or_429": "stop route",
+    "credentials_used": false,
+    "drive_access": false,
+    "purchases": false,
+    "model_or_paid_jobs": false
+  },
+  "archive_manifest": {
+    "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/manifest.json",
+    "sha256": "3bac937714513a68f6185c1ca6f82b9fe5db3336a9e9dcefc09ec0a894292c57"
+  },
+  "counts": {
+    "successful_raw_downloads": 6,
+    "pdfs": 2,
+    "raw_bytes": 19818174,
+    "newly_staged_passage_blocks": 2,
+    "independent_new_witnesses_relative_to_parsig219_metadata": 1,
+    "qualified_certain_gold_pairs": 0,
+    "training_admissions": 0
+  },
+  "acquired": [
+    {
+      "url": "https://journals.openedition.org/abstractairanica/53049",
+      "retrieved_utc": "2026-09-28T17:29:51.997982+00:00",
+      "final_url": "https://journals.openedition.org/abstractairanica/53049",
+      "content_type": "text/html; charset=UTF-8",
+      "charset": "utf-8",
+      "status": "ok",
+      "file": "raw/ec8248686d5f59cb841ff42d449ae228726f6635301b6664a2f6be76886bf378.source",
+      "sha256": "496c785b6d06c7541c593a5245f2d9e4febd856a30f0d229ec3c6164a8bde835",
+      "bytes": 103878,
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/ec8248686d5f59cb841ff42d449ae228726f6635301b6664a2f6be76886bf378.source"
+    },
+    {
+      "url": "https://nbsh.basu.ac.ir/article_5883.html?lang=en",
+      "retrieved_utc": "2026-09-28T17:29:52.665181+00:00",
+      "final_url": "https://nbsh.basu.ac.ir/article_5883.html?lang=en",
+      "content_type": "text/html; charset=UTF-8",
+      "charset": "utf-8",
+      "status": "ok",
+      "file": "raw/be9d220fa07136869db7a3689d705eaa96b399e8c87580f4befb9b0f1fc2cc3b.source",
+      "sha256": "6576dfc078f55bce08f269551cb4d1e62693355e0647778afb722a25e4eb490f",
+      "bytes": 104058,
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/be9d220fa07136869db7a3689d705eaa96b399e8c87580f4befb9b0f1fc2cc3b.source"
+    },
+    {
+      "url": "https://sites.uci.edu/sasanika/ka%E1%B9%87heri-caves/",
+      "retrieved_utc": "2026-09-28T17:29:55.329955+00:00",
+      "final_url": "https://sites.uci.edu/sasanika/ka%E1%B9%87heri-caves/",
+      "content_type": "text/html; charset=UTF-8",
+      "charset": "utf-8",
+      "status": "ok",
+      "file": "raw/26a4b2bf588ddc669a0e74d9d09f5a094a6452c4af2e9d0cf19023ca3f112cd9.source",
+      "sha256": "6cf02ca476adaa146454f6f3012beab7002a9600b6f29cd9d23d718b0a01cc31",
+      "bytes": 80858,
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/26a4b2bf588ddc669a0e74d9d09f5a094a6452c4af2e9d0cf19023ca3f112cd9.source"
+    },
+    {
+      "url": "https://nbsh.basu.ac.ir/article_5883_c1cdd433a18e3949d6e64b68564a7c0d.pdf?lang=en",
+      "retrieved_utc": "2026-09-28T17:30:22.543755+00:00",
+      "final_url": "https://nbsh.basu.ac.ir/article_5883_c1cdd433a18e3949d6e64b68564a7c0d.pdf?lang=en",
+      "content_type": "application/pdf",
+      "charset": null,
+      "status": "ok",
+      "file": "raw/e1d1d8636954d81f501786b8b8aaa4deba681344f87012a0d946aa0da7c2da7d.pdf",
+      "sha256": "486d88c21ef76f9fbfae64d8dd5474c73fd9fe56a0274c998cba0f1c2792d89b",
+      "bytes": 2558890,
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/e1d1d8636954d81f501786b8b8aaa4deba681344f87012a0d946aa0da7c2da7d.pdf",
+      "pdf_page_count": 30
+    },
+    {
+      "url": "https://sites.uci.edu/sasanika/files/2026/05/LSI_Volume-12_Issue-24_Pages-107-138.pdf",
+      "retrieved_utc": "2026-09-28T17:30:28.774131+00:00",
+      "final_url": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/c/347/files/2026/05/LSI_Volume-12_Issue-24_Pages-107-138.pdf",
+      "content_type": "application/pdf",
+      "charset": null,
+      "status": "ok",
+      "file": "raw/b385981ef422d96884dc19c958c274bf2e9efb0aefd923d83dbb71a2ae9fca1f.pdf",
+      "sha256": "720d3db41ea76865c65d4a6875f0c03bf785dcae1a37f20dd6365a6e1501800f",
+      "bytes": 16728232,
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/b385981ef422d96884dc19c958c274bf2e9efb0aefd923d83dbb71a2ae9fca1f.pdf",
+      "pdf_page_count": 33
+    },
+    {
+      "url": "https://taaghche.com/book/97482",
+      "retrieved_utc": "2026-09-28T17:36:06.369183+00:00",
+      "final_url": "https://taaghche.com/book/97482/%DA%A9%D8%AA%DB%8C%D8%A8%D9%87-%D9%87%D8%A7%DB%8C-%D8%AE%D8%B5%D9%88%D8%B5%DB%8C-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D9%85%DB%8C%D8%A7%D9%86%D9%87-%D8%B3%D8%A7%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D9%BE%D8%B3%D8%A7%D8%B3%D8%A7%D8%B3%D8%A7%D9%86%DB%8C%D8%9B-%D8%AC%D9%84%D8%AF-%D8%A7%D9%88%D9%84",
+      "content_type": "text/html; charset=utf-8",
+      "charset": "utf-8",
+      "status": "ok",
+      "file": "raw/03727ef92e5c0aa110ae426978b32d65d1c5e5e94160e8572e4745149c52ce5a.source",
+      "sha256": "acb069801b89431baea1b17c7ee4a7a659273e16c850ee0a837746e4c357f659",
+      "bytes": 242258,
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/03727ef92e5c0aa110ae426978b32d65d1c5e5e94160e8572e4745149c52ce5a.source"
+    }
+  ],
+  "readiness": [
+    {
+      "url": "https://nbsh.basu.ac.ir/article_5883_c1cdd433a18e3949d6e64b68564a7c0d.pdf?lang=en",
+      "method": "HEAD",
+      "status": 200,
+      "content_type": "application/pdf",
+      "content_length": null,
+      "action": "ordinary bounded GET through Archive with max_bytes49999999"
+    },
+    {
+      "url": "https://sites.uci.edu/sasanika/files/2026/05/LSI_Volume-12_Issue-24_Pages-107-138.pdf",
+      "method": "HEAD",
+      "status": 200,
+      "content_type": "application/pdf",
+      "content_length": 16728232,
+      "action": "ordinary bounded GET through Archive with max_bytes49999999"
+    }
+  ],
+  "blocked_or_failed": [
+    {
+      "url": "https://escholarship.org/content/qt7t41f8j6/qt7t41f8j6.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "error": "HTTP403 Forbidden",
+      "retrieval_window_utc": "2026-09-28T17:29:00Z/2026-09-28T17:30:00Z",
+      "action": "STOPPED_NO_RETRY_NO_BYPASS",
+      "local_file": null
+    },
+    {
+      "url": "https://ifriran.org/?p=3836",
+      "retrieved_utc": "2026-09-28T17:36:05.814998+00:00",
+      "status": "failed",
+      "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+    }
+  ],
+  "exact_book": {
+    "title_fa": "کتیبه‌های خصوصی فارسی میانه ساسانی و پساساسانی (گورنوشته، یادبودی)",
+    "author": "Cyrus Nasrollahzadeh",
+    "edition": "1398/2019",
+    "publisher": "Institute for Humanities and Cultural Studies",
+    "volume_required": 1,
+    "volume_scope": "Text; volume2 is Pictures",
+    "paid_listing_url": "https://taaghche.com/book/97482",
+    "listing_isbn": "9789644269967",
+    "listing_pages": 342,
+    "listing_format": "PDF",
+    "listing_mb": 9.6,
+    "scholarly_review_pages": "340+272",
+    "scholarly_review_isbn_for_two_volume_reference": "9789644269981",
+    "exact_pdf_or_print_contents_verified": false,
+    "status": "LEGITIMATE_PAID_ACCESS_ROUTE_IDENTIFIED_NO_PURCHASE_OR_EXPORT_CONFIRMED"
+  },
+  "local_overlap_checks": [
+    {
+      "path": "sources/local/parsig-2026-09-20/corpus/219.json",
+      "sha256": "12995afa45d7fa4f2fa5483e04457f410e1ea19c3c44ea54f29a506540eaba59",
+      "metadata_only": "Pasargadae1–4 records; not6"
+    },
+    {
+      "path": "sources/local/parsig-2026-09-20/corpus/201.json",
+      "sha256": "82a38812df84420c8a08dac98cf37bca7b58f8246717a532d36b626d84807a19",
+      "metadata_only": "Kanheri1,2,3,5,6; article is same workfamily, not independent newcontexts"
+    },
+    {
+      "path": "data/unified-corpus/build.py",
+      "sha256": "4ecdabac48e76f9e3c01b54397a086de32168741ac21dfdac1e64c87b9e26d28",
+      "metadata_only": "fixed16HOLDOUTset; no protected answers inspected"
+    }
+  ],
+  "validation": {
+    "all_raw_hashes_and_bytes": "PASS",
+    "pdf_magic_and_page_readability": "PASS",
+    "download_count_and_byte_caps": "PASS",
+    "candidate_ids_line_counts_hashes_and_uncertainty_retention": "PASS",
+    "source_target_visual_check": "ONE_AGENT_PERFORMED_INDEPENDENT_REVIEW_PENDING",
+    "semantic_or_specialist_certification": "NOT_CLAIMED",
+    "automatic_persian_translation": "NONE"
+  },
+  "outputs": [
+    {
+      "path": "experiments/data-qualification-20260928/NEW-SOURCES.md",
+      "sha256": "22c41427f66422a87c1889e7882912250489cebc2774e523ee89844f84ada764",
+      "bytes": 8097
+    },
+    {
+      "path": "experiments/data-qualification-20260928/pasargadae6-candidates.jsonl",
+      "sha256": "f17c0f3650860bbccc96f5e74bf3602354f55e77cd369c4c93a35935cbc14bea",
+      "bytes": 9672
+    }
+  ],
+  "inspection_artifacts": [
+    {
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/bulaghi-11.png",
+      "sha256": "1b0d805577850c532b3d03cfe0fd1a910a77f2418d881e60dc54c44baf43c427",
+      "bytes": 332283
+    },
+    {
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/bulaghi-15.png",
+      "sha256": "f8589a1b28610160fb6a2153e64c4ea4be28da76673939902e65250f8b48cff1",
+      "bytes": 281383
+    },
+    {
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/bulaghi-16.png",
+      "sha256": "706707a98b4829e29e63356f0bebdf51d352a0788bf90eae1b236607fe0da329",
+      "bytes": 260467
+    },
+    {
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/bulaghi-17.png",
+      "sha256": "977f7fd41d9c4e5a42fd0630e50c14c047eb85908f06fd58528104aab2b14285",
+      "bytes": 288383
+    },
+    {
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/bulaghi-pages11-20.png",
+      "sha256": "2a63365ed91bbf14d7ce2bd9ed7c881ba7c390bbfac488717f685f76aa29a3bd",
+      "bytes": 1340543
+    },
+    {
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/kanheri-01.png",
+      "sha256": "467b656e70fc3b116c8f3aa1a246e0db40192a5a8fb29033788d8b05806d2d91",
+      "bytes": 90107
+    },
+    {
+      "path": "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/kanheri-10.png",
+      "sha256": "7d5c25610990e20eca1a780ee5882e9e8ed5d3f1c32666856fb883d44c094797",
+      "bytes": 133824
+    }
+  ]
+}

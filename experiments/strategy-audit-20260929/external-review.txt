@@ -1,0 +1,200 @@
+Pahlavi AI Translation Project — Deep Review
+
+Reviewer: Antigravity (Claude Opus 4.6) Date: 29 September 2026 Files inspected: 25+ files across cloud_pilot/, experiments/, benchmarks/, sources/, output/, and root docs.
+
+Executive Summary
+
+You're trying to teach AI to translate Middle Persian (Pahlavi) — a dead language with ~2,237 usable training pairs — and you've built one of the most rigorous evaluation pipelines I've ever seen. The problem is: you've built a perfect measuring instrument for a system that fundamentally cannot work yet, and each time you measure, you get a precise reading of failure.
+
+Your training data is too small, too concentrated, and too noisy for the approach you're using. Your evaluation is too strict for the stage you're at. And you're spending real money on cloud GPU experiments that are doomed by the data constraints, not by the model or the training recipe.
+
+1. WHY TRAINING MORE DOESN'T HELP — Root Cause Analysis
+The Core Problem: 2,237 Pairs Is Not Enough
+
+This is the elephant in the room that every report carefully documents but never confronts directly.
+
+Fact	Evidence
+Total qualified training pairs	2,237 (bundle.py line 27: "retained_rows": 2237)
+One work (ID 150) supplies ~49% of rows	REPORT.md of strategy, line 11
+Total source whitespace terms	37,492 — across all pairs
+Supervised target tokens	~83,243 (train-recall REPORT, line 36)
+PAL-REF benchmark: 5 works, 40 passages	Only 5 works represented
+DEV set: 4 works, 24 cases	Only 4 works represented
+
+For comparison, the Kalamang study that inspired the NLLB proposal used 1,239 pairs... but Kalamang→English achieved only chrF++ 28.6, and that was with a language that has a living speaker community for validation. You have a dead language with no living speaker to verify anything.
+
+The math is cruel: 2,237 pairs covering 76 works means ~29 pairs per work on average. One work has 1,099 rows. Many works have single-digit representation. The model cannot learn "Pahlavi translation" from this — it can only memorize patterns from the dominant work and guess at everything else.
+
+The Loss Weighting Problem (Real but Not the Main Issue)
+
+I identified this in my first review: contextual_train.py uses HuggingFace's default mean reduction with batch size 1. This means:
+
+A contextual target of 5 tokens → each token gets 1/5 = 0.2 weight
+A full translation of 100 tokens → each token gets 1/100 = 0.01 weight
+The contextual tokens exert 20× more gradient pressure per token
+
+This is documented honestly in PILOT.md line 21: "Candidate/control token totals differ: 108694/110050 sequence tokens and 28365/30085 supervised tokens." The project knows the token counts differ but treats it as part of the intervention rather than as a confound.
+
+However, this is NOT the main reason you're stuck. Even the ordinary-training control got 0/15 whole acceptances. The loss-weighting only affects the contextual arm.
+
+The Real Bottleneck: Teacher Forcing vs. Free Generation
+
+Your train-fit experiment is the smoking gun:
+
+Condition	Correct source NLL	Mismatched source NLL
+Base model (no adapter)	4.299	8.785
+Step-280 adapter	0.884	4.582
+
+The adapter reduces NLL from 4.3 to 0.88 on familiar passages — a massive improvement in teacher-forced likelihood. But in free generation (TRAIN recall), only 5/12 completed pairs were accepted. And on DEV (unseen passages), it's 0-1/15.
+
+This gap — great NLL, terrible free generation — is textbook exposure bias. During training, the model always sees the correct previous token. During generation, it sees its own previous output. One wrong token in generation cascades into hallucination. With only 2,237 training pairs, the model hasn't seen enough variety to recover from its own errors.
+
+What the Error Patterns Tell Us
+
+From train-recall REPORT line 28:
+
+"no equal" becoming "no limit", "being afflicted" becoming "pain itself", stealing becoming coveting, teaching becoming tasting, and altered participants, negations or exception boundaries
+
+These are semantic neighborhood errors — the model lands in the right semantic region but picks the wrong specific meaning. This is exactly what you'd expect from a model that has learned some Pahlavi vocabulary associations but hasn't seen enough diverse contexts to disambiguate.
+
+From dev-assisted REPORT line 22:
+
+All accepted whole translations occur in works 103 or 112; neither system receives a whole acceptance in works 138 or 517.
+
+The model only succeeds on 2 of 4 DEV works. It has learned work-specific patterns, not general Pahlavi translation.
+
+2. THE EVALUATION — Too Perfect for This Stage
+The Rubric Is Research-Grade, But You're Still in Prototype
+
+The PAL-REF protocol (PROTOCOL.md) defines 8 review categories: lexical meaning, grammatical roles, negation/modality, names, numbers/quantities, omissions, unsupported additions, and source uncertainty. A critical_error includes:
+
+"reversal of prohibition/obligation, material participant-role reversal, wrong essential name/quantity, or invented content that materially changes the instruction/event"
+
+This is exactly right for evaluating a finished translator. But for a prototype with 2,237 training pairs, it means that getting a single participant role wrong (e.g., "the king told the priest" vs "the priest told the king") marks the entire passage as a critical failure.
+
+The Screen Is Aggressive
+
+The improvement screen requires:
+
+≥2 net new acceptances per reviewer
+Gains across ≥2 works
+No increase in critical errors
+
+With a denominator of only 15 whole passages, you need to flip ~13% of cases from failure to success without breaking anything else. Given the small training set and the strictness of the rubric, this is a very high bar for incremental improvements.
+
+AI Reviewers Have Correlated Biases
+
+Both reviewers are AI. The project acknowledges this ("Agreement between two agents from the same AI family is not independent specialist certification"), but then relies entirely on these correlated reviews for every decision. When Reviewer A and B agree on 0/15 acceptances, that could be two independent signals... or one shared blind spot applied twice.
+
+3. CODE QUALITY — Actually Excellent
+
+I want to be clear: the engineering in this project is outstanding.
+
+contextual_train.py: Every single guard is well-thought-out. Exact adapter restoration (line 83-96), RNG determinism verification across arms (line 146-148), gradient sanity checks (line 190-194), buffer integrity (line 142-143, 230). This is better than most published research code.
+
+runtime.py: The provenance system (SHA-256 chains, bundle verification, holdout enforcement) is production-grade. The GPU admission checks (line 192-205) are thorough.
+
+bundle.py: The holdout leakage prevention is serious — training rows are mechanically checked against benchmark works (line 206-208).
+
+score_audit.py: The independent arithmetic reconstruction is a genuine integrity check, not theater.
+
+The code isn't the problem. The problem is what the code operates on.
+
+4. THE NLLB PROPOSAL — My Honest Assessment
+
+The strategy report proposes training NLLB-200-distilled-1.3B as a challenger. Let me be direct:
+
+Why It Might Help (A Little)
+NLLB was pretrained for translation across 200 languages, giving it structural priors for the translation task that Gemma (a general instruction model) lacks
+1.3B parameters is much smaller than 31B — easier to adapt, less tendency to overfit the instruction format
+The Kalamang precedent showed competitive results with similarly small data
+Why It Probably Won't Solve the Problem
+
+The 512-token limit is a dealbreaker. NLLB was trained with 512-token sequences. Pahlavi scholarly transcription + Persian translation will routinely exceed this. You'll either truncate (losing context) or need architectural surgery.
+
+Pahlavi is not in NLLB's vocabulary. The tokenizer will fracture Pahlavi transcription into subword pieces with no semantic meaning. "xwarrah" (divine fortune) might become x, war, rah — tokens that carry English/multilingual noise, not Pahlavi meaning.
+
+2,237 pairs is still 2,237 pairs. NLLB doesn't magically create more training data. The Kalamang study's chrF++ of 28.6 is... not great. And they had native speakers to validate.
+
+The $3 budget is knife-edge. One failed attempt or unexpected setup cost could exhaust it.
+
+The Honest Probability
+
+With current resources, I estimate:
+
+~15% chance NLLB passes the improvement screen on DEV
+~5% chance it meaningfully outperforms Gemma on PAL-REF
+~0% chance of reaching "satisfactory translator" with any single model on 2,237 pairs
+5. WHAT I WOULD ACTUALLY DO — Ranked by Impact
+Step 0: Accept the Data Ceiling (Cost: $0)
+
+No model, architecture, or training recipe will produce a reliable Pahlavi translator from 2,237 noisy pairs. Every experiment so far confirms this. The project needs more data or a fundamentally different approach, not another model comparison.
+
+Step 1: Build a Dictionary-Augmented Pipeline (Cost: $0 — local only)
+
+Instead of end-to-end neural translation, build a multi-step pipeline:
+
+Lexical lookup: Map each Pahlavi word/phrase to candidate Persian meanings using the existing glossary, Nyberg's dictionary, and the Parsig annotations
+Structural assembly: Use the grammar rules you've already studied (kb/grammar.md) to order and connect the candidates
+Neural polish: Use a Persian language model (locally, on laptop) to select the most fluent combination
+
+This is how human translators of dead languages actually work. They don't read a passage and output a translation — they look up each word, consider the grammar, and compose. Your model is being asked to do something that even human scholars can't do without a dictionary.
+
+Why this might work: You've already done the linguistic study. You have 4,507 transcription units, 4,445 Farsi translation fields, a 45-entry glossary, 16 contextual dictionary entries, and access to Nyberg's dictionary (295 pages). This is more useful as structured lookup data than as end-to-end training pairs.
+
+Step 2: Expand the Training Data (Cost: Time, not money)
+
+Your parsig-text-coverage.json shows 4,507 units with transcription and 4,445 with Farsi translation. But only 2,237 qualified pairs made it to training. That means ~2,200 pairs were rejected or not processed. Before spending another dollar on GPU:
+
+Audit why each rejected pair was excluded
+Determine how many can be rehabilitated with light editing
+Process the English (916 units) and French (843 units) translations as additional supervision signals — even if the primary target is Persian, multilingual supervision from related translations can help
+Step 3: Use Gemma/Claude/GPT as a Dictionary, Not a Translator
+
+Instead of training a model to translate end-to-end, use a large language model (which you already have access to — you're talking to one right now) as an interactive translation assistant:
+
+Feed it the source passage + your glossary + grammar notes + similar passages from the training data
+Ask it to produce a word-by-word analysis first, then compose
+Have the AI explain its reasoning for each choice
+
+This is retrieval-augmented generation (RAG) for translation, and it's especially suited for low-resource dead languages where the "retrieval" part (dictionary + grammar) is more reliable than the "generation" part.
+
+Step 4: If You Must Do Another GPU Experiment
+
+If you're determined to run NLLB, do the tokenizer viability check first (free, local):
+
+python
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-1.3B")
+# Load your 2,237 qualified pairs and check lengths
+over_512 = sum(1 for pair in pairs 
+               if len(tokenizer(pair['text'] + pair['target'])['input_ids']) > 512)
+print(f"{over_512}/{len(pairs)} pairs exceed 512 tokens ({100*over_512/len(pairs):.1f}%)")
+
+If >10% of pairs exceed 512 tokens, the NLLB experiment is not viable without modification.
+
+6. WHAT REQUIRES A PAHLAVI SPECIALIST
+
+CAUTION
+
+Without specialist involvement, this project cannot advance beyond provisional AI assessment. Every "accepted" translation is accepted by AI reviewers who cannot read Pahlavi.
+
+Gold standard validation: Are the 2,237 training pairs actually correct? The qualification status is PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED.
+Error diagnosis: When the model outputs "no limit" instead of "no equal", is the reference correct? Is the model's answer actually wrong, or is it an acceptable alternative?
+Benchmark calibration: Are the PAL-REF passages representative? They emphasize "counsel, religion and calendrical/mythic narrative" — is that the same register as the training data?
+Vocabulary disambiguation: Many Pahlavi words are inherently ambiguous due to the writing system. A specialist needs to identify which "errors" are genuine model failures vs. legitimate reading alternatives.
+Summary Table
+Finding	Severity	Evidence
+Training data too small (2,237 pairs) for end-to-end neural translation	Critical	All experiments show 0-1/15 DEV acceptance
+Data concentration: 1 work = 49% of rows	High	Strategy REPORT line 11
+Exposure bias: good NLL (0.88) but bad free generation (5/12 recall)	High	train-fit and train-recall reports
+Evaluation too strict for prototype stage	Medium	0/15 acceptance with 8-category rubric
+Loss weighting confound in contextual pilot	Medium	contextual_train.py line 238, batch=1
+NLLB 512-token limit may block adaptation	Medium	Strategy REPORT line 51
+AI reviewers have correlated biases	Medium	Both from same model family
+No Pahlavi specialist involved	Critical	All data is expert_adjudicated: false
+Code quality and integrity	Excellent	Thorough SHA-256 chains, determinism checks
+Budget ($13.70 remaining)	Tight	One more experiment at most
+Bottom Line
+
+You've built an A+ evaluation harness around a problem that needs more data, not more models. The next dollar should go toward expanding and validating the training corpus, not toward another GPU experiment. And the single most valuable thing you could do — more valuable than any model or dataset — is get a Pahlavi scholar to review 50 of your training pairs and tell you how many are actually correct.

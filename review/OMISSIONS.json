@@ -1,0 +1,397 @@
+{
+  "scope": "Named tracked omissions and all17 canonical data payloads; raw source families additionally remain private",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 113,
+      "sha256": "196f3f4c0f84d6a49cf102119172f458ecd2d1f6e35f2716d64638bb09dcb13e",
+      "reason": "Working-project ignores differ from public snapshot scope"
+    },
+    {
+      "path": "cloud_pilot/CLOUD_STATE_20260926.md",
+      "bytes": 79662,
+      "sha256": "7fe17bf5f90a302dbba86a3351e80c4947531e363420e6ea516d09a3132bd1ca",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/contextual-supervision-20260927/attempt-2/post-stop-billing.json",
+      "bytes": 454,
+      "sha256": "cb16e12d6376cf5a09ed68b524a51e5eb1a8195dd8b4b407a75704e4de2a20d4",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/contextual-supervision-20260927/contextual-pilot-bb3795d9a499.zip",
+      "bytes": 34600,
+      "sha256": "bb3795d9a49927f333e8f565fc1b961c35d7069d9848a9649421ddf233243563",
+      "reason": "Binary/source archive; review text and provenance retained separately"
+    },
+    {
+      "path": "experiments/contextual-supervision-20260927/post-failure-billing.json",
+      "bytes": 379,
+      "sha256": "899543622a434e4ce2a82b897d2baab4d5685e7d1a46104afc1a01ce9ba99a02",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/data-qualification-20260928/archive-alignment.jsonl",
+      "bytes": 904007,
+      "sha256": "051b4644ef0a4613f48232b9149398242a953f19726f36670919b10eb320019c",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/data-qualification-20260928/mmp-review.json",
+      "bytes": 1469987,
+      "sha256": "dc3728781a28591d592eb696dec3f96723b9daea267ba2eb2c3e0a58de0d33f8",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/data-qualification-20260928/s22-glossary-a.jsonl",
+      "bytes": 1944641,
+      "sha256": "6934b41a518a7a6dd5657c7d1528a2f20ce9f54104c6385a5f4c1f3da13d0c81",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/data-qualification-20260928/s22-glossary-b.jsonl",
+      "bytes": 1002378,
+      "sha256": "1d8df08632fc008a5fe440531bdfc5f957a8ad33c3889a06e7cae038be413b47",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/data-qualification-20260928/s22-grammar-remainder.jsonl",
+      "bytes": 375667,
+      "sha256": "bff686f19ced6d9a17099b5169911a40f9c9430b74d77f03c52b6887b1acea1f",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/dataset-expansion-20260928/archive-candidates.jsonl",
+      "bytes": 1192573,
+      "sha256": "fe2e80cbb323b2072c673fb0e715dba8d100f670bad9fbaf975b4b3b2ddba48d",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "bytes": 23161,
+      "sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/dataset-expansion-20260928/s22-supplement.jsonl",
+      "bytes": 239257,
+      "sha256": "a328fe6b7075c58e3e27125f26d90d1ad5c3a17bb0c2aa8e9c17d412aa72ec78",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/grounded-supervision-20260927/inventory.json",
+      "bytes": 8532867,
+      "sha256": "5eead36cf1b422da43779759faa795d611a5a955322521e6f737babb2cac2d7c",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/kosh-acquisition-20260928/antigravity-dispatch.json",
+      "bytes": 1456,
+      "sha256": "8825a41bc77e3edd9923c3a4da2567ba1c8611b15d1f3c7c57f11315db32c37d",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nllb-seen-20260928/precision-repair/execution/billing-after.json",
+      "bytes": 531,
+      "sha256": "6719684779c35c4e163e13cbb11650edf5c0581e5a8b6222081bf92ed560eab3",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/published-annotation-access-20260927/authorized-detail-receipt.json",
+      "bytes": 1018,
+      "sha256": "79f1190cbc76ae5f4a9e20e30e1f99a529548e10146800d963b22e30d083fdad",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/published-annotation-access-20260927/authorized-detail.json",
+      "bytes": 441,
+      "sha256": "0b9ab104751acc25a1214a0fb298ba4b495d2c899e02987496a4188f286d6f23",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/published-annotation-access-20260927/authorized-index-receipt.json",
+      "bytes": 913,
+      "sha256": "f1389f153c018ed5eb8837bd65090288e45926f84d70b29982a93a663e231e3a",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/published-annotation-access-20260927/authorized-index.json",
+      "bytes": 1405,
+      "sha256": "c2a74a216d3f0f84fdbbb62852a49795d02b71563eb03b54fc07b0906e75883e",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/train-audit-20260927/corpus-audit-v1/ledger.jsonl",
+      "bytes": 6706746,
+      "sha256": "07a09420ddd3c22413138cf7f1dc681fdde557a6399a58933a19f7cb2687b032",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/corpus-audit-v1/review-candidates.jsonl",
+      "bytes": 4080488,
+      "sha256": "5e452689abc5535a57a975b83385c86339232faca94aacd0238a39891cba299a",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/corpus-audit-v2/ledger.jsonl",
+      "bytes": 6704969,
+      "sha256": "d0fd897ad6d0b650023d31426468d4351b519a8c03077dcb2d192f3109db8baa",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/corpus-audit-v2/review-candidates.jsonl",
+      "bytes": 4064858,
+      "sha256": "bc84bf31510cae3ff197c8d27806f8a3a8c9e78105db07e480d6790a4d63d158",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-01/packet.jsonl",
+      "bytes": 300311,
+      "sha256": "48823d29e709fc7b8ed70bdb2575a2770c8334ecc2d86892a79872243a9c6fe3",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-01/reviews.jsonl",
+      "bytes": 181595,
+      "sha256": "5c369f3d423d6a4c0728e5d8c3933f31048c2bcf53c041fb4eb912a69d7ee297",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-02/packet.jsonl",
+      "bytes": 314911,
+      "sha256": "98d26e61a333bbadefe010d82f6b7eaff5113bd121e462134e775d017e03c1d2",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-02/reviews.jsonl",
+      "bytes": 189876,
+      "sha256": "e1988ee2397143433754ae6671a44a3ed337c08a632130f308a4aa94cecaf8a7",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-03/packet.jsonl",
+      "bytes": 353983,
+      "sha256": "b3b6720ff9dbcf9e81b3fb2b67fb6296f38c7af257551ee36fc1ef1a7e837c0b",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-03/reviews.jsonl",
+      "bytes": 177915,
+      "sha256": "52286a0fce2977bb7fc601193ea2002bc3452944c4b49d151ab16aec8f4e5bc6",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-04/packet.jsonl",
+      "bytes": 248357,
+      "sha256": "b8efea418b0f132eeb6893201e22d5c6422c323a85772e8252e1e593ed3a7f29",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-04/reviews.jsonl",
+      "bytes": 180092,
+      "sha256": "1e9aee2dd7f1186d3243156ab85b197b5cbfccb080f0c7fe6a07b21582ce3acb",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-05/packet.jsonl",
+      "bytes": 232238,
+      "sha256": "a389f1fbd28eb1f8a5466085dd0b23a3232149f2a6f899650ae3ac6ab0df5496",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-05/reviews.jsonl",
+      "bytes": 176982,
+      "sha256": "f29bd077ecefbb2b701f287b5bc1e32eb00c5184deb8c90d365eb82330e706dd",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-06/packet.jsonl",
+      "bytes": 224199,
+      "sha256": "ebd71122ac4054cd2c94081747463fb902a1baa78854c0e92344799fe2af34e7",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-06/reviews.jsonl",
+      "bytes": 161892,
+      "sha256": "8a2ee45039c91a3545eb5ac9d4263ddf121e1f0766260d37bf720bc9ce190d11",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-07/packet.jsonl",
+      "bytes": 319284,
+      "sha256": "5a99d699f727dda95c8d5b2096f876cfbbf4be08775e9584a495c6e07bc0fa37",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-07/reviews.jsonl",
+      "bytes": 183593,
+      "sha256": "ac4a196890c311ce794bf06fa8f22a2241a1871b4cb8989eb1157b1cc784a894",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-08/packet.jsonl",
+      "bytes": 355679,
+      "sha256": "faf0eb2e737e49093eeb1a9a9b25e7db598d43f649e5deed36a9a25e58f60c70",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-08/reviews.jsonl",
+      "bytes": 196337,
+      "sha256": "1a2ed85aaf2104f0e7a8c02bec5456af8fe842f860c935e48add61e6c1c2527e",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl",
+      "bytes": 8623699,
+      "sha256": "d79af2e64fbb92954c8b8d0ed9cb7a34e7e7d24d4c22ea9c22f1da6d569a8e77",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-audit-20260927/qualified-v1/train.jsonl",
+      "bytes": 5401884,
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+      "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
+    },
+    {
+      "path": "experiments/train-fit-20260927/billing-after.json",
+      "bytes": 490,
+      "sha256": "fe947af631476843a821d2667e5ad29e0f18d280133e926a931bf211478e0e40",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/train-recall-20260927/billing-after.json",
+      "bytes": 691,
+      "sha256": "66ab651b649ed2949335608a0c968fd418fce6dd40b22a42c3d3d660c67b0b5e",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "output/pdf/pahlavi-resources-professor-20260926.pdf",
+      "bytes": 183626,
+      "sha256": "3acce55a2f02d8c9c938701daae2d5a327dcb58565b77d0f5f5179cbe462f213",
+      "reason": "Binary/source archive; review text and provenance retained separately"
+    },
+    {
+      "path": "output/pdf/pahlavi-sources-and-data.pdf",
+      "bytes": 75530,
+      "sha256": "2b6ff1b24843bd2c78976948205c2246ea951dd4eeed276d1dfde6c23cb078a7",
+      "reason": "Binary/source archive; review text and provenance retained separately"
+    },
+    {
+      "path": "output/pdf/pahlavi-texts-and-translations.pdf",
+      "bytes": 77492,
+      "sha256": "640557c87344e6c21fea6845c56ceb1492aa2c68d7d0017d626ab6f9afae020e",
+      "reason": "Binary/source archive; review text and provenance retained separately"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/documentary-en.jsonl",
+      "bytes": 79224,
+      "sha256": "d604e2b66e8c38de18b5e0675fbc9a58f739efd6c845d3cf0a3661542796924b",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/duplicate-groups.jsonl",
+      "bytes": 13498,
+      "sha256": "d62951c5adf43a652e4c39a28ca2356925901b4722da9115bf72cc0cd22be0d4",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/edition-spans-en.jsonl",
+      "bytes": 5060,
+      "sha256": "62bed1c4712b464326c82e2dc0e7bb2cdbd754a88a23471ef7208d05a1ca2bf1",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/excluded.jsonl",
+      "bytes": 310672,
+      "sha256": "8bd3aad462b9e9dd7802337acbd15f94b2d4edd3bf3115972749b9ce0a58abf0",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/historical-control-fa.jsonl",
+      "bytes": 5401884,
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/inscription-fa.jsonl",
+      "bytes": 7258,
+      "sha256": "c56c346750d23910a96ab6be3dab6f1bfc153bfa9286c5517581fa8dbe6de6cc",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/lexical-en.jsonl",
+      "bytes": 5106904,
+      "sha256": "4d8c2489eca369d0d11a3364f5844cb5440d32eb53777c4ad138f5aff16c0f48",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/lexical-fa.jsonl",
+      "bytes": 2195313,
+      "sha256": "7979a688dc73a67f646920a668fbdeed6d1e21eb3f10f3810a59de9c427290fe",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/lexical-mmp-en.jsonl",
+      "bytes": 1465646,
+      "sha256": "8411819339113f16ba45dab1c67ce8a044cb6ec5df3d589e912772ba207ff2aa",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/data-qualification-20260928/ready-v1/pedagogy-fa.jsonl",
+      "bytes": 287645,
+      "sha256": "d96d95610ac354222029d30ae0252425df57859ab8f23bfd14d68a6b71a8edd6",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/census.json",
+      "bytes": 52067,
+      "sha256": "ebda721f77db1c60377d75cd3e9d578aebeb749a244c386d2ac96e896427b6fe",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/duplicates.jsonl",
+      "bytes": 164,
+      "sha256": "f7309ce15a59c272b3cec7c0b840bbc19c2f3ba870b144575376925c74f834dc",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/exclusions.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/learning-projections.jsonl",
+      "bytes": 3784715,
+      "sha256": "cca1cbdd84b8afc6e4d7cc28629e4fafeb2e10b501994709c53936f047f60bef",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/pool.jsonl",
+      "bytes": 18796392,
+      "sha256": "e0c4a7ca6eeda6b498b3c8345c73b517c841019af2fc3c88350f131e730d80ed",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/row-audit.jsonl",
+      "bytes": 4873559,
+      "sha256": "0bb3c5b4e8dbfa998768989fa00508f6b329f2f95eeadaf2ee47db18f62d9fb6",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    },
+    {
+      "path": "resources/local/mixed-supervision-20260929/data/train.jsonl",
+      "bytes": 3546782,
+      "sha256": "c32a7f21639c34107fd4a86c1c8dae3a8815b40c8107ff8c3075e0167535dc4a",
+      "reason": "Exact complete learning data supplied only in local private companion"
+    }
+  ],
+  "raw_sources": "sources/local and ignored scientific resources: local companion inventory",
+  "always_excluded": [
+    "model weights",
+    "credentials",
+    "installed dependencies",
+    "test replication trees",
+    "Git metadata"
+  ]
+}

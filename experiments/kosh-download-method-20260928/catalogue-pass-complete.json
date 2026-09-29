@@ -1,0 +1,731 @@
+{
+  "scope": "RAW DOWNLOADS; NOT TRAINING ADMITTED",
+  "baseline_snapshot": "intake-snapshot-10497.json",
+  "catalogue": {
+    "archive": "kosh-catalogue-20260928",
+    "receipt": {
+      "url": "https://kosh.uni-koeln.de/mpcd",
+      "retrieved_utc": "2026-09-28T13:53:17.444154+00:00",
+      "final_url": "https://kosh.uni-koeln.de/mpcd/",
+      "content_type": "application/json",
+      "charset": null,
+      "status": "ok",
+      "file": "raw/9c02a929451b66a27a5f385a02ba6fc6fabf8b3b12946a98d629c9b48613ce97.source",
+      "sha256": "c57a017039bbee01dd55f8617c0302a99e012c471468c1bcfe259f140874bf8d",
+      "bytes": 13461
+    }
+  },
+  "awn_gap": {
+    "collection": "awn",
+    "archive": "kosh-id-gap-20260928",
+    "receipt": {
+      "url": "https://kosh.uni-koeln.de/mpcd/awn/restful/ids?ids=190",
+      "retrieved_utc": "2026-09-28T14:01:20.295421+00:00",
+      "previous_attempt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/awn/restful/ids?ids=190",
+        "retrieved_utc": "2026-09-28T13:54:42.802226+00:00",
+        "status": "failed",
+        "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      },
+      "final_url": "https://kosh.uni-koeln.de/mpcd/awn/restful/ids?ids=190",
+      "content_type": "application/json",
+      "charset": null,
+      "status": "ok",
+      "file": "raw/84fbfc26c0787a6e5c3aceaccbd6b799559e409ef49154336db5bf12f6e5af63.source",
+      "sha256": "075c167af7aeae73de9ddbc7ede9f2e3810b0b2be348065c174f0d4be6875e4f",
+      "bytes": 221
+    },
+    "data_key": "ids",
+    "candidate_reason": "Only absent ID in observed 1..367 sequence; catalogue reports 367 entries",
+    "entries": 1,
+    "unique_ids": 1,
+    "with_xml": 1,
+    "fields": [
+      "citation",
+      "created",
+      "id",
+      "sense",
+      "xml"
+    ],
+    "status": "CAPPED",
+    "xml_errors_for_quarantine": []
+  },
+  "code_sha256": "2432905ba236f3803af02cc65e8937e8082effee65e12b048049e9f23e51050d",
+  "collections": {
+    "cpd": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=3104",
+        "retrieved_utc": "2026-09-28T14:02:14.087569+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=3104",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+        "sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4",
+        "bytes": 1243176
+      },
+      "catalogue_entries": 3103,
+      "entries": 3103,
+      "unique_ids": 3103,
+      "with_xml": 3103,
+      "fields": [
+        "created",
+        "gram",
+        "id",
+        "sense",
+        "trc",
+        "trl",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [
+        {
+          "id": "8a25cd9aab91d28e0ee26362420a038d79c28d90",
+          "error": "not well-formed (invalid token): line 1, column 194"
+        },
+        {
+          "id": "18e5fce7abcc6ac96b157109ffd59b462a3a1e65",
+          "error": "junk after document element: line 1, column 230"
+        }
+      ],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "cpd_de": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/cpd_de/restful/entries?field=trc&query=%2A&query_type=wildcard&size=4590",
+        "retrieved_utc": "2026-09-28T14:05:23.443916+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/cpd_de/restful/entries?field=trc&query=%2A&query_type=wildcard&size=4590",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/8e1100adb247da0dd8b3d8c2115450fbc8332e10d46a84c5ae09a48db36d3911.source",
+        "sha256": "59e6982a90e7c3661c7a8add849c86dbe6269f208011f1111c7de0758e76196c",
+        "bytes": 1807494
+      },
+      "catalogue_entries": 4589,
+      "entries": 4589,
+      "unique_ids": 4589,
+      "with_xml": 4589,
+      "fields": [
+        "attest",
+        "comment",
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "dmx": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/dmx/restful/entries?field=trc&query=%2A&query_type=wildcard&size=1040",
+        "retrieved_utc": "2026-09-28T14:05:53.439868+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/dmx/restful/entries?field=trc&query=%2A&query_type=wildcard&size=1040",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/dc60f921ee75d244c473585f90fa389a3ddccd7f86ccd8dc82b3bfcaa84277af.source",
+        "sha256": "cdf3c7b663a746560b1b5e582d4c1c485d0d575dc5b1414147e7fea12ea15314",
+        "bytes": 282949
+      },
+      "catalogue_entries": 1039,
+      "entries": 1039,
+      "unique_ids": 1039,
+      "with_xml": 1039,
+      "fields": [
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "gbd": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798",
+        "retrieved_utc": "2026-09-28T14:06:23.449409+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "bytes": 180090
+      },
+      "catalogue_entries": 797,
+      "entries": 797,
+      "unique_ids": 797,
+      "with_xml": 797,
+      "fields": [
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "hkr": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/hkr/restful/entries?field=trc&query=%2A&query_type=wildcard&size=540",
+        "retrieved_utc": "2026-09-28T14:06:53.460539+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/hkr/restful/entries?field=trc&query=%2A&query_type=wildcard&size=540",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/6e476855ef755d024363cbf020b3c3fa132da49020da8b29c0206773c78145cc.source",
+        "sha256": "6f2d4bf9aff41f1c2c7b8f7d2f96f6e668680f076b2cdb8c72e55ab809b8d8da",
+        "bytes": 161193
+      },
+      "catalogue_entries": 539,
+      "entries": 539,
+      "unique_ids": 539,
+      "with_xml": 539,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "hn": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/hn/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2315",
+        "retrieved_utc": "2026-09-28T14:07:23.450631+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/hn/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2315",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/e00bd69894e01d3f2405b609291771037863d6b0a567c46154d58d7f269bb251.source",
+        "sha256": "aa5595e13f1cd821515ce820225c4ce641e5d0abf1de1606b648733bd39ca2c4",
+        "bytes": 1088254
+      },
+      "catalogue_entries": 2314,
+      "entries": 2314,
+      "unique_ids": 2314,
+      "with_xml": 2314,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "pos",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "lfv": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/lfv/restful/entries?field=trc&query=%2A&query_type=wildcard&size=1714",
+        "retrieved_utc": "2026-09-28T14:07:53.458335+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/lfv/restful/entries?field=trc&query=%2A&query_type=wildcard&size=1714",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/2ec34554208f1632f7c09840e35b47d2ac379d2fd2a4c44489010a9ded109666.source",
+        "sha256": "85ed32a350b1cfe9ae9da6d7fe08418e2605b0b920fa2354bb6417a588abd8e2",
+        "bytes": 1443911
+      },
+      "catalogue_entries": 1713,
+      "entries": 1713,
+      "unique_ids": 1713,
+      "with_xml": 1713,
+      "fields": [
+        "attest",
+        "created",
+        "gramm",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "mmp": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/mmp/restful/entries?field=trc&query=%2A&query_type=wildcard&size=5838",
+        "retrieved_utc": "2026-09-28T14:08:23.464065+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/mmp/restful/entries?field=trc&query=%2A&query_type=wildcard&size=5838",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/a8816e37bd27e354727314c3bb71df69edf182a8b385e7fe6b9ba5887ddeca5c.source",
+        "sha256": "996ead7147232d4b2e23187cc236049ca991876f2043ddcd8a7998d8ae5a9d46",
+        "bytes": 4798148
+      },
+      "catalogue_entries": 5837,
+      "entries": 4990,
+      "unique_ids": 4990,
+      "with_xml": 4990,
+      "fields": [
+        "attest",
+        "created",
+        "gramm",
+        "id",
+        "lang",
+        "see",
+        "sense",
+        "trc",
+        "trl",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": false
+    },
+    "mpcd_term_tech": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/mpcd_term_tech/restful/entries?field=trc&query=%2A&query_type=wildcard&size=1667",
+        "retrieved_utc": "2026-09-28T14:08:53.471980+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/mpcd_term_tech/restful/entries?field=trc&query=%2A&query_type=wildcard&size=1667",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/69cdf94d013f62cb9535c75e46ed149fb122023feaec103cd9a00f3d28448f49.source",
+        "sha256": "29975d392b5bc4309793ce5d96c8f683459ad11f339c83e0554e9c5f09a0e5f9",
+        "bytes": 1020357
+      },
+      "catalogue_entries": 1666,
+      "entries": 1666,
+      "unique_ids": 1666,
+      "with_xml": 1666,
+      "fields": [
+        "category",
+        "created",
+        "definition",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "mz": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/mz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=162",
+        "retrieved_utc": "2026-09-28T14:09:23.480551+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/mz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=162",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/ebc37ce6df26b693b68a2ee901b31012256afbf01042aa180716a9d0c95da552.source",
+        "sha256": "7c2833bf5ea6e153ff402a3a10cb2453768c6a27e164d89c49f234e1e0350af9",
+        "bytes": 68076
+      },
+      "catalogue_entries": 161,
+      "entries": 161,
+      "unique_ids": 161,
+      "with_xml": 161,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "trl",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "nmp": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/nmp/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2925",
+        "retrieved_utc": "2026-09-28T14:09:53.490886+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/nmp/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2925",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/9b418b12d754d9f1a023ac624eeb70f93b44aa3f4e845dccbb846b31ff7eb1e1.source",
+        "sha256": "a14d47fbd8bc80a1dde413093a6a3f7c6c17d5a9c5b7f7a268af2de370faa7da",
+        "bytes": 2382271
+      },
+      "catalogue_entries": 2924,
+      "entries": 2924,
+      "unique_ids": 2924,
+      "with_xml": 2924,
+      "fields": [
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "trl",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "pahlrivdd": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/pahlrivdd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=381",
+        "retrieved_utc": "2026-09-28T14:10:23.488888+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/pahlrivdd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=381",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/ab9a5228e955b8d5eaf88dce9270f25b99d90b23a073ab87052630986549a2b4.source",
+        "sha256": "1e0388808e816be727939038d27f077141a71ce2f8cec43f4b0266211ce6c69c",
+        "bytes": 160996
+      },
+      "catalogue_entries": 380,
+      "entries": 380,
+      "unique_ids": 380,
+      "with_xml": 380,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "pos",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "ps": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/ps/restful/entries?field=trc&query=%2A&query_type=wildcard&size=481",
+        "retrieved_utc": "2026-09-28T14:10:53.492611+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/ps/restful/entries?field=trc&query=%2A&query_type=wildcard&size=481",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/788af9fc8025b2aa8a3c307255333ab7e8809ff8ddea27213ac35f8136706fd9.source",
+        "sha256": "34ef302222917a352ca079d557cf4bbb0bf6e730968185176cae0af9e737dc9b",
+        "bytes": 192328
+      },
+      "catalogue_entries": 480,
+      "entries": 480,
+      "unique_ids": 480,
+      "with_xml": 480,
+      "fields": [
+        "comment",
+        "created",
+        "id",
+        "pos",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "pyv": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/pyv/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2952",
+        "retrieved_utc": "2026-09-28T14:11:23.489201+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/pyv/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2952",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/30947d0988c9b71fd60f41cc767611a1917a2166ca49b52c08024dc207cc12d2.source",
+        "sha256": "001b394ae710cd3edbf684e0c5b2875795306446b2ac9d4a46a77986cce89519",
+        "bytes": 1747532
+      },
+      "catalogue_entries": 2951,
+      "entries": 2945,
+      "unique_ids": 2945,
+      "with_xml": 2945,
+      "fields": [
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": false
+    },
+    "raf": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/raf/restful/entries?field=trc&query=%2A&query_type=wildcard&size=286",
+        "retrieved_utc": "2026-09-28T14:11:53.481950+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/raf/restful/entries?field=trc&query=%2A&query_type=wildcard&size=286",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/a6cc78e618ab7fff053bd49c85b998ea6dda5d72d8de0a884b514533e05072f8.source",
+        "sha256": "461ec664394f89e5d47de48d6854d56098dc76ae321b145a7cecaeff2ed23573",
+        "bytes": 119295
+      },
+      "catalogue_entries": 285,
+      "entries": 285,
+      "unique_ids": 285,
+      "with_xml": 285,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "trl",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "sgw": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/sgw/restful/entries?field=trc&query=%2A&query_type=wildcard&size=417",
+        "retrieved_utc": "2026-09-28T14:12:23.506586+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/sgw/restful/entries?field=trc&query=%2A&query_type=wildcard&size=417",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/4cad02b4f6ab1ff5c74606fd9d23c0c48d21755cb6e5684228d73edf8b98debb.source",
+        "sha256": "2b3c732b6ac34b8a98f1724abf92ee1a808807c97f09455b7c462e9b820a0ab4",
+        "bytes": 128781
+      },
+      "catalogue_entries": 416,
+      "entries": 416,
+      "unique_ids": 416,
+      "with_xml": 416,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "sns": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/sns/restful/entries?field=trc&query=%2A&query_type=wildcard&size=326",
+        "retrieved_utc": "2026-09-28T14:21:30.547617+00:00",
+        "previous_attempt": {
+          "url": "https://kosh.uni-koeln.de/mpcd/sns/restful/entries?field=trc&query=%2A&query_type=wildcard&size=326",
+          "retrieved_utc": "2026-09-28T14:12:53.498080+00:00",
+          "status": "failed",
+          "error": "TimeoutError: The read operation timed out"
+        },
+        "final_url": "https://kosh.uni-koeln.de/mpcd/sns/restful/entries?field=trc&query=%2A&query_type=wildcard&size=326",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/70cd97401c1b8802bced33abc95870cb78b033d9d506e584d362407e26814c7c.source",
+        "sha256": "82dfa0b97f93316a23417abbc9d8765f01c3061734fbe863b86c29f37c018eb3",
+        "bytes": 82618
+      },
+      "catalogue_entries": 325,
+      "entries": 325,
+      "unique_ids": 325,
+      "with_xml": 325,
+      "fields": [
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "wdpw": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/wdpw/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2432",
+        "retrieved_utc": "2026-09-28T14:22:15.340658+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/wdpw/restful/entries?field=trc&query=%2A&query_type=wildcard&size=2432",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/9e8f83fc48d84d686d96d0b24a9a73cb0bb7a2c2e0c6fd60d28cf77f43b93b43.source",
+        "sha256": "c022f6325d9a020785656bd8470c32d9226c707aa8ab485286b3ebc3dfc8a3be",
+        "bytes": 1023572
+      },
+      "catalogue_entries": 2431,
+      "entries": 2431,
+      "unique_ids": 2431,
+      "with_xml": 2431,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "wmiar": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/wmiar/restful/entries?field=trc&query=%2A&query_type=wildcard&size=438",
+        "retrieved_utc": "2026-09-28T14:22:45.353295+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/wmiar/restful/entries?field=trc&query=%2A&query_type=wildcard&size=438",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/806ced113b6f777d2d69d46ce6860b676f52dc5543b46f8922e716beebe93733.source",
+        "sha256": "ce5f2a368dc159508bab4a898e9ce2945bfcacefe521999c78699424ecb8643e",
+        "bytes": 127068
+      },
+      "catalogue_entries": 437,
+      "entries": 437,
+      "unique_ids": 437,
+      "with_xml": 437,
+      "fields": [
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "wz": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/wz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=461",
+        "retrieved_utc": "2026-09-28T14:23:15.347296+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/wz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=461",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/79729afaeb7f1ea97a6feda1df1fe8164dca95cfd5f67495ad16a50d2f030749.source",
+        "sha256": "d5cfa680fc8ac56f9faccf8e3e44c3bc3c16c31a24ec602abbc46fccc7d47612",
+        "bytes": 128371
+      },
+      "catalogue_entries": 460,
+      "entries": 460,
+      "unique_ids": 460,
+      "with_xml": 460,
+      "fields": [
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    },
+    "yz": {
+      "archive": "kosh-catalogue-sized-20260928",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/yz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=142",
+        "retrieved_utc": "2026-09-28T14:23:45.346937+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/yz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=142",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/5d2823270bb73f729d854374286771356c97869e8e32796a26cf998316a41c6d.source",
+        "sha256": "2fbe2d35d9c68e0296234061f0b071d64e76f743895258d9e3d626192312b751",
+        "bytes": 50141
+      },
+      "catalogue_entries": 141,
+      "entries": 141,
+      "unique_ids": 141,
+      "with_xml": 141,
+      "fields": [
+        "attest",
+        "created",
+        "id",
+        "sense",
+        "trc",
+        "trl",
+        "xml"
+      ],
+      "status": "BELOW_CAP_UNVERIFIED",
+      "xml_errors_for_quarantine": [],
+      "missing_baseline_ids": [],
+      "changed_baseline_ids": [],
+      "matches_catalogue_count": true
+    }
+  },
+  "stop_reason": null
+}

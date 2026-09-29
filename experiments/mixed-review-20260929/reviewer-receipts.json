@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-29T11:17:29.344973+00:00",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "identities_hidden_until_both_reviews_complete": true,
+  "reviewers": {
+    "A": {
+      "agent_id": "/root/mixed_blind_a",
+      "sha256": "4cc118c247956bd42fb39651bbd01648392e0f1af6f48b8a3a34b65776251843",
+      "rows": 48,
+      "expert_adjudicated": false
+    },
+    "B": {
+      "agent_id": "/root/mixed_blind_b",
+      "sha256": "3b0d36eb13f8a0d64a05e9d903a5e1c454267e01106cb26f15a11f253f0c1554",
+      "rows": 48,
+      "expert_adjudicated": false
+    }
+  },
+  "root_schema_hash_exact_span_checks": "PASS; unchanged48row schema each"
+}

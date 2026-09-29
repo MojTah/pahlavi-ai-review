@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "academic-resources.json": "b35731c573bccc09b05667a067e7976a767d923235451dee65cdf80dae31753f",
+    "academic-resources.md": "0aa8a2d6ff43d6939c3cf5ff153e7db092e34d4840aed1256ac70f250566aac0",
+    "ancient-additional-records.json": "b21e9aae0e51bb88317e518c287d06dca22d63333aeefee222ee12c8f483eed6",
+    "berkeley-three-source-followup.md": "e1126eee885eeb8f490876335fe09b4b95372fb4ec7889d88c56f15b5e23c74c",
+    "build_registry.py": "91e5832499a6ffb559ae30adb199dbc99e877a283d432269ac727ba190ad996a",
+    "deep-ancient-methods.md": "ffaa444cfe006adc8a6331a8bd44015d6100ade8acacaba17e081c1d14d61884",
+    "deep-practical-evidence.md": "0e72ebe0df809617864d0d153d819b3829ccb4808d8d28d71f1025c63a0f91e0",
+    "deep-research-synthesis.md": "87916e335b1dda060ecbac94918d75cc892a91ef8be0e605a53c8f8ed213c903",
+    "deep-small-data-transfer.md": "f3601d0e307d5b2aa7e1743d54f2a45493da524baf9537b7f676b0d99b6c2050",
+    "deep-translation-model-audit.md": "a2cc9a78e849b17e430cd8ea388b9723d8b19d7bf568c1619015ece9e2dc14ab",
+    "evaluation-evidence.json": "509cc20f29767dc3fd3733f6fdae659a7c4b0df005215a1627ee25ac8ee5d762",
+    "evaluation-evidence.md": "bbae2a1331b2e9341162560c54556aba29acde4d1197fd16021366131414d331",
+    "EVIDENCE_INDEX.md": "f21cc53b4c9d93c1e21ff1f307c3c4f54d47dcbd564e8bad529bdc80f177a1f3",
+    "FOUNDATIONAL_RESEARCH_CHECKPOINT.md": "4712ed78d33ae7dac4033f590caa8c3aa1554c7f487ba3ca34cc439c87d48874",
+    "interdisciplinary-methods.json": "3a7f40708289a4488e1c10ff5d7622d7cf86a619bd4ddd3656518882b9f7148d",
+    "interdisciplinary-methods.md": "96498efcc0cf5fcb89f7310de4ad5dc5d08b5060a18d324035906e656614d416",
+    "methods-and-models.json": "7006b433ccd42595ea047ba8c171478b7a820775c5972660b8370ed92a3c79ad",
+    "philology-requirements.json": "f5e81ec752260f1abea688aee9399ee4117f8f0fd02230808b23b4172c42e141",
+    "philology-requirements.md": "546f98f15999da668e456e0417e1585c42e2a87845bc328f467e080b8b3cc64d",
+    "research-checkpoint-plan.md": "ae501588e0ed2bd9e458310e5c1b9d1a36738dcbe85bb637c6ad2091173cbc95",
+    "research-database.json": "3cb1aaeca0e89e5e1239e6a31bb7e74ce683d48070357be83a602d061fd6ffd5",
+    "TRAINING_STRATEGIC_CONSULTATION.md": "7c7044fac303747f02c255374a4be5de3fe4e153d0da5716f15537e3b75e57de",
+    "translation-ai-handoff.md": "0e1d91d0c672143e97e073965d1b3e97e4b1500c397a1c3c1bbf263f68b75b51"
+  }
+}

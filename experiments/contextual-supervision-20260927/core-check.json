@@ -1,7 +1,7 @@
 {
   "observed_complete_utc": "2026-09-27T13:14:05.297651+00:00",
   "status": "PASS_LOCAL_COMPONENTS_ONLY",
-  "command": "& 'C:/Users/mojta/.venvs/codex-science/Scripts/python.exe' -B 'cloud_pilot/test_contextual_train.py' -v",
+  "command": "& '[USER_HOME]/.venvs/codex-science/Scripts/python.exe' -B 'cloud_pilot/test_contextual_train.py' -v",
   "exit_code": 0,
   "tests_passed": 9,
   "unittest_runtime_seconds": 4.191,

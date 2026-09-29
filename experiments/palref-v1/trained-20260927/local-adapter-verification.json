@@ -1,0 +1,30 @@
+{
+  "status": "source_identity_and_conversion_verified",
+  "cloud_manifest_sha256": "4e88826bf911ab22e85a6a0b4ecfae131591c6edecbc34fff687af9b57a57a01",
+  "step": 312,
+  "source_adapter_files": {
+    "training/adapter/README.md": {
+      "bytes": 5232,
+      "sha256": "83c5244a3d4daf2279789b272a40fe18243305e8393aa8a80d229aea6af4768a"
+    },
+    "training/adapter/adapter_config.json": {
+      "bytes": 1215,
+      "sha256": "e481bc2a4d4031ca070c3099133a85b22aa5406cb11b4503e3c1873fa0f1bbb5"
+    },
+    "training/adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "sha256": "e329333a79a30e82dfad7a751939afa71529800570fb6f8b0cfac78427ec2827"
+    }
+  },
+  "tensor_parity_report_sha256": "c7c78ad706a6d20ebdb65b2bb1cd3655c6638dd72ebce1db5ca5d892edb07c36",
+  "verifier_sha256": "6ca13f961c22e4d830f80df5eda5b4bb5c198e6c6696ea39a9fa079a1ce6e942",
+  "converted_gguf": {
+    "bytes": 489774304,
+    "sha256": "bc8ceb3b75aba9c868b1f83ae8509d15d7366f133a50e12d18e118f3496c3465"
+  },
+  "tensor_count": 820,
+  "element_count": 122429440,
+  "local_model_loaded": false,
+  "local_inference_verified": false,
+  "local_translation_quality_verified": false
+}

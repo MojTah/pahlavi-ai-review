@@ -1,0 +1,401 @@
+{"event": "admitted", "source_commit": "bb68d8055579621f6ca488bd7501a7408d2b884d", "spec_sha256": "77103fba497e3c3d1511b1e2b9902168267af0ae6bf6ee2ff590d28cc2631208", "run_id": "1ae0f16dae9c4dffa36d15a24345fded", "utc": "2026-09-27T05:25:27.578624+00:00"}
+{"event": "submitted", "job_id": "6ab8a8c66b030d633f698091", "url": "https://huggingface.co/jobs/Mojionix/6ab8a8c66b030d633f698091", "utc": "2026-09-27T05:25:28.322826+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "SCHEDULING", "elapsed_seconds": 7, "conservative_compute_usd": 7.7146, "utc": "2026-09-27T05:25:34.191735+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 33, "conservative_compute_usd": 7.7327, "utc": "2026-09-27T05:26:00.254048+00:00"}
+{"event": "progress", "line": "{\"stage\": \"bootstrap_complete\", \"utc\": \"2026-09-27T05:25:51.476011+00:00\"}", "utc": "2026-09-27T05:26:00.254498+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 97, "conservative_compute_usd": 7.7775, "utc": "2026-09-27T05:27:04.713080+00:00"}
+{"event": "progress", "line": "{\"stage\": \"base_download_started\", \"utc\": \"2026-09-27T05:26:15.562372+00:00\", \"command\": [\"/usr/bin/python\", \"-u\", \"/tmp/pahlavi-continuation-eeafv33l/bundle/fetch_base.py\", \"--out\", \"/tmp/pahlavi-continuation-eeafv33l/base\", \"--download\"]}", "utc": "2026-09-27T05:27:04.713742+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 123, "conservative_compute_usd": 7.7956, "utc": "2026-09-27T05:27:30.892684+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 155, "conservative_compute_usd": 7.8174, "utc": "2026-09-27T05:28:02.256989+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 181, "conservative_compute_usd": 7.8355, "utc": "2026-09-27T05:28:28.271275+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 207, "conservative_compute_usd": 7.8538, "utc": "2026-09-27T05:28:54.617058+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 233, "conservative_compute_usd": 7.8721, "utc": "2026-09-27T05:29:21.046360+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 269, "conservative_compute_usd": 7.897, "utc": "2026-09-27T05:29:56.851844+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 296, "conservative_compute_usd": 7.9153, "utc": "2026-09-27T05:30:23.168779+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 322, "conservative_compute_usd": 7.9335, "utc": "2026-09-27T05:30:49.400489+00:00"}
+{"event": "progress", "line": "{\"stage\": \"full_resume_started\", \"utc\": \"2026-09-27T05:30:33.603407+00:00\", \"command\": [\"/usr/bin/python\", \"-u\", \"/tmp/pahlavi-continuation-eeafv33l/bundle/runtime.py\", \"train\", \"--bundle\", \"/tmp/pahlavi-continuation-eeafv33l/bundle\", \"--contract\", \"/tmp/pahlavi-continuation-eeafv33l/bundle/contract.json\", \"--base\", \"/tmp/pahlavi-continuation-eeafv33l/base\", \"--output\", \"/tmp/pahlavi-continuation-eeafv33l/evidence/training\", \"--full\", \"--resume\", \"/tmp/pahlavi-continuation-eeafv33l/evidence/training/checkpoint-20\", \"--deadline-utc\", \"2026-09-27T07:38:32.209931+00:00\"]}", "utc": "2026-09-27T05:30:49.401505+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 348, "conservative_compute_usd": 7.9516, "utc": "2026-09-27T05:31:15.467683+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 374, "conservative_compute_usd": 7.9699, "utc": "2026-09-27T05:31:41.806832+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 400, "conservative_compute_usd": 7.988, "utc": "2026-09-27T05:32:07.834478+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 426, "conservative_compute_usd": 8.006, "utc": "2026-09-27T05:32:33.881600+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 452, "conservative_compute_usd": 8.0242, "utc": "2026-09-27T05:33:00.046989+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 487, "conservative_compute_usd": 8.0481, "utc": "2026-09-27T05:33:34.443244+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 517, "conservative_compute_usd": 8.0689, "utc": "2026-09-27T05:34:04.438618+00:00"}
+{"event": "progress", "line": "{'loss': '1.578', 'grad_norm': '2.135', 'learning_rate': '9.594e-05', 'epoch': '0.1502'}", "utc": "2026-09-27T05:34:04.439706+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 543, "conservative_compute_usd": 8.0871, "utc": "2026-09-27T05:34:30.533556+00:00"}
+{"event": "progress", "line": "{'loss': '1.411', 'grad_norm': '2.12', 'learning_rate': '9.52e-05', 'epoch': '0.1645'}", "utc": "2026-09-27T05:34:30.534311+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 569, "conservative_compute_usd": 8.1051, "utc": "2026-09-27T05:34:56.582264+00:00"}
+{"event": "progress", "line": "{'loss': '1.68', 'grad_norm': '2.48', 'learning_rate': '9.483e-05', 'epoch': '0.1717'}", "utc": "2026-09-27T05:34:56.582770+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 595, "conservative_compute_usd": 8.1234, "utc": "2026-09-27T05:35:22.879823+00:00"}
+{"event": "progress", "line": "{'loss': '1.577', 'grad_norm': '2.417', 'learning_rate': '9.41e-05', 'epoch': '0.186'}", "utc": "2026-09-27T05:35:22.881573+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 622, "conservative_compute_usd": 8.1417, "utc": "2026-09-27T05:35:49.211128+00:00"}
+{"event": "progress", "line": "{'loss': '1.684', 'grad_norm': '2.691', 'learning_rate': '9.373e-05', 'epoch': '0.1931'}", "utc": "2026-09-27T05:35:49.211128+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 650, "conservative_compute_usd": 8.1611, "utc": "2026-09-27T05:36:17.173117+00:00"}
+{"event": "progress", "line": "{'loss': '1.47', 'grad_norm': '2.416', 'learning_rate': '9.299e-05', 'epoch': '0.2074'}", "utc": "2026-09-27T05:36:17.174707+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 676, "conservative_compute_usd": 8.1793, "utc": "2026-09-27T05:36:43.349873+00:00"}
+{"event": "progress", "line": "{'loss': '1.45', 'grad_norm': '2.538', 'learning_rate': '9.262e-05', 'epoch': '0.2146'}", "utc": "2026-09-27T05:36:43.350874+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 704, "conservative_compute_usd": 8.1987, "utc": "2026-09-27T05:37:11.298094+00:00"}
+{"event": "progress", "line": "{'loss': '1.871', 'grad_norm': '2.692', 'learning_rate': '9.188e-05', 'epoch': '0.2289'}", "utc": "2026-09-27T05:37:11.299563+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 730, "conservative_compute_usd": 8.2169, "utc": "2026-09-27T05:37:37.558984+00:00"}
+{"event": "progress", "line": "{'loss': '1.544', 'grad_norm': '2.491', 'learning_rate': '9.151e-05', 'epoch': '0.236'}", "utc": "2026-09-27T05:37:37.558984+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 758, "conservative_compute_usd": 8.2361, "utc": "2026-09-27T05:38:05.104764+00:00"}
+{"event": "progress", "line": "{'loss': '1.865', 'grad_norm': '3.519', 'learning_rate': '9.077e-05', 'epoch': '0.2503'}", "utc": "2026-09-27T05:38:05.106142+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 784, "conservative_compute_usd": 8.2542, "utc": "2026-09-27T05:38:31.193245+00:00"}
+{"event": "progress", "line": "{'loss': '1.514', 'grad_norm': '2.31', 'learning_rate': '9.041e-05', 'epoch': '0.2575'}", "utc": "2026-09-27T05:38:31.193754+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 811, "conservative_compute_usd": 8.2734, "utc": "2026-09-27T05:38:58.898994+00:00"}
+{"event": "progress", "line": "{'loss': '1.623', 'grad_norm': '3.053', 'learning_rate': '8.967e-05', 'epoch': '0.2718'}", "utc": "2026-09-27T05:38:58.900011+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 838, "conservative_compute_usd": 8.2917, "utc": "2026-09-27T05:39:25.245444+00:00"}
+{"event": "progress", "line": "{'loss': '1.505', 'grad_norm': '2.588', 'learning_rate': '8.93e-05', 'epoch': '0.2789'}", "utc": "2026-09-27T05:39:25.246092+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 867, "conservative_compute_usd": 8.3118, "utc": "2026-09-27T05:39:54.174104+00:00"}
+{"event": "progress", "line": "{'loss': '1.889', 'grad_norm': '18.72', 'learning_rate': '8.856e-05', 'epoch': '0.2932'}", "utc": "2026-09-27T05:39:54.175105+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 893, "conservative_compute_usd": 8.3299, "utc": "2026-09-27T05:40:20.304513+00:00"}
+{"event": "progress", "line": "{'loss': '1.354', 'grad_norm': '2.726', 'learning_rate': '8.819e-05', 'epoch': '0.3004'}", "utc": "2026-09-27T05:40:20.305076+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 920, "conservative_compute_usd": 8.3491, "utc": "2026-09-27T05:40:47.850048+00:00"}
+{"event": "progress", "line": "{'loss': '1.757', 'grad_norm': '2.999', 'learning_rate': '8.745e-05', 'epoch': '0.3147'}", "utc": "2026-09-27T05:40:47.850560+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 946, "conservative_compute_usd": 8.3672, "utc": "2026-09-27T05:41:13.912908+00:00"}
+{"event": "progress", "line": "{'loss': '1.489', 'grad_norm': '3.655', 'learning_rate': '8.708e-05', 'epoch': '0.3219'}", "utc": "2026-09-27T05:41:13.914362+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 974, "conservative_compute_usd": 8.3864, "utc": "2026-09-27T05:41:41.611589+00:00"}
+{"event": "progress", "line": "{'loss': '1.439', 'grad_norm': '3.173', 'learning_rate': '8.635e-05', 'epoch': '0.3362'}", "utc": "2026-09-27T05:41:41.613303+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1000, "conservative_compute_usd": 8.4047, "utc": "2026-09-27T05:42:07.890460+00:00"}
+{"event": "progress", "line": "{'loss': '1.187', 'grad_norm': '2.622', 'learning_rate': '8.598e-05', 'epoch': '0.3433'}", "utc": "2026-09-27T05:42:07.890460+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1028, "conservative_compute_usd": 8.4239, "utc": "2026-09-27T05:42:35.549659+00:00"}
+{"event": "progress", "line": "{'loss': '1.507', 'grad_norm': '3.587', 'learning_rate': '8.524e-05', 'epoch': '0.3576'}", "utc": "2026-09-27T05:42:35.551370+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1054, "conservative_compute_usd": 8.4421, "utc": "2026-09-27T05:43:01.799494+00:00"}
+{"event": "progress", "line": "{'loss': '1.378', 'grad_norm': '5.048', 'learning_rate': '8.487e-05', 'epoch': '0.3648'}", "utc": "2026-09-27T05:43:01.801017+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1082, "conservative_compute_usd": 8.4617, "utc": "2026-09-27T05:43:30.077837+00:00"}
+{"event": "progress", "line": "{'loss': '1.737', 'grad_norm': '4.224', 'learning_rate': '8.413e-05', 'epoch': '0.3791'}", "utc": "2026-09-27T05:43:30.078857+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1109, "conservative_compute_usd": 8.4798, "utc": "2026-09-27T05:43:56.141076+00:00"}
+{"event": "progress", "line": "{'loss': '1.361', 'grad_norm': '3.578', 'learning_rate': '8.376e-05', 'epoch': '0.3862'}", "utc": "2026-09-27T05:43:56.141659+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1136, "conservative_compute_usd": 8.4988, "utc": "2026-09-27T05:44:23.504595+00:00"}
+{"event": "progress", "line": "{'loss': '1.367', 'grad_norm': '3.868', 'learning_rate': '8.303e-05', 'epoch': '0.4005'}", "utc": "2026-09-27T05:44:23.506332+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1162, "conservative_compute_usd": 8.5172, "utc": "2026-09-27T05:44:49.902810+00:00"}
+{"event": "progress", "line": "{'loss': '1.445', 'grad_norm': '9.865', 'learning_rate': '8.266e-05', 'epoch': '0.4077'}", "utc": "2026-09-27T05:44:49.903825+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1190, "conservative_compute_usd": 8.5362, "utc": "2026-09-27T05:45:17.346891+00:00"}
+{"event": "progress", "line": "{'loss': '1.531', 'grad_norm': '3.102', 'learning_rate': '8.192e-05', 'epoch': '0.422'}", "utc": "2026-09-27T05:45:17.348619+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1216, "conservative_compute_usd": 8.5544, "utc": "2026-09-27T05:45:43.510309+00:00"}
+{"event": "progress", "line": "{'loss': '1.409', 'grad_norm': '5.251', 'learning_rate': '8.155e-05', 'epoch': '0.4291'}", "utc": "2026-09-27T05:45:43.511467+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1246, "conservative_compute_usd": 8.5753, "utc": "2026-09-27T05:46:13.538802+00:00"}
+{"event": "progress", "line": "{'loss': '1.39', 'grad_norm': '8.051', 'learning_rate': '8.081e-05', 'epoch': '0.4435'}", "utc": "2026-09-27T05:46:13.539800+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1272, "conservative_compute_usd": 8.5935, "utc": "2026-09-27T05:46:39.770307+00:00"}
+{"event": "progress", "line": "{'loss': '1.302', 'grad_norm': '4.152', 'learning_rate': '8.044e-05', 'epoch': '0.4506'}", "utc": "2026-09-27T05:46:39.771305+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1300, "conservative_compute_usd": 8.6127, "utc": "2026-09-27T05:47:07.480782+00:00"}
+{"event": "progress", "line": "{'loss': '1.609', 'grad_norm': '5.099', 'learning_rate': '7.97e-05', 'epoch': '0.4649'}", "utc": "2026-09-27T05:47:07.481708+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1326, "conservative_compute_usd": 8.631, "utc": "2026-09-27T05:47:33.846756+00:00"}
+{"event": "progress", "line": "{'loss': '1.2', 'grad_norm': '2.867', 'learning_rate': '7.934e-05', 'epoch': '0.4721'}", "utc": "2026-09-27T05:47:33.848040+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1354, "conservative_compute_usd": 8.6502, "utc": "2026-09-27T05:48:01.520596+00:00"}
+{"event": "progress", "line": "{'loss': '1.302', 'grad_norm': '5.148', 'learning_rate': '7.86e-05', 'epoch': '0.4864'}", "utc": "2026-09-27T05:48:01.521543+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1380, "conservative_compute_usd": 8.6684, "utc": "2026-09-27T05:48:27.721201+00:00"}
+{"event": "progress", "line": "{'loss': '1.613', 'grad_norm': '3.834', 'learning_rate': '7.823e-05', 'epoch': '0.4935'}", "utc": "2026-09-27T05:48:27.723216+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1408, "conservative_compute_usd": 8.6879, "utc": "2026-09-27T05:48:55.718300+00:00"}
+{"event": "progress", "line": "{'loss': '1.134', 'grad_norm': '3.313', 'learning_rate': '7.749e-05', 'epoch': '0.5078'}", "utc": "2026-09-27T05:48:55.719663+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1434, "conservative_compute_usd": 8.706, "utc": "2026-09-27T05:49:21.864080+00:00"}
+{"event": "progress", "line": "{'loss': '1.292', 'grad_norm': '3.212', 'learning_rate': '7.712e-05', 'epoch': '0.515'}", "utc": "2026-09-27T05:49:21.865513+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1462, "conservative_compute_usd": 8.7254, "utc": "2026-09-27T05:49:49.778240+00:00"}
+{"event": "progress", "line": "{'loss': '1.462', 'grad_norm': '3.87', 'learning_rate': '7.638e-05', 'epoch': '0.5293'}", "utc": "2026-09-27T05:49:49.779255+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1488, "conservative_compute_usd": 8.7437, "utc": "2026-09-27T05:50:16.070758+00:00"}
+{"event": "progress", "line": "{'loss': '1.316', 'grad_norm': '4.039', 'learning_rate': '7.601e-05', 'epoch': '0.5364'}", "utc": "2026-09-27T05:50:16.071363+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1516, "conservative_compute_usd": 8.7629, "utc": "2026-09-27T05:50:43.703951+00:00"}
+{"event": "progress", "line": "{'loss': '1.285', 'grad_norm': '3.348', 'learning_rate': '7.528e-05', 'epoch': '0.5507'}", "utc": "2026-09-27T05:50:43.705607+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1542, "conservative_compute_usd": 8.781, "utc": "2026-09-27T05:51:09.879145+00:00"}
+{"event": "progress", "line": "{'loss': '1.476', 'grad_norm': '4.924', 'learning_rate': '7.491e-05', 'epoch': '0.5579'}", "utc": "2026-09-27T05:51:09.880051+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1570, "conservative_compute_usd": 8.8005, "utc": "2026-09-27T05:51:37.926386+00:00"}
+{"event": "progress", "line": "{'loss': '1.559', 'grad_norm': '4.595', 'learning_rate': '7.417e-05', 'epoch': '0.5722'}", "utc": "2026-09-27T05:51:37.926386+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1596, "conservative_compute_usd": 8.8187, "utc": "2026-09-27T05:52:04.056604+00:00"}
+{"event": "progress", "line": "{'loss': '1.483', 'grad_norm': '4.653', 'learning_rate': '7.38e-05', 'epoch': '0.5793'}", "utc": "2026-09-27T05:52:04.057604+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1626, "conservative_compute_usd": 8.839, "utc": "2026-09-27T05:52:33.334563+00:00"}
+{"event": "progress", "line": "{'loss': '1.279', 'grad_norm': '4.449', 'learning_rate': '7.306e-05', 'epoch': '0.5937'}", "utc": "2026-09-27T05:52:33.335571+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1652, "conservative_compute_usd": 8.8573, "utc": "2026-09-27T05:52:59.633653+00:00"}
+{"event": "progress", "line": "{'loss': '1.263', 'grad_norm': '5.694', 'learning_rate': '7.269e-05', 'epoch': '0.6008'}", "utc": "2026-09-27T05:52:59.635021+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1680, "conservative_compute_usd": 8.8764, "utc": "2026-09-27T05:53:27.128602+00:00"}
+{"event": "progress", "line": "{'loss': '1.412', 'grad_norm': '5.584', 'learning_rate': '7.196e-05', 'epoch': '0.6151'}", "utc": "2026-09-27T05:53:27.129722+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1706, "conservative_compute_usd": 8.8945, "utc": "2026-09-27T05:53:53.192230+00:00"}
+{"event": "progress", "line": "{'loss': '1.325', 'grad_norm': '4.13', 'learning_rate': '7.159e-05', 'epoch': '0.6223'}", "utc": "2026-09-27T05:53:53.194673+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1735, "conservative_compute_usd": 8.915, "utc": "2026-09-27T05:54:22.772299+00:00"}
+{"event": "progress", "line": "{'loss': '1.243', 'grad_norm': '7.272', 'learning_rate': '7.085e-05', 'epoch': '0.6366'}", "utc": "2026-09-27T05:54:22.773567+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1761, "conservative_compute_usd": 8.9332, "utc": "2026-09-27T05:54:48.918984+00:00"}
+{"event": "progress", "line": "{'loss': '1.243', 'grad_norm': '3.982', 'learning_rate': '7.048e-05', 'epoch': '0.6437'}", "utc": "2026-09-27T05:54:48.920997+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1793, "conservative_compute_usd": 8.955, "utc": "2026-09-27T05:55:20.378124+00:00"}
+{"event": "progress", "line": "{'loss': '1.188', 'grad_norm': '7.224', 'learning_rate': '6.974e-05', 'epoch': '0.658'}", "utc": "2026-09-27T05:55:20.378686+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1819, "conservative_compute_usd": 8.9732, "utc": "2026-09-27T05:55:46.625132+00:00"}
+{"event": "progress", "line": "{'loss': '1.345', 'grad_norm': '5.379', 'learning_rate': '6.937e-05', 'epoch': '0.6652'}", "utc": "2026-09-27T05:55:46.627270+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1845, "conservative_compute_usd": 8.9914, "utc": "2026-09-27T05:56:12.739512+00:00"}
+{"event": "progress", "line": "{'loss': '1.497', 'grad_norm': '3.665', 'learning_rate': '6.9e-05', 'epoch': '0.6723'}", "utc": "2026-09-27T05:56:12.740512+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1871, "conservative_compute_usd": 9.0096, "utc": "2026-09-27T05:56:38.983497+00:00"}
+{"event": "progress", "line": "{'loss': '1.24', 'grad_norm': '4.084', 'learning_rate': '6.827e-05', 'epoch': '0.6866'}", "utc": "2026-09-27T05:56:38.986563+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1898, "conservative_compute_usd": 9.028, "utc": "2026-09-27T05:57:05.498123+00:00"}
+{"event": "progress", "line": "{'loss': '1.184', 'grad_norm': '3.752', 'learning_rate': '6.79e-05', 'epoch': '0.6938'}", "utc": "2026-09-27T05:57:05.499298+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1927, "conservative_compute_usd": 9.048, "utc": "2026-09-27T05:57:34.294665+00:00"}
+{"event": "progress", "line": "{'loss': '1.174', 'grad_norm': '3.908', 'learning_rate': '6.716e-05', 'epoch': '0.7081'}", "utc": "2026-09-27T05:57:34.296149+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1953, "conservative_compute_usd": 9.0661, "utc": "2026-09-27T05:58:00.384797+00:00"}
+{"event": "progress", "line": "{'loss': '1.171', 'grad_norm': '3.345', 'learning_rate': '6.679e-05', 'epoch': '0.7152'}", "utc": "2026-09-27T05:58:00.386423+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 1979, "conservative_compute_usd": 9.0844, "utc": "2026-09-27T05:58:26.725260+00:00"}
+{"event": "progress", "line": "{'loss': '1.1', 'grad_norm': '2.963', 'learning_rate': '6.642e-05', 'epoch': '0.7224'}", "utc": "2026-09-27T05:58:26.726444+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2005, "conservative_compute_usd": 9.1027, "utc": "2026-09-27T05:58:52.984890+00:00"}
+{"event": "progress", "line": "{'loss': '1.03', 'grad_norm': '3.475', 'learning_rate': '6.568e-05', 'epoch': '0.7367'}", "utc": "2026-09-27T05:58:52.986407+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2032, "conservative_compute_usd": 9.1208, "utc": "2026-09-27T05:59:19.133042+00:00"}
+{"event": "progress", "line": "{'loss': '1.462', 'grad_norm': '5.189', 'learning_rate': '6.531e-05', 'epoch': '0.7439'}", "utc": "2026-09-27T05:59:19.135097+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2061, "conservative_compute_usd": 9.1413, "utc": "2026-09-27T05:59:48.576897+00:00"}
+{"event": "progress", "line": "{'loss': '1.022', 'grad_norm': '3.806', 'learning_rate': '6.458e-05', 'epoch': '0.7582'}", "utc": "2026-09-27T05:59:48.578911+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2087, "conservative_compute_usd": 9.1595, "utc": "2026-09-27T06:00:14.824802+00:00"}
+{"event": "progress", "line": "{'loss': '1.405', 'grad_norm': '4.534', 'learning_rate': '6.421e-05', 'epoch': '0.7653'}", "utc": "2026-09-27T06:00:14.825841+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2118, "conservative_compute_usd": 9.1805, "utc": "2026-09-27T06:00:45.103387+00:00"}
+{"event": "progress", "line": "{'loss': '1.326', 'grad_norm': '4.649', 'learning_rate': '6.347e-05', 'epoch': '0.7796'}", "utc": "2026-09-27T06:00:45.105580+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2144, "conservative_compute_usd": 9.1988, "utc": "2026-09-27T06:01:11.482576+00:00"}
+{"event": "progress", "line": "{'loss': '1.335', 'grad_norm': '4.558', 'learning_rate': '6.31e-05', 'epoch': '0.7868'}", "utc": "2026-09-27T06:01:11.483575+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2174, "conservative_compute_usd": 9.2196, "utc": "2026-09-27T06:01:41.328926+00:00"}
+{"event": "progress", "line": "{'loss': '1.008', 'grad_norm': '3.418', 'learning_rate': '6.236e-05', 'epoch': '0.8011'}", "utc": "2026-09-27T06:01:41.332100+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2200, "conservative_compute_usd": 9.2378, "utc": "2026-09-27T06:02:07.571756+00:00"}
+{"event": "progress", "line": "{'loss': '1.413', 'grad_norm': '4.798', 'learning_rate': '6.199e-05', 'epoch': '0.8082'}", "utc": "2026-09-27T06:02:07.574179+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2230, "conservative_compute_usd": 9.259, "utc": "2026-09-27T06:02:38.085054+00:00"}
+{"event": "progress", "line": "{'loss': '1.416', 'grad_norm': '6.09', 'learning_rate': '6.125e-05', 'epoch': '0.8225'}", "utc": "2026-09-27T06:02:38.086162+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2257, "conservative_compute_usd": 9.2772, "utc": "2026-09-27T06:03:04.281268+00:00"}
+{"event": "progress", "line": "{'loss': '1.152', 'grad_norm': '5.903', 'learning_rate': '6.089e-05', 'epoch': '0.8297'}", "utc": "2026-09-27T06:03:04.284283+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2287, "conservative_compute_usd": 9.2984, "utc": "2026-09-27T06:03:34.847843+00:00"}
+{"event": "progress", "line": "{'loss': '1.185', 'grad_norm': '3.809', 'learning_rate': '6.015e-05', 'epoch': '0.844'}", "utc": "2026-09-27T06:03:34.848442+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2314, "conservative_compute_usd": 9.3167, "utc": "2026-09-27T06:04:01.175756+00:00"}
+{"event": "progress", "line": "{'loss': '1.506', 'grad_norm': '4.18', 'learning_rate': '5.978e-05', 'epoch': '0.8511'}", "utc": "2026-09-27T06:04:01.178330+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2345, "conservative_compute_usd": 9.3387, "utc": "2026-09-27T06:04:32.903730+00:00"}
+{"event": "progress", "line": "{'loss': '1.086', 'grad_norm': '3.41', 'learning_rate': '5.904e-05', 'epoch': '0.8654'}", "utc": "2026-09-27T06:04:32.905658+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2372, "conservative_compute_usd": 9.3569, "utc": "2026-09-27T06:04:59.099657+00:00"}
+{"event": "progress", "line": "{'loss': '1.114', 'grad_norm': '3.575', 'learning_rate': '5.867e-05', 'epoch': '0.8726'}", "utc": "2026-09-27T06:04:59.102221+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2402, "conservative_compute_usd": 9.3779, "utc": "2026-09-27T06:05:29.264546+00:00"}
+{"event": "progress", "line": "{'loss': '1.251', 'grad_norm': '4.038', 'learning_rate': '5.793e-05', 'epoch': '0.8869'}", "utc": "2026-09-27T06:05:29.265742+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2428, "conservative_compute_usd": 9.396, "utc": "2026-09-27T06:05:55.398116+00:00"}
+{"event": "progress", "line": "{'loss': '1.067', 'grad_norm': '3.474', 'learning_rate': '5.756e-05', 'epoch': '0.8941'}", "utc": "2026-09-27T06:05:55.399801+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2459, "conservative_compute_usd": 9.4175, "utc": "2026-09-27T06:06:26.407325+00:00"}
+{"event": "progress", "line": "{'loss': '1.468', 'grad_norm': '4.488', 'learning_rate': '5.683e-05', 'epoch': '0.9084'}", "utc": "2026-09-27T06:06:26.409327+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2486, "conservative_compute_usd": 9.4364, "utc": "2026-09-27T06:06:53.603274+00:00"}
+{"event": "progress", "line": "{'loss': '1.387', 'grad_norm': '4.895', 'learning_rate': '5.646e-05', 'epoch': '0.9155'}", "utc": "2026-09-27T06:06:53.606020+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2516, "conservative_compute_usd": 9.457, "utc": "2026-09-27T06:07:23.299605+00:00"}
+{"event": "progress", "line": "{'loss': '1.019', 'grad_norm': '4.374', 'learning_rate': '5.572e-05', 'epoch': '0.9298'}", "utc": "2026-09-27T06:07:23.301715+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2542, "conservative_compute_usd": 9.4752, "utc": "2026-09-27T06:07:49.497841+00:00"}
+{"event": "progress", "line": "{'loss': '1.509', 'grad_norm': '4.452', 'learning_rate': '5.535e-05', 'epoch': '0.937'}", "utc": "2026-09-27T06:07:49.500415+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2572, "conservative_compute_usd": 9.4964, "utc": "2026-09-27T06:08:19.921979+00:00"}
+{"event": "progress", "line": "{'loss': '1.248', 'grad_norm': '4.872', 'learning_rate': '5.461e-05', 'epoch': '0.9513'}", "utc": "2026-09-27T06:08:19.923609+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2599, "conservative_compute_usd": 9.5146, "utc": "2026-09-27T06:08:46.204660+00:00"}
+{"event": "progress", "line": "{'loss': '1.236', 'grad_norm': '3.942', 'learning_rate': '5.424e-05', 'epoch': '0.9584'}", "utc": "2026-09-27T06:08:46.207404+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2629, "conservative_compute_usd": 9.536, "utc": "2026-09-27T06:09:16.996334+00:00"}
+{"event": "progress", "line": "{'loss': '1.361', 'grad_norm': '5.211', 'learning_rate': '5.351e-05', 'epoch': '0.9727'}", "utc": "2026-09-27T06:09:16.997582+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2656, "conservative_compute_usd": 9.5543, "utc": "2026-09-27T06:09:43.311826+00:00"}
+{"event": "progress", "line": "{'loss': '1.149', 'grad_norm': '4.164', 'learning_rate': '5.314e-05', 'epoch': '0.9799'}", "utc": "2026-09-27T06:09:43.315212+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2686, "conservative_compute_usd": 9.5754, "utc": "2026-09-27T06:10:13.690933+00:00"}
+{"event": "progress", "line": "{'loss': '1.217', 'grad_norm': '3.427', 'learning_rate': '5.24e-05', 'epoch': '0.9942'}", "utc": "2026-09-27T06:10:13.693521+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2712, "conservative_compute_usd": 9.5935, "utc": "2026-09-27T06:10:39.817325+00:00"}
+{"event": "progress", "line": "{'loss': '1.113', 'grad_norm': '6.134', 'learning_rate': '5.203e-05', 'epoch': '1'}", "utc": "2026-09-27T06:10:39.819340+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2741, "conservative_compute_usd": 9.6135, "utc": "2026-09-27T06:11:08.618222+00:00"}
+{"event": "progress", "line": "{'loss': '0.6479', 'grad_norm': '6.569', 'learning_rate': '5.129e-05', 'epoch': '1.014'}", "utc": "2026-09-27T06:11:08.620157+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2767, "conservative_compute_usd": 9.6317, "utc": "2026-09-27T06:11:34.795272+00:00"}
+{"event": "progress", "line": "{'loss': '0.6832', 'grad_norm': '5.608', 'learning_rate': '5.092e-05', 'epoch': '1.021'}", "utc": "2026-09-27T06:11:34.796486+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2798, "conservative_compute_usd": 9.6532, "utc": "2026-09-27T06:12:05.745007+00:00"}
+{"event": "progress", "line": "{'loss': '1.035', 'grad_norm': '3.338', 'learning_rate': '5.018e-05', 'epoch': '1.036'}", "utc": "2026-09-27T06:12:05.747809+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2825, "conservative_compute_usd": 9.6715, "utc": "2026-09-27T06:12:32.186135+00:00"}
+{"event": "progress", "line": "{'loss': '1.006', 'grad_norm': '3.31', 'learning_rate': '4.982e-05', 'epoch': '1.043'}", "utc": "2026-09-27T06:12:32.188268+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2855, "conservative_compute_usd": 9.6928, "utc": "2026-09-27T06:13:02.837971+00:00"}
+{"event": "progress", "line": "{'loss': '0.8613', 'grad_norm': '3.052', 'learning_rate': '4.908e-05', 'epoch': '1.057'}", "utc": "2026-09-27T06:13:02.839847+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2881, "conservative_compute_usd": 9.711, "utc": "2026-09-27T06:13:29.024264+00:00"}
+{"event": "progress", "line": "{'loss': '0.6724', 'grad_norm': '2.656', 'learning_rate': '4.871e-05', 'epoch': '1.064'}", "utc": "2026-09-27T06:13:29.025418+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2913, "conservative_compute_usd": 9.7328, "utc": "2026-09-27T06:14:00.342622+00:00"}
+{"event": "progress", "line": "{'loss': '0.8404', 'grad_norm': '3.231', 'learning_rate': '4.797e-05', 'epoch': '1.079'}", "utc": "2026-09-27T06:14:00.345951+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2939, "conservative_compute_usd": 9.7511, "utc": "2026-09-27T06:14:26.723754+00:00"}
+{"event": "progress", "line": "{'loss': '0.9032', 'grad_norm': '3.164', 'learning_rate': '4.76e-05', 'epoch': '1.086'}", "utc": "2026-09-27T06:14:26.725989+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2970, "conservative_compute_usd": 9.7724, "utc": "2026-09-27T06:14:57.349585+00:00"}
+{"event": "progress", "line": "{'loss': '1.015', 'grad_norm': '3.678', 'learning_rate': '4.686e-05', 'epoch': '1.1'}", "utc": "2026-09-27T06:14:57.357657+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 2996, "conservative_compute_usd": 9.7906, "utc": "2026-09-27T06:15:23.686592+00:00"}
+{"event": "progress", "line": "{'loss': '0.6587', 'grad_norm': '3.4', 'learning_rate': '4.649e-05', 'epoch': '1.107'}", "utc": "2026-09-27T06:15:23.688623+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3027, "conservative_compute_usd": 9.812, "utc": "2026-09-27T06:15:54.442735+00:00"}
+{"event": "progress", "line": "{'loss': '0.6545', 'grad_norm': '4.089', 'learning_rate': '4.576e-05', 'epoch': '1.122'}", "utc": "2026-09-27T06:15:54.445825+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3053, "conservative_compute_usd": 9.8303, "utc": "2026-09-27T06:16:20.739477+00:00"}
+{"event": "progress", "line": "{'loss': '0.8899', 'grad_norm': '3.45', 'learning_rate': '4.539e-05', 'epoch': '1.129'}", "utc": "2026-09-27T06:16:20.742211+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3080, "conservative_compute_usd": 9.8486, "utc": "2026-09-27T06:16:47.120721+00:00"}
+{"event": "progress", "line": "{'loss': '0.7827', 'grad_norm': '3.333', 'learning_rate': '4.502e-05', 'epoch': '1.136'}", "utc": "2026-09-27T06:16:47.123739+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3110, "conservative_compute_usd": 9.8697, "utc": "2026-09-27T06:17:17.495196+00:00"}
+{"event": "progress", "line": "{'loss': '0.8296', 'grad_norm': '4.224', 'learning_rate': '4.428e-05', 'epoch': '1.15'}", "utc": "2026-09-27T06:17:17.495196+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3136, "conservative_compute_usd": 9.8879, "utc": "2026-09-27T06:17:43.762424+00:00"}
+{"event": "progress", "line": "{'loss': '0.9155', 'grad_norm': '4.681', 'learning_rate': '4.391e-05', 'epoch': '1.157'}", "utc": "2026-09-27T06:17:43.767250+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3167, "conservative_compute_usd": 9.9093, "utc": "2026-09-27T06:18:14.556411+00:00"}
+{"event": "progress", "line": "{'loss': '0.9263', 'grad_norm': '3.773', 'learning_rate': '4.317e-05', 'epoch': '1.172'}", "utc": "2026-09-27T06:18:14.560393+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3193, "conservative_compute_usd": 9.9276, "utc": "2026-09-27T06:18:40.855571+00:00"}
+{"event": "progress", "line": "{'loss': '0.901', 'grad_norm': '3.502', 'learning_rate': '4.28e-05', 'epoch': '1.179'}", "utc": "2026-09-27T06:18:40.858122+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3224, "conservative_compute_usd": 9.9489, "utc": "2026-09-27T06:19:11.567882+00:00"}
+{"event": "progress", "line": "{'loss': '0.936', 'grad_norm': '8.298', 'learning_rate': '4.207e-05', 'epoch': '1.193'}", "utc": "2026-09-27T06:19:11.569921+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3256, "conservative_compute_usd": 9.9709, "utc": "2026-09-27T06:19:43.264585+00:00"}
+{"event": "progress", "line": "{'loss': '0.8515', 'grad_norm': '3.852', 'learning_rate': '4.17e-05', 'epoch': '1.2'}", "utc": "2026-09-27T06:19:43.266576+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3282, "conservative_compute_usd": 9.9891, "utc": "2026-09-27T06:20:09.521302+00:00"}
+{"event": "progress", "line": "{'loss': '0.9821', 'grad_norm': '4.222', 'learning_rate': '4.096e-05', 'epoch': '1.215'}", "utc": "2026-09-27T06:20:09.525912+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3308, "conservative_compute_usd": 10.0074, "utc": "2026-09-27T06:20:35.858181+00:00"}
+{"event": "progress", "line": "{'loss': '0.9152', 'grad_norm': '3.583', 'learning_rate': '4.059e-05', 'epoch': '1.222'}", "utc": "2026-09-27T06:20:35.861702+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3338, "conservative_compute_usd": 10.0279, "utc": "2026-09-27T06:21:05.399922+00:00"}
+{"event": "progress", "line": "{'loss': '0.8498', 'grad_norm': '4.047', 'learning_rate': '3.985e-05', 'epoch': '1.236'}", "utc": "2026-09-27T06:21:05.406987+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3364, "conservative_compute_usd": 10.0462, "utc": "2026-09-27T06:21:31.745836+00:00"}
+{"event": "progress", "line": "{'loss': '0.885', 'grad_norm': '4.46', 'learning_rate': '3.948e-05', 'epoch': '1.243'}", "utc": "2026-09-27T06:21:31.750287+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3395, "conservative_compute_usd": 10.0675, "utc": "2026-09-27T06:22:02.391665+00:00"}
+{"event": "progress", "line": "{'loss': '0.8331', 'grad_norm': '3.684', 'learning_rate': '3.875e-05', 'epoch': '1.257'}", "utc": "2026-09-27T06:22:02.394739+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3421, "conservative_compute_usd": 10.0858, "utc": "2026-09-27T06:22:28.691938+00:00"}
+{"event": "progress", "line": "{'loss': '0.7143', 'grad_norm': '3.446', 'learning_rate': '3.838e-05', 'epoch': '1.265'}", "utc": "2026-09-27T06:22:28.694843+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3452, "conservative_compute_usd": 10.107, "utc": "2026-09-27T06:22:59.267692+00:00"}
+{"event": "progress", "line": "{'loss': '0.7124', 'grad_norm': '3.432', 'learning_rate': '3.764e-05', 'epoch': '1.279'}", "utc": "2026-09-27T06:22:59.271135+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3478, "conservative_compute_usd": 10.1252, "utc": "2026-09-27T06:23:25.495877+00:00"}
+{"event": "progress", "line": "{'loss': '0.6134', 'grad_norm': '3.907', 'learning_rate': '3.727e-05', 'epoch': '1.286'}", "utc": "2026-09-27T06:23:25.501106+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3504, "conservative_compute_usd": 10.1436, "utc": "2026-09-27T06:23:51.936968+00:00"}
+{"event": "progress", "line": "{'loss': '0.8597', 'grad_norm': '3.514', 'learning_rate': '3.69e-05', 'epoch': '1.293'}", "utc": "2026-09-27T06:23:51.940576+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3531, "conservative_compute_usd": 10.1618, "utc": "2026-09-27T06:24:18.174613+00:00"}
+{"event": "progress", "line": "{'loss': '0.8169', 'grad_norm': '4.1', 'learning_rate': '3.616e-05', 'epoch': '1.308'}", "utc": "2026-09-27T06:24:18.176492+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3566, "conservative_compute_usd": 10.1864, "utc": "2026-09-27T06:24:53.600868+00:00"}
+{"event": "progress", "line": "{'loss': '0.6018', 'grad_norm': '3.332', 'learning_rate': '3.542e-05', 'epoch': '1.322'}", "utc": "2026-09-27T06:24:53.602522+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3593, "conservative_compute_usd": 10.205, "utc": "2026-09-27T06:25:20.322471+00:00"}
+{"event": "progress", "line": "{'loss': '0.6493', 'grad_norm': '4.069', 'learning_rate': '3.506e-05', 'epoch': '1.329'}", "utc": "2026-09-27T06:25:20.325478+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3623, "conservative_compute_usd": 10.2258, "utc": "2026-09-27T06:25:50.274047+00:00"}
+{"event": "progress", "line": "{'loss': '0.804', 'grad_norm': '4.546', 'learning_rate': '3.432e-05', 'epoch': '1.343'}", "utc": "2026-09-27T06:25:50.276145+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3649, "conservative_compute_usd": 10.244, "utc": "2026-09-27T06:26:16.506826+00:00"}
+{"event": "progress", "line": "{'loss': '0.6399', 'grad_norm': '4.763', 'learning_rate': '3.395e-05', 'epoch': '1.35'}", "utc": "2026-09-27T06:26:16.510181+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3679, "conservative_compute_usd": 10.2648, "utc": "2026-09-27T06:26:46.419713+00:00"}
+{"event": "progress", "line": "{'loss': '0.7348', 'grad_norm': '5.016', 'learning_rate': '3.321e-05', 'epoch': '1.365'}", "utc": "2026-09-27T06:26:46.421711+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3705, "conservative_compute_usd": 10.2831, "utc": "2026-09-27T06:27:12.781690+00:00"}
+{"event": "progress", "line": "{'loss': '0.8452', 'grad_norm': '4.687', 'learning_rate': '3.284e-05', 'epoch': '1.372'}", "utc": "2026-09-27T06:27:12.786994+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3735, "conservative_compute_usd": 10.3039, "utc": "2026-09-27T06:27:42.711381+00:00"}
+{"event": "progress", "line": "{'loss': '0.5187', 'grad_norm': '3.801', 'learning_rate': '3.21e-05', 'epoch': '1.386'}", "utc": "2026-09-27T06:27:42.714224+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3762, "conservative_compute_usd": 10.3222, "utc": "2026-09-27T06:28:09.078636+00:00"}
+{"event": "progress", "line": "{'loss': '0.7737', 'grad_norm': '3.471', 'learning_rate': '3.173e-05', 'epoch': '1.393'}", "utc": "2026-09-27T06:28:09.081659+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3792, "conservative_compute_usd": 10.3436, "utc": "2026-09-27T06:28:39.921076+00:00"}
+{"event": "progress", "line": "{'loss': '0.7931', 'grad_norm': '4.7', 'learning_rate': '3.1e-05', 'epoch': '1.408'}", "utc": "2026-09-27T06:28:39.923796+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3819, "conservative_compute_usd": 10.3619, "utc": "2026-09-27T06:29:06.249742+00:00"}
+{"event": "progress", "line": "{'loss': '0.7447', 'grad_norm': '3.931', 'learning_rate': '3.063e-05', 'epoch': '1.415'}", "utc": "2026-09-27T06:29:06.255169+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3850, "conservative_compute_usd": 10.3833, "utc": "2026-09-27T06:29:37.077198+00:00"}
+{"event": "progress", "line": "{'loss': '1.035', 'grad_norm': '17.05', 'learning_rate': '2.989e-05', 'epoch': '1.429'}", "utc": "2026-09-27T06:29:37.079409+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3876, "conservative_compute_usd": 10.4015, "utc": "2026-09-27T06:30:03.277966+00:00"}
+{"event": "progress", "line": "{'loss': '0.8742', 'grad_norm': '3.727', 'learning_rate': '2.952e-05', 'epoch': '1.436'}", "utc": "2026-09-27T06:30:03.280425+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3902, "conservative_compute_usd": 10.4197, "utc": "2026-09-27T06:30:29.470441+00:00"}
+{"event": "progress", "line": "{'loss': '0.6998', 'grad_norm': '3.906', 'learning_rate': '2.915e-05', 'epoch': '1.443'}", "utc": "2026-09-27T06:30:29.472611+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3928, "conservative_compute_usd": 10.438, "utc": "2026-09-27T06:30:55.883310+00:00"}
+{"event": "progress", "line": "{'loss': '0.6195', 'grad_norm': '3.999', 'learning_rate': '2.841e-05', 'epoch': '1.458'}", "utc": "2026-09-27T06:30:55.886295+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3955, "conservative_compute_usd": 10.4563, "utc": "2026-09-27T06:31:22.263425+00:00"}
+{"event": "progress", "line": "{'loss': '0.7912', 'grad_norm': '3.516', 'learning_rate': '2.804e-05', 'epoch': '1.465'}", "utc": "2026-09-27T06:31:22.265205+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 3984, "conservative_compute_usd": 10.4769, "utc": "2026-09-27T06:31:51.941763+00:00"}
+{"event": "progress", "line": "{'loss': '0.9666', 'grad_norm': '3.288', 'learning_rate': '2.731e-05', 'epoch': '1.479'}", "utc": "2026-09-27T06:31:51.946085+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4011, "conservative_compute_usd": 10.4952, "utc": "2026-09-27T06:32:18.287071+00:00"}
+{"event": "progress", "line": "{'loss': '0.6878', 'grad_norm': '4.608', 'learning_rate': '2.694e-05', 'epoch': '1.486'}", "utc": "2026-09-27T06:32:18.288734+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4042, "conservative_compute_usd": 10.5167, "utc": "2026-09-27T06:32:49.253820+00:00"}
+{"event": "progress", "line": "{'loss': '0.8713', 'grad_norm': '4.349', 'learning_rate': '2.62e-05', 'epoch': '1.501'}", "utc": "2026-09-27T06:32:49.257108+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4068, "conservative_compute_usd": 10.535, "utc": "2026-09-27T06:33:15.547235+00:00"}
+{"event": "progress", "line": "{'loss': '0.9076', 'grad_norm': '4.49', 'learning_rate': '2.583e-05', 'epoch': '1.508'}", "utc": "2026-09-27T06:33:15.550224+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4099, "conservative_compute_usd": 10.5566, "utc": "2026-09-27T06:33:46.579350+00:00"}
+{"event": "progress", "line": "{'loss': '1.036', 'grad_norm': '5.36', 'learning_rate': '2.509e-05', 'epoch': '1.522'}", "utc": "2026-09-27T06:33:46.584500+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4125, "conservative_compute_usd": 10.5748, "utc": "2026-09-27T06:34:12.891731+00:00"}
+{"event": "progress", "line": "{'loss': '0.7312', 'grad_norm': '4.545', 'learning_rate': '2.472e-05', 'epoch': '1.529'}", "utc": "2026-09-27T06:34:12.894746+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4156, "conservative_compute_usd": 10.5963, "utc": "2026-09-27T06:34:43.835434+00:00"}
+{"event": "progress", "line": "{'loss': '0.5334', 'grad_norm': '3.152', 'learning_rate': '2.399e-05', 'epoch': '1.544'}", "utc": "2026-09-27T06:34:43.837401+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4183, "conservative_compute_usd": 10.6147, "utc": "2026-09-27T06:35:10.298129+00:00"}
+{"event": "progress", "line": "{'loss': '0.6173', 'grad_norm': '3.268', 'learning_rate': '2.362e-05', 'epoch': '1.551'}", "utc": "2026-09-27T06:35:10.300725+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4213, "conservative_compute_usd": 10.6356, "utc": "2026-09-27T06:35:40.396611+00:00"}
+{"event": "progress", "line": "{'loss': '0.6958', 'grad_norm': '3.926', 'learning_rate': '2.288e-05', 'epoch': '1.565'}", "utc": "2026-09-27T06:35:40.399716+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4239, "conservative_compute_usd": 10.6538, "utc": "2026-09-27T06:36:06.591639+00:00"}
+{"event": "progress", "line": "{'loss': '0.995', 'grad_norm': '6.236', 'learning_rate': '2.251e-05', 'epoch': '1.572'}", "utc": "2026-09-27T06:36:06.593651+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4271, "conservative_compute_usd": 10.676, "utc": "2026-09-27T06:36:38.620341+00:00"}
+{"event": "progress", "line": "{'loss': '0.6785', 'grad_norm': '13.45', 'learning_rate': '2.177e-05', 'epoch': '1.586'}", "utc": "2026-09-27T06:36:38.624918+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4297, "conservative_compute_usd": 10.6942, "utc": "2026-09-27T06:37:04.822069+00:00"}
+{"event": "progress", "line": "{'loss': '0.6953', 'grad_norm': '3.145', 'learning_rate': '2.14e-05', 'epoch': '1.594'}", "utc": "2026-09-27T06:37:04.824497+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4328, "conservative_compute_usd": 10.7154, "utc": "2026-09-27T06:37:35.296621+00:00"}
+{"event": "progress", "line": "{'loss': '0.805', 'grad_norm': '4.548', 'learning_rate': '2.066e-05', 'epoch': '1.608'}", "utc": "2026-09-27T06:37:35.299054+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4354, "conservative_compute_usd": 10.7337, "utc": "2026-09-27T06:38:01.739525+00:00"}
+{"event": "progress", "line": "{'loss': '0.9566', 'grad_norm': '3.899', 'learning_rate': '2.03e-05', 'epoch': '1.615'}", "utc": "2026-09-27T06:38:01.741353+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4384, "conservative_compute_usd": 10.7547, "utc": "2026-09-27T06:38:31.869566+00:00"}
+{"event": "progress", "line": "{'loss': '0.6944', 'grad_norm': '3.683', 'learning_rate': '1.956e-05', 'epoch': '1.629'}", "utc": "2026-09-27T06:38:31.871737+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4412, "conservative_compute_usd": 10.7736, "utc": "2026-09-27T06:38:59.137925+00:00"}
+{"event": "progress", "line": "{'loss': '0.679', 'grad_norm': '4.168', 'learning_rate': '1.919e-05', 'epoch': '1.637'}", "utc": "2026-09-27T06:38:59.141324+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4441, "conservative_compute_usd": 10.7942, "utc": "2026-09-27T06:39:28.851453+00:00"}
+{"event": "progress", "line": "{'loss': '0.6794', 'grad_norm': '5.464', 'learning_rate': '1.845e-05', 'epoch': '1.651'}", "utc": "2026-09-27T06:39:28.853849+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4468, "conservative_compute_usd": 10.8128, "utc": "2026-09-27T06:39:55.564874+00:00"}
+{"event": "progress", "line": "{'loss': '0.9139', 'grad_norm': '3.94', 'learning_rate': '1.808e-05', 'epoch': '1.658'}", "utc": "2026-09-27T06:39:55.566992+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4498, "conservative_compute_usd": 10.8337, "utc": "2026-09-27T06:40:25.609193+00:00"}
+{"event": "progress", "line": "{'loss': '0.7922', 'grad_norm': '3.793', 'learning_rate': '1.734e-05', 'epoch': '1.672'}", "utc": "2026-09-27T06:40:25.611922+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4526, "conservative_compute_usd": 10.8528, "utc": "2026-09-27T06:40:53.106016+00:00"}
+{"event": "progress", "line": "{'loss': '0.9487', 'grad_norm': '4.45', 'learning_rate': '1.697e-05', 'epoch': '1.679'}", "utc": "2026-09-27T06:40:53.109189+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4554, "conservative_compute_usd": 10.8727, "utc": "2026-09-27T06:41:21.850583+00:00"}
+{"event": "progress", "line": "{'loss': '0.7179', 'grad_norm': '3.802', 'learning_rate': '1.624e-05', 'epoch': '1.694'}", "utc": "2026-09-27T06:41:21.853669+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4581, "conservative_compute_usd": 10.8911, "utc": "2026-09-27T06:41:48.360577+00:00"}
+{"event": "progress", "line": "{'loss': '0.8655', 'grad_norm': '4.063', 'learning_rate': '1.587e-05', 'epoch': '1.701'}", "utc": "2026-09-27T06:41:48.365206+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4611, "conservative_compute_usd": 10.912, "utc": "2026-09-27T06:42:18.390254+00:00"}
+{"event": "progress", "line": "{'loss': '0.7415', 'grad_norm': '3.738', 'learning_rate': '1.513e-05', 'epoch': '1.715'}", "utc": "2026-09-27T06:42:18.393744+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4637, "conservative_compute_usd": 10.9302, "utc": "2026-09-27T06:42:44.602921+00:00"}
+{"event": "progress", "line": "{'loss': '0.6856', 'grad_norm': '4.818', 'learning_rate': '1.476e-05', 'epoch': '1.722'}", "utc": "2026-09-27T06:42:44.605229+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4663, "conservative_compute_usd": 10.9485, "utc": "2026-09-27T06:43:10.948018+00:00"}
+{"event": "progress", "line": "{'loss': '0.7623', 'grad_norm': '3.978', 'learning_rate': '1.439e-05', 'epoch': '1.73'}", "utc": "2026-09-27T06:43:10.952218+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4690, "conservative_compute_usd": 10.9668, "utc": "2026-09-27T06:43:37.394433+00:00"}
+{"event": "progress", "line": "{'loss': '0.6122', 'grad_norm': '3.822', 'learning_rate': '1.365e-05', 'epoch': '1.744'}", "utc": "2026-09-27T06:43:37.396797+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4716, "conservative_compute_usd": 10.9854, "utc": "2026-09-27T06:44:04.072668+00:00"}
+{"event": "progress", "line": "{'loss': '0.6515', 'grad_norm': '3.776', 'learning_rate': '1.328e-05', 'epoch': '1.751'}", "utc": "2026-09-27T06:44:04.077023+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4744, "conservative_compute_usd": 11.0047, "utc": "2026-09-27T06:44:31.855855+00:00"}
+{"event": "progress", "line": "{'loss': '0.8088', 'grad_norm': '4.541', 'learning_rate': '1.255e-05', 'epoch': '1.765'}", "utc": "2026-09-27T06:44:31.857950+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4771, "conservative_compute_usd": 11.023, "utc": "2026-09-27T06:44:58.215995+00:00"}
+{"event": "progress", "line": "{'loss': '0.7233', 'grad_norm': '3.822', 'learning_rate': '1.218e-05', 'epoch': '1.772'}", "utc": "2026-09-27T06:44:58.219890+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4801, "conservative_compute_usd": 11.0442, "utc": "2026-09-27T06:45:28.862782+00:00"}
+{"event": "progress", "line": "{'loss': '0.6368', 'grad_norm': '3.826', 'learning_rate': '1.144e-05', 'epoch': '1.787'}", "utc": "2026-09-27T06:45:28.864903+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4828, "conservative_compute_usd": 11.0626, "utc": "2026-09-27T06:45:55.330897+00:00"}
+{"event": "progress", "line": "{'loss': '0.678', 'grad_norm': '3.638', 'learning_rate': '1.107e-05', 'epoch': '1.794'}", "utc": "2026-09-27T06:45:55.333865+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4858, "conservative_compute_usd": 11.084, "utc": "2026-09-27T06:46:26.045308+00:00"}
+{"event": "progress", "line": "{'loss': '0.7091', 'grad_norm': '3.766', 'learning_rate': '1.033e-05', 'epoch': '1.808'}", "utc": "2026-09-27T06:46:26.047196+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4885, "conservative_compute_usd": 11.1023, "utc": "2026-09-27T06:46:52.523840+00:00"}
+{"event": "progress", "line": "{'loss': '0.9442', 'grad_norm': '4.53', 'learning_rate': '9.963e-06', 'epoch': '1.815'}", "utc": "2026-09-27T06:46:52.526495+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4916, "conservative_compute_usd": 11.124, "utc": "2026-09-27T06:47:23.669301+00:00"}
+{"event": "progress", "line": "{'loss': '0.6602', 'grad_norm': '4.224', 'learning_rate': '9.225e-06', 'epoch': '1.83'}", "utc": "2026-09-27T06:47:23.671468+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4943, "conservative_compute_usd": 11.1424, "utc": "2026-09-27T06:47:50.229739+00:00"}
+{"event": "progress", "line": "{'loss': '0.7247', 'grad_norm': '4.119', 'learning_rate': '8.856e-06', 'epoch': '1.837'}", "utc": "2026-09-27T06:47:50.231948+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 4974, "conservative_compute_usd": 11.1639, "utc": "2026-09-27T06:48:21.129789+00:00"}
+{"event": "progress", "line": "{'loss': '0.7647', 'grad_norm': '3.625', 'learning_rate': '8.118e-06', 'epoch': '1.851'}", "utc": "2026-09-27T06:48:21.132702+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5000, "conservative_compute_usd": 11.1821, "utc": "2026-09-27T06:48:47.375767+00:00"}
+{"event": "progress", "line": "{'loss': '0.7332', 'grad_norm': '3.607', 'learning_rate': '7.749e-06', 'epoch': '1.858'}", "utc": "2026-09-27T06:48:47.379594+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5026, "conservative_compute_usd": 11.2005, "utc": "2026-09-27T06:49:13.821415+00:00"}
+{"event": "progress", "line": "{'loss': '0.6703', 'grad_norm': '5.598', 'learning_rate': '7.38e-06', 'epoch': '1.865'}", "utc": "2026-09-27T06:49:13.823920+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5053, "conservative_compute_usd": 11.2191, "utc": "2026-09-27T06:49:40.679485+00:00"}
+{"event": "progress", "line": "{'loss': '0.6486', 'grad_norm': '3.448', 'learning_rate': '6.642e-06', 'epoch': '1.88'}", "utc": "2026-09-27T06:49:40.681794+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5080, "conservative_compute_usd": 11.2375, "utc": "2026-09-27T06:50:07.089894+00:00"}
+{"event": "progress", "line": "{'loss': '0.9274', 'grad_norm': '4.833', 'learning_rate': '6.273e-06', 'epoch': '1.887'}", "utc": "2026-09-27T06:50:07.089894+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5110, "conservative_compute_usd": 11.2587, "utc": "2026-09-27T06:50:37.719099+00:00"}
+{"event": "progress", "line": "{'loss': '0.6541', 'grad_norm': '3.293', 'learning_rate': '5.535e-06', 'epoch': '1.901'}", "utc": "2026-09-27T06:50:37.719099+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5136, "conservative_compute_usd": 11.2769, "utc": "2026-09-27T06:51:03.902581+00:00"}
+{"event": "progress", "line": "{'loss': '0.8067', 'grad_norm': '4.205', 'learning_rate': '5.166e-06', 'epoch': '1.908'}", "utc": "2026-09-27T06:51:03.903976+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5163, "conservative_compute_usd": 11.2951, "utc": "2026-09-27T06:51:30.145610+00:00"}
+{"event": "progress", "line": "{'loss': '0.7056', 'grad_norm': '3.147', 'learning_rate': '4.797e-06', 'epoch': '1.916'}", "utc": "2026-09-27T06:51:30.147247+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5189, "conservative_compute_usd": 11.3135, "utc": "2026-09-27T06:51:56.562293+00:00"}
+{"event": "progress", "line": "{'loss': '0.6488', 'grad_norm': '4.219', 'learning_rate': '4.059e-06', 'epoch': '1.93'}", "utc": "2026-09-27T06:51:56.563656+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5217, "conservative_compute_usd": 11.3331, "utc": "2026-09-27T06:52:24.754767+00:00"}
+{"event": "progress", "line": "{'loss': '0.8533', 'grad_norm': '4.908', 'learning_rate': '3.69e-06', 'epoch': '1.937'}", "utc": "2026-09-27T06:52:24.755860+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5244, "conservative_compute_usd": 11.3515, "utc": "2026-09-27T06:52:51.285937+00:00"}
+{"event": "progress", "line": "{'loss': '0.6151', 'grad_norm': '4.06', 'learning_rate': '2.952e-06', 'epoch': '1.951'}", "utc": "2026-09-27T06:52:51.287981+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5270, "conservative_compute_usd": 11.37, "utc": "2026-09-27T06:53:17.947525+00:00"}
+{"event": "progress", "line": "{'loss': '0.8756', 'grad_norm': '3.866', 'learning_rate': '2.583e-06', 'epoch': '1.958'}", "utc": "2026-09-27T06:53:17.949487+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5301, "conservative_compute_usd": 11.391, "utc": "2026-09-27T06:53:48.147467+00:00"}
+{"event": "progress", "line": "{'loss': '0.609', 'grad_norm': '4.02', 'learning_rate': '1.845e-06', 'epoch': '1.973'}", "utc": "2026-09-27T06:53:48.148994+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5327, "conservative_compute_usd": 11.4094, "utc": "2026-09-27T06:54:14.688207+00:00"}
+{"event": "progress", "line": "{'loss': '0.9041', 'grad_norm': '3.929', 'learning_rate': '1.476e-06', 'epoch': '1.98'}", "utc": "2026-09-27T06:54:14.689105+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5357, "conservative_compute_usd": 11.4304, "utc": "2026-09-27T06:54:44.869266+00:00"}
+{"event": "progress", "line": "{'loss': '0.6332', 'grad_norm': '4.287', 'learning_rate': '7.38e-07', 'epoch': '1.994'}", "utc": "2026-09-27T06:54:44.870507+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5384, "conservative_compute_usd": 11.4486, "utc": "2026-09-27T06:55:11.116645+00:00"}
+{"event": "progress", "line": "{\"stage\": \"palref_final_started\", \"utc\": \"2026-09-27T06:54:57.181157+00:00\", \"command\": [\"/usr/bin/python\", \"-u\", \"/tmp/pahlavi-continuation-eeafv33l/palref_eval.py\", \"--bundle\", \"/tmp/pahlavi-continuation-eeafv33l/bundle\", \"--base\", \"/tmp/pahlavi-continuation-eeafv33l/base\", \"--tokenizer\", \"/tmp/pahlavi-continuation-eeafv33l/base\", \"--inputs\", \"/input/palref-v1-pal-fa-inputs-0616b5083833.jsonl\", \"--adapter\", \"/tmp/pahlavi-continuation-eeafv33l/evidence/training/adapter\", \"--output\", \"/tmp/pahlavi-continuation-eeafv33l/evidence/after\", \"--deadline-utc\", \"2026-09-27T07:45:32.209933+00:00\"]}", "utc": "2026-09-27T06:55:11.117204+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5410, "conservative_compute_usd": 11.4668, "utc": "2026-09-27T06:55:37.312814+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5436, "conservative_compute_usd": 11.4851, "utc": "2026-09-27T06:56:03.741395+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5462, "conservative_compute_usd": 11.5033, "utc": "2026-09-27T06:56:29.920644+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5489, "conservative_compute_usd": 11.5216, "utc": "2026-09-27T06:56:56.167686+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5518, "conservative_compute_usd": 11.5419, "utc": "2026-09-27T06:57:25.480006+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5544, "conservative_compute_usd": 11.5604, "utc": "2026-09-27T06:57:52.047462+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5572, "conservative_compute_usd": 11.5795, "utc": "2026-09-27T06:58:19.642327+00:00"}
+{"event": "progress", "line": "{\"status\": \"palref_case_complete\", \"completed_cases\": 6, \"total_cases\": 40, \"id\": \"PALREF1-006:pal>fa\", \"outcome\": \"success\"}", "utc": "2026-09-27T06:58:19.644294+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5600, "conservative_compute_usd": 11.5991, "utc": "2026-09-27T06:58:47.868471+00:00"}
+{"event": "progress", "line": "{\"status\": \"palref_case_complete\", \"completed_cases\": 11, \"total_cases\": 40, \"id\": \"PALREF1-011:pal>fa\", \"outcome\": \"success\"}", "utc": "2026-09-27T06:58:47.870362+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5627, "conservative_compute_usd": 11.6174, "utc": "2026-09-27T06:59:14.184103+00:00"}
+{"event": "progress", "line": "{\"status\": \"palref_case_complete\", \"completed_cases\": 14, \"total_cases\": 40, \"id\": \"PALREF1-014:pal>fa\", \"outcome\": \"success\"}", "utc": "2026-09-27T06:59:14.186029+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5653, "conservative_compute_usd": 11.6357, "utc": "2026-09-27T06:59:40.614965+00:00"}
+{"event": "progress", "line": "{\"status\": \"palref_case_complete\", \"completed_cases\": 20, \"total_cases\": 40, \"id\": \"PALREF1-020:pal>fa\", \"outcome\": \"success\"}", "utc": "2026-09-27T06:59:40.617135+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5680, "conservative_compute_usd": 11.6541, "utc": "2026-09-27T07:00:07.091330+00:00"}
+{"event": "progress", "line": "{\"status\": \"palref_case_complete\", \"completed_cases\": 25, \"total_cases\": 40, \"id\": \"PALREF1-025:pal>fa\", \"outcome\": \"success\"}", "utc": "2026-09-27T07:00:07.094548+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5708, "conservative_compute_usd": 11.6736, "utc": "2026-09-27T07:00:35.120287+00:00"}
+{"event": "progress", "line": "{\"status\": \"palref_case_complete\", \"completed_cases\": 30, \"total_cases\": 40, \"id\": \"PALREF1-030:pal>fa\", \"outcome\": \"success\"}", "utc": "2026-09-27T07:00:35.122229+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5736, "conservative_compute_usd": 11.6937, "utc": "2026-09-27T07:01:04.003592+00:00"}
+{"event": "progress", "line": "{\"status\": \"palref_case_complete\", \"completed_cases\": 37, \"total_cases\": 40, \"id\": \"PALREF1-037:pal>fa\", \"outcome\": \"success\"}", "utc": "2026-09-27T07:01:04.005585+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5772, "conservative_compute_usd": 11.7184, "utc": "2026-09-27T07:01:39.613567+00:00"}
+{"event": "progress", "line": "{\"stage\": \"ready_to_persist\", \"utc\": \"2026-09-27T07:01:32.771115+00:00\", \"manifest\": {\"schema_version\": 1, \"bundle_name\": \"cloud-pilot-qualified-20260927.zip\", \"bundle_sha256\": \"41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9\", \"evaluator_name\": \"palref-eval-050a38880c68.py\", \"evaluator_sha256\": \"050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49\", \"inputs_name\": \"palref-v1-pal-fa-inputs-0616b5083833.jsonl\", \"inputs_sha256\": \"0616b50838339e9b520f06fe8b2ed9c0fd9b399b67c8f68cd680a62115a12f37\", \"canary_run_id\": \"aa880289a9614f80aaa5a430e53440ee\", \"canary_manifest_sha256\": \"ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388\", \"admission_name\": \"qualified-continuation-admission-513dc48cf10f.json\", \"admission_sha256\": \"513dc48cf10fcba9578f3d1c6d0b6fd1947dc8461cb4b1e285bf7f48d3818d3a\", \"max_minutes\": 150, \"run_id\": \"1ae0f16dae9c4dffa36d15a24345fded\", \"bootstrap_hashes\": {\"runtime.py\": \"5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d\", \"requirements-linux.lock\": \"e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7\"}, \"expected_total_steps\": 280, \"operation\": \"full_resume_and_palref\", \"continuation_status\": \"complete\", \"full_training_completed\": true, \"completed_global_step\": 280, \"training_schedule_completed\": true, \"training_reached_step_312\": false, \"local_model_verified\": false, \"max_export_bytes\": 2026978122, \"files\": {\"after/predictions.jsonl\": {\"bytes\": 13775, \"sha256\": \"a38cd914fee26fecf7757380b5c4798ea66a7b78298659222f5499ef88481a30\"}, \"after/run.json\": {\"bytes\": 10726, \"sha256\": \"31851757809214362c8175d247d35055c04cb2090cc7c92b357858e248863d45\"}, \"canary-manifest.json\": {\"bytes\": 4499, \"sha256\": \"ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388\"}, \"canary-provenance.json\": {\"byte", "utc": "2026-09-27T07:01:39.615731+00:00"}
+{"event": "status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "elapsed_seconds": 5799, "conservative_compute_usd": 11.737, "utc": "2026-09-27T07:02:06.389983+00:00"}
+{"event": "inventory_verified", "file_count": 29, "full_sha_recovery_pending": true, "utc": "2026-09-27T07:02:10.858937+00:00"}
+{"event": "shutdown_status", "job_id": "6ab8a8c66b030d633f698091", "stage": "RUNNING", "utc": "2026-09-27T07:02:11.356570+00:00"}
+{"event": "shutdown_status", "job_id": "6ab8a8c66b030d633f698091", "stage": "CANCELED", "utc": "2026-09-27T07:02:22.518460+00:00"}
+{"event": "finished", "inventory_verified": true, "cloud_terminal": true, "conservative_compute_usd": 11.7482, "elapsed_seconds": 5815, "automatic_continuation": false, "utc": "2026-09-27T07:02:22.519130+00:00"}

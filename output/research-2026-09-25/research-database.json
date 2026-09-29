@@ -1,0 +1,1370 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-09-25",
+  "purpose": "Evidence registry for Pahlavi text translation research; not a training corpus.",
+  "record_count": 72,
+  "count_interpretation": "Source/resource records, not independent studies. Several records concern one project or overlapping evidence.",
+  "scope": "Primary research, public code/cards, philology, institutional resources, evaluation and explicitly anecdotal leads.",
+  "verification_scope": "Literature and static inspection; no local model experiment or bulk corpus acquisition.",
+  "records": [
+    {
+      "id": "mpcd-corpus",
+      "title": "Zoroastrian Middle Persian Corpus and Dictionary (MPCD)",
+      "category": "annotated corpus and dictionary",
+      "institution": "Ruhr-Universität Bochum; Freie Universität Berlin; Universität zu Köln",
+      "researchers": [
+        "Kianoosh Rezania",
+        "Iris Colditz",
+        "Thomas Jügel",
+        "Raha Musavi",
+        "Alberto Cantera",
+        "Benedikt Peschl"
+      ],
+      "language_scope": "Zoroastrian Middle Persian in Book Pahlavi; Avestan links for Zand texts",
+      "data_type": "Manuscript-grounded transliteration, transcription, lemma, morphology, semantics, selected syntax",
+      "source_url": "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/MPCD/index.html",
+      "primary_evidence": [
+        {
+          "url": "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/MPCD/index.html",
+          "finding": "DFG project2021–2030; annotated Zoroastrian corpus and comprehensive dictionary; Zand receives Avestan word links."
+        },
+        {
+          "url": "https://dhday7.ub.rub.de/poster_2025MPCD.html",
+          "finding": "September2025 poster describes approximately800,000tokens, multiple annotation layers and a Middle Persian–English dictionary."
+        }
+      ],
+      "access_and_license": "Open-access aim is explicit; public bulk release, API accessibility and corpus reuse license not verified. Project-site direct requests returned403; indexed project pages and university pages were readable.",
+      "scale": "Approximately800,000tokens in project description; not verified as released downloadable volume.",
+      "translation_alignment": "Token meanings and Avestan–Pahlavi alignment; no verified800k-token English sentence-parallel corpus.",
+      "utility": "Inference: strongest institutional source for linguistic annotation, terminology and a future corpus partnership.",
+      "limitations": "Ongoing project; Zoroastrian domain differs from administrative and Manichaean texts.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "mpcd-kosh",
+      "title": "MPCD Kosh dictionaries and glossaries",
+      "category": "lexical retrieval",
+      "institution": "MPCD; Cologne Center for eHumanities",
+      "researchers": [
+        "David Neil MacKenzie",
+        "Daniel Kölligan",
+        "Mahnaz Moazami",
+        "Thomas Jügel",
+        "Narges Eskandarnia",
+        "Cemile Çelebi"
+      ],
+      "language_scope": "Middle Persian; definitions from multiple scholarly dictionaries",
+      "data_type": "XML lexical resources with normalized transcription and combined search",
+      "source_url": "https://www.mpcorpus.org/glossaries/",
+      "primary_evidence": [
+        {
+          "url": "https://www.mpcorpus.org/glossaries/",
+          "finding": "Some digitized dictionaries are public through Kosh; harmonized transcription follows MacKenzie1971. Listed resources include MacKenzie/Kölligan2012, Moazami2014/2020 and finite-verb/technical-term lists."
+        },
+        {
+          "url": "https://elex.link/ojs/index.php/elex/article/download/27/14/91",
+          "finding": "Mondaca,Rezania,Čéplö,Neuefeind describe the corpus/lexicon platform and REST/GraphQL architecture."
+        }
+      ],
+      "access_and_license": "Public search URL https://www.mpcorpus.org/kosh/; indexed documentation verified, live interactive search and bulk exports untested. No dataset reuse license verified.",
+      "scale": "Multiple dictionaries; entry total not established.",
+      "translation_alignment": "Lexical senses and attestations rather than sentence translations.",
+      "utility": "Inference: retrieve attested senses and verb forms before generating a translation.",
+      "limitations": "Public subset only; source dictionaries and normalization versions must remain attributable.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "mpcd-annotation",
+      "title": "MPCD annotation handbooks and methodology",
+      "category": "language standards and annotation tools",
+      "institution": "MPCD; Universität zu Köln; Ruhr-Universität Bochum; Freie Universität Berlin",
+      "researchers": [
+        "MPCD team",
+        "Francisco Mondaca",
+        "Kianoosh Rezania",
+        "Slavomír Čéplö",
+        "Claes Neuefeind"
+      ],
+      "language_scope": "Middle Persian with explicitly separate spelling, pronunciation and lemma representations",
+      "data_type": "Text-encoding, morphology, syntax and lexicography handbooks; UD-compatible analysis",
+      "source_url": "https://www.mpcorpus.org/resources/",
+      "primary_evidence": [
+        {
+          "url": "https://www.mpcorpus.org/resources/",
+          "finding": "Handbooks adapt Universal Dependencies to Middle Persian morphology/syntax; paleography and lexicography guides are under construction."
+        },
+        {
+          "url": "https://www.mpcorpus.org/methodology/",
+          "finding": "Dictionary-based preannotation is corrected by philologists; automatic and manually reviewed annotations remain distinguishable. Context disambiguates grammatical function and meaning."
+        },
+        {
+          "url": "https://gitlab.dh.uni-koeln.de/mpcd/handbooks/-/wikis/Handbook%20Morphology",
+          "finding": "Official FU project links this GitLab handbook; rendered content was not available to the text browser."
+        }
+      ],
+      "access_and_license": "Indexed public documentation; no verified downloadable licensed parser/treebank. Proposed neural replacement of rules is not evidence of an already released model.",
+      "scale": "No annotated-sentence total verified.",
+      "translation_alignment": "Contextual token senses and dependencies can support translation; not a translation benchmark.",
+      "utility": "Inference: reuse the annotation vocabulary and review workflow instead of inventing a Pahlavi schema.",
+      "limitations": "No measured translation gains reported by these resource pages.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "titus-middle-persian",
+      "title": "TITUS Middle Persian text collections",
+      "category": "digital textual corpus",
+      "institution": "Goethe-Universität Frankfurt; international academic contributors",
+      "researchers": [
+        "Jost Gippert",
+        "David Neil MacKenzie",
+        "Carlo G. Cereti",
+        "Thomas Jügel",
+        "P. Oktor Skjærvø",
+        "Desmond Durkin-Meisterernst"
+      ],
+      "language_scope": "Separate Zoroastrian, Manichaean and Christian Middle Persian collections; also Parthian and other languages",
+      "data_type": "UTF-8 HTML text, indexes, transliteration and sometimes transcription",
+      "source_url": "https://titus.uni-frankfurt.de/texte/texte2.htm",
+      "primary_evidence": [
+        {
+          "url": "https://titus.uni-frankfurt.de/texte/texte2.htm",
+          "finding": "Lists Bundahišn, Ardā-virāf, Dēnkard4–7, Kārnāmag, Mēnōg-i xrad, Yasna/Vispered and minor texts with contributor credits; unavailable desiderata are distinguished."
+        },
+        {
+          "url": "https://titus.uni-frankfurt.de/texte/textex.htm",
+          "finding": "Downloadable texts permitted for attributed scholarly use; commercial use excluded; some access restricted."
+        },
+        {
+          "url": "https://titus.uni-frankfurt.de/titusstd.htm",
+          "finding": "Restricted-access user declaration includes further copying/distribution conditions."
+        }
+      ],
+      "access_and_license": "Public catalog; tested Kārnāmag/Ardā-virāf links reached legacy frames without extracted content. Scholarly noncommercial terms, not an unrestricted training-data license.",
+      "scale": "Numerous named works; verified token total unavailable.",
+      "translation_alignment": "Primarily source texts; no general English/Farsi parallel layer verified.",
+      "utility": "Inference: corpus coverage, passage identifiers and original-edition tracing.",
+      "limitations": "Overlaps other editions; preserve work-level provenance and distinguish languages.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "invisible-east-pahlavi",
+      "title": "Invisible East Digital Corpus: Middle Persian documents",
+      "category": "documentary parallel corpus",
+      "institution": "University of Oxford, Department for Continuing Education",
+      "researchers": [
+        "Arezou Azad",
+        "Thomas Benfey",
+        "Dieter Weber",
+        "Arash Zeini"
+      ],
+      "language_scope": "Middle Persian in Pahlavi script, filtered separately from New Persian and other corpus languages",
+      "data_type": "Transcription, transliteration, English translation, document/editor/publication metadata",
+      "source_url": "https://www.invisible-east.org/corpus/?filter_fk_primary_language=14",
+      "primary_evidence": [
+        {
+          "url": "https://www.invisible-east.org/corpus/?filter_fk_primary_language=14",
+          "finding": "Indexed language filter shows158records; offers DOCX,JSON,XML exports."
+        },
+        {
+          "url": "https://www.invisible-east.org/corpus/1024/",
+          "finding": "Berk.67recto has four numbered source and English lines, editorThomasBenfey, Gold review status, referencesWeber2013/Benfey2024."
+        },
+        {
+          "url": "https://www.invisible-east.org/about/cite/",
+          "finding": "Welcomes reuse with attribution, including original publication and contributing editors."
+        },
+        {
+          "url": "https://github.com/invisibleeast/invisible-east-website",
+          "finding": "MIT website code documents full JSON export endpoint /corpus/downloaddata/json/."
+        }
+      ],
+      "access_and_license": "Public records and advertised bulk export; export not downloaded. Data reuse invitation with attribution; MIT applies to website code, not automatically every adapted edition.",
+      "scale": "158MiddlePersian records in a3-week-old indexed response; not158verified complete translated documents. Other pages have newer total-corpus counts.",
+      "translation_alignment": "Numbered line alignment directly verified for one document; corpus-wide completeness unmeasured.",
+      "utility": "Inference: highest-priority candidate for new real parallel data and documentary holdouts.",
+      "limitations": "Uncertain readings survive in both texts; dates on sample have internal inconsistency; duplicate shelfmarks across collections require checking.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "openampd",
+      "title": "Open Archive of Middle Persian Documents",
+      "category": "digital scholarly editions",
+      "institution": "University of California, Berkeley",
+      "researchers": [
+        "Adam Benkato"
+      ],
+      "language_scope": "Middle Persian documentary texts,3rd–8thcenturiesCE",
+      "data_type": "TEI Publisher editions and bibliography",
+      "source_url": "https://mp.melc.berkeley.edu/exist/apps/OpenAMPD/landing.html",
+      "primary_evidence": [
+        {
+          "url": "https://melc.berkeley.edu/research/digital-projects",
+          "finding": "Names AdamBenkato as leader; worldwide document-edition project remains in development."
+        },
+        {
+          "url": "https://mp.melc.berkeley.edu/exist/apps/OpenAMPD/landing.html",
+          "finding": "Live retrieved landing page advertises152documents and CC BY-NC-SA4.0."
+        },
+        {
+          "url": "https://mp.melc.berkeley.edu/exist/apps/OpenAMPD/MP0024",
+          "finding": "Document page exposes ePUB/XML options, but text extraction showed loading shell."
+        }
+      ],
+      "access_and_license": "CC BY-NC-SA4.0 displayed. XML/DTS/API interfaces advertised; functional document exports and API access not tested.",
+      "scale": "152documents displayed; translation/annotation completeness unknown.",
+      "translation_alignment": "Not verified from extracted document content.",
+      "utility": "Inference: structured source editions and provenance, complementing Oxford documentary translations.",
+      "limitations": "Rendering errors prevent equating document count with usable parallel pairs; likely shared manuscript coverage must be audited.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "mirtext",
+      "title": "MIRTEXT / WMIRTEXT: published Manichaean Middle Persian and Parthian",
+      "category": "source corpus and dictionary evidence",
+      "institution": "Berlin-Brandenburg Academy of Sciences and Humanities; Manichaean Dictionary Project",
+      "researchers": [
+        "Desmond Durkin-Meisterernst",
+        "Samuel N. C. Lieu",
+        "David Neil MacKenzie",
+        "Werner Sundermann"
+      ],
+      "language_scope": "Middle Persian and Parthian in Manichaean script; occasional Sogdian/Uighur explicitly distinguished",
+      "data_type": "Unicode diplomatic/composite editions with manuscript and publication references",
+      "source_url": "https://turfan.bbaw.de/texte/mirtext.html",
+      "primary_evidence": [
+        {
+          "url": "https://turfan.bbaw.de/texte-en/mirtext.html",
+          "finding": "Describes checked published texts underpinning Durkin-Meisterernst2004 dictionary; duplicates combined, unpublished texts excluded."
+        },
+        {
+          "url": "https://turfan.bbaw.de/bilder/mirtext-2.pdf",
+          "finding": "German-page download successfully opens a1,303-page text PDF with language markers and line/manuscript references."
+        }
+      ],
+      "access_and_license": "Public PDF; no corpus reuse license verified. English-page /bilder-en/mirtext.pdf link is404; German-page link works.",
+      "scale": "1,303PDFpages; uniqueMiddlePersian token count not measured.",
+      "translation_alignment": "No English/Farsi sentence alignment verified in this corpus file.",
+      "utility": "Inference: substantial authentic monolingual material and lexical attestation source.",
+      "limitations": "Mixed languages, reconstructed passages and composite witnesses; editorial markers must remain meaningful.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "turfan-mp-german",
+      "title": "BBAW selected Manichaean Middle Persian texts with German translations",
+      "category": "scholarly parallel reader",
+      "institution": "Berlin-Brandenburg Academy of Sciences and Humanities, Turfanforschung",
+      "researchers": [
+        "Turfanforschung editorial team",
+        "David Neil MacKenzie and W. B. Henning cited as underlying editors"
+      ],
+      "language_scope": "Manichaean Middle Persian; one section also includes Sogdian",
+      "data_type": "Transliteration, phonological transcription, German translation and commentary",
+      "source_url": "https://turfan.bbaw.de/bilder/texte/textempdeutsch.pdf",
+      "primary_evidence": [
+        {
+          "url": "https://turfan.bbaw.de/texte-en/iranische-texte-in-der-turfansammlung.html",
+          "finding": "Official academy index links translated texts by language."
+        },
+        {
+          "url": "https://turfan.bbaw.de/bilder/texte/textempdeutsch.pdf",
+          "finding": "Readable23-page PDF; five headings include Mani’s last audience,M3; Šābuhragān; gospel beginning; magical text; omen text. Opening passages give consecutive source/transcription/German renderings."
+        }
+      ],
+      "access_and_license": "Public PDF; no explicit text reuse license verified.",
+      "scale": "23pages; five named sections; aligned-pair count unmeasured.",
+      "translation_alignment": "Passage-level three-layer correspondence directly observed; German target.",
+      "utility": "Inference: expert alignment seed, semantic test passages, or reviewed German-to-English/Farsi bridge.",
+      "limitations": "Machine-translated target bridge would be synthetic; first-page compiler attribution not explicit; overlaps MIRTEXT.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "pahlavi-psalter-comparison",
+      "title": "Pahlavi Psalter arranged by textual units, glossary and index (2012)",
+      "category": "comparative edition and cautionary alignment example",
+      "institution": "Berlin-Brandenburg Academy of Sciences and Humanities, Turfanforschung",
+      "researchers": [
+        "Desmond Durkin-Meisterernst",
+        "Andreas–Barr cited for Syriac interlinear text"
+      ],
+      "language_scope": "Christian Middle Persian; Syriac, Greek and English comparison texts",
+      "data_type": "Pahlavi textual units with multilingual parallels, glossary and index",
+      "source_url": "https://turfan.bbaw.de/bilder/texte/psaltermpsyrgrengversesglossarysept2012.pdf",
+      "primary_evidence": [
+        {
+          "url": "https://turfan.bbaw.de/bilder/texte/psaltermpsyrgrengversesglossarysept2012.pdf",
+          "finding": "38-page academy-hosted summer-school edition explicitly states that the English column is KingJames, not a translation of the MiddlePersian text."
+        }
+      ],
+      "access_and_license": "Public PDF; no explicit reuse license verified.",
+      "scale": "38pages; fragmentary text.",
+      "translation_alignment": "Shared biblical-unit references; English is a comparable parallel version, not gold source translation.",
+      "utility": "Inference: comparative interpretation and glossary; useful negative example for data-ingestion rules.",
+      "limitations": "Do not train MiddlePersian-to-English gold pairs simply by matching psalm numbers; lacunae and differing textual traditions matter.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "muya",
+      "title": "Multimedia Yasna: digital transcriptions and editions",
+      "category": "critical edition and reusable editorial workflow",
+      "institution": "SOAS University of London; University of Birmingham software collaboration",
+      "researchers": [
+        "Almut Hintze",
+        "Mehrbod Khanizadeh",
+        "Céline Redard",
+        "Benedikt Peschl",
+        "Martina Palladino",
+        "Martin Sievers",
+        "Catherine Smith"
+      ],
+      "language_scope": "Primarily Avestan Yasna; Pahlavi translations/commentary and ritual directions in selected witnesses; Sanskrit version",
+      "data_type": "TEIP5 manuscript transcriptions, variants and critical apparatus",
+      "source_url": "https://muya.soas.ac.uk/tool/transcriptions-editions/",
+      "primary_evidence": [
+        {
+          "url": "https://muya.soas.ac.uk/tool/transcriptions-editions/",
+          "finding": "Explicit CC BY4.0; online/offline transcription editor produces TEIP5; CollateX and CollationEditor used. Bilingual commentary is distinguished from translation."
+        }
+      ],
+      "access_and_license": "Transcriptions/editions CC BY4.0; https://transcriptions.soas.ac.uk/ linked, but returned no extracted content. Bulk export not verified.",
+      "scale": "Around30manuscript witnesses per Avestan edition;8for Sanskrit; no Pahlavi token/pair count established.",
+      "translation_alignment": "Historical Avestan–Pahlavi correspondence, distinct commentary; no general Pahlavi–English corpus verified.",
+      "utility": "Inference: licensed annotation and variant-aware editing model; supports separating translation from exegesis.",
+      "limitations": "Many witnesses repeat the same passage; manuscript count is not independent training-example count.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "cab",
+      "title": "Corpus Avesticum Berolinense (CAB)",
+      "category": "linked Avestan corpus and historical translation context",
+      "institution": "Freie Universität Berlin, Institute of Iranian Studies",
+      "researchers": [
+        "Alberto Cantera",
+        "CAB team",
+        "Benedikt Peschl in MPCD collaboration"
+      ],
+      "language_scope": "Avestan, with linked MiddlePersian Zand through MPCD; not OldPersian or ModernPersian",
+      "data_type": "Linguistic/liturgical corpora, manuscript transcriptions, lexicon and ritual-context tools",
+      "source_url": "https://cab.geschkult.fu-berlin.de/exist/apps/cab/index.html",
+      "primary_evidence": [
+        {
+          "url": "https://cab.geschkult.fu-berlin.de/exist/apps/cab/pages/about/introduction.html",
+          "finding": "Official scope is editing the Avestan corpus within ritual context."
+        },
+        {
+          "url": "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/MPCD/index.html",
+          "finding": "MPCD links Zand words to CAB Avestan text and lemmata."
+        },
+        {
+          "url": "https://cab.geschkult.fu-berlin.de/exist/apps/cab/pages/misc/disclaimer.html",
+          "finding": "Disclaimer provides institutional copyright notice; no specific data license identified."
+        }
+      ],
+      "access_and_license": "Public web tools; footer saysCC without a verified variant. Do not infer a CreativeCommons license; API/bulk release not verified.",
+      "scale": "Entire-corpus aim; accessible token total unverified.",
+      "translation_alignment": "Avestan source contextualizes Pahlavi translation and exegesis, not direct English/Farsi gold labels.",
+      "utility": "Inference: resolve Zand quotations, ritual vocabulary and source-text references.",
+      "limitations": "Avestan is a distinct language and is not interchangeable with MiddlePersian.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "digital-turfan-archive",
+      "title": "Digital Turfan Archive and collection metadata",
+      "category": "manuscript provenance and edition discovery",
+      "institution": "Berlin-Brandenburg Academy of Sciences and Humanities; Staatsbibliothek zu Berlin; Göttingen Academy collaboration",
+      "researchers": [
+        "Turfanforschung team",
+        "Abdurishid Yakup, project head named on page"
+      ],
+      "language_scope": "Many languages/scripts; ManichaeanMiddlePersian and PahlaviPsalter are specific subsets",
+      "data_type": "Digitized fragments, shelfmarks and links to editions",
+      "source_url": "https://turfan.bbaw.de/dta-i-en.html",
+      "primary_evidence": [
+        {
+          "url": "https://turfan.bbaw.de/dta-i-en.html",
+          "finding": "Collection table distinguishes roughly3,500mixed-language M-group fragments from12PahlaviPsalter fragments; total collection approximately40,000fragments."
+        }
+      ],
+      "access_and_license": "Public archive; page requires notice for publication/reproduction, permission for redistribution of reproductions and special commercial permission. No unrestricted data license established.",
+      "scale": "Mixed-language M-group~3,500fragments/3,606images; Psalter12fragments/22images; not translation-pair counts.",
+      "translation_alignment": "Images/metadata alone provide none.",
+      "utility": "Inference: preserve manuscript provenance, resolve duplicate witnesses and locate scholarly text editions; no OCR work proposed.",
+      "limitations": "Large image counts must not be advertised as available typed or translated corpora.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "academic-resources.json"
+    },
+    {
+      "id": "PH01",
+      "title": "MPCD methodology",
+      "category": "University research-project methodology",
+      "author": "MPCD project team",
+      "institution": "Ruhr University Bochum; Freie Universität Berlin; University of Cologne",
+      "source_url": "https://www.mpcorpus.org/methodology/",
+      "credential_url": "https://www.mpcorpus.org/team/",
+      "primary_evidence": "Separates manuscript transliteration, phonemic transcription, lemma, morphology, contextual senses and Avestan links. Experts revise pre-annotation; automatic and manual annotations remain distinguishable.",
+      "translation_implication": "Preserve aligned representation layers and evidence status; attach contextual senses and source-language quotation links.",
+      "limitations": "Methodology and working annotations are not a guarantee that every corpus entry is final or available as translation training data.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH02",
+      "title": "A Suggestion for the Transliteration of Middle Persian Texts in MPCD: A Three Layered Transliteration System (2020)",
+      "category": "Original philological representation research",
+      "author": "Kianoosh Rezania",
+      "institution": "Ruhr University Bochum",
+      "source_url": "https://gitlab.dh.uni-koeln.de/mpcd/handbooks/-/raw/4644d2750d737f4e3a7116223885f05710f83a7b/transcription/Rezania_2020__A_Suggestion_for_the_Transliteration_of_Middle_Persian_Texts_.pdf?inline=true",
+      "credential_url": "https://khk.ceres.rub.de/de/person/kianoosh-rezania/",
+      "primary_evidence": "Explains that conventional transliteration already embeds etymological and interpretive choices. Distinguishes stored, representational and computational transliterations; the last intentionally collapses distinctions for searches.",
+      "translation_implication": "Record the input convention and retain originals. A search-normalized match must not silently overwrite the philological reading.",
+      "limitations": "A proposed scholarly encoding system, not proof that all ambiguities can be mechanically resolved; PDF character extraction is unsuitable for implementing its tables without visual checking.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH03",
+      "title": "HUZWĀREŠ",
+      "category": "Authored scholarly encyclopedia: heterograms",
+      "author": "Desmond Durkin-Meisterernst",
+      "institution": "Berlin-Brandenburg Academy of Sciences and Humanities, Turfan research",
+      "source_url": "https://www.iranicaonline.org/articles/huzwares/",
+      "credential_url": "https://turfan.bbaw.de/mitarbeiter-en.html",
+      "primary_evidence": "Aramaic-derived written forms represent Middle Persian words. Scholarly transliteration distinguishes heterograms and phonetic material, including Iranian complements; phonemic transcription can conceal the original spelling.",
+      "translation_implication": "Annotate heterogram, Iranian reading and grammatical complement separately; never translate every written form as ordinary Aramaic.",
+      "limitations": "Conventions differ by edition; its examples do not exhaust heterograms or every possible reading. Institutional staff page establishes affiliation, not current availability.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH04",
+      "title": "IRAN vi. Iranian Languages and Scripts (3): Writing Systems",
+      "category": "Authored scholarly encyclopedia: writing systems",
+      "author": "Prods Oktor Skjærvø",
+      "institution": "Harvard University, Aga Khan Professor of Iranian Studies Emeritus",
+      "source_url": "https://www.iranicaonline.org/articles/iran-vi3-writing-systems/",
+      "credential_url": "https://nelc.fas.harvard.edu/people/p-oktor-skjaervo",
+      "primary_evidence": "Book Pahlavi merges historically different letters into common forms; words and context are needed for readings. Distinguishes writing traditions rather than equating them with one transparent alphabet.",
+      "translation_implication": "Supplied script can remain linguistically underdetermined. Track script and representation type; allow multiple readings until context discriminates them.",
+      "limitations": "This is a linguistic requirement, not a request for OCR. A supplied expert transcription may already resolve some written ambiguity.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH05",
+      "title": "FRAHANG Ī PAHLAWĪG",
+      "category": "Authored scholarly encyclopedia: historical dictionary criticism",
+      "author": "David Neil MacKenzie",
+      "institution": "University of Göttingen, former Chair of Iranian Studies",
+      "source_url": "https://www.iranicaonline.org/articles/frahang-i-pahlawig/",
+      "credential_url": "https://www.uni-goettingen.de/en/132806.html",
+      "primary_evidence": "Describes the historical heterogram glossary and its variant recensions. Warns that mistaken interpretations entered later editions, including modern-language scholarship.",
+      "translation_implication": "Dictionary entries need edition, attestation and uncertainty; agreement among derivative dictionaries is not independent evidence.",
+      "limitations": "The historical Frahang is not a comprehensive modern Pahlavi dictionary. Criticisms concern specific editorial lineages, not every entry.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH06",
+      "title": "Universal Dependencies: Middle Persian language documentation",
+      "category": "Primary language-specific annotation specification",
+      "author": "Universal Dependencies Middle Persian contributors",
+      "institution": "Universal Dependencies; related grammatical research verified at Ruhr University Bochum",
+      "source_url": "https://universaldependencies.org/pal/index.html",
+      "credential_url": "https://ceres.rub.de/de/person/tjuegel/",
+      "primary_evidence": "Documents omitted arguments, ergative agreement, contextual active/passive interpretation, resumptive pronouns and underspecified coordination. Nominal gender is generally unmarked and plural marking optional; some tags encode editorial interpretations.",
+      "translation_implication": "Annotate argument roles, coreference, omitted constituents, aspect and discourse relations; separate grammatical features from inferred target-language choices.",
+      "limitations": "An annotation scheme embodies analytical choices. Its page does not identify an individual author; Thomas Jügel is a cited scholar, not asserted sole page author.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH07",
+      "title": "Die Entwicklung der Ergativkonstruktion im Alt- und Mitteliranischen (2015)",
+      "category": "Scholarly grammar monograph; publisher synopsis inspected",
+      "author": "Thomas Jügel",
+      "institution": "Ruhr University Bochum; earlier doctoral research at Goethe University Frankfurt",
+      "source_url": "https://www.harrassowitz-verlag.de/Die_Entwicklung_der_Ergativkonstruktion_im_Alt-_und_Mitteliranischen/title_1085.ahtml",
+      "credential_url": "https://ceres.rub.de/de/person/tjuegel/",
+      "primary_evidence": "Publisher describes corpus-based analysis of approximately 12,500 Middle Persian examples, treating case, agreement, word order, omitted constituents, reflexivity, tense/aspect and enclitic pronouns.",
+      "translation_implication": "Use corpus-attested grammatical analyses and counterexamples when adjudicating who did what; do not import Modern Persian parsing assumptions wholesale.",
+      "limitations": "Only public synopsis/bibliography inspected, not the complete book. The numerical count is scholarly examples, not parallel translation pairs.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH08",
+      "title": "Zoroastrian ritual and exegetical traditions: the case of the Iranian Pahlavi Yasna",
+      "category": "Original text-critical research with translations",
+      "author": "Mehrbod Khanizadeh",
+      "institution": "SOAS University of London",
+      "source_url": "https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/zoroastrian-ritual-and-exegetical-traditions-the-case-of-the-iranian-pahlavi-yasna/D862FF6E8BFF7892D1A2828D04DC1768",
+      "credential_url": "https://www.soas.ac.uk/about/mehrbod-khanizadeh",
+      "primary_evidence": "Re-examines colophons through variant witnesses, parallels, syntax and context. An omitted object with nibišt ēstād permits active interpretation; competing reflexive antecedents alter who copied a text.",
+      "translation_implication": "Keep alternative parses, coreference and supplied words visible, and cite the textual evidence used to choose among them.",
+      "limitations": "These are argued scholarly interpretations of particular passages, not universal parsing rules. Journal issue is 2021; online publication is 2022.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH09",
+      "title": "EXEGESIS i. In Zoroastrianism",
+      "category": "Authored scholarly encyclopedia: translation and commentary",
+      "author": "Philip G. Kreyenbroek",
+      "institution": "University of Göttingen, former Professor and Director of Iranian Studies",
+      "source_url": "https://www.iranicaonline.org/articles/exegesis-i/",
+      "credential_url": "https://www5.uni-goettingen.de/en/133087.html",
+      "primary_evidence": "Zand can preserve Avestan word order and fixed lexical renderings unlike idiomatic Middle Persian; explanatory comments and different teachers' judgments can coexist in the transmitted text.",
+      "translation_implication": "Label quotation, inherited translation, paraphrase and commentary; preserve speaker/authority and disagreement rather than synthesizing one doctrinal statement.",
+      "limitations": "Historical explanations are scholarly reconstruction. The task is to translate the supplied Pahlavi interpretation, not silently replace it with a modern Avestan translation.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH10",
+      "title": "MĀDAYĀN Ī HAZĀR DĀDESTĀN",
+      "category": "Authored scholarly encyclopedia by specialist editor: legal philology",
+      "author": "Maria Macuch",
+      "institution": "Freie Universität Berlin, Institute of Iranian Studies",
+      "source_url": "https://www.iranicaonline.org/articles/madayan-i-hazar-dadestan/",
+      "credential_url": "https://www.geschkult.fu-berlin.de/en/e/iranistik/mitarbeiter/ehemalige/macuch/index.html",
+      "primary_evidence": "The lawbook has a single incomplete manuscript, disturbed folio order, technical vocabulary and complex ambiguous syntax. Actual/hypothetical cases and competing juristic opinions are presented together. Distinguishes property substance from usufruct in different pledge institutions.",
+      "translation_implication": "Record witness/order, hypothetical scope, legal roles and institutional definitions. Preserve distinctions that familiar English or Farsi labels can erase.",
+      "limitations": "A specialist legal corpus differs from other Pahlavi genres; single-witness uncertainty cannot always be resolved by collation.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH11",
+      "title": "MIDDLE PERSIAN i. Pahlavi Literature",
+      "category": "Authored scholarly encyclopedia: genres and transmission",
+      "author": "Carlo Giovanni Cereti",
+      "institution": "Sapienza University of Rome, full professor of Iranian Philology, Religions and History",
+      "source_url": "https://www.iranicaonline.org/articles/middle-persian/pahlavi-literature/",
+      "credential_url": "https://corsidilaurea.uniroma1.it/docente/4fbaf7c4c3ab545ff0f8cef63b083c3809d1931bee537972667254ac",
+      "primary_evidence": "Describes religious, didactic, wisdom and courtly texts, differing styles and manuscript dependence. Later compilations preserve earlier material; genre boundaries are not always sharp.",
+      "translation_implication": "Tag genre, textual layer and date range independently. Use register-sensitive senses and references rather than one style for every work.",
+      "limitations": "A survey is not an authoritative edition of each passage. Composition, compilation and manuscript-copy dates must not be conflated.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "PH12",
+      "title": "GĒTĪG AND MĒNŌG",
+      "category": "Authored scholarly encyclopedia: religious conceptual semantics",
+      "author": "Shaul Shaked",
+      "institution": "Hebrew University of Jerusalem, former professor",
+      "source_url": "https://www.iranicaonline.org/articles/getig-and-menog/",
+      "credential_url": "https://iias.huji.ac.il/people/shaul-shaked",
+      "primary_evidence": "Explains visible/material and invisible/mental modes of existence, their changing relations and textual variation. The distinction is not simply the identification of matter with evil found in some other systems.",
+      "translation_implication": "Maintain domain concepts and context-specific renderings; avoid importing a modern or neighboring religion's conceptual opposition.",
+      "limitations": "Terminology varies across texts and periods. A general theological summary cannot override an individual passage's evidence.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "philology-requirements.json"
+    },
+    {
+      "id": "IM01",
+      "title": "Machine Learning for Ancient Languages: A Survey",
+      "category": "survey",
+      "authors": "Sommerschield et al.",
+      "institution": "Affiliations in the 2023 paper; Oxford publication record verified",
+      "source_url": "https://aclanthology.org/2023.cl-3.5/",
+      "primary_evidence": "Survey separates restoration, attribution, linguistic analysis, translation and decipherment; translation references were followed to Sumerian and H2KE.",
+      "proposed_use": "Borrow task taxonomy and interdisciplinary design; evaluate translation as its own task.",
+      "limitations": "2023 survey is a starting map, not exhaustive coverage of 2026.",
+      "artifact_url": "https://github.com/ancientml/ml-for-ancient-languages",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM02",
+      "title": "Neural Decipherment via Minimum-Cost Flow: From Ugaritic to Linear B",
+      "category": "decipherment",
+      "authors": "Jiaming Luo, Yuan Cao, Regina Barzilay",
+      "institution": "MIT CSAIL and Google Brain at publication",
+      "source_url": "https://people.csail.mit.edu/j_luo/assets/publications/NeuroDecipher.pdf",
+      "primary_evidence": "2019 cognate/character-mapping experiments; repository README, datasets and configuration layout inspected.",
+      "proposed_use": "Use phonological and lexical constraints when representations are uncertain.",
+      "limitations": "Not passage translation. Historical-language cognate accuracy does not validate Pahlavi meaning. Old dependencies; root license not verified.",
+      "artifact_url": "https://github.com/j-luo93/NeuroDecipher",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM03",
+      "title": "Electronic Babylonian Literature",
+      "category": "digital_philology",
+      "authors": "Enrique Jimenez and eBL team",
+      "institution": "Ludwig Maximilian University of Munich",
+      "source_url": "https://www.assyriologie.uni-muenchen.de/forschung/ebl/index.html",
+      "primary_evidence": "Official project describes a corpus of scholarly editions, translations and lexical indexing, with fragment matching; public ebl-api source and MIT software license inspected.",
+      "proposed_use": "Model editions, witnesses, lexical links and source provenance; retrieval should return scholarship rather than unsupported consensus.",
+      "limitations": "Akkadian/Sumerian project; fragment matching is not a general translation engine. Software license is not a blanket data license.",
+      "artifact_url": "https://github.com/ElectronicBabylonianLiterature/ebl-api",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM04",
+      "title": "Coptic Scriptorium and coptic-nlp",
+      "category": "linguistic_pipeline",
+      "authors": "Amir Zeldes and Coptic Scriptorium collaborators",
+      "institution": "Georgetown University project/grant pages verified",
+      "source_url": "https://copticscriptorium.org/documentation",
+      "primary_evidence": "Documentation exposes original/normalized tokens, lemmas, POS, syntax, translation and translator layers; public processing pipeline inspected at README level.",
+      "proposed_use": "Keep linguistic representations, English translation and provenance aligned; annotate useful multiword expressions and roles.",
+      "limitations": "Tools target Coptic. Automatic annotation needs validation in Pahlavi; corpus licenses are component-specific.",
+      "artifact_url": "https://github.com/CopticScriptorium/coptic-nlp",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM05",
+      "title": "Syntax as a Rosetta Stone: Using Syntactic Structure for In-Context Ancient Language Translation",
+      "category": "reference_guided_translation",
+      "authors": "Paper author list at primary source",
+      "institution": "Georgetown-linked research repository",
+      "source_url": "https://arxiv.org/html/2604.18758v1",
+      "primary_evidence": "2026 Coptic experiments add dictionary and verbalized dependency information to LLM prompts; code repository and experiment layout inspected.",
+      "proposed_use": "Test verified lexical and syntactic evidence with the same base model, including automatic-versus-expert annotations.",
+      "limitations": "No Pahlavi test; paper acknowledges absent human evaluation and unvalidated metrics. Metric reference-shape concern sent for separate source audit.",
+      "artifact_url": "https://github.com/gucorpling/in-context-coptic-translation",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM06",
+      "title": "Coptic-French neural translation experiments",
+      "category": "historical_nmt",
+      "authors": "Authors listed in primary paper",
+      "institution": "Author repository; LREC 2026 workshop listing checked",
+      "source_url": "https://arxiv.org/html/2508.10683v1",
+      "primary_evidence": "Pretrained NMT adapted on biblical parallel text with alternate French translations and book-level test split; public data preparation/experiment/checkpoint references inspected.",
+      "proposed_use": "Compare translation-specialized adaptation, alternate valid targets and explicit representation choices.",
+      "limitations": "Bible-domain and automatic-metric results; public books may be present in foundation pretraining. Related-language and architecture effects not isolated.",
+      "artifact_url": "https://github.com/chaouin/coptic-french-nmt",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM07",
+      "title": "Sanskrit Linguistics Web Services",
+      "category": "structured_linguistic_tools",
+      "authors": "Gerard Huet and Amba Kulkarni",
+      "institution": "Inria Paris-Rocquencourt and University of Hyderabad, as listed in paper",
+      "source_url": "https://gallium.inria.fr/~huet/PUBLIC/C14-2011.pdf",
+      "primary_evidence": "COLING 2014 demonstration paper describes interoperable lexicons, morphology, segmentation and dependency analysis with human selection among alternatives.",
+      "proposed_use": "Constrain possible readings with lexical and grammatical evidence; retain alternative analyses rather than word substitution.",
+      "limitations": "Sanskrit-specific resources are not directly reusable Pahlavi grammar. Described tools do not demonstrate full Pahlavi translation.",
+      "artifact_url": "https://gallium.inria.fr/~huet/PUBLIC/COLING_2012.pdf",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM08",
+      "title": "Towards the First Machine Translation System for Sumerian Transliterations",
+      "category": "historical_nmt",
+      "authors": "Ravneet Punia, Niko Schenk, Christian Chiarcos, Emilie Page-Perron",
+      "institution": "DTU, Amazon, Goethe University, University of Toronto at publication",
+      "source_url": "https://aclanthology.org/2020.coling-main.308.pdf",
+      "primary_evidence": "2020 study: 10,147 unique phrase pairs, short administrative material, neural/phrase-based comparisons; linked repository training layout and reported results inspected.",
+      "proposed_use": "Start with explicit domain/task limits and compare simple transfer baselines; assess whether gains survive longer unfamiliar passages.",
+      "limitations": "Average 2.8 source tokens limits passage generalization. Paper removed conflicting translations; Pahlavi alternatives must instead be adjudicated. Repository's later corpus update is distinct from paper data.",
+      "artifact_url": "https://github.com/cdli-gh/Machine-Translation",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "IM09",
+      "title": "Translating Hanja Historical Documents to Contemporary Korean and English",
+      "category": "historical_multitarget_nmt",
+      "authors": "Juhee Son, Jiho Jin, Haneul Yoo, Jin Yeong Bak, Kyunghyun Cho, Alice Oh",
+      "institution": "KAIST, Sungkyunkwan, NYU/Genentech at publication",
+      "source_url": "https://aclanthology.org/2022.findings-emnlp.91.pdf",
+      "primary_evidence": "Shared multilingual Transformer uses 359,726 older-Korean parallel pairs plus 14,356 contemporary-Korean and 26,227 English pairs; 45 short samples assessed by six ITKC experts.",
+      "proposed_use": "Joint English/Farsi supervision and historical-to-modern reference transfer are credible candidates; use domain experts separately from fluency raters.",
+      "limitations": "Expert evaluation supports a narrow Korean sample, not all directions or Pahlavi. Adding target tasks can also hurt. Public demo does not establish a turnkey training release.",
+      "artifact_url": "https://juheeuu.github.io/h2ke-demo/",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary-source research and static inspection; no local replication",
+      "source_record_file": "interdisciplinary-methods.json"
+    },
+    {
+      "id": "MT01",
+      "title": "MITRA historical Buddhist language adaptation",
+      "category": "historical_translation",
+      "source_url": "https://arxiv.org/html/2601.06400v1",
+      "primary_evidence": "Domain adaptation of Gemma 2 9B: 4.4B-token dataset, two pretraining epochs, reported eight A100 GPUs for four weeks; supervised translation instructions afterward.",
+      "proposed_use": "Strong precedent for substantial historical-language adaptation, including document instructions.",
+      "limitations": "Not Pahlavi; largely model-judged translation evaluation; reported compute is precedent, not Pahlavi minimum.",
+      "related_urls": [
+        "https://huggingface.co/buddhist-nlp/gemma-2-mitra-it",
+        "https://github.com/dharmamitra/mitra-parallel"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT02",
+      "title": "Machine Translation from One Book",
+      "category": "reference_guided_translation",
+      "source_url": "https://github.com/lukemelas/mtob",
+      "primary_evidence": "Released grammar/dictionary/example-driven translation task for Kalamang.",
+      "proposed_use": "Compare strong-model in-context learning against adaptation.",
+      "limitations": "Kalamang is not Pahlavi; public benchmark may become contaminated.",
+      "related_urls": [
+        "https://arxiv.org/html/2403.05530v5"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT03",
+      "title": "XLR-MTOB / Aycock grammar-book adaptation study",
+      "category": "adaptation_ablation",
+      "source_url": "https://arxiv.org/html/2409.19151v2",
+      "primary_evidence": "NLLB adaptation on 1,239 grammar-book sentence pairs and an additional authentic-pair ablation; some back-translation directions worsened.",
+      "proposed_use": "Treat aligned examples, grammatical prose and synthetic data as separate interventions.",
+      "limitations": "Small test without proficient-speaker evaluation; inspected code contains hardcoded target-language/BOS and incomplete scratch paths requiring repair.",
+      "related_urls": [
+        "https://github.com/Sethjsa/XLR-MTOB"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT04",
+      "title": "DiPMT++ / ZhuangBench",
+      "category": "lexicon_guided_translation",
+      "source_url": "https://aclanthology.org/2024.findings-acl.519.pdf",
+      "primary_evidence": "Zhuang-Chinese dictionary expansion and retrieved translation demonstrations improve reported Qwen-72B translation results.",
+      "proposed_use": "Test verified dictionary hints and retrieved examples with a strong base model.",
+      "limitations": "No Pahlavi evaluation; small benchmark; evidence quality determines usefulness.",
+      "related_urls": [
+        "https://github.com/luciusssss/ZhuangBench"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT05",
+      "title": "GrammaMT",
+      "category": "gloss_guided_translation",
+      "source_url": "https://aclanthology.org/2025.acl-long.1447/",
+      "primary_evidence": "Interlinear gloss information used as intermediate linguistic support.",
+      "proposed_use": "Compare expert glosses against generated glosses, with equal model and prompt budget.",
+      "limitations": "Do not confuse with GrammarMT augmentation paper; self-generated glosses are not ground truth.",
+      "related_urls": [],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT06",
+      "title": "GrammarMT (2026 synthetic augmentation study)",
+      "category": "synthetic_supervision",
+      "source_url": "https://arxiv.org/html/2607.22376v2",
+      "primary_evidence": "Seed-based variants help some languages/configurations and harm others; strongest Kalamang ICL baseline exceeds best synthetic result in inspected comparison.",
+      "proposed_use": "Targeted expert-checked composition augmentation, evaluated by language and direction.",
+      "limitations": "Corpus-count inconsistencies and script/paper sampling differences noted; no Pahlavi proof.",
+      "related_urls": [
+        "https://github.com/varunghat/GrammarMT"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT07",
+      "title": "AmericasNLP 2026 PEFT NMT comparison",
+      "category": "adaptation_comparison",
+      "source_url": "https://aclanthology.org/2026.americasnlp-6.4.pdf",
+      "primary_evidence": "NLLB600M full tuning and OFT outperform reported LoRA average across 13 languages, many unsupported by base model.",
+      "proposed_use": "Keep full tuning and broad-module parameter-efficient methods eligible.",
+      "limitations": "LoRA versus OFT module placement confounds a universal ranking; initial ByT5 comparison is limited.",
+      "related_urls": [
+        "https://github.com/drewstackhouse/peft-nmt-americas"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT08",
+      "title": "MAFAND / LAFAND transfer study",
+      "category": "domain_adaptation",
+      "source_url": "https://aclanthology.org/2022.naacl-main.223.pdf",
+      "primary_evidence": "Multilingual pretrained models adapted with 2,500 in-domain pairs can outperform much larger out-of-domain bilingual training.",
+      "proposed_use": "Corpus domain and pretrained translation capability can matter more than raw pair count.",
+      "limitations": "Language/direction variation; no universal minimum or Pahlavi guarantee.",
+      "related_urls": [
+        "https://github.com/masakhane-io/lafand-mt"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT09",
+      "title": "PARME unsupported Iranian-language translation",
+      "category": "related_language_transfer",
+      "source_url": "https://sinaahmadi.github.io/docs/articles/ahmadi2025parme.pdf",
+      "primary_evidence": "NLLB600M adapted to eight unsupported Iranian languages; reported improvement over zero-shot with 1,000-pair and larger-data conditions.",
+      "proposed_use": "Test related-language initialization/transfer and explicit language tags.",
+      "limitations": "Low absolute scores; appendix train-split ambiguity for two languages unresolved.",
+      "related_urls": [
+        "https://github.com/DOLMA-NLP/PARME"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT10",
+      "title": "Deep Past second-place solution",
+      "category": "competition_author_report",
+      "source_url": "https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/writeups/2nd-place-data-centric-akkadian-nmt",
+      "primary_evidence": "ByT5-large, substantial external scholarly pairs, teacher-assisted alignment and context chunks; one morphology-to-translation synthetic recipe harmed scores.",
+      "proposed_use": "Prioritize authentic translation alignment and context; treat invented labels separately.",
+      "limitations": "Author report, not independent replication; competition genre and scoring differ from Pahlavi use.",
+      "related_urls": [],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT11",
+      "title": "Deep Past first-place solution",
+      "category": "competition_author_report",
+      "source_url": "https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/writeups/dpc-1st-data-quality-dictates-everything",
+      "primary_evidence": "ByT5-XL and eleven-model ensemble with MBR; author also reports a competitive single model.",
+      "proposed_use": "Large byte-level models and ensembles remain quality candidates.",
+      "limitations": "Do not infer that ensemble size is necessary or that private competition score measures general philology.",
+      "related_urls": [],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT12",
+      "title": "Deep Past ninth-place training source audit",
+      "category": "static_code_audit",
+      "source_url": "https://github.com/Eleftheria14/Deep_Past_Gold_Solution/blob/main/training/train_finetune.py",
+      "primary_evidence": "Inspected code reverses/augments/upsamples before random validation split.",
+      "proposed_use": "Split text and translation families before any derived examples.",
+      "limitations": "Potential internal derivative overlap, not measured leakage or allegation about private leaderboard.",
+      "related_urls": [
+        "https://github.com/Eleftheria14/Deep_Past_Gold_Solution/blob/main/docs/solution_writeup.md"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Direct static inspection; no execution",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MT13",
+      "title": "LoRA Without Regret",
+      "category": "primary_experimental_blog",
+      "source_url": "https://thinkingmachines.ai/blog/lora/",
+      "primary_evidence": "Adapter rank, placement, learning rate and batch size materially affect supervised/reinforcement experiments.",
+      "proposed_use": "A failed narrow LoRA does not settle broader adaptation methods.",
+      "limitations": "Study tasks are not novel ancient-language translation; no universal full-tuning replacement claim.",
+      "related_urls": [],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MO01",
+      "title": "Hy-MT2-30B-A3B",
+      "category": "translation_model",
+      "source_url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+      "primary_evidence": "Official translation model/card; modern Persian listed; training YAML inspected with full-SFT/ZeRO3 configuration.",
+      "proposed_use": "Large translation specialist eligible for Pahlavi adaptation comparison.",
+      "limitations": "No verified Pahlavi support; 30B stored parameters despite 3B active; demo data cap and commented validation must not be copied.",
+      "related_urls": [
+        "https://github.com/Tencent-Hunyuan/Hy-MT2/blob/main/train/llama_factory_support/hy_dense_7b_full_sft.yaml"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-translation-model-audit.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MO02",
+      "title": "TranslateGemma 27B",
+      "category": "translation_model",
+      "source_url": "https://huggingface.co/google/translategemma-27b-it",
+      "primary_evidence": "Official gated model card and language/template interface inspected.",
+      "proposed_use": "Independent translation-specialized contender.",
+      "limitations": "Stock language-code validation and 2K context constrain direct use; deliberate Pahlavi support needed; Gemma license.",
+      "related_urls": [],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-translation-model-audit.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MO03",
+      "title": "Tower Plus 72B",
+      "category": "translation_model",
+      "source_url": "https://huggingface.co/Unbabel/Tower-Plus-72B",
+      "primary_evidence": "Large translation model trained with domain/instruction/post-edit preference stages.",
+      "proposed_use": "Compare large transfer model and use expert post-edits as supervision.",
+      "limitations": "Neither Persian nor Pahlavi listed; inconsistent noncommercial labels need resolution; no Pahlavi benchmark.",
+      "related_urls": [
+        "https://arxiv.org/html/2506.17080v1"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-translation-model-audit.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MO04",
+      "title": "MiLMMT-46 12B / gemmax",
+      "category": "translation_model",
+      "source_url": "https://github.com/xiaomi-research/gemmax",
+      "primary_evidence": "Released supervised and post-trained models; modern Persian included; actual reference-free reward and scoring code inspected.",
+      "proposed_use": "Compare SFT and RL checkpoints and potentially reuse pipeline after validation.",
+      "limitations": "Pahlavi absent; references unused by inspected reward; optimization/evaluation metric-family overlap is not independent meaning evidence.",
+      "related_urls": [
+        "https://arxiv.org/html/2608.10812v2",
+        "https://raw.githubusercontent.com/xiaomi-research/gemmax/main/scripts/rl/rewards/mt_dual_comet_reward.py"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-translation-model-audit.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "MO05",
+      "title": "Seed-X-7B",
+      "category": "translation_model",
+      "source_url": "https://github.com/ByteDance-Seed/Seed-X-7B",
+      "primary_evidence": "Translation/reward release; target-language suffix interface and scalar EOS scorer inspected.",
+      "proposed_use": "Additional specialist and candidate-selection baseline.",
+      "limitations": "Pahlavi reward competence unverified; use documented suffix rather than generic chat template.",
+      "related_urls": [
+        "https://raw.githubusercontent.com/ByteDance-Seed/Seed-X-7B/main/RM_demo.py"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-translation-model-audit.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "RS01",
+      "title": "GPU memory accounting",
+      "category": "resource_method",
+      "source_url": "https://huggingface.co/docs/transformers/model_memory_anatomy",
+      "primary_evidence": "Official documentation separates weights, optimizer states, gradients, activations and transient overhead.",
+      "proposed_use": "Calculate raw BF16 weight floor at 2 bytes/parameter; profile actual sequence length and batch before reserving hardware.",
+      "limitations": "Full-training estimates depend on precision, optimizer, sharding and offload; weights-only numbers are not fit guarantees.",
+      "related_urls": [],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary author/source report; no local Pahlavi replication",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "RS02",
+      "title": "H100 hardware specifications",
+      "category": "hardware_specification",
+      "source_url": "https://www.nvidia.com/en-us/data-center/h100/",
+      "primary_evidence": "Official H100 SXM 80GB and H100 NVL 94GB specifications inspected.",
+      "proposed_use": "Use named 80GB/94GB configurations as illustrative capacity envelopes.",
+      "limitations": "No measured Pahlavi throughput, pricing or purchase recommendation; interconnected GPU memory requires supported sharding.",
+      "related_urls": [],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Manufacturer specification",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "DL01",
+      "title": "Reddit low-resource translation and fine-tuning discussions",
+      "category": "discussion_leads",
+      "source_url": "https://www.reddit.com/r/LanguageTechnology/comments/vyf2rf/",
+      "primary_evidence": "Six inspected discussions are documented in deep-practical-evidence.md; useful pointers include the primary LoRA study and NLLB author discussion.",
+      "proposed_use": "Use practitioner failure modes as hypotheses to check against primary work.",
+      "limitations": "Anecdotes provide no controlled Pahlavi success evidence and are not used to rank technical methods.",
+      "related_urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1nturn1/full_finetuning_is_not_needed_anymore/",
+        "https://www.reddit.com/r/MachineLearning/comments/w4jg7q/"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Anecdotal discovery leads",
+      "detail_note": "deep-research-synthesis.md",
+      "source_record_file": "methods-and-models.json"
+    },
+    {
+      "id": "EVAL-01",
+      "title": "Experts, Errors, and Context: A Large-Scale Study of Human Evaluation for Machine Translation",
+      "category": "expert_evaluation",
+      "authors": [
+        "Markus Freitag",
+        "George Foster",
+        "David Grangier",
+        "Viresh Ratnakar",
+        "Qijun Tan",
+        "Wolfgang Macherey"
+      ],
+      "institution": "Google Research",
+      "source_url": "https://aclanthology.org/2021.tacl-1.87.pdf",
+      "primary_evidence": "TACL 2021 study uses professional MQM raters, full document context, anonymized systems and randomized presentation. Expert-derived rankings differ from crowd rankings. Full paper inspected.",
+      "proposed_use": "Adapt error-span annotation, reviewer calibration and blinded paired evaluation to Pahlavi.",
+      "limitations": "English-German and Chinese-English evidence; no Pahlavi validation. Expert agreement is imperfect. Reported study, not independently replicated here.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-02",
+      "title": "Evaluating LLM-Based Translation of a Low-Resource Technical Language: The Medical and Philosophical Greek of Galen",
+      "category": "ancient_language_expert_evaluation",
+      "authors": [
+        "James L. Zainaldin",
+        "Cameron Pattison",
+        "Manuela Marai",
+        "Jacob Wu",
+        "Mark J. Schiefsky"
+      ],
+      "institution": "Vanderbilt University; Harvard University Center for Hellenic Studies and Classics; Australian National University MINT Lab; independent researcher",
+      "source_url": "https://arxiv.org/pdf/2602.24119v2",
+      "primary_evidence": "April 2026 preprint revision: 60 blinded translations of 20 paragraphs from two Galenic works; expert modified MQM and seven automatic metrics. Rare technical passages concentrate catastrophic errors. Full paper inspected.",
+      "proposed_use": "Stratify Pahlavi tests by terminology rarity and genre; record serious semantic errors separately from mean quality.",
+      "limitations": "Two works and small sample; rarity correlation strongly influenced by two passages. Ancient Greek is not Pahlavi; no independent replication here.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-03",
+      "title": "MITRA-zh-eval: Using a Buddhist Chinese Language Evaluation Dataset to Assess Machine Translation and Evaluation Metrics",
+      "category": "ancient_language_metric_calibration",
+      "authors": [
+        "Sebastian Nehrdich",
+        "Avery Chen",
+        "Marcus Bingenheimer",
+        "Lu Huang",
+        "Rouying Tang",
+        "Xiang Wei",
+        "Leijie Zhu",
+        "Kurt Keutzer"
+      ],
+      "institution": "University of California Berkeley BAIR; Temple University; Heinrich Heine University Düsseldorf",
+      "source_url": "https://aclanthology.org/2025.nlp4dh-1.12.pdf",
+      "primary_evidence": "2025 paper compares metrics against 182 outputs rated by five subject specialists; average pairwise rater Spearman correlation 0.4. GEMBA performs best in their calibration. Human calibration excludes the judge model's outputs.",
+      "proposed_use": "Calibrate any automated Pahlavi judge against qualified independent judgments before using it for selection.",
+      "limitations": "Authors report no specific annotator training; modest agreement and beginning-of-text sampling. This supports conditional judge usefulness, not universal validity. No replication here.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-04",
+      "title": "COMET for Low-Resource Machine Translation Evaluation: A Case Study of English-Maltese and Spanish-Basque",
+      "category": "metric_language_coverage",
+      "authors": [
+        "Júlia Falcão",
+        "Claudia Borg",
+        "Nora Aranberri",
+        "Kurt Abela"
+      ],
+      "institution": "University of Malta; HiTZ Center, University of the Basque Country",
+      "source_url": "https://aclanthology.org/2024.lrec-main.315.pdf",
+      "primary_evidence": "LREC-COLING2024 paper tests unsupported or weakly supported language settings against human judgments; metric fine-tuning can help, but sensitivity to training-score distributions and inconsistent gains remain.",
+      "proposed_use": "Treat Pahlavi COMET as an uncalibrated diagnostic until rank and serious-error detection are measured.",
+      "limitations": "Case studies do not establish Pahlavi behavior. Encoder language coverage differs from quality-estimation training coverage. Full paper inspected; not replicated.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-05",
+      "title": "COMET official documentation: Languages Covered and Interpreting Scores",
+      "category": "implementation_documentation",
+      "authors": [
+        "Unbabel COMET maintainers"
+      ],
+      "institution": "Unbabel",
+      "source_url": "https://github.com/Unbabel/COMET",
+      "primary_evidence": "Official README explicitly warns that uncovered language pairs produce unreliable results. Its listed XLM-R language coverage includes Persian, but not Pahlavi/Middle Persian. Model-specific scoring and comparison interfaces are documented.",
+      "proposed_use": "Record metric checkpoint/version and coverage; never interpret a high unvalidated score as a percentage of correct Pahlavi meaning.",
+      "limitations": "README inspection only; no metric inference or source-code execution. Persian support cannot be equated with historical Middle Persian support.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-06",
+      "title": "On Compositional Generalization of Neural Machine Translation; CoGnition",
+      "category": "compositional_generalization",
+      "authors": [
+        "Yafu Li",
+        "Yongjing Yin",
+        "Yulong Chen",
+        "Yue Zhang"
+      ],
+      "institution": "Zhejiang University; Westlake University; Westlake Institute for Advanced Study",
+      "source_url": "https://aclanthology.org/2021.acl-long.368/",
+      "primary_evidence": "ACL2021 benchmark separately tests novel compounds and ordinary test sentences; standard translation scores can hide compound errors. Public repository README supplies dataset splits and evaluation entry point at github.com/yafuly/CoGnition.",
+      "proposed_use": "Create expert-validated Pahlavi novel-combination families and score the changed proposition directly.",
+      "limitations": "English-Chinese construction, not a Pahlavi test. Repository README inspected; evaluation Python source retrieval failed and no code ran.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-07",
+      "title": "Measuring Compositional Generalization: A Comprehensive Method on Realistic Data",
+      "category": "compositional_split_design",
+      "authors": [
+        "Daniel Keysers",
+        "Nathanael Schärli",
+        "Nathan Scales",
+        "Hylke Buisman",
+        "Daniel Furrer",
+        "Sergii Kashubin",
+        "Nikola Momchev",
+        "Danila Sinopalnikov",
+        "Lukasz Stafiniak",
+        "Tibor Tihon",
+        "Dmitry Tsarkov",
+        "Xiao Wang",
+        "Marc van Zee",
+        "Olivier Bousquet"
+      ],
+      "institution": "Google Research Brain Team",
+      "source_url": "https://arxiv.org/pdf/1912.09713",
+      "primary_evidence": "ICLR2020 DBCA constructs partitions with similar distributions of atomic elements but different compound distributions. Demonstrated on CFQ semantic parsing/question answering.",
+      "proposed_use": "Separate vocabulary unfamiliarity from unfamiliar combinations; document atom and combination exposure in diagnostic splits.",
+      "limitations": "CFQ is not ordinary translation. Pahlavi atoms and grammatical compounds need defensible annotation; arbitrary string swaps do not implement DBCA.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-08",
+      "title": "Evaluation and Large-scale Training for Contextual Machine Translation",
+      "category": "document_context_evaluation",
+      "authors": [
+        "Matt Post",
+        "Marcin Junczys-Dowmunt"
+      ],
+      "institution": "Microsoft",
+      "source_url": "https://aclanthology.org/2024.wmt-1.112.pdf",
+      "primary_evidence": "WMT2024 compares contextual training/inference and tests both contrastive scoring and actual generation. Contrastive preference is only a proxy for generating the contextually correct form; context-dense evaluation reveals otherwise small gains.",
+      "proposed_use": "Evaluate real translated outputs under correct, removed and misleading context, including referents and ellipsis.",
+      "limitations": "Modern language pairs; no Pahlavi result. Generated neighboring translations and gold target context are distinct conditions. Paper inspected; no execution.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-09",
+      "title": "When Flores Bloomz Wrong: Cross-Direction Contamination in Machine Translation Evaluation",
+      "category": "contamination_and_lineage",
+      "authors": [
+        "David Tan",
+        "Pinzhen Chen",
+        "Josef van Genabith",
+        "Koel Dutta Chowdhury"
+      ],
+      "institution": "Saarland University; Queen's University Belfast; DFKI; University of Edinburgh",
+      "source_url": "https://aclanthology.org/2026.eacl-short.26.pdf",
+      "primary_evidence": "EACL2026 study demonstrates target-side memorization can inflate other translation directions; source paraphrasing and entity changes do not reliably remove memorized-reference effects.",
+      "proposed_use": "Group all directions, translations and derived samples by passage/work lineage before partitioning; probe memorization separately.",
+      "limitations": "Bloomz/FLORES case study is not proof a particular Pahlavi model is contaminated. Foundation-model corpus exposure cannot be fully certified here.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-10",
+      "title": "When LLMs Struggle: Reference-less Translation Evaluation for Low-resource Languages",
+      "category": "llm_judge_validity",
+      "authors": [
+        "Archchana Sindhujan",
+        "Diptesh Kanojia",
+        "Constantin Orăsan",
+        "Shenbin Qian"
+      ],
+      "institution": "University of Surrey Institute for People-Centred AI and Centre for Translation Studies",
+      "source_url": "https://aclanthology.org/2025.loreslm-1.33.pdf",
+      "primary_evidence": "LoResLM2025 tests prompting and instruction-tuning for quality estimation; prompt-based LLM approaches are outperformed by fine-tuned encoder-based QE, with transliteration and named-entity failures.",
+      "proposed_use": "Test judges on controlled semantic corruptions and correct paraphrases, independently of translator selection.",
+      "limitations": "Studied modern low-resource directions and contemporary checkpoints; not proof all future LLM judges fail. No Pahlavi judge validation or replication here.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-11",
+      "title": "Statistical Power and Translationese in Machine Translation Evaluation",
+      "category": "sampling_and_direction",
+      "authors": [
+        "Yvette Graham",
+        "Barry Haddow",
+        "Philipp Koehn"
+      ],
+      "institution": "Trinity College Dublin ADAPT; University of Edinburgh; Johns Hopkins University",
+      "source_url": "https://aclanthology.org/2020.emnlp-main.6.pdf",
+      "primary_evidence": "EMNLP2020 shows source-original versus reverse-created test material can change conclusions and cautions that low-powered nonsignificant comparisons do not establish human parity.",
+      "proposed_use": "Mark original composition language; distinguish translating natural English/Farsi into Pahlavi from reconstructing a Pahlavi original from its scholarly translation. Plan precision before acceptance.",
+      "limitations": "Do not infer a universal sample size. Reverse pairs can be useful training and reconstruction tests, but represent a different evaluation population.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "EVAL-12",
+      "title": "Statistical Significance Tests for Machine Translation Evaluation",
+      "category": "paired_uncertainty",
+      "authors": [
+        "Philipp Koehn"
+      ],
+      "institution": "MIT Computer Science and Artificial Intelligence Laboratory",
+      "source_url": "https://aclanthology.org/W04-3250.pdf",
+      "primary_evidence": "EMNLP2004 primary paper describes paired bootstrap comparisons and tests their behavior for BLEU. Provides a foundational uncertainty method for comparing systems on shared examples.",
+      "proposed_use": "Compare candidates on identical items; extend resampling to independent work/passage-family clusters for this project.",
+      "limitations": "Cluster resampling is our design extension, not a claim that this paper validated Pahlavi human scores. Small numbers of independent works still limit inference.",
+      "checked_date": "2026-09-25",
+      "source_record_file": "evaluation-evidence.json"
+    },
+    {
+      "id": "AM01",
+      "title": "LingoLLM / Hire a Linguist!",
+      "category": "reference-guided translation",
+      "authors": [
+        "Kexun Zhang",
+        "Yee Man Choi",
+        "Zhenqiao Song",
+        "Taiqi He",
+        "William Yang Wang",
+        "Lei Li"
+      ],
+      "source_url": "https://aclanthology.org/2024.findings-acl.925/",
+      "primary_evidence": "Primary paper describes dictionary, grammar and morphological evidence; repository README exposes direct/few-shot/dictionary modes.",
+      "proposed_use": "Test independently verified language knowledge with matched strong-model prompts.",
+      "limitations": "Manchu-specific dictionary acquisition and incomplete release documentation; implementation files and revisions were not inspected in this lane; no Pahlavi validation.",
+      "related_urls": [
+        "https://github.com/LeiLiLab/LingoLLM"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary paper or artifact documentation; no local model execution",
+      "detail_note": "deep-ancient-methods.md",
+      "source_record_file": "ancient-additional-records.json"
+    },
+    {
+      "id": "AM02",
+      "title": "PahGen: Generating Ancient Pahlavi Text via Grammar-guided Zero-shot Translation",
+      "category": "direct Pahlavi research",
+      "authors": [
+        "Farhan Farsi",
+        "Parnian Fazel",
+        "Farzaneh Goshtasb",
+        "Nadia Hajipour",
+        "Sadra Sabouri",
+        "Ehsaneddin Asgari",
+        "Hossein Sameti"
+      ],
+      "source_url": "https://aclanthology.org/2025.loresmt-1.16/",
+      "primary_evidence": "English-to-Pahlavi grammar-guided LLM framework and expert-validated synthetic dataset; inspected paper and release distinction.",
+      "proposed_use": "Task-specific baseline and contact/bibliography lead for subsequent authorized collaboration.",
+      "limitations": "Narrow vocabulary-filtered evaluation; paper/release count discrepancy remains; dataset release is not a pretrained translation model. No contact made.",
+      "related_urls": [
+        "https://huggingface.co/datasets/PahGen/Parsig-English"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary paper or artifact documentation; no local model execution",
+      "detail_note": "deep-ancient-methods.md",
+      "source_record_file": "ancient-additional-records.json"
+    },
+    {
+      "id": "AM03",
+      "title": "GlossLM code and models referenced by GrammaMT",
+      "category": "gloss annotation",
+      "source_url": "https://github.com/foltaProject/glosslm",
+      "primary_evidence": "GrammaMT uses externally generated language-specific glosses and points to this project/model collection.",
+      "proposed_use": "Acquire or create trustworthy Pahlavi lexical/morphological supervision and compare gloss sources.",
+      "limitations": "Pahlavi checkpoint and exact implementation/configuration not verified; translation-prompting being training-free does not mean gloss generation needs no training.",
+      "related_urls": [
+        "https://huggingface.co/lecslab",
+        "https://aclanthology.org/2025.acl-long.1447.pdf"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary paper or artifact documentation; no local model execution",
+      "detail_note": "deep-ancient-methods.md",
+      "source_record_file": "ancient-additional-records.json"
+    },
+    {
+      "id": "AM04",
+      "title": "Apollo Restore; Aeneas restoration/contextualization",
+      "category": "task-boundary comparison",
+      "source_url": "https://arxiv.org/html/2609.22455v1",
+      "primary_evidence": "Primary descriptions address restoring missing Greek text and contextualizing ancient inscriptions.",
+      "proposed_use": "Borrow evidence presentation and uncertainty ideas while keeping translation evaluation separate.",
+      "limitations": "Restoration accuracy, including top-k short-gap results, is not contextual Pahlavi translation accuracy.",
+      "related_urls": [
+        "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary paper or artifact documentation; no local model execution",
+      "detail_note": "deep-ancient-methods.md",
+      "source_record_file": "ancient-additional-records.json"
+    },
+    {
+      "id": "AM05",
+      "title": "MITRA parallel corpus v2 documentation",
+      "category": "alignment and corpus engineering",
+      "source_url": "https://raw.githubusercontent.com/dharmamitra/mitra-parallel/main/v2/README.md",
+      "primary_evidence": "README documents 1,693,730 aligned records / 2,338,400 segment pairs plus filtering, provenance, deduplication and decontamination.",
+      "proposed_use": "Corpus-alignment and lineage design precedent; investigate actual code before reuse.",
+      "limitations": "Documentation inspected, implementation not inspected; Pali excluded in v2. This is a later artifact of the MITRA project, not independent corroboration of the January study.",
+      "related_urls": [
+        "https://github.com/dharmamitra/mitra-parallel"
+      ],
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary paper or artifact documentation; no local model execution",
+      "detail_note": "deep-ancient-methods.md",
+      "source_record_file": "ancient-additional-records.json"
+    },
+    {
+      "id": "RS03",
+      "title": "ByT5 released model sizes",
+      "category": "model and resource specification",
+      "source_url": "https://github.com/google-research/byt5/blob/master/README.md",
+      "primary_evidence": "Official repository specifies ByT5-XL at approximately 3.7 billion parameters.",
+      "proposed_use": "Size an eligible larger byte-level translation adaptation candidate.",
+      "limitations": "Parameter size establishes only a memory-accounting input; actual training fit, quality and throughput require profiling.",
+      "checked_date": "2026-09-25",
+      "evidence_level": "Primary paper or artifact documentation; no local model execution",
+      "detail_note": "deep-ancient-methods.md",
+      "source_record_file": "ancient-additional-records.json"
+    }
+  ]
+}

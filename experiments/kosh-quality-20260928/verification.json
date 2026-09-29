@@ -1,0 +1,10 @@
+{
+  "status": "PASS_MECHANICAL_ONLY",
+  "summary_sha256": "7beea58d3a7175a41ab3e610e3fc15cb7be4f65b7fa8a5a3327d3633e2d19e66",
+  "original_records_preserved_exactly": 10210,
+  "all_original_ids_accounted_once": true,
+  "output_receipts_verified": true,
+  "known_holdout_and_language_review_collections_not_staged": true,
+  "historical_training_unchanged": true,
+  "linguistic_certification": false
+}

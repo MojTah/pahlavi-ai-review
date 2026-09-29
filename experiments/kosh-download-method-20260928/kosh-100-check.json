@@ -1,0 +1,27 @@
+{
+  "scope": "one 100-result check on unchanged connection; no VPN changes; no retries",
+  "receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=100",
+    "retrieved_utc": "2026-09-28T12:52:37.853578+00:00",
+    "final_url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=100",
+    "content_type": "application/json",
+    "charset": null,
+    "status": "ok",
+    "file": "raw/8a2f73315735b41903bb2d676802468831f7b4975427f262b144040b5273b152.source",
+    "sha256": "e5b8961f633a9b6e204e82941a332bc89d9144a5ce34f60c69c9bd7053c7bc5d",
+    "bytes": 44552
+  },
+  "entries": 100,
+  "unique_ids": 100,
+  "fields": [
+    "created",
+    "gram",
+    "id",
+    "sense",
+    "trc",
+    "trl",
+    "xml"
+  ],
+  "with_xml": 100,
+  "complete": false
+}

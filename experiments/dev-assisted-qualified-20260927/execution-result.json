@@ -1,0 +1,315 @@
+{
+  "status": "BOTH_JOBS_COMPLETED_RECOVERED_AND_TERMINAL",
+  "source_commit": "0b773cee14a4c491f13d3a511bccac1db5bc9fc4",
+  "training_performed": false,
+  "model_weights_downloaded_locally": false,
+  "cost_is_final_invoice": false,
+  "jobs": {
+    "gemma": {
+      "recovery": {
+        "job_id": "6ab8dfdc52d0dbd7f1d9b0f3",
+        "outputs": 48,
+        "files": 6,
+        "bytes": 322591,
+        "all_small_result_sha256_verified": true,
+        "manifest_sha256": "fef72c7e3f34319eb2380d7abda5ba0d531627d1b5660ba2560db5690223970c",
+        "canary": {
+          "status": "passed",
+          "id": "QUALITYDEV1-024:assisted",
+          "input_tokens": 4142,
+          "rendered_input_ids_sha256": "6464e1ccc5b9fe25a01b77f07cc51ae7356814b04bb74e720013114d87c3440f",
+          "elapsed_seconds": 3.3986098170280457,
+          "peak_allocated_bytes": 72893952512,
+          "peak_reserved_bytes": 75218550784,
+          "output_generated": false,
+          "experimental_attempts": 0,
+          "deadline_utc": "2026-09-27T10:07:34.897621+00:00"
+        }
+      },
+      "manifest": {
+        "bootstrap_hashes": {
+          "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+          "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+        },
+        "bundle_name": "cloud-pilot-qualified-20260927.zip",
+        "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+        "comparison_status": "complete",
+        "cross_job_sha256_verified": false,
+        "family": "gemma",
+        "files": {
+          "base-provenance.json": {
+            "bytes": 2322,
+            "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+          },
+          "bundle-manifest.json": {
+            "bytes": 1825,
+            "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+          },
+          "comparison-status.json": {
+            "bytes": 1475,
+            "sha256": "d56f9865bb55ab73db65b247c44d9a47fc3cd441e4442312897413b03cdab7bf"
+          },
+          "comparison/predictions.jsonl": {
+            "bytes": 63988,
+            "sha256": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19"
+          },
+          "comparison/run.json": {
+            "bytes": 247032,
+            "sha256": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca"
+          },
+          "trained-manifest.json": {
+            "bytes": 5949,
+            "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
+          }
+        },
+        "input_files": {
+          "audit": [
+            "qualitydev-qualified-audit-193f49f54dd1.json",
+            "193f49f54dd1649a6a0002ed423bdf3dfa7176a7a093e1532cdd1ce1ea32d8f1"
+          ],
+          "evidence": [
+            "qualitydev-qualified-1d5e02cfb91d.jsonl",
+            "1d5e02cfb91dad1da94db072e9f5fcd6be463746bbc951425cb6631b5ea2ce4a"
+          ],
+          "inputs": [
+            "qualitydev1-06ac58310bf6.jsonl",
+            "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182"
+          ]
+        },
+        "local_model_verified": false,
+        "operation": "dev_plain_assisted",
+        "quality_validated": false,
+        "remote_inventory_verified": false,
+        "run_id": "d4545a26cf274ab2a524d57a3d3080ea",
+        "runner": "dev_assisted.py",
+        "schema_version": 1,
+        "script_hashes": {
+          "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+          "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+          "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+        },
+        "trained_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+        "training_performed": false
+      },
+      "controller_terminal_events": [
+        {
+          "event": "inventory_verified",
+          "file_count": 6,
+          "full_sha_recovery_pending": true,
+          "utc": "2026-09-27T09:36:59.022182+00:00"
+        },
+        {
+          "event": "shutdown_status",
+          "job_id": "6ab8dfdc52d0dbd7f1d9b0f3",
+          "stage": "RUNNING",
+          "utc": "2026-09-27T09:36:59.747523+00:00"
+        },
+        {
+          "event": "shutdown_status",
+          "job_id": "6ab8dfdc52d0dbd7f1d9b0f3",
+          "stage": "CANCELED",
+          "utc": "2026-09-27T09:37:11.650775+00:00"
+        },
+        {
+          "event": "finished",
+          "inventory_verified": true,
+          "cloud_terminal": true,
+          "conservative_compute_usd": 0.697174,
+          "elapsed_seconds": 1004,
+          "automatic_continuation": false,
+          "utc": "2026-09-27T09:37:11.651362+00:00"
+        }
+      ],
+      "raw_controller_events_sha256": "3c67908c468ae5a06283faa83e06f2afea52fb8cfd0bd0b50a20b8f5965efe27",
+      "execution_status_counts": {
+        "success": 48
+      },
+      "output_cap_hits": 0,
+      "generation_seconds": 521.5763429389335
+    },
+    "qwen": {
+      "recovery": {
+        "job_id": "6ab8dfed6b030d633f6988a4",
+        "outputs": 48,
+        "files": 5,
+        "bytes": 360332,
+        "all_small_result_sha256_verified": true,
+        "manifest_sha256": "491689196b7a24aa652c890727d6d00c46b1f5d4b62f91130af15e60f363b140",
+        "canary": {
+          "status": "passed",
+          "synthetic_only_generation": true,
+          "experimental_attempts": 0,
+          "same_seed_repeatability": true,
+          "synthetic_messages": [
+            {
+              "role": "system",
+              "content": "This is a short API functionality check."
+            },
+            {
+              "role": "user",
+              "content": "Write the numbers one through six in English."
+            }
+          ],
+          "synthetic_input_tokens": 34,
+          "synthetic_max_new_tokens": 8,
+          "synthetic_min_new_tokens": 3,
+          "attempts": [
+            {
+              "output_token_ids": [
+                16,
+                13,
+                3648,
+                198,
+                17,
+                13,
+                8771,
+                198
+              ],
+              "elapsed_seconds": 1.7022388110635802,
+              "seconds_per_output_token": 0.21277985138294753,
+              "peak_allocated_bytes": 53915754496,
+              "peak_reserved_bytes": 53926166528
+            },
+            {
+              "output_token_ids": [
+                16,
+                13,
+                3648,
+                198,
+                17,
+                13,
+                8771,
+                198
+              ],
+              "elapsed_seconds": 0.9896486870711669,
+              "seconds_per_output_token": 0.12370608588389587,
+              "peak_allocated_bytes": 53916278784,
+              "peak_reserved_bytes": 53926166528
+            }
+          ],
+          "longest_prompt_prefill": {
+            "id": "QUALITYDEV1-024:assisted",
+            "input_tokens": 4025,
+            "elapsed_seconds": 2.2835480120265856,
+            "peak_allocated_bytes": 58397127168,
+            "peak_reserved_bytes": 60580429824,
+            "output_generated": false
+          },
+          "maximum_seconds": 180,
+          "deadline_utc": "2026-09-27T09:31:17.433112+00:00"
+        }
+      },
+      "manifest": {
+        "bootstrap_hashes": {
+          "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+          "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+        },
+        "bundle_name": "cloud-pilot-qualified-20260927.zip",
+        "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+        "comparison_status": "complete",
+        "cross_job_sha256_verified": false,
+        "family": "qwen",
+        "files": {
+          "bundle-manifest.json": {
+            "bytes": 1825,
+            "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+          },
+          "comparison-status.json": {
+            "bytes": 1706,
+            "sha256": "34651c466e35139b3a6d36699a3902f57b4fc96d4ced76205e27a9e17462654f"
+          },
+          "comparison/predictions.jsonl": {
+            "bytes": 70650,
+            "sha256": "2982d7f1b8922218f39cef6002e0a738e252ad17b8c8d799a2b9b213c5f2070a"
+          },
+          "comparison/run.json": {
+            "bytes": 265296,
+            "sha256": "622893723084e383b164ec9a55f14f07b5b3f36afcc6b4d802d35434ded4fd82"
+          },
+          "qwen-source-identity.json": {
+            "bytes": 20855,
+            "sha256": "b0d6d51fe7603d4a955be4dec41b551100a4ca401b5d1d8a1a5a4c8d5427f8ce"
+          }
+        },
+        "input_files": {
+          "audit": [
+            "qualitydev-qualified-audit-193f49f54dd1.json",
+            "193f49f54dd1649a6a0002ed423bdf3dfa7176a7a093e1532cdd1ce1ea32d8f1"
+          ],
+          "evidence": [
+            "qualitydev-qualified-1d5e02cfb91d.jsonl",
+            "1d5e02cfb91dad1da94db072e9f5fcd6be463746bbc951425cb6631b5ea2ce4a"
+          ],
+          "inputs": [
+            "qualitydev1-06ac58310bf6.jsonl",
+            "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182"
+          ]
+        },
+        "local_model_verified": false,
+        "operation": "dev_plain_assisted",
+        "quality_validated": false,
+        "remote_inventory_verified": false,
+        "run_id": "59ad1cd60a104cce8d75edd8a8b3fe9a",
+        "runner": "dev_qwen_assisted.py",
+        "schema_version": 1,
+        "script_hashes": {
+          "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+          "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+          "dev_qwen_assisted.py": "c9a6f17fc401fba6b56a1629a2d8d757e378e149399f15c5d5717504c8b85bb9",
+          "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+          "qwen-source-identity.json": "b0d6d51fe7603d4a955be4dec41b551100a4ca401b5d1d8a1a5a4c8d5427f8ce",
+          "qwen_presence.py": "299e25706752946ff86b60af71d77758b77acc932abd3adcae7946b4cae6279e"
+        },
+        "trained_manifest_sha256": null,
+        "training_performed": false
+      },
+      "controller_terminal_events": [
+        {
+          "event": "inventory_verified",
+          "file_count": 5,
+          "full_sha_recovery_pending": true,
+          "utc": "2026-09-27T09:34:42.248904+00:00"
+        },
+        {
+          "event": "shutdown_status",
+          "job_id": "6ab8dfed6b030d633f6988a4",
+          "stage": "RUNNING",
+          "utc": "2026-09-27T09:34:42.956407+00:00"
+        },
+        {
+          "event": "shutdown_status",
+          "job_id": "6ab8dfed6b030d633f6988a4",
+          "stage": "CANCELED",
+          "utc": "2026-09-27T09:34:54.509706+00:00"
+        },
+        {
+          "event": "finished",
+          "inventory_verified": true,
+          "cloud_terminal": true,
+          "conservative_compute_usd": 0.589664,
+          "elapsed_seconds": 849,
+          "automatic_continuation": false,
+          "utc": "2026-09-27T09:34:54.512166+00:00"
+        }
+      ],
+      "raw_controller_events_sha256": "1f0169732738a0289d1117372dc19ac46ad531710e7b6ddbdee1c708c12c9602",
+      "execution_status_counts": {
+        "success": 48
+      },
+      "output_cap_hits": 0,
+      "generation_seconds": 360.2363134101033
+    }
+  },
+  "conservative_combined_compute_usd": 1.286838,
+  "recovered_small_files_bytes": 682923,
+  "post_run_billing_observation": {
+    "source": "Authenticated Hugging Face billing UI via Chrome, read-only",
+    "url": "https://huggingface.co/settings/billing",
+    "observed_by_utc": "2026-09-27T09:54:59Z",
+    "remaining_credit_usd": 17.12,
+    "current_period_usage_usd": 13.15,
+    "automatic_recharge": "unset",
+    "purchase_or_recharge_performed": false,
+    "not_final_invoice": true
+  }
+}

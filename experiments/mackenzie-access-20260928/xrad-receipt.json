@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-28T11:44:20.402424+00:00",
+  "requested_url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=xrad&query_type=wildcard&size=20",
+  "final_url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=xrad&query_type=wildcard&size=20",
+  "status": 200,
+  "content_type": "application/json",
+  "bytes": 578,
+  "sha256": "ccc387439b5c8860354c4f52a509cc76d557fc460072880aa76b61cc7496ca25",
+  "source": "Exact structured-response href exposed by public MPCD Kosh search UI; no credentials",
+  "scope": "One headword query, not a bulk extraction or training admission"
+}

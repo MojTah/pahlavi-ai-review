@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-27T15:18:52.183395+00:00",
+  "url": "https://mpdb.parsigdatabase.com/tags/textproperty/10/All/1/107/107000",
+  "method": "GET",
+  "authentication": "none",
+  "cookies_sent": false,
+  "redirects_followed": false,
+  "max_response_bytes": 2097152,
+  "scope": "One documented noun index for group1/book107/chapter107000; availability check only, not training admission",
+  "status": 401,
+  "content_type": null,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "admission": "STOP_ACCESS_NOT_ESTABLISHED; no credential extraction or replay"
+}

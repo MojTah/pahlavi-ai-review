@@ -1,0 +1,70 @@
+{
+  "utc": "2026-09-27T12:34:41.651482+00:00",
+  "jobs": [
+    {
+      "id": "6ab90a5e6b030d633f699327",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab8fa5d6b030d633f698f47",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab8dfed6b030d633f6988a4",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab8dfdc52d0dbd7f1d9b0f3",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab8a8c66b030d633f698091",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab8a42352d0dbd7f1d9a228",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab888ff52d0dbd7f1d99b8e",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab85fc76b030d633f697326",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab8580e6b030d633f6970e0",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab854576b030d633f696f93",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab84e326b030d633f696dca",
+      "stage": "CANCELED"
+    },
+    {
+      "id": "6ab8418252d0dbd7f1d982f5",
+      "stage": "COMPLETED"
+    },
+    {
+      "id": "6ab83cdf6b030d633f696899",
+      "stage": "COMPLETED"
+    },
+    {
+      "id": "6ab836876b030d633f696746",
+      "stage": "COMPLETED"
+    },
+    {
+      "id": "6ab8362c52d0dbd7f1d97f2b",
+      "stage": "COMPLETED"
+    },
+    {
+      "id": "6ab8347952d0dbd7f1d97e89",
+      "stage": "ERROR"
+    }
+  ],
+  "all_terminal": true
+}

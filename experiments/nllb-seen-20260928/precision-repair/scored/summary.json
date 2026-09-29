@@ -1,0 +1,2459 @@
+{
+  "status": "TWO_SEPARATE_SEEN_TRAIN20_REVIEWS",
+  "reviewers": {
+    "A": {
+      "denominator": 20,
+      "meaning_and_execution_counts": {
+        "meaning_error": 8,
+        "critical_error": 10,
+        "accepted": 2
+      },
+      "failed_categories": {
+        "lexical_meaning": 18,
+        "grammatical_roles": 16,
+        "omissions": 18,
+        "unsupported_additions": 18,
+        "negation_modality": 15,
+        "names": 3,
+        "numbers_quantities": 3
+      },
+      "unknown_span_handling": {
+        "no_unknown_span": 14,
+        "appropriately_uncertain": 2,
+        "uncertain": 4
+      },
+      "local_scope_findings_not_merit": {
+        "preserved": 7,
+        "contradicted": 17,
+        "unassessable": 2,
+        "omitted": 2
+      },
+      "by_work": {
+        "parsig:101": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "names": 1,
+            "numbers_quantities": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 1
+          }
+        },
+        "parsig:107": {
+          "denominator": 5,
+          "meaning_and_execution_counts": {
+            "meaning_error": 3,
+            "accepted": 2
+          },
+          "failed_categories": {
+            "lexical_meaning": 3,
+            "grammatical_roles": 3,
+            "negation_modality": 3,
+            "omissions": 3,
+            "unsupported_additions": 3
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 5
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 4,
+            "contradicted": 1
+          }
+        },
+        "parsig:108": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:109": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 2
+          }
+        },
+        "parsig:115": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:119": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 1
+          }
+        },
+        "parsig:134": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "names": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 2
+          }
+        },
+        "parsig:136": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:150": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1,
+            "omitted": 2
+          }
+        },
+        "parsig:151": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:509": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "names": 1,
+            "numbers_quantities": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1,
+            "unassessable": 1
+          }
+        },
+        "parsig:511": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "appropriately_uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:515": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "numbers_quantities": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "appropriately_uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 2
+          }
+        },
+        "parsig:521": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 2
+          }
+        },
+        "parsig:550": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 1,
+            "contradicted": 1
+          }
+        },
+        "parsig:555": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "unassessable": 1
+          }
+        }
+      },
+      "cases": [
+        {
+          "review_id": "r386a712d6c8e6e2fa33cee7fa9652880",
+          "output_sha256": "ee77ef19363ff516292314b025300a905549394cedcf3de8d22837e98adc6a11",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The repeated-frequency restriction remains, but administering an oath to another is replaced by an unclear carrying/swearing construction with به هیچ کس. The malformed singular verbs also fail to convey the plural address reliably; these are substantive predicate and role problems, not just spacing.",
+          "output_span": "به هیچ کس سوگند مَبَرَد",
+          "local_details": [
+            {
+              "scope_id": "sa3f4e3ca619b4678ce8fe0a19804ad7d",
+              "status": "preserved",
+              "reason": "The local negative oath directive retains زود زود, so it is not broadened to an unconditional ban. This finding does not certify the malformed verb or its person.",
+              "output_span": "زود زود سوگند مَخُرَد"
+            },
+            {
+              "scope_id": "sdde04a3d78aa6ecd409ac85fe8d2a0b7",
+              "status": "contradicted",
+              "reason": "The separate prohibition is visible, but به هیچ کس سوگند مبرد does not preserve causing another person to swear; a negative marker alone does not preserve this bounded second directive.",
+              "output_span": "به هیچ کس سوگند مَبَرَد"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-019",
+          "record_id": "parsig:550000001",
+          "work_id": "parsig:550",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-019:trained",
+          "scope_mapping": {
+            "sa3f4e3ca619b4678ce8fe0a19804ad7d": "parsig:550000001:pal>fa:ma1",
+            "sdde04a3d78aa6ecd409ac85fe8d2a0b7": "parsig:550000001:pal>fa:ma2"
+          },
+          "source_sha256": "4e38c8089b542c54f190234546afca74f69daf37e6a6ee26d3809a5f9b8afbd6",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "ra312164a3fa3b4c29782b385a1dc7618",
+          "output_sha256": "d50044e63b28e24d45071ad89cfae1b5b9bc8d56070f01b5e6d9d4154f7b59d0",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The instruction not to grieve is replaced by a proposition or injunction about someone not going before us. The introduced movement and participant ما materially change the entire short instruction.",
+          "output_span": "پیش ما نرود",
+          "local_details": [
+            {
+              "scope_id": "s6a0043a8a00737d067909abdfa4034a5",
+              "status": "contradicted",
+              "reason": "The bounded prohibition against grieving is replaced by نرود with a location/participant phrase; the negative form does not recover غم مخور. No universal lexical claim about bar is needed.",
+              "output_span": "پیش ما نرود"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-014",
+          "record_id": "parsig:151001020",
+          "work_id": "parsig:151",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-014:trained",
+          "scope_mapping": {
+            "s6a0043a8a00737d067909abdfa4034a5": "parsig:151001020:pal>fa:ma1"
+          },
+          "source_sha256": "41463c49e2c1c4c478caa9b9df61ba99c1657b0f26c95430825c47ee7df3a312",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "reb4dcf53508816886299701aa87c3e3e",
+          "output_sha256": "1e5ac551cbdd9d93a94028e81258d3147cfc21447289b45929b95e7773c165e7",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "fail",
+            "numbers_quantities": "fail",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The extant narrative and commands are substantially replaced: one year becomes یک سر, two other books become two followers, Adda is lost, and do not come here becomes a new statement that اورون did not create us. The latter invents a materially different event. Supplied opening missionary names and the optional Mani gloss are not required for this finding.",
+          "output_span": "فرجام داد که اورون ما را نآفرید",
+          "local_details": [
+            {
+              "scope_id": "s8532316041e4cdd109db005d812fab85",
+              "status": "contradicted",
+              "reason": "The reported prohibition against coming here is replaced by a past negative creation assertion; it no longer functions as the specified command.",
+              "output_span": "اورون ما را نآفرید"
+            },
+            {
+              "scope_id": "s0e5926a083e1b7b9f6c38c1e7d73b78f",
+              "status": "unassessable",
+              "reason": "دیگر آنجا پاتی is not sufficiently interpretable Persian to establish the qualified contrastive positive instruction to stay there. I do not assign a recovered meaning to پاتی.",
+              "output_span": "دیگر آنجا پاتی"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-015",
+          "record_id": "parsig:509000001",
+          "work_id": "parsig:509",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-015:trained",
+          "scope_mapping": {
+            "s8532316041e4cdd109db005d812fab85": "parsig:509000001:pal>fa:ma1",
+            "s0e5926a083e1b7b9f6c38c1e7d73b78f": "parsig:509000001:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "ec51fc748ec794a86343c4a8ad609f4243b0e87186e00f40c565a967beb8656a",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rbad4b131c1d3530bc081e952230e5489",
+          "output_sha256": "6730cd92b5eb4f442577bb75bb11b6cb28a4e32f91620d20fafb4debee726fb0",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "Worthlessness is changed to wrongdoing, and not having wealth is changed to an incomplete inability construction نتواند. خواسته is a permissible word for wealth here, but that surviving noun does not preserve the clause.",
+          "output_span": "بدکار است کسی که خواسته را نتواند",
+          "local_details": [
+            {
+              "scope_id": "sc46fcd72c6da74e137148723468654a9",
+              "status": "preserved",
+              "reason": "خواسته preserves the supplied occurrence-specific wealth/property gloss. This is only a lexical finding, not approval of the inability predicate or whole clause.",
+              "output_span": "خواسته"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-004",
+          "record_id": "parsig:107000004",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-004:trained",
+          "scope_mapping": {
+            "sc46fcd72c6da74e137148723468654a9": "GROUNDEDLEX1-107000004004"
+          },
+          "source_sha256": "4505690fe346ee3fdb76028cc8fbc518aa5d79205409dcb4e9a5f227502b1e1b",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r5c50c6dbeb8b394f280c6ec0eb17dca4",
+          "output_sha256": "9b26171b5e09fa6c6f3d4905e39d63a306f6ac5f3faad99183f49c9a583b6287",
+          "judgment": "accepted",
+          "categories": {
+            "lexical_meaning": "pass",
+            "grammatical_roles": "pass",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "pass",
+            "unsupported_additions": "pass",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "none",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The comparison with all these and the person lacking a soul are preserved. روانش is natural possessive phrasing. The explanatory care-for-the-soul gloss is optional and its absence is not an omission.",
+          "output_span": "از این همه بدتر کسی است که روانش را ندارد",
+          "local_details": [
+            {
+              "scope_id": "sdd15b2f9641ba4a20a57a2692eb0a977",
+              "status": "preserved",
+              "reason": "روانش retains روان for this particular occurrence, without deciding a universal lexical sense or requiring the optional care gloss.",
+              "output_span": "روانش"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-006",
+          "record_id": "parsig:107000006",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-006:trained",
+          "scope_mapping": {
+            "sdd15b2f9641ba4a20a57a2692eb0a977": "GROUNDEDLEX1-107000006006"
+          },
+          "source_sha256": "2ddd20b7ae93fa3d273560daa1d6f2d423c54c57e794b62cde2f59b2ce45a8e9",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rc6405a1c6675d26f977cb2428aea8aff",
+          "output_sha256": "f42383720ab2fce67df0d55a46eadb490c4315bd153c32afe8eff03fd9c8b99b",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The repeated desire conditions and their advice are largely lost. In particular, forbidding ridicule is replaced by forbidding افسون, trust in one’s own soul becomes awareness with a relative, and duplicated unsupported clauses replace being everyone’s friend and not worsening one’s character. The substituted prohibition materially changes the advice.",
+          "output_span": "گفتار افسون مکن بودن",
+          "local_details": [
+            {
+              "scope_id": "s76a6e9a7e833d5f6ce4b9eb816c86dcd",
+              "status": "contradicted",
+              "reason": "The output has a negative directive, but its action is افسون rather than ridicule; the bounded source prohibition is changed while neighboring positives cannot repair it.",
+              "output_span": "افسون مکن"
+            },
+            {
+              "scope_id": "s981dc7e37647e835878fca7285db1c6b",
+              "status": "omitted",
+              "reason": "The nearest corresponding latter instruction has no recoverable prohibition against making one’s character bad. The optional supplied خویش is not being required.",
+              "output_span": "گفتار همگی کنی بودن"
+            },
+            {
+              "scope_id": "s3c0c8c1b75318cdd7502dce7b5d0da15",
+              "status": "omitted",
+              "reason": "The latter phrase contains همگی but does not say to be a friend to everyone. It therefore does not preserve this affirmative instruction merely by mentioning all.",
+              "output_span": "گفتار همگی کنی بودن"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-013",
+          "record_id": "parsig:150000053",
+          "work_id": "parsig:150",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-013:trained",
+          "scope_mapping": {
+            "s76a6e9a7e833d5f6ce4b9eb816c86dcd": "parsig:150000053:pal>fa:ma1",
+            "s981dc7e37647e835878fca7285db1c6b": "parsig:150000053:pal>fa:ma2",
+            "s3c0c8c1b75318cdd7502dce7b5d0da15": "parsig:150000053:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r025e19b6436d56ba916dd5ca9be9597b",
+          "output_sha256": "65a2411ceefbcad5b15bc9a36cef2f7da301bdf41ce72d085c64e900c1031ed6",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "appropriately_uncertain",
+          "reason": "The gaps are retained, but the complete clause do not grow slack in suffering for the lord becomes a prohibition on taking someone away from the lord’s suffering. The earlier wish for teaching aid to the religion becomes an imposed act of bringing someone to worship. These invented participant/action relations materially change the instructions; the reward and eternal-life wording is also lost. No requirement is imposed to supply Mani or heaven.",
+          "output_span": "نباید از رنج خداوندگار، کسی را ببرد",
+          "local_details": [
+            {
+              "scope_id": "s5664b7329f876bdbea70ccf7202a4ed9",
+              "status": "contradicted",
+              "reason": "This complete local command no longer prohibits slackness in enduring suffering; it prohibits taking somebody away. The opening gaps and optional Mani identification do not decide this finding.",
+              "output_span": "نباید از رنج خداوندگار، کسی را ببرد"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-016",
+          "record_id": "parsig:511000001",
+          "work_id": "parsig:511",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-016:trained",
+          "scope_mapping": {
+            "s5664b7329f876bdbea70ccf7202a4ed9": "parsig:511000001:pal>fa:ma1"
+          },
+          "source_sha256": "cda142c4c6965d6413a0723d6d45bafcf0da8217a11d37d8fefb565ba67c37a6",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rc8fcf13a814d8a71129e35835242df25",
+          "output_sha256": "d1b7bc47077a4f99972027de135fab3f1e9b7498bcd38b7dc88b67fcc49e59cf",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "The complete final contrast we are among doers of good and not sinners is replaced by چه ... چه ..., losing the exclusion of sinners and the explicit we. The prayer prohibition is garbled, and (=معتمد) is an unsupported gloss. I leave the damaged initial Father clause unresolved rather than using it to force an error.",
+          "output_span": "چه از کرفه گران، چه از بازکارهان",
+          "local_details": [
+            {
+              "scope_id": "sd9741f86bf92c0cd90256d325e4f0dd3",
+              "status": "unassessable",
+              "reason": "ستایشش را مفرماشی resembles a damaged attempted prohibition but does not yield a reliable reading of do not forget prayer. This finding concerns only the minimum local scope; it does not settle whether the subsequent coordinated phrase extends its object.",
+              "output_span": "ستایشش را مفرماشی"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-020",
+          "record_id": "parsig:555000002",
+          "work_id": "parsig:555",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-020:trained",
+          "scope_mapping": {
+            "sd9741f86bf92c0cd90256d325e4f0dd3": "parsig:555000002:pal>fa:ma1"
+          },
+          "source_sha256": "ad02076cd9f2eaf14a3d870178ff19ec5bd0c3bd3aeb8bca9c62cfa12a89ab99",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r501d81e17a51d9b34dec01ed6c17b264",
+          "output_sha256": "198b57b38a33935a22bdc4fe01d4c0b537f9a1f6a70c33f14e610c0052e76a46",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "not_applicable",
+            "names": "not_applicable",
+            "numbers_quantities": "uncertain",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "Drug becomes درویش, mixing becomes اندیشۀ اندیشیدن, and knowing becomes شنیدن. These clear lexical errors suffice without resolving the elliptical syntax. The first numeral is reconstructed, so its nonappearance cannot by itself force an error; the output does retain خرسندی and دانگ سنگ.",
+          "output_span": "درویش باشد (=باشد) و درمسنگ: اندیشۀ اندیشیدن، دانشی شنیدن",
+          "local_details": [
+            {
+              "scope_id": "s50f03148402b9557f0830f87e2d20c8c",
+              "status": "preserved",
+              "reason": "خرسندی directly preserves the provisional occurrence-specific contentment gloss. It does not establish that the surrounding elliptical medicine passage is correct.",
+              "output_span": "خرسندی"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-010",
+          "record_id": "parsig:119000002",
+          "work_id": "parsig:119",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-010:trained",
+          "scope_mapping": {
+            "s50f03148402b9557f0830f87e2d20c8c": "GROUNDEDLEX1-119000002009"
+          },
+          "source_sha256": "44961a31c778ddf22fe9b674bf3a131c94ee6bfefa46beaf31bda78d798dd8c0",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rafd745e52dbe1bd86c15188e76b583c4",
+          "output_sha256": "981dd74170999d733a10e49c43cff938da478431198b25ad541bf72e500bc0ac",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "fail",
+            "numbers_quantities": "fail",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "The one-hundred revenge expression is replaced by سعد, Rostam’s narrated action becomes آوردم, and unsupported ایزد and فریدون appear. The mosque, fire, and idol-house actions are lost in malformed text, and the final destruction outcome becomes hearing a druj. The essential quantity and invented events justify critical severity independently of reconstructed اندر or the qualified interpretation of druz-wišūdagān.",
+          "output_span": "چون رودستم آوردم (=ایزد) سعد کین سیاوشان",
+          "local_details": [
+            {
+              "scope_id": "s3e574ff7e638500c26a80bfb6621bd35",
+              "status": "preserved",
+              "reason": "Despite the spelling نست, the comparative context retains the negative assertion that none is worse than that one in the world. This only credits the bounded assertion, not the broader narrative, and does not certify reconstructed اندر.",
+              "output_span": "چون نست بدتر از آن در جهان"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-001",
+          "record_id": "parsig:101000002",
+          "work_id": "parsig:101",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-001:trained",
+          "scope_mapping": {
+            "s3e574ff7e638500c26a80bfb6621bd35": "parsig:101000002:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "058e2ae2290bc7dd87e66a5a316e7fe9bcf0d5d33a2a623cf4f4006f358da952",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r376ef1bd73a71c3ad75bb184d7c27aef",
+          "output_sha256": "7316cf0d9a692b802c1cc55d3122a2730585273d39594c642b466506c0eb0376",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "Be content with one’s share becomes بدو, an instruction to run, and do not steal another’s share becomes مپَرَد. These are substantive new actions rather than stylistic variants; both the share relation and the instructions are changed. The optional explanatory life/satisfaction glosses are not required.",
+          "output_span": "به پاداش خرسند خویش بدو و به پاداش کس دیگر مپَرَد",
+          "local_details": [
+            {
+              "scope_id": "s96f3265154a4ac9eca0cd190d637bccb",
+              "status": "contradicted",
+              "reason": "The other person is mentioned, but the bounded ban on stealing their share is replaced by a different malformed/presented jumping predicate and پاداش.",
+              "output_span": "به پاداش کس دیگر مپَرَد"
+            },
+            {
+              "scope_id": "s7869da54d659a92807f46a2b33f78a42",
+              "status": "contradicted",
+              "reason": "خرسند survives as a word, but بدو does not request being content with one’s share. The optional editorial additions do not affect this assessment.",
+              "output_span": "به پاداش خرسند خویش بدو"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-008",
+          "record_id": "parsig:109000005",
+          "work_id": "parsig:109",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-008:trained",
+          "scope_mapping": {
+            "s96f3265154a4ac9eca0cd190d637bccb": "parsig:109000005:pal>fa:ma1",
+            "s7869da54d659a92807f46a2b33f78a42": "parsig:109000005:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "re52cc999269e25d257be903d824812dd",
+          "output_sha256": "f294bd20fb7ca9eff73e5149c3de03a746642584b8c9e77fb619895c6fdcb653",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "uncertain",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "The surety/representation episode is replaced by an account of sin and deception/self-restraint, and the negative predicate is attached to acceptance instead of further disputing. This invents a materially different transaction. I do not decide which anonymous wahmān is the surety-giver or insist on the interpretive bride/groom identities.",
+          "output_span": "به سبب گناه کردن، به فریفتگی (=خویشتنداری) پذیرفت (= پذیرفت) نشد",
+          "local_details": [
+            {
+              "scope_id": "s93c6af076cf8d78284b29e3af4887fd9",
+              "status": "contradicted",
+              "reason": "The target statement says there was no further dispute; the output instead negates acceptance with نشد. This finding assigns no identity to the disputed agent/surety.",
+              "output_span": "پذیرفت (= پذیرفت) نشد"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-009",
+          "record_id": "parsig:115000009",
+          "work_id": "parsig:115",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-009:trained",
+          "scope_mapping": {
+            "s93c6af076cf8d78284b29e3af4887fd9": "parsig:115000009:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "9ad95e2b8381d3b43cb29b50e94cb16af9336ab9fc23f6189ce930fff2b04320",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r74709d069000bce8d4d01d6db6eaa4b3",
+          "output_sha256": "3a00378ef3e27571f6aa9498d02192c3ac4fea787b32cb40c5cde91aaab76406",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "pass",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The names and asking frame survive, but support and protection become pistachio and a girdle, materially changing what Sasan requested. The garbled مرا بزند also intrudes a striking predicate into the plea not to be harmed.",
+          "output_span": "ساسان از پاپک پسته و زنار خواست که مرا بزند زیان مکن",
+          "local_details": [
+            {
+              "scope_id": "se43b9e70fcfbbe45899fefcb88602e6d",
+              "status": "contradicted",
+              "reason": "زیان مکن retains part of a negative request, but مرا بزند changes the adjoining harm expression and breaks the coherent plea not to harm me. This concerns the quoted request only, not the narrator’s asking frame.",
+              "output_span": "مرا بزند زیان مکن"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-012",
+          "record_id": "parsig:136001015",
+          "work_id": "parsig:136",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-012:trained",
+          "scope_mapping": {
+            "se43b9e70fcfbbe45899fefcb88602e6d": "parsig:136001015:pal>fa:ma1"
+          },
+          "source_sha256": "1b76656e50ae8fd77b0d71e38e46203cc7cb17ed45e1a53a0321699b8f292e65",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r3b090d38a83aaff147165a57f5e30bbe",
+          "output_sha256": "4cf944caa08b9d212ac61a925e13c4efc39d9064a113b9a18a063d4d7196eb54",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "pass",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The output remains a negative assertion about wisdom but replaces having no equal with not being to this extent. The omitted peer/comparison predicate and added extent change the proposition.",
+          "output_span": "دانایی را تا این حد نیست",
+          "local_details": [
+            {
+              "scope_id": "sb8afede1974a0b83402db1db9629d685",
+              "status": "contradicted",
+              "reason": "Although نیست remains ordinary assertional negation, the full bounded proposition that wisdom has no equal is replaced by an extent expression. This does not decompose nēst or assign an imperative reading.",
+              "output_span": "دانایی را تا این حد نیست"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-007",
+          "record_id": "parsig:108000001",
+          "work_id": "parsig:108",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-007:trained",
+          "scope_mapping": {
+            "sb8afede1974a0b83402db1db9629d685": "parsig:108000001:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "54d88044d51087cf037b62d23f13584f5fc506d352f17ead8295a5e3e20362e0",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r0b42a28da3f187cfe97452559e6fa32f",
+          "output_sha256": "38e8028e1d66d6f35090e6f1d8fb17f9ad4d9a1b14b96a6adb9899eba0839d64",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "fail",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "appropriately_uncertain",
+          "reason": "The advice framing and predicates of being liars and oppressors of one another are lost in دروجان را نبایند and ناجی را نبایند. The parenthetical سوم also conflicts with the second/other-advice framing. The ellipsis is retained and no missing continuation is required.",
+          "output_span": "دروجان را نبایند و یک به یک ناجی را نبایند",
+          "local_details": [
+            {
+              "scope_id": "sed9cae6c952a630d483c9096d4f3908f",
+              "status": "contradicted",
+              "reason": "The output turns the predicate of not being liars into an object construction with an uninterpretable نبایند, so the specified negative advice is not preserved. No finite mood is assigned to the source.",
+              "output_span": "دروجان را نبایند"
+            },
+            {
+              "scope_id": "sed2e567522919b248a2c8ca2c296131a",
+              "status": "contradicted",
+              "reason": "ناجی does not express being oppressive toward one another, and the predicate is garbled. The terminal lacuna is preserved; the judgment concerns only the extant local advice.",
+              "output_span": "یک به یک ناجی را نبایند"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-017",
+          "record_id": "parsig:515000002",
+          "work_id": "parsig:515",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-017:trained",
+          "scope_mapping": {
+            "sed9cae6c952a630d483c9096d4f3908f": "parsig:515000002:pal>fa:ma1",
+            "sed2e567522919b248a2c8ca2c296131a": "parsig:515000002:pal>fa:ma2"
+          },
+          "source_sha256": "c8b407528607d9d3d76fca516d7a1217cfedea09005e80bb9f77d96e49139a6f",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rfc657422d0571e9cab59df221acee0df",
+          "output_sha256": "d73f873f835939414cabde0ea33995dc8b53089ee31bff6fb876f8555c6458a7",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "fail",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The first quoted prohibition about concealing the yasnas is replaced by an invented instruction not to go among the good to یسنیه. The exception restricting the teaching of zand is not recoverable, and the request frame reverses the clear active asking into a passive request for his pledge. The invented travel prohibition materially changes the instruction without needing to define paywand.",
+          "output_span": "جاوین، در نیکان به یسنیه مرو",
+          "local_details": [
+            {
+              "scope_id": "se2a21d07af87a9fb7c53c05a2d1916f3",
+              "status": "contradicted",
+              "reason": "The reported command not to keep these yasnas hidden becomes a prohibition on going, with new location/person wording.",
+              "output_span": "در نیکان به یسنیه مرو"
+            },
+            {
+              "scope_id": "s085ca8c2b853875233b331ca8d1bd7ce",
+              "status": "contradicted",
+              "reason": "بلکه به پیمان ایشم does not preserve the explicit exception جز به پیوند خویش, and مچاورد does not recover a prohibition on teaching zand. The finding stays within this occurrence and does not define paywand generally.",
+              "output_span": "بلکه به پیمان ایشم زند مچاورد"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-011",
+          "record_id": "parsig:134002003",
+          "work_id": "parsig:134",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-011:trained",
+          "scope_mapping": {
+            "se2a21d07af87a9fb7c53c05a2d1916f3": "parsig:134002003:pal>fa:ma1",
+            "s085ca8c2b853875233b331ca8d1bd7ce": "parsig:134002003:pal>fa:ma2"
+          },
+          "source_sha256": "7e7bcb96a3183c34e053163eaa46a985e4be0795935263cf4ca238eff84d04ee",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r77e8e08f37c824f7c789618f484a4ac8",
+          "output_sha256": "ebf404ed0cd7f1e294d4aaa1b67c5cce1e94bcec3e536eada6f7d4adcd2e9ee7",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The weak-person description survives, but lacking anyone is changed to the incomplete inability expression کس را نتواند. This changes the relative-clause predicate and introduces ability modality.",
+          "output_span": "کسی که کس را نتواند",
+          "local_details": [
+            {
+              "scope_id": "sbd8c2630135c11443a9d3127aed1d866",
+              "status": "contradicted",
+              "reason": "The output is still negative and descriptive, but the local assertion of not having anybody is replaced by inability. This does not claim that dārēd has a universal lexical sense or an imperative morphology.",
+              "output_span": "کس را نتواند"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-005",
+          "record_id": "parsig:107000005",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-005:trained",
+          "scope_mapping": {
+            "sbd8c2630135c11443a9d3127aed1d866": "parsig:107000005:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "367f4070090839b9d537a51fc355d8b03bd372dc6bc962309e3e75710ea496a1",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r73951762945c714879769ecb961a9adb",
+          "output_sha256": "ef101929229beddbb8d4ab05f3f62f14f4f174f1f3b69b675510118106dbae49",
+          "judgment": "accepted",
+          "categories": {
+            "lexical_meaning": "pass",
+            "grammatical_roles": "pass",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "pass",
+            "unsupported_additions": "pass",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "none",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The person without a child is described as nameless, preserving both the predication and negative relative clause. The spacing in بی نام is stylistic only.",
+          "output_span": "بی نام است کسی که فرزند ندارد",
+          "local_details": [
+            {
+              "scope_id": "s57667566e4c2995f7e3176c6daaa753b",
+              "status": "preserved",
+              "reason": "فرزند directly preserves the provisional published gloss for this occurrence; no exhaustive lexical or expert-certification claim follows.",
+              "output_span": "فرزند"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-003",
+          "record_id": "parsig:107000003",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-003:trained",
+          "scope_mapping": {
+            "s57667566e4c2995f7e3176c6daaa753b": "GROUNDEDLEX1-107000003004"
+          },
+          "source_sha256": "aed8a04294e56610eb187f041c31a420de9fb0ce4ec89844767788ab57688386",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r19e446baa9ff8ebfc4b9259e349f28c1",
+          "output_sha256": "f346a11bdbf4361412cba07ee1847e8d8c0686aa68314c2d9281f91e25c72df2",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The plural pleas for mercy and love become singular recognition/respect, not counting us with troublemakers becomes not constraining me with friends, and helping the refuge-seeker becomes taking refuge oneself. The last change materially reverses the helper/beneficiary relation in the instruction, independently of the addressee’s unidentified identity.",
+          "output_span": "پناه بگیر",
+          "local_details": [
+            {
+              "scope_id": "s8d953b7346550cb4db15607b3820543e",
+              "status": "contradicted",
+              "reason": "The negative request survives only as a different action: do not constrain me with all friends, instead of do not count us with troublemakers. No identity is assigned to the addressee.",
+              "output_span": "مرا با همۀ دوستان تنگ نکن"
+            },
+            {
+              "scope_id": "scb1c47ebafb8e0c5eba77588e6a94427",
+              "status": "contradicted",
+              "reason": "پناه بگیر tells the addressee to take refuge instead of helping the person who has taken refuge. The positive polarity alone does not preserve the bounded request.",
+              "output_span": "پناه بگیر"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-018",
+          "record_id": "parsig:521000003",
+          "work_id": "parsig:521",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-018:trained",
+          "scope_mapping": {
+            "s8d953b7346550cb4db15607b3820543e": "parsig:521000003:pal>fa:ma1",
+            "scb1c47ebafb8e0c5eba77588e6a94427": "parsig:521000003:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "e3096e9ef29f76982762f189da400b6b8cf1eb4fd13ce139698bda1707b7ef0a",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rc1c8d59e9719ecda230b73357de5ac91",
+          "output_sha256": "45e44970ce45e071038014b0c5848e7a90cfa78ebcad34ad9df65ad433d33cf0",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The description of a suffering person is replaced by به خاطر, and the person lacking wisdom becomes a malformed assertion that wisdom cannot. Both the sufferer and the possessive-negative relation are lost even though خرد survives.",
+          "output_span": "به خاطر (= به خاطر) است که خرد نتواند",
+          "local_details": [
+            {
+              "scope_id": "s43aa78b8e4175f6426a1bfbca038f0ae",
+              "status": "preserved",
+              "reason": "خرد directly preserves the occurrence-specific wisdom gloss; the malformed predicate and missing person are separate overall errors.",
+              "output_span": "خرد"
+            }
+          ],
+          "reviewer": "A",
+          "case_id": "TRAINRECALL1-002",
+          "record_id": "parsig:107000001",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-002:trained",
+          "scope_mapping": {
+            "s43aa78b8e4175f6426a1bfbca038f0ae": "GROUNDEDLEX1-107000001004"
+          },
+          "source_sha256": "dec8d0ea9136b50e22af403cb44e14a57631f390773deb4d6b2469f4caa18cd5",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        }
+      ]
+    },
+    "B": {
+      "denominator": 20,
+      "meaning_and_execution_counts": {
+        "meaning_error": 10,
+        "critical_error": 8,
+        "accepted": 2
+      },
+      "failed_categories": {
+        "lexical_meaning": 18,
+        "grammatical_roles": 17,
+        "negation_modality": 11,
+        "omissions": 18,
+        "unsupported_additions": 18,
+        "numbers_quantities": 3,
+        "names": 3
+      },
+      "unknown_span_handling": {
+        "no_unknown_span": 14,
+        "appropriately_uncertain": 2,
+        "uncertain": 4
+      },
+      "local_scope_findings_not_merit": {
+        "preserved": 9,
+        "contradicted": 14,
+        "unassessable": 3,
+        "omitted": 2
+      },
+      "by_work": {
+        "parsig:101": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "names": 1,
+            "numbers_quantities": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 1
+          }
+        },
+        "parsig:107": {
+          "denominator": 5,
+          "meaning_and_execution_counts": {
+            "meaning_error": 3,
+            "accepted": 2
+          },
+          "failed_categories": {
+            "lexical_meaning": 3,
+            "grammatical_roles": 3,
+            "negation_modality": 3,
+            "omissions": 3,
+            "unsupported_additions": 3
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 5
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 5
+          }
+        },
+        "parsig:108": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 1
+          }
+        },
+        "parsig:109": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 2
+          }
+        },
+        "parsig:115": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:119": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 1
+          }
+        },
+        "parsig:134": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "names": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 2
+          }
+        },
+        "parsig:136": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:150": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1,
+            "omitted": 2
+          }
+        },
+        "parsig:151": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:509": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "names": 1,
+            "numbers_quantities": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1,
+            "unassessable": 1
+          }
+        },
+        "parsig:511": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "appropriately_uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 1
+          }
+        },
+        "parsig:515": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "numbers_quantities": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "appropriately_uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "unassessable": 1,
+            "contradicted": 1
+          }
+        },
+        "parsig:521": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "critical_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "contradicted": 2
+          }
+        },
+        "parsig:550": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "no_unknown_span": 1
+          },
+          "local_scope_findings_not_merit": {
+            "preserved": 1,
+            "contradicted": 1
+          }
+        },
+        "parsig:555": {
+          "denominator": 1,
+          "meaning_and_execution_counts": {
+            "meaning_error": 1
+          },
+          "failed_categories": {
+            "lexical_meaning": 1,
+            "grammatical_roles": 1,
+            "negation_modality": 1,
+            "omissions": 1,
+            "unsupported_additions": 1
+          },
+          "unknown_span_handling": {
+            "uncertain": 1
+          },
+          "local_scope_findings_not_merit": {
+            "unassessable": 1
+          }
+        }
+      },
+      "cases": [
+        {
+          "review_id": "r735b71b43dfc1465cfbda671d75e8235",
+          "output_sha256": "6730cd92b5eb4f442577bb75bb11b6cb28a4e32f91620d20fafb4debee726fb0",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The source describes a person without wealth as worthless. بدکار changes that evaluation to wrongdoing, and نتواند substitutes inability for not possessing wealth. The occurrence-specific wealth word itself is retained.",
+          "output_span": "بدکار است کسی که خواسته را نتواند.",
+          "local_details": [
+            {
+              "scope_id": "s2033a836a228f4b35248049dea6b96f6",
+              "status": "preserved",
+              "reason": "خواسته is a supported rendering of this occurrence of xwāstag; this lexical finding does not validate the surrounding predicate.",
+              "output_span": "خواسته"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-004",
+          "record_id": "parsig:107000004",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-004:trained",
+          "scope_mapping": {
+            "s2033a836a228f4b35248049dea6b96f6": "GROUNDEDLEX1-107000004004"
+          },
+          "source_sha256": "4505690fe346ee3fdb76028cc8fbc518aa5d79205409dcb4e9a5f227502b1e1b",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rc50ffc33e0fa235bef5852eb0f510a3e",
+          "output_sha256": "3a00378ef3e27571f6aa9498d02192c3ac4fea787b32cb40c5cde91aaab76406",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "uncertain",
+            "names": "pass",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "Sasan and Papak remain identifiable, but support and protection become پسته and زنار. زیان مکن retains a negative harm expression while مرا بزند garbles the coordinated injury term; that malformed sequence does not support a confident claim that the prohibition was fully reversed.",
+          "output_span": "پسته و زنار خواست که مرا بزند زیان مکن.",
+          "local_details": [
+            {
+              "scope_id": "sc434120d1630574ca34d9d6ffd29214c",
+              "status": "contradicted",
+              "reason": "Inside the reported request, زیان مکن preserves part of the negative request, but بزند turns the injury expression into an incompatible verb. The full bounded request against injury and harm is not preserved; no judgment is made about the narrator’s mood.",
+              "output_span": "که مرا بزند زیان مکن"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-012",
+          "record_id": "parsig:136001015",
+          "work_id": "parsig:136",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-012:trained",
+          "scope_mapping": {
+            "sc434120d1630574ca34d9d6ffd29214c": "parsig:136001015:pal>fa:ma1"
+          },
+          "source_sha256": "1b76656e50ae8fd77b0d71e38e46203cc7cb17ed45e1a53a0321699b8f292e65",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r9ac3fce87212e8ce081c360218ddc101",
+          "output_sha256": "65a2411ceefbcad5b15bc9a36cef2f7da301bdf41ce72d085c64e900c1031ed6",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "appropriately_uncertain",
+          "reason": "The clear surviving instruction not to grow slack in bearing suffering for the Lord is replaced by a prohibition on taking someone away from suffering. That introduces a new participant and materially different instruction. The teaching wish and the promised enduring life are also lost; the opening gaps and optional explanatory identifications are not grounds for this finding.",
+          "output_span": "و نباید از رنج خداوندگار، کسی را ببرد",
+          "local_details": [
+            {
+              "scope_id": "sfb0a6dbf509ca462161833f475fc9634",
+              "status": "contradicted",
+              "reason": "The complete local clause concerns not becoming slack in bearing suffering. Its output instead forbids taking someone away; the preceding wish, opening gaps, and unresolved morphology are outside this finding.",
+              "output_span": "نباید از رنج خداوندگار، کسی را ببرد"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-016",
+          "record_id": "parsig:511000001",
+          "work_id": "parsig:511",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-016:trained",
+          "scope_mapping": {
+            "sfb0a6dbf509ca462161833f475fc9634": "parsig:511000001:pal>fa:ma1"
+          },
+          "source_sha256": "cda142c4c6965d6413a0723d6d45bafcf0da8217a11d37d8fefb565ba67c37a6",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r770bff04cfe441452f35d6902e0a875a",
+          "output_sha256": "d1b7bc47077a4f99972027de135fab3f1e9b7498bcd38b7dc88b67fcc49e59cf",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "The clear distinction that we are among the good-doers and not the sinners becomes a چه ... چه ... sequence, losing both the stated membership and its contrastive negation. The prayer/forgetting expression is too corrupted to establish its local sense. No determinate error is inferred solely from the damaged initial Father clause.",
+          "output_span": "چه از کرفه گران، چه از بازکارهان",
+          "local_details": [
+            {
+              "scope_id": "sd0f5b699c3df6402b14d8cc968a6f55f",
+              "status": "unassessable",
+              "reason": "مفرماشی is not a clear Persian rendering of forgetting, so the minimal prayer prohibition cannot be confidently recovered. This does not decide whether the following coordinated phrase extends the prohibition, nor resolve the initial damage.",
+              "output_span": "ستایشش را مفرماشی"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-020",
+          "record_id": "parsig:555000002",
+          "work_id": "parsig:555",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-020:trained",
+          "scope_mapping": {
+            "sd0f5b699c3df6402b14d8cc968a6f55f": "parsig:555000002:pal>fa:ma1"
+          },
+          "source_sha256": "ad02076cd9f2eaf14a3d870178ff19ec5bd0c3bd3aeb8bca9c62cfa12a89ab99",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r8d757abe6dab4cd3334b53fca69d1150",
+          "output_sha256": "4cf944caa08b9d212ac61a925e13c4efc39d9064a113b9a18a063d4d7196eb54",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "pass",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The negative assertion survives, but تا این حد supplies an extent or limit in place of the source’s statement that wisdom has no equal. The missing comparison is substantive, not stylistic.",
+          "output_span": "دانایی را تا این حد نیست.",
+          "local_details": [
+            {
+              "scope_id": "s42d978c1b77d8ee5bd2b433acc6232d8",
+              "status": "preserved",
+              "reason": "نیست remains an ordinary negative assertion rather than a request not to act. This function-only finding does not endorse the mistranslation of the comparison as a limit, and it does not decompose nēst.",
+              "output_span": "دانایی را تا این حد نیست"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-007",
+          "record_id": "parsig:108000001",
+          "work_id": "parsig:108",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-007:trained",
+          "scope_mapping": {
+            "s42d978c1b77d8ee5bd2b433acc6232d8": "parsig:108000001:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "54d88044d51087cf037b62d23f13584f5fc506d352f17ead8295a5e3e20362e0",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r929abf879d527222cd7b08b27f580c43",
+          "output_sha256": "38e8028e1d66d6f35090e6f1d8fb17f9ad4d9a1b14b96a6adb9899eba0839d64",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "uncertain",
+            "names": "not_applicable",
+            "numbers_quantities": "fail",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "appropriately_uncertain",
+          "reason": "The second counsel and its predicates about lying and mutual oppression are not conveyed. دروج دوم (=دوشن سوم) adds an unsupported competing ordinal; ناجی replaces the oppression predicate. نبایند hints at a negative directive but is too malformed here to establish the original instructions. The terminal lacuna is retained.",
+          "output_span": "و دروج دوم (=دوشن سوم) که دروجان را نبایند و یک به یک ناجی را نبایند...",
+          "local_details": [
+            {
+              "scope_id": "sa0444a21bdc3bc9f121e6f4cfe835d3d",
+              "status": "unassessable",
+              "reason": "دروجان را نبایند has a negative-looking predicate but does not clearly express being or not being a liar. The reported advice function cannot be established from this malformed clause; no unique finite mood is assigned.",
+              "output_span": "دروجان را نبایند"
+            },
+            {
+              "scope_id": "s7db8de1c7835fccf7c28515df04cc6b6",
+              "status": "contradicted",
+              "reason": "ناجی and the object construction fail to convey not acting oppressively toward one another. The judgment covers only this surviving clause and does not reconstruct the trailing lacuna or assign a morphological mood.",
+              "output_span": "یک به یک ناجی را نبایند"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-017",
+          "record_id": "parsig:515000002",
+          "work_id": "parsig:515",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-017:trained",
+          "scope_mapping": {
+            "sa0444a21bdc3bc9f121e6f4cfe835d3d": "parsig:515000002:pal>fa:ma1",
+            "s7db8de1c7835fccf7c28515df04cc6b6": "parsig:515000002:pal>fa:ma2"
+          },
+          "source_sha256": "c8b407528607d9d3d76fca516d7a1217cfedea09005e80bb9f77d96e49139a6f",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "ra70ddce27633ca23ba8252a8e50a677a",
+          "output_sha256": "ef101929229beddbb8d4ab05f3f62f14f4f174f1f3b69b675510118106dbae49",
+          "judgment": "accepted",
+          "categories": {
+            "lexical_meaning": "pass",
+            "grammatical_roles": "pass",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "pass",
+            "unsupported_additions": "pass",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "none",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The person without a child is described as nameless, preserving the subject, possession negation, and substantive meaning. Spacing in بی نام is stylistic.",
+          "output_span": "بی نام است کسی که فرزند ندارد.",
+          "local_details": [
+            {
+              "scope_id": "sc1b7bfe50b86aaa70f554ef8219beec6",
+              "status": "preserved",
+              "reason": "فرزند preserves the supplied occurrence-specific child gloss; no wider lexical claim is required.",
+              "output_span": "فرزند"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-003",
+          "record_id": "parsig:107000003",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-003:trained",
+          "scope_mapping": {
+            "sc1b7bfe50b86aaa70f554ef8219beec6": "GROUNDEDLEX1-107000003004"
+          },
+          "source_sha256": "aed8a04294e56610eb187f041c31a420de9fb0ce4ec89844767788ab57688386",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r95f7b38480b0f1c1787062e35071ce52",
+          "output_sha256": "7316cf0d9a692b802c1cc55d3122a2730585273d39594c642b466506c0eb0376",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The paired advice to be content with one’s share and not steal another’s share becomes language about running and not flying. Those replace the required and prohibited actions with materially different instructions; پاداش also changes share to reward. The optional editorial life gloss is not required.",
+          "output_span": "به پاداش خرسند خویش بدو و به پاداش کس دیگر مپَرَد.",
+          "local_details": [
+            {
+              "scope_id": "s047f7e4ec9d0b3e1736ab56ef87e7cd7",
+              "status": "contradicted",
+              "reason": "The negative form مپَرَد does not convey stealing another person’s share. This finding is confined to the second prohibition and does not place the preceding positive counsel under it.",
+              "output_span": "به پاداش کس دیگر مپَرَد"
+            },
+            {
+              "scope_id": "sabd6d7c011c27a657dd4334230315d9d",
+              "status": "contradicted",
+              "reason": "بدو does not express being content with one’s share; خرسند occurs without preserving that instruction. No source alignment is inferred for the optional editorial glosses.",
+              "output_span": "به پاداش خرسند خویش بدو"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-008",
+          "record_id": "parsig:109000005",
+          "work_id": "parsig:109",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-008:trained",
+          "scope_mapping": {
+            "s047f7e4ec9d0b3e1736ab56ef87e7cd7": "parsig:109000005:pal>fa:ma1",
+            "sabd6d7c011c27a657dd4334230315d9d": "parsig:109000005:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rce538102c4295965fc2da7531fb23065",
+          "output_sha256": "981dd74170999d733a10e49c43cff938da478431198b25ad541bf72e500bc0ac",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "pass",
+            "names": "fail",
+            "numbers_quantities": "fail",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "Recognizable names survive in places, but the explicit hundredfold revenge is lost, and مجتهد فریدون هیر introduces material content in place of the mosque clause. The actions concerning fires and shrines are garbled, and the concluding disappearance of the Lie’s brood becomes hearing a demon. These clear changes suffice independently of the reconstructed preposition, supplied connective, or qualified interpretation of the final collective.",
+          "output_span": "مجتهد فریدون هیر، بِنشیمشِمِمِمِسَریِه بِکنیم",
+          "local_details": [
+            {
+              "scope_id": "s59ceba93851ba6899f29aebd7e15cbba",
+              "status": "preserved",
+              "reason": "نست is a readily recoverable misspelling of نیست in the comparative assertion that none is worse in the world. The clause remains declarative, not a prohibition. This limited finding does not settle the reconstructed preposition or the broader narrative.",
+              "output_span": "چون نست بدتر از آن در جهان"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-001",
+          "record_id": "parsig:101000002",
+          "work_id": "parsig:101",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-001:trained",
+          "scope_mapping": {
+            "s59ceba93851ba6899f29aebd7e15cbba": "parsig:101000002:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "058e2ae2290bc7dd87e66a5a316e7fe9bcf0d5d33a2a623cf4f4006f358da952",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rb5c6c692fe5601ee61d2585e52f6d0a5",
+          "output_sha256": "f42383720ab2fce67df0d55a46eadb490c4315bd153c32afe8eff03fd9c8b99b",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "uncertain",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "Repeated کنی بودن fails to convey the source’s conditional wishes and directed advice. The mockery prohibition becomes افسون مکن, the soul becomes خویشاوند, and the instruction to be everyone’s friend and not worsen one’s character is absent. The repeated closing clauses add unsupported content; the garbled syntax prevents a confident complete reading of their modality.",
+          "output_span": "که به آگاهی با خویشاوند خویش کنی بودن، گفتار همگی کنی بودن",
+          "local_details": [
+            {
+              "scope_id": "sce78ae238f2cde6928b88acc93bcaa1f",
+              "status": "contradicted",
+              "reason": "افسون مکن retains a negative instruction form but gives a different action from mockery. The finding is only about this selected prohibition, not neighboring positive commands.",
+              "output_span": "گفتار افسون مکن بودن"
+            },
+            {
+              "scope_id": "sab0daa02acae885fbb52825f0c59b67a",
+              "status": "omitted",
+              "reason": "The nearest corresponding repeated clause contains no instruction against making one’s character bad. This does not infer alignment for the witness’s bracketed possessive or extend the prohibition to friendship.",
+              "output_span": "گفتار همگی کنی بودن"
+            },
+            {
+              "scope_id": "s7a297018028fe7ef115efbc1abd8ec8c",
+              "status": "omitted",
+              "reason": "The nearest corresponding clause does not say to be a friend to everyone; همگی alone cannot establish that positive instruction. The surrounding conditions and other commands are not judged by this local finding.",
+              "output_span": "گفتار همگی کنی بودن"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-013",
+          "record_id": "parsig:150000053",
+          "work_id": "parsig:150",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-013:trained",
+          "scope_mapping": {
+            "sce78ae238f2cde6928b88acc93bcaa1f": "parsig:150000053:pal>fa:ma1",
+            "sab0daa02acae885fbb52825f0c59b67a": "parsig:150000053:pal>fa:ma2",
+            "s7a297018028fe7ef115efbc1abd8ec8c": "parsig:150000053:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rb3f29f2cfe36e79ae17e4460f11dca0c",
+          "output_sha256": "f346a11bdbf4361412cba07ee1847e8d8c0686aa68314c2d9281f91e25c72df2",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "Requests for mercy and love are changed to recognition with respect, and the request not to count us with troublemakers becomes not constraining me with friends. Most decisively, helping the person who has taken refuge becomes the addressee’s taking refuge, materially reversing the participant relation in that instruction.",
+          "output_span": "پناه بگیر",
+          "local_details": [
+            {
+              "scope_id": "s42bfe91eeb2e03b8f8187bc5f7e95375",
+              "status": "contradicted",
+              "reason": "The negative request remains formally negative but replaces counting us among troublemakers with constraining me among friends. The addressee’s identity is not inferred and neighboring positive requests remain outside this finding.",
+              "output_span": "مرا با همۀ دوستان تنگ نکن"
+            },
+            {
+              "scope_id": "s9fe56be2ae16d3fd5bfb7288629cec7f",
+              "status": "contradicted",
+              "reason": "پناه بگیر commands the addressee to take refuge rather than to assist a person already taking refuge. Only the local request and its participant relation are judged.",
+              "output_span": "پناه بگیر"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-018",
+          "record_id": "parsig:521000003",
+          "work_id": "parsig:521",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-018:trained",
+          "scope_mapping": {
+            "s42bfe91eeb2e03b8f8187bc5f7e95375": "parsig:521000003:pal>fa:ma1",
+            "s9fe56be2ae16d3fd5bfb7288629cec7f": "parsig:521000003:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "e3096e9ef29f76982762f189da400b6b8cf1eb4fd13ce139698bda1707b7ef0a",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r776979bfc5cdf0c49bcf75d665b8fae3",
+          "output_sha256": "198b57b38a33935a22bdc4fe01d4c0b537f9a1f6a70c33f14e610c0052e76a46",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "not_applicable",
+            "names": "not_applicable",
+            "numbers_quantities": "uncertain",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "درویش replaces medicine; اندیشیدن and شنیدن replace mixing and knowing/recognizing. These are supported lexical failures even though the original syntax is elliptical. The reconstructed one and the exact attachment of the measures are left uncertain rather than used to force an error or acceptance.",
+          "output_span": "درویش باشد (=باشد) و درمسنگ: اندیشۀ اندیشیدن، دانشی شنیدن",
+          "local_details": [
+            {
+              "scope_id": "se8c695d44775922b0215b43f2f703137",
+              "status": "preserved",
+              "reason": "خرسندی retains the supplied occurrence-specific contentment gloss. This does not validate the elliptical syntax, recipe, or reconstructed quantity.",
+              "output_span": "خرسندی"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-010",
+          "record_id": "parsig:119000002",
+          "work_id": "parsig:119",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-010:trained",
+          "scope_mapping": {
+            "se8c695d44775922b0215b43f2f703137": "GROUNDEDLEX1-119000002009"
+          },
+          "source_sha256": "44961a31c778ddf22fe9b674bf3a131c94ee6bfefa46beaf31bda78d798dd8c0",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r21c6e8ccb264d5deade7518d7cd3da5f",
+          "output_sha256": "1e5ac551cbdd9d93a94028e81258d3147cfc21447289b45929b95e7773c165e7",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "fail",
+            "numbers_quantities": "fail",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The one-year stay becomes یک سر, two books become two followers, and Adda as recipient disappears. The prohibition on coming here becomes an invented assertion that اورون did not create us, while the command to remain there is unrecoverable. These materially change the episode and instruction without relying on optional supplied missionary names or the Mani gloss.",
+          "output_span": "فرجام داد که اورون ما را نآفرید، دیگر آنجا پاتی",
+          "local_details": [
+            {
+              "scope_id": "s7fa63a1dfbb8f1aaa1c98867103c6663",
+              "status": "contradicted",
+              "reason": "The reported prohibition on coming here is replaced by a past negative assertion about creation. The following stay command and earlier explanatory names are outside this scope.",
+              "output_span": "اورون ما را نآفرید"
+            },
+            {
+              "scope_id": "s7f02bcdbd8e20231e8092c7f5c52fa81",
+              "status": "unassessable",
+              "reason": "دیگر آنجا پاتی preserves a place expression but has no clear Persian predicate for remaining there. Its positive instruction and contrastive connection cannot confidently be recovered; no missionary identity is inferred.",
+              "output_span": "دیگر آنجا پاتی"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-015",
+          "record_id": "parsig:509000001",
+          "work_id": "parsig:509",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-015:trained",
+          "scope_mapping": {
+            "s7fa63a1dfbb8f1aaa1c98867103c6663": "parsig:509000001:pal>fa:ma1",
+            "s7f02bcdbd8e20231e8092c7f5c52fa81": "parsig:509000001:pal>fa:affirmative-directive1"
+          },
+          "source_sha256": "ec51fc748ec794a86343c4a8ad609f4243b0e87186e00f40c565a967beb8656a",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r3c7c563d60e460fb62169856987540a4",
+          "output_sha256": "45e44970ce45e071038014b0c5848e7a90cfa78ebcad34ad9df65ad433d33cf0",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The source calls the person who lacks wisdom afflicted. به خاطر supplies a causal expression, drops the person description, and خرد نتواند turns absence of wisdom into wisdom’s inability. The lexical occurrence خرد alone is preserved.",
+          "output_span": "به خاطر (= به خاطر) است که خرد نتواند.",
+          "local_details": [
+            {
+              "scope_id": "s3cb8de4abd8d8bbbdbc11466e186274b",
+              "status": "preserved",
+              "reason": "خرد matches the supplied gloss for this exact xrad occurrence; this is not a finding about its grammatical role or the whole clause.",
+              "output_span": "خرد"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-002",
+          "record_id": "parsig:107000001",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-002:trained",
+          "scope_mapping": {
+            "s3cb8de4abd8d8bbbdbc11466e186274b": "GROUNDEDLEX1-107000001004"
+          },
+          "source_sha256": "dec8d0ea9136b50e22af403cb44e14a57631f390773deb4d6b2469f4caa18cd5",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r9d690996a5c4e1ddc45c96f0759fa76d",
+          "output_sha256": "ee77ef19363ff516292314b025300a905549394cedcf3de8d22837e98adc6a11",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The frequency-limited negative instruction about swearing is recoverable despite the irregular ending. The second instruction is not: carrying an oath to no one does not convey causing another person to swear. Both clauses retain negative wording, so the failure is not a reversal into a positive command.",
+          "output_span": "به هیچ کس سوگند مَبَرَد",
+          "local_details": [
+            {
+              "scope_id": "s51546fcda3d7515668b354cfa402f3ce",
+              "status": "preserved",
+              "reason": "زود زود and the negative oath-taking expression preserve the bounded frequency-qualified prohibition. The irregular ending is not used to assign a unique mood, and the statement is not generalized to an unconditional ban.",
+              "output_span": "زود زود سوگند مَخُرَد"
+            },
+            {
+              "scope_id": "sa2efcaefe22fee8d86c46beedb13aa83",
+              "status": "contradicted",
+              "reason": "The second predicate becomes carrying an oath to someone instead of making another person swear. Its negative wording does not preserve that distinct causative prohibition.",
+              "output_span": "به هیچ کس سوگند مَبَرَد"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-019",
+          "record_id": "parsig:550000001",
+          "work_id": "parsig:550",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-019:trained",
+          "scope_mapping": {
+            "s51546fcda3d7515668b354cfa402f3ce": "parsig:550000001:pal>fa:ma1",
+            "sa2efcaefe22fee8d86c46beedb13aa83": "parsig:550000001:pal>fa:ma2"
+          },
+          "source_sha256": "4e38c8089b542c54f190234546afca74f69daf37e6a6ee26d3809a5f9b8afbd6",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "ra3c8d2aa0f9544f782e86434450702f0",
+          "output_sha256": "d50044e63b28e24d45071ad89cfae1b5b9bc8d56070f01b5e6d9d4154f7b59d0",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The short instruction not to grieve becomes an instruction or wish that someone not go before us. It introduces a motion event and an us participant absent from the source, materially replacing the instruction rather than merely restyling the idiom.",
+          "output_span": "پیش ما نرود",
+          "local_details": [
+            {
+              "scope_id": "s926bb85867ce1d8702b875ba96fe3f04",
+              "status": "contradicted",
+              "reason": "The full short idiomatic prohibition concerns grief, not someone’s going before us. This finding does not assign bar the lexical sense of the Persian witness verb or a universal morphology.",
+              "output_span": "پیش ما نرود"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-014",
+          "record_id": "parsig:151001020",
+          "work_id": "parsig:151",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-014:trained",
+          "scope_mapping": {
+            "s926bb85867ce1d8702b875ba96fe3f04": "parsig:151001020:pal>fa:ma1"
+          },
+          "source_sha256": "41463c49e2c1c4c478caa9b9df61ba99c1657b0f26c95430825c47ee7df3a312",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r423b4335462f2781c8b9563676c4b0ab",
+          "output_sha256": "9b26171b5e09fa6c6f3d4905e39d63a306f6ac5f3faad99183f49c9a583b6287",
+          "judgment": "accepted",
+          "categories": {
+            "lexical_meaning": "pass",
+            "grammatical_roles": "pass",
+            "negation_modality": "pass",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "pass",
+            "unsupported_additions": "pass",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "none",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The output preserves the comparison and the literal statement that the worst person lacks a soul. روانش را ندارد is awkward but understandable; the optional explanatory care-for-the-soul gloss is not mandatory and is not treated as an exclusive reading.",
+          "output_span": "از این همه بدتر کسی است که روانش را ندارد.",
+          "local_details": [
+            {
+              "scope_id": "s260cb608e91152329d5a973a4f4b70ce",
+              "status": "preserved",
+              "reason": "روانش retains روان for this occurrence, with a possessive suffix. No claim is made that the optional contextual care gloss is the only meaning.",
+              "output_span": "روانش"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-006",
+          "record_id": "parsig:107000006",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-006:trained",
+          "scope_mapping": {
+            "s260cb608e91152329d5a973a4f4b70ce": "GROUNDEDLEX1-107000006006"
+          },
+          "source_sha256": "2ddd20b7ae93fa3d273560daa1d6f2d423c54c57e794b62cde2f59b2ce45a8e9",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r6daf0c09c6fe1e92d3cf59ddcd1d2ada",
+          "output_sha256": "d73f873f835939414cabde0ea33995dc8b53089ee31bff6fb876f8555c6458a7",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "fail",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The reported request for a pledge is recast with a different participant construction, and the prohibition on concealing the yasnas becomes an unrelated going prohibition with introduced جاوین. The restricted teaching prohibition also loses its exception, replacing جز by بلکه and the teaching predicate with an unrecoverable form. The new motion instruction materially changes what is requested.",
+          "output_span": "جاوین، در نیکان به یسنیه مرو",
+          "local_details": [
+            {
+              "scope_id": "sb780d981c65ef240504583e2d93ce067",
+              "status": "contradicted",
+              "reason": "Within the reported pledge, مرو prohibits going rather than keeping these yasnas hidden. This says nothing about the scope of the next prohibition.",
+              "output_span": "در نیکان به یسنیه مرو"
+            },
+            {
+              "scope_id": "see4c1aad69265df4af3c0ab8de4bcab4",
+              "status": "contradicted",
+              "reason": "The bounded exception جز به پیوند خویش is replaced by بلکه به پیمان ایشم, and the teaching predicate is not conveyed. The finding preserves the witness’s exception limitation without independently defining paywand.",
+              "output_span": "بلکه به پیمان ایشم زند مچاورد"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-011",
+          "record_id": "parsig:134002003",
+          "work_id": "parsig:134",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-011:trained",
+          "scope_mapping": {
+            "sb780d981c65ef240504583e2d93ce067": "parsig:134002003:pal>fa:ma1",
+            "see4c1aad69265df4af3c0ab8de4bcab4": "parsig:134002003:pal>fa:ma2"
+          },
+          "source_sha256": "7e7bcb96a3183c34e053163eaa46a985e4be0795935263cf4ca238eff84d04ee",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "rafbbaf8b33e1767260ec31d297124061",
+          "output_sha256": "ebf404ed0cd7f1e294d4aaa1b67c5cce1e94bcec3e536eada6f7d4adcd2e9ee7",
+          "judgment": "meaning_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "not_applicable",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "pass"
+          },
+          "supported_span_severity": "meaning_error",
+          "unknown_span_handling": "no_unknown_span",
+          "reason": "The opening characterization as weak is retained, but کس را نتواند means an incomplete inability construction instead of having no one. That loses the relative clause’s possession statement.",
+          "output_span": "کسی که کس را نتواند",
+          "local_details": [
+            {
+              "scope_id": "s059c3e6419f01ecc862714b0917de183",
+              "status": "preserved",
+              "reason": "The relative clause remains a negative assertion about a person rather than a prohibition on having someone. This function-only finding does not validate the substitution of inability for possession or assign morphology to dārēd.",
+              "output_span": "کسی که کس را نتواند"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-005",
+          "record_id": "parsig:107000005",
+          "work_id": "parsig:107",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-005:trained",
+          "scope_mapping": {
+            "s059c3e6419f01ecc862714b0917de183": "parsig:107000005:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "367f4070090839b9d537a51fc355d8b03bd372dc6bc962309e3e75710ea496a1",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        },
+        {
+          "review_id": "r3ac7338a07348830f25639c7a8599b1b",
+          "output_sha256": "f294bd20fb7ca9eff73e5149c3de03a746642584b8c9e77fb619895c6fdcb653",
+          "judgment": "critical_error",
+          "categories": {
+            "lexical_meaning": "fail",
+            "grammatical_roles": "fail",
+            "negation_modality": "fail",
+            "names": "pass",
+            "numbers_quantities": "not_applicable",
+            "omissions": "fail",
+            "unsupported_additions": "fail",
+            "source_uncertainty": "uncertain"
+          },
+          "supported_span_severity": "critical_error",
+          "unknown_span_handling": "uncertain",
+          "reason": "Even leaving the anonymous surety-giver’s identity unresolved, advocacy and surety are not conveyed: the output adds sin and deception/restraint, and changes accepted-with-no-further-dispute into not accepted. This invents a materially different contractual event. No participant reversal is asserted solely from the ambiguous wahmān placeholders.",
+          "output_span": "به سبب گناه کردن، به فریفتگی (=خویشتنداری) پذیرفت (= پذیرفت) نشد.",
+          "local_details": [
+            {
+              "scope_id": "sed696a6a2da64f0419f902412b404696",
+              "status": "contradicted",
+              "reason": "The scoped negative event is not disputing further; the output attaches its negation to acceptance and omits the further-dispute event. This identifies the negation’s changed attachment without deciding the anonymous agent or surety-giver.",
+              "output_span": "پذیرفت (= پذیرفت) نشد"
+            }
+          ],
+          "reviewer": "B",
+          "case_id": "TRAINRECALL1-009",
+          "record_id": "parsig:115000009",
+          "work_id": "parsig:115",
+          "condition": "trained",
+          "prediction_id": "TRAINRECALL1-009:trained",
+          "scope_mapping": {
+            "sed696a6a2da64f0419f902412b404696": "parsig:115000009:pal>fa:assertion-negation1"
+          },
+          "source_sha256": "9ad95e2b8381d3b43cb29b50e94cb16af9336ab9fc23f6189ce930fff2b04320",
+          "execution_status": "success",
+          "raw_failure": {
+            "failure": null
+          }
+        }
+      ]
+    }
+  },
+  "execution_completion": {
+    "status": "completed",
+    "all_first_attempts_recorded": true,
+    "scheduled_likelihood": 40,
+    "scheduled_generations": 20,
+    "recorded_likelihood": 40,
+    "recorded_generations": 20,
+    "generation_failures": 0,
+    "unattempted_call_ids": [],
+    "readiness_passed": true,
+    "runtime_error": {},
+    "usable_for_translation_review": true
+  },
+  "expert_adjudicated": false,
+  "scopes_are_merit": false,
+  "limits": "Seen TRAIN only; no pooled merit, DEV/PALREF comparison, generalization, significance, improvement screen or automatic promotion.",
+  "review_files_sha256": {
+    "A": "a26a9d9ccc90b799ed4af0d94f8ccf99acba50462e7062e5ef70870901a33f1e",
+    "B": "4222f3ef25c868aace441f3755d79fd3f03b656c4006640c3f43df9d4e8d3fb7"
+  },
+  "packet_provenance_sha256": "9c24c92846651fa5566d0b218c2dd69ce043a172ff555e402219be613da18cc3"
+}

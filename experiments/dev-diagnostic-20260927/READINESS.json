@@ -1,0 +1,40 @@
+{
+  "status": "EXECUTION_AND_PROVISIONAL_REVIEW_COMPLETE_INDEPENDENT_AUDIT_PASS",
+  "owner": "/root",
+  "parent_goal": "Improve Pahlavi-to-Persian quality using independent development diagnosis; model delivery not yet satisfactory",
+  "authorized_total_usd": 25,
+  "prior_usage_usd": 6.19,
+  "funding_observed_usd": 23.91,
+  "automatic_recharge": false,
+  "native_minutes": 55,
+  "controller_stop_reserve_minutes": 5,
+  "rate_usd_per_minute": 0.041667,
+  "cash_reserve_usd": 0.75,
+  "conservative_total_usd": 9.44002,
+  "planned_internal_seconds": 3000,
+  "compute_alarm_seconds": 2820,
+  "forecast_proxy_seconds": 2724,
+  "forecast_is_not_guarantee": true,
+  "retry_policy": "No duplicate submission or automatic retry; recover evidence and diagnose first",
+  "first_real_canary": "First interleaved four-condition passage; stop on execution errors/timeouts/caps; small and longest passage boundary exercised in same bounded job, not claimed in advance",
+  "previous_real_boundaries": "Same pinned Linux image/runtime, original base, step312 adapter load, bucket mounts/export and independent cancellation already executed in baseline/continuation; adapter switching is new",
+  "new_boundaries_verified_offline": "Eight tests including complete96 and error/timeout paths; wrapper copy/identity and incomplete-child checks; standalone wrapper checks rerun after deadline update",
+  "unexercised": "Numerical equivalence of the raw base and disabled-adapter wrapper was not separately measured; specialist semantic review and laptop inference remain unexercised.",
+  "source_only_upload": "resources/local/dev-diagnostic-input-verification-20260927.json",
+  "assessment_contract_sha256": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+  "launch_command": "resources/local/hf-client-venv/Scripts/python.exe -X utf8 -B resources/local/run-hf-dev-diagnostic-20260927.py",
+  "done_condition": "All96firstattempts saved,fullfileSHA recovery verified, cloudjob terminal; semantic review occurs afterward",
+  "model_download_to_laptop": false,
+  "execution_evidence": [
+    "cloud-run.json",
+    "execution-audit.json",
+    "recovery-verification.json"
+  ],
+  "post_run_evidence": "All96 actual GPU outputs succeeded, six exports passed full SHA256 recovery, cloud job confirmed terminal.",
+  "review_evidence": [
+    "reviews.jsonl",
+    "comparison.json",
+    "reviewer-clarification.json",
+    "RESULT-REVIEW.md"
+  ]
+}

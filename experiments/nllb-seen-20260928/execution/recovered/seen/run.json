@@ -1,0 +1,139 @@
+{
+  "status": "incomplete",
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "trained_step": 700,
+  "runner_sha256": "9a582bcb82a771f5f2a0debc4dd823e618d3dc82f8394234f4182a6a4f07763e",
+  "generation_settings": {
+    "max_new_tokens": 512,
+    "num_beams": 1,
+    "do_sample": false,
+    "forced_bos_token_id": 256053,
+    "forced_eos_token_id": null,
+    "suppress_tokens": [
+      256204,
+      256205
+    ],
+    "use_cache": true
+  },
+  "seed": 3407,
+  "precision": "FP32_parameters_BF16_autocast",
+  "attention": "eager",
+  "optimizer_updates": 0,
+  "training_performed": false,
+  "generation_performed": false,
+  "scheduled_likelihood_calls": 40,
+  "scheduled_generation_calls": 20,
+  "completed_likelihood_calls": 0,
+  "completed_generation_calls": 0,
+  "generation_failures": 0,
+  "all_first_attempts_recorded": false,
+  "quality_validated": false,
+  "model_manifest_sha256": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349",
+  "completed_call_ids": [],
+  "unattempted_call_ids": [
+    "TRAINRECALL1-001:correct",
+    "TRAINRECALL1-001:mismatched",
+    "TRAINRECALL1-002:mismatched",
+    "TRAINRECALL1-002:correct",
+    "TRAINRECALL1-003:correct",
+    "TRAINRECALL1-003:mismatched",
+    "TRAINRECALL1-004:mismatched",
+    "TRAINRECALL1-004:correct",
+    "TRAINRECALL1-005:correct",
+    "TRAINRECALL1-005:mismatched",
+    "TRAINRECALL1-006:mismatched",
+    "TRAINRECALL1-006:correct",
+    "TRAINRECALL1-007:correct",
+    "TRAINRECALL1-007:mismatched",
+    "TRAINRECALL1-008:mismatched",
+    "TRAINRECALL1-008:correct",
+    "TRAINRECALL1-009:correct",
+    "TRAINRECALL1-009:mismatched",
+    "TRAINRECALL1-010:mismatched",
+    "TRAINRECALL1-010:correct",
+    "TRAINRECALL1-011:correct",
+    "TRAINRECALL1-011:mismatched",
+    "TRAINRECALL1-012:mismatched",
+    "TRAINRECALL1-012:correct",
+    "TRAINRECALL1-013:correct",
+    "TRAINRECALL1-013:mismatched",
+    "TRAINRECALL1-014:mismatched",
+    "TRAINRECALL1-014:correct",
+    "TRAINRECALL1-015:correct",
+    "TRAINRECALL1-015:mismatched",
+    "TRAINRECALL1-016:mismatched",
+    "TRAINRECALL1-016:correct",
+    "TRAINRECALL1-017:correct",
+    "TRAINRECALL1-017:mismatched",
+    "TRAINRECALL1-018:mismatched",
+    "TRAINRECALL1-018:correct",
+    "TRAINRECALL1-019:correct",
+    "TRAINRECALL1-019:mismatched",
+    "TRAINRECALL1-020:mismatched",
+    "TRAINRECALL1-020:correct",
+    "TRAINRECALL1-001:trained",
+    "TRAINRECALL1-002:trained",
+    "TRAINRECALL1-003:trained",
+    "TRAINRECALL1-004:trained",
+    "TRAINRECALL1-005:trained",
+    "TRAINRECALL1-006:trained",
+    "TRAINRECALL1-007:trained",
+    "TRAINRECALL1-008:trained",
+    "TRAINRECALL1-009:trained",
+    "TRAINRECALL1-010:trained",
+    "TRAINRECALL1-011:trained",
+    "TRAINRECALL1-012:trained",
+    "TRAINRECALL1-013:trained",
+    "TRAINRECALL1-014:trained",
+    "TRAINRECALL1-015:trained",
+    "TRAINRECALL1-016:trained",
+    "TRAINRECALL1-017:trained",
+    "TRAINRECALL1-018:trained",
+    "TRAINRECALL1-019:trained",
+    "TRAINRECALL1-020:trained"
+  ],
+  "verified_inference_files": {
+    "config.json": {
+      "bytes": 781,
+      "sha256": "82f052837f91b32a62b33e7f1e4a5adeea8f02b68350ca27739713372396226e"
+    },
+    "generation_config.json": {
+      "bytes": 184,
+      "sha256": "ea60866fa9cbe3bca3c94b94956faf3e1e2b72a7be404e8af1b0ff3422dcfdfa"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 89858,
+      "sha256": "1efac115cefbf3b9fdaf01d07f685f1b5648f301032413bc93634f9754544eda"
+    },
+    "model-00001-of-00002.safetensors": {
+      "bytes": 2997573200,
+      "sha256": "4fdcd06144599b30fbc6df5a0921bbf025346caba10e6083ea33dd1e54c2f812"
+    },
+    "model-00002-of-00002.safetensors": {
+      "bytes": 2485137120,
+      "sha256": "d3a4c0a8f26cdab1fc109a5eb974a6c256ff66ef01c4a7dc71810ee45875ba82"
+    },
+    "tokenizer.json": {
+      "bytes": 32240968,
+      "sha256": "69d6e27dc9ed4a21a80cc302aedd8acf26a36523803537a110f991a8dac92ee2"
+    },
+    "tokenizer_config.json": {
+      "bytes": 3756,
+      "sha256": "ff4acbc476f405c8caa923410cee244ef69f441ab9f7be0b6bffc20c384318c9"
+    },
+    "training-state.json": {
+      "bytes": 739,
+      "sha256": "b8c3dac8ad23f1c728bd1ca952a428da1c630eb7a54273c262b59762195817b3"
+    }
+  },
+  "token_map_sha256": "5dac1a0c537ce8d7c410110b33bf30aaf3f95c2577f507d86eb228881953b255",
+  "source_files_sha256": {
+    "train.jsonl": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+    "inputs.jsonl": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+    "source-control.json": "3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0",
+    "model-manifest.json": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349"
+  },
+  "error_type": "ValueError",
+  "error": "Native/independent target loss differs"
+}

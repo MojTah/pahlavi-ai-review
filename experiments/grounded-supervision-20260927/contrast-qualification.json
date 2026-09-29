@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-27",
+  "decision": "PROVISIONALLY_QUALIFIED_AUXILIARY_DEVELOPMENT_ONLY",
+  "lead": "/root",
+  "critic": "/root/final_external_judge",
+  "expert_adjudicated": false,
+  "training_admitted": false,
+  "paid_launch_admitted": false,
+  "source_files_sha256": {
+    "experiments/grounded-supervision-20260927/CONTRAST-PILOT.json": "21b614cfd9082d5a30e0e9576dd9e6f4f3ee6ec25d49579fd449a44717bf27ec",
+    "experiments/grounded-supervision-20260927/CONTRAST-REVIEW.md": "d5edd4ac0b9d39655f096f4395e3244abde3cab5a90678c6c524c183e0bac662"
+  },
+  "accepted": [
+    {
+      "annotation_id": "parsig:101000002:pal>fa:assertion-negation1",
+      "train_id": "parsig:101000002:pal>fa",
+      "work_id": "parsig:101",
+      "contrast_type": "ordinary_assertion_negation",
+      "qualified_scope": "نفی خبری در «نیست بدتر از او در جهان»؛ دستورِ نهی به مخاطب نیست.",
+      "limitations": "The comparative assertion remains within its narrated relative clause. Reconstructed *andar and all row qualifications survive; no judgement about the broader hostile narrative is added."
+    },
+    {
+      "annotation_id": "parsig:107000005:pal>fa:assertion-negation1",
+      "train_id": "parsig:107000005:pal>fa",
+      "work_id": "parsig:107",
+      "contrast_type": "ordinary_assertion_negation",
+      "qualified_scope": "نفی خبریِ «کس ندارد» در توصیفِ «کسی که کس ندارد»؛ نهی از داشتن نیست.",
+      "limitations": "This is only the local relative-clause assertion; no independent lexical sense or imperative/indicative morphology is assigned to dārēd."
+    },
+    {
+      "annotation_id": "parsig:108000001:pal>fa:assertion-negation1",
+      "train_id": "parsig:108000001:pal>fa",
+      "work_id": "parsig:108",
+      "contrast_type": "ordinary_assertion_negation",
+      "qualified_scope": "نفی خبری در «دانایی را همتا نیست»؛ درخواستِ انجام‌ندادن کاری نیست.",
+      "limitations": "nēst is retained as a whole token, without inventing separate offsets for a reconstructed particle/copula decomposition."
+    },
+    {
+      "annotation_id": "parsig:115000009:pal>fa:assertion-negation1",
+      "train_id": "parsig:115000009:pal>fa",
+      "work_id": "parsig:115",
+      "contrast_type": "ordinary_assertion_negation",
+      "qualified_scope": "نفی خبریِ رخداد در «برای بیشتر پیکار (= مجادله، ستیز) نکرد»؛ نه دستور و نه منعِ مخاطب.",
+      "limitations": "The agent/surety identification remains interpretive as the ledger states. This local negation proposal assigns no participant identity."
+    },
+    {
+      "annotation_id": "parsig:109000005:pal>fa:affirmative-directive1",
+      "train_id": "parsig:109000005:pal>fa",
+      "work_id": "parsig:109",
+      "contrast_type": "affirmative_directive_or_request",
+      "qualified_scope": "درخواست یا اندرزِ مثبت در «به بهره (و سهم) خویش[در زندگی] خرسند (= راضی) باشید»؛ ma در بند بعدی این درخواست را نفی نمی‌کند.",
+      "limitations": "The supplied [در زندگی] and parenthetical glosses remain editorial witness material. No source-word alignment is invented for them."
+    },
+    {
+      "annotation_id": "parsig:150000053:pal>fa:affirmative-directive1",
+      "train_id": "parsig:150000053:pal>fa",
+      "work_id": "parsig:150",
+      "contrast_type": "affirmative_directive_or_request",
+      "qualified_scope": "دستورِ مثبت در نقلِ «با هر كس دوست باش»؛ نهیِ پس از آن دامنهٔ جداگانه دارد.",
+      "limitations": "Only this affirmative clause within the reported gōw kū instruction is labeled; neighboring conditions and other commands are not labeled."
+    },
+    {
+      "annotation_id": "parsig:509000001:pal>fa:affirmative-directive1",
+      "train_id": "parsig:509000001:pal>fa",
+      "work_id": "parsig:509",
+      "contrast_type": "affirmative_directive_or_request",
+      "qualified_scope": "دستور مثبتِ نقل‌شده در «بلکه آنجا بمان»؛ در برابرِ نهیِ پیشینِ «اینجا نیا».",
+      "limitations": "The contrastive connective remains inside the scope. Narrative missionary identifications and Mani gloss survive without being re-asserted."
+    },
+    {
+      "annotation_id": "parsig:521000003:pal>fa:affirmative-directive1",
+      "train_id": "parsig:521000003:pal>fa",
+      "work_id": "parsig:521",
+      "contrast_type": "affirmative_directive_or_request",
+      "qualified_scope": "درخواست مثبت در «پناه‌گرفته را یاری کن»؛ ma در جملهٔ پیشین این درخواست را نفی نمی‌کند.",
+      "limitations": "Only local positive request function is proposed. The addressee’s identity and the lexeme’s general sense are not inferred."
+    }
+  ],
+  "withheld": [
+    {
+      "train_id": "parsig:106000002:pal>fa",
+      "status": "EXCLUDED_OUTSIDE_CATEGORY",
+      "reason": "Persian نباید آزرد is normative/deontic, not an ordinary assertion-negation contrast. The nē + infinitive surface does not decide function."
+    },
+    {
+      "train_id": "parsig:106000008:pal>fa",
+      "status": "ABSTAIN_FOR_THIS_PILOT",
+      "reason": "The selected nē abaxšāyēnd belongs to ka griyēnd, a temporal/conditional outcome in the narrated eschatological context. A general assertion analysis may be possible, but this bounded pilot leaves its contextual force unassigned rather than treating it as a simple independent factual negation."
+    }
+  ]
+}

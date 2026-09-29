@@ -1,0 +1,749 @@
+{
+  "reviewer": "/root/nllb_final_preflight_review",
+  "review_type": "Complete literal inventory reading with targeted semantic anomaly and archived dictionary checks; AI-assisted, not specialist certification",
+  "reviewed_collections": {
+    "gbd": 773
+  },
+  "reviewed_original_observations": 797,
+  "status": "COMPLETE_ANOMALY_SCAN_WITH_EXPLICIT_HOLDS",
+  "holds": {
+    "kosh:gbd:9": "The literal source form is English calamity, while the Persian says ظاهراً معنی موج می دهد. This is not a cleared Pahlavi headword/gloss association; recover the source page.",
+    "kosh:gbd:11": "Carry forward the existing compound hold: bare ahlāyīh and ahrāyīh varzišnīh share the phrase gloss بکاربستن پرهیزگاری; do not distribute it to both forms.",
+    "kosh:gbd:15": "Carry forward the existing compound hold: bare ahrav and ahlav xᵛadāyīh share پادشاهی به راستکرداری; the isolated-word/phrase scope remains unresolved.",
+    "kosh:gbd:16": "Carry forward the existing compound hold: bare ahrav and ahlav bēšišn share آزاردادن مرد راستکردار، صفت کافران; do not train the phrase gloss as the bare-word meaning.",
+    "kosh:gbd:17": "Carry forward مادنگی in عقب مادنگی در خرد. Suspected literal Persian defect retained unchanged pending the printed source.",
+    "kosh:gbd:55": "The published target contains بی یتیمارگی. This suspicious word/form needs source-page verification; the other glosses do not license silently repairing it.",
+    "kosh:gbd:160": "اتفاق افتادن (؟) is explicitly uncertain and coexists with بسته شدن نطفه. Preserve both and the question mark; hold from an ordinary certain-target inventory until scope is resolved.",
+    "kosh:gbd:194": "Carry forward the published نحراب کردن alongside افتادن. Known source-text anomaly; no correction inferred.",
+    "kosh:gbd:203": "کشتن، اژون includes an unexplained اژون token. Its role as archaic gloss, source-form annotation or damaged text is unresolved; do not manufacture a second sense or silently drop it.",
+    "kosh:gbd:224": "The final published gloss انوسیدن is suspicious beside source anbūsīdan and the same-source انبوسیدن at GBD196. Preserve the whole original inventory; resolve against print.",
+    "kosh:gbd:235": "The lunar definition says از اول تا پنجم مهرماه. MacKenzie gives andarmāh = new moon; the apparent restriction to Mehr versus a possible هرماه spelling issue needs the Bahar page. No silent correction.",
+    "kosh:gbd:241": "فرجام ناویدن is a suspicious/incompletely interpretable target for avēnāg frajāmih. Do not guess a repaired wording or claim a settled meaning.",
+    "kosh:gbd:246": "Published روئیت requires the same conservative orthographic review already applied to this spelling in the lead review. Meaning is understandable; this is an orthographic source hold, not proof of semantic reversal.",
+    "kosh:gbd:288": "Published تراویدتی in گیاهان تراویدتی و قابل افشردن is a suspected letter-level defect; retain the bačagān/bajagān form bundle without inventing a correction.",
+    "kosh:gbd:303": "Published استشام کردن is a suspected incomplete spelling in the smell gloss. Original source page needed; بوئیدن is not removed or rewritten.",
+    "kosh:gbd:315": "Published deity name اسپندارند in the epithet note is suspicious. Name/annotation fidelity matters even though دارای اندیشه کامل is readable; verify the printed name.",
+    "kosh:gbd:319": "Published نتهی الیه is a suspected missing-letter defect. MacKenzie bēdom = furthermost supports the general meaning but does not authorize a silent Persian repair.",
+    "kosh:gbd:361": "Carry forward the placeholder-only target (؟); no usable primary meaning is supplied.",
+    "kosh:gbd:393": "The source form itself is (?) fragūdan. Preserve the uncertainty and hold from an ordinary certain-reading inventory.",
+    "kosh:gbd:412": "pad gōhtīg / اصیل has a suspicious transcription compared with separately attested gōhrīg. This comparison does not prove the intended reading; require the original page before changing or admitting the suspect form.",
+    "kosh:gbd:446": "به سرعت، با قدرت، (؟)؛ شاید has explicit unresolved scope/uncertainty. Preserve the entire original; do not emit selected confident-looking senses as a complete inventory.",
+    "kosh:gbd:467": "zahā is glossed عمل، ژرفا. Scoped MacKenzie zahā means depth, so عمل is a suspected material letter/meaning defect, not established polysemy. Verify print; do not silently substitute عمق.",
+    "kosh:gbd:476": "zahyā repeats عمل، ژرفا. The same action/depth discrepancy as GBD467 needs source adjudication; retain this separate source form rather than merging it.",
+    "kosh:gbd:483": "Bare hān and compound ān ēvag share دیگری، آن یک. Their per-form sense attachment is unresolved; retain the original bundle but hold the ordinary inventory rather than let the isolated form inherit all compound meanings. This is a scope hold, not a declaration that the published contextual reading is wrong.",
+    "kosh:gbd:486": "Bare ān and compound hān rāy share بدان علّت. The causal phrase requires its rāy construction; hold until variant/compound scope is resolved rather than assign the causal meaning to the isolated demonstrative.",
+    "kosh:gbd:506": "Published از میان رفتنن contains duplicated final ن. The separate contextual sense of sazīdan is retained; this hold is for the literal defect, not a forced replacement by another dictionary sense.",
+    "kosh:gbd:530": "The forms are bare farrah and xᵛarrah - ōmandīh, but the target is فرهمندی. Suffix/alternative-form attachment is unresolved; hold as with the earlier bare-form/compound anomalies, without Cartesian expansion.",
+    "kosh:gbd:533": "suft = سفته (صفت) = تراشیده (؟) explicitly questions the adjective interpretation. Keep it distinct from nominal شانه at GBD534; hold the uncertain record only.",
+    "kosh:gbd:538": "The grammatical annotation is published as (فعال لازم). Its wording is suspicious beside an infinitive gloss; verify source grammar annotation rather than silently changing it to فعل لازم.",
+    "kosh:gbd:582": "Carry forward نجام دادن in the multi-sense kirdan inventory. Keep کردن and ساختن alongside the unresolved literal defect; do not silently repair or discard one sense.",
+    "kosh:gbd:635": "marnjēnīdan has میراندن، از میان برد. The second gloss appears incomplete for this inventory and the headword differs from independently attested margēnīdan. Neither spelling nor tense is silently corrected; inspect the source page.",
+    "kosh:gbd:662": "متخر کردن is unexplained/suspicious inside the long griftan inventory. Preserve all other meanings and do not choose a replacement or collapse this to one winning sense.",
+    "kosh:gbd:752": "Carry forward مادن in the ēstādan inventory. Keep the complete published range and auxiliary/context distinctions; resolve the apparent missing-letter defect.",
+    "kosh:gbd:769": "Published کماشتن alongside گماردن is the earlier source-spelling concern. Require source evidence before changing it to another spelling; no implicit correction."
+  },
+  "hold_count": 34,
+  "groups_without_new_blocking_anomaly_in_this_scan": 739,
+  "observations_in_groups_without_new_blocking_anomaly": 763,
+  "training_admission_performed": false,
+  "expert_certified": false,
+  "input_sha256": {
+    "resources/local/dataset-expansion-20260928/lexicon-v1/lexical-resources.jsonl": "3f963c94c00f79cf8c04421fcd55a539649c1b2a62eb4ac029ae195c1d73871c",
+    "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl": "3b0b14ce6e6520ad801839388d7362596c0cdfd1480f1a5b63d378071c0c1a65",
+    "resources/local/candidate-review-20260928/root-review-v2.jsonl": "22e6011478b3dedd9bd3ce5818a677d56d1f879ea0891335202acdd763475f6a"
+  },
+  "root_review_snapshot_sha256": "231a8ca704d518a168c94048929e4b82a0c0fb5bac7c7783dfcb60d1a3f4f647",
+  "mechanical_verification": {
+    "all797_unique_ids_accounted": true,
+    "forms_and_meanings_match_XML_under_existing_NFC_whitespace_rule": true,
+    "only_raw_whitespace_difference": "kosh:gbd:514 collapses two spaces after به to one; raw XML remains authoritative",
+    "new_source_corrections": 0
+  },
+  "retained_distinctions": [
+    {
+      "ids": [
+        "kosh:gbd:90"
+      ],
+      "decision": "No error established: unmacronized a-zād has an independently published unborn reading. Do not replace it with āzād noble/free.",
+      "cross_reference": "kosh:nmp:•434×41-b versus •435×41-b"
+    },
+    {
+      "ids": [
+        "kosh:gbd:625",
+        "kosh:gbd:643",
+        "kosh:gbd:644"
+      ],
+      "decision": "Retain separate source inventories. MacKenzie German mēzīdan = saugen supports the sucking gloss; urinary meaning is not grounds to delete it.",
+      "cross_reference": "kosh:cpd_de:f31a97675bb93e3ddc6452695c7cbd27790d3245"
+    },
+    {
+      "ids": [
+        "kosh:gbd:489",
+        "kosh:gbd:589",
+        "kosh:gbd:699"
+      ],
+      "decision": "Preserve kištan cultivation versus kuštan killing, including Persian vowel marks; no diacritic conflation."
+    },
+    {
+      "ids": [
+        "kosh:gbd:18",
+        "kosh:gbd:19",
+        "kosh:gbd:264",
+        "kosh:gbd:265",
+        "kosh:gbd:417",
+        "kosh:gbd:418",
+        "kosh:gbd:551",
+        "kosh:gbd:552",
+        "kosh:gbd:653",
+        "kosh:gbd:654"
+      ],
+      "decision": "Retain homographs/different contextual readings. A difference from one reference dictionary does not itself prove a wrong Bahar entry."
+    },
+    {
+      "ids": [
+        "kosh:gbd:6"
+      ],
+      "decision": "شاید can itself be a legitimate modal gloss. Without stronger source evidence, unfamiliarity with āxtan does not prove an error; retain the published inventory, and never apply a blanket شاید keyword rejection."
+    }
+  ],
+  "cross_reference_checks": [
+    {
+      "ids": [
+        "kosh:gbd:467",
+        "kosh:gbd:476"
+      ],
+      "reference": "kosh:cpd:77facb2d563c6ade22e04c5ee321a6ddd01fd10c",
+      "scope": "Direct doubtful zahā form and depth gloss; uncertainty retained, no inferred Persian replacement."
+    },
+    {
+      "ids": [
+        "kosh:gbd:235"
+      ],
+      "reference": "kosh:cpd:9300d09a5f9d7621a8e6a79f58e1efa955b145fb",
+      "scope": "Direct andarmāh = new moon; does not settle the Bahar monthly phrase."
+    },
+    {
+      "ids": [
+        "kosh:gbd:319"
+      ],
+      "reference": "kosh:cpd:2307474aeabb71e467a96ab733742886f0beb136",
+      "scope": "Direct bēdom = furthermost."
+    },
+    {
+      "ids": [
+        "kosh:gbd:412"
+      ],
+      "reference": "kosh:cpd:36121c3ac8ce55da4555f048583e41af79c995d6",
+      "scope": "gōhrīg natural/essential is a comparison, not proof that gōhtīg is a typo."
+    },
+    {
+      "ids": [
+        "kosh:gbd:635"
+      ],
+      "reference": "kosh:nmp:•1522×126-b",
+      "scope": "Generic margēnīdan to kill supports only a comparison; no inferred correction."
+    },
+    {
+      "ids": [
+        "kosh:gbd:483",
+        "kosh:gbd:486"
+      ],
+      "reference": "kosh:cpd:4cdd1efd4cd2ad48e400cf5c6d48965422ce271a",
+      "scope": "Direct ān form has that/he; expanded forms have separate scope. This supports checking attachment, not rewriting Bahar senses."
+    }
+  ],
+  "evidence": [
+    {
+      "observation_id": "kosh:gbd:9",
+      "group_id": "lex:54ed46374a11c7786b031ca53b385db9f449f4c8c1aa21530a42d2d8af99cd5e",
+      "category": "SOURCE_LANGUAGE_AND_UNCERTAINTY",
+      "forms_as_published": [
+        "calamity"
+      ],
+      "meaning_as_published": "ظاهراً معنی موج می دهد",
+      "source_xml": "<entry id=\"9\"><trc><form>calamity</form></trc><sense>ظاهراً معنی موج می دهد</sense></entry>",
+      "source_xml_sha256": "8f0f154befda2b4a1db1f5f13287cbc1e0c2a9be797a1e11c48e53a0e0d9894f",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:11",
+      "group_id": "lex:9d52637540db925a6afd6ac41609ba884f35113438cc995b036c74bae51fc0fa",
+      "category": "FORM_SCOPE",
+      "forms_as_published": [
+        "ahlāyīh",
+        "ahrāyīh varzišnīh"
+      ],
+      "meaning_as_published": "بکاربستن پرهیزگاری",
+      "source_xml": "<entry id=\"11\"><trc><form>ahlāyīh</form><form>ahrāyīh varzišnīh</form></trc><sense>بکاربستن پرهیزگاری</sense></entry>",
+      "source_xml_sha256": "83f17243d2550a26de65c596d65d97a977d543cb5820d2852eb0e4c779425623",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:15",
+      "group_id": "lex:013ef8816d3bbe7dd85124b690e774e84d6e948631661fb4a463d180e566a748",
+      "category": "FORM_SCOPE",
+      "forms_as_published": [
+        "ahrav",
+        "ahlav xᵛadāyīh"
+      ],
+      "meaning_as_published": "پادشاهی به راستکرداری",
+      "source_xml": "<entry id=\"15\"><trc><form>ahrav</form><form>ahlav xᵛadāyīh</form></trc><sense>پادشاهی به راستکرداری</sense></entry>",
+      "source_xml_sha256": "929d0d382494ece2631f8484fefda76a5276f844ed1e9fe56d76f8f96712edce",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:16",
+      "group_id": "lex:9f831400940102b14b21f8f4bae6475b831e30439ea195955205b95734e37f75",
+      "category": "FORM_SCOPE",
+      "forms_as_published": [
+        "ahrav",
+        "ahlav bēšišn"
+      ],
+      "meaning_as_published": "آزاردادن مرد راستکردار، صفت کافران",
+      "source_xml": "<entry id=\"16\"><trc><form>ahrav</form><form>ahlav bēšišn</form></trc><sense>آزاردادن مرد راستکردار، صفت کافران</sense></entry>",
+      "source_xml_sha256": "02e6dfc6b74258e0ecfaf29438e0ab81adaf8c6d6a32d605c9a72edde028391b",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:17",
+      "group_id": "lex:494220e9dcc618b9ff3533ae8ee9c12b88316afcd0c0ae3fd81e781a417334c3",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "pas dānšnīh"
+      ],
+      "meaning_as_published": "عقب مادنگی در خرد، وقوف برامری پس از وقوع آن. کندذهنی",
+      "source_xml": "<entry id=\"17\"><trc><form>pas dānšnīh</form></trc><sense>عقب مادنگی در خرد، وقوف برامری پس از وقوع آن. کندذهنی</sense></entry>",
+      "source_xml_sha256": "1a1de37428154a5773edfeaab42d0cc7c6665e36ce12fdffb91cae4aed52dce0",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:55",
+      "group_id": "lex:658a284f581cb36ddcc48ec9a2e5b5a6955502c3e46145ebe7746475648d25ec",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "apatyāragīh"
+      ],
+      "meaning_as_published": "بی یتیمارگی، بی ظلمی، بی بیداد",
+      "source_xml": "<entry id=\"55\"><trc><form>apatyāragīh</form></trc><sense>بی یتیمارگی، بی ظلمی، بی بیداد</sense></entry>",
+      "source_xml_sha256": "ef1ddb2746b47271a835d6b630648ade27605c925832cb5b1e1b4b0062696d6f",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:160",
+      "group_id": "lex:6d111fe6370f896dab007575afe0bc3432e651a2ebf633247b2f1d149aefeb16",
+      "category": "EXPLICIT_UNCERTAINTY",
+      "forms_as_published": [
+        "hambastan"
+      ],
+      "meaning_as_published": "اتفاق افتادن (؟)، بسته شدن نطفه",
+      "source_xml": "<entry id=\"160\"><trc><form>hambastan</form></trc><sense>اتفاق افتادن (؟)، بسته شدن نطفه</sense></entry>",
+      "source_xml_sha256": "8aac1a187e4e27abfd252f0c7bd74e4b7e38911b4803d0c69ea9c98842e1baef",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:194",
+      "group_id": "lex:b2f79c35a55f3fb018b982346f870038cb6a1b685a0901f3fe9a6564f03d097a",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "ōbastan"
+      ],
+      "meaning_as_published": "افتادن، نحراب کردن",
+      "source_xml": "<entry id=\"194\"><trc><form>ōbastan</form></trc><sense>افتادن، نحراب کردن</sense></entry>",
+      "source_xml_sha256": "b69dac824c1f538bf936dd5f9831a456d69826cd49114e46c09edb01c1029dbf",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:203",
+      "group_id": "lex:0d0831222f3f26f6a33dfbd569317fc65420c215d51f214982949b3169c87ffe",
+      "category": "UNRESOLVED_GLOSS_TOKEN",
+      "forms_as_published": [
+        "ōžadan",
+        "ōzadan"
+      ],
+      "meaning_as_published": "کشتن، اژون",
+      "source_xml": "<entry id=\"203\"><trc><form>ōžadan</form><form>ōzadan</form></trc><sense>کشتن، اژون</sense></entry>",
+      "source_xml_sha256": "016081d97dc78782d06139c0d693b16a338b24e604f955e2f51f565fbe6a52e1",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:224",
+      "group_id": "lex:e0e8b59495967fb89d6eeffbdf680202b7dafc9873103b42089c002a7c935fcb",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "anbūsīdan"
+      ],
+      "meaning_as_published": "ایجادشدن، بوجودآمدن، انوسیدن",
+      "source_xml": "<entry id=\"224\"><trc><form>anbūsīdan</form></trc><sense>ایجادشدن، بوجودآمدن، انوسیدن</sense></entry>",
+      "source_xml_sha256": "66d35517db6bb1eff19f5dfc8892a8543efde17aec350d68275ec26608be94c5",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:235",
+      "group_id": "lex:bf66092d27b123087e73a9a66bb17741956276781c7a7d26152c0b67f3e9d163",
+      "category": "POSSIBLE_SEMANTIC_DEFECT",
+      "forms_as_published": [
+        "andar māh"
+      ],
+      "meaning_as_published": "هلال ماه، از اول تا پنجم مهرماه",
+      "source_xml": "<entry id=\"235\"><trc><form>andar māh</form></trc><sense>هلال ماه، از اول تا پنجم مهرماه</sense></entry>",
+      "source_xml_sha256": "b2a9e274eee13f3fa9be5b3e2f97ca744a85d22b4cd37f8e180fdcbdb41d9b21",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:241",
+      "group_id": "lex:c390d84d1ffa24f56661aeac3084cc477093a31bbd89951e05a4371cb8db1efb",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "avēnāg frajāmih"
+      ],
+      "meaning_as_published": "فرجام ناویدن",
+      "source_xml": "<entry id=\"241\"><trc><form>avēnāg frajāmih</form></trc><sense>فرجام ناویدن</sense></entry>",
+      "source_xml_sha256": "8647cf2243bbc7c4864df007f1f9c05d10f4f2ab32ea055bb3e758b5e189adde",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:246",
+      "group_id": "lex:c95e707025b4c915f152721afb2e34c4f1ac2ecd3577c318dcd15d0970f17e0e",
+      "category": "ORTHOGRAPHIC_REVIEW",
+      "forms_as_published": [
+        "avēnāg"
+      ],
+      "meaning_as_published": "نادیدنی، غیرقابل روئیت",
+      "source_xml": "<entry id=\"246\"><trc><form>avēnāg</form></trc><sense>نادیدنی، غیرقابل روئیت</sense></entry>",
+      "source_xml_sha256": "eb0f723e1394d602a652c15aaee79584daa9e1b8915f8b11547cf53816079f4b",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:288",
+      "group_id": "lex:27308677ea2b6b8736bdcd143ded0e5585887756ae1fcb0d9d1d5daa0790747c",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "bačagān",
+        "bajagān"
+      ],
+      "meaning_as_published": "گیاهان تراویدتی و قابل افشردن",
+      "source_xml": "<entry id=\"288\"><trc><form>bačagān</form><form>bajagān</form></trc><sense>گیاهان تراویدتی و قابل افشردن</sense></entry>",
+      "source_xml_sha256": "f85bb8a2b34f04ecf8fcebfdba003a5bcc8e2e8574d522a13d6b0201cf708166",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:303",
+      "group_id": "lex:4a4138f4200020e29338ea855588dbabe70032ecdb93c5f7aad55254d315505f",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "bōyīdan"
+      ],
+      "meaning_as_published": "بوئیدن، استشام کردن",
+      "source_xml": "<entry id=\"303\"><trc><form>bōyīdan</form></trc><sense>بوئیدن، استشام کردن</sense></entry>",
+      "source_xml_sha256": "94293fb717422655106112ca25e2a20a43420788bbd114f4258a31b950aa4888",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:315",
+      "group_id": "lex:6eaae482217fbddc876c62f3b37c933a72e1949e5d85b4fb5f23cfe7fb2e41ee",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "bavandag mēnišn"
+      ],
+      "meaning_as_published": "دارای اندیشه کامل ( صفت اسپندارند)",
+      "source_xml": "<entry id=\"315\"><trc><form>bavandag mēnišn</form></trc><sense>دارای اندیشه کامل ( صفت اسپندارند)</sense></entry>",
+      "source_xml_sha256": "5504267538d5eb7b2de145da0fc2c388a15310fc4cbf73ad59630c8ac7d41b4f",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:319",
+      "group_id": "lex:cf07b8169dbd535f13ff245488508f933867ee47d9b4ec2597371164cf2eafc9",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "bēdom"
+      ],
+      "meaning_as_published": "نتهی الیه",
+      "source_xml": "<entry id=\"319\"><trc><form>bēdom</form></trc><sense>نتهی الیه</sense></entry>",
+      "source_xml_sha256": "aace8550eb24c43bb66901ddc1fa562c33b053302fa696babd612b808cbd2a11",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:361",
+      "group_id": "lex:07c09894ca93ef927720af5013c8d9006603bbfc575c484f749786acb1a7bc13",
+      "category": "NO_USABLE_GLOSS",
+      "forms_as_published": [
+        "pasazagīha"
+      ],
+      "meaning_as_published": "(؟)",
+      "source_xml": "<entry id=\"361\"><trc><form>pasazagīha</form></trc><sense>(؟)</sense></entry>",
+      "source_xml_sha256": "e6a6dd76ae0d317a55f6464c18bbbb0493f2473c3864c47de3fcf6b9dc690e59",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:393",
+      "group_id": "lex:b42b0e2a3063ff493bb156f60075fc9730fa5ba297cbc657ac2bdb980b41cd9d",
+      "category": "EXPLICIT_UNCERTAINTY",
+      "forms_as_published": [
+        "(?) fragūdan"
+      ],
+      "meaning_as_published": "ماندن، باقی ماندن",
+      "source_xml": "<entry id=\"393\"><trc><form>(?) fragūdan</form></trc><sense>ماندن، باقی ماندن</sense></entry>",
+      "source_xml_sha256": "66eeb014049f058b392741578415a433cbbeb610cc348da49914505b3ebbbc71",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:412",
+      "group_id": "lex:c64942d854806504e561f412305bf3a3ecd3e7d17baa0e34073248de9a5bf1a2",
+      "category": "POSSIBLE_FORM_DEFECT",
+      "forms_as_published": [
+        "pad gōhtīg"
+      ],
+      "meaning_as_published": "اصیل",
+      "source_xml": "<entry id=\"412\"><trc><form>pad gōhtīg</form></trc><sense>اصیل</sense></entry>",
+      "source_xml_sha256": "88875b27dd716bfa911373178859c55e4f238fa3212632470a85d808e5a5e5d1",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:446",
+      "group_id": "lex:79f23ff8554a89421d52c5a8ab04bee9d2d758ddbc44f79d66493a6f9c97aceb",
+      "category": "EXPLICIT_UNCERTAINTY",
+      "forms_as_published": [
+        "tagīhā"
+      ],
+      "meaning_as_published": "به سرعت، با قدرت، (؟)؛ شاید",
+      "source_xml": "<entry id=\"446\"><trc><form>tagīhā</form></trc><sense>به سرعت، با قدرت، (؟)؛ شاید</sense></entry>",
+      "source_xml_sha256": "31caa405ec5703c9100d2b92be6e5174726d566b3b276acbab9e48bd2954dc92",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:467",
+      "group_id": "lex:a2696947166815a2f5c42c9a69db351c3edb94b58eca2c4204aa9d08ff8ebdab",
+      "category": "POSSIBLE_SEMANTIC_DEFECT",
+      "forms_as_published": [
+        "zahā"
+      ],
+      "meaning_as_published": "عمل، ژرفا",
+      "source_xml": "<entry id=\"467\"><trc><form>zahā</form></trc><sense>عمل، ژرفا</sense></entry>",
+      "source_xml_sha256": "23396e26ffdabefe26d91c861542e0b45f8b334e3fa996778347ffc252d3ebd5",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:476",
+      "group_id": "lex:7a22a34daf1a8674cf5d2e09d1adb72653cfa5c5428c308df6f855d093f996a0",
+      "category": "POSSIBLE_SEMANTIC_DEFECT",
+      "forms_as_published": [
+        "zahyā"
+      ],
+      "meaning_as_published": "عمل، ژرفا",
+      "source_xml": "<entry id=\"476\"><trc><form>zahyā</form></trc><sense>عمل، ژرفا</sense></entry>",
+      "source_xml_sha256": "494abbcd1ecac9925cfb96f92d97f05057b30712987e0a024ed1550b32e7d9b1",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:483",
+      "group_id": "lex:10d7f0b69124f018cb0bf085d3ea6ba5940732709a43f756448ed3e542f1490b",
+      "category": "FORM_SCOPE",
+      "forms_as_published": [
+        "hān",
+        "ān ēvag"
+      ],
+      "meaning_as_published": "دیگری، آن یک",
+      "source_xml": "<entry id=\"483\"><trc><form>hān</form><form>ān ēvag</form></trc><sense>دیگری، آن یک</sense></entry>",
+      "source_xml_sha256": "7e840d3c4674f8bc927fe8404b07a94ce2af2a8c3d9a53b8623135326a0db9be",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:486",
+      "group_id": "lex:e82fa3d7eb28f61d895fda61889b7cf69ec4f1bec22b33de8dc20ef938d3e9b7",
+      "category": "FORM_SCOPE",
+      "forms_as_published": [
+        "ān",
+        "hān rāy"
+      ],
+      "meaning_as_published": "بدان علّت",
+      "source_xml": "<entry id=\"486\"><trc><form>ān</form><form>hān rāy</form></trc><sense>بدان علّت</sense></entry>",
+      "source_xml_sha256": "d5f0ddb81ff7c5c28ca0b8caea03112157a57bc1c9df1e74efee1ac273397e3c",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:506",
+      "group_id": "lex:7c1c0ff3620bfccc94b60bfc6f7c03645440077ab3c631574c510c89cae3ab52",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "sazīdan"
+      ],
+      "meaning_as_published": "گذشتن، از میان رفتنن",
+      "source_xml": "<entry id=\"506\"><trc><form>sazīdan</form></trc><sense>گذشتن، از میان رفتنن</sense></entry>",
+      "source_xml_sha256": "ed9d64e60771641b1cd1b2994aaa83bf21dc8fb7bab8f4f60cf027aaea1366b6",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:530",
+      "group_id": "lex:ff7e3aa9482c2e7fa00b5bfde41d237a495f2fd5eb37b4bdbe5afc3fe850bff7",
+      "category": "FORM_SCOPE",
+      "forms_as_published": [
+        "farrah",
+        "xᵛarrah - ōmandīh"
+      ],
+      "meaning_as_published": "فرهمندی",
+      "source_xml": "<entry id=\"530\"><trc><form>farrah</form><form>xᵛarrah - ōmandīh</form></trc><sense>فرهمندی</sense></entry>",
+      "source_xml_sha256": "28840971437c530b7fe46779e00ddb2ac0c6359f14e4514c89c580fb46038904",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:533",
+      "group_id": "lex:a21190aabd4b5ecc567b4faa812dc0f935a759b0e2f134325035f432ec3c6f5d",
+      "category": "EXPLICIT_UNCERTAINTY",
+      "forms_as_published": [
+        "suft"
+      ],
+      "meaning_as_published": "سفته (صفت) = تراشیده (؟)",
+      "source_xml": "<entry id=\"533\"><trc><form>suft</form></trc><sense>سفته (صفت) = تراشیده (؟)</sense></entry>",
+      "source_xml_sha256": "3e3d94d1d169ec232ca59143e24cd37792fd1d589067d0aac61ad03fe6eac2ea",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:538",
+      "group_id": "lex:7974dd61acdb851eff7d4001b0b51339372571ea7119b4c9d465eb26bc8f424a",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "sōzīhastan"
+      ],
+      "meaning_as_published": "سوختن، (فعال لازم)",
+      "source_xml": "<entry id=\"538\"><trc><form>sōzīhastan</form></trc><sense>سوختن، (فعال لازم)</sense></entry>",
+      "source_xml_sha256": "43136f7709c6752dd51f7610876790310fbba6f7f044acdf041ed10bf31b5096",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:582",
+      "group_id": "lex:006c1fdc8e71da2a8fa2d61206539c8df37733fc140ca5846b15b8d4bd8b2a3a",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "kirdan"
+      ],
+      "meaning_as_published": "کردن، نجام دادن، ساختن",
+      "source_xml": "<entry id=\"582\"><trc><form>kirdan</form></trc><sense>کردن، نجام دادن، ساختن</sense></entry>",
+      "source_xml_sha256": "4e0d93520e5968bbaca6891112f75646eec6518ce8d6fed96747cbb829dc9627",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:635",
+      "group_id": "lex:bccd5c0684b8ad1c583e4dbbcdc588d241a9bdcfaa6a72d5079bced553eca776",
+      "category": "POSSIBLE_FORM_OR_TARGET_DEFECT",
+      "forms_as_published": [
+        "marnjēnīdan"
+      ],
+      "meaning_as_published": "میراندن، از میان برد",
+      "source_xml": "<entry id=\"635\"><trc><form>marnjēnīdan</form></trc><sense>میراندن، از میان برد</sense></entry>",
+      "source_xml_sha256": "f104a36a4d52e27856a7c7f068bfc3cc58ab963ff1e6cbdcca6e99af3ccecf63",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:662",
+      "group_id": "lex:f75b1988e6076509b0a652237adf434f04626e42abdce7d9b34e6061a375ea53",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "griftan"
+      ],
+      "meaning_as_published": "گرفتن، دستگیر کردن، گیر کردن، سَد کردن، سفت شدن، بستن، متخر کردن، لمس کردن، پذیرفتن، فروگرفتن",
+      "source_xml": "<entry id=\"662\"><trc><form>griftan</form></trc><sense>گرفتن، دستگیر کردن، گیر کردن، سَد کردن، سفت شدن، بستن، متخر کردن، لمس کردن، پذیرفتن، فروگرفتن</sense></entry>",
+      "source_xml_sha256": "acb051bd8b21a7e59ea2f09bb9e14ffe01ddcefe0a089a6a2e898c3e83a04487",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:752",
+      "group_id": "lex:9f64d896bd351cd88e446f3b6fd9473c91118f3109cd8d8d667e5d39441a2336",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "ēstādan"
+      ],
+      "meaning_as_published": "ایستادن، برخاستن، مادن، باقی ماندن، مستّقر بودن، قرار گرفتن، آغاز کردن، متوقفّ بودن",
+      "source_xml": "<entry id=\"752\"><trc><form>ēstādan</form></trc><sense>ایستادن، برخاستن، مادن، باقی ماندن، مستّقر بودن، قرار گرفتن، آغاز کردن، متوقفّ بودن</sense></entry>",
+      "source_xml_sha256": "23be305b878eebe9df67f41d8817e8a81fa7cf1f08c38907bb38f7373b7b6318",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    },
+    {
+      "observation_id": "kosh:gbd:769",
+      "group_id": "lex:6ca00c7c65ba807733eee10c670029252dee813c8ae3c341a73a9605e5eddad2",
+      "category": "SOURCE_TEXT_DEFECT",
+      "forms_as_published": [
+        "gumārdan"
+      ],
+      "meaning_as_published": "گماردن، کماشتن",
+      "source_xml": "<entry id=\"769\"><trc><form>gumārdan</form></trc><sense>گماردن، کماشتن</sense></entry>",
+      "source_xml_sha256": "436f6d55756191065f457864452b1550f18329d01c36c62a87b569269a2f13cd",
+      "source_pointer": {
+        "raw_file": "kosh-catalogue-sized-20260928/raw/97ba0a3d0d7ece1956d8bc8189d4d1e43d489b5b84f61bf7ebcf9eda568118b3.source",
+        "raw_sha256": "152ffb8836437919ab088fd06998b022cec4fe2498f76e997745ea58f002ba1e",
+        "source_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=798"
+      },
+      "correction_applied": false
+    }
+  ],
+  "limits": [
+    "No original Bahar print pages were collated in this pass; suspected source defects remain unresolved, not silently corrected.",
+    "All 773 inventories were read, but absence of a detected anomaly is not error-free philological certification.",
+    "Prior content-review context/polysemy qualifications remain in force; this is not universal one-word translation gold.",
+    "No benchmark answer files, network, model or training used. Dictionary comparison is source evidence, not independent adjudication of every record."
+  ]
+}

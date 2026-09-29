@@ -1,0 +1,15 @@
+{
+  "extractor": "/root/seen20_blind_a",
+  "independent_visual_reviewer": "/root/blind_dev72_a",
+  "integrator": "/root",
+  "raw_input_sha256": "bff686f19ced6d9a17099b5169911a40f9c9430b74d77f03c52b6887b1acea1f",
+  "raw_input_unchanged": true,
+  "corrections": {
+    "S22GRAM-043": {"field": "persian_translation", "original": "هر کدام و غیره", "derived": "هر کدام", "reason": "Select the corresponding gloss, excluding the table's list-ending و غیره. The complete original span remains in the immutable source packet.", "source_pdf_page": 73},
+    "S22GRAM-045": {"field": "persian_translation", "original": "دانیانه‌تر", "derived": "دانایانه‌تر", "reason": "Correct manual extraction against the visible printed gloss; independently re-read by critic and root. This is not a correction of the author's translation.", "source_pdf_page": 73},
+    "S22GRAM-046": {"field": "persian_translation", "original": "دانیانه‌ترین", "derived": "دانایانه‌ترین", "reason": "Correct manual extraction against the visible printed gloss; independently re-read by critic and root. This is not a correction of the author's translation.", "source_pdf_page": 73}
+  },
+  "holds": {"S22GRAM-070": "Unresolved second slash-form glyph; do not silently reconstruct it."},
+  "all_glossary_a_and_b_rows": "HOLD_FROM_LEARNING: originating textbook readings unresolved; mixed corpus includes protected works. Extraction evidence remains available for source comparison.",
+  "scope": "Generic printed grammatical inventories, contexts and locally pedagogical examples only. Not an attested-passage or expert-certification claim. Source quotations excluded during extraction remain excluded. All S22 descendants share textbook/context lineage."
+}

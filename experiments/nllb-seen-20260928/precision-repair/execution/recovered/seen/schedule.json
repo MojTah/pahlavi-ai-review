@@ -1,0 +1,462 @@
+[
+  {
+    "sequence": 1,
+    "id": "TRAINRECALL1-001:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-001",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-001"
+  },
+  {
+    "sequence": 2,
+    "id": "TRAINRECALL1-001:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-001",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-006"
+  },
+  {
+    "sequence": 3,
+    "id": "TRAINRECALL1-002:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-002",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-007"
+  },
+  {
+    "sequence": 4,
+    "id": "TRAINRECALL1-002:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-002",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-002"
+  },
+  {
+    "sequence": 5,
+    "id": "TRAINRECALL1-003:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-003",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-003"
+  },
+  {
+    "sequence": 6,
+    "id": "TRAINRECALL1-003:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-003",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-008"
+  },
+  {
+    "sequence": 7,
+    "id": "TRAINRECALL1-004:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-004",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-009"
+  },
+  {
+    "sequence": 8,
+    "id": "TRAINRECALL1-004:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-004",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-004"
+  },
+  {
+    "sequence": 9,
+    "id": "TRAINRECALL1-005:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-005",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-005"
+  },
+  {
+    "sequence": 10,
+    "id": "TRAINRECALL1-005:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-005",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-010"
+  },
+  {
+    "sequence": 11,
+    "id": "TRAINRECALL1-006:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-006",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-011"
+  },
+  {
+    "sequence": 12,
+    "id": "TRAINRECALL1-006:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-006",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-006"
+  },
+  {
+    "sequence": 13,
+    "id": "TRAINRECALL1-007:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-007",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-007"
+  },
+  {
+    "sequence": 14,
+    "id": "TRAINRECALL1-007:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-007",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-012"
+  },
+  {
+    "sequence": 15,
+    "id": "TRAINRECALL1-008:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-008",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-013"
+  },
+  {
+    "sequence": 16,
+    "id": "TRAINRECALL1-008:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-008",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-008"
+  },
+  {
+    "sequence": 17,
+    "id": "TRAINRECALL1-009:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-009",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-009"
+  },
+  {
+    "sequence": 18,
+    "id": "TRAINRECALL1-009:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-009",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-014"
+  },
+  {
+    "sequence": 19,
+    "id": "TRAINRECALL1-010:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-010",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-015"
+  },
+  {
+    "sequence": 20,
+    "id": "TRAINRECALL1-010:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-010",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-010"
+  },
+  {
+    "sequence": 21,
+    "id": "TRAINRECALL1-011:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-011",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-011"
+  },
+  {
+    "sequence": 22,
+    "id": "TRAINRECALL1-011:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-011",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-016"
+  },
+  {
+    "sequence": 23,
+    "id": "TRAINRECALL1-012:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-012",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-017"
+  },
+  {
+    "sequence": 24,
+    "id": "TRAINRECALL1-012:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-012",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-012"
+  },
+  {
+    "sequence": 25,
+    "id": "TRAINRECALL1-013:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-013",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-013"
+  },
+  {
+    "sequence": 26,
+    "id": "TRAINRECALL1-013:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-013",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-018"
+  },
+  {
+    "sequence": 27,
+    "id": "TRAINRECALL1-014:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-014",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-019"
+  },
+  {
+    "sequence": 28,
+    "id": "TRAINRECALL1-014:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-014",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-014"
+  },
+  {
+    "sequence": 29,
+    "id": "TRAINRECALL1-015:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-015",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-015"
+  },
+  {
+    "sequence": 30,
+    "id": "TRAINRECALL1-015:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-015",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-020"
+  },
+  {
+    "sequence": 31,
+    "id": "TRAINRECALL1-016:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-016",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-001"
+  },
+  {
+    "sequence": 32,
+    "id": "TRAINRECALL1-016:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-016",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-016"
+  },
+  {
+    "sequence": 33,
+    "id": "TRAINRECALL1-017:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-017",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-017"
+  },
+  {
+    "sequence": 34,
+    "id": "TRAINRECALL1-017:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-017",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-002"
+  },
+  {
+    "sequence": 35,
+    "id": "TRAINRECALL1-018:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-018",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-003"
+  },
+  {
+    "sequence": 36,
+    "id": "TRAINRECALL1-018:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-018",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-018"
+  },
+  {
+    "sequence": 37,
+    "id": "TRAINRECALL1-019:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-019",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-019"
+  },
+  {
+    "sequence": 38,
+    "id": "TRAINRECALL1-019:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-019",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-004"
+  },
+  {
+    "sequence": 39,
+    "id": "TRAINRECALL1-020:mismatched",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-020",
+    "condition": "mismatched",
+    "source_parent_id": "TRAINRECALL1-005"
+  },
+  {
+    "sequence": 40,
+    "id": "TRAINRECALL1-020:correct",
+    "kind": "likelihood",
+    "case_id": "TRAINRECALL1-020",
+    "condition": "correct",
+    "source_parent_id": "TRAINRECALL1-020"
+  },
+  {
+    "sequence": 41,
+    "id": "TRAINRECALL1-001:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-001",
+    "source_parent_id": "TRAINRECALL1-001"
+  },
+  {
+    "sequence": 42,
+    "id": "TRAINRECALL1-002:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-002",
+    "source_parent_id": "TRAINRECALL1-002"
+  },
+  {
+    "sequence": 43,
+    "id": "TRAINRECALL1-003:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-003",
+    "source_parent_id": "TRAINRECALL1-003"
+  },
+  {
+    "sequence": 44,
+    "id": "TRAINRECALL1-004:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-004",
+    "source_parent_id": "TRAINRECALL1-004"
+  },
+  {
+    "sequence": 45,
+    "id": "TRAINRECALL1-005:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-005",
+    "source_parent_id": "TRAINRECALL1-005"
+  },
+  {
+    "sequence": 46,
+    "id": "TRAINRECALL1-006:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-006",
+    "source_parent_id": "TRAINRECALL1-006"
+  },
+  {
+    "sequence": 47,
+    "id": "TRAINRECALL1-007:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-007",
+    "source_parent_id": "TRAINRECALL1-007"
+  },
+  {
+    "sequence": 48,
+    "id": "TRAINRECALL1-008:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-008",
+    "source_parent_id": "TRAINRECALL1-008"
+  },
+  {
+    "sequence": 49,
+    "id": "TRAINRECALL1-009:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-009",
+    "source_parent_id": "TRAINRECALL1-009"
+  },
+  {
+    "sequence": 50,
+    "id": "TRAINRECALL1-010:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-010",
+    "source_parent_id": "TRAINRECALL1-010"
+  },
+  {
+    "sequence": 51,
+    "id": "TRAINRECALL1-011:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-011",
+    "source_parent_id": "TRAINRECALL1-011"
+  },
+  {
+    "sequence": 52,
+    "id": "TRAINRECALL1-012:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-012",
+    "source_parent_id": "TRAINRECALL1-012"
+  },
+  {
+    "sequence": 53,
+    "id": "TRAINRECALL1-013:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-013",
+    "source_parent_id": "TRAINRECALL1-013"
+  },
+  {
+    "sequence": 54,
+    "id": "TRAINRECALL1-014:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-014",
+    "source_parent_id": "TRAINRECALL1-014"
+  },
+  {
+    "sequence": 55,
+    "id": "TRAINRECALL1-015:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-015",
+    "source_parent_id": "TRAINRECALL1-015"
+  },
+  {
+    "sequence": 56,
+    "id": "TRAINRECALL1-016:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-016",
+    "source_parent_id": "TRAINRECALL1-016"
+  },
+  {
+    "sequence": 57,
+    "id": "TRAINRECALL1-017:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-017",
+    "source_parent_id": "TRAINRECALL1-017"
+  },
+  {
+    "sequence": 58,
+    "id": "TRAINRECALL1-018:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-018",
+    "source_parent_id": "TRAINRECALL1-018"
+  },
+  {
+    "sequence": 59,
+    "id": "TRAINRECALL1-019:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-019",
+    "source_parent_id": "TRAINRECALL1-019"
+  },
+  {
+    "sequence": 60,
+    "id": "TRAINRECALL1-020:trained",
+    "kind": "generation",
+    "case_id": "TRAINRECALL1-020",
+    "source_parent_id": "TRAINRECALL1-020"
+  }
+]

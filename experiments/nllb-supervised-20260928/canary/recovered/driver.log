@@ -1,0 +1,91 @@
+{"phase": "base_download_started", "bytes": 5482882236, "destination": "server_ephemeral_only"}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+pytorch_model.bin: reconstructing file:   0%|          |  0.00B / 5.48GB            [Apytorch_model.bin: downloading bytes:           |  0.00B            pytorch_model.bin: downloading bytes: ▎         |  180MB, 13.7MB/s  
+pytorch_model.bin: reconstructing file:   5%|▍         |  268MB / 5.48GB            [Apytorch_model.bin: downloading bytes: █         |  565MB, 45.7MB/s  
+pytorch_model.bin: reconstructing file:  12%|█▏        |  671MB / 5.48GB, 42.2MB/s  [Apytorch_model.bin: downloading bytes: █▉        | 1.07GB, 88.5MB/s  
+pytorch_model.bin: reconstructing file:  27%|██▋       | 1.48GB / 5.48GB,  112MB/s  [Apytorch_model.bin: downloading bytes: ███▏      | 1.76GB,  138MB/s  
+pytorch_model.bin: reconstructing file:  44%|████▍     | 2.41GB / 5.48GB,  174MB/s  [Apytorch_model.bin: downloading bytes: ████▌     | 2.48GB,  191MB/s  
+pytorch_model.bin: reconstructing file:  68%|██████▊   | 3.74GB / 5.48GB,  269MB/s  [Apytorch_model.bin: downloading bytes: █████▋    | 3.12GB,  221MB/s  
+pytorch_model.bin: reconstructing file:  86%|████████▋ | 4.74GB / 5.48GB,  332MB/s  [Apytorch_model.bin: downloading bytes: ██████████| 3.66GB,  239MB/s  pytorch_model.bin: downloading bytes: ██████████| 3.66GB,  239MB/s  
+pytorch_model.bin: reconstructing file: 100%|██████████| 5.48GB / 5.48GB,  369MB/s  
+
+Loading weights:   0%|          | 0/1016 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 1016/1016 [00:00<00:00, 32349.35it/s]
+{"phase": "base_initialized", "parameters": 1370647552, "vocabulary": 256215}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 1, "scheduled": 24, "status": "success", "seconds": 0.36578953900607303}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 2, "scheduled": 24, "status": "success", "seconds": 0.6286889670009259}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 3, "scheduled": 24, "status": "success", "seconds": 0.813794962974498}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 4, "scheduled": 24, "status": "success", "seconds": 0.6625244420138188}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 5, "scheduled": 24, "status": "success", "seconds": 0.5959706360008568}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 6, "scheduled": 24, "status": "success", "seconds": 1.230558804993052}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 7, "scheduled": 24, "status": "success", "seconds": 0.7291933210217394}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 8, "scheduled": 24, "status": "success", "seconds": 1.3152677949983627}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 9, "scheduled": 24, "status": "failed", "seconds": 17.021808310004417}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 10, "scheduled": 24, "status": "success", "seconds": 10.194307950005168}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 11, "scheduled": 24, "status": "success", "seconds": 0.7547435869928449}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 12, "scheduled": 24, "status": "success", "seconds": 1.753698459971929}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 13, "scheduled": 24, "status": "success", "seconds": 0.6197824619885068}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 14, "scheduled": 24, "status": "success", "seconds": 0.6589911050105002}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 15, "scheduled": 24, "status": "success", "seconds": 2.352129556995351}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 16, "scheduled": 24, "status": "success", "seconds": 2.554855968017364}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 17, "scheduled": 24, "status": "success", "seconds": 0.6273029150033835}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 18, "scheduled": 24, "status": "success", "seconds": 0.8602841440006159}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 19, "scheduled": 24, "status": "success", "seconds": 1.8756865250179544}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 20, "scheduled": 24, "status": "success", "seconds": 2.4136485370108858}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 21, "scheduled": 24, "status": "success", "seconds": 0.6203622629982419}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 22, "scheduled": 24, "status": "failed", "seconds": 16.916216249985155}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 23, "scheduled": 24, "status": "failed", "seconds": 16.733432495995658}
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "generation_case_recorded", "arm": "initialized", "completed": 24, "scheduled": 24, "status": "success", "seconds": 0.9671152050141245}
+{"phase": "training_update", "step": 1, "total": 700, "seconds": 1.614142697013449, "loss": 5.143522143363953, "gradient_norm": 6.501105785369873, "supervised_tokens": 353, "parents": 16, "lr": 7.142857142857143e-07}
+{"phase": "training_update", "step": 2, "total": 700, "seconds": 1.519048157002544, "loss": 4.865569472312927, "gradient_norm": 3.3657727241516113, "supervised_tokens": 612, "parents": 16, "lr": 1.4285714285714286e-06}
+{"phase": "training_update", "step": 3, "total": 700, "seconds": 1.4848178720276337, "loss": 4.784298002719879, "gradient_norm": 10.24808406829834, "supervised_tokens": 478, "parents": 16, "lr": 2.1428571428571427e-06}
+{"phase": "training_update", "step": 4, "total": 700, "seconds": 1.5117095519963186, "loss": 4.850578486919403, "gradient_norm": 3.348581314086914, "supervised_tokens": 528, "parents": 16, "lr": 2.8571428571428573e-06}
+{"phase": "training_update", "step": 5, "total": 700, "seconds": 1.5089762590068858, "loss": 5.079282283782959, "gradient_norm": 3.4018380641937256, "supervised_tokens": 656, "parents": 16, "lr": 3.5714285714285714e-06}
+{"phase": "training_update", "step": 6, "total": 700, "seconds": 1.5278865039872471, "loss": 4.579506099224091, "gradient_norm": 2.9042696952819824, "supervised_tokens": 795, "parents": 16, "lr": 4.2857142857142855e-06}
+{"phase": "training_update", "step": 7, "total": 700, "seconds": 1.5295674850058276, "loss": 4.72029185295105, "gradient_norm": 18.558198928833008, "supervised_tokens": 242, "parents": 16, "lr": 4.9999999999999996e-06}
+{"phase": "training_update", "step": 8, "total": 700, "seconds": 1.4931034419860225, "loss": 4.578416109085083, "gradient_norm": 4.26517915725708, "supervised_tokens": 412, "parents": 16, "lr": 5.7142857142857145e-06}
+{"phase": "training_update", "step": 9, "total": 700, "seconds": 1.525764109013835, "loss": 4.677975833415985, "gradient_norm": 4.30087947845459, "supervised_tokens": 675, "parents": 16, "lr": 6.428571428571429e-06}
+{"phase": "training_update", "step": 10, "total": 700, "seconds": 1.4901265389926266, "loss": 4.831125915050507, "gradient_norm": 4.3896484375, "supervised_tokens": 385, "parents": 16, "lr": 7.142857142857143e-06}
+{"phase": "training_update", "step": 11, "total": 700, "seconds": 1.714872564014513, "loss": 4.660718083381653, "gradient_norm": 11.60570240020752, "supervised_tokens": 561, "parents": 16, "lr": 7.857142857142858e-06}
+{"phase": "training_update", "step": 12, "total": 700, "seconds": 1.5122573010157794, "loss": 4.660003066062927, "gradient_norm": 3.791910171508789, "supervised_tokens": 601, "parents": 16, "lr": 8.571428571428571e-06}
+{"phase": "training_update", "step": 13, "total": 700, "seconds": 1.5145893409790006, "loss": 4.2657231092453, "gradient_norm": 3.432753086090088, "supervised_tokens": 552, "parents": 16, "lr": 9.285714285714286e-06}
+{"phase": "training_update", "step": 14, "total": 700, "seconds": 1.6715466610039584, "loss": 4.8469144105911255, "gradient_norm": 6.067159652709961, "supervised_tokens": 568, "parents": 16, "lr": 9.999999999999999e-06}
+{"phase": "training_update", "step": 15, "total": 700, "seconds": 1.5137798440118786, "loss": 4.6741026639938354, "gradient_norm": 5.3496413230896, "supervised_tokens": 557, "parents": 16, "lr": 1.0714285714285714e-05}
+{"phase": "training_update", "step": 16, "total": 700, "seconds": 1.5045155019906815, "loss": 4.730887413024902, "gradient_norm": 3.5803043842315674, "supervised_tokens": 478, "parents": 16, "lr": 1.1428571428571429e-05}
+{"phase": "training_update", "step": 17, "total": 700, "seconds": 1.5290724820224568, "loss": 4.66928642988205, "gradient_norm": 4.51090669631958, "supervised_tokens": 607, "parents": 16, "lr": 1.2142857142857144e-05}
+{"phase": "training_update", "step": 18, "total": 700, "seconds": 1.685577428987017, "loss": 4.739554584026337, "gradient_norm": 5.06392765045166, "supervised_tokens": 489, "parents": 16, "lr": 1.2857142857142857e-05}
+{"phase": "training_update", "step": 19, "total": 700, "seconds": 1.5015299429942388, "loss": 4.220246255397797, "gradient_norm": 3.288100004196167, "supervised_tokens": 528, "parents": 16, "lr": 1.3571428571428572e-05}
+{"phase": "training_update", "step": 20, "total": 700, "seconds": 1.5186434980132617, "loss": 4.400669574737549, "gradient_norm": 4.2670769691467285, "supervised_tokens": 407, "parents": 16, "lr": 1.4285714285714285e-05}
+[transformers] Both `max_new_tokens` (=5) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+Writing model shards:   0%|          | 0/2 [00:00<?, ?it/s][A
+Writing model shards:  50%|█████     | 1/2 [00:03<00:03,  3.11s/it][A
+Writing model shards: 100%|██████████| 2/2 [00:05<00:00,  2.72s/it][AWriting model shards: 100%|██████████| 2/2 [00:05<00:00,  2.78s/it]
+
+Loading weights:   0%|          | 0/1013 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 1013/1013 [00:00<00:00, 8438.34it/s]
+[transformers] Both `max_new_tokens` (=5) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "canary_complete_pending_cloud_recovery", "status": "passed", "completed_step": 20, "remaining_updates": 680, "max_steady_update_seconds": 1.714872564014513, "remaining_seconds": 484.9499258809956, "baseline_seconds": 83.27343346198904, "save_reload_seconds": 62.557424184982665, "gpu_peak_bytes": 27981409792, "source_gradient_not_isolated": true, "appended_row_abs_deltas": [0.038132499903440475, 0.02619675174355507, 0.025564098730683327, 0.04854639619588852, 0.02616116963326931, 0.04854639619588852, 0.03464615345001221, 0.04854639619588852, 0.06418034434318542], "representative_with_optimizer": {"seconds": 0.4027137500233948, "loss": 4.054458141326904, "gradient_norm": 5.879846572875977, "optimizer_updates": 0, "populated_optimizer": true}}

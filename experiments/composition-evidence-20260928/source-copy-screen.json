@@ -1,0 +1,325 @@
+{
+  "status": "MECHANICAL_SCREEN_ONLY_NOT_TRAIN_ADMISSION",
+  "candidate_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+  "inputs": {
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\experiments\\composition-evidence-20260928\\check_candidates.py": {
+      "sha256": "fd4396182661b4bf124ef539c408cb103f691540d9f891140b697dba9018ef83",
+      "bytes": 4323
+    },
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\scripts\\audit_training_corpus.py": {
+      "sha256": "9c616eae976683ce16e5428af10b3e4425aa4d72e0f8ac4e33020f5238325abc",
+      "bytes": 32506
+    },
+    "[USER_HOME]\\Documents\\Codex Projects\\01-Software\\Pahlavi Translator\\runs\\datasets\\6f442563128d3a4c49dd5024af6882f6911b3f1b11eb5a2d4ef0d28a453acf0c\\train-records.jsonl": {
+      "sha256": "3b3edf5550e95b13baaf9842ecaeaf53a50a0aa130d9a5dfe17d366ee62d7d43",
+      "bytes": 15644816
+    },
+    "[USER_HOME]\\Documents\\Codex Projects\\01-Software\\Pahlavi Translator\\runs\\datasets\\6f442563128d3a4c49dd5024af6882f6911b3f1b11eb5a2d4ef0d28a453acf0c\\dev-records.jsonl": {
+      "sha256": "6f341a94518405d5569b0d0cb806e38b92f0326c3ef9e1840dbc3b01e2f863e2",
+      "bytes": 2959547
+    },
+    "[USER_HOME]\\Documents\\Codex Projects\\01-Software\\Pahlavi Translator\\runs\\datasets\\6f442563128d3a4c49dd5024af6882f6911b3f1b11eb5a2d4ef0d28a453acf0c\\test-records.jsonl": {
+      "sha256": "ea510178112a75369f152bb3891cdc123702f06dc7b5b6ecbab105dead5195c7",
+      "bytes": 7205682
+    },
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\experiments\\train-audit-20260927\\qualified-v1\\train.jsonl": {
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+      "bytes": 5401884
+    },
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\sources\\@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf": {
+      "sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "bytes": 2107914
+    },
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\resources\\local\\composition-source-check-20260928\\s22-080.png": {
+      "sha256": "e362fc8fa561efeb0adb588ec2d3c70f7db409563009aabd8bcb5506a220d6cf",
+      "bytes": 99349
+    },
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\resources\\local\\composition-source-check-20260928\\s22-081.png": {
+      "sha256": "edf04651e414aa3fa0a16230e31473d19987b37b11bc83c82f3126d6fee19f4a",
+      "bytes": 74047
+    }
+  },
+  "counts": {
+    "train-records.jsonl": 2613,
+    "dev-records.jsonl": 402,
+    "test-records.jsonl": 1019,
+    "qualified_train": 2237
+  },
+  "normalization": "Existing audit source_tokens: NFC/casefold, boundary punctuation removed; internal characters retained.",
+  "limits": "Exact/contiguous/token-ratio screens cannot identify every alternate spelling, paraphrase, witness or work lineage. No new split or expert certification.",
+  "rows": [
+    {
+      "id": "S22CLAUSE-001",
+      "source_copy_screen": {
+        "train-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.2727272727272727,
+            "parsig:151001131",
+            "parsig:151"
+          ]
+        },
+        "dev-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.13333333333333333,
+            "parsig:103000032",
+            "parsig:103"
+          ]
+        },
+        "test-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.36363636363636365,
+            "parsig:117000102",
+            "parsig:117"
+          ]
+        },
+        "qualified_train": {
+          "flagged": [],
+          "nearest": [
+            0.2727272727272727,
+            "parsig:151001131:pal>fa",
+            "parsig:151"
+          ]
+        }
+      },
+      "admission": false,
+      "work_lineage_review_complete": false
+    },
+    {
+      "id": "S22CLAUSE-002",
+      "source_copy_screen": {
+        "train-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:151000037",
+            "parsig:151"
+          ]
+        },
+        "dev-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.2222222222222222,
+            "parsig:112000009",
+            "parsig:112"
+          ]
+        },
+        "test-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.2222222222222222,
+            "parsig:152005002",
+            "parsig:152"
+          ]
+        },
+        "qualified_train": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:151000037:pal>fa",
+            "parsig:151"
+          ]
+        }
+      },
+      "admission": false,
+      "work_lineage_review_complete": false
+    },
+    {
+      "id": "S22CLAUSE-003",
+      "source_copy_screen": {
+        "train-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:151000037",
+            "parsig:151"
+          ]
+        },
+        "dev-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.2222222222222222,
+            "parsig:112000009",
+            "parsig:112"
+          ]
+        },
+        "test-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.2222222222222222,
+            "parsig:152005002",
+            "parsig:152"
+          ]
+        },
+        "qualified_train": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:151000037:pal>fa",
+            "parsig:151"
+          ]
+        }
+      },
+      "admission": false,
+      "work_lineage_review_complete": false
+    },
+    {
+      "id": "S22CLAUSE-004",
+      "source_copy_screen": {
+        "train-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:133000173",
+            "parsig:133"
+          ]
+        },
+        "dev-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:112000009",
+            "parsig:112"
+          ]
+        },
+        "test-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.19047619047619047,
+            "parsig:130000015",
+            "parsig:130"
+          ]
+        },
+        "qualified_train": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:133000173:pal>fa",
+            "parsig:133"
+          ]
+        }
+      },
+      "admission": false,
+      "work_lineage_review_complete": false
+    },
+    {
+      "id": "S22CLAUSE-005",
+      "source_copy_screen": {
+        "train-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:524000004",
+            "parsig:524"
+          ]
+        },
+        "dev-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.13333333333333333,
+            "parsig:103000032",
+            "parsig:103"
+          ]
+        },
+        "test-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.36363636363636365,
+            "parsig:117000102",
+            "parsig:117"
+          ]
+        },
+        "qualified_train": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:524000004:pal>fa",
+            "parsig:524"
+          ]
+        }
+      },
+      "admission": false,
+      "work_lineage_review_complete": false
+    },
+    {
+      "id": "S22CLAUSE-006",
+      "source_copy_screen": {
+        "train-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:134003021",
+            "parsig:134"
+          ]
+        },
+        "dev-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.13333333333333333,
+            "parsig:103000032",
+            "parsig:103"
+          ]
+        },
+        "test-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.2222222222222222,
+            "parsig:152005002",
+            "parsig:152"
+          ]
+        },
+        "qualified_train": {
+          "flagged": [],
+          "nearest": [
+            0.25,
+            "parsig:134003021:pal>fa",
+            "parsig:134"
+          ]
+        }
+      },
+      "admission": false,
+      "work_lineage_review_complete": false
+    },
+    {
+      "id": "S22CLAUSE-007",
+      "source_copy_screen": {
+        "train-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.2222222222222222,
+            "parsig:151026056",
+            "parsig:151"
+          ]
+        },
+        "dev-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.05,
+            "parsig:138002072",
+            "parsig:138"
+          ]
+        },
+        "test-records.jsonl": {
+          "flagged": [],
+          "nearest": [
+            0.13333333333333333,
+            "parsig:117000010",
+            "parsig:117"
+          ]
+        },
+        "qualified_train": {
+          "flagged": [],
+          "nearest": [
+            0.2222222222222222,
+            "parsig:151026056:pal>fa",
+            "parsig:151"
+          ]
+        }
+      },
+      "admission": false,
+      "work_lineage_review_complete": false
+    }
+  ]
+}

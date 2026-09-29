@@ -1,0 +1,17 @@
+{
+  "kind": "prepared-tokenizer-only",
+  "model_revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "result_sha256": "cb82776256b9822214658566b8ffa7dd558e337c58aba5dc1fea8e993eaf7416",
+  "vocab_size": 256215,
+  "source_id": 256214,
+  "files": {
+    "tokenizer.json": {
+      "bytes": 32240968,
+      "sha256": "69d6e27dc9ed4a21a80cc302aedd8acf26a36523803537a110f991a8dac92ee2"
+    },
+    "tokenizer_config.json": {
+      "bytes": 3981,
+      "sha256": "80a26e8892f43863dc18e6af49cd39d36eb882232f3edbc2339baa66a0310a59"
+    }
+  }
+}

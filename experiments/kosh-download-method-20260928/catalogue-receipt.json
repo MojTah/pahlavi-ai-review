@@ -1,0 +1,11 @@
+{
+  "url": "https://kosh.uni-koeln.de/mpcd",
+  "retrieved_utc": "2026-09-28T13:53:17.444154+00:00",
+  "final_url": "https://kosh.uni-koeln.de/mpcd/",
+  "content_type": "application/json",
+  "charset": null,
+  "status": "ok",
+  "file": "raw/9c02a929451b66a27a5f385a02ba6fc6fabf8b3b12946a98d629c9b48613ce97.source",
+  "sha256": "c57a017039bbee01dd55f8617c0302a99e012c471468c1bcfe259f140874bf8d",
+  "bytes": 13461
+}

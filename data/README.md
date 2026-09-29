@@ -1,5 +1,9 @@
 # Collected Middle Persian source data
 
+**Current central entry point:** [Unified corpus](unified-corpus/README.md) joins old collections, final Kosh data, supplied books and later annotation packets. It binds 5,716 files (including seven prior-version audit artifacts), indexes49,504 typed items and exports the unchanged2,237 historical qualified pairs separately from26,880 review candidates. Counts retain their different grains. No new training admission or expert-certification claim.
+
+**28 September2026 resource addition:** [Kosh staging registry](kosh-staging.json) integrates38,686 current-site records and4218 separately identified legacy CPD records as a local review resource. The [cleaning report](../experiments/kosh-quality-20260928/README.md) records26,377 staged form/meaning groups,903 collapsed repeats and15,624 quarantined observations, with every original field preserved. These are not new training pairs; historical TRAIN2237 is unchanged. The collection inventory below remains the dated20 September snapshot.
+
 Collection date: **20 September 2026**. This checkpoint gathers published source texts and available translations for later study. It does not build a translator, align training sentences, or train a model.
 
 The [collection status](collection-status.json) contains verified counts, failed URLs and exact PDF duplicates. The [document index](document-index.jsonl) locates source records. Paths in that index are relative to the project root. Original downloads are local and excluded from Git; a Git checkout alone does not contain the corpus.
@@ -60,6 +64,6 @@ Run [Start-Text-Download.ps1](../downloads/Start-Text-Download.ps1) in PowerShel
 
 One process owns each collection. A lock prevents overlapping writers. Each TITUS run permits at most 1,800 new requests and 60 minutes, with at most two requests in flight and at least 0.55 seconds between admissions. The launcher allows one retry for a reset connection, unexpected TLS EOF or disconnected remote response; previous failures remain recorded. It does not retry HTTP errors or failures that already had a retry. An unexpected Windows termination can leave a lock: verify the recorded process has exited before recovering it.
 
-After collection completes, run `C:\Users\mojta\.venvs\codex-science\Scripts\python.exe scripts/verify_collection.py` from the project root. It checks retained file sizes and SHA-256 hashes, source identifiers, document totals and language classifications, then rebuilds the catalogue and status report. Verification checks data integrity and recorded coverage, not translation accuracy.
+After collection completes, run `[USER_HOME]\.venvs\codex-science\Scripts\python.exe scripts/verify_collection.py` from the project root. It checks retained file sizes and SHA-256 hashes, source identifiers, document totals and language classifications, then rebuilds the catalogue and status report. Verification checks data integrity and recorded coverage, not translation accuracy.
 
 **Current direction, 24 September:** Mojtaba authorized renewed Pahlavi study with parallel agents. [Study status](../kb/study-status.md) records the reading coverage and remaining gaps. Dictionary/translator implementation and training remain separate future work. The authored knowledge base is the durable study record; downloading or reading is not model training.

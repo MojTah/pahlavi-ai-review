@@ -1,0 +1,306 @@
+[
+  {
+    "id": "MT01",
+    "title": "MITRA historical Buddhist language adaptation",
+    "category": "historical_translation",
+    "source_url": "https://arxiv.org/html/2601.06400v1",
+    "primary_evidence": "Domain adaptation of Gemma 2 9B: 4.4B-token dataset, two pretraining epochs, reported eight A100 GPUs for four weeks; supervised translation instructions afterward.",
+    "proposed_use": "Strong precedent for substantial historical-language adaptation, including document instructions.",
+    "limitations": "Not Pahlavi; largely model-judged translation evaluation; reported compute is precedent, not Pahlavi minimum.",
+    "related_urls": [
+      "https://huggingface.co/buddhist-nlp/gemma-2-mitra-it",
+      "https://github.com/dharmamitra/mitra-parallel"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT02",
+    "title": "Machine Translation from One Book",
+    "category": "reference_guided_translation",
+    "source_url": "https://github.com/lukemelas/mtob",
+    "primary_evidence": "Released grammar/dictionary/example-driven translation task for Kalamang.",
+    "proposed_use": "Compare strong-model in-context learning against adaptation.",
+    "limitations": "Kalamang is not Pahlavi; public benchmark may become contaminated.",
+    "related_urls": [
+      "https://arxiv.org/html/2403.05530v5"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT03",
+    "title": "XLR-MTOB / Aycock grammar-book adaptation study",
+    "category": "adaptation_ablation",
+    "source_url": "https://arxiv.org/html/2409.19151v2",
+    "primary_evidence": "NLLB adaptation on 1,239 grammar-book sentence pairs and an additional authentic-pair ablation; some back-translation directions worsened.",
+    "proposed_use": "Treat aligned examples, grammatical prose and synthetic data as separate interventions.",
+    "limitations": "Small test without proficient-speaker evaluation; inspected code contains hardcoded target-language/BOS and incomplete scratch paths requiring repair.",
+    "related_urls": [
+      "https://github.com/Sethjsa/XLR-MTOB"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT04",
+    "title": "DiPMT++ / ZhuangBench",
+    "category": "lexicon_guided_translation",
+    "source_url": "https://aclanthology.org/2024.findings-acl.519.pdf",
+    "primary_evidence": "Zhuang-Chinese dictionary expansion and retrieved translation demonstrations improve reported Qwen-72B translation results.",
+    "proposed_use": "Test verified dictionary hints and retrieved examples with a strong base model.",
+    "limitations": "No Pahlavi evaluation; small benchmark; evidence quality determines usefulness.",
+    "related_urls": [
+      "https://github.com/luciusssss/ZhuangBench"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT05",
+    "title": "GrammaMT",
+    "category": "gloss_guided_translation",
+    "source_url": "https://aclanthology.org/2025.acl-long.1447/",
+    "primary_evidence": "Interlinear gloss information used as intermediate linguistic support.",
+    "proposed_use": "Compare expert glosses against generated glosses, with equal model and prompt budget.",
+    "limitations": "Do not confuse with GrammarMT augmentation paper; self-generated glosses are not ground truth.",
+    "related_urls": [],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT06",
+    "title": "GrammarMT (2026 synthetic augmentation study)",
+    "category": "synthetic_supervision",
+    "source_url": "https://arxiv.org/html/2607.22376v2",
+    "primary_evidence": "Seed-based variants help some languages/configurations and harm others; strongest Kalamang ICL baseline exceeds best synthetic result in inspected comparison.",
+    "proposed_use": "Targeted expert-checked composition augmentation, evaluated by language and direction.",
+    "limitations": "Corpus-count inconsistencies and script/paper sampling differences noted; no Pahlavi proof.",
+    "related_urls": [
+      "https://github.com/varunghat/GrammarMT"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT07",
+    "title": "AmericasNLP 2026 PEFT NMT comparison",
+    "category": "adaptation_comparison",
+    "source_url": "https://aclanthology.org/2026.americasnlp-6.4.pdf",
+    "primary_evidence": "NLLB600M full tuning and OFT outperform reported LoRA average across 13 languages, many unsupported by base model.",
+    "proposed_use": "Keep full tuning and broad-module parameter-efficient methods eligible.",
+    "limitations": "LoRA versus OFT module placement confounds a universal ranking; initial ByT5 comparison is limited.",
+    "related_urls": [
+      "https://github.com/drewstackhouse/peft-nmt-americas"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT08",
+    "title": "MAFAND / LAFAND transfer study",
+    "category": "domain_adaptation",
+    "source_url": "https://aclanthology.org/2022.naacl-main.223.pdf",
+    "primary_evidence": "Multilingual pretrained models adapted with 2,500 in-domain pairs can outperform much larger out-of-domain bilingual training.",
+    "proposed_use": "Corpus domain and pretrained translation capability can matter more than raw pair count.",
+    "limitations": "Language/direction variation; no universal minimum or Pahlavi guarantee.",
+    "related_urls": [
+      "https://github.com/masakhane-io/lafand-mt"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT09",
+    "title": "PARME unsupported Iranian-language translation",
+    "category": "related_language_transfer",
+    "source_url": "https://sinaahmadi.github.io/docs/articles/ahmadi2025parme.pdf",
+    "primary_evidence": "NLLB600M adapted to eight unsupported Iranian languages; reported improvement over zero-shot with 1,000-pair and larger-data conditions.",
+    "proposed_use": "Test related-language initialization/transfer and explicit language tags.",
+    "limitations": "Low absolute scores; appendix train-split ambiguity for two languages unresolved.",
+    "related_urls": [
+      "https://github.com/DOLMA-NLP/PARME"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT10",
+    "title": "Deep Past second-place solution",
+    "category": "competition_author_report",
+    "source_url": "https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/writeups/2nd-place-data-centric-akkadian-nmt",
+    "primary_evidence": "ByT5-large, substantial external scholarly pairs, teacher-assisted alignment and context chunks; one morphology-to-translation synthetic recipe harmed scores.",
+    "proposed_use": "Prioritize authentic translation alignment and context; treat invented labels separately.",
+    "limitations": "Author report, not independent replication; competition genre and scoring differ from Pahlavi use.",
+    "related_urls": [],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT11",
+    "title": "Deep Past first-place solution",
+    "category": "competition_author_report",
+    "source_url": "https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/writeups/dpc-1st-data-quality-dictates-everything",
+    "primary_evidence": "ByT5-XL and eleven-model ensemble with MBR; author also reports a competitive single model.",
+    "proposed_use": "Large byte-level models and ensembles remain quality candidates.",
+    "limitations": "Do not infer that ensemble size is necessary or that private competition score measures general philology.",
+    "related_urls": [],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT12",
+    "title": "Deep Past ninth-place training source audit",
+    "category": "static_code_audit",
+    "source_url": "https://github.com/Eleftheria14/Deep_Past_Gold_Solution/blob/main/training/train_finetune.py",
+    "primary_evidence": "Inspected code reverses/augments/upsamples before random validation split.",
+    "proposed_use": "Split text and translation families before any derived examples.",
+    "limitations": "Potential internal derivative overlap, not measured leakage or allegation about private leaderboard.",
+    "related_urls": [
+      "https://github.com/Eleftheria14/Deep_Past_Gold_Solution/blob/main/docs/solution_writeup.md"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Direct static inspection; no execution",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MT13",
+    "title": "LoRA Without Regret",
+    "category": "primary_experimental_blog",
+    "source_url": "https://thinkingmachines.ai/blog/lora/",
+    "primary_evidence": "Adapter rank, placement, learning rate and batch size materially affect supervised/reinforcement experiments.",
+    "proposed_use": "A failed narrow LoRA does not settle broader adaptation methods.",
+    "limitations": "Study tasks are not novel ancient-language translation; no universal full-tuning replacement claim.",
+    "related_urls": [],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "MO01",
+    "title": "Hy-MT2-30B-A3B",
+    "category": "translation_model",
+    "source_url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+    "primary_evidence": "Official translation model/card; modern Persian listed; training YAML inspected with full-SFT/ZeRO3 configuration.",
+    "proposed_use": "Large translation specialist eligible for Pahlavi adaptation comparison.",
+    "limitations": "No verified Pahlavi support; 30B stored parameters despite 3B active; demo data cap and commented validation must not be copied.",
+    "related_urls": [
+      "https://github.com/Tencent-Hunyuan/Hy-MT2/blob/main/train/llama_factory_support/hy_dense_7b_full_sft.yaml"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-translation-model-audit.md"
+  },
+  {
+    "id": "MO02",
+    "title": "TranslateGemma 27B",
+    "category": "translation_model",
+    "source_url": "https://huggingface.co/google/translategemma-27b-it",
+    "primary_evidence": "Official gated model card and language/template interface inspected.",
+    "proposed_use": "Independent translation-specialized contender.",
+    "limitations": "Stock language-code validation and 2K context constrain direct use; deliberate Pahlavi support needed; Gemma license.",
+    "related_urls": [],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-translation-model-audit.md"
+  },
+  {
+    "id": "MO03",
+    "title": "Tower Plus 72B",
+    "category": "translation_model",
+    "source_url": "https://huggingface.co/Unbabel/Tower-Plus-72B",
+    "primary_evidence": "Large translation model trained with domain/instruction/post-edit preference stages.",
+    "proposed_use": "Compare large transfer model and use expert post-edits as supervision.",
+    "limitations": "Neither Persian nor Pahlavi listed; inconsistent noncommercial labels need resolution; no Pahlavi benchmark.",
+    "related_urls": [
+      "https://arxiv.org/html/2506.17080v1"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-translation-model-audit.md"
+  },
+  {
+    "id": "MO04",
+    "title": "MiLMMT-46 12B / gemmax",
+    "category": "translation_model",
+    "source_url": "https://github.com/xiaomi-research/gemmax",
+    "primary_evidence": "Released supervised and post-trained models; modern Persian included; actual reference-free reward and scoring code inspected.",
+    "proposed_use": "Compare SFT and RL checkpoints and potentially reuse pipeline after validation.",
+    "limitations": "Pahlavi absent; references unused by inspected reward; optimization/evaluation metric-family overlap is not independent meaning evidence.",
+    "related_urls": [
+      "https://arxiv.org/html/2608.10812v2",
+      "https://raw.githubusercontent.com/xiaomi-research/gemmax/main/scripts/rl/rewards/mt_dual_comet_reward.py"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-translation-model-audit.md"
+  },
+  {
+    "id": "MO05",
+    "title": "Seed-X-7B",
+    "category": "translation_model",
+    "source_url": "https://github.com/ByteDance-Seed/Seed-X-7B",
+    "primary_evidence": "Translation/reward release; target-language suffix interface and scalar EOS scorer inspected.",
+    "proposed_use": "Additional specialist and candidate-selection baseline.",
+    "limitations": "Pahlavi reward competence unverified; use documented suffix rather than generic chat template.",
+    "related_urls": [
+      "https://raw.githubusercontent.com/ByteDance-Seed/Seed-X-7B/main/RM_demo.py"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-translation-model-audit.md"
+  },
+  {
+    "id": "RS01",
+    "title": "GPU memory accounting",
+    "category": "resource_method",
+    "source_url": "https://huggingface.co/docs/transformers/model_memory_anatomy",
+    "primary_evidence": "Official documentation separates weights, optimizer states, gradients, activations and transient overhead.",
+    "proposed_use": "Calculate raw BF16 weight floor at 2 bytes/parameter; profile actual sequence length and batch before reserving hardware.",
+    "limitations": "Full-training estimates depend on precision, optimizer, sharding and offload; weights-only numbers are not fit guarantees.",
+    "related_urls": [],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary author/source report; no local Pahlavi replication",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "RS02",
+    "title": "H100 hardware specifications",
+    "category": "hardware_specification",
+    "source_url": "https://www.nvidia.com/en-us/data-center/h100/",
+    "primary_evidence": "Official H100 SXM 80GB and H100 NVL 94GB specifications inspected.",
+    "proposed_use": "Use named 80GB/94GB configurations as illustrative capacity envelopes.",
+    "limitations": "No measured Pahlavi throughput, pricing or purchase recommendation; interconnected GPU memory requires supported sharding.",
+    "related_urls": [],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Manufacturer specification",
+    "detail_note": "deep-research-synthesis.md"
+  },
+  {
+    "id": "DL01",
+    "title": "Reddit low-resource translation and fine-tuning discussions",
+    "category": "discussion_leads",
+    "source_url": "https://www.reddit.com/r/LanguageTechnology/comments/vyf2rf/",
+    "primary_evidence": "Six inspected discussions are documented in deep-practical-evidence.md; useful pointers include the primary LoRA study and NLLB author discussion.",
+    "proposed_use": "Use practitioner failure modes as hypotheses to check against primary work.",
+    "limitations": "Anecdotes provide no controlled Pahlavi success evidence and are not used to rank technical methods.",
+    "related_urls": [
+      "https://www.reddit.com/r/LocalLLaMA/comments/1nturn1/full_finetuning_is_not_needed_anymore/",
+      "https://www.reddit.com/r/MachineLearning/comments/w4jg7q/"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Anecdotal discovery leads",
+    "detail_note": "deep-research-synthesis.md"
+  }
+]

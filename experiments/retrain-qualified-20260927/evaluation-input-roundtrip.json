@@ -1,0 +1,14 @@
+{
+  "evaluator": {
+    "path": "inputs/palref-eval-050a38880c68.py",
+    "sha256": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+    "bytes": 10219,
+    "xet_hash": "f6cbf00c6c2496d48d61d3fc0c1fdcdec6ffde16a577d63d394959513841dd3c"
+  },
+  "inputs": {
+    "path": "inputs/palref-v1-pal-fa-inputs-0616b5083833.jsonl",
+    "sha256": "0616b50838339e9b520f06fe8b2ed9c0fd9b399b67c8f68cd680a62115a12f37",
+    "bytes": 12115,
+    "xet_hash": "adf5463f26d204b910f26bd8ef8b293e029f954e43f5125e8b7541a20fbf619c"
+  }
+}

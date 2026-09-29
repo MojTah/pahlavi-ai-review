@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "full_training_authorized": true,
+  "cloud_controls_verified": true,
+  "evidence": {
+    "authorization": "User explicitly raised cumulative ceiling to USD25 and authorized fresh retraining, fixed comparison, then strategy review. No top-up.",
+    "cloud_controls": "Reviewed qualified controllers and actual canary lifecycle; see experiments/retrain-qualified-20260927/PREPARATION-REVIEW.md and controller-checks.json.",
+    "canary_terminal": "6ab8a42352d0dbd7f1d9a228 confirmed CANCELED after committed20-file inventory at2026-09-27T05:19:40Z;14smallmetadata files independentlySHAverified. Full tensor/checkpoint recovery required before base download and resume.",
+    "baseline_reported": "experiments/palref-v1/baseline-20260926/REPORT.md; original5/40 and previous-trained15/40 provisionalAI accepted."
+  },
+  "max_minutes": 150,
+  "prior_cumulative_compute_usd": 7.71,
+  "canary_elapsed_minutes": 14.016666666666667,
+  "remaining_aggregate_a100_minutes": 170.98333333333332,
+  "budget_ceiling_usd": 25
+}

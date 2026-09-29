@@ -1,0 +1,13 @@
+test_blind_packets_reference_bytes_and_reused_instructions (scripts.test_review_contextual.ContextualReviewTest.test_blind_packets_reference_bytes_and_reused_instructions) ... ok
+test_default96_unchanged_explicit48_and_rubric (scripts.test_review_contextual.ContextualReviewTest.test_default96_unchanged_explicit48_and_rubric) ... ok
+test_disk_prepare_score_rebuild_and_export_hash_failure (scripts.test_review_contextual.ContextualReviewTest.test_disk_prepare_score_rebuild_and_export_hash_failure) ... ok
+test_launch_and_actual_tokenizer_complete_fixture (scripts.test_review_contextual.ContextualReviewTest.test_launch_and_actual_tokenizer_complete_fixture) ... ok
+test_missing_failed_and_no_evaluation_keep48_inconclusive (scripts.test_review_contextual.ContextualReviewTest.test_missing_failed_and_no_evaluation_keep48_inconclusive) ... ok
+test_recovery_manifest_inventory_and_adapter_export_binding (scripts.test_review_contextual.ContextualReviewTest.test_recovery_manifest_inventory_and_adapter_export_binding) ... ok
+test_token_source_order_counters_and_adapter_tampering (scripts.test_review_contextual.ContextualReviewTest.test_token_source_order_counters_and_adapter_tampering) ... ok
+test_uniform_screen_exact_parity_and_disagreements (scripts.test_review_contextual.ContextualReviewTest.test_uniform_screen_exact_parity_and_disagreements) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 63.201s
+
+OK

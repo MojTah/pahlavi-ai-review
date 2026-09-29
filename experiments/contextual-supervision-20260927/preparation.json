@@ -1,0 +1,9 @@
+{
+  "source_references_sha256": "7146aaa3173b2795f18fc231675453f34fd0ed50703c0386a0a5224af0d5bd06",
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "proposal_file_sha256": "f465bfac2d3f818c1960386dc0ef1edbc6b2a87561ede3b0e6c657ed2860923e",
+  "count": 3,
+  "expert_adjudicated": false,
+  "training_admitted": false,
+  "note": "Two phrase alignments inferred with primary book support; one exact published contextual gloss. All retain full TRAIN context and original qualifications."
+}

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "kind": "smallest_real",
+      "parent_ids": [
+        "TRAINRECALL1-014"
+      ],
+      "scored": false,
+      "batch_size": 1,
+      "padded_source_tokens": 7,
+      "padded_target_tokens": 6,
+      "seconds": 0.4633941639913246,
+      "sum_nll": 6.717780662300356,
+      "supervised_tokens": 6,
+      "mean_nll": 1.1196301103833928,
+      "native_mean_nll": 1.1210274696350098,
+      "native_loss_dtype": "torch.float32",
+      "native_absolute_difference": 0.001397359251616992,
+      "reference_mean_nll": 1.1196300983428955,
+      "reference_absolute_difference": 1.2040497265886074e-08,
+      "reference_precision": "float32_logits",
+      "content_sum_nll": 6.706436607986689,
+      "content_tokens": 4,
+      "content_mean_nll": 1.6766091519966722,
+      "control_sum_nll": 0.011344054313667584,
+      "control_tokens": 2,
+      "language_tag_sum_nll": 9.083335316972807e-05,
+      "eos_sum_nll": 0.011253220960497856,
+      "tokens_per_control": 1
+    },
+    {
+      "kind": "representative_padded_shape",
+      "parent_ids": [
+        "TRAINRECALL1-013",
+        "TRAINRECALL1-014"
+      ],
+      "scored": false,
+      "batch_size": 2,
+      "padded_source_tokens": 208,
+      "padded_target_tokens": 201,
+      "seconds": 0.06309971999144182,
+      "sum_nll": 271.5919853456653,
+      "supervised_tokens": 207,
+      "mean_nll": 1.3120385765491078,
+      "native_mean_nll": 1.3122366666793823,
+      "native_loss_dtype": "torch.float32",
+      "native_absolute_difference": 0.0001980901302744975,
+      "reference_mean_nll": 1.312038540840149,
+      "reference_absolute_difference": 3.570895890092629e-08,
+      "reference_precision": "float32_logits",
+      "content_sum_nll": 271.5389851490909,
+      "content_tokens": 203,
+      "content_mean_nll": 1.3376304687147333,
+      "control_sum_nll": 0.05300019657443045,
+      "control_tokens": 4,
+      "language_tag_sum_nll": 0.0002917989550041966,
+      "eos_sum_nll": 0.05270839761942625,
+      "tokens_per_control": 2
+    }
+  ],
+  "projected_remaining_seconds": 197.022599011485,
+  "remaining_seconds": 373.59426739200717,
+  "generation_projection_basis": "2x prior trained24 observed 64.97553294608952 seconds; not a guaranteed throughput"
+}

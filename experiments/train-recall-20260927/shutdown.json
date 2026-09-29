@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T11:34:41.866487+00:00",
+  "job_id": "6ab8fa5d6b030d633f698f47",
+  "cancel_requested": true,
+  "provider_status": "CANCELED",
+  "reason": "Partial first-attempt diagnostic recovered and full SHA verified; stop idle GPU",
+  "recovery_manifest_sha256": "cd4c606d1fc5b9db4db84faad8575cf2fa114bb910769c93f8fe9a751ead1816",
+  "elapsed_seconds_upper": 1267.736938,
+  "compute_upper_estimate_usd": 0.88038,
+  "final_invoice": false,
+  "model_weights_downloaded": false
+}

@@ -1,0 +1,265 @@
+{
+  "purpose": "TOKENIZER_ONLY_NO_MODEL_WEIGHTS",
+  "inputs_sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+  "tokenizer_files": {
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+  },
+  "versions": {
+    "transformers": "5.13.1",
+    "tokenizers": "0.22.2",
+    "jinja2": "3.1.6",
+    "huggingface_hub": "1.23.0"
+  },
+  "runtime_note": "Shared science Python with existing project HF-client site-packages appended for missing pure-Python huggingface_hub; process-local, no installs or environment modifications",
+  "training_prefix_parity_count": 20,
+  "conditions": [
+    "training",
+    "evaluation"
+  ],
+  "maximum_input_tokens": 327,
+  "input_tokens_total": 5180,
+  "rows": [
+    {
+      "id": "TRAINRECALL1-001",
+      "condition": "training",
+      "input_tokens": 218,
+      "input_ids_sha256": "a1d610c12f7bb7845a2e75bcc2d447c722fe0beedf00f0f15e4926d9e5a030eb"
+    },
+    {
+      "id": "TRAINRECALL1-001",
+      "condition": "evaluation",
+      "input_tokens": 256,
+      "input_ids_sha256": "59b5d0c188e22f67ef7d4b5b2dfcc602341622c7493ba4bf43a7b296705a9747"
+    },
+    {
+      "id": "TRAINRECALL1-002",
+      "condition": "training",
+      "input_tokens": 68,
+      "input_ids_sha256": "de3aad5c1a408c7975d779d850f6fef52533202420a01e75cc29ab70aade34b3"
+    },
+    {
+      "id": "TRAINRECALL1-002",
+      "condition": "evaluation",
+      "input_tokens": 106,
+      "input_ids_sha256": "1aca25c728850f7acaa9dd54791aa4a59e1d97cfc1e4901c2f166863cefc2904"
+    },
+    {
+      "id": "TRAINRECALL1-003",
+      "condition": "training",
+      "input_tokens": 69,
+      "input_ids_sha256": "b443e6d2eb71b8d4fcd856178395bbeb6368eabdd132f57e310a13bc492cabf0"
+    },
+    {
+      "id": "TRAINRECALL1-003",
+      "condition": "evaluation",
+      "input_tokens": 107,
+      "input_ids_sha256": "660a63d79f6d145ce380c29c93caa2e19a01e672d7e9226241784526ffffd920"
+    },
+    {
+      "id": "TRAINRECALL1-004",
+      "condition": "training",
+      "input_tokens": 69,
+      "input_ids_sha256": "cdf8a0783092ff69d0ffb8701e8e8ec186eb549618044559004743cba0715ce8"
+    },
+    {
+      "id": "TRAINRECALL1-004",
+      "condition": "evaluation",
+      "input_tokens": 107,
+      "input_ids_sha256": "f7b5e6d4b816d5c8bb9998655eea78c4148b711ef2b7986126b0f15e45857ad0"
+    },
+    {
+      "id": "TRAINRECALL1-005",
+      "condition": "training",
+      "input_tokens": 65,
+      "input_ids_sha256": "e22dd242df50485147bbf22f9c5f53eb61f212d10676a53465a5d0f585e97069"
+    },
+    {
+      "id": "TRAINRECALL1-005",
+      "condition": "evaluation",
+      "input_tokens": 103,
+      "input_ids_sha256": "30ad1290bf76b1c21504d0e88e6dd088cd096ea74ca0c47e56c58afe6fd37701"
+    },
+    {
+      "id": "TRAINRECALL1-006",
+      "condition": "training",
+      "input_tokens": 78,
+      "input_ids_sha256": "96cbb8e2d8854a5b78c6d8ff46b54470343d9c269e568c5957eb3c0545661762"
+    },
+    {
+      "id": "TRAINRECALL1-006",
+      "condition": "evaluation",
+      "input_tokens": 116,
+      "input_ids_sha256": "06fe8e491bec2633f6047807ec967c8a7be82c779b12f2de677a0c7cc898dcf6"
+    },
+    {
+      "id": "TRAINRECALL1-007",
+      "condition": "training",
+      "input_tokens": 68,
+      "input_ids_sha256": "4302d9700fe86a3a12d70a1417b606431114c3f60e76f42cf53d369377551798"
+    },
+    {
+      "id": "TRAINRECALL1-007",
+      "condition": "evaluation",
+      "input_tokens": 106,
+      "input_ids_sha256": "822c20f04d07309f2d9b90751121265de0b98446edb575fb3440d8176d6b243e"
+    },
+    {
+      "id": "TRAINRECALL1-008",
+      "condition": "training",
+      "input_tokens": 80,
+      "input_ids_sha256": "dbaabfec6b299492e77171c8ad4d6a43ad8a1d85a0b2d06f78707457b761f119"
+    },
+    {
+      "id": "TRAINRECALL1-008",
+      "condition": "evaluation",
+      "input_tokens": 118,
+      "input_ids_sha256": "947c2fc8977891d1779485b6c90cde70e2add67b4516a3a29b0f20de20e1f2ef"
+    },
+    {
+      "id": "TRAINRECALL1-009",
+      "condition": "training",
+      "input_tokens": 110,
+      "input_ids_sha256": "6dc799e4f2d6dfdc6b1e650a261ee8c3ceabc53e27e3387dbd11bf56f77056ea"
+    },
+    {
+      "id": "TRAINRECALL1-009",
+      "condition": "evaluation",
+      "input_tokens": 148,
+      "input_ids_sha256": "e36a4098f87d31b6aab8024ce4631a94923057cdebe67899b8d4e89c91f1e34e"
+    },
+    {
+      "id": "TRAINRECALL1-010",
+      "condition": "training",
+      "input_tokens": 104,
+      "input_ids_sha256": "369298845a804ea0c4a2dca0a1ce453e44f1505ddd9b2061c008d9d3a2fc64f4"
+    },
+    {
+      "id": "TRAINRECALL1-010",
+      "condition": "evaluation",
+      "input_tokens": 142,
+      "input_ids_sha256": "b93155cd22876885f6bfb60715ede1d496c989696b42bdaeb1b368e6dd6a8e08"
+    },
+    {
+      "id": "TRAINRECALL1-011",
+      "condition": "training",
+      "input_tokens": 102,
+      "input_ids_sha256": "9a4e1eb7f0fae5f84bb75a2b95f7198372dc302757189e276c81b91435f8e958"
+    },
+    {
+      "id": "TRAINRECALL1-011",
+      "condition": "evaluation",
+      "input_tokens": 140,
+      "input_ids_sha256": "b6f142eed7c9f850f6e634286c5d8c78f650e7d5310c659a474ffb063c879a74"
+    },
+    {
+      "id": "TRAINRECALL1-012",
+      "condition": "training",
+      "input_tokens": 80,
+      "input_ids_sha256": "2c8f13fcb1674afade67e844acb941328a7c5a76c3887c715e3adcc896296cc0"
+    },
+    {
+      "id": "TRAINRECALL1-012",
+      "condition": "evaluation",
+      "input_tokens": 118,
+      "input_ids_sha256": "e70c9648045ccc71fad3f0cc0dd43b87d7f4b932ced5601b126a932a5c4a79d8"
+    },
+    {
+      "id": "TRAINRECALL1-013",
+      "condition": "training",
+      "input_tokens": 289,
+      "input_ids_sha256": "135fa7ce8caee1bfb25cb84232824d52529d6e052537966884a9dbdff105a223"
+    },
+    {
+      "id": "TRAINRECALL1-013",
+      "condition": "evaluation",
+      "input_tokens": 327,
+      "input_ids_sha256": "514587bfc1b0e4faef6080fa8c5577cae13743ecfa3ef446724847c74d243ac0"
+    },
+    {
+      "id": "TRAINRECALL1-014",
+      "condition": "training",
+      "input_tokens": 60,
+      "input_ids_sha256": "44d037559f4f72bdc7a32d07c46541b3dc41a057f052a6e832ef43d61a29403f"
+    },
+    {
+      "id": "TRAINRECALL1-014",
+      "condition": "evaluation",
+      "input_tokens": 98,
+      "input_ids_sha256": "89b6c97beb722d0111f500d9f6763fc1ae1c99b793b29a266183cf09448447c4"
+    },
+    {
+      "id": "TRAINRECALL1-015",
+      "condition": "training",
+      "input_tokens": 194,
+      "input_ids_sha256": "93cfee6b0e01cc3cb1bdc7a414a2d1af33dc1021a0cc3af078fe3944e4672d6f"
+    },
+    {
+      "id": "TRAINRECALL1-015",
+      "condition": "evaluation",
+      "input_tokens": 232,
+      "input_ids_sha256": "4cc4a2517275cc9ce1b43c5465cdc9b8e97dc36dc80d75d204ebb20b536d07ac"
+    },
+    {
+      "id": "TRAINRECALL1-016",
+      "condition": "training",
+      "input_tokens": 153,
+      "input_ids_sha256": "b127ad4f67237ce7572f22e0bf23eaf0751380dc58cde0b1c7fe0c346227dc49"
+    },
+    {
+      "id": "TRAINRECALL1-016",
+      "condition": "evaluation",
+      "input_tokens": 191,
+      "input_ids_sha256": "6b8cfa9c86ac97ab7358424d6bf4af95a665d716981f07a108f979ec61c31bc9"
+    },
+    {
+      "id": "TRAINRECALL1-017",
+      "condition": "training",
+      "input_tokens": 89,
+      "input_ids_sha256": "1ad1da0dd1b18b1f3023fef525550b5731627017011fc0658d7cd3585f2fb4ac"
+    },
+    {
+      "id": "TRAINRECALL1-017",
+      "condition": "evaluation",
+      "input_tokens": 127,
+      "input_ids_sha256": "182298a5bd73d6444c6ab2f5d0777a5c2649c4969e2214287c7fe3ece8344140"
+    },
+    {
+      "id": "TRAINRECALL1-018",
+      "condition": "training",
+      "input_tokens": 128,
+      "input_ids_sha256": "3229b3300dede3d75407a7b9bb5ef628b4c71c7c0ded84c22a3ee011dbff9a71"
+    },
+    {
+      "id": "TRAINRECALL1-018",
+      "condition": "evaluation",
+      "input_tokens": 166,
+      "input_ids_sha256": "a91d46ea83e16b38b4f07e46b5bc02ba6e47b9c9ef846128b6f0a3705b7d8cb6"
+    },
+    {
+      "id": "TRAINRECALL1-019",
+      "condition": "training",
+      "input_tokens": 86,
+      "input_ids_sha256": "4a1aa281f6c5932501df07942d19de4dc76d11b7428579aa133139beeaa79a7e"
+    },
+    {
+      "id": "TRAINRECALL1-019",
+      "condition": "evaluation",
+      "input_tokens": 124,
+      "input_ids_sha256": "268bd461600c76efb3e1c0aace58faa9457ab8e6dd8f9a5611198c92ab23b2bd"
+    },
+    {
+      "id": "TRAINRECALL1-020",
+      "condition": "training",
+      "input_tokens": 100,
+      "input_ids_sha256": "22747a21b9a96db7893c90f3ff736b0656b3f4dc73acffb89ea721daa7c1633e"
+    },
+    {
+      "id": "TRAINRECALL1-020",
+      "condition": "evaluation",
+      "input_tokens": 138,
+      "input_ids_sha256": "cafbcecebe87642835fbf7fab33aa2771c38d9edbf4d335fd98fbf5b691f1090"
+    }
+  ]
+}

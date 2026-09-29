@@ -1,0 +1,8 @@
+{
+  "path": "inputs/nllb-seen-c57c25f27ef023d1.zip",
+  "sha256": "c57c25f27ef023d139ae939d3e9c56f8ec8408ed9586de20dd94dacce9a8195e",
+  "roundtrip_verified": true,
+  "bytes": 762329,
+  "xet_hash": "48681b1a80832593ccacf2890164de2b03ad4452f39b4325b185a4879f467ddf",
+  "utc": "2026-09-28T10:34:57.229924+00:00"
+}

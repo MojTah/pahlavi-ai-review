@@ -1,0 +1,214 @@
+[
+  {
+    "id": "EVAL-01",
+    "title": "Experts, Errors, and Context: A Large-Scale Study of Human Evaluation for Machine Translation",
+    "category": "expert_evaluation",
+    "authors": [
+      "Markus Freitag",
+      "George Foster",
+      "David Grangier",
+      "Viresh Ratnakar",
+      "Qijun Tan",
+      "Wolfgang Macherey"
+    ],
+    "institution": "Google Research",
+    "source_url": "https://aclanthology.org/2021.tacl-1.87.pdf",
+    "primary_evidence": "TACL 2021 study uses professional MQM raters, full document context, anonymized systems and randomized presentation. Expert-derived rankings differ from crowd rankings. Full paper inspected.",
+    "proposed_use": "Adapt error-span annotation, reviewer calibration and blinded paired evaluation to Pahlavi.",
+    "limitations": "English-German and Chinese-English evidence; no Pahlavi validation. Expert agreement is imperfect. Reported study, not independently replicated here.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-02",
+    "title": "Evaluating LLM-Based Translation of a Low-Resource Technical Language: The Medical and Philosophical Greek of Galen",
+    "category": "ancient_language_expert_evaluation",
+    "authors": [
+      "James L. Zainaldin",
+      "Cameron Pattison",
+      "Manuela Marai",
+      "Jacob Wu",
+      "Mark J. Schiefsky"
+    ],
+    "institution": "Vanderbilt University; Harvard University Center for Hellenic Studies and Classics; Australian National University MINT Lab; independent researcher",
+    "source_url": "https://arxiv.org/pdf/2602.24119v2",
+    "primary_evidence": "April 2026 preprint revision: 60 blinded translations of 20 paragraphs from two Galenic works; expert modified MQM and seven automatic metrics. Rare technical passages concentrate catastrophic errors. Full paper inspected.",
+    "proposed_use": "Stratify Pahlavi tests by terminology rarity and genre; record serious semantic errors separately from mean quality.",
+    "limitations": "Two works and small sample; rarity correlation strongly influenced by two passages. Ancient Greek is not Pahlavi; no independent replication here.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-03",
+    "title": "MITRA-zh-eval: Using a Buddhist Chinese Language Evaluation Dataset to Assess Machine Translation and Evaluation Metrics",
+    "category": "ancient_language_metric_calibration",
+    "authors": [
+      "Sebastian Nehrdich",
+      "Avery Chen",
+      "Marcus Bingenheimer",
+      "Lu Huang",
+      "Rouying Tang",
+      "Xiang Wei",
+      "Leijie Zhu",
+      "Kurt Keutzer"
+    ],
+    "institution": "University of California Berkeley BAIR; Temple University; Heinrich Heine University Düsseldorf",
+    "source_url": "https://aclanthology.org/2025.nlp4dh-1.12.pdf",
+    "primary_evidence": "2025 paper compares metrics against 182 outputs rated by five subject specialists; average pairwise rater Spearman correlation 0.4. GEMBA performs best in their calibration. Human calibration excludes the judge model's outputs.",
+    "proposed_use": "Calibrate any automated Pahlavi judge against qualified independent judgments before using it for selection.",
+    "limitations": "Authors report no specific annotator training; modest agreement and beginning-of-text sampling. This supports conditional judge usefulness, not universal validity. No replication here.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-04",
+    "title": "COMET for Low-Resource Machine Translation Evaluation: A Case Study of English-Maltese and Spanish-Basque",
+    "category": "metric_language_coverage",
+    "authors": [
+      "Júlia Falcão",
+      "Claudia Borg",
+      "Nora Aranberri",
+      "Kurt Abela"
+    ],
+    "institution": "University of Malta; HiTZ Center, University of the Basque Country",
+    "source_url": "https://aclanthology.org/2024.lrec-main.315.pdf",
+    "primary_evidence": "LREC-COLING2024 paper tests unsupported or weakly supported language settings against human judgments; metric fine-tuning can help, but sensitivity to training-score distributions and inconsistent gains remain.",
+    "proposed_use": "Treat Pahlavi COMET as an uncalibrated diagnostic until rank and serious-error detection are measured.",
+    "limitations": "Case studies do not establish Pahlavi behavior. Encoder language coverage differs from quality-estimation training coverage. Full paper inspected; not replicated.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-05",
+    "title": "COMET official documentation: Languages Covered and Interpreting Scores",
+    "category": "implementation_documentation",
+    "authors": [
+      "Unbabel COMET maintainers"
+    ],
+    "institution": "Unbabel",
+    "source_url": "https://github.com/Unbabel/COMET",
+    "primary_evidence": "Official README explicitly warns that uncovered language pairs produce unreliable results. Its listed XLM-R language coverage includes Persian, but not Pahlavi/Middle Persian. Model-specific scoring and comparison interfaces are documented.",
+    "proposed_use": "Record metric checkpoint/version and coverage; never interpret a high unvalidated score as a percentage of correct Pahlavi meaning.",
+    "limitations": "README inspection only; no metric inference or source-code execution. Persian support cannot be equated with historical Middle Persian support.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-06",
+    "title": "On Compositional Generalization of Neural Machine Translation; CoGnition",
+    "category": "compositional_generalization",
+    "authors": [
+      "Yafu Li",
+      "Yongjing Yin",
+      "Yulong Chen",
+      "Yue Zhang"
+    ],
+    "institution": "Zhejiang University; Westlake University; Westlake Institute for Advanced Study",
+    "source_url": "https://aclanthology.org/2021.acl-long.368/",
+    "primary_evidence": "ACL2021 benchmark separately tests novel compounds and ordinary test sentences; standard translation scores can hide compound errors. Public repository README supplies dataset splits and evaluation entry point at github.com/yafuly/CoGnition.",
+    "proposed_use": "Create expert-validated Pahlavi novel-combination families and score the changed proposition directly.",
+    "limitations": "English-Chinese construction, not a Pahlavi test. Repository README inspected; evaluation Python source retrieval failed and no code ran.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-07",
+    "title": "Measuring Compositional Generalization: A Comprehensive Method on Realistic Data",
+    "category": "compositional_split_design",
+    "authors": [
+      "Daniel Keysers",
+      "Nathanael Schärli",
+      "Nathan Scales",
+      "Hylke Buisman",
+      "Daniel Furrer",
+      "Sergii Kashubin",
+      "Nikola Momchev",
+      "Danila Sinopalnikov",
+      "Lukasz Stafiniak",
+      "Tibor Tihon",
+      "Dmitry Tsarkov",
+      "Xiao Wang",
+      "Marc van Zee",
+      "Olivier Bousquet"
+    ],
+    "institution": "Google Research Brain Team",
+    "source_url": "https://arxiv.org/pdf/1912.09713",
+    "primary_evidence": "ICLR2020 DBCA constructs partitions with similar distributions of atomic elements but different compound distributions. Demonstrated on CFQ semantic parsing/question answering.",
+    "proposed_use": "Separate vocabulary unfamiliarity from unfamiliar combinations; document atom and combination exposure in diagnostic splits.",
+    "limitations": "CFQ is not ordinary translation. Pahlavi atoms and grammatical compounds need defensible annotation; arbitrary string swaps do not implement DBCA.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-08",
+    "title": "Evaluation and Large-scale Training for Contextual Machine Translation",
+    "category": "document_context_evaluation",
+    "authors": [
+      "Matt Post",
+      "Marcin Junczys-Dowmunt"
+    ],
+    "institution": "Microsoft",
+    "source_url": "https://aclanthology.org/2024.wmt-1.112.pdf",
+    "primary_evidence": "WMT2024 compares contextual training/inference and tests both contrastive scoring and actual generation. Contrastive preference is only a proxy for generating the contextually correct form; context-dense evaluation reveals otherwise small gains.",
+    "proposed_use": "Evaluate real translated outputs under correct, removed and misleading context, including referents and ellipsis.",
+    "limitations": "Modern language pairs; no Pahlavi result. Generated neighboring translations and gold target context are distinct conditions. Paper inspected; no execution.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-09",
+    "title": "When Flores Bloomz Wrong: Cross-Direction Contamination in Machine Translation Evaluation",
+    "category": "contamination_and_lineage",
+    "authors": [
+      "David Tan",
+      "Pinzhen Chen",
+      "Josef van Genabith",
+      "Koel Dutta Chowdhury"
+    ],
+    "institution": "Saarland University; Queen's University Belfast; DFKI; University of Edinburgh",
+    "source_url": "https://aclanthology.org/2026.eacl-short.26.pdf",
+    "primary_evidence": "EACL2026 study demonstrates target-side memorization can inflate other translation directions; source paraphrasing and entity changes do not reliably remove memorized-reference effects.",
+    "proposed_use": "Group all directions, translations and derived samples by passage/work lineage before partitioning; probe memorization separately.",
+    "limitations": "Bloomz/FLORES case study is not proof a particular Pahlavi model is contaminated. Foundation-model corpus exposure cannot be fully certified here.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-10",
+    "title": "When LLMs Struggle: Reference-less Translation Evaluation for Low-resource Languages",
+    "category": "llm_judge_validity",
+    "authors": [
+      "Archchana Sindhujan",
+      "Diptesh Kanojia",
+      "Constantin Orăsan",
+      "Shenbin Qian"
+    ],
+    "institution": "University of Surrey Institute for People-Centred AI and Centre for Translation Studies",
+    "source_url": "https://aclanthology.org/2025.loreslm-1.33.pdf",
+    "primary_evidence": "LoResLM2025 tests prompting and instruction-tuning for quality estimation; prompt-based LLM approaches are outperformed by fine-tuned encoder-based QE, with transliteration and named-entity failures.",
+    "proposed_use": "Test judges on controlled semantic corruptions and correct paraphrases, independently of translator selection.",
+    "limitations": "Studied modern low-resource directions and contemporary checkpoints; not proof all future LLM judges fail. No Pahlavi judge validation or replication here.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-11",
+    "title": "Statistical Power and Translationese in Machine Translation Evaluation",
+    "category": "sampling_and_direction",
+    "authors": [
+      "Yvette Graham",
+      "Barry Haddow",
+      "Philipp Koehn"
+    ],
+    "institution": "Trinity College Dublin ADAPT; University of Edinburgh; Johns Hopkins University",
+    "source_url": "https://aclanthology.org/2020.emnlp-main.6.pdf",
+    "primary_evidence": "EMNLP2020 shows source-original versus reverse-created test material can change conclusions and cautions that low-powered nonsignificant comparisons do not establish human parity.",
+    "proposed_use": "Mark original composition language; distinguish translating natural English/Farsi into Pahlavi from reconstructing a Pahlavi original from its scholarly translation. Plan precision before acceptance.",
+    "limitations": "Do not infer a universal sample size. Reverse pairs can be useful training and reconstruction tests, but represent a different evaluation population.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "EVAL-12",
+    "title": "Statistical Significance Tests for Machine Translation Evaluation",
+    "category": "paired_uncertainty",
+    "authors": [
+      "Philipp Koehn"
+    ],
+    "institution": "MIT Computer Science and Artificial Intelligence Laboratory",
+    "source_url": "https://aclanthology.org/W04-3250.pdf",
+    "primary_evidence": "EMNLP2004 primary paper describes paired bootstrap comparisons and tests their behavior for BLEU. Provides a foundational uncertainty method for comparing systems on shared examples.",
+    "proposed_use": "Compare candidates on identical items; extend resampling to independent work/passage-family clusters for this project.",
+    "limitations": "Cluster resampling is our design extension, not a claim that this paper validated Pahlavi human scores. Small numbers of independent works still limit inference.",
+    "checked_date": "2026-09-25"
+  }
+]

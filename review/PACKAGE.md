@@ -1,48 +1,25 @@
-# Portable review package
+# Review package scope
 
-Prepared 28 September 2026. Begin with `REVIEW.md` at the package root.
+29 September 2026. Start with `REVIEW.md`, `REVIEW-PROMPT.md` and `MODEL-AND-TRAINING-RECIPE.md`.
 
-## Contents and limits
+The public repository provides authored code, research decisions, configuration, source metadata,
+selected evaluation/reference excerpts, raw predictions, ratings and arithmetic evidence.
+It is a public review snapshot with a source-acquisition manifest; the corpus is not fully self-contained.
+`OMISSIONS.json` names tracked omissions and the exact17 canonical data payloads with sizes/hashes.
+Full dictionaries, books, bulk training/qualification text and raw downloads remain in separate local
+private companion ZIPs for direct review sharing. No model weights are needed for a static review;
+the recipe records pinned identities and how the experiments were performed.
 
-The selected snapshot contains the new overview/review brief, preserved study/state history,
-attribution, frozen PAL-REF files, DEV definitions, latest raw outputs and both review packets,
-ratings, comparison, source-qualification records, historical comparison evidence, and existing
-Python implementation/check files. The completed 28 September strategy notes, timeline and
-source-access summary at checkpoint `b65b89f` are included without their raw access responses.
-`MANIFEST.json` gives every included path, size and SHA-256.
-It binds working-tree bytes to the original evidence checkpoint; it is not a new experiment.
+The public snapshot preserves the original study README as `STUDY_GUIDE.md`. Historical reports
+remain dated evidence and may contain superseded plans. Personal machine/Drive path prefixes
+are normalized in public copies; `PUBLIC-COPY-CHANGES.json` records both hashes. Canonical source
+and benchmark bytes are not edited. Links into omitted data need the companion package.
+References to a local file or private bucket do not grant access. No blanket source license is asserted.
 
-Excluded: Git metadata/history, weights, PDFs, raw source downloads, full training corpora,
-operational billing/access responses, credentials and temporary files.
-Reports retain their dated operational narratives.
-This is not a complete training or cloud-recovery bundle. Some deeper links in preserved reports,
-study guides and code dependencies are intentionally outside the selected snapshot. Current
-overview, review-brief and state links are checked; the manifest governs package inclusion.
+`MANIFEST.json` lists every payload in this public checkout, excluding itself, and binds exact bytes.
+Model binaries, credentials, account/billing responses, dependency installations and duplicate test
+trees are omitted. This is not a complete execution environment or a public model release.
 
-Reference excerpts retain attribution and existing rights. No blanket license or public-release
-clearance is asserted. A fresh private repository is the proposed GitHub destination, subject to
-the owner's decision and authorized reviewer access. Nothing has been uploaded.
-
-## Offline checks
-
-From an extracted copy, using Python 3.11 or newer:
-
-```powershell
-python -B -X utf8 benchmarks/pal-reference-v1/benchmark.py verify
-python -B -X utf8 experiments/contextual-supervision-20260927/outcome-qa-evidence/score_audit.py
-```
-
-The second command recomputes arithmetic from all 96 frozen ratings and checks scorer parity;
-it writes two audit JSON files in the extracted copy. Run it in a disposable extracted copy,
-not over the original frozen evidence. Neither command requires model weights, inference,
-cloud access or credentials. These checks establish integrity/arithmetic, not semantic validity.
-
-Validation of this package is recorded in `VALIDATION.md`. Pattern checks for common token/key
-formats are limited checks, not a full secret audit of this repository or its Git history.
-
-## Local artifact
-
-The generated archive is `output/review-packages/pahlavi-ai-review-20260928.zip` in the full
-workspace; `pahlavi-ai-review-20260928.zip.sha256` sits beside it. Generated archives are ignored
-by Git. The manifest and this scope/validation record are tracked. Use the ZIP as a one-off
-AI upload, or extract only its contents into a fresh private GitHub repository after approval.
+GitHub visibility is temporarily public at the owner's request. Reading it requires no GitHub account.
+Making it private later does not revoke copies already downloaded. No automatic visibility-change
+date has been set; the owner decides when the review has finished.

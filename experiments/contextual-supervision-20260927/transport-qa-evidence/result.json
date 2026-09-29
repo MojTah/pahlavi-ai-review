@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "wrapper_tests": 9,
+  "wrapper_seconds": 6.172,
+  "wrapper_sha256": "c5630b5765eca339e917e52241c0ee133e0243c70c3a3ae08cf5cd852cbea2c8",
+  "test_sha256": "545a17bc98fb9228520badc4a3c7eb703e14ca9b340410936320fa606600a2d5",
+  "controller_sha256": "0bd876d2d7986db49b55d1d6153a9908b31154afd12f21f90cd5b1ffacede857",
+  "decoded_equals_preserved_original": true,
+  "decoded_sha256": "81be4ad494d5cec36bdd78ba5a96520540408409f7337f47fdf79d0aa0407b29",
+  "transport_sha256": "b4ae66db37761523a1a7383c1e416df4b4ebffae2ea444424cd0ed4b99773ae7",
+  "decoded_bytes": 133680,
+  "argument_bytes_including_nul": [
+    7,
+    3,
+    3,
+    56109,
+    61361,
+    5
+  ],
+  "total_argument_bytes_including_nul": 117488,
+  "utf8_and_nul_boundary_rejections": true,
+  "checksum_tamper_rejected_before_exec": true,
+  "unchanged_scientific_sources": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "default_attempt1_preserved": true,
+  "rejected_attempt2_conditions": 6,
+  "attempt2_paths_and_review_bindings": true,
+  "attempt2_exact_spec_regeneration": true,
+  "attempt2_exclusive_prepare_and_execution": true,
+  "original_execution_unchanged": true,
+  "network_cloud_credentials_models": false
+}

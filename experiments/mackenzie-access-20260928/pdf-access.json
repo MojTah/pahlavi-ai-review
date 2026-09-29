@@ -1,0 +1,28 @@
+{
+  "status": "PDFS_ACQUIRED_FOR_LOCAL_STUDY",
+  "hosting_license": "No blanket reuse license established; copyright notices retained",
+  "files": [
+    {
+      "url": "https://www.parsianjoman.org/wp-content/uploads/2015/03/A-Concise-Pahlavi-Dictionary.pdf",
+      "final_url": "https://www.parsianjoman.org/wp-content/uploads/2015/03/A-Concise-Pahlavi-Dictionary.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "utc": "2026-09-28T12:10:18.339349+00:00",
+      "bytes": 5608997,
+      "sha256": "8818f0b41c2af75a0ed31a53133fa81b47c8d15a3720a4083c949ae19a32c1cf",
+      "local_path": "sources/local/mackenzie-pdf-20260928/persian-1373.pdf",
+      "scope": "Local reading and extraction feasibility requested by user; not public redistribution or automatic training admission"
+    },
+    {
+      "url": "https://www.parsianjoman.org/wp-content/uploads/2015/09/A-Concise-Pahlavi-Dictionary.pdf",
+      "final_url": "https://www.parsianjoman.org/wp-content/uploads/2015/09/A-Concise-Pahlavi-Dictionary.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "utc": "2026-09-28T12:10:39.004489+00:00",
+      "bytes": 8373934,
+      "sha256": "594421d8c58e3f6b0ae169e383ae2917fe7572ac53fe568350b1b4ea62b1e091",
+      "local_path": "sources/local/mackenzie-pdf-20260928/english-1986.pdf",
+      "scope": "Local reading and extraction feasibility requested by user; not public redistribution or automatic training admission"
+    }
+  ]
+}

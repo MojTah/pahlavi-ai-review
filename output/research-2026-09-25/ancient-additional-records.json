@@ -1,0 +1,107 @@
+[
+  {
+    "id": "AM01",
+    "title": "LingoLLM / Hire a Linguist!",
+    "category": "reference-guided translation",
+    "authors": [
+      "Kexun Zhang",
+      "Yee Man Choi",
+      "Zhenqiao Song",
+      "Taiqi He",
+      "William Yang Wang",
+      "Lei Li"
+    ],
+    "source_url": "https://aclanthology.org/2024.findings-acl.925/",
+    "primary_evidence": "Primary paper describes dictionary, grammar and morphological evidence; repository README exposes direct/few-shot/dictionary modes.",
+    "proposed_use": "Test independently verified language knowledge with matched strong-model prompts.",
+    "limitations": "Manchu-specific dictionary acquisition and incomplete release documentation; implementation files and revisions were not inspected in this lane; no Pahlavi validation.",
+    "related_urls": [
+      "https://github.com/LeiLiLab/LingoLLM"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary paper or artifact documentation; no local model execution",
+    "detail_note": "deep-ancient-methods.md"
+  },
+  {
+    "id": "AM02",
+    "title": "PahGen: Generating Ancient Pahlavi Text via Grammar-guided Zero-shot Translation",
+    "category": "direct Pahlavi research",
+    "authors": [
+      "Farhan Farsi",
+      "Parnian Fazel",
+      "Farzaneh Goshtasb",
+      "Nadia Hajipour",
+      "Sadra Sabouri",
+      "Ehsaneddin Asgari",
+      "Hossein Sameti"
+    ],
+    "source_url": "https://aclanthology.org/2025.loresmt-1.16/",
+    "primary_evidence": "English-to-Pahlavi grammar-guided LLM framework and expert-validated synthetic dataset; inspected paper and release distinction.",
+    "proposed_use": "Task-specific baseline and contact/bibliography lead for subsequent authorized collaboration.",
+    "limitations": "Narrow vocabulary-filtered evaluation; paper/release count discrepancy remains; dataset release is not a pretrained translation model. No contact made.",
+    "related_urls": [
+      "https://huggingface.co/datasets/PahGen/Parsig-English"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary paper or artifact documentation; no local model execution",
+    "detail_note": "deep-ancient-methods.md"
+  },
+  {
+    "id": "AM03",
+    "title": "GlossLM code and models referenced by GrammaMT",
+    "category": "gloss annotation",
+    "source_url": "https://github.com/foltaProject/glosslm",
+    "primary_evidence": "GrammaMT uses externally generated language-specific glosses and points to this project/model collection.",
+    "proposed_use": "Acquire or create trustworthy Pahlavi lexical/morphological supervision and compare gloss sources.",
+    "limitations": "Pahlavi checkpoint and exact implementation/configuration not verified; translation-prompting being training-free does not mean gloss generation needs no training.",
+    "related_urls": [
+      "https://huggingface.co/lecslab",
+      "https://aclanthology.org/2025.acl-long.1447.pdf"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary paper or artifact documentation; no local model execution",
+    "detail_note": "deep-ancient-methods.md"
+  },
+  {
+    "id": "AM04",
+    "title": "Apollo Restore; Aeneas restoration/contextualization",
+    "category": "task-boundary comparison",
+    "source_url": "https://arxiv.org/html/2609.22455v1",
+    "primary_evidence": "Primary descriptions address restoring missing Greek text and contextualizing ancient inscriptions.",
+    "proposed_use": "Borrow evidence presentation and uncertainty ideas while keeping translation evaluation separate.",
+    "limitations": "Restoration accuracy, including top-k short-gap results, is not contextual Pahlavi translation accuracy.",
+    "related_urls": [
+      "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary paper or artifact documentation; no local model execution",
+    "detail_note": "deep-ancient-methods.md"
+  },
+  {
+    "id": "AM05",
+    "title": "MITRA parallel corpus v2 documentation",
+    "category": "alignment and corpus engineering",
+    "source_url": "https://raw.githubusercontent.com/dharmamitra/mitra-parallel/main/v2/README.md",
+    "primary_evidence": "README documents 1,693,730 aligned records / 2,338,400 segment pairs plus filtering, provenance, deduplication and decontamination.",
+    "proposed_use": "Corpus-alignment and lineage design precedent; investigate actual code before reuse.",
+    "limitations": "Documentation inspected, implementation not inspected; Pali excluded in v2. This is a later artifact of the MITRA project, not independent corroboration of the January study.",
+    "related_urls": [
+      "https://github.com/dharmamitra/mitra-parallel"
+    ],
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary paper or artifact documentation; no local model execution",
+    "detail_note": "deep-ancient-methods.md"
+  },
+  {
+    "id": "RS03",
+    "title": "ByT5 released model sizes",
+    "category": "model and resource specification",
+    "source_url": "https://github.com/google-research/byt5/blob/master/README.md",
+    "primary_evidence": "Official repository specifies ByT5-XL at approximately 3.7 billion parameters.",
+    "proposed_use": "Size an eligible larger byte-level translation adaptation candidate.",
+    "limitations": "Parameter size establishes only a memory-accounting input; actual training fit, quality and throughput require profiling.",
+    "checked_date": "2026-09-25",
+    "evidence_level": "Primary paper or artifact documentation; no local model execution",
+    "detail_note": "deep-ancient-methods.md"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "collection": "awn",
+  "archive": "kosh-id-gap-20260928",
+  "receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/awn/restful/ids?ids=190",
+    "retrieved_utc": "2026-09-28T14:01:20.295421+00:00",
+    "previous_attempt": {
+      "url": "https://kosh.uni-koeln.de/mpcd/awn/restful/ids?ids=190",
+      "retrieved_utc": "2026-09-28T13:54:42.802226+00:00",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    "final_url": "https://kosh.uni-koeln.de/mpcd/awn/restful/ids?ids=190",
+    "content_type": "application/json",
+    "charset": null,
+    "status": "ok",
+    "file": "raw/84fbfc26c0787a6e5c3aceaccbd6b799559e409ef49154336db5bf12f6e5af63.source",
+    "sha256": "075c167af7aeae73de9ddbc7ede9f2e3810b0b2be348065c174f0d4be6875e4f",
+    "bytes": 221
+  },
+  "data_key": "ids",
+  "candidate_reason": "Only absent ID in observed 1..367 sequence; catalogue reports 367 entries",
+  "entries": 1,
+  "unique_ids": 1,
+  "with_xml": 1,
+  "fields": [
+    "citation",
+    "created",
+    "id",
+    "sense",
+    "xml"
+  ],
+  "status": "CAPPED",
+  "xml_errors_for_quarantine": []
+}

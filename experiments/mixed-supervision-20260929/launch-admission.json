@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-29T09:19:24.732148+00:00",
+  "source_commit": "e0ba397629b4e9d9c4962600080ae0d751e829f9",
+  "run_id": "ad548e0f8b7b454682dc2fd6c3298966",
+  "spec_sha256": "3e8c1adb96a523bf279fcc6dc9a2de544ea34d8e9617beacda443f4b62ac9fce",
+  "billing_source": "Fresh authenticated Chrome rendered billing page this launch turn; tab closed after reading",
+  "usage_usd": "18.73",
+  "credit_usd": "11.66",
+  "cap_usd": "25.00",
+  "headroom_usd": "6.27",
+  "auto_recharge_set": false,
+  "storage_used_gb": "74.5",
+  "storage_limit_gb": "100",
+  "job_count": 22,
+  "active_jobs": [],
+  "hardware": {
+    "name": "a100-large",
+    "pretty_name": "Nvidia A100 - large",
+    "cpu": "12 vCPU",
+    "ram": "142 GB",
+    "ephemeral_storage": "1000 GB",
+    "accelerator": {
+      "type": "gpu",
+      "model": "A100",
+      "quantity": "1",
+      "vram": "80 GB",
+      "manufacturer": "Nvidia"
+    },
+    "unit_cost_micro_usd": 41667,
+    "unit_cost_usd": 0.041667,
+    "unit_label": "minute"
+  },
+  "native_timeout_minutes": 100,
+  "max_compute_usd": "4.166700",
+  "reserve_usd": "0.50",
+  "reservation_usd": "4.666700",
+  "remaining_after_reservation_usd": "1.603300",
+  "output_prefix_empty": true,
+  "all_frozen_hashes_verified": true,
+  "review_sha256": "26eefe6cc5e4eda3beccdccf823d444dde2b73e29579f759cb3a13fb85147be9"
+}

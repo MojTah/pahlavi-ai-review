@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "status": "PREPARATION_ONLY_NOT_READY_FOR_PAID_LAUNCH",
+  "execution_policy": {
+    "mode": "cloud_first",
+    "local_validation_required_before_delivery": true
+  },
+  "model": {
+    "id": "google/gemma-4-31B-it",
+    "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+    "architecture": "Gemma4ForConditionalGeneration"
+  },
+  "runtime": {
+    "engine": "transformers-peft",
+    "platform": "linux/amd64",
+    "host_image_project": "deeplearning-platform-release",
+    "host_image_family_candidate": "common-cu129-ubuntu-2404-nvidia-580",
+    "host_image_exact_name": null,
+    "container_base": "pytorch/pytorch@sha256:eee11b3b3872a8c838e35ef48f08b2d5def2080902c7f666831310ca1a0ef2be",
+    "container_final_digest": null,
+    "container_built_and_tested": false
+  },
+  "training": {
+    "seed": 3407,
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0,
+    "learning_rate": 0.0001,
+    "micro_batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "num_train_epochs": 2,
+    "max_length": 2048,
+    "warmup_ratio": 0.03,
+    "save_steps": 20,
+    "logging_steps": 1,
+    "lr_scheduler_type": "linear",
+    "canary_max_steps": 20,
+    "compute_dtype": "bfloat16",
+    "quantization": "nf4_double_quant",
+    "train_vision": false,
+    "automatic_retry": false
+  },
+  "generation": {
+    "max_new_tokens": 1024,
+    "max_input_tokens": 4096,
+    "do_sample": false,
+    "enable_thinking": false,
+    "pad_token_id": 0,
+    "eos_token_id": [
+      1,
+      106,
+      50
+    ]
+  },
+  "cloud": {
+    "provider": "huggingface-jobs",
+    "namespace": "Mojionix",
+    "machine_type_candidate": "a100-large",
+    "private_bucket": "Mojionix/pahlavi-pilot",
+    "input_mount_read_only": true,
+    "job_secrets_required": false,
+    "a100_runtime_smoke_verified": true,
+    "native_timeout_minutes": 150,
+    "automatic_recharge": false,
+    "provider_absolute_deadline_verified": false
+  },
+  "budget": {
+    "currency": "USD",
+    "target_total": 25,
+    "maximum_total": 25,
+    "canary_maximum_total": 3,
+    "canary_maximum_minutes": 30,
+    "canary_includes_setup_download_idle_and_shutdown": true,
+    "canary_is_part_of_total_budget": true,
+    "prior_compatibility_compute_estimate": 0.1018,
+    "a100_compute_hourly_rate": 2.50002,
+    "a100_maximum_minutes": 190,
+    "cpu_conversion_maximum_minutes": 60,
+    "cpu_conversion_hourly_rate": 1.0,
+    "additional_top_up_authorized": false,
+    "observed_all_in_hourly_quote": null,
+    "tax_storage_network_and_cleanup_reserve": 0.75,
+    "spend_so_far_verified": null,
+    "quote_verified": false,
+    "prior_compute_estimate_usd": 7.12,
+    "a100_maximum_minutes_scope": "Fresh qualified-data retraining phase: 30-minute canary plus at most150-minute continuation and two5-minute shutdown windows; prior spending remains inside cumulative USD25."
+  },
+  "readiness": {
+    "full_training_authorized": true,
+    "linux_container_verified": true,
+    "stage_dev_ready": false,
+    "local_model_verified": false,
+    "cloud_controls_verified": false,
+    "base_weights_verified": false,
+    "transfer_roundtrip_verified": false,
+    "adapter_export_roundtrip_verified": false
+  },
+  "notes": [
+    "Current authorization: USD25 cumulative including all previous use; no automatic recharge or top-up. Prior conservative estimate rounded upward to USD7.12, not a finalized invoice.",
+    "Fresh training uses the audited2237-row exact-byte subset, not the old2484-row data or old adapter. Preserve originals and all quarantine evidence.",
+    "The full original training set received complete mechanical and individual AI review. This is provisional AI qualification, not perfect linguistic correctness or specialist certification.",
+    "Keep the same pinned original model, tokenizer, prompt, LoRA settings and two-epoch recipe. The new expected schedule is280updates, beginning with a fresh20-step canary.",
+    "Cloud first: preserve and assess model outputs remotely. No laptop model download until satisfactory cloud results; eventual8GB-device validation remains required.",
+    "Reuse the unchanged forty-case PAL-REF Persian-direction evaluator, inputs and scoring. Do not upload reference answers or select training rows from benchmark performance.",
+    "Full training remains unadmitted until new canary recovery, current budget/identity controls and continuation projection pass.",
+    "The A100 rate0.041667USD/minute was refreshed through the provider SDK on2026-09-27. Tax/storage/network remain separately reserved; provider invoice may lag.",
+    "Historical compatibility trial30-minute/USD3limits are retained; the new canary also has a native30-minute limit and must not exceedUSD3including setup and shutdown.",
+    "The six historical DEV inputs remain source-only diagnostic material, not the fixed benchmark.",
+    "Use native job timeouts plus independently monitored deadlines and confirmed cloud termination. Never automatically retry a submission.",
+    "Preserve full optimizer/scheduler/RNG checkpoints in the approved private HF bucket. No Drive access or new credentials are needed.",
+    "This file prepares a run; it never submits a job, changes provider billing, or certifies quality."
+  ]
+}

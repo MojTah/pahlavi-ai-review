@@ -1,0 +1,859 @@
+{
+  "status": "DESCRIPTIVE_SEEN_TRAIN_LIKELIHOOD",
+  "primary": "full_target",
+  "paired_parent_denominator": 20,
+  "pairs": [
+    {
+      "case_id": "TRAINRECALL1-001",
+      "work_id": "parsig:101",
+      "target_sha256": "f978d714c0e940dc51fe9186271f01402884755f5c3c1597b0284cbae90bec2e",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.9137570045532513,
+        "mismatched": 5.285801182208069,
+        "mismatch_penalty": 3.372044177654818
+      },
+      "content_only": {
+        "correct": 1.9463632909330324,
+        "mismatched": 5.3755044974705095,
+        "mismatch_penalty": 3.4291412065374773
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-002",
+      "work_id": "parsig:107",
+      "target_sha256": "2b0d455da5de2611695dbf9992749f45b5e8e0d28360a09c3417fafb9013312a",
+      "paired_success": true,
+      "full_target": {
+        "correct": 0.818970677249209,
+        "mismatched": 3.915890139333152,
+        "mismatch_penalty": 3.0969194620839433
+      },
+      "content_only": {
+        "correct": 0.9996101949363947,
+        "mismatched": 4.784694386853112,
+        "mismatch_penalty": 3.7850841919167175
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-003",
+      "work_id": "parsig:107",
+      "target_sha256": "0d5a0d090ff1787b94a50ada9173eb3c6e6779ea27604f7bce1496149e999191",
+      "paired_success": true,
+      "full_target": {
+        "correct": 0.15188672035874334,
+        "mismatched": 4.774821047455589,
+        "mismatch_penalty": 4.6229343270968455
+      },
+      "content_only": {
+        "correct": 0.18813312170095742,
+        "mismatched": 5.841177066788077,
+        "mismatch_penalty": 5.65304394508712
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-004",
+      "work_id": "parsig:107",
+      "target_sha256": "0205d24cac32016c101b123b8377d946e2be697696266a9f63f9c5b390d9108d",
+      "paired_success": true,
+      "full_target": {
+        "correct": 2.477742191683865,
+        "mismatched": 5.427883691239549,
+        "mismatch_penalty": 2.950141499555684
+      },
+      "content_only": {
+        "correct": 3.0956324369763024,
+        "mismatched": 5.87876106146723,
+        "mismatch_penalty": 2.783128624490928
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-005",
+      "work_id": "parsig:107",
+      "target_sha256": "d9871311fd8220ac4d43e7e1f4d9d3cd9dc309e551763b48a03542263a72d220",
+      "paired_success": true,
+      "full_target": {
+        "correct": 0.5034620938484295,
+        "mismatched": 5.931811765934981,
+        "mismatch_penalty": 5.428349672086552
+      },
+      "content_only": {
+        "correct": 0.6276072822511196,
+        "mismatched": 6.399302979465574,
+        "mismatch_penalty": 5.771695697214454
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-006",
+      "work_id": "parsig:107",
+      "target_sha256": "044f0b6db3b41f490d61892ee5b848248e27a06df82e125a39e8ab5fc515b89b",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.577283743445605,
+        "mismatched": 5.205084063667482,
+        "mismatch_penalty": 3.627800320221877
+      },
+      "content_only": {
+        "correct": 1.751779539950399,
+        "mismatched": 5.654133434717854,
+        "mismatch_penalty": 3.9023538947674545
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-007",
+      "work_id": "parsig:108",
+      "target_sha256": "6b54340aacb51e9d3607a3d29b64bdfe64bb92c51d5c0ed845c8f419d33c090f",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.2876681681001274,
+        "mismatched": 6.923095954784104,
+        "mismatch_penalty": 5.635427786683977
+      },
+      "content_only": {
+        "correct": 1.6535823063126631,
+        "mismatched": 7.7942414964948386,
+        "mismatch_penalty": 6.140659190182175
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-008",
+      "work_id": "parsig:109",
+      "target_sha256": "37d619f8712b4963d0a31b28a1e7dae06ab57c7d6db4c00534fa369486d29596",
+      "paired_success": true,
+      "full_target": {
+        "correct": 2.699238528873684,
+        "mismatched": 4.906623898608571,
+        "mismatch_penalty": 2.207385369734887
+      },
+      "content_only": {
+        "correct": 2.8916413197106783,
+        "mismatched": 4.9000868022974045,
+        "mismatch_penalty": 2.008445482586726
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-009",
+      "work_id": "parsig:115",
+      "target_sha256": "5cc6fda4125c4b327b0823ce43b0d14d087177acb256173f56b1cf96cbfeb442",
+      "paired_success": true,
+      "full_target": {
+        "correct": 2.2917285308882396,
+        "mismatched": 4.426272138893789,
+        "mismatch_penalty": 2.1345436080055493
+      },
+      "content_only": {
+        "correct": 2.379652972601784,
+        "mismatched": 4.59629930763577,
+        "mismatch_penalty": 2.2166463350339862
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-010",
+      "work_id": "parsig:119",
+      "target_sha256": "10043840cc2a4fc45d5c5983528b737dae1938009e0810a7d761614cabd94d17",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.6393299158287138,
+        "mismatched": 5.282575329932216,
+        "mismatch_penalty": 3.6432454141035024
+      },
+      "content_only": {
+        "correct": 1.7354220338919035,
+        "mismatched": 5.305359248715617,
+        "mismatch_penalty": 3.569937214823714
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-011",
+      "work_id": "parsig:134",
+      "target_sha256": "3a3b698e954c38e8d6ca4dd976b8da7baca52ebc4d2318a63e1e8753fa5808b0",
+      "paired_success": true,
+      "full_target": {
+        "correct": 3.234672195320561,
+        "mismatched": 5.6529119194920865,
+        "mismatch_penalty": 2.4182397241715257
+      },
+      "content_only": {
+        "correct": 3.4568712152701258,
+        "mismatched": 5.914840145165036,
+        "mismatch_penalty": 2.4579689298949106
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-012",
+      "work_id": "parsig:136",
+      "target_sha256": "dae3dbc22d39a1cfea7f433bc04c12d4dae4e027226362bed4e8b1b923b1bb74",
+      "paired_success": true,
+      "full_target": {
+        "correct": 0.8160191380523059,
+        "mismatched": 5.117601707740471,
+        "mismatch_penalty": 4.301582569688165
+      },
+      "content_only": {
+        "correct": 0.8807945132721215,
+        "mismatched": 5.438832039833069,
+        "mismatch_penalty": 4.558037526560947
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-013",
+      "work_id": "parsig:150",
+      "target_sha256": "a9875df83d7e3cbdca389a57c8d114ddd13cc71535e5b9b86519530d441bf447",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.3174841112729576,
+        "mismatched": 2.357367611019316,
+        "mismatch_penalty": 1.0398834997463584
+      },
+      "content_only": {
+        "correct": 1.3305173036782774,
+        "mismatched": 2.3808779787089693,
+        "mismatch_penalty": 1.050360675030692
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-014",
+      "work_id": "parsig:151",
+      "target_sha256": "87f21f574ebc05789b3231759e8856ac1368a557a3e67796f52ab5e0d7ff3531",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.1196301103833928,
+        "mismatched": 4.594833557493985,
+        "mismatch_penalty": 3.4752034471105917
+      },
+      "content_only": {
+        "correct": 1.6766091519966722,
+        "mismatched": 4.463896939530969,
+        "mismatch_penalty": 2.7872877875342965
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-015",
+      "work_id": "parsig:509",
+      "target_sha256": "fa8a06787399b3eb0b3618004e1f76e2a9d7c9f7862679519461a6d77f67b1a9",
+      "paired_success": true,
+      "full_target": {
+        "correct": 2.5717354160241257,
+        "mismatched": 4.330663872070848,
+        "mismatch_penalty": 1.7589284560467222
+      },
+      "content_only": {
+        "correct": 2.6260907578262245,
+        "mismatched": 4.42096234391384,
+        "mismatch_penalty": 1.7948715860876154
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-016",
+      "work_id": "parsig:511",
+      "target_sha256": "f3784c371e57c83f59d78a4f5d6552aa4fcb2a523677d16c4bdf61a550917aee",
+      "paired_success": true,
+      "full_target": {
+        "correct": 2.7185121568950956,
+        "mismatched": 4.7112447501826935,
+        "mismatch_penalty": 1.9927325932875979
+      },
+      "content_only": {
+        "correct": 2.802572827644982,
+        "mismatched": 4.751277490305241,
+        "mismatch_penalty": 1.9487046626602589
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-017",
+      "work_id": "parsig:515",
+      "target_sha256": "513eaa74e5d82e039db55eb8ef22f26ef61ad6b6260d265a887920169e0b2f7b",
+      "paired_success": true,
+      "full_target": {
+        "correct": 2.026316444684529,
+        "mismatched": 4.722580313768214,
+        "mismatch_penalty": 2.6962638690836847
+      },
+      "content_only": {
+        "correct": 2.2283620697562583,
+        "mismatched": 5.192344051145483,
+        "mismatch_penalty": 2.9639819813892245
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-018",
+      "work_id": "parsig:521",
+      "target_sha256": "59b4fcf5f0acc2cc9033d285042716a92e9d33ccaed853023404a6173ad4c19c",
+      "paired_success": true,
+      "full_target": {
+        "correct": 2.1186825461401897,
+        "mismatched": 5.2122080287105295,
+        "mismatch_penalty": 3.0935254825703398
+      },
+      "content_only": {
+        "correct": 2.2260303495782674,
+        "mismatched": 5.379163951294399,
+        "mismatch_penalty": 3.1531336017161316
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-019",
+      "work_id": "parsig:550",
+      "target_sha256": "c06ae0856515c4365feb22875095ae6436eca14e423e931e7d152db3b05c906d",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.7494270294463556,
+        "mismatched": 5.340711593211668,
+        "mismatch_penalty": 3.5912845637653126
+      },
+      "content_only": {
+        "correct": 1.9428907458615654,
+        "mismatched": 5.809805995839484,
+        "mismatch_penalty": 3.866915249977918
+      }
+    },
+    {
+      "case_id": "TRAINRECALL1-020",
+      "work_id": "parsig:555",
+      "target_sha256": "9f539c6ee39d93b23b9068eb958d22f56a0d2906f95dc3f6f4f3d39e0c834141",
+      "paired_success": true,
+      "full_target": {
+        "correct": 1.8982379571466215,
+        "mismatched": 5.335860587893395,
+        "mismatch_penalty": 3.437622630746773
+      },
+      "content_only": {
+        "correct": 2.005138937209267,
+        "mismatched": 5.590987193223555,
+        "mismatch_penalty": 3.5858482560142875
+      }
+    }
+  ],
+  "full_target": {
+    "overall": {
+      "scheduled_parents": 20,
+      "paired_successes": 20,
+      "equal_parent_mean": 3.2262029236722354,
+      "median": 3.2344818198693805,
+      "range": [
+        1.0398834997463584,
+        5.635427786683977
+      ],
+      "signs": {
+        "positive": 20,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    "by_work": {
+      "parsig:101": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.372044177654818,
+        "median": 3.372044177654818,
+        "range": [
+          3.372044177654818,
+          3.372044177654818
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:107": {
+        "scheduled_parents": 5,
+        "paired_successes": 5,
+        "equal_parent_mean": 3.9452290562089805,
+        "median": 3.627800320221877,
+        "range": [
+          2.950141499555684,
+          5.428349672086552
+        ],
+        "signs": {
+          "positive": 5,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:108": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 5.635427786683977,
+        "median": 5.635427786683977,
+        "range": [
+          5.635427786683977,
+          5.635427786683977
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:109": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.207385369734887,
+        "median": 2.207385369734887,
+        "range": [
+          2.207385369734887,
+          2.207385369734887
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:115": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.1345436080055493,
+        "median": 2.1345436080055493,
+        "range": [
+          2.1345436080055493,
+          2.1345436080055493
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:119": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.6432454141035024,
+        "median": 3.6432454141035024,
+        "range": [
+          3.6432454141035024,
+          3.6432454141035024
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:134": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.4182397241715257,
+        "median": 2.4182397241715257,
+        "range": [
+          2.4182397241715257,
+          2.4182397241715257
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:136": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 4.301582569688165,
+        "median": 4.301582569688165,
+        "range": [
+          4.301582569688165,
+          4.301582569688165
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:150": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 1.0398834997463584,
+        "median": 1.0398834997463584,
+        "range": [
+          1.0398834997463584,
+          1.0398834997463584
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:151": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.4752034471105917,
+        "median": 3.4752034471105917,
+        "range": [
+          3.4752034471105917,
+          3.4752034471105917
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:509": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 1.7589284560467222,
+        "median": 1.7589284560467222,
+        "range": [
+          1.7589284560467222,
+          1.7589284560467222
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:511": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 1.9927325932875979,
+        "median": 1.9927325932875979,
+        "range": [
+          1.9927325932875979,
+          1.9927325932875979
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:515": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.6962638690836847,
+        "median": 2.6962638690836847,
+        "range": [
+          2.6962638690836847,
+          2.6962638690836847
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:521": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.0935254825703398,
+        "median": 3.0935254825703398,
+        "range": [
+          3.0935254825703398,
+          3.0935254825703398
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:550": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.5912845637653126,
+        "median": 3.5912845637653126,
+        "range": [
+          3.5912845637653126,
+          3.5912845637653126
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:555": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.437622630746773,
+        "median": 3.437622630746773,
+        "range": [
+          3.437622630746773,
+          3.437622630746773
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      }
+    }
+  },
+  "content_only": {
+    "overall": {
+      "scheduled_parents": 20,
+      "paired_successes": 20,
+      "equal_parent_mean": 3.371362301975352,
+      "median": 3.2911374041268044,
+      "range": [
+        1.050360675030692,
+        6.140659190182175
+      ],
+      "signs": {
+        "positive": 20,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    "by_work": {
+      "parsig:101": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.4291412065374773,
+        "median": 3.4291412065374773,
+        "range": [
+          3.4291412065374773,
+          3.4291412065374773
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:107": {
+        "scheduled_parents": 5,
+        "paired_successes": 5,
+        "equal_parent_mean": 4.379061270695335,
+        "median": 3.9023538947674545,
+        "range": [
+          2.783128624490928,
+          5.771695697214454
+        ],
+        "signs": {
+          "positive": 5,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:108": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 6.140659190182175,
+        "median": 6.140659190182175,
+        "range": [
+          6.140659190182175,
+          6.140659190182175
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:109": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.008445482586726,
+        "median": 2.008445482586726,
+        "range": [
+          2.008445482586726,
+          2.008445482586726
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:115": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.2166463350339862,
+        "median": 2.2166463350339862,
+        "range": [
+          2.2166463350339862,
+          2.2166463350339862
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:119": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.569937214823714,
+        "median": 3.569937214823714,
+        "range": [
+          3.569937214823714,
+          3.569937214823714
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:134": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.4579689298949106,
+        "median": 2.4579689298949106,
+        "range": [
+          2.4579689298949106,
+          2.4579689298949106
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:136": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 4.558037526560947,
+        "median": 4.558037526560947,
+        "range": [
+          4.558037526560947,
+          4.558037526560947
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:150": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 1.050360675030692,
+        "median": 1.050360675030692,
+        "range": [
+          1.050360675030692,
+          1.050360675030692
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:151": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.7872877875342965,
+        "median": 2.7872877875342965,
+        "range": [
+          2.7872877875342965,
+          2.7872877875342965
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:509": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 1.7948715860876154,
+        "median": 1.7948715860876154,
+        "range": [
+          1.7948715860876154,
+          1.7948715860876154
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:511": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 1.9487046626602589,
+        "median": 1.9487046626602589,
+        "range": [
+          1.9487046626602589,
+          1.9487046626602589
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:515": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 2.9639819813892245,
+        "median": 2.9639819813892245,
+        "range": [
+          2.9639819813892245,
+          2.9639819813892245
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:521": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.1531336017161316,
+        "median": 3.1531336017161316,
+        "range": [
+          3.1531336017161316,
+          3.1531336017161316
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:550": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.866915249977918,
+        "median": 3.866915249977918,
+        "range": [
+          3.866915249977918,
+          3.866915249977918
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:555": {
+        "scheduled_parents": 1,
+        "paired_successes": 1,
+        "equal_parent_mean": 3.5858482560142875,
+        "median": 3.5858482560142875,
+        "range": [
+          3.5858482560142875,
+          3.5858482560142875
+        ],
+        "signs": {
+          "positive": 1,
+          "zero": 0,
+          "negative": 0
+        }
+      }
+    }
+  },
+  "limits": "Teacher-forced likelihood, not translation merit, accuracy, significance, causal proof or generalization. No reviewer pooling or promotion.",
+  "execution_completion": {
+    "status": "completed",
+    "all_first_attempts_recorded": true,
+    "scheduled_likelihood": 40,
+    "scheduled_generations": 20,
+    "recorded_likelihood": 40,
+    "recorded_generations": 20,
+    "generation_failures": 0,
+    "unattempted_call_ids": [],
+    "readiness_passed": true,
+    "runtime_error": {},
+    "usable_for_translation_review": true
+  }
+}

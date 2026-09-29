@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "tests": 7,
+  "elapsed_seconds": 5.0310000000172295,
+  "failures": 0,
+  "errors": 0,
+  "run_id_for_offline_spec": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "command_sha256": "81be4ad494d5cec36bdd78ba5a96520540408409f7337f47fdf79d0aa0407b29",
+  "script_hashes": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "wrapper_sha256": "6cdee28e8da30a10bbe9429c140619c3d1fbe4470caab31f133e31478ed43b22",
+  "tests_sha256": "3bd9d618942ced00515a038552f0b8be137793dd081d829c091f60d5f454cb4d",
+  "package_sha256": "bb3795d9a49927f333e8f565fc1b961c35d7069d9848a9649421ddf233243563",
+  "package_manifest_sha256": "7920e92e73bb1fee9d606b67c2055c0e114d225252d72bddcfb0071abbe7a7c1"
+}

@@ -1,0 +1,99 @@
+{
+  "utc": "2026-09-28T08:10:31.491949+00:00",
+  "run_id": "3f445ed35bd94fe9b1724ef8cce2753e",
+  "manifest_sha256": "5f3d9760ea188364c433a84cfe592db0761ff2f95b2989e7d61dd9159bb0de5f",
+  "persistence_upper_seconds": 188.5384469109903,
+  "provider_inventory_committed": true,
+  "provider_inventory": {
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/driver.log": {
+      "bytes": 17938,
+      "xet_hash": "7a251a2c7136620a35cc1119077ccea07c2094a7f4f4868d82e3052e426347dd"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/manifest.json": {
+      "bytes": 4519,
+      "xet_hash": "4f34c86431fdd568ae550a88da9ce63d2c70a7bce251adbae75a31cce2d8a282"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/canary.json": {
+      "bytes": 798,
+      "xet_hash": "e4d28dd387c04534887e1d4036ff17b6d55a9aa7662ae1f362189547545f5332"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/config.json": {
+      "bytes": 781,
+      "xet_hash": "d2325971f43ed12229c29e18c3b918bba7dbf0eb7a993892a379bf540310c1ed"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/generation_config.json": {
+      "bytes": 184,
+      "xet_hash": "3239a8f0c69e10ae9141fffeb4c43f16b20a50759801b2a43d577be1460b2e13"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/model-00001-of-00002.safetensors": {
+      "bytes": 2997573200,
+      "xet_hash": "8d7f8211f4c4db0405cbcd9386820996cdcfc335d812d0cb74fc05c8fdee78f5"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/model-00002-of-00002.safetensors": {
+      "bytes": 2485137120,
+      "xet_hash": "a66d407633ee9f99ce40af4f5866bb7945617cae0743d57692154d3b01dfbeb6"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/model.safetensors.index.json": {
+      "bytes": 89858,
+      "xet_hash": "a40d6f5cbdc40a8c2f7766dc3ab1bcccee3231ca28597456658c0a240d5360fd"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/optimizer.pt": {
+      "bytes": 10966065394,
+      "xet_hash": "024a02c40d61dd81b6a976d9c465a5203dad61fa8c6beeeb25109c04c6b9a6ec"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/rng.pt": {
+      "bytes": 6789,
+      "xet_hash": "0f88e611112b30cbf022bd561ac799225487c0445fb855e7c920363ed10b6062"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/tokenizer.json": {
+      "bytes": 32240968,
+      "xet_hash": "99f74e13cff0f407c1343e10d50ceb559269f4e3cdaf476759af15dde8908ac4"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/tokenizer_config.json": {
+      "bytes": 3756,
+      "xet_hash": "e3590aa3a0c4b66fdbb09c7ae677655644a43dffc2c7612d3832968b0660f9ab"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/model/training-state.json": {
+      "bytes": 738,
+      "xet_hash": "9ee8c0192fe096802be0c0bbccce22d0e98df02369a22e222ed85828acb2a2e3"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/predictions.jsonl": {
+      "bytes": 34909,
+      "xet_hash": "ef0c4a8a2673f8a6d72651b49650e12492b5cfe202d4a260f7dad692b4ad556e"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/run.json": {
+      "bytes": 1020,
+      "xet_hash": "a2565dbd85b0e073a1e667a0fd43852d7360f1849089a5d874c280a39923014a"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/schedule.json": {
+      "bytes": 377647,
+      "xet_hash": "40d7c4cab1bb0bd49f50ba6f13571280ae82beec66e75d827083956068df009a"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/nllb/training.jsonl": {
+      "bytes": 3532,
+      "xet_hash": "237e04e9b1e61fba5bbc5dc67b53b9c5291c806461d190ebfb86504736b861c4"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/package-manifest.json": {
+      "bytes": 4659,
+      "xet_hash": "99d47f0dd14c43ef546a974ec3595c352b02bdcc7fccc075baafb8baf0a7758e"
+    },
+    "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e/status.json": {
+      "bytes": 1681,
+      "xet_hash": "01d6e94a2afcf3ca3b88372f4d9e24e799223fb7c4ad424bea1459812fb7b705"
+    }
+  },
+  "local_sha_verified_files": [
+    "driver.log",
+    "nllb/canary.json",
+    "nllb/model/training-state.json",
+    "nllb/predictions.jsonl",
+    "nllb/run.json",
+    "nllb/schedule.json",
+    "nllb/training.jsonl",
+    "package-manifest.json",
+    "status.json"
+  ],
+  "model_weights_downloaded": false,
+  "nllb_status": "canary_complete",
+  "weight_sha_evidence": "Server manifest; provider committed size/Xet independently observed. No laptop weight download."
+}

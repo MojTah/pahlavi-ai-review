@@ -1,0 +1,144 @@
+{
+  "status": "INPUT_SELECTION_FROZEN_REFERENCE_SCREEN_PENDING",
+  "operation": "Exploratory development diagnostic; no model execution or upload",
+  "dataset_directory": "[USER_HOME]\\Documents\\Codex Projects\\01-Software\\Pahlavi Translator\\runs\\datasets\\6f442563128d3a4c49dd5024af6882f6911b3f1b11eb5a2d4ef0d28a453acf0c",
+  "dataset_manifest_sha256": "190bc7906fa10396dc07b8e92b7bfcfe25694f6295e0f9592306b1ef7410186a",
+  "dev_records_sha256": "6f341a94518405d5569b0d0cb806e38b92f0326c3ef9e1840dbc3b01e2f863e2",
+  "train_sha256": "844a5b64d43a423b69d5989527a53273290a43be15c399056c979f5abb0678a1",
+  "training_rows": 2484,
+  "eligible_dev_rows": 402,
+  "eligible_work_counts": {
+    "parsig:138": 168,
+    "parsig:103": 156,
+    "parsig:517": 56,
+    "parsig:112": 22
+  },
+  "selected_work_counts": {
+    "parsig:103": 6,
+    "parsig:112": 6,
+    "parsig:138": 6,
+    "parsig:517": 6
+  },
+  "selection": "Persian-reference eligible original DEV only. For each sorted work: sort by(UTF8 source byte length,id), six floor(i*6/n) bins; select min SHA256(42|record_id) per bin. No outcome-driven replacements.",
+  "no_train_test_palref_work_overlap": true,
+  "no_exact_normalized_train_source_or_target_overlap": true,
+  "near_duplicate_and_parallel_passage_review": "pending",
+  "metadata_review_is_not_specialist_verification": true,
+  "previous_exposure": "Historical DEV used for earlier Qwen/ByT5 model selection; not pristine qualification data. Foundation pretraining exposure unknown.",
+  "original_test_records_in_old_staged_panel": [
+    {
+      "panel_id": "STAGEDEV-PROP-S3-001",
+      "record_id": "parsig:120000004"
+    },
+    {
+      "panel_id": "STAGEDEV-PROP-S3-002",
+      "record_id": "parsig:120000012"
+    },
+    {
+      "panel_id": "STAGEDEV-PROP-S3-006",
+      "record_id": "parsig:152009000"
+    },
+    {
+      "panel_id": "STAGEDEV-PROP-S2-004",
+      "record_id": "parsig:120000008"
+    },
+    {
+      "panel_id": "STAGEDEV-PROP-S2-006",
+      "record_id": "parsig:152003071"
+    },
+    {
+      "panel_id": "STAGEDEV-PROP-S2-007",
+      "record_id": "parsig:152008011"
+    },
+    {
+      "panel_id": "STAGEDEV-PROP-S2-008",
+      "record_id": "parsig:152021007"
+    }
+  ],
+  "old_staged_panel_use": "Preserve unchanged; exclude from tuning.",
+  "training_source_variants": [
+    {
+      "source": "pursīd dānāg ō mēnōg ī xrad",
+      "rows": [
+        {
+          "row": 324,
+          "id": "parsig:151001001:pal>fa",
+          "target": "پرسید دانا از مینوی خرد",
+          "credit": "(تفضلی، 1379، ص20)"
+        },
+        {
+          "row": 774,
+          "id": "parsig:151019001:pal>fa",
+          "target": "پرسید مینوی خرد",
+          "credit": "(تفضلی، 1379، ص 40)"
+        }
+      ]
+    },
+    {
+      "source": "čē guft ēstēd",
+      "rows": [
+        {
+          "row": 333,
+          "id": "parsig:151001010:pal>fa",
+          "target": "چه (=زیرا) گفته شده است",
+          "credit": "(تفضلی، 1379، ص20)"
+        },
+        {
+          "row": 668,
+          "id": "parsig:151014005:pal>fa",
+          "target": "چه گفته شده است",
+          "credit": "(تفضلی، 1379، ص 36)"
+        }
+      ]
+    },
+    {
+      "source": "frazaft.",
+      "rows": [
+        {
+          "row": 2113,
+          "id": "parsig:107000007:pal>fa",
+          "target": "پایان یافت",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)"
+        },
+        {
+          "row": 2121,
+          "id": "parsig:113000007:pal>fa",
+          "target": "پایان یافت.",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)"
+        }
+      ]
+    },
+    {
+      "source": "frazaft pad drōd šādīh.",
+      "rows": [
+        {
+          "row": 2160,
+          "id": "parsig:101000003:pal>fa",
+          "target": "پایان یافت با درود (= تندرستی)، شادی.",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)"
+        },
+        {
+          "row": 2175,
+          "id": "parsig:109000014:pal>fa",
+          "target": "فرجام یافت با درود [و] شادی.",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)"
+        }
+      ]
+    }
+  ],
+  "variant_interpretation": "Four string-variant groups; three appear punctuation/paraphrase/gloss differences, one potential participant-level conflict pending source review. Do not treat all eight rows as errors.",
+  "training_dominant_work": [
+    [
+      "parsig:151",
+      1136
+    ]
+  ],
+  "single_whitespace_token_training_inputs": 9,
+  "max_training_tokens": 1113,
+  "all_answer_masks_valid": true,
+  "all_end_turn_supervised": true,
+  "files": {
+    "inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2"
+  }
+}

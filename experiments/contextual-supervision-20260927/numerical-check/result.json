@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "versions": {
+    "python": "3.11.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.13.1",
+    "peft": "0.21.0",
+    "accelerate": "1.14.0"
+  },
+  "trainer_source": "[USER_HOME]\\.venvs\\codex-science\\Lib\\site-packages\\transformers\\trainer.py",
+  "trainer_source_sha256": "5536d59b9db5127c370190737c2ef86d9e3e6133e072d2b9cc44c95446f61f0f",
+  "script_sha256": "2723044c8b3e06b1ea6e5fbaaa9c49a474f86c00238b2f2c8717c301f41e0093",
+  "supervised_tokens": [
+    2,
+    5
+  ],
+  "per_example_mean_losses": [
+    3.5188937187194824,
+    3.5233180999755858
+  ],
+  "manual_parent_loss": 3.5211057662963867,
+  "manual_pooled_loss": 3.5220539569854736,
+  "native_flag_false": {
+    "loss": 3.5211057662963867,
+    "forwards": [
+      {
+        "kwargs": [
+          "attention_mask",
+          "input_ids",
+          "labels"
+        ],
+        "num_items_in_batch": null,
+        "supervised_tokens": 5
+      },
+      {
+        "kwargs": [
+          "attention_mask",
+          "input_ids",
+          "labels"
+        ],
+        "num_items_in_batch": null,
+        "supervised_tokens": 2
+      }
+    ],
+    "detected_model_accepts_loss_kwargs": false,
+    "model_accepts_loss_kwargs": false,
+    "trainer_accumulation_steps": 2,
+    "accelerator_accumulation_steps": 1,
+    "optimizer_updates": 1
+  },
+  "native_flag_true": {
+    "loss": 3.5220537185668945,
+    "forwards": [
+      {
+        "kwargs": [
+          "attention_mask",
+          "input_ids",
+          "labels",
+          "num_items_in_batch"
+        ],
+        "num_items_in_batch": 7,
+        "supervised_tokens": 5
+      },
+      {
+        "kwargs": [
+          "attention_mask",
+          "input_ids",
+          "labels",
+          "num_items_in_batch"
+        ],
+        "num_items_in_batch": 7,
+        "supervised_tokens": 2
+      }
+    ],
+    "detected_model_accepts_loss_kwargs": false,
+    "model_accepts_loss_kwargs": true,
+    "trainer_accumulation_steps": 2,
+    "accelerator_accumulation_steps": 1,
+    "optimizer_updates": 1
+  },
+  "comparisons": {
+    "flag_false_vs_parent": {
+      "loss_abs": 0.0,
+      "gradient": {
+        "max_abs": 0.0,
+        "relative_l2": 0.0,
+        "reference_l2": 3.096388256158923
+      },
+      "updated_parameters": {
+        "max_abs": 0.0,
+        "relative_l2": 0.0,
+        "reference_l2": 3.4939898340862725
+      }
+    },
+    "flag_true_vs_pooled": {
+      "loss_abs": 2.384185791015625e-07,
+      "gradient": {
+        "max_abs": 0.0,
+        "relative_l2": 0.0,
+        "reference_l2": 2.573809885408561
+      },
+      "updated_parameters": {
+        "max_abs": 0.0,
+        "relative_l2": 0.0,
+        "reference_l2": 3.493864869049431
+      }
+    },
+    "flag_false_vs_pooled": {
+      "loss_abs": 0.0009481906890869141,
+      "gradient": {
+        "max_abs": 0.4875030517578125,
+        "relative_l2": 0.4752454457894748,
+        "reference_l2": 2.573809885408561
+      },
+      "updated_parameters": {
+        "max_abs": 0.0020000040531158447,
+        "relative_l2": 0.0040877954055764925,
+        "reference_l2": 3.493864869049431
+      }
+    }
+  },
+  "limitations": [
+    "CPU float32 random tiny Gemma4 with nonzero LoRA; no pretrained weights, GPU, NF4 or distributed test.",
+    "One AdamW update, microbatch 1, two accumulated examples; no clipping, smoothing, custom loss or dropout.",
+    "Does not establish convergence or translation merit; production flags still require binding."
+  ]
+}

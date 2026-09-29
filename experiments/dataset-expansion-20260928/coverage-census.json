@@ -1,0 +1,52 @@
+{
+  "scope": "Exact normalized full-form coverage in26402 flat lexical candidates; excludes complex CPD/markup/reference/held records. No inference about semantic novelty or training eligibility.",
+  "forms_all": {
+    "unique_normalized_full_trc": 17094,
+    "matches_normalized_training_whole_source": 1,
+    "matches_training_whole_source_token_sequence": 7,
+    "occurs_as_exact_contiguous_training_token_sequence": 2689,
+    "not_found_as_training_token_sequence": 14405,
+    "empty_after_source_token_normalization": 0
+  },
+  "recovered_mmp_forms": {
+    "unique_normalized_full_trc": 2054,
+    "matches_normalized_training_whole_source": 0,
+    "matches_training_whole_source_token_sequence": 1,
+    "occurs_as_exact_contiguous_training_token_sequence": 719,
+    "not_found_as_training_token_sequence": 1335,
+    "empty_after_source_token_normalization": 0
+  },
+  "recovered_mmp_forms_not_in_old_flat_candidates": 1332,
+  "plain_candidates": 26402,
+  "plain_candidates_by_collection": {
+    "acpv1_7": 1731,
+    "afnan": 323,
+    "awn": 357,
+    "cpd_de": 4551,
+    "da": 102,
+    "dd1": 368,
+    "dk5": 413,
+    "dk6": 323,
+    "dk7": 715,
+    "dk8": 480,
+    "dmx": 1030,
+    "gbd": 769,
+    "hn": 2306,
+    "lfv": 1712,
+    "mpcd_term_tech": 1543,
+    "nmp": 2823,
+    "pahlrivdd": 380,
+    "ps": 476,
+    "pyv": 756,
+    "raf": 285,
+    "sgw": 415,
+    "wdpw": 2425,
+    "yz": 129,
+    "mmp": 1990
+  },
+  "normalization": "Reused prior novelty helper: NFC/casefold/whitespace; full variant strings intact; token match strips boundary punctuation. Not the model tokenizer.",
+  "novelty_helper_sha256": "bc3ccdaf1e76d831400fbc9b1f60ebf023ed1f5ac3437f39e01d36c3e8984f29",
+  "source_tokens_helper_sha256": "9c616eae976683ce16e5428af10b3e4425aa4d72e0f8ac4e33020f5238325abc",
+  "input_lexical_sha256": "3f963c94c00f79cf8c04421fcd55a539649c1b2a62eb4ac029ae195c1d73871c",
+  "training_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc"
+}

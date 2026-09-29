@@ -1,0 +1,24 @@
+{
+  "attempted": [
+    "PALDEV1-001:pal>en",
+    "PALDEV1-001:pal>fa",
+    "PALDEV1-006:pal>en",
+    "PALDEV1-006:pal>fa",
+    "PALDEV1-002:pal>en",
+    "PALDEV1-002:pal>fa",
+    "PALDEV1-003:pal>en",
+    "PALDEV1-003:pal>fa",
+    "PALDEV1-004:pal>en",
+    "PALDEV1-004:pal>fa",
+    "PALDEV1-005:pal>en",
+    "PALDEV1-005:pal>fa"
+  ],
+  "successful_outputs": 12,
+  "not_run": [],
+  "failure": null,
+  "seconds": 127.703,
+  "contract_sha256": "624c4a62084bf6aff3ac53fd6c418e95db4acaed75bacd226538c3882f3db8a2",
+  "predictions_sha256": "59fce1b72ff2acf3c03d442ea8ad5c5607395ed7b619056b3c53f501b366a314",
+  "meaning_quality": "NOT YET REVIEWED",
+  "gpu_lock_released": true
+}

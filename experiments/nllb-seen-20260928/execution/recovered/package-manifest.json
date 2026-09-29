@@ -1,0 +1,39 @@
+{
+  "files": {
+    "inputs.jsonl": {
+      "bytes": 5561,
+      "sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a"
+    },
+    "model-manifest.json": {
+      "bytes": 4814,
+      "sha256": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349"
+    },
+    "nllb_seen.py": {
+      "bytes": 20602,
+      "sha256": "9a582bcb82a771f5f2a0debc4dd823e618d3dc82f8394234f4182a6a4f07763e"
+    },
+    "nllb_train.py": {
+      "bytes": 22393,
+      "sha256": "8a392db05c5a38ad75e7cc767bda05d3dc1218b9d61348d161f64fa757b7708d"
+    },
+    "source-control.json": {
+      "bytes": 8881,
+      "sha256": "3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0"
+    },
+    "token-map.json": {
+      "bytes": 52494,
+      "sha256": "5dac1a0c537ce8d7c410110b33bf30aaf3f95c2577f507d86eb228881953b255"
+    },
+    "train.jsonl": {
+      "bytes": 5401884,
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc"
+    }
+  },
+  "generations": 20,
+  "includes_dev_targets": false,
+  "model_manifest_sha256": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349",
+  "operation": "nllb_seen",
+  "scored_forwards": 40,
+  "training_performed": false,
+  "unscored_readiness_forwards": 2
+}

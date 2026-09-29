@@ -1,0 +1,621 @@
+{
+  "status": "INCOMPLETE_NO_PAIRED_LIKELIHOOD",
+  "primary": "full_target",
+  "paired_parent_denominator": 20,
+  "pairs": [
+    {
+      "case_id": "TRAINRECALL1-001",
+      "work_id": "parsig:101",
+      "target_sha256": "f978d714c0e940dc51fe9186271f01402884755f5c3c1597b0284cbae90bec2e",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-002",
+      "work_id": "parsig:107",
+      "target_sha256": "2b0d455da5de2611695dbf9992749f45b5e8e0d28360a09c3417fafb9013312a",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-003",
+      "work_id": "parsig:107",
+      "target_sha256": "0d5a0d090ff1787b94a50ada9173eb3c6e6779ea27604f7bce1496149e999191",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-004",
+      "work_id": "parsig:107",
+      "target_sha256": "0205d24cac32016c101b123b8377d946e2be697696266a9f63f9c5b390d9108d",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-005",
+      "work_id": "parsig:107",
+      "target_sha256": "d9871311fd8220ac4d43e7e1f4d9d3cd9dc309e551763b48a03542263a72d220",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-006",
+      "work_id": "parsig:107",
+      "target_sha256": "044f0b6db3b41f490d61892ee5b848248e27a06df82e125a39e8ab5fc515b89b",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-007",
+      "work_id": "parsig:108",
+      "target_sha256": "6b54340aacb51e9d3607a3d29b64bdfe64bb92c51d5c0ed845c8f419d33c090f",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-008",
+      "work_id": "parsig:109",
+      "target_sha256": "37d619f8712b4963d0a31b28a1e7dae06ab57c7d6db4c00534fa369486d29596",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-009",
+      "work_id": "parsig:115",
+      "target_sha256": "5cc6fda4125c4b327b0823ce43b0d14d087177acb256173f56b1cf96cbfeb442",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-010",
+      "work_id": "parsig:119",
+      "target_sha256": "10043840cc2a4fc45d5c5983528b737dae1938009e0810a7d761614cabd94d17",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-011",
+      "work_id": "parsig:134",
+      "target_sha256": "3a3b698e954c38e8d6ca4dd976b8da7baca52ebc4d2318a63e1e8753fa5808b0",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-012",
+      "work_id": "parsig:136",
+      "target_sha256": "dae3dbc22d39a1cfea7f433bc04c12d4dae4e027226362bed4e8b1b923b1bb74",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-013",
+      "work_id": "parsig:150",
+      "target_sha256": "a9875df83d7e3cbdca389a57c8d114ddd13cc71535e5b9b86519530d441bf447",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-014",
+      "work_id": "parsig:151",
+      "target_sha256": "87f21f574ebc05789b3231759e8856ac1368a557a3e67796f52ab5e0d7ff3531",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-015",
+      "work_id": "parsig:509",
+      "target_sha256": "fa8a06787399b3eb0b3618004e1f76e2a9d7c9f7862679519461a6d77f67b1a9",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-016",
+      "work_id": "parsig:511",
+      "target_sha256": "f3784c371e57c83f59d78a4f5d6552aa4fcb2a523677d16c4bdf61a550917aee",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-017",
+      "work_id": "parsig:515",
+      "target_sha256": "513eaa74e5d82e039db55eb8ef22f26ef61ad6b6260d265a887920169e0b2f7b",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-018",
+      "work_id": "parsig:521",
+      "target_sha256": "59b4fcf5f0acc2cc9033d285042716a92e9d33ccaed853023404a6173ad4c19c",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-019",
+      "work_id": "parsig:550",
+      "target_sha256": "c06ae0856515c4365feb22875095ae6436eca14e423e931e7d152db3b05c906d",
+      "paired_success": false
+    },
+    {
+      "case_id": "TRAINRECALL1-020",
+      "work_id": "parsig:555",
+      "target_sha256": "9f539c6ee39d93b23b9068eb958d22f56a0d2906f95dc3f6f4f3d39e0c834141",
+      "paired_success": false
+    }
+  ],
+  "full_target": {
+    "overall": {
+      "scheduled_parents": 20,
+      "paired_successes": 0,
+      "equal_parent_mean": null,
+      "median": null,
+      "range": null,
+      "signs": {
+        "positive": 0,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    "by_work": {
+      "parsig:101": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:107": {
+        "scheduled_parents": 5,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:108": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:109": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:115": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:119": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:134": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:136": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:150": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:151": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:509": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:511": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:515": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:521": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:550": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:555": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      }
+    }
+  },
+  "content_only": {
+    "overall": {
+      "scheduled_parents": 20,
+      "paired_successes": 0,
+      "equal_parent_mean": null,
+      "median": null,
+      "range": null,
+      "signs": {
+        "positive": 0,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    "by_work": {
+      "parsig:101": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:107": {
+        "scheduled_parents": 5,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:108": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:109": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:115": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:119": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:134": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:136": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:150": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:151": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:509": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:511": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:515": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:521": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:550": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "parsig:555": {
+        "scheduled_parents": 1,
+        "paired_successes": 0,
+        "equal_parent_mean": null,
+        "median": null,
+        "range": null,
+        "signs": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      }
+    }
+  },
+  "limits": "Teacher-forced likelihood, not translation merit, accuracy, significance, causal proof or generalization. No reviewer pooling or promotion.",
+  "execution_completion": {
+    "status": "incomplete",
+    "all_first_attempts_recorded": false,
+    "scheduled_likelihood": 40,
+    "scheduled_generations": 20,
+    "recorded_likelihood": 0,
+    "recorded_generations": 0,
+    "generation_failures": 0,
+    "unattempted_call_ids": [
+      "TRAINRECALL1-001:correct",
+      "TRAINRECALL1-001:mismatched",
+      "TRAINRECALL1-002:mismatched",
+      "TRAINRECALL1-002:correct",
+      "TRAINRECALL1-003:correct",
+      "TRAINRECALL1-003:mismatched",
+      "TRAINRECALL1-004:mismatched",
+      "TRAINRECALL1-004:correct",
+      "TRAINRECALL1-005:correct",
+      "TRAINRECALL1-005:mismatched",
+      "TRAINRECALL1-006:mismatched",
+      "TRAINRECALL1-006:correct",
+      "TRAINRECALL1-007:correct",
+      "TRAINRECALL1-007:mismatched",
+      "TRAINRECALL1-008:mismatched",
+      "TRAINRECALL1-008:correct",
+      "TRAINRECALL1-009:correct",
+      "TRAINRECALL1-009:mismatched",
+      "TRAINRECALL1-010:mismatched",
+      "TRAINRECALL1-010:correct",
+      "TRAINRECALL1-011:correct",
+      "TRAINRECALL1-011:mismatched",
+      "TRAINRECALL1-012:mismatched",
+      "TRAINRECALL1-012:correct",
+      "TRAINRECALL1-013:correct",
+      "TRAINRECALL1-013:mismatched",
+      "TRAINRECALL1-014:mismatched",
+      "TRAINRECALL1-014:correct",
+      "TRAINRECALL1-015:correct",
+      "TRAINRECALL1-015:mismatched",
+      "TRAINRECALL1-016:mismatched",
+      "TRAINRECALL1-016:correct",
+      "TRAINRECALL1-017:correct",
+      "TRAINRECALL1-017:mismatched",
+      "TRAINRECALL1-018:mismatched",
+      "TRAINRECALL1-018:correct",
+      "TRAINRECALL1-019:correct",
+      "TRAINRECALL1-019:mismatched",
+      "TRAINRECALL1-020:mismatched",
+      "TRAINRECALL1-020:correct",
+      "TRAINRECALL1-001:trained",
+      "TRAINRECALL1-002:trained",
+      "TRAINRECALL1-003:trained",
+      "TRAINRECALL1-004:trained",
+      "TRAINRECALL1-005:trained",
+      "TRAINRECALL1-006:trained",
+      "TRAINRECALL1-007:trained",
+      "TRAINRECALL1-008:trained",
+      "TRAINRECALL1-009:trained",
+      "TRAINRECALL1-010:trained",
+      "TRAINRECALL1-011:trained",
+      "TRAINRECALL1-012:trained",
+      "TRAINRECALL1-013:trained",
+      "TRAINRECALL1-014:trained",
+      "TRAINRECALL1-015:trained",
+      "TRAINRECALL1-016:trained",
+      "TRAINRECALL1-017:trained",
+      "TRAINRECALL1-018:trained",
+      "TRAINRECALL1-019:trained",
+      "TRAINRECALL1-020:trained"
+    ],
+    "readiness_passed": false,
+    "runtime_error": {
+      "error_type": "ValueError",
+      "error": "Native/independent target loss differs"
+    },
+    "usable_for_translation_review": false
+  }
+}

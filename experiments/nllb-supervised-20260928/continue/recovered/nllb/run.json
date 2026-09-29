@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "step": 700,
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "settings": {
+    "seed": 3407,
+    "epochs": 5,
+    "microbatch": 4,
+    "effective_batch": 16,
+    "updates": 700,
+    "lr": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_updates": 42,
+    "max_grad_norm": 1.0,
+    "loss": "sum_target_CE/global_update_nonpadding_tokens",
+    "label_smoothing": 0,
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "num_beams": 1,
+    "forced_bos_token_id": 256053,
+    "suppress_tokens": [
+      256204,
+      256205
+    ],
+    "parameters_dtype": "float32",
+    "autocast_dtype": "bfloat16"
+  },
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "dev_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "runner_sha256": "8a392db05c5a38ad75e7cc767bda05d3dc1218b9d61348d161f64fa757b7708d",
+  "quality_validated": false,
+  "elapsed_seconds": 1287.7165864699928,
+  "completed_parent_exposures": 11185,
+  "baseline_seconds": 83.27343346198904,
+  "gpu_peak_bytes": 28609147904
+}

@@ -1,0 +1,79 @@
+{
+  "release_manifest_sha256": "763e49a9e11b35c0565bed14869e1b09c53e09a28431f026abc7610f4bf2bed0",
+  "method": "Whitespace-delimited published source/target text units, not model tokens. Lexical source counts include every preserved variant; CPD targets use recursive component text and tail fields only, excluding tags, attributes and sense numbers. Exact surface pairs ignore grammatical context and are diagnostics, never merge instructions. Complete form strings use NFC, casefold and whitespace normalization only. No benchmark content read.",
+  "historical_control": {
+    "pairs": 2237,
+    "source_whitespace_units": 37492,
+    "target_whitespace_units": 41985
+  },
+  "components": {
+    "documentary-en": {
+      "rows": 57,
+      "source_whitespace_units": 1981,
+      "target_whitespace_units": 2700,
+      "exact_surface_source_target_combinations": 57,
+      "evidence_class": {
+        "QUALIFIED_FRAGMENT": 38,
+        "QUALIFIED_WHOLE_PASSAGE": 19
+      },
+      "witness_groups": 52
+    },
+    "edition-spans-en": {
+      "rows": 4,
+      "source_whitespace_units": 55,
+      "target_whitespace_units": 83,
+      "exact_surface_source_target_combinations": 4
+    },
+    "inscription-fa": {
+      "rows": 6,
+      "source_whitespace_units": 39,
+      "target_whitespace_units": 27,
+      "exact_surface_source_target_combinations": 4
+    },
+    "lexical-en": {
+      "rows": 3506,
+      "source_whitespace_units": 3990,
+      "target_whitespace_units": 7198,
+      "exact_surface_source_target_combinations": 3506,
+      "distinct_complete_normalized_form_strings": 3413
+    },
+    "lexical-fa": {
+      "rows": 2676,
+      "source_whitespace_units": 3209,
+      "target_whitespace_units": 6947,
+      "exact_surface_source_target_combinations": 2639,
+      "distinct_complete_normalized_form_strings": 2432
+    },
+    "lexical-mmp-en": {
+      "rows": 1426,
+      "source_whitespace_units": 1476,
+      "target_whitespace_units": 3760,
+      "exact_surface_source_target_combinations": 1425,
+      "distinct_complete_normalized_form_strings": 1459
+    },
+    "pedagogy-fa": {
+      "rows": 240,
+      "source_whitespace_units": 328,
+      "target_whitespace_units": 368,
+      "exact_surface_source_target_combinations": 240,
+      "record_types": {
+        "pedagogical_clause": 16,
+        "pedagogical_finite_paradigm": 16,
+        "pedagogical_finite_predicate": 23,
+        "pedagogical_derivational_form": 68,
+        "pedagogical_lexical_inventory": 52,
+        "pedagogical_pronoun_paradigm": 9,
+        "pedagogical_bound_morpheme": 7,
+        "pedagogical_function_word": 33,
+        "pedagogical_discontinuous_construction": 7,
+        "pedagogical_numeral_equivalence": 5,
+        "pedagogical_noun_phrase": 2,
+        "pedagogical_fraction_expression": 2
+      }
+    }
+  },
+  "lexical_distinct_complete_normalized_form_strings_across_components": 6253,
+  "new_pool_surface_repetition_groups": 37,
+  "excluded_decision_rows": 2317,
+  "note": "These counts do not estimate novel meanings, independent attestations, improvement probability, or the size of an eventual sampled training run. Components are different tasks and must not be added into a translation-pair total."
+}

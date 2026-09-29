@@ -1,0 +1,189 @@
+{"phase": "loading_nf4"}
+
+Loading weights:   0%|          | 0/1188 [00:00<?, ?it/s][A
+Loading weights:   2%|▏         | 19/1188 [00:01<01:03, 18.46it/s][A
+Loading weights:   6%|▋         | 76/1188 [00:02<00:27, 40.54it/s][A
+Loading weights:  11%|█         | 131/1188 [00:03<00:22, 46.46it/s][A
+Loading weights:  16%|█▌        | 186/1188 [00:04<00:20, 49.62it/s][A
+Loading weights:  20%|██        | 243/1188 [00:05<00:18, 51.72it/s][A
+Loading weights:  26%|██▌       | 304/1188 [00:06<00:16, 54.69it/s][A
+Loading weights:  30%|███       | 361/1188 [00:07<00:15, 55.07it/s][A
+Loading weights:  35%|███▌      | 420/1188 [00:08<00:13, 55.61it/s][A
+Loading weights:  40%|████      | 477/1188 [00:09<00:12, 55.90it/s][A
+Loading weights:  45%|████▍     | 533/1188 [00:10<00:11, 55.35it/s][A
+Loading weights:  50%|████▉     | 593/1188 [00:11<00:10, 56.73it/s][A
+Loading weights:  55%|█████▍    | 650/1188 [00:12<00:09, 56.69it/s][A
+Loading weights:  60%|█████▉    | 707/1188 [00:13<00:08, 56.38it/s][A
+Loading weights:  64%|██████▍   | 764/1188 [00:14<00:07, 56.19it/s][A
+Loading weights:  69%|██████▉   | 821/1188 [00:15<00:06, 56.21it/s][ALoading weights: 100%|██████████| 1188/1188 [00:16<00:00, 74.24it/s]
+{"phase": "training_canary"}
+{"phase": "training", "canary_elapsed_seconds": 3.2987446999759413}
+{'loss': '0.6099', 'grad_norm': '4.433', 'learning_rate': '0', 'epoch': '0.02083'}
+{'loss': '0.7396', 'grad_norm': '3.867', 'learning_rate': '5e-05', 'epoch': '0.04167'}
+{'loss': '0.723', 'grad_norm': '3.844', 'learning_rate': '0.0001', 'epoch': '0.0625'}
+{'loss': '0.921', 'grad_norm': '4.745', 'learning_rate': '9.783e-05', 'epoch': '0.08333'}
+{'loss': '0.5845', 'grad_norm': '4.423', 'learning_rate': '9.565e-05', 'epoch': '0.1042'}
+{'loss': '0.7964', 'grad_norm': '5.57', 'learning_rate': '9.348e-05', 'epoch': '0.125'}
+{'loss': '0.9185', 'grad_norm': '50.89', 'learning_rate': '9.13e-05', 'epoch': '0.1458'}
+{'loss': '0.8669', 'grad_norm': '6.256', 'learning_rate': '8.913e-05', 'epoch': '0.1667'}
+{'loss': '0.6462', 'grad_norm': '4.6', 'learning_rate': '8.696e-05', 'epoch': '0.1875'}
+{'loss': '0.7165', 'grad_norm': '6.277', 'learning_rate': '8.478e-05', 'epoch': '0.2083'}
+{'loss': '0.4159', 'grad_norm': '4.27', 'learning_rate': '8.261e-05', 'epoch': '0.2292'}
+{'loss': '0.8021', 'grad_norm': '4.358', 'learning_rate': '8.043e-05', 'epoch': '0.25'}
+{'loss': '0.5887', 'grad_norm': '4.91', 'learning_rate': '7.826e-05', 'epoch': '0.2708'}
+{'loss': '0.6532', 'grad_norm': '4.717', 'learning_rate': '7.609e-05', 'epoch': '0.2917'}
+{'loss': '0.5278', 'grad_norm': '3.545', 'learning_rate': '7.391e-05', 'epoch': '0.3125'}
+{'loss': '0.6909', 'grad_norm': '5.107', 'learning_rate': '7.174e-05', 'epoch': '0.3333'}
+{'loss': '0.7531', 'grad_norm': '6.85', 'learning_rate': '6.957e-05', 'epoch': '0.3542'}
+{'loss': '0.7583', 'grad_norm': '16.27', 'learning_rate': '6.739e-05', 'epoch': '0.375'}
+{'loss': '0.4888', 'grad_norm': '6.31', 'learning_rate': '6.522e-05', 'epoch': '0.3958'}
+{'loss': '0.6527', 'grad_norm': '15.31', 'learning_rate': '6.304e-05', 'epoch': '0.4167'}
+{'loss': '0.4688', 'grad_norm': '4.208', 'learning_rate': '6.087e-05', 'epoch': '0.4375'}
+{'loss': '0.5692', 'grad_norm': '3.644', 'learning_rate': '5.87e-05', 'epoch': '0.4583'}
+{'loss': '0.5818', 'grad_norm': '4.557', 'learning_rate': '5.652e-05', 'epoch': '0.4792'}
+{'loss': '0.4937', 'grad_norm': '3.554', 'learning_rate': '5.435e-05', 'epoch': '0.5'}
+{'loss': '0.6581', 'grad_norm': '6.126', 'learning_rate': '5.217e-05', 'epoch': '0.5208'}
+{'loss': '0.6425', 'grad_norm': '4.669', 'learning_rate': '5e-05', 'epoch': '0.5417'}
+{'loss': '0.5765', 'grad_norm': '3.447', 'learning_rate': '4.783e-05', 'epoch': '0.5625'}
+{'loss': '0.5159', 'grad_norm': '5.33', 'learning_rate': '4.565e-05', 'epoch': '0.5833'}
+{'loss': '0.5495', 'grad_norm': '4.769', 'learning_rate': '4.348e-05', 'epoch': '0.6042'}
+{'loss': '0.4684', 'grad_norm': '3.697', 'learning_rate': '4.13e-05', 'epoch': '0.625'}
+{'loss': '0.5986', 'grad_norm': '3.432', 'learning_rate': '3.913e-05', 'epoch': '0.6458'}
+{'loss': '0.6768', 'grad_norm': '7.721', 'learning_rate': '3.696e-05', 'epoch': '0.6667'}
+{'loss': '0.5524', 'grad_norm': '5.382', 'learning_rate': '3.478e-05', 'epoch': '0.6875'}
+{'loss': '0.4977', 'grad_norm': '4.921', 'learning_rate': '3.261e-05', 'epoch': '0.7083'}
+{'loss': '0.4705', 'grad_norm': '4.248', 'learning_rate': '3.043e-05', 'epoch': '0.7292'}
+{'loss': '0.7039', 'grad_norm': '4.075', 'learning_rate': '2.826e-05', 'epoch': '0.75'}
+{'loss': '0.7339', 'grad_norm': '5.449', 'learning_rate': '2.609e-05', 'epoch': '0.7708'}
+{'loss': '0.6723', 'grad_norm': '4.583', 'learning_rate': '2.391e-05', 'epoch': '0.7917'}
+{'loss': '0.4986', 'grad_norm': '3.868', 'learning_rate': '2.174e-05', 'epoch': '0.8125'}
+{'loss': '0.6246', 'grad_norm': '4.13', 'learning_rate': '1.957e-05', 'epoch': '0.8333'}
+{'loss': '0.683', 'grad_norm': '4.419', 'learning_rate': '1.739e-05', 'epoch': '0.8542'}
+{'loss': '0.5418', 'grad_norm': '4.039', 'learning_rate': '1.522e-05', 'epoch': '0.875'}
+{'loss': '0.5819', 'grad_norm': '4.247', 'learning_rate': '1.304e-05', 'epoch': '0.8958'}
+{'loss': '0.5822', 'grad_norm': '4.564', 'learning_rate': '1.087e-05', 'epoch': '0.9167'}
+{'loss': '0.5831', 'grad_norm': '4.312', 'learning_rate': '8.696e-06', 'epoch': '0.9375'}
+{'loss': '0.6528', 'grad_norm': '3.949', 'learning_rate': '6.522e-06', 'epoch': '0.9583'}
+{'loss': '0.449', 'grad_norm': '4.094', 'learning_rate': '4.348e-06', 'epoch': '0.9792'}
+{'loss': '0.6679', 'grad_norm': '8.276', 'learning_rate': '2.174e-06', 'epoch': '1'}
+{'train_runtime': '926.3', 'train_samples_per_second': '0.829', 'train_steps_per_second': '0.052', 'train_loss': '0.6281', 'epoch': '1'}
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:300: UserWarning: Could not find a config file in /tmp/pahlavi-continuation-eeafv33l/base - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'loss': '0.6247', 'grad_norm': '4.561', 'learning_rate': '0', 'epoch': '0.02083'}
+{'loss': '0.907', 'grad_norm': '4.881', 'learning_rate': '5e-05', 'epoch': '0.04167'}
+{'loss': '0.8252', 'grad_norm': '6.84', 'learning_rate': '0.0001', 'epoch': '0.0625'}
+{'loss': '0.9531', 'grad_norm': '5.313', 'learning_rate': '9.783e-05', 'epoch': '0.08333'}
+{'loss': '0.5102', 'grad_norm': '3.925', 'learning_rate': '9.565e-05', 'epoch': '0.1042'}
+{'loss': '0.8361', 'grad_norm': '7.36', 'learning_rate': '9.348e-05', 'epoch': '0.125'}
+{'loss': '0.8842', 'grad_norm': '5.626', 'learning_rate': '9.13e-05', 'epoch': '0.1458'}
+{'loss': '1.02', 'grad_norm': '9.173', 'learning_rate': '8.913e-05', 'epoch': '0.1667'}
+{'loss': '0.7155', 'grad_norm': '7.003', 'learning_rate': '8.696e-05', 'epoch': '0.1875'}
+{'loss': '0.6247', 'grad_norm': '5.315', 'learning_rate': '8.478e-05', 'epoch': '0.2083'}
+{'loss': '0.3922', 'grad_norm': '4.244', 'learning_rate': '8.261e-05', 'epoch': '0.2292'}
+{'loss': '0.7417', 'grad_norm': '3.905', 'learning_rate': '8.043e-05', 'epoch': '0.25'}
+{'loss': '0.5589', 'grad_norm': '4.184', 'learning_rate': '7.826e-05', 'epoch': '0.2708'}
+{'loss': '0.6474', 'grad_norm': '4.222', 'learning_rate': '7.609e-05', 'epoch': '0.2917'}
+{'loss': '0.4954', 'grad_norm': '3.324', 'learning_rate': '7.391e-05', 'epoch': '0.3125'}
+{'loss': '0.6273', 'grad_norm': '4.199', 'learning_rate': '7.174e-05', 'epoch': '0.3333'}
+{'loss': '0.7375', 'grad_norm': '5.762', 'learning_rate': '6.957e-05', 'epoch': '0.3542'}
+{'loss': '0.6979', 'grad_norm': '4.845', 'learning_rate': '6.739e-05', 'epoch': '0.375'}
+{'loss': '0.4743', 'grad_norm': '4.961', 'learning_rate': '6.522e-05', 'epoch': '0.3958'}
+{'loss': '0.648', 'grad_norm': '4.824', 'learning_rate': '6.304e-05', 'epoch': '0.4167'}
+{'loss': '0.5652', 'grad_norm': '5.793', 'learning_rate': '6.087e-05', 'epoch': '0.4375'}
+{'loss': '0.5758', 'grad_norm': '3.822', 'learning_rate': '5.87e-05', 'epoch': '0.4583'}
+{'loss': '0.5827', 'grad_norm': '4.254', 'learning_rate': '5.652e-05', 'epoch': '0.4792'}
+{'loss': '0.485', 'grad_norm': '3.147', 'learning_rate': '5.435e-05', 'epoch': '0.5'}
+{'loss': '0.6548', 'grad_norm': '5.212', 'learning_rate': '5.217e-05', 'epoch': '0.5208'}
+{'loss': '0.6223', 'grad_norm': '4.539', 'learning_rate': '5e-05', 'epoch': '0.5417'}
+{'loss': '0.514', 'grad_norm': '3.103', 'learning_rate': '4.783e-05', 'epoch': '0.5625'}
+{'loss': '0.4827', 'grad_norm': '4.481', 'learning_rate': '4.565e-05', 'epoch': '0.5833'}
+{'loss': '0.5458', 'grad_norm': '4.471', 'learning_rate': '4.348e-05', 'epoch': '0.6042'}
+{'loss': '0.447', 'grad_norm': '3.793', 'learning_rate': '4.13e-05', 'epoch': '0.625'}
+{'loss': '0.6285', 'grad_norm': '3.952', 'learning_rate': '3.913e-05', 'epoch': '0.6458'}
+{'loss': '0.6988', 'grad_norm': '4.756', 'learning_rate': '3.696e-05', 'epoch': '0.6667'}
+{'loss': '0.5244', 'grad_norm': '5.343', 'learning_rate': '3.478e-05', 'epoch': '0.6875'}
+{'loss': '0.5158', 'grad_norm': '4.913', 'learning_rate': '3.261e-05', 'epoch': '0.7083'}
+{'loss': '0.4573', 'grad_norm': '3.386', 'learning_rate': '3.043e-05', 'epoch': '0.7292'}
+{'loss': '0.7015', 'grad_norm': '3.878', 'learning_rate': '2.826e-05', 'epoch': '0.75'}
+{'loss': '0.7121', 'grad_norm': '5.051', 'learning_rate': '2.609e-05', 'epoch': '0.7708'}
+{'loss': '0.6458', 'grad_norm': '4.161', 'learning_rate': '2.391e-05', 'epoch': '0.7917'}
+{'loss': '0.4818', 'grad_norm': '4.081', 'learning_rate': '2.174e-05', 'epoch': '0.8125'}
+{'loss': '0.6319', 'grad_norm': '7.443', 'learning_rate': '1.957e-05', 'epoch': '0.8333'}
+{'loss': '0.6901', 'grad_norm': '4.232', 'learning_rate': '1.739e-05', 'epoch': '0.8542'}
+{'loss': '0.5558', 'grad_norm': '4.188', 'learning_rate': '1.522e-05', 'epoch': '0.875'}
+{'loss': '0.5542', 'grad_norm': '3.916', 'learning_rate': '1.304e-05', 'epoch': '0.8958'}
+{'loss': '0.5933', 'grad_norm': '5.421', 'learning_rate': '1.087e-05', 'epoch': '0.9167'}
+{'loss': '0.5819', 'grad_norm': '3.756', 'learning_rate': '8.696e-06', 'epoch': '0.9375'}
+{'loss': '0.6113', 'grad_norm': '3.882', 'learning_rate': '6.522e-06', 'epoch': '0.9583'}
+{'loss': '0.3828', 'grad_norm': '3.54', 'learning_rate': '4.348e-06', 'epoch': '0.9792'}
+{'loss': '0.6192', 'grad_norm': '4.56', 'learning_rate': '2.174e-06', 'epoch': '1'}
+{'train_runtime': '944.8', 'train_samples_per_second': '0.813', 'train_steps_per_second': '0.051', 'train_loss': '0.6246', 'epoch': '1'}
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:300: UserWarning: Could not find a config file in /tmp/pahlavi-continuation-eeafv33l/base - will assume that the vocabulary was not modified.
+  warnings.warn(
+{"phase": "reloading_bf16", "allocated_bytes": 17040384, "reserved_bytes": 17792237568}
+
+Loading weights:   0%|          | 0/1188 [00:00<?, ?it/s][A
+Loading weights:   2%|▏         | 20/1188 [00:01<01:00, 19.22it/s][A
+Loading weights:   7%|▋         | 89/1188 [00:02<00:23, 46.70it/s][A
+Loading weights:  12%|█▏        | 146/1188 [00:03<00:20, 50.80it/s][A
+Loading weights:  18%|█▊        | 208/1188 [00:04<00:17, 54.95it/s][A
+Loading weights:  23%|██▎       | 268/1188 [00:05<00:16, 56.07it/s][A
+Loading weights:  27%|██▋       | 325/1188 [00:06<00:15, 56.08it/s][A
+Loading weights:  33%|███▎      | 392/1188 [00:07<00:13, 58.58it/s][A
+Loading weights:  38%|███▊      | 451/1188 [00:08<00:12, 57.98it/s][A
+Loading weights:  44%|████▎     | 517/1188 [00:09<00:11, 59.50it/s][A
+Loading weights:  49%|████▊     | 577/1188 [00:10<00:10, 59.38it/s][A
+Loading weights:  54%|█████▍    | 642/1188 [00:11<00:09, 60.07it/s][A
+Loading weights:  59%|█████▉    | 703/1188 [00:12<00:08, 58.91it/s][A
+Loading weights:  64%|██████▍   | 762/1188 [00:13<00:07, 58.49it/s][A
+Loading weights:  69%|██████▉   | 822/1188 [00:14<00:06, 58.50it/s][ALoading weights: 100%|██████████| 1188/1188 [00:15<00:00, 79.02it/s]
+{"phase": "evaluating"}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-001", "arm": "control", "status": "success", "recorded_outputs": 1, "completed_outputs": 1}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-001", "arm": "candidate", "status": "success", "recorded_outputs": 2, "completed_outputs": 2}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-007", "arm": "candidate", "status": "success", "recorded_outputs": 3, "completed_outputs": 3}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-007", "arm": "control", "status": "success", "recorded_outputs": 4, "completed_outputs": 4}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-013", "arm": "control", "status": "success", "recorded_outputs": 5, "completed_outputs": 5}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-013", "arm": "candidate", "status": "success", "recorded_outputs": 6, "completed_outputs": 6}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-019", "arm": "candidate", "status": "success", "recorded_outputs": 7, "completed_outputs": 7}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-019", "arm": "control", "status": "success", "recorded_outputs": 8, "completed_outputs": 8}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-002", "arm": "candidate", "status": "success", "recorded_outputs": 9, "completed_outputs": 9}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-002", "arm": "control", "status": "success", "recorded_outputs": 10, "completed_outputs": 10}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-008", "arm": "control", "status": "success", "recorded_outputs": 11, "completed_outputs": 11}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-008", "arm": "candidate", "status": "success", "recorded_outputs": 12, "completed_outputs": 12}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-014", "arm": "candidate", "status": "success", "recorded_outputs": 13, "completed_outputs": 13}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-014", "arm": "control", "status": "success", "recorded_outputs": 14, "completed_outputs": 14}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-020", "arm": "control", "status": "success", "recorded_outputs": 15, "completed_outputs": 15}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-020", "arm": "candidate", "status": "success", "recorded_outputs": 16, "completed_outputs": 16}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-003", "arm": "control", "status": "success", "recorded_outputs": 17, "completed_outputs": 17}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-003", "arm": "candidate", "status": "success", "recorded_outputs": 18, "completed_outputs": 18}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-009", "arm": "candidate", "status": "success", "recorded_outputs": 19, "completed_outputs": 19}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-009", "arm": "control", "status": "success", "recorded_outputs": 20, "completed_outputs": 20}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-015", "arm": "control", "status": "success", "recorded_outputs": 21, "completed_outputs": 21}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-015", "arm": "candidate", "status": "success", "recorded_outputs": 22, "completed_outputs": 22}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-021", "arm": "candidate", "status": "success", "recorded_outputs": 23, "completed_outputs": 23}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-021", "arm": "control", "status": "success", "recorded_outputs": 24, "completed_outputs": 24}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-004", "arm": "candidate", "status": "success", "recorded_outputs": 25, "completed_outputs": 25}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-004", "arm": "control", "status": "success", "recorded_outputs": 26, "completed_outputs": 26}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-010", "arm": "control", "status": "success", "recorded_outputs": 27, "completed_outputs": 27}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-010", "arm": "candidate", "status": "success", "recorded_outputs": 28, "completed_outputs": 28}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-016", "arm": "candidate", "status": "success", "recorded_outputs": 29, "completed_outputs": 29}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-016", "arm": "control", "status": "success", "recorded_outputs": 30, "completed_outputs": 30}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-022", "arm": "control", "status": "success", "recorded_outputs": 31, "completed_outputs": 31}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-022", "arm": "candidate", "status": "success", "recorded_outputs": 32, "completed_outputs": 32}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-005", "arm": "control", "status": "success", "recorded_outputs": 33, "completed_outputs": 33}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-005", "arm": "candidate", "status": "success", "recorded_outputs": 34, "completed_outputs": 34}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-011", "arm": "candidate", "status": "success", "recorded_outputs": 35, "completed_outputs": 35}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-011", "arm": "control", "status": "success", "recorded_outputs": 36, "completed_outputs": 36}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-017", "arm": "control", "status": "success", "recorded_outputs": 37, "completed_outputs": 37}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-017", "arm": "candidate", "status": "success", "recorded_outputs": 38, "completed_outputs": 38}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-023", "arm": "candidate", "status": "success", "recorded_outputs": 39, "completed_outputs": 39}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-023", "arm": "control", "status": "success", "recorded_outputs": 40, "completed_outputs": 40}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-006", "arm": "candidate", "status": "success", "recorded_outputs": 41, "completed_outputs": 41}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-006", "arm": "control", "status": "success", "recorded_outputs": 42, "completed_outputs": 42}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-012", "arm": "control", "status": "success", "recorded_outputs": 43, "completed_outputs": 43}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-012", "arm": "candidate", "status": "success", "recorded_outputs": 44, "completed_outputs": 44}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-018", "arm": "candidate", "status": "success", "recorded_outputs": 45, "completed_outputs": 45}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-018", "arm": "control", "status": "success", "recorded_outputs": 46, "completed_outputs": 46}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-024", "arm": "control", "status": "success", "recorded_outputs": 47, "completed_outputs": 47}
+{"phase": "generation_case_recorded", "case_id": "QUALITYDEV1-024", "arm": "candidate", "status": "success", "recorded_outputs": 48, "completed_outputs": 48}
+{"phase": "completed", "training_steps_per_arm": 48, "evaluation_completed_outputs": 48}

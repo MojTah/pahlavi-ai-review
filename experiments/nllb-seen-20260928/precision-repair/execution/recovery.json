@@ -1,0 +1,58 @@
+{
+  "utc": "2026-09-28T11:02:04.550206+00:00",
+  "run_id": "799e1037f097415a8b7124e36416b728",
+  "manifest_sha256": "8dffe0c1676576d5044ecbd2d4b8725ff5fb0a5e89a0ae53a05ff13a2029a0c5",
+  "persistence_upper_seconds": 67.63495852499449,
+  "provider_inventory_committed": true,
+  "provider_inventory": {
+    "nllb-seen/799e1037f097415a8b7124e36416b728/driver.log": {
+      "bytes": 20189,
+      "xet_hash": "c5144cf700685ef2e9336fa7edb907fdef912cfa6e7c58880072c2ffa35069fa"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/manifest.json": {
+      "bytes": 3104,
+      "xet_hash": "4b68c0058d8e42836075e0f501e5e8d1a5bd0fb3e17d061a18cc057350efc394"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/package-manifest.json": {
+      "bytes": 1242,
+      "xet_hash": "d1806e1b301146d3009095320a2bb8161fbfe3b87585e76581020189b6e41f00"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/seen/canary.json": {
+      "bytes": 2258,
+      "xet_hash": "645af6aa98314706589a6c3611bac9f8723e45536e59939ce9961702db88dfb4"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/seen/likelihood.jsonl": {
+      "bytes": 47541,
+      "xet_hash": "485deda280f6c5161dfeed40f7ae8725a0f7e242f475181f0a666f0236dcc959"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/seen/predictions.jsonl": {
+      "bytes": 20752,
+      "xet_hash": "1629437c5244ec2bdf1b340ba713d5f061007c8e860248903e691aaedc143a3f"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/seen/run.json": {
+      "bytes": 4731,
+      "xet_hash": "04c61195d7c001c03c492f899ad3ab5e04a144d5e74c721d1e27ae80e62d94da"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/seen/schedule.json": {
+      "bytes": 11494,
+      "xet_hash": "c0edf4e923b15f4b1d233ea43ae4371d292df1be2ba778d106afbb55b7863670"
+    },
+    "nllb-seen/799e1037f097415a8b7124e36416b728/status.json": {
+      "bytes": 1801,
+      "xet_hash": "7dd4b6172befd6da971681091aecb6202899791eb4c7be370fe5dc6b3c5f7576"
+    }
+  },
+  "local_sha_verified_files": [
+    "driver.log",
+    "package-manifest.json",
+    "seen/canary.json",
+    "seen/likelihood.jsonl",
+    "seen/predictions.jsonl",
+    "seen/run.json",
+    "seen/schedule.json",
+    "status.json"
+  ],
+  "model_weights_downloaded": false,
+  "diagnostic_status": "complete",
+  "weight_sha_evidence": "Server manifest; provider committed size/Xet independently observed. No laptop weight download."
+}

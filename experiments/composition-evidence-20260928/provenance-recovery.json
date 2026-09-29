@@ -1,0 +1,3792 @@
+{
+  "status": "PROVENANCE_RECOVERY_CANDIDATES_NOT_TRAIN_ADMITTED",
+  "inputs": {
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\experiments\\dev-assisted-qualified-20260927\\UNLABELED-DATA-INVENTORY.json": "7eba461256dfcf44e324dde31d2b119cac1b4fae866ca0a53e705217389ba060",
+    "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\sources\\local\\parsig-2026-09-20\\exports\\text-units.jsonl": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+    "[USER_HOME]\\Documents\\Codex Projects\\01-Software\\Pahlavi Translator\\data\\research-reviews\\560dcebcf0c20771e7759d45192a3b9555ad4876a272682fb734652a1128e6dc\\exceptions.json": "4228ca306c2675ca779a2f1c166729d293d4cd3220345e9d16c2f2f39e69bbce"
+  },
+  "all_277_accounted_for": true,
+  "reason_counts": [
+    {
+      "reasons": [
+        "shared_translation_distinct_sources"
+      ],
+      "rows": 13
+    },
+    {
+      "reasons": [
+        "mixed_or_possible_avestan_source"
+      ],
+      "rows": 79
+    },
+    {
+      "reasons": [
+        "source_edition_unresolved"
+      ],
+      "rows": 110
+    },
+    {
+      "reasons": [
+        "work_identity_requires_review"
+      ],
+      "rows": 45
+    },
+    {
+      "reasons": [
+        "no_usable_published_pair",
+        "translator_attribution_unresolved"
+      ],
+      "rows": 28
+    },
+    {
+      "reasons": [
+        "unsupported_source_encoding"
+      ],
+      "rows": 2
+    }
+  ],
+  "rows": [
+    {
+      "id": "parsig:105000010",
+      "work_id": "parsig:105",
+      "work_title": "اندرز پیشینیان 1",
+      "first_rejection_records": [
+        {
+          "id": "parsig:105000010",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:106000000",
+      "work_id": "parsig:106",
+      "work_title": "اندرز پیشینیان 2",
+      "first_rejection_records": [
+        {
+          "id": "parsig:106000000",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:106000010",
+      "work_id": "parsig:106",
+      "work_title": "اندرز پیشینیان 2",
+      "first_rejection_records": [
+        {
+          "id": "parsig:106000010",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:107000000",
+      "work_id": "parsig:107",
+      "work_title": "اندرز پیشینیان 3",
+      "first_rejection_records": [
+        {
+          "id": "parsig:107000000",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:108000000",
+      "work_id": "parsig:108",
+      "work_title": "اندرز پیشینیان 4",
+      "first_rejection_records": [
+        {
+          "id": "parsig:108000000",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:108000013",
+      "work_id": "parsig:108",
+      "work_title": "اندرز پیشینیان 4",
+      "first_rejection_records": [
+        {
+          "id": "parsig:108000013",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:122000017",
+      "work_id": "parsig:122",
+      "work_title": "شگفتی‌ و برجستگی سیستان",
+      "first_rejection_records": [
+        {
+          "id": "parsig:122000017",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:125000000",
+      "work_id": "parsig:125",
+      "work_title": "قطعه2، جاماسب‌آسانا، ص 78",
+      "first_rejection_records": [
+        {
+          "id": "parsig:125000000",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:125000002",
+      "work_id": "parsig:125",
+      "work_title": "قطعه2، جاماسب‌آسانا، ص 78",
+      "first_rejection_records": [
+        {
+          "id": "parsig:125000002",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:128000000",
+      "work_id": "parsig:128",
+      "work_title": "قطعه5، جاماسب‌آسانا، ص 83",
+      "first_rejection_records": [
+        {
+          "id": "parsig:128000000",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:131000001",
+      "work_id": "parsig:131",
+      "work_title": "نیرنگ زهر بستن",
+      "first_rejection_records": [
+        {
+          "id": "parsig:131000001",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:133000157",
+      "work_id": "parsig:133",
+      "work_title": "یادگار بزرگمهر",
+      "first_rejection_records": [
+        {
+          "id": "parsig:133000157",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:133000159",
+      "work_id": "parsig:133",
+      "work_title": "یادگار بزرگمهر",
+      "first_rejection_records": [
+        {
+          "id": "parsig:133000159",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:134005003",
+      "work_id": "parsig:134",
+      "work_title": "زند بهمن یسن",
+      "first_rejection_records": [
+        {
+          "id": "parsig:134005003",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:134008007",
+      "work_id": "parsig:134",
+      "work_title": "زند بهمن یسن",
+      "first_rejection_records": [
+        {
+          "id": "parsig:134008007",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:137001029",
+      "work_id": "parsig:137",
+      "work_title": "بندهشن",
+      "first_rejection_records": [
+        {
+          "id": "parsig:137001029",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:137002020",
+      "work_id": "parsig:137",
+      "work_title": "بندهشن",
+      "first_rejection_records": [
+        {
+          "id": "parsig:137002020",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139041001",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139041001",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139041002",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139041002",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139041003",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139041003",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139041004",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139041004",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139041005",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139041005",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139041006",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139041006",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139041007",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139041007",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139042001",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139042001",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139042002",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139042002",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139042003",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139042003",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139042004",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139042004",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139042005",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139042005",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139042006",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139042006",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139042007",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139042007",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043001",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043001",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043002",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043002",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043003",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043003",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043004",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043004",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043005",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043005",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043006",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043006",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043007",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043007",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043008",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043008",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043009",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043009",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043010",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043010",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043011",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043011",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043012",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043012",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043013",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043013",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139043014",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139043014",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044001",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044001",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044002",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044002",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044003",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044003",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044004",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044004",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044005",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044005",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044006",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044006",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044007",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044007",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139044008",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139044008",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045001",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045001",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045002",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045002",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045003",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045003",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045004",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045004",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045005",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045005",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045006",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045006",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045007",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045007",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045008",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045008",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:139045009",
+      "work_id": "parsig:139",
+      "work_title": "دادستان دینی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:139045009",
+          "language": "pal",
+          "reason": "work_identity_requires_review"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:150000000",
+      "work_id": "parsig:150",
+      "work_title": "اندرز اوشنر دانا",
+      "first_rejection_records": [
+        {
+          "id": "parsig:150000000",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:150000000",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151000058",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151000058",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151000058",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151001048",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151001048",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151001048",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151001094",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151001094",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151001094",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151001127",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151001127",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151001127",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151001129",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151001129",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151001129",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151001148",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151001148",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151001148",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151014011",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151014011",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151014011",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151025004",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151025004",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151025004",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151025005",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151025005",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151025005",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151027007",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151027007",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151034002",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151034002",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151034002",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151035029",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151035029",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151035029",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151039009",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151039009",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151039009",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151045001",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151045001",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151045001",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151045003",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151045003",
+          "language": "fa",
+          "reason": "shared_translation_distinct_sources"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151048022",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151048022",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151048022",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151060006",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151060006",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151060006",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:151061032",
+      "work_id": "parsig:151",
+      "work_title": "مینوی خرد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:151061032",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:151061032",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:201001001",
+      "work_id": "parsig:201",
+      "work_title": "کتیبه‌های یادبودی - غار کانهری",
+      "first_rejection_records": [
+        {
+          "id": "parsig:201001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:201002001",
+      "work_id": "parsig:201",
+      "work_title": "کتیبه‌های یادبودی - غار کانهری",
+      "first_rejection_records": [
+        {
+          "id": "parsig:201002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:201003001",
+      "work_id": "parsig:201",
+      "work_title": "کتیبه‌های یادبودی - غار کانهری",
+      "first_rejection_records": [
+        {
+          "id": "parsig:201003001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:201005001",
+      "work_id": "parsig:201",
+      "work_title": "کتیبه‌های یادبودی - غار کانهری",
+      "first_rejection_records": [
+        {
+          "id": "parsig:201005001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:201006001",
+      "work_id": "parsig:201",
+      "work_title": "کتیبه‌های یادبودی - غار کانهری",
+      "first_rejection_records": [
+        {
+          "id": "parsig:201006001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:202001001",
+      "work_id": "parsig:202",
+      "work_title": "کتیبه‌های یادبودی - بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:202001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:203001001",
+      "work_id": "parsig:203",
+      "work_title": "کتیبه‌های یادبودی - تنگ خُشک",
+      "first_rejection_records": [
+        {
+          "id": "parsig:203001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:203002001",
+      "work_id": "parsig:203",
+      "work_title": "کتیبه‌های یادبودی - تنگ خُشک",
+      "first_rejection_records": [
+        {
+          "id": "parsig:203002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:204001001",
+      "work_id": "parsig:204",
+      "work_title": "کتیبه‌های یادبودی - تنگ کرم",
+      "first_rejection_records": [
+        {
+          "id": "parsig:204001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:204002001",
+      "work_id": "parsig:204",
+      "work_title": "کتیبه‌های یادبودی - تنگ کرم",
+      "first_rejection_records": [
+        {
+          "id": "parsig:204002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205001001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205002001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205003001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205003001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205004001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205004001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205005001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205005001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205006001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205006001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205007001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205007001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205008001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205008001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205009001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205009001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205010001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205010001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205011001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205011001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205012001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205012001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205013001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205013001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205014001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205014001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205015001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205015001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205016001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205016001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205017001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205017001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205018001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205018001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205019001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205019001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205020001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205020001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205021001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205021001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205022001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205022001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205023001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205023001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205024001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205024001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205025001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205025001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205026001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205026001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205027001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205027001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205028001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205028001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205029001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205029001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205030001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205030001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205031001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205031001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:205032001",
+      "work_id": "parsig:205",
+      "work_title": "کتیبه‌های یادبودی - دربند قفقاز",
+      "first_rejection_records": [
+        {
+          "id": "parsig:205032001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:206001001",
+      "work_id": "parsig:206",
+      "work_title": "کتیبه‌های مسیحیان-صلیب سنت توماس",
+      "first_rejection_records": [
+        {
+          "id": "parsig:206001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:207001001",
+      "work_id": "parsig:207",
+      "work_title": "کتیبه‌های مسیحیان-صلیب هرات",
+      "first_rejection_records": [
+        {
+          "id": "parsig:207001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:207002001",
+      "work_id": "parsig:207",
+      "work_title": "کتیبه‌های مسیحیان-صلیب هرات",
+      "first_rejection_records": [
+        {
+          "id": "parsig:207002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:208001001",
+      "work_id": "parsig:208",
+      "work_title": "کتیبه‌های مسیحیان-لوح مسی کیلون",
+      "first_rejection_records": [
+        {
+          "id": "parsig:208001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:209001001",
+      "work_id": "parsig:209",
+      "work_title": "گورنوشته‌ها- باغ لردی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:209001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:210001001",
+      "work_id": "parsig:210",
+      "work_title": "گورنوشته‌ها- برج‌های آرامگاهی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:210001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:210002001",
+      "work_id": "parsig:210",
+      "work_title": "گورنوشته‌ها- برج‌های آرامگاهی",
+      "first_rejection_records": [
+        {
+          "id": "parsig:210002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:211001001",
+      "work_id": "parsig:211",
+      "work_title": "گورنوشته‌ها- تخت طاووس",
+      "first_rejection_records": [
+        {
+          "id": "parsig:211001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:211002001",
+      "work_id": "parsig:211",
+      "work_title": "گورنوشته‌ها- تخت طاووس",
+      "first_rejection_records": [
+        {
+          "id": "parsig:211002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:211003001",
+      "work_id": "parsig:211",
+      "work_title": "گورنوشته‌ها- تخت طاووس",
+      "first_rejection_records": [
+        {
+          "id": "parsig:211003001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:211004001",
+      "work_id": "parsig:211",
+      "work_title": "گورنوشته‌ها- تخت طاووس",
+      "first_rejection_records": [
+        {
+          "id": "parsig:211004001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:212001001",
+      "work_id": "parsig:212",
+      "work_title": "گورنوشته‌ها- تخت قیصر شوشتر",
+      "first_rejection_records": [
+        {
+          "id": "parsig:212001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:212002001",
+      "work_id": "parsig:212",
+      "work_title": "گورنوشته‌ها- تخت قیصر شوشتر",
+      "first_rejection_records": [
+        {
+          "id": "parsig:212002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:213001001",
+      "work_id": "parsig:213",
+      "work_title": "گورنوشته‌ها- سمیرم",
+      "first_rejection_records": [
+        {
+          "id": "parsig:213001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:213002001",
+      "work_id": "parsig:213",
+      "work_title": "گورنوشته‌ها- سمیرم",
+      "first_rejection_records": [
+        {
+          "id": "parsig:213002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:213003001",
+      "work_id": "parsig:213",
+      "work_title": "گورنوشته‌ها- سمیرم",
+      "first_rejection_records": [
+        {
+          "id": "parsig:213003001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:214001001",
+      "work_id": "parsig:214",
+      "work_title": "گورنوشته‌ها- شی‌آن",
+      "first_rejection_records": [
+        {
+          "id": "parsig:214001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:215001001",
+      "work_id": "parsig:215",
+      "work_title": "گورنوشته‌ها- نقش رستم(1)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:215001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:215002001",
+      "work_id": "parsig:215",
+      "work_title": "گورنوشته‌ها- نقش رستم(1)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:215002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:215003001",
+      "work_id": "parsig:215",
+      "work_title": "گورنوشته‌ها- نقش رستم(1)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:215003001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:215004001",
+      "work_id": "parsig:215",
+      "work_title": "گورنوشته‌ها- نقش رستم(1)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:215004001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:215005001",
+      "work_id": "parsig:215",
+      "work_title": "گورنوشته‌ها- نقش رستم(1)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:215005001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:215006001",
+      "work_id": "parsig:215",
+      "work_title": "گورنوشته‌ها- نقش رستم(1)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:215006001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:216001001",
+      "work_id": "parsig:216",
+      "work_title": "گورنوشته‌ها- نقش رستم(2)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:216001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:217002001",
+      "work_id": "parsig:217",
+      "work_title": "گورنوشته‌ها- نقش رستم(3)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:217002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:217006001",
+      "work_id": "parsig:217",
+      "work_title": "گورنوشته‌ها- نقش رستم(3)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:217006001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:217009001",
+      "work_id": "parsig:217",
+      "work_title": "گورنوشته‌ها- نقش رستم(3)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:217009001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:218001001",
+      "work_id": "parsig:218",
+      "work_title": "گورنوشته‌ها-اقلید",
+      "first_rejection_records": [
+        {
+          "id": "parsig:218001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:219001001",
+      "work_id": "parsig:219",
+      "work_title": "گورنوشته‌ها-پاسارگاد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:219001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:219002001",
+      "work_id": "parsig:219",
+      "work_title": "گورنوشته‌ها-پاسارگاد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:219002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:219003001",
+      "work_id": "parsig:219",
+      "work_title": "گورنوشته‌ها-پاسارگاد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:219003001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:219004001",
+      "work_id": "parsig:219",
+      "work_title": "گورنوشته‌ها-پاسارگاد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:219004001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:220001001",
+      "work_id": "parsig:220",
+      "work_title": "گورنوشته‌ها-زیرآب حاجی آباد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:220001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:220002001",
+      "work_id": "parsig:220",
+      "work_title": "گورنوشته‌ها-زیرآب حاجی آباد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:220002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:221001001",
+      "work_id": "parsig:221",
+      "work_title": "گورنوشته‌ها-فیروزآباد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:221001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222001001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222002001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222002001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222003001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222003001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222004001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222004001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222005001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222005001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222006001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222006001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222007001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222007001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222009001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222009001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222010001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222010001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222011001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222011001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222012001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222012001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222013001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222013001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222014001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222014001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222015001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222015001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222016001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222016001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:222017001",
+      "work_id": "parsig:222",
+      "work_title": "گورنوشته‌ها-کازرون و بیشاپور",
+      "first_rejection_records": [
+        {
+          "id": "parsig:222017001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:223001001",
+      "work_id": "parsig:223",
+      "work_title": "کتیبه‌های مسیحیان- استانبول",
+      "first_rejection_records": [
+        {
+          "id": "parsig:223001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:224001001",
+      "work_id": "parsig:224",
+      "work_title": "کتیبه یادبودی - قلعه بهمن",
+      "first_rejection_records": [
+        {
+          "id": "parsig:224001001",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:225001001",
+      "work_id": "parsig:225",
+      "work_title": "کتیبه یادبودی - مقصود آباد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:225001001",
+          "language": "pal",
+          "reason": "unsupported_source_encoding"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:225002001",
+      "work_id": "parsig:225",
+      "work_title": "کتیبه یادبودی - مقصود آباد",
+      "first_rejection_records": [
+        {
+          "id": "parsig:225002001",
+          "language": "pal",
+          "reason": "unsupported_source_encoding"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:504000000",
+      "work_id": "parsig:504",
+      "work_title": "aq (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:504000000",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:504000001",
+      "work_id": "parsig:504",
+      "work_title": "aq (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:504000001",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:504000002",
+      "work_id": "parsig:504",
+      "work_title": "aq (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:504000002",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:504000003",
+      "work_id": "parsig:504",
+      "work_title": "aq (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:504000003",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:504000004",
+      "work_id": "parsig:504",
+      "work_title": "aq (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:504000004",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:505000001",
+      "work_id": "parsig:505",
+      "work_title": "ar (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:505000001",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:505000002",
+      "work_id": "parsig:505",
+      "work_title": "ar (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:505000002",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:505000003",
+      "work_id": "parsig:505",
+      "work_title": "ar (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:505000003",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:505000004",
+      "work_id": "parsig:505",
+      "work_title": "ar (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:505000004",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:505000005",
+      "work_id": "parsig:505",
+      "work_title": "ar (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:505000005",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:508000000",
+      "work_id": "parsig:508",
+      "work_title": "c (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:508000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:509000000",
+      "work_id": "parsig:509",
+      "work_title": "h (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:509000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:510000002",
+      "work_id": "parsig:510",
+      "work_title": "n (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:510000002",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:512000004",
+      "work_id": "parsig:512",
+      "work_title": "s (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:512000004",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:514000000",
+      "work_id": "parsig:514",
+      "work_title": "u (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:514000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:518000000",
+      "work_id": "parsig:518",
+      "work_title": "be (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:518000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:521000000",
+      "work_id": "parsig:521",
+      "work_title": "bt (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:521000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:525000000",
+      "work_id": "parsig:525",
+      "work_title": "cd (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:525000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:526000001",
+      "work_id": "parsig:526",
+      "work_title": "cj (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:526000001",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:526000002",
+      "work_id": "parsig:526",
+      "work_title": "cj (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:526000002",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:526000003",
+      "work_id": "parsig:526",
+      "work_title": "cj (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:526000003",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:528000000",
+      "work_id": "parsig:528",
+      "work_title": "cl (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:528000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:530000000",
+      "work_id": "parsig:530",
+      "work_title": "cn (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:530000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:533000000",
+      "work_id": "parsig:533",
+      "work_title": "cq (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:533000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000004",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000004",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000004",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000005",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000005",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000005",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000006",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000006",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000006",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000007",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000007",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000007",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000008",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000008",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000008",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000009",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000009",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000009",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000010",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000010",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000010",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000011",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000011",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000011",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:535000012",
+      "work_id": "parsig:535",
+      "work_title": "cr (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:535000012",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:535000012",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:537000000",
+      "work_id": "parsig:537",
+      "work_title": "ct (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:537000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:537000003",
+      "work_id": "parsig:537",
+      "work_title": "ct (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:537000003",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:537000003",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000001",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000001",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000002",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000002",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000003",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000003",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000004",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000004",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000005",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000005",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000006",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000006",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000007",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000007",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000008",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000008",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000009",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000009",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000010",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000010",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000011",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000011",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000012",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000012",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000013",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000013",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000014",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000014",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000015",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000015",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000016",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000016",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000017",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000017",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000018",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000018",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000019",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000019",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000020",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000020",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000021",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000021",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000022",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000022",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000023",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000023",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000024",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000024",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000025",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000025",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000026",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000026",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000027",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000027",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000028",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000028",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000029",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000029",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000030",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000030",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000031",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000031",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000032",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000032",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000033",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000033",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000034",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000034",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000035",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000035",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000036",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000036",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000037",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000037",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000038",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000038",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000039",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000039",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000040",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000040",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000041",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000041",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:538000042",
+      "work_id": "parsig:538",
+      "work_title": "cu (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:538000042",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000000",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000000",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000001",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000001",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000002",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000002",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000003",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000003",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000004",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000004",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000005",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000005",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000006",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000006",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000007",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000007",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000008",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000008",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000009",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000009",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:542000010",
+      "work_id": "parsig:542",
+      "work_title": "dg (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:542000010",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:546000004",
+      "work_id": "parsig:546",
+      "work_title": "dj (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:546000004",
+          "language": "fa",
+          "reason": "translator_attribution_unresolved"
+        },
+        {
+          "id": "parsig:546000004",
+          "language": "all",
+          "reason": "no_usable_published_pair"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:548000000",
+      "work_id": "parsig:548",
+      "work_title": "dm (فارسي ميانه)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:548000000",
+          "language": "pal",
+          "reason": "source_edition_unresolved"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000001",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000001",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000002",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000002",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000003",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000003",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000004",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000004",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000005",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000005",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000006",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000006",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000007",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000007",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000008",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000008",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    },
+    {
+      "id": "parsig:556000009",
+      "work_id": "parsig:556",
+      "work_title": "dv (فارسي ميانه - پارتی)",
+      "first_rejection_records": [
+        {
+          "id": "parsig:556000009",
+          "language": "pal",
+          "reason": "mixed_or_possible_avestan_source"
+        }
+      ],
+      "admission": false
+    }
+  ],
+  "limits": "First-rejection reasons only; fixing attribution does not prove target usability. Source-only eligibility excludes all16 heldout works. Earlier quarantined247 rows are a separate pool."
+}

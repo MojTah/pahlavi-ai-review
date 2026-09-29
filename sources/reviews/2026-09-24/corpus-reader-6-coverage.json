@@ -1,0 +1,3459 @@
+{
+  "result": "PASS",
+  "scope": "Complete actual reading of assigned partial-record shard only; no whole-record or independent translation accuracy claim",
+  "batch": 6,
+  "started_utc": "2026-09-24T04:09:03+00:00",
+  "completed_utc": "2026-09-24T04:18:33.532694+00:00",
+  "elapsed_seconds": 570.5,
+  "expected_minutes": 25,
+  "warning_minutes": 35,
+  "hard_stop_minutes": 45,
+  "threshold_revisions": 0,
+  "failed_method_retries": 1,
+  "retry_reason": "Metadata stdout UnicodeEncodeError; fixed once with explicit UTF-8. Source reads unaffected.",
+  "source_export": "sources/local/parsig-2026-09-20/exports/text-units.jsonl",
+  "source_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+  "source_sha256_verified": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+  "assigned_units": 612,
+  "actual_units_read": 612,
+  "assigned_characters": 465433,
+  "actual_unit_ids_read": [
+    "parsig:103000022",
+    "parsig:103000023",
+    "parsig:103000024",
+    "parsig:103000025",
+    "parsig:103000026",
+    "parsig:103000027",
+    "parsig:103000028",
+    "parsig:103000029",
+    "parsig:103000030",
+    "parsig:103000031",
+    "parsig:103000032",
+    "parsig:103000033",
+    "parsig:103000034",
+    "parsig:103000035",
+    "parsig:103000036",
+    "parsig:103000037",
+    "parsig:103000038",
+    "parsig:103000039",
+    "parsig:103000040",
+    "parsig:103000041",
+    "parsig:103000042",
+    "parsig:103000043",
+    "parsig:103000108",
+    "parsig:103000109",
+    "parsig:103000110",
+    "parsig:103000111",
+    "parsig:103000112",
+    "parsig:103000113",
+    "parsig:103000114",
+    "parsig:103000115",
+    "parsig:103000116",
+    "parsig:103000117",
+    "parsig:103000118",
+    "parsig:103000119",
+    "parsig:103000120",
+    "parsig:103000121",
+    "parsig:103000122",
+    "parsig:103000123",
+    "parsig:103000124",
+    "parsig:103000125",
+    "parsig:103000126",
+    "parsig:103000127",
+    "parsig:103000128",
+    "parsig:103000129",
+    "parsig:104000000",
+    "parsig:104000001",
+    "parsig:104000002",
+    "parsig:104000003",
+    "parsig:104000004",
+    "parsig:104000005",
+    "parsig:104000006",
+    "parsig:104000007",
+    "parsig:104000008",
+    "parsig:104000009",
+    "parsig:104000010",
+    "parsig:104000011",
+    "parsig:104000012",
+    "parsig:104000013",
+    "parsig:104000014",
+    "parsig:111000018",
+    "parsig:111000019",
+    "parsig:111000020",
+    "parsig:111000021",
+    "parsig:111000022",
+    "parsig:111000023",
+    "parsig:111000024",
+    "parsig:111000025",
+    "parsig:111000026",
+    "parsig:111000027",
+    "parsig:111000028",
+    "parsig:111000029",
+    "parsig:111000030",
+    "parsig:111000031",
+    "parsig:111000032",
+    "parsig:111000033",
+    "parsig:111000034",
+    "parsig:111000035",
+    "parsig:112000000",
+    "parsig:112000001",
+    "parsig:112000002",
+    "parsig:112000003",
+    "parsig:112000004",
+    "parsig:112000005",
+    "parsig:112000006",
+    "parsig:112000007",
+    "parsig:112000008",
+    "parsig:112000009",
+    "parsig:112000010",
+    "parsig:112000011",
+    "parsig:112000012",
+    "parsig:112000013",
+    "parsig:112000014",
+    "parsig:112000015",
+    "parsig:112000016",
+    "parsig:112000017",
+    "parsig:116000059",
+    "parsig:116000060",
+    "parsig:117000000",
+    "parsig:117000001",
+    "parsig:117000002",
+    "parsig:117000003",
+    "parsig:117000004",
+    "parsig:117000005",
+    "parsig:117000006",
+    "parsig:117000007",
+    "parsig:117000008",
+    "parsig:117000009",
+    "parsig:117000010",
+    "parsig:117000011",
+    "parsig:117000012",
+    "parsig:117000013",
+    "parsig:117000072",
+    "parsig:117000073",
+    "parsig:117000074",
+    "parsig:117000075",
+    "parsig:117000076",
+    "parsig:117000077",
+    "parsig:117000078",
+    "parsig:117000079",
+    "parsig:117000080",
+    "parsig:117000081",
+    "parsig:117000082",
+    "parsig:117000083",
+    "parsig:117000084",
+    "parsig:117000085",
+    "parsig:117000086",
+    "parsig:117000087",
+    "parsig:117000088",
+    "parsig:121000001",
+    "parsig:121000002",
+    "parsig:122000015",
+    "parsig:122000016",
+    "parsig:122000017",
+    "parsig:123000042",
+    "parsig:123000043",
+    "parsig:123000044",
+    "parsig:123000045",
+    "parsig:123000046",
+    "parsig:123000047",
+    "parsig:123000048",
+    "parsig:123000049",
+    "parsig:123000050",
+    "parsig:123000051",
+    "parsig:123000052",
+    "parsig:123000053",
+    "parsig:123000054",
+    "parsig:123000055",
+    "parsig:123000056",
+    "parsig:130000000",
+    "parsig:130000001",
+    "parsig:130000002",
+    "parsig:130000003",
+    "parsig:130000004",
+    "parsig:130000005",
+    "parsig:130000006",
+    "parsig:130000007",
+    "parsig:130000008",
+    "parsig:130000009",
+    "parsig:130000010",
+    "parsig:130000011",
+    "parsig:130000012",
+    "parsig:130000013",
+    "parsig:130000014",
+    "parsig:130000015",
+    "parsig:130000030",
+    "parsig:130000031",
+    "parsig:130000032",
+    "parsig:130000033",
+    "parsig:130000034",
+    "parsig:130000035",
+    "parsig:130000036",
+    "parsig:130000037",
+    "parsig:130000038",
+    "parsig:130000039",
+    "parsig:130000040",
+    "parsig:130000041",
+    "parsig:130000042",
+    "parsig:133000039",
+    "parsig:133000040",
+    "parsig:133000041",
+    "parsig:133000042",
+    "parsig:133000043",
+    "parsig:133000044",
+    "parsig:133000045",
+    "parsig:133000046",
+    "parsig:133000047",
+    "parsig:133000048",
+    "parsig:133000049",
+    "parsig:133000050",
+    "parsig:133000051",
+    "parsig:133000052",
+    "parsig:133000053",
+    "parsig:133000054",
+    "parsig:133000055",
+    "parsig:133000056",
+    "parsig:133000057",
+    "parsig:133000058",
+    "parsig:133000249",
+    "parsig:133000250",
+    "parsig:133000251",
+    "parsig:133000252",
+    "parsig:133000253",
+    "parsig:133000254",
+    "parsig:133000255",
+    "parsig:133000256",
+    "parsig:133000257",
+    "parsig:133000258",
+    "parsig:133000259",
+    "parsig:133000260",
+    "parsig:133000261",
+    "parsig:133000262",
+    "parsig:133000263",
+    "parsig:133000264",
+    "parsig:133000265",
+    "parsig:133000266",
+    "parsig:134005004",
+    "parsig:134005005",
+    "parsig:134005006",
+    "parsig:134005007",
+    "parsig:134005008",
+    "parsig:134005009",
+    "parsig:134005010",
+    "parsig:134005011",
+    "parsig:134006001",
+    "parsig:134006002",
+    "parsig:134006003",
+    "parsig:134006004",
+    "parsig:134007002",
+    "parsig:134007003",
+    "parsig:134007004",
+    "parsig:134007005",
+    "parsig:134007006",
+    "parsig:134007007",
+    "parsig:134007008",
+    "parsig:134007009",
+    "parsig:134007010",
+    "parsig:134007011",
+    "parsig:134007012",
+    "parsig:134007013",
+    "parsig:136002010",
+    "parsig:136002011",
+    "parsig:136002012",
+    "parsig:136002013",
+    "parsig:136002014",
+    "parsig:136002015",
+    "parsig:136002016",
+    "parsig:136002017",
+    "parsig:136002018",
+    "parsig:136002019",
+    "parsig:136002020",
+    "parsig:136002021",
+    "parsig:136002022",
+    "parsig:136002023",
+    "parsig:136002024",
+    "parsig:136006004",
+    "parsig:136006005",
+    "parsig:136006006",
+    "parsig:136006007",
+    "parsig:136006008",
+    "parsig:136006009",
+    "parsig:136007001",
+    "parsig:136007002",
+    "parsig:136007003",
+    "parsig:136007004",
+    "parsig:136007005",
+    "parsig:136007006",
+    "parsig:136007007",
+    "parsig:137002025",
+    "parsig:138003019",
+    "parsig:138003020",
+    "parsig:138003021",
+    "parsig:138003022",
+    "parsig:138003023",
+    "parsig:138003024",
+    "parsig:138003025",
+    "parsig:138003026",
+    "parsig:138003027",
+    "parsig:138003028",
+    "parsig:138003029",
+    "parsig:138003030",
+    "parsig:138003031",
+    "parsig:138003032",
+    "parsig:138003033",
+    "parsig:138003034",
+    "parsig:138003035",
+    "parsig:138004001",
+    "parsig:138004002",
+    "parsig:138004003",
+    "parsig:138004004",
+    "parsig:138004005",
+    "parsig:138004006",
+    "parsig:138004007",
+    "parsig:138004008",
+    "parsig:138004009",
+    "parsig:138004010",
+    "parsig:138004011",
+    "parsig:138004012",
+    "parsig:138004013",
+    "parsig:138004014",
+    "parsig:138005001",
+    "parsig:138005002",
+    "parsig:138005003",
+    "parsig:138005004",
+    "parsig:138005005",
+    "parsig:138005006",
+    "parsig:139043012",
+    "parsig:139043013",
+    "parsig:139043014",
+    "parsig:139044001",
+    "parsig:139044002",
+    "parsig:139044003",
+    "parsig:139044004",
+    "parsig:139044005",
+    "parsig:139044006",
+    "parsig:139044007",
+    "parsig:139044008",
+    "parsig:139045001",
+    "parsig:139045002",
+    "parsig:139045003",
+    "parsig:139045004",
+    "parsig:139045005",
+    "parsig:150000042",
+    "parsig:150000043",
+    "parsig:150000044",
+    "parsig:150000045",
+    "parsig:150000046",
+    "parsig:150000047",
+    "parsig:150000048",
+    "parsig:150000049",
+    "parsig:150000050",
+    "parsig:150000051",
+    "parsig:150000052",
+    "parsig:151000045",
+    "parsig:151000046",
+    "parsig:151000047",
+    "parsig:151000048",
+    "parsig:151000049",
+    "parsig:151000050",
+    "parsig:151000051",
+    "parsig:151000052",
+    "parsig:151000053",
+    "parsig:151000054",
+    "parsig:151000055",
+    "parsig:151000056",
+    "parsig:151000057",
+    "parsig:151000058",
+    "parsig:151000059",
+    "parsig:151000060",
+    "parsig:151000061",
+    "parsig:151001000",
+    "parsig:151001001",
+    "parsig:151001002",
+    "parsig:151001003",
+    "parsig:151001026",
+    "parsig:151001027",
+    "parsig:151001028",
+    "parsig:151001029",
+    "parsig:151001030",
+    "parsig:151001031",
+    "parsig:151001032",
+    "parsig:151001033",
+    "parsig:151001034",
+    "parsig:151001035",
+    "parsig:151001036",
+    "parsig:151001037",
+    "parsig:151001038",
+    "parsig:151001039",
+    "parsig:151001040",
+    "parsig:151001041",
+    "parsig:151001042",
+    "parsig:151001043",
+    "parsig:151001044",
+    "parsig:151001045",
+    "parsig:151001046",
+    "parsig:151001047",
+    "parsig:151001048",
+    "parsig:151020025",
+    "parsig:151020026",
+    "parsig:151020027",
+    "parsig:151020028",
+    "parsig:151020029",
+    "parsig:151020030",
+    "parsig:151020031",
+    "parsig:151020032",
+    "parsig:151020033",
+    "parsig:151020034",
+    "parsig:151020035",
+    "parsig:151020036",
+    "parsig:151020037",
+    "parsig:151020038",
+    "parsig:151020039",
+    "parsig:151020040",
+    "parsig:151020041",
+    "parsig:151020042",
+    "parsig:151020043",
+    "parsig:151020044",
+    "parsig:151021000",
+    "parsig:151021001",
+    "parsig:151021002",
+    "parsig:151054006",
+    "parsig:151055000",
+    "parsig:151055001",
+    "parsig:151055002",
+    "parsig:151055003",
+    "parsig:151055004",
+    "parsig:151055005",
+    "parsig:151055006",
+    "parsig:151055007",
+    "parsig:151056000",
+    "parsig:151056001",
+    "parsig:151056002",
+    "parsig:151056003",
+    "parsig:151056004",
+    "parsig:151056005",
+    "parsig:151056006",
+    "parsig:151056007",
+    "parsig:151056008",
+    "parsig:151056009",
+    "parsig:151056010",
+    "parsig:151060004",
+    "parsig:151060005",
+    "parsig:151060006",
+    "parsig:151060007",
+    "parsig:151060008",
+    "parsig:151060009",
+    "parsig:151060010",
+    "parsig:151060011",
+    "parsig:151061000",
+    "parsig:151061001",
+    "parsig:151061002",
+    "parsig:151061003",
+    "parsig:151061004",
+    "parsig:151061005",
+    "parsig:151061006",
+    "parsig:151061007",
+    "parsig:151061008",
+    "parsig:151061009",
+    "parsig:151061010",
+    "parsig:151061011",
+    "parsig:151061012",
+    "parsig:151061013",
+    "parsig:151061014",
+    "parsig:152003051",
+    "parsig:152003052",
+    "parsig:152003053",
+    "parsig:152003054",
+    "parsig:152003055",
+    "parsig:152003056",
+    "parsig:152003057",
+    "parsig:152003058",
+    "parsig:152003059",
+    "parsig:152003060",
+    "parsig:152008012",
+    "parsig:152008013",
+    "parsig:152008014",
+    "parsig:152008015",
+    "parsig:152008016",
+    "parsig:152008017",
+    "parsig:152008018",
+    "parsig:152008019",
+    "parsig:152008020",
+    "parsig:152008021",
+    "parsig:152009000",
+    "parsig:152009001",
+    "parsig:152010018",
+    "parsig:152010019",
+    "parsig:152010020",
+    "parsig:152011000",
+    "parsig:152011001",
+    "parsig:152011002",
+    "parsig:152011003",
+    "parsig:152011004",
+    "parsig:152011005",
+    "parsig:152011006",
+    "parsig:152011007",
+    "parsig:152011008",
+    "parsig:152020003",
+    "parsig:152020004",
+    "parsig:152021000",
+    "parsig:152021001",
+    "parsig:152021002",
+    "parsig:152021003",
+    "parsig:152021004",
+    "parsig:152021005",
+    "parsig:152021006",
+    "parsig:152021007",
+    "parsig:152021008",
+    "parsig:152021009",
+    "parsig:152026001",
+    "parsig:152026002",
+    "parsig:152026003",
+    "parsig:152027000",
+    "parsig:152027001",
+    "parsig:152027002",
+    "parsig:152027003",
+    "parsig:152027004",
+    "parsig:152027005",
+    "parsig:152027006",
+    "parsig:152027007",
+    "parsig:152034042",
+    "parsig:152034043",
+    "parsig:152034044",
+    "parsig:152034045",
+    "parsig:152034046",
+    "parsig:152034047",
+    "parsig:152034048",
+    "parsig:152034049",
+    "parsig:152034050",
+    "parsig:152034051",
+    "parsig:152035007",
+    "parsig:152035008",
+    "parsig:152035009",
+    "parsig:152035010",
+    "parsig:152035011",
+    "parsig:152035012",
+    "parsig:152035013",
+    "parsig:152035014",
+    "parsig:152035015",
+    "parsig:152035016",
+    "parsig:152035039",
+    "parsig:152035040",
+    "parsig:152035041",
+    "parsig:152035042",
+    "parsig:152035043",
+    "parsig:152035044",
+    "parsig:152035045",
+    "parsig:152035046",
+    "parsig:152035047",
+    "parsig:201001001",
+    "parsig:201002001",
+    "parsig:201003001",
+    "parsig:201005001",
+    "parsig:201006001",
+    "parsig:205019001",
+    "parsig:205020001",
+    "parsig:205021001",
+    "parsig:205022001",
+    "parsig:205023001",
+    "parsig:205024001",
+    "parsig:205025001",
+    "parsig:205026001",
+    "parsig:205027001",
+    "parsig:205028001",
+    "parsig:205029001",
+    "parsig:205030001",
+    "parsig:205031001",
+    "parsig:205032001",
+    "parsig:218001001",
+    "parsig:220001001",
+    "parsig:220002001",
+    "parsig:221001001",
+    "parsig:301001012",
+    "parsig:301001013",
+    "parsig:301001014",
+    "parsig:301001015",
+    "parsig:301001016",
+    "parsig:301001017",
+    "parsig:301001018",
+    "parsig:301001019",
+    "parsig:301001020",
+    "parsig:301001021",
+    "parsig:301001022",
+    "parsig:301001023",
+    "parsig:301002001",
+    "parsig:301002002",
+    "parsig:301004022",
+    "parsig:301004023",
+    "parsig:301004024",
+    "parsig:301004025",
+    "parsig:301005001",
+    "parsig:301005002",
+    "parsig:301005003",
+    "parsig:301005004",
+    "parsig:301005005",
+    "parsig:301005006",
+    "parsig:301006001",
+    "parsig:301006002",
+    "parsig:301006003",
+    "parsig:301006004",
+    "parsig:505000001",
+    "parsig:505000002",
+    "parsig:505000003",
+    "parsig:505000004",
+    "parsig:505000005",
+    "parsig:513000001",
+    "parsig:513000002",
+    "parsig:543000001",
+    "parsig:543000002",
+    "parsig:543000003",
+    "parsig:543000004",
+    "parsig:543000005",
+    "parsig:545000001",
+    "parsig:545000002",
+    "parsig:545000003",
+    "parsig:545000004",
+    "parsig:545000005",
+    "parsig:545000006",
+    "parsig:545000007",
+    "parsig:545000008",
+    "parsig:555000001",
+    "parsig:555000002",
+    "parsig:555000003",
+    "parsig:555000004",
+    "parsig:556000001",
+    "parsig:556000002",
+    "parsig:556000003",
+    "parsig:556000004",
+    "parsig:556000005",
+    "parsig:556000006",
+    "parsig:556000007",
+    "parsig:556000008",
+    "parsig:556000009"
+  ],
+  "chunk_files_read": [
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-001.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-002.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-003.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-004.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-005.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-006.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-007.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-008.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-009.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-010.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-011.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-012.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-013.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-014.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-015.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-016.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-017.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-018.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-019.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-020.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-021.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-022.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-023.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-024.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-025.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-026.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-027.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-028.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-029.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-030.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-031.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-032.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-033.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-034.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-035.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-036.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-037.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-038.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-039.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-040.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-041.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-042.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-043.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-044.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-045.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-046.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-047.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-048.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-049.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-050.jsonl",
+    "tmp/review-2026-09-24/full-reading/batch-6/chunk-051.jsonl"
+  ],
+  "chunks": [
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-001.jsonl",
+      "unit_ids": [
+        "parsig:103000022",
+        "parsig:103000023",
+        "parsig:103000024",
+        "parsig:103000025",
+        "parsig:103000026",
+        "parsig:103000027",
+        "parsig:103000028",
+        "parsig:103000029",
+        "parsig:103000030",
+        "parsig:103000031",
+        "parsig:103000032",
+        "parsig:103000033",
+        "parsig:103000034",
+        "parsig:103000035",
+        "parsig:103000036",
+        "parsig:103000037",
+        "parsig:103000038",
+        "parsig:103000039",
+        "parsig:103000040",
+        "parsig:103000041",
+        "parsig:103000042",
+        "parsig:103000043"
+      ],
+      "units": 22,
+      "sha256": "3b479505c2e07d1b53338a5081a52c23c3dee6420d7e75768b0fbee88658e1bf",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-002.jsonl",
+      "unit_ids": [
+        "parsig:103000108",
+        "parsig:103000109",
+        "parsig:103000110",
+        "parsig:103000111",
+        "parsig:103000112",
+        "parsig:103000113",
+        "parsig:103000114",
+        "parsig:103000115",
+        "parsig:103000116",
+        "parsig:103000117",
+        "parsig:103000118",
+        "parsig:103000119",
+        "parsig:103000120",
+        "parsig:103000121",
+        "parsig:103000122",
+        "parsig:103000123",
+        "parsig:103000124",
+        "parsig:103000125",
+        "parsig:103000126",
+        "parsig:103000127",
+        "parsig:103000128",
+        "parsig:103000129"
+      ],
+      "units": 22,
+      "sha256": "12f364ac5783e05e58cea9afa1fb5f3fdf4b7b5794f2fb5bd908c457cc62bf0a",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-003.jsonl",
+      "unit_ids": [
+        "parsig:104000000",
+        "parsig:104000001",
+        "parsig:104000002",
+        "parsig:104000003",
+        "parsig:104000004",
+        "parsig:104000005",
+        "parsig:104000006",
+        "parsig:104000007",
+        "parsig:104000008",
+        "parsig:104000009",
+        "parsig:104000010",
+        "parsig:104000011",
+        "parsig:104000012",
+        "parsig:104000013",
+        "parsig:104000014"
+      ],
+      "units": 15,
+      "sha256": "c6498d3f06b24304ff60a2bd17cd61af6bb4323455aaf57ba723cc9bb1228c21",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-004.jsonl",
+      "unit_ids": [
+        "parsig:111000018",
+        "parsig:111000019",
+        "parsig:111000020",
+        "parsig:111000021",
+        "parsig:111000022",
+        "parsig:111000023",
+        "parsig:111000024",
+        "parsig:111000025",
+        "parsig:111000026",
+        "parsig:111000027",
+        "parsig:111000028",
+        "parsig:111000029",
+        "parsig:111000030",
+        "parsig:111000031",
+        "parsig:111000032",
+        "parsig:111000033",
+        "parsig:111000034",
+        "parsig:111000035"
+      ],
+      "units": 18,
+      "sha256": "81cc0599c40c676c285b30039cabfd87ee9ed47e0c1f04abd427fe7b654aaa3d",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-005.jsonl",
+      "unit_ids": [
+        "parsig:112000000",
+        "parsig:112000001",
+        "parsig:112000002",
+        "parsig:112000003",
+        "parsig:112000004",
+        "parsig:112000005",
+        "parsig:112000006",
+        "parsig:112000007",
+        "parsig:112000008",
+        "parsig:112000009",
+        "parsig:112000010",
+        "parsig:112000011",
+        "parsig:112000012",
+        "parsig:112000013",
+        "parsig:112000014",
+        "parsig:112000015",
+        "parsig:112000016",
+        "parsig:112000017"
+      ],
+      "units": 18,
+      "sha256": "c879f839fb755a81482828739bfce3032f9cd587ec5bd824624107a054e2482b",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-006.jsonl",
+      "unit_ids": [
+        "parsig:116000059",
+        "parsig:116000060"
+      ],
+      "units": 2,
+      "sha256": "a49d8faa5df59a83a3c67bbd7cb22f3c7f0ba2330a953ef4589aedecca43f8cc",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-007.jsonl",
+      "unit_ids": [
+        "parsig:117000000",
+        "parsig:117000001",
+        "parsig:117000002",
+        "parsig:117000003",
+        "parsig:117000004",
+        "parsig:117000005",
+        "parsig:117000006",
+        "parsig:117000007",
+        "parsig:117000008",
+        "parsig:117000009",
+        "parsig:117000010",
+        "parsig:117000011",
+        "parsig:117000012",
+        "parsig:117000013"
+      ],
+      "units": 14,
+      "sha256": "33b2b243f958c7c11166ffd235c5943b34967ade6edfabeb75b632ea6454c602",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-008.jsonl",
+      "unit_ids": [
+        "parsig:117000072",
+        "parsig:117000073",
+        "parsig:117000074",
+        "parsig:117000075",
+        "parsig:117000076",
+        "parsig:117000077",
+        "parsig:117000078",
+        "parsig:117000079",
+        "parsig:117000080",
+        "parsig:117000081",
+        "parsig:117000082",
+        "parsig:117000083",
+        "parsig:117000084",
+        "parsig:117000085",
+        "parsig:117000086",
+        "parsig:117000087",
+        "parsig:117000088"
+      ],
+      "units": 17,
+      "sha256": "fcdad8dca8c35a3cbb6d9b8a319927d7bd79def10229f8ab4962a70b6ee84dd5",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-009.jsonl",
+      "unit_ids": [
+        "parsig:121000001",
+        "parsig:121000002"
+      ],
+      "units": 2,
+      "sha256": "8f2e64cc020322c6954d8d2125d61a20742c3b68f020f45cc4eb9f8116c0e28e",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-010.jsonl",
+      "unit_ids": [
+        "parsig:122000015",
+        "parsig:122000016",
+        "parsig:122000017"
+      ],
+      "units": 3,
+      "sha256": "e3f82f9e1821d009f5b4eb852347de8c929c5871f24662df122cd9a351b898f4",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-011.jsonl",
+      "unit_ids": [
+        "parsig:123000042",
+        "parsig:123000043",
+        "parsig:123000044",
+        "parsig:123000045",
+        "parsig:123000046",
+        "parsig:123000047",
+        "parsig:123000048",
+        "parsig:123000049",
+        "parsig:123000050",
+        "parsig:123000051",
+        "parsig:123000052",
+        "parsig:123000053",
+        "parsig:123000054",
+        "parsig:123000055",
+        "parsig:123000056"
+      ],
+      "units": 15,
+      "sha256": "da2c9ce9f200706d9fa06e5c42aa4192c4e5b1e110d25948b856d5d8879c990b",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-012.jsonl",
+      "unit_ids": [
+        "parsig:130000000",
+        "parsig:130000001",
+        "parsig:130000002",
+        "parsig:130000003",
+        "parsig:130000004",
+        "parsig:130000005",
+        "parsig:130000006",
+        "parsig:130000007",
+        "parsig:130000008",
+        "parsig:130000009",
+        "parsig:130000010",
+        "parsig:130000011",
+        "parsig:130000012",
+        "parsig:130000013",
+        "parsig:130000014",
+        "parsig:130000015"
+      ],
+      "units": 16,
+      "sha256": "9ff3d6f3db12b89a352cf843df885da4f9af8ead1130aa64d5c97625c4e65967",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-013.jsonl",
+      "unit_ids": [
+        "parsig:130000030",
+        "parsig:130000031",
+        "parsig:130000032",
+        "parsig:130000033",
+        "parsig:130000034",
+        "parsig:130000035",
+        "parsig:130000036",
+        "parsig:130000037",
+        "parsig:130000038",
+        "parsig:130000039",
+        "parsig:130000040",
+        "parsig:130000041",
+        "parsig:130000042"
+      ],
+      "units": 13,
+      "sha256": "89efd24c32f23f91da3eee96eccfe9e6a77dcca157aa2ada10d7df2b717e7479",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-014.jsonl",
+      "unit_ids": [
+        "parsig:133000039",
+        "parsig:133000040",
+        "parsig:133000041",
+        "parsig:133000042",
+        "parsig:133000043",
+        "parsig:133000044",
+        "parsig:133000045",
+        "parsig:133000046",
+        "parsig:133000047",
+        "parsig:133000048",
+        "parsig:133000049",
+        "parsig:133000050",
+        "parsig:133000051",
+        "parsig:133000052",
+        "parsig:133000053",
+        "parsig:133000054",
+        "parsig:133000055",
+        "parsig:133000056",
+        "parsig:133000057",
+        "parsig:133000058"
+      ],
+      "units": 20,
+      "sha256": "26bc057aaf759c07cfb10f33fe2d270ebdbaaeba2b671268ca50e7af6c545b62",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-015.jsonl",
+      "unit_ids": [
+        "parsig:133000249",
+        "parsig:133000250",
+        "parsig:133000251",
+        "parsig:133000252",
+        "parsig:133000253",
+        "parsig:133000254",
+        "parsig:133000255",
+        "parsig:133000256",
+        "parsig:133000257",
+        "parsig:133000258",
+        "parsig:133000259",
+        "parsig:133000260",
+        "parsig:133000261",
+        "parsig:133000262",
+        "parsig:133000263",
+        "parsig:133000264",
+        "parsig:133000265",
+        "parsig:133000266"
+      ],
+      "units": 18,
+      "sha256": "2df5a890c10302f29a331a5f3c973479f133aa83db0bc45f920032cd4043be42",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-016.jsonl",
+      "unit_ids": [
+        "parsig:134005004",
+        "parsig:134005005",
+        "parsig:134005006",
+        "parsig:134005007",
+        "parsig:134005008",
+        "parsig:134005009",
+        "parsig:134005010",
+        "parsig:134005011",
+        "parsig:134006001",
+        "parsig:134006002",
+        "parsig:134006003",
+        "parsig:134006004"
+      ],
+      "units": 12,
+      "sha256": "8d48d05a8ebc1d06ad25b9680a3fe2d4d76cb2a2683e21f3ab1de5469cf15f5f",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-017.jsonl",
+      "unit_ids": [
+        "parsig:134007002",
+        "parsig:134007003",
+        "parsig:134007004",
+        "parsig:134007005",
+        "parsig:134007006",
+        "parsig:134007007",
+        "parsig:134007008",
+        "parsig:134007009",
+        "parsig:134007010",
+        "parsig:134007011",
+        "parsig:134007012",
+        "parsig:134007013"
+      ],
+      "units": 12,
+      "sha256": "f8073273f1ce6084dbac9af6711027db5403c4d7bbd1a9d2e7d6894853cf37c5",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-018.jsonl",
+      "unit_ids": [
+        "parsig:136002010",
+        "parsig:136002011",
+        "parsig:136002012",
+        "parsig:136002013",
+        "parsig:136002014",
+        "parsig:136002015",
+        "parsig:136002016",
+        "parsig:136002017",
+        "parsig:136002018",
+        "parsig:136002019",
+        "parsig:136002020",
+        "parsig:136002021",
+        "parsig:136002022",
+        "parsig:136002023",
+        "parsig:136002024"
+      ],
+      "units": 15,
+      "sha256": "d8820b7f53e63c399d5c7d7eef07ea876c514754ad262b82e59594a58f395928",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-019.jsonl",
+      "unit_ids": [
+        "parsig:136006004",
+        "parsig:136006005",
+        "parsig:136006006",
+        "parsig:136006007",
+        "parsig:136006008",
+        "parsig:136006009",
+        "parsig:136007001",
+        "parsig:136007002",
+        "parsig:136007003",
+        "parsig:136007004",
+        "parsig:136007005",
+        "parsig:136007006",
+        "parsig:136007007"
+      ],
+      "units": 13,
+      "sha256": "ab482b463e1fa628612a1fe36ce440be5d23769b96c86f221e5607bf429631c2",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-020.jsonl",
+      "unit_ids": [
+        "parsig:137002025"
+      ],
+      "units": 1,
+      "sha256": "37490bd435553c14cf16fe9be6c926477069b6384c9909bbe934bc92ab3339bf",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-021.jsonl",
+      "unit_ids": [
+        "parsig:138003019",
+        "parsig:138003020",
+        "parsig:138003021",
+        "parsig:138003022",
+        "parsig:138003023",
+        "parsig:138003024",
+        "parsig:138003025",
+        "parsig:138003026",
+        "parsig:138003027",
+        "parsig:138003028",
+        "parsig:138003029",
+        "parsig:138003030",
+        "parsig:138003031"
+      ],
+      "units": 13,
+      "sha256": "12e6337388c0679474c59b474c7fa80a34f89b24064f77a124d1f112a7ab0001",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-022.jsonl",
+      "unit_ids": [
+        "parsig:138003032",
+        "parsig:138003033",
+        "parsig:138003034",
+        "parsig:138003035",
+        "parsig:138004001",
+        "parsig:138004002",
+        "parsig:138004003",
+        "parsig:138004004",
+        "parsig:138004005",
+        "parsig:138004006",
+        "parsig:138004007",
+        "parsig:138004008",
+        "parsig:138004009"
+      ],
+      "units": 13,
+      "sha256": "ed3dd39123a3b770f7d9377e715e875d66c4ce8c4746d883441469f149484141",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-023.jsonl",
+      "unit_ids": [
+        "parsig:138004010",
+        "parsig:138004011",
+        "parsig:138004012",
+        "parsig:138004013",
+        "parsig:138004014",
+        "parsig:138005001",
+        "parsig:138005002",
+        "parsig:138005003",
+        "parsig:138005004",
+        "parsig:138005005",
+        "parsig:138005006"
+      ],
+      "units": 11,
+      "sha256": "7b3b9e99028541de573694f2b4b81319259d146bfcda9a5410b6fd2963a48e5a",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-024.jsonl",
+      "unit_ids": [
+        "parsig:139043012",
+        "parsig:139043013",
+        "parsig:139043014",
+        "parsig:139044001",
+        "parsig:139044002",
+        "parsig:139044003",
+        "parsig:139044004",
+        "parsig:139044005",
+        "parsig:139044006",
+        "parsig:139044007",
+        "parsig:139044008",
+        "parsig:139045001",
+        "parsig:139045002",
+        "parsig:139045003",
+        "parsig:139045004",
+        "parsig:139045005"
+      ],
+      "units": 16,
+      "sha256": "d0a7bbfd37b5d637b92797aaba35697e8458b7a6db86daa8557de33e786cf8e8",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-025.jsonl",
+      "unit_ids": [
+        "parsig:150000042",
+        "parsig:150000043",
+        "parsig:150000044",
+        "parsig:150000045",
+        "parsig:150000046",
+        "parsig:150000047",
+        "parsig:150000048",
+        "parsig:150000049",
+        "parsig:150000050",
+        "parsig:150000051",
+        "parsig:150000052"
+      ],
+      "units": 11,
+      "sha256": "9a4167cf5c27234792f284b07e6a3038178ae38ab57d88fa93503f7d3b79f998",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-026.jsonl",
+      "unit_ids": [
+        "parsig:151000045",
+        "parsig:151000046",
+        "parsig:151000047",
+        "parsig:151000048",
+        "parsig:151000049",
+        "parsig:151000050",
+        "parsig:151000051",
+        "parsig:151000052",
+        "parsig:151000053",
+        "parsig:151000054",
+        "parsig:151000055",
+        "parsig:151000056",
+        "parsig:151000057",
+        "parsig:151000058",
+        "parsig:151000059",
+        "parsig:151000060",
+        "parsig:151000061",
+        "parsig:151001000",
+        "parsig:151001001",
+        "parsig:151001002",
+        "parsig:151001003"
+      ],
+      "units": 21,
+      "sha256": "148006efb8888b21311c4bd7288b64736b55ea348204aae718088f2b8e13e4d0",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-027.jsonl",
+      "unit_ids": [
+        "parsig:151001026",
+        "parsig:151001027",
+        "parsig:151001028",
+        "parsig:151001029",
+        "parsig:151001030",
+        "parsig:151001031",
+        "parsig:151001032",
+        "parsig:151001033",
+        "parsig:151001034",
+        "parsig:151001035",
+        "parsig:151001036",
+        "parsig:151001037",
+        "parsig:151001038",
+        "parsig:151001039",
+        "parsig:151001040",
+        "parsig:151001041",
+        "parsig:151001042",
+        "parsig:151001043",
+        "parsig:151001044",
+        "parsig:151001045",
+        "parsig:151001046",
+        "parsig:151001047",
+        "parsig:151001048"
+      ],
+      "units": 23,
+      "sha256": "81309c7d9651b62bdbcf55dff953db7704a612119557f475a910e6ab91e5a0ea",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-028.jsonl",
+      "unit_ids": [
+        "parsig:151020025",
+        "parsig:151020026",
+        "parsig:151020027",
+        "parsig:151020028",
+        "parsig:151020029",
+        "parsig:151020030",
+        "parsig:151020031",
+        "parsig:151020032",
+        "parsig:151020033",
+        "parsig:151020034",
+        "parsig:151020035",
+        "parsig:151020036",
+        "parsig:151020037",
+        "parsig:151020038",
+        "parsig:151020039",
+        "parsig:151020040",
+        "parsig:151020041",
+        "parsig:151020042",
+        "parsig:151020043",
+        "parsig:151020044",
+        "parsig:151021000",
+        "parsig:151021001",
+        "parsig:151021002"
+      ],
+      "units": 23,
+      "sha256": "21f5d90151c8010190ac4422c42a09122cb5ead8bedf6db91a02588517c0ed47",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-029.jsonl",
+      "unit_ids": [
+        "parsig:151054006",
+        "parsig:151055000",
+        "parsig:151055001",
+        "parsig:151055002",
+        "parsig:151055003",
+        "parsig:151055004",
+        "parsig:151055005",
+        "parsig:151055006",
+        "parsig:151055007",
+        "parsig:151056000",
+        "parsig:151056001",
+        "parsig:151056002",
+        "parsig:151056003",
+        "parsig:151056004",
+        "parsig:151056005",
+        "parsig:151056006",
+        "parsig:151056007",
+        "parsig:151056008",
+        "parsig:151056009",
+        "parsig:151056010"
+      ],
+      "units": 20,
+      "sha256": "857a5eab183baf7336d4ba2e38d4e3ddd70a8e7a25e4efc7da533dad5980a5a4",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-030.jsonl",
+      "unit_ids": [
+        "parsig:151060004",
+        "parsig:151060005",
+        "parsig:151060006",
+        "parsig:151060007",
+        "parsig:151060008",
+        "parsig:151060009",
+        "parsig:151060010",
+        "parsig:151060011",
+        "parsig:151061000",
+        "parsig:151061001",
+        "parsig:151061002",
+        "parsig:151061003",
+        "parsig:151061004",
+        "parsig:151061005",
+        "parsig:151061006",
+        "parsig:151061007",
+        "parsig:151061008",
+        "parsig:151061009",
+        "parsig:151061010",
+        "parsig:151061011",
+        "parsig:151061012",
+        "parsig:151061013",
+        "parsig:151061014"
+      ],
+      "units": 23,
+      "sha256": "309297e8b22905470cd079767c282373a48e66a3449cf172ed0e40858a8da2c5",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-031.jsonl",
+      "unit_ids": [
+        "parsig:152003051",
+        "parsig:152003052",
+        "parsig:152003053",
+        "parsig:152003054",
+        "parsig:152003055",
+        "parsig:152003056",
+        "parsig:152003057",
+        "parsig:152003058",
+        "parsig:152003059",
+        "parsig:152003060"
+      ],
+      "units": 10,
+      "sha256": "b93173bec4eeb2e53cd9923d31550383adcddc6e48e4e3e202820b54bed736c7",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-032.jsonl",
+      "unit_ids": [
+        "parsig:152008012",
+        "parsig:152008013",
+        "parsig:152008014",
+        "parsig:152008015",
+        "parsig:152008016",
+        "parsig:152008017",
+        "parsig:152008018",
+        "parsig:152008019",
+        "parsig:152008020",
+        "parsig:152008021",
+        "parsig:152009000",
+        "parsig:152009001"
+      ],
+      "units": 12,
+      "sha256": "52c2ad9cac08df6785b2309375ed7e6c6f1308cefd426417cc456bcc321eb975",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-033.jsonl",
+      "unit_ids": [
+        "parsig:152010018",
+        "parsig:152010019",
+        "parsig:152010020",
+        "parsig:152011000",
+        "parsig:152011001",
+        "parsig:152011002",
+        "parsig:152011003",
+        "parsig:152011004",
+        "parsig:152011005",
+        "parsig:152011006",
+        "parsig:152011007",
+        "parsig:152011008"
+      ],
+      "units": 12,
+      "sha256": "20ecee8468ef0848f6414bab8bc0e0cd95b21e58affcc447203ddd6375480e81",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-034.jsonl",
+      "unit_ids": [
+        "parsig:152020003",
+        "parsig:152020004",
+        "parsig:152021000",
+        "parsig:152021001",
+        "parsig:152021002",
+        "parsig:152021003",
+        "parsig:152021004",
+        "parsig:152021005",
+        "parsig:152021006",
+        "parsig:152021007",
+        "parsig:152021008",
+        "parsig:152021009"
+      ],
+      "units": 12,
+      "sha256": "de67fd7a2db8e529c7ed6fb25043f4dd15ff3cb3a17baa6a50e1b9b0c8d12dba",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-035.jsonl",
+      "unit_ids": [
+        "parsig:152026001",
+        "parsig:152026002",
+        "parsig:152026003",
+        "parsig:152027000",
+        "parsig:152027001",
+        "parsig:152027002",
+        "parsig:152027003",
+        "parsig:152027004",
+        "parsig:152027005",
+        "parsig:152027006",
+        "parsig:152027007"
+      ],
+      "units": 11,
+      "sha256": "90e8c01c6dea3c256c7b92d7d120e3b78d1452475039df86cd10d98710d5b17c",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-036.jsonl",
+      "unit_ids": [
+        "parsig:152034042",
+        "parsig:152034043",
+        "parsig:152034044",
+        "parsig:152034045",
+        "parsig:152034046",
+        "parsig:152034047",
+        "parsig:152034048",
+        "parsig:152034049",
+        "parsig:152034050",
+        "parsig:152034051"
+      ],
+      "units": 10,
+      "sha256": "740677ef8420b1811e030278db60adbee0906f3dc8e2592bfdbe63e95b0c7929",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-037.jsonl",
+      "unit_ids": [
+        "parsig:152035007",
+        "parsig:152035008",
+        "parsig:152035009",
+        "parsig:152035010",
+        "parsig:152035011",
+        "parsig:152035012",
+        "parsig:152035013",
+        "parsig:152035014",
+        "parsig:152035015",
+        "parsig:152035016"
+      ],
+      "units": 10,
+      "sha256": "c0a441ba728ce88c08e126a4b649bc524fc5c554ca46a7615621191163855fee",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-038.jsonl",
+      "unit_ids": [
+        "parsig:152035039",
+        "parsig:152035040",
+        "parsig:152035041",
+        "parsig:152035042",
+        "parsig:152035043",
+        "parsig:152035044",
+        "parsig:152035045",
+        "parsig:152035046",
+        "parsig:152035047"
+      ],
+      "units": 9,
+      "sha256": "37fa7983ce9df870860e140523d09b63f513e2550cdd4bd99f3d7a542e4f9cdb",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-039.jsonl",
+      "unit_ids": [
+        "parsig:201001001",
+        "parsig:201002001",
+        "parsig:201003001",
+        "parsig:201005001",
+        "parsig:201006001"
+      ],
+      "units": 5,
+      "sha256": "0241eeb93119e2a31981160da8e90a009cdb7341601f5a8f378768cc5301951e",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-040.jsonl",
+      "unit_ids": [
+        "parsig:205019001",
+        "parsig:205020001",
+        "parsig:205021001",
+        "parsig:205022001",
+        "parsig:205023001",
+        "parsig:205024001",
+        "parsig:205025001",
+        "parsig:205026001",
+        "parsig:205027001",
+        "parsig:205028001",
+        "parsig:205029001",
+        "parsig:205030001",
+        "parsig:205031001",
+        "parsig:205032001"
+      ],
+      "units": 14,
+      "sha256": "ed52451896e936c0beb33dc5233b44a9126f08512f551abc55a75d67195fd2d2",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-041.jsonl",
+      "unit_ids": [
+        "parsig:218001001"
+      ],
+      "units": 1,
+      "sha256": "56259e5251466dd584094b79a7e5710a42f8f280f2b45795b13b8b912c4c6b8f",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-042.jsonl",
+      "unit_ids": [
+        "parsig:220001001",
+        "parsig:220002001"
+      ],
+      "units": 2,
+      "sha256": "6326f00e3ac93cf2caa5bfc2888ee55706ef95fbe6822017b00305d7c7d13163",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-043.jsonl",
+      "unit_ids": [
+        "parsig:221001001"
+      ],
+      "units": 1,
+      "sha256": "dd965926eaf361e503a1dcb7024dcd3545536afde3978b3560b820ed8ad6204f",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-044.jsonl",
+      "unit_ids": [
+        "parsig:301001012",
+        "parsig:301001013",
+        "parsig:301001014",
+        "parsig:301001015",
+        "parsig:301001016",
+        "parsig:301001017",
+        "parsig:301001018",
+        "parsig:301001019",
+        "parsig:301001020",
+        "parsig:301001021",
+        "parsig:301001022",
+        "parsig:301001023",
+        "parsig:301002001",
+        "parsig:301002002"
+      ],
+      "units": 14,
+      "sha256": "3e59d50f988723545a130ded0060049ba846beebfc253b66bc3bf49c70328aa2",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-045.jsonl",
+      "unit_ids": [
+        "parsig:301004022",
+        "parsig:301004023",
+        "parsig:301004024",
+        "parsig:301004025",
+        "parsig:301005001",
+        "parsig:301005002",
+        "parsig:301005003",
+        "parsig:301005004",
+        "parsig:301005005",
+        "parsig:301005006",
+        "parsig:301006001",
+        "parsig:301006002",
+        "parsig:301006003",
+        "parsig:301006004"
+      ],
+      "units": 14,
+      "sha256": "ec7f16eb0875a1149bdb40b71b2864ee5d47806ed1d467765d557a7e714da56d",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-046.jsonl",
+      "unit_ids": [
+        "parsig:505000001",
+        "parsig:505000002",
+        "parsig:505000003",
+        "parsig:505000004",
+        "parsig:505000005"
+      ],
+      "units": 5,
+      "sha256": "2ee1a13a67c3610a28b76b132711f60c5281d967f0d15cf9d10196d3d3ca9aea",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-047.jsonl",
+      "unit_ids": [
+        "parsig:513000001",
+        "parsig:513000002"
+      ],
+      "units": 2,
+      "sha256": "393c1139fd305eb02318f76cd0ade5381e980e9ac9e099b4bbc8cd45f5faa6a2",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-048.jsonl",
+      "unit_ids": [
+        "parsig:543000001",
+        "parsig:543000002",
+        "parsig:543000003",
+        "parsig:543000004",
+        "parsig:543000005"
+      ],
+      "units": 5,
+      "sha256": "49bbeebbb31bc9de0c448dd062ec92eb31f1eb9ee8141286721e79e29f950b18",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-049.jsonl",
+      "unit_ids": [
+        "parsig:545000001",
+        "parsig:545000002",
+        "parsig:545000003",
+        "parsig:545000004",
+        "parsig:545000005",
+        "parsig:545000006",
+        "parsig:545000007",
+        "parsig:545000008"
+      ],
+      "units": 8,
+      "sha256": "09231845e928d71edfffad8fb71f063e098cfed3cb63a7c154daf6aa3f1d4ecf",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-050.jsonl",
+      "unit_ids": [
+        "parsig:555000001",
+        "parsig:555000002",
+        "parsig:555000003",
+        "parsig:555000004"
+      ],
+      "units": 4,
+      "sha256": "0ad1293f6230f7f2e6e7a2536eb290173ffd5e202180ec3c88ac07342e283c8a",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    },
+    {
+      "file": "tmp/review-2026-09-24/full-reading/batch-6/chunk-051.jsonl",
+      "unit_ids": [
+        "parsig:556000001",
+        "parsig:556000002",
+        "parsig:556000003",
+        "parsig:556000004",
+        "parsig:556000005",
+        "parsig:556000006",
+        "parsig:556000007",
+        "parsig:556000008",
+        "parsig:556000009"
+      ],
+      "units": 9,
+      "sha256": "a6d9a8794ada60d06eff35b35d2aa16bf13bd59487fe7e4a22079b2e73d01c3a",
+      "all_supplied_text_layers_read": true,
+      "truncated": false
+    }
+  ],
+  "skips": [],
+  "skip_reasons": [],
+  "source_chunk_truncations": [],
+  "metadata_truncations": [
+    "Initial assignment.json display truncated; subsequently loaded fully for coverage only. No source reading counted from this display."
+  ],
+  "method": "Sequential model reading of every supplied transcription, Farsi translation, additional translation/commentary and note in all51 chunks; coverage counting after reading only.",
+  "field_item_counts": {
+    "transcription": 612,
+    "farsi_translation": 607,
+    "additional_layers": 287,
+    "notes": 77
+  },
+  "additional_layer_languages": {
+    "en": 136,
+    "fr": 145,
+    "fa": 6
+  },
+  "record_counts": {
+    "103": 44,
+    "104": 15,
+    "111": 18,
+    "112": 18,
+    "116": 2,
+    "117": 31,
+    "121": 2,
+    "122": 3,
+    "123": 15,
+    "130": 29,
+    "133": 38,
+    "134": 24,
+    "136": 28,
+    "137": 1,
+    "138": 37,
+    "139": 16,
+    "150": 11,
+    "151": 110,
+    "152": 86,
+    "201": 5,
+    "205": 14,
+    "218": 1,
+    "220": 2,
+    "221": 1,
+    "301": 28,
+    "505": 5,
+    "513": 2,
+    "543": 5,
+    "545": 8,
+    "555": 4,
+    "556": 9
+  },
+  "provenance_sources": [
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/103/103000/All",
+        "file": "responses/d721e2955e403cd1fafcd54e03d68f5285a6bed39bbfa8128dc9a66755113156.json",
+        "bytes": 96892,
+        "sha256": "322bdd4b546bc131f2b41f170edd75013d12df8f4261ac1cea838621dcf0ce55",
+        "retrieved_utc": "2026-09-20T20:19:47.600720+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:103000022",
+        "parsig:103000023",
+        "parsig:103000024",
+        "parsig:103000025",
+        "parsig:103000026",
+        "parsig:103000027",
+        "parsig:103000028",
+        "parsig:103000029",
+        "parsig:103000030",
+        "parsig:103000031",
+        "parsig:103000032",
+        "parsig:103000033",
+        "parsig:103000034",
+        "parsig:103000035",
+        "parsig:103000036",
+        "parsig:103000037",
+        "parsig:103000038",
+        "parsig:103000039",
+        "parsig:103000040",
+        "parsig:103000041",
+        "parsig:103000042",
+        "parsig:103000043",
+        "parsig:103000108",
+        "parsig:103000109",
+        "parsig:103000110",
+        "parsig:103000111",
+        "parsig:103000112",
+        "parsig:103000113",
+        "parsig:103000114",
+        "parsig:103000115",
+        "parsig:103000116",
+        "parsig:103000117",
+        "parsig:103000118",
+        "parsig:103000119",
+        "parsig:103000120",
+        "parsig:103000121",
+        "parsig:103000122",
+        "parsig:103000123",
+        "parsig:103000124",
+        "parsig:103000125",
+        "parsig:103000126",
+        "parsig:103000127",
+        "parsig:103000128",
+        "parsig:103000129"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/104/104000/All",
+        "file": "responses/2557181b020cbf22b00aef7765427335a66c2061006f5daced7634a205bb5ef7.json",
+        "bytes": 30189,
+        "sha256": "1f4f9311bd3caee6903cea2899bd5bddf130b7a9abf1d7b2e63db301635aef7a",
+        "retrieved_utc": "2026-09-20T20:19:51.341891+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:104000000",
+        "parsig:104000001",
+        "parsig:104000002",
+        "parsig:104000003",
+        "parsig:104000004",
+        "parsig:104000005",
+        "parsig:104000006",
+        "parsig:104000007",
+        "parsig:104000008",
+        "parsig:104000009",
+        "parsig:104000010",
+        "parsig:104000011",
+        "parsig:104000012",
+        "parsig:104000013",
+        "parsig:104000014"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/111/111000/All",
+        "file": "responses/c15612ad0ef14ee27af368bf226a096b84cc9bffa698a92a5f97da1c6493047c.json",
+        "bytes": 37934,
+        "sha256": "12d86d19b9df7ab1c65d773c863b4932eed86b5613dce2e9840aaf95152a0dee",
+        "retrieved_utc": "2026-09-20T20:20:02.997596+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:111000018",
+        "parsig:111000019",
+        "parsig:111000020",
+        "parsig:111000021",
+        "parsig:111000022",
+        "parsig:111000023",
+        "parsig:111000024",
+        "parsig:111000025",
+        "parsig:111000026",
+        "parsig:111000027",
+        "parsig:111000028",
+        "parsig:111000029",
+        "parsig:111000030",
+        "parsig:111000031",
+        "parsig:111000032",
+        "parsig:111000033",
+        "parsig:111000034",
+        "parsig:111000035"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/112/112000/All",
+        "file": "responses/c946313d8d9ec74cecc3b47c71bbd97d1fdb18fa332d740536ee37fc0a59684c.json",
+        "bytes": 27664,
+        "sha256": "1d016bdcf8742c2c881ca45ad5149e6b612b8322ea8b75693b4c0ba6879b3243",
+        "retrieved_utc": "2026-09-20T20:20:34.936366+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:112000000",
+        "parsig:112000001",
+        "parsig:112000002",
+        "parsig:112000003",
+        "parsig:112000004",
+        "parsig:112000005",
+        "parsig:112000006",
+        "parsig:112000007",
+        "parsig:112000008",
+        "parsig:112000009",
+        "parsig:112000010",
+        "parsig:112000011",
+        "parsig:112000012",
+        "parsig:112000013",
+        "parsig:112000014",
+        "parsig:112000015",
+        "parsig:112000016",
+        "parsig:112000017"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/116/116000/All",
+        "file": "responses/0a4e57d8a13903495e98a9cc6aa9a103ce49d89f112e6693fffcb84f6dda24b8.json",
+        "bytes": 88352,
+        "sha256": "7320bec57e589cbd2cbc5ede956bafc1dc960d1b2562d333acef9784bea96040",
+        "retrieved_utc": "2026-09-20T20:20:09.627713+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:116000059",
+        "parsig:116000060"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/117/117000/All",
+        "file": "responses/c3489a918189bce72d00283baf044d4c2dfc7ca86382577c817940b9179c8ad5.json",
+        "bytes": 119549,
+        "sha256": "a4cb8f0d2f824427f55154c605cc81a1e92084802779464bc918c8cb1b885552",
+        "retrieved_utc": "2026-09-20T20:20:11.624139+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:117000000",
+        "parsig:117000001",
+        "parsig:117000002",
+        "parsig:117000003",
+        "parsig:117000004",
+        "parsig:117000005",
+        "parsig:117000006",
+        "parsig:117000007",
+        "parsig:117000008",
+        "parsig:117000009",
+        "parsig:117000010",
+        "parsig:117000011",
+        "parsig:117000012",
+        "parsig:117000013",
+        "parsig:117000072",
+        "parsig:117000073",
+        "parsig:117000074",
+        "parsig:117000075",
+        "parsig:117000076",
+        "parsig:117000077",
+        "parsig:117000078",
+        "parsig:117000079",
+        "parsig:117000080",
+        "parsig:117000081",
+        "parsig:117000082",
+        "parsig:117000083",
+        "parsig:117000084",
+        "parsig:117000085",
+        "parsig:117000086",
+        "parsig:117000087",
+        "parsig:117000088"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/121/121000/All",
+        "file": "responses/87a71a9cbd73f24911016034b1be64af55bf59d4b8b4879e9a08472b78e4805f.json",
+        "bytes": 3746,
+        "sha256": "259724029fbf4c71723d8bae8aad819cefaa0ddea4f8e67a3299655c02eb9653",
+        "retrieved_utc": "2026-09-20T20:21:41.778907+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:121000001",
+        "parsig:121000002"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/122/122000/All",
+        "file": "responses/7b673fa015b52825e725d1294a979bfe0e1c00d89e1839e6a688e6c8dacbcb6a.json",
+        "bytes": 18666,
+        "sha256": "c78378db64c218acfc201228c87305f0d673541f684dab47280b49514c0246d7",
+        "retrieved_utc": "2026-09-20T20:20:49.066227+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:122000015",
+        "parsig:122000016",
+        "parsig:122000017"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/123/123000/All",
+        "file": "responses/7ceb05bbd36b94491437e221fa51b596bebcb44a42866f8a5da1a15f42141635.json",
+        "bytes": 62345,
+        "sha256": "f941f2c7813181cec60f6ab969bb3f0cdd8d829a7f6a9f26f791a8e764953318",
+        "retrieved_utc": "2026-09-20T20:20:50.753426+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:123000042",
+        "parsig:123000043",
+        "parsig:123000044",
+        "parsig:123000045",
+        "parsig:123000046",
+        "parsig:123000047",
+        "parsig:123000048",
+        "parsig:123000049",
+        "parsig:123000050",
+        "parsig:123000051",
+        "parsig:123000052",
+        "parsig:123000053",
+        "parsig:123000054",
+        "parsig:123000055",
+        "parsig:123000056"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/130/130000/All",
+        "file": "responses/85df75b4df4411ffd363f6cf3ed8acd6d128bb8bd31fb1b3de5ed01d54a494f2.json",
+        "bytes": 48008,
+        "sha256": "a2083ba8fcf7768904f96646231d81ce674aac5d932ea606a351f335f16e6880",
+        "retrieved_utc": "2026-09-20T20:21:43.622560+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:130000000",
+        "parsig:130000001",
+        "parsig:130000002",
+        "parsig:130000003",
+        "parsig:130000004",
+        "parsig:130000005",
+        "parsig:130000006",
+        "parsig:130000007",
+        "parsig:130000008",
+        "parsig:130000009",
+        "parsig:130000010",
+        "parsig:130000011",
+        "parsig:130000012",
+        "parsig:130000013",
+        "parsig:130000014",
+        "parsig:130000015",
+        "parsig:130000030",
+        "parsig:130000031",
+        "parsig:130000032",
+        "parsig:130000033",
+        "parsig:130000034",
+        "parsig:130000035",
+        "parsig:130000036",
+        "parsig:130000037",
+        "parsig:130000038",
+        "parsig:130000039",
+        "parsig:130000040",
+        "parsig:130000041",
+        "parsig:130000042"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/133/133000/All",
+        "file": "responses/348b5dcdbb77680ae9914502ed82bad9c920c36a7d3c40f9e0c358d807b739c6.json",
+        "bytes": 135363,
+        "sha256": "6dfec24d96af16d5461a42fe9abe5dbe93888083a6f86b8a412a9937c93b18dd",
+        "retrieved_utc": "2026-09-20T20:23:09.313625+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:133000039",
+        "parsig:133000040",
+        "parsig:133000041",
+        "parsig:133000042",
+        "parsig:133000043",
+        "parsig:133000044",
+        "parsig:133000045",
+        "parsig:133000046",
+        "parsig:133000047",
+        "parsig:133000048",
+        "parsig:133000049",
+        "parsig:133000050",
+        "parsig:133000051",
+        "parsig:133000052",
+        "parsig:133000053",
+        "parsig:133000054",
+        "parsig:133000055",
+        "parsig:133000056",
+        "parsig:133000057",
+        "parsig:133000058",
+        "parsig:133000249",
+        "parsig:133000250",
+        "parsig:133000251",
+        "parsig:133000252",
+        "parsig:133000253",
+        "parsig:133000254",
+        "parsig:133000255",
+        "parsig:133000256",
+        "parsig:133000257",
+        "parsig:133000258",
+        "parsig:133000259",
+        "parsig:133000260",
+        "parsig:133000261",
+        "parsig:133000262",
+        "parsig:133000263",
+        "parsig:133000264",
+        "parsig:133000265",
+        "parsig:133000266"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/134/134005/All",
+        "file": "responses/e0168cde5fbf7723b528e1a80b8b6112060825446d95a9712396c50350a925d3.json",
+        "bytes": 18019,
+        "sha256": "a7d6d36acedb34af8721f68bb065f1fe4e7c2d21940dc1667ca554799adbfe69",
+        "retrieved_utc": "2026-09-20T20:20:27.140729+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:134005004",
+        "parsig:134005005",
+        "parsig:134005006",
+        "parsig:134005007",
+        "parsig:134005008",
+        "parsig:134005009",
+        "parsig:134005010",
+        "parsig:134005011"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/134/134006/All",
+        "file": "responses/0a58e58ba168e96f8f7c483a4345655be00b04f4fed4f5dbcd341fa794878196.json",
+        "bytes": 26683,
+        "sha256": "315ede7c2bddacba437631624ccff53236ed7aae60db3b57800f1575490d0644",
+        "retrieved_utc": "2026-09-20T20:20:28.248099+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:134006001",
+        "parsig:134006002",
+        "parsig:134006003",
+        "parsig:134006004"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/134/134007/All",
+        "file": "responses/d16626d600771a523ed15915fe93eded69fe4fbb316155ac86ceae8c5725de33.json",
+        "bytes": 56051,
+        "sha256": "8c70b315f693de91d4d06dcc018b01b767538ceafc92bfa10fceaa7721dbbcd3",
+        "retrieved_utc": "2026-09-20T20:20:29.467494+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:134007002",
+        "parsig:134007003",
+        "parsig:134007004",
+        "parsig:134007005",
+        "parsig:134007006",
+        "parsig:134007007",
+        "parsig:134007008",
+        "parsig:134007009",
+        "parsig:134007010",
+        "parsig:134007011",
+        "parsig:134007012",
+        "parsig:134007013"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/136/136002/All",
+        "file": "responses/7bbaa670530e9f88fcd6dbbed4db798716148f6866e314a9364d4e1e1ff649cb.json",
+        "bytes": 30852,
+        "sha256": "d15e7d94543d3d9b91ded725f50ca7a9549b2d5ba3ad2f7cb4aac25e5305469e",
+        "retrieved_utc": "2026-09-20T20:23:00.851961+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:136002010",
+        "parsig:136002011",
+        "parsig:136002012",
+        "parsig:136002013",
+        "parsig:136002014",
+        "parsig:136002015",
+        "parsig:136002016",
+        "parsig:136002017",
+        "parsig:136002018",
+        "parsig:136002019",
+        "parsig:136002020",
+        "parsig:136002021",
+        "parsig:136002022",
+        "parsig:136002023",
+        "parsig:136002024"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/136/136006/All",
+        "file": "responses/1f436ad904e0837a64b53278aa9fc67646d4ef0f627c33db5b60e144917eff88.json",
+        "bytes": 9669,
+        "sha256": "a245cb91f4ed74c29a3ec668476b8df22df70e7ec806d6da24f6fd1a69e39081",
+        "retrieved_utc": "2026-09-20T20:23:05.005026+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:136006004",
+        "parsig:136006005",
+        "parsig:136006006",
+        "parsig:136006007",
+        "parsig:136006008",
+        "parsig:136006009"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/136/136007/All",
+        "file": "responses/c9f95461bb2a0fe0d11cc44bd3e03630838f3739f93a7cfc8c7564baf537d6be.json",
+        "bytes": 22806,
+        "sha256": "3dd2a51ac20bd364550afb02520e5198b0be32e8e9fce4f1719e91712c401319",
+        "retrieved_utc": "2026-09-20T20:23:06.127862+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:136007001",
+        "parsig:136007002",
+        "parsig:136007003",
+        "parsig:136007004",
+        "parsig:136007005",
+        "parsig:136007006",
+        "parsig:136007007"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/137/137002/All",
+        "file": "responses/69c4300641a7c2281dde6453ea7276cfaadc3f3efa5df70801d2ee181c267eb4.json",
+        "bytes": 54927,
+        "sha256": "1b8aab30ddb3d68816328ffb701b84432457839aa5e1f10b9bc925281dc96eee",
+        "retrieved_utc": "2026-09-20T20:18:54.539841+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:137002025"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/138/138003/All",
+        "file": "responses/f2884aa592d883bf2e4894a2c59af6ab6eeebebf148669de41a2028b588423ff.json",
+        "bytes": 47965,
+        "sha256": "bac02aeb4a509d97dd358d38c1d50f422ec758644ae7bdbb7366a9037e81b667",
+        "retrieved_utc": "2026-09-20T20:20:39.633740+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:138003019",
+        "parsig:138003020",
+        "parsig:138003021",
+        "parsig:138003022",
+        "parsig:138003023",
+        "parsig:138003024",
+        "parsig:138003025",
+        "parsig:138003026",
+        "parsig:138003027",
+        "parsig:138003028",
+        "parsig:138003029",
+        "parsig:138003030",
+        "parsig:138003031",
+        "parsig:138003032",
+        "parsig:138003033",
+        "parsig:138003034",
+        "parsig:138003035"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/138/138004/All",
+        "file": "responses/4ab9d5d6dd17216178e5afbd6d9055a7c83fcbde0247a29db82066f6cc2a536d.json",
+        "bytes": 17720,
+        "sha256": "68cdb1230269e9f4ba716bd99bec4d5af90ce68899f47991ddfe459e79fa110f",
+        "retrieved_utc": "2026-09-20T20:20:40.675761+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:138004001",
+        "parsig:138004002",
+        "parsig:138004003",
+        "parsig:138004004",
+        "parsig:138004005",
+        "parsig:138004006",
+        "parsig:138004007",
+        "parsig:138004008",
+        "parsig:138004009",
+        "parsig:138004010",
+        "parsig:138004011",
+        "parsig:138004012",
+        "parsig:138004013",
+        "parsig:138004014"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/138/138005/All",
+        "file": "responses/d3df029aaf7a6394e0463a43ebb967c55b0ea39b2fe9e10f50ced9376336dd1b.json",
+        "bytes": 14240,
+        "sha256": "ed72f3084607452ab84e4b20c2057401da27393cd4d19377db54a96dd13af45c",
+        "retrieved_utc": "2026-09-20T20:20:41.795934+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:138005001",
+        "parsig:138005002",
+        "parsig:138005003",
+        "parsig:138005004",
+        "parsig:138005005",
+        "parsig:138005006"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/139/139043/All",
+        "file": "responses/4a8c7e2f9600330895b06e0cca8263a1e4313ec94d36942acda4860347b210a2.json",
+        "bytes": 31211,
+        "sha256": "dacee240237ac67fb17d533fbc2a2cd2279c753c949bd63a70cf9954d23710c7",
+        "retrieved_utc": "2026-09-20T20:20:17.066718+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:139043012",
+        "parsig:139043013",
+        "parsig:139043014"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/139/139044/All",
+        "file": "responses/7bbeda3e12bbe7573aedacb3117283e3a1b15ba9ca16e744296f554b34fa6d51.json",
+        "bytes": 10671,
+        "sha256": "c9a982543b4c1035ee36c3858faf5c55ba41f894dff59bedf137721241e5623c",
+        "retrieved_utc": "2026-09-20T20:20:18.021982+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:139044001",
+        "parsig:139044002",
+        "parsig:139044003",
+        "parsig:139044004",
+        "parsig:139044005",
+        "parsig:139044006",
+        "parsig:139044007",
+        "parsig:139044008"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/139/139045/All",
+        "file": "responses/7ce5992254bb8c0058810c809b9c4b208d2dcbae30b246087f992fedd5025afb.json",
+        "bytes": 10477,
+        "sha256": "90b736ec689a89e03ef24d7bdaefea1eb628dadcd042e667379d5ea10ba0d075",
+        "retrieved_utc": "2026-09-20T20:20:19.038853+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:139045001",
+        "parsig:139045002",
+        "parsig:139045003",
+        "parsig:139045004",
+        "parsig:139045005"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/150/150000/All",
+        "file": "responses/a4f07101f8ff04c102bf6247ac16236612690592fca441c5ee0942a14499a18c.json",
+        "bytes": 85013,
+        "sha256": "7d6f97335e98f501131e9288ee4a389b9f7c6ab314e730dc903b727b29377e8b",
+        "retrieved_utc": "2026-09-20T20:19:49.714854+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:150000042",
+        "parsig:150000043",
+        "parsig:150000044",
+        "parsig:150000045",
+        "parsig:150000046",
+        "parsig:150000047",
+        "parsig:150000048",
+        "parsig:150000049",
+        "parsig:150000050",
+        "parsig:150000051",
+        "parsig:150000052"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151000/All",
+        "file": "responses/095754ed8a52f1f9c875d509337c3a5c90dbd11fad2a7cfb24e91bd1ed36b8ed.json",
+        "bytes": 38766,
+        "sha256": "b479342bb42b64a6f76a6f9e4e26792655b630ad5c4e2ee7e4358c912def8d38",
+        "retrieved_utc": "2026-09-20T20:21:45.623785+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151000045",
+        "parsig:151000046",
+        "parsig:151000047",
+        "parsig:151000048",
+        "parsig:151000049",
+        "parsig:151000050",
+        "parsig:151000051",
+        "parsig:151000052",
+        "parsig:151000053",
+        "parsig:151000054",
+        "parsig:151000055",
+        "parsig:151000056",
+        "parsig:151000057",
+        "parsig:151000058",
+        "parsig:151000059",
+        "parsig:151000060",
+        "parsig:151000061"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151001/All",
+        "file": "responses/d5837e516d7d01f61da4f44f68f64167a69b42183c46b31d0057b59141651154.json",
+        "bytes": 117433,
+        "sha256": "546c32d199bf9c32c930904de0042342342256aeee3b0e0effadea55c08faa31",
+        "retrieved_utc": "2026-09-20T20:21:47.102192+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151001000",
+        "parsig:151001001",
+        "parsig:151001002",
+        "parsig:151001003",
+        "parsig:151001026",
+        "parsig:151001027",
+        "parsig:151001028",
+        "parsig:151001029",
+        "parsig:151001030",
+        "parsig:151001031",
+        "parsig:151001032",
+        "parsig:151001033",
+        "parsig:151001034",
+        "parsig:151001035",
+        "parsig:151001036",
+        "parsig:151001037",
+        "parsig:151001038",
+        "parsig:151001039",
+        "parsig:151001040",
+        "parsig:151001041",
+        "parsig:151001042",
+        "parsig:151001043",
+        "parsig:151001044",
+        "parsig:151001045",
+        "parsig:151001046",
+        "parsig:151001047",
+        "parsig:151001048"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151020/All",
+        "file": "responses/bca1a380d03bf07c111b9532afe731a8fd65cfc15dd79cd56865fabf2e613cdb.json",
+        "bytes": 23738,
+        "sha256": "6cdefed18a512440c98803f1a723aea34d1bc8628d38e37f3ccfb77fba7dc253",
+        "retrieved_utc": "2026-09-20T20:22:07.967439+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151020025",
+        "parsig:151020026",
+        "parsig:151020027",
+        "parsig:151020028",
+        "parsig:151020029",
+        "parsig:151020030",
+        "parsig:151020031",
+        "parsig:151020032",
+        "parsig:151020033",
+        "parsig:151020034",
+        "parsig:151020035",
+        "parsig:151020036",
+        "parsig:151020037",
+        "parsig:151020038",
+        "parsig:151020039",
+        "parsig:151020040",
+        "parsig:151020041",
+        "parsig:151020042",
+        "parsig:151020043",
+        "parsig:151020044"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151021/All",
+        "file": "responses/51274cf828e0a5a0f1842adbbc6d6370a021b181105c8dc7fd866becadd6de89.json",
+        "bytes": 3712,
+        "sha256": "92b81abd6465f0b0526b1b597538577d7303f794b45c757dbdf4727ca6141d94",
+        "retrieved_utc": "2026-09-20T20:22:09.054733+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151021000",
+        "parsig:151021001",
+        "parsig:151021002"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151054/All",
+        "file": "responses/5c4a0dc2f469fdf5dd2c24fb1a987e5d138691b6f3cd404833ed64ec0fbf0804.json",
+        "bytes": 3639,
+        "sha256": "f24621846bd12c5caa29b99073572db0df1d503575c72610fdc7bef773d85cd1",
+        "retrieved_utc": "2026-09-20T20:22:45.212386+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151054006"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151055/All",
+        "file": "responses/d2b764d9e1c2c1f340a59fc186cc8403a07ee2587063e69a671697db1e19c72a.json",
+        "bytes": 4087,
+        "sha256": "4874d7b405850cb8d14682f7f2bec2dc66b99310b0a1899238fbb3205cacfb61",
+        "retrieved_utc": "2026-09-20T20:22:46.571710+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151055000",
+        "parsig:151055001",
+        "parsig:151055002",
+        "parsig:151055003",
+        "parsig:151055004",
+        "parsig:151055005",
+        "parsig:151055006",
+        "parsig:151055007"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151056/All",
+        "file": "responses/04e8d0c22a518b97cb4e417e373aca2b848d799db6cfe470bbfd2a3e0869b42c.json",
+        "bytes": 35192,
+        "sha256": "d86d43c0e5034611973a783419006858d9ef88b145e03d6e730ac360e20feb1e",
+        "retrieved_utc": "2026-09-20T20:22:47.545756+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151056000",
+        "parsig:151056001",
+        "parsig:151056002",
+        "parsig:151056003",
+        "parsig:151056004",
+        "parsig:151056005",
+        "parsig:151056006",
+        "parsig:151056007",
+        "parsig:151056008",
+        "parsig:151056009",
+        "parsig:151056010"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151060/All",
+        "file": "responses/372949e5d61e679c5b74077beb1aaa106c1d590b1fd311d929e292d03b9d4c9d.json",
+        "bytes": 6570,
+        "sha256": "5247f567a3944ddd0b67f31f41a5c918617d2c166cf3158c5a7619765d0f8fb7",
+        "retrieved_utc": "2026-09-20T20:22:51.818765+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151060004",
+        "parsig:151060005",
+        "parsig:151060006",
+        "parsig:151060007",
+        "parsig:151060008",
+        "parsig:151060009",
+        "parsig:151060010",
+        "parsig:151060011"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151061/All",
+        "file": "responses/c6516c028cf9a7a0b097d4ee4751b0a76aa196e2a9958a26e7609974096f4c02.json",
+        "bytes": 22947,
+        "sha256": "0ed23a5f30d6810401844364f749cb21899e9cda07d9a3b5a9c59e94c20817d0",
+        "retrieved_utc": "2026-09-20T20:22:52.988072+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:151061000",
+        "parsig:151061001",
+        "parsig:151061002",
+        "parsig:151061003",
+        "parsig:151061004",
+        "parsig:151061005",
+        "parsig:151061006",
+        "parsig:151061007",
+        "parsig:151061008",
+        "parsig:151061009",
+        "parsig:151061010",
+        "parsig:151061011",
+        "parsig:151061012",
+        "parsig:151061013",
+        "parsig:151061014"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152003/All",
+        "file": "responses/a7ef3762348730db012e8fd88014b024cf7555cbc64f99cafb83c0b474e1664d.json",
+        "bytes": 160423,
+        "sha256": "6cf1e834c8d79e45800f0c28b123ffd5e1b0a2744e8adc80d52ff78861c433d2",
+        "retrieved_utc": "2026-09-20T20:21:04.439332+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152003051",
+        "parsig:152003052",
+        "parsig:152003053",
+        "parsig:152003054",
+        "parsig:152003055",
+        "parsig:152003056",
+        "parsig:152003057",
+        "parsig:152003058",
+        "parsig:152003059",
+        "parsig:152003060"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152008/All",
+        "file": "responses/a3ee47c0846a111cdd411d061cb8820bbf1f22dfb6e187fe4dd4aa39cb2cbada.json",
+        "bytes": 27724,
+        "sha256": "89cb8aefc88a1891ed8e881ed904dad276800e9a5e743cad11cf199816522373",
+        "retrieved_utc": "2026-09-20T20:21:09.778255+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152008012",
+        "parsig:152008013",
+        "parsig:152008014",
+        "parsig:152008015",
+        "parsig:152008016",
+        "parsig:152008017",
+        "parsig:152008018",
+        "parsig:152008019",
+        "parsig:152008020",
+        "parsig:152008021"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152009/All",
+        "file": "responses/c69ef85bc49b74d5c970bf617d022aa46155f4e18c4412d74d096529a758b80d.json",
+        "bytes": 11992,
+        "sha256": "9080c7b3953ce5196121712f25e815073d92695c3a1ed58af47b47576f22e121",
+        "retrieved_utc": "2026-09-20T20:21:10.855478+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152009000",
+        "parsig:152009001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152010/All",
+        "file": "responses/faa4280b3a72546906eaf3bd402bdd4a8eb61140463ce5a67bd8406ff7396506.json",
+        "bytes": 33719,
+        "sha256": "39f4ebc166fd15a11d7107d64be8bea98112057503c6990d955647996fe4f1e2",
+        "retrieved_utc": "2026-09-20T20:21:12.034052+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152010018",
+        "parsig:152010019",
+        "parsig:152010020"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152011/All",
+        "file": "responses/c327d883842cf39cd0d10827ab50fd10b3781e50d61757c755232aedc35bfc56.json",
+        "bytes": 12176,
+        "sha256": "c2f3784588ef9fbdd15aab67237b7f6954c9da9fa474bf072c16f1d079167810",
+        "retrieved_utc": "2026-09-20T20:21:13.057957+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152011000",
+        "parsig:152011001",
+        "parsig:152011002",
+        "parsig:152011003",
+        "parsig:152011004",
+        "parsig:152011005",
+        "parsig:152011006",
+        "parsig:152011007",
+        "parsig:152011008"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152020/All",
+        "file": "responses/bd4a538cd4539cd857e926c4f22cd904cf8c2e3d13543d522ff70c3f498736ec.json",
+        "bytes": 8538,
+        "sha256": "94fd1dd5765f0f87031de050d4130c3fa24980b5d1de85c2ea8d92ec325e188b",
+        "retrieved_utc": "2026-09-20T20:21:23.161859+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152020003",
+        "parsig:152020004"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152021/All",
+        "file": "responses/70e72e2398bf8b82cff73e490fc743bb206dd11ee7d40ab01763a124cc5b19c3.json",
+        "bytes": 16296,
+        "sha256": "5e4bd4f3b8e76cf89cede4cee3257f151e67bb387641d8b9342397c403d84853",
+        "retrieved_utc": "2026-09-20T20:21:24.210544+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152021000",
+        "parsig:152021001",
+        "parsig:152021002",
+        "parsig:152021003",
+        "parsig:152021004",
+        "parsig:152021005",
+        "parsig:152021006",
+        "parsig:152021007",
+        "parsig:152021008",
+        "parsig:152021009"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152026/All",
+        "file": "responses/5ccc00ec43837f006217fbb572308b60cef77cee07234261bedcd694b695ad83.json",
+        "bytes": 3465,
+        "sha256": "06701b8306a42802eafcfa451945bc150100180c0144480de32539817940c021",
+        "retrieved_utc": "2026-09-20T20:21:29.865042+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152026001",
+        "parsig:152026002",
+        "parsig:152026003"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152027/All",
+        "file": "responses/6ac8ab6a7c03120dd03815b1053794da069567872f756b5259bc5cb818bbf425.json",
+        "bytes": 25484,
+        "sha256": "1ee3bb30dfcafb1f443adce0e8872e3b329c179dd50811050ae3b4762040074a",
+        "retrieved_utc": "2026-09-20T20:21:31.096836+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152027000",
+        "parsig:152027001",
+        "parsig:152027002",
+        "parsig:152027003",
+        "parsig:152027004",
+        "parsig:152027005",
+        "parsig:152027006",
+        "parsig:152027007"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152034/All",
+        "file": "responses/acde777a9504754eb4a8c8561d3fd2b9d8b61cd0fd540de9ef7432574e3fde4d.json",
+        "bytes": 106060,
+        "sha256": "d80c5654d8d3bcf438b2a00356903a5cac24ec7d3019bbe540cd7e529ff07a63",
+        "retrieved_utc": "2026-09-20T20:21:39.036368+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152034042",
+        "parsig:152034043",
+        "parsig:152034044",
+        "parsig:152034045",
+        "parsig:152034046",
+        "parsig:152034047",
+        "parsig:152034048",
+        "parsig:152034049",
+        "parsig:152034050",
+        "parsig:152034051"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/152/152035/All",
+        "file": "responses/70c38743081cf798071253381bd9d8a0812aad5b6c664a54fad01965c781f7f1.json",
+        "bytes": 120114,
+        "sha256": "ee29280fe426d53c2f6efb45355b7ff6e7c7b4f8f59f66f6a644d68af246eacf",
+        "retrieved_utc": "2026-09-20T20:21:40.385174+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:152035007",
+        "parsig:152035008",
+        "parsig:152035009",
+        "parsig:152035010",
+        "parsig:152035011",
+        "parsig:152035012",
+        "parsig:152035013",
+        "parsig:152035014",
+        "parsig:152035015",
+        "parsig:152035016",
+        "parsig:152035039",
+        "parsig:152035040",
+        "parsig:152035041",
+        "parsig:152035042",
+        "parsig:152035043",
+        "parsig:152035044",
+        "parsig:152035045",
+        "parsig:152035046",
+        "parsig:152035047"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/201/201001/All",
+        "file": "responses/d13f474b7b2aca56f847324cfaf58f5d597045c4a56196efd62bddb19b262e6b.json",
+        "bytes": 1442,
+        "sha256": "b432d3391dea771638213a3ca504d852edfd78a0873be368d81af9382f6037fc",
+        "retrieved_utc": "2026-09-20T20:25:19.758142+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:201001001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/201/201002/All",
+        "file": "responses/ca72e61196da525c462cbfcb92048999ba4b59c995b902e8c5c2d335451c9664.json",
+        "bytes": 1547,
+        "sha256": "887231234a5ab26a7d1339dfe0d7b900cecf7f36619bb8d5e5a703b67154fb83",
+        "retrieved_utc": "2026-09-20T20:25:20.875592+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:201002001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/201/201003/All",
+        "file": "responses/0be7f98f0a4c43c145621033121b8c0da41595df788e7ee8ec6dfa3116249ed9.json",
+        "bytes": 1150,
+        "sha256": "fd2a265c488733fc1252a9019b23a76ca1fa059898711a518ea7595353d0baa5",
+        "retrieved_utc": "2026-09-20T20:25:21.983632+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:201003001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/201/201005/All",
+        "file": "responses/57a3b6e6d1e018827920e6e3b949f098046f2a6ff495969f88ebb43807c1c8a4.json",
+        "bytes": 340,
+        "sha256": "a45548dd45ec46df4038a3b3cdf53729097495adc2503c0533e38f0c8c6714bf",
+        "retrieved_utc": "2026-09-20T20:25:23.177675+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:201005001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/201/201006/All",
+        "file": "responses/a2c30a417273176c03bd7cff3ee8e2a3fc8964616fa5749c2eb14b49645b5d1b.json",
+        "bytes": 277,
+        "sha256": "842f7881578e933ac0a459ba056e3b55e3f05ed4ca8063ca3b4bcfde8c9fc661",
+        "retrieved_utc": "2026-09-20T20:25:24.168580+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:201006001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205019/All",
+        "file": "responses/867ede23c316f8b7ad529d37107d3cc25301241b94107c337c3abb02cc574d56.json",
+        "bytes": 745,
+        "sha256": "1b2c3139d8a1bf45b7501cba17ac281cb73b33cff678aab71f7c184fd789ba44",
+        "retrieved_utc": "2026-09-20T20:25:03.623371+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205019001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205020/All",
+        "file": "responses/46b8caf61d637b2a1ddacf604b6f16a1b680450b013c5d7eda962c14c494df1d.json",
+        "bytes": 745,
+        "sha256": "ba6130e5b73d803d5edc53b984a1bf4416be5916efcc901a1f220c1966710170",
+        "retrieved_utc": "2026-09-20T20:25:04.720449+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205020001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205021/All",
+        "file": "responses/aaf6a3efd6b9412f84da04c839679e8734e617138da05fa9261bb4be62174349.json",
+        "bytes": 245,
+        "sha256": "4d2d52035c89061efcc5c47997034a22543e77adb9929294f5b30de9ca25fcc4",
+        "retrieved_utc": "2026-09-20T20:25:05.841074+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205021001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205022/All",
+        "file": "responses/efa0b306ad9642652227af752ece16c9faf4c9c926be4af06f7ea00e0b360175.json",
+        "bytes": 745,
+        "sha256": "94fa7687d77588f7bd17b186008579d6a149fadbe440b263c4d8f2ef1b192532",
+        "retrieved_utc": "2026-09-20T20:25:06.929915+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205022001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205023/All",
+        "file": "responses/b2ea696d73e30a3c08678b303f85befc018ca99697771429919ac3b1c52d34af.json",
+        "bytes": 219,
+        "sha256": "5260f2ef003bc8e85edba0a1a59289032800cd8817a84396318a29cc54610f91",
+        "retrieved_utc": "2026-09-20T20:25:07.997786+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205023001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205024/All",
+        "file": "responses/e140c9a09c45ccac84dd0fe158a0c0b8331324a1986cb5009b368b9fe146f9ed.json",
+        "bytes": 883,
+        "sha256": "0297a7378df6e13f76c56e91c7d8a691b139af2a602071c640a27e2b317d2916",
+        "retrieved_utc": "2026-09-20T20:25:09.127614+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205024001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205025/All",
+        "file": "responses/d824a8b7528d89b73453f02fa8518300944d33f133d34d8b8ceae9d6a865a547.json",
+        "bytes": 933,
+        "sha256": "56f50486b8d5a9ff1c6b6e27d6182a68016df5f976560c2e3c913c2e88ea2356",
+        "retrieved_utc": "2026-09-20T20:25:10.212121+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205025001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205026/All",
+        "file": "responses/778a9eb0d1816157bbce24cde5c4445428de8f7aa51f3e6ccc87aff3c9b0219d.json",
+        "bytes": 463,
+        "sha256": "8d90f5ecdb79b332937a2c63a4ee6f84502c81fd2d610ea9f2ef20313f4488a5",
+        "retrieved_utc": "2026-09-20T20:25:11.327233+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205026001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205027/All",
+        "file": "responses/0826b694622ba755c9f34f9d1fa1c1f7ba20384b73e3a9a3d0038bbf3bfc422c.json",
+        "bytes": 884,
+        "sha256": "a6d35842080e4a5354fc846d8f81f9bf75e92e1638123650118a4dc991076568",
+        "retrieved_utc": "2026-09-20T20:25:12.445092+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205027001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205028/All",
+        "file": "responses/e791747fcd6731bbe640e28714996ae5b2ec6dff82933f01643675accc402c95.json",
+        "bytes": 889,
+        "sha256": "a74e1c9f443d757cc27f0e44bb719d06ac0ad1ef14b0c937c34f979723b5d4be",
+        "retrieved_utc": "2026-09-20T20:25:13.550928+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205028001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205029/All",
+        "file": "responses/9eec390c5e1a6ebce99e41384c9dc523a139289713ffcda88648d0e8e7ba43d8.json",
+        "bytes": 886,
+        "sha256": "bc34c7eb8ce0be4ab24b34ed35f39506b458dda06c53da35dd054e68a179cff0",
+        "retrieved_utc": "2026-09-20T20:25:14.625917+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205029001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205030/All",
+        "file": "responses/65f6e3ed4b75e5e2b68b9a5ff2b997c9a40fdc02428eb1e9d8fc13e04ed847fc.json",
+        "bytes": 601,
+        "sha256": "78e35094165941c3af7cb96c8bfb6901480cc3aa3c64b6070050014ec625d2c3",
+        "retrieved_utc": "2026-09-20T20:25:15.733719+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205030001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205031/All",
+        "file": "responses/5fcf6f910d4657e857f38ffe3b5286edaccefab4f2ec9f28a06f90f2ca8b7dc2.json",
+        "bytes": 467,
+        "sha256": "5338f29ee109231e75679c427e8833b501cd32d607f9969ddefe1c8a4fb7d775",
+        "retrieved_utc": "2026-09-20T20:25:16.827128+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205031001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/205/205032/All",
+        "file": "responses/cbe8e1ae098c013db29f78c84081c4993035ab846fc16cb547e1b0caa0ae4a17.json",
+        "bytes": 528,
+        "sha256": "97e06cf9f10207e137dec333513512ddbfeb923e9861bb80ec124e30b49500a8",
+        "retrieved_utc": "2026-09-20T20:25:18.348346+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:205032001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/218/218001/All",
+        "file": "responses/b740a80d0e6bfd4d33bc15bd4463eb8f31eee73510c1eb77ec8501848637cbd9.json",
+        "bytes": 1155,
+        "sha256": "0ab383d8fa42a1e5baba3ae8c953158ceef2832194da2f1fbcfe6e9236be16c6",
+        "retrieved_utc": "2026-09-20T20:23:52.208103+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:218001001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/220/220001/All",
+        "file": "responses/8dd9869bfb002879fc498a51e4e9fb84d5790e4c8d9bfac02ecdf46e0cc614aa.json",
+        "bytes": 395,
+        "sha256": "fe24e47ee5d4ca0fe7fe41635da298054bc2b5a1d70afe75303b74106164c708",
+        "retrieved_utc": "2026-09-20T20:24:01.594501+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:220001001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/220/220002/All",
+        "file": "responses/31ee660d0e255e34f9e074d1bc113265af0706f48f700b943306965c37afefa8.json",
+        "bytes": 681,
+        "sha256": "7faf95978ff4404aa0e8f3c278a60fa486d6cf21c5b4a74d40d1a2863312347a",
+        "retrieved_utc": "2026-09-20T20:24:02.840798+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:220002001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/221/221001/All",
+        "file": "responses/689a43a764cf21d931a44fc938cfd6de8a5735b24f97c01829719ac823e366f6.json",
+        "bytes": 278,
+        "sha256": "a6c3795a09fed10bd0575e8c6d6adfde66491b76ebf6e7b640b6ad36abb5588a",
+        "retrieved_utc": "2026-09-20T20:24:04.352213+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:221001001"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/301/301001/All",
+        "file": "responses/7b0f3a98957fdcc44f4b4a2ea27d9f7d3604bde30f69adc748b107dafc08a0bd.json",
+        "bytes": 49757,
+        "sha256": "9fdc68e17e8daef45fe0e2a1293920a3e29e2e46f419959b438d0920d3fdf866",
+        "retrieved_utc": "2026-09-20T20:23:10.947782+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:301001012",
+        "parsig:301001013",
+        "parsig:301001014",
+        "parsig:301001015",
+        "parsig:301001016",
+        "parsig:301001017",
+        "parsig:301001018",
+        "parsig:301001019",
+        "parsig:301001020",
+        "parsig:301001021",
+        "parsig:301001022",
+        "parsig:301001023"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/301/301002/All",
+        "file": "responses/5d6079af005377db7bd1693ac1d823908be87501131f074549a20300cc651223.json",
+        "bytes": 47248,
+        "sha256": "68b60a3900e04fe62488874ca41c8e206b3016eea8c524d1355b64b6fdbb68d2",
+        "retrieved_utc": "2026-09-20T20:23:11.975455+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:301002001",
+        "parsig:301002002"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/301/301004/All",
+        "file": "responses/887aa8905eaac560cbd0d4d1d5098d84ec39bec5a63e4148a7c3bf5f4f238e9c.json",
+        "bytes": 63515,
+        "sha256": "290c62f8f40e55d99ee207278362fc94830a0438b2558ea4858a90146cee99c4",
+        "retrieved_utc": "2026-09-20T20:23:14.326812+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:301004022",
+        "parsig:301004023",
+        "parsig:301004024",
+        "parsig:301004025"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/301/301005/All",
+        "file": "responses/d07de272ae3afa72356d89369dedabad526b79343b0d780c18b16fba3ffb119f.json",
+        "bytes": 7986,
+        "sha256": "5824b57a27a3e85ef313b06d61a50adfdbe871d4df2fbf6b4c108c24b5e1c865",
+        "retrieved_utc": "2026-09-20T20:23:15.191098+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:301005001",
+        "parsig:301005002",
+        "parsig:301005003",
+        "parsig:301005004",
+        "parsig:301005005",
+        "parsig:301005006"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/301/301006/All",
+        "file": "responses/5e0309892730769a7b1278252a1e8c50432eff7ea0091f37efef2f09b9194003.json",
+        "bytes": 33044,
+        "sha256": "fb6a422c59aa431da63bd58aeea7ea0577f803742a9729ea1774b9908bc9b44a",
+        "retrieved_utc": "2026-09-20T20:23:16.328543+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:301006001",
+        "parsig:301006002",
+        "parsig:301006003",
+        "parsig:301006004"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/505/505000/All",
+        "file": "responses/41e7b0715cc4fcc366d7e0b685337946d0936db2eb7bbd6864e05eb5e2ae3591.json",
+        "bytes": 10541,
+        "sha256": "5a5e7dc88b0d1c2f52df03ab3783d529014cb6709a218f9cbcd8d8eff4106c98",
+        "retrieved_utc": "2026-09-20T20:25:32.485544+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:505000001",
+        "parsig:505000002",
+        "parsig:505000003",
+        "parsig:505000004",
+        "parsig:505000005"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/513/513000/All",
+        "file": "responses/58ab989ed8bb366889e7ca558e168b9a04a1298eb0ca29cb4ceee16d52156644.json",
+        "bytes": 6532,
+        "sha256": "0cac648efae581f723c09425ba8196da5eacc7f462b551468d3eb037b756e60b",
+        "retrieved_utc": "2026-09-20T20:26:53.422370+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:513000001",
+        "parsig:513000002"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/543/543000/All",
+        "file": "responses/9d4db05e4a9f5d7fecddece59c596792e5d7bcc236a3771a3d34984f3921759e.json",
+        "bytes": 8286,
+        "sha256": "eb910859da6286c0f86c34cb4b837315acd927d51a9741d5c63cecba69256ba2",
+        "retrieved_utc": "2026-09-20T20:26:18.788707+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:543000001",
+        "parsig:543000002",
+        "parsig:543000003",
+        "parsig:543000004",
+        "parsig:543000005"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/545/545000/All",
+        "file": "responses/9ca5cfeb902e18ce12214a7cb78a876f5e0078d0e3aa671fbc640e7d661261ca.json",
+        "bytes": 11649,
+        "sha256": "5356ee57b21f4fab21326473565a6e40de90795609c711480ab96081cc61098a",
+        "retrieved_utc": "2026-09-20T20:26:22.066673+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:545000001",
+        "parsig:545000002",
+        "parsig:545000003",
+        "parsig:545000004",
+        "parsig:545000005",
+        "parsig:545000006",
+        "parsig:545000007",
+        "parsig:545000008"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/555/555000/All",
+        "file": "responses/cbeae97b2e67e7b0b1796c0a6e029fe96b67337f2f635c8715e1e142d7c7964d.json",
+        "bytes": 4274,
+        "sha256": "c76e53e72399b0297b80da9e3b68535180d29613a1965d56918d2bf549b9ff22",
+        "retrieved_utc": "2026-09-20T20:26:38.562305+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:555000001",
+        "parsig:555000002",
+        "parsig:555000003",
+        "parsig:555000004"
+      ]
+    },
+    {
+      "source": {
+        "url": "https://mpdb.parsigdatabase.com/surf/paragraph/556/556000/All",
+        "file": "responses/243b3e380bd4004dd69b28bb72389202653d4bb0a21076a6d74e6c3fc880e157.json",
+        "bytes": 8927,
+        "sha256": "2104815032858110451099232be3c7496e69370ecbb27efb80d6468285c49264",
+        "retrieved_utc": "2026-09-20T20:26:40.208126+00:00",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "rights": "Parsig attribution-required research use; underlying edition rights retained",
+      "actual_unit_ids_read": [
+        "parsig:556000001",
+        "parsig:556000002",
+        "parsig:556000003",
+        "parsig:556000004",
+        "parsig:556000005",
+        "parsig:556000006",
+        "parsig:556000007",
+        "parsig:556000008",
+        "parsig:556000009"
+      ]
+    }
+  ],
+  "limits": [
+    "No manuscript images or original inscription surfaces inspected",
+    "No independent edition verification",
+    "No claim of complete record coverage outside assigned unit IDs",
+    "Mixed Middle Persian/Parthian and embedded Avestan wording preserved",
+    "Apparatus and disagreement recorded without invented resolution"
+  ]
+}

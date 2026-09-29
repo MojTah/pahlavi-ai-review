@@ -1,0 +1,115 @@
+{
+  "utc": "2026-09-27T14:59:34.621285+00:00",
+  "run_id": "555064e068b54aacafee67e37375ec78",
+  "manifest_sha256": "4d65de731cbe389cfb0700fc7edef074b17f7b2d5faf98dd30062f899fba0b2b",
+  "provider_inventory_committed": true,
+  "provider_inventory": {
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/base-provenance.json": {
+      "bytes": 2322,
+      "xet_hash": "6216b1480fede2897e53244075f188ccbf08fd282aee21cfce9c2f5d2197321e"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/bundle-manifest.json": {
+      "bytes": 1825,
+      "xet_hash": "bdf40c635056b6b4071ceb3f678357cfff810969176f170d69be70924272da45"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual-status.json": {
+      "bytes": 2327,
+      "xet_hash": "d3f2a806085b7f03c56d69e6dae4a40a480416e938998f2d6c0622653dd43ef7"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/evaluation/predictions.jsonl": {
+      "bytes": 73487,
+      "xet_hash": "87b7ae0300db3800ec8993b8c8f1adb8614cc8c4277c761f72bdc89b907636aa"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/evaluation/run.json": {
+      "bytes": 11720,
+      "xet_hash": "7a6e40e8b38003184dfc9cbe247a38a78f7e85aecbea029aec2b1bf382ce1828"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/run.json": {
+      "bytes": 10294,
+      "xet_hash": "2e45e8ddcec4370f52a740a9328ae2a2fbb916997e660bd0a35b9d7cf812fa6d"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/candidate/adapter/README.md": {
+      "bytes": 5228,
+      "xet_hash": "396e00d0dfdacc9847edd7dec1f09ccc2893ad2fab92bdf72566af9a4361ee9b"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/candidate/adapter/adapter_config.json": {
+      "bytes": 1215,
+      "xet_hash": "11fb4ff1cd82713fa2078dc011abf39168a0beba16824ed2023f3da31e2adef6"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/candidate/adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "xet_hash": "7f240d8722d268425fb873242e79f47a2600ffa5bbd31f0855e2fbc27051d0b1"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/candidate/metrics.json": {
+      "bytes": 25149,
+      "xet_hash": "64add19b93873306e2137b80b57b4b03a177aabdf5362901631a9d653b4ef0b4"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/candidate/progress.jsonl": {
+      "bytes": 1713,
+      "xet_hash": "a7b7310a8e56730584c11aaa0bc712fc3b6add40767d0b87c808656818d7695e"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/control/adapter/README.md": {
+      "bytes": 5228,
+      "xet_hash": "396e00d0dfdacc9847edd7dec1f09ccc2893ad2fab92bdf72566af9a4361ee9b"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/control/adapter/adapter_config.json": {
+      "bytes": 1215,
+      "xet_hash": "11fb4ff1cd82713fa2078dc011abf39168a0beba16824ed2023f3da31e2adef6"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/control/adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "xet_hash": "ad58660816fe9bf1247640c3a28548266113089b8f3448cd18d66c64679f330c"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/control/metrics.json": {
+      "bytes": 25147,
+      "xet_hash": "ce70b536a9b7aa97c27a413aa33599378272f4759b91bf9cb6c2c878710f42e0"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/control/progress.jsonl": {
+      "bytes": 1713,
+      "xet_hash": "a7b7310a8e56730584c11aaa0bc712fc3b6add40767d0b87c808656818d7695e"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/contextual/training/run.json": {
+      "bytes": 81347,
+      "xet_hash": "af58bbafffbb9dad6889b1420c7dad8068dce05b7dd6b90e0942a8eb9daf8302"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/driver.log": {
+      "bytes": 19729,
+      "xet_hash": "d7ad97a1d5e778d630ebbb4ce69f56036b1f09ee756b1a95feaf472fe5404d5b"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/manifest.json": {
+      "bytes": 5689,
+      "xet_hash": "e48399b527b6b4d91cf40858f9e7abee987e7c870f18966d3dd5f21e65e2f997"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/package-manifest.json": {
+      "bytes": 2859,
+      "xet_hash": "31e56e3a8c88ff0705610585f09504df0a058da58d7765faa47a55721a2a6d20"
+    },
+    "contextual-pilot/555064e068b54aacafee67e37375ec78/trained-manifest.json": {
+      "bytes": 5949,
+      "xet_hash": "552e886347ff2fc199c7f3c9e5d094170ede20d3327e02f6804ac002ffd1b6f8"
+    }
+  },
+  "local_sha_verified_files": [
+    "base-provenance.json",
+    "bundle-manifest.json",
+    "contextual-status.json",
+    "contextual/evaluation/predictions.jsonl",
+    "contextual/evaluation/run.json",
+    "contextual/run.json",
+    "contextual/training/candidate/adapter/README.md",
+    "contextual/training/candidate/adapter/adapter_config.json",
+    "contextual/training/candidate/metrics.json",
+    "contextual/training/candidate/progress.jsonl",
+    "contextual/training/control/adapter/README.md",
+    "contextual/training/control/adapter/adapter_config.json",
+    "contextual/training/control/metrics.json",
+    "contextual/training/control/progress.jsonl",
+    "contextual/training/run.json",
+    "driver.log",
+    "package-manifest.json",
+    "trained-manifest.json"
+  ],
+  "model_weights_downloaded": false,
+  "weight_sha_evidence": "Server manifest only; committed provider size/xet inventory independently checked",
+  "contextual_status": "complete"
+}

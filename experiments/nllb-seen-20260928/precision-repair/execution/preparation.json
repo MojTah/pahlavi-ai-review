@@ -1,0 +1,38 @@
+{
+  "run_id": "799e1037f097415a8b7124e36416b728",
+  "package_name": "nllb-seen-e7a63808e2e081ca.zip",
+  "package_sha256": "e7a63808e2e081ca053211804512ec6850bf4a4bea957fdfbe9af67f24cd1733",
+  "package_manifest_sha256": "b967694343bf4dddab48ac3c701b9b9ace5eb1cd8ae50b28fdab03e64ceaec4e",
+  "bootstrap_hashes": {
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "model_manifest_sha256": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349",
+  "model_run_id": "99231a67ac364af992565d15cb53a325",
+  "model_prefix": "nllb-supervised/99231a67ac364af992565d15cb53a325",
+  "inference_names": [
+    "config.json",
+    "generation_config.json",
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors",
+    "model.safetensors.index.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training-state.json"
+  ],
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "inputs_sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+  "source_control_sha256": "3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0",
+  "token_map_sha256": "5dac1a0c537ce8d7c410110b33bf30aaf3f95c2577f507d86eb228881953b255",
+  "compute_seconds": 600,
+  "internal_seconds": 780,
+  "native_timeout_minutes": 15,
+  "output_prefix": "nllb-seen/799e1037f097415a8b7124e36416b728",
+  "command_sha256": "31664c915b857f43b089873d46afe9063edb73d30ba72f2e93090f538270a133",
+  "spec_sha256": "bfe0650253af255b682ae791806d3c3ac70eb939b1641da2f779b31cd11c2db1",
+  "controller_sha256": "a4fa486f4ef3ebd2432a47710487553b0762951b49ca6b0e35dae93418e05fc3",
+  "source_commit": "2bc909c3b552ba6b7f1cb6d312aedc3af45dc7dd",
+  "review_sha256": "2d9724d50f566276c2882032895a9fc87ef7f625709f75c21c2cbd81d2f6168b"
+}

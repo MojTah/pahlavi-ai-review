@@ -1,0 +1,328 @@
+{
+  "status": "PROVISIONAL_AI_DEV_DIAGNOSTIC",
+  "not_palref_score": true,
+  "whole_cases": 15,
+  "constrained_cases": 9,
+  "conditions": {
+    "D0": {
+      "whole_denominator": 15,
+      "whole_counts": {
+        "critical_error": 7,
+        "meaning_error": 8
+      },
+      "per_work": {
+        "parsig:103": {
+          "meaning_error": 1,
+          "critical_error": 3
+        },
+        "parsig:112": {
+          "meaning_error": 5
+        },
+        "parsig:138": {
+          "critical_error": 2,
+          "meaning_error": 2
+        },
+        "parsig:517": {
+          "critical_error": 2
+        }
+      },
+      "constrained_denominator": 9,
+      "constrained_severity": {
+        "critical_error": 7,
+        "none": 1,
+        "meaning_error": 1
+      },
+      "failed_categories_whole": {
+        "lexical_meaning": 15,
+        "grammatical_roles": 12,
+        "negation_modality": 6,
+        "numbers_quantities": 3,
+        "omissions": 15,
+        "unsupported_additions": 15,
+        "names": 4
+      }
+    },
+    "D1": {
+      "whole_denominator": 15,
+      "whole_counts": {
+        "critical_error": 8,
+        "meaning_error": 7
+      },
+      "per_work": {
+        "parsig:103": {
+          "critical_error": 3,
+          "meaning_error": 1
+        },
+        "parsig:112": {
+          "meaning_error": 5
+        },
+        "parsig:138": {
+          "meaning_error": 1,
+          "critical_error": 3
+        },
+        "parsig:517": {
+          "critical_error": 2
+        }
+      },
+      "constrained_denominator": 9,
+      "constrained_severity": {
+        "critical_error": 7,
+        "none": 1,
+        "meaning_error": 1
+      },
+      "failed_categories_whole": {
+        "lexical_meaning": 15,
+        "grammatical_roles": 12,
+        "names": 4,
+        "omissions": 15,
+        "unsupported_additions": 14,
+        "negation_modality": 6,
+        "numbers_quantities": 5
+      }
+    },
+    "D2": {
+      "whole_denominator": 15,
+      "whole_counts": {
+        "meaning_error": 5,
+        "uncertain": 3,
+        "accepted": 3,
+        "critical_error": 4
+      },
+      "per_work": {
+        "parsig:103": {
+          "meaning_error": 1,
+          "critical_error": 1,
+          "accepted": 1,
+          "uncertain": 1
+        },
+        "parsig:112": {
+          "accepted": 2,
+          "meaning_error": 2,
+          "uncertain": 1
+        },
+        "parsig:138": {
+          "meaning_error": 2,
+          "uncertain": 1,
+          "critical_error": 1
+        },
+        "parsig:517": {
+          "critical_error": 2
+        }
+      },
+      "constrained_denominator": 9,
+      "constrained_severity": {
+        "meaning_error": 2,
+        "none": 1,
+        "critical_error": 5,
+        "uncertain": 1
+      },
+      "failed_categories_whole": {
+        "lexical_meaning": 9,
+        "grammatical_roles": 6,
+        "omissions": 8,
+        "unsupported_additions": 7,
+        "names": 3,
+        "negation_modality": 2,
+        "numbers_quantities": 1
+      }
+    },
+    "D3": {
+      "whole_denominator": 15,
+      "whole_counts": {
+        "critical_error": 4,
+        "meaning_error": 7,
+        "uncertain": 1,
+        "accepted": 3
+      },
+      "per_work": {
+        "parsig:103": {
+          "critical_error": 2,
+          "meaning_error": 1,
+          "accepted": 1
+        },
+        "parsig:112": {
+          "meaning_error": 3,
+          "accepted": 2
+        },
+        "parsig:138": {
+          "meaning_error": 3,
+          "uncertain": 1
+        },
+        "parsig:517": {
+          "critical_error": 2
+        }
+      },
+      "constrained_denominator": 9,
+      "constrained_severity": {
+        "none": 1,
+        "critical_error": 5,
+        "uncertain": 1,
+        "meaning_error": 2
+      },
+      "failed_categories_whole": {
+        "lexical_meaning": 11,
+        "grammatical_roles": 6,
+        "names": 3,
+        "omissions": 10,
+        "unsupported_additions": 10,
+        "negation_modality": 2,
+        "numbers_quantities": 1
+      }
+    }
+  },
+  "paired": {
+    "D0 -> D2": {
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "uncertain",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "accepted",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 4
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "newly_accepted": [
+        "QUALITYDEV1-003",
+        "QUALITYDEV1-008",
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance": []
+    },
+    "D1 -> D3": {
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 4
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "uncertain",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "accepted",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 5
+        }
+      ],
+      "newly_accepted": [
+        "QUALITYDEV1-003",
+        "QUALITYDEV1-008",
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance": []
+    },
+    "D0 -> D1": {
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 7
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 7
+        }
+      ],
+      "newly_accepted": [],
+      "lost_acceptance": []
+    },
+    "D2 -> D3": {
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 3
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 5
+        },
+        {
+          "before": "uncertain",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "newly_accepted": [],
+      "lost_acceptance": []
+    }
+  },
+  "review_integrity": "96unique_ids_hashes_category_schema_and_duplicate_consistency_passed"
+}

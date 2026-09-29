@@ -1,0 +1,7 @@
+{
+  "status": "exact_roundtrip_pass",
+  "path": "inputs/qualified-continuation-admission-513dc48cf10f.json",
+  "sha256": "513dc48cf10fcba9578f3d1c6d0b6fd1947dc8461cb4b1e285bf7f48d3818d3a",
+  "bytes": 1040,
+  "xet_hash": "2c4500fdd28bcb377109f5c222d4f40f089fcc30abc503be65c691c53b98fe32"
+}

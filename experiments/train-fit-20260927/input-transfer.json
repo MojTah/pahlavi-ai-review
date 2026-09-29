@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-27T12:16:55.093822+00:00",
+  "bucket": "Mojionix/pahlavi-pilot",
+  "path": "inputs/train-fit-control-3db2398a95b6.json",
+  "bytes": 8881,
+  "xet_hash": "cbe5afe9c070e40fc606ef9d030f1e068fbc19b1d212edc5e2c5306db2829519",
+  "sha256": "3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0",
+  "full_roundtrip_verified": true,
+  "contains_reference_answers": false
+}

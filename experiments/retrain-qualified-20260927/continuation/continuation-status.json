@@ -1,0 +1,27 @@
+{
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "evaluator_name": "palref-eval-050a38880c68.py",
+  "evaluator_sha256": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+  "inputs_name": "palref-v1-pal-fa-inputs-0616b5083833.jsonl",
+  "inputs_sha256": "0616b50838339e9b520f06fe8b2ed9c0fd9b399b67c8f68cd680a62115a12f37",
+  "canary_run_id": "aa880289a9614f80aaa5a430e53440ee",
+  "canary_manifest_sha256": "ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388",
+  "admission_name": "qualified-continuation-admission-513dc48cf10f.json",
+  "admission_sha256": "513dc48cf10fcba9578f3d1c6d0b6fd1947dc8461cb4b1e285bf7f48d3818d3a",
+  "max_minutes": 150,
+  "run_id": "1ae0f16dae9c4dffa36d15a24345fded",
+  "bootstrap_hashes": {
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "expected_total_steps": 280,
+  "operation": "full_resume_and_palref",
+  "continuation_status": "complete",
+  "full_training_completed": true,
+  "completed_global_step": 280,
+  "training_schedule_completed": true,
+  "training_reached_step_312": false,
+  "local_model_verified": false,
+  "max_export_bytes": 2026978122
+}

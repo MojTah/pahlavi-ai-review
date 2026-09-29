@@ -1,0 +1,10 @@
+{
+  "status": "tiny_trainer_resume_pass",
+  "directory": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\tmp\\tiny-trainer-resume-67426bf9c7",
+  "canary_steps": 1,
+  "planned_and_final_steps": 4,
+  "max_adapter_difference_resumed_vs_uninterrupted": 0.0,
+  "device": "CPU",
+  "actual_nf4": true,
+  "linux_cuda_tested": false
+}

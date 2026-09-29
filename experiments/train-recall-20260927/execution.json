@@ -1,0 +1,20 @@
+{
+  "state": "submitted",
+  "utc": "2026-09-27T11:13:30.098373+00:00",
+  "source_commit": "8b7ae6f9530d8c6747a38bab41abf6fdbdf5eda0",
+  "run_id": "b9a65cd416124617a68db6580349b32f",
+  "spec_sha256": "9292f4dd0e5fdac36e75d7af4e11245b278d761e87eec02c1c956ab46e37ed22",
+  "command_sha256": "5a3c547c7791d1ff4fe075ff9cf4584a40092acb1ed59f14ae0808e933be4612",
+  "review_sha256": "cbc85b624b8856365e8fbce8e496b9b426bed699d29a42fe945e6b15600f7e4a",
+  "admission_sha256": "7edbb0d0e72ed77ce5629b2a956de03b6a0367fe4afc1c96d13ce472a233d8c1",
+  "native_timeout": "30m",
+  "rate_micro_usd_per_minute": 41667,
+  "observed_prior_jobs": 14,
+  "prior_nonterminal_jobs": 0,
+  "owner": "/root",
+  "automatic_retry": false,
+  "local_admission_note": "Earlier comparison of SDK objects with wire JSON failed before any submission; validated identical wire dictionaries and retained actual SDK objects.",
+  "job_id": "6ab8fa5d6b030d633f698f47",
+  "url": "https://huggingface.co/jobs/Mojionix/6ab8fa5d6b030d633f698f47",
+  "submitted_utc": "2026-09-27T11:13:34.129549+00:00"
+}

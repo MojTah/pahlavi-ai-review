@@ -1,0 +1,28 @@
+{
+  "status": "READY_FRESH_20_STEP_CANARY_ONLY",
+  "utc": "2026-09-27T05:05:20.006418+00:00",
+  "source_commit": "8ad623cc4897c466a3b2515cf10123178f7059b4",
+  "provenance_sha256": "74a7c9392f4383580395ce15098449c9a7f0e52077de6cfbcddd66f16e63ea22",
+  "run_id": "aa880289a9614f80aaa5a430e53440ee",
+  "checked_sha256": {
+    "controller": "bc7d678796a0151d8d16d1c95d898556b5f6563632571109f6347906a9619531",
+    "spec": "b70404af4b26803e2ef9d04534b83528dd908c7103ab6f1f54ffa53b37c43e1b",
+    "bundle": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9"
+  },
+  "original_train_rows": 2484,
+  "qualified_rows": 2237,
+  "expected_total_steps": 280,
+  "training_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "all_existing_jobs_terminal": 10,
+  "fresh_output_prefix": "trials/aa880289a9614f80aaa5a430e53440ee",
+  "native_minutes": 30,
+  "shutdown_allowance_minutes": 5,
+  "prior_compute_estimate_usd": 7.12,
+  "budget_cap_usd": 25,
+  "canary_maximum_with_reserve_usd": 2.208345,
+  "full_phase_cumulative_with_reserve_usd": 15.78673,
+  "rate_usd_per_minute": 0.041667,
+  "remote_input_roundtrip": "qualified-input-roundtrip-20260927/verification.json",
+  "full_continuation_admitted": false,
+  "model_download_to_laptop": false
+}

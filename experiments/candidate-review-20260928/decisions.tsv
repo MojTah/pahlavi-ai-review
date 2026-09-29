@@ -1,0 +1,201 @@
+case_id	relation	flags	reason
+POLY001	P	-	Both glosses express fruitlessness or lack of benefit; preserve both source records.
+POLY002	D	GRAMMATICAL_ROLE	Book/compendium is nominal; principal/essential is adjectival. Keep the distinction.
+POLY003	D	CONTEXT_MISSING	Creating and handing over are distinct published meanings; neither entry supplies usable attestation context.
+POLY004	D	-	Seed-stone/kernel and bone are distinct published readings; the third entry lists both.
+POLY005	D	HISTORICAL_LAYER	Bow and sacred bread must remain separate; different works and historical layers require qualification.
+POLY006	C	PARTIAL_OVERLAP	Lighting overlaps; polishing and illumination extend beyond the shorter gloss.
+POLY007	P	-	Both entries identify immaturity; one adds a Persian synonym.
+POLY008	C	PARTIAL_OVERLAP	Adding overlaps; causing growth adds a contextual application.
+POLY009	C	PARTIAL_OVERLAP	Wrong/unjust and bad/ugly overlap only partly; preserve evaluative context.
+POLY010	P	-	Both include suitability; the first supplies an additional near-synonym.
+POLY011	P	-	Spacing and synonymous expressions of certainty differ without a new demonstrated sense.
+POLY012	P	-	All supplied glosses express abundance or high quantity.
+POLY013	C	CONTEXT_MISSING	Lacking sensation/comprehension and having lost consciousness are not universally interchangeable.
+POLY014	C	NAMED_EPITHET	One entry explicitly identifies an epithet of Srosh; preserve that use separately from general righteousness.
+POLY015	F	COMPOUND_SCOPE	GBD11 combines a simple form and varzišnīh phrase; its gloss describes practicing righteousness.
+POLY016	F	COMPOUND_SCOPE	GBD15/16 contain kingship/harming phrases alongside a simple form; phrase glosses cannot label the isolated word.
+POLY017	P	-	The same raising/lifting synonyms appear in reversed order.
+POLY018	D	CONTEXT_MISSING	General/public and innumerable differ; retain cited Denkard references pending passage verification.
+POLY019	P	-	Both glosses express strength; one adds a synonym.
+POLY020	C	SOURCE_SPELLING_REVIEW	Growth and coming into existence overlap contextually; differing Persian headword spellings need source-page review.
+POLY021	D	CONTEXT_MISSING	Similarity and method/way are distinct published glosses; context is not supplied.
+POLY022	C	PARTIAL_OVERLAP	Evil/harm overlaps across sources, while suffering describes another contextual aspect.
+POLY023	D	GRAMMATICAL_ROLE	Usurper is an agent, whereas usurpation/theft are acts; do not flatten the grammatical difference.
+POLY024	C	PARTIAL_OVERLAP	Theft overlaps, but seizure/usurpation extends the first entry; retain each scope.
+POLY025	C	CONTEXT_MISSING	Inactive/motionless and helpless could reflect context or a source issue; supplied glosses do not resolve it.
+POLY026	D	HEADWORD_ALIGNMENT_CHECK	A named scribe and horse are incompatible as one unconditional target; inspect original glossary headwords.
+POLY027	C	PARTIAL_OVERLAP	Special overlaps; pure and exclusive qualifications must not disappear.
+POLY028	P	-	Finding and obtaining are presented as equivalent glosses here; retain provenance.
+POLY029	P	ORTHOGRAPHY_ONLY	Both say metal; Persian shadda is the only difference.
+POLY030	C	GRAMMATICAL_ROLE	Above/high and higher/superior differ in comparative force; inspect construction before choosing.
+POLY031	C	PARTIAL_OVERLAP	Binding overlaps; linking is an added contextual interpretation.
+POLY032	C	INTERNAL_POLYSEMY	Distribution overlaps, but DMX explicitly includes ordaining destiny as another sense.
+POLY033	P	-	Division, distribution and assigning shares form the same supplied sense cluster.
+POLY034	P	-	One entry explains the same Persian religious term with a synonym.
+POLY035	P	INTERNAL_POLYSEMY	Both preserve creation/making and predestination; matching lists must not erase their internal sense distinctions.
+POLY036	P	-	Both gloss cutting; the extra synonym reinforces that reading.
+POLY037	D	CONTEXT_MISSING	Section/part/delimitation and manifestation differ; preserve source readings pending passage evidence.
+POLY038	C	PARTIAL_OVERLAP	Carrying/taking overlaps; driving out and destroying require their own contexts.
+POLY039	D	HEADWORD_ALIGNMENT_CHECK	Respecting and desiring are separate published targets; check source headwords before interpreting the difference.
+POLY040	D	DOMAIN_SPECIFIC	Astrological exaltation must be distinguished from ordinary height or summit.
+POLY041	D	CONTEXT_MISSING	An occurrence/time and a shore are distinct published meanings, not contradictory annotations by default.
+POLY042	C	PARTIAL_OVERLAP	Grief and pain share suffering but differ in emotional/physical emphasis.
+POLY043	P	-	Both include affliction; one adds suffering as a near-synonym.
+POLY044	C	VOICE_VALENCY	Being saved overlaps; acquitting someone introduces a different participant structure.
+POLY045	D	HEADWORD_ALIGNMENT_CHECK	Salvation and division must remain separate pending source-headword and contextual verification.
+POLY046	D	INTERNAL_POLYSEMY	Being and becoming are separately stated; do not discard becoming when reconciling shorter entries.
+POLY047	D	INTERNAL_POLYSEMY	Being versus being/becoming is not a complete semantic duplicate.
+POLY048	C	PARTIAL_OVERLAP	Sign/trace overlap; remembrance/thought needs context connecting or separating the readings.
+POLY049	D	SOURCE_SPELLING_REVIEW	Other and again differ grammatically; DMX also contains apparent stray final fe in دیگرف.
+POLY050	C	REGISTER_RESTRICTION	One source specifies demonic speech; generic saying must not erase the register restriction.
+POLY051	P	-	Different Persian forms all explicitly denote harvesting/reaping.
+POLY052	P	-	Both gloss disrepute; the first adds its ordinary paraphrase.
+POLY053	C	PARTIAL_OVERLAP	Ill-fortuned overlaps; cursed adds a religious qualification requiring context.
+POLY054	P	-	Both identify ignorance; one adds a near-synonym.
+POLY055	D	INTERNAL_POLYSEMY	Both retain giving and creating; transfer belongs with giving, not a replacement for creation.
+POLY056	C	INTERNAL_POLYSEMY	Case/matter, law/justice, action and narrative/state need context-specific senses, not one gloss.
+POLY057	C	NUMBER	Created being overlaps, but one entry explicitly includes the plural; preserve number information.
+POLY058	C	GRAMMATICAL_ROLE	One entry labels a shortened infinitive; the bare دانست alone does not disambiguate its function.
+POLY059	D	MORPHOLOGY	Third-person indicative and plural/polite imperative are explicitly different analyses; preserve both with context.
+POLY060	C	PARTIAL_OVERLAP	Keeping/strengthening and regarding/having overlap only partly; source clauses are needed.
+POLY061	C	INTERNAL_POLYSEMY	Possession, keeping, considering and placing are distinct applications within longer entries.
+POLY062	C	INTERNAL_POLYSEMY	Keeping/having overlaps; considering, admitting and taking require separate contextual roles.
+POLY063	C	PARTIAL_OVERLAP	Duration/length overlaps; retain temporal versus dimensional scope where context distinguishes them.
+POLY064	C	PARTIAL_OVERLAP	Seeing overlaps; attending to is an additional contextual reading.
+POLY065	C	SOURCE_SPELLING_REVIEW	Love overlaps; inclination broadens meaning and دوشت is a source-text spelling requiring review.
+POLY066	D	GRAMMATICAL_ROLE	Other/different, except and otherwise have different syntactic functions.
+POLY067	P	SOURCE_SPELLING_REVIEW	First/foremost agrees; نخستف contains an apparent stray fe already present in XML.
+POLY068	P	-	Commanding/order-giving is the shared supplied sense; preserve published wording.
+POLY069	C	PARTIAL_OVERLAP	Good and righteous/pious differ in specificity and moral context.
+POLY070	C	INTERNAL_POLYSEMY	Taking, arresting, touching, accepting and obstructing cannot share one unconditional target; inspect متخر source spelling.
+POLY071	P	-	Saying, speaking and expressing form the same supplied gloss cluster.
+POLY072	P	SOURCE_SPELLING_REVIEW	Appointing agrees; کماشتن differs from گماشتن in the original source text and needs verification.
+POLY073	D	INTERNAL_POLYSEMY	Place and throne are separately published meanings despite shared گاه wording.
+POLY074	C	GRAMMATICAL_ROLE	Equivalent/equal and substitute/exchange differ in grammatical role and require context.
+POLY075	C	PARTIAL_OVERLAP	Vain/empty and foolish/ignorant overlap evaluatively, not as universal equivalents.
+POLY076	D	HOMOGRAPH_CANDIDATE	Always and flat/level must remain separate; supplied spellings alone cannot establish their historical relationship.
+POLY077	C	DOMAIN_SPECIFIC	Litigant/adversary and enemy/rival overlap, but legal participation is more specific.
+POLY078	C	CULTURAL_TERM	Different Persian afterlife analogies may be approximate; preserve the named Zoroastrian category and source.
+POLY079	C	GRAMMATICAL_ROLE	Opposite/adverse and enemy/opponent may differ in adjective/noun use; require sentence context.
+POLY080	C	INTERNAL_POLYSEMY	Planning/allocating overlap; estimating, judging and destroying extend beyond the shared cluster.
+POLY081	C	PARTIAL_OVERLAP	Accumulating overlaps; acquiring and gathering retain their contextual distinctions.
+POLY082	C	DOMAIN_SPECIFIC	A ritual category including detached hair/nails is more specific than general dirt/impurity.
+POLY083	C	SOURCE_SPELLING_REVIEW	Releasing overlaps; permitting/placing add senses, and هشتنف contains apparent stray fe.
+POLY084	C	INTERNAL_POLYSEMY	Allowing/releasing overlaps partly; abandonment, pardon, placement and appointment require distinct contexts.
+POLY085	C	CULTURAL_TERM	Lack of envy and favorable gaze overlap contextually; do not infer eye health or identical usage.
+POLY086	C	PARTIAL_OVERLAP	Equality and resemblance are related but not interchangeable in every construction.
+POLY087	C	REGISTER_RESTRICTION	Army overlaps, but the enemy qualifier must be preserved.
+POLY088	D	HOMOGRAPH_CANDIDATE	Consciousness and death are distinct published meanings; preserve the hōš/ōš form group intact.
+POLY089	D	INTERNAL_POLYSEMY	Good speech and a named heaven-level are explicitly separate applications within DMX341.
+POLY090	D	CONTEXT_MISSING	Scalp/dandruff versus floor/bottom are different published targets; retain ambiguity until context resolves it.
+POLY091	C	PARTIAL_OVERLAP	Had dug/uprooted overlaps; had destroyed is a contextual extension, not a universal substitute.
+POLY092	C	SOCIAL_ROLE	Girl/maiden and female servant denote different social qualifications; preserve source and context.
+POLY093	C	PARTIAL_OVERLAP	Doing overlaps; making adds a creation reading requiring context.
+POLY094	C	SOURCE_SPELLING_REVIEW	Doing overlaps; making broadens scope and نجام is a source-text defect requiring verification.
+POLY095	D	HEADWORD_ALIGNMENT_CHECK	Creating and tearing apart are distinct published targets; verify adjacent source headwords, not majority-vote them.
+POLY096	P	UNVOWELLED_PERSIAN	کشتن is ambiguous without vowels; paired کاشتن and explicit کِشتن support cultivation, not an invented killing sense.
+POLY097	C	PARTIAL_OVERLAP	Side/direction overlap; geographic region is broader and remains context-dependent.
+POLY098	P	-	Wanting and inclination are the supplied equivalent gloss cluster.
+POLY099	P	-	Wanting and wishing form the same supplied sense cluster.
+POLY100	C	PARTIAL_OVERLAP	Coming overlaps; manifestation is an added contextual reading.
+POLY101	C	DIMENSION	Greatest, tallest and longest share superlative force but measure different properties.
+POLY102	C	PARTIAL_OVERLAP	Count/account overlaps; the parenthesized idiom meaning of-this-kind requires its construction.
+POLY103	P	-	Number/count is shared across both entries with reordered synonyms.
+POLY104	D	GRAMMATICAL_ROLE	Wine is a noun; the other entry explicitly identifies a prohibitive particle.
+POLY105	P	-	Thought/thinking is the shared supplied meaning.
+POLY106	C	PARTIAL_OVERLAP	Complaint, suffering and oppression refer to different aspects; source contexts are needed.
+POLY107	C	PARTIAL_OVERLAP	Complaining overlaps; dissatisfaction may be broader than filing or voicing a complaint.
+POLY108	C	PARTIAL_OVERLAP	Touching/feeling and rubbing involve related actions but are not universally interchangeable.
+POLY109	C	PARTIAL_OVERLAP	House/dwelling overlaps; palace is a narrower kind of residence.
+POLY110	P	-	Both describe remaining/staying in place using near-equivalent Persian phrases.
+POLY111	P	-	Mating/intercourse is the shared supplied gloss cluster.
+POLY112	D	CONTEXT_MISSING	Thinking and becoming attached are distinct published readings requiring their own contexts.
+POLY113	D	HEADWORD_ALIGNMENT_CHECK	Urinating and sucking must stay separate; inspect adjacent GBD source entries before judging an error.
+POLY114	P	ORTHOGRAPHY_ONLY	Persian historical spellings all explicitly include writing; no added sense is demonstrated.
+POLY115	C	PARTIAL_OVERLAP	Being situated, becoming situated and being stranded differ in state/event implications.
+POLY116	C	PARTIAL_OVERLAP	Buried overlaps; hidden is an additional broader reading.
+POLY117	P	-	Concealing/hiding is the shared supplied sense.
+POLY118	P	METADATA_IN_GLOSS	Placing/setting down overlaps; DA etymological analysis must remain metadata, not a translation target.
+POLY119	C	VOICE_VALENCY	Showing, appearing and pretending differ in transitivity and implication; retain all published readings.
+POLY120	C	VOICE_VALENCY	Sitting, seating/settling someone and subsiding require distinct participant structures; do not equate them.
+POLY121	C	PARTIAL_OVERLAP	Leading overlaps; pulling, carrying and driving retain contextual differences.
+POLY122	P	-	Guiding and leading are the shared supplied gloss cluster.
+POLY123	D	CONTEXT_MISSING	Abundance and گردان differ; the latter is itself ambiguous without context or vocalization.
+POLY124	C	GRAMMATICAL_ROLE	Conversely and opposition/confrontation differ in syntactic use; retain the distinction pending context.
+POLY125	P	-	Accepting/receiving agrees; repetitions retain their source provenance without extra example counts.
+POLY126	C	HISTORICAL_LAYER	Two entries explicitly gloss avoidance; archaic پرهیختن alone needs contextual interpretation before equivalence.
+POLY127	C	INTERNAL_POLYSEMY	Avoidance, attention/care and defense are different published functions requiring context.
+POLY128	D	CONTEXT_MISSING	Moderation and specified/fixed are distinct published readings, not a single universal translation.
+POLY129	D	HOMOGRAPH_CANDIDATE	Bridge and penalty are distinct; two penalty glosses overlap without erasing the bridge reading.
+POLY130	C	UNVOWELLED_PERSIAN	Remaining/standing and پائیدن require context because the Persian gloss itself can be ambiguous.
+POLY131	P	-	Protection/support is the shared supplied sense cluster.
+POLY132	D	GRAMMATICAL_ROLE	Variegated is adjectival; member/limb is nominal. Preserve both source readings.
+POLY133	C	METADATA_IN_GLOSS	Going, resembling, occurring and continuing need separate contexts; DA root analysis is metadata.
+POLY134	C	PARTIAL_OVERLAP	Arriving overlaps; attending/dealing with adds a separate contextual construction.
+POLY135	P	-	The same two Persian glosses appear in reverse order.
+POLY136	C	PARTIAL_OVERLAP	Current/common overlaps; جاری can also carry a context-specific ongoing/flowing implication.
+POLY137	P	ORTHOGRAPHY_ONLY	Growth/sprouting agrees; vowel marks and Persian spelling vary.
+POLY138	P	-	Calming and giving tranquility are equivalent supplied paraphrases.
+POLY139	C	INTERNAL_POLYSEMY	Managing/arranging, directing and commanding overlap contextually but cannot be substituted globally.
+POLY140	C	DOMAIN_SPECIFIC	Pouring overlaps; making color is a specialized reading requiring attestation.
+POLY141	D	SOURCE_SPELLING_REVIEW	Being worthy and passing/perishing are distinct; duplicated final nun in رفتنن needs source verification.
+POLY142	C	PARTIAL_OVERLAP	Keeping away, pushing aside and defeating may align contextually; preserve direction and outcome.
+POLY143	P	ORTHOGRAPHY_ONLY	Both gloss taking/receiving through equivalent Persian infinitive forms.
+POLY144	C	PARTIAL_OVERLAP	Oppressive, harmful, bold and powerful overlap only partly; do not erase evaluative distinctions.
+POLY145	C	PARTIAL_OVERLAP	Dazed overlaps; numb and astonished may differ in physical/mental state.
+POLY146	C	INTERNAL_POLYSEMY	Stupidity, numbness, bewilderment, defeat and helplessness require contextual separation.
+POLY147	D	EXPLICIT_UNCERTAINTY	Carved adjective is explicitly questioned; shoulder is nominal. Preserve both roles and the question mark.
+POLY148	C	PARTIAL_OVERLAP	Boundary overlaps; measure, edge and endpoint add contextual scope.
+POLY149	C	METADATA_IN_GLOSS	Strong and brave are related, not identical; the suffix/root explanation is metadata.
+POLY150	P	-	Both gloss industriousness; the second adds a synonym.
+POLY151	D	CONTEXT_MISSING	Strand/hair and branch are separately published meanings requiring contextual selection.
+POLY152	C	PARTIAL_OVERLAP	Rushing overlaps; movement and flowing broaden the first entry.
+POLY153	D	METADATA_IN_GLOSS	A conjunction-plus-clitic analysis differs from dawn; grammatical explanation is not an ordinary sentence translation.
+POLY154	D	CONTEXT_MISSING	Spirit and growth/development are distinct published targets; retain both source readings.
+POLY155	D	CONTEXT_MISSING	Growing and shining/illuminating are distinct published targets requiring separate contexts.
+POLY156	C	PARTIAL_OVERLAP	Flying/wind overlaps; fanning and burning extend the longer entry.
+POLY157	C	PARTIAL_OVERLAP	Shooting an arrow is more specific than generic casting/throwing.
+POLY158	D	VOICE_VALENCY	Trembling versus causing trembling differ in participant structure, even with the same supplied source spelling.
+POLY159	D	CONTEXT_MISSING	Power and cultivation/agriculture are distinct published meanings; keep both.
+POLY160	D	CONTEXT_MISSING	Bird and wind/breeze are separately published readings, not interchangeable targets.
+POLY161	C	CULTURAL_TERM	Insects/reptiles and a religious category cannot be treated as coextensive without contextual evidence.
+POLY162	C	PARTIAL_OVERLAP	Ownership overlaps; authority/control adds a separate qualification.
+POLY163	C	GRAMMATICAL_ROLE	چشمه ای may be attributive or indefinite; source/origin is nominal. Context and vocalization are needed.
+POLY164	P	ORTHOGRAPHY_ONLY	Both say egg; space versus zero-width joiner is the difference.
+POLY165	C	PARTIAL_OVERLAP	Thing overlaps; property/possessions is an additional contextual sense.
+POLY166	C	INTERNAL_POLYSEMY	Calling/reading, naming and considering/counting as require distinct constructions.
+POLY167	C	DOMAIN_SPECIFIC	Praise, prayer recitation and worship overlap ritually but are not identical actions.
+POLY168	C	INTERNAL_POLYSEMY	Striking, harming and destroying differ in outcome and scope; preserve each reading.
+POLY169	C	VOICE_VALENCY	Striking/destroying versus defeat/destruction may differ as act and result; context must resolve it.
+POLY170	C	PARTIAL_OVERLAP	Destruction overlaps; harm/striking can be weaker or differently scoped.
+POLY171	C	PARTIAL_OVERLAP	Striking overlaps; killing specifies a stronger result and must remain qualified.
+POLY172	D	VOICE_VALENCY	Giving birth and being born differ in participant roles despite overlapping Persian forms.
+POLY173	D	VOICE_VALENCY	Giving birth and being born require different argument structures; preserve both attested glosses.
+POLY174	P	-	Both express pregnancy; the first adds a synonym.
+POLY175	P	-	Capable/able agree within the supplied gloss cluster.
+POLY176	P	-	Both express informing/making aware through equivalent Persian forms.
+POLY177	P	-	Both express making aware; preserve the complete infinitive/stem group.
+POLY178	C	PARTIAL_OVERLAP	Defect overlaps; disorder/malfunction may add context-specific scope.
+POLY179	C	PARTIAL_OVERLAP	Mixing overlaps; joining or being equipped introduces additional constructions.
+POLY180	C	VOICE_VALENCY	Expelling/rejection and distance/prevention differ as action, state and obstruction.
+POLY181	C	PARTIAL_OVERLAP	Arranging affairs is more specific than the potentially broader Persian آراستن.
+POLY182	P	-	Both explicitly gloss the act of bringing; retain explanatory wording as lexicographic text.
+POLY183	P	-	Both denote an age/time period through near-equivalent Persian wording.
+POLY184	C	INTERNAL_POLYSEMY	Nature overlaps; face, lineage/seed, foundation and essence require contextual separation.
+POLY185	C	GRAMMATICAL_ROLE	Reason/cause overlaps; manner/state and interrogative why differ in syntax and sense.
+POLY186	C	PARTIAL_OVERLAP	Picking/gathering overlaps; clearing/removing in برچیدن may require a distinct context.
+POLY187	P	-	Gathering/picking is the shared supplied sense cluster.
+POLY188	C	MORPHOLOGY	Both discuss an indefinite marker, but postnominal position and grammatical analysis must be preserved.
+POLY189	C	AUXILIARY_AND_SOURCE_TEXT	DMX explicitly distinguishes lexical standing from perfect auxiliaries; GBD also contains the suspect form مادن.
+POLY190	D	GRAMMATICAL_ROLE	Voice/sound is nominal; only/alone is restrictive. Preserve the separate readings.
+POLY191	C	SOURCE_SPELLING_REVIEW	Certain and certainly differ adjectivally/adverbially; محققاف includes an apparent stray fe.
+POLY192	D	UNVOWELLED_PERSIAN	دور may mean distant/period and عصر may denote afternoon/era; context is insufficient to resolve their relationship.
+POLY193	C	SOURCE_SPELLING_REVIEW	Falling overlaps; نحراب کردن is suspicious source wording and may imply a different participant structure.
+POLY194	C	HISTORICAL_GLOSS	One entry explicitly glosses swallowing; archaic equivalents in the other need source-context confirmation.
+POLY195	P	UNEXPLAINED_GLOSS_TOKEN	Killing agrees; اژون is unexplained and must not become an independently certified sense.
+POLY196	P	METADATA_IN_GLOSS	Killing agrees; preserve variant forms, compound illustration and unexplained اژون as source metadata.
+POLY197	C	PARTIAL_OVERLAP	Breaking overlaps; cutting adds contextual scope.
+POLY198	D	CONTEXT_MISSING	Defeat/fleeing and blooming are distinct published targets; verify source headwords before diagnosing error.
+POLY199	D	INTERNAL_POLYSEMY	Going and becoming must both be preserved; the shorter entry covers only going.
+POLY200	C	PARTIAL_OVERLAP	Way/method overlap; means, kind and state require contextual interpretation.

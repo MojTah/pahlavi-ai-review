@@ -1,0 +1,201 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "peak_allocated_bytes": 65898496,
+  "seconds": 2.139999999955762,
+  "cases": [
+    {
+      "device": "cpu",
+      "shape": [
+        1,
+        6,
+        256215
+      ],
+      "scale": 1.0,
+      "native_dtype": "torch.float32",
+      "native": 12.6096773147583,
+      "three_d": 12.609676837921143,
+      "flat": 12.609676837921143,
+      "reference64": 12.609672883277801,
+      "delta3": -4.76837158203125e-07,
+      "deltaflat": -4.76837158203125e-07
+    },
+    {
+      "device": "cpu",
+      "shape": [
+        1,
+        6,
+        256215
+      ],
+      "scale": 4.0,
+      "native_dtype": "torch.float32",
+      "native": 18.962186813354492,
+      "three_d": 18.962186495463055,
+      "flat": 18.962186495463055,
+      "reference64": 18.96223169950486,
+      "delta3": -3.1789143761784544e-07,
+      "deltaflat": -3.1789143761784544e-07
+    },
+    {
+      "device": "cpu",
+      "shape": [
+        1,
+        6,
+        256215
+      ],
+      "scale": 12.0,
+      "native_dtype": "torch.float32",
+      "native": 51.15460205078125,
+      "three_d": 51.154602686564125,
+      "flat": 51.154602686564125,
+      "reference64": 51.15460318231595,
+      "delta3": 6.357828752356909e-07,
+      "deltaflat": 6.357828752356909e-07
+    },
+    {
+      "device": "cpu",
+      "shape": [
+        2,
+        7,
+        256215
+      ],
+      "scale": 1.0,
+      "native_dtype": "torch.float32",
+      "native": 13.006633758544922,
+      "three_d": 13.006632725397745,
+      "flat": 13.006632725397745,
+      "reference64": 13.006628928135129,
+      "delta3": -1.0331471766988898e-06,
+      "deltaflat": -1.0331471766988898e-06
+    },
+    {
+      "device": "cpu",
+      "shape": [
+        2,
+        7,
+        256215
+      ],
+      "scale": 4.0,
+      "native_dtype": "torch.float32",
+      "native": 20.753456115722656,
+      "three_d": 20.753456513086956,
+      "flat": 20.753456513086956,
+      "reference64": 20.753499374681404,
+      "delta3": 3.9736429968684206e-07,
+      "deltaflat": 3.9736429968684206e-07
+    },
+    {
+      "device": "cpu",
+      "shape": [
+        2,
+        7,
+        256215
+      ],
+      "scale": 12.0,
+      "native_dtype": "torch.float32",
+      "native": 57.409305572509766,
+      "three_d": 57.40930334726969,
+      "flat": 57.40930334726969,
+      "reference64": 57.409303672820556,
+      "delta3": -2.225240073983059e-06,
+      "deltaflat": -2.225240073983059e-06
+    },
+    {
+      "device": "cuda",
+      "shape": [
+        1,
+        6,
+        256215
+      ],
+      "scale": 1.0,
+      "native_dtype": "torch.float32",
+      "native": 12.947916984558105,
+      "three_d": 12.93389336268107,
+      "flat": 12.93389336268107,
+      "reference64": 12.933893249499508,
+      "delta3": -0.014023621877035097,
+      "deltaflat": -0.014023621877035097
+    },
+    {
+      "device": "cuda",
+      "shape": [
+        1,
+        6,
+        256215
+      ],
+      "scale": 4.0,
+      "native_dtype": "torch.float32",
+      "native": 20.17708396911621,
+      "three_d": 20.16759951909383,
+      "flat": 20.16759951909383,
+      "reference64": 20.16759940963319,
+      "delta3": -0.009484450022380742,
+      "deltaflat": -0.009484450022380742
+    },
+    {
+      "device": "cuda",
+      "shape": [
+        1,
+        6,
+        256215
+      ],
+      "scale": 12.0,
+      "native_dtype": "torch.float32",
+      "native": 54.79166793823242,
+      "three_d": 54.78248532613118,
+      "flat": 54.78248532613118,
+      "reference64": 54.78248543844616,
+      "delta3": -0.009182612101241716,
+      "deltaflat": -0.009182612101241716
+    },
+    {
+      "device": "cuda",
+      "shape": [
+        2,
+        7,
+        256215
+      ],
+      "scale": 1.0,
+      "native_dtype": "torch.float32",
+      "native": 13.390625,
+      "three_d": 13.394375324249268,
+      "flat": 13.394375324249268,
+      "reference64": 13.39437526643331,
+      "delta3": 0.003750324249267578,
+      "deltaflat": 0.003750324249267578
+    },
+    {
+      "device": "cuda",
+      "shape": [
+        2,
+        7,
+        256215
+      ],
+      "scale": 4.0,
+      "native_dtype": "torch.float32",
+      "native": 21.97916603088379,
+      "three_d": 22.00063641866048,
+      "flat": 22.00063641866048,
+      "reference64": 22.000636461759246,
+      "delta3": 0.021470387776691524,
+      "deltaflat": 0.021470387776691524
+    },
+    {
+      "device": "cuda",
+      "shape": [
+        2,
+        7,
+        256215
+      ],
+      "scale": 12.0,
+      "native_dtype": "torch.float32",
+      "native": 60.25,
+      "three_d": 60.26369571685791,
+      "flat": 60.26369571685791,
+      "reference64": 60.263695360546706,
+      "delta3": 0.013695716857910156,
+      "deltaflat": 0.013695716857910156
+    }
+  ]
+}

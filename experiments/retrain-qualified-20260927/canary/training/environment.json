@@ -1,0 +1,20 @@
+{
+  "system": "Linux",
+  "machine": "x86_64",
+  "python": "3.12.3",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.13.1",
+    "peft": "0.21.0",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.14.0",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "1.23.0",
+    "safetensors": "0.8.0"
+  },
+  "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+  "gpu": {
+    "name": "NVIDIA A100-SXM4-80GB",
+    "bytes": 85093777408
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "scope": "Raw source archive, NOT training data",
+  "requested_cap_per_collection": 10000,
+  "collections": [
+    {
+      "collection": "acpv1_7",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/acpv1_7/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "retrieved_utc": "2026-09-28T12:34:58.366128+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/acpv1_7/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/f5e0105db5dbf59d9ad294db5325ca2728674072322bcdf38c302e7156c9b0eb.source",
+        "sha256": "c81863ead46fdd863d97a2a6f0549445a346d7bc6499a3cea677264841928c6e",
+        "bytes": 937594
+      },
+      "entries": 2602,
+      "unique_ids": 2602,
+      "with_xml": 2602,
+      "status": "BELOW_CAP_NOT_COMPLETENESS_PROOF"
+    },
+    {
+      "collection": "afnan",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/afnan/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "retrieved_utc": "2026-09-28T12:41:12.413694+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/afnan/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/870c384ff8db268f6998b7469841d2580440b15f4054029406fbca9dc71f44b1.source",
+        "sha256": "f7f6dd1ee3e47aa98fa27dbf838db697a762dc92573ad45a4c8f90d6a5ba8fc0",
+        "bytes": 88657
+      },
+      "entries": 324,
+      "unique_ids": 324,
+      "with_xml": 324,
+      "status": "BELOW_CAP_NOT_COMPLETENESS_PROOF"
+    },
+    {
+      "collection": "awn",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/awn/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "retrieved_utc": "2026-09-28T12:41:13.355101+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/awn/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/c36358340f358ff911120e74ccf3118ffedefb0a86d13e8548caf53dde939079.source",
+        "sha256": "817d8278df6d8d0c1694b05a89dda8176b13afded0af7f768cef1d8ce6fc60cc",
+        "bytes": 96294
+      },
+      "entries": 366,
+      "unique_ids": 366,
+      "with_xml": 366,
+      "status": "BELOW_CAP_NOT_COMPLETENESS_PROOF"
+    },
+    {
+      "collection": "cpd",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "retrieved_utc": "2026-09-28T12:41:14.752573+00:00",
+        "status": "failed",
+        "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      },
+      "status": "FETCH_FAILED"
+    },
+    {
+      "collection": "cpd_de",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/cpd_de/restful/entries?field=trc&query=%2A&query_type=wildcard&size=10000",
+        "retrieved_utc": "2026-09-28T12:41:15.296055+00:00",
+        "status": "failed",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      "status": "FETCH_FAILED"
+    }
+  ],
+  "stop_reason": "Access or rate-limit response; no automatic retry",
+  "download_bytes": 1122545
+}

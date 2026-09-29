@@ -1,0 +1,245 @@
+[
+  {
+    "id": "mpcd-corpus",
+    "title": "Zoroastrian Middle Persian Corpus and Dictionary (MPCD)",
+    "category": "annotated corpus and dictionary",
+    "institution": "Ruhr-Universität Bochum; Freie Universität Berlin; Universität zu Köln",
+    "researchers": ["Kianoosh Rezania", "Iris Colditz", "Thomas Jügel", "Raha Musavi", "Alberto Cantera", "Benedikt Peschl"],
+    "language_scope": "Zoroastrian Middle Persian in Book Pahlavi; Avestan links for Zand texts",
+    "data_type": "Manuscript-grounded transliteration, transcription, lemma, morphology, semantics, selected syntax",
+    "source_url": "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/MPCD/index.html",
+    "primary_evidence": [
+      {"url": "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/MPCD/index.html", "finding": "DFG project2021–2030; annotated Zoroastrian corpus and comprehensive dictionary; Zand receives Avestan word links."},
+      {"url": "https://dhday7.ub.rub.de/poster_2025MPCD.html", "finding": "September2025 poster describes approximately800,000tokens, multiple annotation layers and a Middle Persian–English dictionary."}
+    ],
+    "access_and_license": "Open-access aim is explicit; public bulk release, API accessibility and corpus reuse license not verified. Project-site direct requests returned403; indexed project pages and university pages were readable.",
+    "scale": "Approximately800,000tokens in project description; not verified as released downloadable volume.",
+    "translation_alignment": "Token meanings and Avestan–Pahlavi alignment; no verified800k-token English sentence-parallel corpus.",
+    "utility": "Inference: strongest institutional source for linguistic annotation, terminology and a future corpus partnership.",
+    "limitations": "Ongoing project; Zoroastrian domain differs from administrative and Manichaean texts.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "mpcd-kosh",
+    "title": "MPCD Kosh dictionaries and glossaries",
+    "category": "lexical retrieval",
+    "institution": "MPCD; Cologne Center for eHumanities",
+    "researchers": ["David Neil MacKenzie", "Daniel Kölligan", "Mahnaz Moazami", "Thomas Jügel", "Narges Eskandarnia", "Cemile Çelebi"],
+    "language_scope": "Middle Persian; definitions from multiple scholarly dictionaries",
+    "data_type": "XML lexical resources with normalized transcription and combined search",
+    "source_url": "https://www.mpcorpus.org/glossaries/",
+    "primary_evidence": [
+      {"url": "https://www.mpcorpus.org/glossaries/", "finding": "Some digitized dictionaries are public through Kosh; harmonized transcription follows MacKenzie1971. Listed resources include MacKenzie/Kölligan2012, Moazami2014/2020 and finite-verb/technical-term lists."},
+      {"url": "https://elex.link/ojs/index.php/elex/article/download/27/14/91", "finding": "Mondaca,Rezania,Čéplö,Neuefeind describe the corpus/lexicon platform and REST/GraphQL architecture."}
+    ],
+    "access_and_license": "Public search URL https://www.mpcorpus.org/kosh/; indexed documentation verified, live interactive search and bulk exports untested. No dataset reuse license verified.",
+    "scale": "Multiple dictionaries; entry total not established.",
+    "translation_alignment": "Lexical senses and attestations rather than sentence translations.",
+    "utility": "Inference: retrieve attested senses and verb forms before generating a translation.",
+    "limitations": "Public subset only; source dictionaries and normalization versions must remain attributable.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "mpcd-annotation",
+    "title": "MPCD annotation handbooks and methodology",
+    "category": "language standards and annotation tools",
+    "institution": "MPCD; Universität zu Köln; Ruhr-Universität Bochum; Freie Universität Berlin",
+    "researchers": ["MPCD team", "Francisco Mondaca", "Kianoosh Rezania", "Slavomír Čéplö", "Claes Neuefeind"],
+    "language_scope": "Middle Persian with explicitly separate spelling, pronunciation and lemma representations",
+    "data_type": "Text-encoding, morphology, syntax and lexicography handbooks; UD-compatible analysis",
+    "source_url": "https://www.mpcorpus.org/resources/",
+    "primary_evidence": [
+      {"url": "https://www.mpcorpus.org/resources/", "finding": "Handbooks adapt Universal Dependencies to Middle Persian morphology/syntax; paleography and lexicography guides are under construction."},
+      {"url": "https://www.mpcorpus.org/methodology/", "finding": "Dictionary-based preannotation is corrected by philologists; automatic and manually reviewed annotations remain distinguishable. Context disambiguates grammatical function and meaning."},
+      {"url": "https://gitlab.dh.uni-koeln.de/mpcd/handbooks/-/wikis/Handbook%20Morphology", "finding": "Official FU project links this GitLab handbook; rendered content was not available to the text browser."}
+    ],
+    "access_and_license": "Indexed public documentation; no verified downloadable licensed parser/treebank. Proposed neural replacement of rules is not evidence of an already released model.",
+    "scale": "No annotated-sentence total verified.",
+    "translation_alignment": "Contextual token senses and dependencies can support translation; not a translation benchmark.",
+    "utility": "Inference: reuse the annotation vocabulary and review workflow instead of inventing a Pahlavi schema.",
+    "limitations": "No measured translation gains reported by these resource pages.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "titus-middle-persian",
+    "title": "TITUS Middle Persian text collections",
+    "category": "digital textual corpus",
+    "institution": "Goethe-Universität Frankfurt; international academic contributors",
+    "researchers": ["Jost Gippert", "David Neil MacKenzie", "Carlo G. Cereti", "Thomas Jügel", "P. Oktor Skjærvø", "Desmond Durkin-Meisterernst"],
+    "language_scope": "Separate Zoroastrian, Manichaean and Christian Middle Persian collections; also Parthian and other languages",
+    "data_type": "UTF-8 HTML text, indexes, transliteration and sometimes transcription",
+    "source_url": "https://titus.uni-frankfurt.de/texte/texte2.htm",
+    "primary_evidence": [
+      {"url": "https://titus.uni-frankfurt.de/texte/texte2.htm", "finding": "Lists Bundahišn, Ardā-virāf, Dēnkard4–7, Kārnāmag, Mēnōg-i xrad, Yasna/Vispered and minor texts with contributor credits; unavailable desiderata are distinguished."},
+      {"url": "https://titus.uni-frankfurt.de/texte/textex.htm", "finding": "Downloadable texts permitted for attributed scholarly use; commercial use excluded; some access restricted."},
+      {"url": "https://titus.uni-frankfurt.de/titusstd.htm", "finding": "Restricted-access user declaration includes further copying/distribution conditions."}
+    ],
+    "access_and_license": "Public catalog; tested Kārnāmag/Ardā-virāf links reached legacy frames without extracted content. Scholarly noncommercial terms, not an unrestricted training-data license.",
+    "scale": "Numerous named works; verified token total unavailable.",
+    "translation_alignment": "Primarily source texts; no general English/Farsi parallel layer verified.",
+    "utility": "Inference: corpus coverage, passage identifiers and original-edition tracing.",
+    "limitations": "Overlaps other editions; preserve work-level provenance and distinguish languages.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "invisible-east-pahlavi",
+    "title": "Invisible East Digital Corpus: Middle Persian documents",
+    "category": "documentary parallel corpus",
+    "institution": "University of Oxford, Department for Continuing Education",
+    "researchers": ["Arezou Azad", "Thomas Benfey", "Dieter Weber", "Arash Zeini"],
+    "language_scope": "Middle Persian in Pahlavi script, filtered separately from New Persian and other corpus languages",
+    "data_type": "Transcription, transliteration, English translation, document/editor/publication metadata",
+    "source_url": "https://www.invisible-east.org/corpus/?filter_fk_primary_language=14",
+    "primary_evidence": [
+      {"url": "https://www.invisible-east.org/corpus/?filter_fk_primary_language=14", "finding": "Indexed language filter shows158records; offers DOCX,JSON,XML exports."},
+      {"url": "https://www.invisible-east.org/corpus/1024/", "finding": "Berk.67recto has four numbered source and English lines, editorThomasBenfey, Gold review status, referencesWeber2013/Benfey2024."},
+      {"url": "https://www.invisible-east.org/about/cite/", "finding": "Welcomes reuse with attribution, including original publication and contributing editors."},
+      {"url": "https://github.com/invisibleeast/invisible-east-website", "finding": "MIT website code documents full JSON export endpoint /corpus/downloaddata/json/."}
+    ],
+    "access_and_license": "Public records and advertised bulk export; export not downloaded. Data reuse invitation with attribution; MIT applies to website code, not automatically every adapted edition.",
+    "scale": "158MiddlePersian records in a3-week-old indexed response; not158verified complete translated documents. Other pages have newer total-corpus counts.",
+    "translation_alignment": "Numbered line alignment directly verified for one document; corpus-wide completeness unmeasured.",
+    "utility": "Inference: highest-priority candidate for new real parallel data and documentary holdouts.",
+    "limitations": "Uncertain readings survive in both texts; dates on sample have internal inconsistency; duplicate shelfmarks across collections require checking.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "openampd",
+    "title": "Open Archive of Middle Persian Documents",
+    "category": "digital scholarly editions",
+    "institution": "University of California, Berkeley",
+    "researchers": ["Adam Benkato"],
+    "language_scope": "Middle Persian documentary texts,3rd–8thcenturiesCE",
+    "data_type": "TEI Publisher editions and bibliography",
+    "source_url": "https://mp.melc.berkeley.edu/exist/apps/OpenAMPD/landing.html",
+    "primary_evidence": [
+      {"url": "https://melc.berkeley.edu/research/digital-projects", "finding": "Names AdamBenkato as leader; worldwide document-edition project remains in development."},
+      {"url": "https://mp.melc.berkeley.edu/exist/apps/OpenAMPD/landing.html", "finding": "Live retrieved landing page advertises152documents and CC BY-NC-SA4.0."},
+      {"url": "https://mp.melc.berkeley.edu/exist/apps/OpenAMPD/MP0024", "finding": "Document page exposes ePUB/XML options, but text extraction showed loading shell."}
+    ],
+    "access_and_license": "CC BY-NC-SA4.0 displayed. XML/DTS/API interfaces advertised; functional document exports and API access not tested.",
+    "scale": "152documents displayed; translation/annotation completeness unknown.",
+    "translation_alignment": "Not verified from extracted document content.",
+    "utility": "Inference: structured source editions and provenance, complementing Oxford documentary translations.",
+    "limitations": "Rendering errors prevent equating document count with usable parallel pairs; likely shared manuscript coverage must be audited.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "mirtext",
+    "title": "MIRTEXT / WMIRTEXT: published Manichaean Middle Persian and Parthian",
+    "category": "source corpus and dictionary evidence",
+    "institution": "Berlin-Brandenburg Academy of Sciences and Humanities; Manichaean Dictionary Project",
+    "researchers": ["Desmond Durkin-Meisterernst", "Samuel N. C. Lieu", "David Neil MacKenzie", "Werner Sundermann"],
+    "language_scope": "Middle Persian and Parthian in Manichaean script; occasional Sogdian/Uighur explicitly distinguished",
+    "data_type": "Unicode diplomatic/composite editions with manuscript and publication references",
+    "source_url": "https://turfan.bbaw.de/texte/mirtext.html",
+    "primary_evidence": [
+      {"url": "https://turfan.bbaw.de/texte-en/mirtext.html", "finding": "Describes checked published texts underpinning Durkin-Meisterernst2004 dictionary; duplicates combined, unpublished texts excluded."},
+      {"url": "https://turfan.bbaw.de/bilder/mirtext-2.pdf", "finding": "German-page download successfully opens a1,303-page text PDF with language markers and line/manuscript references."}
+    ],
+    "access_and_license": "Public PDF; no corpus reuse license verified. English-page /bilder-en/mirtext.pdf link is404; German-page link works.",
+    "scale": "1,303PDFpages; uniqueMiddlePersian token count not measured.",
+    "translation_alignment": "No English/Farsi sentence alignment verified in this corpus file.",
+    "utility": "Inference: substantial authentic monolingual material and lexical attestation source.",
+    "limitations": "Mixed languages, reconstructed passages and composite witnesses; editorial markers must remain meaningful.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "turfan-mp-german",
+    "title": "BBAW selected Manichaean Middle Persian texts with German translations",
+    "category": "scholarly parallel reader",
+    "institution": "Berlin-Brandenburg Academy of Sciences and Humanities, Turfanforschung",
+    "researchers": ["Turfanforschung editorial team", "David Neil MacKenzie and W. B. Henning cited as underlying editors"],
+    "language_scope": "Manichaean Middle Persian; one section also includes Sogdian",
+    "data_type": "Transliteration, phonological transcription, German translation and commentary",
+    "source_url": "https://turfan.bbaw.de/bilder/texte/textempdeutsch.pdf",
+    "primary_evidence": [
+      {"url": "https://turfan.bbaw.de/texte-en/iranische-texte-in-der-turfansammlung.html", "finding": "Official academy index links translated texts by language."},
+      {"url": "https://turfan.bbaw.de/bilder/texte/textempdeutsch.pdf", "finding": "Readable23-page PDF; five headings include Mani’s last audience,M3; Šābuhragān; gospel beginning; magical text; omen text. Opening passages give consecutive source/transcription/German renderings."}
+    ],
+    "access_and_license": "Public PDF; no explicit text reuse license verified.",
+    "scale": "23pages; five named sections; aligned-pair count unmeasured.",
+    "translation_alignment": "Passage-level three-layer correspondence directly observed; German target.",
+    "utility": "Inference: expert alignment seed, semantic test passages, or reviewed German-to-English/Farsi bridge.",
+    "limitations": "Machine-translated target bridge would be synthetic; first-page compiler attribution not explicit; overlaps MIRTEXT.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "pahlavi-psalter-comparison",
+    "title": "Pahlavi Psalter arranged by textual units, glossary and index (2012)",
+    "category": "comparative edition and cautionary alignment example",
+    "institution": "Berlin-Brandenburg Academy of Sciences and Humanities, Turfanforschung",
+    "researchers": ["Desmond Durkin-Meisterernst", "Andreas–Barr cited for Syriac interlinear text"],
+    "language_scope": "Christian Middle Persian; Syriac, Greek and English comparison texts",
+    "data_type": "Pahlavi textual units with multilingual parallels, glossary and index",
+    "source_url": "https://turfan.bbaw.de/bilder/texte/psaltermpsyrgrengversesglossarysept2012.pdf",
+    "primary_evidence": [
+      {"url": "https://turfan.bbaw.de/bilder/texte/psaltermpsyrgrengversesglossarysept2012.pdf", "finding": "38-page academy-hosted summer-school edition explicitly states that the English column is KingJames, not a translation of the MiddlePersian text."}
+    ],
+    "access_and_license": "Public PDF; no explicit reuse license verified.",
+    "scale": "38pages; fragmentary text.",
+    "translation_alignment": "Shared biblical-unit references; English is a comparable parallel version, not gold source translation.",
+    "utility": "Inference: comparative interpretation and glossary; useful negative example for data-ingestion rules.",
+    "limitations": "Do not train MiddlePersian-to-English gold pairs simply by matching psalm numbers; lacunae and differing textual traditions matter.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "muya",
+    "title": "Multimedia Yasna: digital transcriptions and editions",
+    "category": "critical edition and reusable editorial workflow",
+    "institution": "SOAS University of London; University of Birmingham software collaboration",
+    "researchers": ["Almut Hintze", "Mehrbod Khanizadeh", "Céline Redard", "Benedikt Peschl", "Martina Palladino", "Martin Sievers", "Catherine Smith"],
+    "language_scope": "Primarily Avestan Yasna; Pahlavi translations/commentary and ritual directions in selected witnesses; Sanskrit version",
+    "data_type": "TEIP5 manuscript transcriptions, variants and critical apparatus",
+    "source_url": "https://muya.soas.ac.uk/tool/transcriptions-editions/",
+    "primary_evidence": [
+      {"url": "https://muya.soas.ac.uk/tool/transcriptions-editions/", "finding": "Explicit CC BY4.0; online/offline transcription editor produces TEIP5; CollateX and CollationEditor used. Bilingual commentary is distinguished from translation."}
+    ],
+    "access_and_license": "Transcriptions/editions CC BY4.0; https://transcriptions.soas.ac.uk/ linked, but returned no extracted content. Bulk export not verified.",
+    "scale": "Around30manuscript witnesses per Avestan edition;8for Sanskrit; no Pahlavi token/pair count established.",
+    "translation_alignment": "Historical Avestan–Pahlavi correspondence, distinct commentary; no general Pahlavi–English corpus verified.",
+    "utility": "Inference: licensed annotation and variant-aware editing model; supports separating translation from exegesis.",
+    "limitations": "Many witnesses repeat the same passage; manuscript count is not independent training-example count.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "cab",
+    "title": "Corpus Avesticum Berolinense (CAB)",
+    "category": "linked Avestan corpus and historical translation context",
+    "institution": "Freie Universität Berlin, Institute of Iranian Studies",
+    "researchers": ["Alberto Cantera", "CAB team", "Benedikt Peschl in MPCD collaboration"],
+    "language_scope": "Avestan, with linked MiddlePersian Zand through MPCD; not OldPersian or ModernPersian",
+    "data_type": "Linguistic/liturgical corpora, manuscript transcriptions, lexicon and ritual-context tools",
+    "source_url": "https://cab.geschkult.fu-berlin.de/exist/apps/cab/index.html",
+    "primary_evidence": [
+      {"url": "https://cab.geschkult.fu-berlin.de/exist/apps/cab/pages/about/introduction.html", "finding": "Official scope is editing the Avestan corpus within ritual context."},
+      {"url": "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/MPCD/index.html", "finding": "MPCD links Zand words to CAB Avestan text and lemmata."},
+      {"url": "https://cab.geschkult.fu-berlin.de/exist/apps/cab/pages/misc/disclaimer.html", "finding": "Disclaimer provides institutional copyright notice; no specific data license identified."}
+    ],
+    "access_and_license": "Public web tools; footer saysCC without a verified variant. Do not infer a CreativeCommons license; API/bulk release not verified.",
+    "scale": "Entire-corpus aim; accessible token total unverified.",
+    "translation_alignment": "Avestan source contextualizes Pahlavi translation and exegesis, not direct English/Farsi gold labels.",
+    "utility": "Inference: resolve Zand quotations, ritual vocabulary and source-text references.",
+    "limitations": "Avestan is a distinct language and is not interchangeable with MiddlePersian.",
+    "checked_date": "2026-09-25"
+  },
+  {
+    "id": "digital-turfan-archive",
+    "title": "Digital Turfan Archive and collection metadata",
+    "category": "manuscript provenance and edition discovery",
+    "institution": "Berlin-Brandenburg Academy of Sciences and Humanities; Staatsbibliothek zu Berlin; Göttingen Academy collaboration",
+    "researchers": ["Turfanforschung team", "Abdurishid Yakup, project head named on page"],
+    "language_scope": "Many languages/scripts; ManichaeanMiddlePersian and PahlaviPsalter are specific subsets",
+    "data_type": "Digitized fragments, shelfmarks and links to editions",
+    "source_url": "https://turfan.bbaw.de/dta-i-en.html",
+    "primary_evidence": [
+      {"url": "https://turfan.bbaw.de/dta-i-en.html", "finding": "Collection table distinguishes roughly3,500mixed-language M-group fragments from12PahlaviPsalter fragments; total collection approximately40,000fragments."}
+    ],
+    "access_and_license": "Public archive; page requires notice for publication/reproduction, permission for redistribution of reproductions and special commercial permission. No unrestricted data license established.",
+    "scale": "Mixed-language M-group~3,500fragments/3,606images; Psalter12fragments/22images; not translation-pair counts.",
+    "translation_alignment": "Images/metadata alone provide none.",
+    "utility": "Inference: preserve manuscript provenance, resolve duplicate witnesses and locate scholarly text editions; no OCR work proposed.",
+    "limitations": "Large image counts must not be advertised as available typed or translated corpora.",
+    "checked_date": "2026-09-25"
+  }
+]

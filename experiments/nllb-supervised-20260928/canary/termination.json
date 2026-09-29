@@ -1,0 +1,11 @@
+{
+  "job_id": "6aba1f4752d0dbd7f1da06a3",
+  "run_id": "3f445ed35bd94fe9b1724ef8cce2753e",
+  "submitted_utc": "2026-09-28T08:03:20.383138+00:00",
+  "terminal_utc": "2026-09-28T08:11:44.286524+00:00",
+  "terminal_stage": "CANCELED",
+  "elapsed_seconds_upper": 503.903386,
+  "rounded_minutes_upper": 9,
+  "recovered_before_termination": true,
+  "model_weights_downloaded": false
+}

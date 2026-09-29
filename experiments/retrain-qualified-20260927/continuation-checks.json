@@ -1,0 +1,21 @@
+{
+  "scope": "offline continuation schedule/budget critic",
+  "result": "PASS",
+  "hashes": {
+    "cloud_pilot/hf_continue.py": "443d6c5a01df3e047e1a39f48d9bc309c11f2016e47661d59190937ea678d1d5",
+    "cloud_pilot/test_hf_continue.py": "338d9f779a6e783f6efd2b70420f47b42228c4653da2b19ccb036a05574b6fbe"
+  },
+  "head_comparison": "Numerical recipe/model, runtime, dependency lock, preflight and PAL-REF pins unchanged",
+  "generated_bootstrap_sha256": {
+    "312": "bb0f8a332630374be996fe028c32c092a3ad3dbe04e03945c851af1105af2373",
+    "280": "2956011c2f998b041b7219a958250dd27ca7c6e2f919eea89d8f8bd987ad95ee"
+  },
+  "generated_helpers": "PASS for 280 and 312",
+  "budget_boundaries": "PASS USD10/USD25 including USD0.75 reserve and 11..150 minute bounds",
+  "focused_suite": "15/15 PASS in resources/local/hf-client-venv",
+  "limits": [
+    "No GPU training, actual checkpoint or cloud job executed",
+    "Old hf_dev_diagnostic remains deliberately pinned to old312 experiment; not eligible for new280 adapter",
+    "pre_submission_check validates timing/state only; pair with training_schedule for local row-derived check"
+  ]
+}

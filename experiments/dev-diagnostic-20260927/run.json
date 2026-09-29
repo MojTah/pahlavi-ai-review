@@ -1,0 +1,960 @@
+{
+  "diagnostic_id": "dev-diagnostic-20260927",
+  "inputs_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "model_id": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "base_files": {
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "config.json": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+    "generation_config.json": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de",
+    "model-00001-of-00002.safetensors": "eeef8791537bc04f110967c513149e037d2a9ae97d49add7291ebfa62806bbfa",
+    "model-00002-of-00002.safetensors": "018912220f559f7025d60333e0996183cd538aa77ad6f4988a89ce47be681f10",
+    "model.safetensors.index.json": "d4aff3b976d69c123a29d1c085d7ba4de1ac3f4ca1726a7f81e1b11462a64ea2",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+  },
+  "adapter_files": {
+    "adapter_config.json": "e481bc2a4d4031ca070c3099133a85b22aa5406cb11b4503e3c1873fa0f1bbb5",
+    "adapter_model.safetensors": "e329333a79a30e82dfad7a751939afa71529800570fb6f8b0cfac78427ec2827"
+  },
+  "adapter_step": 312,
+  "adapter_source_manifest_sha256": "4e88826bf911ab22e85a6a0b4ecfae131591c6edecbc34fff687af9b57a57a01",
+  "tokenizer_files": {
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633",
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4"
+  },
+  "runtime": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.13.1",
+      "peft": "0.21.0",
+      "bitsandbytes": "0.50.2",
+      "accelerate": "1.14.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.23.0",
+      "safetensors": "0.8.0"
+    },
+    "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "gpu": {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "bytes": 85093777408
+    }
+  },
+  "runner_sha256": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+  "protocol_helper_sha256": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+  "bundle_manifest_sha256": "496cd9af52b2167c1895ba00f942d0fbc2b6c8aa6bdb6c23dbcd661a5f9218c6",
+  "training_prompt": "Translate the following Middle Persian text in scholarly Latin transcription into Farsi. Return only the translation. Preserve negation, participants, names, numbers, and uncertainty. Do not invent missing context.\nSource:\n{text}",
+  "evaluation_system": "Translate the supplied text from Middle Persian (Pahlavi), scholarly Latin transcription into Persian (Farsi). Preserve its meaning, participants, negation, names, quantities, and uncertainty. Do not add explanations, citations, or facts. Return only the translation. For Middle Persian output, use scholarly Latin transcription. If you cannot translate it, return exactly [UNRESOLVED].",
+  "conditions": {
+    "D0": [
+      "base",
+      "training"
+    ],
+    "D1": [
+      "base",
+      "evaluation"
+    ],
+    "D2": [
+      "adapter",
+      "training"
+    ],
+    "D3": [
+      "adapter",
+      "evaluation"
+    ]
+  },
+  "schedule": [
+    "QUALITYDEV1-001:D0",
+    "QUALITYDEV1-001:D1",
+    "QUALITYDEV1-001:D3",
+    "QUALITYDEV1-001:D2",
+    "QUALITYDEV1-007:D1",
+    "QUALITYDEV1-007:D2",
+    "QUALITYDEV1-007:D0",
+    "QUALITYDEV1-007:D3",
+    "QUALITYDEV1-013:D2",
+    "QUALITYDEV1-013:D3",
+    "QUALITYDEV1-013:D1",
+    "QUALITYDEV1-013:D0",
+    "QUALITYDEV1-019:D3",
+    "QUALITYDEV1-019:D0",
+    "QUALITYDEV1-019:D2",
+    "QUALITYDEV1-019:D1",
+    "QUALITYDEV1-002:D1",
+    "QUALITYDEV1-002:D2",
+    "QUALITYDEV1-002:D0",
+    "QUALITYDEV1-002:D3",
+    "QUALITYDEV1-008:D2",
+    "QUALITYDEV1-008:D3",
+    "QUALITYDEV1-008:D1",
+    "QUALITYDEV1-008:D0",
+    "QUALITYDEV1-014:D3",
+    "QUALITYDEV1-014:D0",
+    "QUALITYDEV1-014:D2",
+    "QUALITYDEV1-014:D1",
+    "QUALITYDEV1-020:D0",
+    "QUALITYDEV1-020:D1",
+    "QUALITYDEV1-020:D3",
+    "QUALITYDEV1-020:D2",
+    "QUALITYDEV1-003:D2",
+    "QUALITYDEV1-003:D3",
+    "QUALITYDEV1-003:D1",
+    "QUALITYDEV1-003:D0",
+    "QUALITYDEV1-009:D3",
+    "QUALITYDEV1-009:D0",
+    "QUALITYDEV1-009:D2",
+    "QUALITYDEV1-009:D1",
+    "QUALITYDEV1-015:D0",
+    "QUALITYDEV1-015:D1",
+    "QUALITYDEV1-015:D3",
+    "QUALITYDEV1-015:D2",
+    "QUALITYDEV1-021:D1",
+    "QUALITYDEV1-021:D2",
+    "QUALITYDEV1-021:D0",
+    "QUALITYDEV1-021:D3",
+    "QUALITYDEV1-004:D3",
+    "QUALITYDEV1-004:D0",
+    "QUALITYDEV1-004:D2",
+    "QUALITYDEV1-004:D1",
+    "QUALITYDEV1-010:D0",
+    "QUALITYDEV1-010:D1",
+    "QUALITYDEV1-010:D3",
+    "QUALITYDEV1-010:D2",
+    "QUALITYDEV1-016:D1",
+    "QUALITYDEV1-016:D2",
+    "QUALITYDEV1-016:D0",
+    "QUALITYDEV1-016:D3",
+    "QUALITYDEV1-022:D2",
+    "QUALITYDEV1-022:D3",
+    "QUALITYDEV1-022:D1",
+    "QUALITYDEV1-022:D0",
+    "QUALITYDEV1-005:D0",
+    "QUALITYDEV1-005:D1",
+    "QUALITYDEV1-005:D3",
+    "QUALITYDEV1-005:D2",
+    "QUALITYDEV1-011:D1",
+    "QUALITYDEV1-011:D2",
+    "QUALITYDEV1-011:D0",
+    "QUALITYDEV1-011:D3",
+    "QUALITYDEV1-017:D2",
+    "QUALITYDEV1-017:D3",
+    "QUALITYDEV1-017:D1",
+    "QUALITYDEV1-017:D0",
+    "QUALITYDEV1-023:D3",
+    "QUALITYDEV1-023:D0",
+    "QUALITYDEV1-023:D2",
+    "QUALITYDEV1-023:D1",
+    "QUALITYDEV1-006:D1",
+    "QUALITYDEV1-006:D2",
+    "QUALITYDEV1-006:D0",
+    "QUALITYDEV1-006:D3",
+    "QUALITYDEV1-012:D2",
+    "QUALITYDEV1-012:D3",
+    "QUALITYDEV1-012:D1",
+    "QUALITYDEV1-012:D0",
+    "QUALITYDEV1-018:D3",
+    "QUALITYDEV1-018:D0",
+    "QUALITYDEV1-018:D2",
+    "QUALITYDEV1-018:D1",
+    "QUALITYDEV1-024:D0",
+    "QUALITYDEV1-024:D1",
+    "QUALITYDEV1-024:D3",
+    "QUALITYDEV1-024:D2"
+  ],
+  "schedule_method": "stratum 0..5, sorted works 103/112/138/517, ORDERS[(stratum+work_index)%4]",
+  "seed": 42,
+  "max_new_tokens": 4096,
+  "max_generation_seconds": 1200,
+  "eos_token_ids": [
+    1,
+    106,
+    50
+  ],
+  "decoding": "greedy",
+  "enable_thinking": false,
+  "fresh_context_each_case": true,
+  "retrieval": "none",
+  "scoring_performed": false,
+  "deadline_utc": "2026-09-27T03:56:57.377210+00:00",
+  "identity_sha256": "7c81fd48facafc7d7fb80f2d17f90f1a1a8bf3dffbee9f06a917079a15049867",
+  "status": "completed",
+  "scheduled_outputs": 96,
+  "attempted_outputs": 96,
+  "completed_outputs": 96,
+  "completed_cases": 24,
+  "unattempted_output_ids": [],
+  "case_metadata": [
+    {
+      "id": "QUALITYDEV1-001:D0",
+      "case_id": "QUALITYDEV1-001",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 67,
+      "output_tokens": 14
+    },
+    {
+      "id": "QUALITYDEV1-001:D1",
+      "case_id": "QUALITYDEV1-001",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 105,
+      "output_tokens": 14
+    },
+    {
+      "id": "QUALITYDEV1-001:D3",
+      "case_id": "QUALITYDEV1-001",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 105,
+      "output_tokens": 13
+    },
+    {
+      "id": "QUALITYDEV1-001:D2",
+      "case_id": "QUALITYDEV1-001",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 67,
+      "output_tokens": 16
+    },
+    {
+      "id": "QUALITYDEV1-007:D1",
+      "case_id": "QUALITYDEV1-007",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 115,
+      "output_tokens": 12
+    },
+    {
+      "id": "QUALITYDEV1-007:D2",
+      "case_id": "QUALITYDEV1-007",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 77,
+      "output_tokens": 15
+    },
+    {
+      "id": "QUALITYDEV1-007:D0",
+      "case_id": "QUALITYDEV1-007",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 77,
+      "output_tokens": 12
+    },
+    {
+      "id": "QUALITYDEV1-007:D3",
+      "case_id": "QUALITYDEV1-007",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 115,
+      "output_tokens": 14
+    },
+    {
+      "id": "QUALITYDEV1-013:D2",
+      "case_id": "QUALITYDEV1-013",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 89,
+      "output_tokens": 28
+    },
+    {
+      "id": "QUALITYDEV1-013:D3",
+      "case_id": "QUALITYDEV1-013",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 127,
+      "output_tokens": 32
+    },
+    {
+      "id": "QUALITYDEV1-013:D1",
+      "case_id": "QUALITYDEV1-013",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 127,
+      "output_tokens": 36
+    },
+    {
+      "id": "QUALITYDEV1-013:D0",
+      "case_id": "QUALITYDEV1-013",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 89,
+      "output_tokens": 43
+    },
+    {
+      "id": "QUALITYDEV1-019:D3",
+      "case_id": "QUALITYDEV1-019",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 151,
+      "output_tokens": 45
+    },
+    {
+      "id": "QUALITYDEV1-019:D0",
+      "case_id": "QUALITYDEV1-019",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 113,
+      "output_tokens": 50
+    },
+    {
+      "id": "QUALITYDEV1-019:D2",
+      "case_id": "QUALITYDEV1-019",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 113,
+      "output_tokens": 45
+    },
+    {
+      "id": "QUALITYDEV1-019:D1",
+      "case_id": "QUALITYDEV1-019",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 151,
+      "output_tokens": 48
+    },
+    {
+      "id": "QUALITYDEV1-002:D1",
+      "case_id": "QUALITYDEV1-002",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 108,
+      "output_tokens": 14
+    },
+    {
+      "id": "QUALITYDEV1-002:D2",
+      "case_id": "QUALITYDEV1-002",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 70,
+      "output_tokens": 12
+    },
+    {
+      "id": "QUALITYDEV1-002:D0",
+      "case_id": "QUALITYDEV1-002",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 70,
+      "output_tokens": 19
+    },
+    {
+      "id": "QUALITYDEV1-002:D3",
+      "case_id": "QUALITYDEV1-002",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 108,
+      "output_tokens": 11
+    },
+    {
+      "id": "QUALITYDEV1-008:D2",
+      "case_id": "QUALITYDEV1-008",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 102,
+      "output_tokens": 29
+    },
+    {
+      "id": "QUALITYDEV1-008:D3",
+      "case_id": "QUALITYDEV1-008",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 140,
+      "output_tokens": 29
+    },
+    {
+      "id": "QUALITYDEV1-008:D1",
+      "case_id": "QUALITYDEV1-008",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 140,
+      "output_tokens": 35
+    },
+    {
+      "id": "QUALITYDEV1-008:D0",
+      "case_id": "QUALITYDEV1-008",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 102,
+      "output_tokens": 32
+    },
+    {
+      "id": "QUALITYDEV1-014:D3",
+      "case_id": "QUALITYDEV1-014",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 150,
+      "output_tokens": 39
+    },
+    {
+      "id": "QUALITYDEV1-014:D0",
+      "case_id": "QUALITYDEV1-014",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 112,
+      "output_tokens": 45
+    },
+    {
+      "id": "QUALITYDEV1-014:D2",
+      "case_id": "QUALITYDEV1-014",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 112,
+      "output_tokens": 36
+    },
+    {
+      "id": "QUALITYDEV1-014:D1",
+      "case_id": "QUALITYDEV1-014",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 150,
+      "output_tokens": 41
+    },
+    {
+      "id": "QUALITYDEV1-020:D0",
+      "case_id": "QUALITYDEV1-020",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 142,
+      "output_tokens": 72
+    },
+    {
+      "id": "QUALITYDEV1-020:D1",
+      "case_id": "QUALITYDEV1-020",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 180,
+      "output_tokens": 65
+    },
+    {
+      "id": "QUALITYDEV1-020:D3",
+      "case_id": "QUALITYDEV1-020",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 180,
+      "output_tokens": 65
+    },
+    {
+      "id": "QUALITYDEV1-020:D2",
+      "case_id": "QUALITYDEV1-020",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 142,
+      "output_tokens": 58
+    },
+    {
+      "id": "QUALITYDEV1-003:D2",
+      "case_id": "QUALITYDEV1-003",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 75,
+      "output_tokens": 12
+    },
+    {
+      "id": "QUALITYDEV1-003:D3",
+      "case_id": "QUALITYDEV1-003",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 113,
+      "output_tokens": 12
+    },
+    {
+      "id": "QUALITYDEV1-003:D1",
+      "case_id": "QUALITYDEV1-003",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 113,
+      "output_tokens": 19
+    },
+    {
+      "id": "QUALITYDEV1-003:D0",
+      "case_id": "QUALITYDEV1-003",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 75,
+      "output_tokens": 13
+    },
+    {
+      "id": "QUALITYDEV1-009:D3",
+      "case_id": "QUALITYDEV1-009",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 145,
+      "output_tokens": 35
+    },
+    {
+      "id": "QUALITYDEV1-009:D0",
+      "case_id": "QUALITYDEV1-009",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 107,
+      "output_tokens": 36
+    },
+    {
+      "id": "QUALITYDEV1-009:D2",
+      "case_id": "QUALITYDEV1-009",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 107,
+      "output_tokens": 37
+    },
+    {
+      "id": "QUALITYDEV1-009:D1",
+      "case_id": "QUALITYDEV1-009",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 145,
+      "output_tokens": 31
+    },
+    {
+      "id": "QUALITYDEV1-015:D0",
+      "case_id": "QUALITYDEV1-015",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 134,
+      "output_tokens": 52
+    },
+    {
+      "id": "QUALITYDEV1-015:D1",
+      "case_id": "QUALITYDEV1-015",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 172,
+      "output_tokens": 58
+    },
+    {
+      "id": "QUALITYDEV1-015:D3",
+      "case_id": "QUALITYDEV1-015",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 172,
+      "output_tokens": 52
+    },
+    {
+      "id": "QUALITYDEV1-015:D2",
+      "case_id": "QUALITYDEV1-015",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 134,
+      "output_tokens": 53
+    },
+    {
+      "id": "QUALITYDEV1-021:D1",
+      "case_id": "QUALITYDEV1-021",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 214,
+      "output_tokens": 89
+    },
+    {
+      "id": "QUALITYDEV1-021:D2",
+      "case_id": "QUALITYDEV1-021",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 176,
+      "output_tokens": 78
+    },
+    {
+      "id": "QUALITYDEV1-021:D0",
+      "case_id": "QUALITYDEV1-021",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 176,
+      "output_tokens": 95
+    },
+    {
+      "id": "QUALITYDEV1-021:D3",
+      "case_id": "QUALITYDEV1-021",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 214,
+      "output_tokens": 86
+    },
+    {
+      "id": "QUALITYDEV1-004:D3",
+      "case_id": "QUALITYDEV1-004",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 112,
+      "output_tokens": 15
+    },
+    {
+      "id": "QUALITYDEV1-004:D0",
+      "case_id": "QUALITYDEV1-004",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 74,
+      "output_tokens": 18
+    },
+    {
+      "id": "QUALITYDEV1-004:D2",
+      "case_id": "QUALITYDEV1-004",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 74,
+      "output_tokens": 15
+    },
+    {
+      "id": "QUALITYDEV1-004:D1",
+      "case_id": "QUALITYDEV1-004",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 112,
+      "output_tokens": 16
+    },
+    {
+      "id": "QUALITYDEV1-010:D0",
+      "case_id": "QUALITYDEV1-010",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 132,
+      "output_tokens": 52
+    },
+    {
+      "id": "QUALITYDEV1-010:D1",
+      "case_id": "QUALITYDEV1-010",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 170,
+      "output_tokens": 51
+    },
+    {
+      "id": "QUALITYDEV1-010:D3",
+      "case_id": "QUALITYDEV1-010",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 170,
+      "output_tokens": 43
+    },
+    {
+      "id": "QUALITYDEV1-010:D2",
+      "case_id": "QUALITYDEV1-010",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 132,
+      "output_tokens": 43
+    },
+    {
+      "id": "QUALITYDEV1-016:D1",
+      "case_id": "QUALITYDEV1-016",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 179,
+      "output_tokens": 66
+    },
+    {
+      "id": "QUALITYDEV1-016:D2",
+      "case_id": "QUALITYDEV1-016",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 141,
+      "output_tokens": 69
+    },
+    {
+      "id": "QUALITYDEV1-016:D0",
+      "case_id": "QUALITYDEV1-016",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 141,
+      "output_tokens": 73
+    },
+    {
+      "id": "QUALITYDEV1-016:D3",
+      "case_id": "QUALITYDEV1-016",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 179,
+      "output_tokens": 69
+    },
+    {
+      "id": "QUALITYDEV1-022:D2",
+      "case_id": "QUALITYDEV1-022",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 230,
+      "output_tokens": 128
+    },
+    {
+      "id": "QUALITYDEV1-022:D3",
+      "case_id": "QUALITYDEV1-022",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 268,
+      "output_tokens": 117
+    },
+    {
+      "id": "QUALITYDEV1-022:D1",
+      "case_id": "QUALITYDEV1-022",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 268,
+      "output_tokens": 142
+    },
+    {
+      "id": "QUALITYDEV1-022:D0",
+      "case_id": "QUALITYDEV1-022",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 230,
+      "output_tokens": 135
+    },
+    {
+      "id": "QUALITYDEV1-005:D0",
+      "case_id": "QUALITYDEV1-005",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 83,
+      "output_tokens": 22
+    },
+    {
+      "id": "QUALITYDEV1-005:D1",
+      "case_id": "QUALITYDEV1-005",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 121,
+      "output_tokens": 22
+    },
+    {
+      "id": "QUALITYDEV1-005:D3",
+      "case_id": "QUALITYDEV1-005",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 121,
+      "output_tokens": 18
+    },
+    {
+      "id": "QUALITYDEV1-005:D2",
+      "case_id": "QUALITYDEV1-005",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 83,
+      "output_tokens": 17
+    },
+    {
+      "id": "QUALITYDEV1-011:D1",
+      "case_id": "QUALITYDEV1-011",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 220,
+      "output_tokens": 89
+    },
+    {
+      "id": "QUALITYDEV1-011:D2",
+      "case_id": "QUALITYDEV1-011",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 182,
+      "output_tokens": 93
+    },
+    {
+      "id": "QUALITYDEV1-011:D0",
+      "case_id": "QUALITYDEV1-011",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 182,
+      "output_tokens": 100
+    },
+    {
+      "id": "QUALITYDEV1-011:D3",
+      "case_id": "QUALITYDEV1-011",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 220,
+      "output_tokens": 91
+    },
+    {
+      "id": "QUALITYDEV1-017:D2",
+      "case_id": "QUALITYDEV1-017",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 160,
+      "output_tokens": 80
+    },
+    {
+      "id": "QUALITYDEV1-017:D3",
+      "case_id": "QUALITYDEV1-017",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 198,
+      "output_tokens": 69
+    },
+    {
+      "id": "QUALITYDEV1-017:D1",
+      "case_id": "QUALITYDEV1-017",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 198,
+      "output_tokens": 100
+    },
+    {
+      "id": "QUALITYDEV1-017:D0",
+      "case_id": "QUALITYDEV1-017",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 160,
+      "output_tokens": 104
+    },
+    {
+      "id": "QUALITYDEV1-023:D3",
+      "case_id": "QUALITYDEV1-023",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 323,
+      "output_tokens": 156
+    },
+    {
+      "id": "QUALITYDEV1-023:D0",
+      "case_id": "QUALITYDEV1-023",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 285,
+      "output_tokens": 161
+    },
+    {
+      "id": "QUALITYDEV1-023:D2",
+      "case_id": "QUALITYDEV1-023",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 285,
+      "output_tokens": 159
+    },
+    {
+      "id": "QUALITYDEV1-023:D1",
+      "case_id": "QUALITYDEV1-023",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 323,
+      "output_tokens": 158
+    },
+    {
+      "id": "QUALITYDEV1-006:D1",
+      "case_id": "QUALITYDEV1-006",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 200,
+      "output_tokens": 84
+    },
+    {
+      "id": "QUALITYDEV1-006:D2",
+      "case_id": "QUALITYDEV1-006",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 162,
+      "output_tokens": 83
+    },
+    {
+      "id": "QUALITYDEV1-006:D0",
+      "case_id": "QUALITYDEV1-006",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 162,
+      "output_tokens": 85
+    },
+    {
+      "id": "QUALITYDEV1-006:D3",
+      "case_id": "QUALITYDEV1-006",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 200,
+      "output_tokens": 83
+    },
+    {
+      "id": "QUALITYDEV1-012:D2",
+      "case_id": "QUALITYDEV1-012",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 244,
+      "output_tokens": 136
+    },
+    {
+      "id": "QUALITYDEV1-012:D3",
+      "case_id": "QUALITYDEV1-012",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 282,
+      "output_tokens": 141
+    },
+    {
+      "id": "QUALITYDEV1-012:D1",
+      "case_id": "QUALITYDEV1-012",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 282,
+      "output_tokens": 154
+    },
+    {
+      "id": "QUALITYDEV1-012:D0",
+      "case_id": "QUALITYDEV1-012",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 244,
+      "output_tokens": 149
+    },
+    {
+      "id": "QUALITYDEV1-018:D3",
+      "case_id": "QUALITYDEV1-018",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 211,
+      "output_tokens": 71
+    },
+    {
+      "id": "QUALITYDEV1-018:D0",
+      "case_id": "QUALITYDEV1-018",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 173,
+      "output_tokens": 90
+    },
+    {
+      "id": "QUALITYDEV1-018:D2",
+      "case_id": "QUALITYDEV1-018",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 173,
+      "output_tokens": 75
+    },
+    {
+      "id": "QUALITYDEV1-018:D1",
+      "case_id": "QUALITYDEV1-018",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 211,
+      "output_tokens": 74
+    },
+    {
+      "id": "QUALITYDEV1-024:D0",
+      "case_id": "QUALITYDEV1-024",
+      "condition": "D0",
+      "status": "success",
+      "input_tokens": 341,
+      "output_tokens": 210
+    },
+    {
+      "id": "QUALITYDEV1-024:D1",
+      "case_id": "QUALITYDEV1-024",
+      "condition": "D1",
+      "status": "success",
+      "input_tokens": 379,
+      "output_tokens": 201
+    },
+    {
+      "id": "QUALITYDEV1-024:D3",
+      "case_id": "QUALITYDEV1-024",
+      "condition": "D3",
+      "status": "success",
+      "input_tokens": 379,
+      "output_tokens": 198
+    },
+    {
+      "id": "QUALITYDEV1-024:D2",
+      "case_id": "QUALITYDEV1-024",
+      "condition": "D2",
+      "status": "success",
+      "input_tokens": 341,
+      "output_tokens": 193
+    }
+  ]
+}

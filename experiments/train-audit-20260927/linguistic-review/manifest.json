@@ -1,0 +1,74 @@
+{
+  "status": "FROZEN_BEFORE_LINGUISTIC_REVIEWS",
+  "scope_rows": 2484,
+  "train_sha256": "844a5b64d43a423b69d5989527a53273290a43be15c399056c979f5abb0678a1",
+  "source_records_sha256": "3b3edf5550e95b13baaf9842ecaeaf53a50a0aa130d9a5dfe17d366ee62d7d43",
+  "partition": "Sort fullTRAINid ascending, split into eight consecutive groups using floor(k*n/8) boundaries. No model-output or performance selection.",
+  "reviewer_type": "AI provisional, not specialist certification",
+  "packets": [
+    {
+      "packet": 1,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-01/packet.jsonl",
+      "rows": 310,
+      "sha256": "48823d29e709fc7b8ed70bdb2575a2770c8334ecc2d86892a79872243a9c6fe3",
+      "first_id": "parsig:101000000:pal>fa",
+      "last_id": "parsig:133000125:pal>fa"
+    },
+    {
+      "packet": 2,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-02/packet.jsonl",
+      "rows": 311,
+      "sha256": "98d26e61a333bbadefe010d82f6b7eaff5113bd121e462134e775d017e03c1d2",
+      "first_id": "parsig:133000126:pal>fa",
+      "last_id": "parsig:134007037:pal>fa"
+    },
+    {
+      "packet": 3,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-03/packet.jsonl",
+      "rows": 310,
+      "sha256": "b3b6720ff9dbcf9e81b3fb2b67fb6296f38c7af257551ee36fc1ef1a7e837c0b",
+      "first_id": "parsig:134007038:pal>fa",
+      "last_id": "parsig:150000032:pal>fa"
+    },
+    {
+      "packet": 4,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-04/packet.jsonl",
+      "rows": 311,
+      "sha256": "b8efea418b0f132eeb6893201e22d5c6422c323a85772e8252e1e593ed3a7f29",
+      "first_id": "parsig:150000033:pal>fa",
+      "last_id": "parsig:151006005:pal>fa"
+    },
+    {
+      "packet": 5,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-05/packet.jsonl",
+      "rows": 310,
+      "sha256": "a389f1fbd28eb1f8a5466085dd0b23a3232149f2a6f899650ae3ac6ab0df5496",
+      "first_id": "parsig:151006006:pal>fa",
+      "last_id": "parsig:151026017:pal>fa"
+    },
+    {
+      "packet": 6,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-06/packet.jsonl",
+      "rows": 311,
+      "sha256": "ebd71122ac4054cd2c94081747463fb902a1baa78854c0e92344799fe2af34e7",
+      "first_id": "parsig:151026018:pal>fa",
+      "last_id": "parsig:151043006:pal>fa"
+    },
+    {
+      "packet": 7,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-07/packet.jsonl",
+      "rows": 310,
+      "sha256": "5a99d699f727dda95c8d5b2096f876cfbbf4be08775e9584a495c6e07bc0fa37",
+      "first_id": "parsig:151043008:pal>fa",
+      "last_id": "parsig:301004019:pal>fa"
+    },
+    {
+      "packet": 8,
+      "path": "experiments/train-audit-20260927/linguistic-review/packet-08/packet.jsonl",
+      "rows": 311,
+      "sha256": "faf0eb2e737e49093eeb1a9a9b25e7db598d43f649e5deed36a9a25e58f60c70",
+      "first_id": "parsig:301004020:pal>fa",
+      "last_id": "parsig:559000004:pal>fa"
+    }
+  ]
+}

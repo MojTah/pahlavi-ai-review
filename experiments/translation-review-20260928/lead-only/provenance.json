@@ -1,0 +1,84 @@
+{
+  "status": "LOCAL_BLIND_DEV72_PREPARED",
+  "contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "conditions": [
+    "nllb_initialized",
+    "nllb_trained",
+    "gemma280_plain"
+  ],
+  "seeds": {
+    "A": 2026092801,
+    "B": 2026092802
+  },
+  "outputs_per_reviewer": 72,
+  "expert_adjudicated": false,
+  "completion": {
+    "training_completed": true,
+    "nllb_all_48_first_attempts_recorded": true,
+    "conditions": {
+      "nllb_initialized": {
+        "attempted": 24,
+        "scheduled": 24,
+        "usable_execution": false
+      },
+      "nllb_trained": {
+        "attempted": 24,
+        "scheduled": 24,
+        "usable_execution": false
+      },
+      "gemma280_plain": {
+        "attempted": 24,
+        "scheduled": 24,
+        "usable_execution": true
+      }
+    },
+    "gemma_original_run_completed": true
+  },
+  "preparer_sha256": "2467ad0b84b757d964e643c97a224fabe536711e30a80acffdd1a474f5a7e6b9",
+  "reused_preparer_sha256": "dbb601e9ec806b4c4fe69c0fb39f2261d8e978441cf0fbf0975918ed4197153e",
+  "reused_scorer_sha256": "7dfa3ac29b038fb370f27a6afbfab6d6d2c733644a62c40fa26cac7e5bbeb5b5",
+  "source_files_sha256": {
+    "benchmarks/pal-reference-v1/manifest.json": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+    "benchmarks/pal-reference-v1/PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "benchmarks/pal-reference-v1/benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "benchmarks/pal-reference-v1/holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62"
+  },
+  "files": {
+    "lead-only/raw/COMPARATOR-CHECK.json": "6f8ab4bc9b5fa04a13a42fb9f28396a46fe231e3015ebebfab588122f82a2cf6",
+    "lead-only/raw/canary/recovered/manifest.json": "5f3d9760ea188364c433a84cfe592db0761ff2f95b2989e7d61dd9159bb0de5f",
+    "lead-only/raw/canary/recovery.json": "403334147dc954dc43acad9fe14bcedf52a7a7d55b443903db603b80b3bb5c68",
+    "lead-only/raw/canary/execution.json": "ea47d6eb13f422a905b27275ef84729b1610700cc5fcfeae7f5908bf8f41f722",
+    "lead-only/raw/canary/recovered/driver.log": "e7635379763ec646b78c11e8639f2e3b7dfab15a9133a350d2f541d02b88691d",
+    "lead-only/raw/canary/recovered/nllb/canary.json": "91ac4b15abcaf8c23bb68e990514d008d04af7d51605197016839fb3f1d81a59",
+    "lead-only/raw/canary/recovered/nllb/model/training-state.json": "0e9cd4564f57891caa9ad862fe3f922b05b7f93765a3b9b3f87d3fd35e9428e6",
+    "lead-only/raw/canary/recovered/nllb/predictions.jsonl": "c9cdcecf928ef728cb01fc85807186584adbddad02e7400dd68574c0c84777b2",
+    "lead-only/raw/canary/recovered/nllb/run.json": "40770be7d56f622692a7802719b43f260966bf429fe971cfd1892d9f7babbb3f",
+    "lead-only/raw/canary/recovered/nllb/schedule.json": "44c0a0446f80d84b6ae9e3702e60a28db56631e832984c6719ae5aaf41ee7939",
+    "lead-only/raw/canary/recovered/nllb/training.jsonl": "5f5cd7e3f2f610bdf93232f9ceda8d588b4645266a2ebe3326f2bfa3e254b3c2",
+    "lead-only/raw/canary/recovered/package-manifest.json": "3e6fe3f6a7327d1b725708c14b7c403a09be74592bd806fd0ddc6c2ead89de05",
+    "lead-only/raw/canary/recovered/status.json": "7fb19d5591f031b31ed7fcd63aa7fa421b64bb559551c57ca2e4b4edbfb1c180",
+    "lead-only/raw/continue/recovered/manifest.json": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349",
+    "lead-only/raw/continue/recovery.json": "da221d025b1b52f5e61ef51f1ae851d493f9ea9152dabaf53ea8a72af08e5e70",
+    "lead-only/raw/continue/execution.json": "0309b27e9988d35bdde01efc6f33110a9fbcaf7af9e3aba64fd9d6b145bfbd7b",
+    "lead-only/raw/continue/recovered/driver.log": "91a5f2fe44beba0735734744dbc32315fff25f0382ab52200d659ab0a2f45eba",
+    "lead-only/raw/continue/recovered/nllb/canary.json": "91ac4b15abcaf8c23bb68e990514d008d04af7d51605197016839fb3f1d81a59",
+    "lead-only/raw/continue/recovered/nllb/model/training-state.json": "b8c3dac8ad23f1c728bd1ca952a428da1c630eb7a54273c262b59762195817b3",
+    "lead-only/raw/continue/recovered/nllb/predictions.jsonl": "a2ade6820828a783fb64ec9a175de9e705b0bdf8f1c155884b77106a9de7a2c1",
+    "lead-only/raw/continue/recovered/nllb/run.json": "510ed88361e6c7661afecc0102d8af03b361bae4a985c8c9d2ffe00804867d23",
+    "lead-only/raw/continue/recovered/nllb/schedule.json": "44c0a0446f80d84b6ae9e3702e60a28db56631e832984c6719ae5aaf41ee7939",
+    "lead-only/raw/continue/recovered/nllb/training.jsonl": "88ccd21978bc1e40ecdd9995ae4067f126d3299b18f86882c344b639c6e85c96",
+    "lead-only/raw/continue/recovered/package-manifest.json": "3e6fe3f6a7327d1b725708c14b7c403a09be74592bd806fd0ddc6c2ead89de05",
+    "lead-only/raw/continue/recovered/status.json": "5685dda9d429492be8b1dee429fe7dd107d2a690287535fbfaa54276a19e82c6",
+    "lead-only/raw/gemma280/run.json": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca",
+    "lead-only/raw/gemma280/predictions.jsonl": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19",
+    "reviewer-A/packet.jsonl": "e5eb0d08c9f136279747d0f0050f53ba393c1ea283e095321a227a88b9ed9382",
+    "reviewer-A/INSTRUCTIONS.md": "c043cba95a5ab40d144df341d47c77ac44996afaf89223de0c4a27f77fe97672",
+    "reviewer-B/packet.jsonl": "4852d1c6802e5d14f396066ce2bfc69959e49fda95b4d813b11d0d487e1caf9c",
+    "reviewer-B/INSTRUCTIONS.md": "c043cba95a5ab40d144df341d47c77ac44996afaf89223de0c4a27f77fe97672",
+    "lead-only/mapping.jsonl": "99e0df51c0e658da170866b62f7c76e8c3bba15b1d743ed667661cfc142052bd"
+  }
+}

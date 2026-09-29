@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-28T10:35:40.631802+00:00",
+  "balance_usd": "12.12",
+  "period_usage_usd": "18.28",
+  "automatic_recharge_set": false,
+  "rate_micro_usd_per_minute": 41667,
+  "account": "Mojionix",
+  "source": "Authenticated Chrome billing page, refreshed immediately before this record; provider SDK rate and idle inventory in provider-precheck.json",
+  "billing_url": "https://huggingface.co/settings/billing",
+  "funded_cumulative_cap_usd": 25,
+  "diagnostic_allocation_usd": 1
+}

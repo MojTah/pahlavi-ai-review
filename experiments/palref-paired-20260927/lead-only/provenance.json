@@ -1,0 +1,972 @@
+{
+  "status": "LOCAL_PACKET_PREPARED",
+  "benchmark_manifest_sha256": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+  "comparability_sha256": "3ace6200dffd385aadf46a78bff3abd926b219279de622fa53f05a6d2d132a96",
+  "compared_fields": [
+    "benchmark_id",
+    "benchmark_manifest_sha256",
+    "original_inputs_sha256",
+    "source_only_inputs_sha256",
+    "model_id",
+    "model_revision",
+    "runtime",
+    "runner_sha256",
+    "base_files",
+    "tokenizer_files",
+    "chat_template_sha256",
+    "decoding",
+    "seed",
+    "max_new_tokens",
+    "max_generation_seconds",
+    "retrieval",
+    "fresh_context_each_case",
+    "system_prompt",
+    "rendered_system_instruction",
+    "enable_thinking",
+    "direction"
+  ],
+  "matching_inference_conditions": true,
+  "seeds": {
+    "A": 2026092701,
+    "B": 2026092702
+  },
+  "conditions": {
+    "previous": {
+      "directory": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\experiments\\palref-v1\\trained-20260927",
+      "run_sha256": "1ebb060597f59bda35f4e102a39b777ba6c29cc34ceacb7433de1af7c5d2101f",
+      "predictions_sha256": "fec20ebde33897c7103b7427d3a00ca2ca8f51b415a55b59db5f9ec1a4473396",
+      "run_identity": {
+        "adapter_sha256_or_none": "e329333a79a30e82dfad7a751939afa71529800570fb6f8b0cfac78427ec2827",
+        "adapter_files": {
+          "adapter_config.json": "e481bc2a4d4031ca070c3099133a85b22aa5406cb11b4503e3c1873fa0f1bbb5",
+          "adapter_model.safetensors": "e329333a79a30e82dfad7a751939afa71529800570fb6f8b0cfac78427ec2827"
+        },
+        "bundle_manifest_sha256": "61915990810fe4b85b0cdb679a2cfde9c77c3aa4178d570cf5b25a20ec250314",
+        "condition": "bf16-original-plus-adapter"
+      },
+      "case_metadata": [
+        {
+          "id": "PALREF1-001:pal>fa",
+          "input_tokens": 152,
+          "output_tokens": 37,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-002:pal>fa",
+          "input_tokens": 126,
+          "output_tokens": 20,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-003:pal>fa",
+          "input_tokens": 119,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-004:pal>fa",
+          "input_tokens": 123,
+          "output_tokens": 21,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-005:pal>fa",
+          "input_tokens": 142,
+          "output_tokens": 35,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-006:pal>fa",
+          "input_tokens": 131,
+          "output_tokens": 33,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-007:pal>fa",
+          "input_tokens": 141,
+          "output_tokens": 35,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-008:pal>fa",
+          "input_tokens": 146,
+          "output_tokens": 34,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-009:pal>fa",
+          "input_tokens": 164,
+          "output_tokens": 51,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-010:pal>fa",
+          "input_tokens": 163,
+          "output_tokens": 50,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-011:pal>fa",
+          "input_tokens": 112,
+          "output_tokens": 17,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-012:pal>fa",
+          "input_tokens": 158,
+          "output_tokens": 44,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-013:pal>fa",
+          "input_tokens": 210,
+          "output_tokens": 81,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-014:pal>fa",
+          "input_tokens": 128,
+          "output_tokens": 30,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-015:pal>fa",
+          "input_tokens": 144,
+          "output_tokens": 38,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-016:pal>fa",
+          "input_tokens": 127,
+          "output_tokens": 31,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-017:pal>fa",
+          "input_tokens": 134,
+          "output_tokens": 27,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-018:pal>fa",
+          "input_tokens": 118,
+          "output_tokens": 19,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-019:pal>fa",
+          "input_tokens": 112,
+          "output_tokens": 17,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-020:pal>fa",
+          "input_tokens": 162,
+          "output_tokens": 38,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-021:pal>fa",
+          "input_tokens": 180,
+          "output_tokens": 48,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-022:pal>fa",
+          "input_tokens": 133,
+          "output_tokens": 29,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-023:pal>fa",
+          "input_tokens": 153,
+          "output_tokens": 38,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-024:pal>fa",
+          "input_tokens": 122,
+          "output_tokens": 19,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-025:pal>fa",
+          "input_tokens": 123,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-026:pal>fa",
+          "input_tokens": 190,
+          "output_tokens": 61,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-027:pal>fa",
+          "input_tokens": 137,
+          "output_tokens": 19,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-028:pal>fa",
+          "input_tokens": 143,
+          "output_tokens": 33,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-029:pal>fa",
+          "input_tokens": 136,
+          "output_tokens": 29,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-030:pal>fa",
+          "input_tokens": 139,
+          "output_tokens": 35,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-031:pal>fa",
+          "input_tokens": 150,
+          "output_tokens": 40,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-032:pal>fa",
+          "input_tokens": 135,
+          "output_tokens": 28,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-033:pal>fa",
+          "input_tokens": 121,
+          "output_tokens": 18,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-034:pal>fa",
+          "input_tokens": 141,
+          "output_tokens": 30,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-035:pal>fa",
+          "input_tokens": 123,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-036:pal>fa",
+          "input_tokens": 116,
+          "output_tokens": 26,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-037:pal>fa",
+          "input_tokens": 125,
+          "output_tokens": 18,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-038:pal>fa",
+          "input_tokens": 144,
+          "output_tokens": 35,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-039:pal>fa",
+          "input_tokens": 151,
+          "output_tokens": 41,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-040:pal>fa",
+          "input_tokens": 168,
+          "output_tokens": 37,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        }
+      ],
+      "provenance_sha256": "a8c4c75ce1478e7a94eacfa3ffa789ba9dbbcba8aec93d219f1f525588504cc6",
+      "training_evidence": {
+        "training_status": {
+          "status": "training_complete",
+          "global_step": 312,
+          "adapter": "adapter",
+          "quality_validated": false,
+          "cloud_shutdown_performed": false
+        },
+        "training_metrics": {
+          "train_runtime": 5321.0695,
+          "train_samples_per_second": 0.934,
+          "train_steps_per_second": 0.059,
+          "total_flos": 1.3336123822777613e+17,
+          "train_loss": 0.9978322331339885,
+          "epoch": 2.0,
+          "global_step": 312,
+          "trainable_parameters": 122429440,
+          "peak_gpu_bytes": 31664674304
+        },
+        "continuation_status": {
+          "bundle_name": "cloud-pilot-20260926-hf-v5.zip",
+          "bundle_sha256": "6c686fa4a38ae2cf52b8c75de616f1717da02ae0a32206f8e7b541a3b4e27cbb",
+          "evaluator_name": "palref-eval-050a38880c68.py",
+          "evaluator_sha256": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+          "inputs_name": "palref-v1-pal-fa-inputs-0616b5083833.jsonl",
+          "inputs_sha256": "0616b50838339e9b520f06fe8b2ed9c0fd9b399b67c8f68cd680a62115a12f37",
+          "canary_run_id": "ed5c7590f57a4f97b63317e070aae3ee",
+          "canary_manifest_sha256": "130d29c27d7193573c2221a1beeb25363afbca9258b01da40ddb2a5bb8abaad5",
+          "admission_name": "continuation-admission-6298fe0efa7f.json",
+          "admission_sha256": "6298fe0efa7fb30aff10b2859b4dd4a849963e15400f7bfa28f446c6fc8e91c7",
+          "max_minutes": 150,
+          "run_id": "4c67a84cfc7e4e70a5f1e9e7b63072ac",
+          "bootstrap_hashes": {
+            "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+            "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+          },
+          "operation": "full_resume_and_palref",
+          "continuation_status": "complete",
+          "full_training_completed": true,
+          "training_reached_step_312": true,
+          "local_model_verified": false,
+          "max_export_bytes": 2026977088
+        },
+        "manifest_sha256": "4e88826bf911ab22e85a6a0b4ecfae131591c6edecbc34fff687af9b57a57a01",
+        "selected_artifact_recovery": {
+          "status": "post_termination_selected_sha_verified",
+          "manifest_sha256": "4e88826bf911ab22e85a6a0b4ecfae131591c6edecbc34fff687af9b57a57a01",
+          "files": {
+            "after/predictions.jsonl": {
+              "bytes": 13538,
+              "sha256": "fec20ebde33897c7103b7427d3a00ca2ca8f51b415a55b59db5f9ec1a4473396"
+            },
+            "after/run.json": {
+              "bytes": 10726,
+              "sha256": "cdc3c2d5278de1a358381d2e0a394d227dfbc038d3fe1a86cbdcb3dd453add42"
+            },
+            "canary-manifest.json": {
+              "bytes": 4495,
+              "sha256": "130d29c27d7193573c2221a1beeb25363afbca9258b01da40ddb2a5bb8abaad5"
+            },
+            "canary-provenance.json": {
+              "bytes": 2108,
+              "sha256": "997fb687f04c1c5fa23858d47727d1003d62d46aab5c0d117ecc135d918e8765"
+            },
+            "continuation-status.json": {
+              "bytes": 1237,
+              "sha256": "1bca02d512cb9d23655249b7bc4b887cfcda346cce244c058959a23f6ec1668f"
+            },
+            "controller-admission.json": {
+              "bytes": 863,
+              "sha256": "6298fe0efa7fb30aff10b2859b4dd4a849963e15400f7bfa28f446c6fc8e91c7"
+            },
+            "original-bundle-manifest.json": {
+              "bytes": 1825,
+              "sha256": "496cd9af52b2167c1895ba00f942d0fbc2b6c8aa6bdb6c23dbcd661a5f9218c6"
+            },
+            "original-contract.json": {
+              "bytes": 4769,
+              "sha256": "c5485a78c894795ff0ff69b0786eb28044e7ee47a3ecc2e2ecf25d30c2cd314f"
+            },
+            "projection.json": {
+              "bytes": 387,
+              "sha256": "0cad7a73b581d1821ebe954d24c8c2eb6c6a8c6f2fbfc212adeca54596a13ba4"
+            },
+            "readiness-evidence.json": {
+              "bytes": 1717,
+              "sha256": "fd194f634df848dc568a25be66893c7089c74d812130b45235301cc0f8c44707"
+            },
+            "resumed-bundle-manifest.json": {
+              "bytes": 1825,
+              "sha256": "61915990810fe4b85b0cdb679a2cfde9c77c3aa4178d570cf5b25a20ec250314"
+            },
+            "resumed-contract.json": {
+              "bytes": 4788,
+              "sha256": "aa589303208c2de1e2a8dc4f9dd54d8e20ca8d35c8cbe92cf5bcc41a9840d64f"
+            },
+            "training/adapter/README.md": {
+              "bytes": 5232,
+              "sha256": "83c5244a3d4daf2279789b272a40fe18243305e8393aa8a80d229aea6af4768a"
+            },
+            "training/adapter/adapter_config.json": {
+              "bytes": 1215,
+              "sha256": "e481bc2a4d4031ca070c3099133a85b22aa5406cb11b4503e3c1873fa0f1bbb5"
+            },
+            "training/checkpoint-312/README.md": {
+              "bytes": 5232,
+              "sha256": "83c5244a3d4daf2279789b272a40fe18243305e8393aa8a80d229aea6af4768a"
+            },
+            "training/checkpoint-312/adapter_config.json": {
+              "bytes": 1215,
+              "sha256": "e481bc2a4d4031ca070c3099133a85b22aa5406cb11b4503e3c1873fa0f1bbb5"
+            },
+            "training/checkpoint-312/rng_state.pth": {
+              "bytes": 14645,
+              "sha256": "7c800b778fa7e115e4c34de8529902de8b61c9a1b4bab3eb8295d06dafff030e"
+            },
+            "training/checkpoint-312/scheduler.pt": {
+              "bytes": 1465,
+              "sha256": "3ab45f3237b99dea92a44a1f3036e658811e98e89aad6401c71025ac496ab1c0"
+            },
+            "training/checkpoint-312/trainer_state.json": {
+              "bytes": 57909,
+              "sha256": "d056adac413568ae10962e2e12f4887075ffc4040e7a4f341744d315fc26b5a2"
+            },
+            "training/checkpoint-312/training_args.bin": {
+              "bytes": 5201,
+              "sha256": "c9897ce583ba876465ab3606b1520f43225080dc1c9f3095e84a002462115ddc"
+            },
+            "training/contract.json": {
+              "bytes": 4793,
+              "sha256": "1bb70a0e7f482b061d0bf647ef0f6d189ccbe36fb0ac5114f429026cefbf1a2f"
+            },
+            "training/environment.json": {
+              "bytes": 483,
+              "sha256": "429260153685f49c164921c00b386b215513a8ad81c54a1e758d05456f3d64a8"
+            },
+            "training/metrics.json": {
+              "bytes": 289,
+              "sha256": "ad393ab12094f3b5a60a5aa8aae534ff7ea8c7ee4ca998d3173d20427eaef82a"
+            },
+            "training/provenance.json": {
+              "bytes": 2108,
+              "sha256": "997fb687f04c1c5fa23858d47727d1003d62d46aab5c0d117ecc135d918e8765"
+            },
+            "training/resume-checkpoint.json": {
+              "bytes": 6017,
+              "sha256": "50b56a1ce8c33f5002b4300e1eb9a73f135ee2dc40a8abd591ef630cf61e8207"
+            },
+            "training/status.json": {
+              "bytes": 149,
+              "sha256": "b17eefb31c30a1dc31a7b8c588ea3783bb9b389df89cb447c84751f8b0a24605"
+            }
+          },
+          "large_files_pending": [
+            "training/adapter/adapter_model.safetensors",
+            "training/checkpoint-312/adapter_model.safetensors",
+            "training/checkpoint-312/optimizer.pt"
+          ],
+          "cases": 40,
+          "outcomes": {
+            "success": 40
+          },
+          "cloud_active_jobs": []
+        }
+      }
+    },
+    "candidate": {
+      "directory": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\experiments\\palref-v1\\qualified-20260927",
+      "run_sha256": "31851757809214362c8175d247d35055c04cb2090cc7c92b357858e248863d45",
+      "predictions_sha256": "a38cd914fee26fecf7757380b5c4798ea66a7b78298659222f5499ef88481a30",
+      "run_identity": {
+        "adapter_sha256_or_none": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+        "adapter_files": {
+          "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+          "adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf"
+        },
+        "bundle_manifest_sha256": "fa3b7b69e491779b2fca7a838344c05667a00278bb236cbf5b9fb24674871573",
+        "condition": "bf16-original-plus-adapter"
+      },
+      "case_metadata": [
+        {
+          "id": "PALREF1-001:pal>fa",
+          "input_tokens": 152,
+          "output_tokens": 35,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-002:pal>fa",
+          "input_tokens": 126,
+          "output_tokens": 19,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-003:pal>fa",
+          "input_tokens": 119,
+          "output_tokens": 15,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-004:pal>fa",
+          "input_tokens": 123,
+          "output_tokens": 23,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-005:pal>fa",
+          "input_tokens": 142,
+          "output_tokens": 37,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-006:pal>fa",
+          "input_tokens": 131,
+          "output_tokens": 31,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-007:pal>fa",
+          "input_tokens": 141,
+          "output_tokens": 33,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-008:pal>fa",
+          "input_tokens": 146,
+          "output_tokens": 33,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-009:pal>fa",
+          "input_tokens": 164,
+          "output_tokens": 51,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-010:pal>fa",
+          "input_tokens": 163,
+          "output_tokens": 46,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-011:pal>fa",
+          "input_tokens": 112,
+          "output_tokens": 14,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-012:pal>fa",
+          "input_tokens": 158,
+          "output_tokens": 48,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-013:pal>fa",
+          "input_tokens": 210,
+          "output_tokens": 80,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-014:pal>fa",
+          "input_tokens": 128,
+          "output_tokens": 30,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-015:pal>fa",
+          "input_tokens": 144,
+          "output_tokens": 40,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-016:pal>fa",
+          "input_tokens": 127,
+          "output_tokens": 30,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-017:pal>fa",
+          "input_tokens": 134,
+          "output_tokens": 27,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-018:pal>fa",
+          "input_tokens": 118,
+          "output_tokens": 20,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-019:pal>fa",
+          "input_tokens": 112,
+          "output_tokens": 16,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-020:pal>fa",
+          "input_tokens": 162,
+          "output_tokens": 35,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-021:pal>fa",
+          "input_tokens": 180,
+          "output_tokens": 48,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-022:pal>fa",
+          "input_tokens": 133,
+          "output_tokens": 30,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-023:pal>fa",
+          "input_tokens": 153,
+          "output_tokens": 40,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-024:pal>fa",
+          "input_tokens": 122,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-025:pal>fa",
+          "input_tokens": 123,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-026:pal>fa",
+          "input_tokens": 190,
+          "output_tokens": 63,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-027:pal>fa",
+          "input_tokens": 137,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-028:pal>fa",
+          "input_tokens": 143,
+          "output_tokens": 33,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-029:pal>fa",
+          "input_tokens": 136,
+          "output_tokens": 29,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-030:pal>fa",
+          "input_tokens": 139,
+          "output_tokens": 37,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-031:pal>fa",
+          "input_tokens": 150,
+          "output_tokens": 38,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-032:pal>fa",
+          "input_tokens": 135,
+          "output_tokens": 28,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-033:pal>fa",
+          "input_tokens": 121,
+          "output_tokens": 20,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-034:pal>fa",
+          "input_tokens": 141,
+          "output_tokens": 34,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-035:pal>fa",
+          "input_tokens": 123,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-036:pal>fa",
+          "input_tokens": 116,
+          "output_tokens": 17,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-037:pal>fa",
+          "input_tokens": 125,
+          "output_tokens": 22,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-038:pal>fa",
+          "input_tokens": 144,
+          "output_tokens": 40,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-039:pal>fa",
+          "input_tokens": 151,
+          "output_tokens": 41,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        },
+        {
+          "id": "PALREF1-040:pal>fa",
+          "input_tokens": 168,
+          "output_tokens": 54,
+          "hit_output_cap_without_eos": false,
+          "stop_reason": null
+        }
+      ],
+      "provenance_sha256": "f0197b1e573fab30ebf369987825efa31c25a56ca9a9d6b4ff991e98d796dbe7",
+      "training_evidence": {
+        "training_status": {
+          "status": "training_complete",
+          "global_step": 280,
+          "adapter": "adapter",
+          "quality_validated": false,
+          "cloud_shutdown_performed": false
+        },
+        "training_metrics": {
+          "train_runtime": 4887.4503,
+          "train_samples_per_second": 0.915,
+          "train_steps_per_second": 0.057,
+          "total_flos": 1.1181685178024352e+17,
+          "train_loss": 0.9861480697989464,
+          "epoch": 2.0,
+          "global_step": 280,
+          "trainable_parameters": 122429440,
+          "peak_gpu_bytes": 30080558080
+        },
+        "continuation_status": {
+          "bundle_name": "cloud-pilot-qualified-20260927.zip",
+          "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+          "evaluator_name": "palref-eval-050a38880c68.py",
+          "evaluator_sha256": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+          "inputs_name": "palref-v1-pal-fa-inputs-0616b5083833.jsonl",
+          "inputs_sha256": "0616b50838339e9b520f06fe8b2ed9c0fd9b399b67c8f68cd680a62115a12f37",
+          "canary_run_id": "aa880289a9614f80aaa5a430e53440ee",
+          "canary_manifest_sha256": "ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388",
+          "admission_name": "qualified-continuation-admission-513dc48cf10f.json",
+          "admission_sha256": "513dc48cf10fcba9578f3d1c6d0b6fd1947dc8461cb4b1e285bf7f48d3818d3a",
+          "max_minutes": 150,
+          "run_id": "1ae0f16dae9c4dffa36d15a24345fded",
+          "bootstrap_hashes": {
+            "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+            "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+          },
+          "expected_total_steps": 280,
+          "operation": "full_resume_and_palref",
+          "continuation_status": "complete",
+          "full_training_completed": true,
+          "completed_global_step": 280,
+          "training_schedule_completed": true,
+          "training_reached_step_312": false,
+          "local_model_verified": false,
+          "max_export_bytes": 2026978122
+        },
+        "manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+        "training_rows": 2237,
+        "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+        "qualification": {
+          "manifest_sha256": "a5031b6f2abe81b103fb0c863602a7441776efc5b4dccf11b2e1dc6a2050ec15",
+          "retained": 2237,
+          "quarantined": 247,
+          "expert_adjudicated": false
+        },
+        "selected_artifact_recovery": {
+          "status": "all_selected_files_full_sha_verified",
+          "job_id": "6ab8a8c66b030d633f698091",
+          "manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+          "files": {
+            "after/predictions.jsonl": {
+              "bytes": 13775,
+              "sha256": "a38cd914fee26fecf7757380b5c4798ea66a7b78298659222f5499ef88481a30"
+            },
+            "after/run.json": {
+              "bytes": 10726,
+              "sha256": "31851757809214362c8175d247d35055c04cb2090cc7c92b357858e248863d45"
+            },
+            "canary-manifest.json": {
+              "bytes": 4499,
+              "sha256": "ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388"
+            },
+            "canary-provenance.json": {
+              "bytes": 2108,
+              "sha256": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69"
+            },
+            "continuation-status.json": {
+              "bytes": 1354,
+              "sha256": "078c3cd1ede7cd9dc1a90e7591974261eac324d04dce7b8fef571013057ccc81"
+            },
+            "controller-admission.json": {
+              "bytes": 1040,
+              "sha256": "513dc48cf10fcba9578f3d1c6d0b6fd1947dc8461cb4b1e285bf7f48d3818d3a"
+            },
+            "original-bundle-manifest.json": {
+              "bytes": 1825,
+              "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+            },
+            "original-contract.json": {
+              "bytes": 5221,
+              "sha256": "2f974dca27dc8c68664efe6721f7f420a801513c6cf95d80aace8c18d5e940cc"
+            },
+            "projection.json": {
+              "bytes": 420,
+              "sha256": "801648cd497318f123f2a66f3916d8ecb73d48422005d33bb6a3a2887cc98ba4"
+            },
+            "readiness-evidence.json": {
+              "bytes": 1717,
+              "sha256": "cf9a40fdb177274cf96208487ab78a909dc4a6061a2966151b0dd79400a3160b"
+            },
+            "resumed-bundle-manifest.json": {
+              "bytes": 1825,
+              "sha256": "fa3b7b69e491779b2fca7a838344c05667a00278bb236cbf5b9fb24674871573"
+            },
+            "resumed-contract.json": {
+              "bytes": 5216,
+              "sha256": "406a07e78e13a0df26e316c3713b0a015296805aeb81c27fc4f209899bc78786"
+            },
+            "training/adapter/README.md": {
+              "bytes": 5232,
+              "sha256": "94c46ba388bcdeeda6b5e28e71add00decd5509d374f9083ceb2be7699974ba3"
+            },
+            "training/adapter/adapter_config.json": {
+              "bytes": 1215,
+              "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+            },
+            "training/checkpoint-280/README.md": {
+              "bytes": 5232,
+              "sha256": "94c46ba388bcdeeda6b5e28e71add00decd5509d374f9083ceb2be7699974ba3"
+            },
+            "training/checkpoint-280/adapter_config.json": {
+              "bytes": 1215,
+              "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+            },
+            "training/checkpoint-280/trainer_state.json": {
+              "bytes": 52179,
+              "sha256": "1ba7c18671c477722b69cabb4cc204b06bce6b784218588343b5a7f827b8ee20"
+            },
+            "training/contract.json": {
+              "bytes": 5221,
+              "sha256": "2f974dca27dc8c68664efe6721f7f420a801513c6cf95d80aace8c18d5e940cc"
+            },
+            "training/environment.json": {
+              "bytes": 483,
+              "sha256": "429260153685f49c164921c00b386b215513a8ad81c54a1e758d05456f3d64a8"
+            },
+            "training/metrics.json": {
+              "bytes": 289,
+              "sha256": "5327988bac7e0b68766bf63c15913675cd583c4fdfd36a06d381265e381f4473"
+            },
+            "training/provenance.json": {
+              "bytes": 2108,
+              "sha256": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69"
+            },
+            "training/resume-checkpoint.json": {
+              "bytes": 6447,
+              "sha256": "b33e43cfb9c724305228d3ac892ce34f87187127af65c166cbda4a3d14fdaba8"
+            },
+            "training/status.json": {
+              "bytes": 149,
+              "sha256": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"
+            }
+          },
+          "bytes": 129496,
+          "model_tensors_downloaded": false,
+          "cloud_terminal": true,
+          "training_completed_steps": 280,
+          "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+          "adapter_sha256": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+          "prediction_sha256": "a38cd914fee26fecf7757380b5c4798ea66a7b78298659222f5499ef88481a30",
+          "cumulative_compute_estimate_usd": 11.7482
+        }
+      }
+    }
+  },
+  "limitations": "Local packaging only. Cloud recovery, final training step, adapter tensors, and runtime execution are not independently verified here. Training/filtering/schedule effects are not isolated.",
+  "expert_adjudicated": false,
+  "reviewers": 2,
+  "outputs_per_reviewer": 80,
+  "first_attempt_evidence": "Present metadata checked; absent attempt fields cannot prove execution history.",
+  "helper_sha256": "f0fbcf7cbc54d75865ae340f9b873594ac59ab209df30b5399fc1feacfa0d806",
+  "rubric_protocol_sha256": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+  "comparison_protocol_sha256": "3e4690e6dca742e307d440ff4789f3039b35de3d1a9602ba68b2d04794c7afbc",
+  "packet_files": {
+    "reviewer-A/packet.jsonl": "d49350d6431ef305e7ec1e65e58501389223b370c97d0619f983054fcc18e68c",
+    "reviewer-A/INSTRUCTIONS.md": "79bfe018990a567c3b75b0142fcaf260e9f07ba3043b465d8d2e6b9a27a10526",
+    "reviewer-B/packet.jsonl": "6bb2599ee55fddc43a5a5942c8683a19a1a3b974fc08003a75e61ca6b75d4ea9",
+    "reviewer-B/INSTRUCTIONS.md": "79bfe018990a567c3b75b0142fcaf260e9f07ba3043b465d8d2e6b9a27a10526",
+    "lead-only/mapping.jsonl": "10f3d564a4ee0df9ae047dee15b3dc76991c08a2d0a6bc00f38d0b4c0dacb5a7"
+  }
+}

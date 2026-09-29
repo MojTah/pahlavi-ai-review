@@ -1,0 +1,8 @@
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.2.25
+    Uninstalling certifi-2026.2.25:
+      Successfully uninstalled certifi-2026.2.25
+  Attempting uninstall: cuda-bindings
+    Found existing installation: cuda-bindings 12.9.4
+    Uninstalling cuda-bindings-12.9.4:
+      Successfully uninstalled cuda-bindings-12.9.4

@@ -1,0 +1,31 @@
+# Translation model source audit — 25 September 2026
+
+This is a static source review, not an executed benchmark. Selection is based on prospective translation quality; hardware and corpus limits do not exclude candidates. Pahlavi adaptation remains unverified for every general translation checkpoint below.
+
+| Candidate | Why include it | Published interface / limitation | Approximate BF16 weights alone |
+|---|---|---|---:|
+| [Hy-MT2-30B-A3B](https://huggingface.co/tencent/Hy-MT2-30B-A3B) | Translation specialist with terminology and context instructions; modern Persian supported | Dedicated template and architecture; published full and LoRA adaptation recipes. Pahlavi is absent from the supported-language list. | 60 GB |
+| [TranslateGemma-27B](https://huggingface.co/google/translategemma-27b-it) | Larger Google translation specialist; include independently of laptop feasibility | Stock template requires source/target language codes and rejects unsupported values; model card specifies 2K input context. A Pahlavi adaptation needs deliberate language/template support. | About 54 GB using nominal 27B size; full artifact may be larger |
+| [Tower+-72B](https://huggingface.co/Unbabel/Tower-Plus-72B) | Large translation/instruction model, trained with linguistic post-edits and preference data | Published language list includes neither Persian nor Pahlavi. Keep as a transfer/reference-guided contender, with weaker direct language fit. Card has inconsistent noncommercial license labels; resolve exact license before deployment. | About 144–146 GB |
+| [MiLMMT-46-12B](https://github.com/xiaomi-research/gemmax) | New multilingual specialist with modern Persian; compare supervised v0.1 and post-trained v1.0 | Its public SFT and RL pipeline is useful implementation evidence. No Pahlavi support established. | 24 GB |
+| [Seed-X-7B](https://github.com/ByteDance-Seed/Seed-X-7B) | Additional translation and reward-model baseline | Follow its target-language suffix format; README explicitly discourages the normal chat template. | 14 GB |
+
+Memory estimates above are calculations, not measured GPU requirements: approximately two bytes per nominal parameter in decimal GB. They exclude KV cache, activations, temporary buffers, runtime overhead, and optimizer state. Hy-MT2's roughly 3B active parameters do not make its 30B stored weights occupy only 6 GB. Full training requires substantially more memory and compute than inference. No quantization is assumed for the quality comparison.
+
+## Actual files examined and consequences
+
+**Hy-MT2:** inspected [7B full-SFT YAML](https://github.com/Tencent-Hunyuan/Hy-MT2/blob/main/train/llama_factory_support/hy_dense_7b_full_sft.yaml), rather than relying only on its training README. It selects full fine-tuning, a model-specific template, ZeRO-3 offload, BF16, a 4,096-token cutoff, and a demo cap of 1,000 examples. Evaluation settings are commented out. These are demonstration defaults, not a validated Pahlavi recipe. Copying the cap or omitting validation would compromise our experiment. A GitHub API check returned main SHA `ff1903ecaa724e10951a23c16817a2413c752b35`; frozen-file browser fetches failed, so the inspected YAML is explicitly the live `main` view, not a verified content match to that SHA.
+
+**MiLMMT:** inspected [reward implementation](https://raw.githubusercontent.com/xiaomi-research/gemmax/main/scripts/rl/rewards/mt_dual_comet_reward.py) and [QE server](https://raw.githubusercontent.com/xiaomi-research/gemmax/main/scripts/rl/servers/qe_server.py). The reward function receives references but does not use them in its score. It averages reference-free xCOMET and CometKiwi scores, subject to a language gate. The [RL guide](https://github.com/xiaomi-research/gemmax/blob/main/scripts/rl/README.md) provides an implementation and a pinned `verl` revision; dataset creation/splitting/filtering is upstream of the launcher. Thus this is not an automatic method for creating trustworthy Pahlavi supervision.
+
+The [MiLMMT paper](https://arxiv.org/html/2608.10812v2) reports competitive modern-language results, but its main evaluation uses the same COMET families involved in optimization, alongside supplementary metrics. This is evidence worth testing, not an independent demonstration of Pahlavi meaning accuracy. Before applying its RL method, a Pahlavi-aware human test must establish that the reward ranks correct meaning above fluent mistranslations. Compare v0.1 and v1.0 rather than assuming reward optimization always improves the desired outcome.
+
+**Seed-X:** inspected [RM_demo.py](https://raw.githubusercontent.com/ByteDance-Seed/Seed-X-7B/main/RM_demo.py). It creates a Mistral model with a scalar output head and scores the EOS position of prompt-plus-candidate text. That is usable scoring-interface evidence, not evidence that the scorer understands Pahlavi. The repository's inference and reward artifacts do not constitute a reproduced end-to-end Pahlavi training pipeline.
+
+**Tower+:** the [primary paper](https://arxiv.org/html/2506.17080v1) describes continued pretraining, supervised instruction tuning and preference optimization, including professional linguists' post-edits. The transferable idea is to train on actual corrections of meaning errors. Its modern-language benchmarks do not establish Middle Persian competence. A larger model remains a contender; parameter count is not the selection criterion.
+
+## A strong reference-guided route also stays in the comparison
+
+The [Gemini 1.5 technical report](https://arxiv.org/html/2403.05530v5) provides a historical demonstration of translation into a scarcely represented language using a substantial grammar, dictionary and parallel examples in context. It includes human assessments and directional asymmetry. This supports testing a capable current long-context model with Pahlavi evidence, but does not identify today's best model or prove Pahlavi success. The later MTOB ablations in the companion research note help distinguish the benefit of example translations from grammatical prose.
+
+All sources were read publicly. No model was downloaded, no external model was called with project texts, no package was installed, and no training was launched in this audit.

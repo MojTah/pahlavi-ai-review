@@ -1,0 +1,27 @@
+# Contextual pilot server integration
+
+Local preparation checkpoint: `a720a51`. The12 source qualifications, fixed48-step comparison, token census and tested two-arm core are complete. Do not repeat source collection or change the merit function. Paid launch remains unadmitted.
+
+Mode: Agent Company for this integration phase. Two independent modules can proceed in parallel behind an explicit CLI; root integrates, External QA and External Judge separately review the exact final implementation. Prior local-source/core work remains its completed Classic + Critic checkpoint.
+
+- `/root/train_review_01`: sole writer of `cloud_pilot/contextual_run.py` and its test. Validate the frozen package, load/reset/train, release NF4 state, load BF16 once, switch the two saved adapters and record48 fixed first attempts.
+- `/root/qwen_penalty`: sole writer of `cloud_pilot/hf_contextual.py` and its test. Reuse checked bootstrap/extraction/export helpers; prepare the75-minute specification with bounded failure persistence. No submit, credentials or billing mutation.
+- `/root`: package identities, integration and eventual single-owner paid lifecycle. No other agent can launch, cancel, transfer cloud data or repair a running job.
+- External QA: `/root/final_external_judge`, independent of both implementation writers.
+- External Judge: `/root/train_review_03`, distinct from implementers and QA; its prior source/design advice is not approval of the new runtime.
+
+Expected local implementation12–15minutes per module, parallel; bounded independent QA/integration follows. Check stalled work from actual files/tests before extending estimates. No paid compute during this preparation. No package install or pretrained laptop weight download.
+
+CLI boundary: `contextual_run.py --bundle --base --tokenizer --adapter --package --package-manifest-sha256 --inputs --output --deadline-utc`. The wrapper validates/extracts the existing qualified bundle and new package, copies/verifies the original cloud adapter and downloads the base only on the server. The driver validates again before optimization. Final completed adapters and small closed partial evidence go through the existing bounded exporter; no automatic optimizer resume or retry.
+
+The prepared local package is `resources/local/contextual-run-package.zip`,34600bytes, SHA256 `bb3795d9a49927f333e8f565fc1b961c35d7069d9848a9649421ddf233243563`. Its manifest SHA256 is `7920e92e73bb1fee9d606b67c2055c0e114d225252d72bddcfb0071abbe7a7c1`. Cloud basename is `contextual-pilot-bb3795d9a499.zip`. It has seven data files plus manifest: source proposals/qualification, twelve masked auxiliary rows, ordinary IDs, ordered slots and the24 old plain prompt token identities. It contains no held-out answers or model weights. The verified transfer is recorded below and in input-transfer.json.
+
+Integration order: freeze both module hashes; execute exact package/tokenizer validation and bounded mutation/failure tests; validate generation switching/order/first-attempt evidence with model stubs and available tiny random-model checks; verify generated server command, native deadlines, mounts and partial export. Then obtain separate QA/Judge verdicts and pass the AgentCompany record gate. Preserve proof scope: local tests do not certify production NF4/BF16 GPU execution or successful cloud persistence.
+
+Before launch, freeze the exact source commit/package/specification/command, verify fresh live funded credit/rate/active jobs and theUSD3.625025 planning reservation, then transfer the one hash-bound package through the already approved private HF bucket. Reuse the existing root-owned controller's single-submission and persistence-verification pattern; never auto-resubmit after an ambiguous response. Provider-native timeout75minutes; compute3900seconds, internal4200seconds with export reserve, at most300seconds persistence wait. A passing runtime canary must precede meaningful updates on the real server; any failure stops and preserves evidence, without charging for repeated repairs.
+
+Done for this phase means a reviewed executable package ready for one bounded real launch, not improved translation. Improvement requires the subsequent unchanged blinded DEV comparison. Existing funded credit is authorized strategically; no top-up, new credential scope, Drive/email operation or premature local model delivery.
+
+The root controller is attended: root repeatedly observes the job, verifies committed export inventory and small-file SHA recovery, then explicitly stops the owned job and confirms its terminal state. It is not an unattended watchdog. Provider-native75minutes is the fallback; export/persistence windows are bounded even if the desktop disconnects. An ambiguous submission is never repeated; identified jobs are canceled, including if local execution-record writing fails. Live driver progress is streamed into provider logs and the saved driver log.
+
+Package transfer completed at13:42:41UTC,34600bytes, with committed Xet inventory and a full SHA256 download roundtrip; see input-transfer.json. No weights were transferred. At13:43UTC live provider inventory showed all16prior jobs terminal and the unchanged A100-large rate41667microUSD/minute. Authenticated billing read at13:41UTC showedUSD15.82credit,USD14.48usage,automaticrecharge unset. A fresh admission recheck is mandatory immediately before the single submission.

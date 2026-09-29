@@ -1,0 +1,23 @@
+{
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "run_id": "aa880289a9614f80aaa5a430e53440ee",
+  "bootstrap_hashes": {
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "output_prefix": "trials/aa880289a9614f80aaa5a430e53440ee",
+  "internal_seconds": 1500,
+  "export_reserve_seconds": 180,
+  "maximum_wait_seconds": 300,
+  "command_sha256": "83732496e581522991f085ba24df18c5f7c17fbd027fe0b5ae4e796ef88fce98",
+  "spec_sha256": "b70404af4b26803e2ef9d04534b83528dd908c7103ab6f1f54ffa53b37c43e1b",
+  "controller_sha256": "bc7d678796a0151d8d16d1c95d898556b5f6563632571109f6347906a9619531",
+  "source_commit": "8ad623cc4897c466a3b2515cf10123178f7059b4",
+  "training_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "training_rows": 2237,
+  "expected_total_steps": 280,
+  "prior_compute_estimate_usd": 7.12,
+  "budget_ceiling_usd": 25,
+  "qualification_manifest_sha256": "a5031b6f2abe81b103fb0c863602a7441776efc5b4dccf11b2e1dc6a2050ec15"
+}

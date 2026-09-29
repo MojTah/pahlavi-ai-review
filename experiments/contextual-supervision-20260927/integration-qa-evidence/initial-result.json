@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests": 15,
+  "failures": 0,
+  "errors": 0,
+  "windows_permission_retries": 0,
+  "native_tiny_peft": "PASS",
+  "generated_timeout_partial_export": "PASS",
+  "source_hashes": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "test_contextual_run.py": "0d5846f3b8d44e98efd55442f8300139f5b6a53058cd08bbdd2293b5d52b35f3",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "hf_contextual.py": "fe57a7af3dec67920ed400ffe2525a54e631bd7752cb0af6168f4e7a675ea29d",
+    "test_hf_contextual.py": "0e61b18c27a58f3032198fee439d4e8d92266f7cd55c026f8bbace7fc7132389"
+  }
+}

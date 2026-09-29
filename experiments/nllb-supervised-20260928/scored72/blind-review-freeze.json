@@ -1,0 +1,12 @@
+{
+  "A": {
+    "sha256": "906b382f4c1ee1766342ed7223e686316e48d060c26d363df205a86504496184",
+    "rows": 72,
+    "expert_adjudicated": false
+  },
+  "B": {
+    "sha256": "9febe5475cf3f3f4559c4d59fc8f9fe19b980c52a2806efe0c3a7b75135202ab",
+    "rows": 72,
+    "expert_adjudicated": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "frozen_before_unblinding_utc": "2026-09-28T09:55:00.727898+00:00",
+  "fork_turns": "none",
+  "expert_adjudicated": false,
+  "reviewers": {
+    "A": {
+      "agent": "/root/blind_dev72_a",
+      "rows": 72,
+      "sha256": "906b382f4c1ee1766342ed7223e686316e48d060c26d363df205a86504496184",
+      "result": "PASS",
+      "model_override": false,
+      "packet_sha256": "e5eb0d08c9f136279747d0f0050f53ba393c1ea283e095321a227a88b9ed9382"
+    },
+    "B": {
+      "agent": "/root/blind_dev72_b",
+      "rows": 72,
+      "sha256": "9febe5475cf3f3f4559c4d59fc8f9fe19b980c52a2806efe0c3a7b75135202ab",
+      "result": "PASS",
+      "model_override": false,
+      "packet_sha256": "4852d1c6802e5d14f396066ce2bfc69959e49fda95b4d813b11d0d487e1caf9c"
+    }
+  }
+}

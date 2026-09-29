@@ -1,0 +1,58 @@
+{
+  "model": {
+    "id": "google/gemma-4-31B-it",
+    "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+    "architecture": "Gemma4ForConditionalGeneration"
+  },
+  "training": {
+    "seed": 3407,
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0,
+    "learning_rate": 0.0001,
+    "micro_batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "num_train_epochs": 2,
+    "max_length": 2048,
+    "warmup_ratio": 0.03,
+    "save_steps": 20,
+    "logging_steps": 1,
+    "lr_scheduler_type": "linear",
+    "canary_max_steps": 20,
+    "compute_dtype": "bfloat16",
+    "quantization": "nf4_double_quant",
+    "train_vision": false,
+    "automatic_retry": false
+  },
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "runtime": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.13.1",
+      "peft": "0.21.0",
+      "bitsandbytes": "0.50.2",
+      "accelerate": "1.14.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.23.0",
+      "safetensors": "0.8.0"
+    },
+    "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "gpu": {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "bytes": 85093777408
+    }
+  },
+  "base_files": {
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "config.json": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+    "generation_config.json": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de",
+    "model-00001-of-00002.safetensors": "eeef8791537bc04f110967c513149e037d2a9ae97d49add7291ebfa62806bbfa",
+    "model-00002-of-00002.safetensors": "018912220f559f7025d60333e0996183cd538aa77ad6f4988a89ce47be681f10",
+    "model.safetensors.index.json": "d4aff3b976d69c123a29d1c085d7ba4de1ac3f4ca1726a7f81e1b11462a64ea2",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+  }
+}

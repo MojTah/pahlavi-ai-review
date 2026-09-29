@@ -1,0 +1,47 @@
+{
+  "resource_id": "kosh-staging-v4-20260928",
+  "status": "STAGED_NOT_TRAIN_ADMITTED",
+  "source_snapshot": "experiments/kosh-download-method-20260928/intake-complete-38686.json",
+  "source_snapshot_sha256": "7aac772fd6f062b5a96d709a7b30c7d5a0c29ce885658e384935cf3a5f9aad31",
+  "summary": "experiments/kosh-quality-20260928/summary-v4.json",
+  "verification": "experiments/kosh-quality-20260928/verification-v4.json",
+  "curation_agent": "experiments/kosh-quality-20260928/AGENT.md",
+  "local_output_directory": "resources/local/kosh-quality-20260928/complete-v4",
+  "historical_training_pairs": 2237,
+  "new_training_pairs_admitted": 0,
+  "notes": "Versioned local resource intake. Preserve all original evidence and edition layers. Never load staged/quarantined records as training without independent qualification and a new frozen manifest.",
+  "previous_version": {
+    "resource_id": "kosh-staging-v3-20260928",
+    "status": "STAGED_NOT_TRAIN_ADMITTED",
+    "source_snapshot": "experiments/kosh-download-method-20260928/intake-checkpoint-34539.json",
+    "source_snapshot_sha256": "857fc6951396d7e86d5e74a39416b3a6ab2c554125e8aea99fa6b0997421983f",
+    "summary": "experiments/kosh-quality-20260928/summary-v3.json",
+    "verification": "experiments/kosh-quality-20260928/verification-v3.json",
+    "curation_agent": "experiments/kosh-quality-20260928/AGENT.md",
+    "local_output_directory": "resources/local/kosh-quality-20260928/checkpoint-v3",
+    "historical_training_pairs": 2237,
+    "new_training_pairs_admitted": 0,
+    "notes": "Versioned local resource intake. Preserve all original evidence and edition layers. Never load staged/quarantined records as training without independent qualification and a new frozen manifest.",
+    "previous_version": {
+      "resource_id": "kosh-staging-v2-20260928",
+      "status": "STAGED_NOT_TRAIN_ADMITTED",
+      "source_snapshot": "experiments/kosh-download-method-20260928/intake-snapshot-5992.json",
+      "source_snapshot_sha256": "923a3c045ca8e1cbeaf96d64afdcab69874a990fce7343553038e480c41607f2",
+      "summary": "experiments/kosh-quality-20260928/summary-v2.json",
+      "verification": "experiments/kosh-quality-20260928/verification-v2.json",
+      "curation_agent": "experiments/kosh-quality-20260928/AGENT.md",
+      "local_output_directory": "resources/local/kosh-quality-20260928/expanded-v2",
+      "historical_training_pairs": 2237,
+      "new_training_pairs_admitted": 0,
+      "notes": "Versioned local resource intake. Preserve all original evidence and edition layers. Never load staged/quarantined records as training without independent qualification and a new frozen manifest.",
+      "expansion_snapshot": "experiments/kosh-download-method-20260928/size1000-pass-final.json",
+      "expansion_snapshot_sha256": "f7445e466c22ca315accdaadf494afd1f5953574c4a59ce822a5d674997768c0",
+      "previous_version": {
+        "resource_id": "kosh-staging-v1-20260928",
+        "summary": "experiments/kosh-quality-20260928/summary.json",
+        "verification": "experiments/kosh-quality-20260928/verification.json",
+        "local_output_directory": "resources/local/kosh-quality-20260928"
+      }
+    }
+  }
+}

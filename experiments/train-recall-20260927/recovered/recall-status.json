@@ -1,0 +1,39 @@
+{
+  "run_id": "b9a65cd416124617a68db6580349b32f",
+  "inputs_name": "train-recall-5a2b29c878b6.jsonl",
+  "inputs_sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "trained_prefix": "continuations/1ae0f16dae9c4dffa36d15a24345fded",
+  "trained_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "adapter_files": {
+    "training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "training/adapter/adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+    "training/provenance.json": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69",
+    "training/status.json": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"
+  },
+  "bootstrap_hashes": {
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "script_hashes": {
+    "train_recall.py": "8d2b56c2807c52d2f103faac252f8e90de4a2ca5ce9d1df6b9a2f05fdb9dc639",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "scheduled_outputs": 40,
+  "compute_seconds": 1440,
+  "internal_seconds": 1620,
+  "export_reserve_seconds": 180,
+  "maximum_wait_seconds": 180,
+  "operation": "qualified_train_recall",
+  "recall_status": "incomplete",
+  "evaluation_complete": false,
+  "training_performed": false,
+  "scoring_performed": false,
+  "quality_validated": false,
+  "local_model_verified": false,
+  "error_type": "CalledProcessError",
+  "error": "Command '['/usr/bin/python', '-u', '/tmp/pahlavi-train-recall-xgwdns0e/train_recall.py', '--bundle', '/tmp/pahlavi-train-recall-xgwdns0e/bundle', '--base', '/tmp/pahlavi-train-recall-xgwdns0e/base', '--tokenizer', '/tmp/pahlavi-train-recall-xgwdns0e/base', '--adapter', '/tmp/pahlavi-train-recall-xgwdns0e/training/adapter', '--inputs', '/input/train-recall-5a2b29c878b6.jsonl', '--inputs-sha256', '5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a', '--output', '/tmp/pahlavi-train-recall-xgwdns0e/evidence/recall', '--deadline-utc', '2026-09-27T11:37:38.823527+00:00']' returned non-zero exit status 1."
+}

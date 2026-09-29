@@ -1,0 +1,14 @@
+test_child_progress_reaches_stdout_and_log_before_child_finishes (cloud_pilot.test_hf_contextual.ContextualJobTests.test_child_progress_reaches_stdout_and_log_before_child_finishes) ... ok
+test_child_timeout_and_interruption_kill_and_reap_without_retry (cloud_pilot.test_hf_contextual.ContextualJobTests.test_child_timeout_and_interruption_kill_and_reap_without_retry) ... ok
+test_completion_rejects_partial_retry_duplicate_or_wrong_identity (cloud_pilot.test_hf_contextual.ContextualJobTests.test_completion_rejects_partial_retry_duplicate_or_wrong_identity) ... ok
+test_compressed_launcher_executes_in_real_python_with_unchanged_argv (cloud_pilot.test_hf_contextual.ContextualJobTests.test_compressed_launcher_executes_in_real_python_with_unchanged_argv) ... ok
+test_compressed_transport_preserves_exact_prior_program_and_all_other_argv (cloud_pilot.test_hf_contextual.ContextualJobTests.test_compressed_transport_preserves_exact_prior_program_and_all_other_argv) ... ok
+test_export_bound_is_enforced_without_copying_base (cloud_pilot.test_hf_contextual.ContextualJobTests.test_export_bound_is_enforced_without_copying_base) ... ok
+test_generated_success_and_partial_failure_export (cloud_pilot.test_hf_contextual.ContextualJobTests.test_generated_success_and_partial_failure_export) ... ok
+test_invalid_run_id_and_changed_package_rejected (cloud_pilot.test_hf_contextual.ContextualJobTests.test_invalid_run_id_and_changed_package_rejected) ... ok
+test_specification_is_fixed_native_bound_and_never_constructs_client (cloud_pilot.test_hf_contextual.ContextualJobTests.test_specification_is_fixed_native_bound_and_never_constructs_client) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 6.178s
+
+OK

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_RANDOM_TINY_CPU_ONLY",
+  "torch": "2.11.0+cu128",
+  "tokenizer_evidence_sha256": "cb82776256b9822214658566b8ffa7dd558e337c58aba5dc1fea8e993eaf7416",
+  "script_sha256": "024cd2ec3d6ed75f95c2ced778f76080ba1339d47808e7b700c903b5f9a8faf5",
+  "original_embedding_rows": 256206,
+  "final_embedding_rows": 256215,
+  "original_rows_preserved_before_training": true,
+  "input_output_encoder_decoder_tied": true,
+  "source_initialization": "mean of original language-tag embeddings",
+  "character_initialization": "mean of original non-special embedding rows",
+  "source_language_count": 202,
+  "finite_loss": 12.47960090637207,
+  "source_row_gradient_abs_sum": 6.906058115419e-05,
+  "padding_only_mask": true,
+  "forced_persian_bos": true,
+  "save_reload_generation_identical": true,
+  "limitations": [
+    "Random tiny CPU model, synthetic token pairs and one update only.",
+    "No pretrained weights, translation quality, real GPU memory or throughput tested.",
+    "New source-row gradient includes the tied output-head contribution; not isolated source conditioning."
+  ]
+}

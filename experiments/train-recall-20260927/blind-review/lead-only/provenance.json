@@ -1,0 +1,40 @@
+{
+  "purpose": "SEEN_TRAIN_RECALL_ONLY",
+  "source_files_sha256": {
+    "experiments/train-recall-20260927/inputs.jsonl": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+    "experiments/train-audit-20260927/qualified-v1/train.jsonl": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+    "experiments/train-recall-20260927/references.local.jsonl": "7146aaa3173b2795f18fc231675453f34fd0ed50703c0386a0a5224af0d5bd06",
+    "experiments/train-recall-20260927/token-audit.json": "2b1632e86f504ddea2a44f736d00997fb14b67c7710b5a874b9abf42766d6b16",
+    "experiments/grounded-supervision-20260927/qualification-decision.json": "e466aa2bc1b2129e802605ff60882b550b1517a6b2c9ffba84b1419a8bc8fdd6",
+    "experiments/grounded-supervision-20260927/contrast-qualification.json": "ee7d06f3c3746c4dbe7c78c70ff5c9b5b8b68e10044563c68f9036292e68db68",
+    "experiments/grounded-supervision-20260927/lexical-packet.jsonl": "60fc03d2b93549e31435f06b1011d570802654572c5a0099004ca5339d461a83",
+    "experiments/grounded-supervision-20260927/DIRECTIVE-PILOT.json": "c74482c97eff39759356c44ddb6c1f3a4b21c3dcf0a4ff34c484e4e554db4cf9",
+    "experiments/grounded-supervision-20260927/CONTRAST-PILOT.json": "21b614cfd9082d5a30e0e9576dd9e6f4f3ee6ec25d49579fd449a44717bf27ec"
+  },
+  "preparer_sha256": "79fbfb3f2cfc73a2cf770f30aabd19463dacc3c5f4f6ef8055199813ec897a0b",
+  "runner_sha256": "8d2b56c2807c52d2f103faac252f8e90de4a2ca5ce9d1df6b9a2f05fdb9dc639",
+  "seeds": {
+    "A": 2026092801,
+    "B": 2026092802
+  },
+  "completion": {
+    "complete": false,
+    "declared_status": "incomplete",
+    "recorded_outputs": 25,
+    "recovered_prediction_lines": 25,
+    "attempted_outputs": 25,
+    "active_output_id": null
+  },
+  "scopes_are_merit": false,
+  "expert_adjudicated": false,
+  "files": {
+    "lead-only/raw/run.json": "1b648677a8c587e553c6d6eaffa9b8da8fb289dccf51576ff439030b143f5e06",
+    "lead-only/raw/predictions.jsonl": "b4a4349b4beba3d9b2640810ac3248ceb6a3d9390c867d77f478fbaa3f993734",
+    "lead-only/raw/recovery.json": "9dc5a9390084a6e73add8980f936b7960aa1ff7a8391f119e6fda29c1bc6a724",
+    "reviewer-A/packet.jsonl": "8dc3aec9978059a21378154c66246705add0dbc6f224b22761336b9f07e5a9a4",
+    "reviewer-A/INSTRUCTIONS.md": "4bcc5aea86bb75264c3b0c30500d2b192c570c43fc8eaafd2701bdeddc5fb392",
+    "reviewer-B/packet.jsonl": "46c6fc3aa2f792df041f5e1d1d24e75ce8ee28eafcb27c8833be2486ac42bcbd",
+    "reviewer-B/INSTRUCTIONS.md": "4bcc5aea86bb75264c3b0c30500d2b192c570c43fc8eaafd2701bdeddc5fb392",
+    "lead-only/mapping.jsonl": "ef0d456cf37d07e1ad371d9c3fd4ce22eecc3d4b0175d98cc2ea88d01350c04d"
+  }
+}

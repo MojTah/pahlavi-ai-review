@@ -1,0 +1,747 @@
+{
+  "status": "LOCAL_METADATA_AND_SOURCE_SPAN_FEASIBILITY_ONLY",
+  "expert_adjudicated": false,
+  "existing_independently_published_word_labels_admitted": 0,
+  "qualified_source_spans_located": 5,
+  "dictionary_entries": [
+    {
+      "entry_id": "mp-hunsandih-n",
+      "dictionary_json_pointer": "/entries/1",
+      "entry_canonical_sha256": "7da997d444d0d513f0d6c980982508fba856028da988dcfbb30bf910f52d0c61",
+      "work_ids": [
+        "parsig:119"
+      ],
+      "label_origin": "Codex source-assisted study analysis; not a published lexical entry or expert annotation",
+      "admit_existing_sense_or_pos_as_gold": false,
+      "all_cited_witnesses_qualified": false,
+      "witnesses": [
+        {
+          "record_id": "parsig:119000001",
+          "work_id": "parsig:119",
+          "qualified_train_id": "parsig:119000001:pal>fa",
+          "disposition": "QUARANTINED",
+          "dictionary_form_pointer": "/entries/1/observed_forms/0",
+          "source_sha256": "8d3264d28e35b19bc75f103f72635e6c2191e703ae5b9e9338331ece3719f826",
+          "target_sha256": "6cd0cdd57347e5752540ff3256e51508e59f0505682b374a145d77562dc75be4",
+          "ledger_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2135",
+          "linguistic_review_pointer": "/linguistic_review",
+          "edition": "(Jamasp-Asana, 1913, p.154)",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)",
+          "revision": "78df56e49e1d7fcaff03b18dada83fbd8cc6da915b7344429346b459acff7fb8",
+          "raw_export_response": {
+            "bytes": 8786,
+            "content_type": "application/json; charset=utf-8",
+            "file": "responses/595ff37d7c11cca8dc20e417d7ef2d76ec11b06e33a67f5ac7528722fdafee9c.json",
+            "retrieved_utc": "2026-09-20T20:20:20.763574+00:00",
+            "sha256": "a84065c2c279b1932031e15b6292a4b87e9929669ab7b1842340e180ccd96c33",
+            "url": "https://mpdb.parsigdatabase.com/surf/paragraph/119/119000/All"
+          },
+          "decision": "REJECT_CURRENT_QUARANTINED_WITNESS"
+        },
+        {
+          "record_id": "parsig:119000002",
+          "work_id": "parsig:119",
+          "qualified_train_id": "parsig:119000002:pal>fa",
+          "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "dictionary_form_pointer": "/entries/1/observed_forms/0",
+          "source_sha256": "44961a31c778ddf22fe9b674bf3a131c94ee6bfefa46beaf31bda78d798dd8c0",
+          "target_sha256": "10043840cc2a4fc45d5c5983528b737dae1938009e0810a7d761614cabd94d17",
+          "ledger_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2136",
+          "linguistic_review_pointer": "/linguistic_review",
+          "edition": "(Jamasp-Asana, 1913, p.154)",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)",
+          "revision": "e9d6814cb6952c11b28619e451c1e93a76690216d9208e602a5a452575d7c3bf",
+          "raw_export_response": {
+            "bytes": 8786,
+            "content_type": "application/json; charset=utf-8",
+            "file": "responses/595ff37d7c11cca8dc20e417d7ef2d76ec11b06e33a67f5ac7528722fdafee9c.json",
+            "retrieved_utc": "2026-09-20T20:20:20.763574+00:00",
+            "sha256": "a84065c2c279b1932031e15b6292a4b87e9929669ab7b1842340e180ccd96c33",
+            "url": "https://mpdb.parsigdatabase.com/surf/paragraph/119/119000/All"
+          },
+          "decision": "ADMIT_EXACT_SOURCE_SPAN_FOR_FEASIBILITY_REVIEW_ONLY",
+          "source_pointer": "experiments/train-audit-20260927/qualified-v1/train.jsonl:1952#/text",
+          "source_span": {
+            "start": 68,
+            "end": 77
+          },
+          "span_unit": "zero-based Unicode codepoints; end exclusive",
+          "attested_form": "hunsandīh",
+          "span_sha256": "a334b2899c22faf57892dd9d336b3831f7caef9d22acd052745396a91fb0713b",
+          "review_disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "qualification_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2136#/linguistic_review/qualifications",
+          "corpus_pointer": "sources/local/parsig-2026-09-20/corpus/119.json#/chapters/0/paragraphs/2/Transcription"
+        }
+      ]
+    },
+    {
+      "entry_id": "mp-xrad-n",
+      "dictionary_json_pointer": "/entries/12",
+      "entry_canonical_sha256": "fa1282d4ce5fa0f6e733ffb470c264cb247ae8ce854700393fa7f00f1b20f2ea",
+      "work_ids": [
+        "parsig:107"
+      ],
+      "label_origin": "Codex source-assisted study analysis; not a published lexical entry or expert annotation",
+      "admit_existing_sense_or_pos_as_gold": false,
+      "all_cited_witnesses_qualified": true,
+      "witnesses": [
+        {
+          "record_id": "parsig:107000001",
+          "work_id": "parsig:107",
+          "qualified_train_id": "parsig:107000001:pal>fa",
+          "disposition": "ELIGIBLE",
+          "dictionary_form_pointer": "/entries/12/observed_forms/0",
+          "source_sha256": "dec8d0ea9136b50e22af403cb44e14a57631f390773deb4d6b2469f4caa18cd5",
+          "target_sha256": "2b0d455da5de2611695dbf9992749f45b5e8e0d28360a09c3417fafb9013312a",
+          "ledger_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2107",
+          "linguistic_review_pointer": "/linguistic_review",
+          "edition": "(Jamasp-Asana, 1913, p.40)",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)",
+          "revision": "b8e42354bc156cd9af956a418f3ff632c76ca5722a1a99bee60fb48d67e71685",
+          "raw_export_response": {
+            "bytes": 3031,
+            "content_type": "application/json; charset=utf-8",
+            "file": "responses/ccebd4a3f989a11dcd8bdb255aa70f3591227e8a8c6c7dff5fd311290ddeb2e6.json",
+            "retrieved_utc": "2026-09-20T20:19:56.085224+00:00",
+            "sha256": "2db77dc03cb22966314c482c281152095d03d296c8ab7a3e41a8cc019e6d1879",
+            "url": "https://mpdb.parsigdatabase.com/surf/paragraph/107/107000/All"
+          },
+          "decision": "ADMIT_EXACT_SOURCE_SPAN_FOR_FEASIBILITY_REVIEW_ONLY",
+          "source_pointer": "experiments/train-audit-20260927/qualified-v1/train.jsonl:1932#/text",
+          "source_span": {
+            "start": 16,
+            "end": 20
+          },
+          "span_unit": "zero-based Unicode codepoints; end exclusive",
+          "attested_form": "xrad",
+          "span_sha256": "11f3f805711bc3e1d14685ebe7f3f293e49d4df429f1acbfe56f2acd875fe182",
+          "review_disposition": "ELIGIBLE",
+          "qualification_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2107#/linguistic_review/qualifications",
+          "corpus_pointer": "sources/local/parsig-2026-09-20/corpus/107.json#/chapters/0/paragraphs/1/Transcription"
+        }
+      ]
+    },
+    {
+      "entry_id": "mp-frazand-n",
+      "dictionary_json_pointer": "/entries/13",
+      "entry_canonical_sha256": "465949381ec0f15e622e414a46265b7e1fd08766e998091d99d00a03149e4c92",
+      "work_ids": [
+        "parsig:107"
+      ],
+      "label_origin": "Codex source-assisted study analysis; not a published lexical entry or expert annotation",
+      "admit_existing_sense_or_pos_as_gold": false,
+      "all_cited_witnesses_qualified": true,
+      "witnesses": [
+        {
+          "record_id": "parsig:107000003",
+          "work_id": "parsig:107",
+          "qualified_train_id": "parsig:107000003:pal>fa",
+          "disposition": "ELIGIBLE",
+          "dictionary_form_pointer": "/entries/13/observed_forms/0",
+          "source_sha256": "aed8a04294e56610eb187f041c31a420de9fb0ce4ec89844767788ab57688386",
+          "target_sha256": "0d5a0d090ff1787b94a50ada9173eb3c6e6779ea27604f7bce1496149e999191",
+          "ledger_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2109",
+          "linguistic_review_pointer": "/linguistic_review",
+          "edition": "(Jamasp-Asana, 1913, p.40)",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)",
+          "revision": "33a16dd80ec0a8dd25841bffacc0fad9a0bab82417a780c0daef56995c3a73a7",
+          "raw_export_response": {
+            "bytes": 3031,
+            "content_type": "application/json; charset=utf-8",
+            "file": "responses/ccebd4a3f989a11dcd8bdb255aa70f3591227e8a8c6c7dff5fd311290ddeb2e6.json",
+            "retrieved_utc": "2026-09-20T20:19:56.085224+00:00",
+            "sha256": "2db77dc03cb22966314c482c281152095d03d296c8ab7a3e41a8cc019e6d1879",
+            "url": "https://mpdb.parsigdatabase.com/surf/paragraph/107/107000/All"
+          },
+          "decision": "ADMIT_EXACT_SOURCE_SPAN_FOR_FEASIBILITY_REVIEW_ONLY",
+          "source_pointer": "experiments/train-audit-20260927/qualified-v1/train.jsonl:1934#/text",
+          "source_span": {
+            "start": 14,
+            "end": 21
+          },
+          "span_unit": "zero-based Unicode codepoints; end exclusive",
+          "attested_form": "frazand",
+          "span_sha256": "bafac2df0b1c55ca6798b274fc60e7f249950fafe070ebd896e5c2462da0e9a0",
+          "review_disposition": "ELIGIBLE",
+          "qualification_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2109#/linguistic_review/qualifications",
+          "corpus_pointer": "sources/local/parsig-2026-09-20/corpus/107.json#/chapters/0/paragraphs/3/Transcription"
+        }
+      ]
+    },
+    {
+      "entry_id": "mp-xwastag-n",
+      "dictionary_json_pointer": "/entries/14",
+      "entry_canonical_sha256": "d8c13c62787d3b5a1e5b7d9bcdcb253b891f69791e30984023fd9759dd46eae2",
+      "work_ids": [
+        "parsig:107"
+      ],
+      "label_origin": "Codex source-assisted study analysis; not a published lexical entry or expert annotation",
+      "admit_existing_sense_or_pos_as_gold": false,
+      "all_cited_witnesses_qualified": true,
+      "witnesses": [
+        {
+          "record_id": "parsig:107000004",
+          "work_id": "parsig:107",
+          "qualified_train_id": "parsig:107000004:pal>fa",
+          "disposition": "ELIGIBLE",
+          "dictionary_form_pointer": "/entries/14/observed_forms/0",
+          "source_sha256": "4505690fe346ee3fdb76028cc8fbc518aa5d79205409dcb4e9a5f227502b1e1b",
+          "target_sha256": "0205d24cac32016c101b123b8377d946e2be697696266a9f63f9c5b390d9108d",
+          "ledger_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2110",
+          "linguistic_review_pointer": "/linguistic_review",
+          "edition": "(Jamasp-Asana, 1913, p.40)",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)",
+          "revision": "e0ccdd576a419d3f75d3111916917ac33a5441f41d13b77e1ecf95ee24d96886",
+          "raw_export_response": {
+            "bytes": 3031,
+            "content_type": "application/json; charset=utf-8",
+            "file": "responses/ccebd4a3f989a11dcd8bdb255aa70f3591227e8a8c6c7dff5fd311290ddeb2e6.json",
+            "retrieved_utc": "2026-09-20T20:19:56.085224+00:00",
+            "sha256": "2db77dc03cb22966314c482c281152095d03d296c8ab7a3e41a8cc019e6d1879",
+            "url": "https://mpdb.parsigdatabase.com/surf/paragraph/107/107000/All"
+          },
+          "decision": "ADMIT_EXACT_SOURCE_SPAN_FOR_FEASIBILITY_REVIEW_ONLY",
+          "source_pointer": "experiments/train-audit-20260927/qualified-v1/train.jsonl:1935#/text",
+          "source_span": {
+            "start": 14,
+            "end": 21
+          },
+          "span_unit": "zero-based Unicode codepoints; end exclusive",
+          "attested_form": "xwāstag",
+          "span_sha256": "94a0913c97e0c7b6ff26ddfb47f27fd7424301374c4bc54dbe50725a85fa67cb",
+          "review_disposition": "ELIGIBLE",
+          "qualification_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2110#/linguistic_review/qualifications",
+          "corpus_pointer": "sources/local/parsig-2026-09-20/corpus/107.json#/chapters/0/paragraphs/4/Transcription"
+        }
+      ]
+    },
+    {
+      "entry_id": "mp-ruwan-n",
+      "dictionary_json_pointer": "/entries/15",
+      "entry_canonical_sha256": "c30b65915805808cfc9c2e18a9d7af00bdf108a29ec7db4ee9916cbc35dea0e9",
+      "work_ids": [
+        "parsig:107"
+      ],
+      "label_origin": "Codex source-assisted study analysis; not a published lexical entry or expert annotation",
+      "admit_existing_sense_or_pos_as_gold": false,
+      "all_cited_witnesses_qualified": true,
+      "witnesses": [
+        {
+          "record_id": "parsig:107000006",
+          "work_id": "parsig:107",
+          "qualified_train_id": "parsig:107000006:pal>fa",
+          "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "dictionary_form_pointer": "/entries/15/observed_forms/0",
+          "source_sha256": "2ddd20b7ae93fa3d273560daa1d6f2d423c54c57e794b62cde2f59b2ce45a8e9",
+          "target_sha256": "044f0b6db3b41f490d61892ee5b848248e27a06df82e125a39e8ab5fc515b89b",
+          "ledger_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2112",
+          "linguistic_review_pointer": "/linguistic_review",
+          "edition": "(Jamasp-Asana, 1913, p.40)",
+          "credit": "(گشتاسب و حاجي‌پور، 1398)",
+          "revision": "661013566193a741f04fa96f187e7bd5668c47d3a9f5927da09dec6e483508e8",
+          "raw_export_response": {
+            "bytes": 3031,
+            "content_type": "application/json; charset=utf-8",
+            "file": "responses/ccebd4a3f989a11dcd8bdb255aa70f3591227e8a8c6c7dff5fd311290ddeb2e6.json",
+            "retrieved_utc": "2026-09-20T20:19:56.085224+00:00",
+            "sha256": "2db77dc03cb22966314c482c281152095d03d296c8ab7a3e41a8cc019e6d1879",
+            "url": "https://mpdb.parsigdatabase.com/surf/paragraph/107/107000/All"
+          },
+          "decision": "ADMIT_EXACT_SOURCE_SPAN_FOR_FEASIBILITY_REVIEW_ONLY",
+          "source_pointer": "experiments/train-audit-20260927/qualified-v1/train.jsonl:1937#/text",
+          "source_span": {
+            "start": 25,
+            "end": 30
+          },
+          "span_unit": "zero-based Unicode codepoints; end exclusive",
+          "attested_form": "ruwān",
+          "span_sha256": "6a4b5b153ccd62b21f6ab7ddd57e6f727f4c74fffa18d2669c00fb0724ff256c",
+          "review_disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "qualification_pointer": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl:2112#/linguistic_review/qualifications",
+          "corpus_pointer": "sources/local/parsig-2026-09-20/corpus/107.json#/chapters/0/paragraphs/6/Transcription"
+        }
+      ]
+    }
+  ],
+  "rejected_dictionary_entries_metadata_only": [
+    {
+      "entry_id": "mp-hunsand-adj",
+      "dictionary_json_pointer": "/entries/0",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-tuwangar-adj",
+      "dictionary_json_pointer": "/entries/2",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-tuwangarih-n",
+      "dictionary_json_pointer": "/entries/3",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-kardan-v",
+      "dictionary_json_pointer": "/entries/4",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-dadan-v",
+      "dictionary_json_pointer": "/entries/5",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-weh-adj",
+      "dictionary_json_pointer": "/entries/6",
+      "work_ids": [
+        "parsig:119",
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-xeshm-n",
+      "dictionary_json_pointer": "/entries/7",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-sogand-n",
+      "dictionary_json_pointer": "/entries/8",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-gugayih-n",
+      "dictionary_json_pointer": "/entries/9",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-driyoshih-n",
+      "dictionary_json_pointer": "/entries/10",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    },
+    {
+      "entry_id": "mp-padixshayih-n",
+      "dictionary_json_pointer": "/entries/11",
+      "work_ids": [
+        "parsig:120"
+      ],
+      "decision": "REJECT_HELDOUT_WORK_120_OR_MIXED_ENTRY"
+    }
+  ],
+  "saved_word_annotation": {
+    "path": "sources/local/parsig-2026-09-20/canary-sentence_detail_119000001003.json",
+    "occurrence_id": "119000001003",
+    "record_id": "parsig:119000001",
+    "field_names": [
+      "Word",
+      "Transcription",
+      "Transliteration",
+      "Translation",
+      "Category",
+      "Lemma",
+      "Reference1",
+      "Reference2",
+      "Paragraph",
+      "ParagraphTranslation",
+      "ParagraphTranscription"
+    ],
+    "decision": "REJECT_FOR_CURRENT_QUALIFIED_PACKET: occurrence belongs to quarantined source; do not transfer its lemma/POS to 119000002",
+    "source_lemma_field_is_not_draft_headword": true
+  },
+  "vocabulary_index": {
+    "path": "sources/local/parsig-2026-09-20/vocabulary-group-2.json",
+    "forms": 406,
+    "occurrences": 1135,
+    "distinct_paragraph_ids": 97,
+    "works": 25,
+    "qualified_train_parent_matches": 0,
+    "original_train_parent_matches": 0,
+    "decision": "NOT_ADMITTED: occurrence/category index, no actual TRAIN parent match or sense inventory"
+  },
+  "ezafe_tables": [
+    {
+      "name": "lr_final_features.csv",
+      "path": "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/c7edfa67965ca7430d18910fab9469b7b4c1c79db677fd4a632140551e6224b3.source",
+      "sha256": "e76e68919f1b1ea6143ebf978107e764118165a06d96e63e6d54ac08246020d2",
+      "rows": 23234,
+      "columns": [
+        "distance",
+        "num_dependents_dependent",
+        "position_numeric",
+        "dependent_deprel_acl",
+        "dependent_deprel_acl:cleft",
+        "dependent_deprel_acl:relcl",
+        "dependent_deprel_advcl",
+        "dependent_deprel_advmod",
+        "dependent_deprel_advmod:emph",
+        "dependent_deprel_advmod:lmod",
+        "dependent_deprel_advmod:tmod",
+        "dependent_deprel_amod",
+        "dependent_deprel_appos",
+        "dependent_deprel_aux",
+        "dependent_deprel_case",
+        "dependent_deprel_cc",
+        "dependent_deprel_ccomp",
+        "dependent_deprel_compound:redup",
+        "dependent_deprel_conj",
+        "dependent_deprel_cop",
+        "dependent_deprel_csubj",
+        "dependent_deprel_det",
+        "dependent_deprel_det:poss",
+        "dependent_deprel_dislocated",
+        "dependent_deprel_dislocated:res",
+        "dependent_deprel_dislocated:topic",
+        "dependent_deprel_list",
+        "dependent_deprel_mark",
+        "dependent_deprel_nmod",
+        "dependent_deprel_nmod:poss",
+        "dependent_deprel_nsubj",
+        "dependent_deprel_nummod",
+        "dependent_deprel_obj",
+        "dependent_deprel_obl",
+        "dependent_deprel_obl:lmod",
+        "dependent_deprel_obl:tmod",
+        "dependent_deprel_orphan",
+        "dependent_deprel_parataxis",
+        "dependent_deprel_vocative",
+        "dependent_deprel_xcomp",
+        "dependent_upos_ADJ",
+        "dependent_upos_ADP",
+        "dependent_upos_ADV",
+        "dependent_upos_AUX",
+        "dependent_upos_CCONJ",
+        "dependent_upos_DET",
+        "dependent_upos_NOUN",
+        "dependent_upos_NUM",
+        "dependent_upos_PROPN",
+        "dependent_upos_SCONJ",
+        "dependent_upos_VERB",
+        "dependent_upos_X",
+        "source_file_DD-K35.conllu",
+        "source_file_Dk5_B.conllu",
+        "source_file_Dk7-B.conllu",
+        "source_file_GBd_TD1.conllu",
+        "source_file_NM_K35.conllu",
+        "source_file_NM_TD4a.conllu",
+        "source_file_RAF-TD2.conllu",
+        "source_file_RFS-TD2.conllu",
+        "source_file_ZWY-K20.conllu",
+        "source_file_ZWY-K43a.conllu"
+      ],
+      "has_sentence_id": false
+    },
+    {
+      "name": "lr_np_inputs.csv",
+      "path": "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/410961168f4dd62e29da7f368f84cf6c14951e684a7371d1fb9379bf7d1a6503.source",
+      "sha256": "d675dc20169c2c542bd4442060ef7f0e47354eb178206425af6d484e10cd4cac",
+      "rows": 23234,
+      "columns": [
+        "nominal_head_id",
+        "nominal_head_lemma",
+        "nominal_head_upos",
+        "dependent_id",
+        "dependent_lemma",
+        "dependent_upos",
+        "dependent_deprel",
+        "distance",
+        "position",
+        "num_dependents_nominal",
+        "num_dependents_dependent",
+        "ezafe_label",
+        "is_verbal",
+        "source_file"
+      ],
+      "has_sentence_id": false,
+      "source_file_counts": {
+        "Col_RFS_TD2.conllu": 32,
+        "DD-K35.conllu": 1981,
+        "DMX-L19.conllu": 1329,
+        "Dk5_B.conllu": 4486,
+        "Dk7-B.conllu": 1226,
+        "GBd_TD1.conllu": 7941,
+        "NM_K35.conllu": 2456,
+        "NM_TD4a.conllu": 376,
+        "RAF-TD2.conllu": 608,
+        "RFS-TD2.conllu": 144,
+        "ZWY-K20.conllu": 1346,
+        "ZWY-K43a.conllu": 1309
+      },
+      "exact_unique_rows": 23234,
+      "unique_file_head_dependent_keys": 4997
+    },
+    {
+      "name": "lr_target.csv",
+      "path": "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/eb7976276c601fbc933d9b1097632ee1df2dab0dde2074fec8e3a57167f69c90.source",
+      "sha256": "689980a955b4410f06bb63eab642227713686005ccc778c1d809db9283a28cc4",
+      "rows": 23234,
+      "columns": [
+        "ezafe_label"
+      ],
+      "has_sentence_id": false
+    },
+    {
+      "name": "rf_features.csv",
+      "path": "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/429e8fa172a00fca16bc86a0121d4fec62488a18257902b4a21bed17802598d5.source",
+      "sha256": "b54e96fe4470fe1c9257ef2b76a361bd8c59af7e4d281ae6750d1edf8c3c297e",
+      "rows": 8468,
+      "columns": [
+        "nominal_head_id",
+        "nominal_head_form",
+        "nominal_head_upos",
+        "nominal_head_deprel",
+        "head_number",
+        "head_frequency",
+        "dependent_frequency",
+        "modifier_to_head_ratio",
+        "dependent_id",
+        "dependent_form",
+        "dependent_upos",
+        "dependent_deprel",
+        "distance",
+        "position",
+        "num_nouns_before",
+        "num_adjs_before",
+        "num_adjs_after",
+        "np_depth",
+        "num_dependents_head",
+        "num_dependents_dependent",
+        "ezafe_label",
+        "relative_position_in_sent",
+        "np_deprel_pattern",
+        "source_file",
+        "combined_label"
+      ],
+      "has_sentence_id": false,
+      "source_file_counts": {
+        "Col_RFS_TD2.conllu": 20,
+        "DD-K35.conllu": 739,
+        "Dk5_B.conllu": 1605,
+        "Dk7-B.conllu": 513,
+        "DMX-L19.conllu": 455,
+        "GBd_TD1.conllu": 2790,
+        "NM_K35.conllu": 910,
+        "NM_TD4a.conllu": 139,
+        "RAF-TD2.conllu": 231,
+        "RFS-TD2.conllu": 61,
+        "ZWY-K20.conllu": 515,
+        "ZWY-K43a.conllu": 490
+      },
+      "exact_unique_rows": 8445,
+      "unique_file_head_dependent_keys": 2404
+    },
+    {
+      "name": "rf_inputs.csv",
+      "path": "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/35d02e9e39cab74c17b59663cb531cd4ec69bb8ed01ed501d2aed2898f12936d.source",
+      "sha256": "70bb51088dc8caf109864ac7755705aee7b10771704b4ae3e16620d9cda7f3b9",
+      "rows": 8468,
+      "columns": [
+        "nominal_head_id",
+        "nominal_head_form",
+        "nominal_head_upos",
+        "nominal_head_deprel",
+        "head_number",
+        "head_frequency",
+        "dependent_frequency",
+        "modifier_to_head_ratio",
+        "dependent_id",
+        "dependent_form",
+        "dependent_upos",
+        "dependent_deprel",
+        "distance",
+        "position",
+        "num_nouns_before",
+        "num_adjs_before",
+        "num_adjs_after",
+        "np_depth",
+        "num_dependents_head",
+        "num_dependents_dependent",
+        "ezafe_label",
+        "relative_position_in_sent",
+        "np_deprel_pattern",
+        "source_file"
+      ],
+      "has_sentence_id": false,
+      "source_file_counts": {
+        "Col_RFS_TD2.conllu": 20,
+        "DD-K35.conllu": 739,
+        "Dk5_B.conllu": 1605,
+        "Dk7-B.conllu": 513,
+        "DMX-L19.conllu": 455,
+        "GBd_TD1.conllu": 2790,
+        "NM_K35.conllu": 910,
+        "NM_TD4a.conllu": 139,
+        "RAF-TD2.conllu": 231,
+        "RFS-TD2.conllu": 61,
+        "ZWY-K20.conllu": 515,
+        "ZWY-K43a.conllu": 490
+      },
+      "exact_unique_rows": 8445,
+      "unique_file_head_dependent_keys": 2404
+    }
+  ],
+  "ezafe_admission": "HOLD: published project-derived grammatical labels and forms exist, but no direct TRAIN mapping, sentence IDs or complete context; raw MPCD CoNLL-U not locally available from this repository. Do not count LR target/features or RF views as independent annotations.",
+  "UD_inventory": {
+    "archived_files": [
+      "LICENSE.txt",
+      "README.md",
+      "stats.xml"
+    ],
+    "conllu_files": 0,
+    "decision": "NO_LOCAL_TOKEN_ANNOTATION_DATA: only license, README and statistics"
+  },
+  "grammar_record_ids_only": [
+    "152008001"
+  ],
+  "source_files": {
+    "dictionary/entries.json": {
+      "sha256": "e962acaca1714e361a0ff06269816c19f21cd9a470033d9d68c2c462346f9074",
+      "bytes": 19428
+    },
+    "experiments/train-audit-20260927/qualified-v1/train.jsonl": {
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+      "bytes": 5401884
+    },
+    "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl": {
+      "sha256": "d79af2e64fbb92954c8b8d0ed9cb7a34e7e7d24d4c22ea9c22f1da6d569a8e77",
+      "bytes": 8623699
+    },
+    "sources/local/parsig-2026-09-20/corpus/107.json": {
+      "sha256": "4f007930f9da8ee624c98f458e66117b5f7e2f1a3697d119e79bda93a425f8f0",
+      "bytes": 5209
+    },
+    "sources/local/parsig-2026-09-20/corpus/119.json": {
+      "sha256": "bd28683678d963a3139cb155a9e85a255fd9ef2938415a28f010a13224ef1703",
+      "bytes": 12039
+    },
+    "sources/local/parsig-2026-09-20/canary-sentence_detail_119000001003.json": {
+      "sha256": "4fe4bf38cd4567c23170de82de3d2bfe1154b25fd2edd8136c37844733bae6e7",
+      "bytes": 937
+    },
+    "sources/local/parsig-2026-09-20/vocabulary-group-2.json": {
+      "sha256": "cdab7d904ca337e4e48c775c713e71b224ab1ec6391f9e5658c35c134473c078",
+      "bytes": 374798
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/manifest.json": {
+      "sha256": "efb47b7e1c35c77ffdd9c3c50c5cfc70dec9721dc9aea6b6ff4b8c687fcb1224",
+      "bytes": 5429
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/9caabb06d1eb6c62fd662d999c67b676479d6e5e1c063d301650e2ead62a6b65.source": {
+      "sha256": "663a7506499df89873ef9fb8a200563b6df335f9d905688bf299252f6d23c75a",
+      "bytes": 1068
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/c285f6e175111959eb17cbaaf2fc0c53e92d3bf169343a09a104e57b123dbdba.source": {
+      "sha256": "6d580a4f56c3f0d621974dafb2fb635158bc103b7eeaca51424a4d5252c3d8bb",
+      "bytes": 8788
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/c7edfa67965ca7430d18910fab9469b7b4c1c79db677fd4a632140551e6224b3.source": {
+      "sha256": "e76e68919f1b1ea6143ebf978107e764118165a06d96e63e6d54ac08246020d2",
+      "bytes": 5787134
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/410961168f4dd62e29da7f368f84cf6c14951e684a7371d1fb9379bf7d1a6503.source": {
+      "sha256": "d675dc20169c2c542bd4442060ef7f0e47354eb178206425af6d484e10cd4cac",
+      "bytes": 1682168
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/eb7976276c601fbc933d9b1097632ee1df2dab0dde2074fec8e3a57167f69c90.source": {
+      "sha256": "689980a955b4410f06bb63eab642227713686005ccc778c1d809db9283a28cc4",
+      "bytes": 69715
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/429e8fa172a00fca16bc86a0121d4fec62488a18257902b4a21bed17802598d5.source": {
+      "sha256": "b54e96fe4470fe1c9257ef2b76a361bd8c59af7e4d281ae6750d1edf8c3c297e",
+      "bytes": 1142357
+    },
+    "sources/local/public-texts-2026-09-20/ezafe-modeling-mp/raw/35d02e9e39cab74c17b59663cb531cd4ec69bb8ed01ed501d2aed2898f12936d.source": {
+      "sha256": "70bb51088dc8caf109864ac7755705aee7b10771704b4ae3e16620d9cda7f3b9",
+      "bytes": 1112921
+    },
+    "sources/local/public-texts-2026-09-20/UD_Middle_Persian-MPCD/manifest.json": {
+      "sha256": "55a072ef90608667bb472d639d724fd7514f21d2ef73d0388559f87d102ebcff",
+      "bytes": 2372
+    },
+    "dictionary/README.md": {
+      "sha256": "f5350363325e7f8583d82b66fb0579588184ebbf2ed6ab50ddae331d39d55b0f",
+      "bytes": 3151
+    },
+    "kb/grammar.md": {
+      "sha256": "21307f346f756dbd55e71e57f9ef9acdbad2a5b9f62742f25b6754536d1b1845",
+      "bytes": 11769
+    },
+    "kb/glossary.md": {
+      "sha256": "fc37641e2e6903113802c3710be56203c9f59c5fd8a9b1feb4738908b32be611",
+      "bytes": 4889
+    },
+    "sources/local/public-texts-2026-09-20/berkeley/manifest.json": {
+      "sha256": "f1e7ae7efeaaad7de987fa2f71b40ce2d48fd9d26429582e20dfbe7d888773dc",
+      "bytes": 117902
+    },
+    "sources/local/public-texts-2026-09-20/invisible-east/manifest.json": {
+      "sha256": "3336cc5a2036b476e871ee3997063135e36be22958b2e1f2048bdb0c9ae8399c",
+      "bytes": 5693
+    },
+    "sources/reviews/2026-09-24/lexicon-review.md": {
+      "sha256": "745a3a41a4c4dc36c7e533560391244bce628f9bb3190563006bbcbdf4478262",
+      "bytes": 15017
+    }
+  },
+  "boundary_note": "An initial read of the legacy lexicon-review report exposed mixed TEST-work120 discussion. None of those labels or passages is reused here. Subsequent admission is based on exact qualified TRAIN spans, metadata and original source paths; this is not a blind reviewer packet.",
+  "parsipy_metadata": [
+    {
+      "path": "resources/local/parsipy/3e388d868100/parsipy/files/roots.json",
+      "sha256": "8bedae050861b80ffcc4aaf9be130e34712a0c701619f1df6e84bf4b214aee39",
+      "bytes": 63399,
+      "admission": "NOT_CONTEXT_SUPERVISION: lexical/tool table without witness-level TRAIN join"
+    },
+    {
+      "path": "resources/local/parsipy/3e388d868100/parsipy/files/stems.csv",
+      "sha256": "a677f349da4ca7879041b46f8d4c538a172b41b77b496b5d5bff4024029a3235",
+      "bytes": 109156,
+      "rows_including_header_if_present": 6925,
+      "columns": 2,
+      "context_identifiers_present": false,
+      "admission": "NOT_CONTEXT_SUPERVISION: lexical/tool table without witness-level TRAIN join"
+    },
+    {
+      "path": "resources/local/parsipy/3e388d868100/parsipy/files/transition.csv",
+      "sha256": "64edadf0409340085b57c0d3ab8c1933d8c52d4f8c095921d924492905765cb3",
+      "bytes": 2447,
+      "rows_including_header_if_present": 15,
+      "columns": 15,
+      "context_identifiers_present": false,
+      "admission": "NOT_CONTEXT_SUPERVISION: lexical/tool table without witness-level TRAIN join"
+    },
+    {
+      "path": "resources/local/parsipy/3e388d868100/parsipy/files/emission.csv",
+      "sha256": "e3b6bdc2748a78341d9626f66b17ad30a0e27ac0465bc85a1bdbdbf2a0fcf2eb",
+      "bytes": 681444,
+      "rows_including_header_if_present": 7261,
+      "columns": 15,
+      "context_identifiers_present": false,
+      "admission": "NOT_CONTEXT_SUPERVISION: lexical/tool table without witness-level TRAIN join"
+    }
+  ]
+}

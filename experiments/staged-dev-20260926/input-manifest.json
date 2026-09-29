@@ -1,0 +1,32 @@
+{
+  "status": "frozen_exploratory_inputs_not_gold",
+  "cases": 30,
+  "historical": 6,
+  "staged": 24,
+  "stage_counts": {
+    "1": 8,
+    "2": 8,
+    "3": 8
+  },
+  "candidate_sha256": "6cc3c34679b653d5e490dfaf22e6b84e321906847a0ab499ca8d31319da82df7",
+  "inputs_sha256": "ba876c5f71edb08c0b39b6cbfe04631181986d6b85050271d6e73bdcd3f2c396",
+  "max_input_tokens": 174,
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "enable_thinking": false,
+  "additional_bf16_after_sentinels": [
+    "STAGEDEV-PROP-S1-001",
+    "STAGEDEV-PROP-S1-005",
+    "STAGEDEV-PROP-S2-004",
+    "STAGEDEV-PROP-S2-006",
+    "STAGEDEV-PROP-S3-003",
+    "STAGEDEV-PROP-S3-007"
+  ],
+  "expert_adjudicated": false,
+  "reference_fields_exported": false,
+  "quality_scoring_authorized": false,
+  "template_tokenizer_files": {
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633",
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "automatic_full_resume_supported": false,
+  "bootstrap_hashes": {
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "compute_seconds": 600,
+  "cross_job_sha256_verified": false,
+  "diagnostic_status": "complete",
+  "files": {
+    "driver.log": {
+      "bytes": 20189,
+      "sha256": "3448767f9727d2a3402a7e265f123e5243604d41e432b408721b11f086193454"
+    },
+    "package-manifest.json": {
+      "bytes": 1242,
+      "sha256": "b967694343bf4dddab48ac3c701b9b9ace5eb1cd8ae50b28fdab03e64ceaec4e"
+    },
+    "seen/canary.json": {
+      "bytes": 2258,
+      "sha256": "0d2d628d913e00c4e2ca292b0772f224f299a813f3267dca69ed118c0715c00a"
+    },
+    "seen/likelihood.jsonl": {
+      "bytes": 47541,
+      "sha256": "ebb4bc8bf48d4d3739e35fc5301b3b9eaa84b1a208865e0826a3b22534a8506d"
+    },
+    "seen/predictions.jsonl": {
+      "bytes": 20752,
+      "sha256": "f68cecdda520b17f36b219b0a5586744634a145106acc3e6df2529db44951659"
+    },
+    "seen/run.json": {
+      "bytes": 4731,
+      "sha256": "b9d1e0d3f08155ece692d87ddb35f549ce375717c40a4a504bf2eafddbfbf06d"
+    },
+    "seen/schedule.json": {
+      "bytes": 11494,
+      "sha256": "a2a8b1bcab0beaa6acb9a066f5ca2a502da7994bacda67de73bb494893e64bfc"
+    },
+    "status.json": {
+      "bytes": 1801,
+      "sha256": "3123481082024c9235daefa76e7e4e03646cbb9f1111b375d6a295838f75752c"
+    }
+  },
+  "inference_names": [
+    "config.json",
+    "generation_config.json",
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors",
+    "model.safetensors.index.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training-state.json"
+  ],
+  "inputs_sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+  "internal_seconds": 780,
+  "latest_optimizer_checkpoint": null,
+  "max_export_bytes": 16777216,
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "model_manifest_sha256": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349",
+  "model_prefix": "nllb-supervised/99231a67ac364af992565d15cb53a325",
+  "model_run_id": "99231a67ac364af992565d15cb53a325",
+  "native_timeout_minutes": 15,
+  "operation": "nllb_seen",
+  "output_prefix": "nllb-seen/799e1037f097415a8b7124e36416b728",
+  "package_manifest_sha256": "b967694343bf4dddab48ac3c701b9b9ace5eb1cd8ae50b28fdab03e64ceaec4e",
+  "package_name": "nllb-seen-e7a63808e2e081ca.zip",
+  "package_sha256": "e7a63808e2e081ca053211804512ec6850bf4a4bea957fdfbe9af67f24cd1733",
+  "quality_validated": false,
+  "remote_inventory_verified": false,
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "run_id": "799e1037f097415a8b7124e36416b728",
+  "schema_version": 1,
+  "source_control_sha256": "3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0",
+  "token_map_sha256": "5dac1a0c537ce8d7c410110b33bf30aaf3f95c2577f507d86eb228881953b255",
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "training_performed": false,
+  "verified_inference_bytes": 5515046606
+}

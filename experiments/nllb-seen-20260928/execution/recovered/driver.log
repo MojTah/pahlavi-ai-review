@@ -1,0 +1,18 @@
+
+Loading weights:   0%|          | 0/1013 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 1013/1013 [00:00<00:00, 9004.45it/s]
+Traceback (most recent call last):
+  File "/tmp/pahlavi-nllb-seen-2zlaczid/package/nllb_seen.py", line 348, in <module>
+    run(args.package, args.model, args.output, args.deadline)
+  File "/tmp/pahlavi-nllb-seen-2zlaczid/package/nllb_seen.py", line 331, in run
+    canaries(model, rows, device, output, deadline)
+  File "/tmp/pahlavi-nllb-seen-2zlaczid/package/nllb_seen.py", line 212, in canaries
+    metrics = forward(model, selected, selected, device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/pahlavi-nllb-seen-2zlaczid/package/nllb_seen.py", line 153, in forward
+    return likelihood_metrics(response.logits, batch['labels'], response.loss,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/pahlavi-nllb-seen-2zlaczid/package/nllb_seen.py", line 132, in likelihood_metrics
+    require(math.isfinite(native) and math.isclose(mean, native, rel_tol=1e-5, abs_tol=1e-5),
+  File "/tmp/pahlavi-nllb-seen-2zlaczid/package/nllb_seen.py", line 29, in require
+    raise ValueError(message)
+ValueError: Native/independent target loss differs

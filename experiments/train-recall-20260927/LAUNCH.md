@@ -1,0 +1,17 @@
+# One diagnostic job: execution record
+
+Long-run classification; one execution and repair owner: `/root`. Reviewers remain read-only. User authority permits existing funded HF credit, without recharge, and forbids laptop model weights. Classic + Critic.
+
+The exact prepared `HfApi.run_job(**spec)` request is saved locally at `resources/local/hf-train-recall-20260927/spec.json`, SHA256 `9292f4dd0e5fdac36e75d7af4e11245b278d761e87eec02c1c956ab46e37ed22`. Its executable command SHA256 is `5a3c547c7791d1ff4fe075ff9cf4584a40092acb1ed59f14ae0808e933be4612`. Run ID `b9a65cd416124617a68db6580349b32f`; no repeat submission. The exact source commit and final review hash will be recorded in `execution.json` before submission. Prepared scientific scope is `PROTOCOL.md`.
+
+One A10080, 12vCPU/142GB host RAM/1000GB ephemeral storage, pinned Linux x86_64 Python3.12 PyTorch2.11.0+cu128 image and hashed dependency lock. These runtime/source helpers were exercised by the preceding cloud comparison; this new runner's actual GPU and export behavior remains to be observed. The longest actual prompt prefill and token-map gate must pass before the forty experimental generations.
+
+Only 5,561 bytes of new source inputs were uploaded, with full hash roundtrip proof in `input-transfer.json`. `/input` and qualified step280 `/trained` mounts are read-only; `/output` is a fresh `train-recall/<run_id>` bucket prefix. Download, model loading and generation happen on the server. `/tmp` is disposable; only declared small evidence is published. No reference answers are passed to inference and no training takes place.
+
+Expected run duration is roughly 5–15 minutes, an estimate from preceding same-stack runs rather than a guarantee. Native30m is the outer limit; compute alarm24m/internal deadline27m leave an export reserve. The live rate is41,667 microUSD/minute; full native compute maximumUSD1.25001 plusUSD0.25 reserve is below observedUSD17.12 funded credit. Admission records the observation interval; recheck rate and absence of active jobs immediately before submission. No top-up and no automatic retry.
+
+Root uses the existing `submit_once` helper and persists the provider job ID immediately. Inspect status/logs about every20–30 seconds. If observation fails, retry only read-only requests, at most three times; if provider status remains unavailable for three minutes, request cancellation and confirm terminal state when reachable. Investigate five minutes without meaningful stage/download progress rather than launching a duplicate. Native timeout remains the outer bound if the client disappears. Any generation error stops further cases; partial evidence is retained.
+
+Done means forty ordered first attempts and matching run/source/token identities, a SHA-bound server manifest, committed provider inventory, and full SHA recovery of all declared small files. Root allows only the six expected evidence paths plus the manifest, maximum16MiB total, never tensors. Cancel after persistence/recovery is verified, then confirm terminal status. The existing native exit/persistence window also terminates the job. Cancellation after verified export is normal and is not a failed evaluation.
+
+Do not resume or relaunch this first-attempt probe automatically after error. Preserve available outputs and unattempted IDs, diagnose locally, and decide any changed experiment from the evidence. No local or cloud originals are deleted; no rollback of qualified training is needed because this job is inference-only.

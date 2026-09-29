@@ -1,0 +1,68 @@
+{
+  "automatic_full_resume_supported": false,
+  "bootstrap_hashes": {
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "compute_seconds": 600,
+  "cross_job_sha256_verified": false,
+  "diagnostic_status": "incomplete",
+  "error": "Command '['/usr/bin/python', '-u', '/tmp/pahlavi-nllb-seen-2zlaczid/package/nllb_seen.py', '--package', '/tmp/pahlavi-nllb-seen-2zlaczid/package', '--model', '/tmp/pahlavi-nllb-seen-2zlaczid/model', '--output', '/tmp/pahlavi-nllb-seen-2zlaczid/evidence/seen', '--deadline', '5423.679144822']' returned non-zero exit status 1.",
+  "error_type": "CalledProcessError",
+  "files": {
+    "driver.log": {
+      "bytes": 1262,
+      "sha256": "0d80e73dfd200d0f45646945b02aa05e3396b7be7af7f1d2e011f975aaf2a511"
+    },
+    "package-manifest.json": {
+      "bytes": 1242,
+      "sha256": "e8baa7636bf51ac4e821859e2016178f453afcb9e48eb886bbc08926a954a4a3"
+    },
+    "seen/run.json": {
+      "bytes": 4815,
+      "sha256": "0910cd6177bb9881889d413b11daa764e310df55b88c0a51a838e617e0aaa201"
+    },
+    "seen/schedule.json": {
+      "bytes": 11494,
+      "sha256": "a2a8b1bcab0beaa6acb9a066f5ca2a502da7994bacda67de73bb494893e64bfc"
+    },
+    "status.json": {
+      "bytes": 2181,
+      "sha256": "35da23879cce1d5d53beb95c7313f0cd54dc7c6fc41d582a5382717d25257853"
+    }
+  },
+  "inference_names": [
+    "config.json",
+    "generation_config.json",
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors",
+    "model.safetensors.index.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training-state.json"
+  ],
+  "inputs_sha256": "5a2b29c878b67e05bb1051fab015feae33753e7c23568ab57517af0cf84c233a",
+  "internal_seconds": 780,
+  "latest_optimizer_checkpoint": null,
+  "max_export_bytes": 16777216,
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "model_manifest_sha256": "c2ed23f93d72f5958f8a46d1c37b1d187c6eff2a0f9d354c565de3f505ad2349",
+  "model_prefix": "nllb-supervised/99231a67ac364af992565d15cb53a325",
+  "model_run_id": "99231a67ac364af992565d15cb53a325",
+  "native_timeout_minutes": 15,
+  "operation": "nllb_seen",
+  "output_prefix": "nllb-seen/7bc1eeee63a344b1bd08493080b42c77",
+  "package_manifest_sha256": "e8baa7636bf51ac4e821859e2016178f453afcb9e48eb886bbc08926a954a4a3",
+  "package_name": "nllb-seen-c57c25f27ef023d1.zip",
+  "package_sha256": "c57c25f27ef023d139ae939d3e9c56f8ec8408ed9586de20dd94dacce9a8195e",
+  "quality_validated": false,
+  "remote_inventory_verified": false,
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "run_id": "7bc1eeee63a344b1bd08493080b42c77",
+  "schema_version": 1,
+  "source_control_sha256": "3db2398a95b6480ad2522dc2fe30d2d38156564e3a4a72714b43bcc2a54393a0",
+  "token_map_sha256": "5dac1a0c537ce8d7c410110b33bf30aaf3f95c2577f507d86eb228881953b255",
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "training_performed": false,
+  "verified_inference_bytes": 5515046606
+}

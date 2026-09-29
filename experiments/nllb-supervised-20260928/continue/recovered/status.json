@@ -1,0 +1,52 @@
+{
+  "run_id": "99231a67ac364af992565d15cb53a325",
+  "package_name": "nllb-4ff0ae48c2de917a.zip",
+  "package_sha256": "4ff0ae48c2de917af47525dc456d8d58604d914b3aea3a7e393dfa689e267229",
+  "package_manifest_sha256": "3e6fe3f6a7327d1b725708c14b7c403a09be74592bd806fd0ddc6c2ead89de05",
+  "bootstrap_hashes": {
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "settings": {
+    "seed": 3407,
+    "epochs": 5,
+    "microbatch": 4,
+    "effective_batch": 16,
+    "updates": 700,
+    "lr": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_updates": 42,
+    "max_grad_norm": 1.0,
+    "loss": "sum_target_CE/global_update_nonpadding_tokens",
+    "label_smoothing": 0,
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "num_beams": 1,
+    "forced_bos_token_id": 256053,
+    "suppress_tokens": [
+      256204,
+      256205
+    ],
+    "parameters_dtype": "float32",
+    "autocast_dtype": "bfloat16"
+  },
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "dev_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "phase": "continue",
+  "compute_seconds": 2520,
+  "internal_seconds": 2880,
+  "native_timeout_minutes": 50,
+  "output_prefix": "nllb-supervised/99231a67ac364af992565d15cb53a325",
+  "canary_prefix": "nllb-supervised/3f445ed35bd94fe9b1724ef8cce2753e",
+  "canary_manifest_sha256": "5f3d9760ea188364c433a84cfe592db0761ff2f95b2989e7d61dd9159bb0de5f",
+  "canary_closed_minutes": 9,
+  "canary_termination_sha256": "473aeb1194e6a47be9eb95568a711215efff7983c8cab9029bccd368beec1e54",
+  "operation": "nllb_supervised",
+  "nllb_status": "complete",
+  "quality_validated": false,
+  "local_model_verified": false,
+  "max_export_bytes": 25769803776,
+  "completed_steps": 700
+}

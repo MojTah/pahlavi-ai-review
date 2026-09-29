@@ -17,7 +17,7 @@ import unicodedata
 
 
 STUDY_ROOT = Path(__file__).resolve().parents[1]
-TRANSLATOR = Path(r"C:\Users\mojta\Documents\Codex Projects\01-Software\Pahlavi Translator")
+TRANSLATOR = Path(r"[USER_HOME]\Documents\Codex Projects\01-Software\Pahlavi Translator")
 DATASET_ID = "6f442563128d3a4c49dd5024af6882f6911b3f1b11eb5a2d4ef0d28a453acf0c"
 REVIEW_ID = "560dcebcf0c20771e7759d45192a3b9555ad4876a272682fb734652a1128e6dc"
 TRAIN_SHA = "844a5b64d43a423b69d5989527a53273290a43be15c399056c979f5abb0678a1"

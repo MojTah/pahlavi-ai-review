@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-28T10:56:12.342344+00:00",
+  "balance_usd": "11.91",
+  "period_usage_usd": "18.48",
+  "automatic_recharge_set": false,
+  "rate_micro_usd_per_minute": 41667,
+  "account": "Mojionix",
+  "source": "Authenticated Chrome billing read immediately before this admission, paired with live SDK hardware and job inventory",
+  "billing_url": "https://huggingface.co/settings/billing",
+  "funded_cumulative_cap_usd": 25,
+  "combined_diagnostic_allocation_usd": 1.25,
+  "total_jobs": 21,
+  "active_jobs": []
+}

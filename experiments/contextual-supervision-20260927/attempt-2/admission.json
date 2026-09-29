@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-27T14:04:40+00:00",
+  "balance_usd": 15.78,
+  "period_usage_usd": 14.53,
+  "automatic_recharge_set": false,
+  "billing_source": "Authenticated Chrome billing page after failed startup",
+  "authority": "Existing funded credit strategically; one transport-only retry",
+  "reservation_usd": "3.625025"
+}

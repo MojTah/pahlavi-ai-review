@@ -1,0 +1,9 @@
+# Pre-start transport failure and bounded repair
+
+Attempt1, job `6ab920de52d0dbd7f1d9c57f`, reached terminal ERROR before Python started: `exec /usr/bin/python: argument list too long`. Its scientific-code argument was133680 UTF-8 bytes, exceeding the Linux per-argument131072-byte ceiling once the terminating NUL is included. Bootstrap, base download, training and evaluation did not start. All17 account jobs were terminal at14:00:12UTC. The original local readiness checks missed this operating-system boundary.
+
+The repair compresses the identical generated program with standard-library gzip/base64. The launcher verifies the decoded source checksum before execution. Every argument must now remain below100KiB and total argument bytes below1MiB; the remaining bootstrap argument is about61KiB. Exact reconstruction of the failed run binds decoded bytes to its original command SHA256, with no model, data, optimizer, prompt, generation or merit changes. Dedicated tests execute the compressed lifecycle and reject argument-limit violations.
+
+Attempt1 execution, admission, preparation and error evidence remain separate and unchanged. One explicit `--attempt 2` invocation can create a fresh trial/output prefix under `attempt-2/`, only after the recorded pre-start failure. It has its own exclusive journal, source/specification hashes, supplementary QA/Judge bindings and fresh live admission. This is a manual transport retry, not a model rerun or automatic resubmission. There is no attempt3 path.
+
+The75-minute native timeout, USD3.625025 planning reservation and attended root monitoring remain unchanged. The failed startup has no finalized job invoice attribution; elapsed time is not a billable-runtime measurement. No recharge or new package/weight transfer is needed. No local model weights are permitted.

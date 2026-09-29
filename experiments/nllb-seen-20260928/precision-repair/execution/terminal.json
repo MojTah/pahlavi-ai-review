@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-28T11:04:40.933949+00:00",
+  "job_id": "6aba47e96b030d633f69c82d",
+  "run_id": "799e1037f097415a8b7124e36416b728",
+  "stage": "COMPLETED",
+  "finished_at": "2026-09-28T11:02:01.187000+00:00",
+  "elapsed_since_submission_seconds": 319.754803,
+  "rounded_minutes_including_queue": 6,
+  "conservative_compute_estimate_usd": 0.250002,
+  "not_fresh_invoice": true,
+  "small_recovery_sha256_verified": true,
+  "all_jobs_terminal": true,
+  "total_jobs": 22
+}

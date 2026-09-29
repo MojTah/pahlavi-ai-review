@@ -1,0 +1,34 @@
+{
+  "collection": "sns",
+  "archive": "kosh-catalogue-sized-20260928",
+  "receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/sns/restful/entries?field=trc&query=%2A&query_type=wildcard&size=326",
+    "retrieved_utc": "2026-09-28T14:21:30.547617+00:00",
+    "previous_attempt": {
+      "url": "https://kosh.uni-koeln.de/mpcd/sns/restful/entries?field=trc&query=%2A&query_type=wildcard&size=326",
+      "retrieved_utc": "2026-09-28T14:12:53.498080+00:00",
+      "status": "failed",
+      "error": "TimeoutError: The read operation timed out"
+    },
+    "final_url": "https://kosh.uni-koeln.de/mpcd/sns/restful/entries?field=trc&query=%2A&query_type=wildcard&size=326",
+    "content_type": "application/json",
+    "charset": null,
+    "status": "ok",
+    "file": "raw/70cd97401c1b8802bced33abc95870cb78b033d9d506e584d362407e26814c7c.source",
+    "sha256": "82dfa0b97f93316a23417abbc9d8765f01c3061734fbe863b86c29f37c018eb3",
+    "bytes": 82618
+  },
+  "catalogue_entries": 325,
+  "entries": 325,
+  "unique_ids": 325,
+  "with_xml": 325,
+  "fields": [
+    "created",
+    "id",
+    "sense",
+    "trc",
+    "xml"
+  ],
+  "status": "BELOW_CAP_UNVERIFIED",
+  "xml_errors_for_quarantine": []
+}

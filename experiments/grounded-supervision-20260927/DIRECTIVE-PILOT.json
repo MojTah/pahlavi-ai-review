@@ -1,0 +1,2467 @@
+{
+  "schema": "pahlavi-directive-pilot-v1",
+  "date": "2026-09-27",
+  "status": "PARTIAL_PROPOSALS_PENDING_INDEPENDENT_CRITIC",
+  "annotation_author": "/root/train_review_03",
+  "expert_adjudicated": false,
+  "training_admitted": false,
+  "mode": "Classic + Critic support; one isolated writer, no further delegation",
+  "selection": {
+    "pool": "all frozen standalone-ma TRAIN rows; no DEV/TEST/model-output selection",
+    "rule": "One shortest exact-source row per work, tie broken by TRAIN ID; all 12 represented works retained; one row/work (cap2 respected). Clear Persian witness checked after deterministic selection; uncertain labels abstain. No quota filling.",
+    "length_preference": "Eight rows are <=160 characters; each of the four longer selections is the only standalone-ma row in that work. Diversity is retained, with local spans bounded separately.",
+    "wording_limit": "Directive/prohibitive function only; no unique imperative morphology, new translation, lexical sense, or automatic clause polarity."
+  },
+  "inputs": {
+    "inventory": {
+      "path": "experiments/grounded-supervision-20260927/inventory.json",
+      "sha256": "5eead36cf1b422da43779759faa795d611a5a955322521e6f737babb2cac2d7c"
+    },
+    "grammar_note": {
+      "path": "experiments/grounded-supervision-20260927/SCHOLARLY-GRAMMAR-CHECK.md",
+      "sha256": "ecf5c6e9ee1bf2458e46b5645a5e1cbdc4e6daf40b8485e81e9cfd37f8715bd7",
+      "evidence_level": "Read the source-check note; underlying PDF pages were visually checked by root, not independently rechecked here.",
+      "rule_locators": [
+        "S22 printed80: ma for prohibition",
+        "S22 printed83: nē negation versus ma prohibition",
+        "S22 printed80 footnote: mood ambiguity; Nyberg printed281 §§5.6–5.7"
+      ],
+      "s22_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92"
+    },
+    "qualified_train": {
+      "path": "experiments/train-audit-20260927/qualified-v1/train.jsonl",
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+      "bytes": 5401884
+    },
+    "qualified_ledger": {
+      "path": "experiments/train-audit-20260927/qualified-v1/final-ledger.jsonl",
+      "sha256": "d79af2e64fbb92954c8b8d0ed9cb7a34e7e7d24d4c22ea9c22f1da6d569a8e77",
+      "bytes": 8623699
+    }
+  },
+  "summary": {
+    "rows": 12,
+    "works": 12,
+    "max_rows_per_work": 1,
+    "rows_at_most_160_source_chars": 8,
+    "ma_occurrences_reviewed": 16,
+    "provisional_ai_proposed_occurrences": 15,
+    "abstained_occurrences": 1,
+    "works_with_at_least_one_proposal": 11,
+    "admitted_labels": 0
+  },
+  "rows": [
+    {
+      "train_id": "parsig:109000005:pal>fa",
+      "work_id": "parsig:109",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 57,
+      "over_160_characters": false,
+      "source_text": "pad bahr ī xwēš hunsand bēd ud bahr ī any kas ma apparēd.",
+      "original_persian_witness": "به بهره (و سهم) خویش[در زندگی] خرسند (= راضی) باشید و بهرۀ کس دیگر را مدزدید.",
+      "row_sha256": "a7c3f3c2930b7fcfd6d3e09ef8dc58ef136e8c910ea31693f57d907a96bb79e0",
+      "source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b",
+      "target_sha256": "37d619f8712b4963d0a31b28a1e7dae06ab57c7d6db4c00534fa369486d29596",
+      "train_file_location": {
+        "line": 1974,
+        "byte_start": 4608031,
+        "byte_end": 4610032,
+        "line_bytes_sha256": "6edc7b6c1913e19d9e9e409a718d7000c01ab754f96474b8b4d6e198aaa0d7c9"
+      },
+      "ledger_file_location": {
+        "line": 2166,
+        "byte_start": 7456942,
+        "byte_end": 7460282,
+        "line_bytes_sha256": "91b162f73b57bf8c0e70e2843fead407cea0553754cf144aeab0e8a3e580655f"
+      },
+      "original_ledger_qualifications": [],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_PASS",
+        "credit": "(گشتاسب و حاجي‌پور، 1398)",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE",
+        "edition": "(Jamasp-Asana, 1913, p.56)",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 2,
+            "field": "target",
+            "kind": "marker:square_brackets"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:109000005:pal>fa",
+        "linguistic_review": {
+          "alignment": "pass",
+          "disposition": "ELIGIBLE",
+          "evidence": [
+            "109000:5"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:109000005:pal>fa",
+          "meaning": "no_identified_issue",
+          "qualifications": [],
+          "reason": "Contentment with one's share and prohibition on stealing another's share are preserved.",
+          "reviewer_id": "/root/train_review_01",
+          "reviewer_type": "AI",
+          "source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b",
+          "source_span": "",
+          "target_sha256": "37d619f8712b4963d0a31b28a1e7dae06ab57c7d6db4c00534fa369486d29596",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 2
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "109000",
+          "next_id": "parsig:109000006",
+          "previous_id": "parsig:109000004",
+          "sequence": 5
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 22097,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/df124169fbb186fec6e6acbd4bb26890239d779708e2e408edd0a58f76f5feb7.json",
+          "retrieved_utc": "2026-09-20T20:19:59.535922+00:00",
+          "sha256": "61d210ec6f59c44cd45305ccabebbe493f0de63867d22d442a17ae5095ae04e7",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/109/109000/All"
+        },
+        "raw_unit_sha256": "4a7cb830b220c34a04d51d350d0458ca5ea890bb1cf8e5bf0361e014c22ec9b2",
+        "record_id": "parsig:109000005",
+        "revision": "3184d16ecdff6dde67df0f024cdd08b720fe776a39e55ae7d1db3424bc329004",
+        "row_number": 2166,
+        "row_sha256": "a7c3f3c2930b7fcfd6d3e09ef8dc58ef136e8c910ea31693f57d907a96bb79e0",
+        "semantic_status": "PROVISIONAL_AI_NO_IDENTIFIED_ISSUE",
+        "source_sha256": "0a2476b534b97cccd042fe49a80d73ba413c8f1b0d9a9025dd7959014061c88b",
+        "source_text": "pad bahr ī xwēš hunsand bēd ud bahr ī any kas ma apparēd.",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "37d619f8712b4963d0a31b28a1e7dae06ab57c7d6db4c00534fa369486d29596",
+        "target_text": "به بهره (و سهم) خویش[در زندگی] خرسند (= راضی) باشید و بهرۀ کس دیگر را مدزدید.",
+        "token_proof_row_sha256": "9353e747ea4f5ebe7ac7dff11fbcc78463b7e8e5f752794eabe0894a915e9604",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:109"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:109000005:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 46,
+            "end": 48,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 52,
+            "utf8_byte_end": 54
+          },
+          "source_predicate_span": {
+            "start": 49,
+            "end": 56,
+            "text": "apparēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 55,
+            "utf8_byte_end": 63
+          },
+          "source_context_span": {
+            "start": 31,
+            "end": 56,
+            "text": "bahr ī any kas ma apparēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 35,
+            "utf8_byte_end": 63
+          },
+          "source_scope_span": {
+            "start": 31,
+            "end": 56,
+            "text": "bahr ī any kas ma apparēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 35,
+            "utf8_byte_end": 63
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی فقط در «بهرۀ کس دیگر را مدزدید»؛ خرسند بودن در بخش پیشین زیر این نهی قرار نمی‌گیرد.",
+          "original_persian_witness_span": {
+            "start": 54,
+            "end": 76,
+            "text": "بهرۀ کس دیگر را مدزدید",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 90,
+            "utf8_byte_end": 130
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The coordinated positive bēd clause is outside the selected source scope; ēd does not receive an imperative-morphology label.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:134002003:pal>fa",
+      "work_id": "parsig:134",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 95,
+      "over_160_characters": false,
+      "source_text": "u-š paymān az-iš xwāst kū: “ēn yasnīhā pad-nihān ma dārēd bē pad paywand ī ašmā zand ma čāšēd”.",
+      "original_persian_witness": "و از ایشان پیمان خواست که: »این یسن‌ها را پنهان مدارید، جز به پیوند خویش زند میاموزید».",
+      "row_sha256": "3590489ecde382dd82c418b2aee6e8b70002a3926d17fd804c54f3b872a830c5",
+      "source_sha256": "7e7bcb96a3183c34e053163eaa46a985e4be0795935263cf4ca238eff84d04ee",
+      "target_sha256": "3a3b698e954c38e8d6ca4dd976b8da7baca52ebc4d2318a63e1e8753fa5808b0",
+      "train_file_location": {
+        "line": 1358,
+        "byte_start": 2517163,
+        "byte_end": 2519526,
+        "line_bytes_sha256": "0bbfe9de307f26768b9224ed9ea9b525e1aeb2c524a14ac0a11f69caf40afd9d"
+      },
+      "ledger_file_location": {
+        "line": 1415,
+        "byte_start": 4640118,
+        "byte_end": 4643486,
+        "line_bytes_sha256": "d904f74ae356f120fa2eff59e3e37d86079d24012347da00ccbd924b5c0af594"
+      },
+      "original_ledger_qualifications": [],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_PASS",
+        "credit": "(راشدمحصل، 1370، ص2)",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE",
+        "edition": "(Anklesaria, 1957, p.5)",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:134002003:pal>fa",
+        "linguistic_review": {
+          "alignment": "pass",
+          "disposition": "ELIGIBLE",
+          "evidence": [
+            "134002:3"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:134002003:pal>fa",
+          "meaning": "no_identified_issue",
+          "qualifications": [],
+          "reason": "The request preserves both prohibitions: do not conceal the Yasns and do not teach the zand outside their kin.",
+          "reviewer_id": "/root/train_review_02",
+          "reviewer_type": "AI",
+          "source_sha256": "7e7bcb96a3183c34e053163eaa46a985e4be0795935263cf4ca238eff84d04ee",
+          "source_span": "",
+          "target_sha256": "3a3b698e954c38e8d6ca4dd976b8da7baca52ebc4d2318a63e1e8753fa5808b0",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "134002",
+          "next_id": "parsig:134002004",
+          "previous_id": "parsig:134002002",
+          "sequence": 3
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 4621,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/61fe120dbb65b52db91938fd87bd535b68bb7bfa16ca12582d07c6978ffe4c04.json",
+          "retrieved_utc": "2026-09-20T20:20:23.559330+00:00",
+          "sha256": "de95908a11b7a4145ce6601d23a877e9b9c6e83458684bcfb6c329e4f00e7144",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/134/134002/All"
+        },
+        "raw_unit_sha256": "95a80c8cd5d73f466f15023d772dac9bd8c74447585fd638348bf385f05da0d1",
+        "record_id": "parsig:134002003",
+        "revision": "92a3863585278e7d1004656770b73f997a6fa41be365875797bd71d69df598c0",
+        "row_number": 1415,
+        "row_sha256": "3590489ecde382dd82c418b2aee6e8b70002a3926d17fd804c54f3b872a830c5",
+        "semantic_status": "PROVISIONAL_AI_NO_IDENTIFIED_ISSUE",
+        "source_sha256": "7e7bcb96a3183c34e053163eaa46a985e4be0795935263cf4ca238eff84d04ee",
+        "source_text": "u-š paymān az-iš xwāst kū: “ēn yasnīhā pad-nihān ma dārēd bē pad paywand ī ašmā zand ma čāšēd”.",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "3a3b698e954c38e8d6ca4dd976b8da7baca52ebc4d2318a63e1e8753fa5808b0",
+        "target_text": "و از ایشان پیمان خواست که: »این یسن‌ها را پنهان مدارید، جز به پیوند خویش زند میاموزید».",
+        "token_proof_row_sha256": "cd191418f4fc45642987b99a4166a1655170531cad5dae56722f97e75079526d",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:134"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:134002003:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 49,
+            "end": 51,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 60,
+            "utf8_byte_end": 62
+          },
+          "source_predicate_span": {
+            "start": 52,
+            "end": 57,
+            "text": "dārēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 63,
+            "utf8_byte_end": 70
+          },
+          "source_context_span": {
+            "start": 28,
+            "end": 57,
+            "text": "ēn yasnīhā pad-nihān ma dārēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 35,
+            "utf8_byte_end": 70
+          },
+          "source_scope_span": {
+            "start": 28,
+            "end": 57,
+            "text": "ēn yasnīhā pad-nihān ma dārēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 35,
+            "utf8_byte_end": 70
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در نقلِ درخواست پیمان، محدود به «این یسن‌ها را پنهان مدارید».",
+          "original_persian_witness_span": {
+            "start": 28,
+            "end": 54,
+            "text": "این یسن‌ها را پنهان مدارید",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 49,
+            "utf8_byte_end": 98
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "Reported context is retained. This occurrence does not determine the scope of the next prohibition.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        },
+        {
+          "annotation_id": "parsig:134002003:pal>fa:ma2",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 85,
+            "end": 87,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 102,
+            "utf8_byte_end": 104
+          },
+          "source_predicate_span": {
+            "start": 88,
+            "end": 93,
+            "text": "čāšēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 105,
+            "utf8_byte_end": 114
+          },
+          "source_context_span": {
+            "start": 58,
+            "end": 93,
+            "text": "bē pad paywand ī ašmā zand ma čāšēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 71,
+            "utf8_byte_end": 114
+          },
+          "source_scope_span": {
+            "start": 58,
+            "end": 93,
+            "text": "bē pad paywand ī ašmā zand ma čāšēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 71,
+            "utf8_byte_end": 114
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در نقلِ درخواست پیمان؛ قید «جز به پیوند خویش» در دامنهٔ همین نهی حفظ می‌شود.",
+          "original_persian_witness_span": {
+            "start": 56,
+            "end": 85,
+            "text": "جز به پیوند خویش زند میاموزید",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 101,
+            "utf8_byte_end": 154
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The published exception wording is retained without defining paywand or generalizing the prohibition beyond it.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:136001015:pal>fa",
+      "work_id": "parsig:136",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 60,
+      "over_160_characters": false,
+      "source_text": "sāsān az pābag pušt ud zēnhār xwāst kū-m wizend zyān ma kun.",
+      "original_persian_witness": "ساسان از پاپک پشت (=پشتیبانی) و زینهار خواست که مرا گزند و زیان مکن.",
+      "row_sha256": "998013d3bb98b4946fd3dadc51f47ebf1a71a6439146e5b777e9c4ba698ec36e",
+      "source_sha256": "1b76656e50ae8fd77b0d71e38e46203cc7cb17ed45e1a53a0321699b8f292e65",
+      "target_sha256": "dae3dbc22d39a1cfea7f433bc04c12d4dae4e027226362bed4e8b1b923b1bb74",
+      "train_file_location": {
+        "line": 1649,
+        "byte_start": 3697839,
+        "byte_end": 3699748,
+        "line_bytes_sha256": "2a9ed5cafcaad498ccdd27d8ce44debbf80a2c10b457e603ab172d52633bbf7e"
+      },
+      "ledger_file_location": {
+        "line": 1773,
+        "byte_start": 6029237,
+        "byte_end": 6032477,
+        "line_bytes_sha256": "715cc1b8dc162132bb264c2af9e39d98ecf4dd3cf86d1d481b894ed65d2f1b60"
+      },
+      "original_ledger_qualifications": [],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_PASS",
+        "credit": "(فره‌وشی، 1378، ص9)",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE",
+        "edition": "(Anklesaria, 1935, p.6)",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:136001015:pal>fa",
+        "linguistic_review": {
+          "alignment": "pass",
+          "disposition": "ELIGIBLE",
+          "evidence": [
+            "136001:15"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:136001015:pal>fa",
+          "meaning": "no_identified_issue",
+          "qualifications": [],
+          "reason": "Sasan requests protection and an explicit prohibition against harm.",
+          "reviewer_id": "/root/train_review_03",
+          "reviewer_type": "AI",
+          "source_sha256": "1b76656e50ae8fd77b0d71e38e46203cc7cb17ed45e1a53a0321699b8f292e65",
+          "source_span": "",
+          "target_sha256": "dae3dbc22d39a1cfea7f433bc04c12d4dae4e027226362bed4e8b1b923b1bb74",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "136001",
+          "next_id": "parsig:136001016",
+          "previous_id": "parsig:136001014",
+          "sequence": 15
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 21254,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/c06e27b7a9a935bfbc970a93781b4c7eded7bbe42fbe272e2efcd58f4a6ae097.json",
+          "retrieved_utc": "2026-09-20T20:22:59.461757+00:00",
+          "sha256": "ae061718ac8bb0406afb2562b27b0f14d23369e7ff613a36e417563dfa6bc78a",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/136/136001/All"
+        },
+        "raw_unit_sha256": "766afe482130be5d34a49dee084b22ce970227b7361ff6af536e7f0fd4f1fb9b",
+        "record_id": "parsig:136001015",
+        "revision": "b5bcc728d3cacc53195bf65e34ab1ed382b4a37b72d45c84b94e62487f99cd43",
+        "row_number": 1773,
+        "row_sha256": "998013d3bb98b4946fd3dadc51f47ebf1a71a6439146e5b777e9c4ba698ec36e",
+        "semantic_status": "PROVISIONAL_AI_NO_IDENTIFIED_ISSUE",
+        "source_sha256": "1b76656e50ae8fd77b0d71e38e46203cc7cb17ed45e1a53a0321699b8f292e65",
+        "source_text": "sāsān az pābag pušt ud zēnhār xwāst kū-m wizend zyān ma kun.",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "dae3dbc22d39a1cfea7f433bc04c12d4dae4e027226362bed4e8b1b923b1bb74",
+        "target_text": "ساسان از پاپک پشت (=پشتیبانی) و زینهار خواست که مرا گزند و زیان مکن.",
+        "token_proof_row_sha256": "c68283cbc5c37dd7fb4d94496b21d71d37993bf9a74993065f1bdfdeb21d58ab",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:136"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:136001015:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 53,
+            "end": 55,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 62,
+            "utf8_byte_end": 64
+          },
+          "source_predicate_span": {
+            "start": 56,
+            "end": 59,
+            "text": "kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 65,
+            "utf8_byte_end": 68
+          },
+          "source_context_span": {
+            "start": 36,
+            "end": 59,
+            "text": "kū-m wizend zyān ma kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 43,
+            "utf8_byte_end": 68
+          },
+          "source_scope_span": {
+            "start": 36,
+            "end": 59,
+            "text": "kū-m wizend zyān ma kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 43,
+            "utf8_byte_end": 68
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در خواهشِ نقل‌شده: «مرا گزند و زیان مکن».",
+          "original_persian_witness_span": {
+            "start": 48,
+            "end": 67,
+            "text": "مرا گزند و زیان مکن",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 84,
+            "utf8_byte_end": 118
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The label applies inside the reported request, not to the narrator’s assertion that protection was requested.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:150000053:pal>fa",
+      "work_id": "parsig:150",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 440,
+      "over_160_characters": true,
+      "source_text": "kē pad-xrad kāmēd būdan, gōw kū bowandag-menišn bāš; kē pad-xēm kāmēd būdan, gōw kū dil-dard bāš; kē pad-šnāyēnišn kāmēd būdan, gōw kū weh dōst bāš; kē pad ruwān dōst kāmēd būdan, gōw kū rād bāš; kē pad-sūdōmand kāmēd būdan, gōw kū afsōs ma kun; kē pad-xūb-gōwišn kāmēd būdan, gōw kū rāst-gōwišn bāš; kē wistāxīh abāg ruwān ī xwēš kāmēd kardan, gōw kū har kas dōst bāš xōg wad ma kun; kē pad-hubrahmag kāmēd būdan, gōw kū xūb-hammōzišn bāš.",
+      "original_persian_witness": "كسي را كه مي‌خواهد خردمند  باشد، بگو كه بزرگ‌منش باش؛ كسي را كه مي‌خواهد نيك‌خيم [و نيك‌سرشت] باشد، بگو كه دلدرد [و نیکخواه] باش؛  كسي را كه مي‌خواهد محترم  باشد، بگو كه دوستِ نيكي [و خوبي‌ها]  باش؛ كسي را كه مي‌خواهد با روانِ [خود] دوست باشد، بگو كه راد [و بخشنده] باش؛  كسي را كه مي‌خواهد سودمند باشد، بگو كه ريشخند مكن؛  كسي را كه مي‌خواهد نيك گفتار باشد، بگو كه راست گفتار باش؛ كسي را كه مي‌خواهد به روان خويش اعتماد كند، بگو كه با هر كس دوست باش [و] خُلق [خويش] بد مكن؛ كسي را كه مي‌خواهد نيك‌روش باشد، بگو كه نيك‌آموختار باش [و دانش نيك بياموز].",
+      "row_sha256": "fb9269cfb62d3720c96a4658472c17c135377de3ac08547c5d31a5198bfaf389",
+      "source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d",
+      "target_sha256": "a9875df83d7e3cbdca389a57c8d114ddd13cc71535e5b9b86519530d441bf447",
+      "train_file_location": {
+        "line": 1930,
+        "byte_start": 4505276,
+        "byte_end": 4513924,
+        "line_bytes_sha256": "7d0da76bc738a72bcbccd3db0c642b4de647f9e0f0f4b7bc45382a173565e964"
+      },
+      "ledger_file_location": {
+        "line": 2105,
+        "byte_start": 7228667,
+        "byte_end": 7233371,
+        "line_bytes_sha256": "bfe1a58311401854610d532774afc8fc1aab4af35df43a174afa5ed92ffdd3c3"
+      },
+      "original_ledger_qualifications": [],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_PASS",
+        "credit": "(گشتاسب و حاجی‌پور، 1392، صص76، 78)",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE",
+        "edition": "(Dhabhar, 1930, p.8)",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 16,
+            "field": "target",
+            "kind": "marker:square_brackets"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:150000053:pal>fa",
+        "linguistic_review": {
+          "alignment": "pass",
+          "disposition": "ELIGIBLE",
+          "evidence": [
+            "150000:53"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:150000053:pal>fa",
+          "meaning": "no_identified_issue",
+          "qualifications": [],
+          "reason": "The eight desires and corresponding imperatives preserve wisdom, character, generosity, truthful speech and learning.",
+          "reviewer_id": "/root/train_review_04",
+          "reviewer_type": "AI",
+          "source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d",
+          "source_span": "",
+          "target_sha256": "a9875df83d7e3cbdca389a57c8d114ddd13cc71535e5b9b86519530d441bf447",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 16
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "150000",
+          "next_id": "parsig:150000054",
+          "previous_id": "parsig:150000052",
+          "sequence": 53
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 85013,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/a4f07101f8ff04c102bf6247ac16236612690592fca441c5ee0942a14499a18c.json",
+          "retrieved_utc": "2026-09-20T20:19:49.714854+00:00",
+          "sha256": "7d6f97335e98f501131e9288ee4a389b9f7c6ab314e730dc903b727b29377e8b",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/150/150000/All"
+        },
+        "raw_unit_sha256": "837d96bebeb4bd3e9eb8af0a6152982c7f72da70b177629a1f5be59101fb5f67",
+        "record_id": "parsig:150000053",
+        "revision": "9f7ec3edbe1a8823a7960811f4b7d213e57e2cf161e4a6ec83269be8e312cd89",
+        "row_number": 2105,
+        "row_sha256": "fb9269cfb62d3720c96a4658472c17c135377de3ac08547c5d31a5198bfaf389",
+        "semantic_status": "PROVISIONAL_AI_NO_IDENTIFIED_ISSUE",
+        "source_sha256": "317babd8b93dbf63295988660f8d933eb17b8e92005d29c1ee9cbbe847c44c5d",
+        "source_text": "kē pad-xrad kāmēd būdan, gōw kū bowandag-menišn bāš; kē pad-xēm kāmēd būdan, gōw kū dil-dard bāš; kē pad-šnāyēnišn kāmēd būdan, gōw kū weh dōst bāš; kē pad ruwān dōst kāmēd būdan, gōw kū rād bāš; kē pad-sūdōmand kāmēd būdan, gōw kū afsōs ma kun; kē pad-xūb-gōwišn kāmēd būdan, gōw kū rāst-gōwišn bāš; kē wistāxīh abāg ruwān ī xwēš kāmēd kardan, gōw kū har kas dōst bāš xōg wad ma kun; kē pad-hubrahmag kāmēd būdan, gōw kū xūb-hammōzišn bāš.",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "a9875df83d7e3cbdca389a57c8d114ddd13cc71535e5b9b86519530d441bf447",
+        "target_text": "كسي را كه مي‌خواهد خردمند  باشد، بگو كه بزرگ‌منش باش؛ كسي را كه مي‌خواهد نيك‌خيم [و نيك‌سرشت] باشد، بگو كه دلدرد [و نیکخواه] باش؛  كسي را كه مي‌خواهد محترم  باشد، بگو كه دوستِ نيكي [و خوبي‌ها]  باش؛ كسي را كه مي‌خواهد با روانِ [خود] دوست باشد، بگو كه راد [و بخشنده] باش؛  كسي را كه مي‌خواهد سودمند باشد، بگو كه ريشخند مكن؛  كسي را كه مي‌خواهد نيك گفتار باشد، بگو كه راست گفتار باش؛ كسي را كه مي‌خواهد به روان خويش اعتماد كند، بگو كه با هر كس دوست باش [و] خُلق [خويش] بد مكن؛ كسي را كه مي‌خواهد نيك‌روش باشد، بگو كه نيك‌آموختار باش [و دانش نيك بياموز].",
+        "token_proof_row_sha256": "3a907666a3527b8611674433e968d72211381f616e0a4061b604272b470b5335",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:150"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:150000053:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 238,
+            "end": 240,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 289,
+            "utf8_byte_end": 291
+          },
+          "source_predicate_span": {
+            "start": 241,
+            "end": 244,
+            "text": "kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 292,
+            "utf8_byte_end": 295
+          },
+          "source_context_span": {
+            "start": 232,
+            "end": 244,
+            "text": "afsōs ma kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 282,
+            "utf8_byte_end": 295
+          },
+          "source_scope_span": {
+            "start": 232,
+            "end": 244,
+            "text": "afsōs ma kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 282,
+            "utf8_byte_end": 295
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی فقط در «ريشخند مكن»؛ دستورهای مثبتِ مجاور زیر دامنهٔ این ma نیستند.",
+          "original_persian_witness_span": {
+            "start": 311,
+            "end": 321,
+            "text": "ريشخند مكن",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 556,
+            "utf8_byte_end": 575
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "One complete local prohibition is selected from a long list of positive and negative reported instructions.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        },
+        {
+          "annotation_id": "parsig:150000053:pal>fa:ma2",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 377,
+            "end": 379,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 458,
+            "utf8_byte_end": 460
+          },
+          "source_predicate_span": {
+            "start": 380,
+            "end": 383,
+            "text": "kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 461,
+            "utf8_byte_end": 464
+          },
+          "source_context_span": {
+            "start": 369,
+            "end": 383,
+            "text": "xōg wad ma kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 449,
+            "utf8_byte_end": 464
+          },
+          "source_scope_span": {
+            "start": 369,
+            "end": 383,
+            "text": "xōg wad ma kun",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 449,
+            "utf8_byte_end": 464
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی فقط در «خُلق [خويش] بد مكن»؛ «با هر کس دوست باش» نهی نمی‌شود.",
+          "original_persian_witness_span": {
+            "start": 455,
+            "end": 473,
+            "text": "خُلق [خويش] بد مكن",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 812,
+            "utf8_byte_end": 843
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The supplied target [خويش] remains bracketed; no independent source alignment or lexical sense is asserted for that addition.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:151001020:pal>fa",
+      "work_id": "parsig:151",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 11,
+      "over_160_characters": false,
+      "source_text": "bēš ma bar,",
+      "original_persian_witness": "غم مخور،",
+      "row_sha256": "7c5f5133c2e3b78c6c86e9b4afe4de654a2a47a26c40379b2e413f11a3dc0d56",
+      "source_sha256": "41463c49e2c1c4c478caa9b9df61ba99c1657b0f26c95430825c47ee7df3a312",
+      "target_sha256": "87f21f574ebc05789b3231759e8856ac1368a557a3e67796f52ab5e0d7ff3531",
+      "train_file_location": {
+        "line": 322,
+        "byte_start": 554734,
+        "byte_end": 555915,
+        "line_bytes_sha256": "aea8ce44c35a613577cfd1880ccc3bde23b81e82df932b0385713922a0d227d4"
+      },
+      "ledger_file_location": {
+        "line": 343,
+        "byte_start": 1132424,
+        "byte_end": 1135472,
+        "line_bytes_sha256": "1561907f96520d20d96c06a188794c1aeb3262aa68e96b365f4dc61cb52ed441"
+      },
+      "original_ledger_qualifications": [],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_PASS",
+        "credit": "(تفضلی، 1379، ص21)",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE",
+        "edition": "(Anklesaria, 1913, p.11)",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:151001020:pal>fa",
+        "linguistic_review": {
+          "alignment": "pass",
+          "disposition": "ELIGIBLE",
+          "evidence": [
+            "151001:20"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:151001020:pal>fa",
+          "meaning": "no_identified_issue",
+          "qualifications": [],
+          "reason": "The prohibition of grief is unchanged.",
+          "reviewer_id": "/root/train_review_04",
+          "reviewer_type": "AI",
+          "source_sha256": "41463c49e2c1c4c478caa9b9df61ba99c1657b0f26c95430825c47ee7df3a312",
+          "source_span": "",
+          "target_sha256": "87f21f574ebc05789b3231759e8856ac1368a557a3e67796f52ab5e0d7ff3531",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "151001",
+          "next_id": "parsig:151001021",
+          "previous_id": "parsig:151001019",
+          "sequence": 20
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 117433,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/d5837e516d7d01f61da4f44f68f64167a69b42183c46b31d0057b59141651154.json",
+          "retrieved_utc": "2026-09-20T20:21:47.102192+00:00",
+          "sha256": "546c32d199bf9c32c930904de0042342342256aeee3b0e0effadea55c08faa31",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/151/151001/All"
+        },
+        "raw_unit_sha256": "7688bdf8ce9c3dec52ac65a1b93a05c64bb1d19b195db5ca74d21beabae7f6ed",
+        "record_id": "parsig:151001020",
+        "revision": "4b3e7ed0fb29c6243402453a6751d07121797ee146f8eaad8453860a242ac9a8",
+        "row_number": 343,
+        "row_sha256": "7c5f5133c2e3b78c6c86e9b4afe4de654a2a47a26c40379b2e413f11a3dc0d56",
+        "semantic_status": "PROVISIONAL_AI_NO_IDENTIFIED_ISSUE",
+        "source_sha256": "41463c49e2c1c4c478caa9b9df61ba99c1657b0f26c95430825c47ee7df3a312",
+        "source_text": "bēš ma bar,",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "87f21f574ebc05789b3231759e8856ac1368a557a3e67796f52ab5e0d7ff3531",
+        "target_text": "غم مخور،",
+        "token_proof_row_sha256": "d39b54ea37430bc2db624c2d842435bf27768880546cfd0333f639a38de7139a",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:151"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:151001020:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 4,
+            "end": 6,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 6,
+            "utf8_byte_end": 8
+          },
+          "source_predicate_span": {
+            "start": 7,
+            "end": 10,
+            "text": "bar",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 9,
+            "utf8_byte_end": 12
+          },
+          "source_context_span": {
+            "start": 0,
+            "end": 10,
+            "text": "bēš ma bar",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 0,
+            "utf8_byte_end": 12
+          },
+          "source_scope_span": {
+            "start": 0,
+            "end": 10,
+            "text": "bēš ma bar",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 0,
+            "utf8_byte_end": 12
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در کل عبارت کوتاه «غم مخور».",
+          "original_persian_witness_span": {
+            "start": 0,
+            "end": 7,
+            "text": "غم مخور",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 0,
+            "utf8_byte_end": 13
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The idiomatic Persian witness is retained; bar is not assigned the Persian verb’s lexical sense or a universal morphological tag.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:509000001:pal>fa",
+      "work_id": "parsig:509",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 276,
+      "over_160_characters": true,
+      "source_text": "šud hēnd ō hrōm. dīd was hammōg pahikār abāg dēnān. frahīd wizīdagān ud niyōšāgān wizīd. pattēg yak sār ānōh būd. abāz āmad pēš frēstag. pas xwadāwan se dibīr, ewangelyōn, any dō nibēg ō addā frēstīd. framād kū ōrōn ma awar, any ānōh pattāy, nišān ī wāzārgān kē ganz harrōbēd.",
+      "original_persian_witness": "[ادّا و پتیگ] به روم رفتند. میان ادیان نزاع عقاید بسیار دیدند. برگزیدگان و نغوشایانِ بسیار برگزیدند. پتیگ یک سال آنجا بود. نزد رسول بازگشت. پس خداوندگار (=مانی) سه دبیر [و] انجیل [و] دو کتاب دیگر سوی ادّا فرستاد. فرمود که اینجا نیا، بلکه آنجا بمان، همچو بازرگانی که گنج می‌اندوزد...",
+      "row_sha256": "0c62054c835192ca5d683314e855cb402159a1331f10f652a4e31a2993309e00",
+      "source_sha256": "ec51fc748ec794a86343c4a8ad609f4243b0e87186e00f40c565a967beb8656a",
+      "target_sha256": "fa8a06787399b3eb0b3618004e1f76e2a9d7c9f7862679519461a6d77f67b1a9",
+      "train_file_location": {
+        "line": 2086,
+        "byte_start": 4861303,
+        "byte_end": 4866517,
+        "line_bytes_sha256": "44d74a2a04b5644c9bc86dbe582e7723fc618ec3bc9b373653c96c6dd785c086"
+      },
+      "ledger_file_location": {
+        "line": 2294,
+        "byte_start": 7901632,
+        "byte_end": 7905764,
+        "line_bytes_sha256": "7410988d30dd67c15123e72178c9ec6eb09f32529926f0604c7b8c2b8f83a74d"
+      },
+      "original_ledger_qualifications": [
+        "Missionary names supplied in brackets; Mani identified in a gloss."
+      ],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_QUALIFIED",
+        "credit": "(مصطفوی کاشانی، 1400)",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+        "edition": "(Boyce, 1975, p.39; M2/I/R/i)",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 1,
+            "field": "target",
+            "kind": "marker:ellipsis"
+          },
+          {
+            "count": 6,
+            "field": "target",
+            "kind": "marker:square_brackets"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:509000001:pal>fa",
+        "linguistic_review": {
+          "alignment": "qualified",
+          "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "evidence": [
+            "509000:1"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:509000001:pal>fa",
+          "meaning": "qualified",
+          "qualifications": [
+            "Missionary names supplied in brackets; Mani identified in a gloss."
+          ],
+          "reason": "Roman mission, Pattēg's one year, three scribes, Gospel/two books and order for Adda to stay align.",
+          "reviewer_id": "/root/train_review_08",
+          "reviewer_type": "AI",
+          "source_sha256": "ec51fc748ec794a86343c4a8ad609f4243b0e87186e00f40c565a967beb8656a",
+          "source_span": "",
+          "target_sha256": "fa8a06787399b3eb0b3618004e1f76e2a9d7c9f7862679519461a6d77f67b1a9",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 1,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 6
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "509000",
+          "next_id": "parsig:509000002",
+          "previous_id": "parsig:509000000",
+          "sequence": 1
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 25460,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/89ebcef8c5c89ac23c99f2fb80017ddd4c9a8cebd4ed8bab50b786cfabf6b1c1.json",
+          "retrieved_utc": "2026-09-20T20:26:46.859025+00:00",
+          "sha256": "080da7b2a7ce6fae719757f705f40b194fe032c99ca7f62605445dfbab1364f8",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/509/509000/All"
+        },
+        "raw_unit_sha256": "542564fddff1e85bb12b14871c173060be9cad65accf074d7e43462913bf6389",
+        "record_id": "parsig:509000001",
+        "revision": "242b0653c0d438638d5b3159d32d0888581d588c838c862d0d6cc1f65b4173b9",
+        "row_number": 2294,
+        "row_sha256": "0c62054c835192ca5d683314e855cb402159a1331f10f652a4e31a2993309e00",
+        "semantic_status": "PROVISIONAL_AI_QUALIFIED",
+        "source_sha256": "ec51fc748ec794a86343c4a8ad609f4243b0e87186e00f40c565a967beb8656a",
+        "source_text": "šud hēnd ō hrōm. dīd was hammōg pahikār abāg dēnān. frahīd wizīdagān ud niyōšāgān wizīd. pattēg yak sār ānōh būd. abāz āmad pēš frēstag. pas xwadāwan se dibīr, ewangelyōn, any dō nibēg ō addā frēstīd. framād kū ōrōn ma awar, any ānōh pattāy, nišān ī wāzārgān kē ganz harrōbēd.",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "fa8a06787399b3eb0b3618004e1f76e2a9d7c9f7862679519461a6d77f67b1a9",
+        "target_text": "[ادّا و پتیگ] به روم رفتند. میان ادیان نزاع عقاید بسیار دیدند. برگزیدگان و نغوشایانِ بسیار برگزیدند. پتیگ یک سال آنجا بود. نزد رسول بازگشت. پس خداوندگار (=مانی) سه دبیر [و] انجیل [و] دو کتاب دیگر سوی ادّا فرستاد. فرمود که اینجا نیا، بلکه آنجا بمان، همچو بازرگانی که گنج می‌اندوزد...",
+        "token_proof_row_sha256": "0aa54023335e744bdd49ae893d7247bafec5a2c767a583812e423a9024755718",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:509"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:509000001:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 216,
+            "end": 218,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 258,
+            "utf8_byte_end": 260
+          },
+          "source_predicate_span": {
+            "start": 219,
+            "end": 223,
+            "text": "awar",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 261,
+            "utf8_byte_end": 265
+          },
+          "source_context_span": {
+            "start": 211,
+            "end": 223,
+            "text": "ōrōn ma awar",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 251,
+            "utf8_byte_end": 265
+          },
+          "source_scope_span": {
+            "start": 211,
+            "end": 223,
+            "text": "ōrōn ma awar",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 251,
+            "utf8_byte_end": 265
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در فرمانِ نقل‌شده، محدود به «اینجا نیا»؛ «آنجا بمان» در دامنهٔ آن نیست.",
+          "original_persian_witness_span": {
+            "start": 222,
+            "end": 231,
+            "text": "اینجا نیا",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 388,
+            "utf8_byte_end": 405
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "Earlier supplied missionary names and the Mani gloss survive unchanged and are not needed to label this local command.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:511000001:pal>fa",
+      "work_id": "parsig:511",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 209,
+      "over_160_characters": true,
+      "source_text": "...pad mahrān... xrōhxwandān, ud pāzišn ī grīw-zīndag... kas-kas wahēbgārīh az dēn hēb nizēhēd. ud sust ma bawēd az ranz ī xwadāwan burdan, aʾōn kū-tān mizd ud pādāšin kirbag ud zīhr ī ǰāydān pad bārist windād",
+      "original_persian_witness": "... با سرودهای مقدّس... واعظان و تطهیر نفس زنده... کاش هر کس یاری به دین را تعلیم دهد. و سست مباشید از رنج بردن در راه خداوندگار (=مانی). تا مزد و پاداش عمل نیک و حیات جاوید بیابید در بهشت",
+      "row_sha256": "e4952c16b3feb921c76409c2334975a567e0ffb0df767a086372d3c1343ceb33",
+      "source_sha256": "cda142c4c6965d6413a0723d6d45bafcf0da8217a11d37d8fefb565ba67c37a6",
+      "target_sha256": "f3784c371e57c83f59d78a4f5d6552aa4fcb2a523677d16c4bdf61a550917aee",
+      "train_file_location": {
+        "line": 2192,
+        "byte_start": 5223603,
+        "byte_end": 5227422,
+        "line_bytes_sha256": "e6dcd0505e45a655fdc7706682f1798a1ca2560f6b274e35514ddb81a3065cf3"
+      },
+      "ledger_file_location": {
+        "line": 2429,
+        "byte_start": 8406538,
+        "byte_end": 8410374,
+        "line_bytes_sha256": "4786baf2d8c8dacefd93768dbdb77f64261fa31e4def19cef91f156d93e9800b"
+      },
+      "original_ledger_qualifications": [
+        "Opening gaps remain and heaven/Mani are explanatory identifications."
+      ],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_QUALIFIED",
+        "credit": "(مصطفوی کاشانی، 1401).",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+        "edition": "(Boyce, 1975, p.46).",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 3,
+            "field": "text",
+            "kind": "marker:ellipsis"
+          },
+          {
+            "count": 3,
+            "field": "target",
+            "kind": "marker:ellipsis"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:511000001:pal>fa",
+        "linguistic_review": {
+          "alignment": "qualified",
+          "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "evidence": [
+            "511000:1"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:511000001:pal>fa",
+          "meaning": "qualified",
+          "qualifications": [
+            "Opening gaps remain and heaven/Mani are explanatory identifications."
+          ],
+          "reason": "Teaching religious aid and perseverance through suffering lead to reward and eternal life above.",
+          "reviewer_id": "/root/train_review_08",
+          "reviewer_type": "AI",
+          "source_sha256": "cda142c4c6965d6413a0723d6d45bafcf0da8217a11d37d8fefb565ba67c37a6",
+          "source_span": "",
+          "target_sha256": "f3784c371e57c83f59d78a4f5d6552aa4fcb2a523677d16c4bdf61a550917aee",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 3,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 3,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "511000",
+          "next_id": "parsig:511000002",
+          "previous_id": null,
+          "sequence": 1
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 4719,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/b9162994aa8f9825a78c07273b4c3ccce0e9324f40ea98a285b7b3727efae95d.json",
+          "retrieved_utc": "2026-09-20T20:26:50.116521+00:00",
+          "sha256": "8744abc1ef6657035e13ad7ea601f9e39502081cbef3845faa1a70032fda0be9",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/511/511000/All"
+        },
+        "raw_unit_sha256": "86dbf48780171a0847abeb21a2cd844d9d942bd73fde03a0bae438b4ca95cfc8",
+        "record_id": "parsig:511000001",
+        "revision": "1c653e236a92676012b8dde0da59d010b9c9592b020c5ae195cde06764ca46a9",
+        "row_number": 2429,
+        "row_sha256": "e4952c16b3feb921c76409c2334975a567e0ffb0df767a086372d3c1343ceb33",
+        "semantic_status": "PROVISIONAL_AI_QUALIFIED",
+        "source_sha256": "cda142c4c6965d6413a0723d6d45bafcf0da8217a11d37d8fefb565ba67c37a6",
+        "source_text": "...pad mahrān... xrōhxwandān, ud pāzišn ī grīw-zīndag... kas-kas wahēbgārīh az dēn hēb nizēhēd. ud sust ma bawēd az ranz ī xwadāwan burdan, aʾōn kū-tān mizd ud pādāšin kirbag ud zīhr ī ǰāydān pad bārist windād",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "f3784c371e57c83f59d78a4f5d6552aa4fcb2a523677d16c4bdf61a550917aee",
+        "target_text": "... با سرودهای مقدّس... واعظان و تطهیر نفس زنده... کاش هر کس یاری به دین را تعلیم دهد. و سست مباشید از رنج بردن در راه خداوندگار (=مانی). تا مزد و پاداش عمل نیک و حیات جاوید بیابید در بهشت",
+        "token_proof_row_sha256": "98c404db67d255000a8a78e5c70f0a2554c21b8b9a0a8febc1066a84de1f069e",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:511"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:511000001:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 104,
+            "end": 106,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 119,
+            "utf8_byte_end": 121
+          },
+          "source_predicate_span": {
+            "start": 107,
+            "end": 112,
+            "text": "bawēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 122,
+            "utf8_byte_end": 128
+          },
+          "source_context_span": {
+            "start": 99,
+            "end": 138,
+            "text": "sust ma bawēd az ranz ī xwadāwan burdan",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 114,
+            "utf8_byte_end": 156
+          },
+          "source_scope_span": {
+            "start": 99,
+            "end": 138,
+            "text": "sust ma bawēd az ranz ī xwadāwan burdan",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 114,
+            "utf8_byte_end": 156
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در همین عبارت «سست مباشید از رنج بردن در راه خداوندگار (=مانی)»؛ جملهٔ آرزویی پیشین برچسب نمی‌گیرد.",
+          "original_persian_witness_span": {
+            "start": 89,
+            "end": 136,
+            "text": "سست مباشید از رنج بردن در راه خداوندگار (=مانی)",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 149,
+            "utf8_byte_end": 232
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "Opening gaps are outside this locally complete clause. The target Mani gloss is retained, not newly asserted; morphology stays unresolved.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:515000002:pal>fa",
+      "work_id": "parsig:515",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 78,
+      "over_160_characters": false,
+      "source_text": "ud dudīg andarz, kū drōzan ma hēb bawēnd, ud yak ō yak niǰdād ma hēb bawēnd...",
+      "original_persian_witness": "و اندرز دیگر،  اینکه دروغزن مباشند، و نسبت به هم ستمکار نباشند...",
+      "row_sha256": "ac8eb3cae4c57ce1472f06769f5c45dc8276b6171db53bbb351dea3a627d0bf8",
+      "source_sha256": "c8b407528607d9d3d76fca516d7a1217cfedea09005e80bb9f77d96e49139a6f",
+      "target_sha256": "513eaa74e5d82e039db55eb8ef22f26ef61ad6b6260d265a887920169e0b2f7b",
+      "train_file_location": {
+        "line": 2173,
+        "byte_start": 5162366,
+        "byte_end": 5164382,
+        "line_bytes_sha256": "e4c28178607eb51376233ff434e2179fe7e7f400c94ceb0764cfc583b948987f"
+      },
+      "ledger_file_location": {
+        "line": 2408,
+        "byte_start": 8329074,
+        "byte_end": 8332490,
+        "line_bytes_sha256": "b0d44f8a925e1614b206270e2068a91a15fc28766e98614953e6f97ad83aca27"
+      },
+      "original_ledger_qualifications": [
+        "Terminal lacuna retained."
+      ],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_QUALIFIED",
+        "credit": "(مصطفوی کاشانی، 1401).",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+        "edition": "(Boyce, 1975, p.57).",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 1,
+            "field": "text",
+            "kind": "marker:ellipsis"
+          },
+          {
+            "count": 1,
+            "field": "target",
+            "kind": "marker:ellipsis"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:515000002:pal>fa",
+        "linguistic_review": {
+          "alignment": "qualified",
+          "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "evidence": [
+            "515000:2"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:515000002:pal>fa",
+          "meaning": "qualified",
+          "qualifications": [
+            "Terminal lacuna retained."
+          ],
+          "reason": "Second injunction prohibits lying and injustice toward one another.",
+          "reviewer_id": "/root/train_review_08",
+          "reviewer_type": "AI",
+          "source_sha256": "c8b407528607d9d3d76fca516d7a1217cfedea09005e80bb9f77d96e49139a6f",
+          "source_span": "",
+          "target_sha256": "513eaa74e5d82e039db55eb8ef22f26ef61ad6b6260d265a887920169e0b2f7b",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 1,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 1,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "515000",
+          "next_id": "parsig:515000003",
+          "previous_id": "parsig:515000001",
+          "sequence": 2
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 6347,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/657ec4964b08071b90e0ef3a3d96fff0175edeb51f878db92c62f6d8996cc9d5.json",
+          "retrieved_utc": "2026-09-20T20:26:56.737525+00:00",
+          "sha256": "d3a533af1986c08616f4a31a44c25476f625deca1f51c097479381c0a62d6e20",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/515/515000/All"
+        },
+        "raw_unit_sha256": "35a4c27daabbc83b0fa98a2b32ddbce733ab6fcd4ab0686a83609b9b822ec4a1",
+        "record_id": "parsig:515000002",
+        "revision": "760deff32073718b15644fc5c013fc2fab31bc4afce3259846ec24e04b627dbf",
+        "row_number": 2408,
+        "row_sha256": "ac8eb3cae4c57ce1472f06769f5c45dc8276b6171db53bbb351dea3a627d0bf8",
+        "semantic_status": "PROVISIONAL_AI_QUALIFIED",
+        "source_sha256": "c8b407528607d9d3d76fca516d7a1217cfedea09005e80bb9f77d96e49139a6f",
+        "source_text": "ud dudīg andarz, kū drōzan ma hēb bawēnd, ud yak ō yak niǰdād ma hēb bawēnd...",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "513eaa74e5d82e039db55eb8ef22f26ef61ad6b6260d265a887920169e0b2f7b",
+        "target_text": "و اندرز دیگر،  اینکه دروغزن مباشند، و نسبت به هم ستمکار نباشند...",
+        "token_proof_row_sha256": "d9cf3199b734adbb900ddbcd0e8d0ae9b3f90cf0b8468670e55d5e3b96de2368",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:515"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:515000002:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 27,
+            "end": 29,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 30,
+            "utf8_byte_end": 32
+          },
+          "source_predicate_span": {
+            "start": 34,
+            "end": 40,
+            "text": "bawēnd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 38,
+            "utf8_byte_end": 45
+          },
+          "source_context_span": {
+            "start": 20,
+            "end": 40,
+            "text": "drōzan ma hēb bawēnd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 22,
+            "utf8_byte_end": 45
+          },
+          "source_scope_span": {
+            "start": 20,
+            "end": 40,
+            "text": "drōzan ma hēb bawēnd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 22,
+            "utf8_byte_end": 45
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در اندرزِ نقل‌شده، محدود به «دروغزن مباشند»؛ صورت صرفی فعل تعیین نمی‌شود.",
+          "original_persian_witness_span": {
+            "start": 21,
+            "end": 34,
+            "text": "دروغزن مباشند",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 37,
+            "utf8_byte_end": 62
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "andarz and the parallel Persian support a negative directive function, but ma hēb bawēnd is not assigned an imperative, optative or jussive morphological tag.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        },
+        {
+          "annotation_id": "parsig:515000002:pal>fa:ma2",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 62,
+            "end": 64,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 70,
+            "utf8_byte_end": 72
+          },
+          "source_predicate_span": {
+            "start": 69,
+            "end": 75,
+            "text": "bawēnd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 78,
+            "utf8_byte_end": 85
+          },
+          "source_context_span": {
+            "start": 45,
+            "end": 75,
+            "text": "yak ō yak niǰdād ma hēb bawēnd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 50,
+            "utf8_byte_end": 85
+          },
+          "source_scope_span": {
+            "start": 45,
+            "end": 75,
+            "text": "yak ō yak niǰdād ma hēb bawēnd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 50,
+            "utf8_byte_end": 85
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در اندرزِ نقل‌شده، محدود به «نسبت به هم ستمکار نباشند»؛ ادامهٔ افتاده بازسازی نمی‌شود.",
+          "original_persian_witness_span": {
+            "start": 38,
+            "end": 62,
+            "text": "نسبت به هم ستمکار نباشند",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 68,
+            "utf8_byte_end": 112
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The terminal lacuna survives. The proposal covers only the extant local clause and leaves the finite mood unassigned.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:521000003:pal>fa",
+      "work_id": "parsig:521",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 143,
+      "over_160_characters": false,
+      "source_text": "u-mān abaxšāyišn ud dōšāram abar kun, xwābar ī hamāg dōšāramīh, u-mān hammis wišōbāgān ma hangār. panāh-griftag udāy, u-mān abaxšāyišn abar kun",
+      "original_persian_witness": "بر ما بخشایش کن و دوستمان بدار، ای بخشندۀ سراسر دوستی و ما را همراه آشوبگران مینگار. پناه‌گرفته را یاری کن و بر ما بخشایش کن",
+      "row_sha256": "daf46b4a207bbcbc3a060c3e033a01604f0c85a732a5667e7ad041341cc74585",
+      "source_sha256": "e3096e9ef29f76982762f189da400b6b8cf1eb4fd13ce139698bda1707b7ef0a",
+      "target_sha256": "59b4fcf5f0acc2cc9033d285042716a92e9d33ccaed853023404a6173ad4c19c",
+      "train_file_location": {
+        "line": 2135,
+        "byte_start": 5023336,
+        "byte_end": 5026336,
+        "line_bytes_sha256": "7531728470025a28d55a112ff011f6b1ad4f814a4857d8e8241864b5e3fb1613"
+      },
+      "ledger_file_location": {
+        "line": 2357,
+        "byte_start": 8132957,
+        "byte_end": 8136421,
+        "line_bytes_sha256": "610989941defe59ac7209cd622d6145024e049c2b74d0c2f9035d3e4c689e030"
+      },
+      "original_ledger_qualifications": [],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_PASS",
+        "credit": "(مصطفوی کاشانی، 1401).",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE",
+        "edition": "(Boyce, 1975, p.124).",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:521000003:pal>fa",
+        "linguistic_review": {
+          "alignment": "pass",
+          "disposition": "ELIGIBLE",
+          "evidence": [
+            "521000:3"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:521000003:pal>fa",
+          "meaning": "no_identified_issue",
+          "qualifications": [],
+          "reason": "Petition for mercy/love, exclusion from disturbers and aid to one taking refuge align.",
+          "reviewer_id": "/root/train_review_08",
+          "reviewer_type": "AI",
+          "source_sha256": "e3096e9ef29f76982762f189da400b6b8cf1eb4fd13ce139698bda1707b7ef0a",
+          "source_span": "",
+          "target_sha256": "59b4fcf5f0acc2cc9033d285042716a92e9d33ccaed853023404a6173ad4c19c",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 0,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "521000",
+          "next_id": "parsig:521000004",
+          "previous_id": "parsig:521000002",
+          "sequence": 3
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 14956,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/84b8c895f2e8767e279d464c335096fa71c8edf507145b773884405ca9da9d5d.json",
+          "retrieved_utc": "2026-09-20T20:25:40.754269+00:00",
+          "sha256": "bdd49c7d1db1b965c131f2e59af2b6cd2b2ff15c562363cc8af5be24e72cd31f",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/521/521000/All"
+        },
+        "raw_unit_sha256": "788db1ce5ef83f2f7ea853fbb71f59b6ba9221614b750409cf7f65c75cfd4ef6",
+        "record_id": "parsig:521000003",
+        "revision": "8b911142c55e39a590253567eaeeb241346a89cc9c3db1f120cbb15028f1928d",
+        "row_number": 2357,
+        "row_sha256": "daf46b4a207bbcbc3a060c3e033a01604f0c85a732a5667e7ad041341cc74585",
+        "semantic_status": "PROVISIONAL_AI_NO_IDENTIFIED_ISSUE",
+        "source_sha256": "e3096e9ef29f76982762f189da400b6b8cf1eb4fd13ce139698bda1707b7ef0a",
+        "source_text": "u-mān abaxšāyišn ud dōšāram abar kun, xwābar ī hamāg dōšāramīh, u-mān hammis wišōbāgān ma hangār. panāh-griftag udāy, u-mān abaxšāyišn abar kun",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "59b4fcf5f0acc2cc9033d285042716a92e9d33ccaed853023404a6173ad4c19c",
+        "target_text": "بر ما بخشایش کن و دوستمان بدار، ای بخشندۀ سراسر دوستی و ما را همراه آشوبگران مینگار. پناه‌گرفته را یاری کن و بر ما بخشایش کن",
+        "token_proof_row_sha256": "7865ce8bf207cb5677ea704b9643098758d1e7b87cf61a80aa91ea70c6698094",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:521"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:521000003:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 87,
+            "end": 89,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 106,
+            "utf8_byte_end": 108
+          },
+          "source_predicate_span": {
+            "start": 90,
+            "end": 96,
+            "text": "hangār",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 109,
+            "utf8_byte_end": 116
+          },
+          "source_context_span": {
+            "start": 64,
+            "end": 96,
+            "text": "u-mān hammis wišōbāgān ma hangār",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 78,
+            "utf8_byte_end": 116
+          },
+          "source_scope_span": {
+            "start": 64,
+            "end": 96,
+            "text": "u-mān hammis wišōbāgān ma hangār",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 78,
+            "utf8_byte_end": 116
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "درخواست منفی",
+          "scope_fa": "درخواست منفی در خطاب: «ما را همراه آشوبگران مینگار»؛ درخواست‌های مثبتِ مجاور نهی نمی‌شوند.",
+          "original_persian_witness_span": {
+            "start": 56,
+            "end": 83,
+            "text": "ما را همراه آشوبگران مینگار",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 100,
+            "utf8_byte_end": 150
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The proposal labels the requested non-action only; it does not infer the addressee’s identity or add a lexical gloss.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:550000001:pal>fa",
+      "work_id": "parsig:550",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 62,
+      "over_160_characters": false,
+      "source_text": "...ud zūd zūd sōgand ma xwarēd ud ō any-iz kas sōgand ma dayēd",
+      "original_persian_witness": "... و زودزود سوگند مخورید و دیگری را نیز سوگند مدهید",
+      "row_sha256": "6febb099f2cc484c2e611380dfae8b9df49b91145aafaec20317afb76afcfa15",
+      "source_sha256": "4e38c8089b542c54f190234546afca74f69daf37e6a6ee26d3809a5f9b8afbd6",
+      "target_sha256": "c06ae0856515c4365feb22875095ae6436eca14e423e931e7d152db3b05c906d",
+      "train_file_location": {
+        "line": 2121,
+        "byte_start": 4977681,
+        "byte_end": 4979551,
+        "line_bytes_sha256": "136713dd006b687157b8f1b042205babf0d1fa45b9a2043b4e7d02a9412ffa9c"
+      },
+      "ledger_file_location": {
+        "line": 2339,
+        "byte_start": 8066988,
+        "byte_end": 8070294,
+        "line_bytes_sha256": "87886f52b968e133be222bf3e8356032922394f6e22b03aa6ff93f6bb6ee8fde"
+      },
+      "original_ledger_qualifications": [],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_PASS",
+        "credit": "(مصطفوی کاشانی، 1401).",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE",
+        "edition": "(Boyce, 1975, p.184).",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 1,
+            "field": "text",
+            "kind": "marker:ellipsis"
+          },
+          {
+            "count": 1,
+            "field": "target",
+            "kind": "marker:ellipsis"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:550000001:pal>fa",
+        "linguistic_review": {
+          "alignment": "pass",
+          "disposition": "ELIGIBLE",
+          "evidence": [
+            "550000:1"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:550000001:pal>fa",
+          "meaning": "no_identified_issue",
+          "qualifications": [],
+          "reason": "Both prohibitions remain: frequent swearing and making another swear.",
+          "reviewer_id": "/root/train_review_08",
+          "reviewer_type": "AI",
+          "source_sha256": "4e38c8089b542c54f190234546afca74f69daf37e6a6ee26d3809a5f9b8afbd6",
+          "source_span": "",
+          "target_sha256": "c06ae0856515c4365feb22875095ae6436eca14e423e931e7d152db3b05c906d",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 1,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 1,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "550000",
+          "next_id": "parsig:550000002",
+          "previous_id": null,
+          "sequence": 1
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 7607,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/abeb568408a9299c38962214489df5e0059c84e4b4d772af8333d76e86fec6fe.json",
+          "retrieved_utc": "2026-09-20T20:26:30.401668+00:00",
+          "sha256": "398a824b56de3e11db55964cf4240815c2598dcbfc8b354b1f6231858fe03f54",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/550/550000/All"
+        },
+        "raw_unit_sha256": "b44acc3872ba3fcef213e6ef844e9fbd11dedec13df35c9a4e321d449db3929b",
+        "record_id": "parsig:550000001",
+        "revision": "7251a52ce872593aa881ac42d2a90a6d05bbd1f9e781e5e0aebb6e24a462b7c7",
+        "row_number": 2339,
+        "row_sha256": "6febb099f2cc484c2e611380dfae8b9df49b91145aafaec20317afb76afcfa15",
+        "semantic_status": "PROVISIONAL_AI_NO_IDENTIFIED_ISSUE",
+        "source_sha256": "4e38c8089b542c54f190234546afca74f69daf37e6a6ee26d3809a5f9b8afbd6",
+        "source_text": "...ud zūd zūd sōgand ma xwarēd ud ō any-iz kas sōgand ma dayēd",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "c06ae0856515c4365feb22875095ae6436eca14e423e931e7d152db3b05c906d",
+        "target_text": "... و زودزود سوگند مخورید و دیگری را نیز سوگند مدهید",
+        "token_proof_row_sha256": "03b0f7be9817d1185979198fb08678dbc858fffcde468cdf7061e2987c7dd4f3",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:550"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:550000001:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 21,
+            "end": 23,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 25,
+            "utf8_byte_end": 27
+          },
+          "source_predicate_span": {
+            "start": 24,
+            "end": 30,
+            "text": "xwarēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 28,
+            "utf8_byte_end": 35
+          },
+          "source_context_span": {
+            "start": 6,
+            "end": 30,
+            "text": "zūd zūd sōgand ma xwarēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 6,
+            "utf8_byte_end": 35
+          },
+          "source_scope_span": {
+            "start": 6,
+            "end": 30,
+            "text": "zūd zūd sōgand ma xwarēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 6,
+            "utf8_byte_end": 35
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در «زودزود سوگند مخورید»؛ قید «زودزود» حذف یا به حکم مطلق تبدیل نمی‌شود.",
+          "original_persian_witness_span": {
+            "start": 6,
+            "end": 25,
+            "text": "زودزود سوگند مخورید",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 7,
+            "utf8_byte_end": 43
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "The opening ellipsis is retained. The frequency wording is part of the bounded witness, so this is not relabeled as an unconditional ban on every oath.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        },
+        {
+          "annotation_id": "parsig:550000001:pal>fa:ma2",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 54,
+            "end": 56,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 61,
+            "utf8_byte_end": 63
+          },
+          "source_predicate_span": {
+            "start": 57,
+            "end": 62,
+            "text": "dayēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 64,
+            "utf8_byte_end": 70
+          },
+          "source_context_span": {
+            "start": 34,
+            "end": 62,
+            "text": "ō any-iz kas sōgand ma dayēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 39,
+            "utf8_byte_end": 70
+          },
+          "source_scope_span": {
+            "start": 34,
+            "end": 62,
+            "text": "ō any-iz kas sōgand ma dayēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 39,
+            "utf8_byte_end": 70
+          },
+          "scope_completeness": "bounded_local_scope",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهیِ دوم در «دیگری را نیز سوگند مدهید»، جدا از نهیِ سوگند خوردن.",
+          "original_persian_witness_span": {
+            "start": 28,
+            "end": 52,
+            "text": "دیگری را نیز سوگند مدهید",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 47,
+            "utf8_byte_end": 91
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "Two coordinated negative directives have separate predicates and target witnesses; the source’s ēd ending does not establish unique mood.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:551000002:pal>fa",
+      "work_id": "parsig:551",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 193,
+      "over_160_characters": true,
+      "source_text": "mardōhm panz až šahrīgān nayēd. abāg ōyšān gōwēd kū sērišn nē bawād. ō niyōšāgān gōwēd kū ma kas ašmāh duždil kunād kū pad šahr ēstēd. čē dōst ī dōstān ašmāh hēd, niyōšāgān hēnd kē pad rōzag...",
+      "original_persian_witness": "پنج تن از مردم جهان را راهنمایی کنید. به آنها گویید که: «خشم مباشَد.» به نغوشایان گویید که: «مبادا کسی شما را بددل کند که در جهان بمانید (=به دنیا دل ببنیدید). زیرا که دوستِ دوستان شمایید، نغوشایانند که با روزه...»",
+      "row_sha256": "d7715d3a16bcc6b0a4b961cc7898f37236efe6cc3553938cb1ea9583077346eb",
+      "source_sha256": "3f4d6bba713a1319fe479055cdb0da1e4a962c57dedd84fd72e2bbbc6156c593",
+      "target_sha256": "5493e2d097eab2c829060170bc35b28d8f1eb0044622cf00b60853345d0790d2",
+      "train_file_location": {
+        "line": 2180,
+        "byte_start": 5183909,
+        "byte_end": 5188053,
+        "line_bytes_sha256": "89a34cbafc96eb83f9f1bcf16f8c0eaab86eb159028987367bcd61d65a0d3bae"
+      },
+      "ledger_file_location": {
+        "line": 2416,
+        "byte_start": 8358196,
+        "byte_end": 8362087,
+        "line_bytes_sha256": "eb89d4107d54e662e1bc72a22b7657c5be48a6e0bbf91cf6b5b71b863b24918e"
+      },
+      "original_ledger_qualifications": [
+        "Worldly attachment explanation and final fasting fragment retained."
+      ],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_QUALIFIED",
+        "credit": "(مصطفوی کاشانی، 1401)",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+        "edition": "(Boyce, 1975, p.185)",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 1,
+            "field": "text",
+            "kind": "marker:ellipsis"
+          },
+          {
+            "count": 1,
+            "field": "target",
+            "kind": "marker:ellipsis"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:551000002:pal>fa",
+        "linguistic_review": {
+          "alignment": "qualified",
+          "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "evidence": [
+            "551000:2"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:551000002:pal>fa",
+          "meaning": "qualified",
+          "qualifications": [
+            "Worldly attachment explanation and final fasting fragment retained."
+          ],
+          "reason": "Five worldly people, rejection of anger/discouragement and auditors as friends align.",
+          "reviewer_id": "/root/train_review_08",
+          "reviewer_type": "AI",
+          "source_sha256": "3f4d6bba713a1319fe479055cdb0da1e4a962c57dedd84fd72e2bbbc6156c593",
+          "source_span": "",
+          "target_sha256": "5493e2d097eab2c829060170bc35b28d8f1eb0044622cf00b60853345d0790d2",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 1,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 1,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "551000",
+          "next_id": "parsig:551000003",
+          "previous_id": "parsig:551000001",
+          "sequence": 2
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 5575,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/983a54c5f39d9bbcef7be919115e9fad8d7dc2cc71221e85e7d09135024e15f6.json",
+          "retrieved_utc": "2026-09-20T20:26:31.957176+00:00",
+          "sha256": "fab541acee051dce621e5d1a156b24e50a5721e1dad19ba74e5ba216a51cd2fe",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/551/551000/All"
+        },
+        "raw_unit_sha256": "a32ca4afc88872d425182a3dfb3e4cf12d8405355bfedf6f86f5cf2bc4da023b",
+        "record_id": "parsig:551000002",
+        "revision": "859a477ee2089b92ed97abb1a3e17b096314caa3fb075bf91e5c6bb9289c7fa2",
+        "row_number": 2416,
+        "row_sha256": "d7715d3a16bcc6b0a4b961cc7898f37236efe6cc3553938cb1ea9583077346eb",
+        "semantic_status": "PROVISIONAL_AI_QUALIFIED",
+        "source_sha256": "3f4d6bba713a1319fe479055cdb0da1e4a962c57dedd84fd72e2bbbc6156c593",
+        "source_text": "mardōhm panz až šahrīgān nayēd. abāg ōyšān gōwēd kū sērišn nē bawād. ō niyōšāgān gōwēd kū ma kas ašmāh duždil kunād kū pad šahr ēstēd. čē dōst ī dōstān ašmāh hēd, niyōšāgān hēnd kē pad rōzag...",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "5493e2d097eab2c829060170bc35b28d8f1eb0044622cf00b60853345d0790d2",
+        "target_text": "پنج تن از مردم جهان را راهنمایی کنید. به آنها گویید که: «خشم مباشَد.» به نغوشایان گویید که: «مبادا کسی شما را بددل کند که در جهان بمانید (=به دنیا دل ببنیدید). زیرا که دوستِ دوستان شمایید، نغوشایانند که با روزه...»",
+        "token_proof_row_sha256": "e41754a30e0632a532f1771082b3198e2bbecbddb0a0e14b08cf9729682a283b",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:551"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:551000002:pal>fa:ma1",
+          "status": "ABSTAIN",
+          "source_ma_span": {
+            "start": 90,
+            "end": 92,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 115,
+            "utf8_byte_end": 117
+          },
+          "source_predicate_span": {
+            "start": 110,
+            "end": 115,
+            "text": "kunād",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 138,
+            "utf8_byte_end": 144
+          },
+          "source_context_span": {
+            "start": 90,
+            "end": 133,
+            "text": "ma kas ašmāh duždil kunād kū pad šahr ēstēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 115,
+            "utf8_byte_end": 166
+          },
+          "source_scope_span": null,
+          "scope_completeness": null,
+          "directive_function_fa": null,
+          "scope_fa": null,
+          "original_persian_witness_span": {
+            "start": 93,
+            "end": 136,
+            "text": "مبادا کسی شما را بددل کند که در جهان بمانید",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 164,
+            "utf8_byte_end": 241
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "Grammar gives a general ma rule, but does not settle this specific reported third-person construction and following subordinate scope.",
+          "limitations": "ABSTAIN: third-person ma…kunād with the following kū clause and Persian مبادا leaves warning/wish versus directive function and full subordinate scope unresolved in this bounded check. Do not infer an imperative or a clause-polarity label. The exact predicate and witness are retained solely for review.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    },
+    {
+      "train_id": "parsig:555000002:pal>fa",
+      "work_id": "parsig:555",
+      "selection_rank_within_work": 1,
+      "source_length_codepoints": 107,
+      "over_160_characters": false,
+      "source_text": "...īg pidar hišt... ud paywahišn ma frāmōšēd ud wāng ī-mān ōhang, čē az kirbakkarān hom ud nē az bazakkarān",
+      "original_persian_witness": "... که پدر را هِشت... و نیایش را فراموش نکنید و بانگ اندوهمان را، زیرا از نیکوکارانیم و نه از خطاکاران",
+      "row_sha256": "afd519ad47ff0a604d3492180a46f593e98b180457621c582744422e61ccdb47",
+      "source_sha256": "ad02076cd9f2eaf14a3d870178ff19ec5bd0c3bd3aeb8bca9c62cfa12a89ab99",
+      "target_sha256": "9f539c6ee39d93b23b9068eb958d22f56a0d2906f95dc3f6f4f3d39e0c834141",
+      "train_file_location": {
+        "line": 2167,
+        "byte_start": 5141792,
+        "byte_end": 5144219,
+        "line_bytes_sha256": "f4946261f5be0e8dfa7836e49051f615a650cb683ca811bd47db1464e7bcc678"
+      },
+      "ledger_file_location": {
+        "line": 2396,
+        "byte_start": 8282208,
+        "byte_end": 8285769,
+        "line_bytes_sha256": "6022a85b4bf7ed2d0914618d8a91d97c87f4db3ff60822bcfe4b3f492deff646"
+      },
+      "original_ledger_qualifications": [
+        "Initial damaged Father clause retained."
+      ],
+      "original_ledger_entry": {
+        "alignment_status": "PROVISIONAL_AI_QUALIFIED",
+        "credit": "(مصطفوی کاشانی، 1401).",
+        "curation_alignment_scope": "publisher paragraph ID and fields, not sentence-level or expert semantic validation",
+        "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+        "edition": "(Boyce, 1975, p.192).",
+        "expert_status": "NOT_EXPERT_ADJUDICATED",
+        "flags": [
+          {
+            "count": 2,
+            "field": "text",
+            "kind": "marker:ellipsis"
+          },
+          {
+            "count": 2,
+            "field": "target",
+            "kind": "marker:ellipsis"
+          }
+        ],
+        "flags_are_not_exclusions": true,
+        "id": "parsig:555000002:pal>fa",
+        "linguistic_review": {
+          "alignment": "qualified",
+          "disposition": "ELIGIBLE_WITH_QUALIFICATIONS",
+          "evidence": [
+            "555000:2"
+          ],
+          "expert_adjudicated": false,
+          "id": "parsig:555000002:pal>fa",
+          "meaning": "qualified",
+          "qualifications": [
+            "Initial damaged Father clause retained."
+          ],
+          "reason": "Prayer and sorrowful cry must not be forgotten because speakers are good-doers rather than sinners.",
+          "reviewer_id": "/root/train_review_08",
+          "reviewer_type": "AI",
+          "source_sha256": "ad02076cd9f2eaf14a3d870178ff19ec5bd0c3bd3aeb8bca9c62cfa12a89ab99",
+          "source_span": "",
+          "target_sha256": "9f539c6ee39d93b23b9068eb958d22f56a0d2906f95dc3f6f4f3d39e0c834141",
+          "target_span": ""
+        },
+        "marker_inventory": {
+          "target": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 2,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          },
+          "text": {
+            "editorial_or_damage_markers": {
+              "angle_brackets": 0,
+              "editorial_asterisk": 0,
+              "ellipsis": 2,
+              "explicit_question_annotation": 0,
+              "replacement_character": 0,
+              "square_brackets": 0
+            },
+            "ordinary_question_punctuation_count": 0
+          }
+        },
+        "mechanical_errors": [],
+        "mechanical_status": "PASS",
+        "neighbors": {
+          "chapter": "555000",
+          "next_id": "parsig:555000003",
+          "previous_id": "parsig:555000001",
+          "sequence": 2
+        },
+        "paid_run_admitted": false,
+        "provenance_status": "PASS",
+        "qualification_status": "PROVISIONAL_AI_QUALIFIED_DATA_NOT_EXPERT_CERTIFIED",
+        "raw_export_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+        "raw_pointer": {
+          "bytes": 4274,
+          "content_type": "application/json; charset=utf-8",
+          "file": "responses/cbeae97b2e67e7b0b1796c0a6e029fe96b67337f2f635c8715e1e142d7c7964d.json",
+          "retrieved_utc": "2026-09-20T20:26:38.562305+00:00",
+          "sha256": "c76e53e72399b0297b80da9e3b68535180d29613a1965d56918d2bf549b9ff22",
+          "url": "https://mpdb.parsigdatabase.com/surf/paragraph/555/555000/All"
+        },
+        "raw_unit_sha256": "bc61855c6e131be3b645dc7783633cccbc2e3ff1e4cd0c64b1a04531ba661888",
+        "record_id": "parsig:555000002",
+        "revision": "250ed4428a2b87d93712fc21b032173e46b3235a762ce41100a5b4b0f3ecf33f",
+        "row_number": 2396,
+        "row_sha256": "afd519ad47ff0a604d3492180a46f593e98b180457621c582744422e61ccdb47",
+        "semantic_status": "PROVISIONAL_AI_QUALIFIED",
+        "source_sha256": "ad02076cd9f2eaf14a3d870178ff19ec5bd0c3bd3aeb8bca9c62cfa12a89ab99",
+        "source_text": "...īg pidar hišt... ud paywahišn ma frāmōšēd ud wāng ī-mān ōhang, čē az kirbakkarān hom ud nē az bazakkarān",
+        "split_errors": [],
+        "split_similarity_status": "NO_MATCH_AT_DECLARED_NORMALIZATIONS_AND_THRESHOLD",
+        "split_status": "PASS_IDENTITY_AND_PINNED_HOLDOUT",
+        "structural_review": null,
+        "target_sha256": "9f539c6ee39d93b23b9068eb958d22f56a0d2906f95dc3f6f4f3d39e0c834141",
+        "target_text": "... که پدر را هِشت... و نیایش را فراموش نکنید و بانگ اندوهمان را، زیرا از نیکوکارانیم و نه از خطاکاران",
+        "token_proof_row_sha256": "c27c7d11f1f3ff8007c4f1d094a2d03575996b4bec128277209c24da5a6117f8",
+        "token_reconstruction_status": "PASS_HASH_BOUND_INDEPENDENT_PROOF",
+        "token_structure_status": "PASS_STRUCTURE_ONLY",
+        "work_id": "parsig:555"
+      },
+      "annotations": [
+        {
+          "annotation_id": "parsig:555000002:pal>fa:ma1",
+          "status": "PROVISIONAL_AI_PROPOSED",
+          "source_ma_span": {
+            "start": 33,
+            "end": 35,
+            "text": "ma",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 36,
+            "utf8_byte_end": 38
+          },
+          "source_predicate_span": {
+            "start": 36,
+            "end": 44,
+            "text": "frāmōšēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 39,
+            "utf8_byte_end": 51
+          },
+          "source_context_span": {
+            "start": 23,
+            "end": 44,
+            "text": "paywahišn ma frāmōšēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 25,
+            "utf8_byte_end": 51
+          },
+          "source_scope_span": {
+            "start": 23,
+            "end": 44,
+            "text": "paywahišn ma frāmōšēd",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 25,
+            "utf8_byte_end": 51
+          },
+          "scope_completeness": "minimal_supported_scope_only",
+          "directive_function_fa": "نهی در متن همین شاهد",
+          "scope_fa": "نهی در حداقل دامنهٔ روشن «نیایش را فراموش نکنید»؛ پیوند عبارتِ پس از آن به این نهی در این پیشنهاد تعیین نمی‌شود.",
+          "original_persian_witness_span": {
+            "start": 24,
+            "end": 45,
+            "text": "نیایش را فراموش نکنید",
+            "offset_unit": "Unicode code points, end exclusive",
+            "utf8_byte_start": 36,
+            "utf8_byte_end": 75
+          },
+          "target_span_role": "published parallel TRAIN witness; not newly translated or independently gold",
+          "reason": "S22 printed80/83, as recorded in the checked grammar note, supports prohibition as a function of ma; this exact source occurrence and the exact Persian negative-directive witness jointly support only the stated local function.",
+          "limitations": "Initial damage is retained. The following coordinated phrase may extend the object scope; this proposal labels only the minimal locally supported span and does not claim an exhaustive clause scope.",
+          "imperative_morphology_label": null,
+          "new_lexical_sense": null,
+          "expert_adjudicated": false,
+          "training_admitted": false,
+          "independent_critic_status": "PENDING"
+        }
+      ],
+      "expert_adjudicated": false,
+      "training_admitted": false
+    }
+  ],
+  "admission_boundary": "No proposal, including a function judged clear by this AI, is accepted or admitted by this file. Independent critic review is pending; AI agreement would remain provisional rather than specialist certification."
+}

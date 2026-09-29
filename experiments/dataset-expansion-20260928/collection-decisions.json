@@ -1,0 +1,1832 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28",
+  "author": "/root/finetuning_kb_research",
+  "status": "ALL_31_SOURCE_COLLECTION_DECISIONS_COMPLETE_NO_TRAINING_ADMISSION",
+  "mode": "Classic Codex; isolated two-file writer; root integrates",
+  "bindings": {
+    "catalogue_path": "sources/local/public-texts-2026-09-20/kosh-catalogue-20260928/raw/9c02a929451b66a27a5f385a02ba6fc6fabf8b3b12946a98d629c9b48613ce97.source",
+    "catalogue_sha256": "c57a017039bbee01dd55f8617c0302a99e012c471468c1bcfe259f140874bf8d",
+    "summary_path": "experiments/kosh-quality-20260928/summary-v4.json",
+    "summary_sha256": "66d073cb95a2adbc6d983ccdd1a3fda39eed535289fec65ea7d820a808e035fd",
+    "v4_outputs": [
+      {
+        "bytes": 53833264,
+        "file": "resources/local/kosh-quality-20260928/complete-v4/observations.jsonl",
+        "rows": 42904,
+        "sha256": "3b0b14ce6e6520ad801839388d7362596c0cdfd1480f1a5b63d378071c0c1a65"
+      },
+      {
+        "bytes": 13386963,
+        "file": "resources/local/kosh-quality-20260928/complete-v4/staged-groups.jsonl",
+        "rows": 26377,
+        "sha256": "37f6740ca7066251a66395767f8b7049b5833522cd85a6b353ab6472e79755ee"
+      },
+      {
+        "bytes": 1401058,
+        "file": "resources/local/kosh-quality-20260928/complete-v4/quarantine.jsonl",
+        "rows": 15624,
+        "sha256": "3c50ee513be84ce842e68342a7bfe09394fff42fb8188e9e4246eeab195c8d27"
+      }
+    ],
+    "local_lineage_evidence": [
+      "SOURCE-COVERAGE.md",
+      "sources/local/parsig-2026-09-20/coverage.json",
+      "sources/local/parsig-2026-09-20/exports/book-metadata.json",
+      "data/unified-corpus/build.py",
+      "experiments/kosh-quality-20260928/verification-v4.json"
+    ]
+  },
+  "totals": {
+    "collections": 31,
+    "nonempty_collections": 30,
+    "current_site_records": 38686,
+    "staged_groups": 26377,
+    "staged_source_records": 27280,
+    "extra_duplicate_provenance_records": 903,
+    "current_quarantines": 11406,
+    "legacy_separate_quarantines": 4218,
+    "total_preserved_observations": 42904,
+    "new_training_admissions": 0
+  },
+  "fixed_heldout_work_metadata_only": [
+    {
+      "work_id": 103,
+      "title": "اندرز آذرباد مهرسپندان"
+    },
+    {
+      "work_id": 104,
+      "title": "اندرز بهزاد فرخ پیروز"
+    },
+    {
+      "work_id": 110,
+      "title": "اندرز دانایان به مزدیسنان"
+    },
+    {
+      "work_id": 111,
+      "title": "اندرز دستوران به بهدینان"
+    },
+    {
+      "work_id": 112,
+      "title": "سور سخن"
+    },
+    {
+      "work_id": 114,
+      "title": "پنج خیم روحانیان"
+    },
+    {
+      "work_id": 116,
+      "title": "چیده اندرز پوریوتکیشان"
+    },
+    {
+      "work_id": 117,
+      "title": "خسرو قبادان و ریدگ"
+    },
+    {
+      "work_id": 118,
+      "title": "خیم و خرد فرخ مرد"
+    },
+    {
+      "work_id": 120,
+      "title": "اندرز بخت آفرید"
+    },
+    {
+      "work_id": 124,
+      "title": "قطعه1، جاماسب‌آسانا، ص 72"
+    },
+    {
+      "work_id": 130,
+      "title": "ماه فروردین روز خرداد"
+    },
+    {
+      "work_id": 132,
+      "title": "واژه ای چند از آذرباد مهرسپندان"
+    },
+    {
+      "work_id": 138,
+      "title": "شایست ناشایست"
+    },
+    {
+      "work_id": 152,
+      "title": "گزیده‌های زادسپرم"
+    },
+    {
+      "work_id": 517,
+      "title": "y (فارسي ميانه)"
+    }
+  ],
+  "acceptance_policy": [
+    "Accept the named, hash-bound source resources now; do not repeatedly relabel identified books as unknown.",
+    "Staged lexical groups have verified mechanical fidelity, not universal philological certification.",
+    "Generic lexicon resource acceptance is separate from manuscript/quotation clearance for future learning, retrieval or contextual examples.",
+    "English/German/French/Parthian/Armenian-related evidence remains a separately labeled resource; no automatic language exclusion or synthetic Persian targets.",
+    "Known held-out work families stay protected across editions, glossaries, target languages and source-only uses. Unknown passage lineage is not clearance.",
+    "Keep complete published senses, grammatical scopes and provenance; multiple strings are not automatically semantic polysemy, and one record may contain multiple senses."
+  ],
+  "specific_recovery_evidence": {
+    "mmp_entry_language_group_counts_and_checks": {
+      "('Pa/MP',)": 569,
+      "('MP', 'Pa/MP')": 1,
+      "('Pa',)": 2292,
+      "('MP',)": 2576,
+      "exact_single_MP": 2576,
+      "single_MP_one_nonempty_group_and_sense": 1991,
+      "()": 387,
+      "(\"MP see 'bd'c- MP 'bdr Pa\",)": 1,
+      "(\"Pa see -c Pa 'p'\",)": 1,
+      "(\"Pa see 'z 'why', 'hy'\",)": 1,
+      "('MPS',)": 5,
+      "('PaS',)": 1,
+      "('Pa/MP?',)": 1,
+      "('Pa (abbreviated)',)": 1,
+      "('Pa ?',)": 1
+    },
+    "nmp_checks": {
+      "xml_valid": 2924,
+      "missing_or_placeholder_xml_form": 0,
+      "empty_json_sense_with_nonempty_xml": 1
+    },
+    "pyv_nested_sense_records": 228,
+    "pyv_missing_json_trc_records": 6,
+    "pyv_explicit_ave_form_records": 5,
+    "wmiar_persian_script_meaning_records": 437,
+    "wmiar_per_record_language_labels_present": false,
+    "lfv_records_with_grammar": 1712,
+    "lfv_total_records": 1713,
+    "mmp_nonempty_shape_reconciliation": {
+      "nonempty_shape_count": 1991,
+      "unicode_letter_or_number_text_bearing_shape_count": 1990,
+      "excluded_from_text_bearing_count": {
+        "observation_id": "kosh:mmp:5334",
+        "form": "wirāgrōšan",
+        "published_sense": "`?'.",
+        "sense_unicode_categories": [
+          "Sk",
+          "Po",
+          "Po",
+          "Po"
+        ],
+        "reason": "PUNCTUATION_ONLY_SENSE_NO_UNICODE_LETTER_OR_NUMBER"
+      },
+      "interpretation": "The original1991 count measures one nonempty trc group and sense under a single exact MP label. Requiring at least one Unicode letter or number in both leaves1990 text-bearing shapes. Neither count certifies meaning correctness, manuscript lineage or training eligibility."
+    }
+  },
+  "frozen_v4_defect": {
+    "observation_id": "kosh:gbd:361",
+    "meaning": "(؟)",
+    "decision": "EXCLUDE_AS_PLACEHOLDER_IN_NEW_DERIVED_EXPORT",
+    "frozen_output_changed": false,
+    "groups_after_only_this_correction": 26376
+  },
+  "polysemy_examples_without_heldout_answers": [
+    {
+      "ids": [
+        "kosh:raf:144",
+        "kosh:raf:145"
+      ],
+      "case": "Same mādayān form, noun/adjective readings; preserve scope."
+    },
+    {
+      "ids": [
+        "kosh:dk8:197",
+        "kosh:dk8:202"
+      ],
+      "case": "Different published frāz dādan renderings; require attested context before choosing."
+    },
+    {
+      "ids": [
+        "kosh:dmx:32",
+        "kosh:dmx:69"
+      ],
+      "case": "Paraphrase variation is not automatically independent new sense evidence."
+    },
+    {
+      "ids": [
+        "kosh:dmx:1"
+      ],
+      "case": "Numbered senses inside one entry; current multiple-record-sense flag is not a complete polysemy detector."
+    }
+  ],
+  "limitations": [
+    "All collections mechanically inspected by metadata/count/schema; no claim all meanings manually read or certified.",
+    "No held-out translations copied; only work-title metadata used.",
+    "Catalogue declaration is not a license or per-record language verification; intended derived-use rights remain separately scoped.",
+    "No training design, model calls, external API, downloads, Gemini, Drive or changes to frozen evidence."
+  ],
+  "collections": [
+    {
+      "collection": "acpv1_7",
+      "catalogue_declared": {
+        "title": "A. Cantera's glossary of Pahlavi Vidēvdād 1–7",
+        "authors": [
+          "Alberto Cantera"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "ULRBT7EI"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 2602,
+        "preserved_current_records": 2602,
+        "valid_xml": 2602,
+        "malformed_xml": 0,
+        "staged_groups": 1731,
+        "staged_source_records": 2582,
+        "extra_duplicate_provenance_records": 851,
+        "quarantined_records": 20,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 20
+        }
+      },
+      "source_identity_and_edition": "Pahlavi Widēwdād1–7; Cantera. Overlapping text/edition family with wdpw and empty gpv.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "German lexical auxiliary with Avestan evidence",
+      "required_next_check": "Catalogue eng conflicts with observed German senses; label actual language, retain Avestan attestation as evidence, qualify shared chapter/edition lineage and20 missing meanings.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "afnan",
+      "catalogue_declared": {
+        "title": "A Philosophical Lexicon in Persian and Arabic",
+        "authors": [
+          "Soheil M. Afnan"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "EL82QDUW"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 324,
+        "preserved_current_records": 324,
+        "valid_xml": 324,
+        "malformed_xml": 0,
+        "staged_groups": 323,
+        "staged_source_records": 324,
+        "extra_duplicate_provenance_records": 1,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Afnan Philosophical Lexicon in Persian and Arabic; general multilingual philosophical vocabulary.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical auxiliary with headword-language check",
+      "required_next_check": "Sampled meanings are English; catalogue pal is not enough to establish all donor/headword languages. Preserve full form bundles and avoid deriving Persian targets from the title.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "awn",
+      "catalogue_declared": {
+        "title": "Glossary of the Ardā wirāz nāmag",
+        "authors": [
+          "Fereydun Vahman"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "N5DMHKDX"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 367,
+        "preserved_current_records": 367,
+        "valid_xml": 367,
+        "malformed_xml": 0,
+        "staged_groups": 357,
+        "staged_source_records": 357,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 10,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 9,
+          "AMBIGUOUS_FORM_SENSE_BOUNDARY": 1
+        }
+      },
+      "source_identity_and_edition": "Vahman glossary of Ardā Wirāz Nāmag; same work family as other Ardā Virāz/Vīrāzagān witnesses.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical source resource",
+      "required_next_check": "No verified alias of the16 held-out work titles. Check edition/attestation joins.9 absent meanings and AWN190 missing source form require source evidence, not invention.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "cpd",
+      "catalogue_declared": {
+        "title": "A concise Pahlavi dictionary",
+        "authors": [
+          "David Neil MacKenzie"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "DDQPF57Y"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 3103,
+        "preserved_current_records": 3103,
+        "valid_xml": 3101,
+        "malformed_xml": 2,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 3103,
+        "quarantine_reasons": {
+          "COMPLEX_CPD_FORM_SENSE_MAPPING_REVIEW": 3101,
+          "MALFORMED_XML": 2
+        }
+      },
+      "source_identity_and_edition": "MacKenzie Concise Pahlavi Dictionary; same family as cpd_de, legacy Cologne and local English/Persian scans.",
+      "resource_acceptance": "RAW_DICTIONARY_SOURCE_ACCEPTED_EXTRACTION_PENDING",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "High-priority scoped ordered-sense recovery",
+      "required_next_check": "3101 valid XML records need form/POS/sense mapping, not rejection.2 malformed records require print-source review. Preserve xrad noun/adjective boundaries and quoted-work lineage; related editions are not independent meanings.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "cpd_de",
+      "catalogue_declared": {
+        "title": "A Concise Pahlavi Dictionary (Deutsche Fassung)",
+        "authors": [
+          "David N. MacKenzie; Daniel Kölligan"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "deu"
+        ],
+        "zotero-key": [
+          "U7FSTMGA"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 4589,
+        "preserved_current_records": 4589,
+        "valid_xml": 4589,
+        "malformed_xml": 0,
+        "staged_groups": 4551,
+        "staged_source_records": 4556,
+        "extra_duplicate_provenance_records": 5,
+        "quarantined_records": 33,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 33
+        }
+      },
+      "source_identity_and_edition": "German MacKenzie/Kölligan dictionary and supplements; related to cpd and legacy Cologne.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "German lexical auxiliary",
+      "required_next_check": "4551 groups are mechanically accepted records. Preserve supplements and original scope.33 missing meanings require source lookup. Do not count translated/shared-edition entries as independent attestations.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "da",
+      "catalogue_declared": {
+        "title": "Draxt ī āsūrīg",
+        "authors": [
+          "Y. M. Navvābī"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "YU7P5SH4"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 103,
+        "preserved_current_records": 103,
+        "valid_xml": 103,
+        "malformed_xml": 0,
+        "staged_groups": 102,
+        "staged_source_records": 102,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 1,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 1
+        }
+      },
+      "source_identity_and_edition": "Navvābī Draxt ī āsūrīg; Middle Persian transmission with older Parthian layers.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Persian lexical candidate source",
+      "required_next_check": "Keep stratum and inflection/stem notation; exact edition not specified by catalogue; one absent meaning. No verified fixed-heldout alias.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "dd1",
+      "catalogue_declared": {
+        "title": "Glossary of the Dādestān ī dēnīg, part I",
+        "authors": [
+          "Mahmoud Jaafari-Dehaghi"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "YT6DEHR4"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 368,
+        "preserved_current_records": 368,
+        "valid_xml": 368,
+        "malformed_xml": 0,
+        "staged_groups": 368,
+        "staged_source_records": 368,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Jaafari-Dehaghi Dādestān ī dēnīg PartI; possible Parsig139 overlap; not the accompanying Rivāyat.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical source resource",
+      "required_next_check": "PartI identity is established. Resolve the existing work139 constituent/edition mismatch before passage joins. Glossary senses are not responsa sentence pairs.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "dk5",
+      "catalogue_declared": {
+        "title": "Le cinquième livre du Dēnkard",
+        "authors": [
+          "Jaleh Amouzgar Yeganeh",
+          "Ahmad Tafazzoli"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fra"
+        ],
+        "zotero-key": [
+          "X9IHWKAI"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 413,
+        "preserved_current_records": 413,
+        "valid_xml": 413,
+        "malformed_xml": 0,
+        "staged_groups": 413,
+        "staged_source_records": 413,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Amouzgar/Tafazzoli Dēnkard BookV; not BooksVI–VIII.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "French lexical auxiliary",
+      "required_next_check": "Preserve exact book/section identity; existing TITUS book5/book7 metadata contradiction is not resolved by matching title strings. No generated Persian labels.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "dk6",
+      "catalogue_declared": {
+        "title": "Glossary of Dēnkard 6",
+        "authors": [
+          "Shaul Shaked"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "PZU8E26B"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 323,
+        "preserved_current_records": 323,
+        "valid_xml": 323,
+        "malformed_xml": 0,
+        "staged_groups": 323,
+        "staged_source_records": 323,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Shaked Dēnkard BookVI glossary; parallel counsel material across Andarz works.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical auxiliary",
+      "required_next_check": "Source-book identity accepted; cite and screen specific parallel counsels against held-out Andarz families before contextual/source-text use, not blanket exclusion of all dictionary definitions.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "dk7",
+      "catalogue_declared": {
+        "title": "La légende de Zoroastre selon les textes pehlevis",
+        "authors": [
+          "Marijan Molé"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fra"
+        ],
+        "zotero-key": [
+          "GYGDR6VF"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 715,
+        "preserved_current_records": 715,
+        "valid_xml": 715,
+        "malformed_xml": 0,
+        "staged_groups": 715,
+        "staged_source_records": 715,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Molé La légende de Zoroastre selon les textes pehlevis; catalogue code dk7, broader printed-book title.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [
+          152
+        ],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "French lexical auxiliary with constituent check",
+      "required_next_check": "Do not infer every quotation is DēnkardVII solely from code. Check any Zādspram152 relation in source citations before use; potential relation is not a verified whole-collection alias.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "dk8",
+      "catalogue_declared": {
+        "title": "Ketāb-e haštom-e dīnkard",
+        "authors": [
+          "Naẓarī-Fārsānī"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "K7DC9YJC"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 483,
+        "preserved_current_records": 483,
+        "valid_xml": 483,
+        "malformed_xml": 0,
+        "staged_groups": 480,
+        "staged_source_records": 480,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 3,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 3
+        }
+      },
+      "source_identity_and_edition": "Naẓarī-Fārsānī Dēnkard BookVIII, distinct from other books.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Persian lexical source with attestation priority",
+      "required_next_check": "284/483 raw records have non-placeholder attestations; preserve dk8:197/202 contextual sense difference.3 absent meanings; exact edition/page before sentence extraction.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "dmx",
+      "catalogue_declared": {
+        "title": "Vāženāme-ye mīnū-ye xerad",
+        "authors": [
+          "Ahmad Tafazzoli"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "9M7FFZ5R"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 1039,
+        "preserved_current_records": 1039,
+        "valid_xml": 1039,
+        "malformed_xml": 0,
+        "staged_groups": 1030,
+        "staged_source_records": 1039,
+        "extra_duplicate_provenance_records": 9,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Tafazzoli glossary of Mēnōg ī xrad; same work as Parsig151, whose text edition is Anklesaria1913.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Persian lexical resource with established work overlap",
+      "required_next_check": "Parsig metadata cites Tafazzoli1348 glossary. Keep numbered senses and distinct source wording; no attestation field. Do not inherit sentence translator or count glossary/translation as independent witnesses.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "gbd",
+      "catalogue_declared": {
+        "title": "Važenāme-ye bondaheš",
+        "authors": [
+          "Mehrdad Bahar"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "X9Q9L2YR"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 797,
+        "preserved_current_records": 797,
+        "valid_xml": 797,
+        "malformed_xml": 0,
+        "staged_groups": 773,
+        "staged_source_records": 797,
+        "extra_duplicate_provenance_records": 24,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Bahar Bundahišn glossary; same work family as Parsig137, but Parsig introduction cites Hajipour forthcoming.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Persian lexical source with one placeholder correction",
+      "required_next_check": "kosh:gbd:361 meaning(؟) must be quarantined in a new derived export. Preserve homographs and edition differences; no attestation field.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "gpv",
+      "catalogue_declared": {
+        "title": "Glossary of Pahlavi Vendidad",
+        "authors": [
+          "Dinshah D. Kapadia"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "MXMH5GRQ"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 0,
+        "preserved_current_records": 0,
+        "valid_xml": 0,
+        "malformed_xml": 0,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Kapadia Glossary of Pahlavi Vendidad; catalogue size0.",
+      "resource_acceptance": "CATALOGUE_SOURCE_ACCEPTED_NO_RECORDS",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "BIBLIOGRAPHIC_ONLY",
+      "proposed_role": "Bibliographic source only",
+      "required_next_check": "No Kosh records to qualify. Zero is observed catalogue accounting, not an unresolved failed download. Separately acquired print material needs its own receipt.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "hkr",
+      "catalogue_declared": {
+        "title": "Husraw ī kawādān ud rēdag-ē",
+        "authors": [
+          "Samra Azarnouche"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fra"
+        ],
+        "zotero-key": [
+          "PC7R65G9"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 539,
+        "preserved_current_records": 539,
+        "valid_xml": 539,
+        "malformed_xml": 0,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 539,
+        "quarantine_reasons": {
+          "HELDOUT_WORK_OR_RELATED_COLLECTION": 539
+        }
+      },
+      "source_identity_and_edition": "Azarnouche Husraw ī Kawādān ud rēdag-ē = Parsig117.",
+      "resource_acceptance": "PROTECTED_ARCHIVE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": 117,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "EXCLUDED_FIXED_HELDOUT_FAMILY"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Protected held-out archive only",
+      "required_next_check": "All539 excluded from training, retrieval and source-only adaptation; alternate edition or target language does not clear the work.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "hn",
+      "catalogue_declared": {
+        "title": "Glossary of the Hērbedestān and the Nērangestān",
+        "authors": [
+          "Firoze M. Kotwal",
+          "Philip G. Kreyenbroek"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "B86Z83VZ",
+          "GP2EFJV8",
+          "DNUQMIH4",
+          "NRLVZPCB"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 2314,
+        "preserved_current_records": 2314,
+        "valid_xml": 2314,
+        "malformed_xml": 0,
+        "staged_groups": 2306,
+        "staged_source_records": 2310,
+        "extra_duplicate_provenance_records": 4,
+        "quarantined_records": 4,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 3,
+          "MISSING_OR_PLACEHOLDER_FORM": 1
+        }
+      },
+      "source_identity_and_edition": "Kotwal/Kreyenbroek Hērbedestān and Nērangestān multi-volume glossary.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical/liturgical reference",
+      "required_next_check": "2306 groups already mechanically faithful. Preserve volume/section and Avestan vs MP layer. Recover3 absent meanings and1 missing form from source; no need rediscover source identity.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "lfv",
+      "catalogue_declared": {
+        "title": "List of Finite Verbs",
+        "authors": [
+          "Thomas Jügel",
+          "Narges Eskandarnia",
+          "Cemile Çelebi"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng",
+          "deu"
+        ],
+        "zotero-key": [
+          "TWWQSEGZ"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 1713,
+        "preserved_current_records": 1713,
+        "valid_xml": 1713,
+        "malformed_xml": 0,
+        "staged_groups": 1712,
+        "staged_source_records": 1713,
+        "extra_duplicate_provenance_records": 1,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Jügel/Eskandarnia/Çelebi cross-work List of Finite Verbs.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Morphological and lexical English/German auxiliary",
+      "required_next_check": "1712/1713 raw records contain grammar fields. Preserve finite-form features and attestations, not lemma-only labels. Map actual cited held-out works before learning contextual examples.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "mmp",
+      "catalogue_declared": {
+        "title": "Dictionary of Manichean Middle Persian and Parthian",
+        "authors": [
+          "Desmond Durkin-Meisterernst"
+        ],
+        "source_languages": [
+          "pal",
+          "xpr"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "ZRDIZ9BA"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 5837,
+        "preserved_current_records": 5837,
+        "valid_xml": 5837,
+        "malformed_xml": 0,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 5837,
+        "quarantine_reasons": {
+          "SOURCE_LANGUAGE_OR_LOANWORD_REVIEW": 5837
+        }
+      },
+      "source_identity_and_edition": "Durkin-Meisterernst Dictionary of Manichean Middle Persian and Parthian; explicit per-record language tags and manuscript attestations.",
+      "resource_acceptance": "RAW_DICTIONARY_SOURCE_ACCEPTED_EXTRACTION_PENDING",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {
+        "Pa/MP": 570,
+        "MP": 2577,
+        "Pa": 2292,
+        "MP see 'bd'c- MP 'bdr Pa": 1,
+        "Pa see -c Pa 'p'": 1,
+        "Pa see 'z 'why', 'hy'": 1,
+        "MPS": 5,
+        "PaS": 1,
+        "Pa/MP?": 1,
+        "Pa (abbreviated)": 1,
+        "Pa ?": 1
+      },
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [
+          517
+        ],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Recover explicit MP subset; keep Parthian/shared-language resource separately",
+      "required_next_check": "Require exactly one direct lang element whose whitespace-normalized text is MP for initial MP-only recovery.2576 such entries;1991 additionally have exactly one nonempty trc group and sense. Keep fragment/heldout517 lineage separate from generic lexical-resource acceptance; mixed scopes and cross-references require own parsing. Reconciliation: the1991 nonempty shapes include kosh:mmp:5334 with punctuation-only sense; Unicode-letter/number text-bearing shapes number1990, still not linguistically certified.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "mpcd_term_tech",
+      "catalogue_declared": {
+        "title": "MPCD glossary of Middle Persian termini technici",
+        "authors": [
+          "MPCD"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          ""
+        ]
+      },
+      "counts": {
+        "catalogue_records": 1666,
+        "preserved_current_records": 1666,
+        "valid_xml": 1666,
+        "malformed_xml": 0,
+        "staged_groups": 1543,
+        "staged_source_records": 1544,
+        "extra_duplicate_provenance_records": 1,
+        "quarantined_records": 122,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 122
+        }
+      },
+      "source_identity_and_edition": "MPCD working glossary of technical terms; empty Zotero key.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Terminological reference with publication/revision qualification",
+      "required_next_check": "1543 mechanically faithful groups; preserve multiword definitions and revision/author/citation evidence.122 absent meanings need published source evidence. Public website availability is not proof of final scholarly translation status.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "mz",
+      "catalogue_declared": {
+        "title": "Glossary of Die Medizin des Zādsparam based on Sohn 1996",
+        "authors": [
+          "Peter Sohn"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "deu"
+        ],
+        "zotero-key": [
+          "9LJERAG3"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 161,
+        "preserved_current_records": 161,
+        "valid_xml": 161,
+        "malformed_xml": 0,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 161,
+        "quarantine_reasons": {
+          "HELDOUT_WORK_OR_RELATED_COLLECTION": 161
+        }
+      },
+      "source_identity_and_edition": "Sohn1996 Die Medizin des Zādsparam; subset of Zādspram work152.",
+      "resource_acceptance": "PROTECTED_ARCHIVE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": 152,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "EXCLUDED_FIXED_HELDOUT_FAMILY"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Protected held-out archive only",
+      "required_next_check": "All161 excluded from learning/retrieval, including excerpt glossary and alternative title. Preserve source archive.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "nmp",
+      "catalogue_declared": {
+        "title": "A manual of Pahlavi. Part II: Glossary",
+        "authors": [
+          "Henrik Samuel Nyberg"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "P57JIL8X"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 2924,
+        "preserved_current_records": 2924,
+        "valid_xml": 2924,
+        "malformed_xml": 0,
+        "staged_groups": 2823,
+        "staged_source_records": 2823,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 101,
+        "quarantine_reasons": {
+          "NESTED_TEXT_NEEDS_REVIEW": 100,
+          "UNSCOPED_TEXT_NEEDS_REVIEW": 1
+        }
+      },
+      "source_identity_and_edition": "Nyberg Manual of PahlaviII; same English work as S24 and reversed-body S26.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "High-priority inline-markup recovery plus accepted English lexicon",
+      "required_next_check": "All2924 XML parse and no empty/placeholder XML trc found.101 exclusions are100 inline-sense markup plus1 unscoped tail(•2124×173-a). One JSON sense empty while XML has text; preserve original transcription, gr/br/em content and ordered senses against print pages, not guessed forms.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "pahlrivdd",
+      "catalogue_declared": {
+        "title": "The Pahlavi Rivāyat accompanying the Dādestān ī Dēnīg",
+        "authors": [
+          "Alan Williams"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "DJDUH2JU"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 380,
+        "preserved_current_records": 380,
+        "valid_xml": 380,
+        "malformed_xml": 0,
+        "staged_groups": 380,
+        "staged_source_records": 380,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Williams Pahlavi Rivāyat accompanying Dādestān ī Dēnīg; distinct from Dādestān itself/dd1.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical source resource",
+      "required_next_check": "380 groups accepted structurally. Identify chapter/constituent and quotation parallels; do not alias all to Parsig139 just because the title contains Dādestān.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "ps",
+      "catalogue_declared": {
+        "title": "Pahlavi Psalter aka. Middle Persian Book of Psalms",
+        "authors": [
+          "Desmond Durkin-Meisterernst"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "WB3XDAG7"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 480,
+        "preserved_current_records": 480,
+        "valid_xml": 480,
+        "malformed_xml": 0,
+        "staged_groups": 480,
+        "staged_source_records": 480,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Durkin-Meisterernst Pahlavi Psalter / MP Book of Psalms; distinct Christian orthographic/witness layer.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical and orthographic auxiliary",
+      "required_next_check": "480 groups are glossary entries, not480 biblical sentence pairs. Retain actual MP witness; KJV is not a direct MP translation substitute.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "pyv",
+      "catalogue_declared": {
+        "title": "Pahlavi Yasna and Visperad",
+        "authors": [
+          "Bamanji Nasarvanji Dhabhar"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "J7XLKL4F"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 2951,
+        "preserved_current_records": 2951,
+        "valid_xml": 2951,
+        "malformed_xml": 0,
+        "staged_groups": 2712,
+        "staged_source_records": 2712,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 239,
+        "quarantine_reasons": {
+          "NESTED_TEXT_NEEDS_REVIEW": 228,
+          "AMBIGUOUS_FORM_GROUP": 1,
+          "MISSING_OR_PLACEHOLDER_MEANING": 5,
+          "UNKNOWN_FORM_METADATA": 5
+        }
+      },
+      "source_identity_and_edition": "Dhabhar Pahlavi Yasna and Visperad; possible Zand Yasna Parsig301 overlap.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Nested-layout recovery and separately labeled Avestan evidence",
+      "required_next_check": "2712 groups accepted mechanically;228 nested senses.6 entries lack JSON trc, five expose explicit ave fields. Preserve orig_trc, page/heading/paragraph markers; no invented MP form. Resolve1 ambiguous group,5 unsupported metadata,5 absent meanings separately.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "raf",
+      "catalogue_declared": {
+        "title": "Ravāyat-e Ādurfarnbay Farroxzādān",
+        "authors": [
+          "Ḥasan Reẓāyī-Bāġbīdī"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "ZEWSRTZJ"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 285,
+        "preserved_current_records": 285,
+        "valid_xml": 285,
+        "malformed_xml": 0,
+        "staged_groups": 285,
+        "staged_source_records": 285,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 0,
+        "quarantine_reasons": {}
+      },
+      "source_identity_and_edition": "Baghbidi Revāyat of Ādurfarnbay/Ādurfarrōbay ī Farroxzādān legal responsa; NOT Parsig135 Saxwan ī ēw-čand.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Persian lexical source with attestation priority",
+      "required_next_check": "285 groups,198 raw non-placeholder attestations. Shared author does not imply same work. Preserve mādayān noun/adjective entries144/145 and exact contextual references.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "sgw",
+      "catalogue_declared": {
+        "title": "Une apologétique mazdéenne du IXe siècle. Škand-Gumānik Vičār",
+        "authors": [
+          "Jean-Pierre de Menasce"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fra"
+        ],
+        "zotero-key": [
+          "9MJ6S9QY"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 416,
+        "preserved_current_records": 416,
+        "valid_xml": 416,
+        "malformed_xml": 0,
+        "staged_groups": 415,
+        "staged_source_records": 415,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 1,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 1
+        }
+      },
+      "source_identity_and_edition": "Menasce Škand-gumānīg wizār edition; related archived SGV and Asha witness family; Pazand/reconstructed-MP history.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "French lexical auxiliary with representation labels",
+      "required_next_check": "415 faithful groups. Preserve textual layer and edition, qualify actual MP/Pazand reconstruction status and1 absent sense. Archived duplicates are not new attestations.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "sns",
+      "catalogue_declared": {
+        "title": "Vāženāme-ye šāyast našāyast",
+        "authors": [
+          "Maḥmūd Ṭāvūsī"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "PKV6KDU6"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 325,
+        "preserved_current_records": 325,
+        "valid_xml": 325,
+        "malformed_xml": 0,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 325,
+        "quarantine_reasons": {
+          "HELDOUT_WORK_OR_RELATED_COLLECTION": 325
+        }
+      },
+      "source_identity_and_edition": "Ṭāvūsī Šāyast nāšāyast glossary = Parsig138.",
+      "resource_acceptance": "PROTECTED_ARCHIVE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": 138,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "EXCLUDED_FIXED_HELDOUT_FAMILY"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Protected held-out archive only",
+      "required_next_check": "All325 excluded from training/retrieval/source-only adaptation, including Persian alternative edition.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "wdpw",
+      "catalogue_declared": {
+        "title": "Glossary from Wrestling with the Demons of the Pahlavi Widēwdād: Transcription, Translation, and Commentary",
+        "authors": [
+          "Mahnaz Moazami"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "eng"
+        ],
+        "zotero-key": [
+          "VC8K2CM3"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 2431,
+        "preserved_current_records": 2431,
+        "valid_xml": 2431,
+        "malformed_xml": 0,
+        "staged_groups": 2426,
+        "staged_source_records": 2426,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 5,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_MEANING": 3,
+          "MISSING_OR_PLACEHOLDER_FORM": 2
+        }
+      },
+      "source_identity_and_edition": "Moazami Pahlavi Widēwdād glossary; same text family as acpv1_7 and gpv.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "English lexical auxiliary",
+      "required_next_check": "2426 faithful groups. Preserve chapter/edition relationship to ACP, MP/Avestan layer and citations;2 missing forms and3 missing meanings need source lookup.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "wmiar",
+      "catalogue_declared": {
+        "title": "Vām-vāže-hāye īrānī-ye mīyāne-ye ġarbī dar zabān-e armanī",
+        "authors": [
+          "Āyvāzīyān"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "L4NZYZ6I"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 437,
+        "preserved_current_records": 437,
+        "valid_xml": 437,
+        "malformed_xml": 0,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 437,
+        "quarantine_reasons": {
+          "SOURCE_LANGUAGE_OR_LOANWORD_REVIEW": 437
+        }
+      },
+      "source_identity_and_edition": "Āyvāzīyān Western Middle Iranian loanwords in Armenian; donor/recipient-language study.",
+      "resource_acceptance": "RAW_DICTIONARY_SOURCE_ACCEPTED_EXTRACTION_PENDING",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Etymological reference and lexical recovery candidate",
+      "required_next_check": "437 Persian-script meanings and Romanized headwords; no entry language field. Catalogue pal does not establish Iranian donor vs Armenian recipient form. Preserve Armenian/Parthian-related evidence, qualify source role per entry rather than blanket rejection.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "wz",
+      "catalogue_declared": {
+        "title": "Glossary of Anthologie de Zādspram based on Gignoux and Tafazzoli 1993",
+        "authors": [
+          "Philippe Gignoux",
+          "Ahmad Tafazzoli"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fra"
+        ],
+        "zotero-key": [
+          "CZUWQPUQ"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 460,
+        "preserved_current_records": 460,
+        "valid_xml": 460,
+        "malformed_xml": 0,
+        "staged_groups": 0,
+        "staged_source_records": 0,
+        "extra_duplicate_provenance_records": 0,
+        "quarantined_records": 460,
+        "quarantine_reasons": {
+          "HELDOUT_WORK_OR_RELATED_COLLECTION": 460
+        }
+      },
+      "source_identity_and_edition": "Gignoux/Tafazzoli1993 Anthologie de Zādspram = Parsig152; same family as mz.",
+      "resource_acceptance": "PROTECTED_ARCHIVE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": 152,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "EXCLUDED_FIXED_HELDOUT_FAMILY"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Protected held-out archive only",
+      "required_next_check": "All460 excluded from learning/retrieval/source-only use; translation language or alternative edition does not clear the family.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    },
+    {
+      "collection": "yz",
+      "catalogue_declared": {
+        "title": "Yādegāṛ-e zarīrān",
+        "authors": [
+          "Navvābī"
+        ],
+        "source_languages": [
+          "pal"
+        ],
+        "target_languages": [
+          "fas"
+        ],
+        "zotero-key": [
+          "8E84CAJW"
+        ]
+      },
+      "counts": {
+        "catalogue_records": 141,
+        "preserved_current_records": 141,
+        "valid_xml": 141,
+        "malformed_xml": 0,
+        "staged_groups": 129,
+        "staged_source_records": 136,
+        "extra_duplicate_provenance_records": 7,
+        "quarantined_records": 5,
+        "quarantine_reasons": {
+          "MISSING_OR_PLACEHOLDER_FORM": 5
+        }
+      },
+      "source_identity_and_edition": "Navvābī Ayādgār ī Zarērān / Yādgār ī Zarīrān; NOT Yādgār ī Wuzurgmihr Parsig133; older Parthian layer.",
+      "resource_acceptance": "RAW_AND_STAGED_LEXICAL_RESOURCE_ACCEPTED",
+      "accepted_evidence": [
+        "Catalogue source title/authors/declarations bound by SHA256",
+        "Every raw source record retained; per-collection counts reconcile",
+        "Mechanically faithful lexical form/meaning groups already qualified by frozen v4 verification"
+      ],
+      "declared_language_is_not_per_record_verification": true,
+      "direct_xml_language_label_node_counts": {},
+      "complete_per_record_linguistic_certification": false,
+      "work_lineage": {
+        "verified_heldout_work_id": null,
+        "potential_heldout_constituent_to_check": [],
+        "resource_identity_resolved": true,
+        "passage_or_fragment_clearance": "SEPARATE_PASSAGE_JOIN_REQUIRED_ONLY_BEFORE_LEARNING_OR_CONTEXTUAL_USE"
+      },
+      "scope": "LEXICAL_ENTRY_REFERENCE_OR_INDEX_NOT_ALIGNED_SENTENCE_PAIR",
+      "proposed_role": "Persian lexical candidate with stratum labels",
+      "required_next_check": "129 groups,53/141 raw non-placeholder attestations. Recover5 absent forms from actual source; preserve inflected/stem notation and zatan sense variants rather than invent whole-clause pairs.",
+      "preserve_ordered_senses_polysemy_grammar_citations": true,
+      "training_admitted": false
+    }
+  ]
+}

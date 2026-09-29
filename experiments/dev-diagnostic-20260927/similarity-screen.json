@@ -1,0 +1,181 @@
+[
+  {
+    "id": "QUALITYDEV1-001",
+    "record_id": "parsig:103000071",
+    "source_tokens": 5,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-002",
+    "record_id": "parsig:103000034",
+    "source_tokens": 6,
+    "closest_train_matches": [
+      {
+        "token_sequence_ratio": 0.6667,
+        "train_id": "parsig:151001056:pal>fa",
+        "train_source": "abāg āzwar mard hambāy ma bāš,"
+      },
+      {
+        "token_sequence_ratio": 0.5,
+        "train_id": "parsig:151001061:pal>fa",
+        "train_source": "abāg halag mard pahikār ma kun."
+      }
+    ],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-003",
+    "record_id": "parsig:103000120",
+    "source_tokens": 7,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-004",
+    "record_id": "parsig:103000032",
+    "source_tokens": 11,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-005",
+    "record_id": "parsig:103000136",
+    "source_tokens": 13,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-006",
+    "record_id": "parsig:103000001",
+    "source_tokens": 49,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-007",
+    "record_id": "parsig:112000009",
+    "source_tokens": 7,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-008",
+    "record_id": "parsig:112000012",
+    "source_tokens": 13,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-009",
+    "record_id": "parsig:112000021",
+    "source_tokens": 20,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-010",
+    "record_id": "parsig:112000003",
+    "source_tokens": 29,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-011",
+    "record_id": "parsig:112000020",
+    "source_tokens": 49,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-012",
+    "record_id": "parsig:112000018",
+    "source_tokens": 75,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-013",
+    "record_id": "parsig:138002097",
+    "source_tokens": 11,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-014",
+    "record_id": "parsig:138010017",
+    "source_tokens": 25,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-015",
+    "record_id": "parsig:138002056",
+    "source_tokens": 30,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-016",
+    "record_id": "parsig:138002060",
+    "source_tokens": 37,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-017",
+    "record_id": "parsig:138002091",
+    "source_tokens": 49,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-018",
+    "record_id": "parsig:138010008",
+    "source_tokens": 39,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-019",
+    "record_id": "parsig:517000015",
+    "source_tokens": 28,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-020",
+    "record_id": "parsig:517000031",
+    "source_tokens": 33,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-021",
+    "record_id": "parsig:517000038",
+    "source_tokens": 48,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-022",
+    "record_id": "parsig:517000051",
+    "source_tokens": 64,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-023",
+    "record_id": "parsig:517000041",
+    "source_tokens": 81,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  },
+  {
+    "id": "QUALITYDEV1-024",
+    "record_id": "parsig:517000040",
+    "source_tokens": 105,
+    "closest_train_matches": [],
+    "interpretation": "Lexical sequence screen only; not proof of semantic independence or leakage."
+  }
+]

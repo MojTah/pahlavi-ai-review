@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-28",
+  "page": "https://www.mpcorpus.org/kosh/",
+  "method": "Chrome normal search UI, only CPD selected; visible XML cell and result links read after asynchronous completion",
+  "scope": "Two targeted entry families, not a random sample or full-edition audit; no training admission",
+  "observations": [
+    {
+      "query": "hūkar*",
+      "observed_utc": "2026-09-28T12:24:14.297Z",
+      "status": "RESULT_VERIFIED",
+      "result_url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=hūkar*&query_type=wildcard&size=20",
+      "entry_id": "8c314899eb0a45683f7dc55a61a0d04e1502530e",
+      "displayed_sense": "porcupine (not hedgehog)",
+      "xml": "<entry type=\"supplemental\"><form DICT=\"MPCD\"><trc>hūkar</trc><trl>hwkl</trl></form><form DICT=\"MPCD\"><trc>hūkarag</trc><trl>hwklkˈ</trl></form>|<trcEvid><lang>N</lang><mentioned>xūkara</mentioned></trcEvid><sense><tr>porcupine (not hedgehog)</tr></sense></entry>",
+      "comparison": "Agrees with English PDF20 headword/sense correction and PDF22 deletion direction. Website splits the printed optional suffix into two forms. Persian PDF86/printed90 independently has hūkar(ag), gloss خوکره; the Persian species equivalence is not independently certified."
+    },
+    {
+      "query": "xūkar*",
+      "observed_utc": "2026-09-28T12:25:48.126Z",
+      "status": "UNCONFIRMED_STALE_RESULT",
+      "note": "Textbox contained xūkar* after search, but displayed result link and table still belonged to hūkar*. This is not evidence of absence. No legacy entry deletion claim is made for the website."
+    },
+    {
+      "query": "xrad",
+      "observed_utc": "2026-09-28T12:26:27.114Z",
+      "status": "RESULT_VERIFIED",
+      "result_url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=xrad&query_type=wildcard&size=20",
+      "entry_id": "04922df1d3095c85d144db82f2322eab708cfa34",
+      "displayed_sense": "wise",
+      "xml": "<entry><form><trc>xrad</trc><trl>hltˈ</trl></form>|<trcEvid><lang>M</lang><mentioned>xrd,</mentioned><lang>N</lang><mentioned>xirad</mentioned></trcEvid><sense><tr>wisdom, reason</tr></sense><form><trc>xradīg, xradōmand</trc><trl>-ykˈ, -ʾwmnd</trl></form>|<trcEvid><lang>N</lang><mentioned>-mand</mentioned></trcEvid><sense><tr>wise</tr></sense></entry>",
+      "comparison": "Full XML preserves noun versus derived-adjective senses found on English PDF116/printed94 and Persian PDF160/printed164. Simplified sense loses the noun meaning."
+    }
+  ],
+  "local_reviewers": ["/root/seen20_blind_a", "/root/seen20_blind_b"],
+  "browser_observer_and_integrator": "/root"
+}

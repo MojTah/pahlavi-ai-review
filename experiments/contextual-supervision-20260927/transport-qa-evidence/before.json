@@ -1,0 +1,20 @@
+{
+  "command_sha256": "81be4ad494d5cec36bdd78ba5a96520540408409f7337f47fdf79d0aa0407b29",
+  "argument_bytes_including_nul": [
+    7,
+    3,
+    3,
+    133681,
+    61361,
+    5
+  ],
+  "max_argument_bytes": 133681,
+  "source_hashes": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "uncompressed_bytes": 133680
+}

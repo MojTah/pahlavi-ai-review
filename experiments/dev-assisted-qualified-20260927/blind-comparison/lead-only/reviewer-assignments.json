@@ -1,0 +1,15 @@
+{
+  "status": "TWO_FRESH_BLIND_REVIEWS_COMPLETE_AND_FROZEN",
+  "reviewer_A": "/root/dev96_blind_a",
+  "reviewer_B": "/root/dev96_blind_b",
+  "fork_turns": "none",
+  "inherited_model_and_reasoning": true,
+  "all_records_per_reviewer": 96,
+  "no_score_pooling": true,
+  "expert_adjudicated": false,
+  "packet_provenance_sha256": "88b2bda7e0a6fe54604ef8feed6b624ae1c439fe83b1829ef981546a54b8f965",
+  "reviews_sha256": {
+    "A": "4e89104f4f26e0f40010add2cf0e04f1f8d219f19a8a22475ad5baf5abc4f2e6",
+    "B": "55ff464d3d192ab5ea56637d044a19dcb2f96d0db33a6002f7e46ff9f60e413f"
+  }
+}

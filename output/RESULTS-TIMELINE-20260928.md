@@ -1,8 +1,8 @@
 # Results timeline and current strategy
 
-Prepared 28 September 2026 from saved experiment records, with an independent chronology/comparability check. Dates below are UTC. No new training was run for this report.
+Prepared 28 September 2026 from saved experiment records, with an independent chronology/comparability check. Updated after the completed NLLB pilot, fresh paired reviews and familiar TRAIN20 diagnostic. Dates below are UTC. This timeline itself launches no jobs.
 
-The largest observed PAL-REF acceptance gain came from the first Gemma training run. Qualified-data retraining showed a smaller additional improvement, with regressions on some works. Subsequent prompt, supplied-example and contextual-training experiments have not established a safe further improvement.
+The largest observed PAL-REF acceptance gain came from the first Gemma training run. Qualified-data retraining showed a smaller additional improvement, with regressions on some works. Subsequent prompt, supplied-example, contextual-training and the completed NLLB full-adaptation experiment have not established a safe further improvement.
 
 These results are **not one continuous accuracy curve**. PAL-REF40 is the fixed 40-case benchmark; DEV has 15 whole-translation cases and 9 separately constrained cases. Familiar TRAIN recall and numerical target-fit tests answer different questions. Semantic ratings remain provisional AI judgments, not Pahlavi-specialist certification.
 
@@ -20,10 +20,21 @@ These results are **not one continuous accuracy curve**. PAL-REF40 is the fixed 
 |27 September, familiar-passage recall|Qualified Gemma on 20 selected TRAIN passages, two instruction formats|Only 12 complete pairs: 5 accepted with training instruction versus 4 with evaluation instruction, for both reviewers. One later output hit the repetition cap; 15 slots were unattempted.|Even familiar full-passage generation was weak. The partial 12-pair result is not an accuracy estimate for all 20.|
 |27 September, conditional-fit diagnostic|Adapter on/off with correct/mismatched sources; 80 forward evaluations|Known-target negative log-likelihood with correct source fell 4.299 → 0.884 when the adapter was enabled.|Teacher-forced likelihood improved with original answer prefixes supplied. This is not a translation score; source mismatch penalties did not increase with adaptation.|
 |27 September, latest paired training|Same qualified checkpoint; 48 further updates each, ordinary-translation control versus contextual-expression candidate|Both reviewers: 0 → 0/15 accepted. Constrained critical errors 3 → 4/9 for both. Whole critical errors 6 → 6 (A), 6 → 7 (B).|**Both improvement screens failed.** Close this recipe branch; do not promote either new adapter or add epochs automatically.|
+|28 September, NLLB full adaptation|NLLB-200-distilled-1.3B, qualified2237 pairs, five epochs,700 updates; fresh blind initialized/trained/Gemma comparison|Both raters: initialized0/15, trained0/15, Gemma1/15 whole accepted. Trained whole critical5/7 versus Gemma3/4. Initialized21/24 and trained23/24 outputs complete.|No promotion. Formal screen inconclusive from one trained cap; semantic gain/safety conditions also unmet. Lower whole critical counts than initialized NLLB do not establish better translations than Gemma.|
+
+|28 September, NLLB familiar-passage diagnostic|Same trained checkpoint;40 correct/mismatched-source reference-likelihood calls and20 first translations, zero updates|Both fresh reviewers accept2/20. All5 contextual glosses preserved; functional scopes only2/23 and4/23. All20 source mismatch penalties positive, mean3.2262 nats/token.|Source-sensitive reference fit coexists with weak free composition. Separate TRAIN diagnostic, not a DEV/PAL score or a matched Gemma comparison. The first readiness failure is preserved and its numerical repair passed. |
 
 The historical 5/40 baseline and 15/40 trained result came from separate single-review assessments and are preserved. The later 14/40 and 16/40 are two fresh reviewers' ratings of those same old trained outputs, not additional models. Each paired reviewer assessed both the old and qualified outputs. Do not subtract historical 15 from a new reviewer's 16 or 17 and call that the matched gain.
 
 Likewise, the latest 0/15 does not establish a fall from 40% to 0% on PAL-REF40: the cases and reviewer panels differ, and the latest variants were not admitted to a new PAL-REF run. Zero whole acceptances also does not mean every translated word was wrong.
+
+## Latest decision after NLLB
+
+The [completed pilot and paired review](../experiments/nllb-supervised-20260928/REPORT.md) establish feasible full adaptation but no promoted quality gain. Gemma remains the comparator. The initialized/trained comparison uses the same fresh reviewer panel, preserves all failures, and is distinct from earlier PAL-REF panels. Even making the single capped trained case acceptable would give only1/15 versus Gemma1/15, below the fixed minimum net gain of2; a cap-only repair is not sufficient.
+
+The [completed familiar-passage diagnostic](../experiments/nllb-seen-20260928/precision-repair/REPORT.md) now answers that next question: both raters accepted2/20 despite clear source preference under supplied reference prefixes. Qualified familiar constructions frequently failed. Seek genuinely additional, independently supported whole-clause supervision from published contexts; preserve split boundaries and qualify relations before any new training. Do not repeat the old23-scope audit or failed12-anchor mixture. A source-contrastive decoder remains conditional rather than the default next spend.
+
+No PAL-REF follow-up or laptop weight transfer is admitted. The active [Goal](../GOAL.md) retains the cumulative fundedUSD25 cap. All22 jobs were terminal at11:04:40 UTC. Billing at11:07:31 UTC showedUSD18.73 usage,USD11.66 credit andUSD6.27 cap headroom; the latest two diagnostic attempts increased displayed usageUSD0.45, not a per-job invoice. Any new paid run requires fresh checks.
 
 ## Current perspective
 
@@ -35,7 +46,7 @@ The computational pipeline and optimization have been exercised, but valid numer
 
 Measurement remains a material uncertainty: two AI reviewers help expose disagreements but cannot certify philology. Specialist evaluation under the existing rubric is a higher-value next source of evidence than another unmotivated training run. Independent MT research also shows that professional contextual evaluation can produce different system rankings from less specialized assessment; this is methodological support, not Pahlavi-specific validation. [Freitag et al., 2021](https://aclanthology.org/2021.tacl-1.87/).
 
-## Current strategy
+## Earlier strategy before the NLLB pilot
 
 1. **Preserve the qualified checkpoint and stop the failed contextual recipe.** No automatic extra epochs, mixture search or third-model sweep. A larger or different model is not selected merely because this recipe failed.
 2. **Strengthen independently grounded semantic evidence.** Check attested word senses, clause meaning, participant roles, negation and uncertainty against published contexts. Do not turn DEV answers or model guesses into training labels. The already completed 23-function annotation work and four within-parent contrasts should not be redone.
@@ -53,5 +64,6 @@ No new paid job is admitted. The last verified balance was USD 13.70 on 27 Septe
 - [Qualified-data paired comparison](../experiments/palref-paired-20260927/REPORT.md)
 - [Model and supplied-example comparison](../experiments/dev-assisted-qualified-20260927/REPORT.md)
 - [Familiar recall](../experiments/train-recall-20260927/REPORT.md) and [conditional fit](../experiments/train-fit-20260927/REPORT.md)
-- [Latest contextual result and audited decision](../experiments/contextual-supervision-20260927/REPORT.md)
+- [Completed NLLB pilot and fresh paired comparison](../experiments/nllb-supervised-20260928/REPORT.md)
+- [Earlier contextual result and audited decision](../experiments/contextual-supervision-20260927/REPORT.md)
 - [Earlier project synthesis and exact prototype references](../plans/translation-test-strategy-20260926-fa.md)

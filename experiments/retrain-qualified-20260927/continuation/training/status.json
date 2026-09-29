@@ -1,0 +1,7 @@
+{
+  "status": "training_complete",
+  "global_step": 280,
+  "adapter": "adapter",
+  "quality_validated": false,
+  "cloud_shutdown_performed": false
+}

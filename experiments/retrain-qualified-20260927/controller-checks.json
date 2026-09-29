@@ -1,0 +1,341 @@
+[
+  {
+    "kind": "canary",
+    "scenario": "observe_recovery",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 19,
+    "error": null,
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": true,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 7.1332,
+      "elapsed_seconds": 19,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.566262+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "lost_submit_reconciled",
+    "posts": 1,
+    "reconciles": 1,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 10,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 7.1269,
+      "elapsed_seconds": 10,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.597331+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "processing_failure",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 10,
+    "error": "ValueError: offline malformed provider data",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 7.1269,
+      "elapsed_seconds": 10,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.636819+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "cancel_unconfirmed",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 30,
+    "terminated": false,
+    "clock_seconds": 300,
+    "error": "RuntimeError: Remote termination not confirmed",
+    "final_event": {
+      "event": "URGENT_termination_unconfirmed",
+      "job_ids": [
+        "owned-job"
+      ],
+      "utc": "2026-09-27T04:59:21.686920+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "lost_submit_unconfirmed",
+    "posts": 1,
+    "reconciles": 3,
+    "cancel_calls": 0,
+    "terminated": false,
+    "clock_seconds": 30,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": false,
+      "conservative_compute_usd": 7.1408,
+      "elapsed_seconds": 30,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.721157+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "lost_submit_transient_reconcile",
+    "posts": 1,
+    "reconciles": 2,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 12,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 7.1283,
+      "elapsed_seconds": 12,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.755152+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "lost_submit_persistent_reconcile",
+    "posts": 1,
+    "reconciles": 9,
+    "cancel_calls": 0,
+    "terminated": false,
+    "clock_seconds": 42,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": false,
+      "conservative_compute_usd": 7.1492,
+      "elapsed_seconds": 42,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.787929+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "lost_submit_invalid_reconcile",
+    "posts": 1,
+    "reconciles": 1,
+    "cancel_calls": 0,
+    "terminated": false,
+    "clock_seconds": 0,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": false,
+      "conservative_compute_usd": 7.12,
+      "elapsed_seconds": 0,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.813331+00:00"
+    }
+  },
+  {
+    "kind": "canary",
+    "scenario": "no_inventory_deadline",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 1810,
+    "error": "RuntimeError: Canary inventory not verified; no automatic retry",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 8.377,
+      "elapsed_seconds": 1810,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.881575+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "observe_recovery",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 19,
+    "error": null,
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": true,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 8.5915,
+      "elapsed_seconds": 19,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.908721+00:00"
+    },
+    "completion_negative_controls": 4
+  },
+  {
+    "kind": "continuation",
+    "scenario": "lost_submit_reconciled",
+    "posts": 1,
+    "reconciles": 1,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 10,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 8.5853,
+      "elapsed_seconds": 10,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.942730+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "processing_failure",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 10,
+    "error": "ValueError: offline malformed provider data",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 8.5853,
+      "elapsed_seconds": 10,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:21.968733+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "cancel_unconfirmed",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 30,
+    "terminated": false,
+    "clock_seconds": 300,
+    "error": "RuntimeError: Remote termination not confirmed",
+    "final_event": {
+      "event": "URGENT_termination_unconfirmed",
+      "job_ids": [
+        "owned-job"
+      ],
+      "utc": "2026-09-27T04:59:22.021405+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "lost_submit_unconfirmed",
+    "posts": 1,
+    "reconciles": 3,
+    "cancel_calls": 0,
+    "terminated": false,
+    "clock_seconds": 30,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": false,
+      "conservative_compute_usd": 8.5992,
+      "elapsed_seconds": 30,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:22.061877+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "lost_submit_transient_reconcile",
+    "posts": 1,
+    "reconciles": 2,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 12,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 8.5867,
+      "elapsed_seconds": 12,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:22.091351+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "lost_submit_persistent_reconcile",
+    "posts": 1,
+    "reconciles": 9,
+    "cancel_calls": 0,
+    "terminated": false,
+    "clock_seconds": 42,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": false,
+      "conservative_compute_usd": 8.6075,
+      "elapsed_seconds": 42,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:22.131953+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "lost_submit_invalid_reconcile",
+    "posts": 1,
+    "reconciles": 1,
+    "cancel_calls": 0,
+    "terminated": false,
+    "clock_seconds": 0,
+    "error": "ReadTimeout: offline POST response fault",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": false,
+      "conservative_compute_usd": 8.5783,
+      "elapsed_seconds": 0,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:22.168691+00:00"
+    }
+  },
+  {
+    "kind": "continuation",
+    "scenario": "no_inventory_deadline",
+    "posts": 1,
+    "reconciles": 0,
+    "cancel_calls": 1,
+    "terminated": true,
+    "clock_seconds": 9010,
+    "error": "RuntimeError: Continuation inventory not verified; no automatic retry",
+    "final_event": {
+      "event": "finished",
+      "inventory_verified": false,
+      "cloud_terminal": true,
+      "conservative_compute_usd": 14.8353,
+      "elapsed_seconds": 9010,
+      "automatic_continuation": false,
+      "utc": "2026-09-27T04:59:22.454903+00:00"
+    }
+  }
+]

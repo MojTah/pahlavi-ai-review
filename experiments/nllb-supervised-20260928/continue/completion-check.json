@@ -1,0 +1,14 @@
+{
+  "observed_utc": "2026-09-28T09:18:11.576263+00:00",
+  "job_id": "6aba244c6b030d633f69bee2",
+  "stage": "COMPLETED",
+  "started_at": "2026-09-28 08:24:49.462000+00:00",
+  "finished_at": "2026-09-28 08:54:13.961000+00:00",
+  "running_seconds": 1764.499,
+  "rounded_minutes_upper": 30,
+  "active_job_ids": [],
+  "canary_rounded_minutes_upper": 9,
+  "estimated_total_compute_usd": 1.625013,
+  "cost_basis": "Conservative whole-minute estimate at previously verified rate, not a fresh billing invoice",
+  "model_weights_downloaded": false
+}

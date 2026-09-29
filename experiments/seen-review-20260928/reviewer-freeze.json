@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-28T11:09:22.208436+00:00",
+  "frozen_before_scoring": true,
+  "reviewers": {
+    "A": {
+      "agent": "/root/seen20_blind_a",
+      "fresh_context": true,
+      "rows": 20,
+      "sha256": "a26a9d9ccc90b799ed4af0d94f8ccf99acba50462e7062e5ef70870901a33f1e",
+      "packet_sha256": "81177289bccddd7a1019b59ec209356fbf002f9feb2512d86afacff4d620ad77",
+      "independent_ai_not_expert": true
+    },
+    "B": {
+      "agent": "/root/seen20_blind_b",
+      "fresh_context": true,
+      "rows": 20,
+      "sha256": "4222f3ef25c868aace441f3755d79fd3f03b656c4006640c3f43df9d4e8d3fb7",
+      "packet_sha256": "3882a116769c779d1683d56f8c8d3a80803c114b33e781847e0d00fc815416db",
+      "independent_ai_not_expert": true
+    }
+  }
+}

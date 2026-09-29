@@ -1,0 +1,28 @@
+{
+  "execution_complete": true,
+  "success": 96,
+  "error": 0,
+  "timeout": 0,
+  "cap_hits": 0,
+  "same_instruction_same_input_tokens": true,
+  "condition_counts": {
+    "D0": 24,
+    "D1": 24,
+    "D3": 24,
+    "D2": 24
+  },
+  "per_condition_generation_seconds": {
+    "D0": 180.963,
+    "D1": 174.378,
+    "D2": 236.933,
+    "D3": 236.749
+  },
+  "per_condition_output_tokens": {
+    "D0": 1682,
+    "D1": 1619,
+    "D2": 1510,
+    "D3": 1504
+  },
+  "quality_review": "Provisional blind AI review complete; independent result audit PASS. See comparison.json, reviewer-clarification.json and RESULT-REVIEW.md.",
+  "local_model_download": false
+}

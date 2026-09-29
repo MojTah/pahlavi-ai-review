@@ -1,0 +1,173 @@
+{
+  "status": "MECHANICAL_CENSUS_ONLY_NOT_TRAINING_QUALIFICATION",
+  "script_sha256": "bc3ccdaf1e76d831400fbc9b1f60ebf023ed1f5ac3437f39e01d36c3e8984f29",
+  "acquisition_report_sha256": "075d3c4d7043ce10ab08aaa2e638af67735c48cc621bd2659bef91c42607dea3",
+  "acquisition_snapshot": {
+    "collections_reported": 5,
+    "stop_reason": "Access or rate-limit response; no automatic retry",
+    "requested_cap_per_collection": 10000
+  },
+  "source_tokens_helper_sha256": "9c616eae976683ce16e5428af10b3e4425aa4d72e0f8ac4e33020f5238325abc",
+  "baseline": {
+    "rows": 2237,
+    "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+    "compared_field": "text",
+    "heldout_answers_read": false
+  },
+  "raw_inputs": [
+    {
+      "collection": "acpv1_7",
+      "file": "raw/f5e0105db5dbf59d9ad294db5325ca2728674072322bcdf38c302e7156c9b0eb.source",
+      "sha256": "c81863ead46fdd863d97a2a6f0549445a346d7bc6499a3cea677264841928c6e",
+      "bytes": 937594
+    },
+    {
+      "collection": "afnan",
+      "file": "raw/870c384ff8db268f6998b7469841d2580440b15f4054029406fbca9dc71f44b1.source",
+      "sha256": "f7f6dd1ee3e47aa98fa27dbf838db697a762dc92573ad45a4c8f90d6a5ba8fc0",
+      "bytes": 88657
+    },
+    {
+      "collection": "awn",
+      "file": "raw/c36358340f358ff911120e74ccf3118ffedefb0a86d13e8548caf53dde939079.source",
+      "sha256": "817d8278df6d8d0c1694b05a89dda8176b13afded0af7f768cef1d8ce6fc60cc",
+      "bytes": 96294
+    }
+  ],
+  "collections": [
+    {
+      "collection": "acpv1_7",
+      "acquisition_status": "BELOW_CAP_NOT_COMPLETENESS_PROOF",
+      "heldout_collection_name_flag": null,
+      "lineage_status": "UNRESOLVED_NO_COLLECTION_IS_CLEARED",
+      "admitted_training_pairs": 0,
+      "census_status": "COUNTED_RAW_DICTIONARY_ROWS",
+      "entries": 2602,
+      "xml_present": 2602,
+      "xml_parse_failures": 0,
+      "xml_missing_or_invalid_type": 0,
+      "raw_full_trc_values": 2602,
+      "entries_without_trc_values": 0,
+      "empty_full_trc_values": 0,
+      "unique_exact_xml_strings": 2602,
+      "duplicate_xml_rows_within_collection": 0,
+      "unique_normalized_full_trc": 1653,
+      "matches_normalized_training_whole_source": 0,
+      "matches_training_whole_source_token_sequence": 2,
+      "occurs_as_exact_contiguous_training_token_sequence": 637,
+      "not_found_as_training_token_sequence": 1016,
+      "empty_after_source_token_normalization": 0,
+      "xml_rows_with_identical_xml_in_other_collections": 0
+    },
+    {
+      "collection": "afnan",
+      "acquisition_status": "BELOW_CAP_NOT_COMPLETENESS_PROOF",
+      "heldout_collection_name_flag": null,
+      "lineage_status": "UNRESOLVED_NO_COLLECTION_IS_CLEARED",
+      "admitted_training_pairs": 0,
+      "census_status": "COUNTED_RAW_DICTIONARY_ROWS",
+      "entries": 324,
+      "xml_present": 324,
+      "xml_parse_failures": 0,
+      "xml_missing_or_invalid_type": 0,
+      "raw_full_trc_values": 324,
+      "entries_without_trc_values": 0,
+      "empty_full_trc_values": 0,
+      "unique_exact_xml_strings": 324,
+      "duplicate_xml_rows_within_collection": 0,
+      "unique_normalized_full_trc": 315,
+      "matches_normalized_training_whole_source": 0,
+      "matches_training_whole_source_token_sequence": 0,
+      "occurs_as_exact_contiguous_training_token_sequence": 30,
+      "not_found_as_training_token_sequence": 285,
+      "empty_after_source_token_normalization": 0,
+      "xml_rows_with_identical_xml_in_other_collections": 0
+    },
+    {
+      "collection": "awn",
+      "acquisition_status": "BELOW_CAP_NOT_COMPLETENESS_PROOF",
+      "heldout_collection_name_flag": null,
+      "lineage_status": "UNRESOLVED_NO_COLLECTION_IS_CLEARED",
+      "admitted_training_pairs": 0,
+      "census_status": "COUNTED_RAW_DICTIONARY_ROWS",
+      "entries": 366,
+      "xml_present": 366,
+      "xml_parse_failures": 0,
+      "xml_missing_or_invalid_type": 0,
+      "raw_full_trc_values": 509,
+      "entries_without_trc_values": 0,
+      "empty_full_trc_values": 0,
+      "unique_exact_xml_strings": 366,
+      "duplicate_xml_rows_within_collection": 0,
+      "unique_normalized_full_trc": 506,
+      "matches_normalized_training_whole_source": 0,
+      "matches_training_whole_source_token_sequence": 0,
+      "occurs_as_exact_contiguous_training_token_sequence": 219,
+      "not_found_as_training_token_sequence": 287,
+      "empty_after_source_token_normalization": 0,
+      "xml_rows_with_identical_xml_in_other_collections": 0
+    },
+    {
+      "collection": "cpd",
+      "acquisition_status": "FETCH_FAILED",
+      "heldout_collection_name_flag": null,
+      "lineage_status": "UNRESOLVED_NO_COLLECTION_IS_CLEARED",
+      "admitted_training_pairs": 0,
+      "census_status": "NO_SUCCESSFUL_RAW_RESPONSE",
+      "xml_rows_with_identical_xml_in_other_collections": 0
+    },
+    {
+      "collection": "cpd_de",
+      "acquisition_status": "FETCH_FAILED",
+      "heldout_collection_name_flag": null,
+      "lineage_status": "UNRESOLVED_NO_COLLECTION_IS_CLEARED",
+      "admitted_training_pairs": 0,
+      "census_status": "NO_SUCCESSFUL_RAW_RESPONSE",
+      "xml_rows_with_identical_xml_in_other_collections": 0
+    }
+  ],
+  "totals": {
+    "downloaded_dictionary_rows_counted": 3292,
+    "unique_exact_xml_strings": 3292,
+    "duplicate_xml_row_excess_global": 0,
+    "xml_strings_shared_across_collections": 0,
+    "unique_normalized_full_trc": 2315,
+    "matches_normalized_training_whole_source": 0,
+    "matches_training_whole_source_token_sequence": 2,
+    "occurs_as_exact_contiguous_training_token_sequence": 772,
+    "not_found_as_training_token_sequence": 1543,
+    "empty_after_source_token_normalization": 0
+  },
+  "forms_present_in_potentially_heldout_collections": {
+    "unique_normalized_full_trc": 0,
+    "matches_normalized_training_whole_source": 0,
+    "matches_training_whole_source_token_sequence": 0,
+    "occurs_as_exact_contiguous_training_token_sequence": 0,
+    "not_found_as_training_token_sequence": 0,
+    "empty_after_source_token_normalization": 0
+  },
+  "forms_only_in_unflagged_but_lineage_unresolved_collections": {
+    "unique_normalized_full_trc": 2315,
+    "matches_normalized_training_whole_source": 0,
+    "matches_training_whole_source_token_sequence": 2,
+    "occurs_as_exact_contiguous_training_token_sequence": 772,
+    "not_found_as_training_token_sequence": 1543,
+    "empty_after_source_token_normalization": 0
+  },
+  "training_admission": {
+    "historical_pairs_before": 2237,
+    "historical_pairs_after": 2237,
+    "new_lexical_pairs": 0,
+    "new_attested_sentence_pairs": 0
+  },
+  "limits": [
+    "Not a completeness proof; capped, failed and missing collections remain unresolved.",
+    "Dictionary rows/forms are not sentence pairs or independent attestations.",
+    "Unseen orthography does not establish new meaning, usable translation, or scholarly correctness.",
+    "Exact XML uses the entire unmodified XML string including IDs/whitespace; differently serialized duplicates and shared edition lineage are not detected.",
+    "Full trc values are flattened from lists only; no parenthesis, slash, inflection or variant expansion.",
+    "Full forms: NFC/casefold/whitespace collapse, punctuation retained. Token matching additionally strips boundary Unicode punctuation using the existing audit helper.",
+    "Collection-name held-out flags are heuristic; absence of a flag is not clearance. Every collection has unresolved lineage.",
+    "No DEV/TEST answers, semantic alignment, sense validation, expert review, target creation or training admission."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "collection": "yz",
+  "archive": "kosh-retry-20260928",
+  "receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/yz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=100",
+    "retrieved_utc": "2026-09-28T13:37:07.693713+00:00",
+    "final_url": "https://kosh.uni-koeln.de/mpcd/yz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=100",
+    "content_type": "application/json",
+    "charset": null,
+    "status": "ok",
+    "file": "raw/eead3802a54e5f26ab922ff049bc0675ba64f52b9cd21998a491f232fb2956e0.source",
+    "sha256": "82c99dc596d5f5fb2e49cece72666773da04c4f16b3b36f0492db3ac078e78fa",
+    "bytes": 35653
+  },
+  "authorized_retry": "User requested retry after the saved SSL EOF failure",
+  "prior_receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/yz/restful/entries?field=trc&query=%2A&query_type=wildcard&size=100",
+    "retrieved_utc": "2026-09-28T13:24:21.749308+00:00",
+    "status": "failed",
+    "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  },
+  "complete_site_export": false,
+  "entries": 100,
+  "unique_ids": 100,
+  "with_xml": 100,
+  "fields": [
+    "attest",
+    "created",
+    "id",
+    "sense",
+    "trc",
+    "trl",
+    "xml"
+  ],
+  "status": "CAPPED"
+}

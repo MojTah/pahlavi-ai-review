@@ -1,0 +1,7 @@
+{
+  "utc": "2026-09-29T09:19:50.490805+00:00",
+  "run_id": "ad548e0f8b7b454682dc2fd6c3298966",
+  "spec_sha256": "3e8c1adb96a523bf279fcc6dc9a2de544ea34d8e9617beacda443f4b62ac9fce",
+  "source_commit": "e0ba397629b4e9d9c4962600080ae0d751e829f9",
+  "action": "single authorized submission; reconcile trial_id before any retry"
+}

@@ -1,0 +1,98 @@
+{
+  "status": "TARGETED_SOURCE_CHECK_NOT_INDEPENDENT_EDITION",
+  "queries": [
+    {
+      "collection": "dmx",
+      "word": "kištan",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/dmx/restful/entries?field=trc&query=ki%C5%A1tan&query_type=wildcard&size=10",
+        "retrieved_utc": "2026-09-28T17:00:07.115132+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/dmx/restful/entries?field=trc&query=ki%C5%A1tan&query_type=wildcard&size=10",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/4fd575cb362908609e28235db93664522f6841d2d2d9876598e278bcc2e19371.source",
+        "sha256": "fd4e1ca4cc5647fcf22da63460bf91b9b393b19a5f9e4d65812315906daa721b",
+        "bytes": 25
+      },
+      "entries": []
+    },
+    {
+      "collection": "gbd",
+      "word": "kištan",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=ki%C5%A1tan&query_type=wildcard&size=10",
+        "retrieved_utc": "2026-09-28T17:00:07.928706+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=ki%C5%A1tan&query_type=wildcard&size=10",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/d2623687893caf07454a7fed5ada257f68c923a4e73d4600fda0bd8144c086e3.source",
+        "sha256": "c9f8601ef8b27f7d5b6d1a48ba93b0338c9a24715a9d3730c9ba33c24403c76e",
+        "bytes": 241
+      },
+      "entries": [
+        {
+          "observation_id": "kosh:gbd:489",
+          "xml": "<entry id=\"489\"><trc><form>kištan</form></trc><sense>کاشتن، کِشتن</sense></entry>",
+          "identical_to_archived_xml": true
+        }
+      ]
+    },
+    {
+      "collection": "gbd",
+      "word": "ahrav",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=ahrav&query_type=wildcard&size=10",
+        "retrieved_utc": "2026-09-28T17:00:08.547034+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/gbd/restful/entries?field=trc&query=ahrav&query_type=wildcard&size=10",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/b382a2c56848a35a7d81cc4746f35f6fc80f8ed24bc873ccc2e8f5ac9b1f8dfa.source",
+        "sha256": "a05840577fca1c654e578e0c52504265ba205747a69a5bbdcf3012a8b2e97fe1",
+        "bytes": 930
+      },
+      "entries": [
+        {
+          "observation_id": "kosh:gbd:14",
+          "xml": "<entry id=\"14\"><trc><form>ahlav</form><form>ahrav</form></trc><sense>راستکردار، پرهیزگار</sense></entry>",
+          "identical_to_archived_xml": true
+        },
+        {
+          "observation_id": "kosh:gbd:15",
+          "xml": "<entry id=\"15\"><trc><form>ahrav</form><form>ahlav xᵛadāyīh</form></trc><sense>پادشاهی به راستکرداری</sense></entry>",
+          "identical_to_archived_xml": true
+        },
+        {
+          "observation_id": "kosh:gbd:16",
+          "xml": "<entry id=\"16\"><trc><form>ahrav</form><form>ahlav bēšišn</form></trc><sense>آزاردادن مرد راستکردار، صفت کافران</sense></entry>",
+          "identical_to_archived_xml": true
+        }
+      ]
+    },
+    {
+      "collection": "dmx",
+      "word": "*kištan*",
+      "reason": "Exact wildcard pattern returned no hit; archived form includes surrounding whitespace. Bounded contains-pattern followup.",
+      "receipt": {
+        "url": "https://kosh.uni-koeln.de/mpcd/dmx/restful/entries?field=trc&query=%2Aki%C5%A1tan%2A&query_type=wildcard&size=10",
+        "retrieved_utc": "2026-09-28T17:01:25.852792+00:00",
+        "final_url": "https://kosh.uni-koeln.de/mpcd/dmx/restful/entries?field=trc&query=%2Aki%C5%A1tan%2A&query_type=wildcard&size=10",
+        "content_type": "application/json",
+        "charset": null,
+        "status": "ok",
+        "file": "raw/0e59a7dd600ce187b4a30ba075d55ae24d95cf1738e74de68b205e4ded4fc3fd.source",
+        "sha256": "d2ca2bf2cbd6f9b6cf54d0d62d25424a8bb6ea2b0b9aa18f94228db773deed97",
+        "bytes": 285
+      },
+      "entries": [
+        {
+          "observation_id": "kosh:dmx:853",
+          "xml": "<entry id=\"853\"><trc><form>\n     kištan\n    </form></trc><sense>\n    کاشتن، کشتن\n   </sense></entry>",
+          "identical_to_archived_xml": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10016 @@
+{
+  "date": "2026-09-26",
+  "purpose": "CPU token-count preflight only; not training or model inference",
+  "model": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "train_sha256": "485d063523b9efb7692c0384cfc9a87aafb3c2a86aaf3e16848eaab3fdefd070",
+  "holdout_policy_sha256": "fead263bb73e4797c09595320aeeefb6cf7e553510e3fb08a932700ffaaa55cc",
+  "holdout_check": "PASS",
+  "raw_forward_fa_rows": 2609,
+  "unique_exact_stripped_pairs": 2487,
+  "total_chat_tokens_one_epoch": 361269,
+  "min": 57,
+  "median": 110,
+  "p95": 343,
+  "max": 1109,
+  "over_2048": [],
+  "over_4096": [],
+  "tokens_for_pairs_le_2048": 361269,
+  "runtime": {
+    "transformers": "5.13.1",
+    "tokenizers": "0.22.2"
+  },
+  "tokenizer_files": {
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+  },
+  "prompt": "Translate the following Middle Persian text in scholarly Latin transcription into Farsi. Return only the translation. Preserve negation, participants, names, numbers, and uncertainty. Do not invent missing context.\nSource:\n{text}",
+  "template_options": {
+    "enable_thinking": false,
+    "add_generation_prompt": false
+  },
+  "dev_inputs": [
+    {
+      "id": "PALDEV1-001:pal>fa",
+      "source_words": 10,
+      "input_tokens": 89
+    },
+    {
+      "id": "PALDEV1-002:pal>fa",
+      "source_words": 20,
+      "input_tokens": 105
+    },
+    {
+      "id": "PALDEV1-003:pal>fa",
+      "source_words": 22,
+      "input_tokens": 113
+    },
+    {
+      "id": "PALDEV1-004:pal>fa",
+      "source_words": 28,
+      "input_tokens": 140
+    },
+    {
+      "id": "PALDEV1-005:pal>fa",
+      "source_words": 40,
+      "input_tokens": 159
+    },
+    {
+      "id": "PALDEV1-006:pal>fa",
+      "source_words": 34,
+      "input_tokens": 174
+    }
+  ],
+  "all_pair_counts": [
+    {
+      "id": "parsig:133000000:pal>fa",
+      "tokens": 154
+    },
+    {
+      "id": "parsig:133000001:pal>fa",
+      "tokens": 390
+    },
+    {
+      "id": "parsig:133000002:pal>fa",
+      "tokens": 580
+    },
+    {
+      "id": "parsig:133000003:pal>fa",
+      "tokens": 637
+    },
+    {
+      "id": "parsig:133000004:pal>fa",
+      "tokens": 554
+    },
+    {
+      "id": "parsig:133000005:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000006:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000007:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:133000008:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:133000009:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000010:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:133000011:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:133000012:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:133000013:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:133000014:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:133000015:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:133000016:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:133000017:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:133000018:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:133000019:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:133000020:pal>fa",
+      "tokens": 206
+    },
+    {
+      "id": "parsig:133000021:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:133000022:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:133000023:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000024:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000025:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000026:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:133000027:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:133000028:pal>fa",
+      "tokens": 191
+    },
+    {
+      "id": "parsig:133000029:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000030:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:133000031:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:133000032:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:133000033:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:133000034:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000035:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:133000036:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000037:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000038:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:133000039:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:133000040:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:133000041:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:133000042:pal>fa",
+      "tokens": 198
+    },
+    {
+      "id": "parsig:133000043:pal>fa",
+      "tokens": 214
+    },
+    {
+      "id": "parsig:133000044:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:133000045:pal>fa",
+      "tokens": 261
+    },
+    {
+      "id": "parsig:133000046:pal>fa",
+      "tokens": 285
+    },
+    {
+      "id": "parsig:133000047:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:133000048:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:133000049:pal>fa",
+      "tokens": 295
+    },
+    {
+      "id": "parsig:133000050:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:133000051:pal>fa",
+      "tokens": 201
+    },
+    {
+      "id": "parsig:133000052:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:133000053:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:133000054:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:133000055:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:133000056:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:133000057:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:133000058:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000059:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:133000060:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:133000061:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:133000062:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:133000063:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:133000064:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:133000065:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000066:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:133000067:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000068:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000069:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:133000070:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000071:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:133000072:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000073:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000074:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000075:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000076:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:133000077:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:133000078:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:133000079:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000080:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:133000081:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000082:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:133000083:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:133000084:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:133000085:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:133000086:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000087:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:133000088:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:133000089:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:133000090:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:133000091:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:133000092:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:133000093:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:133000094:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000095:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:133000096:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:133000097:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000098:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:133000099:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:133000100:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:133000101:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:133000102:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:133000103:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000104:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:133000105:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:133000106:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:133000107:pal>fa",
+      "tokens": 186
+    },
+    {
+      "id": "parsig:133000108:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000109:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:133000110:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:133000111:pal>fa",
+      "tokens": 153
+    },
+    {
+      "id": "parsig:133000112:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:133000113:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:133000114:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000115:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:133000116:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000117:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000118:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:133000119:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:133000120:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000121:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000122:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:133000123:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:133000124:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:133000125:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:133000126:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:133000127:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:133000128:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:133000129:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000130:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:133000131:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:133000132:pal>fa",
+      "tokens": 62
+    },
+    {
+      "id": "parsig:133000133:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:133000134:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:133000135:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:133000136:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000137:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000138:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:133000139:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000140:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:133000141:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:133000142:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:133000143:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000144:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:133000145:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000146:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:133000147:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000148:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:133000149:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000150:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:133000151:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000152:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:133000153:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000154:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:133000155:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000156:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:133000158:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:133000160:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:133000161:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000162:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:133000163:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:133000164:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:133000165:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000166:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:133000167:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:133000168:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:133000169:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000170:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:133000171:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:133000172:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:133000173:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:133000174:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:133000175:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:133000176:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:133000177:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000178:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000179:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:133000180:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:133000181:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:133000182:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:133000183:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:133000184:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:133000185:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000186:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:133000187:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:133000188:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:133000189:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:133000190:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:133000191:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:133000192:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:133000193:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000194:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:133000195:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000196:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:133000197:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000198:pal>fa",
+      "tokens": 62
+    },
+    {
+      "id": "parsig:133000199:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:133000200:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000201:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:133000202:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:133000203:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000204:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:133000205:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:133000206:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000207:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000208:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000209:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:133000210:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000211:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000212:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000213:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000214:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:133000215:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000216:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:133000217:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:133000218:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000219:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:133000220:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000221:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:133000222:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:133000223:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:133000224:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:133000225:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000226:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:133000227:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000228:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000229:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:133000230:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:133000231:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000232:pal>fa",
+      "tokens": 62
+    },
+    {
+      "id": "parsig:133000233:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000234:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:133000235:pal>fa",
+      "tokens": 61
+    },
+    {
+      "id": "parsig:133000236:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:133000237:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:133000238:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:133000239:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000240:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:133000241:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000242:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:133000243:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000244:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:133000245:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:133000246:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000247:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000248:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:133000249:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:133000250:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:133000251:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:133000252:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:133000253:pal>fa",
+      "tokens": 62
+    },
+    {
+      "id": "parsig:133000254:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:133000255:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:133000256:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:133000257:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:133000258:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:133000260:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:133000261:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:133000262:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:133000263:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:133000264:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:133000265:pal>fa",
+      "tokens": 209
+    },
+    {
+      "id": "parsig:133000266:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151000000:pal>fa",
+      "tokens": 232
+    },
+    {
+      "id": "parsig:151000001:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151000002:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151000003:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151000004:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151000005:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151000006:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151000007:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151000008:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151000009:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:151000010:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:151000011:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151000012:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151000013:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:151000014:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151000015:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151000016:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:151000017:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151000018:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151000019:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151000021:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151000022:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151000023:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151000024:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151000025:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151000026:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151000027:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151000028:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151000029:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151000031:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151000032:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151000033:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151000034:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151000035:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151000036:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:151000037:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151000038:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:151000039:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151000040:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151000041:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151000042:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151000043:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151000044:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151000045:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151000046:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151000047:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151000048:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151000049:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151000050:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151000051:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:151000052:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151000053:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151000054:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151000055:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151000056:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151000057:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151000059:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151000060:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151000061:pal>fa",
+      "tokens": 146
+    },
+    {
+      "id": "parsig:151001001:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151001002:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:151001003:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151001004:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151001005:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151001006:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151001007:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151001008:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:151001009:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151001010:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151001011:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151001012:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151001013:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151001014:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151001015:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151001016:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151001017:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151001018:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151001019:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151001020:pal>fa",
+      "tokens": 62
+    },
+    {
+      "id": "parsig:151001021:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151001022:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151001023:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151001024:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151001025:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151001026:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151001027:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151001028:pal>fa",
+      "tokens": 170
+    },
+    {
+      "id": "parsig:151001029:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151001030:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151001031:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001032:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151001033:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151001034:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151001035:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151001036:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151001037:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151001038:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151001039:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001040:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151001041:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151001042:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001043:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151001044:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151001045:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151001046:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151001047:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151001049:pal>fa",
+      "tokens": 169
+    },
+    {
+      "id": "parsig:151001050:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001051:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151001052:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151001053:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151001054:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151001055:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151001056:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151001057:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151001058:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151001059:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151001060:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151001061:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151001062:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151001063:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151001064:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:151001066:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151001067:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151001068:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151001069:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151001070:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151001071:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151001072:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151001073:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151001074:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151001075:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:151001076:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151001077:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151001078:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151001079:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151001080:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151001081:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151001082:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151001083:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151001084:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151001085:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151001086:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151001087:pal>fa",
+      "tokens": 142
+    },
+    {
+      "id": "parsig:151001088:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151001089:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:151001090:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151001091:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151001092:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151001093:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151001095:pal>fa",
+      "tokens": 339
+    },
+    {
+      "id": "parsig:151001096:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151001097:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151001098:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151001099:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:151001100:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001101:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151001102:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151001103:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151001104:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001105:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151001106:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151001107:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151001108:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151001109:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151001110:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001111:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151001112:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151001113:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151001114:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151001115:pal>fa",
+      "tokens": 289
+    },
+    {
+      "id": "parsig:151001116:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151001117:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:151001118:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151001119:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151001120:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:151001121:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151001122:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151001123:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:151001124:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151001125:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151001126:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151001128:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151001130:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:151001131:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151001132:pal>fa",
+      "tokens": 167
+    },
+    {
+      "id": "parsig:151001133:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151001134:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151001135:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:151001136:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151001137:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151001138:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151001139:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151001140:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:151001141:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151001142:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151001143:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151001144:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151001145:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151001146:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151001147:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151001149:pal>fa",
+      "tokens": 176
+    },
+    {
+      "id": "parsig:151001150:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151001151:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:151001152:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151001153:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:151001154:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151001155:pal>fa",
+      "tokens": 62
+    },
+    {
+      "id": "parsig:151001156:pal>fa",
+      "tokens": 218
+    },
+    {
+      "id": "parsig:151001157:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:151001158:pal>fa",
+      "tokens": 140
+    },
+    {
+      "id": "parsig:151001159:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151001160:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:151001161:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151001162:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151001163:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151001164:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:151001165:pal>fa",
+      "tokens": 154
+    },
+    {
+      "id": "parsig:151001166:pal>fa",
+      "tokens": 188
+    },
+    {
+      "id": "parsig:151001167:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151001168:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151001169:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151001170:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151001171:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:151001172:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151001173:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151001174:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:151001175:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151001176:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:151001177:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151001178:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151001179:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151001180:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151001181:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151001182:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151001183:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:151001184:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151001185:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:151001186:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151001187:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151001188:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151001189:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151001190:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:151001191:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151001192:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:151001193:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151001194:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:151001195:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151001196:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:151001197:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151001198:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151002002:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151002003:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151002004:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151002006:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151002007:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151002008:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:151003002:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151003004:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151003005:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151003006:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151003007:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151003008:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151004002:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151004004:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151004005:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151004006:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151004007:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151004008:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151004009:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151004010:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151004011:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151004012:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:151004013:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151005002:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151005004:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151005005:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151005006:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151005007:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151005008:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151005009:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151005010:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151005011:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151005012:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151005013:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151006002:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:151006003:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151006004:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151006005:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151006006:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151006007:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151006009:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151006010:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151006011:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151006012:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151006013:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151006014:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151006015:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:151006016:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151006017:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:151006018:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151006019:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151006020:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151006021:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151006022:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151006023:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151006024:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:151006025:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151006026:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151006027:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151006028:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151006029:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151006030:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151006031:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151007002:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151007003:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151007004:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151007005:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151007006:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151007008:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:151007009:pal>fa",
+      "tokens": 193
+    },
+    {
+      "id": "parsig:151007010:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151007011:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151007012:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151007013:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151007014:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151007015:pal>fa",
+      "tokens": 182
+    },
+    {
+      "id": "parsig:151007016:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:151007017:pal>fa",
+      "tokens": 139
+    },
+    {
+      "id": "parsig:151007018:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151007019:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151007020:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151007021:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151007022:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151007023:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151007024:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:151007025:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151007026:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151007027:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151007028:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151007029:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151007030:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151008002:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151008003:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151008004:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151008006:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:151008007:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151008008:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151009002:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:151009004:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151009005:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151009006:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151009007:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151009008:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151009009:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151009010:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151009011:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151010002:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151010004:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151010005:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151011002:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:151011004:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151011005:pal>fa",
+      "tokens": 168
+    },
+    {
+      "id": "parsig:151011006:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151011007:pal>fa",
+      "tokens": 200
+    },
+    {
+      "id": "parsig:151011008:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151011009:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151011010:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151011011:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:151011012:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:151011013:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151011014:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151011015:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151012002:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:151012003:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:151012005:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:151012006:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151012007:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151012008:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151012009:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:151012010:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:151012011:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151012012:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:151012013:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151012014:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151012015:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:151012016:pal>fa",
+      "tokens": 139
+    },
+    {
+      "id": "parsig:151012017:pal>fa",
+      "tokens": 142
+    },
+    {
+      "id": "parsig:151012018:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:151013002:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151013003:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151013004:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151013005:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151013006:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151013007:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151013009:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151013010:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151013011:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151013012:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151013013:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:151013014:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:151014002:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151014004:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151014005:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:151014006:pal>fa",
+      "tokens": 192
+    },
+    {
+      "id": "parsig:151014007:pal>fa",
+      "tokens": 170
+    },
+    {
+      "id": "parsig:151014008:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151014009:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:151014010:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151014012:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151014013:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151014014:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151014015:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151014016:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:151014017:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151014018:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151014019:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151014020:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151014021:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151014022:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151014023:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151014024:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:151014025:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151014026:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151014027:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151014028:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151014029:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151014030:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151014031:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151014032:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151014033:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151014034:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151014035:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151014036:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151014037:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151014038:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151014039:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151015002:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151015004:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151015005:pal>fa",
+      "tokens": 144
+    },
+    {
+      "id": "parsig:151015006:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151015007:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:151015008:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151015009:pal>fa",
+      "tokens": 61
+    },
+    {
+      "id": "parsig:151015010:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:151015011:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:151015012:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151015013:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151015014:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151015015:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151015016:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151015017:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151015018:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151015019:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151015020:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151015021:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151015022:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151015023:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151015024:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151015025:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151015026:pal>fa",
+      "tokens": 167
+    },
+    {
+      "id": "parsig:151015027:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151015028:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151015029:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151015030:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151015031:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151015032:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151015033:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151015034:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151015035:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151015036:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151015037:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151015038:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151015039:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151015040:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151015041:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151015042:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151015043:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151015044:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151015045:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151015046:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151015047:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151015048:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:151015049:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151015050:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151015051:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151015052:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151015053:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151015054:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151015055:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151015056:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151015057:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151015058:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151015059:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151015060:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151015061:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151015062:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151015063:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151015064:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151015065:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151015066:pal>fa",
+      "tokens": 125
+    },
+    {
+      "id": "parsig:151016002:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151016004:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:151017002:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:151017003:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151017005:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151018002:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151018004:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151018005:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151018006:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:151019001:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151019002:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151019004:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151019005:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151020002:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151020003:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151020004:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151020005:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151020006:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151020007:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151020008:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151020010:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:151020011:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151020012:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151020013:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151020014:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151020015:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151020016:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151020017:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151020018:pal>fa",
+      "tokens": 173
+    },
+    {
+      "id": "parsig:151020019:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151020020:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151020021:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151020022:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151020023:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151020024:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151020025:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151020026:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151020027:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151020028:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:151020029:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151020030:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151020031:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151020032:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:151020033:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151020034:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151020035:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151020036:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151020037:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151020038:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151020039:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:151020040:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151020041:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:151020042:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151020043:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151020044:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:151021002:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151021004:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151021005:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151021006:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:151022002:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151022004:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:151022005:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:151022006:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151022007:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151022008:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151022009:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151023002:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:151023004:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:151023005:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151023006:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151023007:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151023008:pal>fa",
+      "tokens": 246
+    },
+    {
+      "id": "parsig:151024002:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151024004:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151024005:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151024006:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151024007:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151025002:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151025003:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151025006:pal>fa",
+      "tokens": 157
+    },
+    {
+      "id": "parsig:151025007:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151025008:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151025009:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151025010:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151026002:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:151026003:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151026004:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151026005:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151026006:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151026007:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151026009:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151026010:pal>fa",
+      "tokens": 144
+    },
+    {
+      "id": "parsig:151026011:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151026012:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151026013:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151026014:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026015:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151026016:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:151026017:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:151026018:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151026019:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151026020:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151026021:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151026022:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151026023:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151026024:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151026025:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:151026026:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151026027:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151026028:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:151026029:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151026030:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:151026031:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026032:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151026033:pal>fa",
+      "tokens": 183
+    },
+    {
+      "id": "parsig:151026034:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151026035:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:151026036:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151026037:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151026038:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026039:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151026040:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151026041:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026042:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151026043:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151026044:pal>fa",
+      "tokens": 230
+    },
+    {
+      "id": "parsig:151026045:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151026046:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151026047:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026048:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151026049:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151026050:pal>fa",
+      "tokens": 157
+    },
+    {
+      "id": "parsig:151026051:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151026052:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151026053:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:151026054:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151026055:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151026056:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026057:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151026058:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151026059:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026060:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026061:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151026062:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151026063:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:151026064:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151026065:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151026066:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:151026067:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151026068:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151026069:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151026070:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151026071:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151026072:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151026073:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151026074:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151026075:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151026076:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151027001:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151027002:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151027003:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151027004:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:151027005:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:151027006:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151027008:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151027009:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:151027010:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151027011:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151027012:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151027013:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151028002:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151028004:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:151029002:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151029003:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151029005:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151029006:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:151030002:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151030004:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151030005:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151030006:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:151030007:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151030008:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151030009:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151030010:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151030011:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151030012:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151031002:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151031004:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151031005:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151031006:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151031007:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151031008:pal>fa",
+      "tokens": 204
+    },
+    {
+      "id": "parsig:151032002:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:151032003:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:151032004:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:151032005:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151032006:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:151032007:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:151032008:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:151032010:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151032011:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:151032012:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151032013:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151032014:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151032015:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151032016:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151033002:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:151033004:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151034004:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151034005:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151034006:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151034007:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151034008:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151034009:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151034010:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151034011:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151034012:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151034013:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151034014:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151034015:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151034016:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151034017:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151034018:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151034019:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151035002:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151035004:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151035005:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151035006:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151035007:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151035008:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151035009:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151035010:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151035011:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151035012:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151035013:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151035014:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151035015:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151035016:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151035017:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151035018:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151035019:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151035020:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151035021:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151035022:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151035023:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151035024:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151035025:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151035026:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151035027:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151035028:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151035030:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151035031:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151035032:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151035033:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151036002:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151036004:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151036005:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:151036006:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151036007:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151036008:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151036009:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:151036010:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151036011:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151036012:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151036013:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151036014:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151036015:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151036016:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151036017:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:151036018:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151036019:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151036020:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151036021:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151036022:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151036023:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151036024:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151036025:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151036026:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:151036027:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151036028:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:151036029:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151036030:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151036031:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151036032:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151036033:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151036034:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151036035:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151036036:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151037002:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:151037004:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:151037005:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151037006:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:151038002:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151038003:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151038004:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151038005:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151038006:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151038007:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151038008:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151038009:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151038010:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151038011:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151038012:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151038013:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151038014:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151038015:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151038016:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151038017:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151038018:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151038019:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151038020:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151038022:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:151038023:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151038024:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151038025:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151038026:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151038027:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151038028:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151038029:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151038030:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151038031:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:151038032:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151038033:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151038034:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151038035:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151038036:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:151038037:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151038038:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151038039:pal>fa",
+      "tokens": 63
+    },
+    {
+      "id": "parsig:151038040:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151038041:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151038042:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151038043:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151038044:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151038045:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:151038046:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151039002:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151039003:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151039004:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151039005:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151039006:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151039007:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151039008:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151039010:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151039011:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151039012:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151039013:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151039015:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151039016:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151039017:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151039018:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151039019:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151039020:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151039021:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151039022:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151039023:pal>fa",
+      "tokens": 125
+    },
+    {
+      "id": "parsig:151039024:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151039025:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:151039026:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151039027:pal>fa",
+      "tokens": 139
+    },
+    {
+      "id": "parsig:151039028:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151039029:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151039030:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:151039031:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151039032:pal>fa",
+      "tokens": 190
+    },
+    {
+      "id": "parsig:151040002:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151040003:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151040004:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151040005:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:151040006:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151040007:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151040009:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:151040010:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151040011:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151040012:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151040013:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151040014:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151040015:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151040016:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151041002:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151041004:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151041005:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151041006:pal>fa",
+      "tokens": 190
+    },
+    {
+      "id": "parsig:151041007:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151041008:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151041009:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151041010:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151041011:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151041012:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:151041013:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151041014:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151041015:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151041016:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151042002:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:151042003:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:151042005:pal>fa",
+      "tokens": 187
+    },
+    {
+      "id": "parsig:151042006:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151042007:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151042008:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151042009:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151042010:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:151042011:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151042012:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151042013:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:151042014:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151043002:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151043003:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151043004:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151043005:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151043006:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151043008:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:151043009:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:151043010:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151043011:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151043012:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151043013:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151043014:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151043015:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151043016:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151043017:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151043018:pal>fa",
+      "tokens": 66
+    },
+    {
+      "id": "parsig:151043019:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:151043020:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151043021:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151043022:pal>fa",
+      "tokens": 69
+    },
+    {
+      "id": "parsig:151043023:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151043024:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:151043025:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151043026:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151043027:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151043028:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151043029:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151043030:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151043031:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151043032:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151043033:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151043034:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151043035:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:151044002:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151044003:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:151044004:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151044005:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151044006:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151044008:pal>fa",
+      "tokens": 144
+    },
+    {
+      "id": "parsig:151044009:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:151044010:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151044011:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151044012:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151045002:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151045004:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:151045005:pal>fa",
+      "tokens": 199
+    },
+    {
+      "id": "parsig:151046002:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151046003:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151046004:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151046006:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151046007:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151046008:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151047002:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151047004:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151047005:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151047006:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151047007:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:151047008:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151047009:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151047010:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151048002:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151048003:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151048005:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:151048006:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151048007:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151048008:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:151048009:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:151048010:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:151048011:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:151048012:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151048013:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151048014:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151048015:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:151048016:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:151048017:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:151048018:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151048019:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151048020:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151048021:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151048023:pal>fa",
+      "tokens": 187
+    },
+    {
+      "id": "parsig:151048024:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151048025:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151048026:pal>fa",
+      "tokens": 167
+    },
+    {
+      "id": "parsig:151048027:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151049002:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151049004:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:151050002:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151050003:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:151050005:pal>fa",
+      "tokens": 207
+    },
+    {
+      "id": "parsig:151050006:pal>fa",
+      "tokens": 181
+    },
+    {
+      "id": "parsig:151050007:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:151051002:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:151051003:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151051005:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151051006:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:151051007:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:151051008:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151051009:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151051010:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151051011:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151051012:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151051013:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151051014:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151051015:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:151051016:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:151051017:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:151051018:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151051019:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:151052002:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151052004:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:151052005:pal>fa",
+      "tokens": 142
+    },
+    {
+      "id": "parsig:151052006:pal>fa",
+      "tokens": 67
+    },
+    {
+      "id": "parsig:151052007:pal>fa",
+      "tokens": 211
+    },
+    {
+      "id": "parsig:151052008:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:151052009:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151053002:pal>fa",
+      "tokens": 172
+    },
+    {
+      "id": "parsig:151053004:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:151054002:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:151054004:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151054005:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:151054006:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:151055002:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:151055004:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151055005:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151055006:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:151055007:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:151056002:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:151056004:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:151056005:pal>fa",
+      "tokens": 202
+    },
+    {
+      "id": "parsig:151056006:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:151056007:pal>fa",
+      "tokens": 154
+    },
+    {
+      "id": "parsig:151056008:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:151056009:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:151056010:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:151056011:pal>fa",
+      "tokens": 289
+    },
+    {
+      "id": "parsig:151056012:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:151056013:pal>fa",
+      "tokens": 353
+    },
+    {
+      "id": "parsig:151056014:pal>fa",
+      "tokens": 335
+    },
+    {
+      "id": "parsig:151056015:pal>fa",
+      "tokens": 190
+    },
+    {
+      "id": "parsig:151056016:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:151056017:pal>fa",
+      "tokens": 196
+    },
+    {
+      "id": "parsig:151056018:pal>fa",
+      "tokens": 192
+    },
+    {
+      "id": "parsig:151056019:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:151056020:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:151056021:pal>fa",
+      "tokens": 266
+    },
+    {
+      "id": "parsig:151056022:pal>fa",
+      "tokens": 144
+    },
+    {
+      "id": "parsig:151056023:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151056024:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:151056025:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151056026:pal>fa",
+      "tokens": 187
+    },
+    {
+      "id": "parsig:151056027:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151056028:pal>fa",
+      "tokens": 201
+    },
+    {
+      "id": "parsig:151056029:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:151056030:pal>fa",
+      "tokens": 219
+    },
+    {
+      "id": "parsig:151056031:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:151056032:pal>fa",
+      "tokens": 182
+    },
+    {
+      "id": "parsig:151057002:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:151057003:pal>fa",
+      "tokens": 158
+    },
+    {
+      "id": "parsig:151057005:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151057006:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:151057007:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:151058002:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151058003:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:151058004:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:151058005:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:151058007:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:151058008:pal>fa",
+      "tokens": 153
+    },
+    {
+      "id": "parsig:151058009:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:151058010:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:151059002:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151059004:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:151059005:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:151059007:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151059008:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151059009:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:151059010:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:151059011:pal>fa",
+      "tokens": 57
+    },
+    {
+      "id": "parsig:151059012:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151059013:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:151059014:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:151060002:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151060003:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151060004:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151060007:pal>fa",
+      "tokens": 207
+    },
+    {
+      "id": "parsig:151060008:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:151060009:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:151060010:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:151060011:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151061002:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151061003:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:151061004:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151061005:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:151061006:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151061007:pal>fa",
+      "tokens": 125
+    },
+    {
+      "id": "parsig:151061008:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151061009:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:151061010:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151061011:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:151061013:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151061014:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151061015:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:151061016:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:151061017:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:151061018:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:151061019:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:151061020:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151061021:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:151061022:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:151061023:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:151061024:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:151061025:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151061026:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:151061027:pal>fa",
+      "tokens": 173
+    },
+    {
+      "id": "parsig:151061028:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:151061029:pal>fa",
+      "tokens": 142
+    },
+    {
+      "id": "parsig:151061030:pal>fa",
+      "tokens": 125
+    },
+    {
+      "id": "parsig:151061031:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:151061033:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:151061034:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:151061035:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:151061036:pal>fa",
+      "tokens": 222
+    },
+    {
+      "id": "parsig:151061037:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:151061038:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:151061039:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:151061040:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:151061041:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:151061042:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:151062002:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:151062004:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:151062006:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:151062007:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:151062008:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:134001000:pal>fa",
+      "tokens": 219
+    },
+    {
+      "id": "parsig:134001001:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:134001002:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:134001003:pal>fa",
+      "tokens": 153
+    },
+    {
+      "id": "parsig:134001004:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:134001005:pal>fa",
+      "tokens": 176
+    },
+    {
+      "id": "parsig:134001006:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:134001007:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:134001008:pal>fa",
+      "tokens": 248
+    },
+    {
+      "id": "parsig:134001009:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:134001010:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:134001011:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:134002001:pal>fa",
+      "tokens": 196
+    },
+    {
+      "id": "parsig:134002002:pal>fa",
+      "tokens": 211
+    },
+    {
+      "id": "parsig:134002003:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:134002004:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:134003001:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:134003002:pal>fa",
+      "tokens": 405
+    },
+    {
+      "id": "parsig:134003003:pal>fa",
+      "tokens": 200
+    },
+    {
+      "id": "parsig:134003004:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:134003005:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:134003006:pal>fa",
+      "tokens": 198
+    },
+    {
+      "id": "parsig:134003007:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:134003008:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:134003009:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:134003010:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:134003011:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:134003012:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:134003013:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:134003014:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:134003015:pal>fa",
+      "tokens": 202
+    },
+    {
+      "id": "parsig:134003016:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:134003017:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:134003018:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:134003019:pal>fa",
+      "tokens": 173
+    },
+    {
+      "id": "parsig:134003020:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:134003021:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:134003022:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:134003023:pal>fa",
+      "tokens": 311
+    },
+    {
+      "id": "parsig:134003024:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:134003025:pal>fa",
+      "tokens": 364
+    },
+    {
+      "id": "parsig:134003026:pal>fa",
+      "tokens": 207
+    },
+    {
+      "id": "parsig:134003027:pal>fa",
+      "tokens": 180
+    },
+    {
+      "id": "parsig:134003028:pal>fa",
+      "tokens": 176
+    },
+    {
+      "id": "parsig:134003029:pal>fa",
+      "tokens": 185
+    },
+    {
+      "id": "parsig:134004001:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:134004002:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:134004003:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:134004004:pal>fa",
+      "tokens": 214
+    },
+    {
+      "id": "parsig:134004005:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:134004006:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:134004007:pal>fa",
+      "tokens": 323
+    },
+    {
+      "id": "parsig:134004008:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:134004009:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:134004010:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:134004011:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:134004012:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:134004013:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:134004014:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:134004015:pal>fa",
+      "tokens": 168
+    },
+    {
+      "id": "parsig:134004016:pal>fa",
+      "tokens": 139
+    },
+    {
+      "id": "parsig:134004017:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:134004018:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:134004019:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:134004020:pal>fa",
+      "tokens": 195
+    },
+    {
+      "id": "parsig:134004021:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:134004022:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:134004023:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:134004024:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:134004025:pal>fa",
+      "tokens": 182
+    },
+    {
+      "id": "parsig:134004026:pal>fa",
+      "tokens": 211
+    },
+    {
+      "id": "parsig:134004027:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:134004028:pal>fa",
+      "tokens": 142
+    },
+    {
+      "id": "parsig:134004029:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:134004030:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:134004031:pal>fa",
+      "tokens": 358
+    },
+    {
+      "id": "parsig:134004032:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:134004033:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:134004034:pal>fa",
+      "tokens": 139
+    },
+    {
+      "id": "parsig:134004035:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:134004036:pal>fa",
+      "tokens": 226
+    },
+    {
+      "id": "parsig:134004037:pal>fa",
+      "tokens": 240
+    },
+    {
+      "id": "parsig:134004038:pal>fa",
+      "tokens": 139
+    },
+    {
+      "id": "parsig:134004039:pal>fa",
+      "tokens": 204
+    },
+    {
+      "id": "parsig:134004040:pal>fa",
+      "tokens": 234
+    },
+    {
+      "id": "parsig:134004041:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:134004042:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:134004043:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:134004044:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:134004045:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:134004046:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:134004047:pal>fa",
+      "tokens": 192
+    },
+    {
+      "id": "parsig:134004048:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:134004049:pal>fa",
+      "tokens": 236
+    },
+    {
+      "id": "parsig:134004050:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:134004051:pal>fa",
+      "tokens": 202
+    },
+    {
+      "id": "parsig:134004052:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:134004053:pal>fa",
+      "tokens": 190
+    },
+    {
+      "id": "parsig:134004054:pal>fa",
+      "tokens": 214
+    },
+    {
+      "id": "parsig:134004055:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:134004056:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:134004057:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:134004058:pal>fa",
+      "tokens": 286
+    },
+    {
+      "id": "parsig:134004059:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:134004060:pal>fa",
+      "tokens": 157
+    },
+    {
+      "id": "parsig:134004061:pal>fa",
+      "tokens": 245
+    },
+    {
+      "id": "parsig:134004062:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:134004063:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:134004064:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:134004065:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:134004066:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:134004067:pal>fa",
+      "tokens": 350
+    },
+    {
+      "id": "parsig:134004068:pal>fa",
+      "tokens": 263
+    },
+    {
+      "id": "parsig:134005001:pal>fa",
+      "tokens": 348
+    },
+    {
+      "id": "parsig:134005002:pal>fa",
+      "tokens": 200
+    },
+    {
+      "id": "parsig:134005004:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:134005005:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:134005006:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:134005007:pal>fa",
+      "tokens": 200
+    },
+    {
+      "id": "parsig:134005008:pal>fa",
+      "tokens": 176
+    },
+    {
+      "id": "parsig:134005009:pal>fa",
+      "tokens": 217
+    },
+    {
+      "id": "parsig:134005010:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:134005011:pal>fa",
+      "tokens": 277
+    },
+    {
+      "id": "parsig:134006001:pal>fa",
+      "tokens": 238
+    },
+    {
+      "id": "parsig:134006002:pal>fa",
+      "tokens": 173
+    },
+    {
+      "id": "parsig:134006003:pal>fa",
+      "tokens": 299
+    },
+    {
+      "id": "parsig:134006004:pal>fa",
+      "tokens": 338
+    },
+    {
+      "id": "parsig:134006005:pal>fa",
+      "tokens": 381
+    },
+    {
+      "id": "parsig:134006006:pal>fa",
+      "tokens": 447
+    },
+    {
+      "id": "parsig:134006007:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:134006008:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:134006009:pal>fa",
+      "tokens": 213
+    },
+    {
+      "id": "parsig:134006010:pal>fa",
+      "tokens": 545
+    },
+    {
+      "id": "parsig:134006011:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:134006012:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:134006013:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:134007001:pal>fa",
+      "tokens": 192
+    },
+    {
+      "id": "parsig:134007002:pal>fa",
+      "tokens": 269
+    },
+    {
+      "id": "parsig:134007003:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:134007004:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:134007005:pal>fa",
+      "tokens": 168
+    },
+    {
+      "id": "parsig:134007006:pal>fa",
+      "tokens": 273
+    },
+    {
+      "id": "parsig:134007007:pal>fa",
+      "tokens": 317
+    },
+    {
+      "id": "parsig:134007008:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:134007009:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:134007010:pal>fa",
+      "tokens": 219
+    },
+    {
+      "id": "parsig:134007011:pal>fa",
+      "tokens": 210
+    },
+    {
+      "id": "parsig:134007012:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:134007013:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:134007014:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:134007015:pal>fa",
+      "tokens": 142
+    },
+    {
+      "id": "parsig:134007016:pal>fa",
+      "tokens": 172
+    },
+    {
+      "id": "parsig:134007017:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:134007018:pal>fa",
+      "tokens": 196
+    },
+    {
+      "id": "parsig:134007019:pal>fa",
+      "tokens": 375
+    },
+    {
+      "id": "parsig:134007020:pal>fa",
+      "tokens": 302
+    },
+    {
+      "id": "parsig:134007021:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:134007022:pal>fa",
+      "tokens": 280
+    },
+    {
+      "id": "parsig:134007023:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:134007024:pal>fa",
+      "tokens": 322
+    },
+    {
+      "id": "parsig:134007025:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:134007026:pal>fa",
+      "tokens": 332
+    },
+    {
+      "id": "parsig:134007027:pal>fa",
+      "tokens": 197
+    },
+    {
+      "id": "parsig:134007028:pal>fa",
+      "tokens": 203
+    },
+    {
+      "id": "parsig:134007029:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:134007030:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:134007031:pal>fa",
+      "tokens": 146
+    },
+    {
+      "id": "parsig:134007032:pal>fa",
+      "tokens": 255
+    },
+    {
+      "id": "parsig:134007033:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:134007034:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:134007035:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:134007036:pal>fa",
+      "tokens": 253
+    },
+    {
+      "id": "parsig:134007037:pal>fa",
+      "tokens": 280
+    },
+    {
+      "id": "parsig:134007038:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:134007039:pal>fa",
+      "tokens": 203
+    },
+    {
+      "id": "parsig:134008001:pal>fa",
+      "tokens": 220
+    },
+    {
+      "id": "parsig:134008002:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:134008003:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:134008004:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:134008005:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:134008006:pal>fa",
+      "tokens": 341
+    },
+    {
+      "id": "parsig:134008008:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:134009001:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:134009002:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:134009003:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:134009004:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:134009005:pal>fa",
+      "tokens": 227
+    },
+    {
+      "id": "parsig:134009006:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:134009007:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:134009008:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:134009009:pal>fa",
+      "tokens": 146
+    },
+    {
+      "id": "parsig:134009010:pal>fa",
+      "tokens": 328
+    },
+    {
+      "id": "parsig:134009011:pal>fa",
+      "tokens": 207
+    },
+    {
+      "id": "parsig:134009012:pal>fa",
+      "tokens": 214
+    },
+    {
+      "id": "parsig:134009013:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:134009014:pal>fa",
+      "tokens": 277
+    },
+    {
+      "id": "parsig:134009015:pal>fa",
+      "tokens": 231
+    },
+    {
+      "id": "parsig:134009016:pal>fa",
+      "tokens": 321
+    },
+    {
+      "id": "parsig:134009017:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:134009018:pal>fa",
+      "tokens": 173
+    },
+    {
+      "id": "parsig:134009019:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:134009020:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:134009021:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:134009022:pal>fa",
+      "tokens": 210
+    },
+    {
+      "id": "parsig:134009023:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:134009024:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:134009025:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:301001001:pal>fa",
+      "tokens": 591
+    },
+    {
+      "id": "parsig:301001002:pal>fa",
+      "tokens": 262
+    },
+    {
+      "id": "parsig:301001003:pal>fa",
+      "tokens": 656
+    },
+    {
+      "id": "parsig:301001004:pal>fa",
+      "tokens": 321
+    },
+    {
+      "id": "parsig:301001005:pal>fa",
+      "tokens": 373
+    },
+    {
+      "id": "parsig:301001006:pal>fa",
+      "tokens": 551
+    },
+    {
+      "id": "parsig:301001007:pal>fa",
+      "tokens": 460
+    },
+    {
+      "id": "parsig:301001008:pal>fa",
+      "tokens": 243
+    },
+    {
+      "id": "parsig:301001009:pal>fa",
+      "tokens": 484
+    },
+    {
+      "id": "parsig:301001010:pal>fa",
+      "tokens": 235
+    },
+    {
+      "id": "parsig:301001011:pal>fa",
+      "tokens": 396
+    },
+    {
+      "id": "parsig:301001012:pal>fa",
+      "tokens": 283
+    },
+    {
+      "id": "parsig:301001013:pal>fa",
+      "tokens": 309
+    },
+    {
+      "id": "parsig:301001014:pal>fa",
+      "tokens": 414
+    },
+    {
+      "id": "parsig:301001015:pal>fa",
+      "tokens": 157
+    },
+    {
+      "id": "parsig:301001016:pal>fa",
+      "tokens": 336
+    },
+    {
+      "id": "parsig:301001017:pal>fa",
+      "tokens": 176
+    },
+    {
+      "id": "parsig:301001018:pal>fa",
+      "tokens": 202
+    },
+    {
+      "id": "parsig:301001019:pal>fa",
+      "tokens": 282
+    },
+    {
+      "id": "parsig:301001020:pal>fa",
+      "tokens": 250
+    },
+    {
+      "id": "parsig:301001021:pal>fa",
+      "tokens": 339
+    },
+    {
+      "id": "parsig:301001022:pal>fa",
+      "tokens": 255
+    },
+    {
+      "id": "parsig:301001023:pal>fa",
+      "tokens": 423
+    },
+    {
+      "id": "parsig:301002001:pal>fa",
+      "tokens": 468
+    },
+    {
+      "id": "parsig:301002002:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:301002003:pal>fa",
+      "tokens": 816
+    },
+    {
+      "id": "parsig:301002004:pal>fa",
+      "tokens": 367
+    },
+    {
+      "id": "parsig:301002005:pal>fa",
+      "tokens": 442
+    },
+    {
+      "id": "parsig:301002006:pal>fa",
+      "tokens": 676
+    },
+    {
+      "id": "parsig:301002007:pal>fa",
+      "tokens": 449
+    },
+    {
+      "id": "parsig:301002008:pal>fa",
+      "tokens": 250
+    },
+    {
+      "id": "parsig:301002009:pal>fa",
+      "tokens": 632
+    },
+    {
+      "id": "parsig:301002010:pal>fa",
+      "tokens": 264
+    },
+    {
+      "id": "parsig:301002011:pal>fa",
+      "tokens": 376
+    },
+    {
+      "id": "parsig:301002012:pal>fa",
+      "tokens": 374
+    },
+    {
+      "id": "parsig:301002013:pal>fa",
+      "tokens": 271
+    },
+    {
+      "id": "parsig:301002014:pal>fa",
+      "tokens": 512
+    },
+    {
+      "id": "parsig:301002015:pal>fa",
+      "tokens": 209
+    },
+    {
+      "id": "parsig:301002016:pal>fa",
+      "tokens": 253
+    },
+    {
+      "id": "parsig:301002017:pal>fa",
+      "tokens": 256
+    },
+    {
+      "id": "parsig:301002018:pal>fa",
+      "tokens": 224
+    },
+    {
+      "id": "parsig:301003001:pal>fa",
+      "tokens": 347
+    },
+    {
+      "id": "parsig:301003002:pal>fa",
+      "tokens": 231
+    },
+    {
+      "id": "parsig:301003003:pal>fa",
+      "tokens": 310
+    },
+    {
+      "id": "parsig:301003004:pal>fa",
+      "tokens": 507
+    },
+    {
+      "id": "parsig:301003005:pal>fa",
+      "tokens": 648
+    },
+    {
+      "id": "parsig:301003006:pal>fa",
+      "tokens": 311
+    },
+    {
+      "id": "parsig:301003007:pal>fa",
+      "tokens": 355
+    },
+    {
+      "id": "parsig:301003008:pal>fa",
+      "tokens": 532
+    },
+    {
+      "id": "parsig:301003009:pal>fa",
+      "tokens": 432
+    },
+    {
+      "id": "parsig:301003010:pal>fa",
+      "tokens": 236
+    },
+    {
+      "id": "parsig:301003011:pal>fa",
+      "tokens": 470
+    },
+    {
+      "id": "parsig:301003012:pal>fa",
+      "tokens": 226
+    },
+    {
+      "id": "parsig:301003013:pal>fa",
+      "tokens": 392
+    },
+    {
+      "id": "parsig:301003014:pal>fa",
+      "tokens": 274
+    },
+    {
+      "id": "parsig:301003015:pal>fa",
+      "tokens": 298
+    },
+    {
+      "id": "parsig:301003016:pal>fa",
+      "tokens": 407
+    },
+    {
+      "id": "parsig:301003017:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:301003018:pal>fa",
+      "tokens": 340
+    },
+    {
+      "id": "parsig:301003019:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:301003020:pal>fa",
+      "tokens": 221
+    },
+    {
+      "id": "parsig:301003021:pal>fa",
+      "tokens": 224
+    },
+    {
+      "id": "parsig:301003022:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:301003023:pal>fa",
+      "tokens": 277
+    },
+    {
+      "id": "parsig:301003024:pal>fa",
+      "tokens": 421
+    },
+    {
+      "id": "parsig:301004001:pal>fa",
+      "tokens": 403
+    },
+    {
+      "id": "parsig:301004002:pal>fa",
+      "tokens": 265
+    },
+    {
+      "id": "parsig:301004003:pal>fa",
+      "tokens": 426
+    },
+    {
+      "id": "parsig:301004004:pal>fa",
+      "tokens": 264
+    },
+    {
+      "id": "parsig:301004005:pal>fa",
+      "tokens": 223
+    },
+    {
+      "id": "parsig:301004006:pal>fa",
+      "tokens": 125
+    },
+    {
+      "id": "parsig:301004007:pal>fa",
+      "tokens": 235
+    },
+    {
+      "id": "parsig:301004008:pal>fa",
+      "tokens": 773
+    },
+    {
+      "id": "parsig:301004009:pal>fa",
+      "tokens": 457
+    },
+    {
+      "id": "parsig:301004010:pal>fa",
+      "tokens": 512
+    },
+    {
+      "id": "parsig:301004011:pal>fa",
+      "tokens": 684
+    },
+    {
+      "id": "parsig:301004012:pal>fa",
+      "tokens": 600
+    },
+    {
+      "id": "parsig:301004013:pal>fa",
+      "tokens": 339
+    },
+    {
+      "id": "parsig:301004014:pal>fa",
+      "tokens": 801
+    },
+    {
+      "id": "parsig:301004015:pal>fa",
+      "tokens": 294
+    },
+    {
+      "id": "parsig:301004016:pal>fa",
+      "tokens": 535
+    },
+    {
+      "id": "parsig:301004017:pal>fa",
+      "tokens": 373
+    },
+    {
+      "id": "parsig:301004018:pal>fa",
+      "tokens": 356
+    },
+    {
+      "id": "parsig:301004019:pal>fa",
+      "tokens": 507
+    },
+    {
+      "id": "parsig:301004020:pal>fa",
+      "tokens": 206
+    },
+    {
+      "id": "parsig:301004021:pal>fa",
+      "tokens": 383
+    },
+    {
+      "id": "parsig:301004022:pal>fa",
+      "tokens": 215
+    },
+    {
+      "id": "parsig:301004023:pal>fa",
+      "tokens": 403
+    },
+    {
+      "id": "parsig:301004024:pal>fa",
+      "tokens": 201
+    },
+    {
+      "id": "parsig:301004025:pal>fa",
+      "tokens": 366
+    },
+    {
+      "id": "parsig:301005001:pal>fa",
+      "tokens": 240
+    },
+    {
+      "id": "parsig:301005002:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:301005003:pal>fa",
+      "tokens": 213
+    },
+    {
+      "id": "parsig:301005004:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:301005005:pal>fa",
+      "tokens": 207
+    },
+    {
+      "id": "parsig:301005006:pal>fa",
+      "tokens": 269
+    },
+    {
+      "id": "parsig:301006001:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:301006002:pal>fa",
+      "tokens": 615
+    },
+    {
+      "id": "parsig:301006003:pal>fa",
+      "tokens": 268
+    },
+    {
+      "id": "parsig:301006004:pal>fa",
+      "tokens": 344
+    },
+    {
+      "id": "parsig:301006005:pal>fa",
+      "tokens": 499
+    },
+    {
+      "id": "parsig:301006006:pal>fa",
+      "tokens": 354
+    },
+    {
+      "id": "parsig:301006007:pal>fa",
+      "tokens": 188
+    },
+    {
+      "id": "parsig:301006008:pal>fa",
+      "tokens": 383
+    },
+    {
+      "id": "parsig:301006009:pal>fa",
+      "tokens": 223
+    },
+    {
+      "id": "parsig:301006010:pal>fa",
+      "tokens": 252
+    },
+    {
+      "id": "parsig:301006011:pal>fa",
+      "tokens": 264
+    },
+    {
+      "id": "parsig:301006012:pal>fa",
+      "tokens": 182
+    },
+    {
+      "id": "parsig:301006013:pal>fa",
+      "tokens": 374
+    },
+    {
+      "id": "parsig:301006014:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:301006015:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:301006016:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:301006017:pal>fa",
+      "tokens": 172
+    },
+    {
+      "id": "parsig:301006018:pal>fa",
+      "tokens": 191
+    },
+    {
+      "id": "parsig:301006019:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:301006020:pal>fa",
+      "tokens": 185
+    },
+    {
+      "id": "parsig:301007001:pal>fa",
+      "tokens": 220
+    },
+    {
+      "id": "parsig:301007002:pal>fa",
+      "tokens": 192
+    },
+    {
+      "id": "parsig:301007003:pal>fa",
+      "tokens": 304
+    },
+    {
+      "id": "parsig:301007004:pal>fa",
+      "tokens": 424
+    },
+    {
+      "id": "parsig:301007005:pal>fa",
+      "tokens": 635
+    },
+    {
+      "id": "parsig:301007006:pal>fa",
+      "tokens": 309
+    },
+    {
+      "id": "parsig:301007007:pal>fa",
+      "tokens": 358
+    },
+    {
+      "id": "parsig:301007008:pal>fa",
+      "tokens": 540
+    },
+    {
+      "id": "parsig:301007009:pal>fa",
+      "tokens": 441
+    },
+    {
+      "id": "parsig:301007010:pal>fa",
+      "tokens": 247
+    },
+    {
+      "id": "parsig:301007011:pal>fa",
+      "tokens": 451
+    },
+    {
+      "id": "parsig:301007012:pal>fa",
+      "tokens": 230
+    },
+    {
+      "id": "parsig:301007013:pal>fa",
+      "tokens": 386
+    },
+    {
+      "id": "parsig:301007014:pal>fa",
+      "tokens": 273
+    },
+    {
+      "id": "parsig:301007015:pal>fa",
+      "tokens": 299
+    },
+    {
+      "id": "parsig:301007016:pal>fa",
+      "tokens": 403
+    },
+    {
+      "id": "parsig:301007017:pal>fa",
+      "tokens": 153
+    },
+    {
+      "id": "parsig:301007018:pal>fa",
+      "tokens": 345
+    },
+    {
+      "id": "parsig:301007019:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:301007020:pal>fa",
+      "tokens": 203
+    },
+    {
+      "id": "parsig:301007021:pal>fa",
+      "tokens": 222
+    },
+    {
+      "id": "parsig:301007022:pal>fa",
+      "tokens": 144
+    },
+    {
+      "id": "parsig:301007023:pal>fa",
+      "tokens": 214
+    },
+    {
+      "id": "parsig:301007024:pal>fa",
+      "tokens": 437
+    },
+    {
+      "id": "parsig:301007025:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:301007026:pal>fa",
+      "tokens": 290
+    },
+    {
+      "id": "parsig:302001000:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:302001001:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:302002001:pal>fa",
+      "tokens": 730
+    },
+    {
+      "id": "parsig:302003000:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:302003001:pal>fa",
+      "tokens": 402
+    },
+    {
+      "id": "parsig:302003002:pal>fa",
+      "tokens": 360
+    },
+    {
+      "id": "parsig:302003003:pal>fa",
+      "tokens": 276
+    },
+    {
+      "id": "parsig:302004000:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:302004001:pal>fa",
+      "tokens": 190
+    },
+    {
+      "id": "parsig:136001001:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:136001002:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:136001003:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:136001004:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:136001005:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:136001006:pal>fa",
+      "tokens": 221
+    },
+    {
+      "id": "parsig:136001007:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:136001008:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:136001009:pal>fa",
+      "tokens": 194
+    },
+    {
+      "id": "parsig:136001010:pal>fa",
+      "tokens": 182
+    },
+    {
+      "id": "parsig:136001011:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:136001012:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:136001013:pal>fa",
+      "tokens": 411
+    },
+    {
+      "id": "parsig:136001014:pal>fa",
+      "tokens": 187
+    },
+    {
+      "id": "parsig:136001015:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:136001016:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:136001017:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:136001018:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:136001019:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:136001020:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:136002001:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:136002002:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:136002003:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:136002004:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:136002005:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:136002006:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:136002007:pal>fa",
+      "tokens": 195
+    },
+    {
+      "id": "parsig:136002008:pal>fa",
+      "tokens": 148
+    },
+    {
+      "id": "parsig:136002009:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:136002010:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:136002011:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:136002012:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:136002013:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:136002014:pal>fa",
+      "tokens": 210
+    },
+    {
+      "id": "parsig:136002015:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:136002016:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:136002017:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:136002018:pal>fa",
+      "tokens": 275
+    },
+    {
+      "id": "parsig:136002019:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:136002020:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:136002021:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:136002022:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:136002023:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:136002024:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:136002025:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:136002026:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:136002027:pal>fa",
+      "tokens": 140
+    },
+    {
+      "id": "parsig:136002028:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:136002029:pal>fa",
+      "tokens": 140
+    },
+    {
+      "id": "parsig:136002030:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:136003001:pal>fa",
+      "tokens": 180
+    },
+    {
+      "id": "parsig:136003002:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:136003003:pal>fa",
+      "tokens": 255
+    },
+    {
+      "id": "parsig:136003004:pal>fa",
+      "tokens": 286
+    },
+    {
+      "id": "parsig:136003005:pal>fa",
+      "tokens": 225
+    },
+    {
+      "id": "parsig:136003006:pal>fa",
+      "tokens": 203
+    },
+    {
+      "id": "parsig:136003007:pal>fa",
+      "tokens": 236
+    },
+    {
+      "id": "parsig:136003008:pal>fa",
+      "tokens": 140
+    },
+    {
+      "id": "parsig:136003009:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:136003010:pal>fa",
+      "tokens": 254
+    },
+    {
+      "id": "parsig:136003011:pal>fa",
+      "tokens": 188
+    },
+    {
+      "id": "parsig:136003012:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:136003013:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:136003014:pal>fa",
+      "tokens": 246
+    },
+    {
+      "id": "parsig:136003015:pal>fa",
+      "tokens": 181
+    },
+    {
+      "id": "parsig:136003016:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:136003017:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:136003018:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:136003019:pal>fa",
+      "tokens": 331
+    },
+    {
+      "id": "parsig:136003020:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:136004001:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:136004002:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:136004003:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:136004004:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:136004005:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:136004006:pal>fa",
+      "tokens": 198
+    },
+    {
+      "id": "parsig:136004007:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:136004008:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:136004009:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:136004010:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:136004011:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:136004012:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:136004013:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:136004014:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:136004015:pal>fa",
+      "tokens": 153
+    },
+    {
+      "id": "parsig:136004016:pal>fa",
+      "tokens": 158
+    },
+    {
+      "id": "parsig:136004017:pal>fa",
+      "tokens": 183
+    },
+    {
+      "id": "parsig:136004018:pal>fa",
+      "tokens": 80
+    },
+    {
+      "id": "parsig:136004019:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:136004020:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:136004021:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:136004022:pal>fa",
+      "tokens": 142
+    },
+    {
+      "id": "parsig:136004023:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:136004024:pal>fa",
+      "tokens": 233
+    },
+    {
+      "id": "parsig:136005001:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:136005002:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:136005003:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:136005004:pal>fa",
+      "tokens": 222
+    },
+    {
+      "id": "parsig:136005005:pal>fa",
+      "tokens": 232
+    },
+    {
+      "id": "parsig:136005006:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:136005007:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:136005008:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:136005009:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:136005010:pal>fa",
+      "tokens": 471
+    },
+    {
+      "id": "parsig:136005011:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:136005012:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:136005013:pal>fa",
+      "tokens": 393
+    },
+    {
+      "id": "parsig:136006001:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:136006002:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:136006003:pal>fa",
+      "tokens": 227
+    },
+    {
+      "id": "parsig:136006004:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:136006005:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:136006006:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:136006007:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:136006008:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:136006009:pal>fa",
+      "tokens": 227
+    },
+    {
+      "id": "parsig:136007001:pal>fa",
+      "tokens": 224
+    },
+    {
+      "id": "parsig:136007002:pal>fa",
+      "tokens": 206
+    },
+    {
+      "id": "parsig:136007003:pal>fa",
+      "tokens": 343
+    },
+    {
+      "id": "parsig:136007004:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:136007005:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:136007006:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:136007007:pal>fa",
+      "tokens": 167
+    },
+    {
+      "id": "parsig:136007008:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:136007009:pal>fa",
+      "tokens": 238
+    },
+    {
+      "id": "parsig:136007010:pal>fa",
+      "tokens": 247
+    },
+    {
+      "id": "parsig:136007011:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:136007012:pal>fa",
+      "tokens": 178
+    },
+    {
+      "id": "parsig:136007013:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:136007014:pal>fa",
+      "tokens": 233
+    },
+    {
+      "id": "parsig:136008001:pal>fa",
+      "tokens": 390
+    },
+    {
+      "id": "parsig:136008002:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:136008003:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:136008004:pal>fa",
+      "tokens": 196
+    },
+    {
+      "id": "parsig:136008005:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:136008006:pal>fa",
+      "tokens": 190
+    },
+    {
+      "id": "parsig:136008007:pal>fa",
+      "tokens": 458
+    },
+    {
+      "id": "parsig:136008008:pal>fa",
+      "tokens": 343
+    },
+    {
+      "id": "parsig:136008009:pal>fa",
+      "tokens": 180
+    },
+    {
+      "id": "parsig:136008010:pal>fa",
+      "tokens": 412
+    },
+    {
+      "id": "parsig:136008011:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:136008012:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:136008013:pal>fa",
+      "tokens": 269
+    },
+    {
+      "id": "parsig:136008014:pal>fa",
+      "tokens": 633
+    },
+    {
+      "id": "parsig:136008015:pal>fa",
+      "tokens": 150
+    },
+    {
+      "id": "parsig:136008016:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:137000000:pal>fa",
+      "tokens": 217
+    },
+    {
+      "id": "parsig:137000001:pal>fa",
+      "tokens": 306
+    },
+    {
+      "id": "parsig:137000002:pal>fa",
+      "tokens": 279
+    },
+    {
+      "id": "parsig:137000003:pal>fa",
+      "tokens": 366
+    },
+    {
+      "id": "parsig:137001000:pal>fa",
+      "tokens": 256
+    },
+    {
+      "id": "parsig:137001001:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:137001002:pal>fa",
+      "tokens": 199
+    },
+    {
+      "id": "parsig:137001003:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:137001005:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:137001007:pal>fa",
+      "tokens": 154
+    },
+    {
+      "id": "parsig:137001008:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:137001009:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:137001010:pal>fa",
+      "tokens": 157
+    },
+    {
+      "id": "parsig:137001011:pal>fa",
+      "tokens": 140
+    },
+    {
+      "id": "parsig:137001012:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:137001013:pal>fa",
+      "tokens": 257
+    },
+    {
+      "id": "parsig:137001014:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:137001015:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:137001016:pal>fa",
+      "tokens": 154
+    },
+    {
+      "id": "parsig:137001017:pal>fa",
+      "tokens": 182
+    },
+    {
+      "id": "parsig:137001018:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:137001019:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:137001020:pal>fa",
+      "tokens": 244
+    },
+    {
+      "id": "parsig:137001021:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:137001022:pal>fa",
+      "tokens": 230
+    },
+    {
+      "id": "parsig:137001023:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:137001024:pal>fa",
+      "tokens": 184
+    },
+    {
+      "id": "parsig:137001025:pal>fa",
+      "tokens": 341
+    },
+    {
+      "id": "parsig:137001026:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:137001027:pal>fa",
+      "tokens": 195
+    },
+    {
+      "id": "parsig:137001028:pal>fa",
+      "tokens": 260
+    },
+    {
+      "id": "parsig:137001030:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:137001031:pal>fa",
+      "tokens": 257
+    },
+    {
+      "id": "parsig:137001032:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:137001033:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:137001034:pal>fa",
+      "tokens": 201
+    },
+    {
+      "id": "parsig:137001035:pal>fa",
+      "tokens": 199
+    },
+    {
+      "id": "parsig:137001036:pal>fa",
+      "tokens": 249
+    },
+    {
+      "id": "parsig:137001037:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:137001038:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:137001039:pal>fa",
+      "tokens": 467
+    },
+    {
+      "id": "parsig:137001040:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:137001041:pal>fa",
+      "tokens": 263
+    },
+    {
+      "id": "parsig:137001042:pal>fa",
+      "tokens": 377
+    },
+    {
+      "id": "parsig:137001043:pal>fa",
+      "tokens": 436
+    },
+    {
+      "id": "parsig:137001044:pal>fa",
+      "tokens": 250
+    },
+    {
+      "id": "parsig:137001045:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:137001046:pal>fa",
+      "tokens": 173
+    },
+    {
+      "id": "parsig:137001047:pal>fa",
+      "tokens": 184
+    },
+    {
+      "id": "parsig:137001048:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:137001049:pal>fa",
+      "tokens": 447
+    },
+    {
+      "id": "parsig:137001050:pal>fa",
+      "tokens": 552
+    },
+    {
+      "id": "parsig:137001051:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:137001052:pal>fa",
+      "tokens": 214
+    },
+    {
+      "id": "parsig:137001053:pal>fa",
+      "tokens": 1109
+    },
+    {
+      "id": "parsig:137001054:pal>fa",
+      "tokens": 292
+    },
+    {
+      "id": "parsig:137001055:pal>fa",
+      "tokens": 216
+    },
+    {
+      "id": "parsig:137001056:pal>fa",
+      "tokens": 187
+    },
+    {
+      "id": "parsig:137001057:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:137001058:pal>fa",
+      "tokens": 458
+    },
+    {
+      "id": "parsig:137001059:pal>fa",
+      "tokens": 186
+    },
+    {
+      "id": "parsig:137002000:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:137002001:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:137002002:pal>fa",
+      "tokens": 206
+    },
+    {
+      "id": "parsig:137002003:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:137002004:pal>fa",
+      "tokens": 557
+    },
+    {
+      "id": "parsig:137002005:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:137002006:pal>fa",
+      "tokens": 783
+    },
+    {
+      "id": "parsig:137002007:pal>fa",
+      "tokens": 230
+    },
+    {
+      "id": "parsig:137002008:pal>fa",
+      "tokens": 175
+    },
+    {
+      "id": "parsig:137002009:pal>fa",
+      "tokens": 214
+    },
+    {
+      "id": "parsig:137002010:pal>fa",
+      "tokens": 370
+    },
+    {
+      "id": "parsig:137002011:pal>fa",
+      "tokens": 297
+    },
+    {
+      "id": "parsig:137002012:pal>fa",
+      "tokens": 294
+    },
+    {
+      "id": "parsig:137002013:pal>fa",
+      "tokens": 738
+    },
+    {
+      "id": "parsig:137002014:pal>fa",
+      "tokens": 229
+    },
+    {
+      "id": "parsig:137002015:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:137002016:pal>fa",
+      "tokens": 267
+    },
+    {
+      "id": "parsig:137002017:pal>fa",
+      "tokens": 253
+    },
+    {
+      "id": "parsig:137002018:pal>fa",
+      "tokens": 248
+    },
+    {
+      "id": "parsig:137002019:pal>fa",
+      "tokens": 245
+    },
+    {
+      "id": "parsig:137002021:pal>fa",
+      "tokens": 349
+    },
+    {
+      "id": "parsig:137002022:pal>fa",
+      "tokens": 217
+    },
+    {
+      "id": "parsig:137002023:pal>fa",
+      "tokens": 295
+    },
+    {
+      "id": "parsig:137002024:pal>fa",
+      "tokens": 208
+    },
+    {
+      "id": "parsig:137002025:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:123000000:pal>fa",
+      "tokens": 172
+    },
+    {
+      "id": "parsig:123000001:pal>fa",
+      "tokens": 180
+    },
+    {
+      "id": "parsig:123000002:pal>fa",
+      "tokens": 146
+    },
+    {
+      "id": "parsig:123000003:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:123000004:pal>fa",
+      "tokens": 198
+    },
+    {
+      "id": "parsig:123000005:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:123000006:pal>fa",
+      "tokens": 306
+    },
+    {
+      "id": "parsig:123000007:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:123000008:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:123000009:pal>fa",
+      "tokens": 308
+    },
+    {
+      "id": "parsig:123000010:pal>fa",
+      "tokens": 86
+    },
+    {
+      "id": "parsig:123000011:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:123000012:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:123000013:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:123000014:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:123000015:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:123000016:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:123000017:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:123000018:pal>fa",
+      "tokens": 226
+    },
+    {
+      "id": "parsig:123000019:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:123000020:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:123000021:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:123000022:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:123000023:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:123000024:pal>fa",
+      "tokens": 233
+    },
+    {
+      "id": "parsig:123000025:pal>fa",
+      "tokens": 143
+    },
+    {
+      "id": "parsig:123000026:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:123000027:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:123000028:pal>fa",
+      "tokens": 203
+    },
+    {
+      "id": "parsig:123000029:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:123000030:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:123000031:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:123000032:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:123000033:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:123000034:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:123000035:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:123000036:pal>fa",
+      "tokens": 188
+    },
+    {
+      "id": "parsig:123000037:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:123000038:pal>fa",
+      "tokens": 369
+    },
+    {
+      "id": "parsig:123000039:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:123000040:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:123000041:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:123000042:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:123000043:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:123000044:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:123000045:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:123000046:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:123000047:pal>fa",
+      "tokens": 167
+    },
+    {
+      "id": "parsig:123000048:pal>fa",
+      "tokens": 139
+    },
+    {
+      "id": "parsig:123000049:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:123000050:pal>fa",
+      "tokens": 244
+    },
+    {
+      "id": "parsig:123000051:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:123000052:pal>fa",
+      "tokens": 176
+    },
+    {
+      "id": "parsig:123000053:pal>fa",
+      "tokens": 193
+    },
+    {
+      "id": "parsig:123000054:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:123000055:pal>fa",
+      "tokens": 82
+    },
+    {
+      "id": "parsig:123000056:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:123000057:pal>fa",
+      "tokens": 170
+    },
+    {
+      "id": "parsig:123000058:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:123000059:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:123000060:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:123000061:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:150000001:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:150000002:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:150000003:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:150000004:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:150000005:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:150000006:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:150000007:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:150000008:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:150000009:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:150000010:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:150000011:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:150000012:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:150000013:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:150000014:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:150000015:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:150000016:pal>fa",
+      "tokens": 163
+    },
+    {
+      "id": "parsig:150000017:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:150000018:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:150000019:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:150000020:pal>fa",
+      "tokens": 279
+    },
+    {
+      "id": "parsig:150000021:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:150000022:pal>fa",
+      "tokens": 190
+    },
+    {
+      "id": "parsig:150000023:pal>fa",
+      "tokens": 116
+    },
+    {
+      "id": "parsig:150000024:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:150000025:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:150000026:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:150000027:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:150000028:pal>fa",
+      "tokens": 211
+    },
+    {
+      "id": "parsig:150000029:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:150000030:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:150000031:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:150000032:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:150000033:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:150000034:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:150000035:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:150000036:pal>fa",
+      "tokens": 195
+    },
+    {
+      "id": "parsig:150000037:pal>fa",
+      "tokens": 270
+    },
+    {
+      "id": "parsig:150000038:pal>fa",
+      "tokens": 194
+    },
+    {
+      "id": "parsig:150000039:pal>fa",
+      "tokens": 326
+    },
+    {
+      "id": "parsig:150000040:pal>fa",
+      "tokens": 274
+    },
+    {
+      "id": "parsig:150000041:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:150000042:pal>fa",
+      "tokens": 700
+    },
+    {
+      "id": "parsig:150000043:pal>fa",
+      "tokens": 183
+    },
+    {
+      "id": "parsig:150000044:pal>fa",
+      "tokens": 181
+    },
+    {
+      "id": "parsig:150000045:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:150000046:pal>fa",
+      "tokens": 319
+    },
+    {
+      "id": "parsig:150000047:pal>fa",
+      "tokens": 146
+    },
+    {
+      "id": "parsig:150000048:pal>fa",
+      "tokens": 236
+    },
+    {
+      "id": "parsig:150000049:pal>fa",
+      "tokens": 268
+    },
+    {
+      "id": "parsig:150000050:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:150000051:pal>fa",
+      "tokens": 292
+    },
+    {
+      "id": "parsig:150000052:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:150000053:pal>fa",
+      "tokens": 500
+    },
+    {
+      "id": "parsig:150000054:pal>fa",
+      "tokens": 423
+    },
+    {
+      "id": "parsig:150000056:pal>fa",
+      "tokens": 205
+    },
+    {
+      "id": "parsig:107000001:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:107000002:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:107000003:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:107000004:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:107000005:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:107000006:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:107000007:pal>fa",
+      "tokens": 60
+    },
+    {
+      "id": "parsig:113000000:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:113000001:pal>fa",
+      "tokens": 172
+    },
+    {
+      "id": "parsig:113000002:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:113000003:pal>fa",
+      "tokens": 134
+    },
+    {
+      "id": "parsig:113000004:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:113000005:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:113000006:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:113000007:pal>fa",
+      "tokens": 61
+    },
+    {
+      "id": "parsig:115000000:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:115000001:pal>fa",
+      "tokens": 502
+    },
+    {
+      "id": "parsig:115000002:pal>fa",
+      "tokens": 208
+    },
+    {
+      "id": "parsig:115000003:pal>fa",
+      "tokens": 204
+    },
+    {
+      "id": "parsig:115000004:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:115000005:pal>fa",
+      "tokens": 233
+    },
+    {
+      "id": "parsig:115000006:pal>fa",
+      "tokens": 312
+    },
+    {
+      "id": "parsig:115000007:pal>fa",
+      "tokens": 699
+    },
+    {
+      "id": "parsig:115000008:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:115000009:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:115000010:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:115000011:pal>fa",
+      "tokens": 322
+    },
+    {
+      "id": "parsig:119000000:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:119000001:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:119000002:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:119000003:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:119000004:pal>fa",
+      "tokens": 93
+    },
+    {
+      "id": "parsig:119000005:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:119000006:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:119000007:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:119000008:pal>fa",
+      "tokens": 305
+    },
+    {
+      "id": "parsig:126000000:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:126000001:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:126000002:pal>fa",
+      "tokens": 91
+    },
+    {
+      "id": "parsig:126000003:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:126000004:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:126000005:pal>fa",
+      "tokens": 103
+    },
+    {
+      "id": "parsig:126000006:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:126000007:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:126000008:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:126000009:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:126000010:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:126000011:pal>fa",
+      "tokens": 252
+    },
+    {
+      "id": "parsig:127000000:pal>fa",
+      "tokens": 62
+    },
+    {
+      "id": "parsig:127000001:pal>fa",
+      "tokens": 295
+    },
+    {
+      "id": "parsig:101000000:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:101000001:pal>fa",
+      "tokens": 678
+    },
+    {
+      "id": "parsig:101000002:pal>fa",
+      "tokens": 344
+    },
+    {
+      "id": "parsig:101000003:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:109000000:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:109000001:pal>fa",
+      "tokens": 756
+    },
+    {
+      "id": "parsig:109000002:pal>fa",
+      "tokens": 177
+    },
+    {
+      "id": "parsig:109000003:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:109000004:pal>fa",
+      "tokens": 144
+    },
+    {
+      "id": "parsig:109000005:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:109000006:pal>fa",
+      "tokens": 213
+    },
+    {
+      "id": "parsig:109000007:pal>fa",
+      "tokens": 331
+    },
+    {
+      "id": "parsig:109000008:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:109000009:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:109000010:pal>fa",
+      "tokens": 184
+    },
+    {
+      "id": "parsig:109000011:pal>fa",
+      "tokens": 191
+    },
+    {
+      "id": "parsig:109000012:pal>fa",
+      "tokens": 257
+    },
+    {
+      "id": "parsig:109000013:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:109000014:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:518000001:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:518000002:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:518000003:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:518000004:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:518000005:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:518000006:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:518000007:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:518000008:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:518000009:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:518000010:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:518000011:pal>fa",
+      "tokens": 94
+    },
+    {
+      "id": "parsig:518000012:pal>fa",
+      "tokens": 100
+    },
+    {
+      "id": "parsig:518000013:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:518000014:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:518000015:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:518000016:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:518000017:pal>fa",
+      "tokens": 90
+    },
+    {
+      "id": "parsig:518000018:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:122000000:pal>fa",
+      "tokens": 89
+    },
+    {
+      "id": "parsig:122000001:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:122000002:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:122000003:pal>fa",
+      "tokens": 153
+    },
+    {
+      "id": "parsig:122000004:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:122000005:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:122000006:pal>fa",
+      "tokens": 101
+    },
+    {
+      "id": "parsig:122000007:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:122000008:pal>fa",
+      "tokens": 268
+    },
+    {
+      "id": "parsig:122000009:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:122000010:pal>fa",
+      "tokens": 180
+    },
+    {
+      "id": "parsig:122000011:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:122000012:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:122000013:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:122000014:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:122000015:pal>fa",
+      "tokens": 240
+    },
+    {
+      "id": "parsig:122000016:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:554000001:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:554000002:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:554000003:pal>fa",
+      "tokens": 158
+    },
+    {
+      "id": "parsig:554000004:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:554000005:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:554000006:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:554000007:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:554000008:pal>fa",
+      "tokens": 147
+    },
+    {
+      "id": "parsig:554000009:pal>fa",
+      "tokens": 287
+    },
+    {
+      "id": "parsig:554000010:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:554000011:pal>fa",
+      "tokens": 188
+    },
+    {
+      "id": "parsig:554000012:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:554000013:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:554000014:pal>fa",
+      "tokens": 169
+    },
+    {
+      "id": "parsig:554000015:pal>fa",
+      "tokens": 187
+    },
+    {
+      "id": "parsig:554000016:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:554000017:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:135000000:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:135000001:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:135000002:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:135000003:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:135000004:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:135000005:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:135000006:pal>fa",
+      "tokens": 85
+    },
+    {
+      "id": "parsig:135000007:pal>fa",
+      "tokens": 79
+    },
+    {
+      "id": "parsig:135000008:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:135000009:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:135000010:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:135000011:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:530000001:pal>fa",
+      "tokens": 169
+    },
+    {
+      "id": "parsig:530000002:pal>fa",
+      "tokens": 99
+    },
+    {
+      "id": "parsig:530000003:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:530000004:pal>fa",
+      "tokens": 130
+    },
+    {
+      "id": "parsig:530000005:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:530000006:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:530000007:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:530000008:pal>fa",
+      "tokens": 106
+    },
+    {
+      "id": "parsig:530000009:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:530000010:pal>fa",
+      "tokens": 96
+    },
+    {
+      "id": "parsig:530000011:pal>fa",
+      "tokens": 120
+    },
+    {
+      "id": "parsig:530000012:pal>fa",
+      "tokens": 127
+    },
+    {
+      "id": "parsig:108000001:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:108000002:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:108000003:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:108000004:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:108000005:pal>fa",
+      "tokens": 73
+    },
+    {
+      "id": "parsig:108000006:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:108000007:pal>fa",
+      "tokens": 71
+    },
+    {
+      "id": "parsig:108000008:pal>fa",
+      "tokens": 72
+    },
+    {
+      "id": "parsig:108000009:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:108000010:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:108000011:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:108000012:pal>fa",
+      "tokens": 117
+    },
+    {
+      "id": "parsig:529000001:pal>fa",
+      "tokens": 126
+    },
+    {
+      "id": "parsig:529000002:pal>fa",
+      "tokens": 449
+    },
+    {
+      "id": "parsig:529000003:pal>fa",
+      "tokens": 178
+    },
+    {
+      "id": "parsig:529000004:pal>fa",
+      "tokens": 185
+    },
+    {
+      "id": "parsig:529000005:pal>fa",
+      "tokens": 153
+    },
+    {
+      "id": "parsig:529000006:pal>fa",
+      "tokens": 189
+    },
+    {
+      "id": "parsig:529000007:pal>fa",
+      "tokens": 197
+    },
+    {
+      "id": "parsig:529000008:pal>fa",
+      "tokens": 175
+    },
+    {
+      "id": "parsig:529000009:pal>fa",
+      "tokens": 157
+    },
+    {
+      "id": "parsig:529000010:pal>fa",
+      "tokens": 310
+    },
+    {
+      "id": "parsig:529000011:pal>fa",
+      "tokens": 171
+    },
+    {
+      "id": "parsig:105000000:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:105000001:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:105000002:pal>fa",
+      "tokens": 76
+    },
+    {
+      "id": "parsig:105000003:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:105000004:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:105000005:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:105000006:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:105000007:pal>fa",
+      "tokens": 104
+    },
+    {
+      "id": "parsig:105000008:pal>fa",
+      "tokens": 98
+    },
+    {
+      "id": "parsig:105000009:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:106000001:pal>fa",
+      "tokens": 68
+    },
+    {
+      "id": "parsig:106000002:pal>fa",
+      "tokens": 75
+    },
+    {
+      "id": "parsig:106000003:pal>fa",
+      "tokens": 137
+    },
+    {
+      "id": "parsig:106000004:pal>fa",
+      "tokens": 78
+    },
+    {
+      "id": "parsig:106000005:pal>fa",
+      "tokens": 244
+    },
+    {
+      "id": "parsig:106000006:pal>fa",
+      "tokens": 81
+    },
+    {
+      "id": "parsig:106000007:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:106000008:pal>fa",
+      "tokens": 178
+    },
+    {
+      "id": "parsig:106000009:pal>fa",
+      "tokens": 88
+    },
+    {
+      "id": "parsig:509000001:pal>fa",
+      "tokens": 300
+    },
+    {
+      "id": "parsig:509000002:pal>fa",
+      "tokens": 341
+    },
+    {
+      "id": "parsig:509000003:pal>fa",
+      "tokens": 357
+    },
+    {
+      "id": "parsig:509000004:pal>fa",
+      "tokens": 296
+    },
+    {
+      "id": "parsig:509000005:pal>fa",
+      "tokens": 194
+    },
+    {
+      "id": "parsig:509000006:pal>fa",
+      "tokens": 579
+    },
+    {
+      "id": "parsig:509000007:pal>fa",
+      "tokens": 420
+    },
+    {
+      "id": "parsig:509000008:pal>fa",
+      "tokens": 314
+    },
+    {
+      "id": "parsig:509000009:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:502000001:pal>fa",
+      "tokens": 102
+    },
+    {
+      "id": "parsig:502000002:pal>fa",
+      "tokens": 170
+    },
+    {
+      "id": "parsig:502000003:pal>fa",
+      "tokens": 149
+    },
+    {
+      "id": "parsig:502000004:pal>fa",
+      "tokens": 197
+    },
+    {
+      "id": "parsig:502000005:pal>fa",
+      "tokens": 108
+    },
+    {
+      "id": "parsig:502000006:pal>fa",
+      "tokens": 241
+    },
+    {
+      "id": "parsig:502000007:pal>fa",
+      "tokens": 205
+    },
+    {
+      "id": "parsig:502000008:pal>fa",
+      "tokens": 161
+    },
+    {
+      "id": "parsig:545000001:pal>fa",
+      "tokens": 265
+    },
+    {
+      "id": "parsig:545000002:pal>fa",
+      "tokens": 241
+    },
+    {
+      "id": "parsig:545000003:pal>fa",
+      "tokens": 115
+    },
+    {
+      "id": "parsig:545000004:pal>fa",
+      "tokens": 138
+    },
+    {
+      "id": "parsig:545000005:pal>fa",
+      "tokens": 206
+    },
+    {
+      "id": "parsig:545000006:pal>fa",
+      "tokens": 167
+    },
+    {
+      "id": "parsig:545000007:pal>fa",
+      "tokens": 246
+    },
+    {
+      "id": "parsig:545000008:pal>fa",
+      "tokens": 64
+    },
+    {
+      "id": "parsig:552000001:pal>fa",
+      "tokens": 159
+    },
+    {
+      "id": "parsig:552000002:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:552000003:pal>fa",
+      "tokens": 87
+    },
+    {
+      "id": "parsig:552000004:pal>fa",
+      "tokens": 84
+    },
+    {
+      "id": "parsig:552000005:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:552000006:pal>fa",
+      "tokens": 70
+    },
+    {
+      "id": "parsig:552000007:pal>fa",
+      "tokens": 74
+    },
+    {
+      "id": "parsig:552000008:pal>fa",
+      "tokens": 92
+    },
+    {
+      "id": "parsig:528000001:pal>fa",
+      "tokens": 113
+    },
+    {
+      "id": "parsig:528000002:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:528000003:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:528000004:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:528000005:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:528000006:pal>fa",
+      "tokens": 118
+    },
+    {
+      "id": "parsig:547000001:pal>fa",
+      "tokens": 310
+    },
+    {
+      "id": "parsig:547000002:pal>fa",
+      "tokens": 162
+    },
+    {
+      "id": "parsig:547000003:pal>fa",
+      "tokens": 121
+    },
+    {
+      "id": "parsig:547000004:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:547000005:pal>fa",
+      "tokens": 303
+    },
+    {
+      "id": "parsig:547000006:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:550000001:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:550000002:pal>fa",
+      "tokens": 184
+    },
+    {
+      "id": "parsig:550000003:pal>fa",
+      "tokens": 187
+    },
+    {
+      "id": "parsig:550000004:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:550000005:pal>fa",
+      "tokens": 230
+    },
+    {
+      "id": "parsig:550000006:pal>fa",
+      "tokens": 128
+    },
+    {
+      "id": "parsig:543000001:pal>fa",
+      "tokens": 156
+    },
+    {
+      "id": "parsig:543000002:pal>fa",
+      "tokens": 299
+    },
+    {
+      "id": "parsig:543000003:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:543000004:pal>fa",
+      "tokens": 109
+    },
+    {
+      "id": "parsig:543000005:pal>fa",
+      "tokens": 331
+    },
+    {
+      "id": "parsig:524000001:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:524000002:pal>fa",
+      "tokens": 105
+    },
+    {
+      "id": "parsig:524000003:pal>fa",
+      "tokens": 132
+    },
+    {
+      "id": "parsig:524000004:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:524000005:pal>fa",
+      "tokens": 112
+    },
+    {
+      "id": "parsig:521000001:pal>fa",
+      "tokens": 243
+    },
+    {
+      "id": "parsig:521000002:pal>fa",
+      "tokens": 668
+    },
+    {
+      "id": "parsig:521000003:pal>fa",
+      "tokens": 170
+    },
+    {
+      "id": "parsig:521000004:pal>fa",
+      "tokens": 436
+    },
+    {
+      "id": "parsig:521000005:pal>fa",
+      "tokens": 191
+    },
+    {
+      "id": "parsig:533000001:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:533000002:pal>fa",
+      "tokens": 235
+    },
+    {
+      "id": "parsig:533000003:pal>fa",
+      "tokens": 158
+    },
+    {
+      "id": "parsig:533000004:pal>fa",
+      "tokens": 233
+    },
+    {
+      "id": "parsig:533000005:pal>fa",
+      "tokens": 238
+    },
+    {
+      "id": "parsig:506000001:pal>fa",
+      "tokens": 224
+    },
+    {
+      "id": "parsig:506000002:pal>fa",
+      "tokens": 314
+    },
+    {
+      "id": "parsig:506000003:pal>fa",
+      "tokens": 160
+    },
+    {
+      "id": "parsig:506000004:pal>fa",
+      "tokens": 152
+    },
+    {
+      "id": "parsig:506000005:pal>fa",
+      "tokens": 123
+    },
+    {
+      "id": "parsig:514000001:pal>fa",
+      "tokens": 193
+    },
+    {
+      "id": "parsig:514000002:pal>fa",
+      "tokens": 392
+    },
+    {
+      "id": "parsig:514000003:pal>fa",
+      "tokens": 166
+    },
+    {
+      "id": "parsig:514000004:pal>fa",
+      "tokens": 355
+    },
+    {
+      "id": "parsig:514000005:pal>fa",
+      "tokens": 313
+    },
+    {
+      "id": "parsig:501000001:pal>fa",
+      "tokens": 242
+    },
+    {
+      "id": "parsig:501000002:pal>fa",
+      "tokens": 248
+    },
+    {
+      "id": "parsig:501000003:pal>fa",
+      "tokens": 151
+    },
+    {
+      "id": "parsig:501000004:pal>fa",
+      "tokens": 155
+    },
+    {
+      "id": "parsig:501000005:pal>fa",
+      "tokens": 245
+    },
+    {
+      "id": "parsig:503000001:pal>fa",
+      "tokens": 193
+    },
+    {
+      "id": "parsig:503000002:pal>fa",
+      "tokens": 216
+    },
+    {
+      "id": "parsig:503000003:pal>fa",
+      "tokens": 237
+    },
+    {
+      "id": "parsig:503000004:pal>fa",
+      "tokens": 345
+    },
+    {
+      "id": "parsig:503000005:pal>fa",
+      "tokens": 176
+    },
+    {
+      "id": "parsig:546000001:pal>fa",
+      "tokens": 154
+    },
+    {
+      "id": "parsig:546000002:pal>fa",
+      "tokens": 219
+    },
+    {
+      "id": "parsig:546000003:pal>fa",
+      "tokens": 250
+    },
+    {
+      "id": "parsig:546000005:pal>fa",
+      "tokens": 242
+    },
+    {
+      "id": "parsig:546000006:pal>fa",
+      "tokens": 243
+    },
+    {
+      "id": "parsig:525000001:pal>fa",
+      "tokens": 242
+    },
+    {
+      "id": "parsig:525000002:pal>fa",
+      "tokens": 245
+    },
+    {
+      "id": "parsig:525000003:pal>fa",
+      "tokens": 223
+    },
+    {
+      "id": "parsig:525000004:pal>fa",
+      "tokens": 222
+    },
+    {
+      "id": "parsig:525000005:pal>fa",
+      "tokens": 97
+    },
+    {
+      "id": "parsig:555000001:pal>fa",
+      "tokens": 145
+    },
+    {
+      "id": "parsig:555000002:pal>fa",
+      "tokens": 135
+    },
+    {
+      "id": "parsig:555000003:pal>fa",
+      "tokens": 158
+    },
+    {
+      "id": "parsig:555000004:pal>fa",
+      "tokens": 141
+    },
+    {
+      "id": "parsig:523000001:pal>fa",
+      "tokens": 199
+    },
+    {
+      "id": "parsig:523000002:pal>fa",
+      "tokens": 431
+    },
+    {
+      "id": "parsig:523000003:pal>fa",
+      "tokens": 311
+    },
+    {
+      "id": "parsig:523000004:pal>fa",
+      "tokens": 65
+    },
+    {
+      "id": "parsig:553000001:pal>fa",
+      "tokens": 229
+    },
+    {
+      "id": "parsig:553000002:pal>fa",
+      "tokens": 325
+    },
+    {
+      "id": "parsig:553000003:pal>fa",
+      "tokens": 293
+    },
+    {
+      "id": "parsig:553000004:pal>fa",
+      "tokens": 304
+    },
+    {
+      "id": "parsig:515000001:pal>fa",
+      "tokens": 292
+    },
+    {
+      "id": "parsig:515000002:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:515000003:pal>fa",
+      "tokens": 196
+    },
+    {
+      "id": "parsig:515000004:pal>fa",
+      "tokens": 183
+    },
+    {
+      "id": "parsig:559000001:pal>fa",
+      "tokens": 169
+    },
+    {
+      "id": "parsig:559000002:pal>fa",
+      "tokens": 205
+    },
+    {
+      "id": "parsig:559000003:pal>fa",
+      "tokens": 191
+    },
+    {
+      "id": "parsig:559000004:pal>fa",
+      "tokens": 172
+    },
+    {
+      "id": "parsig:551000001:pal>fa",
+      "tokens": 133
+    },
+    {
+      "id": "parsig:551000002:pal>fa",
+      "tokens": 239
+    },
+    {
+      "id": "parsig:551000003:pal>fa",
+      "tokens": 83
+    },
+    {
+      "id": "parsig:551000004:pal>fa",
+      "tokens": 250
+    },
+    {
+      "id": "parsig:512000001:pal>fa",
+      "tokens": 226
+    },
+    {
+      "id": "parsig:512000002:pal>fa",
+      "tokens": 224
+    },
+    {
+      "id": "parsig:512000003:pal>fa",
+      "tokens": 428
+    },
+    {
+      "id": "parsig:512000005:pal>fa",
+      "tokens": 136
+    },
+    {
+      "id": "parsig:549000001:pal>fa",
+      "tokens": 244
+    },
+    {
+      "id": "parsig:549000002:pal>fa",
+      "tokens": 170
+    },
+    {
+      "id": "parsig:549000003:pal>fa",
+      "tokens": 119
+    },
+    {
+      "id": "parsig:540000001:pal>fa",
+      "tokens": 95
+    },
+    {
+      "id": "parsig:540000002:pal>fa",
+      "tokens": 131
+    },
+    {
+      "id": "parsig:540000003:pal>fa",
+      "tokens": 169
+    },
+    {
+      "id": "parsig:511000001:pal>fa",
+      "tokens": 221
+    },
+    {
+      "id": "parsig:511000002:pal>fa",
+      "tokens": 77
+    },
+    {
+      "id": "parsig:511000003:pal>fa",
+      "tokens": 282
+    },
+    {
+      "id": "parsig:537000001:pal>fa",
+      "tokens": 220
+    },
+    {
+      "id": "parsig:537000002:pal>fa",
+      "tokens": 296
+    },
+    {
+      "id": "parsig:537000004:pal>fa",
+      "tokens": 302
+    },
+    {
+      "id": "parsig:531000001:pal>fa",
+      "tokens": 165
+    },
+    {
+      "id": "parsig:531000002:pal>fa",
+      "tokens": 174
+    },
+    {
+      "id": "parsig:531000003:pal>fa",
+      "tokens": 175
+    },
+    {
+      "id": "parsig:534000001:pal>fa",
+      "tokens": 213
+    },
+    {
+      "id": "parsig:534000002:pal>fa",
+      "tokens": 167
+    },
+    {
+      "id": "parsig:534000003:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:539000001:pal>fa",
+      "tokens": 129
+    },
+    {
+      "id": "parsig:539000002:pal>fa",
+      "tokens": 110
+    },
+    {
+      "id": "parsig:539000003:pal>fa",
+      "tokens": 270
+    },
+    {
+      "id": "parsig:532000001:pal>fa",
+      "tokens": 188
+    },
+    {
+      "id": "parsig:532000002:pal>fa",
+      "tokens": 223
+    },
+    {
+      "id": "parsig:532000003:pal>fa",
+      "tokens": 188
+    },
+    {
+      "id": "parsig:535000001:pal>fa",
+      "tokens": 114
+    },
+    {
+      "id": "parsig:535000002:pal>fa",
+      "tokens": 164
+    },
+    {
+      "id": "parsig:535000003:pal>fa",
+      "tokens": 217
+    },
+    {
+      "id": "parsig:507000001:pal>fa",
+      "tokens": 203
+    },
+    {
+      "id": "parsig:507000002:pal>fa",
+      "tokens": 124
+    },
+    {
+      "id": "parsig:507000003:pal>fa",
+      "tokens": 337
+    },
+    {
+      "id": "parsig:522000001:pal>fa",
+      "tokens": 182
+    },
+    {
+      "id": "parsig:522000002:pal>fa",
+      "tokens": 369
+    },
+    {
+      "id": "parsig:522000003:pal>fa",
+      "tokens": 334
+    },
+    {
+      "id": "parsig:557000001:pal>fa",
+      "tokens": 263
+    },
+    {
+      "id": "parsig:557000002:pal>fa",
+      "tokens": 146
+    },
+    {
+      "id": "parsig:557000003:pal>fa",
+      "tokens": 294
+    },
+    {
+      "id": "parsig:519000001:pal>fa",
+      "tokens": 111
+    },
+    {
+      "id": "parsig:519000002:pal>fa",
+      "tokens": 179
+    },
+    {
+      "id": "parsig:519000003:pal>fa",
+      "tokens": 107
+    },
+    {
+      "id": "parsig:516000001:pal>fa",
+      "tokens": 315
+    },
+    {
+      "id": "parsig:516000002:pal>fa",
+      "tokens": 274
+    },
+    {
+      "id": "parsig:516000003:pal>fa",
+      "tokens": 247
+    },
+    {
+      "id": "parsig:121000001:pal>fa",
+      "tokens": 299
+    },
+    {
+      "id": "parsig:121000002:pal>fa",
+      "tokens": 302
+    },
+    {
+      "id": "parsig:510000001:pal>fa",
+      "tokens": 401
+    },
+    {
+      "id": "parsig:510000003:pal>fa",
+      "tokens": 330
+    },
+    {
+      "id": "parsig:548000001:pal>fa",
+      "tokens": 260
+    },
+    {
+      "id": "parsig:548000002:pal>fa",
+      "tokens": 254
+    },
+    {
+      "id": "parsig:508000001:pal>fa",
+      "tokens": 386
+    },
+    {
+      "id": "parsig:508000002:pal>fa",
+      "tokens": 261
+    },
+    {
+      "id": "parsig:513000001:pal>fa",
+      "tokens": 321
+    },
+    {
+      "id": "parsig:513000002:pal>fa",
+      "tokens": 329
+    },
+    {
+      "id": "parsig:558000001:pal>fa",
+      "tokens": 363
+    },
+    {
+      "id": "parsig:558000002:pal>fa",
+      "tokens": 523
+    },
+    {
+      "id": "parsig:544000001:pal>fa",
+      "tokens": 169
+    },
+    {
+      "id": "parsig:520000001:pal>fa",
+      "tokens": 122
+    },
+    {
+      "id": "parsig:541000001:pal>fa",
+      "tokens": 271
+    },
+    {
+      "id": "parsig:527000001:pal>fa",
+      "tokens": 206
+    },
+    {
+      "id": "parsig:128000001:pal>fa",
+      "tokens": 398
+    },
+    {
+      "id": "parsig:536000001:pal>fa",
+      "tokens": 227
+    },
+    {
+      "id": "parsig:125000001:pal>fa",
+      "tokens": 245
+    },
+    {
+      "id": "parsig:131000000:pal>fa",
+      "tokens": 83
+    }
+  ],
+  "validation": "Every sequence explicitly returned flat token IDs and matched independent tokenization of its rendered chat template; initial mapping-key length calculation rejected and corrected before use"
+}

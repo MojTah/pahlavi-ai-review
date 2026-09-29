@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-27T13:42:41.801461+00:00",
+  "bucket": "Mojionix/pahlavi-pilot",
+  "path": "inputs/contextual-pilot-bb3795d9a499.zip",
+  "bytes": 34600,
+  "xet_hash": "02c1f492b3a6fb138d03bfd732e26eb3b62fb58b0e87218e3b79c2329ea7520e",
+  "sha256": "bb3795d9a49927f333e8f565fc1b961c35d7069d9848a9649421ddf233243563",
+  "roundtrip_verified": true,
+  "model_weights_transferred": false
+}

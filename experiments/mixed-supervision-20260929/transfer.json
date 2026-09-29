@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-29T09:13:33.318369+00:00",
+  "bucket": "Mojionix/pahlavi-pilot",
+  "prefix": "inputs",
+  "files": {
+    "mixed-train-c32a7f21639c.jsonl": {
+      "sha256": "c32a7f21639c34107fd4a86c1c8dae3a8815b40c8107ff8c3075e0167535dc4a",
+      "bytes": 3546782
+    },
+    "mixed-data-manifest-ebda721f77db.json": {
+      "sha256": "ebda721f77db1c60377d75cd3e9d578aebeb749a244c386d2ac96e896427b6fe",
+      "bytes": 52067
+    }
+  },
+  "read_through_verified": true,
+  "deleted_files": 0,
+  "model_weights_downloaded": false,
+  "transfer_recovery": "Initial default Xet cache was outside writable workspace; one retry used project-local HF_XET_CACHE. No job existed."
+}

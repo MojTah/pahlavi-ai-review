@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "status": "draft_source_assisted_analysis",
+  "observed_date": "2026-09-20",
+  "language": "Middle Persian",
+  "scope": "Sixteen explained entries from three read records. Not an exhaustive dictionary, expert review or measured translation system.",
+  "authorship": "Farsi and English senses and explanations are Codex study analyses informed by the credited displayed translations. They are not quotations presented as new translations of a whole edition.",
+  "sources": {
+    "parsig-120": {
+      "url": "https://parsigdatabase.com/surf/?lang=fa",
+      "selection": "Zoroastrian > اندرز بخت آفرید > همه",
+      "book_id": "120",
+      "chapter_id": "120000",
+      "edition": "Jamasp-Asana 1913, pp.81–82",
+      "translation_fa": "گشتاسب و حاجی‌پور، 1398",
+      "notes": "Read units 0–12 and the revision note. Word-level annotation dialogs for these occurrences have not been checked."
+    },
+    "parsig-119": {
+      "url": "https://parsigdatabase.com/surf/?lang=fa",
+      "selection": "Zoroastrian > داروی خرسندی > همه",
+      "book_id": "119",
+      "chapter_id": "119000",
+      "edition": "Jamasp-Asana 1913, p.154",
+      "translation_fa": "گشتاسب و حاجی‌پور، 1398",
+      "translation_en": "Ichaporia 2001 as displayed; unresolved page citation discrepancy recorded in kb/parsig-live-study.md"
+    },
+    "parsig-107": {
+      "url": "https://parsigdatabase.com/surf/?lang=fa",
+      "selection": "Zoroastrian > اندرز پیشینیان 3 > همه",
+      "book_id": "107",
+      "chapter_id": "107000",
+      "edition": "Jamasp-Asana 1913, p.40",
+      "translation_fa": "گشتاسب و حاجی‌پور، 1398",
+      "notes": "All units 0–7 read from the local, hash-verified source. No English translation or separate Note layer was offered."
+    }
+  },
+  "entries": [
+    {
+      "id": "mp-hunsand-adj",
+      "headword": "hunsand",
+      "part_of_speech": "adjective",
+      "sense_fa": "قانع و خرسند از آنچه دارد یا پیش آمده است",
+      "sense_en": "content; satisfied with what one has or what has happened",
+      "observed_forms": [
+        {
+          "form": "hunsandtar",
+          "analysis": "comparative: more content",
+          "source": "parsig-120",
+          "sections": [
+            "1"
+          ]
+        },
+        {
+          "form": "hunsand",
+          "analysis": "adjective",
+          "source": "parsig-120",
+          "sections": [
+            "10"
+          ]
+        }
+      ],
+      "explanation": "The comparison in §1 links contentment to wealth; §10 links it to freedom from grief. A generic translation as happy would lose that contextual connection.",
+      "related_entries": [
+        "mp-hunsandih-n"
+      ],
+      "reading_check": "In §1 identify which comparison concerns wealth and which concerns contentment.",
+      "uncertainty": "These senses cover the cited counsel passages, not every historical use."
+    },
+    {
+      "id": "mp-hunsandih-n",
+      "headword": "hunsandīh",
+      "part_of_speech": "noun",
+      "sense_fa": "خرسندی و قناعت، به صورت یک حالت یا خصلت",
+      "sense_en": "contentment, considered as a state or quality",
+      "observed_forms": [
+        {
+          "form": "hunsandīh",
+          "analysis": "abstract noun",
+          "source": "parsig-119",
+          "sections": [
+            "1",
+            "2"
+          ]
+        }
+      ],
+      "source_annotation": {
+        "occurrence_id": "119000001003",
+        "transliteration": "hwnsndyh",
+        "lemma_field": "hunsand",
+        "category": "اسم",
+        "edition_locator": "Jamasp-Asana1913:154/2",
+        "work_locator": "DH:1"
+      },
+      "explanation": "The medicinal allegory names contentment as its subject. Our dictionary distinguishes the abstract noun from its adjectival family, while retaining the site's different lemma field unchanged.",
+      "related_entries": [
+        "mp-hunsand-adj"
+      ],
+      "reading_check": "Explain why hunsand and hunsandīh should be related without silently replacing the observed site lemma.",
+      "uncertainty": "The supplied title is bracketed; its occurrence was excluded from the site's displayed exact frequency count."
+    },
+    {
+      "id": "mp-tuwangar-adj",
+      "headword": "tuwāngar",
+      "part_of_speech": "adjective",
+      "sense_fa": "توانگر و برخوردار از دارایی",
+      "sense_en": "wealthy; rich",
+      "observed_forms": [
+        {
+          "form": "tuwāngartar",
+          "analysis": "comparative: wealthier",
+          "source": "parsig-120",
+          "sections": [
+            "1"
+          ]
+        },
+        {
+          "form": "tuwāngar",
+          "analysis": "adjectival complement in making someone wealthy",
+          "source": "parsig-120",
+          "sections": [
+            "2"
+          ]
+        }
+      ],
+      "explanation": "In §1 the comparative has the same ending as hunsandtar. In §2 the adjective works with kardan to express causing a person to be rich, rather than acting as a separate verb.",
+      "related_entries": [
+        "mp-tuwangarih-n",
+        "mp-kardan-v"
+      ],
+      "reading_check": "Distinguish being wealthier in §1 from making someone wealthy in §2.",
+      "uncertainty": "No word-level annotation dialog was checked for this entry."
+    },
+    {
+      "id": "mp-tuwangarih-n",
+      "headword": "tuwāngarīh",
+      "part_of_speech": "noun",
+      "sense_fa": "توانگری و وضعیت برخورداری از مال",
+      "sense_en": "wealth; the condition of being wealthy",
+      "observed_forms": [
+        {
+          "form": "tuwāngarīh",
+          "analysis": "abstract noun",
+          "source": "parsig-120",
+          "sections": [
+            "3"
+          ]
+        }
+      ],
+      "explanation": "The passage places wealth beside poverty and authority as circumstances in which the speaker describes his conduct. The nominal ending matters for its relationship to tuwāngar.",
+      "related_entries": [
+        "mp-tuwangar-adj",
+        "mp-driyoshih-n",
+        "mp-padixshayih-n"
+      ],
+      "reading_check": "Name the three circumstances contrasted in §3.",
+      "uncertainty": "The surrounding description of giving contains an uncertainty in the displayed Farsi translation."
+    },
+    {
+      "id": "mp-kardan-v",
+      "headword": "kardan",
+      "part_of_speech": "verb",
+      "sense_fa": "کردن؛ ساختن یا پدید آوردن، با معنای وابسته به متمم",
+      "sense_en": "do; make, with the specific sense determined by its complement",
+      "observed_forms": [
+        {
+          "form": "kardan",
+          "analysis": "infinitive; make wealthy in §2, make peace in §4",
+          "source": "parsig-120",
+          "sections": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "form": "kard",
+          "analysis": "past stem within the compound verbal expression in §3",
+          "source": "parsig-120",
+          "sections": [
+            "3"
+          ]
+        }
+      ],
+      "explanation": "The same verbal family occurs with wealth, an office and peace. Translating a bare headword once as do is insufficient; the complement and full clause determine the target expression.",
+      "related_entries": [
+        "mp-tuwangar-adj"
+      ],
+      "reading_check": "Translate the combination with peace as a whole, then compare the combination with tuwāngar.",
+      "uncertainty": "The full tense and auxiliary structure of §3 requires clause-level analysis; the stem label alone does not settle it."
+    },
+    {
+      "id": "mp-dadan-v",
+      "headword": "dādan",
+      "part_of_speech": "verb",
+      "sense_fa": "دادن؛ در ترکیب با گواهی، گواهی دادن",
+      "sense_en": "give; with testimony, bear or give witness",
+      "observed_forms": [
+        {
+          "form": "dahēm",
+          "analysis": "first-person singular present form in the giving/taking example",
+          "source": "parsig-120",
+          "sections": [
+            "2"
+          ]
+        },
+        {
+          "form": "dādan",
+          "analysis": "infinitive",
+          "source": "parsig-120",
+          "sections": [
+            "8"
+          ]
+        },
+        {
+          "form": "[dādan]",
+          "analysis": "supplied repeated infinitive; preserve the brackets",
+          "source": "parsig-120",
+          "sections": [
+            "8"
+          ]
+        }
+      ],
+      "explanation": "In §2 the ending identifies the speaker as giver. In §8 a material gift and false testimony share a verb but require different natural English expressions.",
+      "related_entries": [
+        "mp-gugayih-n"
+      ],
+      "reading_check": "Identify which instance of the infinitive in §8 is supplied by the edition.",
+      "uncertainty": "The finite-to-infinitive link is our grammatical analysis, not a copied live lemma annotation."
+    },
+    {
+      "id": "mp-weh-adj",
+      "headword": "weh",
+      "part_of_speech": "comparative adjective; clause use depends on context",
+      "sense_fa": "بهتر، در مقایسه یا داوری ارزشی",
+      "sense_en": "better; preferable",
+      "observed_forms": [
+        {
+          "form": "weh",
+          "analysis": "comparative evaluation",
+          "source": "parsig-120",
+          "sections": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "form": "weh",
+          "analysis": "better within a possibility construction",
+          "source": "parsig-119",
+          "sections": [
+            "4"
+          ]
+        }
+      ],
+      "explanation": "The counsel sequences evaluate alternatives. In record 119 the possibility construction must remain possible improvement, not a promise that improvement will occur.",
+      "related_entries": [],
+      "reading_check": "Explain why better tomorrow and certainly better tomorrow are not equivalent renderings of record 119 §4.",
+      "uncertainty": "This entry does not infer every comparative construction from a single English word."
+    },
+    {
+      "id": "mp-xeshm-n",
+      "headword": "xēšm",
+      "part_of_speech": "noun",
+      "sense_fa": "خشم",
+      "sense_en": "anger; wrath",
+      "observed_forms": [
+        {
+          "form": "xēšm",
+          "analysis": "object associated with restraining anger",
+          "source": "parsig-120",
+          "sections": [
+            "6"
+          ]
+        },
+        {
+          "form": "xēšm?",
+          "analysis": "doubtful reading; question mark is source evidence",
+          "source": "parsig-120",
+          "sections": [
+            "7"
+          ]
+        }
+      ],
+      "explanation": "The secure occurrence in §6 supports the sense. The following unit uses a swallowing expression with a question-marked noun. Preserve the doubt even if the figurative interpretation sounds natural.",
+      "related_entries": [
+        "mp-sogand-n"
+      ],
+      "reading_check": "Which occurrence is marked doubtful, and why should a dictionary retain both source spellings?",
+      "uncertainty": "Do not count the §7 reading as equally secure corroboration of the §6 occurrence."
+    },
+    {
+      "id": "mp-sogand-n",
+      "headword": "sōgand",
+      "part_of_speech": "noun",
+      "sense_fa": "سوگند؛ همراه خوردن، سوگند خوردن",
+      "sense_en": "oath; with xwardan, swear an oath",
+      "observed_forms": [
+        {
+          "form": "sōgand",
+          "analysis": "noun in an oath-taking expression with a supplied repeated verb",
+          "source": "parsig-120",
+          "sections": [
+            "7"
+          ]
+        }
+      ],
+      "explanation": "The appropriate target expression is swearing an oath. A word-for-word substitution of eat for the associated verb would miss the idiom.",
+      "related_entries": [
+        "mp-xeshm-n"
+      ],
+      "reading_check": "Give a natural English expression for the combination without pretending that the supplied verb is unmarked source text.",
+      "uncertainty": "The other half of this parallel counsel contains the doubtful anger reading."
+    },
+    {
+      "id": "mp-gugayih-n",
+      "headword": "gugāyīh",
+      "part_of_speech": "noun",
+      "sense_fa": "گواهی و شهادت",
+      "sense_en": "testimony; witness-bearing",
+      "observed_forms": [
+        {
+          "form": "gugāyīh",
+          "analysis": "noun in the warning against false testimony",
+          "source": "parsig-120",
+          "sections": [
+            "8"
+          ]
+        }
+      ],
+      "explanation": "The surrounding falsehood expression modifies the act of testifying. The ethical warning concerns giving false testimony, not giving away a physical object called a witness.",
+      "related_entries": [
+        "mp-dadan-v"
+      ],
+      "reading_check": "Explain the change in natural English when dādan has wealth versus testimony as its complement.",
+      "uncertainty": "No broader legal definition is inferred from this single counsel."
+    },
+    {
+      "id": "mp-driyoshih-n",
+      "headword": "driyōšīh",
+      "part_of_speech": "noun",
+      "sense_fa": "تنگدستی و فقر در تقابل با توانگری",
+      "sense_en": "poverty, contrasted here with wealth",
+      "observed_forms": [
+        {
+          "form": "driyōšīh",
+          "analysis": "abstract noun naming a circumstance",
+          "source": "parsig-120",
+          "sections": [
+            "3"
+          ]
+        }
+      ],
+      "explanation": "Its opposition to tuwāngarīh establishes the local economic sense. Do not import a later religious or occupational sense merely from a resembling modern word.",
+      "related_entries": [
+        "mp-tuwangarih-n",
+        "mp-padixshayih-n"
+      ],
+      "reading_check": "Which contrast in the same paragraph supports the meaning poverty?",
+      "uncertainty": "Other historical senses are outside this entry's attested scope."
+    },
+    {
+      "id": "mp-padixshayih-n",
+      "headword": "pādixšāyīh",
+      "part_of_speech": "noun",
+      "sense_fa": "فرمانروایی یا برخورداری از قدرت و اختیار",
+      "sense_en": "authority; rule; possession of power",
+      "observed_forms": [
+        {
+          "form": "pādixšāyīh",
+          "analysis": "abstract noun in the wealth/poverty/authority sequence",
+          "source": "parsig-120",
+          "sections": [
+            "3"
+          ]
+        }
+      ],
+      "explanation": "The saying describes conduct when exercising authority. Translating it as kingship could add a specific royal office that this context alone does not establish for the speaker.",
+      "related_entries": [
+        "mp-tuwangarih-n",
+        "mp-driyoshih-n"
+      ],
+      "reading_check": "Explain the evidence needed before replacing authority with kingship in this passage.",
+      "uncertainty": "This cautious local sense does not deny that other texts may require a more specific political meaning."
+    },
+    {
+      "id": "mp-xrad-n",
+      "headword": "xrad",
+      "part_of_speech": "noun",
+      "sense_fa": "خرد و توان داوری",
+      "sense_en": "wisdom; judgment",
+      "observed_forms": [
+        {
+          "form": "xrad",
+          "analysis": "noun in the repeated possession construction",
+          "source": "parsig-107",
+          "sections": [
+            "1"
+          ]
+        }
+      ],
+      "explanation": "The first counsel makes wisdom the possession whose absence motivates the judgment. This context supports practical wisdom; it does not identify a modern psychological measure.",
+      "related_entries": [],
+      "reading_check": "Identify the relative clause that says what the person lacks.",
+      "uncertainty": "Source-assisted contextual analysis. Word-level annotation and manuscript collation have not been checked for this occurrence."
+    },
+    {
+      "id": "mp-frazand-n",
+      "headword": "frazand",
+      "part_of_speech": "noun",
+      "sense_fa": "فرزند؛ اولاد",
+      "sense_en": "child; offspring",
+      "observed_forms": [
+        {
+          "form": "frazand",
+          "analysis": "noun in the repeated possession construction",
+          "source": "parsig-107",
+          "sections": [
+            "3"
+          ]
+        }
+      ],
+      "explanation": "The statement links offspring with remembrance or a name. Preserve that historical valuation as the speaker's position rather than asserting that people without children lack value.",
+      "related_entries": [],
+      "reading_check": "Separate the noun's meaning from the value judgment made about a person without offspring.",
+      "uncertainty": "Source-assisted contextual analysis. Word-level annotation and manuscript collation have not been checked for this occurrence."
+    },
+    {
+      "id": "mp-xwastag-n",
+      "headword": "xwāstag",
+      "part_of_speech": "noun",
+      "sense_fa": "مال و دارایی",
+      "sense_en": "wealth; property",
+      "observed_forms": [
+        {
+          "form": "xwāstag",
+          "analysis": "noun in the repeated possession construction",
+          "source": "parsig-107",
+          "sections": [
+            "4"
+          ]
+        }
+      ],
+      "explanation": "The noun occurs as a possession in the fourth counsel. Its meaning does not make the surrounding judgment of a person's worth an objective fact.",
+      "related_entries": [],
+      "reading_check": "Which words express the possession, and which express the historical speaker's judgment?",
+      "uncertainty": "Source-assisted contextual analysis. Word-level annotation and manuscript collation have not been checked for this occurrence."
+    },
+    {
+      "id": "mp-ruwan-n",
+      "headword": "ruwān",
+      "part_of_speech": "noun",
+      "sense_fa": "روان، در بافت دینی متن",
+      "sense_en": "soul, in the religious context of this text",
+      "observed_forms": [
+        {
+          "form": "ruwān",
+          "analysis": "noun in the repeated possession construction",
+          "source": "parsig-107",
+          "sections": [
+            "6"
+          ]
+        }
+      ],
+      "explanation": "The source's literal possession wording is supplemented in its Farsi translation by an interpretation about caring for the soul. Our natural rendering follows that explanation, while preserving the literal wording separately.",
+      "related_entries": [],
+      "reading_check": "Explain why soul and mental health are not automatically interchangeable here.",
+      "uncertainty": "Source-assisted contextual analysis. Word-level annotation and manuscript collation have not been checked for this occurrence."
+    }
+  ]
+}

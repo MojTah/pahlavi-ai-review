@@ -1,0 +1,7 @@
+{
+  "utc": "2026-09-28T11:56:48.591994+00:00",
+  "url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=xrad&query_type=wildcard&size=20",
+  "scope": "Single known-good canary recheck after wildcard capture failed; no automatic retry",
+  "status": 403,
+  "body_excerpt": "<html><body><h1>403 Forbidden</h1>\nRequest forbidden by administrative rules.\n</body></html>\n"
+}

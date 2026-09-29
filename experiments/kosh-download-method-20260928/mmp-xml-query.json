@@ -1,0 +1,37 @@
+{
+  "collection": "mmp",
+  "archive": "kosh-xml-gaps-20260928",
+  "receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/mmp/restful/entries?field=xml&query=%2A&query_type=wildcard&size=5838",
+    "retrieved_utc": "2026-09-28T14:24:15.353088+00:00",
+    "final_url": "https://kosh.uni-koeln.de/mpcd/mmp/restful/entries?field=xml&query=%2A&query_type=wildcard&size=5838",
+    "content_type": "application/json",
+    "charset": null,
+    "status": "ok",
+    "file": "raw/329562c1d69f9b0c34e87420392df4dfd348c6ac90afe7062cd3e91a96b4ae0c.source",
+    "sha256": "ce1b476f41a3faa004b863fb98a61eeb8b1a472ea43604c30a9f96b7690192a3",
+    "bytes": 4979549
+  },
+  "catalogue_entries": 5837,
+  "entries": 5837,
+  "unique_ids": 5837,
+  "with_xml": 5837,
+  "fields": [
+    "attest",
+    "created",
+    "gramm",
+    "id",
+    "lang",
+    "see",
+    "sense",
+    "trc",
+    "trl",
+    "xml"
+  ],
+  "status": "BELOW_CAP_UNVERIFIED",
+  "xml_errors_for_quarantine": [],
+  "new_ids": 847,
+  "missing_previous_ids": [],
+  "changed_previous_ids": [],
+  "matches_catalogue_count": true
+}

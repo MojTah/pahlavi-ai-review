@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-28T14:14:38.711161+00:00",
+  "status": "PASS_MECHANICAL_REGRESSION_ONLY",
+  "script_sha256": "6a2aece834d6b4f356a580ba946c2e6759254812aacf1547b45655458ef2a128",
+  "prior_script_commit": "98aeaa6",
+  "counterexamples_reproduced_before_fix": 3,
+  "unscoped_text_regressions_rejected_after_fix": 5,
+  "whitespace_only_container_accepted": true,
+  "current_site_dispositions_unchanged": 9597,
+  "current_staged_observations_with_unscoped_text": 0,
+  "v1_v2_outputs_unchanged": true,
+  "historical_train_unchanged": true,
+  "gemini_review_executed": false
+}

@@ -1,0 +1,41 @@
+{
+  "reviewer": "/root/blind_palref_review_b",
+  "type": "AI preliminary reference screen, not specialist verification",
+  "model_outputs_seen_for_these_cases": false,
+  "no_obvious_issue_case_ids": [
+    "QUALITYDEV1-002",
+    "QUALITYDEV1-003",
+    "QUALITYDEV1-005",
+    "QUALITYDEV1-006",
+    "QUALITYDEV1-007",
+    "QUALITYDEV1-008",
+    "QUALITYDEV1-009",
+    "QUALITYDEV1-010",
+    "QUALITYDEV1-012",
+    "QUALITYDEV1-014",
+    "QUALITYDEV1-017",
+    "QUALITYDEV1-020",
+    "QUALITYDEV1-021"
+  ],
+  "case_qualifications": {
+    "QUALITYDEV1-001": "Unconfirmed lexical scope of huframan; source check needed.",
+    "QUALITYDEV1-004": "Compatible alternative paraphrases have different surface negation; avoid literal matching.",
+    "QUALITYDEV1-011": "Source lacuna and unresolved Persian question mark.",
+    "QUALITYDEV1-013": "Absent following Avestan quotation; technical six-month label needs contextual care.",
+    "QUALITYDEV1-015": "English/Persian role wording differs in a ritual description; possibly compatible.",
+    "QUALITYDEV1-016": "English/Persian disagree about participant and ordinal scope; specialist adjudication needed.",
+    "QUALITYDEV1-018": "Editorially marked verb; striking versus killing sense unresolved.",
+    "QUALITYDEV1-019": "Antecedent absent; Persian supplied gloss cannot be verified from the isolated span.",
+    "QUALITYDEV1-022": "Reference leaves a source component untranslated as ellipsis.",
+    "QUALITYDEV1-023": "Reference includes an unresolved list member marked by question marks.",
+    "QUALITYDEV1-024": "Consequential bracketed agents resolve complex pronouns; require context check."
+  },
+  "hard_reference_limit_case_ids": [
+    "QUALITYDEV1-011",
+    "QUALITYDEV1-016",
+    "QUALITYDEV1-022",
+    "QUALITYDEV1-023"
+  ],
+  "action": "Preserve every selected case; resolve source questions before defining primary assessable subset. Do not silently replace or count ambiguous meanings as model errors.",
+  "semantic_independence": "No obvious answer-equivalent TRAIN parallel found in bounded source-similarity screen; unproven for all semantic parallels."
+}

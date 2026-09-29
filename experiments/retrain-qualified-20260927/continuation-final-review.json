@@ -1,0 +1,32 @@
+{
+  "reviewer_id": "/root/final_external_judge",
+  "verdict": "PASS_PREPARATION_CONDITIONAL_ON_FINAL_BINDING_AND_REMOTE_ROUNDTRIP",
+  "external_calls": false,
+  "spec_regeneration_exact": true,
+  "recovered_small_files_sha_verified": 14,
+  "canary_manifest_files": 20,
+  "schedule": {
+    "train_rows": 2237,
+    "expected_total_steps": 280,
+    "remaining_steps": 260
+  },
+  "canary_train_seconds": 364.204,
+  "projection_seconds": 7055.047600000001,
+  "available_seconds": 8100,
+  "native_timeout_minutes": 150,
+  "worst_cumulative_with_shutdown_and_reserve_usd": 14.918385,
+  "pending": [
+    "Bind source_commit to final committed evidence before launch and verify actual HEAD",
+    "Upload and verify exact remote input inventory",
+    "Full remote SHA/tensor/checkpoint recovery must pass inside continuation before base download/resume"
+  ],
+  "reviewed_sha256": {
+    "resources\\local\\hf-qualified-continuation-20260927.json": "77103fba497e3c3d1511b1e2b9902168267af0ae6bf6ee2ff590d28cc2631208",
+    "resources\\local\\hf-qualified-continuation-20260927-provenance.json": "024774a87b6acf9b2ab413a8be4b2911299ad2c6316f43f9e91648c8d2fed513",
+    "resources\\local\\hf-qualified-continuation-input-20260927\\qualified-continuation-admission-513dc48cf10f.json": "513dc48cf10fcba9578f3d1c6d0b6fd1947dc8461cb4b1e285bf7f48d3818d3a",
+    "resources\\local\\hf-qualified-continuation-projection-20260927.json": "58318f0d32b12ac228ad3d02108a54ac041c62640d2c909db900e8212b75b3a5",
+    "resources\\local\\hf-qualified-canary-run-20260927\\manifest.json": "ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388",
+    "resources\\local\\run-hf-qualified-continuation-20260927.py": "bc9ae9502ed738e16662a2865dcc3911a8af13a1a1a7a47cf7c4899198e16347",
+    "cloud_pilot\\hf_continue.py": "443d6c5a01df3e047e1a39f48d9bc309c11f2016e47661d59190937ea678d1d5"
+  }
+}

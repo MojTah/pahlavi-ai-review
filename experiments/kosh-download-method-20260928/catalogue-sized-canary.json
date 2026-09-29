@@ -1,0 +1,39 @@
+{
+  "collection": "cpd",
+  "archive": "kosh-catalogue-sized-20260928",
+  "receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=3104",
+    "retrieved_utc": "2026-09-28T14:02:14.087569+00:00",
+    "final_url": "https://kosh.uni-koeln.de/mpcd/cpd/restful/entries?field=trc&query=%2A&query_type=wildcard&size=3104",
+    "content_type": "application/json",
+    "charset": null,
+    "status": "ok",
+    "file": "raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+    "sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4",
+    "bytes": 1243176
+  },
+  "catalogue_entries": 3103,
+  "entries": 3103,
+  "unique_ids": 3103,
+  "with_xml": 3103,
+  "fields": [
+    "created",
+    "gram",
+    "id",
+    "sense",
+    "trc",
+    "trl",
+    "xml"
+  ],
+  "status": "BELOW_CAP_UNVERIFIED",
+  "xml_errors_for_quarantine": [
+    {
+      "id": "8a25cd9aab91d28e0ee26362420a038d79c28d90",
+      "error": "not well-formed (invalid token): line 1, column 194"
+    },
+    {
+      "id": "18e5fce7abcc6ac96b157109ffd59b462a3a1e65",
+      "error": "junk after document element: line 1, column 230"
+    }
+  ]
+}

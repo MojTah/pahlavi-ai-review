@@ -1,0 +1,141 @@
+{
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "peak_allocated_bytes": 27674624,
+  "cases": [
+    {
+      "vocab": 32,
+      "results": {
+        "inferenceFalse_autocastFalse_explicitfp32False": {
+          "value": 4.0,
+          "dtype": "torch.bfloat16",
+          "autocast": false
+        },
+        "inferenceFalse_autocastFalse_explicitfp32True": {
+          "value": 3.999225616455078,
+          "dtype": "torch.float32",
+          "autocast": false
+        },
+        "inferenceFalse_autocastFalse_logsoftmax_dtype": "torch.bfloat16",
+        "inferenceFalse_autocastTrue_explicitfp32False": {
+          "value": 3.9973957538604736,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceFalse_autocastTrue_explicitfp32True": {
+          "value": 3.999225616455078,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceFalse_autocastTrue_logsoftmax_dtype": "torch.float32",
+        "inferenceTrue_autocastFalse_explicitfp32False": {
+          "value": 4.0,
+          "dtype": "torch.bfloat16",
+          "autocast": false
+        },
+        "inferenceTrue_autocastFalse_explicitfp32True": {
+          "value": 3.999225616455078,
+          "dtype": "torch.float32",
+          "autocast": false
+        },
+        "inferenceTrue_autocastFalse_logsoftmax_dtype": "torch.bfloat16",
+        "inferenceTrue_autocastTrue_explicitfp32False": {
+          "value": 3.9973957538604736,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceTrue_autocastTrue_explicitfp32True": {
+          "value": 3.999225616455078,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceTrue_autocastTrue_logsoftmax_dtype": "torch.float32",
+        "BF16_nll_mean_after_fp32_cast": 3.9973959922790527,
+        "FP32_nll_mean": 3.9992258548736572,
+        "per_token_bf16": [
+          4.21875,
+          3.328125,
+          5.6875,
+          3.5,
+          3.65625,
+          3.59375
+        ],
+        "per_token_fp32": [
+          4.222414970397949,
+          3.33042311668396,
+          5.689422607421875,
+          3.499235153198242,
+          3.6557323932647705,
+          3.5981268882751465
+        ]
+      }
+    },
+    {
+      "vocab": 256215,
+      "results": {
+        "inferenceFalse_autocastFalse_explicitfp32False": {
+          "value": 12.9375,
+          "dtype": "torch.bfloat16",
+          "autocast": false
+        },
+        "inferenceFalse_autocastFalse_explicitfp32True": {
+          "value": 12.933894157409668,
+          "dtype": "torch.float32",
+          "autocast": false
+        },
+        "inferenceFalse_autocastFalse_logsoftmax_dtype": "torch.bfloat16",
+        "inferenceFalse_autocastTrue_explicitfp32False": {
+          "value": 12.947916984558105,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceFalse_autocastTrue_explicitfp32True": {
+          "value": 12.933894157409668,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceFalse_autocastTrue_logsoftmax_dtype": "torch.float32",
+        "inferenceTrue_autocastFalse_explicitfp32False": {
+          "value": 12.9375,
+          "dtype": "torch.bfloat16",
+          "autocast": false
+        },
+        "inferenceTrue_autocastFalse_explicitfp32True": {
+          "value": 12.933894157409668,
+          "dtype": "torch.float32",
+          "autocast": false
+        },
+        "inferenceTrue_autocastFalse_logsoftmax_dtype": "torch.bfloat16",
+        "inferenceTrue_autocastTrue_explicitfp32False": {
+          "value": 12.947916984558105,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceTrue_autocastTrue_explicitfp32True": {
+          "value": 12.933894157409668,
+          "dtype": "torch.float32",
+          "autocast": true
+        },
+        "inferenceTrue_autocastTrue_logsoftmax_dtype": "torch.float32",
+        "BF16_nll_mean_after_fp32_cast": 12.947916984558105,
+        "FP32_nll_mean": 12.93389336268107,
+        "per_token_bf16": [
+          12.25,
+          12.5,
+          14.375,
+          13.6875,
+          13.0625,
+          11.8125
+        ],
+        "per_token_fp32": [
+          12.219823837280273,
+          12.46998119354248,
+          14.34943962097168,
+          13.691703796386719,
+          13.06680679321289,
+          11.805604934692383
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+from pathlib import Path
+from types import SimpleNamespace, ModuleType
+from hashlib import sha256
+import importlib.util
+import json
+import sys
+
+import httpx
+
+ROOT = Path(__file__).resolve().parents[3]
+SCRATCH = Path(__file__).resolve().parent
+RUN = SCRATCH / 'repair-v3'
+RUN.mkdir(exist_ok=False)
+hub = ModuleType('huggingface_hub')
+hub.HfApi = lambda: (_ for _ in ()).throw(AssertionError('Unstubbed SDK'))
+hub.Volume = lambda **kw: SimpleNamespace(**kw)
+hub.set_client_factory = lambda f: None
+sys.modules['huggingface_hub'] = hub
+
+def load(kind):
+    path = ROOT / f'resources/local/run-hf-qualified-{kind}-20260927.py'
+    spec = importlib.util.spec_from_file_location(kind, path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+def fixture(mod, kind, scenario):
+    directory = RUN / (kind + '-' + scenario)
+    directory.mkdir(exist_ok=False)
+    identity = dict(run_id='critic-own', bundle_name='qualified.zip', bundle_sha256='b'*64,
+                    evaluator_sha256='c'*64, inputs_sha256='d'*64, canary_run_id='critic-canary',
+                    canary_manifest_sha256='e'*64, admission_sha256='f'*64,
+                    expected_total_steps=280, training_rows=2237,
+                    training_sha256='15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc',
+                    controller_sha256=sha256(Path(mod.__file__).read_bytes()).hexdigest(),
+                    source_commit='critic-offline', budget_ceiling_usd=25,
+                    prior_cumulative_compute_usd=8.578345, max_minutes=150,
+                    remaining_aggregate_a100_minutes=150)
+    identity['output_prefix'] = ('trials/' if kind=='canary' else 'continuations/') + identity['run_id']
+    spec = dict(namespace='Mojionix', flavor='a100-large', timeout='30m' if kind=='canary' else '150m',
+                labels={'trial_id':identity['run_id']}, volumes=[])
+    spec_bytes=json.dumps(spec).encode()
+    identity['spec_sha256']=sha256(spec_bytes).hexdigest()
+    mod.SPEC=directory/'spec.json'; mod.SPEC.write_bytes(spec_bytes)
+    mod.PROVENANCE=directory/'provenance.json'; mod.PROVENANCE.write_text(json.dumps(identity))
+    mod.OUT=directory/'out'
+    if kind=='canary':
+        names={'training/status.json','training/provenance.json','training/metrics.json','job-provenance.json'}
+        names |= {'training/checkpoint-20/'+x for x in ('trainer_state.json','optimizer.pt','scheduler.pt','rng_state.pth','adapter_model.safetensors','adapter_config.json')}
+        names |= {'training/canary-adapter/'+x for x in ('adapter_model.safetensors','adapter_config.json')}
+        manifest={k:identity[k] for k in ('run_id','bundle_name','bundle_sha256')}
+        manifest.update(global_step=20,canary_compute_pass=True)
+    else:
+        names={'continuation-status.json','training/adapter/adapter_model.safetensors','training/adapter/adapter_config.json',
+               'training/status.json','training/provenance.json','training/metrics.json','after/predictions.jsonl','after/run.json','readiness-evidence.json','projection.json'}
+        names |= {'training/checkpoint-280/'+x for x in ('trainer_state.json','optimizer.pt','scheduler.pt','rng_state.pth','adapter_model.safetensors','adapter_config.json')}
+        manifest={k:identity[k] for k in ('run_id','bundle_name','bundle_sha256','evaluator_sha256','inputs_sha256','canary_run_id','canary_manifest_sha256','admission_sha256')}
+        manifest.update(operation='full_resume_and_palref',full_training_completed=True,training_schedule_completed=True,
+                        expected_total_steps=280,completed_global_step=280,latest_optimizer_checkpoint='checkpoint-280')
+    manifest['files']={n:{'bytes':1,'sha256':'a'*64} for n in sorted(names)}
+    return identity, manifest
+
+class Clock:
+    def __init__(self):self.t=0
+    def monotonic(self):return self.t
+    def sleep(self, seconds):self.t+=seconds
+
+class FakeApi:
+    def __init__(self, identity, manifest, scenario):
+        self.identity=identity;self.manifest=manifest;self.scenario=scenario
+        self.posts=0;self.inspections=0;self.reconciles=0;self.canceled=[];self.terminated=False
+        self.job=SimpleNamespace(id='owned-job',url='offline://owned',labels={'trial_id':identity['run_id']})
+        self.foreign=SimpleNamespace(id='foreign-job',url='offline://foreign',labels={'trial_id':'foreign'})
+        self.data=json.dumps(manifest).encode()
+        prefix=identity['output_prefix']
+        self.entries={prefix+'/'+n:SimpleNamespace(path=prefix+'/'+n,size=r['bytes'],xet_hash='xet') for n,r in manifest['files'].items()}
+        self.entries[prefix+'/manifest.json']=SimpleNamespace(path=prefix+'/manifest.json',size=len(self.data),xet_hash='xet-manifest')
+    def whoami(self):return {'name':'Mojionix'}
+    def list_jobs(self, **kw):
+        if not kw.get('labels'):return []
+        self.reconciles+=1
+        if self.scenario=='lost_submit_transient_reconcile' and self.reconciles==1:
+            raise httpx.ReadTimeout('offline reconcile fault')
+        if self.scenario=='lost_submit_persistent_reconcile':
+            raise httpx.ReadTimeout('offline persistent reconcile fault')
+        if self.scenario=='lost_submit_invalid_reconcile':
+            raise ValueError('offline malformed reconciliation')
+        if self.scenario=='lost_submit_unconfirmed':return []
+        return [self.job,self.foreign]
+    def list_bucket_tree(self,*a,**kw):return list(self.entries.values()) if self.posts else []
+    def run_job(self,**kw):
+        self.posts+=1
+        if self.scenario.startswith('lost_submit'):raise httpx.ReadTimeout('offline POST response fault')
+        return self.job
+    def inspect_job(self,job_id,**kw):
+        assert job_id=='owned-job';self.inspections+=1
+        if self.scenario=='observe_recovery' and self.inspections<=3:
+            raise httpx.ReadTimeout('offline observation fault')
+        return SimpleNamespace(status=SimpleNamespace(stage='CANCELED' if self.terminated else 'RUNNING'))
+    def cancel_job(self,job_id,**kw):
+        assert job_id=='owned-job';self.canceled.append(job_id)
+        if self.scenario!='cancel_unconfirmed':self.terminated=True
+    def fetch_job_logs(self,**kw):
+        if self.scenario=='processing_failure':raise ValueError('offline malformed provider data')
+        if self.scenario=='no_inventory_deadline':return []
+        event=dict(stage='ready_to_persist',manifest=self.manifest,manifest_bytes=len(self.data),manifest_sha256=sha256(self.data).hexdigest())
+        return [json.dumps(event)]
+    def download_bucket_files(self,bucket,pairs,**kw):
+        for entry,path in pairs:path.write_bytes(self.data)
+
+def run(kind, scenario):
+    mod=load(kind);identity,manifest=fixture(mod,kind,scenario);api=FakeApi(identity,manifest,scenario);clock=Clock()
+    mod.HfApi=lambda:api;mod.time=clock;mod.observe.__defaults__=(clock.sleep,)
+    mod.subprocess=SimpleNamespace(check_output=lambda *a,**kw:'critic-offline')
+    error=None
+    try:mod.main()
+    except Exception as e:error=type(e).__name__+': '+str(e)
+    events=[json.loads(x) for x in (mod.OUT/'events.jsonl').read_text().splitlines()]
+    assert api.posts==1
+    assert set(api.canceled)<={'owned-job'}
+    if scenario=='observe_recovery':
+        assert error is None and api.terminated and any(x['event']=='observation_delayed' for x in events)
+    elif scenario in ('lost_submit_reconciled','lost_submit_transient_reconcile','processing_failure'):
+        assert error and api.terminated and api.canceled and events[-1]['cloud_terminal'] is True
+    elif scenario=='cancel_unconfirmed':
+        assert error=='RuntimeError: Remote termination not confirmed'
+        assert events[-1]['event']=='URGENT_termination_unconfirmed' and not api.terminated
+    elif scenario in ('lost_submit_unconfirmed','lost_submit_persistent_reconcile','lost_submit_invalid_reconcile'):
+        assert error and events[-1]['cloud_terminal'] is False and any(x['event']=='URGENT_submission_unconfirmed' for x in events)
+    elif scenario=='no_inventory_deadline':
+        assert error and 'inventory not verified' in error and api.terminated
+        assert clock.t==(1810 if kind=='canary' else 9010) and events[-1]['cloud_terminal'] is True
+    result=dict(kind=kind,scenario=scenario,posts=api.posts,reconciles=api.reconciles,cancel_calls=len(api.canceled),
+                terminated=api.terminated,clock_seconds=clock.t,error=error,final_event=events[-1])
+    if kind=='continuation' and scenario=='observe_recovery':
+        for label,change in [('old312',dict(completed_global_step=312)),('schedule_incomplete',dict(training_schedule_completed=False)),('wrong_expected',dict(expected_total_steps=312))]:
+            bad=dict(manifest,**change)
+            try:mod.checked_inventory(bad,api.entries,identity['output_prefix'],identity)
+            except AssertionError:pass
+            else:raise AssertionError('Admitted '+label)
+        old=dict(manifest);old.pop('training_schedule_completed');old.pop('completed_global_step');old['training_reached_step_312']=True
+        try:mod.checked_inventory(old,api.entries,identity['output_prefix'],identity)
+        except (AssertionError,KeyError):pass
+        else:raise AssertionError('Admitted legacy312-only')
+        result['completion_negative_controls']=4
+    return result
+
+results=[]
+for kind in ('canary','continuation'):
+    for scenario in ('observe_recovery','lost_submit_reconciled','processing_failure','cancel_unconfirmed','lost_submit_unconfirmed','lost_submit_transient_reconcile','lost_submit_persistent_reconcile','lost_submit_invalid_reconcile','no_inventory_deadline'):
+        results.append(run(kind,scenario))
+(RUN/'results.json').write_text(json.dumps(results,indent=2)+'\n')
+print('CRITIC_RESULTS',json.dumps(results))

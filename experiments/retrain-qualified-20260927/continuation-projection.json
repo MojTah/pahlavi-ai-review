@@ -1,0 +1,29 @@
+{
+  "schedule": {
+    "train_rows": 2237,
+    "expected_total_steps": 280,
+    "remaining_steps": 260
+  },
+  "forecast": {
+    "status": "locally_admitted_not_submitted",
+    "expected_total_steps": 280,
+    "remaining_steps": 260,
+    "canary_train_seconds": 364.204,
+    "baseline_generation_seconds": 170.8188028060831,
+    "final_evaluation_allowance_seconds": 420,
+    "model_reload_reserve_seconds": 180,
+    "model_reload_reserve_is_estimate": true,
+    "safety_multiplier": 1.3,
+    "export_reserve_seconds": 300,
+    "projected_seconds": 7055.047600000001,
+    "available_seconds": 8100,
+    "native_timeout_minutes": 150,
+    "internal_timeout_minutes": 145,
+    "setup_reserve_seconds": 600,
+    "worst_cumulative_compute_usd": 13.96,
+    "cash_reserve_usd": 0.75,
+    "budget_ceiling_usd": 25
+  },
+  "rate_per_hour": 2.50002,
+  "worst_cumulative_with_5minute_shutdown_and_reserve_usd": 14.918385
+}

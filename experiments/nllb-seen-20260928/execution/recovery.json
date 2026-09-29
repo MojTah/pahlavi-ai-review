@@ -1,0 +1,43 @@
+{
+  "utc": "2026-09-28T10:42:00.034164+00:00",
+  "run_id": "7bc1eeee63a344b1bd08493080b42c77",
+  "manifest_sha256": "0da397c9dcffee149e16aaecb78038d0b663a8f3c807094d3c6a4ddc776d1b53",
+  "persistence_upper_seconds": 61.46754590099988,
+  "provider_inventory_committed": true,
+  "provider_inventory": {
+    "nllb-seen/7bc1eeee63a344b1bd08493080b42c77/driver.log": {
+      "bytes": 1262,
+      "xet_hash": "84995fd20a2bea99137f1cedc88e0ccdd39e4fc7a1ef0b1d5a4a4f5a1641f7df"
+    },
+    "nllb-seen/7bc1eeee63a344b1bd08493080b42c77/manifest.json": {
+      "bytes": 3059,
+      "xet_hash": "477b2f1df6ef4ff1954cce449094c26980eb693eb4856d17a86cc3ad91798808"
+    },
+    "nllb-seen/7bc1eeee63a344b1bd08493080b42c77/package-manifest.json": {
+      "bytes": 1242,
+      "xet_hash": "f3492e8561d567421922c1eb6f22b5ac886ac2e37366d4af3961f43e2b41c8fd"
+    },
+    "nllb-seen/7bc1eeee63a344b1bd08493080b42c77/seen/run.json": {
+      "bytes": 4815,
+      "xet_hash": "8c906f254089d7d0dc55cdf7e0a9d377c3d597fd2f258a1a86338fb7a990a39d"
+    },
+    "nllb-seen/7bc1eeee63a344b1bd08493080b42c77/seen/schedule.json": {
+      "bytes": 11494,
+      "xet_hash": "c0edf4e923b15f4b1d233ea43ae4371d292df1be2ba778d106afbb55b7863670"
+    },
+    "nllb-seen/7bc1eeee63a344b1bd08493080b42c77/status.json": {
+      "bytes": 2181,
+      "xet_hash": "3a77ee349d38a7a982e583b8868584b8aae62579f89721d02d81985a3eab6309"
+    }
+  },
+  "local_sha_verified_files": [
+    "driver.log",
+    "package-manifest.json",
+    "seen/run.json",
+    "seen/schedule.json",
+    "status.json"
+  ],
+  "model_weights_downloaded": false,
+  "diagnostic_status": "incomplete",
+  "weight_sha_evidence": "Server manifest; provider committed size/Xet independently observed. No laptop weight download."
+}

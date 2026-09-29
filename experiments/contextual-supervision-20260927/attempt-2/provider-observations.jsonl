@@ -1,0 +1,1 @@
+{"utc": "2026-09-27T14:11:02.000255+00:00", "job_id": "6ab9237d52d0dbd7f1d9c66b", "stage": "RUNNING", "message": null, "created_at": "2026-09-27 14:09:01.937000+00:00", "started_at": "2026-09-27 14:10:41.773000+00:00", "finished_at": null, "durations": {"scheduling_secs": 99, "running_secs": 19, "total_secs": 119}}

@@ -1,0 +1,128 @@
+{
+  "bootstrap_hashes": {
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "canary_compute_pass": true,
+  "checkpoint": "training/checkpoint-20",
+  "commands": [
+    [
+      "/usr/bin/python",
+      "-u",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle/fetch_base.py",
+      "--out",
+      "/tmp/pahlavi-canary-y_81zbl7/base",
+      "--download"
+    ],
+    [
+      "/usr/bin/python",
+      "-u",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle/runtime.py",
+      "train",
+      "--bundle",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle",
+      "--contract",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle/contract.json",
+      "--base",
+      "/tmp/pahlavi-canary-y_81zbl7/base",
+      "--deadline-utc",
+      "2026-09-27T05:27:44.726263+00:00",
+      "--output",
+      "/tmp/pahlavi-canary-y_81zbl7/artifacts/training",
+      "--max-steps",
+      "20"
+    ]
+  ],
+  "cross_job_sha256_verified": false,
+  "files": {
+    "base-provenance.json": {
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+    },
+    "bundle-manifest.json": {
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+    },
+    "contract.json": {
+      "bytes": 5221,
+      "sha256": "2f974dca27dc8c68664efe6721f7f420a801513c6cf95d80aace8c18d5e940cc"
+    },
+    "job-provenance.json": {
+      "bytes": 1301,
+      "sha256": "3b11f33530f0dbbc0fe8052e027f9f0f9fb8bcaceb399dc045591f41688db519"
+    },
+    "training/canary-adapter/README.md": {
+      "bytes": 5220,
+      "sha256": "17759c6245789f4ef5a6b1ad4b142836270884313ba7796917655e9937d37309"
+    },
+    "training/canary-adapter/adapter_config.json": {
+      "bytes": 1209,
+      "sha256": "2a86ce4e6e1684bbe0b13b2be4eec361ff0c0bf5a2c59bf65f7e92d083d8b093"
+    },
+    "training/canary-adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "sha256": "5000610b509d7a457faa6a81574ceea5058e88f3bcf3dd4347ea0436ff4e4c0b"
+    },
+    "training/checkpoint-20/README.md": {
+      "bytes": 5220,
+      "sha256": "17759c6245789f4ef5a6b1ad4b142836270884313ba7796917655e9937d37309"
+    },
+    "training/checkpoint-20/adapter_config.json": {
+      "bytes": 1209,
+      "sha256": "2a86ce4e6e1684bbe0b13b2be4eec361ff0c0bf5a2c59bf65f7e92d083d8b093"
+    },
+    "training/checkpoint-20/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "sha256": "5000610b509d7a457faa6a81574ceea5058e88f3bcf3dd4347ea0436ff4e4c0b"
+    },
+    "training/checkpoint-20/optimizer.pt": {
+      "bytes": 980130111,
+      "sha256": "535bd511f87465c5c60ef617c61461cd45cfeda5d7cf8058f77f54790b4df2a9"
+    },
+    "training/checkpoint-20/rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "f1d565802a8e26c4e8a31328752b7a7fdc186d9401aa008e65697d0ad8c22e33"
+    },
+    "training/checkpoint-20/scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "342a83d002bd54ae9231211d486319b3e63229d893d917cc1321798c0539752c"
+    },
+    "training/checkpoint-20/trainer_state.json": {
+      "bytes": 4418,
+      "sha256": "324e51b2786343b936b1b8c5812cafa4d19c063f2f29b3cabd16f9fe31c92984"
+    },
+    "training/checkpoint-20/training_args.bin": {
+      "bytes": 5201,
+      "sha256": "af7897fbb3e9f23e9a8ae15dc0af6200b391fc42ba76b30b85cdfd828a71cced"
+    },
+    "training/contract.json": {
+      "bytes": 5221,
+      "sha256": "2f974dca27dc8c68664efe6721f7f420a801513c6cf95d80aace8c18d5e940cc"
+    },
+    "training/environment.json": {
+      "bytes": 483,
+      "sha256": "429260153685f49c164921c00b386b215513a8ad81c54a1e758d05456f3d64a8"
+    },
+    "training/metrics.json": {
+      "bytes": 298,
+      "sha256": "2596bd038e73e5283e250e9ae67b123fe63af2e606551ea8aec28bdfba8bb015"
+    },
+    "training/provenance.json": {
+      "bytes": 2108,
+      "sha256": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69"
+    },
+    "training/status.json": {
+      "bytes": 149,
+      "sha256": "a6d41135dd3c2dbd477092e9f286ff83582f70d3140f53ff6766a664eed05a5a"
+    }
+  },
+  "full_training_resumed": false,
+  "global_step": 20,
+  "model_id": "google/gemma-4-31B-it",
+  "remote_inventory_verified": false,
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "run_id": "aa880289a9614f80aaa5a430e53440ee",
+  "schema_version": 1
+}

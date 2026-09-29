@@ -1,0 +1,109 @@
+{
+  "status": "server_committed_inventory_verified",
+  "job_id": "6ab8a42352d0dbd7f1d9a228",
+  "manifest_sha256": "ef4d570b8b28e7aa7c8f120cc18cfcd6b5c0cc705326f06198dc0e144c8a9388",
+  "files": [
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/base-provenance.json",
+      "bytes": 2322,
+      "xet_hash": "6216b1480fede2897e53244075f188ccbf08fd282aee21cfce9c2f5d2197321e"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/bundle-manifest.json",
+      "bytes": 1825,
+      "xet_hash": "bdf40c635056b6b4071ceb3f678357cfff810969176f170d69be70924272da45"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/contract.json",
+      "bytes": 5221,
+      "xet_hash": "553df639f2dffb73034bafa5b11cf8266ef1cfac1ee73d7153fd913b69d37e8a"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/job-provenance.json",
+      "bytes": 1301,
+      "xet_hash": "89d5ea476dd1eab342ceb4c14755da1f134d6ecfe13044662c65d27f529d1d22"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/canary-adapter/README.md",
+      "bytes": 5220,
+      "xet_hash": "c1145a288798040e8025db4faadf8dc91ae04897477c776a6bffcdebe566c201"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/canary-adapter/adapter_config.json",
+      "bytes": 1209,
+      "xet_hash": "4af35130db471363bf6c7e909a136b556861e1e2232fdc94142ea12c2c5284e7"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/canary-adapter/adapter_model.safetensors",
+      "bytes": 489840816,
+      "xet_hash": "16812865764a8f64d3e6e85385246f481883bd7bf090e90911601cc85faade46"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/README.md",
+      "bytes": 5220,
+      "xet_hash": "c1145a288798040e8025db4faadf8dc91ae04897477c776a6bffcdebe566c201"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/adapter_config.json",
+      "bytes": 1209,
+      "xet_hash": "4af35130db471363bf6c7e909a136b556861e1e2232fdc94142ea12c2c5284e7"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/adapter_model.safetensors",
+      "bytes": 489840816,
+      "xet_hash": "16812865764a8f64d3e6e85385246f481883bd7bf090e90911601cc85faade46"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/optimizer.pt",
+      "bytes": 980130111,
+      "xet_hash": "70d9fcdbe251f08dd4f603009d7f39ef3707bac82ca8efcf0b18e4bcf1311544"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/rng_state.pth",
+      "bytes": 14645,
+      "xet_hash": "9faa87f6171d1b6fba29ab2bfae1b4114e61a5dda874969d940862af9557f930"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/scheduler.pt",
+      "bytes": 1465,
+      "xet_hash": "c90563a52f66b05008f20e2fe15360f95f68044c9abc0ac3b3341dbeb3804d17"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/trainer_state.json",
+      "bytes": 4418,
+      "xet_hash": "a80cde8ec1a0dc1f2bcbab708ce513c499e1a84c315cb7f0cf4d6e389415c986"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/checkpoint-20/training_args.bin",
+      "bytes": 5201,
+      "xet_hash": "018493f25f24feba5e242ae0197d4e02a2096852917227e751d2ed4083752def"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/contract.json",
+      "bytes": 5221,
+      "xet_hash": "553df639f2dffb73034bafa5b11cf8266ef1cfac1ee73d7153fd913b69d37e8a"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/environment.json",
+      "bytes": 483,
+      "xet_hash": "f498f7e507b5b989836985990da3f4b21488346467e210f0177a88b557510ec9"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/metrics.json",
+      "bytes": 298,
+      "xet_hash": "594779527e839b4585f0ff66a06a4bde958a362d6339da330f69d8967a9016f2"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/provenance.json",
+      "bytes": 2108,
+      "xet_hash": "49b016e9c8f8328f6dab43b65f6921a66fc171d3d2ff6c99d7c5575111932bf7"
+    },
+    {
+      "path": "trials/aa880289a9614f80aaa5a430e53440ee/training/status.json",
+      "bytes": 149,
+      "xet_hash": "fd6d8af074863206054d7b15081ea0d6ccb2e6b5f22924c2e3346389c6130141"
+    }
+  ],
+  "cross_job_sha256_verified": false,
+  "resume_requires_all_file_sha256": true
+}

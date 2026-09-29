@@ -1,0 +1,68 @@
+{
+  "auxiliary_parents": 12,
+  "auxiliary_prompt_template": "Translate the selected expression from this Middle Persian passage into Farsi, using the passage as context. Return only its contextual meaning. Preserve negation and uncertainty. Do not invent missing context.\nSource:\n{source}\nSelected expression:\n{focus}",
+  "evaluation_inputs_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "evaluation_prompt": "dev_assisted.messages(row, plain, [])",
+  "experiment_id": "contextual-supervision-20260927",
+  "expert_adjudicated": false,
+  "files": {
+    "auxiliary-tokenized.jsonl": {
+      "bytes": 25845,
+      "sha256": "270a0134c417a00744b274f0ad6ff0523aba5271a6177c4210d0042a0cdd25cc"
+    },
+    "dev-prompt-identities.json": {
+      "bytes": 4181,
+      "sha256": "18870c061b9a19c74180726c5384b71a67a488ca73fc9aef58f96590b012ee66"
+    },
+    "extension-proposals.jsonl": {
+      "bytes": 22146,
+      "sha256": "17cc66d7a880ef6ad64d79493ac447602465f2f62356d448800c523d87d0c5a4"
+    },
+    "ordered-slots.jsonl": {
+      "bytes": 132096,
+      "sha256": "d9e2e2e39ad912399be60dd473d22fb1d0a7e1f3791fbeccbe18e246ce2d6b1a"
+    },
+    "proposals.jsonl": {
+      "bytes": 4866,
+      "sha256": "f465bfac2d3f818c1960386dc0ef1edbc6b2a87561ede3b0e6c657ed2860923e"
+    },
+    "qualification-decision-v2.json": {
+      "bytes": 5328,
+      "sha256": "70e6a477ebe8d0db714d7fb03cf49e9368001229488deeeff93c987b7eec21f4"
+    },
+    "regular-id-order.jsonl": {
+      "bytes": 46080,
+      "sha256": "91d78e7b17484b9f93be0488d08ab2044fe768da7e17e331935f863b53950687"
+    }
+  },
+  "paid_launch_admitted": false,
+  "qualification_decision_sha256": "70e6a477ebe8d0db714d7fb03cf49e9368001229488deeeff93c987b7eec21f4",
+  "qualified_train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "quality_validated": false,
+  "regular_parents": 720,
+  "schema_version": 1,
+  "settings": {
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_epsilon": 1e-08,
+    "bf16": true,
+    "gradient_accumulation_steps": 16,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "linear",
+    "max_grad_norm": 1.0,
+    "max_steps": 48,
+    "optim": "adamw_torch",
+    "seed": 3407,
+    "warmup_steps": 2,
+    "weight_decay": 0.0
+  },
+  "slots_per_arm": 768,
+  "source_review_paths": {
+    "EXTENSION-REVIEW.md": "9ab579f1b87007f2a96120852ddceda1cf9fcb56634f1b0bf020a33188e1b5a7",
+    "REVIEW.md": "b89e70e48023c757af3b449fe0fca5923b5b48f6bb22f7bd08c6a3352eb8bf13"
+  },
+  "status": "PREPARED_LOCAL_NOT_PAID_ADMITTED",
+  "token_census_sha256": "406843264d8c9f9ddef7cfc5d8f40354b7c7d1845165a541dde8ae6d5d2981e7",
+  "uniform_evaluation_contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2"
+}

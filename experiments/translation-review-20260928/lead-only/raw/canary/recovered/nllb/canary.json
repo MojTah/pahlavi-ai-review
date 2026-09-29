@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "completed_step": 20,
+  "remaining_updates": 680,
+  "max_steady_update_seconds": 1.714872564014513,
+  "remaining_seconds": 484.9499258809956,
+  "baseline_seconds": 83.27343346198904,
+  "save_reload_seconds": 62.557424184982665,
+  "gpu_peak_bytes": 27981409792,
+  "source_gradient_not_isolated": true,
+  "appended_row_abs_deltas": [
+    0.038132499903440475,
+    0.02619675174355507,
+    0.025564098730683327,
+    0.04854639619588852,
+    0.02616116963326931,
+    0.04854639619588852,
+    0.03464615345001221,
+    0.04854639619588852,
+    0.06418034434318542
+  ],
+  "representative_with_optimizer": {
+    "seconds": 0.4027137500233948,
+    "loss": 4.054458141326904,
+    "gradient_norm": 5.879846572875977,
+    "optimizer_updates": 0,
+    "populated_optimizer": true
+  }
+}

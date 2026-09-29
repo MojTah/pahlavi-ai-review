@@ -1,0 +1,17 @@
+{
+  "id": "parsig:510000002",
+  "status": "FORMAT_REPAIR_PROBE_ONLY_NOT_TRAIN_ADMISSION",
+  "source_sha256": "c42e0a5a0d4d108218a0481ca073c07c6bb00cdcba0bffb462b67bb6d7a60789",
+  "parser_path": "[USER_HOME]\\Documents\\Codex Projects\\01-Software\\Pahlavi Translator\\pahlavi\\curation.py",
+  "parser_sha256": "716094cfa3b50cd1f1701b714f099f6db0e94ea399fc504194f92cd484584be7",
+  "original_source_sha256": "3de3c5887d051df63d88426b82ea7da8b86648d70fe3c73e5ea8df2ea8439f84",
+  "proposed_source_sha256": "50e50b757ac8fa7773ef5aa03d0974bae05750b502d273d7adfb0918590a8816",
+  "proposed_change": "Remove only final space plus U+0559 ARMENIAN MODIFIER LETTER LEFT HALF RING following the complete printed citation",
+  "before_citation": null,
+  "after_citation": "(Boyce, 1975, pp.44-45).",
+  "target_citation": "(مصطفوی کاشانی، 1401)",
+  "raw_unchanged": true,
+  "source_written": false,
+  "target_changed": false,
+  "limits": "This repairs only citation recognition. No edition-page, linguistic, lineage, split, token-length, downstream curation or training admission is established."
+}

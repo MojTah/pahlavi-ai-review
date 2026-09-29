@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "tests": 8,
+  "seconds": 63.203,
+  "source_sha256": {
+    "scripts/review_contextual.py": "1e100fd41535db1d0b361e9096d65af0885a3747f0f4fc8c8bf458977677e7af",
+    "scripts/test_review_contextual.py": "43b5a96dd503003099c757203cced0b593829eb1be30e6f1f045f22027d17200",
+    "scripts/score_blind_dev_assisted.py": "7dfa3ac29b038fb370f27a6afbfab6d6d2c733644a62c40fa26cac7e5bbeb5b5"
+  },
+  "screen_gain_in_two_works_even_one_net_zero": true,
+  "global_net_gain_two": true,
+  "incomplete_inconclusive": true,
+  "constrained_critical_and_overconfidence_vetoes": true,
+  "accepted_to_critical_and_whole_critical_vetoes": true,
+  "uniform_contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "all_eight_frozen_merit_bindings_unchanged": true,
+  "actual_model_outputs_or_reviews_read": false,
+  "cloud_network_credentials_model_weights": false
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "aa880289a9614f80aaa5a430e53440ee",
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "global_step": 20,
+  "model_id": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "bootstrap_hashes": {
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"
+  },
+  "commands": [
+    [
+      "/usr/bin/python",
+      "-u",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle/fetch_base.py",
+      "--out",
+      "/tmp/pahlavi-canary-y_81zbl7/base",
+      "--download"
+    ],
+    [
+      "/usr/bin/python",
+      "-u",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle/runtime.py",
+      "train",
+      "--bundle",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle",
+      "--contract",
+      "/tmp/pahlavi-canary-y_81zbl7/bundle/contract.json",
+      "--base",
+      "/tmp/pahlavi-canary-y_81zbl7/base",
+      "--deadline-utc",
+      "2026-09-27T05:27:44.726263+00:00",
+      "--output",
+      "/tmp/pahlavi-canary-y_81zbl7/artifacts/training",
+      "--max-steps",
+      "20"
+    ]
+  ],
+  "checkpoint": "training/checkpoint-20",
+  "full_training_resumed": false
+}

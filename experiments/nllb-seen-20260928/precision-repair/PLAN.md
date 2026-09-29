@@ -1,0 +1,13 @@
+# Explicit FP32 loss-reference amendment
+
+**Completed:** repaired job finished at11:02:01 UTC on28 September2026; both actual canaries and all60 calls passed. Separate blind reviews and independent integrity/arithmetic audits are complete. The prospective declaration below is preserved; see [REPORT.md](REPORT.md) for results, cost and next decision.
+
+Declared before any scored call of this diagnostic. The [original scientific plan](../PLAN.md),20parents/16works, source permutation, FP32 likelihood estimand, all60 calls, generation, pretrained/trained model identity and blind rubric remain unchanged. The [first failed attempt](../FAILED-ATTEMPT.md) remains a separate incomplete result.
+
+Only the numerical calibration changes: explicit FP32 cross-entropy is the reference for independent FP32 log-softmax/gather, with unchanged1e-5 absolute/relative tolerance. Raw native autocast loss, its dtype and discrepancy remain recorded. Root actual-CUDA and CPU checks passed3tests in11.046seconds, including a padded tiny model, full256215-vocabulary synthetic logits, FP64 comparison, original reload/failure checks and rejection of a corrupted reference. Four lifecycle/package checks passed in1.524seconds. Independent review and fresh paid admission are still required.
+
+The existing controller and guard are reused unchanged. Wrapper EXP/LOCAL paths select this explicit new namespace; the original execution/package/journals are preserved. The server output prefix uses a fresh unique run ID and one submission POST. Compute600/internal780/native900seconds and small-only recovery remain unchanged. Local repair estimate15minutes, warning20; no repeat unless evidence establishes a new bounded repair and full readiness is reconsidered.
+
+Combined first+corrected allocation isUSD1.25: conservative first estimate0.291669 plus corrected proposed bound0.875005 totals1.166674. This allocation remains within the authorized fundedUSD25 and existing available credit; it neither purchases credit nor changes billing settings or the conservative old3.208353 admission reservation. Fresh account/rate/idle inventory and exact package roundtrip gate submission. Both real readiness forwards and remaining-time projection still gate scored execution.
+
+Corrected package SHA256 `e7a63808e2e081ca053211804512ec6850bf4a4bea957fdfbe9af67f24cd1733`; manifest `b967694343bf4dddab48ac3c701b9b9ace5eb1cd8ae50b28fdab03e64ceaec4e`; runner `0477faeb52b2639e5121afc0e649b3c32bb471f4343b2803967115a37574a585`. The frozen token map is unchanged. Scientific results, if any, are analyzed under this prospective amendment and cannot conceal the first failure.

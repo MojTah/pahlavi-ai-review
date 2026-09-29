@@ -1,0 +1,41 @@
+{
+  "decoded_output_rows_verified": 25,
+  "output_text_matches_token_ids": true,
+  "prediction_sha256": "b4a4349b4beba3d9b2640810ac3248ceb6a3d9390c867d77f478fbaa3f993734",
+  "status_counts": {
+    "success": 24,
+    "error": 1
+  },
+  "failed_case_id": "TRAINRECALL1-013:training",
+  "failure_type": "output_cap_without_eos",
+  "failed_output_tokens": 4096,
+  "failed_elapsed_seconds": 668.0900821429677,
+  "failed_unique_token_count": 41,
+  "max_repeated_12_token_window_count": 499,
+  "failed_repeated_window_text": " (=که) (=می‌خواهد) (=که) (=",
+  "training_performed": false,
+  "model_weights_loaded_or_downloaded_locally": false,
+  "training_fit_evidence": {
+    "source_files_sha256": {
+      "experiments/retrain-qualified-20260927/continuation/training/checkpoint-280/trainer_state.json": "1ba7c18671c477722b69cabb4cc204b06bce6b784218588343b5a7f827b8ee20",
+      "experiments/retrain-qualified-20260927/continuation/training/metrics.json": "5327988bac7e0b68766bf63c15913675cd583c4fdfd36a06d381265e381f4473"
+    },
+    "logged_updates": 280,
+    "first_20_mean_logged_loss": 2.7060996651649476,
+    "last_20_mean_logged_loss": 0.7521619111299515,
+    "last_logged_loss": 0.8188119530677795,
+    "positive_finite_gradient_norm_logs": 280,
+    "trainable_parameters_reported": 122429440,
+    "reported_resumed_train_loss": 0.9861480697989464,
+    "resumed_260_step_mean_logged_loss": 1.0620056136296345,
+    "resumed_loss_sum_divided_by_280": 0.9861480697989464,
+    "actual_batch_loss_boundary_trace_available": false,
+    "teacher_forced_loss_on_these_20_measured": false,
+    "limitation": "Logged training losses are not semantic merit, endpoint evaluation loss, or measured token exposure."
+  },
+  "uniform_merit_verification": {
+    "contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+    "bound_files_verified_unchanged": 8,
+    "new_metric_created": false
+  }
+}

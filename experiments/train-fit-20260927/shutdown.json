@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-27T12:30:49.139031+00:00",
+  "job_id": "6ab90a5e6b030d633f699327",
+  "stage": "CANCELED",
+  "all_jobs_terminal": true,
+  "job_count": 16,
+  "elapsed_wall_seconds": 539.204369,
+  "canceled_after_verified_recovery": true
+}

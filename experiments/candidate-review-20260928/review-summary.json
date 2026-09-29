@@ -1,0 +1,33 @@
+{
+  "status": "TRIAGE_COMPLETE_NOT_TRAIN_ADMITTED",
+  "reviewer": "/root",
+  "case_count": 200,
+  "group_count": 455,
+  "observation_count": 471,
+  "relations": {
+    "CONTEXT_REQUIRED": 102,
+    "DIFFERENT_PUBLISHED_SENSES_OR_ROLES": 47,
+    "FORM_SCOPE_REVIEW": 2,
+    "PARAPHRASE_CANDIDATE": 49
+  },
+  "placeholder_group_holds": 6,
+  "compound_scope_observation_holds": [
+    "kosh:gbd:11",
+    "kosh:gbd:15",
+    "kosh:gbd:16"
+  ],
+  "numeral_mismatch_passage_hold": "201001001",
+  "input_decisions_sha256": "15330549136ec9acc946a7f3ab9fbd2ef0165bd773d21d025feecbc370a03480",
+  "packet_manifest_sha256": "226d1f24b9db92406af33c7a7cdcbf3af083865406375034dfd0a472d4fb3e7e",
+  "verification_script_sha256": "f4f4eb4aca783b9b3733aa0985b502ddd04e63568fe4f8e1336e127c0362e203",
+  "historical_train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "new_training_rows": 0,
+  "scope": "200 same-form gloss comparisons, not full corpus linguistic certification",
+  "limitations": [
+    "AI review",
+    "No original book-page verification for dictionary suspects",
+    "No new source-family split clearance",
+    "No automated translation correction or merging"
+  ],
+  "overlay_sha256": "0c47709543d067fa8457f1cc688da931d82d9353bd6b7f6ccf7b10fdc3859a8d"
+}

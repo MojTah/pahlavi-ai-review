@@ -1,0 +1,23 @@
+{
+  "verdict": "PASS_LOCAL_PACKET_HELPER_FIXTURE",
+  "reviewer_id": "/root/final_external_judge",
+  "helper_sha256": "f0fbcf7cbc54d75865ae340f9b873594ac59ab209df30b5399fc1feacfa0d806",
+  "positive_cli_exit": 0,
+  "reviewer_count": 2,
+  "outputs_each": 80,
+  "unique_opaque_ids": 160,
+  "all_exact_sources_references_checks_outputs_and_hashes_verified": true,
+  "independent_orders": true,
+  "reviewer_folder_allowlist_only": true,
+  "unchanged_frozen_rubric": true,
+  "negative": "changed input token count rejected before creating output",
+  "candidate_model_provenance_not_verified": true,
+  "files": {
+    "reviewer-A/packet.jsonl": "e3256a0138079c60e8713299af9b0008b90cb4d1b3e0f7e4be0b400031dccff0",
+    "reviewer-A/INSTRUCTIONS.md": "79bfe018990a567c3b75b0142fcaf260e9f07ba3043b465d8d2e6b9a27a10526",
+    "reviewer-B/packet.jsonl": "d4ef1102ef82b3e7588bb2eac175df809ef5377b1493fa4b7de35cae195d79e6",
+    "reviewer-B/INSTRUCTIONS.md": "79bfe018990a567c3b75b0142fcaf260e9f07ba3043b465d8d2e6b9a27a10526",
+    "lead-only/mapping.jsonl": "fb791d0d1d3f252c3688a368eedbcdbe8e6194ff5e06b6c87a3451c3b8f4d3e2",
+    "lead-only/provenance.json": "4a5e816309ba0b6d453db1b14bc9f7918c3aee4cf6d32e6ef68835eab411430e"
+  }
+}

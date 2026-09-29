@@ -1,0 +1,130 @@
+{
+  "identity": {
+    "model": {
+      "model_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "version": "real-full-20260921",
+      "adapter_files": {
+        "adapter_config.json": "fba2656c1059088123f778d519ee7e3f8d0e0e9f7f5b47002b4fb9a8d3d5a10f",
+        "adapter_model.safetensors": "6979126fccedd8b8bb46c0284d79546838e17dc942688be9db0e119f2042b3ea"
+      }
+    },
+    "config_sha256": "c74863d1f78a32854e0240f6325dce527ab80bbbd31142613fc70614c5e3bda9",
+    "base_files": {
+      ".gitattributes": {
+        "bytes": 1570,
+        "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+      },
+      "LICENSE": {
+        "bytes": 11343,
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+      },
+      "README.md": {
+        "bytes": 16857,
+        "sha256": "71add1cd091c309b1cb1a6b943f2476eb2b004124b3bd1d32dcd0b24cc1abc47"
+      },
+      "config.json": {
+        "bytes": 726,
+        "sha256": "8ba006f74fecfaaeb392872a60f4a480e7ec9860153d2e1b769ec81f9a147f8a"
+      },
+      "generation_config.json": {
+        "bytes": 239,
+        "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+      },
+      "merges.txt": {
+        "bytes": 1671853,
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+      },
+      "model-00001-of-00003.safetensors": {
+        "bytes": 3957900840,
+        "sha256": "328a91d3122359d5547f9d79521205bc0a46e1f79a792dfe650e99fc2d651223"
+      },
+      "model-00002-of-00003.safetensors": {
+        "bytes": 3987450520,
+        "sha256": "6cd087b316306a68c562436b5492edbcf6e16c6dba3a1308279caa5a58e21ca5"
+      },
+      "model-00003-of-00003.safetensors": {
+        "bytes": 99630640,
+        "sha256": "e4bf436957184f4eeb86a80e9db394503f1f56446b2e6b7edeac5b81470f4ca1"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 32819,
+        "sha256": "6dc0981b8829fead746441f68f38f24c5ca4a3a66351f652c26c6df0efc43ab2"
+      },
+      "tokenizer.json": {
+        "bytes": 11422654,
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+      },
+      "tokenizer_config.json": {
+        "bytes": 9732,
+        "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+      },
+      "vocab.json": {
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    },
+    "runtime": {
+      "files": {
+        "pahlavi/training.py": "4c2831a1a6c5c9e19dbab0f167bf324663dd378ae8287188c038b8e8d0ba7d61",
+        "pahlavi/model.py": "08ac9472022c5a910e7805b7d61a6eca094462192607028ed57e53dcda3141bc",
+        "pahlavi/schema.py": "9da015108d60fe1566c1dae313272399aeebc4b7a5d798e25b713ddaba760f21",
+        "pahlavi/holdout.py": "90d66c53c03870413d86b4ac2bd77d6e95010bd316ed0c01c3414ccc68ad67c9",
+        "pahlavi/benchmark-holdout.json": "fead263bb73e4797c09595320aeeefb6cf7e553510e3fb08a932700ffaaa55cc",
+        "uv.lock": "8a2524c9d33b0fe79ea72ddb06e389feb467729a3ba161cd6e5d647f38853aaa"
+      },
+      "packages": {
+        "torch": "2.11.0+cu128",
+        "transformers": "4.57.6",
+        "peft": "0.21.0",
+        "bitsandbytes": "0.50.2",
+        "accelerate": "1.15.0"
+      }
+    },
+    "quality_code_sha256": "043b12a9cbe518729282df7fbef93126210c377122a252b1db9232dc7c2a782c",
+    "runner_sha256": "41f0acfe5b2362140b64a140ec6aef4def933347407e4b709b3f83de6bc0f808",
+    "inputs_sha256": "6337cdf30be65333847b4e25eca4e63a742029ddc46950f15f2f65fbc32cc3c0",
+    "audit_sha256": "3a9a265d53d7d33d01eb59a888a218ec1b890871edad34d4eab5358de1c6f0d2",
+    "reference_screen_sha256": "5b8cab89fff3132408dc6a6d81b9bff3ab94cd61585aaa54219282a36c2abfb0",
+    "prompt": "Translate the following Middle Persian text in scholarly Latin transcription into {language}. Return only the translation. Preserve negation, participants, names, numbers, and uncertainty. Do not invent missing context.\nSource:\n{text}",
+    "order": [
+      "PALDEV1-001:pal>en",
+      "PALDEV1-001:pal>fa",
+      "PALDEV1-006:pal>en",
+      "PALDEV1-006:pal>fa",
+      "PALDEV1-002:pal>en",
+      "PALDEV1-002:pal>fa",
+      "PALDEV1-003:pal>en",
+      "PALDEV1-003:pal>fa",
+      "PALDEV1-004:pal>en",
+      "PALDEV1-004:pal>fa",
+      "PALDEV1-005:pal>en",
+      "PALDEV1-005:pal>fa"
+    ],
+    "max_new_tokens": 1024,
+    "max_input_tokens": 4096,
+    "case_seconds": 120,
+    "run_seconds": 600,
+    "decoding": "greedy",
+    "retrieval": "none",
+    "fresh_context_each_case": true,
+    "first_attempt_only": true,
+    "precision": "existing Qwen loader: 4-bit NF4",
+    "purpose": "exploratory DEV, not PAL-REF or language qualification"
+  },
+  "preflight_tokens": {
+    "PALDEV1-001:pal>en": 93,
+    "PALDEV1-001:pal>fa": 97,
+    "PALDEV1-006:pal>en": 180,
+    "PALDEV1-006:pal>fa": 184,
+    "PALDEV1-002:pal>en": 114,
+    "PALDEV1-002:pal>fa": 118,
+    "PALDEV1-003:pal>en": 119,
+    "PALDEV1-003:pal>fa": 123,
+    "PALDEV1-004:pal>en": 146,
+    "PALDEV1-004:pal>fa": 150,
+    "PALDEV1-005:pal>en": 161,
+    "PALDEV1-005:pal>fa": 165
+  },
+  "translator_commit": "f671078646e6efa7a435a40ee035bbe626586fbd"
+}

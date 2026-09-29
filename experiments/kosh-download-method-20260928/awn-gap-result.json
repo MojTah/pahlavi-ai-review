@@ -1,0 +1,13 @@
+{
+  "collection": "awn",
+  "archive": "kosh-id-gap-20260928",
+  "receipt": {
+    "url": "https://kosh.uni-koeln.de/mpcd/awn/restful/ids?ids=190",
+    "retrieved_utc": "2026-09-28T13:54:42.802226+00:00",
+    "status": "failed",
+    "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  "data_key": "ids",
+  "candidate_reason": "Only absent ID in observed 1..367 sequence; catalogue reports 367 entries",
+  "status": "FETCH_FAILED"
+}

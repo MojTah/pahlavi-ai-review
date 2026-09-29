@@ -1,0 +1,26 @@
+[
+  {
+    "shape": [
+      1,
+      6,
+      256215
+    ],
+    "native_dtype": "torch.float32",
+    "native": 39.41666793823242,
+    "independent": 39.40559450785319,
+    "difference": -0.01107343037923414,
+    "within_tolerance": false
+  },
+  {
+    "shape": [
+      2,
+      201,
+      256215
+    ],
+    "native_dtype": "torch.float32",
+    "native": 38.507850646972656,
+    "independent": 38.51330871397746,
+    "difference": 0.005458067004802558,
+    "within_tolerance": false
+  }
+]

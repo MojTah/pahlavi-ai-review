@@ -1,0 +1,128 @@
+{
+  "dev_rows": 24,
+  "files": {
+    "config.json": {
+      "bytes": 808,
+      "sha256": "6918d76e923d6b372a14b8d1d837f27b809bd009943c4ebe943f8e34b2226233"
+    },
+    "dev-inputs.jsonl": {
+      "bytes": 8906,
+      "sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182"
+    },
+    "evaluation-contract.json": {
+      "bytes": 5172,
+      "sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2"
+    },
+    "generation_config.json": {
+      "bytes": 189,
+      "sha256": "0bb604cdb8392649176935a447ce994128f170a6908c135a17d0e3dfb8113cb2"
+    },
+    "nllb_train.py": {
+      "bytes": 22393,
+      "sha256": "8a392db05c5a38ad75e7cc767bda05d3dc1218b9d61348d161f64fa757b7708d"
+    },
+    "prepared-tokenizer-manifest.json": {
+      "bytes": 553,
+      "sha256": "7c2d57816f4806bc78b354b33fd57dde55656e69487e8a3b6567178e392bbf89"
+    },
+    "special_tokens_map.json": {
+      "bytes": 3548,
+      "sha256": "992bd4ed610d644d6823081937bcc91bb8878dd556cea4ae5327f2480361330e"
+    },
+    "tokenizer-evidence.json": {
+      "bytes": 2606432,
+      "sha256": "cb82776256b9822214658566b8ffa7dd558e337c58aba5dc1fea8e993eaf7416"
+    },
+    "tokenizer/tokenizer.json": {
+      "bytes": 32240968,
+      "sha256": "69d6e27dc9ed4a21a80cc302aedd8acf26a36523803537a110f991a8dac92ee2"
+    },
+    "tokenizer/tokenizer_config.json": {
+      "bytes": 3981,
+      "sha256": "80a26e8892f43863dc18e6af49cd39d36eb882232f3edbc2339baa66a0310a59"
+    },
+    "train.jsonl": {
+      "bytes": 5401884,
+      "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc"
+    }
+  },
+  "includes_dev_targets": false,
+  "model": "facebook/nllb-200-distilled-1.3B",
+  "original_asset_receipt": {
+    "anonymous": true,
+    "files": {
+      "config.json": {
+        "bytes": 808,
+        "sha256": "6918d76e923d6b372a14b8d1d837f27b809bd009943c4ebe943f8e34b2226233",
+        "url": "https://huggingface.co/facebook/nllb-200-distilled-1.3B/resolve/7be3e24664b38ce1cac29b8aeed6911aa0cf0576/config.json"
+      },
+      "generation_config.json": {
+        "bytes": 189,
+        "sha256": "0bb604cdb8392649176935a447ce994128f170a6908c135a17d0e3dfb8113cb2",
+        "url": "https://huggingface.co/facebook/nllb-200-distilled-1.3B/resolve/7be3e24664b38ce1cac29b8aeed6911aa0cf0576/generation_config.json"
+      },
+      "special_tokens_map.json": {
+        "bytes": 3548,
+        "sha256": "992bd4ed610d644d6823081937bcc91bb8878dd556cea4ae5327f2480361330e",
+        "url": "https://huggingface.co/facebook/nllb-200-distilled-1.3B/resolve/7be3e24664b38ce1cac29b8aeed6911aa0cf0576/special_tokens_map.json"
+      },
+      "tokenizer.json": {
+        "bytes": 17331176,
+        "sha256": "e316b82de11d0f951f370943b3c438311629547285129b0b81dadabd01bca665",
+        "url": "https://huggingface.co/facebook/nllb-200-distilled-1.3B/resolve/7be3e24664b38ce1cac29b8aeed6911aa0cf0576/tokenizer.json"
+      },
+      "tokenizer_config.json": {
+        "bytes": 564,
+        "sha256": "d1aa8c3697d3e35674f97b5b7e9c99d22b010f528e80140257d97316be90d044",
+        "url": "https://huggingface.co/facebook/nllb-200-distilled-1.3B/resolve/7be3e24664b38ce1cac29b8aeed6911aa0cf0576/tokenizer_config.json"
+      }
+    },
+    "model": "facebook/nllb-200-distilled-1.3B",
+    "model_weights_downloaded": false,
+    "retrieved_utc": "2026-09-28T06:34:08.419569+00:00",
+    "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576"
+  },
+  "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "scheduled_outputs": 48,
+  "settings": {
+    "autocast_dtype": "bfloat16",
+    "do_sample": false,
+    "effective_batch": 16,
+    "epochs": 5,
+    "forced_bos_token_id": 256053,
+    "label_smoothing": 0,
+    "loss": "sum_target_CE/global_update_nonpadding_tokens",
+    "lr": 3e-05,
+    "max_grad_norm": 1.0,
+    "max_new_tokens": 512,
+    "microbatch": 4,
+    "num_beams": 1,
+    "parameters_dtype": "float32",
+    "seed": 3407,
+    "suppress_tokens": [
+      256204,
+      256205
+    ],
+    "updates": 700,
+    "warmup_updates": 42,
+    "weight_decay": 0.01
+  },
+  "tokenizer_receipt": {
+    "files": {
+      "tokenizer.json": {
+        "bytes": 32240968,
+        "sha256": "69d6e27dc9ed4a21a80cc302aedd8acf26a36523803537a110f991a8dac92ee2"
+      },
+      "tokenizer_config.json": {
+        "bytes": 3981,
+        "sha256": "80a26e8892f43863dc18e6af49cd39d36eb882232f3edbc2339baa66a0310a59"
+      }
+    },
+    "kind": "prepared-tokenizer-only",
+    "model_revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+    "result_sha256": "cb82776256b9822214658566b8ffa7dd558e337c58aba5dc1fea8e993eaf7416",
+    "source_id": 256214,
+    "vocab_size": 256215
+  },
+  "training_rows": 2237
+}
