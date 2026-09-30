@@ -1,0 +1,39 @@
+{
+  "review_status": "AI-only provisional; blinded post-review clarification",
+  "scope": "Clarifies only the meaning of source_uncertainty=not_applicable on these four accepted reviews; no semantic labels were reconsidered.",
+  "original_reviews_sha256": "d5f8d675f61786e2b418f153211d0ac2fb63963d31f5a40bd45d1e670356819e",
+  "entries": [
+    {
+      "review_id": "236dfb711834f5ee",
+      "output_sha256": "ff1e141fce447f11564fa34f0119298102796ae5a77d7cf1b1a1731c67178c16",
+      "decision": "retain_accepted",
+      "original_source_uncertainty": "not_applicable",
+      "clarified_source_uncertainty": "pass",
+      "reason": "The original not_applicable meant that this supplied source/reference packet had no material unresolved source uncertainty to preserve. It did not express doubt about the translation. Under a scorer requiring pass for satisfactory uncertainty handling, pass expresses the original assessment; acceptance is unchanged."
+    },
+    {
+      "review_id": "96276f2be7a7efb7",
+      "output_sha256": "ff1e141fce447f11564fa34f0119298102796ae5a77d7cf1b1a1731c67178c16",
+      "decision": "retain_accepted",
+      "original_source_uncertainty": "not_applicable",
+      "clarified_source_uncertainty": "pass",
+      "reason": "The original not_applicable meant that this supplied source/reference packet had no material unresolved source uncertainty to preserve. It did not express doubt about the translation. Under a scorer requiring pass for satisfactory uncertainty handling, pass expresses the original assessment; acceptance is unchanged."
+    },
+    {
+      "review_id": "9c02e7d13570b037",
+      "output_sha256": "b6eeceeecc829570731115c824969dd251b2cec8c0e2a6e5cc90c12ded5f6ce4",
+      "decision": "retain_accepted",
+      "original_source_uncertainty": "not_applicable",
+      "clarified_source_uncertainty": "pass",
+      "reason": "The original not_applicable meant that this supplied source/reference packet had no material unresolved source uncertainty to preserve. It did not express doubt about the translation. Under a scorer requiring pass for satisfactory uncertainty handling, pass expresses the original assessment; acceptance is unchanged."
+    },
+    {
+      "review_id": "bfaa21136d9500f9",
+      "output_sha256": "66d455a4d9d988991ad26425f52b69888b7848143d109d659136600646b58d58",
+      "decision": "retain_accepted",
+      "original_source_uncertainty": "not_applicable",
+      "clarified_source_uncertainty": "pass",
+      "reason": "The original not_applicable meant that this supplied source/reference packet had no material unresolved source uncertainty to preserve. It did not express doubt about the translation. Under a scorer requiring pass for satisfactory uncertainty handling, pass expresses the original assessment; acceptance is unchanged."
+    }
+  ]
+}

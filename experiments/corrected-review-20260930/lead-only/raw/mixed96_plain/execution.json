@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-29T09:19:52.444818+00:00",
+  "job_id": "6abb82b6e2f3c356be0389a3",
+  "job_url": "https://huggingface.co/jobs/Mojionix/6abb82b6e2f3c356be0389a3",
+  "run_id": "ad548e0f8b7b454682dc2fd6c3298966",
+  "stage": "RUNNING",
+  "flavor": "a100-large",
+  "native_timeout_minutes": 100,
+  "max_compute_usd": "4.166700",
+  "reserve_usd": "0.50",
+  "reservation_usd": "4.666700",
+  "source_commit": "e0ba397629b4e9d9c4962600080ae0d751e829f9",
+  "spec_sha256": "3e8c1adb96a523bf279fcc6dc9a2de544ea34d8e9617beacda443f4b62ac9fce",
+  "output_prefix": "mixed-supervision/ad548e0f8b7b454682dc2fd6c3298966",
+  "training_complete": false,
+  "local_model_download": false,
+  "automatic_followup": false,
+  "last_checked_utc": "2026-09-29T09:20:09.816133+00:00",
+  "provider_status_message": null
+}

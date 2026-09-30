@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-29T19:47:28.569438+00:00",
+  "job_id": "6abc15b8031314b696342162",
+  "stage": "RUNNING",
+  "message": null,
+  "status_only_not_training_confirmation": true,
+  "last_confirmed_phase": "bootstrap_complete",
+  "phase_utc": "2026-09-29T19:47:31.016456+00:00",
+  "dependency_check": "No broken requirements found",
+  "training_updates_confirmed": false,
+  "remote_output_durability_verified": false
+}

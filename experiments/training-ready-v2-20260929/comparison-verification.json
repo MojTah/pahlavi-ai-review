@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-30T06:50:55.149040+00:00",
+  "recovery_launch_job_id_match": true,
+  "prior_and_corrected_initial_adapter_match": true,
+  "prior_and_corrected_training_settings_match": true,
+  "small_evidence_local_sha_verified": true,
+  "model_weights_downloaded": false,
+  "frozen_benchmark_verify": "PASS:40passages160cases; root executed verify in this comparison turn",
+  "packet_builder_agent": "/root/corrected_comparison_builder",
+  "packet_builder_tests": "4passed; isolated builder executed scripts.test_review_corrected, reported7.48seconds",
+  "packet_provenance_sha256": "8af01977169cd6b25353dd1271b9d9e8a6ee8d15cef28c59c32d2c9d99e7bff4",
+  "review_helper_sha256": "72dfbbe68566891ba434fd40b6b1dfd43d1de1570edf92803ed3680c26dadcc5",
+  "score_helper_sha256": "7dfa3ac29b038fb370f27a6afbfab6d6d2c733644a62c40fa26cac7e5bbeb5b5",
+  "interpretation": "Engineering integrity only; does not establish semantic correctness"
+}

@@ -7,6 +7,8 @@ third-party source exports. These bounded checks do not prove absence of every p
 or establish linguistic correctness. The source repository's full Git history is not published.
 
 Public-entrypoint references, frozen benchmark verification and remote commit/tree checks are
-performed before delivery. The latest evaluator has mock/local tests; no real GPU run is claimed
-by publication. Full data-dependent tests require separately supplied companion files and pinned
-dependencies. See `experiments/learning-diagnosis-20260929/LAUNCH-READINESS.md`.
+performed before delivery. The corrected-v2 cloud run and its local blinded comparison have
+separate execution and verification evidence in `experiments/training-ready-v2-20260929/`.
+Publication checks do not establish semantic correctness. Full data-dependent tests require
+separately supplied private files and pinned dependencies. The older checkpoint-diagnostic
+launcher remains a separate, unexecuted proposal.

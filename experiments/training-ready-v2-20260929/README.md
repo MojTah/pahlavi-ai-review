@@ -1,5 +1,9 @@
 # Corrected training package v2
 
+**Quality decision, 30 September:** [Fresh blinded comparison](REPORT.md) finds2/15 whole translations accepted by each reviewer, versus1/15 for both earlier checkpoints. This is a limited gain, but both unchanged improvement screens fail. Retain step280; preserve corrected data and this candidate; no automatic extra training or laptop weight download.
+
+**Execution update, 30 September:** the authorized [cloud job](https://huggingface.co/jobs/Mojionix/6abc15b8031314b696342162) completed96/96 updates and24/24 source-only DEV outputs in47minutes34seconds. All15 small output files plus the manifest (247,412bytes) have been recovered with verified hashes; the complete cloud inventory and provider commitments match. Both adapter binaries remain cloud-only; their bytes were not locally rehashed. [Recovery evidence](recovery.json), [comparison plan](COMPARISON-PLAN.md). The preparation-era statements below are preserved as history, not current execution status. Completion alone does not establish better translation quality.
+
 29 September 2026. **Local corrected data and exact package: PASS; no training or cloud submission.** [Final verification](verification.json) records byte-identical data/job replay and10 passing runtime/regression tests; independent review found no remaining issue within its defined scope. The old source-qualified-v1 release, all previous training data/results and the fixed evaluation remain unchanged.
 
 ## Corrections and scope

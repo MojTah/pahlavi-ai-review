@@ -1,14 +1,15 @@
 # Review package scope
 
-29 September 2026. Start with `REVIEW.md`, `REVIEW-PROMPT.md` and `MODEL-AND-TRAINING-RECIPE.md`.
+30 September 2026. Start with `REVIEW.md`, `REVIEW-PROMPT.md` and `MODEL-AND-TRAINING-RECIPE.md`.
 
 The public repository provides authored code, research decisions, configuration, source metadata,
 selected evaluation/reference excerpts, raw predictions, ratings and arithmetic evidence.
 It is a public review snapshot with a source-acquisition manifest; the corpus is not fully self-contained.
-`OMISSIONS.json` names tracked omissions and the exact17 canonical data payloads with sizes/hashes.
+`OMISSIONS.json` names tracked omissions, the exact17 original canonical data payloads and the corrected-v2 learning files with sizes/hashes.
 Full dictionaries, books, bulk training/qualification text and raw downloads remain in separate local
 private companion ZIPs for direct review sharing. No model weights are needed for a static review;
 the recipe records pinned identities and how the experiments were performed.
+Corrected-v2 learning arrays are retained locally; the earlier private ZIPs have not been rebuilt to include them.
 
 The public snapshot preserves the original study README as `STUDY_GUIDE.md`. Historical reports
 remain dated evidence and may contain superseded plans. Personal machine/Drive path prefixes

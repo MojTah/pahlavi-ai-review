@@ -1,0 +1,69 @@
+{
+  "status": "LOCAL_BLIND_MIXED_DEV48_PREPARED",
+  "contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "conditions": [
+    "gemma280_plain",
+    "mixed96_plain"
+  ],
+  "seeds": {
+    "A": 2026092901,
+    "B": 2026092902
+  },
+  "reviewers": 2,
+  "outputs_per_reviewer": 48,
+  "completion": {
+    "complete": true,
+    "training_steps": 96,
+    "training_slots": 1536,
+    "candidate_recorded_outputs": 24,
+    "candidate_completed_outputs": 24,
+    "prompt_parity": true,
+    "adapter_tensor_validation": "Server lineage and export hashes only; no local weights opened",
+    "retained_gemma_completed": true
+  },
+  "expert_adjudicated": false,
+  "preparer_sha256": "3df24a1b32c59f18060b186ba1eb1c3218c7b0155606ea8b38e9363f45bccb76",
+  "reused_preparer_sha256": "dbb601e9ec806b4c4fe69c0fb39f2261d8e978441cf0fbf0975918ed4197153e",
+  "reused_scorer_sha256": "7dfa3ac29b038fb370f27a6afbfab6d6d2c733644a62c40fa26cac7e5bbeb5b5",
+  "source_files_sha256": {
+    "benchmarks/pal-reference-v1/manifest.json": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+    "benchmarks/pal-reference-v1/PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "benchmarks/pal-reference-v1/benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "benchmarks/pal-reference-v1/holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62"
+  },
+  "files": {
+    "lead-only/raw/export-manifest.json": "795d337284175325eaf18f5878bd89642d0c3ea0bf9720c34b678a9211a6de13",
+    "lead-only/raw/base-provenance.json": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472",
+    "lead-only/raw/bundle-manifest.json": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd",
+    "lead-only/raw/data-manifest.json": "ebda721f77db1c60377d75cd3e9d578aebeb749a244c386d2ac96e896427b6fe",
+    "lead-only/raw/driver.log": "fa9c22a6d8001675d83ebba196070593b0cbb1b36b69da9a30a8eded63b1b740",
+    "lead-only/raw/mixed-status.json": "73ee3a15db012133ac85ab6526bcd57d854a6b839c37d90c9014cd315a5afc38",
+    "lead-only/raw/mixed/evaluation/predictions.jsonl": "f2ce560bf9f239f0ded0802c2e67574630bb24cb78773a5b2227ce80c37a9e0a",
+    "lead-only/raw/mixed/evaluation/run.json": "d6cb59b5c1777ef32a55a5663a96c8944e1ad4cf7b9467c3d37824ea8019fe1e",
+    "lead-only/raw/mixed/run.json": "2171ec5935a8a1d788b554ee1b38a0f327f5b93a173612d260738f4d5566782f",
+    "lead-only/raw/mixed/training/adapter/README.md": "47b6c19214edd8f8ecad6646e91d75515f6e96b27b03881b1b59bce6cd21d67a",
+    "lead-only/raw/mixed/training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "lead-only/raw/mixed/training/bounded-adapter-step20/README.md": "47b6c19214edd8f8ecad6646e91d75515f6e96b27b03881b1b59bce6cd21d67a",
+    "lead-only/raw/mixed/training/bounded-adapter-step20/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "lead-only/raw/mixed/training/progress.jsonl": "d0c67a6e32a50526face6525c06145c033c6a57d79279b7ad759519cc458a382",
+    "lead-only/raw/mixed/training/run.json": "489abbb8825e1be2f86a3da7fa6e96c52e58828b919e12e975b5ac3bea86b2d7",
+    "lead-only/raw/trained-manifest.json": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+    "lead-only/raw/execution-preparation.json": "129d8ec1d0c58ebb815517792af7694dfd1d0557fa3494629a3d13fa218eb933",
+    "lead-only/raw/execution.json": "5891849298f56a651864d6416a6f64b9267440ce677a807c6b2674025d229728",
+    "lead-only/raw/recovery.json": "470ec64cd38908d33845172357617a36ea4bc862bfafc4c1373b7c34cb1f3362",
+    "lead-only/raw/gemma280/run.json": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca",
+    "lead-only/raw/gemma280/predictions.jsonl": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19",
+    "lead-only/frozen/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "lead-only/frozen/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "lead-only/frozen/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62",
+    "reviewer-A/packet.jsonl": "aa9bbb3cf08285ecba588c923da287f5bcf0f7a88cee9dfa9743f4834ff21833",
+    "reviewer-A/INSTRUCTIONS.md": "f5f240e8cdbcea2ed9a37d7354ccc02ce419d7d28e92371d81b6792ea0cc2947",
+    "reviewer-B/packet.jsonl": "ac0965637a7d36b7e5280d3d5df9845acc4f032f6190b25707c3839b1195120c",
+    "reviewer-B/INSTRUCTIONS.md": "f5f240e8cdbcea2ed9a37d7354ccc02ce419d7d28e92371d81b6792ea0cc2947",
+    "lead-only/mapping.jsonl": "057f0396c46d8a82ca8a74414bf4f26a12ee7f5341040a9861b5d8a9db6302a1"
+  }
+}

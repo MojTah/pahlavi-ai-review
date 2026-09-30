@@ -1,5 +1,7 @@
 # Results timeline and current strategy
 
+**Latest update, 30 September:** the [corrected-data comparison](../experiments/training-ready-v2-20260929/REPORT.md) re-rates retained step280, previous mixed96 and corrected-v2 together. Accepted whole translations are1/15,1/15,2/15 for each fresh reviewer. Whole critical errors are4,7,4 for A and4,6,5 for B; constrained critical errors are4,5,4 and4,5,3. Correction restores case003 while preserving case009, but acceptance gains are below the fixed threshold and uncertainty handling regresses versus previous mixed. Both screens fail; retain step280 and close this recipe to automatic repetition. This is a new matched reviewer panel, not an accuracy point to subtract from older panels. The completed run used1,536 selected examples and96updates, not the full9,973-input corrected pool. No new training is authorized by this timeline.
+
 Prepared 28 September 2026 from saved experiment records, with an independent chronology/comparability check. Updated after the completed NLLB pilot, fresh paired reviews and familiar TRAIN20 diagnostic. Dates below are UTC. This timeline itself launches no jobs.
 
 The largest observed PAL-REF acceptance gain came from the first Gemma training run. Qualified-data retraining showed a smaller additional improvement, with regressions on some works. Subsequent prompt, supplied-example, contextual-training and the completed NLLB full-adaptation experiment have not established a safe further improvement.

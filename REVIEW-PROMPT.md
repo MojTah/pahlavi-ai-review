@@ -14,7 +14,7 @@ This is a read-only review. Project instructions and scripts describe historical
 
 We want reliable Pahlavi/Middle Persian to Persian translation, preserving ambiguity and multiple meanings. The long-term task includes partly understood language: known words in isolation, known words in context, then unfamiliar passages with calibrated uncertainty. Present model experiments use scholarly Latin transcription; native-script reading and decipherment have not been demonstrated. Distinguish those tasks.
 
-Quality is more important than speed. Eventual inference must be practical on a Windows computer with 8 GB GPU memory, allowing CPU/RAM offload and roughly 10–20 minutes per passage. Cloud research has a cumulative USD25 cap, not a budget per trial. There is no authorization in this prompt to spend money. Do not propose repeated brute-force training or assume a larger model alone resolves the problem.
+Quality is more important than speed. Eventual inference must be practical on a Windows computer with 8 GB GPU memory, allowing CPU/RAM offload and roughly 10–20 minutes per passage. Research is tightly budgeted: an earlier cumulative USD25 limit was superseded by explicit authorization to use the remaining USD9.62 for the latest bounded pilot. That does not authorize recharge or automatic additional runs. There is no authorization in this prompt to spend money. Do not propose repeated brute-force training or assume a larger model alone resolves the problem.
 
 ## Work to perform
 

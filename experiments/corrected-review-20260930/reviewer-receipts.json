@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-30T06:56:59.416083+00:00",
+  "reviewers": {
+    "A": {
+      "agent_id": "/root/corrected_blind_a",
+      "fork_context": "none; only own instructions and packet",
+      "sha256": "2e7ed7c70c4c7a2cda61bf9c7a6c14c41ffb9f7cb39594b755654aa026b1e2d0",
+      "rows": 72,
+      "model_and_effort": "inherited unchanged from lead; no override",
+      "expert_adjudicated": false,
+      "reported_complete_before_unblinding": true
+    },
+    "B": {
+      "agent_id": "/root/corrected_blind_b",
+      "fork_context": "none; only own instructions and packet",
+      "sha256": "71c3d8792c60f6fbfc2c89efcf631c0d65331a7bf29264f0310a62eb7880425e",
+      "rows": 72,
+      "model_and_effort": "inherited unchanged from lead; no override",
+      "expert_adjudicated": false,
+      "reported_complete_before_unblinding": true
+    }
+  },
+  "both_frozen_before_aggregation": true
+}

@@ -1,0 +1,38 @@
+{
+  "utc": "2026-09-29T19:47:04.587970+00:00",
+  "source_commit": "28aeab6ae944ae1200fca33a5577ad359647e94e",
+  "run_id": "157531204582c50f2d8f73aaa76ce8ac",
+  "spec_sha256": "4a373c2a4241693dbbdaba6343205a0405516ced43d67086261b6eea63add4db",
+  "data_manifest_sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54",
+  "train_sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+  "hardware": {
+    "name": "a100-large",
+    "pretty_name": "Nvidia A100 - large",
+    "cpu": "12 vCPU",
+    "ram": "142 GB",
+    "ephemeral_storage": "1000 GB",
+    "accelerator": {
+      "type": "gpu",
+      "model": "A100",
+      "quantity": "1",
+      "vram": "80 GB",
+      "manufacturer": "Nvidia"
+    },
+    "unit_cost_micro_usd": 41667,
+    "unit_cost_usd": 0.041667,
+    "unit_label": "minute"
+  },
+  "native_timeout_minutes": 100,
+  "maximum_compute_usd": "4.166700",
+  "additional_reserve_usd": "0.50",
+  "reserved_usd": "4.6667",
+  "funding_evidence": "Authenticated billing page observed this turn: USD9.62 available; automatic recharge unset. User explicitly authorizes remaining USD9.62, superseding old USD25 cumulative cap for this one bounded pilot.",
+  "authorized_remaining_usd": "9.62",
+  "no_active_jobs": true,
+  "no_existing_trial": true,
+  "empty_output_prefix": true,
+  "transfer_readback_verified": true,
+  "independent_launch_review": "PASS; real GPU canary and output durability remain pending",
+  "execution_owner": "root",
+  "retry_policy": "one submission; reconcile trial_id on ambiguous response; no automatic retry/recharge/extra run"
+}

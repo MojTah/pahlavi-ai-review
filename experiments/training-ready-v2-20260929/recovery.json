@@ -1,0 +1,102 @@
+{
+  "utc": "2026-09-30T06:41:29.936032+00:00",
+  "run_id": "157531204582c50f2d8f73aaa76ce8ac",
+  "job_id": "6abc15b8031314b696342162",
+  "manifest_sha256": "4ccf49623f1753efffc922a97f882cdbadbfcecabbda5ebccbe30e9f3e084dac",
+  "provider_inventory_committed": true,
+  "provider_inventory": {
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/base-provenance.json": {
+      "bytes": 2322,
+      "xet_hash": "6216b1480fede2897e53244075f188ccbf08fd282aee21cfce9c2f5d2197321e"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/bundle-manifest.json": {
+      "bytes": 1825,
+      "xet_hash": "bdf40c635056b6b4071ceb3f678357cfff810969176f170d69be70924272da45"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/data-manifest.json": {
+      "bytes": 62848,
+      "xet_hash": "3e0e35047abf28c07fedf3d3d04c977d2c21ce0fed00db863baeb81277c5adcc"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/driver.log": {
+      "bytes": 25299,
+      "xet_hash": "2ed5d05b3e413b3f72d442b02b61e7efa40249b8a0a8441a612eef3e20f7af11"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/manifest.json": {
+      "bytes": 10066,
+      "xet_hash": "6bb5cc82eccb89a0ab2e8bcbc6f965b76dcc6217cd8b2a9c0650ded6f70110e6"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed-status.json": {
+      "bytes": 7276,
+      "xet_hash": "676278e43db747a26f3bf1d3c3dae5a0b77fe07f0ef2a30dda5edebe74d4ed50"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/evaluation/predictions.jsonl": {
+      "bytes": 36589,
+      "xet_hash": "064093633516e3f6455aaff7dd79d34c15ba13c4c695a94891bb0a01bc3e0647"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/evaluation/run.json": {
+      "bytes": 9179,
+      "xet_hash": "9f36e374b1c5b434e5e6596e6c90ef5cf17520d5648fdfa2140a07ab0e49edcb"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/run.json": {
+      "bytes": 8356,
+      "xet_hash": "90e9ab0f9f1c9512741cb7eebe2676be4fb4a0b0d4e372f8cea4c5abe2778a8e"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/adapter/README.md": {
+      "bytes": 5218,
+      "xet_hash": "8c9645e969a24e43740117690cdb30d98b97a288576350fb6d95226dac46a3ed"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/adapter/adapter_config.json": {
+      "bytes": 1215,
+      "xet_hash": "11fb4ff1cd82713fa2078dc011abf39168a0beba16824ed2023f3da31e2adef6"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "xet_hash": "5cb270f7b9c5995aad655ae6cfa2166a4a30a9aa650ad3cd8496b3788705e832"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/bounded-adapter-step20/README.md": {
+      "bytes": 5218,
+      "xet_hash": "8c9645e969a24e43740117690cdb30d98b97a288576350fb6d95226dac46a3ed"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/bounded-adapter-step20/adapter_config.json": {
+      "bytes": 1215,
+      "xet_hash": "11fb4ff1cd82713fa2078dc011abf39168a0beba16824ed2023f3da31e2adef6"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/bounded-adapter-step20/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "xet_hash": "ea5bcd28f1e2676a50e302857ca75abe2a928cf97176d931272c6f20978670de"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/progress.jsonl": {
+      "bytes": 9464,
+      "xet_hash": "4dca8089443e6b6dcc0af48b7be82411851f3cc345f8c29705b1c06e955fbedf"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/mixed/training/run.json": {
+      "bytes": 55373,
+      "xet_hash": "9eef6be3aa29245e36809269b8ee46c40ea83b6c7f274f2180bc67ab33c95d76"
+    },
+    "mixed-supervision/157531204582c50f2d8f73aaa76ce8ac/trained-manifest.json": {
+      "bytes": 5949,
+      "xet_hash": "552e886347ff2fc199c7f3c9e5d094170ede20d3327e02f6804ac002ffd1b6f8"
+    }
+  },
+  "local_sha_verified_files": [
+    "base-provenance.json",
+    "bundle-manifest.json",
+    "data-manifest.json",
+    "driver.log",
+    "mixed-status.json",
+    "mixed/evaluation/predictions.jsonl",
+    "mixed/evaluation/run.json",
+    "mixed/run.json",
+    "mixed/training/adapter/README.md",
+    "mixed/training/adapter/adapter_config.json",
+    "mixed/training/bounded-adapter-step20/README.md",
+    "mixed/training/bounded-adapter-step20/adapter_config.json",
+    "mixed/training/progress.jsonl",
+    "mixed/training/run.json",
+    "trained-manifest.json"
+  ],
+  "local_bytes": 247412,
+  "model_weights_downloaded": false,
+  "weight_sha256_locally_recomputed": false,
+  "mixed_status": "complete"
+}

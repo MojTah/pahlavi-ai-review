@@ -1,0 +1,137 @@
+{
+  "status": "LOCAL_BLIND_CORRECTED_DEV72_PREPARED",
+  "contract_sha256": "4165e8150f291c2cd6077d2daee86513ad08e1851acbfc3e83169bc40263f8c2",
+  "conditions": [
+    "gemma280_plain",
+    "mixed96_plain",
+    "corrected96_plain"
+  ],
+  "seeds": {
+    "A": 2026093001,
+    "B": 2026093002
+  },
+  "outputs_per_reviewer": 72,
+  "expert_adjudicated": false,
+  "completion": {
+    "training_completed": true,
+    "runs": {
+      "mixed96_plain": {
+        "complete": true,
+        "training_steps": 96,
+        "training_slots": 1536,
+        "candidate_recorded_outputs": 24,
+        "candidate_completed_outputs": 24,
+        "prompt_parity": true,
+        "adapter_tensor_validation": "Server lineage and export hashes only; no local weights opened"
+      },
+      "corrected96_plain": {
+        "complete": true,
+        "training_steps": 96,
+        "training_slots": 1536,
+        "candidate_recorded_outputs": 24,
+        "candidate_completed_outputs": 24,
+        "prompt_parity": true,
+        "adapter_tensor_validation": "Server lineage and export hashes only; no local weights opened"
+      }
+    },
+    "gemma_original_run_completed": true,
+    "conditions": {
+      "gemma280_plain": {
+        "attempted": 24,
+        "scheduled": 24,
+        "usable_execution": true
+      },
+      "mixed96_plain": {
+        "attempted": 24,
+        "scheduled": 24,
+        "usable_execution": true
+      },
+      "corrected96_plain": {
+        "attempted": 24,
+        "scheduled": 24,
+        "usable_execution": true
+      }
+    }
+  },
+  "preparer_sha256": "72dfbbe68566891ba434fd40b6b1dfd43d1de1570edf92803ed3680c26dadcc5",
+  "reused_preparer_sha256": "dbb601e9ec806b4c4fe69c0fb39f2261d8e978441cf0fbf0975918ed4197153e",
+  "reused_scorer_sha256": "7dfa3ac29b038fb370f27a6afbfab6d6d2c733644a62c40fa26cac7e5bbeb5b5",
+  "source_files_sha256": {
+    "benchmarks/pal-reference-v1/manifest.json": "a3932f7510f101376cc91c47bb23f3c9872656c41f563701fa3dcb2b6c89a5e8",
+    "benchmarks/pal-reference-v1/PROTOCOL.md": "91b70ac4d7e278050074128d68f4b197f3b80cb90d71d6c1771ea73eb12ef938",
+    "benchmarks/pal-reference-v1/benchmark.py": "3055d732c199ddac3692ff3e9824437638aaf4668c1ed03ac1c82a75cb650aa5",
+    "benchmarks/pal-reference-v1/holdout-policy.json": "eb2425c5711b4166980df2f4205d9f11223c2c55e19c2121f3b228b7af43cddc",
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62"
+  },
+  "files": {
+    "lead-only/raw/prior-review-provenance.json": "fc5fb3df9ac345ae08bee6a08fd3ddbb4cd8726a86a3706a772f3abdd16b473c",
+    "lead-only/raw/gemma280/run.json": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca",
+    "lead-only/raw/gemma280/predictions.jsonl": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19",
+    "lead-only/raw/mixed96_plain/export-manifest.json": "795d337284175325eaf18f5878bd89642d0c3ea0bf9720c34b678a9211a6de13",
+    "lead-only/raw/mixed96_plain/base-provenance.json": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472",
+    "lead-only/raw/mixed96_plain/bundle-manifest.json": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd",
+    "lead-only/raw/mixed96_plain/data-manifest.json": "ebda721f77db1c60377d75cd3e9d578aebeb749a244c386d2ac96e896427b6fe",
+    "lead-only/raw/mixed96_plain/driver.log": "fa9c22a6d8001675d83ebba196070593b0cbb1b36b69da9a30a8eded63b1b740",
+    "lead-only/raw/mixed96_plain/mixed-status.json": "73ee3a15db012133ac85ab6526bcd57d854a6b839c37d90c9014cd315a5afc38",
+    "lead-only/raw/mixed96_plain/mixed/evaluation/predictions.jsonl": "f2ce560bf9f239f0ded0802c2e67574630bb24cb78773a5b2227ce80c37a9e0a",
+    "lead-only/raw/mixed96_plain/mixed/evaluation/run.json": "d6cb59b5c1777ef32a55a5663a96c8944e1ad4cf7b9467c3d37824ea8019fe1e",
+    "lead-only/raw/mixed96_plain/mixed/run.json": "2171ec5935a8a1d788b554ee1b38a0f327f5b93a173612d260738f4d5566782f",
+    "lead-only/raw/mixed96_plain/mixed/training/adapter/README.md": "47b6c19214edd8f8ecad6646e91d75515f6e96b27b03881b1b59bce6cd21d67a",
+    "lead-only/raw/mixed96_plain/mixed/training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "lead-only/raw/mixed96_plain/mixed/training/bounded-adapter-step20/README.md": "47b6c19214edd8f8ecad6646e91d75515f6e96b27b03881b1b59bce6cd21d67a",
+    "lead-only/raw/mixed96_plain/mixed/training/bounded-adapter-step20/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "lead-only/raw/mixed96_plain/mixed/training/progress.jsonl": "d0c67a6e32a50526face6525c06145c033c6a57d79279b7ad759519cc458a382",
+    "lead-only/raw/mixed96_plain/mixed/training/run.json": "489abbb8825e1be2f86a3da7fa6e96c52e58828b919e12e975b5ac3bea86b2d7",
+    "lead-only/raw/mixed96_plain/trained-manifest.json": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+    "lead-only/raw/mixed96_plain/execution.json": "5891849298f56a651864d6416a6f64b9267440ce677a807c6b2674025d229728",
+    "lead-only/raw/mixed96_plain/execution-preparation.json": "129d8ec1d0c58ebb815517792af7694dfd1d0557fa3494629a3d13fa218eb933",
+    "lead-only/raw/mixed96_plain/recovery.json": "470ec64cd38908d33845172357617a36ea4bc862bfafc4c1373b7c34cb1f3362",
+    "lead-only/raw/corrected96_plain/export-manifest.json": "4ccf49623f1753efffc922a97f882cdbadbfcecabbda5ebccbe30e9f3e084dac",
+    "lead-only/raw/corrected96_plain/base-provenance.json": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472",
+    "lead-only/raw/corrected96_plain/bundle-manifest.json": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd",
+    "lead-only/raw/corrected96_plain/data-manifest.json": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54",
+    "lead-only/raw/corrected96_plain/driver.log": "9cc0acccda3d7c9c208796201f6b30f159d6c3d52285b52ba5c3404def1353fa",
+    "lead-only/raw/corrected96_plain/mixed-status.json": "2834f2497f12a949bda6769c42304a0aac748fec40c814fed1c8406cb0f738f3",
+    "lead-only/raw/corrected96_plain/mixed/evaluation/predictions.jsonl": "edfa62482d80b5d9070b82c3f2289759f43bb1a5350c6160ab5d72e66147d4f1",
+    "lead-only/raw/corrected96_plain/mixed/evaluation/run.json": "ad4ec32da151f8b67e055a68ae51bc29eef6017be1b5b6dce2beaba6a1d279b0",
+    "lead-only/raw/corrected96_plain/mixed/run.json": "8315ae3dfaa484c5ffd3fffeda3b7b325c0ca0708c082983dcab4330aefd510a",
+    "lead-only/raw/corrected96_plain/mixed/training/adapter/README.md": "7c9b4d2af671a9e5b5199489e83c12728c5f38228fb039d6a8192fc3c7d513d9",
+    "lead-only/raw/corrected96_plain/mixed/training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "lead-only/raw/corrected96_plain/mixed/training/bounded-adapter-step20/README.md": "7c9b4d2af671a9e5b5199489e83c12728c5f38228fb039d6a8192fc3c7d513d9",
+    "lead-only/raw/corrected96_plain/mixed/training/bounded-adapter-step20/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "lead-only/raw/corrected96_plain/mixed/training/progress.jsonl": "27b24a98b766e110801cfbbf42e01805e82df9e4243d450ed6f16189ae5faceb",
+    "lead-only/raw/corrected96_plain/mixed/training/run.json": "6185521d2b21e18f3d5ab0ca1fca7620a6163a047e44d3466fcca61aa54d666f",
+    "lead-only/raw/corrected96_plain/trained-manifest.json": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+    "lead-only/raw/corrected96_plain/launch.json": "3044fc85e54188404469a13cfa7901a48dbf31bc302753405a45f0fe62276b68",
+    "lead-only/raw/corrected96_plain/submission-intent.json": "6af18f13edad2c580c8ec9fcf7202384e7218e9785ebc4a5edcb96e12cfe2f0f",
+    "lead-only/raw/corrected96_plain/job-spec.json": "4a373c2a4241693dbbdaba6343205a0405516ced43d67086261b6eea63add4db",
+    "lead-only/raw/corrected96_plain/execution-preparation.json": "bae4f02f8183e8b6a3a48e14d5920852839cc5fc2cb8e11417002bb367b55389",
+    "lead-only/raw/corrected96_plain/recovery.json": "a5539273813b20ebd917ca452b8b26d3ef5b9aeb54d2754f925063ad8b6c795a",
+    "lead-only/frozen/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "lead-only/frozen/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "lead-only/frozen/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62",
+    "lead-only/frozen/reused-helpers.json": "073b8e719ba0cb2c6f7641b8440db31e9509200e8eb9df73f1c5b0799e3aefeb",
+    "reviewer-A/packet.jsonl": "72f839d0819cf841fc14415ca011e652c16528ceaf2c508e7c4e957b8c7e9ba2",
+    "reviewer-A/INSTRUCTIONS.md": "6a268b1daac5829bd32dace3133095138350e41733b444f0965844c13de0952f",
+    "reviewer-B/packet.jsonl": "a5a9556ec6917f07f6ab991fe55d446109da7348152c9f73a50d2e62d8f6e46e",
+    "reviewer-B/INSTRUCTIONS.md": "6a268b1daac5829bd32dace3133095138350e41733b444f0965844c13de0952f",
+    "lead-only/mapping.jsonl": "e31f0b329b669a9127f139f0fa2b9843b78646931ff50c029c4a954d723b1039"
+  },
+  "pairs": [
+    [
+      "gemma280_plain",
+      "corrected96_plain"
+    ],
+    [
+      "mixed96_plain",
+      "corrected96_plain"
+    ],
+    [
+      "gemma280_plain",
+      "mixed96_plain"
+    ]
+  ]
+}

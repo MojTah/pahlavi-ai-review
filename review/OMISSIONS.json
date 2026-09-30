@@ -1,5 +1,5 @@
 {
-  "scope": "Named tracked omissions and all17 canonical data payloads; raw source families additionally remain private",
+  "scope": "Named tracked omissions, all17 original canonical data payloads and corrected-v2 learning files; raw source families additionally remain private",
   "files": [
     {
       "path": ".gitignore",
@@ -287,103 +287,151 @@
       "path": "resources/local/data-qualification-20260928/ready-v1/documentary-en.jsonl",
       "bytes": 79224,
       "sha256": "d604e2b66e8c38de18b5e0675fbc9a58f739efd6c845d3cf0a3661542796924b",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/duplicate-groups.jsonl",
       "bytes": 13498,
       "sha256": "d62951c5adf43a652e4c39a28ca2356925901b4722da9115bf72cc0cd22be0d4",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/edition-spans-en.jsonl",
       "bytes": 5060,
       "sha256": "62bed1c4712b464326c82e2dc0e7bb2cdbd754a88a23471ef7208d05a1ca2bf1",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/excluded.jsonl",
       "bytes": 310672,
       "sha256": "8bd3aad462b9e9dd7802337acbd15f94b2d4edd3bf3115972749b9ce0a58abf0",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/historical-control-fa.jsonl",
       "bytes": 5401884,
       "sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/inscription-fa.jsonl",
       "bytes": 7258,
       "sha256": "c56c346750d23910a96ab6be3dab6f1bfc153bfa9286c5517581fa8dbe6de6cc",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/lexical-en.jsonl",
       "bytes": 5106904,
       "sha256": "4d8c2489eca369d0d11a3364f5844cb5440d32eb53777c4ad138f5aff16c0f48",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/lexical-fa.jsonl",
       "bytes": 2195313,
       "sha256": "7979a688dc73a67f646920a668fbdeed6d1e21eb3f10f3810a59de9c427290fe",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/lexical-mmp-en.jsonl",
       "bytes": 1465646,
       "sha256": "8411819339113f16ba45dab1c67ce8a044cb6ec5df3d589e912772ba207ff2aa",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/data-qualification-20260928/ready-v1/pedagogy-fa.jsonl",
       "bytes": 287645,
       "sha256": "d96d95610ac354222029d30ae0252425df57859ab8f23bfd14d68a6b71a8edd6",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/mixed-supervision-20260929/data/census.json",
       "bytes": 52067,
       "sha256": "ebda721f77db1c60377d75cd3e9d578aebeb749a244c386d2ac96e896427b6fe",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/mixed-supervision-20260929/data/duplicates.jsonl",
       "bytes": 164,
       "sha256": "f7309ce15a59c272b3cec7c0b840bbc19c2f3ba870b144575376925c74f834dc",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/mixed-supervision-20260929/data/exclusions.jsonl",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/mixed-supervision-20260929/data/learning-projections.jsonl",
       "bytes": 3784715,
       "sha256": "cca1cbdd84b8afc6e4d7cc28629e4fafeb2e10b501994709c53936f047f60bef",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/mixed-supervision-20260929/data/pool.jsonl",
       "bytes": 18796392,
       "sha256": "e0c4a7ca6eeda6b498b3c8345c73b517c841019af2fc3c88350f131e730d80ed",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/mixed-supervision-20260929/data/row-audit.jsonl",
       "bytes": 4873559,
       "sha256": "0bb3c5b4e8dbfa998768989fa00508f6b329f2f95eeadaf2ee47db18f62d9fb6",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     },
     {
       "path": "resources/local/mixed-supervision-20260929/data/train.jsonl",
       "bytes": 3546782,
       "sha256": "c32a7f21639c34107fd4a86c1c8dae3a8815b40c8107ff8c3075e0167535dc4a",
-      "reason": "Exact complete learning data supplied only in local private companion"
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/changes.jsonl",
+      "bytes": 7864530,
+      "sha256": "ddb8301245a0a437a5497b7142767c4c9590288d051e00d767835909b7a6aafd",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/holds.jsonl",
+      "bytes": 3008,
+      "sha256": "2cef4d1dec8078d68acb003d751615c1c33f630bb7b03b620261e0b248966fbb",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/learning-projections.jsonl",
+      "bytes": 13491358,
+      "sha256": "d3e1ebee3cec70f748b95d241652f6e78ae265f084f1e09f83b809901a40d772",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/parent-map.jsonl",
+      "bytes": 1225069,
+      "sha256": "1893c382a2662096eebf5a8ddf0b46a298f0c7a0720c8b1ec171755ec6102dc9",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/pool.jsonl",
+      "bytes": 25932062,
+      "sha256": "00ef3a141205262766b0b19f04dceaf9a5b7710551ff6f88512c582458d02a77",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/row-audit.jsonl",
+      "bytes": 6431482,
+      "sha256": "fa0c2924c3fba8f6c90fc4bc94f526755abf79ad3cefbb66784be25a19cd70e9",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/selection-changes.jsonl",
+      "bytes": 2258,
+      "sha256": "de449a75f9dfea924d63baef8a8e610243fb16004e8ea300bcc75d450a358b29",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/training-ready-v2-20260929/data/train.jsonl",
+      "bytes": 3744184,
+      "sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
     }
   ],
   "raw_sources": "sources/local and ignored scientific resources: local companion inventory",

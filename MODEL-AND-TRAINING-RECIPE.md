@@ -1,10 +1,10 @@
 # Model identities and executed training recipes
 
-Prepared 29 September 2026 for static scientific and implementation review. This document describes saved experiments; it does not authorize a new run. No model weights were downloaded, loaded or transferred to prepare it. Weights remain in the project's cloud storage. The public review copy contains descriptions and evidence, not a runnable model distribution; some linked corpus files belong only to the separate research archive.
+Updated 30 September 2026 for static scientific and implementation review. This document describes saved experiments; it does not authorize a new run. No model weights were downloaded, loaded or transferred to prepare it. Weights remain in the project's cloud storage. The public review copy contains descriptions and evidence, not a runnable model distribution; some linked corpus files belong only to the separate research archive.
 
 ## Identity and checkpoint lineage
 
-Current reuse restriction: the unchanged v1 projection remains blocked by the [full pretraining review](experiments/full-pretraining-audit-20260929/REPORT.md). Its [corrected v2 successor](experiments/training-ready-v2-20260929/README.md) passed local data/package checks and has a prepared96-update repair comparison from retained step280; **that run has not occurred**. Live funding and GPU/persistence gates remain pending. Executed recipes below remain historical evidence. Recovery and early data-admission repairs do not alter previous checkpoints or authorize a new run.
+Current reuse restriction: the unchanged v1 projection remains blocked by the [full pretraining review](experiments/full-pretraining-audit-20260929/REPORT.md). Its [corrected v2 successor](experiments/training-ready-v2-20260929/README.md) completed an authorized96-update repair comparison from retained step280, followed by24 source-only DEV outputs. [Recovery](experiments/training-ready-v2-20260929/recovery.json) verifies the small evidence files and provider inventory. Execution completion does not establish semantic improvement or authorize another run.
 
 | System | Frozen identity | Executed lineage |
 |---|---|---|
@@ -14,6 +14,7 @@ Current reuse restriction: the unchanged v1 projection remains blocked by the [f
 | Contextual branches, 27 September | Qualified step280 plus separate control/candidate adapters | Each branch starts from the same step280 state and receives 48 updates/768 ordered slots with fresh optimizer, scheduler and RNG. They are siblings, not successive stages of the mixed run. |
 | NLLB, 28 September | [`facebook/nllb-200-distilled-1.3B`](https://huggingface.co/facebook/nllb-200-distilled-1.3B), revision `7be3e24664b38ce1cac29b8aeed6911aa0cf0576` | Separate full-model adaptation on the 2,237 qualified pairs. Initialized baseline, then step20 canary and exact continuation through step700. No Gemma adapter is involved. |
 | Mixed Gemma, 29 September | Qualified step280 plus 96 new updates | Fresh optimizer/scheduler on 1,536 selected examples; the first20 updates belong to the same96-update schedule. It does not inherit the contextual candidate. |
+| Corrected-v2 mixed Gemma, 29 September; reviewed30 September | Qualified step280 plus a separate96-update continuation | Same recipe and1,536-slot budget, using corrected supervision. It starts from step280, not from the previous mixed96 adapter. Eleven selected IDs change: four canonical remaps and seven replacements. |
 
 Sources: [first adapter provenance](experiments/palref-v1/trained-20260927/provenance.json), [qualified training provenance](experiments/retrain-qualified-20260927/continuation/training/provenance.json), [qualified completion audit](experiments/retrain-qualified-20260927/CONTINUATION-RESULT-AUDIT.md), [contextual pilot](experiments/contextual-supervision-20260927/PILOT.md), [NLLB saved run](experiments/nllb-supervised-20260928/continue/recovered/nllb/run.json), [mixed saved run](experiments/mixed-supervision-20260929/recovered/mixed/training/run.json).
 
@@ -49,6 +50,12 @@ Every update contains12 historical +2 lexical +2 other auxiliary examples, in th
 Loss is the **mean of per-example supervised-token means**, giving nominal task-group example weights75%/12.5%/12.5%; it is not one pooled token-normalized objective. Equal example weights do not imply equal gradient magnitudes. Actual selected supervision totals67,456tokens across258,988sequence tokens. Source: [data manifest](experiments/mixed-supervision-20260929/data-manifest.json), [preparation](experiments/mixed-supervision-20260929/prepare.py), [trainer](cloud_pilot/mixed_train.py).
 
 Auxiliary instructions preserve the task distinction: complete lexical inventories, CPD recursive sense JSON, conditioned grammar, or bounded translation spans. English targets stay English. CPD targets retain numbering, nested text/tails, component roles and attributes. Historical rows preserve the original token arrays; new rows serialize only selected learning fields and context, not raw provenance or neighboring evidence. No rows are truncated. These choices do not establish that dictionary-inventory recall transfers to contextual Persian translation.
+
+## Corrected-v2 continuation: executed dose
+
+The corrected pool contains9,973 unique inputs representing10,145 original records, with seven holds. The new run again consumes1,536examples:1,152historical,96Persian lexical,64CPD English,32MMP English,131pedagogy,53documentary,4distinct inscription pairs and4edition spans. It retains the same12:2:2 equal-example mixture,96updates, learning rate0.0001, warmup4 and fresh optimizer from qualified step280. Changes include consolidated complete sense inventories, scoped apparatus/typography corrections, and the declared parent substitutions. This is a combined correction package, not an isolated dictionary-cleanup experiment.
+
+The selected corpus has274,703 total sequence tokens and68,724 supervised tokens. [Frozen manifest](experiments/training-ready-v2-20260929/data-manifest.json), [executed training receipt](experiments/training-ready-v2-20260929/recovered/mixed/training/run.json), [evaluation outputs](experiments/training-ready-v2-20260929/recovered/mixed/evaluation/predictions.jsonl). The final adapter file SHA256 is `c2305fc9cdc1fb99a346e58c92ae2ba1faa030ff6961bf0be1452f75006a8df0`, recorded server-side and bound into the recovered export manifest. Weight bytes remain cloud-only; local recovery did not recompute their hash. The comparison preserves the fixed source-only DEV protocol and separate reviewers.
 
 ## NLLB: full-model recipe and token-normalized loss
 

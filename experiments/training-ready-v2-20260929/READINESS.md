@@ -1,5 +1,9 @@
 # Training readiness boundary
 
+**Completion addendum, 30 September:** the authorized job completed96 updates and24 first-attempt evaluation outputs. Its finite-numerics/adapter-change/order/timing admission passed. Independent recovery now verifies the complete provider inventory and every small evidence file's SHA256. Weight binaries remain cloud-only, with provider size/commitment and server-recorded SHA256 evidence rather than a local byte rehash. See [recovery](recovery.json) and the forthcoming fixed-merit comparison. These current observations supersede the pending runtime/output statements in the launch addendum, without granting another run.
+
+**Launch addendum, 29 September 19:47 UTC:** the user subsequently authorized launch and use of the remaining USD9.62. Root submitted exactly one [job](https://huggingface.co/jobs/Mojionix/6abc15b8031314b696342162), after independent review, byte replay, remote input readback, current price and idle-job checks. [Admission](launch-admission.json) and [receipt](launch.json) supersede the preparation-era authorization/funding rows below for this job only. Real-host checks and independent output durability remain pending; this addendum does not mark them passed. The100-minute limit reservesUSD4.1667 compute plusUSD0.50 extra. No automatic retry, recharge, further run or local model-weight download.
+
 Scope: corrected-v2 data and one prepared 96-update repair comparison. **Local preparation does not authorize or certify a paid launch.** No project model has been trained, loaded or downloaded in this work.
 
 | Boundary | Evidence / acceptance | Status |

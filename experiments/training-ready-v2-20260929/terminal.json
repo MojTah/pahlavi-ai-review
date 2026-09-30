@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-09-30T06:38:36.733448+00:00",
+  "job_id": "6abc15b8031314b696342162",
+  "provider_status": "COMPLETED",
+  "started_at": "2026-09-29T19:47:10.512000+00:00",
+  "finished_at": "2026-09-29T20:34:44.713000+00:00",
+  "lifecycle_seconds": 2854.201,
+  "rounded_minutes": 48,
+  "rate_micro_usd_per_minute": 41667,
+  "estimated_compute_usd": 2.000016,
+  "cost_is_estimate_not_invoice": true,
+  "model_weights_downloaded": false
+}

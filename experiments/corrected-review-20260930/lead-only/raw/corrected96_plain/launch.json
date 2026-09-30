@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-29T19:47:06.947523+00:00",
+  "id": "6abc15b8031314b696342162",
+  "url": "https://huggingface.co/jobs/Mojionix/6abc15b8031314b696342162",
+  "stage": "SCHEDULING",
+  "labels": {
+    "project": "pahlavi",
+    "purpose": "mixed-supervision",
+    "device": "cuda",
+    "trial_id": "157531204582c50f2d8f73aaa76ce8ac"
+  },
+  "run_id": "157531204582c50f2d8f73aaa76ce8ac",
+  "native_timeout_minutes": 100,
+  "reserved_usd": "4.6667",
+  "source_commit": "28aeab6ae944ae1200fca33a5577ad359647e94e"
+}

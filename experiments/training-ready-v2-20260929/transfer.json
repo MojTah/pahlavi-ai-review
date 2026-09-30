@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-29T19:46:10.616975+00:00",
+  "bucket": "Mojionix/pahlavi-pilot",
+  "prefix": "inputs",
+  "files": {
+    "mixed-train-22266b73d3a0.jsonl": {
+      "sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+      "bytes": 3744184
+    },
+    "mixed-data-manifest-157531204582.json": {
+      "sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54",
+      "bytes": 62848
+    }
+  },
+  "read_through_verified": true,
+  "deleted_files": 0,
+  "model_weights_downloaded": false,
+  "required_cloud_input_sizes": {
+    "continuations/1ae0f16dae9c4dffa36d15a24345fded/manifest.json": 5949,
+    "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_config.json": 1215,
+    "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_model.safetensors": 489840816,
+    "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/provenance.json": 2108,
+    "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/status.json": 149,
+    "inputs/cloud-pilot-qualified-20260927.zip": 6372448,
+    "inputs/qualitydev1-06ac58310bf6.jsonl": 8906
+  },
+  "trained_manifest_hash_verified": true
+}

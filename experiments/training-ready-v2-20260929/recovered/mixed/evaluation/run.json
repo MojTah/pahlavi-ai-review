@@ -1,0 +1,250 @@
+{
+  "experiment_id": "mixed-supervision-20260929",
+  "settings": {
+    "optim": "adamw_torch",
+    "weight_decay": 0.0,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_epsilon": 1e-08,
+    "max_grad_norm": 1.0,
+    "lr_scheduler_type": "linear",
+    "seed": 3407,
+    "max_steps": 96,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 0.0001,
+    "warmup_steps": 4,
+    "bf16": true,
+    "gradient_checkpointing": true
+  },
+  "data_manifest_sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54",
+  "train_sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+  "inputs_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "original_adapter_files": {
+    "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf"
+  },
+  "original_adapter_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "original_adapter_step": 280,
+  "runner_sha256": "1326526a5a32d9200ee58851d75cb9acda4e039ea95f9b594abc64e997287249",
+  "script_hashes": {
+    "mixed_run.py": "1326526a5a32d9200ee58851d75cb9acda4e039ea95f9b594abc64e997287249",
+    "mixed_train.py": "b81dd8dcd873f5e6134780def3541b7e1c9ce5e813041e5da224b78ac161adf4",
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "model_id": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "environment": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.13.1",
+      "peft": "0.21.0",
+      "bitsandbytes": "0.50.2",
+      "accelerate": "1.14.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.23.0",
+      "safetensors": "0.8.0"
+    },
+    "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "gpu": {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "bytes": 85093777408
+    }
+  },
+  "seed": 42,
+  "decoding": "greedy",
+  "enable_thinking": false,
+  "max_new_tokens": 4096,
+  "evaluation_prompt": "dev_assisted.messages(row, plain, [])",
+  "prompts": [
+    {
+      "id": "QUALITYDEV1-001:plain",
+      "input_tokens": 182,
+      "rendered_input_ids_sha256": "2727e3513cf5392c9de4ae92101c39b982afca5987d305ee996b840028803fe4"
+    },
+    {
+      "id": "QUALITYDEV1-007:plain",
+      "input_tokens": 192,
+      "rendered_input_ids_sha256": "15d5a762f8aa7f0c08515b0be5ca9104b187a8046ee95d50a9d9c26b51b4ab92"
+    },
+    {
+      "id": "QUALITYDEV1-013:plain",
+      "input_tokens": 204,
+      "rendered_input_ids_sha256": "8e1c1f8942571371fe5225e929321287fbee856beea0efc16fb2420367ccdc57"
+    },
+    {
+      "id": "QUALITYDEV1-019:plain",
+      "input_tokens": 228,
+      "rendered_input_ids_sha256": "2815c480b2ce22990aa5be52afdc99a493518b79f2b2b98b72cb3a5d2b779572"
+    },
+    {
+      "id": "QUALITYDEV1-002:plain",
+      "input_tokens": 185,
+      "rendered_input_ids_sha256": "04d59898680a5390ff5074dc78b41215780c4863a7386a9d6f5b09a23667d028"
+    },
+    {
+      "id": "QUALITYDEV1-008:plain",
+      "input_tokens": 217,
+      "rendered_input_ids_sha256": "0b8e6020a7c4fc6f722dd6e07b18a4a0d1f4b27631dbf4dc69e086d8cc839d88"
+    },
+    {
+      "id": "QUALITYDEV1-014:plain",
+      "input_tokens": 227,
+      "rendered_input_ids_sha256": "3b5dc8535532d60b72885cba6eae71d6e2ca2a201d2e84370813f0cb3e0eaedf"
+    },
+    {
+      "id": "QUALITYDEV1-020:plain",
+      "input_tokens": 257,
+      "rendered_input_ids_sha256": "157e4cd8809392a6c062d81366574fb80a5d39a31fbece181c53a993d4415903"
+    },
+    {
+      "id": "QUALITYDEV1-003:plain",
+      "input_tokens": 190,
+      "rendered_input_ids_sha256": "d096289270f6902729266996e5597f42aa64ff6c087f0a7303527565d8b0f402"
+    },
+    {
+      "id": "QUALITYDEV1-009:plain",
+      "input_tokens": 222,
+      "rendered_input_ids_sha256": "ca92d96668f973dca591acc99d00b9ee2bc668cc5e7eca7b9a34d4cc15ad5a52"
+    },
+    {
+      "id": "QUALITYDEV1-015:plain",
+      "input_tokens": 249,
+      "rendered_input_ids_sha256": "0f42b3c0b22e447378e9785f276dbb83829ebe4b92a79c4f49a00a63803a5a83"
+    },
+    {
+      "id": "QUALITYDEV1-021:plain",
+      "input_tokens": 291,
+      "rendered_input_ids_sha256": "f04c9e5dc2f735a6f7d75f859879ad1074d0acbbc888bcfdcb6417e7a58341f4"
+    },
+    {
+      "id": "QUALITYDEV1-004:plain",
+      "input_tokens": 189,
+      "rendered_input_ids_sha256": "375de30cb2bc9549346bc2d4c3cbab98ca03fcb5c509fb000847f9d0da6e6563"
+    },
+    {
+      "id": "QUALITYDEV1-010:plain",
+      "input_tokens": 247,
+      "rendered_input_ids_sha256": "0a8482e3a4fe8066ed8c18677da91a29fb4a04544110cc7a41d30ac4822e2cdf"
+    },
+    {
+      "id": "QUALITYDEV1-016:plain",
+      "input_tokens": 256,
+      "rendered_input_ids_sha256": "d095e448fc3c891172d2d2a9319c84229eb82fb4abce196b5d421e648f5f4555"
+    },
+    {
+      "id": "QUALITYDEV1-022:plain",
+      "input_tokens": 345,
+      "rendered_input_ids_sha256": "46d521c5056d9bf7a4be8a17d0f17a1cb714f6f68bfe910540326841e3219c2d"
+    },
+    {
+      "id": "QUALITYDEV1-005:plain",
+      "input_tokens": 198,
+      "rendered_input_ids_sha256": "ae11f5ba28c2f90932185af64371d138d7ce0b60512df12f0d46aea186a1deaa"
+    },
+    {
+      "id": "QUALITYDEV1-011:plain",
+      "input_tokens": 297,
+      "rendered_input_ids_sha256": "7f577d46557305de4c10e4b9c082230add8a9f6557a1040c5a8483bb8c6975c0"
+    },
+    {
+      "id": "QUALITYDEV1-017:plain",
+      "input_tokens": 275,
+      "rendered_input_ids_sha256": "26d97730773bf5656e19ddcb1ec7e8eae6b22137e3f0ab6fc27937a93f4f95f0"
+    },
+    {
+      "id": "QUALITYDEV1-023:plain",
+      "input_tokens": 400,
+      "rendered_input_ids_sha256": "f7bac0e54791acc5184e2ebb9e4768333962574388907667e182f279e1136143"
+    },
+    {
+      "id": "QUALITYDEV1-006:plain",
+      "input_tokens": 277,
+      "rendered_input_ids_sha256": "0edb2c1719349b64409a05dce836cec96dc9e302bbc7928dc56b27a81cf4a337"
+    },
+    {
+      "id": "QUALITYDEV1-012:plain",
+      "input_tokens": 359,
+      "rendered_input_ids_sha256": "3721e1c69420ac896e222411a119da30a33a2a10d909bff0afb55e8d306d8d0d"
+    },
+    {
+      "id": "QUALITYDEV1-018:plain",
+      "input_tokens": 288,
+      "rendered_input_ids_sha256": "5db5b015088e0f3a48dd091d388ce155ba085e2680d0284cd2d1ba91181a9f3a"
+    },
+    {
+      "id": "QUALITYDEV1-024:plain",
+      "input_tokens": 456,
+      "rendered_input_ids_sha256": "78f82faed8ce2c6439d69f8261c5654d5f7215e7e00961949539483214f79254"
+    }
+  ],
+  "deadline_utc": "2026-09-29T21:12:10.382112+00:00",
+  "quality_validated": false,
+  "expert_adjudicated": false,
+  "scoring_performed": false,
+  "adapters": {
+    "candidate": {
+      "files": {
+        "README.md": "7c9b4d2af671a9e5b5199489e83c12728c5f38228fb039d6a8192fc3c7d513d9",
+        "adapter_model.safetensors": "c2305fc9cdc1fb99a346e58c92ae2ba1faa030ff6961bf0be1452f75006a8df0",
+        "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+      },
+      "final_tensor_sha256": "440341d9890ddf4f21d1189aaf8d8914671b839002a565011e6182ef85680ea9",
+      "new_phase_steps": 96,
+      "original_adapter_step": 280
+    }
+  },
+  "identity_sha256": "a74a5462a3172a350a7cb5a50ad5f6528dcaea5c9009feb27a47d8ba7a4108a4",
+  "status": "completed",
+  "schedule": [
+    "QUALITYDEV1-001:candidate",
+    "QUALITYDEV1-007:candidate",
+    "QUALITYDEV1-013:candidate",
+    "QUALITYDEV1-019:candidate",
+    "QUALITYDEV1-002:candidate",
+    "QUALITYDEV1-008:candidate",
+    "QUALITYDEV1-014:candidate",
+    "QUALITYDEV1-020:candidate",
+    "QUALITYDEV1-003:candidate",
+    "QUALITYDEV1-009:candidate",
+    "QUALITYDEV1-015:candidate",
+    "QUALITYDEV1-021:candidate",
+    "QUALITYDEV1-004:candidate",
+    "QUALITYDEV1-010:candidate",
+    "QUALITYDEV1-016:candidate",
+    "QUALITYDEV1-022:candidate",
+    "QUALITYDEV1-005:candidate",
+    "QUALITYDEV1-011:candidate",
+    "QUALITYDEV1-017:candidate",
+    "QUALITYDEV1-023:candidate",
+    "QUALITYDEV1-006:candidate",
+    "QUALITYDEV1-012:candidate",
+    "QUALITYDEV1-018:candidate",
+    "QUALITYDEV1-024:candidate"
+  ],
+  "scheduled_outputs": 24,
+  "attempted_outputs": 24,
+  "recorded_outputs": 24,
+  "completed_outputs": 24,
+  "completed_cases": 24,
+  "active_output_id": null,
+  "unattempted_output_ids": [],
+  "canary": {
+    "status": "passed",
+    "id": "QUALITYDEV1-024:plain",
+    "input_tokens": 456,
+    "rendered_input_ids_sha256": "78f82faed8ce2c6439d69f8261c5654d5f7215e7e00961949539483214f79254",
+    "elapsed_seconds": 0.2689633930567652,
+    "peak_allocated_bytes": 63644212224,
+    "peak_reserved_bytes": 63986204672,
+    "output_generated": false,
+    "experimental_attempts": 0,
+    "deadline_utc": "2026-09-29T21:12:10.382112+00:00"
+  }
+}
