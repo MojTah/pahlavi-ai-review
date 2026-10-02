@@ -1,0 +1,128 @@
+{
+  "status": "PREPARED_LIVE_STAGING_VERIFIED_AWAITING_PAID_AUTHORIZATION",
+  "created_at_utc": "2026-10-02T04:38:53.144509+00:00",
+  "execution_owner": "Main",
+  "reviewed_source_commit": "7de0e05a2bded99c84c5ca4418427e8ca3f87ecc",
+  "operation": "one_source_only_own_analysis_inference_comparison",
+  "run_id": "4fbd698f81214b60b0101f7f0b5ed677",
+  "job_spec_sha256": "e081ddc8d8baca06c63c9cde225cf96bbd1e890a6c0736ac8a0c415cc00be86e",
+  "prepared_receipt_sha256": "20b05f21208d3c1adf34eceed7404393b671c1e32d82f47c62ef59c90006e97a",
+  "packet_manifest_sha256": "8acca8e0a6049e11123733d6907416a346a619832e388c4e53c38c67714d0f90",
+  "frozen_cases": 3,
+  "final_arm_denominator": 3,
+  "scheduled_slots": 9,
+  "checkpoint": "retained Gemma4-31B step280",
+  "precision": "bf16_base_fp32_retained_lora",
+  "timeout_minutes": 60,
+  "compute_seconds": 3000,
+  "internal_seconds": 3300,
+  "provider_observation": {
+    "observed_at_utc": "2026-10-02T04:33:22.082125+00:00",
+    "account": "Mojionix",
+    "hardware_rate_verified": true,
+    "hardware_rate_microusd_per_minute": 41667,
+    "rate_unit": "minute",
+    "bucket": {
+      "id": "Mojionix/pahlavi-pilot",
+      "private": true
+    },
+    "proposed_run_id": "4fbd698f81214b60b0101f7f0b5ed677",
+    "output_prefix": "own-analysis-diagnostic/4fbd698f81214b60b0101f7f0b5ed677",
+    "output_prefix_entries": 0,
+    "no_job_submitted": true,
+    "no_remote_mutation": true,
+    "no_weights_downloaded": true,
+    "active_jobs": [],
+    "matching_jobs": [],
+    "total_jobs_observed": 29
+  },
+  "billing_observation": {
+    "source_url": "https://huggingface.co/settings/billing",
+    "surface": "Chrome live visible billing page",
+    "observed_at_utc": "2026-10-02T04:32:00+00:00",
+    "timestamp_precision": "approximately one minute; exact tool completion in chat record",
+    "funded_credit_usd": "18.49",
+    "automatic_recharge": "unset; Set up automatic recharge visible",
+    "settings_changed": false
+  },
+  "allowance": {
+    "usd": "3.01",
+    "compute_envelope_usd": "2.50002",
+    "reserve_usd": "0.50",
+    "computation": "ceil_to_cent(60 * rate_microUSD_per_minute / 1e6 + 0.50)",
+    "basis": "provider timeout and observed minute rate; allowance is not an invoice or guaranteed total account bill",
+    "price_source": "https://huggingface.co/docs/hub/en/jobs-pricing",
+    "new_funding_authorized": false
+  },
+  "remote_artifact_readback": {
+    "observed_at_utc": "2026-10-02T04:35:47.441926+00:00",
+    "bucket": "Mojionix/pahlavi-pilot",
+    "verified_small_files": [
+      {
+        "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/manifest.json",
+        "bytes": 5949,
+        "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
+      },
+      {
+        "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_config.json",
+        "bytes": 1215,
+        "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+      },
+      {
+        "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/provenance.json",
+        "bytes": 2108,
+        "sha256": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69"
+      },
+      {
+        "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/status.json",
+        "bytes": 149,
+        "sha256": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"
+      },
+      {
+        "path": "inputs/cloud-pilot-qualified-20260927.zip",
+        "bytes": 6372448,
+        "sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9"
+      }
+    ],
+    "total_readback_bytes": 6381869,
+    "retained_global_step": 280,
+    "retained_full_training_completed": true,
+    "weight_inventory_size_verified": 489840816,
+    "weight_hash_is_manifest_pin_not_local_readback": true,
+    "weights_downloaded": false,
+    "remote_mutation": false
+  },
+  "input_staging": {
+    "observed_at_utc": "2026-10-02T04:37:05.967361+00:00",
+    "bucket": "Mojionix/pahlavi-pilot",
+    "remote_path": "inputs/own-analysis-diagnostic-fab01f709897b104.jsonl",
+    "bytes": 6866,
+    "sha256": "fab01f709897b104ca339727c9f602c86def4f8502263e2dd97078df68a73a70",
+    "created_fresh": true,
+    "independent_readback_verified": true,
+    "model_visible_source_only_prompts": true,
+    "references_or_review_constraints_uploaded": false,
+    "weights_transferred": false,
+    "job_submitted": false,
+    "original_training_data_changed": false
+  },
+  "independent_reviews": {
+    "source_measurement": "Astra PASS exploratory; references not expert gold",
+    "runtime_repair": "Astra PASS_LOCAL_REPAIR at 472b35d; critic PASS",
+    "latest_launch_path_critic": "/root/plain_package_critic PASS concrete proposal/local pins/arithmetic; independent provider calls not performed; exact new authorization remains"
+  },
+  "remaining_gates": [
+    "maintained human authorization for this exact new one-job allowance",
+    "refresh live account/rate/credit/recharge/idle and matching jobs/private bucket/empty output before exclusive claim",
+    "reverify exact staged input/spec/receipt/source and review hashes",
+    "exclusive submission-claim.json created by caller using x before the single submit_once POST; preserve on ambiguity",
+    "server GPU/tensor/prefill canaries before experimental generation",
+    "provider startup receipt and later independent output readback"
+  ],
+  "paid_run_admitted": false,
+  "submitted": false,
+  "training": false,
+  "automatic_resubmit": false,
+  "model_weights_downloaded": false,
+  "no_reference_answers_staged": true
+}

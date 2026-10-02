@@ -1,0 +1,454 @@
+[
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/base-download.log",
+    "bytes": 8679
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/base-provenance.json",
+    "bytes": 2322
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/bundle-manifest.json",
+    "bytes": 1825
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/driver.log",
+    "bytes": 17540
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/predictions.jsonl",
+    "bytes": 10187
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/run.json",
+    "bytes": 4395
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-01-done/result.json",
+    "bytes": 757
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-01-done/run.json",
+    "bytes": 4568
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-01-start/run.json",
+    "bytes": 3659
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-02-done/result.json",
+    "bytes": 759
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-02-done/run.json",
+    "bytes": 4551
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-02-start/run.json",
+    "bytes": 3640
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-03-done/result.json",
+    "bytes": 790
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-03-done/run.json",
+    "bytes": 4584
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-03-start/run.json",
+    "bytes": 3621
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-04-done/result.json",
+    "bytes": 1010
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-04-done/run.json",
+    "bytes": 4942
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-04-start/run.json",
+    "bytes": 3602
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-05-done/result.json",
+    "bytes": 1002
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-05-done/run.json",
+    "bytes": 4911
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-05-start/run.json",
+    "bytes": 3586
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-06-done/result.json",
+    "bytes": 1002
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-06-done/run.json",
+    "bytes": 4895
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-06-start/run.json",
+    "bytes": 3570
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-07-done/result.json",
+    "bytes": 839
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-07-done/run.json",
+    "bytes": 4607
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-07-start/run.json",
+    "bytes": 3554
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-08-done/result.json",
+    "bytes": 904
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-08-done/run.json",
+    "bytes": 4708
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-08-start/run.json",
+    "bytes": 3541
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-09-done/result.json",
+    "bytes": 874
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-09-done/run.json",
+    "bytes": 4644
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-09-start/run.json",
+    "bytes": 3528
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-10-done/result.json",
+    "bytes": 762
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-10-done/run.json",
+    "bytes": 4441
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-10-start/run.json",
+    "bytes": 3516
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-11-done/result.json",
+    "bytes": 755
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-11-done/run.json",
+    "bytes": 4410
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-11-start/run.json",
+    "bytes": 3501
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-12-done/result.json",
+    "bytes": 733
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-12-done/run.json",
+    "bytes": 4348
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/attempt-12-start/run.json",
+    "bytes": 3482
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/loading/run.json",
+    "bytes": 3241
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/evaluation/snapshots/prefill-passed/run.json",
+    "bytes": 3674
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/job-status.json",
+    "bytes": 2482
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/manifest.json",
+    "bytes": 10335
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/model-inputs.jsonl",
+    "bytes": 21374
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/reconciliation.json",
+    "bytes": 678
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/final/trained-manifest.json",
+    "bytes": 5949
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-01-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-01-done/result.json",
+    "bytes": 757
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-01-done/run.json",
+    "bytes": 4568
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-01-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-01-start/run.json",
+    "bytes": 3659
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-02-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-02-done/result.json",
+    "bytes": 759
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-02-done/run.json",
+    "bytes": 4551
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-02-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-02-start/run.json",
+    "bytes": 3640
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-03-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-03-done/result.json",
+    "bytes": 790
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-03-done/run.json",
+    "bytes": 4584
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-03-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-03-start/run.json",
+    "bytes": 3621
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-04-done/manifest.json",
+    "bytes": 577
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-04-done/result.json",
+    "bytes": 1010
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-04-done/run.json",
+    "bytes": 4942
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-04-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-04-start/run.json",
+    "bytes": 3602
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-05-done/manifest.json",
+    "bytes": 577
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-05-done/result.json",
+    "bytes": 1002
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-05-done/run.json",
+    "bytes": 4911
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-05-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-05-start/run.json",
+    "bytes": 3586
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-06-done/manifest.json",
+    "bytes": 577
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-06-done/result.json",
+    "bytes": 1002
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-06-done/run.json",
+    "bytes": 4895
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-06-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-06-start/run.json",
+    "bytes": 3570
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-07-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-07-done/result.json",
+    "bytes": 839
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-07-done/run.json",
+    "bytes": 4607
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-07-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-07-start/run.json",
+    "bytes": 3554
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-08-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-08-done/result.json",
+    "bytes": 904
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-08-done/run.json",
+    "bytes": 4708
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-08-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-08-start/run.json",
+    "bytes": 3541
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-09-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-09-done/result.json",
+    "bytes": 874
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-09-done/run.json",
+    "bytes": 4644
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-09-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-09-start/run.json",
+    "bytes": 3528
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-10-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-10-done/result.json",
+    "bytes": 762
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-10-done/run.json",
+    "bytes": 4441
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-10-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-10-start/run.json",
+    "bytes": 3516
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-11-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-11-done/result.json",
+    "bytes": 755
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-11-done/run.json",
+    "bytes": 4410
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-11-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-11-start/run.json",
+    "bytes": 3501
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-12-done/manifest.json",
+    "bytes": 576
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-12-done/result.json",
+    "bytes": 733
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-12-done/run.json",
+    "bytes": 4348
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-12-start/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/attempt-12-start/run.json",
+    "bytes": 3482
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/loading/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/loading/run.json",
+    "bytes": 3241
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/prefill-passed/manifest.json",
+    "bytes": 445
+  },
+  {
+    "path": "component-diagnostic/2fb3023097664133acb41e068fc6ee1e/incremental/prefill-passed/run.json",
+    "bytes": 3674
+  }
+]

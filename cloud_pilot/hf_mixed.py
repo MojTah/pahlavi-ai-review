@@ -203,6 +203,13 @@ def execute_mixed(settings, scripts, bootstrap_prefix):
         raise failure
 
 
+try:
+    from .training_admission import draft
+except ImportError:
+    from training_admission import draft
+
+
+@draft
 def prepare(train_path, manifest_path, run_id=None):
     run_id = uuid.uuid4().hex if run_id is None else run_id
     if not isinstance(run_id, str) or not re.fullmatch(r'[a-f0-9]{32}', run_id):

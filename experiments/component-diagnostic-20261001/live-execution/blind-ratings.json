@@ -1,0 +1,107 @@
+{
+  "utc": "2026-10-01T16:10:13.831098+00:00",
+  "source": "Normalized record of the two returned agent assessments; full wording retained in conversation",
+  "assessors": [
+    "/root/component_blind_a",
+    "/root/component_blind_b"
+  ],
+  "reference_aware": true,
+  "condition_labels_concealed": true,
+  "shared_packet_sha256": "9c1688a727f278a1151b554617d8feebd5621b14dfb9e89aa2009a33f2ae8588",
+  "specialist_certified": false,
+  "independent_calibrated_measurements": false,
+  "ratings": [
+    {
+      "blind_id": "Q001",
+      "reviewer_a_judgment": "SUPPORTED",
+      "reviewer_b_judgment": "SUPPORTED",
+      "agreed_scoped_critical_errors": []
+    },
+    {
+      "blind_id": "Q002",
+      "reviewer_a_judgment": "CONTRADICTED",
+      "reviewer_b_judgment": "CONTRADICTED",
+      "agreed_scoped_critical_errors": [
+        "Both nominal list elements lose plural reference."
+      ]
+    },
+    {
+      "blind_id": "Q003",
+      "reviewer_a_judgment": "SUPPORTED",
+      "reviewer_b_judgment": "SUPPORTED",
+      "agreed_scoped_critical_errors": [
+        "The reliable-witness referent is replaced by immortals."
+      ]
+    },
+    {
+      "blind_id": "Q004",
+      "reviewer_a_judgment": "SUPPORTED",
+      "reviewer_b_judgment": "SUPPORTED",
+      "agreed_scoped_critical_errors": []
+    },
+    {
+      "blind_id": "Q005",
+      "reviewer_a_judgment": "OMITTED",
+      "reviewer_b_judgment": "OMITTED",
+      "agreed_scoped_critical_errors": []
+    },
+    {
+      "blind_id": "Q006",
+      "reviewer_a_judgment": "CONTRADICTED",
+      "reviewer_b_judgment": "CONTRADICTED",
+      "agreed_scoped_critical_errors": [
+        "Both nominal list elements lose plural reference."
+      ]
+    },
+    {
+      "blind_id": "Q007",
+      "reviewer_a_judgment": "SUPPORTED",
+      "reviewer_b_judgment": "SUPPORTED",
+      "agreed_scoped_critical_errors": []
+    },
+    {
+      "blind_id": "Q008",
+      "reviewer_a_judgment": "OMITTED",
+      "reviewer_b_judgment": "OMITTED",
+      "agreed_scoped_critical_errors": []
+    },
+    {
+      "blind_id": "Q009",
+      "reviewer_a_judgment": "SUPPORTED",
+      "reviewer_b_judgment": "SUPPORTED",
+      "agreed_scoped_critical_errors": []
+    },
+    {
+      "blind_id": "Q010",
+      "reviewer_a_judgment": "CONTRADICTED",
+      "reviewer_b_judgment": "CONTRADICTED",
+      "agreed_scoped_critical_errors": [
+        "Both nominal list elements lose plural reference."
+      ]
+    },
+    {
+      "blind_id": "Q011",
+      "reviewer_a_judgment": "SUPPORTED",
+      "reviewer_b_judgment": "SUPPORTED",
+      "agreed_scoped_critical_errors": []
+    },
+    {
+      "blind_id": "Q012",
+      "reviewer_a_judgment": "SUPPORTED",
+      "reviewer_b_judgment": "SUPPORTED",
+      "agreed_scoped_critical_errors": []
+    }
+  ],
+  "judgment_disagreements": [],
+  "primary_supported_by_condition": {
+    "A": 2,
+    "B": 2,
+    "C": 3
+  },
+  "denominator_per_condition": 4,
+  "retained_uncertainties": [
+    "TB3 title and \u0101r\u0101n\u0101n roles unresolved; M\u0101h homograph judged from source-qualified predicate, not model internal meaning.",
+    "Berk A/C witness/seal phrase unclear, not counted correct; full receipt/stad arguments unscored.",
+    "Kanheri spelling/etymology and remaining Zand paragraph unscored."
+  ]
+}

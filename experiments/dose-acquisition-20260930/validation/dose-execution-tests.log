@@ -1,0 +1,7 @@
+test_existing_remote_conflict_stops_before_upload (__main__.Checks.test_existing_remote_conflict_stops_before_upload) ... ok
+test_funding_price_private_idle_guards (__main__.Checks.test_funding_price_private_idle_guards) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.072s
+
+OK

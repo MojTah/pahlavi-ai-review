@@ -1,0 +1,21 @@
+{
+  "received_utc": "2026-10-02T02:58:35.561900+00:00",
+  "source_thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "source_title": "Review Solit\u2019s work",
+  "review_status": "COMPLETED_PARTIAL_INTEGRATED",
+  "verdict": "PARTIAL",
+  "reviewed_checkpoint": "ed3fa46",
+  "execution_artifact_accounting": "VERIFIED_BY_REVIEW_CHAT_AND_ASTRA",
+  "correction": "Complete Kanheri son-specific frozen endpoint is reviewer-disputed; directed child/parent roles alone omit explicit son-specific meaning. Preserve original I3/3 record, do not claim fully endorsed count or invent replacement score.",
+  "original_ratings_unchanged": true,
+  "new_score_created": false,
+  "original_frozen_endpoint_unchanged": true,
+  "next_step": "Qualify small complete-clause panel locally; prospective direct versus own unedited generated analysis translation, identical source/lexical evidence, common full-translation scoring, all first outputs/failures, no oracle/manual repair or answer-bearing cues; report pipeline end-to-end cost.",
+  "integrated_files": [
+    "OUTCOME.md",
+    "GOAL.md",
+    "PROJECT_STATE.md"
+  ],
+  "new_paid_run_admitted": false,
+  "new_training_admitted": false
+}

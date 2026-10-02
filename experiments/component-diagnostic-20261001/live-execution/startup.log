@@ -1,0 +1,50 @@
+    Uninstalling click-8.3.1:
+      Successfully uninstalled click-8.3.1
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.2.25
+    Uninstalling certifi-2026.2.25:
+      Successfully uninstalled certifi-2026.2.25
+  Attempting uninstall: cuda-bindings
+    Found existing installation: cuda-bindings 12.9.4
+    Uninstalling cuda-bindings-12.9.4:
+      Successfully uninstalled cuda-bindings-12.9.4
+
+Successfully installed accelerate-1.14.0 annotated-doc-0.0.5 anyio-4.15.1 bitsandbytes-0.50.2 certifi-2026.7.22 click-8.5.0 cuda-bindings-12.9.9 cuda-pathfinder-1.8.2 filelock-4.0.3 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.23.0 idna-3.20 markdown-it-py-4.2.0 mdurl-0.1.2 networkx-3.7 numpy-2.5.3 packaging-26.3 peft-0.21.0 pygments-2.21.0 regex-2026.9.10 rich-15.0.0 safetensors-0.8.0 shellingham-1.5.4 tokenizers-0.22.2 tqdm-4.70.1 transformers-5.13.1 typer-0.27.2 typing-extensions-4.16.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+No broken requirements found.
+{"stage": "bootstrap_complete", "utc": "2026-10-01T15:44:20.891015+00:00", "training": false}
+{"stage": "base_download_started", "utc": "2026-10-01T15:44:29.001406+00:00", "server_only": true}
+{"model_id": "google/gemma-4-31B-it", "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475", "files": 8, "download_bytes": 62578654714, "free_bytes": 5699669213184, "download_requested": true}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+chat_template.jinja:   0%|          | 0.00/18.7k [00:00<?, ?B/s][Achat_template.jinja: 100%|██████████| 18.7k/18.7k [00:00<00:00, 65.8MB/s]
+
+config.json:   0%|          | 0.00/4.62k [00:00<?, ?B/s][Aconfig.json: 100%|██████████| 4.62k/4.62k [00:00<00:00, 34.5MB/s]
+
+generation_config.json:   0%|          | 0.00/208 [00:00<?, ?B/s][Ageneration_config.json: 100%|██████████| 208/208 [00:00<00:00, 1.53MB/s]
+
+model-00001-of-00002.safetensors: reconstructing file:   0%|          |  0.00B / 49.8GB            [Amodel-00001-of-00002.safetensors: downloading bytes:           |  0.00B            model-00001-of-00002.safetensors: downloading bytes:           |  360MB, 28.3MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   1%|          |  536MB / 49.8GB, 26.1MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▏         |  847MB, 73.0MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   2%|▏         | 1.02GB / 49.8GB, 84.4MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▎         | 1.55GB,  124MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   4%|▍         | 2.08GB / 49.8GB,  166MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▍         | 2.42GB,  190MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   6%|▋         | 3.15GB / 49.8GB,  245MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▋         | 3.48GB,  261MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   9%|▊         | 4.29GB / 49.8GB,  256MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▉         | 4.68GB,  341MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  12%|█▏        | 6.17GB / 49.8GB,  424MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▏        | 6.19GB,  432MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  16%|█▌        | 7.91GB / 49.8GB,  552MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▌        | 7.75GB,  527MB/s  model-00001-of-00002.safetensors: downloading bytes: █▉        | 9.45GB,  616MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  21%|██        | 10.3GB / 49.8GB,  631MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██▏       | 10.9GB,  680MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  26%|██▌       | 12.8GB / 49.8GB,  769MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██▌       | 12.8GB,  783MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  31%|███       | 15.4GB / 49.8GB,  881MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██▉       | 14.6GB,  861MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  35%|███▌      | 17.6GB / 49.8GB, 1.01GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▎      | 16.6GB,  939MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  41%|████      | 20.5GB / 49.8GB, 1.14GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▊      | 18.8GB, 1.04GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  47%|████▋     | 23.2GB / 49.8GB, 1.26GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████▏     | 21.1GB, 1.12GB/s  model-00001-of-00002.safetensors: downloading bytes: ████▋     | 23.2GB, 1.20GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  52%|█████▏    | 25.7GB / 49.8GB, 1.34GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████     | 25.4GB, 1.21GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  58%|█████▊    | 29.0GB / 49.8GB, 1.37GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▌    | 27.5GB, 1.28GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  63%|██████▎   | 31.5GB / 49.8GB, 1.43GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▉    | 29.3GB, 1.28GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  68%|██████▊   | 33.9GB / 49.8GB, 1.48GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▎   | 31.6GB, 1.36GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  74%|███████▎  | 36.7GB / 49.8GB, 1.48GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▊   | 33.7GB, 1.34GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  79%|███████▊  | 39.1GB / 49.8GB, 1.56GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███████▏  | 35.9GB, 1.40GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  84%|████████▍ | 42.0GB / 49.8GB, 1.66GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███████▋  | 38.5GB, 1.49GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  90%|████████▉ | 44.8GB / 49.8GB, 1.66GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████████▏ | 40.5GB, 1.47GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  95%|█████████▍| 47.1GB / 49.8GB, 1.71GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████████▌ | 42.6GB, 1.52GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  99%|█████████▉| 49.5GB / 49.8GB, 1.75GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.45GB/s  model-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.45GB/s  
+model-00001-of-00002.safetensors: reconstructing file: 100%|██████████| 49.8GB / 49.8GB, 1.78GB/s  

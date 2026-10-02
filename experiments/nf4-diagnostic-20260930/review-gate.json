@@ -1,0 +1,7 @@
+{
+  "verdict": "PASS",
+  "critic": "/root/astra_runtime_plan_recheck",
+  "proposal_check_sha256": "e15dc399b086072793a087cf968cfcf3595ec54513d9c7426aa0dc94de546b07",
+  "review_sha256": "d25faba18dc57a61c3586ac5bdc68be823f1cbf0f72de1fe6c01dac084617504",
+  "scope": "One inference only; GPU/provider/persistence not locally verified"
+}

@@ -1,0 +1,88 @@
+{
+  "utc": "2026-09-30T15:48:58.490545+00:00",
+  "job_id": "6abd2a1d404719ba376138e8",
+  "url": "https://huggingface.co/jobs/Mojionix/6abd2a1d404719ba376138e8",
+  "stage": "COMPLETED",
+  "created_at": "2026-09-30 15:26:21.929000+00:00",
+  "started_at": "2026-09-30 15:26:27.940000+00:00",
+  "finished_at": "2026-09-30 15:41:05.114000+00:00",
+  "files": [
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/base-provenance.json",
+      "bytes": 2322
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/bundle-manifest.json",
+      "bytes": 1825
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/candidate-manifest.json",
+      "bytes": 10066
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/diagnostic-status.json",
+      "bytes": 2905
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/driver.log",
+      "bytes": 9154
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/evaluation/evaluation/predictions.jsonl",
+      "bytes": 63015
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/evaluation/evaluation/run.json",
+      "bytes": 14984
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/evaluation/run.json",
+      "bytes": 12214
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/manifest.json",
+      "bytes": 4410
+    },
+    {
+      "path": "learning-diagnosis/7352dda33542431abb025b1443087aed/reference-manifest.json",
+      "bytes": 5949
+    }
+  ],
+  "logs": [
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-027\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 33}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-027\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 34}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-028\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 35}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-028\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 36}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-005\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 37}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-005\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 38}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-006\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 39}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-006\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 40}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-017\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 41}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-017\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 42}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-018\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 43}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-018\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 44}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-019\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 45}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-019\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 46}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-020\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 47}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-020\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 48}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-021\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 49}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-021\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 50}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-022\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 51}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-022\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 52}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-023\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 53}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-023\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 54}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-024\", \"arm\": \"candidate\", \"status\": \"success\", \"recorded_outputs\": 55}",
+    "{\"phase\": \"learning_case_recorded\", \"case_id\": \"LD-024\", \"arm\": \"reference\", \"status\": \"success\", \"recorded_outputs\": 56}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.613988+00:00\", \"path\": \"base-provenance.json\", \"bytes\": 2322, \"sha256\": \"faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.637803+00:00\", \"path\": \"bundle-manifest.json\", \"bytes\": 1825, \"sha256\": \"fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.662351+00:00\", \"path\": \"candidate-manifest.json\", \"bytes\": 10066, \"sha256\": \"4ccf49623f1753efffc922a97f882cdbadbfcecabbda5ebccbe30e9f3e084dac\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.787945+00:00\", \"path\": \"diagnostic-status.json\", \"bytes\": 2905, \"sha256\": \"4e10cc34c02b7842ecc8cbeb962971d5d60c776fe3ea38179440e7653cb07f0f\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.815244+00:00\", \"path\": \"driver.log\", \"bytes\": 9154, \"sha256\": \"55fa7183e1152d83e1af9081897cd364aca7930e5c86d6014ac6fa63b235b401\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.841129+00:00\", \"path\": \"evaluation/evaluation/predictions.jsonl\", \"bytes\": 63015, \"sha256\": \"f719d7e408d3db94afa2fb99cc77158aa732cd116e0970ae79229c91cfa24816\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.841689+00:00\", \"path\": \"evaluation/evaluation/run.json\", \"bytes\": 14984, \"sha256\": \"402b6043e318b9674f57bd21ac0f36bb5b5c7ea7fe1d2cdf511c2f191086f536\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.842160+00:00\", \"path\": \"evaluation/run.json\", \"bytes\": 12214, \"sha256\": \"1a5a5a09611645df46d8c9a7d38d27758fb04f7b803c1cdaad2af8571c159a74\"}",
+    "{\"stage\": \"artifact_closed\", \"utc\": \"2026-09-30T15:40:00.870286+00:00\", \"path\": \"reference-manifest.json\", \"bytes\": 5949, \"sha256\": \"b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6\"}",
+    "{\"stage\": \"ready_to_persist\", \"utc\": \"2026-09-30T15:40:00.894960+00:00\", \"manifest_sha256\": \"a55fe3b25aea56e3655822883af6a923e0ea63fd9e88afa74d81f153db243c92\", \"exported_files\": 9, \"evaluation_status\": \"finished_see_per_attempt_status\"}",
+    "{\"stage\": \"persistence_window_expired\", \"utc\": \"2026-09-30T15:41:00.895089+00:00\", \"remote_inventory_verified\": false}"
+  ]
+}

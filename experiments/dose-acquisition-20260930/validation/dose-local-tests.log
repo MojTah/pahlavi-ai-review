@@ -1,0 +1,48 @@
+test_actual_order_corruption (cloud_pilot.test_dose_train.DoseTest.test_actual_order_corruption) ... ok
+{"phase": "dose_training_step", "step": 1, "consumed_slots": 2, "seconds": 0.21799999999711872}
+{"phase": "dose_canary_admission", "admitted": true}
+{'loss': '3.469', 'grad_norm': '0.9057', 'learning_rate': '0', 'epoch': '0.25'}
+{"phase": "dose_training_step", "step": 2, "consumed_slots": 4, "seconds": 0.3279999999977008}
+{"phase": "dose_canary_admission", "admitted": false}
+test_failure_preserves_intermediate_snapshot (cloud_pilot.test_dose_train.DoseTest.test_failure_preserves_intermediate_snapshot) ... ok
+test_initial_nonfinite_and_buffer_guards (cloud_pilot.test_dose_train.DoseTest.test_initial_nonfinite_and_buffer_guards) ... ok
+test_malformed_cycles_schema_and_settings (cloud_pilot.test_dose_train.DoseTest.test_malformed_cycles_schema_and_settings) ... ok
+test_nonfinite_forwarded_loss_stops_before_update (cloud_pilot.test_dose_train.DoseTest.test_nonfinite_forwarded_loss_stops_before_update) ... ok
+test_nonfinite_gradient (cloud_pilot.test_dose_train.DoseTest.test_nonfinite_gradient) ... ok
+{"phase": "dose_training_step", "step": 1, "consumed_slots": 2, "seconds": 0.23500000000058208}
+{"phase": "dose_canary_admission", "admitted": true}
+{'loss': '3.469', 'grad_norm': '0.9057', 'learning_rate': '0', 'epoch': '0.25'}
+{"phase": "dose_training_step", "step": 2, "consumed_slots": 4, "seconds": 0.3280000000013388}
+{"phase": "dose_canary_admission", "admitted": true}
+{'loss': '3.469', 'grad_norm': '0.9057', 'learning_rate': '0.0001', 'epoch': '0.5'}
+{"phase": "dose_training_step", "step": 3, "consumed_slots": 6, "seconds": 0.4690000000009604}
+{'loss': '3.468', 'grad_norm': '0.9119', 'learning_rate': '6.667e-05', 'epoch': '0.75'}
+{"phase": "dose_training_step", "step": 4, "consumed_slots": 8, "seconds": 0.5159999999996217}
+test_real_continuous_optimizer_exact_forward_exposure_and_reload (cloud_pilot.test_dose_train.DoseTest.test_real_continuous_optimizer_exact_forward_exposure_and_reload) ... ok
+test_assembled_packet_exact_local_tokenizer_rendering (cloud_pilot.test_dose_run.PacketChecks.test_assembled_packet_exact_local_tokenizer_rendering) ... ok
+test_first_attempt_failure_is_durable_and_never_retried (cloud_pilot.test_dose_run.PacketChecks.test_first_attempt_failure_is_durable_and_never_retried) ... ok
+test_packet_and_rendering (cloud_pilot.test_dose_run.PacketChecks.test_packet_and_rendering) ... ok
+test_real_killed_child_reconciles_active_attempt_without_fake_output (cloud_pilot.test_dose_run.PacketChecks.test_real_killed_child_reconciles_active_attempt_without_fake_output) ... ok
+test_real_peft_unload_and_four_named_adapter_reload (cloud_pilot.test_dose_run.PacketChecks.test_real_peft_unload_and_four_named_adapter_reload) ... ok
+test_reserve (cloud_pilot.test_dose_run.PacketChecks.test_reserve) ... ok
+{'loss': '3.467', 'grad_norm': '0.915', 'learning_rate': '3.333e-05', 'epoch': '1'}
+{'train_runtime': '0.3586', 'train_samples_per_second': '22.31', 'train_steps_per_second': '11.15', 'train_loss': '3.469', 'epoch': '1'}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.485154+00:00", "path": "data-manifest.json", "bytes": 11216, "sha256": "384c61e42023d888e799c3e4cda3163672be665cf4ddc21112ef4cea52cee485"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.496667+00:00", "path": "dose/training/adapter-step192/adapter_config.json", "bytes": 2, "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.506335+00:00", "path": "dose/training/adapter-step192/adapter_model.safetensors", "bytes": 24, "sha256": "539e11a467ce80d2d68fdd75161c4da967b5b000c093b3ad617b47ce6b17fef6"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.516339+00:00", "path": "dose/training/adapter-step384/adapter_config.json", "bytes": 2, "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.526337+00:00", "path": "dose/training/adapter-step384/adapter_model.safetensors", "bytes": 24, "sha256": "7846fdd6e5903c05e9ed88650a49f47fd25d2fcb58709d7893aae97898438d37"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.539336+00:00", "path": "dose/training/adapter-step96/adapter_config.json", "bytes": 2, "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.548335+00:00", "path": "dose/training/adapter-step96/adapter_model.safetensors", "bytes": 23, "sha256": "1986800048670f2e95a5044492b32454d27c3c94566838c8c149c8f92f91e8e8"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.559414+00:00", "path": "dose/training/admission-adapter-step20/adapter_config.json", "bytes": 2, "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.569413+00:00", "path": "dose/training/admission-adapter-step20/adapter_model.safetensors", "bytes": 23, "sha256": "67b4a3aac1807aeb0779a5d549119bbbe5dec2c823953e9db31c0af112cf78d2"}
+{"stage": "artifact_closed", "utc": "2026-09-30T18:34:49.578413+00:00", "path": "dose/training/run.json", "bytes": 91386, "sha256": "5e7b474725e0dbd9b30259a2cf15f512cbe785e46a085dab68536e375144ae26"}
+test_adapter_snapshot_export_and_training_receipt (cloud_pilot.test_hf_dose.DosePackageTest.test_adapter_snapshot_export_and_training_receipt) ... ok
+test_changed_data_and_packet_refuse (cloud_pilot.test_hf_dose.DosePackageTest.test_changed_data_and_packet_refuse) ... ok
+test_input_dict_order_and_json_roundtrip_preserve_exact_job (cloud_pilot.test_hf_dose.DosePackageTest.test_input_dict_order_and_json_roundtrip_preserve_exact_job) ... ok
+test_real_sdk_draft_refuses_and_payload_is_exact (cloud_pilot.test_hf_dose.DosePackageTest.test_real_sdk_draft_refuses_and_payload_is_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 8.052s
+
+OK

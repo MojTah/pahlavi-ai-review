@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-30T18:35:31.594962+00:00",
+  "tests": [
+    {
+      "command": "python -m unittest cloud_pilot.test_dose_train cloud_pilot.test_dose_run cloud_pilot.test_hf_dose -v",
+      "test_count": 17,
+      "exit_code": 0,
+      "log": "experiments\\dose-acquisition-20260930\\validation\\dose-local-tests.log",
+      "sha256": "2446cd2282e9f8532a11c9cbac5be61415dd1db062edbf9a109b313562a76e03"
+    },
+    {
+      "command": "python experiments/dose-acquisition-20260930/test_execution.py -v",
+      "test_count": 2,
+      "exit_code": 0,
+      "log": "experiments\\dose-acquisition-20260930\\validation\\dose-execution-tests.log",
+      "sha256": "f39d1666c75432a69c1139e4d6b470219f2f8a66d3ca9e6c499b587a209817f1"
+    }
+  ],
+  "total_tests": 19,
+  "source_sha256": {
+    "cloud_pilot/dose_run.py": "2e67952ed6f1649fe92e6b6a760053b19c30a6c440d7cebc23d24bad3e0288df",
+    "cloud_pilot/dose_train.py": "fa095d87e3f3a907d59dcb019eb348a25ce4c7d8f9d834d5bfd9f8c75f6a6fdd",
+    "cloud_pilot/hf_dose.py": "cb483bb7c2963c18bd178a62a551d12347cac73cc344b5873d7ca821ffeeac0b",
+    "cloud_pilot/test_dose_run.py": "f55b67a096262ab6f91ec2ed3c45709bfd8ed20b4c61f8f7574208113cf656a1",
+    "cloud_pilot/test_dose_train.py": "161e03a5fd3367d6e812e6e4fd379240ca4b96f0002a373ff940604e90e1bac4",
+    "cloud_pilot/test_hf_dose.py": "2b133b5ae92e5e3ff928d5e5b501d21197fa354db552afbcc5c8d6e6125afb38",
+    "experiments/dose-acquisition-20260930/prepare.py": "db0a984473bba6b810200a4a6a5568eeda245c527c411b4325b5db81a1c618f5",
+    "experiments/dose-acquisition-20260930/execute.py": "b09ee7c0277476e0e498fd9842437899c7b687c8808a2212912681178cba3c2c",
+    "experiments/dose-acquisition-20260930/freeze.py": "dafc7bb38ebd7a8a7c2617124adcf768d17e2382d99a66fdd1478a48bb39b1aa",
+    "experiments/dose-acquisition-20260930/test_execution.py": "f5ae3808a6ad031cdbf6af6805c2224096b112cccac31df2a99d200635591520",
+    "experiments/dose-acquisition-20260930/PLAN.md": "b38f57df0f661c3a70174b9a02915714125f90bc750b29c3fe19e8a753d6213e",
+    "experiments/dose-acquisition-20260930/packet-contract.json": "0675e2ff81b986c2d5033565e1ee5c86b4e5e618728a01e16bb9253f7cd8b20a",
+    "experiments/dose-acquisition-20260930/packet-validation.json": "d5fee6e5575a609c9e36cf75b52c43e14830a65a854d4e552d21fa670161bd31"
+  },
+  "actual_31b_gpu_tested": false,
+  "nf4_gpu_tested": false,
+  "remote_persistence_tested": false,
+  "real_cpu_trainer_tested": true,
+  "real_peft_unload_reload_tested": true,
+  "actual_frozen_packet_tokenizer_replay_passed": true,
+  "actual_child_kill_reconciled": true,
+  "native_sdk_serialization_passed": true,
+  "blocked_training_draft_refused": true,
+  "no_network_or_weights_downloaded_in_tests": true,
+  "actual_saved_proposal_replay_passed": true,
+  "job_sha256": "57479ba5d4dea0f7d9bfdc81c936de9d34120fb3092a4adcdab324ee15be7ba5"
+}

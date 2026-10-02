@@ -1,0 +1,121 @@
+{
+  "automatic_full_resume_supported": false,
+  "bootstrap_hashes": {
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "candidate_adapter_files": {
+    "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "adapter_model.safetensors": "c2305fc9cdc1fb99a346e58c92ae2ba1faa030ff6961bf0be1452f75006a8df0"
+  },
+  "candidate_manifest_sha256": "4ccf49623f1753efffc922a97f882cdbadbfcecabbda5ebccbe30e9f3e084dac",
+  "case_order": [
+    "LD-001",
+    "LD-002",
+    "LD-007",
+    "LD-008",
+    "LD-011",
+    "LD-012",
+    "LD-013",
+    "LD-014",
+    "LD-025",
+    "LD-026",
+    "LD-003",
+    "LD-004",
+    "LD-009",
+    "LD-010",
+    "LD-015",
+    "LD-016",
+    "LD-027",
+    "LD-028",
+    "LD-005",
+    "LD-006",
+    "LD-017",
+    "LD-018",
+    "LD-019",
+    "LD-020",
+    "LD-021",
+    "LD-022",
+    "LD-023",
+    "LD-024"
+  ],
+  "compute_seconds": 6600,
+  "cross_job_sha256_verified": false,
+  "evaluation_status": "finished_see_per_attempt_status",
+  "experiment_id": "corrected-learning-diagnosis-20260930",
+  "export_reserve_seconds": 180,
+  "files": {
+    "base-provenance.json": {
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+    },
+    "bundle-manifest.json": {
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+    },
+    "candidate-manifest.json": {
+      "bytes": 10066,
+      "sha256": "4ccf49623f1753efffc922a97f882cdbadbfcecabbda5ebccbe30e9f3e084dac"
+    },
+    "diagnostic-status.json": {
+      "bytes": 2905,
+      "sha256": "4e10cc34c02b7842ecc8cbeb962971d5d60c776fe3ea38179440e7653cb07f0f"
+    },
+    "driver.log": {
+      "bytes": 9154,
+      "sha256": "55fa7183e1152d83e1af9081897cd364aca7930e5c86d6014ac6fa63b235b401"
+    },
+    "evaluation/evaluation/predictions.jsonl": {
+      "bytes": 63015,
+      "sha256": "f719d7e408d3db94afa2fb99cc77158aa732cd116e0970ae79229c91cfa24816"
+    },
+    "evaluation/evaluation/run.json": {
+      "bytes": 14984,
+      "sha256": "402b6043e318b9674f57bd21ac0f36bb5b5c7ea7fe1d2cdf511c2f191086f536"
+    },
+    "evaluation/run.json": {
+      "bytes": 12214,
+      "sha256": "1a5a5a09611645df46d8c9a7d38d27758fb04f7b803c1cdaad2af8571c159a74"
+    },
+    "reference-manifest.json": {
+      "bytes": 5949,
+      "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
+    }
+  },
+  "generation": {
+    "max_generation_seconds": 90,
+    "max_new_tokens": 512,
+    "seed": 42
+  },
+  "helper_sha256": {
+    "bundle.py": "60094706124ee58b78a2b73b6a43c30eb9310a2a1d3786f83749e95b597b1a2d",
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "inputs_name": "learning-diagnosis-02c5ecc82e187847.jsonl",
+  "inputs_sha256": "02c5ecc82e187847377d5891c31fcb9fc5fb0d3714ea4aa66e686c0a3fabce3c",
+  "internal_seconds": 6900,
+  "latest_optimizer_checkpoint": null,
+  "max_export_bytes": 16777216,
+  "maximum_wait_seconds": 60,
+  "native_timeout_minutes": 120,
+  "operation": "learning_diagnosis_inference_only",
+  "optimizer_updates": 0,
+  "quality_validated": false,
+  "reference_adapter_files": {
+    "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf"
+  },
+  "reference_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "remote_inventory_verified": false,
+  "run_id": "7352dda33542431abb025b1443087aed",
+  "runner_sha256": "8f9ae586b562004eaa21ac26e22f190d4c82e187377c88307fbf2035ea12db12",
+  "schema_version": 2,
+  "training_launched": false
+}

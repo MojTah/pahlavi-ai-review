@@ -1,0 +1,13 @@
+# Frozen pilot-heldout confirmation diagnostic
+
+Five source-bound prompts: two Persian lexical inventories, one English lexical inventory, one Manichaean Middle Persian English inventory, and one Persian inscription opening. References are exact approved corrected-v2 targets, never invented translations. Select once before baseline/final outputs; do not revise from model behavior.
+
+Run `[USER_HOME]\.venvs\codex-science\Scripts\python.exe experiments/dose-acquisition-20260930/confirmation/build.py` from the project root. The script rebuilds the same panel using SHA256 ordering of IDs and assertions. It reads corrected frozen data, its existing prompt builder, all24 fixed qualitydev inputs and existing learning-diagnosis inputs. It never reads model predictions or reviewer results. `selection.json` records input/output hashes and exact exclusions; references preserve row audit hashes and original prompt token prefixes.
+
+Excluded: all1536 pilot train records and mapped parent IDs; identical complete prompt token prefixes; identical fixed evaluation prompts; lexical forms occurring in train sources across tasks or fixed evaluation text; shared lexical observation entry IDs; and inscription witness groups represented in training. Selected lexical cases also exclude each other's normalized forms and observation families. Form normalization casefolds, decomposes Unicode, removes combining marks and nonletters: this detects string variants, not exhaustive morphological/derivational kinship. Individual token vocabulary overlap is expected; zero overlap means complete prompt prefix identity, not disjoint vocabulary.
+
+Eight qualified cases were not available under composition work/context-family exclusion. Documentary and edition tasks have no unused rows; all unused historical rows share training works and all unused pedagogy rows share training context families. Only one unused inscription has a disjoint witness group. The resulting five-case panel has one composition case; it cannot validate broad translation ability.
+
+Lexical dictionary editions remain shared with training; lexical independence is checked at normalized form and observation entry identity, not whole edition. Exposure in earlier step280 training and base-model pretraining is UNKNOWN. These are pilot-heldout diagnostics, not proven pretraining-unseen cases. Targets remain source-qualified, not expert-certified.
+
+The underlying readiness manifest reports local checks, zero prompt collisions, no truncation and no unknown tokens. Those data checks alone do not establish model runtime quality or authorize a launch.

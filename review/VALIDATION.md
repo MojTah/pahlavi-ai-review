@@ -10,5 +10,9 @@ Public-entrypoint references, frozen benchmark verification and remote commit/tr
 performed before delivery. The corrected-v2 cloud run and its local blinded comparison have
 separate execution and verification evidence in `experiments/training-ready-v2-20260929/`.
 Publication checks do not establish semantic correctness. Full data-dependent tests require
-separately supplied private files and pinned dependencies. The older checkpoint-diagnostic
-launcher remains a separate, unexecuted proposal.
+separately supplied private files and pinned dependencies. Acquisition, dose and later inference diagnostics have completed; consult the current overview and dated results.
+Publication is not a new experiment, and no new quality claim is made.
+
+## Checks completed on 2 October 2026
+
+The lead verified all 1,597 payload sizes and SHA256 hashes, exact file inventory, current entrypoint links, JSON parsing, and the latest own-analysis comparison counts. The bounded common-credential scan found no matches. The public checkout passed `python -B -X utf8 benchmarks/pal-reference-v1/benchmark.py verify` (40 passages, 160 cases), and `git diff --check`. An independent read-only critic confirmed the factual handoff and publication scope, including 181 omissions and zero omitted files present. No model execution or exhaustive linguistic audit was performed for publication.

@@ -94,6 +94,16 @@ class DevEvidenceTests(unittest.TestCase):
 
     def test_actual_frozen_build_complete_provenance_and_expected_coverage(self):
         records, audit = evidence.build(self.train, self.inputs)
+        frozen = self.root / "experiments/dev-assisted-20260927/candidate-evidence"
+        payload = "".join(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n"
+                          for record in records).encode("utf-8")
+        self.assertEqual(evidence.sha(payload), "1b25ffea5f0817523f78d20138a1aac201f72e76867369e4bd0ae29d36228cd3")
+        self.assertEqual(payload, (frozen / "evidence.jsonl").read_bytes())
+        historical_audit = json.loads((frozen / "audit.json").read_text(encoding="utf-8"))
+        self.assertNotEqual(audit["generator_sha256"], historical_audit["generator_sha256"])
+        self.assertNotEqual(audit["source_helpers_sha256"], historical_audit["source_helpers_sha256"])
+        for name, expected in audit["source_helpers_sha256"].items():
+            self.assertEqual(expected, evidence.sha((self.root / "cloud_pilot" / name).read_bytes()))
         source = {item["id"]: item for item in map(json.loads, self.train.read_text(encoding="utf-8").splitlines())}
         queries = evidence.dev_diagnostic.read_inputs(self.inputs)
         self.assertEqual(audit["coverage"], {"cases": 24, "supported_cases": 24, "attachments": 69,
@@ -119,7 +129,8 @@ class DevEvidenceTests(unittest.TestCase):
 
     def test_hash_tampering_rejected_before_selection(self):
         read = Path.read_bytes
-        for target in (self.train, self.inputs, self.root / "cloud_pilot/dev_diagnostic.py"):
+        for target in (self.train, self.inputs, self.root / "cloud_pilot/dev_diagnostic.py",
+                       self.root / "cloud_pilot/bundle.py"):
             def tamper(path):
                 data = read(path)
                 return data + b"\n" if path.resolve() == target.resolve() else data

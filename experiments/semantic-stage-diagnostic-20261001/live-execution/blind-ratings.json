@@ -1,0 +1,257 @@
+{
+  "observed_utc": "2026-10-02T02:52:01.721067+00:00",
+  "source": "Normalized categorical records of two returned fresh agent assessments; full wording retained in conversation.",
+  "packet_sha256": "8949c0febb8bb72d7c7b1155029f48ae0eed8e85dd6d04d5c1b7f2b0acebbda9",
+  "reference_aware": true,
+  "condition_labels_concealed": true,
+  "task_format_visible": true,
+  "expert_certified": false,
+  "calibrated_independent_instruments": false,
+  "assessors": {
+    "/root/stage_assessor_a": [
+      {
+        "blind_id": "B01",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B02",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The parent name appears as فرخانی, a spelling variation whose exact correspondence to Farroxān is uncertain."
+        ]
+      },
+      {
+        "blind_id": "B03",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The output lists nihād as unresolved despite retaining the sealing predicate and assigning its agent."
+        ]
+      },
+      {
+        "blind_id": "B04",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The infinitival wording leaves the giver implicit and does not assert a finite past event."
+        ]
+      },
+      {
+        "blind_id": "B05",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B06",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The son-specific relation is implicit in the patronymic context rather than explicitly distinguished from generic child-parent kinship."
+        ]
+      },
+      {
+        "blind_id": "B07",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Explicit number 1 conflicts with the attributed plural reference of both gyāg and rōstāg.",
+          "The two nouns are combined into one referent entry without preserving their distinct coordinated list status."
+        ],
+        "uncertainties": [
+          "This judgment concerns compatibility with the supplied conditional reading, not definitive source correctness."
+        ]
+      },
+      {
+        "blind_id": "B08",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": "SUPPORTED",
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B09",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Adds ten ewers of wine despite the instruction to express only the giving event and participant roles."
+        ],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B10",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B11",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B12",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    ],
+    "/root/stage_assessor_b": [
+      {
+        "blind_id": "B01",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B02",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B03",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The output lists nihād as unresolved while retaining the predicate and its Māh agent."
+        ]
+      },
+      {
+        "blind_id": "B04",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The infinitival wording leaves the unidentified giver implicit."
+        ]
+      },
+      {
+        "blind_id": "B05",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B06",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B07",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Explicit number 1 conflicts with the attributed plural reference of both gyāg and rōstāg.",
+          "The two nouns are combined into one referent entry without preserving their distinct coordinated list status."
+        ],
+        "uncertainties": [
+          "The assessment concerns compatibility with the attributed conditional reading; it does not establish the source reading."
+        ]
+      },
+      {
+        "blind_id": "B08",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": "SUPPORTED",
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B09",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Adds ten ewers of wine despite the instruction to express only the giving event and participant roles."
+        ],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B10",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B11",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      {
+        "blind_id": "B12",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    ]
+  },
+  "counts": {
+    "/root/stage_assessor_a": {
+      "I_primary_supported": 3,
+      "I_primary_denominator": 3,
+      "R_supplied_supported": 4,
+      "R_denominator": 4,
+      "S_supplied_supported": 3,
+      "S_denominator": 4,
+      "Zand_I_conditional": "CONTRADICTED",
+      "Berk_I_secondary_recipient": "SUPPORTED"
+    },
+    "/root/stage_assessor_b": {
+      "I_primary_supported": 3,
+      "I_primary_denominator": 3,
+      "R_supplied_supported": 4,
+      "R_denominator": 4,
+      "S_supplied_supported": 3,
+      "S_denominator": 4,
+      "Zand_I_conditional": "CONTRADICTED",
+      "Berk_I_secondary_recipient": "SUPPORTED"
+    }
+  },
+  "primary_disagreements": []
+}

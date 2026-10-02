@@ -1,0 +1,312 @@
+{
+  "status": "LOCAL_SOURCE_REVIEW_OVERLAY_NOT_TRAINING_OR_CLOUD_ADMISSION",
+  "mode": "Classic + Critic",
+  "source_projection_sha256": "d3e1ebee3cec70f748b95d241652f6e78ae265f084f1e09f83b809901a40d772",
+  "parent_resource_manifest_sha256": "0c9779c4c1829944d422d053b983d1ef67dc41ac4f583e5dae6495b55d8028bd",
+  "source_inputs_sha256": {
+    "sources/local/parsig-2026-09-20/responses/095754ed8a52f1f9c875d509337c3a5c90dbd11fad2a7cfb24e91bd1ed36b8ed.json": "b479342bb42b64a6f76a6f9e4e26792655b630ad5c4e2ee7e4358c912def8d38",
+    "sources/local/parsig-2026-09-20/responses/2d784340360c2c530acec55c6c4b940f55518fc683dd09ac716225ef62bf0f74.json": "4140a7d68547280e3450601a118e1f3c980034c05279e1d8543c475cb66c2179",
+    "sources/local/parsig-2026-09-20/responses/442b3e2d91d42771d4739edec65272e4dbb9b7125636f06d401a6aa40e9d153e.json": "395b4504e00c5ec81e17545fe11e0fa28dd2444b81e35fca49d0dbb453b93a23",
+    "sources/local/parsig-2026-09-20/responses/251c60fab5d7e63218268d029003737237689254afc5b8917b99aea4bc3cad9e.json": "eb63074767c8c7a827b3d2eb5adc3e43b4e8edd2459a38eca109a0af05869517",
+    "sources/local/parsig-2026-09-20/responses/a41caca358b30276426b867bf2ef1f5ebb7ffb6fbd92904a8d63c119ed07d7c3.json": "dad430945e036f099279907aa3e31d671673e1446d97c8a8ac95577b5f4da606",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/e68c7610d1a941356b24be98ee5e1f6cc0d5f426b2e01bb28354959807359317.source": "07a773e8c6bfaa2ea03cabf8a69846f9f17f3a73f7fa68ede6387ded3d5705fb",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/50f84cfdcbdb645883c8272f0be610e1eb028fc392627d3ff9c3441f1ee43c6e.source": "287d93b4ecba80e39783b4066d565775cc47eca9c0c991090c9005909a619027",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/6d941a1f55ab8c93a79c9021c1cc7e6e29fa4a6400290bd2e517b8286e08476c.source": "17286b195d65b386f38c79a4d9fa113c25fff52df02bcb1cfc98272b608e7b87",
+    "sources/local/mackenzie-pdf-20260928/english-1986.pdf": "594421d8c58e3f6b0ae169e383ae2917fe7572ac53fe568350b1b4ea62b1e091",
+    "resources/local/plain-target-preparation-20261001/source-checks/mackenzie-english-pdf026.png": "5a73b587bfbe7cc15d3eb57a8e4e05c8727e5f534787d129b67195246b8b894a",
+    "sources/local/public-texts-2026-09-20/kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4"
+  },
+  "expert_certified": false,
+  "decisions": [
+    {
+      "id": "parsig:151000045:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "72a04a62dc23ebdd3f7390a58d69d998d27e1424901b7f7338f292f494eb3c8f",
+      "source_sha256": "b1a64fbeeaa209de2097388c97147252af13ab4af738c568d2089178e40ae67a",
+      "reader_before_sha256": "7b4218288681dcb2fde6a6c5edea9f9945556e5e12bcf1e74184a8c9c7d6bdc2",
+      "expert_certified": false,
+      "operations": [],
+      "source_checks": [
+        {
+          "path": "sources/local/parsig-2026-09-20/responses/095754ed8a52f1f9c875d509337c3a5c90dbd11fad2a7cfb24e91bd1ed36b8ed.json",
+          "sha256": "b479342bb42b64a6f76a6f9e4e26792655b630ad5c4e2ee7e4358c912def8d38",
+          "selector": "Translation[0].Section",
+          "record_id": "151000045"
+        }
+      ],
+      "disposition": "HOLD_STANDALONE_CROSS_RECORD_EDITORIAL_SCOPE",
+      "reason": "Anklesaria supplied this phrase from Pazand; source parenthesis and Persian bracket span045/046. Keep originals; no standalone repair or invented joined example.",
+      "reviewer": "/root/historical_target_review"
+    },
+    {
+      "id": "parsig:151000046:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "0cc8f121ba7c9e9879e4738b7bcae8750f256ec02d37de09673236f14053a2a2",
+      "source_sha256": "8744f656afe0507cb28836ac63426d2fd4a0bc0744f55c9da164a80e830ee58a",
+      "reader_before_sha256": "226b4131f891a0d85d7628e8ce742665770606b0ff9a9d90467a5b7fa6d020a6",
+      "expert_certified": false,
+      "operations": [],
+      "source_checks": [
+        {
+          "path": "sources/local/parsig-2026-09-20/responses/095754ed8a52f1f9c875d509337c3a5c90dbd11fad2a7cfb24e91bd1ed36b8ed.json",
+          "sha256": "b479342bb42b64a6f76a6f9e4e26792655b630ad5c4e2ee7e4358c912def8d38",
+          "selector": "Translation[0].Section",
+          "record_id": "151000046"
+        }
+      ],
+      "disposition": "HOLD_STANDALONE_CROSS_RECORD_EDITORIAL_SCOPE",
+      "reason": "Anklesaria supplied this phrase from Pazand; source parenthesis and Persian bracket span045/046. Keep originals; no standalone repair or invented joined example.",
+      "reviewer": "/root/historical_target_review"
+    },
+    {
+      "id": "parsig:134009019:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "475779e139ad8f3c8d7861917f0dadb4174226cbffa0ab1cc0af979823e57060",
+      "source_sha256": "98c1ff4e69c2b8a36e335aa17f70772d11a3340daf266e482ede369cb83243d7",
+      "reader_before_sha256": "f295a8bc8d93c5ef16a2b095a517d4ad1189f158351fbe4f29ae33d8b69f0f47",
+      "expert_certified": false,
+      "operations": [
+        {
+          "old": "جریان نیابم»",
+          "new": "جریان نیابم)»",
+          "count": 1
+        }
+      ],
+      "source_checks": [
+        {
+          "path": "sources/local/parsig-2026-09-20/responses/2d784340360c2c530acec55c6c4b940f55518fc683dd09ac716225ef62bf0f74.json",
+          "sha256": "4140a7d68547280e3450601a118e1f3c980034c05279e1d8543c475cb66c2179",
+          "selector": "Translation[0].Section",
+          "record_id": "134009019"
+        }
+      ],
+      "disposition": "APPLY_EXACT_TYPOGRAPHY_REPAIR",
+      "reason": "Close the local explanatory gloss before the water quotation closes; no words/negatives changed.",
+      "reviewer": "/root/historical_target_review",
+      "reader_after_sha256": "e0b5f1571906eb65cbd06877f604210b9208431128221576e2e1e4a88c04bbe6"
+    },
+    {
+      "id": "parsig:136003017:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "cafd4e81b31339c755637702838bdfb95b7e5830701fa9fcb4d532524752cdf0",
+      "source_sha256": "cf2c410d7a25460376b811c064e7b3f79caa4070bdb5b798aa865a5ff6d3d04c",
+      "reader_before_sha256": "0279ff05714d92e3049008bd9b7fdf2dbca1745fe10d67ae5ab6ad1a79ce2850",
+      "expert_certified": false,
+      "operations": [
+        {
+          "old": ". (=",
+          "new": ".",
+          "count": 1
+        }
+      ],
+      "source_checks": [
+        {
+          "path": "sources/local/parsig-2026-09-20/responses/442b3e2d91d42771d4739edec65272e4dbb9b7125636f06d401a6aa40e9d153e.json",
+          "sha256": "395b4504e00c5ec81e17545fe11e0fa28dd2444b81e35fca49d0dbb453b93a23",
+          "selector": "Translation[0].Section",
+          "record_id": "136003017"
+        }
+      ],
+      "disposition": "APPLY_EXACT_TYPOGRAPHY_REPAIR",
+      "reason": "Remove the empty dangling final gloss opener only; retain populated glosses.",
+      "reviewer": "/root/historical_target_review",
+      "reader_after_sha256": "baae413d46f7921190ddf87855de2f6f346de342ef268bc9d531ef5cae78eeaf"
+    },
+    {
+      "id": "parsig:137001023:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "e0a9ed452830e4434cc15016b3784afbf1aa2374309ef11d45d34add59f950ab",
+      "source_sha256": "4c182574e0fb7ab49a8348eb49f45ce8b438e4c82868383080e5bc9d5934ca69",
+      "reader_before_sha256": "91635fd9ba3ce19ea4ecef92b2e744f196312c77891cb9c7eb694eaccbda0a09",
+      "expert_certified": false,
+      "operations": [
+        {
+          "old": "[اهریمن)",
+          "new": "[اهریمن]",
+          "count": 1
+        }
+      ],
+      "source_checks": [
+        {
+          "path": "sources/local/parsig-2026-09-20/responses/251c60fab5d7e63218268d029003737237689254afc5b8917b99aea4bc3cad9e.json",
+          "sha256": "eb63074767c8c7a827b3d2eb5adc3e43b4e8edd2459a38eca109a0af05869517",
+          "selector": "Translation[0].Section",
+          "record_id": "137001023"
+        }
+      ],
+      "disposition": "APPLY_EXACT_TYPOGRAPHY_REPAIR",
+      "reason": "Correct mismatched closing delimiter; preserve supplied subject qualification.",
+      "reviewer": "/root/historical_target_review",
+      "reader_after_sha256": "73c0c1d9225cad5b7bdd2460133b83f7c7e8b287b1c371aa796f44c046aabd6b"
+    },
+    {
+      "id": "parsig:137001028:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "35b9b4d2e0876467cd4240b4311b369a35f54b68a83a10ae1c6bbd31abb4108d",
+      "source_sha256": "29911f713bde743311d49fba56c3974d30f38ddecd2f5b265ef759bfea64753d",
+      "reader_before_sha256": "7347b4cf209c8219564b6c374421a03515cd183cfd3c6f7efd2c5fe8b1d97d86",
+      "expert_certified": false,
+      "operations": [
+        {
+          "old": "[و)",
+          "new": "[و]",
+          "count": 1
+        }
+      ],
+      "source_checks": [
+        {
+          "path": "sources/local/parsig-2026-09-20/responses/251c60fab5d7e63218268d029003737237689254afc5b8917b99aea4bc3cad9e.json",
+          "sha256": "eb63074767c8c7a827b3d2eb5adc3e43b4e8edd2459a38eca109a0af05869517",
+          "selector": "Translation[0].Section",
+          "record_id": "137001028"
+        }
+      ],
+      "disposition": "APPLY_EXACT_TYPOGRAPHY_REPAIR",
+      "reason": "Correct mismatched closing delimiter; preserve supplied conjunction and source reading note.",
+      "reviewer": "/root/historical_target_review",
+      "reader_after_sha256": "1707d95168ffb33bb8b0c6191748f3fdd2f3dc15324fcb8bc61e7a62dbe6f9ec"
+    },
+    {
+      "id": "parsig:301007008:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "4ed42ec9086cf520c21670f1185d27157829bbf75270ef31a64563e90a86f912",
+      "source_sha256": "2c81641e48edf12ddab4ebbaf6c60bc84158567124becfae8e7e23f435573ce7",
+      "reader_before_sha256": "897e032a4be6e75c3500fe61dbe60129fb6c68332bee9c7299285ba2cc2a3701",
+      "expert_certified": false,
+      "operations": [
+        {
+          "old": "}اساس و حاصل{",
+          "new": "{اساس و حاصل}",
+          "count": 1
+        }
+      ],
+      "source_checks": [
+        {
+          "path": "sources/local/parsig-2026-09-20/responses/a41caca358b30276426b867bf2ef1f5ebb7ffb6fbd92904a8d63c119ed07d7c3.json",
+          "sha256": "dad430945e036f099279907aa3e31d671673e1446d97c8a8ac95577b5f4da606",
+          "selector": "Translation[0].Section",
+          "record_id": "301007008"
+        }
+      ],
+      "disposition": "APPLY_EXACT_TYPOGRAPHY_REPAIR",
+      "reason": "Correct reversed braces to the normal orientation of source bun ud bar; preserve all other editorial additions/alternatives.",
+      "reviewer": "/root/historical_target_review",
+      "reader_after_sha256": "a80d372b190001d2958cc453137d79192e9fb94a618f04e02c0d4df9b5fc087d"
+    },
+    {
+      "id": "openampd:MP5650:full",
+      "task": "documentary-en",
+      "archival_target_sha256": "22de2cc3f7f87c71240203da1b22087559ee64ea76f6f591c04e04193b95ace1",
+      "source_sha256": "0b2817cba361a51303dc12706a2ae8fe4389711d232874e866346283a7de44c6",
+      "reader_before_sha256": "1fc8919966f07ba8e7a397aa7fef9637d60ff0f671d0757dcfa13fcce0e743fb",
+      "expert_certified": false,
+      "operations": [],
+      "source_checks": [
+        {
+          "path": "sources/local/public-texts-2026-09-20/berkeley/raw/e68c7610d1a941356b24be98ee5e1f6cc0d5f426b2e01bb28354959807359317.source",
+          "sha256": "07a773e8c6bfaa2ea03cabf8a69846f9f17f3a73f7fa68ede6387ded3d5705fb",
+          "selector": "transcription/translation ab-lb divisions",
+          "document": "MP5650"
+        }
+      ],
+      "disposition": "RETAIN_UNCHANGED_ANNOTATED_FRAGMENT_TASK_ONLY",
+      "reason": "Raw TEI itself contains edition damage/restoration notation; no inline gap/unclear/supplied elements justify recoding. Existing context already explicitly says QUALIFIED_FRAGMENT and retain uncertainty/editorial additions. Not clean complete prose.",
+      "reviewer": "/root/documentary_target_review",
+      "plain_complete_translation_admitted": false,
+      "existing_annotated_task_retained": true,
+      "reader_after_sha256": "1fc8919966f07ba8e7a397aa7fef9637d60ff0f671d0757dcfa13fcce0e743fb"
+    },
+    {
+      "id": "openampd:MP0437:full",
+      "task": "documentary-en",
+      "archival_target_sha256": "11bebb04d06c897756209a27299735ec538d29e4d36aaee5c2e7356b687ebb68",
+      "source_sha256": "a2786c4d8b9136f6344e5c4dfb19f325c58418ef68275e6fbbc0c2e14cfa64c9",
+      "reader_before_sha256": "bc7db16fa18ceb38e8c1b90aa2f41d85ddf6affe181590b552ce15849a6056e0",
+      "expert_certified": false,
+      "operations": [],
+      "source_checks": [
+        {
+          "path": "sources/local/public-texts-2026-09-20/berkeley/raw/50f84cfdcbdb645883c8272f0be610e1eb028fc392627d3ff9c3441f1ee43c6e.source",
+          "sha256": "287d93b4ecba80e39783b4066d565775cc47eca9c0c991090c9005909a619027",
+          "selector": "transcription/translation ab-lb divisions",
+          "document": "MP0437"
+        }
+      ],
+      "disposition": "RETAIN_UNCHANGED_ANNOTATED_FRAGMENT_TASK_ONLY",
+      "reason": "Raw TEI itself contains edition damage/restoration notation; no inline gap/unclear/supplied elements justify recoding. Existing context already explicitly says QUALIFIED_FRAGMENT and retain uncertainty/editorial additions. Not clean complete prose.",
+      "reviewer": "/root/documentary_target_review",
+      "plain_complete_translation_admitted": false,
+      "existing_annotated_task_retained": true,
+      "reader_after_sha256": "bc7db16fa18ceb38e8c1b90aa2f41d85ddf6affe181590b552ce15849a6056e0"
+    },
+    {
+      "id": "openampd:MP0093:full",
+      "task": "documentary-en",
+      "archival_target_sha256": "ce8f14e298ff4678844acbd255f73c5834a2a4d5b19fac1eb71a1131cbf7f680",
+      "source_sha256": "9546a9d38a1e89380fe83b326886385eabc3b3d5972972d6b6018ffafb9daaa9",
+      "reader_before_sha256": "5f0761758f685cd411e9c7a8a524a04050be7777312286c78d739aeb4c820515",
+      "expert_certified": false,
+      "operations": [],
+      "source_checks": [
+        {
+          "path": "sources/local/public-texts-2026-09-20/berkeley/raw/6d941a1f55ab8c93a79c9021c1cc7e6e29fa4a6400290bd2e517b8286e08476c.source",
+          "sha256": "17286b195d65b386f38c79a4d9fa113c25fff52df02bcb1cfc98272b608e7b87",
+          "selector": "transcription/translation ab-lb divisions",
+          "document": "MP0093"
+        }
+      ],
+      "disposition": "RETAIN_UNCHANGED_ANNOTATED_FRAGMENT_TASK_ONLY",
+      "reason": "Raw TEI itself contains edition damage/restoration notation; no inline gap/unclear/supplied elements justify recoding. Existing context already explicitly says QUALIFIED_FRAGMENT and retain uncertainty/editorial additions. Not clean complete prose.",
+      "reviewer": "/root/documentary_target_review",
+      "plain_complete_translation_admitted": false,
+      "existing_annotated_task_retained": true,
+      "reader_after_sha256": "5f0761758f685cd411e9c7a8a524a04050be7777312286c78d739aeb4c820515"
+    },
+    {
+      "id": "kosh:cpd:70742f1be12f3b749b47752fa5229fbd52107e29:block:0",
+      "task": "lexical-en",
+      "archival_target_sha256": "97af581aeeb074614f6f46f8e60f6012499693053de21820c1042ee08e98cf1e",
+      "source_sha256": "0ca4c44a2b9c4e10f43cd6ba894d4cb574f92dd3662b05c02e43efed99aa68fd",
+      "reader_before_sha256": "bbf14b119e2bbaf712f9797444265f0484e99b0ddab994848ed3144cb5f62612",
+      "expert_certified": false,
+      "operations": [
+        {
+          "old": "(woman)havingjust given birth",
+          "new": "(woman) having just given birth",
+          "count": 1
+        }
+      ],
+      "source_checks": [
+        {
+          "path": "sources/local/mackenzie-pdf-20260928/english-1986.pdf",
+          "sha256": "594421d8c58e3f6b0ae169e383ae2917fe7572ac53fe568350b1b4ea62b1e091",
+          "pdf_page_1_based": 26,
+          "printed_page": 4
+        },
+        {
+          "path": "resources/local/plain-target-preparation-20261001/source-checks/mackenzie-english-pdf026.png",
+          "sha256": "5a73b587bfbe7cc15d3eb57a8e4e05c8727e5f534787d129b67195246b8b894a",
+          "pdf_page_1_based": 26,
+          "printed_page": 4
+        },
+        {
+          "path": "sources/local/public-texts-2026-09-20/kosh-catalogue-sized-20260928/raw/4b77cb976e9af1d4842f40bed847ea51ee00a5177e28e8fee6239184d49220c3.source",
+          "sha256": "7237ee7bad641b74437b153d52cb440ae74f4ab5e06c79acf742cba2e527a2c4",
+          "entry_id": "70742f1be12f3b749b47752fa5229fbd52107e29",
+          "xml_sha256": "b846aa3d9cd729c955a28d92a06134374a062769869e14d28f7577786f3ba44d"
+        }
+      ],
+      "disposition": "APPLY_EXACT_SOURCE_PRINT_SPACING_REPAIR",
+      "reason": "Primary printed abus entry has distinct woman qualifier and spaced having just given birth. Insert two word boundaries only; keep woman qualifier, source form and separate long-vowel abus-family entry unchanged. No full dictionary reread or novel sense certification.",
+      "reviewer": "/root",
+      "reader_after_sha256": "aecef3c825ed487b74938a3af5b75ec5e911d66245016726930b165a27d35d21"
+    }
+  ],
+  "counts": {
+    "reviewed": 11,
+    "exact_repairs": 6,
+    "retained_annotated_fragments": 3,
+    "held_standalone": 2
+  },
+  "scope": "Narrow typography/fragment-task decisions. All other targets inherited from provisional qualified release, not recertified. Original seven release holds remain excluded; no historical evaluation read or changed."
+}

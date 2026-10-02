@@ -23,6 +23,88 @@ HELPERS = ('runtime.py', 'bundle.py', 'contextual_run.py', 'contextual_train.py'
            'dev_assisted.py', 'dev_diagnostic.py', 'palref_eval.py')
 
 
+def reconcile_evaluation(output):
+    """Finalize a stopped child without retrying or inventing a generation."""
+    import os
+    from collections import Counter
+    output = Path(output)
+    path = output / 'run.json'
+    if not path.exists():
+        raise ValueError('Evaluator has no durable schedule')
+    state = json.loads(path.read_text('utf-8'))
+    ids = state['schedule']
+    order = state.get('settings', {}).get('case_order', [f'LD-{i:03d}' for i in range(1, 29)])
+    expected = [k + ':' + a for i, k in enumerate(order)
+                for a in (('reference', 'candidate') if i % 2 == 0 else ('candidate', 'reference'))]
+    if (sorted(order) != [f'LD-{i:03d}' for i in range(1, 29)] or ids != expected
+            or len(ids) != 56 or len(set(ids)) != 56 or state['scheduled_outputs'] != 56
+            or state['status'] not in {'running', 'loading_bf16', 'completed', 'completed_with_errors', 'incomplete'}):
+        raise ValueError('Evaluator schedule differs from fixed denominator')
+    predictions = output / 'predictions.jsonl'
+    raw = predictions.read_bytes() if predictions.exists() else b''
+    if raw and not raw.endswith(b'\n'):
+        raise ValueError('Partial prediction tail; preserved without interpreting or appending')
+    rows = [json.loads(line) for line in raw.splitlines()]
+    for i, row in enumerate(rows):
+        case, arm = ids[i].split(':') if i < 56 else ('', '')
+        if (i >= 56 or row.get('id') != ids[i] or row.get('sequence') != i + 1
+                or row.get('case_id') != case or row.get('arm') != arm
+                or row.get('identity_sha256') != state['identity_sha256']
+                or row.get('status') not in {'success', 'abstain', 'timeout', 'error', 'interrupted'}):
+            raise ValueError('Prediction identity/order/status differs')
+    recorded, attempted, active = state['recorded_outputs'], state['attempted_outputs'], state['active_output_id']
+    if (type(recorded) is not int or type(attempted) is not int or not 0 <= recorded <= attempted <= 56
+            or attempted - recorded not in (0, 1)
+            or len(rows) not in {recorded, attempted}
+            or active != (ids[recorded] if attempted > recorded else None)
+            or state['unattempted_output_ids'] != ids[attempted:]):
+        raise ValueError('Inconsistent attempt ledger; evidence preserved')
+    committed = rows[:recorded]
+    case_counts = Counter(r['case_id'] for r in committed)
+    expected_arms = {a: dict(recorded=sum(r['arm'] == a for r in committed),
+                            successful=sum(r['arm'] == a and r['status'] in {'success', 'abstain'} for r in committed),
+                            errors=sum(r['arm'] == a and r['status'] not in {'success', 'abstain'} for r in committed))
+                     for a in ('reference', 'candidate')}
+    if (state['arms'] != expected_arms
+            or state['successful_outputs'] != sum(r['status'] in {'success', 'abstain'} for r in committed)
+            or state['completed_cases'] != sum(n == 2 for n in case_counts.values())):
+        raise ValueError('Inconsistent recorded counters; evidence preserved')
+    if state['status'] in {'completed', 'completed_with_errors'}:
+        expected_status = 'completed' if all(r['status'] in {'success', 'abstain'} for r in rows) else 'completed_with_errors'
+        if attempted != 56 or recorded != 56 or state['status'] != expected_status:
+            raise ValueError('Completed ledger lacks consistent full first-attempt coverage')
+    if active is not None and len(rows) == recorded:
+        case, arm = active.split(':')
+        row = dict(id=active, case_id=case, arm=arm, sequence=attempted, status='interrupted',
+                   error_type='ChildInterrupted', error='Child stopped before committing output; output unknown',
+                   identity_sha256=state['identity_sha256'],
+                   adapter_sha256=state['adapters'][arm]['adapter_model.safetensors'],
+                   text=None, output_tokens=None, output_token_ids=None, output_sha256=None,
+                   stop_reason='child_interrupted', recovered_after_child_stop=True)
+        with predictions.open('ab') as stream:
+            stream.write((json.dumps(row) + '\n').encode('utf-8'))
+            stream.flush()
+            os.fsync(stream.fileno())
+        rows.append(row)
+    counts = Counter(row['case_id'] for row in rows)
+    state.update(recorded_outputs=len(rows), active_output_id=None, unattempted_output_ids=ids[attempted:],
+                 successful_outputs=sum(r['status'] in {'success', 'abstain'} for r in rows),
+                 completed_cases=sum(n == 2 for n in counts.values()))
+    state['arms'] = {a: dict(recorded=sum(r['arm'] == a for r in rows),
+                            successful=sum(r['arm'] == a and r['status'] in {'success', 'abstain'} for r in rows),
+                            errors=sum(r['arm'] == a and r['status'] not in {'success', 'abstain'} for r in rows))
+                     for a in ('reference', 'candidate')}
+    if state['status'] not in {'completed', 'completed_with_errors', 'incomplete'}:
+        state.update(status='incomplete', error_type='ChildInterrupted',
+                     error='Evaluator stopped before durable finalization')
+    for canary in state['canaries'].values():
+        if canary['status'] == 'running': canary['status'] = 'failed'
+    temporary = path.with_suffix('.json.tmp')
+    temporary.write_text(json.dumps(state, indent=2) + '\n', encoding='utf-8')
+    os.replace(temporary, path)
+    return state
+
+
 def copy_adapter(mount, prefix, target, expected_manifest, expected_files, evidence, arm):
     """Read-through verify existing cloud weights before using a server-local copy."""
     import shutil
@@ -71,19 +153,22 @@ def evaluation_body(settings, stage, deadline, evidence):
     runtime.offline()
     emit('base_download_verified')
     os.environ['PYTHONPATH'] = os.pathsep.join((str(stage), str(folder)))
-    cutoff = (datetime.now(timezone.utc) + timedelta(seconds=remaining(deadline, 180))).isoformat()
+    child_seconds = remaining(deadline, settings['export_reserve_seconds'])
+    cutoff = (datetime.now(timezone.utc) + timedelta(seconds=child_seconds)).isoformat()
     command = [sys.executable, '-u', str(stage / 'learning_eval.py'), '--base', str(base),
                '--tokenizer', str(base), '--reference-adapter', str(stage / 'reference'),
                '--candidate-adapter', str(stage / 'candidate'), '--inputs', str(Path('/input') / settings['inputs_name']),
                '--settings', str(stage / 'settings.json'), '--output', str(evidence / 'evaluation'),
                '--deadline-utc', cutoff]
     emit('learning_evaluation_started', scheduled_outputs=56, training=False)
-    run_logged(command, evidence / 'driver.log', remaining(deadline, 180))
+    run_logged(command, evidence / 'driver.log', remaining(deadline))
 
 
 def execute_evaluation(settings, scripts, bootstrap_prefix):
+    import os
     import shutil
     deadline = time.monotonic() + settings['internal_seconds']
+    compute_deadline = time.monotonic() + settings['compute_seconds']
     def interrupted(signum, frame):
         raise TimeoutError('Inference computation interrupted or deadline reached')
     signal.signal(signal.SIGTERM, interrupted)
@@ -114,11 +199,13 @@ def execute_evaluation(settings, scripts, bootstrap_prefix):
         evaluator_fields = ('schema_version', 'inputs_sha256', 'runner_sha256', 'helper_sha256',
                             'reference_adapter_files', 'candidate_adapter_files', 'generation')
         evaluator_settings = {key: settings[key] for key in evaluator_fields}
+        if settings['schema_version'] == 2:
+            evaluator_settings.update(experiment_id=settings['experiment_id'], case_order=settings['case_order'])
         (stage / 'settings.json').write_text(json.dumps(evaluator_settings), encoding='utf-8')
         emit('bootstrap_started')
         exec(bootstrap_prefix)
         emit('bootstrap_complete')
-        evaluation_body(settings, stage, deadline, evidence)
+        evaluation_body(settings, stage, compute_deadline, evidence)
         identity['evaluation_status'] = 'finished_see_per_attempt_status'
     except BaseException as error:
         failure = error
@@ -126,6 +213,29 @@ def execute_evaluation(settings, scripts, bootstrap_prefix):
         emit('learning_evaluation_incomplete', error_type=type(error).__name__, error=str(error))
     finally:
         signal.alarm(max(1, int(max(0, deadline - time.monotonic()))))
+        if (evidence / 'evaluation').exists():
+            try:
+                recovered = reconcile_evaluation(evidence / 'evaluation' / 'evaluation')
+                if recovered['status'] == 'incomplete':
+                    identity['evaluation_status'] = 'incomplete'
+                    driver_path = evidence / 'evaluation' / 'run.json'
+                    if driver_path.exists():
+                        driver = json.loads(driver_path.read_text('utf-8'))
+                        driver.update(status='incomplete',
+                                      **{k: recovered[k] for k in ('scheduled_outputs', 'attempted_outputs',
+                                         'recorded_outputs', 'successful_outputs', 'active_output_id',
+                                         'unattempted_output_ids')})
+                        if 'error_type' not in driver:
+                            driver.update(error_type='ChildInterrupted', error='Evaluator stopped before finalization')
+                        temporary = driver_path.with_suffix('.json.tmp')
+                        temporary.write_text(json.dumps(driver, indent=2) + '\n', encoding='utf-8')
+                        os.replace(temporary, driver_path)
+            except BaseException as error:
+                identity.update(evaluation_status='incomplete', reconciliation_error_type=type(error).__name__,
+                                reconciliation_error=str(error))
+                (evidence / 'reconciliation-error.json').write_text(
+                    json.dumps({'error_type': type(error).__name__, 'error': str(error)}) + '\n', encoding='utf-8')
+                if failure is None: failure = error
         (evidence / 'diagnostic-status.json').write_text(json.dumps(identity, indent=2) + '\n', encoding='utf-8')
         result = export_evidence(evidence, output, deadline, identity)
         emit('ready_to_persist', manifest_sha256=result['manifest_sha256'],
@@ -137,7 +247,7 @@ def execute_evaluation(settings, scripts, bootstrap_prefix):
         raise failure
 
 
-def prepare(inputs_path, run_id=None):
+def prepare(inputs_path, run_id=None, *, corrected_binding=None, timing_budget=None):
     from huggingface_hub import HfApi, Volume
     run_id = uuid.uuid4().hex if run_id is None else run_id
     if not re.fullmatch(r'[a-f0-9]{32}', run_id):
@@ -171,21 +281,38 @@ def prepare(inputs_path, run_id=None):
                     bundle_name=hf_dev_assisted.BUNDLE_NAME, bundle_sha256=hf_dev_assisted.BUNDLE_SHA256,
                     bootstrap_hashes=bootstrap_hashes, compute_seconds=3000, internal_seconds=3300,
                     native_timeout_minutes=60, export_reserve_seconds=180, maximum_wait_seconds=60)
+    candidate_prefix = MIXED_PREFIX
+    if timing_budget is not None:
+        expected_budget = dict(compute_seconds=6600, internal_seconds=6900, native_timeout_minutes=120)
+        if (corrected_binding is None or timing_budget != expected_budget
+                or any(type(value) is not int for value in timing_budget.values())):
+            raise ValueError('Explicit reviewed versioned diagnostic timing budget required')
+        settings.update(timing_budget)
+    if corrected_binding is not None:
+        if (set(corrected_binding) != {'inputs_sha256', 'experiment_id', 'case_order', 'candidate_prefix',
+                'candidate_manifest_sha256', 'candidate_adapter_files'}
+                or corrected_binding['inputs_sha256'] != inputs_sha):
+            raise ValueError('Explicit corrected packet/checkpoint binding required')
+        settings.update(schema_version=2, experiment_id=corrected_binding['experiment_id'],
+                        case_order=corrected_binding['case_order'],
+                        candidate_manifest_sha256=corrected_binding['candidate_manifest_sha256'],
+                        candidate_adapter_files=corrected_binding['candidate_adapter_files'])
+        candidate_prefix = corrected_binding['candidate_prefix']
     code = 'import base64,hashlib,json,re,signal,stat,tempfile,time,zipfile\nfrom pathlib import Path,PurePosixPath\n'
     for function in (file_sha256, safe_extract, remaining, emit, fresh_output, export_evidence,
-                     run_logged, copy_adapter, evaluation_body, execute_evaluation):
+                     run_logged, reconcile_evaluation, copy_adapter, evaluation_body, execute_evaluation):
         code += inspect.getsource(function) + '\n'
     code += 'settings=' + repr(settings) + '\nscripts=' + repr(scripts) + '\n'
     code += 'execute_evaluation(settings,scripts,' + repr(bootstrap) + ')\n'
     spec['command'][3] = hf_contextual.compressed_command(code)
     lengths, total = hf_contextual.command_lengths(spec['command'])
-    spec['flavor'], spec['timeout'] = 'a100-large', '60m'
+    spec['flavor'], spec['timeout'] = 'a100-large', str(settings['native_timeout_minutes']) + 'm'
     spec['labels'].update(purpose='learning-diagnosis', trial_id=run_id)
     spec['env'].update(HF_XET_CACHE='/tmp/pahlavi-xet-cache', OMP_NUM_THREADS='8', MKL_NUM_THREADS='8')
     prefix = 'learning-diagnosis/' + run_id
     spec['volumes'] = [Volume(type='bucket', source=hf_train.BUCKET, path=path, mount_path=mount, read_only=readonly)
                        for path, mount, readonly in [('inputs', '/input', True),
-                           (hf_dev_assisted.TRAINED_PREFIX, '/original', True), (MIXED_PREFIX, '/mixed', True),
+                           (hf_dev_assisted.TRAINED_PREFIX, '/original', True), (candidate_prefix, '/mixed', True),
                            (prefix, '/output', False)]]
     compile(code, 'hf-learning-eval', 'exec')
     inspect.signature(HfApi.run_job).bind(None, **spec)

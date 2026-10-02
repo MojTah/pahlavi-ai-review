@@ -1,0 +1,18 @@
+{
+  "requested_utc": "2026-10-02T02:55:29.062297+00:00",
+  "review_status": "REQUESTED_PENDING",
+  "target_thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "target_title": "Review Solit’s work",
+  "requested_model": "gpt-6-astra",
+  "authorization": "Direct user request for periodic Astra review and actionable feedback to Main; goal active.",
+  "scope": "Read-only outcome and next-decision review; no edits or external operations.",
+  "automation_id": "pahlavi-translation-astra-checkpoint-review",
+  "artifact_sha256": {
+    "GOAL.md": "8af39456087b09688b91dcf9b575a3f6189f383b39a4ac6e436d83501bdca1dd",
+    "experiments/semantic-stage-diagnostic-20261001/PROTOCOL.md": "412261142b875d0af86999592ec88262ea7cd677422a25a6dad559fffdd26aff",
+    "experiments/semantic-stage-diagnostic-20261001/live-execution/OUTCOME.md": "27a84d400058af203790b32e91290efc11ea8cee9efb3910bb614ddee6018542",
+    "experiments/semantic-stage-diagnostic-20261001/live-execution/comparison.json": "843b853f884b4aa9f42913a0e606b468111fa1dfa7d049e17327433be9144a34",
+    "experiments/semantic-stage-diagnostic-20261001/live-execution/blind-ratings.json": "9232d72c03c7f8eb2508ff283d899a4a96e8b5ffa8e50046a172dfe66eb81d22",
+    "experiments/semantic-stage-diagnostic-20261001/live-execution/recovery.json": "600a0e87590f8c847e9832578093c6992ea18c3f2501ba559be043278286653a"
+  }
+}

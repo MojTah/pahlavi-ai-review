@@ -318,6 +318,13 @@ def continuation(settings, stage, deadline, evidence, identity):
             or output_ids != module.IDS):
         raise ValueError("Final PAL-REF inference did not complete forty cases")
 
+try:
+    from .training_admission import draft
+except ImportError:
+    from training_admission import draft
+
+
+@draft
 def specification(bundle_name, bundle_sha256, evaluator_name, evaluator_sha256, inputs_name, inputs_sha256,
                   canary_run_id, canary_manifest_sha256, admission_name, admission_sha256, max_minutes, run_id=None,
                   expected_total_steps=312):

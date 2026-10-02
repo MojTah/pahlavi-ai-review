@@ -1,0 +1,921 @@
+{
+  "status": "PARTIAL_PREPARATION_PILOT_NOT_ADMITTED",
+  "evidence_reviewer": "/root/composition_packet_audit",
+  "qualified_construction_candidates": 15,
+  "pedagogical_families": 1,
+  "complete_pilot_cases": 0,
+  "minimum_planning_work_families": 4,
+  "planning_case_cap": 24,
+  "paid_launch_allowed": false,
+  "source_inputs_sha256": {
+    "experiments/composition-evidence-20260928/candidates.jsonl": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+    "experiments/dataset-expansion-20260928/s22-candidates.jsonl": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+    "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+    "resources/local/composition-source-check-20260928/s22-080.png": "e362fc8fa561efeb0adb588ec2d3c70f7db409563009aabd8bcb5506a220d6cf",
+    "resources/local/composition-source-check-20260928/s22-081.png": "edf04651e414aa3fa0a16230e31473d19987b37b11bc83c82f3126d6fee19f4a",
+    "resources/local/dataset-expansion-20260928/s22/pdf-079.png": "37cadfd0c46078bd1e6c4071a12162d6484ed73289836ec538ee0c8778c3ce83",
+    "resources/local/dataset-expansion-20260928/s22/pdf-080.png": "345c57935712f1d8124b1e8e37ee99dba94f348d76c076af67fe73d70f3c61d9",
+    "resources/local/dataset-expansion-20260928/s22/pdf-081.png": "4e3002d179cdab3336596f4dab0510756bf4c2f35a1e8fdd665641bafc0c03ee",
+    "resources/local/training-ready-v2-20260929/data/learning-projections.jsonl": "d3e1ebee3cec70f748b95d241652f6e78ae265f084f1e09f83b809901a40d772",
+    "resources/local/training-ready-v2-20260929/data/train.jsonl": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59"
+  },
+  "source_analysis_cases": [
+    {
+      "id": "S22CLAUSE-001",
+      "source_file": "experiments/composition-evidence-20260928/candidates.jsonl",
+      "source_file_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+      "source_projection_sha256": "76eae79d09e3a471714dfc5a6f04a2b61be51bb755274e5ecb173fa3d4d978e2",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        15
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 80,
+      "printed_page": 77,
+      "primary_image": "resources/local/composition-source-check-20260928/s22-080.png",
+      "primary_image_sha256": "e362fc8fa561efeb0adb588ec2d3c70f7db409563009aabd8bcb5506a220d6cf",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Past transitive construction; preserve optional patient.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            3
+          ],
+          "source_text_sha256": "48b676e2b107da679512b793d5fd4cc4329f0c7c17a97cf6e0e3d1005b600b03",
+          "candidate_function": "overt logical agent"
+        },
+        {
+          "source_span": [
+            4,
+            8
+          ],
+          "source_text_sha256": "21a23a66efc1a9f3b926422a6d83848aacd2536ec04460d2829093b2884b96af",
+          "candidate_function": "optional/overt patient"
+        },
+        {
+          "source_span": [
+            13,
+            15
+          ],
+          "source_text_sha256": "b0023070e2230ae46518e1bf39f4823ce1f6b49aaa549f34036d2f1af602c5bb",
+          "candidate_function": "patient agreement"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22CLAUSE-002",
+      "source_file": "experiments/composition-evidence-20260928/candidates.jsonl",
+      "source_file_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+      "source_projection_sha256": "c505746f6a062af071ec1c0089062a38e17df99ab840fba53152a4afd44b70cb",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        18
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 80,
+      "printed_page": 77,
+      "primary_image": "resources/local/composition-source-check-20260928/s22-080.png",
+      "primary_image_sha256": "e362fc8fa561efeb0adb588ec2d3c70f7db409563009aabd8bcb5506a220d6cf",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Past transitive construction; auxiliary agrees with plural patient.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            2
+          ],
+          "source_text_sha256": "9d79e5a5a7cc853864692bfc3715c5d0a5ce3ce34ba8ecb297fd0ca2c198ef8c",
+          "candidate_function": "overt logical agent"
+        },
+        {
+          "source_span": [
+            3,
+            9
+          ],
+          "source_text_sha256": "943aa490f565ac8ea2ae05b91cbe38dd991db6652c0e596060225491410f7e74",
+          "candidate_function": "plural patient"
+        },
+        {
+          "source_span": [
+            14,
+            18
+          ],
+          "source_text_sha256": "6d597c94c321a4dbbe4ae18bfbae56233740e94fdb19feb0d0b18fcd69d3a5a3",
+          "candidate_function": "patient agreement"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22CLAUSE-003",
+      "source_file": "experiments/composition-evidence-20260928/candidates.jsonl",
+      "source_file_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+      "source_projection_sha256": "e1b0b3e9ff01ee94a5d41c0f80f165a0c35b0d9cb9bbf5a25936cfe5c796def0",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        19
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 80,
+      "printed_page": 77,
+      "primary_image": "resources/local/composition-source-check-20260928/s22-080.png",
+      "primary_image_sha256": "e362fc8fa561efeb0adb588ec2d3c70f7db409563009aabd8bcb5506a220d6cf",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Published prose explicitly binds these two participants.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            3
+          ],
+          "source_text_sha256": "48b676e2b107da679512b793d5fd4cc4329f0c7c17a97cf6e0e3d1005b600b03",
+          "candidate_function": "logical agent explicitly named in adjacent prose"
+        },
+        {
+          "source_span": [
+            4,
+            10
+          ],
+          "source_text_sha256": "943aa490f565ac8ea2ae05b91cbe38dd991db6652c0e596060225491410f7e74",
+          "candidate_function": "logical patient explicitly named in adjacent prose"
+        },
+        {
+          "source_span": [
+            15,
+            19
+          ],
+          "source_text_sha256": "6d597c94c321a4dbbe4ae18bfbae56233740e94fdb19feb0d0b18fcd69d3a5a3",
+          "candidate_function": "patient agreement"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22CLAUSE-004",
+      "source_file": "experiments/composition-evidence-20260928/candidates.jsonl",
+      "source_file_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+      "source_projection_sha256": "3754d15dcc1439043720589ad9f167d4c34a05cf236cef5316ff19120482cc9f",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        16
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 80,
+      "printed_page": 77,
+      "primary_image": "resources/local/composition-source-check-20260928/s22-080.png",
+      "primary_image_sha256": "e362fc8fa561efeb0adb588ec2d3c70f7db409563009aabd8bcb5506a220d6cf",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Book interprets the agentless past construction as passive; do not invent agent.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            6
+          ],
+          "source_text_sha256": "943aa490f565ac8ea2ae05b91cbe38dd991db6652c0e596060225491410f7e74",
+          "candidate_function": "overt patient"
+        },
+        {
+          "source_span": [
+            7,
+            11
+          ],
+          "source_text_sha256": "6efe89658311e2d8f6f372296fcd123ef4f157f024ab38d3f13b747be33f2a6e",
+          "candidate_function": "past stem"
+        },
+        {
+          "source_span": [
+            12,
+            16
+          ],
+          "source_text_sha256": "6d597c94c321a4dbbe4ae18bfbae56233740e94fdb19feb0d0b18fcd69d3a5a3",
+          "candidate_function": "patient agreement"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22CLAUSE-005",
+      "source_file": "experiments/composition-evidence-20260928/candidates.jsonl",
+      "source_file_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+      "source_projection_sha256": "d25bfdea32ff799e2fd3852fcf5fa117916ab36bdbffc2657a00f83f69b36f81",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        15
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 80,
+      "printed_page": 77,
+      "primary_image": "resources/local/composition-source-check-20260928/s22-080.png",
+      "primary_image_sha256": "e362fc8fa561efeb0adb588ec2d3c70f7db409563009aabd8bcb5506a220d6cf",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Preserve the publisher’s traditional complement/agreement analysis; not exhaustive independent syntax.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            2
+          ],
+          "source_text_sha256": "289c90decf40c8ec15f72f6080f2a4e7cd11d4128530dd5d290fc06ebadba620",
+          "candidate_function": "first-person agent clitic in paradigm"
+        },
+        {
+          "source_span": [
+            3,
+            5
+          ],
+          "source_text_sha256": "9d79e5a5a7cc853864692bfc3715c5d0a5ce3ce34ba8ecb297fd0ca2c198ef8c",
+          "candidate_function": "indirect complement under attributed traditional analysis"
+        },
+        {
+          "source_span": [
+            13,
+            15
+          ],
+          "source_text_sha256": "b0023070e2230ae46518e1bf39f4823ce1f6b49aaa549f34036d2f1af602c5bb",
+          "candidate_function": "published agreement analysis"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22CLAUSE-006",
+      "source_file": "experiments/composition-evidence-20260928/candidates.jsonl",
+      "source_file_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+      "source_projection_sha256": "8b35eb48cd3168e95af7f217f40915a5abc98a21b947d95498b55aa688f1849f",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        14
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 81,
+      "printed_page": 78,
+      "primary_image": "resources/local/composition-source-check-20260928/s22-081.png",
+      "primary_image_sha256": "edf04651e414aa3fa0a16230e31473d19987b37b11bc83c82f3126d6fee19f4a",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Transitive perfect construction and overt patient agreement.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            2
+          ],
+          "source_text_sha256": "289c90decf40c8ec15f72f6080f2a4e7cd11d4128530dd5d290fc06ebadba620",
+          "candidate_function": "first-person agent clitic"
+        },
+        {
+          "source_span": [
+            3,
+            5
+          ],
+          "source_text_sha256": "9d79e5a5a7cc853864692bfc3715c5d0a5ce3ce34ba8ecb297fd0ca2c198ef8c",
+          "candidate_function": "overt patient"
+        },
+        {
+          "source_span": [
+            10,
+            14
+          ],
+          "source_text_sha256": "08fe527d290deb7a148586f4b640f792159174b02663b9fe1a98cc334de270a4",
+          "candidate_function": "perfect auxiliary/patient agreement"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22CLAUSE-007",
+      "source_file": "experiments/composition-evidence-20260928/candidates.jsonl",
+      "source_file_sha256": "b0525e52490f7fc4f58d0e4cb9808be59fbdaae9aab4ba17845bf672bdfd06b9",
+      "source_projection_sha256": "abcb1568b8723068e7f4e3b4f67ba3b277753133384b3d63f8ea623000df56c1",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        14
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 81,
+      "printed_page": 78,
+      "primary_image": "resources/local/composition-source-check-20260928/s22-081.png",
+      "primary_image_sha256": "edf04651e414aa3fa0a16230e31473d19987b37b11bc83c82f3126d6fee19f4a",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Published intransitive past-perfect construction.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            4
+          ],
+          "source_text_sha256": "76a35072df72591a656e69cab6f6fa99aa386fd5ace35c9042851eb324ec16b5",
+          "candidate_function": "intransitive past stem"
+        },
+        {
+          "source_span": [
+            5,
+            10
+          ],
+          "source_text_sha256": "76b8421864f5080d68538270377f5f96e262a81d1794947db44bcc7ff4113c78",
+          "candidate_function": "past-perfect auxiliary"
+        },
+        {
+          "source_span": [
+            11,
+            14
+          ],
+          "source_text_sha256": "1880f72febce9d2944f3a35f9cad6fe9c95d6f8ecfde2e55feef47ac719baecc",
+          "candidate_function": "first-person auxiliary"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-001",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "36bf32cd279b26b5e715b8c409a2a5d0779b01f71b857a8eca99d38a82edc410",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        13
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 79,
+      "printed_page": 76,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-079.png",
+      "primary_image_sha256": "37cadfd0c46078bd1e6c4071a12162d6484ed73289836ec538ee0c8778c3ce83",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Published participle + present have duration construction; wearer/object unspecified.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            7
+          ],
+          "source_text_sha256": "3278fc5ce01c19aeb5d50ed53a7d7423974f19c5f85fc22f26b96034d516bb1e",
+          "candidate_function": "past participle"
+        },
+        {
+          "source_span": [
+            8,
+            13
+          ],
+          "source_text_sha256": "854e5d8a9a26c85705da7b956a4635e1e495cde4d86c583080c0e71bc6c6d481",
+          "candidate_function": "present have auxiliary"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-002",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "73e9d48e60435c626d88fb47c20a471350e9263ff62d4b225983301154271d54",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        14
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 80,
+      "printed_page": 77,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-080.png",
+      "primary_image_sha256": "345c57935712f1d8124b1e8e37ee99dba94f348d76c076af67fe73d70f3c61d9",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Past transitive zero auxiliary with third-singular patient.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            3
+          ],
+          "source_text_sha256": "48b676e2b107da679512b793d5fd4cc4329f0c7c17a97cf6e0e3d1005b600b03",
+          "candidate_function": "overt logical agent"
+        },
+        {
+          "source_span": [
+            4,
+            8
+          ],
+          "source_text_sha256": "0d941be005328214625f1d4c2746f738800142328ee7095cc31da2618a15107f",
+          "candidate_function": "third-singular nominal patient"
+        },
+        {
+          "source_span": [
+            13,
+            14
+          ],
+          "source_text_sha256": "5896696de23d1c4027ac19183a0aeda497ce16437c93400b647fb314c0f177df",
+          "candidate_function": "editorial zero-auxiliary notation"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-003",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "e524f1f8f3afaecd8b339f3d480cf921c1abd788f51d3f511d529116df55e536",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        12
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 80,
+      "printed_page": 77,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-080.png",
+      "primary_image_sha256": "345c57935712f1d8124b1e8e37ee99dba94f348d76c076af67fe73d70f3c61d9",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Same rule for pronoun patient; referent/gender unresolved.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            3
+          ],
+          "source_text_sha256": "48b676e2b107da679512b793d5fd4cc4329f0c7c17a97cf6e0e3d1005b600b03",
+          "candidate_function": "overt logical agent"
+        },
+        {
+          "source_span": [
+            4,
+            6
+          ],
+          "source_text_sha256": "8acf5c27cb0fb840a6cf77e8ce3f7ba46c54ab11c711756a9369811e26bcee09",
+          "candidate_function": "third-singular pronominal patient"
+        },
+        {
+          "source_span": [
+            11,
+            12
+          ],
+          "source_text_sha256": "5896696de23d1c4027ac19183a0aeda497ce16437c93400b647fb314c0f177df",
+          "candidate_function": "editorial zero-auxiliary notation"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": false,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-004",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "9d88aea05ac3c03262417d47f2b37bb86c7b8557fd71798742da87f46416d5f5",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        12
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 81,
+      "printed_page": 78,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-081.png",
+      "primary_image_sha256": "4e3002d179cdab3336596f4dab0510756bf4c2f35a1e8fdd665641bafc0c03ee",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Published transitive-perfect construction; unexpressed patient remains unresolved.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            2
+          ],
+          "source_text_sha256": "289c90decf40c8ec15f72f6080f2a4e7cd11d4128530dd5d290fc06ebadba620",
+          "candidate_function": "first-person agent clitic"
+        },
+        {
+          "source_span": [
+            7,
+            12
+          ],
+          "source_text_sha256": "c347ee6bc7e8415f61c51f53daa9af4ec41ca288de005f4ff1671043ca2a426a",
+          "candidate_function": "perfect auxiliary"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-005",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "1c96d280174d9ad089113e2556f84106d05aad12a9545970682360031d231650",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        12
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 81,
+      "printed_page": 78,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-081.png",
+      "primary_image_sha256": "4e3002d179cdab3336596f4dab0510756bf4c2f35a1e8fdd665641bafc0c03ee",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Published transitive-perfect construction; unexpressed patient remains unresolved.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            2
+          ],
+          "source_text_sha256": "469cc643a19fb75901e5d331b8dc14befa8b98810b246c2fb22fff0c382dc39e",
+          "candidate_function": "second-person agent clitic"
+        },
+        {
+          "source_span": [
+            7,
+            12
+          ],
+          "source_text_sha256": "c347ee6bc7e8415f61c51f53daa9af4ec41ca288de005f4ff1671043ca2a426a",
+          "candidate_function": "perfect auxiliary"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-006",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "87678b433edb39305cd6cd7b3b9cd8e3d58ec58ee7dae1b3bca36a2ba1fe8a7d",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        10
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 81,
+      "printed_page": 78,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-081.png",
+      "primary_image_sha256": "4e3002d179cdab3336596f4dab0510756bf4c2f35a1e8fdd665641bafc0c03ee",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Publisher explicitly interprets agentless perfect construction as passive.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            4
+          ],
+          "source_text_sha256": "21ec8cda0b97c7643501a96181bb940f08d2fdb2284718cdd8427cb148c31979",
+          "candidate_function": "past stem"
+        },
+        {
+          "source_span": [
+            5,
+            10
+          ],
+          "source_text_sha256": "c347ee6bc7e8415f61c51f53daa9af4ec41ca288de005f4ff1671043ca2a426a",
+          "candidate_function": "perfect auxiliary"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-007",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "8d49165d6f9404550014754c4883daa2391290d9d75cf33585e707217cecda13",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        17
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 81,
+      "printed_page": 78,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-081.png",
+      "primary_image_sha256": "4e3002d179cdab3336596f4dab0510756bf4c2f35a1e8fdd665641bafc0c03ee",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Published transitive past-perfect and patient agreement; preserve optional patient.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            2
+          ],
+          "source_text_sha256": "289c90decf40c8ec15f72f6080f2a4e7cd11d4128530dd5d290fc06ebadba620",
+          "candidate_function": "first-person agent clitic"
+        },
+        {
+          "source_span": [
+            3,
+            7
+          ],
+          "source_text_sha256": "395555af631dc64ed793eb23df3a8788baadc917b5e71fe0e9da3be347b2a910",
+          "candidate_function": "optional patient"
+        },
+        {
+          "source_span": [
+            12,
+            17
+          ],
+          "source_text_sha256": "76b8421864f5080d68538270377f5f96e262a81d1794947db44bcc7ff4113c78",
+          "candidate_function": "past-perfect auxiliary"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    },
+    {
+      "id": "S22EXP-008",
+      "source_file": "experiments/dataset-expansion-20260928/s22-candidates.jsonl",
+      "source_file_sha256": "e24a63448805f5e99f54874e32d502af350febb57e3830f07ed51d069b061e11",
+      "source_projection_sha256": "e67cda8720507f44bf8386461d52b81ec57170389c9abb37a79e4f1376a185e3",
+      "source_field": "pahlavi_transcription",
+      "full_source_span": [
+        0,
+        10
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "source_pdf_sha256": "207aeda5eae48227902f0f208f9b24fd5623627dd4ca589b217268e69596df92",
+      "pdf_page_1_based": 81,
+      "printed_page": 78,
+      "primary_image": "resources/local/dataset-expansion-20260928/s22/pdf-081.png",
+      "primary_image_sha256": "4e3002d179cdab3336596f4dab0510756bf4c2f35a1e8fdd665641bafc0c03ee",
+      "evidence_scope": "Adjacent published grammar prose plus printed example; not a published dependency parse",
+      "construction_claim": "Published būd auxiliary alternative; patient not supplied.",
+      "span_bindings": [
+        {
+          "source_span": [
+            0,
+            2
+          ],
+          "source_text_sha256": "289c90decf40c8ec15f72f6080f2a4e7cd11d4128530dd5d290fc06ebadba620",
+          "candidate_function": "first-person agent clitic"
+        },
+        {
+          "source_span": [
+            7,
+            10
+          ],
+          "source_text_sha256": "70f96228f4db06594e09027927b8769da6b801404294ecad8c91afb6ae52d346",
+          "candidate_function": "published alternative past-perfect auxiliary"
+        }
+      ],
+      "work_family": "S22-pedagogical-textbook-lineage",
+      "unseen_status": "FAMILIAR_DEVELOPMENT_ONLY_NOT_UNSEEN_TRANSFER",
+      "in_current_qualified_pool": true,
+      "in_previous_selected1536": true,
+      "annotation_status": "PROVISIONAL_SOURCE_BOUND_CONSTRUCTION_CANDIDATE_NOT_COMPLETE_CASE",
+      "expert_certified": false,
+      "missing": [
+        "complete independently qualified lexical inventories",
+        "exhaustive POS/morphology and argument/scope annotation",
+        "split/lineage qualification for new test use",
+        "prospective assessor/decision contract"
+      ],
+      "target_used_to_derive_analysis": false,
+      "candidate_outputs_used": false
+    }
+  ],
+  "other_dispositions": [
+    {
+      "group": "Parsig five grounded lexical occurrences",
+      "status": "PARTIAL_LEXICAL_ONLY",
+      "reason": "Noun/lemma/gloss evidence for two works; no clause relations. Only one raw API detail saved."
+    },
+    {
+      "group": "Directive and contrast AI labels",
+      "status": "HELD_FROM_INDEPENDENT_ANALYSIS",
+      "reason": "Target Persian witness used for local-function/scope labels; cannot supply independent condition3."
+    },
+    {
+      "group": "S23 four documentary scopes",
+      "status": "PARTIAL_NOT_COMPLETE_CASES",
+      "reason": "Two fragments and two elliptical predicates in one archive lineage; English targets; no complete bound analyses."
+    },
+    {
+      "group": "S22EXP-009",
+      "status": "PARTIAL_PRECISE_PROSE_BINDING_PENDING",
+      "reason": "PDF82/79 not independently re-viewed in this audit; do not pad the candidate count."
+    }
+  ],
+  "next_required": "Obtain independently supported occurrence analyses from additional work families, or explicitly revise the question to familiar pedagogical diagnosis before freezing cases and spending GPU credit. Do not fill cases from model guesses or target translations.",
+  "local_view": {
+    "path": "resources/local/source-analysis-preparation-20261001/source-analysis-view.jsonl",
+    "rows": 15,
+    "bytes": 29658,
+    "sha256": "837bae97f47f82dd1872972d457e3ebd48a58eb7a028a4f6f28458f2212dba23"
+  },
+  "cross_page_support": [
+    {
+      "case_ids": [
+        "S22CLAUSE-005",
+        "S22CLAUSE-006",
+        "S22EXP-004",
+        "S22EXP-005",
+        "S22EXP-007",
+        "S22EXP-008"
+      ],
+      "source_pdf": "sources/@RastarLib_زبان_پهلوی،_ادبیات_و_دستور_آن.pdf",
+      "pdf_pages_1_based": [
+        79,
+        80
+      ],
+      "printed_pages": [
+        76,
+        77
+      ],
+      "support": "First/second-person agent-clitic paradigm; primary example page is not the sole support for these candidate clitic labels.",
+      "evidence_reviewer": "/root/composition_packet_audit"
+    }
+  ]
+}

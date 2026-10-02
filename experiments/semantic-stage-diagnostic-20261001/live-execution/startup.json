@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-01T17:57:20.313755+00:00",
+  "job_id": "6abe9ecdfbc85ba682363d86",
+  "url": "https://huggingface.co/jobs/Mojionix/6abe9ecdfbc85ba682363d86",
+  "stage": "RUNNING",
+  "message": null,
+  "bootstrap_started": true,
+  "bootstrap_complete": false,
+  "server_download_started": false,
+  "training": false,
+  "quality_result_available": false
+}

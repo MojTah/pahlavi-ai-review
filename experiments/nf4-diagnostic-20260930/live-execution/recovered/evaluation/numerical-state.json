@@ -1,0 +1,26 @@
+{
+  "condition": "matched_nf4_doublequant_bf16_compute_nonquant_fp32",
+  "quantization": {
+    "load_in_4bit": true,
+    "quant_type": "nf4",
+    "double_quant": true,
+    "compute_dtype": "bfloat16"
+  },
+  "parameter_numel_by_dtype": {
+    "torch.float32": 1679197744,
+    "torch.uint8": 14919373824
+  },
+  "buffer_numel_by_dtype": {
+    "torch.bfloat16": 2365,
+    "torch.float32": 804
+  },
+  "quantized_parameter_count": 601,
+  "nonquantized_parameter_dtype": "float32",
+  "autocast_device": "cuda",
+  "autocast_dtype": "bfloat16",
+  "adapter_autocast_dtype": true,
+  "training": false,
+  "gradients_enabled": false,
+  "gradient_checkpointing": false,
+  "optimizer_updates": 0
+}

@@ -1,0 +1,1152 @@
+{"stage": "bootstrap_started", "utc": "2026-09-30T18:41:48.689842+00:00"}
+{"stage": "input_verified", "files": {"runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d", "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"}}
+Found existing installation: spin 0.17
+Uninstalling spin-0.17:
+  Successfully uninstalled spin-0.17
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Collecting accelerate==1.14.0 (from -r requirements-linux.lock (line 5))
+  Downloading accelerate-1.14.0-py3-none-any.whl (389 kB)
+Collecting annotated-doc==0.0.5 (from -r requirements-linux.lock (line 12))
+  Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting anyio==4.15.1 (from -r requirements-linux.lock (line 17))
+  Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Collecting bitsandbytes==0.50.2 (from -r requirements-linux.lock (line 22))
+  Downloading bitsandbytes-0.50.2-py3-none-manylinux_2_24_x86_64.whl (43.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 176.1 MB/s  0:00:00
+Collecting certifi==2026.7.22 (from -r requirements-linux.lock (line 30))
+  Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Collecting click==8.5.0 (from -r requirements-linux.lock (line 37))
+  Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Collecting cuda-bindings==12.9.9 (from -r requirements-linux.lock (line 42))
+  Downloading cuda_bindings-12.9.9-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (7.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.6/7.6 MB 186.6 MB/s  0:00:00
+Collecting cuda-pathfinder==1.8.2 (from -r requirements-linux.lock (line 63))
+  Downloading cuda_pathfinder-1.8.2-py3-none-any.whl (62 kB)
+Requirement already satisfied: cuda-toolkit==12.8.1 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 67)) (12.8.1)
+Collecting filelock==4.0.3 (from -r requirements-linux.lock (line 71))
+  Downloading filelock-4.0.3-py3-none-any.whl (108 kB)
+Collecting fsspec==2026.9.0 (from -r requirements-linux.lock (line 78))
+  Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Collecting h11==0.16.0 (from -r requirements-linux.lock (line 85))
+  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting hf-xet==1.6.0 (from -r requirements-linux.lock (line 90))
+  Downloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 421.4 MB/s  0:00:00
+Collecting httpcore==1.0.9 (from -r requirements-linux.lock (line 110))
+  Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Collecting httpx==0.28.1 (from -r requirements-linux.lock (line 115))
+  Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting huggingface-hub==1.23.0 (from -r requirements-linux.lock (line 120))
+  Downloading huggingface_hub-1.23.0-py3-none-any.whl (770 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB 85.5 MB/s  0:00:00
+Collecting idna==3.20 (from -r requirements-linux.lock (line 130))
+  Downloading idna-3.20-py3-none-any.whl (69 kB)
+Requirement already satisfied: jinja2==3.1.6 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 137)) (3.1.6)
+Collecting markdown-it-py==4.2.0 (from -r requirements-linux.lock (line 142))
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Requirement already satisfied: markupsafe==3.0.3 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 147)) (3.0.3)
+Collecting mdurl==0.1.2 (from -r requirements-linux.lock (line 239))
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Requirement already satisfied: mpmath==1.3.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 244)) (1.3.0)
+Collecting networkx==3.7 (from -r requirements-linux.lock (line 249))
+  Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 535.1 MB/s  0:00:00
+Collecting numpy==2.5.3 (from -r requirements-linux.lock (line 254))
+  Downloading numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 516.1 MB/s  0:00:00
+Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 327)) (12.8.4.1)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 336)) (12.8.90)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 342)) (12.8.93)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 348)) (12.8.90)
+Requirement already satisfied: nvidia-cudnn-cu12==9.19.0.56 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 354)) (9.19.0.56)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 360)) (11.3.3.83)
+Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 366)) (1.13.1.3)
+Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 371)) (10.3.9.90)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 377)) (11.7.3.90)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 383)) (12.5.8.93)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 391)) (0.7.1)
+Requirement already satisfied: nvidia-nccl-cu12==2.28.9 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 397)) (2.28.9)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 402)) (12.8.93)
+Requirement already satisfied: nvidia-nvshmem-cu12==3.4.5 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 412)) (3.4.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 417)) (12.8.90)
+Collecting packaging==26.3 (from -r requirements-linux.lock (line 423))
+  Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Collecting peft==0.21.0 (from -r requirements-linux.lock (line 433))
+  Downloading peft-0.21.0-py3-none-any.whl (832 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 832.9/832.9 kB 440.5 MB/s  0:00:00
+Requirement already satisfied: psutil==7.2.2 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 438)) (7.2.2)
+Collecting pygments==2.21.0 (from -r requirements-linux.lock (line 464))
+  Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 528.1 MB/s  0:00:00
+Requirement already satisfied: pyyaml==6.0.3 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 469)) (6.0.3)
+Collecting regex==2026.9.10 (from -r requirements-linux.lock (line 549))
+  Downloading regex-2026.9.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (804 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 804.6/804.6 kB 88.6 MB/s  0:00:00
+Collecting rich==15.0.0 (from -r requirements-linux.lock (line 682))
+  Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting safetensors==0.8.0 (from -r requirements-linux.lock (line 687))
+  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Requirement already satisfied: setuptools==81.0.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 711)) (81.0.0)
+Collecting shellingham==1.5.4 (from -r requirements-linux.lock (line 716))
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Requirement already satisfied: sympy==1.14.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 721)) (1.14.0)
+Collecting tokenizers==0.22.2 (from -r requirements-linux.lock (line 726))
+  Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 521.2 MB/s  0:00:00
+Requirement already satisfied: torch==2.11.0+cu128 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 755)) (2.11.0+cu128)
+Collecting tqdm==4.70.1 (from -r requirements-linux.lock (line 783))
+  Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Collecting transformers==5.13.1 (from -r requirements-linux.lock (line 791))
+  Downloading transformers-5.13.1-py3-none-any.whl (11.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.5/11.5 MB 228.6 MB/s  0:00:00
+Requirement already satisfied: triton==3.6.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 798)) (3.6.0)
+Collecting typer==0.27.2 (from -r requirements-linux.lock (line 815))
+  Downloading typer-0.27.2-py3-none-any.whl (123 kB)
+Collecting typing-extensions==4.16.0 (from -r requirements-linux.lock (line 820))
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, tqdm, shellingham, safetensors, regex, pygments, packaging, numpy, networkx, mdurl, idna, hf-xet, h11, fsspec, filelock, cuda-pathfinder, click, certifi, annotated-doc, markdown-it-py, httpcore, cuda-bindings, anyio, rich, httpx, typer, huggingface-hub, tokenizers, bitsandbytes, accelerate, transformers, peft
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.15.0
+    Uninstalling typing_extensions-4.15.0:
+      Successfully uninstalled typing_extensions-4.15.0
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: packaging
+    Found existing installation: packaging 26.0
+    Uninstalling packaging-26.0:
+      Successfully uninstalled packaging-26.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.4.3
+    Uninstalling numpy-2.4.3:
+      Successfully uninstalled numpy-2.4.3
+  Attempting uninstall: networkx
+    Found existing installation: networkx 3.6.1
+    Uninstalling networkx-3.6.1:
+      Successfully uninstalled networkx-3.6.1
+  Attempting uninstall: idna
+    Found existing installation: idna 3.11
+    Uninstalling idna-3.11:
+      Successfully uninstalled idna-3.11
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2026.2.0
+    Uninstalling fsspec-2026.2.0:
+      Successfully uninstalled fsspec-2026.2.0
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.25.2
+    Uninstalling filelock-3.25.2:
+      Successfully uninstalled filelock-3.25.2
+  Attempting uninstall: cuda-pathfinder
+    Found existing installation: cuda-pathfinder 1.2.2
+    Uninstalling cuda-pathfinder-1.2.2:
+      Successfully uninstalled cuda-pathfinder-1.2.2
+  Attempting uninstall: click
+    Found existing installation: click 8.3.1
+    Uninstalling click-8.3.1:
+      Successfully uninstalled click-8.3.1
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.2.25
+    Uninstalling certifi-2026.2.25:
+      Successfully uninstalled certifi-2026.2.25
+  Attempting uninstall: cuda-bindings
+    Found existing installation: cuda-bindings 12.9.4
+    Uninstalling cuda-bindings-12.9.4:
+      Successfully uninstalled cuda-bindings-12.9.4
+
+Successfully installed accelerate-1.14.0 annotated-doc-0.0.5 anyio-4.15.1 bitsandbytes-0.50.2 certifi-2026.7.22 click-8.5.0 cuda-bindings-12.9.9 cuda-pathfinder-1.8.2 filelock-4.0.3 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.23.0 idna-3.20 markdown-it-py-4.2.0 mdurl-0.1.2 networkx-3.7 numpy-2.5.3 packaging-26.3 peft-0.21.0 pygments-2.21.0 regex-2026.9.10 rich-15.0.0 safetensors-0.8.0 shellingham-1.5.4 tokenizers-0.22.2 tqdm-4.70.1 transformers-5.13.1 typer-0.27.2 typing-extensions-4.16.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+No broken requirements found.
+{"stage": "bootstrap_complete", "utc": "2026-09-30T18:42:09.172899+00:00"}
+{"stage": "gpu_admission", "utc": "2026-09-30T18:42:18.070244+00:00", "environment": {"system": "Linux", "machine": "x86_64", "python": "3.12.3", "packages": {"torch": "2.11.0+cu128", "transformers": "5.13.1", "peft": "0.21.0", "bitsandbytes": "0.50.2", "accelerate": "1.14.0", "tokenizers": "0.22.2", "huggingface-hub": "1.23.0", "safetensors": "0.8.0"}, "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d", "gpu": {"name": "NVIDIA A100-SXM4-80GB", "bytes": 85093777408}}}
+{"stage": "base_download_started", "utc": "2026-09-30T18:42:18.070374+00:00", "destination": "cloud_ephemeral_disk_only"}
+{"model_id": "google/gemma-4-31B-it", "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475", "files": 8, "download_bytes": 62578654714, "free_bytes": 3850439344128, "download_requested": true}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+chat_template.jinja:   0%|          | 0.00/18.7k [00:00<?, ?B/s][Achat_template.jinja: 100%|██████████| 18.7k/18.7k [00:00<00:00, 55.2MB/s]
+
+config.json:   0%|          | 0.00/4.62k [00:00<?, ?B/s][Aconfig.json: 100%|██████████| 4.62k/4.62k [00:00<00:00, 16.8MB/s]
+
+generation_config.json:   0%|          | 0.00/208 [00:00<?, ?B/s][Ageneration_config.json: 100%|██████████| 208/208 [00:00<00:00, 1.41MB/s]
+
+model-00001-of-00002.safetensors: reconstructing file:   0%|          |  0.00B / 49.8GB            [Amodel-00001-of-00002.safetensors: downloading bytes:           |  0.00B            model-00001-of-00002.safetensors: downloading bytes:           |  262MB, 21.5MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   0%|          | 67.0MB / 49.8GB,   ???B/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▏         |  652MB, 54.1MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   2%|▏         | 1.02GB / 49.8GB, 49.7MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▏         | 1.19GB, 99.2MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   4%|▎         | 1.74GB / 49.8GB,  103MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▍         | 1.94GB,  153MB/s  model-00001-of-00002.safetensors: downloading bytes: ▌         | 2.71GB,  205MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   6%|▌         | 2.75GB / 49.8GB,  174MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▊         | 3.79GB,  276MB/s  model-00001-of-00002.safetensors: downloading bytes: ▉         | 4.74GB,  334MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   9%|▉         | 4.36GB / 49.8GB,  242MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▏        | 5.70GB,  377MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  12%|█▏        | 6.17GB / 49.8GB,  420MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▍        | 7.22GB,  466MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  17%|█▋        | 8.35GB / 49.8GB,  501MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▋        | 8.39GB,  532MB/s  model-00001-of-00002.safetensors: downloading bytes: ██        | 10.2GB,  617MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  23%|██▎       | 11.5GB / 49.8GB,  661MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██▎       | 11.5GB,  650MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  28%|██▊       | 13.8GB / 49.8GB,  745MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██▌       | 13.0GB,  722MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  31%|███       | 15.4GB / 49.8GB,  857MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███       | 14.9GB,  797MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  36%|███▌      | 17.8GB / 49.8GB,  952MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▎      | 16.5GB,  850MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  40%|████      | 19.9GB / 49.8GB, 1.00GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▌      | 18.0GB,  886MB/s  model-00001-of-00002.safetensors: downloading bytes: ███▉      | 19.6GB,  851MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  44%|████▍     | 22.0GB / 49.8GB,  968MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████▎     | 21.6GB,  941MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  48%|████▊     | 23.8GB / 49.8GB, 1.04GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████▋     | 23.1GB,  947MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  51%|█████     | 25.5GB / 49.8GB, 1.10GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████▉     | 24.5GB,  963MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  56%|█████▌    | 28.0GB / 49.8GB, 1.12GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▎    | 26.3GB, 1.04GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  60%|█████▉    | 29.7GB / 49.8GB, 1.16GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▌    | 28.0GB, 1.08GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  64%|██████▍   | 32.0GB / 49.8GB, 1.26GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▉    | 29.7GB, 1.12GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  68%|██████▊   | 34.0GB / 49.8GB, 1.28GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▎   | 31.3GB, 1.14GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  72%|███████▏  | 36.1GB / 49.8GB, 1.35GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▌   | 33.0GB, 1.19GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  77%|███████▋  | 38.3GB / 49.8GB, 1.38GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▉   | 34.8GB, 1.21GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  83%|████████▎ | 41.1GB / 49.8GB, 1.37GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███████▎  | 36.6GB, 1.18GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  86%|████████▌ | 42.9GB / 49.8GB, 1.43GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███████▋  | 38.6GB, 1.25GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  91%|█████████ | 45.3GB / 49.8GB, 1.47GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████████▏ | 40.5GB, 1.29GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  96%|█████████▌| 47.7GB / 49.8GB, 1.55GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████████▌ | 42.8GB, 1.37GB/s  model-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.35GB/s  model-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.35GB/s  
+model-00001-of-00002.safetensors: reconstructing file: 100%|██████████| 49.8GB / 49.8GB, 1.60GB/s  
+
+model-00002-of-00002.safetensors: reconstructing file:   0%|          |  0.00B / 12.8GB            [Amodel-00002-of-00002.safetensors: downloading bytes:           |  0.00B            model-00002-of-00002.safetensors: downloading bytes: █▎        | 1.72GB,  150MB/s  
+model-00002-of-00002.safetensors: reconstructing file:   1%|          | 67.1MB / 12.8GB,   ???B/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ██▊       | 3.51GB,  291MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  24%|██▎       | 3.02GB / 12.8GB,  217MB/s  [A
+model-00002-of-00002.safetensors: reconstructing file:  32%|███▏      | 4.13GB / 12.8GB,  259MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ███▉      | 5.10GB,  365MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  46%|████▌     | 5.83GB / 12.8GB,  444MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: █████▍    | 6.86GB,  488MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  65%|██████▌   | 8.32GB / 12.8GB,  571MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ██████▊   | 8.64GB,  585MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  84%|████████▎ | 10.7GB / 12.8GB,  623MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ████████  | 10.3GB,  599MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  99%|█████████▉| 12.6GB / 12.8GB,  759MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ██████████| 11.0GB,  609MB/s  model-00002-of-00002.safetensors: downloading bytes: ██████████| 11.0GB,  609MB/s  
+model-00002-of-00002.safetensors: reconstructing file: 100%|██████████| 12.8GB / 12.8GB,  774MB/s  
+
+model.safetensors.index.json:   0%|          | 0.00/120k [00:00<?, ?B/s][Amodel.safetensors.index.json: 100%|██████████| 120k/120k [00:00<00:00, 46.3MB/s]
+
+tokenizer.json: reconstructing file:   0%|          |  0.00B / 32.2MB            [Atokenizer.json: downloading bytes:           |  0.00B            tokenizer.json: downloading bytes: ██████████| 8.75MB,  870kB/s  tokenizer.json: downloading bytes: ██████████| 8.75MB,  870kB/s  
+tokenizer.json: reconstructing file: 100%|██████████| 32.2MB / 32.2MB, 3.20MB/s  
+
+tokenizer_config.json:   0%|          | 0.00/3.08k [00:00<?, ?B/s][Atokenizer_config.json: 100%|██████████| 3.08k/3.08k [00:00<00:00, 18.1MB/s]
+{"status": "verified", "directory": "/tmp/pahlavi-dose-5vjcfa9a/base", "bytes": 62578654714}
+{"stage": "dose_started", "utc": "2026-09-30T18:46:32.734136+00:00", "planned_updates": 384, "scheduled_outputs": 98}
+
+Loading weights:   0%|          | 0/1188 [00:00<?, ?it/s][A
+Loading weights:   1%|▏         | 15/1188 [00:01<01:19, 14.69it/s][A
+Loading weights:   6%|▋         | 75/1188 [00:02<00:27, 40.92it/s][A
+Loading weights:  11%|█         | 130/1188 [00:03<00:22, 46.98it/s][A
+Loading weights:  16%|█▌        | 185/1188 [00:04<00:20, 49.24it/s][A
+Loading weights:  20%|██        | 241/1188 [00:05<00:18, 51.13it/s][A
+Loading weights:  25%|██▍       | 296/1188 [00:06<00:17, 51.62it/s][A
+Loading weights:  30%|██▉       | 351/1188 [00:07<00:16, 52.26it/s][A
+Loading weights:  34%|███▍      | 407/1188 [00:08<00:14, 53.22it/s][A
+Loading weights:  39%|███▉      | 462/1188 [00:09<00:13, 53.22it/s][A
+Loading weights:  44%|████▎     | 517/1188 [00:10<00:12, 53.73it/s][A
+Loading weights:  48%|████▊     | 574/1188 [00:11<00:11, 54.59it/s][A
+Loading weights:  53%|█████▎    | 630/1188 [00:12<00:10, 54.37it/s][A
+Loading weights:  58%|█████▊    | 685/1188 [00:13<00:09, 53.95it/s][A
+Loading weights:  62%|██████▏   | 741/1188 [00:14<00:08, 54.42it/s][A
+Loading weights:  67%|██████▋   | 796/1188 [00:15<00:07, 53.88it/s][A
+Loading weights:  98%|█████████▊| 1161/1188 [00:16<00:00, 145.58it/s][ALoading weights: 100%|██████████| 1188/1188 [00:16<00:00, 72.34it/s] 
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:300: UserWarning: Could not find a config file in /tmp/pahlavi-continuation-eeafv33l/base - will assume that the vocabulary was not modified.
+  warnings.warn(
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-001", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-007", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-013", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-019", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-002", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-008", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-014", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-020", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-003", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-009", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-015", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-021", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-004", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-010", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-016", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-022", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-005", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-011", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-017", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-023", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-006", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-012", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-018", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-024", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-001", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-002", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-003", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-004", "arm": "reference", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-005", "arm": "reference", "status": "success"}
+
+Loading weights:   0%|          | 0/1188 [00:00<?, ?it/s][A
+Loading weights:   2%|▏         | 29/1188 [00:01<00:40, 28.65it/s][A
+Loading weights:   8%|▊         | 95/1188 [00:02<00:21, 50.46it/s][A
+Loading weights:  13%|█▎        | 160/1188 [00:03<00:18, 56.25it/s][A
+Loading weights:  19%|█▉        | 228/1188 [00:04<00:16, 59.90it/s][A
+Loading weights:  25%|██▍       | 296/1188 [00:05<00:14, 62.04it/s][A
+Loading weights:  30%|███       | 361/1188 [00:06<00:13, 62.83it/s][A
+Loading weights:  36%|███▌      | 424/1188 [00:07<00:12, 62.16it/s][A
+Loading weights:  41%|████▏     | 491/1188 [00:08<00:10, 63.38it/s][A
+Loading weights:  47%|████▋     | 560/1188 [00:09<00:09, 65.08it/s][A
+Loading weights:  53%|█████▎    | 629/1188 [00:10<00:08, 66.11it/s][A
+Loading weights:  59%|█████▊    | 697/1188 [00:11<00:07, 66.38it/s][A
+Loading weights:  64%|██████▍   | 764/1188 [00:12<00:06, 66.04it/s][A
+Loading weights:  70%|██████▉   | 831/1188 [00:13<00:05, 65.42it/s][ALoading weights: 100%|██████████| 1188/1188 [00:13<00:00, 86.47it/s]
+{"phase": "dose_training_step", "step": 1, "consumed_slots": 16, "seconds": 21.59186312404927}
+{'loss': '1.181', 'grad_norm': '3.902', 'learning_rate': '0', 'epoch': '0.002604'}
+{"phase": "dose_training_step", "step": 2, "consumed_slots": 32, "seconds": 42.18592997698579}
+{'loss': '1.518', 'grad_norm': '5.025', 'learning_rate': '2.5e-05', 'epoch': '0.005208'}
+{"phase": "dose_training_step", "step": 3, "consumed_slots": 48, "seconds": 62.7422411859734}
+{'loss': '1.234', 'grad_norm': '4.476', 'learning_rate': '5e-05', 'epoch': '0.007812'}
+{"phase": "dose_training_step", "step": 4, "consumed_slots": 64, "seconds": 83.27623787999619}
+{'loss': '0.9795', 'grad_norm': '30.22', 'learning_rate': '7.5e-05', 'epoch': '0.01042'}
+{"phase": "dose_training_step", "step": 5, "consumed_slots": 80, "seconds": 103.7603959350381}
+{'loss': '1.104', 'grad_norm': '4.837', 'learning_rate': '0.0001', 'epoch': '0.01302'}
+{"phase": "dose_training_step", "step": 6, "consumed_slots": 96, "seconds": 124.27038802905008}
+{'loss': '1.139', 'grad_norm': '3.761', 'learning_rate': '9.974e-05', 'epoch': '0.01562'}
+{"phase": "dose_training_step", "step": 7, "consumed_slots": 112, "seconds": 144.84634989500046}
+{'loss': '1.281', 'grad_norm': '7.66', 'learning_rate': '9.947e-05', 'epoch': '0.01823'}
+{"phase": "dose_training_step", "step": 8, "consumed_slots": 128, "seconds": 165.97852551797405}
+{'loss': '1.094', 'grad_norm': '4.263', 'learning_rate': '9.921e-05', 'epoch': '0.02083'}
+{"phase": "dose_training_step", "step": 9, "consumed_slots": 144, "seconds": 186.66708425804973}
+{'loss': '1.054', 'grad_norm': '4.514', 'learning_rate': '9.895e-05', 'epoch': '0.02344'}
+{"phase": "dose_training_step", "step": 10, "consumed_slots": 160, "seconds": 208.50024940702133}
+{'loss': '0.9912', 'grad_norm': '4.573', 'learning_rate': '9.868e-05', 'epoch': '0.02604'}
+{"phase": "dose_training_step", "step": 11, "consumed_slots": 176, "seconds": 229.76532908598892}
+{'loss': '0.7564', 'grad_norm': '4.042', 'learning_rate': '9.842e-05', 'epoch': '0.02865'}
+{"phase": "dose_training_step", "step": 12, "consumed_slots": 192, "seconds": 250.81439825694542}
+{'loss': '1.121', 'grad_norm': '4.627', 'learning_rate': '9.816e-05', 'epoch': '0.03125'}
+{"phase": "dose_training_step", "step": 13, "consumed_slots": 208, "seconds": 271.49718423804734}
+{'loss': '1.219', 'grad_norm': '18.89', 'learning_rate': '9.789e-05', 'epoch': '0.03385'}
+{"phase": "dose_training_step", "step": 14, "consumed_slots": 224, "seconds": 292.1930703150574}
+{'loss': '0.8035', 'grad_norm': '4.852', 'learning_rate': '9.763e-05', 'epoch': '0.03646'}
+{"phase": "dose_training_step", "step": 15, "consumed_slots": 240, "seconds": 312.697943730047}
+{'loss': '0.8103', 'grad_norm': '6.166', 'learning_rate': '9.737e-05', 'epoch': '0.03906'}
+{"phase": "dose_training_step", "step": 16, "consumed_slots": 256, "seconds": 333.1938067219453}
+{'loss': '0.7627', 'grad_norm': '4.786', 'learning_rate': '9.711e-05', 'epoch': '0.04167'}
+{"phase": "dose_training_step", "step": 17, "consumed_slots": 272, "seconds": 353.8738931680564}
+{'loss': '1.044', 'grad_norm': '5.742', 'learning_rate': '9.684e-05', 'epoch': '0.04427'}
+{"phase": "dose_training_step", "step": 18, "consumed_slots": 288, "seconds": 374.5531599059468}
+{'loss': '0.8532', 'grad_norm': '4.429', 'learning_rate': '9.658e-05', 'epoch': '0.04688'}
+{"phase": "dose_training_step", "step": 19, "consumed_slots": 304, "seconds": 395.04724624496885}
+{'loss': '0.7572', 'grad_norm': '5.626', 'learning_rate': '9.632e-05', 'epoch': '0.04948'}
+{"phase": "dose_training_step", "step": 20, "consumed_slots": 320, "seconds": 416.0042480790289}
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:300: UserWarning: Could not find a config file in /tmp/pahlavi-continuation-eeafv33l/base - will assume that the vocabulary was not modified.
+  warnings.warn(
+{"phase": "dose_canary_admission", "canary_steps": 20, "measured_seconds": 416.0042480790289, "remaining_train_seconds": 9842.660509549823, "evaluation_seconds": 6600, "reload_seconds": 300, "safety_multiplier": 1.3, "projected_seconds": 16742.660509549823, "available_seconds": 19092.108968, "token_cost_ratios": [18.2, 17.194962825586593, 17.36610309799483], "admitted": true}
+{'loss': '0.877', 'grad_norm': '3.493', 'learning_rate': '9.605e-05', 'epoch': '0.05208'}
+{"phase": "dose_training_step", "step": 21, "consumed_slots": 336, "seconds": 439.67277954204474}
+{'loss': '1.045', 'grad_norm': '4.567', 'learning_rate': '9.579e-05', 'epoch': '0.05469'}
+{"phase": "dose_training_step", "step": 22, "consumed_slots": 352, "seconds": 460.2336972169578}
+{'loss': '0.9268', 'grad_norm': '5.018', 'learning_rate': '9.553e-05', 'epoch': '0.05729'}
+{"phase": "dose_training_step", "step": 23, "consumed_slots": 368, "seconds": 480.6964469020022}
+{'loss': '0.9182', 'grad_norm': '5.367', 'learning_rate': '9.526e-05', 'epoch': '0.0599'}
+{"phase": "dose_training_step", "step": 24, "consumed_slots": 384, "seconds": 501.1616181900026}
+{'loss': '0.8439', 'grad_norm': '5.614', 'learning_rate': '9.5e-05', 'epoch': '0.0625'}
+{"phase": "dose_training_step", "step": 25, "consumed_slots": 400, "seconds": 522.5108285460155}
+{'loss': '0.9613', 'grad_norm': '5.328', 'learning_rate': '9.474e-05', 'epoch': '0.0651'}
+{"phase": "dose_training_step", "step": 26, "consumed_slots": 416, "seconds": 544.8799442979507}
+{'loss': '0.8679', 'grad_norm': '4.074', 'learning_rate': '9.447e-05', 'epoch': '0.06771'}
+{"phase": "dose_training_step", "step": 27, "consumed_slots": 432, "seconds": 565.8568289730465}
+{'loss': '0.859', 'grad_norm': '6.828', 'learning_rate': '9.421e-05', 'epoch': '0.07031'}
+{"phase": "dose_training_step", "step": 28, "consumed_slots": 448, "seconds": 586.3961950440425}
+{'loss': '0.8991', 'grad_norm': '4.13', 'learning_rate': '9.395e-05', 'epoch': '0.07292'}
+{"phase": "dose_training_step", "step": 29, "consumed_slots": 464, "seconds": 607.3211877560243}
+{'loss': '0.9044', 'grad_norm': '5.305', 'learning_rate': '9.368e-05', 'epoch': '0.07552'}
+{"phase": "dose_training_step", "step": 30, "consumed_slots": 480, "seconds": 628.1385882700561}
+{'loss': '0.8459', 'grad_norm': '6.452', 'learning_rate': '9.342e-05', 'epoch': '0.07812'}
+{"phase": "dose_training_step", "step": 31, "consumed_slots": 496, "seconds": 649.064518542029}
+{'loss': '0.9774', 'grad_norm': '6.081', 'learning_rate': '9.316e-05', 'epoch': '0.08073'}
+{"phase": "dose_training_step", "step": 32, "consumed_slots": 512, "seconds": 670.4676779210567}
+{'loss': '0.7557', 'grad_norm': '25.23', 'learning_rate': '9.289e-05', 'epoch': '0.08333'}
+{"phase": "dose_training_step", "step": 33, "consumed_slots": 528, "seconds": 691.2003992060199}
+{'loss': '0.7569', 'grad_norm': '5.707', 'learning_rate': '9.263e-05', 'epoch': '0.08594'}
+{"phase": "dose_training_step", "step": 34, "consumed_slots": 544, "seconds": 712.1869764629519}
+{'loss': '0.8517', 'grad_norm': '4.896', 'learning_rate': '9.237e-05', 'epoch': '0.08854'}
+{"phase": "dose_training_step", "step": 35, "consumed_slots": 560, "seconds": 733.0005872159963}
+{'loss': '0.8079', 'grad_norm': '6.472', 'learning_rate': '9.211e-05', 'epoch': '0.09115'}
+{"phase": "dose_training_step", "step": 36, "consumed_slots": 576, "seconds": 753.8437412100611}
+{'loss': '0.8466', 'grad_norm': '5.278', 'learning_rate': '9.184e-05', 'epoch': '0.09375'}
+{"phase": "dose_training_step", "step": 37, "consumed_slots": 592, "seconds": 774.6514993449673}
+{'loss': '0.9563', 'grad_norm': '8.251', 'learning_rate': '9.158e-05', 'epoch': '0.09635'}
+{"phase": "dose_training_step", "step": 38, "consumed_slots": 608, "seconds": 795.3376846780302}
+{'loss': '0.7517', 'grad_norm': '5.874', 'learning_rate': '9.132e-05', 'epoch': '0.09896'}
+{"phase": "dose_training_step", "step": 39, "consumed_slots": 624, "seconds": 816.0934215330053}
+{'loss': '0.9636', 'grad_norm': '3.86', 'learning_rate': '9.105e-05', 'epoch': '0.1016'}
+{"phase": "dose_training_step", "step": 40, "consumed_slots": 640, "seconds": 836.6682005700422}
+{'loss': '0.7463', 'grad_norm': '9.17', 'learning_rate': '9.079e-05', 'epoch': '0.1042'}
+{"phase": "dose_training_step", "step": 41, "consumed_slots": 656, "seconds": 857.3413592720171}
+{'loss': '0.8319', 'grad_norm': '4.248', 'learning_rate': '9.053e-05', 'epoch': '0.1068'}
+{"phase": "dose_training_step", "step": 42, "consumed_slots": 672, "seconds": 878.3807645560009}
+{'loss': '0.9427', 'grad_norm': '4.808', 'learning_rate': '9.026e-05', 'epoch': '0.1094'}
+{"phase": "dose_training_step", "step": 43, "consumed_slots": 688, "seconds": 899.3296765269479}
+{'loss': '0.7515', 'grad_norm': '9.851', 'learning_rate': '9e-05', 'epoch': '0.112'}
+{"phase": "dose_training_step", "step": 44, "consumed_slots": 704, "seconds": 920.713933474035}
+{'loss': '0.8681', 'grad_norm': '6.104', 'learning_rate': '8.974e-05', 'epoch': '0.1146'}
+{"phase": "dose_training_step", "step": 45, "consumed_slots": 720, "seconds": 943.088442503009}
+{'loss': '0.8512', 'grad_norm': '5.773', 'learning_rate': '8.947e-05', 'epoch': '0.1172'}
+{"phase": "dose_training_step", "step": 46, "consumed_slots": 736, "seconds": 964.3850362029625}
+{'loss': '0.7146', 'grad_norm': '4.628', 'learning_rate': '8.921e-05', 'epoch': '0.1198'}
+{"phase": "dose_training_step", "step": 47, "consumed_slots": 752, "seconds": 985.6723196980311}
+{'loss': '0.7146', 'grad_norm': '4.692', 'learning_rate': '8.895e-05', 'epoch': '0.1224'}
+{"phase": "dose_training_step", "step": 48, "consumed_slots": 768, "seconds": 1006.6605964850169}
+{'loss': '0.8686', 'grad_norm': '4.393', 'learning_rate': '8.868e-05', 'epoch': '0.125'}
+{"phase": "dose_training_step", "step": 49, "consumed_slots": 784, "seconds": 1028.086178647005}
+{'loss': '0.8545', 'grad_norm': '4.267', 'learning_rate': '8.842e-05', 'epoch': '0.1276'}
+{"phase": "dose_training_step", "step": 50, "consumed_slots": 800, "seconds": 1049.142209048965}
+{'loss': '0.8331', 'grad_norm': '4.867', 'learning_rate': '8.816e-05', 'epoch': '0.1302'}
+{"phase": "dose_training_step", "step": 51, "consumed_slots": 816, "seconds": 1070.8717621340184}
+{'loss': '0.7437', 'grad_norm': '3.268', 'learning_rate': '8.789e-05', 'epoch': '0.1328'}
+{"phase": "dose_training_step", "step": 52, "consumed_slots": 832, "seconds": 1091.5336180259474}
+{'loss': '0.8651', 'grad_norm': '5.623', 'learning_rate': '8.763e-05', 'epoch': '0.1354'}
+{"phase": "dose_training_step", "step": 53, "consumed_slots": 848, "seconds": 1112.200010968023}
+{'loss': '0.8164', 'grad_norm': '4.571', 'learning_rate': '8.737e-05', 'epoch': '0.138'}
+{"phase": "dose_training_step", "step": 54, "consumed_slots": 864, "seconds": 1132.9723819600185}
+{'loss': '1.132', 'grad_norm': '5.635', 'learning_rate': '8.711e-05', 'epoch': '0.1406'}
+{"phase": "dose_training_step", "step": 55, "consumed_slots": 880, "seconds": 1153.5168194009457}
+{'loss': '0.756', 'grad_norm': '3.528', 'learning_rate': '8.684e-05', 'epoch': '0.1432'}
+{"phase": "dose_training_step", "step": 56, "consumed_slots": 896, "seconds": 1173.8893887050217}
+{'loss': '0.737', 'grad_norm': '3.95', 'learning_rate': '8.658e-05', 'epoch': '0.1458'}
+{"phase": "dose_training_step", "step": 57, "consumed_slots": 912, "seconds": 1194.5252884440124}
+{'loss': '0.7131', 'grad_norm': '4.33', 'learning_rate': '8.632e-05', 'epoch': '0.1484'}
+{"phase": "dose_training_step", "step": 58, "consumed_slots": 928, "seconds": 1214.9747202879516}
+{'loss': '0.7386', 'grad_norm': '4.375', 'learning_rate': '8.605e-05', 'epoch': '0.151'}
+{"phase": "dose_training_step", "step": 59, "consumed_slots": 944, "seconds": 1235.393048487953}
+{'loss': '0.826', 'grad_norm': '8.292', 'learning_rate': '8.579e-05', 'epoch': '0.1536'}
+{"phase": "dose_training_step", "step": 60, "consumed_slots": 960, "seconds": 1255.7001800000435}
+{'loss': '0.8948', 'grad_norm': '5.679', 'learning_rate': '8.553e-05', 'epoch': '0.1562'}
+{"phase": "dose_training_step", "step": 61, "consumed_slots": 976, "seconds": 1276.1777180000208}
+{'loss': '0.8728', 'grad_norm': '6.919', 'learning_rate': '8.526e-05', 'epoch': '0.1589'}
+{"phase": "dose_training_step", "step": 62, "consumed_slots": 992, "seconds": 1296.62962301902}
+{'loss': '0.7045', 'grad_norm': '3.925', 'learning_rate': '8.5e-05', 'epoch': '0.1615'}
+{"phase": "dose_training_step", "step": 63, "consumed_slots": 1008, "seconds": 1317.5071491879644}
+{'loss': '0.8894', 'grad_norm': '4.35', 'learning_rate': '8.474e-05', 'epoch': '0.1641'}
+{"phase": "dose_training_step", "step": 64, "consumed_slots": 1024, "seconds": 1338.2222871909617}
+{'loss': '0.8389', 'grad_norm': '5.794', 'learning_rate': '8.447e-05', 'epoch': '0.1667'}
+{"phase": "dose_training_step", "step": 65, "consumed_slots": 1040, "seconds": 1359.0356501160422}
+{'loss': '0.6604', 'grad_norm': '4.514', 'learning_rate': '8.421e-05', 'epoch': '0.1693'}
+{"phase": "dose_training_step", "step": 66, "consumed_slots": 1056, "seconds": 1379.7379922559485}
+{'loss': '0.8302', 'grad_norm': '9.339', 'learning_rate': '8.395e-05', 'epoch': '0.1719'}
+{"phase": "dose_training_step", "step": 67, "consumed_slots": 1072, "seconds": 1400.659412128036}
+{'loss': '0.7635', 'grad_norm': '4', 'learning_rate': '8.368e-05', 'epoch': '0.1745'}
+{"phase": "dose_training_step", "step": 68, "consumed_slots": 1088, "seconds": 1421.52575680695}
+{'loss': '0.7806', 'grad_norm': '5.733', 'learning_rate': '8.342e-05', 'epoch': '0.1771'}
+{"phase": "dose_training_step", "step": 69, "consumed_slots": 1104, "seconds": 1442.332523426041}
+{'loss': '0.7441', 'grad_norm': '4.133', 'learning_rate': '8.316e-05', 'epoch': '0.1797'}
+{"phase": "dose_training_step", "step": 70, "consumed_slots": 1120, "seconds": 1463.0677891899832}
+{'loss': '0.7473', 'grad_norm': '5.086', 'learning_rate': '8.289e-05', 'epoch': '0.1823'}
+{"phase": "dose_training_step", "step": 71, "consumed_slots": 1136, "seconds": 1483.833201471949}
+{'loss': '0.9606', 'grad_norm': '6.337', 'learning_rate': '8.263e-05', 'epoch': '0.1849'}
+{"phase": "dose_training_step", "step": 72, "consumed_slots": 1152, "seconds": 1504.4754449529573}
+{'loss': '0.6864', 'grad_norm': '6.566', 'learning_rate': '8.237e-05', 'epoch': '0.1875'}
+{"phase": "dose_training_step", "step": 73, "consumed_slots": 1168, "seconds": 1525.0851573769469}
+{'loss': '0.6917', 'grad_norm': '4.496', 'learning_rate': '8.211e-05', 'epoch': '0.1901'}
+{"phase": "dose_training_step", "step": 74, "consumed_slots": 1184, "seconds": 1545.8316425939556}
+{'loss': '0.8427', 'grad_norm': '5.589', 'learning_rate': '8.184e-05', 'epoch': '0.1927'}
+{"phase": "dose_training_step", "step": 75, "consumed_slots": 1200, "seconds": 1567.3392560100183}
+{'loss': '0.9413', 'grad_norm': '11.75', 'learning_rate': '8.158e-05', 'epoch': '0.1953'}
+{"phase": "dose_training_step", "step": 76, "consumed_slots": 1216, "seconds": 1589.6537324360106}
+{'loss': '0.4449', 'grad_norm': '4.808', 'learning_rate': '8.132e-05', 'epoch': '0.1979'}
+{"phase": "dose_training_step", "step": 77, "consumed_slots": 1232, "seconds": 1611.4807377769612}
+{'loss': '0.8063', 'grad_norm': '4.683', 'learning_rate': '8.105e-05', 'epoch': '0.2005'}
+{"phase": "dose_training_step", "step": 78, "consumed_slots": 1248, "seconds": 1635.0082484390587}
+{'loss': '0.8176', 'grad_norm': '5.742', 'learning_rate': '8.079e-05', 'epoch': '0.2031'}
+{"phase": "dose_training_step", "step": 79, "consumed_slots": 1264, "seconds": 1656.0567848649807}
+{'loss': '0.5793', 'grad_norm': '3.877', 'learning_rate': '8.053e-05', 'epoch': '0.2057'}
+{"phase": "dose_training_step", "step": 80, "consumed_slots": 1280, "seconds": 1676.7012845840072}
+{'loss': '0.5775', 'grad_norm': '3.066', 'learning_rate': '8.026e-05', 'epoch': '0.2083'}
+{"phase": "dose_training_step", "step": 81, "consumed_slots": 1296, "seconds": 1697.298249255051}
+{'loss': '0.6412', 'grad_norm': '4.173', 'learning_rate': '8e-05', 'epoch': '0.2109'}
+{"phase": "dose_training_step", "step": 82, "consumed_slots": 1312, "seconds": 1718.376775559038}
+{'loss': '0.6974', 'grad_norm': '7.406', 'learning_rate': '7.974e-05', 'epoch': '0.2135'}
+{"phase": "dose_training_step", "step": 83, "consumed_slots": 1328, "seconds": 1739.9539049390005}
+{'loss': '0.722', 'grad_norm': '3.731', 'learning_rate': '7.947e-05', 'epoch': '0.2161'}
+{"phase": "dose_training_step", "step": 84, "consumed_slots": 1344, "seconds": 1761.1083814830054}
+{'loss': '0.5097', 'grad_norm': '4.134', 'learning_rate': '7.921e-05', 'epoch': '0.2188'}
+{"phase": "dose_training_step", "step": 85, "consumed_slots": 1360, "seconds": 1781.707550504012}
+{'loss': '0.6469', 'grad_norm': '4.274', 'learning_rate': '7.895e-05', 'epoch': '0.2214'}
+{"phase": "dose_training_step", "step": 86, "consumed_slots": 1376, "seconds": 1802.3023744450184}
+{'loss': '0.5279', 'grad_norm': '3.957', 'learning_rate': '7.868e-05', 'epoch': '0.224'}
+{"phase": "dose_training_step", "step": 87, "consumed_slots": 1392, "seconds": 1825.6058935279725}
+{'loss': '0.6969', 'grad_norm': '4.404', 'learning_rate': '7.842e-05', 'epoch': '0.2266'}
+{"phase": "dose_training_step", "step": 88, "consumed_slots": 1408, "seconds": 1847.1596567509696}
+{'loss': '0.6972', 'grad_norm': '4.381', 'learning_rate': '7.816e-05', 'epoch': '0.2292'}
+{"phase": "dose_training_step", "step": 89, "consumed_slots": 1424, "seconds": 1867.3879924829816}
+{'loss': '0.7454', 'grad_norm': '5.14', 'learning_rate': '7.789e-05', 'epoch': '0.2318'}
+{"phase": "dose_training_step", "step": 90, "consumed_slots": 1440, "seconds": 1887.674401256023}
+{'loss': '0.7081', 'grad_norm': '3.541', 'learning_rate': '7.763e-05', 'epoch': '0.2344'}
+{"phase": "dose_training_step", "step": 91, "consumed_slots": 1456, "seconds": 1907.7493385470007}
+{'loss': '0.7648', 'grad_norm': '4.058', 'learning_rate': '7.737e-05', 'epoch': '0.237'}
+{"phase": "dose_training_step", "step": 92, "consumed_slots": 1472, "seconds": 1928.046199260978}
+{'loss': '1.022', 'grad_norm': '12.66', 'learning_rate': '7.711e-05', 'epoch': '0.2396'}
+{"phase": "dose_training_step", "step": 93, "consumed_slots": 1488, "seconds": 1948.2282394219656}
+{'loss': '0.6433', 'grad_norm': '4.066', 'learning_rate': '7.684e-05', 'epoch': '0.2422'}
+{"phase": "dose_training_step", "step": 94, "consumed_slots": 1504, "seconds": 1969.5070991290268}
+{'loss': '1.083', 'grad_norm': '7.864', 'learning_rate': '7.658e-05', 'epoch': '0.2448'}
+{"phase": "dose_training_step", "step": 95, "consumed_slots": 1520, "seconds": 1989.8376761350082}
+{'loss': '0.7214', 'grad_norm': '4.778', 'learning_rate': '7.632e-05', 'epoch': '0.2474'}
+{"phase": "dose_training_step", "step": 96, "consumed_slots": 1536, "seconds": 2010.2048468929715}
+{"phase": "dose_canary_admission", "canary_steps": 96, "measured_seconds": 2010.2048468929715, "remaining_train_seconds": 7839.79890288259, "evaluation_seconds": 6600, "reload_seconds": 300, "safety_multiplier": 1.3, "projected_seconds": 14739.79890288259, "available_seconds": 17498.077766, "token_cost_ratios": [3.0, 3.0, 3.0], "admitted": true}
+{'loss': '0.9751', 'grad_norm': '6.522', 'learning_rate': '7.605e-05', 'epoch': '0.25'}
+{"phase": "dose_training_step", "step": 97, "consumed_slots": 1552, "seconds": 2033.8537094830535}
+{'loss': '0.436', 'grad_norm': '2.425', 'learning_rate': '7.579e-05', 'epoch': '0.2526'}
+{"phase": "dose_training_step", "step": 98, "consumed_slots": 1568, "seconds": 2054.399339298019}
+{'loss': '0.6115', 'grad_norm': '3.331', 'learning_rate': '7.553e-05', 'epoch': '0.2552'}
+{"phase": "dose_training_step", "step": 99, "consumed_slots": 1584, "seconds": 2075.0829128120095}
+{'loss': '0.5852', 'grad_norm': '3.988', 'learning_rate': '7.526e-05', 'epoch': '0.2578'}
+{"phase": "dose_training_step", "step": 100, "consumed_slots": 1600, "seconds": 2095.378297111951}
+{'loss': '0.7713', 'grad_norm': '4.083', 'learning_rate': '7.5e-05', 'epoch': '0.2604'}
+{"phase": "dose_training_step", "step": 101, "consumed_slots": 1616, "seconds": 2115.7285234869923}
+{'loss': '0.5141', 'grad_norm': '5.863', 'learning_rate': '7.474e-05', 'epoch': '0.263'}
+{"phase": "dose_training_step", "step": 102, "consumed_slots": 1632, "seconds": 2136.1011063649785}
+{'loss': '0.5755', 'grad_norm': '3.779', 'learning_rate': '7.447e-05', 'epoch': '0.2656'}
+{"phase": "dose_training_step", "step": 103, "consumed_slots": 1648, "seconds": 2156.875958316028}
+{'loss': '0.7588', 'grad_norm': '4.543', 'learning_rate': '7.421e-05', 'epoch': '0.2682'}
+{"phase": "dose_training_step", "step": 104, "consumed_slots": 1664, "seconds": 2177.4057356859557}
+{'loss': '0.5562', 'grad_norm': '3.766', 'learning_rate': '7.395e-05', 'epoch': '0.2708'}
+{"phase": "dose_training_step", "step": 105, "consumed_slots": 1680, "seconds": 2197.8254614740144}
+{'loss': '0.5541', 'grad_norm': '17.62', 'learning_rate': '7.368e-05', 'epoch': '0.2734'}
+{"phase": "dose_training_step", "step": 106, "consumed_slots": 1696, "seconds": 2218.375766276964}
+{'loss': '0.5973', 'grad_norm': '3.572', 'learning_rate': '7.342e-05', 'epoch': '0.276'}
+{"phase": "dose_training_step", "step": 107, "consumed_slots": 1712, "seconds": 2238.834184085019}
+{'loss': '0.4085', 'grad_norm': '4.827', 'learning_rate': '7.316e-05', 'epoch': '0.2786'}
+{"phase": "dose_training_step", "step": 108, "consumed_slots": 1728, "seconds": 2259.394390073954}
+{'loss': '0.6312', 'grad_norm': '4.864', 'learning_rate': '7.289e-05', 'epoch': '0.2812'}
+{"phase": "dose_training_step", "step": 109, "consumed_slots": 1744, "seconds": 2279.8385059429565}
+{'loss': '0.9761', 'grad_norm': '5.355', 'learning_rate': '7.263e-05', 'epoch': '0.2839'}
+{"phase": "dose_training_step", "step": 110, "consumed_slots": 1760, "seconds": 2300.1996761419578}
+{'loss': '0.4592', 'grad_norm': '4.757', 'learning_rate': '7.237e-05', 'epoch': '0.2865'}
+{"phase": "dose_training_step", "step": 111, "consumed_slots": 1776, "seconds": 2320.6944378779735}
+{'loss': '0.4246', 'grad_norm': '3.573', 'learning_rate': '7.211e-05', 'epoch': '0.2891'}
+{"phase": "dose_training_step", "step": 112, "consumed_slots": 1792, "seconds": 2341.1050715909805}
+{'loss': '0.437', 'grad_norm': '3.263', 'learning_rate': '7.184e-05', 'epoch': '0.2917'}
+{"phase": "dose_training_step", "step": 113, "consumed_slots": 1808, "seconds": 2361.6009036439937}
+{'loss': '0.5423', 'grad_norm': '4.583', 'learning_rate': '7.158e-05', 'epoch': '0.2943'}
+{"phase": "dose_training_step", "step": 114, "consumed_slots": 1824, "seconds": 2381.969980531954}
+{'loss': '0.446', 'grad_norm': '4.312', 'learning_rate': '7.132e-05', 'epoch': '0.2969'}
+{"phase": "dose_training_step", "step": 115, "consumed_slots": 1840, "seconds": 2402.063953469973}
+{'loss': '0.3989', 'grad_norm': '8.161', 'learning_rate': '7.105e-05', 'epoch': '0.2995'}
+{"phase": "dose_training_step", "step": 116, "consumed_slots": 1856, "seconds": 2422.7768450069707}
+{'loss': '0.4621', 'grad_norm': '3.03', 'learning_rate': '7.079e-05', 'epoch': '0.3021'}
+{"phase": "dose_training_step", "step": 117, "consumed_slots": 1872, "seconds": 2443.056939283968}
+{'loss': '0.5757', 'grad_norm': '5.164', 'learning_rate': '7.053e-05', 'epoch': '0.3047'}
+{"phase": "dose_training_step", "step": 118, "consumed_slots": 1888, "seconds": 2463.5197721139994}
+{'loss': '0.4598', 'grad_norm': '8.083', 'learning_rate': '7.026e-05', 'epoch': '0.3073'}
+{"phase": "dose_training_step", "step": 119, "consumed_slots": 1904, "seconds": 2484.130946849007}
+{'loss': '0.5425', 'grad_norm': '5.041', 'learning_rate': '7e-05', 'epoch': '0.3099'}
+{"phase": "dose_training_step", "step": 120, "consumed_slots": 1920, "seconds": 2504.6080930409953}
+{'loss': '0.4896', 'grad_norm': '3.773', 'learning_rate': '6.974e-05', 'epoch': '0.3125'}
+{"phase": "dose_training_step", "step": 121, "consumed_slots": 1936, "seconds": 2524.9772966180462}
+{'loss': '0.5227', 'grad_norm': '5.079', 'learning_rate': '6.947e-05', 'epoch': '0.3151'}
+{"phase": "dose_training_step", "step": 122, "consumed_slots": 1952, "seconds": 2546.012276525027}
+{'loss': '0.4979', 'grad_norm': '3.951', 'learning_rate': '6.921e-05', 'epoch': '0.3177'}
+{"phase": "dose_training_step", "step": 123, "consumed_slots": 1968, "seconds": 2566.4340460740495}
+{'loss': '0.5339', 'grad_norm': '5.619', 'learning_rate': '6.895e-05', 'epoch': '0.3203'}
+{"phase": "dose_training_step", "step": 124, "consumed_slots": 1984, "seconds": 2586.659687964013}
+{'loss': '0.4447', 'grad_norm': '3.435', 'learning_rate': '6.868e-05', 'epoch': '0.3229'}
+{"phase": "dose_training_step", "step": 125, "consumed_slots": 2000, "seconds": 2607.0773603169946}
+{'loss': '0.4986', 'grad_norm': '5.116', 'learning_rate': '6.842e-05', 'epoch': '0.3255'}
+{"phase": "dose_training_step", "step": 126, "consumed_slots": 2016, "seconds": 2627.325613374007}
+{'loss': '0.4884', 'grad_norm': '3.515', 'learning_rate': '6.816e-05', 'epoch': '0.3281'}
+{"phase": "dose_training_step", "step": 127, "consumed_slots": 2032, "seconds": 2647.735536364955}
+{'loss': '0.4321', 'grad_norm': '3.659', 'learning_rate': '6.789e-05', 'epoch': '0.3307'}
+{"phase": "dose_training_step", "step": 128, "consumed_slots": 2048, "seconds": 2668.7299104119884}
+{'loss': '0.6566', 'grad_norm': '5.998', 'learning_rate': '6.763e-05', 'epoch': '0.3333'}
+{"phase": "dose_training_step", "step": 129, "consumed_slots": 2064, "seconds": 2689.354468883015}
+{'loss': '0.3849', 'grad_norm': '4.674', 'learning_rate': '6.737e-05', 'epoch': '0.3359'}
+{"phase": "dose_training_step", "step": 130, "consumed_slots": 2080, "seconds": 2709.839457661961}
+{'loss': '0.4628', 'grad_norm': '3.894', 'learning_rate': '6.711e-05', 'epoch': '0.3385'}
+{"phase": "dose_training_step", "step": 131, "consumed_slots": 2096, "seconds": 2731.0899560890393}
+{'loss': '0.4555', 'grad_norm': '3.566', 'learning_rate': '6.684e-05', 'epoch': '0.3411'}
+{"phase": "dose_training_step", "step": 132, "consumed_slots": 2112, "seconds": 2752.8084592010127}
+{'loss': '0.3914', 'grad_norm': '3.639', 'learning_rate': '6.658e-05', 'epoch': '0.3438'}
+{"phase": "dose_training_step", "step": 133, "consumed_slots": 2128, "seconds": 2774.7996057720156}
+{'loss': '0.5779', 'grad_norm': '7.871', 'learning_rate': '6.632e-05', 'epoch': '0.3464'}
+{"phase": "dose_training_step", "step": 134, "consumed_slots": 2144, "seconds": 2795.040837674984}
+{'loss': '0.4214', 'grad_norm': '5.733', 'learning_rate': '6.605e-05', 'epoch': '0.349'}
+{"phase": "dose_training_step", "step": 135, "consumed_slots": 2160, "seconds": 2815.524101607967}
+{'loss': '0.5854', 'grad_norm': '9.968', 'learning_rate': '6.579e-05', 'epoch': '0.3516'}
+{"phase": "dose_training_step", "step": 136, "consumed_slots": 2176, "seconds": 2835.796366714989}
+{'loss': '0.4102', 'grad_norm': '4.817', 'learning_rate': '6.553e-05', 'epoch': '0.3542'}
+{"phase": "dose_training_step", "step": 137, "consumed_slots": 2192, "seconds": 2856.5574500090443}
+{'loss': '0.4295', 'grad_norm': '3.467', 'learning_rate': '6.526e-05', 'epoch': '0.3568'}
+{"phase": "dose_training_step", "step": 138, "consumed_slots": 2208, "seconds": 2877.0944238509983}
+{'loss': '0.491', 'grad_norm': '4.553', 'learning_rate': '6.5e-05', 'epoch': '0.3594'}
+{"phase": "dose_training_step", "step": 139, "consumed_slots": 2224, "seconds": 2897.5917823039927}
+{'loss': '0.5255', 'grad_norm': '8.087', 'learning_rate': '6.474e-05', 'epoch': '0.362'}
+{"phase": "dose_training_step", "step": 140, "consumed_slots": 2240, "seconds": 2918.0899761290057}
+{'loss': '0.4407', 'grad_norm': '3.257', 'learning_rate': '6.447e-05', 'epoch': '0.3646'}
+{"phase": "dose_training_step", "step": 141, "consumed_slots": 2256, "seconds": 2938.411963155959}
+{'loss': '0.5338', 'grad_norm': '4.587', 'learning_rate': '6.421e-05', 'epoch': '0.3672'}
+{"phase": "dose_training_step", "step": 142, "consumed_slots": 2272, "seconds": 2961.8725028500194}
+{'loss': '0.3783', 'grad_norm': '3.535', 'learning_rate': '6.395e-05', 'epoch': '0.3698'}
+{"phase": "dose_training_step", "step": 143, "consumed_slots": 2288, "seconds": 2985.475629893015}
+{'loss': '0.334', 'grad_norm': '4.159', 'learning_rate': '6.368e-05', 'epoch': '0.3724'}
+{"phase": "dose_training_step", "step": 144, "consumed_slots": 2304, "seconds": 3005.71867843403}
+{'loss': '0.469', 'grad_norm': '3.258', 'learning_rate': '6.342e-05', 'epoch': '0.375'}
+{"phase": "dose_training_step", "step": 145, "consumed_slots": 2320, "seconds": 3026.1553217769833}
+{'loss': '0.4144', 'grad_norm': '3.901', 'learning_rate': '6.316e-05', 'epoch': '0.3776'}
+{"phase": "dose_training_step", "step": 146, "consumed_slots": 2336, "seconds": 3046.856345526059}
+{'loss': '0.4963', 'grad_norm': '5.1', 'learning_rate': '6.289e-05', 'epoch': '0.3802'}
+{"phase": "dose_training_step", "step": 147, "consumed_slots": 2352, "seconds": 3067.722673794022}
+{'loss': '0.4043', 'grad_norm': '4.102', 'learning_rate': '6.263e-05', 'epoch': '0.3828'}
+{"phase": "dose_training_step", "step": 148, "consumed_slots": 2368, "seconds": 3088.0982507320587}
+{'loss': '0.4821', 'grad_norm': '3.822', 'learning_rate': '6.237e-05', 'epoch': '0.3854'}
+{"phase": "dose_training_step", "step": 149, "consumed_slots": 2384, "seconds": 3108.606906414032}
+{'loss': '0.4117', 'grad_norm': '3.115', 'learning_rate': '6.211e-05', 'epoch': '0.388'}
+{"phase": "dose_training_step", "step": 150, "consumed_slots": 2400, "seconds": 3129.0106503339484}
+{'loss': '0.6466', 'grad_norm': '4.434', 'learning_rate': '6.184e-05', 'epoch': '0.3906'}
+{"phase": "dose_training_step", "step": 151, "consumed_slots": 2416, "seconds": 3149.5724399919854}
+{'loss': '0.3963', 'grad_norm': '3.116', 'learning_rate': '6.158e-05', 'epoch': '0.3932'}
+{"phase": "dose_training_step", "step": 152, "consumed_slots": 2432, "seconds": 3170.7005422910443}
+{'loss': '0.3473', 'grad_norm': '2.87', 'learning_rate': '6.132e-05', 'epoch': '0.3958'}
+{"phase": "dose_training_step", "step": 153, "consumed_slots": 2448, "seconds": 3192.5484659509966}
+{'loss': '0.3541', 'grad_norm': '2.99', 'learning_rate': '6.105e-05', 'epoch': '0.3984'}
+{"phase": "dose_training_step", "step": 154, "consumed_slots": 2464, "seconds": 3212.831989994971}
+{'loss': '0.4013', 'grad_norm': '5.095', 'learning_rate': '6.079e-05', 'epoch': '0.401'}
+{"phase": "dose_training_step", "step": 155, "consumed_slots": 2480, "seconds": 3233.5175140229985}
+{'loss': '0.5162', 'grad_norm': '4.322', 'learning_rate': '6.053e-05', 'epoch': '0.4036'}
+{"phase": "dose_training_step", "step": 156, "consumed_slots": 2496, "seconds": 3253.7789635419613}
+{'loss': '0.5216', 'grad_norm': '3.566', 'learning_rate': '6.026e-05', 'epoch': '0.4062'}
+{"phase": "dose_training_step", "step": 157, "consumed_slots": 2512, "seconds": 3274.0675689580385}
+{'loss': '0.4695', 'grad_norm': '4.56', 'learning_rate': '6e-05', 'epoch': '0.4089'}
+{"phase": "dose_training_step", "step": 158, "consumed_slots": 2528, "seconds": 3294.336397018051}
+{'loss': '0.3276', 'grad_norm': '3.761', 'learning_rate': '5.974e-05', 'epoch': '0.4115'}
+{"phase": "dose_training_step", "step": 159, "consumed_slots": 2544, "seconds": 3314.5922515860293}
+{'loss': '0.5322', 'grad_norm': '7.719', 'learning_rate': '5.947e-05', 'epoch': '0.4141'}
+{"phase": "dose_training_step", "step": 160, "consumed_slots": 2560, "seconds": 3334.896462031058}
+{'loss': '0.4363', 'grad_norm': '3.173', 'learning_rate': '5.921e-05', 'epoch': '0.4167'}
+{"phase": "dose_training_step", "step": 161, "consumed_slots": 2576, "seconds": 3355.4599912150297}
+{'loss': '0.3369', 'grad_norm': '3.618', 'learning_rate': '5.895e-05', 'epoch': '0.4193'}
+{"phase": "dose_training_step", "step": 162, "consumed_slots": 2592, "seconds": 3375.8096386879915}
+{'loss': '0.5546', 'grad_norm': '4.908', 'learning_rate': '5.868e-05', 'epoch': '0.4219'}
+{"phase": "dose_training_step", "step": 163, "consumed_slots": 2608, "seconds": 3396.0710807590513}
+{'loss': '0.4174', 'grad_norm': '2.913', 'learning_rate': '5.842e-05', 'epoch': '0.4245'}
+{"phase": "dose_training_step", "step": 164, "consumed_slots": 2624, "seconds": 3416.4831800550455}
+{'loss': '0.376', 'grad_norm': '3.4', 'learning_rate': '5.816e-05', 'epoch': '0.4271'}
+{"phase": "dose_training_step", "step": 165, "consumed_slots": 2640, "seconds": 3436.9389617739944}
+{'loss': '0.3283', 'grad_norm': '3.44', 'learning_rate': '5.789e-05', 'epoch': '0.4297'}
+{"phase": "dose_training_step", "step": 166, "consumed_slots": 2656, "seconds": 3457.846421423019}
+{'loss': '0.3862', 'grad_norm': '6.79', 'learning_rate': '5.763e-05', 'epoch': '0.4323'}
+{"phase": "dose_training_step", "step": 167, "consumed_slots": 2672, "seconds": 3478.215636558947}
+{'loss': '0.4303', 'grad_norm': '4.45', 'learning_rate': '5.737e-05', 'epoch': '0.4349'}
+{"phase": "dose_training_step", "step": 168, "consumed_slots": 2688, "seconds": 3498.8045177629683}
+{'loss': '0.2711', 'grad_norm': '3.902', 'learning_rate': '5.711e-05', 'epoch': '0.4375'}
+{"phase": "dose_training_step", "step": 169, "consumed_slots": 2704, "seconds": 3520.076064981986}
+{'loss': '0.3212', 'grad_norm': '4.122', 'learning_rate': '5.684e-05', 'epoch': '0.4401'}
+{"phase": "dose_training_step", "step": 170, "consumed_slots": 2720, "seconds": 3541.045228144969}
+{'loss': '0.3971', 'grad_norm': '3.651', 'learning_rate': '5.658e-05', 'epoch': '0.4427'}
+{"phase": "dose_training_step", "step": 171, "consumed_slots": 2736, "seconds": 3561.836840947042}
+{'loss': '0.6726', 'grad_norm': '7.666', 'learning_rate': '5.632e-05', 'epoch': '0.4453'}
+{"phase": "dose_training_step", "step": 172, "consumed_slots": 2752, "seconds": 3582.6886589870555}
+{'loss': '0.1979', 'grad_norm': '3.915', 'learning_rate': '5.605e-05', 'epoch': '0.4479'}
+{"phase": "dose_training_step", "step": 173, "consumed_slots": 2768, "seconds": 3603.5499069750076}
+{'loss': '0.408', 'grad_norm': '4.402', 'learning_rate': '5.579e-05', 'epoch': '0.4505'}
+{"phase": "dose_training_step", "step": 174, "consumed_slots": 2784, "seconds": 3624.3515974009642}
+{'loss': '0.5006', 'grad_norm': '38.87', 'learning_rate': '5.553e-05', 'epoch': '0.4531'}
+{"phase": "dose_training_step", "step": 175, "consumed_slots": 2800, "seconds": 3644.743054794031}
+{'loss': '0.2671', 'grad_norm': '4.264', 'learning_rate': '5.526e-05', 'epoch': '0.4557'}
+{"phase": "dose_training_step", "step": 176, "consumed_slots": 2816, "seconds": 3665.06278859498}
+{'loss': '0.248', 'grad_norm': '5.687', 'learning_rate': '5.5e-05', 'epoch': '0.4583'}
+{"phase": "dose_training_step", "step": 177, "consumed_slots": 2832, "seconds": 3685.557234624983}
+{'loss': '0.3146', 'grad_norm': '4.239', 'learning_rate': '5.474e-05', 'epoch': '0.4609'}
+{"phase": "dose_training_step", "step": 178, "consumed_slots": 2848, "seconds": 3706.1729657920077}
+{'loss': '0.3908', 'grad_norm': '6.087', 'learning_rate': '5.447e-05', 'epoch': '0.4635'}
+{"phase": "dose_training_step", "step": 179, "consumed_slots": 2864, "seconds": 3726.4987977909623}
+{'loss': '0.431', 'grad_norm': '4.354', 'learning_rate': '5.421e-05', 'epoch': '0.4661'}
+{"phase": "dose_training_step", "step": 180, "consumed_slots": 2880, "seconds": 3747.2641049990198}
+{'loss': '0.2527', 'grad_norm': '3.314', 'learning_rate': '5.395e-05', 'epoch': '0.4688'}
+{"phase": "dose_training_step", "step": 181, "consumed_slots": 2896, "seconds": 3767.4611661880044}
+{'loss': '0.3591', 'grad_norm': '4.821', 'learning_rate': '5.368e-05', 'epoch': '0.4714'}
+{"phase": "dose_training_step", "step": 182, "consumed_slots": 2912, "seconds": 3787.829812448006}
+{'loss': '0.2711', 'grad_norm': '3.855', 'learning_rate': '5.342e-05', 'epoch': '0.474'}
+{"phase": "dose_training_step", "step": 183, "consumed_slots": 2928, "seconds": 3808.191185094998}
+{'loss': '0.3503', 'grad_norm': '3.962', 'learning_rate': '5.316e-05', 'epoch': '0.4766'}
+{"phase": "dose_training_step", "step": 184, "consumed_slots": 2944, "seconds": 3828.5371907890076}
+{'loss': '0.395', 'grad_norm': '4.963', 'learning_rate': '5.289e-05', 'epoch': '0.4792'}
+{"phase": "dose_training_step", "step": 185, "consumed_slots": 2960, "seconds": 3849.2729365980485}
+{'loss': '0.3286', 'grad_norm': '3.826', 'learning_rate': '5.263e-05', 'epoch': '0.4818'}
+{"phase": "dose_training_step", "step": 186, "consumed_slots": 2976, "seconds": 3872.480840869015}
+{'loss': '0.3284', 'grad_norm': '2.665', 'learning_rate': '5.237e-05', 'epoch': '0.4844'}
+{"phase": "dose_training_step", "step": 187, "consumed_slots": 2992, "seconds": 3892.4742915550014}
+{'loss': '0.3612', 'grad_norm': '3.099', 'learning_rate': '5.211e-05', 'epoch': '0.487'}
+{"phase": "dose_training_step", "step": 188, "consumed_slots": 3008, "seconds": 3912.7094242710155}
+{'loss': '0.6606', 'grad_norm': '5.471', 'learning_rate': '5.184e-05', 'epoch': '0.4896'}
+{"phase": "dose_training_step", "step": 189, "consumed_slots": 3024, "seconds": 3932.8458696559537}
+{'loss': '0.3499', 'grad_norm': '3.629', 'learning_rate': '5.158e-05', 'epoch': '0.4922'}
+{"phase": "dose_training_step", "step": 190, "consumed_slots": 3040, "seconds": 3954.2619643399958}
+{'loss': '0.5997', 'grad_norm': '5.851', 'learning_rate': '5.132e-05', 'epoch': '0.4948'}
+{"phase": "dose_training_step", "step": 191, "consumed_slots": 3056, "seconds": 3974.5593298559543}
+{'loss': '0.381', 'grad_norm': '4.526', 'learning_rate': '5.105e-05', 'epoch': '0.4974'}
+{"phase": "dose_training_step", "step": 192, "consumed_slots": 3072, "seconds": 3994.911246636999}
+{"phase": "dose_canary_admission", "canary_steps": 192, "measured_seconds": 3994.911246636999, "remaining_train_seconds": 5193.384620628099, "evaluation_seconds": 6600, "reload_seconds": 300, "safety_multiplier": 1.3, "projected_seconds": 12093.384620628098, "available_seconds": 15513.336884, "token_cost_ratios": [1.0, 1.0, 1.0], "admitted": true}
+{'loss': '0.4854', 'grad_norm': '5.933', 'learning_rate': '5.079e-05', 'epoch': '0.5'}
+{"phase": "dose_training_step", "step": 193, "consumed_slots": 3088, "seconds": 4020.73096938699}
+{'loss': '0.2389', 'grad_norm': '2.226', 'learning_rate': '5.053e-05', 'epoch': '0.5026'}
+{"phase": "dose_training_step", "step": 194, "consumed_slots": 3104, "seconds": 4042.390412457986}
+{'loss': '0.3493', 'grad_norm': '2.767', 'learning_rate': '5.026e-05', 'epoch': '0.5052'}
+{"phase": "dose_training_step", "step": 195, "consumed_slots": 3120, "seconds": 4062.8507992649684}
+{'loss': '0.3912', 'grad_norm': '2.979', 'learning_rate': '5e-05', 'epoch': '0.5078'}
+{"phase": "dose_training_step", "step": 196, "consumed_slots": 3136, "seconds": 4083.2132739219815}
+{'loss': '0.4868', 'grad_norm': '3.561', 'learning_rate': '4.974e-05', 'epoch': '0.5104'}
+{"phase": "dose_training_step", "step": 197, "consumed_slots": 3152, "seconds": 4103.631135266973}
+{'loss': '0.337', 'grad_norm': '3.74', 'learning_rate': '4.947e-05', 'epoch': '0.513'}
+{"phase": "dose_training_step", "step": 198, "consumed_slots": 3168, "seconds": 4124.256019748049}
+{'loss': '0.3452', 'grad_norm': '2.583', 'learning_rate': '4.921e-05', 'epoch': '0.5156'}
+{"phase": "dose_training_step", "step": 199, "consumed_slots": 3184, "seconds": 4145.009547402966}
+{'loss': '0.4648', 'grad_norm': '3.142', 'learning_rate': '4.895e-05', 'epoch': '0.5182'}
+{"phase": "dose_training_step", "step": 200, "consumed_slots": 3200, "seconds": 4165.771132846014}
+{'loss': '0.3364', 'grad_norm': '4.756', 'learning_rate': '4.868e-05', 'epoch': '0.5208'}
+{"phase": "dose_training_step", "step": 201, "consumed_slots": 3216, "seconds": 4186.640091974055}
+{'loss': '0.4232', 'grad_norm': '4.539', 'learning_rate': '4.842e-05', 'epoch': '0.5234'}
+{"phase": "dose_training_step", "step": 202, "consumed_slots": 3232, "seconds": 4207.321201593033}
+{'loss': '0.3282', 'grad_norm': '3.097', 'learning_rate': '4.816e-05', 'epoch': '0.526'}
+{"phase": "dose_training_step", "step": 203, "consumed_slots": 3248, "seconds": 4228.415152286994}
+{'loss': '0.21', 'grad_norm': '4.081', 'learning_rate': '4.789e-05', 'epoch': '0.5286'}
+{"phase": "dose_training_step", "step": 204, "consumed_slots": 3264, "seconds": 4249.389628479024}
+{'loss': '0.3856', 'grad_norm': '3.773', 'learning_rate': '4.763e-05', 'epoch': '0.5312'}
+{"phase": "dose_training_step", "step": 205, "consumed_slots": 3280, "seconds": 4270.227635634947}
+{'loss': '0.5332', 'grad_norm': '5.319', 'learning_rate': '4.737e-05', 'epoch': '0.5339'}
+{"phase": "dose_training_step", "step": 206, "consumed_slots": 3296, "seconds": 4291.052118954947}
+{'loss': '0.2597', 'grad_norm': '3.103', 'learning_rate': '4.711e-05', 'epoch': '0.5365'}
+{"phase": "dose_training_step", "step": 207, "consumed_slots": 3312, "seconds": 4311.618029930978}
+{'loss': '0.181', 'grad_norm': '3.45', 'learning_rate': '4.684e-05', 'epoch': '0.5391'}
+{"phase": "dose_training_step", "step": 208, "consumed_slots": 3328, "seconds": 4332.635836692993}
+{'loss': '0.2614', 'grad_norm': '7.592', 'learning_rate': '4.658e-05', 'epoch': '0.5417'}
+{"phase": "dose_training_step", "step": 209, "consumed_slots": 3344, "seconds": 4354.295205313014}
+{'loss': '0.2978', 'grad_norm': '4.505', 'learning_rate': '4.632e-05', 'epoch': '0.5443'}
+{"phase": "dose_training_step", "step": 210, "consumed_slots": 3360, "seconds": 4375.285436504055}
+{'loss': '0.266', 'grad_norm': '5.867', 'learning_rate': '4.605e-05', 'epoch': '0.5469'}
+{"phase": "dose_training_step", "step": 211, "consumed_slots": 3376, "seconds": 4396.635468792985}
+{'loss': '0.2116', 'grad_norm': '5.423', 'learning_rate': '4.579e-05', 'epoch': '0.5495'}
+{"phase": "dose_training_step", "step": 212, "consumed_slots": 3392, "seconds": 4417.488263332052}
+{'loss': '0.3111', 'grad_norm': '11.01', 'learning_rate': '4.553e-05', 'epoch': '0.5521'}
+{"phase": "dose_training_step", "step": 213, "consumed_slots": 3408, "seconds": 4437.935503610992}
+{'loss': '0.3496', 'grad_norm': '4.145', 'learning_rate': '4.526e-05', 'epoch': '0.5547'}
+{"phase": "dose_training_step", "step": 214, "consumed_slots": 3424, "seconds": 4458.362518343958}
+{'loss': '0.3513', 'grad_norm': '4.532', 'learning_rate': '4.5e-05', 'epoch': '0.5573'}
+{"phase": "dose_training_step", "step": 215, "consumed_slots": 3440, "seconds": 4479.0313477020245}
+{'loss': '0.2776', 'grad_norm': '5.566', 'learning_rate': '4.474e-05', 'epoch': '0.5599'}
+{"phase": "dose_training_step", "step": 216, "consumed_slots": 3456, "seconds": 4499.578339367057}
+{'loss': '0.2835', 'grad_norm': '3.795', 'learning_rate': '4.447e-05', 'epoch': '0.5625'}
+{"phase": "dose_training_step", "step": 217, "consumed_slots": 3472, "seconds": 4520.137986512971}
+{'loss': '0.309', 'grad_norm': '4.714', 'learning_rate': '4.421e-05', 'epoch': '0.5651'}
+{"phase": "dose_training_step", "step": 218, "consumed_slots": 3488, "seconds": 4540.905704063014}
+{'loss': '0.2746', 'grad_norm': '3.14', 'learning_rate': '4.395e-05', 'epoch': '0.5677'}
+{"phase": "dose_training_step", "step": 219, "consumed_slots": 3504, "seconds": 4561.143288305961}
+{'loss': '0.3393', 'grad_norm': '3.44', 'learning_rate': '4.368e-05', 'epoch': '0.5703'}
+{"phase": "dose_training_step", "step": 220, "consumed_slots": 3520, "seconds": 4581.703396460973}
+{'loss': '0.2094', 'grad_norm': '2.598', 'learning_rate': '4.342e-05', 'epoch': '0.5729'}
+{"phase": "dose_training_step", "step": 221, "consumed_slots": 3536, "seconds": 4602.250184093951}
+{'loss': '0.2785', 'grad_norm': '2.717', 'learning_rate': '4.316e-05', 'epoch': '0.5755'}
+{"phase": "dose_training_step", "step": 222, "consumed_slots": 3552, "seconds": 4622.706249680952}
+{'loss': '0.2242', 'grad_norm': '2.469', 'learning_rate': '4.289e-05', 'epoch': '0.5781'}
+{"phase": "dose_training_step", "step": 223, "consumed_slots": 3568, "seconds": 4644.47117260599}
+{'loss': '0.1775', 'grad_norm': '2.678', 'learning_rate': '4.263e-05', 'epoch': '0.5807'}
+{"phase": "dose_training_step", "step": 224, "consumed_slots": 3584, "seconds": 4668.494931312045}
+{'loss': '0.3589', 'grad_norm': '9.113', 'learning_rate': '4.237e-05', 'epoch': '0.5833'}
+{"phase": "dose_training_step", "step": 225, "consumed_slots": 3600, "seconds": 4689.141454649041}
+{'loss': '0.1774', 'grad_norm': '3.247', 'learning_rate': '4.211e-05', 'epoch': '0.5859'}
+{"phase": "dose_training_step", "step": 226, "consumed_slots": 3616, "seconds": 4709.447939681006}
+{'loss': '0.2447', 'grad_norm': '3.471', 'learning_rate': '4.184e-05', 'epoch': '0.5885'}
+{"phase": "dose_training_step", "step": 227, "consumed_slots": 3632, "seconds": 4730.015248393989}
+{'loss': '0.1976', 'grad_norm': '3.935', 'learning_rate': '4.158e-05', 'epoch': '0.5911'}
+{"phase": "dose_training_step", "step": 228, "consumed_slots": 3648, "seconds": 4750.39820471406}
+{'loss': '0.1304', 'grad_norm': '3.143', 'learning_rate': '4.132e-05', 'epoch': '0.5938'}
+{"phase": "dose_training_step", "step": 229, "consumed_slots": 3664, "seconds": 4770.123242454953}
+{'loss': '0.2874', 'grad_norm': '3.873', 'learning_rate': '4.105e-05', 'epoch': '0.5964'}
+{"phase": "dose_training_step", "step": 230, "consumed_slots": 3680, "seconds": 4789.93151909404}
+{'loss': '0.2122', 'grad_norm': '2.857', 'learning_rate': '4.079e-05', 'epoch': '0.599'}
+{"phase": "dose_training_step", "step": 231, "consumed_slots": 3696, "seconds": 4809.898002855945}
+{'loss': '0.4724', 'grad_norm': '4.742', 'learning_rate': '4.053e-05', 'epoch': '0.6016'}
+{"phase": "dose_training_step", "step": 232, "consumed_slots": 3712, "seconds": 4829.9187485020375}
+{'loss': '0.1835', 'grad_norm': '4.94', 'learning_rate': '4.026e-05', 'epoch': '0.6042'}
+{"phase": "dose_training_step", "step": 233, "consumed_slots": 3728, "seconds": 4853.3298042860115}
+{'loss': '0.2226', 'grad_norm': '3.585', 'learning_rate': '4e-05', 'epoch': '0.6068'}
+{"phase": "dose_training_step", "step": 234, "consumed_slots": 3744, "seconds": 4873.620206402964}
+{'loss': '0.2548', 'grad_norm': '5.44', 'learning_rate': '3.974e-05', 'epoch': '0.6094'}
+{"phase": "dose_training_step", "step": 235, "consumed_slots": 3760, "seconds": 4894.010887927958}
+{'loss': '0.3193', 'grad_norm': '4.829', 'learning_rate': '3.947e-05', 'epoch': '0.612'}
+{"phase": "dose_training_step", "step": 236, "consumed_slots": 3776, "seconds": 4914.424932696042}
+{'loss': '0.2277', 'grad_norm': '4.187', 'learning_rate': '3.921e-05', 'epoch': '0.6146'}
+{"phase": "dose_training_step", "step": 237, "consumed_slots": 3792, "seconds": 4934.735761716962}
+{'loss': '0.2618', 'grad_norm': '3.301', 'learning_rate': '3.895e-05', 'epoch': '0.6172'}
+{"phase": "dose_training_step", "step": 238, "consumed_slots": 3808, "seconds": 4955.092537682969}
+{'loss': '0.1701', 'grad_norm': '3.312', 'learning_rate': '3.868e-05', 'epoch': '0.6198'}
+{"phase": "dose_training_step", "step": 239, "consumed_slots": 3824, "seconds": 4975.77044723602}
+{'loss': '0.1655', 'grad_norm': '3.919', 'learning_rate': '3.842e-05', 'epoch': '0.6224'}
+{"phase": "dose_training_step", "step": 240, "consumed_slots": 3840, "seconds": 4996.428927481058}
+{'loss': '0.2314', 'grad_norm': '3.717', 'learning_rate': '3.816e-05', 'epoch': '0.625'}
+{"phase": "dose_training_step", "step": 241, "consumed_slots": 3856, "seconds": 5016.824026972055}
+{'loss': '0.1597', 'grad_norm': '3.006', 'learning_rate': '3.789e-05', 'epoch': '0.6276'}
+{"phase": "dose_training_step", "step": 242, "consumed_slots": 3872, "seconds": 5037.3221684109885}
+{'loss': '0.2964', 'grad_norm': '4.837', 'learning_rate': '3.763e-05', 'epoch': '0.6302'}
+{"phase": "dose_training_step", "step": 243, "consumed_slots": 3888, "seconds": 5058.342554370989}
+{'loss': '0.2603', 'grad_norm': '3.959', 'learning_rate': '3.737e-05', 'epoch': '0.6328'}
+{"phase": "dose_training_step", "step": 244, "consumed_slots": 3904, "seconds": 5078.719535982003}
+{'loss': '0.2042', 'grad_norm': '3.511', 'learning_rate': '3.711e-05', 'epoch': '0.6354'}
+{"phase": "dose_training_step", "step": 245, "consumed_slots": 3920, "seconds": 5099.054642439005}
+{'loss': '0.1789', 'grad_norm': '2.554', 'learning_rate': '3.684e-05', 'epoch': '0.638'}
+{"phase": "dose_training_step", "step": 246, "consumed_slots": 3936, "seconds": 5119.627456153976}
+{'loss': '0.3217', 'grad_norm': '3.816', 'learning_rate': '3.658e-05', 'epoch': '0.6406'}
+{"phase": "dose_training_step", "step": 247, "consumed_slots": 3952, "seconds": 5140.065177378012}
+{'loss': '0.1865', 'grad_norm': '3.937', 'learning_rate': '3.632e-05', 'epoch': '0.6432'}
+{"phase": "dose_training_step", "step": 248, "consumed_slots": 3968, "seconds": 5160.756099030958}
+{'loss': '0.1753', 'grad_norm': '2.547', 'learning_rate': '3.605e-05', 'epoch': '0.6458'}
+{"phase": "dose_training_step", "step": 249, "consumed_slots": 3984, "seconds": 5181.480851926957}
+{'loss': '0.1688', 'grad_norm': '2.933', 'learning_rate': '3.579e-05', 'epoch': '0.6484'}
+{"phase": "dose_training_step", "step": 250, "consumed_slots": 4000, "seconds": 5201.988982288982}
+{'loss': '0.1984', 'grad_norm': '3.501', 'learning_rate': '3.553e-05', 'epoch': '0.651'}
+{"phase": "dose_training_step", "step": 251, "consumed_slots": 4016, "seconds": 5222.405416600057}
+{'loss': '0.2864', 'grad_norm': '3.288', 'learning_rate': '3.526e-05', 'epoch': '0.6536'}
+{"phase": "dose_training_step", "step": 252, "consumed_slots": 4032, "seconds": 5243.670953962952}
+{'loss': '0.2863', 'grad_norm': '8.237', 'learning_rate': '3.5e-05', 'epoch': '0.6562'}
+{"phase": "dose_training_step", "step": 253, "consumed_slots": 4048, "seconds": 5266.314861783059}
+{'loss': '0.2175', 'grad_norm': '6.234', 'learning_rate': '3.474e-05', 'epoch': '0.6589'}
+{"phase": "dose_training_step", "step": 254, "consumed_slots": 4064, "seconds": 5286.6427557020215}
+{'loss': '0.2073', 'grad_norm': '3.683', 'learning_rate': '3.447e-05', 'epoch': '0.6615'}
+{"phase": "dose_training_step", "step": 255, "consumed_slots": 4080, "seconds": 5308.11765350902}
+{'loss': '0.3509', 'grad_norm': '6.703', 'learning_rate': '3.421e-05', 'epoch': '0.6641'}
+{"phase": "dose_training_step", "step": 256, "consumed_slots": 4096, "seconds": 5328.921954488964}
+{'loss': '0.1978', 'grad_norm': '3.051', 'learning_rate': '3.395e-05', 'epoch': '0.6667'}
+{"phase": "dose_training_step", "step": 257, "consumed_slots": 4112, "seconds": 5349.894806644996}
+{'loss': '0.1958', 'grad_norm': '3.494', 'learning_rate': '3.368e-05', 'epoch': '0.6693'}
+{"phase": "dose_training_step", "step": 258, "consumed_slots": 4128, "seconds": 5373.142796049011}
+{'loss': '0.2586', 'grad_norm': '3.52', 'learning_rate': '3.342e-05', 'epoch': '0.6719'}
+{"phase": "dose_training_step", "step": 259, "consumed_slots": 4144, "seconds": 5393.793384711957}
+{'loss': '0.3044', 'grad_norm': '4.089', 'learning_rate': '3.316e-05', 'epoch': '0.6745'}
+{"phase": "dose_training_step", "step": 260, "consumed_slots": 4160, "seconds": 5414.176240002038}
+{'loss': '0.1571', 'grad_norm': '3.473', 'learning_rate': '3.289e-05', 'epoch': '0.6771'}
+{"phase": "dose_training_step", "step": 261, "consumed_slots": 4176, "seconds": 5434.6338167990325}
+{'loss': '0.1568', 'grad_norm': '3.275', 'learning_rate': '3.263e-05', 'epoch': '0.6797'}
+{"phase": "dose_training_step", "step": 262, "consumed_slots": 4192, "seconds": 5455.052980229026}
+{'loss': '0.1942', 'grad_norm': '3.527', 'learning_rate': '3.237e-05', 'epoch': '0.6823'}
+{"phase": "dose_training_step", "step": 263, "consumed_slots": 4208, "seconds": 5475.577487663017}
+{'loss': '0.1862', 'grad_norm': '9.446', 'learning_rate': '3.211e-05', 'epoch': '0.6849'}
+{"phase": "dose_training_step", "step": 264, "consumed_slots": 4224, "seconds": 5496.183415635023}
+{'loss': '0.1173', 'grad_norm': '4.964', 'learning_rate': '3.184e-05', 'epoch': '0.6875'}
+{"phase": "dose_training_step", "step": 265, "consumed_slots": 4240, "seconds": 5516.72972405795}
+{'loss': '0.1665', 'grad_norm': '165.4', 'learning_rate': '3.158e-05', 'epoch': '0.6901'}
+{"phase": "dose_training_step", "step": 266, "consumed_slots": 4256, "seconds": 5537.522864873055}
+{'loss': '0.2271', 'grad_norm': '3.199', 'learning_rate': '3.132e-05', 'epoch': '0.6927'}
+{"phase": "dose_training_step", "step": 267, "consumed_slots": 4272, "seconds": 5558.342159459018}
+{'loss': '0.401', 'grad_norm': '5.439', 'learning_rate': '3.105e-05', 'epoch': '0.6953'}
+{"phase": "dose_training_step", "step": 268, "consumed_slots": 4288, "seconds": 5579.251892581}
+{'loss': '0.09984', 'grad_norm': '2.187', 'learning_rate': '3.079e-05', 'epoch': '0.6979'}
+{"phase": "dose_training_step", "step": 269, "consumed_slots": 4304, "seconds": 5600.464322902029}
+{'loss': '0.1935', 'grad_norm': '5.943', 'learning_rate': '3.053e-05', 'epoch': '0.7005'}
+{"phase": "dose_training_step", "step": 270, "consumed_slots": 4320, "seconds": 5622.260589007987}
+{'loss': '0.4538', 'grad_norm': '4.837', 'learning_rate': '3.026e-05', 'epoch': '0.7031'}
+{"phase": "dose_training_step", "step": 271, "consumed_slots": 4336, "seconds": 5643.886592859053}
+{'loss': '0.1362', 'grad_norm': '2.619', 'learning_rate': '3e-05', 'epoch': '0.7057'}
+{"phase": "dose_training_step", "step": 272, "consumed_slots": 4352, "seconds": 5667.518587360042}
+{'loss': '0.1289', 'grad_norm': '2.551', 'learning_rate': '2.974e-05', 'epoch': '0.7083'}
+{"phase": "dose_training_step", "step": 273, "consumed_slots": 4368, "seconds": 5688.3405699069845}
+{'loss': '0.1475', 'grad_norm': '2.81', 'learning_rate': '2.947e-05', 'epoch': '0.7109'}
+{"phase": "dose_training_step", "step": 274, "consumed_slots": 4384, "seconds": 5709.187162423972}
+{'loss': '0.2415', 'grad_norm': '8.091', 'learning_rate': '2.921e-05', 'epoch': '0.7135'}
+{"phase": "dose_training_step", "step": 275, "consumed_slots": 4400, "seconds": 5730.4770064749755}
+{'loss': '0.2951', 'grad_norm': '3.449', 'learning_rate': '2.895e-05', 'epoch': '0.7161'}
+{"phase": "dose_training_step", "step": 276, "consumed_slots": 4416, "seconds": 5751.160665901029}
+{'loss': '0.1285', 'grad_norm': '1.836', 'learning_rate': '2.868e-05', 'epoch': '0.7188'}
+{"phase": "dose_training_step", "step": 277, "consumed_slots": 4432, "seconds": 5771.811361428001}
+{'loss': '0.235', 'grad_norm': '11.26', 'learning_rate': '2.842e-05', 'epoch': '0.7214'}
+{"phase": "dose_training_step", "step": 278, "consumed_slots": 4448, "seconds": 5792.515011230949}
+{'loss': '0.114', 'grad_norm': '2.738', 'learning_rate': '2.816e-05', 'epoch': '0.724'}
+{"phase": "dose_training_step", "step": 279, "consumed_slots": 4464, "seconds": 5813.068040136015}
+{'loss': '0.1743', 'grad_norm': '3.45', 'learning_rate': '2.789e-05', 'epoch': '0.7266'}
+{"phase": "dose_training_step", "step": 280, "consumed_slots": 4480, "seconds": 5834.056350001018}
+{'loss': '0.1741', 'grad_norm': '4.351', 'learning_rate': '2.763e-05', 'epoch': '0.7292'}
+{"phase": "dose_training_step", "step": 281, "consumed_slots": 4496, "seconds": 5854.455742574995}
+{'loss': '0.1945', 'grad_norm': '6.77', 'learning_rate': '2.737e-05', 'epoch': '0.7318'}
+{"phase": "dose_training_step", "step": 282, "consumed_slots": 4512, "seconds": 5875.075188742019}
+{'loss': '0.1496', 'grad_norm': '2.785', 'learning_rate': '2.711e-05', 'epoch': '0.7344'}
+{"phase": "dose_training_step", "step": 283, "consumed_slots": 4528, "seconds": 5895.724795883987}
+{'loss': '0.207', 'grad_norm': '2.567', 'learning_rate': '2.684e-05', 'epoch': '0.737'}
+{"phase": "dose_training_step", "step": 284, "consumed_slots": 4544, "seconds": 5916.39856323495}
+{'loss': '0.3697', 'grad_norm': '5.623', 'learning_rate': '2.658e-05', 'epoch': '0.7396'}
+{"phase": "dose_training_step", "step": 285, "consumed_slots": 4560, "seconds": 5936.826969012036}
+{'loss': '0.1214', 'grad_norm': '2.698', 'learning_rate': '2.632e-05', 'epoch': '0.7422'}
+{"phase": "dose_training_step", "step": 286, "consumed_slots": 4576, "seconds": 5958.570646279026}
+{'loss': '0.3248', 'grad_norm': '4.356', 'learning_rate': '2.605e-05', 'epoch': '0.7448'}
+{"phase": "dose_training_step", "step": 287, "consumed_slots": 4592, "seconds": 5980.081618612981}
+{'loss': '0.1787', 'grad_norm': '3.332', 'learning_rate': '2.579e-05', 'epoch': '0.7474'}
+{"phase": "dose_training_step", "step": 288, "consumed_slots": 4608, "seconds": 6001.463384698029}
+{'loss': '0.1784', 'grad_norm': '5.318', 'learning_rate': '2.553e-05', 'epoch': '0.75'}
+{"phase": "dose_training_step", "step": 289, "consumed_slots": 4624, "seconds": 6022.203635837999}
+{'loss': '0.14', 'grad_norm': '2.154', 'learning_rate': '2.526e-05', 'epoch': '0.7526'}
+{"phase": "dose_training_step", "step": 290, "consumed_slots": 4640, "seconds": 6042.538258968969}
+{'loss': '0.184', 'grad_norm': '4.705', 'learning_rate': '2.5e-05', 'epoch': '0.7552'}
+{"phase": "dose_training_step", "step": 291, "consumed_slots": 4656, "seconds": 6063.073398077977}
+{'loss': '0.2247', 'grad_norm': '2.339', 'learning_rate': '2.474e-05', 'epoch': '0.7578'}
+{"phase": "dose_training_step", "step": 292, "consumed_slots": 4672, "seconds": 6083.535072810948}
+{'loss': '0.3057', 'grad_norm': '3.193', 'learning_rate': '2.447e-05', 'epoch': '0.7604'}
+{"phase": "dose_training_step", "step": 293, "consumed_slots": 4688, "seconds": 6103.769086551038}
+{'loss': '0.1693', 'grad_norm': '3.725', 'learning_rate': '2.421e-05', 'epoch': '0.763'}
+{"phase": "dose_training_step", "step": 294, "consumed_slots": 4704, "seconds": 6124.398851096048}
+{'loss': '0.2037', 'grad_norm': '2.441', 'learning_rate': '2.395e-05', 'epoch': '0.7656'}
+{"phase": "dose_training_step", "step": 295, "consumed_slots": 4720, "seconds": 6144.7592601670185}
+{'loss': '0.2277', 'grad_norm': '2.53', 'learning_rate': '2.368e-05', 'epoch': '0.7682'}
+{"phase": "dose_training_step", "step": 296, "consumed_slots": 4736, "seconds": 6165.679338044953}
+{'loss': '0.2187', 'grad_norm': '3.394', 'learning_rate': '2.342e-05', 'epoch': '0.7708'}
+{"phase": "dose_training_step", "step": 297, "consumed_slots": 4752, "seconds": 6187.707133625052}
+{'loss': '0.2415', 'grad_norm': '3.412', 'learning_rate': '2.316e-05', 'epoch': '0.7734'}
+{"phase": "dose_training_step", "step": 298, "consumed_slots": 4768, "seconds": 6208.240095820045}
+{'loss': '0.1669', 'grad_norm': '2.385', 'learning_rate': '2.289e-05', 'epoch': '0.776'}
+{"phase": "dose_training_step", "step": 299, "consumed_slots": 4784, "seconds": 6229.178576644976}
+{'loss': '0.07812', 'grad_norm': '2.661', 'learning_rate': '2.263e-05', 'epoch': '0.7786'}
+{"phase": "dose_training_step", "step": 300, "consumed_slots": 4800, "seconds": 6250.571153054945}
+{'loss': '0.2344', 'grad_norm': '5.958', 'learning_rate': '2.237e-05', 'epoch': '0.7812'}
+{"phase": "dose_training_step", "step": 301, "consumed_slots": 4816, "seconds": 6271.206757377018}
+{'loss': '0.2723', 'grad_norm': '4.83', 'learning_rate': '2.211e-05', 'epoch': '0.7839'}
+{"phase": "dose_training_step", "step": 302, "consumed_slots": 4832, "seconds": 6291.723274910008}
+{'loss': '0.1185', 'grad_norm': '2.697', 'learning_rate': '2.184e-05', 'epoch': '0.7865'}
+{"phase": "dose_training_step", "step": 303, "consumed_slots": 4848, "seconds": 6312.346612041001}
+{'loss': '0.08555', 'grad_norm': '1.917', 'learning_rate': '2.158e-05', 'epoch': '0.7891'}
+{"phase": "dose_training_step", "step": 304, "consumed_slots": 4864, "seconds": 6333.518531944952}
+{'loss': '0.2123', 'grad_norm': '4.347', 'learning_rate': '2.132e-05', 'epoch': '0.7917'}
+{"phase": "dose_training_step", "step": 305, "consumed_slots": 4880, "seconds": 6354.0395914800465}
+{'loss': '0.1407', 'grad_norm': '3.567', 'learning_rate': '2.105e-05', 'epoch': '0.7943'}
+{"phase": "dose_training_step", "step": 306, "consumed_slots": 4896, "seconds": 6375.664788592025}
+{'loss': '0.1339', 'grad_norm': '2.99', 'learning_rate': '2.079e-05', 'epoch': '0.7969'}
+{"phase": "dose_training_step", "step": 307, "consumed_slots": 4912, "seconds": 6396.1089090530295}
+{'loss': '0.07297', 'grad_norm': '4.042', 'learning_rate': '2.053e-05', 'epoch': '0.7995'}
+{"phase": "dose_training_step", "step": 308, "consumed_slots": 4928, "seconds": 6417.014669682016}
+{'loss': '0.2543', 'grad_norm': '3.222', 'learning_rate': '2.026e-05', 'epoch': '0.8021'}
+{"phase": "dose_training_step", "step": 309, "consumed_slots": 4944, "seconds": 6437.470327359973}
+{'loss': '0.1556', 'grad_norm': '2.908', 'learning_rate': '2e-05', 'epoch': '0.8047'}
+{"phase": "dose_training_step", "step": 310, "consumed_slots": 4960, "seconds": 6457.886998743052}
+{'loss': '0.211', 'grad_norm': '3.227', 'learning_rate': '1.974e-05', 'epoch': '0.8073'}
+{"phase": "dose_training_step", "step": 311, "consumed_slots": 4976, "seconds": 6478.5122339579975}
+{'loss': '0.116', 'grad_norm': '3.473', 'learning_rate': '1.947e-05', 'epoch': '0.8099'}
+{"phase": "dose_training_step", "step": 312, "consumed_slots": 4992, "seconds": 6499.221610479057}
+{'loss': '0.1369', 'grad_norm': '2.867', 'learning_rate': '1.921e-05', 'epoch': '0.8125'}
+{"phase": "dose_training_step", "step": 313, "consumed_slots": 5008, "seconds": 6519.601796524017}
+{'loss': '0.1674', 'grad_norm': '7.867', 'learning_rate': '1.895e-05', 'epoch': '0.8151'}
+{"phase": "dose_training_step", "step": 314, "consumed_slots": 5024, "seconds": 6539.933949236991}
+{'loss': '0.1382', 'grad_norm': '2.366', 'learning_rate': '1.868e-05', 'epoch': '0.8177'}
+{"phase": "dose_training_step", "step": 315, "consumed_slots": 5040, "seconds": 6560.297524614958}
+{'loss': '0.2248', 'grad_norm': '5.568', 'learning_rate': '1.842e-05', 'epoch': '0.8203'}
+{"phase": "dose_training_step", "step": 316, "consumed_slots": 5056, "seconds": 6580.665515250992}
+{'loss': '0.08807', 'grad_norm': '2.301', 'learning_rate': '1.816e-05', 'epoch': '0.8229'}
+{"phase": "dose_training_step", "step": 317, "consumed_slots": 5072, "seconds": 6601.090904491022}
+{'loss': '0.1438', 'grad_norm': '3.732', 'learning_rate': '1.789e-05', 'epoch': '0.8255'}
+{"phase": "dose_training_step", "step": 318, "consumed_slots": 5088, "seconds": 6621.415690899012}
+{'loss': '0.1011', 'grad_norm': '2.377', 'learning_rate': '1.763e-05', 'epoch': '0.8281'}
+{"phase": "dose_training_step", "step": 319, "consumed_slots": 5104, "seconds": 6641.731525370968}
+{'loss': '0.07106', 'grad_norm': '2.996', 'learning_rate': '1.737e-05', 'epoch': '0.8307'}
+{"phase": "dose_training_step", "step": 320, "consumed_slots": 5120, "seconds": 6663.027023250004}
+{'loss': '0.2359', 'grad_norm': '5.847', 'learning_rate': '1.711e-05', 'epoch': '0.8333'}
+{"phase": "dose_training_step", "step": 321, "consumed_slots": 5136, "seconds": 6683.464897544007}
+{'loss': '0.13', 'grad_norm': '5.013', 'learning_rate': '1.684e-05', 'epoch': '0.8359'}
+{"phase": "dose_training_step", "step": 322, "consumed_slots": 5152, "seconds": 6704.006518905982}
+{'loss': '0.1387', 'grad_norm': '4.121', 'learning_rate': '1.658e-05', 'epoch': '0.8385'}
+{"phase": "dose_training_step", "step": 323, "consumed_slots": 5168, "seconds": 6724.350723978016}
+{'loss': '0.08908', 'grad_norm': '2.583', 'learning_rate': '1.632e-05', 'epoch': '0.8411'}
+{"phase": "dose_training_step", "step": 324, "consumed_slots": 5184, "seconds": 6744.851375009981}
+{'loss': '0.05649', 'grad_norm': '2.348', 'learning_rate': '1.605e-05', 'epoch': '0.8438'}
+{"phase": "dose_training_step", "step": 325, "consumed_slots": 5200, "seconds": 6765.286180848954}
+{'loss': '0.1213', 'grad_norm': '2.673', 'learning_rate': '1.579e-05', 'epoch': '0.8464'}
+{"phase": "dose_training_step", "step": 326, "consumed_slots": 5216, "seconds": 6786.0491257789545}
+{'loss': '0.09634', 'grad_norm': '1.987', 'learning_rate': '1.553e-05', 'epoch': '0.849'}
+{"phase": "dose_training_step", "step": 327, "consumed_slots": 5232, "seconds": 6807.812873339979}
+{'loss': '0.2797', 'grad_norm': '3.531', 'learning_rate': '1.526e-05', 'epoch': '0.8516'}
+{"phase": "dose_training_step", "step": 328, "consumed_slots": 5248, "seconds": 6829.933029597974}
+{'loss': '0.06827', 'grad_norm': '2.335', 'learning_rate': '1.5e-05', 'epoch': '0.8542'}
+{"phase": "dose_training_step", "step": 329, "consumed_slots": 5264, "seconds": 6850.352968133986}
+{'loss': '0.1244', 'grad_norm': '2.197', 'learning_rate': '1.474e-05', 'epoch': '0.8568'}
+{"phase": "dose_training_step", "step": 330, "consumed_slots": 5280, "seconds": 6871.631371504976}
+{'loss': '0.2076', 'grad_norm': '6.931', 'learning_rate': '1.447e-05', 'epoch': '0.8594'}
+{"phase": "dose_training_step", "step": 331, "consumed_slots": 5296, "seconds": 6892.344167471048}
+{'loss': '0.1651', 'grad_norm': '4.053', 'learning_rate': '1.421e-05', 'epoch': '0.862'}
+{"phase": "dose_training_step", "step": 332, "consumed_slots": 5312, "seconds": 6912.979485222022}
+{'loss': '0.09743', 'grad_norm': '2.531', 'learning_rate': '1.395e-05', 'epoch': '0.8646'}
+{"phase": "dose_training_step", "step": 333, "consumed_slots": 5328, "seconds": 6933.66009082098}
+{'loss': '0.1528', 'grad_norm': '2.204', 'learning_rate': '1.368e-05', 'epoch': '0.8672'}
+{"phase": "dose_training_step", "step": 334, "consumed_slots": 5344, "seconds": 6955.10556523304}
+{'loss': '0.09924', 'grad_norm': '1.783', 'learning_rate': '1.342e-05', 'epoch': '0.8698'}
+{"phase": "dose_training_step", "step": 335, "consumed_slots": 5360, "seconds": 6975.972229309031}
+{'loss': '0.1113', 'grad_norm': '2.923', 'learning_rate': '1.316e-05', 'epoch': '0.8724'}
+{"phase": "dose_training_step", "step": 336, "consumed_slots": 5376, "seconds": 6997.143673970946}
+{'loss': '0.1102', 'grad_norm': '2.653', 'learning_rate': '1.289e-05', 'epoch': '0.875'}
+{"phase": "dose_training_step", "step": 337, "consumed_slots": 5392, "seconds": 7017.849195269984}
+{'loss': '0.06758', 'grad_norm': '1.57', 'learning_rate': '1.263e-05', 'epoch': '0.8776'}
+{"phase": "dose_training_step", "step": 338, "consumed_slots": 5408, "seconds": 7038.495730116032}
+{'loss': '0.1274', 'grad_norm': '3.96', 'learning_rate': '1.237e-05', 'epoch': '0.8802'}
+{"phase": "dose_training_step", "step": 339, "consumed_slots": 5424, "seconds": 7059.664446237963}
+{'loss': '0.1406', 'grad_norm': '3.194', 'learning_rate': '1.211e-05', 'epoch': '0.8828'}
+{"phase": "dose_training_step", "step": 340, "consumed_slots": 5440, "seconds": 7080.251490465016}
+{'loss': '0.08923', 'grad_norm': '2.223', 'learning_rate': '1.184e-05', 'epoch': '0.8854'}
+{"phase": "dose_training_step", "step": 341, "consumed_slots": 5456, "seconds": 7100.930673392024}
+{'loss': '0.1173', 'grad_norm': '3.636', 'learning_rate': '1.158e-05', 'epoch': '0.888'}
+{"phase": "dose_training_step", "step": 342, "consumed_slots": 5472, "seconds": 7121.4349144160515}
+{'loss': '0.163', 'grad_norm': '4.817', 'learning_rate': '1.132e-05', 'epoch': '0.8906'}
+{"phase": "dose_training_step", "step": 343, "consumed_slots": 5488, "seconds": 7142.3321274260525}
+{'loss': '0.1045', 'grad_norm': '2.171', 'learning_rate': '1.105e-05', 'epoch': '0.8932'}
+{"phase": "dose_training_step", "step": 344, "consumed_slots": 5504, "seconds": 7163.377185450052}
+{'loss': '0.09772', 'grad_norm': '3.187', 'learning_rate': '1.079e-05', 'epoch': '0.8958'}
+{"phase": "dose_training_step", "step": 345, "consumed_slots": 5520, "seconds": 7184.3183108000085}
+{'loss': '0.08648', 'grad_norm': '2.672', 'learning_rate': '1.053e-05', 'epoch': '0.8984'}
+{"phase": "dose_training_step", "step": 346, "consumed_slots": 5536, "seconds": 7204.977188150049}
+{'loss': '0.0779', 'grad_norm': '2.211', 'learning_rate': '1.026e-05', 'epoch': '0.901'}
+{"phase": "dose_training_step", "step": 347, "consumed_slots": 5552, "seconds": 7226.656427224982}
+{'loss': '0.1541', 'grad_norm': '3.387', 'learning_rate': '1e-05', 'epoch': '0.9036'}
+{"phase": "dose_training_step", "step": 348, "consumed_slots": 5568, "seconds": 7247.220509671024}
+{'loss': '0.2231', 'grad_norm': '4.218', 'learning_rate': '9.737e-06', 'epoch': '0.9062'}
+{"phase": "dose_training_step", "step": 349, "consumed_slots": 5584, "seconds": 7267.854046258028}
+{'loss': '0.1022', 'grad_norm': '3.566', 'learning_rate': '9.474e-06', 'epoch': '0.9089'}
+{"phase": "dose_training_step", "step": 350, "consumed_slots": 5600, "seconds": 7288.430855629034}
+{'loss': '0.08769', 'grad_norm': '10.38', 'learning_rate': '9.211e-06', 'epoch': '0.9115'}
+{"phase": "dose_training_step", "step": 351, "consumed_slots": 5616, "seconds": 7309.1553929609945}
+{'loss': '0.1812', 'grad_norm': '2.955', 'learning_rate': '8.947e-06', 'epoch': '0.9141'}
+{"phase": "dose_training_step", "step": 352, "consumed_slots": 5632, "seconds": 7330.200289926957}
+{'loss': '0.1042', 'grad_norm': '2.155', 'learning_rate': '8.684e-06', 'epoch': '0.9167'}
+{"phase": "dose_training_step", "step": 353, "consumed_slots": 5648, "seconds": 7350.9747159320395}
+{'loss': '0.1006', 'grad_norm': '3.866', 'learning_rate': '8.421e-06', 'epoch': '0.9193'}
+{"phase": "dose_training_step", "step": 354, "consumed_slots": 5664, "seconds": 7371.699657385005}
+{'loss': '0.1011', 'grad_norm': '3.745', 'learning_rate': '8.158e-06', 'epoch': '0.9219'}
+{"phase": "dose_training_step", "step": 355, "consumed_slots": 5680, "seconds": 7392.444303649012}
+{'loss': '0.1872', 'grad_norm': '2.037', 'learning_rate': '7.895e-06', 'epoch': '0.9245'}
+{"phase": "dose_training_step", "step": 356, "consumed_slots": 5696, "seconds": 7413.060873568989}
+{'loss': '0.04855', 'grad_norm': '2.453', 'learning_rate': '7.632e-06', 'epoch': '0.9271'}
+{"phase": "dose_training_step", "step": 357, "consumed_slots": 5712, "seconds": 7434.006999140023}
+{'loss': '0.04594', 'grad_norm': '2.486', 'learning_rate': '7.368e-06', 'epoch': '0.9297'}
+{"phase": "dose_training_step", "step": 358, "consumed_slots": 5728, "seconds": 7454.612303117989}
+{'loss': '0.07788', 'grad_norm': '3.237', 'learning_rate': '7.105e-06', 'epoch': '0.9323'}
+{"phase": "dose_training_step", "step": 359, "consumed_slots": 5744, "seconds": 7475.079187304014}
+{'loss': '0.114', 'grad_norm': '3.369', 'learning_rate': '6.842e-06', 'epoch': '0.9349'}
+{"phase": "dose_training_step", "step": 360, "consumed_slots": 5760, "seconds": 7495.742392398999}
+{'loss': '0.05246', 'grad_norm': '2.186', 'learning_rate': '6.579e-06', 'epoch': '0.9375'}
+{"phase": "dose_training_step", "step": 361, "consumed_slots": 5776, "seconds": 7518.11936307}
+{'loss': '0.1686', 'grad_norm': '5.586', 'learning_rate': '6.316e-06', 'epoch': '0.9401'}
+{"phase": "dose_training_step", "step": 362, "consumed_slots": 5792, "seconds": 7539.28849768301}
+{'loss': '0.1155', 'grad_norm': '8.31', 'learning_rate': '6.053e-06', 'epoch': '0.9427'}
+{"phase": "dose_training_step", "step": 363, "consumed_slots": 5808, "seconds": 7559.7267827610485}
+{'loss': '0.2064', 'grad_norm': '5.153', 'learning_rate': '5.789e-06', 'epoch': '0.9453'}
+{"phase": "dose_training_step", "step": 364, "consumed_slots": 5824, "seconds": 7580.360910483054}
+{'loss': '0.05918', 'grad_norm': '3.79', 'learning_rate': '5.526e-06', 'epoch': '0.9479'}
+{"phase": "dose_training_step", "step": 365, "consumed_slots": 5840, "seconds": 7603.4286828710465}
+{'loss': '0.101', 'grad_norm': '5.906', 'learning_rate': '5.263e-06', 'epoch': '0.9505'}
+{"phase": "dose_training_step", "step": 366, "consumed_slots": 5856, "seconds": 7625.344608585001}
+{'loss': '0.2512', 'grad_norm': '5.415', 'learning_rate': '5e-06', 'epoch': '0.9531'}
+{"phase": "dose_training_step", "step": 367, "consumed_slots": 5872, "seconds": 7646.413638339029}
+{'loss': '0.05338', 'grad_norm': '1.575', 'learning_rate': '4.737e-06', 'epoch': '0.9557'}
+{"phase": "dose_training_step", "step": 368, "consumed_slots": 5888, "seconds": 7668.333048913977}
+{'loss': '0.04829', 'grad_norm': '2.412', 'learning_rate': '4.474e-06', 'epoch': '0.9583'}
+{"phase": "dose_training_step", "step": 369, "consumed_slots": 5904, "seconds": 7689.1514895389555}
+{'loss': '0.0698', 'grad_norm': '1.887', 'learning_rate': '4.211e-06', 'epoch': '0.9609'}
+{"phase": "dose_training_step", "step": 370, "consumed_slots": 5920, "seconds": 7710.152080905042}
+{'loss': '0.08666', 'grad_norm': '4.547', 'learning_rate': '3.947e-06', 'epoch': '0.9635'}
+{"phase": "dose_training_step", "step": 371, "consumed_slots": 5936, "seconds": 7733.609868851956}
+{'loss': '0.1753', 'grad_norm': '2.059', 'learning_rate': '3.684e-06', 'epoch': '0.9661'}
+{"phase": "dose_training_step", "step": 372, "consumed_slots": 5952, "seconds": 7754.364807220991}
+{'loss': '0.0687', 'grad_norm': '1.751', 'learning_rate': '3.421e-06', 'epoch': '0.9688'}
+{"phase": "dose_training_step", "step": 373, "consumed_slots": 5968, "seconds": 7776.635677824961}
+{'loss': '0.1691', 'grad_norm': '5.798', 'learning_rate': '3.158e-06', 'epoch': '0.9714'}
+{"phase": "dose_training_step", "step": 374, "consumed_slots": 5984, "seconds": 7797.759643048979}
+{'loss': '0.04615', 'grad_norm': '2.593', 'learning_rate': '2.895e-06', 'epoch': '0.974'}
+{"phase": "dose_training_step", "step": 375, "consumed_slots": 6000, "seconds": 7818.227261292981}
+{'loss': '0.07506', 'grad_norm': '2.224', 'learning_rate': '2.632e-06', 'epoch': '0.9766'}
+{"phase": "dose_training_step", "step": 376, "consumed_slots": 6016, "seconds": 7838.861135722953}
+{'loss': '0.06484', 'grad_norm': '2.621', 'learning_rate': '2.368e-06', 'epoch': '0.9792'}
+{"phase": "dose_training_step", "step": 377, "consumed_slots": 6032, "seconds": 7859.365650939057}
+{'loss': '0.07132', 'grad_norm': '2.212', 'learning_rate': '2.105e-06', 'epoch': '0.9818'}
+{"phase": "dose_training_step", "step": 378, "consumed_slots": 6048, "seconds": 7879.945396617055}
+{'loss': '0.0679', 'grad_norm': '10.46', 'learning_rate': '1.842e-06', 'epoch': '0.9844'}
+{"phase": "dose_training_step", "step": 379, "consumed_slots": 6064, "seconds": 7900.400220799027}
+{'loss': '0.1074', 'grad_norm': '1.206', 'learning_rate': '1.579e-06', 'epoch': '0.987'}
+{"phase": "dose_training_step", "step": 380, "consumed_slots": 6080, "seconds": 7920.85717146995}
+{'loss': '0.2164', 'grad_norm': '2.691', 'learning_rate': '1.316e-06', 'epoch': '0.9896'}
+{"phase": "dose_training_step", "step": 381, "consumed_slots": 6096, "seconds": 7941.117793579004}
+{'loss': '0.03555', 'grad_norm': '2.369', 'learning_rate': '1.053e-06', 'epoch': '0.9922'}
+{"phase": "dose_training_step", "step": 382, "consumed_slots": 6112, "seconds": 7962.287075045053}
+{'loss': '0.1849', 'grad_norm': '2.517', 'learning_rate': '7.895e-07', 'epoch': '0.9948'}
+{"phase": "dose_training_step", "step": 383, "consumed_slots": 6128, "seconds": 7982.658231836045}
+{'loss': '0.0898', 'grad_norm': '3.535', 'learning_rate': '5.263e-07', 'epoch': '0.9974'}
+{"phase": "dose_training_step", "step": 384, "consumed_slots": 6144, "seconds": 8003.701140032965}
+{'loss': '0.07716', 'grad_norm': '3.749', 'learning_rate': '2.632e-07', 'epoch': '1'}
+{'train_runtime': '8006', 'train_samples_per_second': '0.767', 'train_steps_per_second': '0.048', 'train_loss': '0.4232', 'epoch': '1'}
+{"phase": "dose_case_recorded", "case_id": "LD-001", "arm": "dose96", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-002", "arm": "dose96", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-003", "arm": "dose96", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-004", "arm": "dose96", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-005", "arm": "dose96", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-006", "arm": "dose96", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-001", "arm": "dose192", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-002", "arm": "dose192", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-003", "arm": "dose192", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-004", "arm": "dose192", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-005", "arm": "dose192", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-006", "arm": "dose192", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-001", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-002", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-003", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-004", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-005", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-006", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-007", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-008", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-009", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-010", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-011", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-012", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-013", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-014", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-015", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-016", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-017", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-018", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-019", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-020", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-021", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-022", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-023", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-024", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-025", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-026", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-027", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "LD-028", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-001", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-007", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-013", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-019", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-002", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-008", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-014", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-020", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-003", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-009", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-015", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-021", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-004", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-010", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-016", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-022", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-005", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-011", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-017", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-023", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-006", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-012", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-018", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "QUALITYDEV1-024", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-001", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-002", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-003", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-004", "arm": "dose384", "status": "success"}
+{"phase": "dose_case_recorded", "case_id": "CONF-005", "arm": "dose384", "status": "success"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.417059+00:00", "path": "base-provenance.json", "bytes": 2322, "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.445996+00:00", "path": "bundle-manifest.json", "bytes": 1825, "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.473701+00:00", "path": "data-manifest.json", "bytes": 62848, "sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.503134+00:00", "path": "dose/evaluation/predictions.jsonl", "bytes": 90433, "sha256": "711d913146cc62067f71c526d20d993f807ca04869d0ebfcdf094c4a3a7a84c4"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.503914+00:00", "path": "dose/evaluation/run.json", "bytes": 3533, "sha256": "7dea81cbe78597abf41cebab6f53cf5d37e7259cc4d08c8e688914ee67046ed0"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.504686+00:00", "path": "dose/evaluation-baseline/predictions.jsonl", "bytes": 44382, "sha256": "4dd5b8960bd9bae47d14ed202b39084add28f88abe038dfb143949e6a5272012"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.505158+00:00", "path": "dose/evaluation-baseline/run.json", "bytes": 1794, "sha256": "489a19051816771f1e35100167ab1ed7a97ed5938e89b226b2f925d68d70b089"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.505694+00:00", "path": "dose/run.json", "bytes": 29465, "sha256": "c3a93f105d19f39888e6507dd5e22834105a8288a3e979b864b3ebe44bc5fe36"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.506483+00:00", "path": "dose/training/adapter-step192/README.md", "bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:47.506988+00:00", "path": "dose/training/adapter-step192/adapter_config.json", "bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:49.142157+00:00", "path": "dose/training/adapter-step192/adapter_model.safetensors", "bytes": 489840816, "sha256": "d5ab6baa7db656537c18c461bde2acb6ff84bacdcb76ea9fb046b5fc627410e9"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:49.143447+00:00", "path": "dose/training/adapter-step384/README.md", "bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:49.144178+00:00", "path": "dose/training/adapter-step384/adapter_config.json", "bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:50.734511+00:00", "path": "dose/training/adapter-step384/adapter_model.safetensors", "bytes": 489840816, "sha256": "8bdf6d7e77cf86adac7c9535531d16accd8dc05aeeb9f0ff69ac9f8ebde176a4"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:50.735597+00:00", "path": "dose/training/adapter-step96/README.md", "bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:50.736203+00:00", "path": "dose/training/adapter-step96/adapter_config.json", "bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:52.295757+00:00", "path": "dose/training/adapter-step96/adapter_model.safetensors", "bytes": 489840816, "sha256": "9ce60bb921ba2be91796570f5a616b5f2317a30768cc7ed23a8a29cab777b884"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:52.297163+00:00", "path": "dose/training/admission-adapter-step20/README.md", "bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:52.298083+00:00", "path": "dose/training/admission-adapter-step20/adapter_config.json", "bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:53.855979+00:00", "path": "dose/training/admission-adapter-step20/adapter_model.safetensors", "bytes": 489840816, "sha256": "36bfeb8f5a2a37aa1bf47cb791c93463ae7a33a98388ba3ada24fe8410e49a1a"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:53.857314+00:00", "path": "dose/training/progress.jsonl", "bytes": 37936, "sha256": "1fe5d3bb5e8f3f54cdba0eb08d1a5619c313d39496d03016e97874b31e7aa550"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:53.859448+00:00", "path": "dose/training/run.json", "bytes": 454908, "sha256": "73013069580d48fe6a3b80291b7935c28889a7007aca594b05413d38ed8df71f"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:53.886032+00:00", "path": "dose-status.json", "bytes": 22587, "sha256": "78badc2ff435485a7ff17d6d39810160d4786a0e9aa8dfb43fa2f42983be8073"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:53.915803+00:00", "path": "driver.log", "bytes": 86166, "sha256": "0fd963f5c816b405864634a22ae9da6c2ec40837e182c4d190826bce5b1ccbc7"}
+{"stage": "artifact_closed", "utc": "2026-09-30T21:21:53.943100+00:00", "path": "trained-manifest.json", "bytes": 5949, "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"}
+{"stage": "ready_to_persist", "utc": "2026-09-30T21:21:53.970890+00:00", "manifest": {"schema_version": 1, "adapter_files": {"training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4", "training/adapter/adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf", "training/provenance.json": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69", "training/status.json": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"}, "baseline_allocation_seconds": 2400, "bootstrap_hashes": {"requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7", "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"}, "bundle_name": "cloud-pilot-qualified-20260927.zip", "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9", "canary_seconds": 60, "compute_seconds": 20400, "data_manifest_name": "mixed-data-manifest-157531204582.json", "data_manifest_sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54", "evaluation_schedule": ["QUALITYDEV1-001:reference", "QUALITYDEV1-007:reference", "QUALITYDEV1-013:reference", "QUALITYDEV1-019:reference", "QUALITYDEV1-002:reference", "QUALITYDEV1-008:reference", "QUALITYDEV1-014:reference", "QUALITYDEV1-020:reference", "QUALITYDEV1-003:reference", "QUALITYDEV1-009:reference", "QUALITYDEV1-015:reference", "QUALITYDEV1-021:reference", "QUALITYDEV1-004:reference", "QUALITYDEV1-010:reference", "QUALITYDEV1-016:reference", "QUALITYDEV1-022:reference", "QUALITYDEV1-005:reference", "QUALITYDEV1-011:reference", "QUALITYDEV1-017:reference", "QUALITYDEV1-023:reference", "QUALITYDEV1-006:reference", "QUALITYDEV1-012:reference", "QUALITYDEV1-018:reference", "QUALITYDEV1-024:reference", "CONF-001:reference", "CONF-002:reference", "CONF-003:reference", "CONF-004:reference", "CONF-005:reference", "LD-001:dose96", "LD-002:dose96", "LD-003:dose96", "LD-004:dose96", "LD-005:dose96", "LD-006:dose96", "LD-001:dose192", "LD-002:dose192", "LD-003:dose192", "LD-004:dose192", "LD-005:dose192", "LD-006:dose192", "LD-001:dose384", "LD-002:dose384", "LD-003:dose384", "LD-004:dose384", "LD-005:dose384", "LD-006:dose384", "LD-007:dose384", "LD-008:dose384", "LD-009:dose384", "LD-010:dose384", "LD-011:dose384", "LD-012:dose384", "LD-013:dose384", "LD-014:dose384", "LD-015:dose384", "LD-016:dose384", "LD-017:dose384", "LD-018:dose384", "LD-019:dose384", "LD-020:dose384", "LD-021:dose384", "LD-022:dose384", "LD-023:dose384", "LD-024:dose384", "LD-025:dose384", "LD-026:dose384", "LD-027:dose384", "LD-028:dose384", "QUALITYDEV1-001:dose384", "QUALITYDEV1-007:dose384", "QUALITYDEV1-013:dose384", "QUALITYDEV1-019:dose384", "QUALITYDEV1-002:dose384", "QUALITYDEV1-008:dose384", "QUALITYDEV1-014:dose384", "QUALITYDEV1-020:dose384", "QUALITYDEV1-003:dose384", "QUALITYDEV1-009:dose384", "QUALITYDEV1-015:dose384", "QUALITYDEV1-021:dose384", "QUALITYDEV1-004:dose384", "QUALITYDEV1-010:dose384", "QUALITYDEV1-016:dose384", "QUALITYDEV1-022:dose384", "QUALITYDEV1-005:dose384", "QUALITYDEV1-011:dose384", "QUALITYDEV1-017:dose384", "QUALITYDEV1-023:dose384", "QUALITYDEV1-006:dose384", "QUALITYDEV1-012:dose384", "QUALITYDEV1-018:dose384", "QUALITYDEV1-024:dose384", "CONF-001:dose384", "CONF-002:dose384", "CONF-003:dose384", "CONF-004:dose384", "CONF-005:dose384"], "expected_outputs": 98, "experiment_id": "dose-acquisition-20260930", "export_reserve_seconds": 600, "finalization_seconds": 60, "generation_by_module": {"conditioned_grammar_recall": {"max_generation_seconds": 90, "max_new_tokens": 512, "seed": 42}, "confirmation": {"max_generation_seconds": 90, "max_new_tokens": 512, "seed": 42}, "fixed_merit": {"max_generation_seconds": 1200, "max_new_tokens": 4096, "seed": 42}, "historical_context_retention": {"max_generation_seconds": 90, "max_new_tokens": 512, "seed": 42}, "inscription_task_recall": {"max_generation_seconds": 90, "max_new_tokens": 512, "seed": 42}, "lexical_task_recall": {"max_generation_seconds": 90, "max_new_tokens": 512, "seed": 42}, "targeted_sense_applicability": {"max_generation_seconds": 90, "max_new_tokens": 512, "seed": 42}}, "inputs_name": "dose-inputs-4141cbc51c34.jsonl", "inputs_sha256": "4141cbc51c34ce7c49fea0d929a9cbc7361284ba8ccc0c920513261a03ecbe78", "internal_seconds": 21000, "max_export_bytes": 3221225472, "maximum_wait_seconds": 300, "native_timeout_minutes": 360, "prompt_identities": [{"case_id": "LD-001", "input_tokens": 187, "messages_sha256": "8810e85f738a534b0085447f6f6f651d6f9cdd96dfe2311052aa89d5971495dc", "rendered_input_ids_sha256": "1f24115fd562ba4e44b80ce6f1a596ec64e3e3edf9b00adc2e6e3279f68d4761"}, {"case_id": "LD-002", "input_tokens": 184, "messages_sha256": "5b8b05bb182d2c6c59a8daa884d96eddcffc7cb9202e9c78ec24065e582f3798", "rendered_input_ids_sha256": "390e12b7ed3ff9da41167ae54bb7409ddaad3931d36482f54c451c5e1d3bec32"}, {"case_id": "LD-003", "input_tokens": 181, "messages_sha256": "5c6ff617e3c08b13a03bbe1f3eb083ebb7d3956e6f4ef986edbcbdc66f089f36", "rendered_input_ids_sha256": "0a5b3e47159d32104027594bd56d20837ef40380cca0ba50f6e99f96fda60643"}, {"case_id": "LD-004", "input_tokens": 183, "messages_sha256": "5f007cb24f7d8008e03b484028cef47fc3c9f53eb47c52fbe469dd3062af4fa6", "rendered_input_ids_sha256": "554dafaa0099e21f7e2e3aa145e32090baa353f4007ba9593ad03776e97bf18f"}, {"case_id": "LD-005", "input_tokens": 188, "messages_sha256": "e8c02f38fceba2efc01b449715b63d38ec1661bd25d3d29f8559988fba1bbb86", "rendered_input_ids_sha256": "76bbda44c16891ecaba0c197d978dafe89d240a013b19d86299c91bfab24f066"}, {"case_id": "LD-006", "input_tokens": 204, "messages_sha256": "5b74844e0475c977ae19ab515cc45182c634efe744a67d329282c82fd5aee2a3", "rendered_input_ids_sha256": "69f09e4e54028522692aab7af355e774a5e081c5632a436c8d14e71d6cdefeb9"}, {"case_id": "LD-007", "input_tokens": 127, "messages_sha256": "9985d4c8941a6e2005cfdd6b5cdcaa1c8929aef1607c43ee2066e56b0004761c", "rendered_input_ids_sha256": "3fdc32ddfb3e1826674c1cbda266f7e272a4defffae15884ba0fba4600710219"}, {"case_id": "LD-008", "input_tokens": 126, "messages_sha256": "bd048f33d5b11e2af9b6dd9a7318967d244f28ec95e7ec2ed1216af965a27e77", "rendered_input_ids_sha256": "b4ed154a204fb65599894dead92fd4acb54136e64c6294475dc04e05a8ef1bcc"}, {"case_id": "LD-009", "input_tokens": 118, "messages_sha256": "97ef34d23dc247f9991850b8318fb1cde8e94027cb74911e990f2505c2c5da3d", "rendered_input_ids_sha256": "809347f04323deb29e1ff8445a28f653793d0a56715555242eecc431563f61b1"}, {"case_id": "LD-010", "input_tokens": 112, "messages_sha256": "914f81c46f938f866fc1b9bd424efafbf95edb5dc42a9b2bf8848c15297b2971", "rendered_input_ids_sha256": "ca03693e609f4c9ce002390b95aee10086ddf3450750f8c8f1c041feec29a6e6"}, {"case_id": "LD-011", "input_tokens": 163, "messages_sha256": "ef1926702f2d65b74db589c5da9c6386ffcbfdf6325c76d923897cf3da4619b3", "rendered_input_ids_sha256": "64d7269667c841b9a9fde548a15e9315cd3e7597485ce5e19f2e419e3ff0aba1"}, {"case_id": "LD-012", "input_tokens": 193, "messages_sha256": "19aefa95f2d5f01fc3078b81261ea216001877cca387b442db0eabbf9edacfea", "rendered_input_ids_sha256": "f264ca4635cebf9fb65f13360db345c2b0ca269cb708721b0f493e9f3e948f78"}, {"case_id": "LD-013", "input_tokens": 68, "messages_sha256": "bb0547423b91014062cfac0b0db198fa571c12e6457965e906544d6fe276e914", "rendered_input_ids_sha256": "de3aad5c1a408c7975d779d850f6fef52533202420a01e75cc29ab70aade34b3"}, {"case_id": "LD-014", "input_tokens": 68, "messages_sha256": "ac2da6927efbbaf29dd6b777bcc8f0f3fef64038aa690af4e83655c993a1c2b2", "rendered_input_ids_sha256": "4302d9700fe86a3a12d70a1417b606431114c3f60e76f42cf53d369377551798"}, {"case_id": "LD-015", "input_tokens": 80, "messages_sha256": "80ea72c40ec97fae0a456d6139d4c0d84ec6baa585f9ba90d001bf06e6a388d4", "rendered_input_ids_sha256": "dbaabfec6b299492e77171c8ad4d6a43ad8a1d85a0b2d06f78707457b761f119"}, {"case_id": "LD-016", "input_tokens": 116, "messages_sha256": "66052720c58296cfc77be881d0a75e82ad26b53883c746fa95fe6c8cd654afdd", "rendered_input_ids_sha256": "343b5373e3edf53df9306456a280ed8262cf2dffa79b999689176081bb225b85"}, {"case_id": "LD-017", "input_tokens": 142, "messages_sha256": "cebcf77786d270accaff24e9a7ee2cfd2f448b2723d60f67a98ba239b466bf76", "rendered_input_ids_sha256": "90bd1e50ef3b90290f6ebc813ed20c1b9350faa40478b6b6c6ec5e4d4cb308a4"}, {"case_id": "LD-018", "input_tokens": 64, "messages_sha256": "db36317dc074897c8b79e93aa1476d8aeba0858846ce5e43d20a5fff90c9a6d7", "rendered_input_ids_sha256": "0063e8ba33c236db1a3091889d16013e0222437325bb5d9bb5005d5e1f9dbe0b"}, {"case_id": "LD-019", "input_tokens": 81, "messages_sha256": "f47c861cbbbe5374df62c0188c096cf6dd9f56138fb21d5f3dfebfbf21a2c3f0", "rendered_input_ids_sha256": "6d5373aef4921d80221879d8d367c1865002d423ba5959cd08dc69212a9de511"}, {"case_id": "LD-020", "input_tokens": 73, "messages_sha256": "d62730aa5cd92c62938d233c5fa7c5c280db09bde1bcfc188cb2e14b50a966e4", "rendered_input_ids_sha256": "8f5ccf8f3443703d38b50e671f6b09e4107edb87dd49d1b834900f009eb9d167"}, {"case_id": "LD-021", "input_tokens": 123, "messages_sha256": "6a06154d0a8e23aa9f149e20641999dd2d0c176e6775dbdbb5998446a096917c", "rendered_input_ids_sha256": "06a961258f860cc18b4841da89e0198bc2a80bffa2d03ec34ae8a44333588ae6"}, {"case_id": "LD-022", "input_tokens": 205, "messages_sha256": "946233d0aa304400bd83c7c41bb348142ff5ad0edc22225326d3b4c23095bf8b", "rendered_input_ids_sha256": "4934568aaa915baedeb3cc8ade89e4d82722fdf43903e801cb0ea59da0b01a30"}, {"case_id": "LD-023", "input_tokens": 222, "messages_sha256": "18c0c4fbd29452c934ac459a541b6568b02a820ade82cf16b73079b6e2846f63", "rendered_input_ids_sha256": "cf86c17fac5912118dbd6ebc617c56ff439e5f679126351eb3afbad490ebbb16"}, {"case_id": "LD-024", "input_tokens": 89, "messages_sha256": "0196297f38597ac595b62d805a4d8a1dbebba8a29dfcc9f8605b5180f6e81043", "rendered_input_ids_sha256": "2255342bf514d010977e1648a98e890294e1ce0bbf1d91990feb11d85689daf3"}, {"case_id": "LD-025", "input_tokens": 97, "messages_sha256": "73dcb78bf9c4cf055b4f519bcf7f287a6189e1cab7232975bb2bc4c315204238", "rendered_input_ids_sha256": "b6edf21e1fcc8859fe24268b36c2ee984af556b2eed555c64c601fd24821d0a5"}, {"case_id": "LD-026", "input_tokens": 122, "messages_sha256": "c8eddf33d4a74a3f3ee03bbe8ea9917a7d02d57c5bfa5b4c787752df535a5c53", "rendered_input_ids_sha256": "4f52b8678e8799e9446ad787bd0b004d687cd8fef4d35bd9fbb8623eb0f420dd"}, {"case_id": "LD-027", "input_tokens": 178, "messages_sha256": "ea3fb968e8d13b749b97072c98917d0c4a484eb2bdf04a566a7e4b6e8e854309", "rendered_input_ids_sha256": "836bb475ee869ab29794f282492c86f381c414f6fdf708dca8e5b853a11b6cd0"}, {"case_id": "LD-028", "input_tokens": 140, "messages_sha256": "b4a28b3f89bc91e827ff8d0746a17f4d13457aac090f43b660b43c96b4d68e11", "rendered_input_ids_sha256": "3a57b90af0fc575340baccaec7bd67f95ae069467e7e995fc231266d9d45882f"}, {"case_id": "QUALITYDEV1-001", "input_tokens": 182, "messages_sha256": "c23c70d4953ec97c51855425c31599ca3ce62ca5169e528a53812cae2748d7b2", "rendered_input_ids_sha256": "2727e3513cf5392c9de4ae92101c39b982afca5987d305ee996b840028803fe4"}, {"case_id": "QUALITYDEV1-007", "input_tokens": 192, "messages_sha256": "af80df6081a61a025972237a003b878e0c8cc9743f98042ee2cc172dfa323e90", "rendered_input_ids_sha256": "15d5a762f8aa7f0c08515b0be5ca9104b187a8046ee95d50a9d9c26b51b4ab92"}, {"case_id": "QUALITYDEV1-013", "input_tokens": 204, "messages_sha256": "d17ab2c83e01966753079f1baee1c47276ee945312f26e06bdca5a3378218f19", "rendered_input_ids_sha256": "8e1c1f8942571371fe5225e929321287fbee856beea0efc16fb2420367ccdc57"}, {"case_id": "QUALITYDEV1-019", "input_tokens": 228, "messages_sha256": "e3b1a240c1fcc923c7488b5acd3cddde3e3b9f361e8375b0b8e4d219989e4db8", "rendered_input_ids_sha256": "2815c480b2ce22990aa5be52afdc99a493518b79f2b2b98b72cb3a5d2b779572"}, {"case_id": "QUALITYDEV1-002", "input_tokens": 185, "messages_sha256": "69671c815462ec4b5dc33d8706243b8601917ed41db7592d1f2a079921de8388", "rendered_input_ids_sha256": "04d59898680a5390ff5074dc78b41215780c4863a7386a9d6f5b09a23667d028"}, {"case_id": "QUALITYDEV1-008", "input_tokens": 217, "messages_sha256": "37f83e2a779dbd6c0a2fa2ebd41be710bf37063e3351ee55056440c3e37acf11", "rendered_input_ids_sha256": "0b8e6020a7c4fc6f722dd6e07b18a4a0d1f4b27631dbf4dc69e086d8cc839d88"}, {"case_id": "QUALITYDEV1-014", "input_tokens": 227, "messages_sha256": "87abcc6a2b23d1084beed2dd206fdf3a34f4eda4b6ecd4a1db7fc16ab5934064", "rendered_input_ids_sha256": "3b5dc8535532d60b72885cba6eae71d6e2ca2a201d2e84370813f0cb3e0eaedf"}, {"case_id": "QUALITYDEV1-020", "input_tokens": 257, "messages_sha256": "0a825255c103c45bf6a84f80973a2aa1d16bb5ba3d36ccc0c68c0f1ccfe2572f", "rendered_input_ids_sha256": "157e4cd8809392a6c062d81366574fb80a5d39a31fbece181c53a993d4415903"}, {"case_id": "QUALITYDEV1-003", "input_tokens": 190, "messages_sha256": "f157e0db3a2dad3b79c8afa86c5bad3280df245983c609beedd744c7b79dacd6", "rendered_input_ids_sha256": "d096289270f6902729266996e5597f42aa64ff6c087f0a7303527565d8b0f402"}, {"case_id": "QUALITYDEV1-009", "input_tokens": 222, "messages_sha256": "5e0f833ec4978d3f4d316d13aa2a416afdbb1531ff93e6960d22025a3858e0e3", "rendered_input_ids_sha256": "ca92d96668f973dca591acc99d00b9ee2bc668cc5e7eca7b9a34d4cc15ad5a52"}, {"case_id": "QUALITYDEV1-015", "input_tokens": 249, "messages_sha256": "06e3fa6109b3850df39bca71d1f8c847054ad3bb75735cc857ae6fefbf3dd3aa", "rendered_input_ids_sha256": "0f42b3c0b22e447378e9785f276dbb83829ebe4b92a79c4f49a00a63803a5a83"}, {"case_id": "QUALITYDEV1-021", "input_tokens": 291, "messages_sha256": "088d174f305d25de02a4bfe2414eecc97837516e3fc5ec59cfc478755e152d2f", "rendered_input_ids_sha256": "f04c9e5dc2f735a6f7d75f859879ad1074d0acbbc888bcfdcb6417e7a58341f4"}, {"case_id": "QUALITYDEV1-004", "input_tokens": 189, "messages_sha256": "8d882437e7b5d636c94f6cf644b7e7b1e0d1c01faa02fe4010065e20feeb7f81", "rendered_input_ids_sha256": "375de30cb2bc9549346bc2d4c3cbab98ca03fcb5c509fb000847f9d0da6e6563"}, {"case_id": "QUALITYDEV1-010", "input_tokens": 247, "messages_sha256": "7ba521f84957e84927d2cf50eeb185302466c2c3604da9c209a1d67c05ee028c", "rendered_input_ids_sha256": "0a8482e3a4fe8066ed8c18677da91a29fb4a04544110cc7a41d30ac4822e2cdf"}, {"case_id": "QUALITYDEV1-016", "input_tokens": 256, "messages_sha256": "8e101d6e5881a70f621f6b47689d03197ef0a9b432ffddd45422984167b03fd7", "rendered_input_ids_sha256": "d095e448fc3c891172d2d2a9319c84229eb82fb4abce196b5d421e648f5f4555"}, {"case_id": "QUALITYDEV1-022", "input_tokens": 345, "messages_sha256": "af6802467e8f02e6b4523f8aa34519b766b5a65b998b48bd5baa8d3a00808d98", "rendered_input_ids_sha256": "46d521c5056d9bf7a4be8a17d0f17a1cb714f6f68bfe910540326841e3219c2d"}, {"case_id": "QUALITYDEV1-005", "input_tokens": 198, "messages_sha256": "0ffc9eaeac1479af5e6ad93314a4960b99deb4ed2320d22b0020c71d0c171b2f", "rendered_input_ids_sha256": "ae11f5ba28c2f90932185af64371d138d7ce0b60512df12f0d46aea186a1deaa"}, {"case_id": "QUALITYDEV1-011", "input_tokens": 297, "messages_sha256": "e14aa20e6208349c99f092f9901b0f32cd82e9c719d2003a5c329b7aad5c59da", "rendered_input_ids_sha256": "7f577d46557305de4c10e4b9c082230add8a9f6557a1040c5a8483bb8c6975c0"}, {"case_id": "QUALITYDEV1-017", "input_tokens": 275, "messages_sha256": "01cd4331f6e2d0ebb08947a05a5eff54343a1c7d819cc02a648ba0471b5da975", "rendered_input_ids_sha256": "26d97730773bf5656e19ddcb1ec7e8eae6b22137e3f0ab6fc27937a93f4f95f0"}, {"case_id": "QUALITYDEV1-023", "input_tokens": 400, "messages_sha256": "9e239a91e90ac37fc9d89f704970e91e2f7ddc0abb1309eae806bb2ddf4c8ef5", "rendered_input_ids_sha256": "f7bac0e54791acc5184e2ebb9e4768333962574388907667e182f279e1136143"}, {"case_id": "QUALITYDEV1-006", "input_tokens": 277, "messages_sha256": "af25b839937502f0f88d78a50352590847966294323b86dcf57584e906930b10", "rendered_input_ids_sha256": "0edb2c1719349b64409a05dce836cec96dc9e302bbc7928dc56b27a81cf4a337"}, {"case_id": "QUALITYDEV1-012", "input_tokens": 359, "messages_sha256": "d52bbbe700ff16ea500c067526f5ea17a77f3e246807a74dc2ad8dbfdfe1bcb8", "rendered_input_ids_sha256": "3721e1c69420ac896e222411a119da30a33a2a10d909bff0afb55e8d306d8d0d"}, {"case_id": "QUALITYDEV1-018", "input_tokens": 288, "messages_sha256": "a6318f9aab98b75fef35929d9b33f0408e0bd6205470cb3e045dd40dbc1ea917", "rendered_input_ids_sha256": "5db5b015088e0f3a48dd091d388ce155ba085e2680d0284cd2d1ba91181a9f3a"}, {"case_id": "QUALITYDEV1-024", "input_tokens": 456, "messages_sha256": "7a
+f502dd5702864c628f7a2a80d639f148ed6905a7a95c1a4345d192be12d854", "rendered_input_ids_sha256": "78f82faed8ce2c6439d69f8261c5654d5f7215e7e00961949539483214f79254"}, {"case_id": "CONF-001", "input_tokens": 179, "messages_sha256": "c2ab7e6430b00bcd6c07e681f4db239dc756580bce47069b1c7d13464994eae6", "rendered_input_ids_sha256": "9885559ce8f5885b1bb7ef1f90412990565a8237b99ae74b99cd418e08adc064"}, {"case_id": "CONF-002", "input_tokens": 182, "messages_sha256": "4e245caec78fbb13b9cbb417cc2dc7456386ae2d1afc7398bf9f345932c03f15", "rendered_input_ids_sha256": "4a2e6cb7bff4461bce2d5e73ee11d458d949891d7bd028971c3480fa070b936e"}, {"case_id": "CONF-003", "input_tokens": 184, "messages_sha256": "4900023fb55286b84d2a1c66ab11a12c88b2c073679384e288022f6aac7938e2", "rendered_input_ids_sha256": "0342839408cf84e7a85cc6fb46d7df1d07b5e1e166fd411570fad324d386fd2d"}, {"case_id": "CONF-004", "input_tokens": 191, "messages_sha256": "e8fb3820fbc067f55126fd179c3c70766e97374c477f4ff35aad686a927a77cd", "rendered_input_ids_sha256": "d67d3ed7a69282642305e56058ea51d6d6fe600ca33d2b0d15900af567abb9e7"}, {"case_id": "CONF-005", "input_tokens": 150, "messages_sha256": "e09eedaf07a1bc939c66da07dd3f1bff155a2deff190fef07f5405b4dff9e417", "rendered_input_ids_sha256": "20c65e61eaf4f1c933b1c51d9eec09bf85eaa5976579428e6222738f2efa428e"}], "reference_adapter_files": {"adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4", "adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf"}, "reload_seconds": 300, "remaining_evaluation_seconds": 6600, "run_id": "8385384aa7eb46e3955af8cfe8706447", "script_hashes": {"bf16_learning_eval.py": "8f9ae586b562004eaa21ac26e22f190d4c82e187377c88307fbf2035ea12db12", "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f", "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122", "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d", "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11", "dose_run.py": "2e67952ed6f1649fe92e6b6a760053b19c30a6c440d7cebc23d24bad3e0288df", "dose_train.py": "fa095d87e3f3a907d59dcb019eb348a25ce4c7d8f9d834d5bfd9f8c75f6a6fdd", "learning_eval.py": "8f9ae586b562004eaa21ac26e22f190d4c82e187377c88307fbf2035ea12db12", "mixed_run.py": "cb082ccb47780867cc2889ee1613935a344b9fe911163b3e96402f44c21cffb8", "mixed_train.py": "b81dd8dcd873f5e6134780def3541b7e1c9ce5e813041e5da224b78ac161adf4", "nf4_learning_eval.py": "f998b83ac37e80430a037e4b107ef580291c775ebdadd1e75e278311a2be150b", "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"}, "train_name": "mixed-train-22266b73d3a0.jsonl", "train_sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59", "trained_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6", "trained_prefix": "continuations/1ae0f16dae9c4dffa36d15a24345fded", "training_settings": {"adam_beta1": 0.9, "adam_beta2": 0.999, "adam_epsilon": 1e-08, "bf16": true, "gradient_accumulation_steps": 16, "gradient_checkpointing": true, "learning_rate": 0.0001, "lr_scheduler_type": "linear", "max_grad_norm": 1.0, "max_steps": 384, "optim": "adamw_torch", "seed": 3407, "warmup_steps": 4, "weight_decay": 0.0}, "operation": "dose_acquisition", "status": "completed", "training_schedule_completed": true, "evaluation_complete": true, "quality_validated": false, "resumable_optimizer_checkpoint": false, "files": {"base-provenance.json": {"bytes": 2322, "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"}, "bundle-manifest.json": {"bytes": 1825, "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"}, "data-manifest.json": {"bytes": 62848, "sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54"}, "dose/evaluation/predictions.jsonl": {"bytes": 90433, "sha256": "711d913146cc62067f71c526d20d993f807ca04869d0ebfcdf094c4a3a7a84c4"}, "dose/evaluation/run.json": {"bytes": 3533, "sha256": "7dea81cbe78597abf41cebab6f53cf5d37e7259cc4d08c8e688914ee67046ed0"}, "dose/evaluation-baseline/predictions.jsonl": {"bytes": 44382, "sha256": "4dd5b8960bd9bae47d14ed202b39084add28f88abe038dfb143949e6a5272012"}, "dose/evaluation-baseline/run.json": {"bytes": 1794, "sha256": "489a19051816771f1e35100167ab1ed7a97ed5938e89b226b2f925d68d70b089"}, "dose/run.json": {"bytes": 29465, "sha256": "c3a93f105d19f39888e6507dd5e22834105a8288a3e979b864b3ebe44bc5fe36"}, "dose/training/adapter-step192/README.md": {"bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}, "dose/training/adapter-step192/adapter_config.json": {"bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}, "dose/training/adapter-step192/adapter_model.safetensors": {"bytes": 489840816, "sha256": "d5ab6baa7db656537c18c461bde2acb6ff84bacdcb76ea9fb046b5fc627410e9"}, "dose/training/adapter-step384/README.md": {"bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}, "dose/training/adapter-step384/adapter_config.json": {"bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}, "dose/training/adapter-step384/adapter_model.safetensors": {"bytes": 489840816, "sha256": "8bdf6d7e77cf86adac7c9535531d16accd8dc05aeeb9f0ff69ac9f8ebde176a4"}, "dose/training/adapter-step96/README.md": {"bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}, "dose/training/adapter-step96/adapter_config.json": {"bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}, "dose/training/adapter-step96/adapter_model.safetensors": {"bytes": 489840816, "sha256": "9ce60bb921ba2be91796570f5a616b5f2317a30768cc7ed23a8a29cab777b884"}, "dose/training/admission-adapter-step20/README.md": {"bytes": 5216, "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"}, "dose/training/admission-adapter-step20/adapter_config.json": {"bytes": 1215, "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"}, "dose/training/admission-adapter-step20/adapter_model.safetensors": {"bytes": 489840816, "sha256": "36bfeb8f5a2a37aa1bf47cb791c93463ae7a33a98388ba3ada24fe8410e49a1a"}, "dose/training/progress.jsonl": {"bytes": 37936, "sha256": "1fe5d3bb5e8f3f54cdba0eb08d1a5619c313d39496d03016e97874b31e7aa550"}, "dose/training/run.json": {"bytes": 454908, "sha256": "73013069580d48fe6a3b80291b7935c28889a7007aca594b05413d38ed8df71f"}, "dose-status.json": {"bytes": 22587, "sha256": "78badc2ff435485a7ff17d6d39810160d4786a0e9aa8dfb43fa2f42983be8073"}, "driver.log": {"bytes": 86166, "sha256": "0fd963f5c816b405864634a22ae9da6c2ec40837e182c4d190826bce5b1ccbc7"}, "trained-manifest.json": {"bytes": 5949, "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"}}, "latest_optimizer_checkpoint": null, "automatic_full_resume_supported": false, "remote_inventory_verified": false, "cross_job_sha256_verified": false}, "manifest_file": "manifest.json", "manifest_bytes": 26736, "manifest_sha256": "f39f94514eb7b83d7daa39e2f80afd4e4485ded9123632fb69f4c821a8e8c664"}
+{"stage": "persistence_window_expired", "utc": "2026-09-30T21:26:53.971448+00:00", "remote_inventory_verified": false}

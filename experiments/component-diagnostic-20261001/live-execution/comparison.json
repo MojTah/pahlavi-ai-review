@@ -1,0 +1,98 @@
+[
+  {
+    "id": "KANHERI06-A",
+    "text": "آبنگشنسب فروخان",
+    "technical_status": "success",
+    "output_tokens": 8,
+    "elapsed_seconds": 1.4638828170136549,
+    "primary_judgment": "OMITTED"
+  },
+  {
+    "id": "KANHERI06-B",
+    "text": "آبانگشنسب فروخان",
+    "technical_status": "success",
+    "output_tokens": 8,
+    "elapsed_seconds": 1.367357765964698,
+    "primary_judgment": "OMITTED"
+  },
+  {
+    "id": "KANHERI06-C",
+    "text": "آبانگشنسب پسر فرّوخان",
+    "technical_status": "success",
+    "output_tokens": 11,
+    "elapsed_seconds": 1.856887000030838,
+    "primary_judgment": "SUPPORTED"
+  },
+  {
+    "id": "BERK25-B",
+    "text": "۱۰ سبوی می به بهمن اورمزد داد و از بهمن اورمزد به مهرگان گویِ جاودانان پذیرفت و گرفت",
+    "technical_status": "success",
+    "output_tokens": 33,
+    "elapsed_seconds": 5.59313633601414,
+    "primary_judgment": "SUPPORTED"
+  },
+  {
+    "id": "BERK25-C",
+    "text": "۱۰ سبوی می به بهمن اورمزد داد و از بهمن اورمزد به گواهی مُهران جاودان پذیرفت و گرفت",
+    "technical_status": "success",
+    "output_tokens": 32,
+    "elapsed_seconds": 5.450896854978055,
+    "primary_judgment": "SUPPORTED"
+  },
+  {
+    "id": "BERK25-A",
+    "text": "۱۰ سبوی می به بهمن اورمزد داد و از بهمن اورمزد به گواهی مُهران جاودان پذیرفت و گرفت",
+    "technical_status": "success",
+    "output_tokens": 32,
+    "elapsed_seconds": 5.136397891037632,
+    "primary_judgment": "SUPPORTED"
+  },
+  {
+    "id": "TB3-C",
+    "text": "برای اعتماد، ماه مو (=؟) آرانان مهر بر نهاد",
+    "technical_status": "success",
+    "output_tokens": 16,
+    "elapsed_seconds": 2.9251795019954443,
+    "primary_judgment": "SUPPORTED"
+  },
+  {
+    "id": "TB3-A",
+    "text": "برای باوربخش بودن، ماهِ موی (=؟) آرانان مُهر بر آن نهاد",
+    "technical_status": "success",
+    "output_tokens": 23,
+    "elapsed_seconds": 3.701366013963707,
+    "primary_judgment": "SUPPORTED"
+  },
+  {
+    "id": "TB3-B",
+    "text": "برای باورپذیری، ماه مو (=؟) آرانان مهر بر آن نهاد",
+    "technical_status": "success",
+    "output_tokens": 20,
+    "elapsed_seconds": 3.4455151169677265,
+    "primary_judgment": "SUPPORTED"
+  },
+  {
+    "id": "ZAND301-C",
+    "text": "جای و ناحیۀ ایشان",
+    "technical_status": "success",
+    "output_tokens": 9,
+    "elapsed_seconds": 1.7408796430099756,
+    "primary_judgment": "CONTRADICTED"
+  },
+  {
+    "id": "ZAND301-B",
+    "text": "جای ایشان، ناحیه",
+    "technical_status": "success",
+    "output_tokens": 8,
+    "elapsed_seconds": 1.5192993190139532,
+    "primary_judgment": "CONTRADICTED"
+  },
+  {
+    "id": "ZAND301-A",
+    "text": "جای آنان روستا",
+    "technical_status": "success",
+    "output_tokens": 5,
+    "elapsed_seconds": 0.8754641290288419,
+    "primary_judgment": "CONTRADICTED"
+  }
+]

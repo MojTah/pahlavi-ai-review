@@ -1,0 +1,29 @@
+{
+  "acceptance_regressions": 0,
+  "accepted_per_assessor": {
+    "D": 1,
+    "P": 1,
+    "n": 3
+  },
+  "compute_estimate_usd": "0.44679871325",
+  "continuation_signal": false,
+  "corrections_integrated": [
+    "post-inference tensor check, not new post-run file hash",
+    "unallocated residual, not measured overhead breakdown"
+  ],
+  "critic_agent": "/root/plain_package_critic",
+  "critical_count_b": {
+    "D": 1,
+    "P": 2
+  },
+  "disagreement": "BERLIN6-P: meaning_error(A), critical_error(B)",
+  "invoice_verified": false,
+  "lead_agent": "/root",
+  "new_acceptances": 0,
+  "promotion_allowed": false,
+  "rating_rows_verified": 12,
+  "scope": "Local arithmetic/provenance/report-boundary QA; no re-rating or independent linguistic/expert certification",
+  "unallocated_residual_seconds": 509.94766488402615,
+  "verdict": "PASS",
+  "workflow_ratio_ap_to_d": 4.166649892772713
+}

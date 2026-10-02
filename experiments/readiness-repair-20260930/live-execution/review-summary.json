@@ -1,0 +1,316 @@
+{
+  "provisional_ai_review": true,
+  "expert_adjudicated": false,
+  "pooled_accuracy": null,
+  "reviewers": {
+    "reviewer-a": {
+      "historical_context_retention": {
+        "reference": {
+          "n": 12,
+          "labels": {
+            "meaning_error": 7,
+            "critical_error": 3,
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 12
+          },
+          "scopes": {
+            "contradicted": 6,
+            "preserved": 6
+          }
+        },
+        "candidate": {
+          "n": 12,
+          "labels": {
+            "uncertain": 1,
+            "critical_error": 2,
+            "meaning_error": 5,
+            "accepted": 4
+          },
+          "structure": {
+            "not_applicable": 12
+          },
+          "scopes": {
+            "preserved": 9,
+            "contradicted": 2,
+            "uncertain": 1
+          }
+        }
+      },
+      "lexical_task_recall": {
+        "candidate": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 6
+          },
+          "structure": {
+            "valid_target_schema": 4,
+            "valid_json_different_schema": 2
+          },
+          "scopes": {
+            "not_applicable": 6
+          }
+        },
+        "reference": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 6
+          },
+          "structure": {
+            "valid_json_different_schema": 6
+          },
+          "scopes": {
+            "not_applicable": 6
+          }
+        }
+      },
+      "inscription_task_recall": {
+        "candidate": {
+          "n": 2,
+          "labels": {
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 2
+          },
+          "scopes": {
+            "not_applicable": 2
+          }
+        },
+        "reference": {
+          "n": 2,
+          "labels": {
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 2
+          },
+          "scopes": {
+            "not_applicable": 2
+          }
+        }
+      },
+      "conditioned_grammar_recall": {
+        "candidate": {
+          "n": 4,
+          "labels": {
+            "accepted": 4
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        },
+        "reference": {
+          "n": 4,
+          "labels": {
+            "accepted": 3,
+            "meaning_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        }
+      },
+      "targeted_sense_applicability": {
+        "reference": {
+          "n": 4,
+          "labels": {
+            "meaning_error": 2,
+            "critical_error": 1,
+            "accepted": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        },
+        "candidate": {
+          "n": 4,
+          "labels": {
+            "accepted": 1,
+            "meaning_error": 2,
+            "critical_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        }
+      }
+    },
+    "reviewer-b": {
+      "historical_context_retention": {
+        "reference": {
+          "n": 12,
+          "labels": {
+            "meaning_error": 6,
+            "critical_error": 4,
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 12
+          },
+          "scopes": {
+            "contradicted": 6,
+            "preserved": 6
+          }
+        },
+        "candidate": {
+          "n": 12,
+          "labels": {
+            "meaning_error": 6,
+            "critical_error": 2,
+            "accepted": 4
+          },
+          "structure": {
+            "not_applicable": 12
+          },
+          "scopes": {
+            "preserved": 10,
+            "contradicted": 2
+          }
+        }
+      },
+      "lexical_task_recall": {
+        "candidate": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 6
+          },
+          "structure": {
+            "valid_target_schema": 4,
+            "valid_json_different_schema": 2
+          },
+          "scopes": {
+            "not_applicable": 6
+          }
+        },
+        "reference": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 6
+          },
+          "structure": {
+            "invalid_json": 6
+          },
+          "scopes": {
+            "not_applicable": 6
+          }
+        }
+      },
+      "inscription_task_recall": {
+        "candidate": {
+          "n": 2,
+          "labels": {
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 2
+          },
+          "scopes": {
+            "not_applicable": 2
+          }
+        },
+        "reference": {
+          "n": 2,
+          "labels": {
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 2
+          },
+          "scopes": {
+            "not_applicable": 2
+          }
+        }
+      },
+      "conditioned_grammar_recall": {
+        "candidate": {
+          "n": 4,
+          "labels": {
+            "accepted": 4
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        },
+        "reference": {
+          "n": 4,
+          "labels": {
+            "accepted": 3,
+            "meaning_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        }
+      },
+      "targeted_sense_applicability": {
+        "reference": {
+          "n": 4,
+          "labels": {
+            "meaning_error": 2,
+            "critical_error": 1,
+            "accepted": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        },
+        "candidate": {
+          "n": 4,
+          "labels": {
+            "accepted": 1,
+            "meaning_error": 2,
+            "critical_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          },
+          "scopes": {
+            "not_applicable": 4
+          }
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "blind-packet.jsonl": "35c9eb33b6d470dea94d03dfbf51ec1bdfc85083d528490b95a2b01ab6d498ee",
+    "blind-mapping.json": "bfba8384b69ddf5048d352e27386a18f02c90c1de8130009c152a3173a9fddcf",
+    "reviewer-a.jsonl": "62aff80bd406e659facf4c9201ab213f1b3ac4962bc50ef04eb401253113cdff",
+    "reviewer-b.jsonl": "5e3ddba1d159bb4e242b7d213a86589e82d5c4dbb7163e578b5fe519d57a09db",
+    "BLIND-REVIEW.md": "892ba3e9809bf57455eee9f5ca6836df3077d79338f28fe1e9f439731386d6e7"
+  },
+  "mechanical_lexical_json_syntax": {
+    "reference": {
+      "n": 6,
+      "raw_json": 0,
+      "json_after_optional_fence_removal": 6
+    },
+    "candidate": {
+      "n": 6,
+      "raw_json": 6,
+      "json_after_optional_fence_removal": 6
+    }
+  }
+}

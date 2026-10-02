@@ -2,7 +2,11 @@
 
 Research into Middle Persian (Pahlavi) translation, primarily scholarly Latin transcription to Persian. This repository contains source-study notes, a fixed benchmark, experiment records, evaluation tools and later cloud-training work. It is an experimental research project, not a validated translator.
 
-**Current state: 28 September 2026. Development version: 0.10.11.** The [bounded NLLB experiment](experiments/nllb-supervised-20260928/PLAN.md) completed700 updates; the server job is terminal and its cloud checkpoint is preserved. Two fresh blind reviewers each accepted0/15 trained NLLB translations versus1/15 retained Gemma, with more critical errors for NLLB. [Outcome](experiments/nllb-supervised-20260928/REPORT.md). No promotion; Gemma remains the reference. See the [revised research objective](GOAL.md).
+**Current state: 1 October 2026. Development version: 0.11.5; version impact NONE for this research update.** The [four-pass trial completed](experiments/dose-acquisition-20260930/live-execution/OUTCOME.md): taught lexical recall improved from 0/6 to 5/6, but fixed whole-passage acceptance only from 0/15 to 1/15, critical errors increased and confirmation stayed 1/5. Retain qualified Gemma step280. Independent technical closeout is PARTIAL; lead verification is recorded separately. No new model is promoted and no new paid run is admitted.
+
+**Latest evidence qualification:** [Occurrence evidence and dictionary recovery](experiments/occurrence-evidence-20261001/README.md) saves12partial claim leads and three complete typed MacKenzie inventories (`ī`, `pad`, pronoun `ōy`) independently checked against printed pages. All six historical note parents were already selected for training; documentary readings retain attribution, damage and conflicts. Four annotated MPCD work options are identified, not admitted as gold. Zero complete comparison cases and no training/paid launch; original data, candidates and fixed merit are unchanged. Next qualify one bounded occurrence per additional family, complete references and context-specific lexical bindings.
+
+**Completed candidate checkpoint:** [Reviewed plain-target candidates](experiments/plain-target-preparation-20261001/README.md) resolves all 11 named questions: six narrow repairs, three unchanged annotated fragments and two new standalone holds. All 9,971 retained candidates are tokenized with matching instructions; 7,438 complete lexical inventories preserve multiple meanings and qualifiers. Five tests, exact replay and independent engineering review passed. Original archival records and the seven earlier exclusions remain unchanged. The [three-condition comparison draft](experiments/plain-target-preparation-20261001/COMPARISON-DRAFT.md) still has zero complete pilot cases: fifteen analysis candidates occupy one textbook lineage and fourteen were previously selected. Next qualify independent occurrence analyses, references and more work families. [Strategy](experiments/strategy-reset-20261001/REPORT.md) and fixed merit remain unchanged. No training schedule, paid launch or semantic certification is admitted; no new model weights were downloaded.
 
 ## Start here
 
@@ -11,8 +15,10 @@ Research into Middle Persian (Pahlavi) translation, primarily scholarly Latin tr
 | Ask another AI to review the project | [Review brief, results and ready-to-paste prompt](REVIEW.md) |
 | Understand current status | [Current project state](PROJECT_STATE.md) |
 | Choose how to fine-tune the next model | [Fine-tuning knowledge base: Persian summary, model recipes and evidence](kb/model-finetuning/README.md) |
-| Review the latest proposed next step | [28 September strategy](output/research-next-step-20260928/REPORT.md) and [independent critique](output/research-next-step-20260928/STRATEGY-CRITIC.md) |
-| Inspect the latest experiment | [NLLB plan and execution](experiments/nllb-supervised-20260928/PLAN.md), [completion record](experiments/nllb-supervised-20260928/continue/completion-check.json) |
+| Review the latest proposed next step | [1 October research decision](experiments/strategy-reset-20261001/REPORT.md) |
+| Inspect the full readable resource and remaining annotation gaps | [Local implementation and review](experiments/usable-resource-20261001/README.md) |
+| Inspect resolved target questions and aligned candidate tokens | [Source decisions, verification and comparison draft](experiments/plain-target-preparation-20261001/README.md) |
+| Inspect the latest experiment | [Four-pass result and evidence](experiments/dose-acquisition-20260930/live-execution/OUTCOME.md) |
 | Inspect the retained reference model | [Qualified-data paired comparison](experiments/palref-paired-20260927/REPORT.md) |
 | Understand evaluation | [Frozen PAL-REF protocol](benchmarks/pal-reference-v1/PROTOCOL.md) and [uniform contract](experiments/dev-assisted-qualified-20260927/uniform-evaluation-contract.json) |
 | Find earlier language studies | [Study guide (original README)](STUDY_GUIDE.md) |
@@ -20,6 +26,10 @@ Research into Middle Persian (Pahlavi) translation, primarily scholarly Latin tr
 | Check attribution and sources | [Credits](CREDITS.md), [source register](kb/sources.md), [collection guide](data/README.md) |
 
 ## Latest result
+
+The [latest paired comparison](experiments/dose-acquisition-20260930/live-execution/OUTCOME.md) shows acquisition without adequate passage transfer. The run repeated 1,536 examples four times; it did not consume the full 9,973-prompt pool. Both reviewers pass lexical acquisition but fail the passage safety and confirmation screens. Earlier outcomes below remain separate historical panels and cannot be combined into a single accuracy curve.
+
+## Earlier NLLB result
 
 The [completed NLLB comparison](experiments/nllb-supervised-20260928/REPORT.md) does not establish improvement: both fresh reviewers accept0/15 whole translations for initialized and trained NLLB versus1/15 Gemma. Training reduces NLLB whole critical counts8→5 and10→7, but trained critical counts remain above Gemma3/4. One trained cap failure remains; the formal screen is inconclusive and semantic improvement conditions are unmet. These fixed DEV results are provisional, separate from PAL-REF scores.
 

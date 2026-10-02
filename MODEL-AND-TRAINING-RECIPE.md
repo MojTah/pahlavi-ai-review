@@ -1,6 +1,12 @@
 # Model identities and executed training recipes
 
-Updated 30 September 2026 for static scientific and implementation review. This document describes saved experiments; it does not authorize a new run. No model weights were downloaded, loaded or transferred to prepare it. Weights remain in the project's cloud storage. The public review copy contains descriptions and evidence, not a runnable model distribution; some linked corpus files belong only to the separate research archive.
+Updated 2 October 2026 for static scientific and implementation review. This document describes saved experiments; it does not authorize a new run. No model weights were downloaded, loaded or transferred to prepare it. Weights remain in the project's cloud storage. The public review copy contains descriptions and evidence, not a runnable model distribution; some linked corpus files belong only to the separate research archive.
+
+## Update through 2 October 2026
+
+The historical recipe sections below describe earlier runs. The corrected acquisition diagnostic and matched NF4 diagnostic subsequently completed. The four-pass continuation used 1,536 selected rows over 384 updates (6,144 forwards); taught lexical recall improved but passage safety and confirmation screens failed. See `experiments/dose-acquisition-20260930/live-execution/OUTCOME.md` and its recovered training record for the executed schedule.
+
+The 1-2 October component, semantic-stage and own-analysis jobs reused retained step280 for inference only, with zero optimizer updates. They did not use the later four-pass adapter. The latest own-analysis comparison completed nine calls and found no newly accepted complete translation. Its exact runtime, checkpoint identity, raw outputs and qualifications are in `experiments/own-analysis-diagnostic-20261002/`. Current plain-target preparation has 9,971 candidates; this is not the retained model's consumed training set. These results do not promote a model or authorize another job.
 
 ## Identity and checkpoint lineage
 

@@ -1,0 +1,175 @@
+{
+  "GPU_exercised": true,
+  "artifact_sha256": {
+    ".gitattributes": "ee4281eafd37e2329e6225894ea9758c33e65dd4cfd003afa394430b3b6dce1e",
+    "cloud_pilot/component_eval.py": "037bdfaac5d5d7e0ba9ce83144617b04f3db2c6a07a0ed61daecfb3c08c763aa",
+    "cloud_pilot/hf_component.py": "69c9c29c5be76f46b1990fafb391ad1664e8c8b8b42a87526ba3dcdf86d598e2",
+    "experiments/own-analysis-diagnostic-20261002/check_review.py": "fba16e147b05999e09a8d9994ebb1f0c2ce7cb4105869eaf3a8272c4cfe81d4e",
+    "experiments/own-analysis-diagnostic-20261002/check_runtime.py": "ee1a62ade135b6cf0de3224851d9a34cf8ead5ee5844368d98a933ceabd6d1c8",
+    "experiments/own-analysis-diagnostic-20261002/packet-manifest.json": "8acca8e0a6049e11123733d6907416a346a619832e388c4e53c38c67714d0f90",
+    "experiments/own-analysis-diagnostic-20261002/review.py": "d60ae86d77eee4c3ea744f6286bd2af83e256b7aaaddfa1856c832a0e2143f30",
+    "scripts/score_blind_dev_assisted.py": "b21d70d8e1a92bd7fc1fbb2de73a9eaf7d856aeba0c396c18f9272c5369f1732"
+  },
+  "astra_closure": {
+    "checkpoint_commit": "472b35d74bb992d29844c04441d246d51812e4e3",
+    "report": "experiments/own-analysis-diagnostic-20261002/astra-closure-response.json",
+    "review_turn_id": "01a0fad6-0ed8-7733-9baf-9445031dcaa9",
+    "verdict": "PASS_LOCAL_REPAIR"
+  },
+  "astra_initial_review": {
+    "closure": "PASS_LOCAL_REPAIR_AT_472b35d",
+    "finding": "False successful dispatch flags accepted",
+    "repair": "Generated statuses require true dispatch; flagged/state-accounted journals cannot downgrade to archived unflagged shape.",
+    "runtime": "PARTIAL",
+    "source_reference_measurement": "PASS_EXPLORATORY"
+  },
+  "astra_launch_proposal": {
+    "report": "experiments/own-analysis-diagnostic-20261002/astra-launch-review.json",
+    "review_turn_id": "01a0faef-0d34-7063-95a9-0cd74122ac47",
+    "reviewed_commit": "e51c66d63fb7b8a9ee356bef748f63dcfd6b90c2",
+    "verdict": "PASS_LOCAL_LAUNCH_PROPOSAL_PAID_HOLD"
+  },
+  "checked_at_utc": "2026-10-02T09:20:29.288554+00:00",
+  "completion": {
+    "astra_result_report": "experiments/own-analysis-diagnostic-20261002/astra-result-review.json",
+    "astra_result_review": "PASS_WITH_PROVISIONAL_LIMITS",
+    "bounded_trace": "experiments/own-analysis-diagnostic-20261002/live-execution/coverage-trace.json",
+    "continuation_signal": false,
+    "new_job_admitted": false,
+    "outcome": "experiments/own-analysis-diagnostic-20261002/live-execution/OUTCOME.md",
+    "promotion_allowed": false,
+    "recovery": "experiments/own-analysis-diagnostic-20261002/live-execution/recovery.json",
+    "technical_critic": "PASS"
+  },
+  "credentials_accessed": true,
+  "critic": {
+    "id": "/root/plain_package_critic",
+    "repairs_reverified": [
+      "same-case skipped dependency",
+      "call counters and bool flags",
+      "resolved prompt in immutable P-done snapshot"
+    ],
+    "verdict": "PASS_LOCAL_PACKET_RUNTIME"
+  },
+  "critic_dispatch_repair": {
+    "id": "/root/plain_package_critic",
+    "independent_in_memory_checks": 26,
+    "scope": "allthree protocol dispatch flags, newlegacy downgrade, genuine archives and precall errors/skips; noGPU/cloud/modelquality",
+    "verdict": "PASS_NARROW_REPAIR",
+    "wrapper_sha256": "69c9c29c5be76f46b1990fafb391ad1664e8c8b8b42a87526ba3dcdf86d598e2"
+  },
+  "denominator_per_final_arm": 3,
+  "dispatch_repair_regressions": [
+    "false successful D dispatch rejected",
+    "false successful P dispatch/dependency bypass rejected",
+    "genuine old unflagged12 accepted",
+    "new state-accounted legacy12 cannot strip all rowflags"
+  ],
+  "execution_preview": {
+    "local_files": {
+      "resources\\local\\own-analysis-diagnostic-20261002\\execution-preview-dispatch-repair\\job-spec.json": "e081ddc8d8baca06c63c9cde225cf96bbd1e890a6c0736ac8a0c415cc00be86e",
+      "resources\\local\\own-analysis-diagnostic-20261002\\execution-preview-dispatch-repair\\prepared-receipt.json": "20b05f21208d3c1adf34eceed7404393b671c1e32d82f47c62ef59c90006e97a"
+    },
+    "output_prefix": "own-analysis-diagnostic/4fbd698f81214b60b0101f7f0b5ed677",
+    "run_id": "4fbd698f81214b60b0101f7f0b5ed677",
+    "sdk_roundtrip": true,
+    "submitted": false
+  },
+  "existing_credential_scope": "previously approved local HF credential used for Jobs/bucket observations and exact source-only input transfer; no credential printed/created/changed",
+  "frozen_cases": 3,
+  "known_limits": [
+    "Three provisional reference pairs, two conservative broader groups; not expert-certified gold or unseen transfer.",
+    "Static P is a dependency prefix; actual dynamic tokens are checked before generation.",
+    "Complete ledger with errors/skips is not a complete generation pipeline.",
+    "Live observations/staging verified at recorded times; must refresh before any authorized launch. New one-job authorization, exclusive caller claim, server GPU canary and final remote output readback remain."
+  ],
+  "launch_proposal_critic": {
+    "id": "/root/plain_package_critic",
+    "scope": "local identity/pins/arithmetic/claim and remaining gates; provider observations recorded by Main",
+    "verdict": "PASS_CONCRETE_PROPOSAL"
+  },
+  "live_proposal": "experiments/own-analysis-diagnostic-20261002/live-execution/proposal.json",
+  "live_rate_or_balance_verified": true,
+  "local_checks": [
+    {
+      "command": "prepare.py --check",
+      "scope": "source/span/tokenizer/prompt replay",
+      "status": "PASS"
+    },
+    {
+      "command": "legacy check_runtime.py",
+      "scenarios": 4,
+      "slots": 12,
+      "status": "PASS"
+    },
+    {
+      "command": "legacy check_runtime.py --stages",
+      "scenarios": 4,
+      "slots": 12,
+      "status": "PASS"
+    },
+    {
+      "command": "new check_runtime.py",
+      "scenarios": 6,
+      "slots": 9,
+      "status": "PASS_AFTER_ASTRA_DISPATCH_AND_DOWNGRADE_REPAIRS"
+    }
+  ],
+  "local_result_review": {
+    "astra_closure_report": "experiments/own-analysis-diagnostic-20261002/astra-scoring-closure.json",
+    "astra_status": "PASS_LOCAL_SCORING_REPAIR_PAID_HOLD",
+    "astra_synthetic_compatibility_checks": 5,
+    "astra_turn_id": "01a0fb14-a2fa-73c0-8dd9-e4e72b1d9f56",
+    "checked_at_utc": "2026-10-02T05:30:31Z",
+    "command": "check_review.py",
+    "critic": "/root/plain_package_critic",
+    "critic_synthetic_compatibility_checks": 11,
+    "critic_verdict": "PASS_CENTRAL_CRITICAL_SEVERITY_REPAIR",
+    "denominator_per_arm": 3,
+    "final_slots_per_assessor": 6,
+    "historical_compatibility_report": "experiments/own-analysis-diagnostic-20261002/historical-rating-compatibility.json",
+    "promotion_allowed": false,
+    "quality_evidence": true,
+    "real_model_recovery_exercised": true,
+    "status": "REAL_RECOVERY_AND_TWO_BLIND_RATINGS_PASS_NO_NEW_ACCEPTANCE",
+    "summary": "experiments/own-analysis-diagnostic-20261002/live-execution/comparison-summary.json"
+  },
+  "maximum_static_prompt_tokens": 239,
+  "model_weights_downloaded": false,
+  "original_preparation_checked_at_utc": "2026-10-02T04:38:53.144509+00:00",
+  "paid_execution": {
+    "all_file_hashes_verified": true,
+    "allowance_usd": "3.01",
+    "claim_preserved": true,
+    "fresh_launch_readiness": "experiments/own-analysis-diagnostic-20261002/live-execution/launch-readiness.json",
+    "human_authorization": "Current user request: do the comparison",
+    "job_id": "6abf6e59fbc85ba682369cf0",
+    "latest_observation": "experiments/own-analysis-diagnostic-20261002/live-execution/completion-observation.json",
+    "monitoring": "Completed and recovered on user check; no new job running",
+    "native_timeout_minutes": 60,
+    "provider_receipt": "experiments/own-analysis-diagnostic-20261002/live-execution/provider-receipt.json",
+    "quality_assessed_provisionally": true,
+    "quality_improvement_verified": false,
+    "remote_inventory_verified": true,
+    "run_id": "4fbd698f81214b60b0101f7f0b5ed677",
+    "server_canary_verified": true,
+    "stage": "COMPLETED",
+    "submitted_once": true,
+    "training": false
+  },
+  "paid_run_admitted": true,
+  "scheduled_slots": 9,
+  "status": "COMPLETED_NO_CONTINUATION_SIGNAL",
+  "superseded_unsubmitted_preview": {
+    "local_files": {
+      "resources\\local\\own-analysis-diagnostic-20261002\\execution-preview\\job-spec.json": "a26b2211325459684aca118ca4efe7a33d94f44ce4677e107c0be81c17afa3c9",
+      "resources\\local\\own-analysis-diagnostic-20261002\\execution-preview\\prepared-receipt.json": "87db07c927c118c736c6b716acd07236e8fbcceaea125245f3e6b77c319965d7"
+    },
+    "output_prefix": "own-analysis-diagnostic/a737d9381c50499eacea9c5ab6e6dc96",
+    "reason": "Replaced before any launch by Astra dispatch-proof guard repair.",
+    "run_id": "a737d9381c50499eacea9c5ab6e6dc96",
+    "sdk_roundtrip": true,
+    "submitted": false
+  },
+  "training": false
+}

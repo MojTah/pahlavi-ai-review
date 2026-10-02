@@ -3,14 +3,62 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 113,
-      "sha256": "196f3f4c0f84d6a49cf102119172f458ecd2d1f6e35f2716d64638bb09dcb13e",
+      "bytes": 318,
+      "sha256": "5c5a723e59975457ca5d58b37ee991ec529d4dddfb9213638128bdff3604f0f9",
       "reason": "Working-project ignores differ from public snapshot scope"
     },
     {
       "path": "cloud_pilot/CLOUD_STATE_20260926.md",
       "bytes": 79662,
       "sha256": "7fe17bf5f90a302dbba86a3351e80c4947531e363420e6ea516d09a3132bd1ca",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/blind-packet-receipt.json",
+      "bytes": 167,
+      "sha256": "ed7f6056a2936bde1a82bdf3583dc55a399884a551857cc2fc9a6ce1aa20560b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/funding.json",
+      "bytes": 223,
+      "sha256": "63349ffd1225fe8599a0debcdb3555cfdb27e9266a4a585248b3d1b0ace48cde",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/job-spec.json",
+      "bytes": 85558,
+      "sha256": "79b066d6713f52b833a5d0fba0d4c5eb3a0c9aec49c1914566bb5f9500de981d",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/live-check.json",
+      "bytes": 648,
+      "sha256": "47e35074bb8efecfbe6ad1ec079f3d59da16c2f6261ed839d572a6aa6994255c",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/provider-receipt.json",
+      "bytes": 394,
+      "sha256": "8001fa6903b44da4b9b5b11587f0382a1e3c139b74aa4d8f5336cc59ffdb172b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/receipt.json",
+      "bytes": 2694,
+      "sha256": "23e228eb8bb85b31d5df55a829edb1e6e82c7061ef1a0b44985486e65e62070c",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/staging.json",
+      "bytes": 875,
+      "sha256": "95c69f264b31da4b8ad6747a8031b559d50ca586819cc7273282c6498c0e0509",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/submission-claim.json",
+      "bytes": 978,
+      "sha256": "e1a4d3c94fc3f0a55448ba131c164a7e080db9aaf5880e0d40fdcd67cc6e3b0c",
       "reason": "Operational account/access response; unnecessary for research review"
     },
     {
@@ -29,6 +77,18 @@
       "path": "experiments/contextual-supervision-20260927/post-failure-billing.json",
       "bytes": 379,
       "sha256": "899543622a434e4ce2a82b897d2baab4d5685e7d1a46104afc1a01ce9ba99a02",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/corrected-learning-diagnosis-20260930/job-receipt.json",
+      "bytes": 2733,
+      "sha256": "71da41e43c54c211ea832be2cecb0f9012ce4562f04865cf6dfabc8f07fa77ee",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/corrected-learning-diagnosis-20260930/job-spec.json",
+      "bytes": 156921,
+      "sha256": "37fa5a02a417b09ee56c89cc00751f3be98149058d67c6c27c533f22fae58bfa",
       "reason": "Operational account/access response; unnecessary for research review"
     },
     {
@@ -80,6 +140,60 @@
       "reason": "Bulk third-party source/training text; local private companion, not publicly cleared"
     },
     {
+      "path": "experiments/dose-acquisition-20260930/admission/authorization.json",
+      "bytes": 968,
+      "sha256": "d48553880243abe894cb4d00d98320d1cb25f2664025a3014ecc89065f81ce4c",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/execution-proposal/job-receipt.json",
+      "bytes": 259012,
+      "sha256": "539f2b483b65ba403ad12ae0d05596b9035445b57867fed0a0a8906b84c60421",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/execution-proposal/job-spec.json",
+      "bytes": 141382,
+      "sha256": "4d2374203f7d6204bd1779dc0d284b2cb020318349c03f88d53ada68b400c2f4",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/live-execution/funding-launch-observation.json",
+      "bytes": 191,
+      "sha256": "a237653a29052a81c918c7c3aa77bd42528a9f95d8ac8a55926f3e6fd581f050",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/live-execution/funding.json",
+      "bytes": 208,
+      "sha256": "dccfb0c945efed37dbd0d0e95a4e9e2b6cf6b2cdef3cf48da487aa3a1ae3288a",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/live-execution/initial-live-check.json",
+      "bytes": 552,
+      "sha256": "4d897e2c4fc03ead63e20084b6502cdedf5af35e57c6adfcbb4fc075cb0bec07",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/live-execution/live-check.json",
+      "bytes": 495,
+      "sha256": "35caafe2d16694334f36c3e735855e1e0be7846940dd40182acebbfbc211a21b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/live-execution/provider-receipt.json",
+      "bytes": 359,
+      "sha256": "48969cccc230305f2693aaaf4c47a53ef41192a79fda6a4e420345be7839a692",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/dose-acquisition-20260930/live-execution/staging.json",
+      "bytes": 15436,
+      "sha256": "0549a86c7f2c9a784a3b58c66d25101c91546fe350cfd58f989b6adc0bb52107",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
       "path": "experiments/grounded-supervision-20260927/inventory.json",
       "bytes": 8532867,
       "sha256": "5eead36cf1b422da43779759faa795d611a5a955322521e6f737babb2cac2d7c",
@@ -92,9 +206,93 @@
       "reason": "Operational account/access response; unnecessary for research review"
     },
     {
+      "path": "experiments/nf4-diagnostic-20260930/execution-proposal/job-receipt.json",
+      "bytes": 3473,
+      "sha256": "80c5520253d9c26379cef076e9dc655ad7aba7a4209ba42582b932080190a1d3",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/execution-proposal/job-spec.json",
+      "bytes": 141456,
+      "sha256": "b542d4859dee1da4ecab5a7e9fc9063cd4243849f2c81c705e7317336c6a9e25",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/live-execution/funding.json",
+      "bytes": 208,
+      "sha256": "028d8b49933adb4015e57e383417ddef4492d551a6f947d9d8c4a1c16664ccd3",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/live-execution/live-check.json",
+      "bytes": 673,
+      "sha256": "17c1166531937cc5cb717865d479d35381985f2125eda29b77f53beda7915685",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/live-execution/provider-receipt.json",
+      "bytes": 394,
+      "sha256": "ad9749d9c518546040287ac1c430eafef2f27ad417751028eb1d7f2cf41ee4e1",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/live-execution/staging.json",
+      "bytes": 1217,
+      "sha256": "82d581a460dfd14eb0de41b7a5d4796b3b6166e4de4cd022392b2d95530fa728",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/live-execution/submission-claim.json",
+      "bytes": 2672,
+      "sha256": "1ba165b65548e827d79d977895f7e55065b588431ff7eddca99a7fcad29fd9a0",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/superseded-pre-display-fix-proposal/job-receipt.json",
+      "bytes": 3473,
+      "sha256": "14abed88e1eeeb8926f1ffbe140cac390c65f0cdcbcf3cedb133c0bf147c3955",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/superseded-pre-display-fix-proposal/job-spec.json",
+      "bytes": 141424,
+      "sha256": "da62aecded3b13530b4ff3747e73782522db5078f27bcbc05d516ca543c6d1ef",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/superseded-unsubmitted-proposal/job-receipt.json",
+      "bytes": 3473,
+      "sha256": "997c2df9d3d6c6095e305dfb36c1e9f9a538969d8c03945ad34447e07d9064cf",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/nf4-diagnostic-20260930/superseded-unsubmitted-proposal/job-spec.json",
+      "bytes": 141440,
+      "sha256": "32443afcc267fedf4abad867357e1472107ed183d8eadf80f96d91c6debd8029",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
       "path": "experiments/nllb-seen-20260928/precision-repair/execution/billing-after.json",
       "bytes": 531,
       "sha256": "6719684779c35c4e163e13cbb11650edf5c0581e5a8b6222081bf92ed560eab3",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/own-analysis-diagnostic-20261002/live-execution/launch-readiness.json",
+      "bytes": 2164,
+      "sha256": "e7e235fba1b0893a86e5711d18a306d9f995a206d375dacfb383715af262a6e3",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/own-analysis-diagnostic-20261002/live-execution/provider-receipt.json",
+      "bytes": 551,
+      "sha256": "27efd31ae3c8da78188de0817e1ee4909a91ff756190139044301c690bba372b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/own-analysis-diagnostic-20261002/live-execution/startup-observation.json",
+      "bytes": 562,
+      "sha256": "1c49a9f31d679e981c467e90d6552d2d8205e8ad7a8e69769c916b5ad6721b22",
       "reason": "Operational account/access response; unnecessary for research review"
     },
     {
@@ -119,6 +317,90 @@
       "path": "experiments/published-annotation-access-20260927/authorized-index.json",
       "bytes": 1405,
       "sha256": "c2a74a216d3f0f84fdbbb62852a49795d02b71563eb03b54fc07b0906e75883e",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/execution-proposal/job-receipt.json",
+      "bytes": 3130,
+      "sha256": "1c11f4b12099475fccee19e59363f2f3ca9f21d9ad77ce26f0903dbcfba7177d",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/execution-proposal/job-spec.json",
+      "bytes": 159637,
+      "sha256": "15ee39c4c7692b8f515a6412b64a39428410f8ce9fa9e23f113ba1311b7f23ff",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/job-receipt.json",
+      "bytes": 3130,
+      "sha256": "036e4107429dc41cd2e2d4559fed940354048016a02596e4fc9d45bdae716ba7",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/job-spec.json",
+      "bytes": 159613,
+      "sha256": "78cbd278b45e0a5db76a8faf949dc49e30db171adc772f32523e967713b5a521",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/live-execution/live-check.json",
+      "bytes": 848,
+      "sha256": "04afee3910b4a042521bd67b534b5a0664d3f7db465e5005c99c43e4534dfe45",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/live-execution/provider-receipt.json",
+      "bytes": 394,
+      "sha256": "980e2349970ae06018af292695bb730e96beaf5e50f5cc90e6858931b4684fe7",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/live-execution/staging.json",
+      "bytes": 1405,
+      "sha256": "ddbfc79b2d086f5e6918adbbcc7eacdf343ee97f34c4887a7c9bbe74c41f80eb",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/readiness-repair-20260930/live-execution/submission-claim.json",
+      "bytes": 1737,
+      "sha256": "619851b3dbaf7d6778200b2af903e039500144b24b8db6ef796283a510d5b7cd",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/semantic-stage-diagnostic-20261001/live-execution/job-spec.json",
+      "bytes": 85991,
+      "sha256": "8b38ba8441d0aad6ab21b0f3dcec53abee811d0cb58aad015377d3bb36930feb",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/semantic-stage-diagnostic-20261001/live-execution/live-check.json",
+      "bytes": 698,
+      "sha256": "c11b7537d421ea4b01390c091afaaee037e0af7603f9afe19f099e3e4646984b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/semantic-stage-diagnostic-20261001/live-execution/provider-receipt.json",
+      "bytes": 394,
+      "sha256": "b11728e1a9b324b1137bb27a925135ebcf9456e0e0e772e4650fbcfc31509a6b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/semantic-stage-diagnostic-20261001/live-execution/receipt.json",
+      "bytes": 2743,
+      "sha256": "9efec78c5d153344ff355a57f54879a12afc4b90000a401b50cdc3c5680d759c",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/semantic-stage-diagnostic-20261001/live-execution/staging.json",
+      "bytes": 1048,
+      "sha256": "61cf62f10d05c4b4549db2e9c458d85423f9cd030dd8bf5dd077b4e14ac23fa9",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "experiments/semantic-stage-diagnostic-20261001/live-execution/submission-claim.json",
+      "bytes": 1505,
+      "sha256": "95aa4372bcd4174b4f0bf46c1bb46b62d582d63b6478d8efd3517311482fe9e5",
       "reason": "Operational account/access response; unnecessary for research review"
     },
     {
@@ -284,6 +566,252 @@
       "reason": "Binary/source archive; review text and provenance retained separately"
     },
     {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/base-provenance.json",
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/bundle-manifest.json",
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/resolved-prompts/AMOL1-P.json",
+      "bytes": 6906,
+      "sha256": "cda2deac27fef9ad8bbbfdb130409314b91c84ba11f3bb15195f7126ee55f4f6",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/resolved-prompts/BERLIN6-P.json",
+      "bytes": 5331,
+      "sha256": "bb04307eafc6b6313661783faa5b3d87f708c065b4b24052a3ddbbce78fac8a5",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/resolved-prompts/KANHERI01-P.json",
+      "bytes": 3163,
+      "sha256": "5351f6f609aba41d804238ed47d96bdfda6c249d1319ad47e28b2c813f0b5eed",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/run.json",
+      "bytes": 6229,
+      "sha256": "4c88ff82d47b886df324a9b9d6e7680dc1e3f29604c7be2b8726374dcffc368f",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-01-done/result.json",
+      "bytes": 954,
+      "sha256": "a8e1cae4bb5b05311723e056cd14015032a0edf75518259b6a2d67317b66325d",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-01-done/run.json",
+      "bytes": 4968,
+      "sha256": "030ec8c126a8237fd134bec0b2e1630a26dceec8873ac254588694d08b75b846",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-01-start/run.json",
+      "bytes": 3824,
+      "sha256": "b2b977db8da0d3ce24610e4248f40d3d13984583bcda4e6d9fa73367cd93e952",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-02-done/result.json",
+      "bytes": 1599,
+      "sha256": "897c588c21109d3c3889e913eb52ae248c9cc01078efaf77e65ee1dd6d542418",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-02-done/run.json",
+      "bytes": 6262,
+      "sha256": "497c757a4ba96aff7c9871fae39e14fd7c4275bcc157f973dac05ee657157f39",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-02-start/run.json",
+      "bytes": 3934,
+      "sha256": "b92d4edf7987fb1acd1ce3464f40b3de2e5a04e428cd85eecf9524a136391cce",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-03-done/resolved-prompt.json",
+      "bytes": 3163,
+      "sha256": "5351f6f609aba41d804238ed47d96bdfda6c249d1319ad47e28b2c813f0b5eed",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-03-done/result.json",
+      "bytes": 1027,
+      "sha256": "e66bc1fc2cb6c35cb5e9a5aa8ed292c4f926bde7c1ecfe6ad697b348ad98aed6",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-03-done/run.json",
+      "bytes": 5139,
+      "sha256": "a80852cc9ab6d29c72f56eface510ed4ea81c60ab15e41ed262d06dbe65ad85f",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-03-start/run.json",
+      "bytes": 3915,
+      "sha256": "84306d77895e10d201e3aa70c07188a85cc60a2381e17c88d0d0e62f3baa375a",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-04-done/result.json",
+      "bytes": 2916,
+      "sha256": "2f365763d25eb6fc9d97fd11865cb3d04efab825d7356e0352612b6ae6a8d186",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-04-done/run.json",
+      "bytes": 8737,
+      "sha256": "298f91a2564e8125adcea178417fc3a9fc1e84fe099e463f7faf16370459ea6b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-04-start/run.json",
+      "bytes": 3961,
+      "sha256": "9710a900d343b3540327046049e432e1978c45ace2a18a9d612280ebf8b41e57",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-05-done/resolved-prompt.json",
+      "bytes": 6906,
+      "sha256": "cda2deac27fef9ad8bbbfdb130409314b91c84ba11f3bb15195f7126ee55f4f6",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-05-done/result.json",
+      "bytes": 1903,
+      "sha256": "6bb0f55e1108ea7c023af592a38c3affadb3d760fead3ed18b8b11362aed7cc8",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-05-done/run.json",
+      "bytes": 6638,
+      "sha256": "7d4488f303244e4a2f8be99254edf41d16e89bb0219168978202f8637ffd583b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-05-start/run.json",
+      "bytes": 3946,
+      "sha256": "c54279490d5db19b36003f6e9528494ded0b124b8572a0234bf364304dd6e240",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-06-done/result.json",
+      "bytes": 1789,
+      "sha256": "0ac5445d4bb840d3d7224f529dca86ee59b9075d82c49d6474a7d69ed1b403cf",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-06-done/run.json",
+      "bytes": 6560,
+      "sha256": "d84e1499c50b03a208c9773242d05f6a14261ea6aba2aa18d3ff5a9637b9a7c5",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-06-start/run.json",
+      "bytes": 4017,
+      "sha256": "e3345317d28cda1b9320d3204d4846353f4c8a75191a27b795662b9b0bb8535d",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-07-done/result.json",
+      "bytes": 1470,
+      "sha256": "20feb033b8718b7bae0dac4720ffafba54921b6a146a052bccf5f33e101ebf00",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-07-done/run.json",
+      "bytes": 6108,
+      "sha256": "9c9d952804ed3fec9670affa7d5c51df80b1d6854f8e42d457c338a74cef5ccc",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-07-start/run.json",
+      "bytes": 4068,
+      "sha256": "235b7212c51435f746de7b90613dd3fac1a4169358a52b2244a94bc688f38023",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-08-done/result.json",
+      "bytes": 2484,
+      "sha256": "f4712aedd6304f04ec9bbb38b93b68fefdc31bb06315190c7888a7da533e34c1",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-08-done/run.json",
+      "bytes": 8062,
+      "sha256": "1bd1fb30b92df64c515a64a257c409ffd5700ea9d20f54143475f6e375f41056",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-08-start/run.json",
+      "bytes": 4140,
+      "sha256": "6910ab8b53b58363a08a63ce2034c50318aca5722cf3ce0e5b1fcce690e874e7",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-09-done/resolved-prompt.json",
+      "bytes": 5331,
+      "sha256": "bb04307eafc6b6313661783faa5b3d87f708c065b4b24052a3ddbbce78fac8a5",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-09-done/result.json",
+      "bytes": 1494,
+      "sha256": "02f9609cafda4c395bc560233c40e23773fb2ecba6af64dc8162ed6f08bb11e0",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-09-done/run.json",
+      "bytes": 6150,
+      "sha256": "f7e781e450c33510038543702c6d5ee7d729baa072a5e9aebef7c8e788326182",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/attempt-09-start/run.json",
+      "bytes": 4121,
+      "sha256": "73c21631d954a49b0361051db18e53acac38ab90e086916d27b69f98e314ff1d",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/loading/run.json",
+      "bytes": 3326,
+      "sha256": "3ee11b73db77f4f9df093e718c6c527820218e08815c29047f5095a3a99a6c69",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/snapshots/prefill-passed/run.json",
+      "bytes": 3758,
+      "sha256": "ce3378b4016d176b60be711646c6573a8d1631f365367b30a81ff8fec87b2b6b",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/manifest.json",
+      "bytes": 9859,
+      "sha256": "2f065307220a3c791573c6a26234ecadb736ebba12fa419ec487a0ac4deb20b9",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/reconciliation.json",
+      "bytes": 743,
+      "sha256": "7cdfd4a50aba7baf22330ddca0b850503a443bef7b059406f4edf0897b70a960",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
+      "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/trained-manifest.json",
+      "bytes": 5949,
+      "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+      "reason": "Operational account/access response; unnecessary for research review"
+    },
+    {
       "path": "resources/local/data-qualification-20260928/ready-v1/documentary-en.jsonl",
       "bytes": 79224,
       "sha256": "d604e2b66e8c38de18b5e0675fbc9a58f739efd6c845d3cf0a3661542796924b",
@@ -431,6 +959,132 @@
       "path": "resources/local/training-ready-v2-20260929/data/train.jsonl",
       "bytes": 3744184,
       "sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/plain-target-preparation-20261001/data/all-candidates.jsonl",
+      "bytes": 25426278,
+      "sha256": "db2f4ac6290deb533895eb7ac7f776625b558c1682916be06f5133bad725f3a5",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/plain-target-preparation-20261001/data/holds.jsonl",
+      "bytes": 596,
+      "sha256": "fddb16db6677a105e3caeaccc2f855159c82dc241f02ded7ed79d61cd0acad0d",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/plain-target-preparation-20261001/data/learning-projections.jsonl",
+      "bytes": 13775626,
+      "sha256": "b91a80ef92bc8f6adc3ae9ccae2f174ded02662b2d7445e7c29ac7350d6bfb17",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/plain-target-preparation-20261001/data/manifest.json",
+      "bytes": 8961,
+      "sha256": "e0e463bbdcf75a1323b8b63b4a7b394215199cd2ae91826e1d8bb4893241f9ab",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/plain-target-preparation-20261001/data/row-audit.jsonl",
+      "bytes": 3889007,
+      "sha256": "4191495e2c194bddeb0fa9ae55065deb9f8069985d0f61252e0cadcd48e37e88",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v1-20261001/dictionary.jsonl",
+      "bytes": 12703253,
+      "sha256": "ef7fd2c21dde8bb9cab5524ecacb3d44161cbb3d8887d70612d0b6aae5a2fe25",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v1-20261001/learning-projections.jsonl",
+      "bytes": 13743303,
+      "sha256": "416ebbf7d53d636b0ac4a4a5a37e5ed7a38453c59787eb2b58177611e5015fc3",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v1-20261001/manifest.json",
+      "bytes": 23678,
+      "sha256": "224c0b6dfeb63cd996a9a21d3bed291687dd13511dfc1ed3b8fd91dac78b84d2",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v1-20261001/target-audit.jsonl",
+      "bytes": 6219795,
+      "sha256": "b2023ed4ae236472a3cd79694d23a04094541c89088f65a454fd5a423e9835fd",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v2-20261001/dictionary.jsonl",
+      "bytes": 12703940,
+      "sha256": "ee26bf98a73e02cc085a099f3be02084da8ce6600d84bed08cd33a9848c978c5",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v2-20261001/learning-projections.jsonl",
+      "bytes": 13743990,
+      "sha256": "f4ba10e9e801c1776edbd327397445f4141abb20460d2e9d0dc8e6ab43c5b177",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v2-20261001/manifest.json",
+      "bytes": 23678,
+      "sha256": "df9ef513bcf40df0f04fa95e7d7e336c14de24b95c61137d95f7981a0a1d52b9",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v2-20261001/source-analysis-view.jsonl",
+      "bytes": 29658,
+      "sha256": "837bae97f47f82dd1872972d457e3ebd48a58eb7a028a4f6f28458f2212dba23",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v2-20261001/target-audit.jsonl",
+      "bytes": 6219995,
+      "sha256": "94adcf91187e3894c48dc54583dba4bf0e8bad8d1525dbb185bfa88bf926c8f3",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v3-20261001/dictionary.jsonl",
+      "bytes": 12703931,
+      "sha256": "bcf789f6658e93e8d8bf3f7ab8a9d6bf7f2f7e918833d0344604fac1b24bea2f",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v3-20261001/learning-projections.jsonl",
+      "bytes": 13743981,
+      "sha256": "4c0ac1b3579fa71fdc4ac3f09b1f25688c8a87f7939cac14161a2ee83ad69aa7",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v3-20261001/manifest.json",
+      "bytes": 23747,
+      "sha256": "0c9779c4c1829944d422d053b983d1ef67dc41ac4f583e5dae6495b55d8028bd",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/usable-resource-v3-20261001/target-audit.jsonl",
+      "bytes": 6218007,
+      "sha256": "28708c66965eb05ac1babd0ffd01327e5be7db461d7d8705672c4a132c2600dc",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/occurrence-evidence-20261001/recovered-grammar-inventories.jsonl",
+      "bytes": 8882,
+      "sha256": "906de3d5529a65b752929ff1578330617c527835ab5e56dcdc3f6e6ab67b718e",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/occurrence-evidence-20261001/source-claims.jsonl",
+      "bytes": 4733,
+      "sha256": "0d03e8f0d30368676395365c5671305f75ed5fd120e587686bd45ce770a3be3a",
+      "reason": "Exact learning data retained locally; excluded from public snapshot"
+    },
+    {
+      "path": "resources/local/source-analysis-preparation-20261001/source-analysis-view.jsonl",
+      "bytes": 29658,
+      "sha256": "837bae97f47f82dd1872972d457e3ebd48a58eb7a028a4f6f28458f2212dba23",
       "reason": "Exact learning data retained locally; excluded from public snapshot"
     }
   ],

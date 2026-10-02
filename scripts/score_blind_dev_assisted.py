@@ -38,6 +38,8 @@ def validate_reviews(packet, reviews, expected_count=96):
                     and review["supported_span_severity"] == review["unknown_span_handling"] == "uncertain", "Execution failure received a meaning judgment")
         elif row["assessment"] == "provisional_whole_translation":
             require(judgment in JUDGMENTS, "Whole judgment missing")
+            require(review["supported_span_severity"] != "critical_error" or judgment == "critical_error",
+                    "Supported critical error contradicts whole judgment; obtain corrected review")
             if judgment == "accepted":
                 require(all(v in {"pass", "not_applicable"} for v in cats.values())
                         and all(cats[k] == "pass" for k in ("lexical_meaning", "omissions", "unsupported_additions", "source_uncertainty"))

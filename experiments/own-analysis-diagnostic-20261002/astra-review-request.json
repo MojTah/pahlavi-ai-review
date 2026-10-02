@@ -1,0 +1,22 @@
+{
+  "status": "REQUESTED_PENDING",
+  "checkpoint_commit": "baa3938c6d0f903dd8f5a4b29bd0cce16c0845c5",
+  "thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "thread_title": "Review Solit’s work",
+  "model": "gpt-6-astra",
+  "requested_at_utc": "2026-10-02 04:03:28 UTC",
+  "scope": "Read-only local own-analysis-v1 design/runtime; no paid admission",
+  "human_authorization": "Mojtaba explicitly requests periodic review in the existing Astra chat.",
+  "prompt": "Mojtaba asked Main to continue improving Pahlavi-to-Persian quality and to request periodic read-only Astra review. Please review the new meaningful checkpoint at [USER_HOME]\\Documents\\ChatGPT\\Pahlavi language, branch codex/strategy-reset-20261001, commit baa3938c6d0f903dd8f5a4b29bd0cce16c0845c5. You are the requested Astra reviewer; Main remains the sole writer/execution owner.\n\nScope is local own-analysis-v1 preparation, not approval of training or a paid run. Read experiments/own-analysis-diagnostic-20261002/{README.md,PROTOCOL.md,REVIEW.md,source-qualification.json,prepare.py,packet-manifest.json,runtime-readiness.json,check_runtime.py}, cloud_pilot/{component_eval.py,hf_component.py}, and only the exact9 model-visible inputs and3 reference-constraint records in resources/local/own-analysis-diagnostic-20261002. The prepared execution preview there is local only, run a737d9381c50499eacea9c5ab6e6dc96, never submitted. Verify packet/file hashes against current bytes, and inspect the source pins only if needed for these exact cases. Do not read protected answer bodies, inspect older generated outputs to steer this panel, edit files, launch jobs/training, access credentials/Drive/email, change access/billing, download weights or spend funds. Offline packet replay and bounded mock/SDK checks are permitted.\n\nThis follows your PARTIAL stage-result verdict: direct Persian translation versus translation from the model's own unedited first analysis, identical source-only evidence/common final instruction. Three complete supplied spans (Kanheri arrival, Amol obligation, Berlin allocation/sealing), two conservative broader groups; MP5651 held for unresolved agent/patient syntax. References remain provisional; opaque technical terms, restored year and uncertain poultry reading are not silently certified. No new whole-passage quality claim. Fixed9 slots DAP/APD/DAP, N3 each final arm. No oracle/reference-derived case hints, semantic filtering, retries or post-result exclusions.\n\nIndependent local critic PASS after repairs: same-case binding of skipped P; boolean dispatch/count consistency; resolved P input receipt copied into immutable P-done snapshot. Current component_eval SHA256 037bdfaac5d5d7e0ba9ce83144617b04f3db2c6a07a0ed61daecfb3c08c763aa. Root tests passed both old12 protocols and six new dependency scenarios; critic reproduced packet/real SDK12/12/9 and corruption/persistence guards. GPU canary, live funds/rate/idle-job, remote durability and paid authorization remain pending.\n\nPlease return PASS/PARTIAL/HOLD explicitly for (1) source/reference and measurement design and (2) local runtime/accounting readiness, with concrete file/line evidence, remaining corrections and the smallest justified next step. In particular scrutinize uncertainty acceptance, N3 continuation threshold, exact raw A→P prompt/token provenance, skip/fatal/interruption handling, timing/cost distinctions and legacy compatibility. A positive local verdict is not linguistic certification, promotion or launch admission. Provide the report in this chat so Main can retrieve it; do not start another chat or perform external work.",
+  "dispatch_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a0f7ac-6022-7b52-a27f-7cc6481c3c22\"}"
+      }
+    ],
+    "isError": false
+  },
+  "training_admitted": false,
+  "paid_run_admitted": false
+}

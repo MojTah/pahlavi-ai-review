@@ -1,0 +1,338 @@
+{
+  "B001": {
+    "case_id": "LD-013",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "45f2cade73ddb5a58d469f07b8edcaafd493287ed861dab14b35ca6cc2a5297c"
+  },
+  "B002": {
+    "case_id": "LD-005",
+    "arm": "candidate",
+    "module": "lexical_task_recall",
+    "output_sha256": "13520b19bfc9fd873f14391348dcd565698b597ae0905a70a421283faca48bb9"
+  },
+  "B003": {
+    "case_id": "LD-021",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "e1d913a4fafef46ba3a91b75d9d9e502afe4324e4196053959cfd3b67f0118b2"
+  },
+  "B004": {
+    "case_id": "LD-019",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "d2522c02ed62680de2b810d67a4fec0bf856972a94c02e5c428b1afcf7ad467b"
+  },
+  "B005": {
+    "case_id": "LD-015",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "61dc9f357806cc277b6ad8e3a28e646960fecbbe8fab8bd56fdb2d0ed843fdc1"
+  },
+  "B006": {
+    "case_id": "LD-012",
+    "arm": "candidate",
+    "module": "inscription_task_recall",
+    "output_sha256": "0d62afba0f4c93e863d6ae1f7716b7a6e21dd871151563e122b5bb2a361c8642"
+  },
+  "B007": {
+    "case_id": "LD-022",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "40d6df395282aedf716cd5f4193dc38d6f6e612c1b1f20530bbaa6723e835f01"
+  },
+  "B008": {
+    "case_id": "LD-009",
+    "arm": "candidate",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "d20649dab35be02c5c01c89140f8149603a621bea0d0025c002b41b80c53b2e3"
+  },
+  "B009": {
+    "case_id": "LD-010",
+    "arm": "candidate",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "dcb6135bf735dc0f68e86f5434ed05c516bf2ae3900e0873330a85c4de5cd6d6"
+  },
+  "B010": {
+    "case_id": "LD-004",
+    "arm": "candidate",
+    "module": "lexical_task_recall",
+    "output_sha256": "eade4c6196de858f87302e415b622a6f9d40ed945426fc689b96b6494dae72c6"
+  },
+  "B011": {
+    "case_id": "LD-021",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "6c99940a9f934b5a29bf689d1157e8bf1a8903a460e562335758786fdc050655"
+  },
+  "B012": {
+    "case_id": "LD-001",
+    "arm": "candidate",
+    "module": "lexical_task_recall",
+    "output_sha256": "49b8774c054ba9b4d4be9be69373d9d06bc1aa9af6715ee1e35950fbe3c17e76"
+  },
+  "B013": {
+    "case_id": "LD-019",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "0d3e88603f527d0afc5694cce73f291b78f5d126048ed20debab962804bf1c15"
+  },
+  "B014": {
+    "case_id": "LD-007",
+    "arm": "candidate",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "100bea6bcd2ae2947f7dc6f88cb45b2726e7437ed045119224f10a438738c616"
+  },
+  "B015": {
+    "case_id": "LD-023",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "0eb87dd1a0936754ca818f783620c756630c5898c3d374b05ce6f8922816bb27"
+  },
+  "B016": {
+    "case_id": "LD-004",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "output_sha256": "5db7abe4281046dd4fe84436c79c85d8379cad76c05e30e784eedea9f8210283"
+  },
+  "B017": {
+    "case_id": "LD-020",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "ee3f470c5be9594a32da87d8ac280cd86a84fb0243edce11007cab888355ac4f"
+  },
+  "B018": {
+    "case_id": "LD-012",
+    "arm": "reference",
+    "module": "inscription_task_recall",
+    "output_sha256": "24bed7b1a18382d49a4db7fd0d6196b9e4e5c69367549d888ccd5754785797de"
+  },
+  "B019": {
+    "case_id": "LD-005",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "output_sha256": "3a4a0df55bbdaec752e9c7ada0247d64196e1b40900bfd7113da793fe0fca7d1"
+  },
+  "B020": {
+    "case_id": "LD-011",
+    "arm": "candidate",
+    "module": "inscription_task_recall",
+    "output_sha256": "b6adc32911807cbbaea49090e150336244773c6c9568d9bcaa49ea9ea97d5110"
+  },
+  "B021": {
+    "case_id": "LD-002",
+    "arm": "candidate",
+    "module": "lexical_task_recall",
+    "output_sha256": "ac2bca99c6907be3b047d5a22f37e5abfa5d41f73ba763f1bd7f8345ac6dbbf5"
+  },
+  "B022": {
+    "case_id": "LD-008",
+    "arm": "candidate",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "bfacd04500d28764019134d7ae8fe7d5ee87a83625a924f897a79adec38b4d5d"
+  },
+  "B023": {
+    "case_id": "LD-001",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "output_sha256": "1a88a5712a3247b395f938b78569ec2ecf3a0be85704c7dceb331f8cf6a34d94"
+  },
+  "B024": {
+    "case_id": "LD-023",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "cf54def50819fb58f5eef471ae599fa88029b24190ce2973ea876f6137509d2a"
+  },
+  "B025": {
+    "case_id": "LD-026",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "c25913c3c7f2d0663a08b86a5af70137b45810c582b62f2296c7f3ccb61bdbb8"
+  },
+  "B026": {
+    "case_id": "LD-027",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "dac43d249b92d6bce1ac020514519f90e06e3a25ed185af57c686e73343b74f9"
+  },
+  "B027": {
+    "case_id": "LD-006",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "output_sha256": "daa1007aa83c9ad8b6b8280fd80e4fa2ebbb78e332bc16751f73a29bd08e7d45"
+  },
+  "B028": {
+    "case_id": "LD-003",
+    "arm": "candidate",
+    "module": "lexical_task_recall",
+    "output_sha256": "9e8e31791d29c242f9371c5388d6adf52fff64833be8bfb8f706b0403c28db43"
+  },
+  "B029": {
+    "case_id": "LD-007",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "7656e4a38a7ee3ee595c97366f8382f8c71acf736e1f6e23d950ae46d4bf682e"
+  },
+  "B030": {
+    "case_id": "LD-025",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "ce9c415f5bef3140a396173bd7e59a1f98d12c36b5d39ac4f564a74fb0b0b63d"
+  },
+  "B031": {
+    "case_id": "LD-018",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "686f95f5d0aa9cbd13561e59fef10b3fa063a57d9050e745aa01064265a3a71f"
+  },
+  "B032": {
+    "case_id": "LD-008",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "60b062a72e596d4077aadb69950327f6b23226f5e9fa8800573a44a2e51321a1"
+  },
+  "B033": {
+    "case_id": "LD-018",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "8db7e954397590aafedf4d95056435829a463e52ccdf5adf5214f3ff46dcb3f8"
+  },
+  "B034": {
+    "case_id": "LD-022",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "186a629a157d9baa991bf7b0714fa857e2b7a23c782d71e99893baf1a43b739b"
+  },
+  "B035": {
+    "case_id": "LD-020",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "8c6d83cfb3b71d91abe3e8b46d9cb8898f02a450e255438669ef7e602a1cae9d"
+  },
+  "B036": {
+    "case_id": "LD-006",
+    "arm": "candidate",
+    "module": "lexical_task_recall",
+    "output_sha256": "25fe1daea00b9a6f2b5d2a941e6cc1ed67f88c5578ff2e725d741b360c1ca1a9"
+  },
+  "B037": {
+    "case_id": "LD-010",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "dcb6135bf735dc0f68e86f5434ed05c516bf2ae3900e0873330a85c4de5cd6d6"
+  },
+  "B038": {
+    "case_id": "LD-016",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "a2d63a472f215abb991e513a954b7b9366696344f7b4db5496cebc144021dbf9"
+  },
+  "B039": {
+    "case_id": "LD-016",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "a2d63a472f215abb991e513a954b7b9366696344f7b4db5496cebc144021dbf9"
+  },
+  "B040": {
+    "case_id": "LD-025",
+    "arm": "candidate",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "dafcf24fc1440b63197f0f85039b36388e94df739f559baa4a5e79492ec4d095"
+  },
+  "B041": {
+    "case_id": "LD-028",
+    "arm": "candidate",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "b06dfd4c3063a1f31b80ca5ea1fa436bac8cc79e9ae5a03a03e0f686b8e5a5dc"
+  },
+  "B042": {
+    "case_id": "LD-009",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "output_sha256": "cb8bc7eae31b1f52fc9b57b74bb988b1396be663dde61973d9ab3e369f02d55f"
+  },
+  "B043": {
+    "case_id": "LD-024",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "956492986ddfbbaab63e3bd713c294af0f14e99d6a69bc7a3c50522b7f4d2890"
+  },
+  "B044": {
+    "case_id": "LD-028",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "52bc1467da672e5fe73356383ebbcb06ef469d368900ab1693810814d90bb43a"
+  },
+  "B045": {
+    "case_id": "LD-003",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "output_sha256": "6b658ab7492c7dc562dee368fcb56d6cb3866da1a33ee9fa1929e69da4488e57"
+  },
+  "B046": {
+    "case_id": "LD-026",
+    "arm": "candidate",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "962451bea80aba83c1af254d2893da40b8edc36eb6b4168ba66885720be96d75"
+  },
+  "B047": {
+    "case_id": "LD-002",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "output_sha256": "865b1c86469f363114117c5a9ab71b4e066d943ac98d159faf9ac1ffa479be7e"
+  },
+  "B048": {
+    "case_id": "LD-024",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "5381d066816526b71f887b3ef25eef55ebc8ec6ecfbcf7f78fb83a6fbfbddc64"
+  },
+  "B049": {
+    "case_id": "LD-017",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "0aa28d45ca72228a19cc2a9a53e24d080f8817344c03f5f091395e09cda796d3"
+  },
+  "B050": {
+    "case_id": "LD-027",
+    "arm": "candidate",
+    "module": "targeted_sense_applicability",
+    "output_sha256": "7833ff02cb6b4b4b32cd8c1562b99ca30623daf2821139d94f3e6bfadf80c0c9"
+  },
+  "B051": {
+    "case_id": "LD-013",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "2b0d455da5de2611695dbf9992749f45b5e8e0d28360a09c3417fafb9013312a"
+  },
+  "B052": {
+    "case_id": "LD-015",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "cc5538cf5b855edbb32e3fb521a6844e3ad17d08490b97a2bf575a9446843bfb"
+  },
+  "B053": {
+    "case_id": "LD-011",
+    "arm": "reference",
+    "module": "inscription_task_recall",
+    "output_sha256": "b6adc32911807cbbaea49090e150336244773c6c9568d9bcaa49ea9ea97d5110"
+  },
+  "B054": {
+    "case_id": "LD-017",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "ab015fb252321536f283749a6333a84fd762528172b66dbcfb12177c5153a16d"
+  },
+  "B055": {
+    "case_id": "LD-014",
+    "arm": "candidate",
+    "module": "historical_context_retention",
+    "output_sha256": "6b54340aacb51e9d3607a3d29b64bdfe64bb92c51d5c0ed845c8f419d33c090f"
+  },
+  "B056": {
+    "case_id": "LD-014",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "output_sha256": "d4bae6a7684889954f51c8c2a9737666ff3d3c4752694a07430274364eef887c"
+  }
+}

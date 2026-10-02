@@ -1,0 +1,31 @@
+Failed prototype. After multiple training iterations the best recorded result (corrected-v2, 2/15 accepted passages) does not clear the project’s own stated threshold of ≥2 passages across ≥2 works, and the 1-passage gain over mixed96 (1/15) has no statistical weight at this evaluation scale. The bottleneck is not architectural: it is a compound of a confirmed gradient-flow error, a structurally skewed corpus, and an evaluation rubric calibrated for a production system rather than early-stage iteration. No amount of hyperparameter search fixes any of those three things.
+Three iterations, effectively flat. The upward step from 1 to 2 falls within single-passage noise on a 15-item set.
+1. Loss weighting error — Critical
+contextual_train.py applies 20× the gradient pressure to contextual targets versus standard translation tokens. Every training run executed under this configuration has systematically under-trained the primary translation objective. This is not a tuning choice: it is a bug. All prior experiment conclusions are contaminated by it.
+2. Corpus skew — High
+One work accounts for ~49% of 2,237 qualified training pairs. At that concentration the model is not generalising across Pahlavi registers — it is learning the idiolect of a single text. Generalisation failure to other works is structurally determined by the data, not by insufficient training steps.
+3. Exposure bias — High
+Good NLL alongside poor free-generation quality is the textbook signature of teacher-forcing overfitting. The model has learned next-token prediction conditioned on gold prefixes; it has not learned to sustain coherent autoregressive output. This does not resolve by training longer under the same regime.
+4. Evaluation rubric calibration — Medium
+Classifying a single participant-role error as a “critical failure” is appropriate for deployment review; it is punishing as an iteration signal on a 15-passage dev set. One such error removes ~7% of available score. The rubric is causing metric saturation: there is no resolution at the performance range currently being measured.
+5. Dev set size — Medium
+15 passages produce confidence intervals wide enough that a 1-passage difference is indistinguishable from variance. No result on this set can be taken as evidence that one configuration outperforms another.
+- Qualified training pairs: 2,237
+- Dominant work share: ~49%
+- Effective coverage: heavily biased toward one source register and syntactic style
+- No evidence (in retrieved files) of deduplication audit, inter-work style normalisation, or vocabulary coverage analysis across the corpus
+- Exposure bias confirmed behaviorally: NLL tracks well; autoregressive output does not
+The current loop — adjust mixing ratios and hyperparameters, retrain, evaluate on the same 15 passages — has no remaining headroom. It cannot surface the loss-weighting error’s contribution, cannot compensate for corpus skew, and cannot distinguish real improvement from noise at this evaluation scale.
+Continuing this loop before fixing the structural issues wastes training budget and produces unreliable evidence.
+Viable redirections in priority order:
+1. Fix the loss weighting bug before any new training run — otherwise the gradient error is still the dominant factor in all results.
+2. Rebalance the corpus — cap the dominant work at ≤20% of training pairs per epoch; assess whether even low-quality augmentation from secondary sources improves cross-work generalisation.
+3. Address exposure bias in the training regime — scheduled sampling or minimum-risk training in the final training phase rather than pure teacher-forcing throughout.
+4. Decouple the evaluation rubric — score translation fluency/adequacy separately from protocol compliance; use the former as the primary iteration signal at this stage.
+5. Expand the dev set before treating any result as meaningful — under 50 passages, claims about improvement cannot be separated from noise.
+1. Patch contextual_train.py — correct the 20× contextual loss weight. Do not initiate new training until this is confirmed fixed.
+2. Rebalance the training corpus — identify and cap the dominant work’s share; log the per-work distribution explicitly in every future experiment report.
+3. Run a minimal ablation under corrected conditions — 2–3 experiments maximum to isolate the effect of the patch and rebalancing before drawing any architectural conclusions.
+4. Revise the evaluation rubric — separate fluency/adequacy scoring from protocol compliance for prototype-stage use.
+5. If corrected experiments still fail to reach threshold — the 2,237-pair ceiling is likely the binding constraint, not the training configuration. At that point the decision is about additional data acquisition, not further hyperparameter search.
+Without a tool call in this reply I was unable to inspect: the full REVIEW-PROMPT.md contents directly (only the summary account is available), raw tokenisation or vocabulary coverage statistics, any inter-annotator agreement data underlying the evaluation rubric, and the precise base-model architecture and fine-tuning method (parameter count, adapter type, etc.). The architecture-level claims above are inferred from behavioral evidence in the experiment reports, not from a direct specification document.

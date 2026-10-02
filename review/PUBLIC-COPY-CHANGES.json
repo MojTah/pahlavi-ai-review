@@ -48,9 +48,39 @@
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
+    "path": "experiments/astra-preparation-review-20260930/DIAGNOSTIC-REVIEW.md",
+    "source_sha256": "5c5478a20c9b0355ac91c1f655f544d95f923a08541c5ef6c3fc8406befab8f2",
+    "public_sha256": "0bd05e8be0bb3ff667f9ef091f4de334fcbe1fe3d6cc535e23a08cd2d2de1e59",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/astra-preparation-review-20260930/GATE-REVIEW.md",
+    "source_sha256": "8845422bcbdb9c6dad2b0fbfca5fe5a4aa10e2948b05d903bb3385a2dd684ea4",
+    "public_sha256": "eddb866bcba8f4fb3e84a59552983c18d6b16c6dd472462012b9a4e6c7a82758",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
     "path": "experiments/candidate-review-20260928/README.md",
     "source_sha256": "e855950d7dbd60b1d5343b3a1e39060a1b779fa502488c919e79a55dc0b3a0a8",
     "public_sha256": "b9f4704c648699e9235ccbbba78e8466289262def23142cf04aad694227e0297",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/component-diagnostic-20261001/PROTOCOL.md",
+    "source_sha256": "3324ee76779bd77af856bfd49125fafd5b42df869b1dd76bed13988aa610b7f9",
+    "public_sha256": "a31069bff1cbba70d6d23c9936b178b01895dbc34474f988ed91992ccb2fb451",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/component-diagnostic-20261001/packet-manifest.json",
+    "source_sha256": "08589df191f9ebb2337a59638b30c38f26510f6a5c4394be492920b3cf8decd4",
+    "public_sha256": "1e39baf91b648b153a3541135c8f7888043afc3c780f5611b26ff750eb58b1a7",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/component-diagnostic-20261001/prepare.py",
+    "source_sha256": "5a6ccbdf74401462e03be3ebe9a677e2158fc1509b2da3f6779a16a348f29c1c",
+    "public_sha256": "8ed693a184eef87d6e72a07b78762ec4d5e45158ed5de23d0f8c64465c518504",
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
@@ -105,6 +135,12 @@
     "path": "experiments/contextual-supervision-20260927/token-census/result.json",
     "source_sha256": "406843264d8c9f9ddef7cfc5d8f40354b7c7d1845165a541dde8ae6d5d2981e7",
     "public_sha256": "43e711c6648863639cd8630ad6e73c1f36dbf932294b510a2897741b9aa96d04",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/corrected-learning-diagnosis-20260930/README.md",
+    "source_sha256": "7b090ebc690fc373ad8cca175fc73dd0c3c09d1373845f21e769d462c020367c",
+    "public_sha256": "91ed09bee90409450afa8891979d3c13a5739da99365cfa8d3e7d8e6ee884e22",
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
@@ -168,6 +204,24 @@
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
+    "path": "experiments/dose-acquisition-20260930/confirmation/README.md",
+    "source_sha256": "7ab421a48f59dd5f4cc87e6468daf0a719554bbe10508c57b043c335e6b98e8c",
+    "public_sha256": "6afffa04568852d68f65d38822685e00ed232a6ebeb392b83381d8a30b16f79e",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/external-review-20260930/DATA-BEHAVIOR-AUDIT.md",
+    "source_sha256": "db6dca9a08e6b1e4dd0896a1d83dc307b6f50697dbfdb16e8b7313e9879ac3ef",
+    "public_sha256": "df66aaa59a16f1f374fc4bc6658808471a3447c95cf22718169a64bd25f9a16e",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/external-review-20260930/MEASUREMENT-AUDIT.md",
+    "source_sha256": "01368c47ceafbe6fc0bd048bc130dcf7c908470c0fdcf4bf8f42d8c694faa21c",
+    "public_sha256": "966292bfbea9e527ede24447f6e51abc32a90e41db44eec908320079a27abc08",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
     "path": "experiments/full-pretraining-audit-20260929/HISTORICAL.md",
     "source_sha256": "087c5d2417f1e64a2f115e8efc6cc9c41507910ee5ef23421c5f9961163e961c",
     "public_sha256": "811f7681f91836a8fa078512eb28d858daf6a28c9924c61e91a40e378171cef3",
@@ -228,9 +282,129 @@
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
+    "path": "experiments/occurrence-evidence-20261001/README.md",
+    "source_sha256": "794deec53b78870c567968ba23268b0a3fc51831ff3d9e781c64de477fc17ca6",
+    "public_sha256": "bee5fa50dcc22cedb81cfc827ae02334a716cd5af68fbbd26c1f09c67e14d09a",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/README.md",
+    "source_sha256": "6873a961a61fa7c1532f809848402fdb70ac5a153fe5e238293e6f017e7911dc",
+    "public_sha256": "f6ec19a97ecc6f3e805d030e1d7447a4ad591313b145b1ec594c333551ffa980",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-closure-request.json",
+    "source_sha256": "10a4a23cca9a4fe11253b6c619ce36fd97cbaeb8206354f09405f5b0480e62b9",
+    "public_sha256": "43142ca33daaf61d926609f5c62e8ae20b70f7309475ee6ac413257679b826a6",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-closure-response.json",
+    "source_sha256": "142a3be4d7071cc5a65012ad6c13db6263b04f4264c5f272cf56a4217a59724d",
+    "public_sha256": "3756a246f46b84d00c71846235445e9bbecfabd73579006dfc2e4e25bdbb1012",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-launch-review.json",
+    "source_sha256": "7a50681fc28f127f6a42a0dc5d96f279d78614bcd60c7ef7ef367eccacc497ec",
+    "public_sha256": "f54af5701677b7637a04a706c4f2d2a2b0fb37e6c0ec0096f55725bd8921f2bb",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-result-review-request.json",
+    "source_sha256": "968e9ca8173db217dfba676db22bbfd2855919e1aefd27c642c14fdff538c010",
+    "public_sha256": "6960690d42806bf54d877bb0867f045782208ba552c98c809463d49113009ea0",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-review-request.json",
+    "source_sha256": "126680759e9f7838defe2b712c8f2d66e36957e49505fd05a2635ebbb29bfb37",
+    "public_sha256": "19ad4e0b681c1b2d0ea1bc26e26df0c5b0e04a1e6cb42a4ff66a53d81ab27ea4",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-review-response.json",
+    "source_sha256": "2ae1c82674f5bace72f2f35bd3b2db43ed041e3e615265d0d8b09b7d1b73ddaf",
+    "public_sha256": "b8f40c8d709cec79eeb6f3be1657978e3498f68daeb9605c2722970c8635f92c",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-scoring-closure.json",
+    "source_sha256": "07d181c104d0580ebdb42401cbd8748cf4a150f8400e8429dde92de39f34319e",
+    "public_sha256": "1c257a6590319637efac8acd1ebccc9d9348f35ab04638615cb64a3490129333",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/astra-scoring-review.json",
+    "source_sha256": "c6560ad77199b6f2cdf5ad9c8a1a943882ce518c1614f6d5e5fb2092b3b1fa26",
+    "public_sha256": "16ab7d275bc17bb20d5aa17203e6837cc36d8bae3ab1e63db61cb7a7a55bacb9",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
     "path": "experiments/palref-paired-20260927/lead-only/provenance.json",
     "source_sha256": "8eabb52ffcec796112f4397739c9eb761cf221cd6d4dbae15f55a01b6344a97f",
     "public_sha256": "abdb66508bce5463bba84209e85e561953903517a9ba88c209dab836c5fa886e",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/plain-target-preparation-20261001/README.md",
+    "source_sha256": "0660f835ba414a698a8ac447d9a14df0edaf0f21bc925626a64de17c02e03b36",
+    "public_sha256": "d7c13107bf716df94ac604c8156ec9e8e8794c8fb84fd0df9c0e4d4cc674ac8a",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/ASTRA-SUBMISSION.md",
+    "source_sha256": "b5afded3d16f83530423da8ba9b3563a7c94391651ed9ba5f7ef9bb4f23f4f45",
+    "public_sha256": "6f90b9825af9fe18880499a6a28f5083274fb539c1ba47b749ab1fcfc4f8b7dc",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/DIAGNOSTIC-REPAIR.md",
+    "source_sha256": "63d61ed7b21c86f1038f7e41e9ff3006a59ee70dcff897c91081db472fb590f0",
+    "public_sha256": "874268e83a1c004620f7bf955a2f0c675e1c02c304093318472791725050f004",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/EXECUTION-HANDOFF.md",
+    "source_sha256": "b4d92bc1266012d0ab33b76ad0d5a4814e4cc8255f73a81eb83f2e46739b3072",
+    "public_sha256": "f968e0b91701c96d13b30c73d5a94183fafb0359697f9c3cda1f78e657b5dcca",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/LOCAL-HANDOFF-IMPLEMENTATION.md",
+    "source_sha256": "4735ff98af01184d7fb9218d81413a14eb2e8eb860c91871815ab068f3a68817",
+    "public_sha256": "3888eb31d3dc5fc52422baf6367e894fc938038ea22468a56932e40ab8b1d565",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/README.md",
+    "source_sha256": "f75dc3453199cf4202e34e7323d502dfd269ce63a4c93c26aaa496622377f6f1",
+    "public_sha256": "ec9cabae050da5bc39d68d6456a49f34367041132a9e9417b037a5b6fc35378f",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/SUBMISSION-REPAIR.md",
+    "source_sha256": "5dd0493a8f5abe3c203645f8157973e2fcc56d176d7b5f0e46ec63f9e2844d96",
+    "public_sha256": "90095a8d47eccc6d4a08a79d5b0ea45a7af982fb2382fc5272430cfca7c1ef2a",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/checkout-check.json",
+    "source_sha256": "15fe83b76cfc9f41e9a374ae1b750fe0ff4c2e0ba9ac1a9db0bce974df273f15",
+    "public_sha256": "4b7ec307b36706876dc3710f6125cde42e5074561125bc4a1ce016d77f2ca9f8",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/readiness-repair-20260930/execution-proposal/handoff.json",
+    "source_sha256": "8ac3af55f4ab6dd9f6c7580b0d79d35a6884ab1c9cf5239f49ead361f19716b5",
+    "public_sha256": "f66fed76a64353d3b5c9c77df8882c55f5d6a5f09346f2b648e44aeb37940961",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/semantic-stage-diagnostic-20261001/NEXT-COMPARISON.md",
+    "source_sha256": "7d9f19c65a452235beeece713a656425173b91844e0e9dc3c0de90462c8feecb",
+    "public_sha256": "ab9809cce81696b4e9021f6f0d85bd6b1bc8526b50827da9c5e257360d5b4f5d",
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
@@ -252,6 +426,18 @@
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {
+    "path": "experiments/training-admission-20260930/LEGACY-REPAIR.md",
+    "source_sha256": "af0f6c2e2818e371558cf1a7908c3be92a064aa30a6ba9a45e2cdb29cc8fd984",
+    "public_sha256": "ebf9937e314b3d33a6ba6438f53c8a2c85880d786de353204c1f87094a9de0ae",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/training-admission-20260930/SOL-REVIEW.md",
+    "source_sha256": "f352ba6d119f79d23ce2c7f23dc6378997d0cdf79293e4e6a2cf64c95c9a6102",
+    "public_sha256": "9903032c576a074de478ba4783d6e6b2f4ac399bb4e055dd9d59b6e8c9073054",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
     "path": "experiments/training-ready-v2-20260929/OUTCOME-QA.md",
     "source_sha256": "09557ce161725c7f15c549c16d75d23c5e4b1e591548ecbd1811bdbc3eb21e7d",
     "public_sha256": "ebdf2ae34d08b02b43fc0d98a7749da3f18b99aafd702afaf03af4fc4047d151",
@@ -267,6 +453,12 @@
     "path": "experiments/training-ready-v2-20260929/lexical-review.md",
     "source_sha256": "cac0448e9e45af08187c2d1af7d5559946b7aa908da25088bd9de6a9544c1be8",
     "public_sha256": "d283151aa0e5e983ba00c58b4dacf533e33dc51295d45f1a2216b6252b63a5a2",
+    "change": "Normalize personal local path prefixes in public copy only"
+  },
+  {
+    "path": "experiments/usable-resource-20261001/README.md",
+    "source_sha256": "c7121251b6b987b64f98c97716cfe710dcb3c8624ab2e0ba056ae9ad4fd4b6fd",
+    "public_sha256": "892a4865021cea6f88afcb917950a9927d564e341a457431b766a72cdc049fed",
     "change": "Normalize personal local path prefixes in public copy only"
   },
   {

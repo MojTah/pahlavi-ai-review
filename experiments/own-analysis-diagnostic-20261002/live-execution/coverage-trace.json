@@ -1,0 +1,93 @@
+{
+  "candidate_file": "resources\\local\\plain-target-preparation-20261001\\data\\learning-projections.jsonl",
+  "candidate_rows": 9971,
+  "candidate_sha256": "b91a80ef92bc8f6adc3ae9ccae2f174ded02662b2d7445e7c29ac7350d6bfb17",
+  "candidate_tasks": {
+    "documentary-en": 53,
+    "edition-spans-en": 4,
+    "historical-control-fa": 2230,
+    "inscription-fa": 6,
+    "lexical-en": 3412,
+    "lexical-fa": 2606,
+    "lexical-mmp-en": 1420,
+    "pedagogy-fa": 240
+  },
+  "full_trace_private_path": "resources\\local\\own-analysis-diagnostic-20261002\\authorized-execution\\bounded-coverage-trace.json",
+  "full_trace_sha256": "35641424d158cf5cf8ab5e695d8fda3964bc321ec22b73b1bd7a52278da5fb75",
+  "limitations": [
+    "Occurrence token presence does not establish the same sense, lemma/category, supervised role, actual gradient exposure or learned competence.",
+    "Current candidate pool is not the retained step280 training file.",
+    "Nonmatch does not prove absence under spelling/inflection/segmentation variants.",
+    "No test references, model analyses or reviewer corrections are added to training.",
+    "All matched meanings/contexts retained; no automatic homograph/sense collapse."
+  ],
+  "normalization": "Casefold/NFKD/remove combining marks, exact Unicode letter token equality; no fuzzy match or certified lemma/inflection mapping.",
+  "purpose": "BOUNDED_COVERAGE_TRACE_NOT_NEW_GOLD_OR_TRAINING",
+  "results": {
+    "account_surface": {
+      "candidate_contextual_rows": 13,
+      "candidate_lexical_rows": 10,
+      "queried_forms": [
+        "mar",
+        "marī"
+      ],
+      "trained_source_rows": 11,
+      "trained_target_languages": {
+        "fa": 11
+      }
+    },
+    "manager_surface": {
+      "candidate_contextual_rows": 9,
+      "candidate_lexical_rows": 0,
+      "queried_forms": [
+        "dārīg"
+      ],
+      "trained_source_rows": 0,
+      "trained_target_languages": {}
+    },
+    "ostandar_title": {
+      "candidate_contextual_rows": 9,
+      "candidate_lexical_rows": 0,
+      "queried_forms": [
+        "ostāndār"
+      ],
+      "trained_source_rows": 0,
+      "trained_target_languages": {}
+    },
+    "ration_surface": {
+      "candidate_contextual_rows": 7,
+      "candidate_lexical_rows": 1,
+      "queried_forms": [
+        "rōzīg"
+      ],
+      "trained_source_rows": 0,
+      "trained_target_languages": {}
+    },
+    "refining_infinitive": {
+      "candidate_contextual_rows": 1,
+      "candidate_lexical_rows": 2,
+      "queried_forms": [
+        "wēxtan"
+      ],
+      "trained_source_rows": 0,
+      "trained_target_languages": {}
+    },
+    "sealing_surface_or_candidate_lemma": {
+      "candidate_contextual_rows": 21,
+      "candidate_lexical_rows": 1,
+      "queried_forms": [
+        "āwišt",
+        "āwištan",
+        "āwistan"
+      ],
+      "trained_source_rows": 0,
+      "trained_target_languages": {}
+    }
+  },
+  "train_file": "resources\\local\\cloud-pilot-qualified-20260927\\train.jsonl",
+  "train_rows": 2237,
+  "train_sha256": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+  "train_target_languages": {
+    "fa": 2237
+  }
+}

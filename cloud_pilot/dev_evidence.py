@@ -17,7 +17,9 @@ except ImportError:
 TRAIN_SHA256 = "844a5b64d43a423b69d5989527a53273290a43be15c399056c979f5abb0678a1"
 SOURCE_HASHES = {
     "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
-    "bundle.py": "9721bcb2152b9f5e2fe1670b5ca280950dcfa2a81eefb13e132ac11dd2bbb1ce",
+    # read_inputs uses reject_controls; its behavior is unchanged in this helper.
+    # This identifies the current rebuild, not the historical evidence audit.
+    "bundle.py": "60094706124ee58b78a2b73b6a43c30eb9310a2a1d3786f83749e95b597b1a2d",
 }
 
 

@@ -1,0 +1,10 @@
+{
+  "observed_utc": "2026-10-02T02:46:06.766829+00:00",
+  "run_id": "4b81ec26dfa248959a18538067f261d6",
+  "final_manifest_sha256": "47ed875de9cbf7cfc766095053d3a223954bf57187550a8b370e2b160e86bc04",
+  "declared_files_verified": 48,
+  "declared_bytes_verified": 196935,
+  "local_destination": "resources\\local\\semantic-stage-diagnostic-20261001\\recovered",
+  "all_declared_files_readback_verified": true,
+  "weights_downloaded": false
+}

@@ -1,0 +1,562 @@
+{
+  "provisional_ai_review": true,
+  "expert_adjudicated": false,
+  "pooled_accuracy": null,
+  "reviewers": {
+    "reviewer-a": {
+      "lexical_task_recall": {
+        "reference": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 6
+          },
+          "structure": {
+            "valid_json_different_schema": 6
+          }
+        },
+        "dose96": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 6
+          },
+          "structure": {
+            "valid_target_schema": 6
+          }
+        },
+        "dose192": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 5,
+            "accepted": 1
+          },
+          "structure": {
+            "valid_target_schema": 6
+          }
+        },
+        "dose384": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 1,
+            "accepted": 5
+          },
+          "structure": {
+            "valid_target_schema": 6
+          }
+        }
+      },
+      "conditioned_grammar_recall": {
+        "reference": {
+          "n": 4,
+          "labels": {
+            "accepted": 3,
+            "critical_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        },
+        "dose384": {
+          "n": 4,
+          "labels": {
+            "accepted": 4
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        }
+      },
+      "inscription_task_recall": {
+        "reference": {
+          "n": 2,
+          "labels": {
+            "accepted": 1,
+            "meaning_error": 1
+          },
+          "structure": {
+            "not_applicable": 2
+          }
+        },
+        "dose384": {
+          "n": 2,
+          "labels": {
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 2
+          }
+        }
+      },
+      "historical_context_retention": {
+        "reference": {
+          "n": 12,
+          "labels": {
+            "critical_error": 2,
+            "meaning_error": 8,
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 12
+          }
+        },
+        "dose384": {
+          "n": 12,
+          "labels": {
+            "accepted": 9,
+            "critical_error": 2,
+            "meaning_error": 1
+          },
+          "structure": {
+            "not_applicable": 12
+          }
+        }
+      },
+      "targeted_sense_applicability": {
+        "reference": {
+          "n": 4,
+          "labels": {
+            "meaning_error": 4
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        },
+        "dose384": {
+          "n": 4,
+          "labels": {
+            "accepted": 3,
+            "meaning_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        }
+      },
+      "fixed_whole": {
+        "reference": {
+          "n": 15,
+          "labels": {
+            "meaning_error": 12,
+            "critical_error": 3
+          },
+          "structure": {
+            "not_applicable": 15
+          }
+        },
+        "dose384": {
+          "n": 15,
+          "labels": {
+            "critical_error": 5,
+            "meaning_error": 9,
+            "accepted": 1
+          },
+          "structure": {
+            "not_applicable": 15
+          }
+        }
+      },
+      "fixed_constrained": {
+        "reference": {
+          "n": 9,
+          "labels": {
+            "critical_error": 2,
+            "meaning_error": 7
+          },
+          "structure": {
+            "not_applicable": 9
+          }
+        },
+        "dose384": {
+          "n": 9,
+          "labels": {
+            "meaning_error": 6,
+            "critical_error": 3
+          },
+          "structure": {
+            "not_applicable": 9
+          }
+        }
+      },
+      "confirmation": {
+        "reference": {
+          "n": 5,
+          "labels": {
+            "meaning_error": 4,
+            "accepted": 1
+          },
+          "structure": {
+            "valid_json_different_schema": 4,
+            "not_applicable": 1
+          }
+        },
+        "dose384": {
+          "n": 5,
+          "labels": {
+            "meaning_error": 4,
+            "accepted": 1
+          },
+          "structure": {
+            "valid_target_schema": 4,
+            "not_applicable": 1
+          }
+        }
+      }
+    },
+    "reviewer-b": {
+      "lexical_task_recall": {
+        "reference": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 6
+          },
+          "structure": {
+            "valid_json_different_schema": 6
+          }
+        },
+        "dose96": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 5,
+            "accepted": 1
+          },
+          "structure": {
+            "valid_target_schema": 6
+          }
+        },
+        "dose192": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 5,
+            "accepted": 1
+          },
+          "structure": {
+            "valid_target_schema": 6
+          }
+        },
+        "dose384": {
+          "n": 6,
+          "labels": {
+            "meaning_error": 1,
+            "accepted": 5
+          },
+          "structure": {
+            "valid_target_schema": 6
+          }
+        }
+      },
+      "conditioned_grammar_recall": {
+        "reference": {
+          "n": 4,
+          "labels": {
+            "accepted": 3,
+            "critical_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        },
+        "dose384": {
+          "n": 4,
+          "labels": {
+            "accepted": 4
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        }
+      },
+      "inscription_task_recall": {
+        "reference": {
+          "n": 2,
+          "labels": {
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 2
+          }
+        },
+        "dose384": {
+          "n": 2,
+          "labels": {
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 2
+          }
+        }
+      },
+      "historical_context_retention": {
+        "reference": {
+          "n": 12,
+          "labels": {
+            "critical_error": 2,
+            "meaning_error": 8,
+            "accepted": 2
+          },
+          "structure": {
+            "not_applicable": 12
+          }
+        },
+        "dose384": {
+          "n": 12,
+          "labels": {
+            "accepted": 9,
+            "meaning_error": 3
+          },
+          "structure": {
+            "not_applicable": 12
+          }
+        }
+      },
+      "targeted_sense_applicability": {
+        "reference": {
+          "n": 4,
+          "labels": {
+            "meaning_error": 4
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        },
+        "dose384": {
+          "n": 4,
+          "labels": {
+            "accepted": 3,
+            "meaning_error": 1
+          },
+          "structure": {
+            "not_applicable": 4
+          }
+        }
+      },
+      "fixed_whole": {
+        "reference": {
+          "n": 15,
+          "labels": {
+            "meaning_error": 11,
+            "critical_error": 4
+          },
+          "structure": {
+            "not_applicable": 15
+          }
+        },
+        "dose384": {
+          "n": 15,
+          "labels": {
+            "critical_error": 6,
+            "meaning_error": 8,
+            "accepted": 1
+          },
+          "structure": {
+            "not_applicable": 15
+          }
+        }
+      },
+      "fixed_constrained": {
+        "reference": {
+          "n": 9,
+          "labels": {
+            "critical_error": 2,
+            "meaning_error": 7
+          },
+          "structure": {
+            "not_applicable": 9
+          }
+        },
+        "dose384": {
+          "n": 9,
+          "labels": {
+            "meaning_error": 6,
+            "critical_error": 3
+          },
+          "structure": {
+            "not_applicable": 9
+          }
+        }
+      },
+      "confirmation": {
+        "reference": {
+          "n": 5,
+          "labels": {
+            "meaning_error": 4,
+            "accepted": 1
+          },
+          "structure": {
+            "valid_json_different_schema": 4,
+            "not_applicable": 1
+          }
+        },
+        "dose384": {
+          "n": 5,
+          "labels": {
+            "meaning_error": 4,
+            "accepted": 1
+          },
+          "structure": {
+            "valid_target_schema": 4,
+            "not_applicable": 1
+          }
+        }
+      }
+    }
+  },
+  "gates": {
+    "reviewer-a": {
+      "lexical_net_gain": 5,
+      "acquisition_pass": true,
+      "lost_accepted_whole_cases": [],
+      "new_accepted_to_critical_cases": [],
+      "fixed_critical_counts_not_increased": false,
+      "retention_safety_pass": false,
+      "confirmation_newly_accepted_cases": [],
+      "confirmation_critical_not_increased": true
+    },
+    "reviewer-b": {
+      "lexical_net_gain": 5,
+      "acquisition_pass": true,
+      "lost_accepted_whole_cases": [],
+      "new_accepted_to_critical_cases": [],
+      "fixed_critical_counts_not_increased": false,
+      "retention_safety_pass": false,
+      "confirmation_newly_accepted_cases": [],
+      "confirmation_critical_not_increased": true
+    }
+  },
+  "source_sha256": {
+    "BLIND-REVIEW.md": "dfaaa0f0e025fafb93d8a935b474cea263fcad1a4256acf3f7a27bc93b6cea09",
+    "blind-packet.jsonl": "ea05d0b4fa894fcd05c53a8a9387a543d283c90debb47078d4bf468cfee42806",
+    "blind-mapping.json": "a5ac16b2ba43b5c6a4c1eddfb9b2cdd36f78c9bcdde77e88a4388e4a7e436c42",
+    "reviewer-a.jsonl": "781f0805b03c50da4a54774ee5dec1a3058b4dff9f7464865722b4db7512e21c",
+    "reviewer-b.jsonl": "64d94d7571358c02076fde42e43d387476e845b5649092ae048b3fbb523d600f"
+  },
+  "fixed_whole_by_work": {
+    "reviewer-a": {
+      "parsig:112:reference": {
+        "meaning_error": 5
+      },
+      "parsig:138:dose384": {
+        "critical_error": 1,
+        "meaning_error": 3
+      },
+      "parsig:103:reference": {
+        "meaning_error": 4
+      },
+      "parsig:103:dose384": {
+        "meaning_error": 2,
+        "accepted": 1,
+        "critical_error": 1
+      },
+      "parsig:517:reference": {
+        "critical_error": 2
+      },
+      "parsig:112:dose384": {
+        "meaning_error": 4,
+        "critical_error": 1
+      },
+      "parsig:517:dose384": {
+        "critical_error": 2
+      },
+      "parsig:138:reference": {
+        "critical_error": 1,
+        "meaning_error": 3
+      }
+    },
+    "reviewer-b": {
+      "parsig:112:reference": {
+        "meaning_error": 5
+      },
+      "parsig:138:dose384": {
+        "critical_error": 2,
+        "meaning_error": 2
+      },
+      "parsig:103:reference": {
+        "meaning_error": 4
+      },
+      "parsig:103:dose384": {
+        "meaning_error": 2,
+        "accepted": 1,
+        "critical_error": 1
+      },
+      "parsig:517:reference": {
+        "critical_error": 2
+      },
+      "parsig:112:dose384": {
+        "meaning_error": 4,
+        "critical_error": 1
+      },
+      "parsig:517:dose384": {
+        "critical_error": 2
+      },
+      "parsig:138:reference": {
+        "critical_error": 2,
+        "meaning_error": 2
+      }
+    }
+  },
+  "joint_new_confirmation_cases": [],
+  "acquisition_pass_both": true,
+  "retention_safety_pass_both": false,
+  "confirmation_pass_both": false,
+  "full_pool_proposal_screen_pass": false,
+  "label_disagreements": [
+    {
+      "blind_id": "B005",
+      "case_id": "LD-019",
+      "arm": "dose384",
+      "module": "historical_context_retention",
+      "review_module": "passage",
+      "output_sha256": "72c2d5ef0dc9bb62eba5d9bff937c18c28f2b3962d289abc12c546e72bc7f4fc",
+      "a": "critical_error",
+      "b": "meaning_error"
+    },
+    {
+      "blind_id": "B027",
+      "case_id": "LD-020",
+      "arm": "dose384",
+      "module": "historical_context_retention",
+      "review_module": "passage",
+      "output_sha256": "4da03facc3f9b1a8ca75f2b23b043dca9ac7aa674b58fa87f5d1964516d39228",
+      "a": "critical_error",
+      "b": "meaning_error"
+    },
+    {
+      "blind_id": "B046",
+      "case_id": "QUALITYDEV1-014",
+      "arm": "dose384",
+      "module": "fixed_merit",
+      "review_module": "fixed_whole",
+      "output_sha256": "0911ed5157d967f552d687ceeed4f25025ef8a183b52e54f127c2ac9ea1f249e",
+      "a": "meaning_error",
+      "b": "critical_error"
+    },
+    {
+      "blind_id": "B075",
+      "case_id": "QUALITYDEV1-014",
+      "arm": "reference",
+      "module": "fixed_merit",
+      "review_module": "fixed_whole",
+      "output_sha256": "6429e2633549082ed3d22d9d384fa3a0da6c7d149949544607a5afdd06db79ae",
+      "a": "meaning_error",
+      "b": "critical_error"
+    },
+    {
+      "blind_id": "B094",
+      "case_id": "LD-011",
+      "arm": "reference",
+      "module": "inscription_task_recall",
+      "review_module": "inscription_task_recall",
+      "output_sha256": "23c3162ae41bae77637278cce9e9ff050a1b65b32cff0fb1eb07dac423c05021",
+      "a": "meaning_error",
+      "b": "accepted"
+    },
+    {
+      "blind_id": "B102",
+      "case_id": "LD-005",
+      "arm": "dose96",
+      "module": "lexical_task_recall",
+      "review_module": "lexical_task_recall",
+      "output_sha256": "28ae72e5c54d2557993674d6de51bdcda74fd11f8a1cba3e1b70e735afc62db5",
+      "a": "meaning_error",
+      "b": "accepted"
+    }
+  ]
+}

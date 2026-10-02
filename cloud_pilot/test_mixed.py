@@ -123,10 +123,11 @@ class MixedTest(unittest.TestCase):
         manifest=ROOT/'experiments/training-ready-v2-20260929/data-manifest.json'
         spec, settings=hf_mixed.prepare(train,manifest,'1'*32)
         rows,_=mixed_run.read_data(train,manifest,settings)
+        self.assertEqual(_['experiment_id'], 'mixed-supervision-20260929:corrected-v2')
         self.assertFalse(core.forecast(rows,20,1000,1200)['admitted'])
         self.assertTrue(core.forecast(rows,20,100,3500)['admitted'])
         with self.assertRaises(ValueError):core.forecast(rows,20,float('nan'),3000)
-        transport=ast.parse(spec['command'][3])
+        transport=ast.parse(settings['training_admission']['intended_command'])
         payload=ast.literal_eval(transport.body[1].value.args[0].args[0])
         code=gzip.decompress(base64.b64decode(payload)).decode()
         program=ast.parse(code)
@@ -134,7 +135,7 @@ class MixedTest(unittest.TestCase):
         namespace={}
         exec(compile(program,'exact-mixed-artifact','exec'),namespace)
         self.assertTrue(callable(namespace['execute_mixed']))
-        self.assertEqual(namespace['settings'], {k: v for k,v in settings.items() if k not in {'output_prefix','prepared_not_submitted','decoded_command_sha256','command_sha256','command_arg_utf8_bytes','command_total_utf8_bytes_with_nul'}})
+        self.assertEqual(namespace['settings'], {k: v for k,v in settings.items() if k not in {'output_prefix','prepared_not_submitted','decoded_command_sha256','command_sha256','command_arg_utf8_bytes','command_total_utf8_bytes_with_nul','training_admission'}})
         self.assertEqual(spec['timeout'],'100m')
         self.assertEqual(settings['internal_seconds']-settings['compute_seconds'],600)
         for name,entry in namespace['scripts'].items():

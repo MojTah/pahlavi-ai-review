@@ -1,0 +1,884 @@
+{
+  "B001": {
+    "case_id": "LD-015",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "37d619f8712b4963d0a31b28a1e7dae06ab57c7d6db4c00534fa369486d29596"
+  },
+  "B002": {
+    "case_id": "QUALITYDEV1-011",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "850a5b492fe69396c478a9f10345ff3e2c1ccbaa021b65a144b718db440b35e4"
+  },
+  "B003": {
+    "case_id": "LD-004",
+    "arm": "dose96",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "37f012fd2f57bb3d36cd66b0d8a57c43145dd5ef719f231b75ca5df219cfeddb"
+  },
+  "B004": {
+    "case_id": "QUALITYDEV1-023",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "6d27faefda21691b5834eb7ade4f5e6621dfe66099bf4ebe5ef18d5f5f8d5636"
+  },
+  "B005": {
+    "case_id": "LD-019",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "72c2d5ef0dc9bb62eba5d9bff937c18c28f2b3962d289abc12c546e72bc7f4fc"
+  },
+  "B006": {
+    "case_id": "LD-014",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "6b54340aacb51e9d3607a3d29b64bdfe64bb92c51d5c0ed845c8f419d33c090f"
+  },
+  "B007": {
+    "case_id": "QUALITYDEV1-009",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "1ad7ff2c6e984278108b4931505cf512b0ab6fada759be0725baf7a9fbf4d875"
+  },
+  "B008": {
+    "case_id": "LD-017",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "2b6d90e9764b38b708538ac0767a8639e20e50c649b96542971445fe76657c93"
+  },
+  "B009": {
+    "case_id": "QUALITYDEV1-024",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "66289cfe4612d20f6d18d404d40918add54fb5dd50ef1beadf76f7e37a534dc8"
+  },
+  "B010": {
+    "case_id": "QUALITYDEV1-017",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "ce8134b1b1e219abecdcb55749ec1b85665df6dc4a33d094a7a4e3c04b1d594e"
+  },
+  "B011": {
+    "case_id": "LD-024",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "05e971700569e87c24efe6d841a35daf2b182e672db13acd02777ee8a5aaf311"
+  },
+  "B012": {
+    "case_id": "LD-027",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "c397e94bea43e7378bbf405bbb6ec11b0138a6533c5d94fe8aa95235550f4349"
+  },
+  "B013": {
+    "case_id": "QUALITYDEV1-008",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "2a4d87a08180390fc81590420c612f079231d14a1f7b45e7109f02873f7e30ac"
+  },
+  "B014": {
+    "case_id": "QUALITYDEV1-002",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "fff1a94ac4d2d73fcb056b85379e337c2700b4f3e19a6407658974c63e500c7a"
+  },
+  "B015": {
+    "case_id": "LD-010",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "dcb6135bf735dc0f68e86f5434ed05c516bf2ae3900e0873330a85c4de5cd6d6"
+  },
+  "B016": {
+    "case_id": "LD-022",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "cf7e1b74eac04a2992c846c2f131fe77c79fb6eb1c951758fb0e762df94f9bb9"
+  },
+  "B017": {
+    "case_id": "QUALITYDEV1-003",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "bee9bbf7591e1c6443eb5b65e5ca195e5ab474b99661c82e87dcbc4619dd419a"
+  },
+  "B018": {
+    "case_id": "LD-006",
+    "arm": "dose96",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "3fcbfa24f8e8c1384bb9c9aa1d6d740537de3c3c7723c5332d68c1ea76fdd478"
+  },
+  "B019": {
+    "case_id": "LD-018",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "686f95f5d0aa9cbd13561e59fef10b3fa063a57d9050e745aa01064265a3a71f"
+  },
+  "B020": {
+    "case_id": "QUALITYDEV1-020",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "7fefdf96157b72f9794375a21d2fdd496c9955f733620e801b1ebe1bcf0da441"
+  },
+  "B021": {
+    "case_id": "LD-026",
+    "arm": "dose384",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "830862344f223048064251c2c66a49900b88a01f3655c0ed2143dad766cb406a"
+  },
+  "B022": {
+    "case_id": "LD-026",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "aafc5fb92ac6878a214efe8f5b8f5b27ee60a6fbce019961064d290c300bc85d"
+  },
+  "B023": {
+    "case_id": "LD-021",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "26d2ff9e5e501ac39c3268dbb24b1aa9ba933c321476cfab0587199e302e9e61"
+  },
+  "B024": {
+    "case_id": "QUALITYDEV1-004",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "fb04b75d9a590064c315fb2113b693631408e2a3e0aa55264c089f80f9de9cdd"
+  },
+  "B025": {
+    "case_id": "LD-002",
+    "arm": "dose96",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "96d462b21519475b327b96529f0f9e1870ba846b039c3e0f650788a66f50eb37"
+  },
+  "B026": {
+    "case_id": "LD-005",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "361a519a8c65af91e602c895b6b72db55e5015bbe7fea0ff35c6536b64a3465f"
+  },
+  "B027": {
+    "case_id": "LD-020",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "4da03facc3f9b1a8ca75f2b23b043dca9ac7aa674b58fa87f5d1964516d39228"
+  },
+  "B028": {
+    "case_id": "LD-001",
+    "arm": "dose192",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "9816868fa0a00a90a2ffc8bb3e05a1d8cb019f5cc76e036dc4f9111a61f8b251"
+  },
+  "B029": {
+    "case_id": "LD-025",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "90638b2fe5b8b401f482227b2b06528ef4669b74a96a2e70f682a849973d269b"
+  },
+  "B030": {
+    "case_id": "LD-017",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "78adfebe672c7981461052546da85b6731cd4ee2552df57b482df444c0a47097"
+  },
+  "B031": {
+    "case_id": "QUALITYDEV1-010",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "46b9b6e6d5edbbec6f437c46075f16ea7b44760bf4724952db0d1e861d420c01"
+  },
+  "B032": {
+    "case_id": "LD-002",
+    "arm": "dose192",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "ac2bca99c6907be3b047d5a22f37e5abfa5d41f73ba763f1bd7f8345ac6dbbf5"
+  },
+  "B033": {
+    "case_id": "LD-016",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "a2d63a472f215abb991e513a954b7b9366696344f7b4db5496cebc144021dbf9"
+  },
+  "B034": {
+    "case_id": "CONF-001",
+    "arm": "dose384",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "3e678fd298a077dbe4361f8e0ee6d8f012185b9a8b2f49cd0633b462d4db0d5b"
+  },
+  "B035": {
+    "case_id": "QUALITYDEV1-011",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "368e161f978c31f84391c7b28c1d208ac57ab9dff4e8f605c11e900208ae4a4a"
+  },
+  "B036": {
+    "case_id": "LD-001",
+    "arm": "dose96",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "55b721fa25bddfcd1dcb85cc3d4cd99ba849abd6ba360d166fbe12c5ef045bcb"
+  },
+  "B037": {
+    "case_id": "QUALITYDEV1-023",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "4b2eb2ad78a15c781547314414683d6303cac2be6db79f0d61fb7f1c678d483d"
+  },
+  "B038": {
+    "case_id": "LD-023",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "35b11dbd3da1538da25050180fc844e2b55f1b5f8612e676d2dee44a51b791ac"
+  },
+  "B039": {
+    "case_id": "CONF-004",
+    "arm": "dose384",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "7249671a433fe7f5ab2b305e726213d9a470f31e3f5a6bf6d98e3938c36cdb5c"
+  },
+  "B040": {
+    "case_id": "QUALITYDEV1-010",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "061bbb659a11ba0bdda4abdeb1041e7214544d70e0f812c0edd8e132ac4fc1e0"
+  },
+  "B041": {
+    "case_id": "LD-022",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "93d7fea1e245991a4a8f38b2d239ff6219b0831f017bdb1449b935886d2b0cf5"
+  },
+  "B042": {
+    "case_id": "QUALITYDEV1-005",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "2cf2f1329983b952bc7097b1186c16dbdbddeb5557232be85c222bbb00ed6145"
+  },
+  "B043": {
+    "case_id": "CONF-005",
+    "arm": "dose384",
+    "module": "confirmation",
+    "review_module": "inscription_task_recall",
+    "output_sha256": "3cde392ad70c002be65e599c52677f3c9e65f93b7e782039d9a1eed744fc39f5"
+  },
+  "B044": {
+    "case_id": "CONF-003",
+    "arm": "reference",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "4664c7542f17a8132befa95fe3417d626a16e4a2e617efad80e356b7e8f539f6"
+  },
+  "B045": {
+    "case_id": "CONF-004",
+    "arm": "reference",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "8b726cd760e9e4b5d333715638ff0eae79e0f56efdb75c69982447a82a07bea8"
+  },
+  "B046": {
+    "case_id": "QUALITYDEV1-014",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "0911ed5157d967f552d687ceeed4f25025ef8a183b52e54f127c2ac9ea1f249e"
+  },
+  "B047": {
+    "case_id": "LD-014",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "d4bae6a7684889954f51c8c2a9737666ff3d3c4752694a07430274364eef887c"
+  },
+  "B048": {
+    "case_id": "QUALITYDEV1-002",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "143c372ca70e5aaf55fa46a45a60c2086d53a740e721c6688306f7a054446713"
+  },
+  "B049": {
+    "case_id": "QUALITYDEV1-016",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "f57de981af835522c4b275459e0cc3efb0572185b2b87058fce6f37466469e2f"
+  },
+  "B050": {
+    "case_id": "QUALITYDEV1-009",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "6a84077a50abcd4206660af75b4707d32c6c8572824fa10df85555923d8d278d"
+  },
+  "B051": {
+    "case_id": "QUALITYDEV1-020",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "4dbd9c59dd08551b78a1f6edbc460d2f8fed0c4ac6e3b614cd99c4c525f80c43"
+  },
+  "B052": {
+    "case_id": "LD-015",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "61dc9f357806cc277b6ad8e3a28e646960fecbbe8fab8bd56fdb2d0ed843fdc1"
+  },
+  "B053": {
+    "case_id": "LD-011",
+    "arm": "dose384",
+    "module": "inscription_task_recall",
+    "review_module": "inscription_task_recall",
+    "output_sha256": "0785e0f902b2e35607789636c81f13dd98115ea992ef224c240277ba30b0f056"
+  },
+  "B054": {
+    "case_id": "QUALITYDEV1-001",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "455d3eea32c816266ba3ed3b5c473920c0fbaee6b25f3f6e9c5cc4657f3f8754"
+  },
+  "B055": {
+    "case_id": "QUALITYDEV1-006",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "e0a47a2c06a60a86e1d38f55daf561d0029290cd52e8af12b8fb6cb4f6636e41"
+  },
+  "B056": {
+    "case_id": "LD-006",
+    "arm": "dose384",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "f00126626cc2e36465c37efa30a4ff1064da3a98b813da2c7c294ccaaccb6a77"
+  },
+  "B057": {
+    "case_id": "LD-002",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "a8b6a421a32a65bbb015bc7ac036d83c170b3b8f9a7a38dc7c5b442751123524"
+  },
+  "B058": {
+    "case_id": "LD-027",
+    "arm": "dose384",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "a04ceba544bb5138a2c1068dc6720168eec97f942e90deb0358a67aa8fbeddd2"
+  },
+  "B059": {
+    "case_id": "QUALITYDEV1-022",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "8c986ca4a3e45e92dd88f40e237e073630d088506d0b8b0d78dcefe3362c576f"
+  },
+  "B060": {
+    "case_id": "LD-009",
+    "arm": "dose384",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "2914cf7cd066b901a60ec3435d777e3d75167258ada08688aea01ee93441e9f7"
+  },
+  "B061": {
+    "case_id": "QUALITYDEV1-017",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "ed135b6eb2b99ab5f7c4f882c804c6b2ef88dca43f2454423425e3122d84ca7d"
+  },
+  "B062": {
+    "case_id": "LD-018",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "4ac9d8bf805d67384ca062203a23d62015ebbb57015aacbcba1ac51a50df676f"
+  },
+  "B063": {
+    "case_id": "QUALITYDEV1-019",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "9f80f948c80586c113d0b9b625b0c70b11df4e7fb60fcc04455af734e7a2d238"
+  },
+  "B064": {
+    "case_id": "LD-007",
+    "arm": "dose384",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "7656e4a38a7ee3ee595c97366f8382f8c71acf736e1f6e23d950ae46d4bf682e"
+  },
+  "B065": {
+    "case_id": "CONF-002",
+    "arm": "reference",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "483f82bab9d2c4a4e5b367ec79a5a07a69a185eb9c70bfa83cd8b8434bbd3d85"
+  },
+  "B066": {
+    "case_id": "QUALITYDEV1-022",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "03e5b74e59293df9f52f5a9f82b9e208c72329c0846801794f204adedfd44407"
+  },
+  "B067": {
+    "case_id": "QUALITYDEV1-012",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "ec6ae4af35aaf7095e5751b7f3ef97d5121199f058813874917eb0feb6dd7627"
+  },
+  "B068": {
+    "case_id": "QUALITYDEV1-004",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "c363b3a267e8d0ab14dd08977a2b496fa6ebb9f463f987146bb6cad09e96ed65"
+  },
+  "B069": {
+    "case_id": "QUALITYDEV1-008",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "d7cc2f3f915fe24ba3958018f98630afe39d357bb0bdf971d45372af19ce00c4"
+  },
+  "B070": {
+    "case_id": "LD-004",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "73e952fa45b6b633f2a0422741f33c0d5da1ecfc72ce7fa045d41dd8ac821924"
+  },
+  "B071": {
+    "case_id": "QUALITYDEV1-015",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "c5a099878ae94f7a6c3f7a0ea111e5d7c59c1538778a848e58b27e46be1a13ed"
+  },
+  "B072": {
+    "case_id": "QUALITYDEV1-021",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "49024e1fe8f06a371cfb7923e1a788e5ca0012b4606cec5cffd4f51063b0e5f2"
+  },
+  "B073": {
+    "case_id": "LD-013",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "2b0d455da5de2611695dbf9992749f45b5e8e0d28360a09c3417fafb9013312a"
+  },
+  "B074": {
+    "case_id": "LD-005",
+    "arm": "dose384",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "ea0edbc4420feaf10b41c69a76b806d74f79386b163f89a0d0ba19431aa0c138"
+  },
+  "B075": {
+    "case_id": "QUALITYDEV1-014",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "6429e2633549082ed3d22d9d384fa3a0da6c7d149949544607a5afdd06db79ae"
+  },
+  "B076": {
+    "case_id": "QUALITYDEV1-013",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "175d2a1f4585d547702dc60e34f974cff17a8e6592033406bb50c9b531e43f11"
+  },
+  "B077": {
+    "case_id": "LD-007",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "7656e4a38a7ee3ee595c97366f8382f8c71acf736e1f6e23d950ae46d4bf682e"
+  },
+  "B078": {
+    "case_id": "QUALITYDEV1-019",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "e72ef29fa588e12d89dce6a57c77160619b98884ae193abf62ac30c5d65ef8da"
+  },
+  "B079": {
+    "case_id": "QUALITYDEV1-024",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "4287bf3f6e15a03db24b0a05f0c44a64cc78e364c5d7381a8716bbe772e5712d"
+  },
+  "B080": {
+    "case_id": "LD-006",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "5aacefe0fb01b2d9fb65c0121912a7826399a016415a13d5de63f8056df98765"
+  },
+  "B081": {
+    "case_id": "LD-021",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "615ffed7b6e11d83f7061721ba772f1337bc7e5af2fe3f47b1079c0960a54725"
+  },
+  "B082": {
+    "case_id": "LD-013",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "2b0d455da5de2611695dbf9992749f45b5e8e0d28360a09c3417fafb9013312a"
+  },
+  "B083": {
+    "case_id": "LD-028",
+    "arm": "dose384",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "5ff07f7c4539af5651f59b46d136f18570d39253c8f302770324939f5bd7af70"
+  },
+  "B084": {
+    "case_id": "LD-002",
+    "arm": "dose384",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "54eb8e8bec2b91ce52793806a5b33c11e3e19e1844122bc55733db133367a218"
+  },
+  "B085": {
+    "case_id": "LD-024",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "956492986ddfbbaab63e3bd713c294af0f14e99d6a69bc7a3c50522b7f4d2890"
+  },
+  "B086": {
+    "case_id": "LD-023",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "453cf6c773bdd9bfd72ad0ed3b63459bf5ef7f7e2e9b004acecb3e3827da06d6"
+  },
+  "B087": {
+    "case_id": "CONF-001",
+    "arm": "reference",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "9ce80c29b8d45bb0b57d4d161fb7345d922b5cd75ac79026b2098955c5c999d1"
+  },
+  "B088": {
+    "case_id": "CONF-002",
+    "arm": "dose384",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "a41576121b91ebeaebc868ec00cf43a144e7f025a212560de0029f356ec718c1"
+  },
+  "B089": {
+    "case_id": "CONF-003",
+    "arm": "dose384",
+    "module": "confirmation",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "1e5d68e9da0276f76e24388fb208ac26c09aaaa037f16ec2f0ca902842891313"
+  },
+  "B090": {
+    "case_id": "LD-016",
+    "arm": "dose384",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "4c01d3ba05870aae877e9ec6b607453effbd60ab0b105fc21c4faec813a36288"
+  },
+  "B091": {
+    "case_id": "LD-004",
+    "arm": "dose192",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "963a89850157ca7c19b726d4232468e04872879a8ca7951a57016cc61142eadc"
+  },
+  "B092": {
+    "case_id": "LD-012",
+    "arm": "dose384",
+    "module": "inscription_task_recall",
+    "review_module": "inscription_task_recall",
+    "output_sha256": "60ae5d1d5ad144ea8cfc33ca6eefd9463fcfb2e47bdedff87fa92265261d47d6"
+  },
+  "B093": {
+    "case_id": "LD-012",
+    "arm": "reference",
+    "module": "inscription_task_recall",
+    "review_module": "inscription_task_recall",
+    "output_sha256": "8afc49c958d460024024c13decebd9f83a28bd957c822f40674c4c9f8b0f6f21"
+  },
+  "B094": {
+    "case_id": "LD-011",
+    "arm": "reference",
+    "module": "inscription_task_recall",
+    "review_module": "inscription_task_recall",
+    "output_sha256": "23c3162ae41bae77637278cce9e9ff050a1b65b32cff0fb1eb07dac423c05021"
+  },
+  "B095": {
+    "case_id": "LD-019",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "2fe0661fd809981d2e65dbaff9ceaef9285ea569cf2e3e43082bc4fbdbbd58da"
+  },
+  "B096": {
+    "case_id": "LD-001",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "1a88a5712a3247b395f938b78569ec2ecf3a0be85704c7dceb331f8cf6a34d94"
+  },
+  "B097": {
+    "case_id": "QUALITYDEV1-007",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "4459e93aee27a27c507824a669e128fe024fe44f7be20aeb129db05178924e70"
+  },
+  "B098": {
+    "case_id": "QUALITYDEV1-015",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "0b48cbf9b13d4f240d2206fd9f547bf9d046f477b5bff3fbe52b80248e00e4c8"
+  },
+  "B099": {
+    "case_id": "QUALITYDEV1-006",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "255b3de6d02599f3d5d4b0fd3779d712bdfa7108854bb29ce725e3bb561b5293"
+  },
+  "B100": {
+    "case_id": "QUALITYDEV1-016",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "94c8f1652a21a358aa82abcd1991d5c3ce7dd4784d4b5869b1602442d3867841"
+  },
+  "B101": {
+    "case_id": "QUALITYDEV1-021",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "9f6e32bf53ff38a73f57407e7d225014aa8d47928e765b39c5e4dbec56a55ec2"
+  },
+  "B102": {
+    "case_id": "LD-005",
+    "arm": "dose96",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "28ae72e5c54d2557993674d6de51bdcda74fd11f8a1cba3e1b70e735afc62db5"
+  },
+  "B103": {
+    "case_id": "LD-028",
+    "arm": "reference",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "09f565b9ef9b8bab185101de115104b0c6c707998688171d8136a698d61fca2b"
+  },
+  "B104": {
+    "case_id": "QUALITYDEV1-005",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "64ee815b5cab80c9cf3dd683ffa9c418e1a17630229f074ec6c079403b4001c8"
+  },
+  "B105": {
+    "case_id": "QUALITYDEV1-001",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "edb8c70e8856c9c8f31c998321cf1658fb5e02a0c9680547b432c180c74e8001"
+  },
+  "B106": {
+    "case_id": "LD-003",
+    "arm": "dose384",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "56041869f214ac4d19693bef6cb1ea2a805215ebb84f1db478f3f5dbe992915a"
+  },
+  "B107": {
+    "case_id": "LD-005",
+    "arm": "dose192",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "ea0edbc4420feaf10b41c69a76b806d74f79386b163f89a0d0ba19431aa0c138"
+  },
+  "B108": {
+    "case_id": "LD-003",
+    "arm": "dose96",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "fc00ed06d7d521e65c43e2e9f8fd75a9cb8f6e66a5a3be4b8d81bef2d739d91e"
+  },
+  "B109": {
+    "case_id": "LD-004",
+    "arm": "dose384",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "1c9626f4ea8d374dba42189c4f71d55a126020de2547521205f40520efef537c"
+  },
+  "B110": {
+    "case_id": "LD-001",
+    "arm": "dose384",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "4b9b5e74baabaa6d3a6a5b0814377069103ff7f5baa5bb6b0b65e91a99bfaab1"
+  },
+  "B111": {
+    "case_id": "QUALITYDEV1-018",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "7322d8f0c2b214d322a1b8cdf85615291c22dffd9b96cd8fc63af7ed1dab59ac"
+  },
+  "B112": {
+    "case_id": "LD-025",
+    "arm": "dose384",
+    "module": "targeted_sense_applicability",
+    "review_module": "targeted_passage",
+    "output_sha256": "93ee94e53cb73df6d27100be6425789db52c5e2f25b1492920c84830ace5e1aa"
+  },
+  "B113": {
+    "case_id": "LD-009",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "bfe5a201aea450c18e1d34893473772fe4f99c1ba7ce016b85b08f173155779b"
+  },
+  "B114": {
+    "case_id": "QUALITYDEV1-003",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "69fce000a2019a930fe469ee810122ae259a7ba2538f9b935c422312393b8d18"
+  },
+  "B115": {
+    "case_id": "LD-003",
+    "arm": "dose192",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "25d2d997eb19c6c3d659c71be2365d71ea06c86e370e99415004d9b173b70c6d"
+  },
+  "B116": {
+    "case_id": "LD-010",
+    "arm": "dose384",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "dcb6135bf735dc0f68e86f5434ed05c516bf2ae3900e0873330a85c4de5cd6d6"
+  },
+  "B117": {
+    "case_id": "QUALITYDEV1-013",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "a09478f62b6c6394bc0b9a6472dde6f8152a180f320704e108fca321a031aea7"
+  },
+  "B118": {
+    "case_id": "LD-020",
+    "arm": "reference",
+    "module": "historical_context_retention",
+    "review_module": "passage",
+    "output_sha256": "3a2838f198997be1f078f6baebb56c44fb0d6827db9d4cc2d5bb8eebd57bf965"
+  },
+  "B119": {
+    "case_id": "QUALITYDEV1-007",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "645b730b2efb79f9e1e26d6d2f41d8bbd6b19707ce3583d840fd95c1e6a6d568"
+  },
+  "B120": {
+    "case_id": "LD-006",
+    "arm": "dose192",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "bd8f2f90223ef9e5551c07a2403393ffdca51c41bb14040d5753988e95d90fc6"
+  },
+  "B121": {
+    "case_id": "LD-008",
+    "arm": "reference",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "60b062a72e596d4077aadb69950327f6b23226f5e9fa8800573a44a2e51321a1"
+  },
+  "B122": {
+    "case_id": "LD-003",
+    "arm": "reference",
+    "module": "lexical_task_recall",
+    "review_module": "lexical_task_recall",
+    "output_sha256": "414c15e964c31d3d8bb6955fd3bb95b491c6e8b25d6e422d62302510879a4446"
+  },
+  "B123": {
+    "case_id": "CONF-005",
+    "arm": "reference",
+    "module": "confirmation",
+    "review_module": "inscription_task_recall",
+    "output_sha256": "3cde392ad70c002be65e599c52677f3c9e65f93b7e782039d9a1eed744fc39f5"
+  },
+  "B124": {
+    "case_id": "LD-008",
+    "arm": "dose384",
+    "module": "conditioned_grammar_recall",
+    "review_module": "conditioned_grammar_recall",
+    "output_sha256": "bfacd04500d28764019134d7ae8fe7d5ee87a83625a924f897a79adec38b4d5d"
+  },
+  "B125": {
+    "case_id": "QUALITYDEV1-018",
+    "arm": "dose384",
+    "module": "fixed_merit",
+    "review_module": "fixed_constrained",
+    "output_sha256": "918a924a13713c706fa2069d52b838cf7f1a7234123c4fcb7001aa586180ce28"
+  },
+  "B126": {
+    "case_id": "QUALITYDEV1-012",
+    "arm": "reference",
+    "module": "fixed_merit",
+    "review_module": "fixed_whole",
+    "output_sha256": "346ff95190ff9cbab07309f0a4b31faae4c39834912e4c211162d56bcd484a02"
+  }
+}

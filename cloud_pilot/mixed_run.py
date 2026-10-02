@@ -54,6 +54,13 @@ def read_data(path, manifest_path, settings):
                 or any(t not in {'lexical-fa', 'lexical-en', 'lexical-mmp-en'} for t in tasks[12:14])
                 or any(t not in {'pedagogy-fa', 'documentary-en', 'inscription-fa', 'edition-spans-en'} for t in tasks[14:])):
             raise ValueError('Exact per-update 12:2:2 task order differs')
+    experiment = 'mixed-supervision-20260929'
+    version = manifest.get('version')
+    if version is not None:
+        if version != 'corrected-v2':
+            raise ValueError('Unknown mixed experiment manifest version')
+        experiment += ':' + version
+    manifest = dict(manifest, experiment_id=experiment)
     return rows, manifest
 
 
@@ -171,7 +178,7 @@ def run(args):
     prepared = old.prepare_prompts(rows, settings['prompt_identities'], tokenizer, context)
     output = Path(args.output)
     output.mkdir(parents=True, exist_ok=False)
-    identity = dict(experiment_id='mixed-supervision-20260929', settings=SETTINGS,
+    identity = dict(experiment_id=manifest['experiment_id'], settings=SETTINGS,
         data_manifest_sha256=settings['data_manifest_sha256'], train_sha256=settings['train_sha256'],
         inputs_sha256=frozen.INPUTS_SHA256, original_adapter_files=qualified.ADAPTER_FILES,
         original_adapter_manifest_sha256=qualified.ADAPTER_MANIFEST_SHA256, original_adapter_step=280,

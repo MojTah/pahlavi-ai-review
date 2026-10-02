@@ -1,5 +1,9 @@
 # Model-specific fine-tuning knowledge
 
+**Current direction, 1 October:** [history-informed decision](../../experiments/strategy-reset-20261001/REPORT.md). Retain Gemma step280; no new training contract is admitted. Recent actual sampling is already work-balanced. Earlier raw-pool counts and recipe suggestions below are historical settings, not the current execution schedule.
+
+**New offline projection:** [readable resource v3](../../experiments/usable-resource-20261001/README.md) removes storage-schema answer wrappers while retaining complete senses/qualifiers and exact source mappings. Its plain lexical targets require a matching instruction and fresh full-example token/mask/terminal checks; the old JSON-requesting prompt is incompatible. It is not a replacement train.jsonl or an admitted full-pool recipe. Named target reviews, multi-work independent analysis, explicit task exposure/loss, Astra review and exact launch authorization remain prerequisites.
+
 28 September 2026. This is a recipe register, not an executable launch contract. Historical settings describe what ran; proposed settings are not claims of optimality. See [evidence and decisions](EVIDENCE-AND-DECISIONS.md).
 
 ## Shared scientific contract

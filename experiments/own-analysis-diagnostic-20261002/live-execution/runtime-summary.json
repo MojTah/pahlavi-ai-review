@@ -1,0 +1,80 @@
+{
+  "adapter_step": 280,
+  "adapter_unchanged_after_inference": true,
+  "allowance_usd": "3.01",
+  "canary": {
+    "deadline_utc": "2026-10-02T09:29:07.403965+00:00",
+    "elapsed_seconds": 0.6101768449880183,
+    "experimental_attempts": 0,
+    "id": "AMOL1:P",
+    "input_tokens": 239,
+    "output_generated": false,
+    "peak_allocated_bytes": 63361688576,
+    "peak_reserved_bytes": 63621300224,
+    "rendered_input_ids_sha256": "5a538ec8268a34be940a69828a2a72f612b9d6abb91c94a254a2287d0ea34c10",
+    "status": "passed"
+  },
+  "committed_slots": 9,
+  "estimate_basis": "Provider start/finish interval times verified pre-launch minute rate; not invoice or a fresh billing balance.",
+  "estimated_compute_usd": "0.44679871325",
+  "generation_statuses": {
+    "AMOL1-A": "success",
+    "AMOL1-D": "success",
+    "AMOL1-P": "success",
+    "BERLIN6-A": "success",
+    "BERLIN6-D": "success",
+    "BERLIN6-P": "success",
+    "KANHERI01-A": "success",
+    "KANHERI01-D": "success",
+    "KANHERI01-P": "success"
+  },
+  "job_id": "6abf6e59fbc85ba682369cf0",
+  "known_committed_generated_tokens": {
+    "AP": 688,
+    "D": 164
+  },
+  "minute_rate_micro_usd": 41667,
+  "model_calls_started": 9,
+  "model_weights_downloaded": false,
+  "numerical_recipe": {
+    "attention": "eager",
+    "context_limit": 2048,
+    "do_sample": false,
+    "enable_thinking": false,
+    "fresh_context_each_output": true,
+    "max_generation_seconds": 90,
+    "max_new_tokens": 256,
+    "precision": "bf16_base_fp32_retained_lora",
+    "seed": 42
+  },
+  "optimizer_updates": 0,
+  "provider_started_to_finished_seconds": 643.385,
+  "residual_interpretation": "Provider interval minus D and AP recorded workflows; includes shared overhead but is not a measured overhead breakdown or arm allocation.",
+  "review_prepare_passed": true,
+  "run_id": "4fbd698f81214b60b0101f7f0b5ed677",
+  "scheduled_slots": 9,
+  "semantic_comparison_pending": false,
+  "stage": "COMPLETED",
+  "started_slots": 9,
+  "successful_outputs": 9,
+  "training_performed": false,
+  "unallocated_residual_seconds": 509.94766488402615,
+  "workflow_elapsed_seconds": {
+    "AMOL1": {
+      "AP": 53.620060249988455,
+      "D": 14.010823059012182
+    },
+    "BERLIN6": {
+      "AP": 38.590121264976915,
+      "D": 10.004334126017056
+    },
+    "KANHERI01": {
+      "AP": 15.400488762999885,
+      "D": 1.8115076529793441
+    }
+  },
+  "workflow_total_seconds": {
+    "AP": 107.61067027796526,
+    "D": 25.826664838008583
+  }
+}

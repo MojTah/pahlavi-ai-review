@@ -1,0 +1,18 @@
+{
+  "job_id": "6abe7f4e404719ba37618e63",
+  "stage": "RUNNING",
+  "message": null,
+  "observed_utc": "2026-10-01T15:45:35.775316+00:00",
+  "native_timeout_spec": "60m",
+  "startup_log_lines": 50,
+  "observed_phase_records": [
+    {
+      "stage": "bootstrap_complete",
+      "utc": "2026-10-01T15:44:20.891015+00:00"
+    },
+    {
+      "stage": "base_download_started",
+      "utc": "2026-10-01T15:44:29.001406+00:00"
+    }
+  ]
+}

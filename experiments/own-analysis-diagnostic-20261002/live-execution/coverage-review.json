@@ -1,0 +1,20 @@
+{
+  "critic_agent": "/root/plain_package_critic",
+  "verdict": "PASS_BOUNDED_COVERAGE_RECOUNT",
+  "training_rows": 2237,
+  "candidate_rows": 9971,
+  "both_source_hashes_verified": true,
+  "private_trace_hash_verified": true,
+  "matched_ids_and_lexical_projections_verified": true,
+  "normalization": "casefold, NFKD, remove combining marks, exact Unicode letter tokens",
+  "replayed_counts_training_lexical_contextual": {
+    "account": [11, 10, 13],
+    "manager": [0, 0, 9],
+    "title": [0, 0, 9],
+    "ration": [0, 1, 7],
+    "refining": [0, 2, 1],
+    "sealing": [0, 1, 21]
+  },
+  "scope": "Independent original-corpus token recount, hashes, task/language totals and claim boundaries; no semantic certification, edits, new training targets or paid authority.",
+  "required_corrections": []
+}

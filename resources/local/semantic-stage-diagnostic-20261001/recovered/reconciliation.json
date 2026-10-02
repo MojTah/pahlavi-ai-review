@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "scheduled_outputs": 12,
+  "attempted_outputs": 12,
+  "committed_jsonl_outputs": 12,
+  "per_output_status": {
+    "KANHERI06-I": "success",
+    "KANHERI06-R": "success",
+    "KANHERI06-S": "success",
+    "BERK25-R": "success",
+    "BERK25-S": "success",
+    "BERK25-I": "success",
+    "TB3-S": "success",
+    "TB3-I": "success",
+    "TB3-R": "success",
+    "ZAND301-S": "success",
+    "ZAND301-R": "success",
+    "ZAND301-I": "success"
+  },
+  "original_run_status": "completed",
+  "original_evidence_unchanged": true,
+  "replacements_generated": false,
+  "raw_predictions_sha256": "698bc974d6807519e2f86f760045c7f925e5fe70a1d52577bcc53192dc8f6e77"
+}

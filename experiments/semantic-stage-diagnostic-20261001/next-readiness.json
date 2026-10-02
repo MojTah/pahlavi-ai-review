@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "status": "LOCAL_PREPARATION_NOT_EXECUTION_READY",
+  "date_local": "2026-10-02",
+  "timezone": "America/Halifax",
+  "mode": "Classic + Critic",
+  "lead": "/root",
+  "inventory_reviewer": "/root/composition_packet_audit",
+  "inventory_verdict": "PARTIAL",
+  "primary_artifact_paths_root_verified": true,
+  "derived_pairs": "resources/local/plain-target-preparation-20261001/data/learning-projections.jsonl",
+  "artifact_sha256": {
+    "resources/local/plain-target-preparation-20261001/data/learning-projections.jsonl": "b91a80ef92bc8f6adc3ae9ccae2f174ded02662b2d7445e7c29ac7350d6bfb17",
+    "experiments/data-qualification-20260928/archive-alignment.jsonl": "051b4644ef0a4613f48232b9149398242a953f19726f36670919b10eb320019c",
+    "experiments/data-qualification-20260928/kanheri-candidates.jsonl": "d01b002f17641f3d62a98e67538bd79ba12712624ca62cd5645ba82ec7bec242",
+    "experiments/data-qualification-20260928/RELEASE-REVIEW.md": "c61d20e136201b34829338ecc18cd1821e27cd37d4285167dd66a744a54c4589",
+    "experiments/train-audit-20260927/qualified-v1/train.jsonl": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+    "resources/local/training-ready-v2-20260929/data/train.jsonl": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/acc8f488cad6d02f5948a96ff559cb627413bd1c7640d2e0f641c68367d1e896.source": "f0d49cd03d95c351558bc96aae9ba8347549263f3f058a1e3de2d7f257b62b48",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/fdc359f33218d482e5c678ad3c851bcb085f80cc66c4c953181c11cbe89fb903.source": "5231da441d557ae5fe3c5a5ecb2d818f040c417fcd6001dbf5aff274d88203d0",
+    "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/b385981ef422d96884dc19c958c274bf2e9efb0aefd923d83dbb71a2ae9fca1f.pdf": "720d3db41ea76865c65d4a6875f0c03bf785dcae1a37f20dd6365a6e1501800f",
+    "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/kanheri/page10.png": "8c1c81e43ec7ed8f6af0d1ccefa84c6b07294a961b6a09286d47da685ce7ae83"
+  },
+  "leads": [
+    {
+      "id": "openampd:MP5651:full",
+      "family_candidate": "Qal‘eh Iraj O.2",
+      "derived_line_one_based": 9924,
+      "qualification": "SOURCE_QUALIFIED_AI_REVIEWED_NOT_EXPERT_CERTIFIED",
+      "reference_status": "ENGLISH_EDITION_REFERENCE_NOT_PERSIAN_GOLD",
+      "next_readiness": "PENDING_TERSE_ROLE_AND_EDITORIAL_UNCERTAINTY_DISPOSITIONS",
+      "complete_independent_grammatical_analysis": false,
+      "in_later_selected1536": true,
+      "retained_step280_exposure": "NOT_ESTABLISHED_BY_SELECTED_ID",
+      "unseen_status": "NOT_ESTABLISHED",
+      "source_identity_screen": "PRIOR_DOCUMENTARY_OR_KANHERI_PROTECTED_FAMILY_SCREEN_PASSED_QUOTATION_LIMIT_REMAINS",
+      "admitted": false,
+      "source_codepoints": 55,
+      "source_sha256": "ee3d01bbda8743468ca1e2faba49ce9fcdf3643f1cbfdeb4614f19f3d1b436bd",
+      "target_codepoints": 60,
+      "target_sha256": "477ce9a55236213e2be625cb97583afd27fc91864200f59523b708ea749e2f7d"
+    },
+    {
+      "id": "KANHERI-ARTICLE-01-ARRIVAL",
+      "family_candidate": "Kanheri201",
+      "derived_line_one_based": 9963,
+      "qualification": "SOURCE_QUALIFIED_AI_REVIEWED_NOT_EXPERT_CERTIFIED",
+      "reference_status": "BOUNDED_PERSIAN_PUBLISHED_CLAUSE",
+      "next_readiness": "PENDING_PROSPECTIVE_RULES_NO_PARENT_SCOPE_EXPANSION",
+      "complete_independent_grammatical_analysis": false,
+      "in_later_selected1536": true,
+      "retained_step280_exposure": "NOT_ESTABLISHED_BY_SELECTED_ID",
+      "unseen_status": "NOT_ESTABLISHED",
+      "source_identity_screen": "PRIOR_DOCUMENTARY_OR_KANHERI_PROTECTED_FAMILY_SCREEN_PASSED_QUOTATION_LIMIT_REMAINS",
+      "admitted": false,
+      "source_codepoints": 30,
+      "source_sha256": "6477a00977ad8f6ca2e901034f137d1cc15de5b04c2717023ca42dda5a1017c1",
+      "target_codepoints": 22,
+      "target_sha256": "0785e0f902b2e35607789636c81f13dd98115ea992ef224c240277ba30b0f056"
+    },
+    {
+      "id": "openampd:MP0602:full",
+      "family_candidate": "Amol Doc.1 / Central Iran",
+      "derived_line_one_based": 9913,
+      "qualification": "SOURCE_QUALIFIED_AI_REVIEWED_NOT_EXPERT_CERTIFIED",
+      "reference_status": "ENGLISH_EDITION_REFERENCE_NOT_PERSIAN_GOLD",
+      "next_readiness": "PENDING_OBLIGATION_UNCERTAINTY_AND_BROADER_FAMILY_GROUPING",
+      "complete_independent_grammatical_analysis": false,
+      "in_later_selected1536": true,
+      "retained_step280_exposure": "NOT_ESTABLISHED_BY_SELECTED_ID",
+      "unseen_status": "NOT_ESTABLISHED",
+      "source_identity_screen": "PRIOR_DOCUMENTARY_OR_KANHERI_PROTECTED_FAMILY_SCREEN_PASSED_QUOTATION_LIMIT_REMAINS",
+      "admitted": false,
+      "source_codepoints": 247,
+      "source_sha256": "87e723c8e61ce2102bac16d37cf885412b91d020b145d28ebd4c634e704778e8",
+      "target_codepoints": 407,
+      "target_sha256": "676495000af55fe1c52d8b900907c52828c3d6d02fc0306a421768fb8685f5c1"
+    }
+  ],
+  "historical_source_screen": {
+    "file": "experiments/train-audit-20260927/qualified-v1/train.jsonl",
+    "method": "NFC whitespace casefold exact or >=6-word complete-clause containment; source strings only",
+    "exact_or_containment_hits": {
+      "openampd:MP5651:full": [],
+      "KANHERI-ARTICLE-01-ARRIVAL": [],
+      "openampd:MP0602:full": []
+    },
+    "unseen_inference": "NOT_JUSTIFIED"
+  },
+  "pedagogical_reserves": [
+    "S22EXP-002",
+    "S22EXP-003",
+    "S22EXP-004",
+    "S22EXP-005"
+  ],
+  "reserve_hold": "UNESTABLISHED_MANUSCRIPT_WORK_LINEAGE_NOT_AUTHENTIC_WORK_PANEL_ADMITTED",
+  "independent_family_count": "UNRESOLVED_BROADER_GROUPING",
+  "frozen_cases": 0,
+  "paid_run_admitted": false,
+  "training_admitted": false,
+  "weights_downloaded": false,
+  "new_model_outputs": 0,
+  "plan_review_status": "PASS_LOCAL_PLANNING_EXECUTION_HOLD",
+  "plan_critic": "/root/plain_package_critic",
+  "plan_review_corrections": [
+    "Timed GPU-rental accounting; token and call counts descriptive; shared overhead once; total provider cost separate; per-arm allocation assumptions explicit",
+    "Analysis validity and cap handling unresolved and execution-blocking; final semantic quality separate from pipeline completeness"
+  ]
+}

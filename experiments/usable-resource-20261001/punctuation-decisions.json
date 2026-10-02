@@ -1,0 +1,192 @@
+{
+  "status": "PROVISIONAL_AI_REVIEWED_TYPOGRAPHIC_DERIVATION_NOT_EXPERT_CERTIFIED",
+  "source_projection_sha256": "d3e1ebee3cec70f748b95d241652f6e78ae265f084f1e09f83b809901a40d772",
+  "reviewer": "/root/target_cleanup_review",
+  "policy": "Exact id/path/text/kind bound; never discard content inside parentheses. MMP only: one whole-gloss backtick/apostrophe pair can be removed while preserving content and final period. No historical/documentary punctuation removal.",
+  "cpd_outer_parentheses": [
+    {
+      "id": "kosh:cpd:ff7bb53fd1df1619b01008bd275fa9817729d4d4:block:0",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "usg",
+      "text": "(generally with a suffixed pronoun)",
+      "text_sha256": "6b876197aa390f935244f8749af6f5a2fc7c2856cbca4a56e76830f3ca49fc26",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:40f4e4d04f55591b4a875631915028f55764cd0f:block:0",
+      "path": "/entries/0/senses/0/components/1/text",
+      "kind": "usg",
+      "text": "(animal).",
+      "text_sha256": "4b82f1d5a36f558d2fcc93260543b915ad630773bac365a3e885313fbd436053",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:55ca7a7988541a89e9e8aea205ae96d63c16cf3c:block:0",
+      "path": "/entries/0/senses/1/components/1/text",
+      "kind": "usg",
+      "text": "(tr.).",
+      "text_sha256": "8d98a54b70c82499df83417a7bed6c71668f47db56ef11aadf6e0be0d497c282",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:662949b026e26f91f5dba73a2510c4862d0c8245:block:0",
+      "path": "/entries/0/senses/0/components/0/components/0/text",
+      "kind": "gram",
+      "text": "(with a negative)",
+      "text_sha256": "c1645710f5af6ac93cbe96d1df50df2b6086c59875fbe22be30a079f4ad701fc",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:936091b4d2f9604a1c2e44622c6d13344e09f141:block:0",
+      "path": "/entries/0/senses/0/components/1/text",
+      "kind": "usg",
+      "text": "(lit.`guard').",
+      "text_sha256": "9d7cd300bd804c6bb6c3d025c7b8012f0593ee127197ff409cba695a06a3d266",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:822a3f90654898518c7cdb95bc8941fe2272e232:block:0",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "mood",
+      "text": "(tr.).",
+      "text_sha256": "8d98a54b70c82499df83417a7bed6c71668f47db56ef11aadf6e0be0d497c282",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:672b53de77ecdd756c922961e915e2e8f0cbe947:block:2",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "mood",
+      "text": "(tr.).",
+      "text_sha256": "8d98a54b70c82499df83417a7bed6c71668f47db56ef11aadf6e0be0d497c282",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:6721c60c4d555879fef308fb1b241a70f181a1e1:block:0",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "gram",
+      "text": "(defective verb).",
+      "text_sha256": "4f1911fa6945556b31c7aa52f35da706dfb16755a3471be8445499d66071a493",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:ef6f78ee03238ec9ed8c8ccd7372e06ac1540191:block:0",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "mood",
+      "text": "(tr.).",
+      "text_sha256": "8d98a54b70c82499df83417a7bed6c71668f47db56ef11aadf6e0be0d497c282",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:e759da47adb4b24ccc062db2c85f75df51c73d4a:block:0",
+      "path": "/entries/0/senses/0/components/0/text",
+      "kind": "usg",
+      "text": "(with a negative)",
+      "text_sha256": "c1645710f5af6ac93cbe96d1df50df2b6086c59875fbe22be30a079f4ad701fc",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:559668c99d4d5373771bdaea94cf87853f374480:block:0",
+      "path": "/entries/0/senses/1/components/1/text",
+      "kind": "usg",
+      "text": "(daevic).",
+      "text_sha256": "b47de2ce0f2d26dd0b8bcb7554126c6806d43318204a4854570f7ef765a6a3f9",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:559668c99d4d5373771bdaea94cf87853f374480:block:1",
+      "path": "/entries/0/senses/0/components/1/text",
+      "kind": "usg",
+      "text": "(daevic).",
+      "text_sha256": "b47de2ce0f2d26dd0b8bcb7554126c6806d43318204a4854570f7ef765a6a3f9",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:480b626495f105b129bf6b16e05c95232af21d5f:block:0",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "mood",
+      "text": "(tr.).",
+      "text_sha256": "8d98a54b70c82499df83417a7bed6c71668f47db56ef11aadf6e0be0d497c282",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:5171052b2e3f08864c61d730b1e67ea94ff6a481:block:0",
+      "path": "/entries/0/senses/0/components/1/text",
+      "kind": "usg",
+      "text": "(daevic).",
+      "text_sha256": "b47de2ce0f2d26dd0b8bcb7554126c6806d43318204a4854570f7ef765a6a3f9",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:e00ff2ba1b8bc34e0de58048d1921c7e30da8a7f:block:0",
+      "path": "/entries/0/senses/0/components/1/text",
+      "kind": "usg",
+      "text": "(daevic).",
+      "text_sha256": "b47de2ce0f2d26dd0b8bcb7554126c6806d43318204a4854570f7ef765a6a3f9",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:dd2196c0dad616bba0c5ea311dffcfc055b141ad:block:1",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "mood",
+      "text": "(intr.).",
+      "text_sha256": "06c8403e6a0add2505461bd8c953d3a1585f2098a97884886214957c40866d3e",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:dd2196c0dad616bba0c5ea311dffcfc055b141ad:block:2",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "mood",
+      "text": "(tr.).",
+      "text_sha256": "8d98a54b70c82499df83417a7bed6c71668f47db56ef11aadf6e0be0d497c282",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:ef1902e1e7dc6c0631cf1bfa0eb3e355e26bbd34:block:0",
+      "path": "/entries/0/senses/1/components/1/text",
+      "kind": "usg",
+      "text": "(12 in.).",
+      "text_sha256": "8401fc19e4dab00452bfc0dfc03ed89463b8da25b037f1da530f1517945a010e",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:ccae0304f3941e9a9a1984456653c811b93b8db4:block:0",
+      "path": "/entries/0/senses/0/components/1/components/0/text",
+      "kind": "mood",
+      "text": "(intr.).",
+      "text_sha256": "06c8403e6a0add2505461bd8c953d3a1585f2098a97884886214957c40866d3e",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:b204eb9d1f37c5dfc42fcb750bca4a5af6613a11:block:1",
+      "path": "/entries/0/senses/0/components/0/components/0/text",
+      "kind": "number",
+      "text": "(pl.)",
+      "text_sha256": "7d168818da47f9303301d6ffd449c861b09fb694622de4bb9a3dcebd10621d39",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:1efc183284006e7b2655b8c9b638c28480663606:block:0",
+      "path": "/entries/0/senses/0/components/1/text",
+      "kind": "gram",
+      "text": "(in compound numerals).",
+      "text_sha256": "6c31addbf013ec9a4b91de69c1c2a1f3c7856c1074178afa1e94105f28e27325",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:eb837f24975d005ffd8d4399b812f984632d6cea:block:0",
+      "path": "/entries/0/senses/0/components/0/components/0/text",
+      "kind": "number",
+      "text": "(pl.)",
+      "text_sha256": "7d168818da47f9303301d6ffd449c861b09fb694622de4bb9a3dcebd10621d39",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    },
+    {
+      "id": "kosh:cpd:350fc410fea2ea5ca79610fdd992257b5ba7257d:block:0",
+      "path": "/entries/0/senses/0/components/1/text",
+      "kind": "usg",
+      "text": "(daevic.)",
+      "text_sha256": "18115a51f80e9d2f5a7e984c4c1f23a8d343251da669cc5679b2d03092199ff1",
+      "decision": "Remove enclosing parentheses only; retain full qualification under its original entry/sense role."
+    }
+  ]
+}

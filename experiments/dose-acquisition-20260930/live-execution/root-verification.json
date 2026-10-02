@@ -1,0 +1,21 @@
+{
+  "status": "PASS_FOR_LISTED_LOCAL_CHECKS",
+  "owner": "root",
+  "recovered_file_hashes": 21,
+  "original_rows": 1536,
+  "identical_passes": 4,
+  "forwarded_slots": 6144,
+  "optimizer_updates": 384,
+  "finite_training_log_rows": 384,
+  "mean_logged_loss_by_pass": [
+    0.8489729166666664,
+    0.4594812499999998,
+    0.25123270833333333,
+    0.13317229166666675
+  ],
+  "scope": "Recovered small-file integrity, exact source token/mask/stream reconstruction, recorded update progression and snapshot identities.",
+  "limits": [
+    "Server adapter tensor digests are recorded evidence; model bytes were not independently reread.",
+    "This is lead verification, not a completed independent technical audit or a semantic quality certification."
+  ]
+}

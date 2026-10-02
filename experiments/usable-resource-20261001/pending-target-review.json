@@ -1,0 +1,88 @@
+{
+  "status": "NAMED_REVIEW_HOLDS_NOT_A_NEW_QUALIFIED_RELEASE",
+  "old_release_unchanged": true,
+  "automatic_target_repair": false,
+  "semantically_wrong_claimed": false,
+  "source_projection_sha256": "d3e1ebee3cec70f748b95d241652f6e78ae265f084f1e09f83b809901a40d772",
+  "reviewer": "/root/target_cleanup_review",
+  "root_followup": "abus raw XML re-read; spacing issue confirmed upstream but printed dictionary not re-read. Remaining punctuation flags in target-audit.jsonl are review indicators, not automatic errors/holds.",
+  "named_rows": [
+    {
+      "id": "parsig:151000045:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "72a04a62dc23ebdd3f7390a58d69d998d27e1424901b7f7338f292f494eb3c8f",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Square-bracket annotation spans two separate rows; cannot safely remove or repair per-row brackets without source scope."
+    },
+    {
+      "id": "parsig:151000046:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "0cc8f121ba7c9e9879e4738b7bcae8750f256ec02d37de09673236f14053a2a2",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Square-bracket annotation spans two separate rows; cannot safely remove or repair per-row brackets without source scope."
+    },
+    {
+      "id": "parsig:134009019:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "475779e139ad8f3c8d7861917f0dadb4174226cbffa0ab1cc0af979823e57060",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "parsig:136003017:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "cafd4e81b31339c755637702838bdfb95b7e5830701fa9fcb4d532524752cdf0",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "parsig:137001023:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "e0a9ed452830e4434cc15016b3784afbf1aa2374309ef11d45d34add59f950ab",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "parsig:137001028:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "35b9b4d2e0876467cd4240b4311b369a35f54b68a83a10ae1c6bbd31abb4108d",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "parsig:301007008:pal>fa",
+      "task": "historical-control-fa",
+      "archival_target_sha256": "4ed42ec9086cf520c21670f1185d27157829bbf75270ef31a64563e90a86f912",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "openampd:MP5650:full",
+      "task": "documentary-en",
+      "archival_target_sha256": "22de2cc3f7f87c71240203da1b22087559ee64ea76f6f591c04e04193b95ace1",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "openampd:MP0437:full",
+      "task": "documentary-en",
+      "archival_target_sha256": "11bebb04d06c897756209a27299735ec538d29e4d36aaee5c2e7356b687ebb68",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "openampd:MP0093:full",
+      "task": "documentary-en",
+      "archival_target_sha256": "ce8f14e298ff4678844acbd255f73c5834a2a4d5b19fac1eb71a1131cbf7f680",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Unbalanced or mixed target delimiters; may reflect witness fragmentation or cross-record annotation. Classify from source before altering or using a plain-translation target."
+    },
+    {
+      "id": "kosh:cpd:70742f1be12f3b749b47752fa5229fbd52107e29:block:0",
+      "task": "lexical-en",
+      "archival_target_sha256": "97af581aeeb074614f6f46f8e60f6012499693053de21820c1042ee08e98cf1e",
+      "disposition": "HOLD_FROM_NEXT_CLEAN_TRANSLATION_TRAINING_PROPOSAL_PENDING_SOURCE_REVIEW",
+      "reason": "Archived CPD XML itself contains (woman)havingjust given birth. This spacing suspicion is upstream, not introduced by the readable renderer; retain woman qualification and check the printed entry before repair."
+    }
+  ]
+}

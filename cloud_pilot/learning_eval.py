@@ -25,8 +25,8 @@ HELPERS = {'runtime.py', 'bundle.py', 'contextual_run.py', 'contextual_train.py'
 sha, canonical = qualified.sha, qualified.canonical
 
 
-def read_inputs(path, expected):
-    if expected != INPUTS_SHA256 or runtime.digest(path) != expected:
+def read_inputs(path, expected, *, versioned=False):
+    if (not versioned and expected != INPUTS_SHA256) or runtime.digest(path) != expected:
         raise ValueError('Frozen diagnostic input checksum differs')
     rows = [json.loads(line) for line in Path(path).read_text('utf-8').splitlines()]
     if (len(rows) != 28 or any(not isinstance(r, dict) or set(r) != {'case_id', 'prompt'} for r in rows)
@@ -39,7 +39,12 @@ def read_inputs(path, expected):
 def validate_settings(settings):
     fields = {'schema_version', 'inputs_sha256', 'runner_sha256', 'helper_sha256',
               'reference_adapter_files', 'candidate_adapter_files', 'generation'}
-    if (set(settings) != fields or settings['schema_version'] != 1
+    if settings.get('schema_version') == 2:
+        fields |= {'experiment_id', 'case_order'}
+        if (settings.get('experiment_id') != 'corrected-learning-diagnosis-20260930'
+                or sorted(settings.get('case_order', [])) != [f'LD-{i:03d}' for i in range(1, 29)]):
+            raise ValueError('Versioned diagnostic identity/schedule differs')
+    if (set(settings) != fields or settings['schema_version'] not in {1, 2}
             or settings['generation'] != GENERATION or set(settings['helper_sha256']) != HELPERS):
         raise ValueError('Diagnostic settings/schema/generation contract differs')
     if runtime.digest(__file__) != settings['runner_sha256']:
@@ -86,20 +91,34 @@ class GenerationDeadline(protocol.GenerationDeadline):
         return self.reason is not None
 
 
-def generate_pairs(model, tokenizer, rows, prepared, output, identity, deadline_utc, device='cuda'):
-    import torch
-    from transformers import DynamicCache, StoppingCriteriaList, set_seed
-    deadline = runtime.check_deadline(deadline_utc)
-    ordered = [(r, arm) for i, r in enumerate(rows) for arm in (ARMS if i % 2 == 0 else ARMS[::-1])]
-    ids = [r['case_id'] + ':' + arm for r, arm in ordered]
-    output = Path(output)
-    output.mkdir(parents=True, exist_ok=False)
-    state = {**identity, 'identity_sha256': sha(canonical(identity)), 'status': 'running',
+def initial_state(rows, identity):
+    case_order = identity.get('settings', {}).get('case_order', [r['case_id'] for r in rows])
+    ids = [k + ':' + arm for i, k in enumerate(case_order) for arm in (ARMS if i % 2 == 0 else ARMS[::-1])]
+    return {**identity, 'identity_sha256': sha(canonical(identity)), 'status': 'running',
              'schedule': ids, 'scheduled_outputs': 56, 'attempted_outputs': 0, 'recorded_outputs': 0,
              'successful_outputs': 0, 'completed_cases': 0, 'active_output_id': None,
              'unattempted_output_ids': ids.copy(), 'canaries': {},
              'arms': {a: {'recorded': 0, 'successful': 0, 'errors': 0} for a in ARMS},
              'optimizer_updates': 0, 'scoring_performed': False, 'expert_adjudicated': False}
+
+
+def generate_pairs(model, tokenizer, rows, prepared, output, identity, deadline_utc, device='cuda'):
+    import torch
+    from transformers import DynamicCache, StoppingCriteriaList, set_seed
+    deadline = runtime.check_deadline(deadline_utc)
+    state = initial_state(rows, identity)
+    ids = state['schedule']
+    by_id = {r['case_id']: r for r in rows}
+    ordered = [(by_id[k.split(':')[0]], k.split(':')[1]) for k in ids]
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    if (output / 'run.json').exists():
+        loading = runtime.read_json(output / 'run.json')
+        if (loading.get('status') != 'loading_bf16' or loading.get('attempted_outputs') != 0
+                or loading.get('identity_sha256') != state['identity_sha256']):
+            raise ValueError('Existing evaluation cannot be restarted or overwritten')
+    if (output / 'predictions.jsonl').exists():
+        raise ValueError('Existing predictions cannot be retried or overwritten')
     runtime.write_json(output / 'run.json', state)
     completed = Counter()
     try:
@@ -111,10 +130,13 @@ def generate_pairs(model, tokenizer, rows, prepared, output, identity, deadline_
                 model, {(r['case_id'], arm): prepared[r['case_id']] for r in rows}, deadline_utc)
             runtime.write_json(output / 'run.json', state)
             old.emit('learning_prefill_passed', arm=arm, **state['canaries'][arm])
+        if (deadline - datetime.now(timezone.utc)).total_seconds() < 56 * GENERATION['max_generation_seconds'] + 60:
+            raise TimeoutError('Insufficient remaining time for all 56 first attempts plus finalization margin')
         with (output / 'predictions.jsonl').open('x', encoding='utf-8') as stream:
             for index, (row, arm) in enumerate(ordered):
                 runtime.check_deadline(deadline_utc)
-                state.update(active_output_id=ids[index], attempted_outputs=index + 1)
+                state.update(active_output_id=ids[index], attempted_outputs=index + 1,
+                             unattempted_output_ids=ids[index + 1:])
                 runtime.write_json(output / 'run.json', state)
                 start, new_ids, text, failure, hit_cap = time.monotonic(), [], '', None, False
                 stopper = GenerationDeadline(start, deadline)
@@ -184,7 +206,7 @@ def run(args):
     runtime.check_deadline(args.deadline_utc)
     settings = runtime.read_json(args.settings)
     validate_settings(settings)
-    rows = read_inputs(args.inputs, settings['inputs_sha256'])
+    rows = read_inputs(args.inputs, settings['inputs_sha256'], versioned=settings['schema_version'] == 2)
     base = runtime.verify_base(args.base)
     runtime.checked_files(args.tokenizer, bundle.TOKENIZER_HASHES)
     adapters = {'reference': args.reference_adapter, 'candidate': args.candidate_adapter}
@@ -201,7 +223,7 @@ def run(args):
     prepared = prepare_prompts(rows, tokenizer, context)
     output = Path(args.output)
     output.mkdir(parents=True, exist_ok=False)
-    identity = {'experiment_id': 'learning-diagnosis-20260929', 'settings_sha256': runtime.digest(args.settings),
+    identity = {'experiment_id': settings.get('experiment_id', 'learning-diagnosis-20260929'), 'settings_sha256': runtime.digest(args.settings),
                 'settings': settings, 'inputs_sha256': settings['inputs_sha256'], 'model_id': runtime.MODEL_ID,
                 'model_revision': runtime.REVISION, 'base_files': base['files'], 'environment': environment,
                 'adapters': {a: settings[a + '_adapter_files'] for a in ARMS},
@@ -211,7 +233,12 @@ def run(args):
                              'rendered_input_ids_sha256': sha(canonical(prepared[r['case_id']])),
                              'input_tokens': len(prepared[r['case_id']])} for r in rows],
                 'training_performed': False, 'optimizer_updates': 0, 'quality_validated': False}
+    evaluation_output = output / 'evaluation'
+    evaluation_output.mkdir()
     state, model = {**identity, 'status': 'loading_bf16'}, None
+    loading_state = initial_state(rows, identity)
+    loading_state['status'] = 'loading_bf16'
+    runtime.write_json(evaluation_output / 'run.json', loading_state)
     runtime.write_json(output / 'run.json', state)
     try:
         set_seed(GENERATION['seed'])

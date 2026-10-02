@@ -1,0 +1,76 @@
+{"phase": "learning_loading_bf16"}
+
+Loading weights:   0%|          | 0/1188 [00:00<?, ?it/s][A
+Loading weights:   2%|▏         | 21/1188 [00:01<00:55, 20.87it/s][A
+Loading weights:   7%|▋         | 83/1188 [00:02<00:24, 44.47it/s][A
+Loading weights:  12%|█▏        | 138/1188 [00:03<00:21, 48.93it/s][A
+Loading weights:  17%|█▋        | 199/1188 [00:04<00:18, 53.04it/s][A
+Loading weights:  22%|██▏       | 262/1188 [00:05<00:16, 56.55it/s][A
+Loading weights:  28%|██▊       | 334/1188 [00:06<00:14, 60.88it/s][A
+Loading weights:  34%|███▍      | 408/1188 [00:07<00:12, 64.81it/s][A
+Loading weights:  40%|████      | 476/1188 [00:08<00:10, 65.51it/s][A
+Loading weights:  46%|████▌     | 545/1188 [00:09<00:09, 66.36it/s][A
+Loading weights:  52%|█████▏    | 614/1188 [00:10<00:08, 66.88it/s][A
+Loading weights:  58%|█████▊    | 684/1188 [00:11<00:07, 67.26it/s][A
+Loading weights:  63%|██████▎   | 754/1188 [00:12<00:06, 66.96it/s][A
+Loading weights:  69%|██████▉   | 824/1188 [00:13<00:05, 67.00it/s][ALoading weights: 100%|██████████| 1188/1188 [00:13<00:00, 86.96it/s]
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:300: UserWarning: Could not find a config file in /tmp/pahlavi-continuation-eeafv33l/base - will assume that the vocabulary was not modified.
+  warnings.warn(
+{"phase": "learning_prefill_passed", "arm": "reference", "status": "passed", "id": "LD-023:reference", "input_tokens": 222, "rendered_input_ids_sha256": "cf86c17fac5912118dbd6ebc617c56ff439e5f679126351eb3afbad490ebbb16", "elapsed_seconds": 0.6177682819543406, "peak_allocated_bytes": 63835507200, "peak_reserved_bytes": 64126713856, "output_generated": false, "experimental_attempts": 0, "deadline_utc": "2026-09-30T17:13:27.799523+00:00"}
+{"phase": "learning_prefill_passed", "arm": "candidate", "status": "passed", "id": "LD-023:candidate", "input_tokens": 222, "rendered_input_ids_sha256": "cf86c17fac5912118dbd6ebc617c56ff439e5f679126351eb3afbad490ebbb16", "elapsed_seconds": 0.16352376097347587, "peak_allocated_bytes": 63833460224, "peak_reserved_bytes": 63900221440, "output_generated": false, "experimental_attempts": 0, "deadline_utc": "2026-09-30T17:13:27.799523+00:00"}
+{"phase": "learning_case_recorded", "case_id": "LD-001", "arm": "reference", "status": "success", "recorded_outputs": 1}
+{"phase": "learning_case_recorded", "case_id": "LD-001", "arm": "candidate", "status": "success", "recorded_outputs": 2}
+{"phase": "learning_case_recorded", "case_id": "LD-002", "arm": "candidate", "status": "success", "recorded_outputs": 3}
+{"phase": "learning_case_recorded", "case_id": "LD-002", "arm": "reference", "status": "success", "recorded_outputs": 4}
+{"phase": "learning_case_recorded", "case_id": "LD-007", "arm": "reference", "status": "success", "recorded_outputs": 5}
+{"phase": "learning_case_recorded", "case_id": "LD-007", "arm": "candidate", "status": "success", "recorded_outputs": 6}
+{"phase": "learning_case_recorded", "case_id": "LD-008", "arm": "candidate", "status": "success", "recorded_outputs": 7}
+{"phase": "learning_case_recorded", "case_id": "LD-008", "arm": "reference", "status": "success", "recorded_outputs": 8}
+{"phase": "learning_case_recorded", "case_id": "LD-011", "arm": "reference", "status": "success", "recorded_outputs": 9}
+{"phase": "learning_case_recorded", "case_id": "LD-011", "arm": "candidate", "status": "success", "recorded_outputs": 10}
+{"phase": "learning_case_recorded", "case_id": "LD-012", "arm": "candidate", "status": "success", "recorded_outputs": 11}
+{"phase": "learning_case_recorded", "case_id": "LD-012", "arm": "reference", "status": "success", "recorded_outputs": 12}
+{"phase": "learning_case_recorded", "case_id": "LD-013", "arm": "reference", "status": "success", "recorded_outputs": 13}
+{"phase": "learning_case_recorded", "case_id": "LD-013", "arm": "candidate", "status": "success", "recorded_outputs": 14}
+{"phase": "learning_case_recorded", "case_id": "LD-014", "arm": "candidate", "status": "success", "recorded_outputs": 15}
+{"phase": "learning_case_recorded", "case_id": "LD-014", "arm": "reference", "status": "success", "recorded_outputs": 16}
+{"phase": "learning_case_recorded", "case_id": "LD-025", "arm": "reference", "status": "success", "recorded_outputs": 17}
+{"phase": "learning_case_recorded", "case_id": "LD-025", "arm": "candidate", "status": "success", "recorded_outputs": 18}
+{"phase": "learning_case_recorded", "case_id": "LD-026", "arm": "candidate", "status": "success", "recorded_outputs": 19}
+{"phase": "learning_case_recorded", "case_id": "LD-026", "arm": "reference", "status": "success", "recorded_outputs": 20}
+{"phase": "learning_case_recorded", "case_id": "LD-003", "arm": "reference", "status": "success", "recorded_outputs": 21}
+{"phase": "learning_case_recorded", "case_id": "LD-003", "arm": "candidate", "status": "success", "recorded_outputs": 22}
+{"phase": "learning_case_recorded", "case_id": "LD-004", "arm": "candidate", "status": "success", "recorded_outputs": 23}
+{"phase": "learning_case_recorded", "case_id": "LD-004", "arm": "reference", "status": "success", "recorded_outputs": 24}
+{"phase": "learning_case_recorded", "case_id": "LD-009", "arm": "reference", "status": "success", "recorded_outputs": 25}
+{"phase": "learning_case_recorded", "case_id": "LD-009", "arm": "candidate", "status": "success", "recorded_outputs": 26}
+{"phase": "learning_case_recorded", "case_id": "LD-010", "arm": "candidate", "status": "success", "recorded_outputs": 27}
+{"phase": "learning_case_recorded", "case_id": "LD-010", "arm": "reference", "status": "success", "recorded_outputs": 28}
+{"phase": "learning_case_recorded", "case_id": "LD-015", "arm": "reference", "status": "success", "recorded_outputs": 29}
+{"phase": "learning_case_recorded", "case_id": "LD-015", "arm": "candidate", "status": "success", "recorded_outputs": 30}
+{"phase": "learning_case_recorded", "case_id": "LD-016", "arm": "candidate", "status": "success", "recorded_outputs": 31}
+{"phase": "learning_case_recorded", "case_id": "LD-016", "arm": "reference", "status": "success", "recorded_outputs": 32}
+{"phase": "learning_case_recorded", "case_id": "LD-027", "arm": "reference", "status": "success", "recorded_outputs": 33}
+{"phase": "learning_case_recorded", "case_id": "LD-027", "arm": "candidate", "status": "success", "recorded_outputs": 34}
+{"phase": "learning_case_recorded", "case_id": "LD-028", "arm": "candidate", "status": "success", "recorded_outputs": 35}
+{"phase": "learning_case_recorded", "case_id": "LD-028", "arm": "reference", "status": "success", "recorded_outputs": 36}
+{"phase": "learning_case_recorded", "case_id": "LD-005", "arm": "reference", "status": "success", "recorded_outputs": 37}
+{"phase": "learning_case_recorded", "case_id": "LD-005", "arm": "candidate", "status": "success", "recorded_outputs": 38}
+{"phase": "learning_case_recorded", "case_id": "LD-006", "arm": "candidate", "status": "success", "recorded_outputs": 39}
+{"phase": "learning_case_recorded", "case_id": "LD-006", "arm": "reference", "status": "success", "recorded_outputs": 40}
+{"phase": "learning_case_recorded", "case_id": "LD-017", "arm": "reference", "status": "success", "recorded_outputs": 41}
+{"phase": "learning_case_recorded", "case_id": "LD-017", "arm": "candidate", "status": "success", "recorded_outputs": 42}
+{"phase": "learning_case_recorded", "case_id": "LD-018", "arm": "candidate", "status": "success", "recorded_outputs": 43}
+{"phase": "learning_case_recorded", "case_id": "LD-018", "arm": "reference", "status": "success", "recorded_outputs": 44}
+{"phase": "learning_case_recorded", "case_id": "LD-019", "arm": "reference", "status": "success", "recorded_outputs": 45}
+{"phase": "learning_case_recorded", "case_id": "LD-019", "arm": "candidate", "status": "success", "recorded_outputs": 46}
+{"phase": "learning_case_recorded", "case_id": "LD-020", "arm": "candidate", "status": "success", "recorded_outputs": 47}
+{"phase": "learning_case_recorded", "case_id": "LD-020", "arm": "reference", "status": "success", "recorded_outputs": 48}
+{"phase": "learning_case_recorded", "case_id": "LD-021", "arm": "reference", "status": "success", "recorded_outputs": 49}
+{"phase": "learning_case_recorded", "case_id": "LD-021", "arm": "candidate", "status": "success", "recorded_outputs": 50}
+{"phase": "learning_case_recorded", "case_id": "LD-022", "arm": "candidate", "status": "success", "recorded_outputs": 51}
+{"phase": "learning_case_recorded", "case_id": "LD-022", "arm": "reference", "status": "success", "recorded_outputs": 52}
+{"phase": "learning_case_recorded", "case_id": "LD-023", "arm": "reference", "status": "success", "recorded_outputs": 53}
+{"phase": "learning_case_recorded", "case_id": "LD-023", "arm": "candidate", "status": "success", "recorded_outputs": 54}
+{"phase": "learning_case_recorded", "case_id": "LD-024", "arm": "candidate", "status": "success", "recorded_outputs": 55}
+{"phase": "learning_case_recorded", "case_id": "LD-024", "arm": "reference", "status": "success", "recorded_outputs": 56}

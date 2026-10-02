@@ -1,0 +1,147 @@
+{
+  "job_id": "6abd57e0fbc85ba68235c601",
+  "stage": "COMPLETED",
+  "created_at": "2026-09-30 18:41:36.036000+00:00",
+  "started_at": "2026-09-30 18:41:43.151000+00:00",
+  "finished_at": "2026-09-30 21:26:58.043000+00:00",
+  "manifest_sha256": "f39f94514eb7b83d7daa39e2f80afd4e4485ded9123632fb69f4c821a8e8c664",
+  "files": [
+    {
+      "path": "base-provenance.json",
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+    },
+    {
+      "path": "bundle-manifest.json",
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+    },
+    {
+      "path": "data-manifest.json",
+      "bytes": 62848,
+      "sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54"
+    },
+    {
+      "path": "dose-status.json",
+      "bytes": 22587,
+      "sha256": "78badc2ff435485a7ff17d6d39810160d4786a0e9aa8dfb43fa2f42983be8073"
+    },
+    {
+      "path": "dose/evaluation-baseline/predictions.jsonl",
+      "bytes": 44382,
+      "sha256": "4dd5b8960bd9bae47d14ed202b39084add28f88abe038dfb143949e6a5272012"
+    },
+    {
+      "path": "dose/evaluation-baseline/run.json",
+      "bytes": 1794,
+      "sha256": "489a19051816771f1e35100167ab1ed7a97ed5938e89b226b2f925d68d70b089"
+    },
+    {
+      "path": "dose/evaluation/predictions.jsonl",
+      "bytes": 90433,
+      "sha256": "711d913146cc62067f71c526d20d993f807ca04869d0ebfcdf094c4a3a7a84c4"
+    },
+    {
+      "path": "dose/evaluation/run.json",
+      "bytes": 3533,
+      "sha256": "7dea81cbe78597abf41cebab6f53cf5d37e7259cc4d08c8e688914ee67046ed0"
+    },
+    {
+      "path": "dose/run.json",
+      "bytes": 29465,
+      "sha256": "c3a93f105d19f39888e6507dd5e22834105a8288a3e979b864b3ebe44bc5fe36"
+    },
+    {
+      "path": "dose/training/adapter-step192/README.md",
+      "bytes": 5216,
+      "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"
+    },
+    {
+      "path": "dose/training/adapter-step192/adapter_config.json",
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    {
+      "path": "dose/training/adapter-step384/README.md",
+      "bytes": 5216,
+      "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"
+    },
+    {
+      "path": "dose/training/adapter-step384/adapter_config.json",
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    {
+      "path": "dose/training/adapter-step96/README.md",
+      "bytes": 5216,
+      "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"
+    },
+    {
+      "path": "dose/training/adapter-step96/adapter_config.json",
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    {
+      "path": "dose/training/admission-adapter-step20/README.md",
+      "bytes": 5216,
+      "sha256": "710be6174ddc49b7a31f67f5709688102fb574c6d19579474029ba573d9efc4f"
+    },
+    {
+      "path": "dose/training/admission-adapter-step20/adapter_config.json",
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    {
+      "path": "dose/training/progress.jsonl",
+      "bytes": 37936,
+      "sha256": "1fe5d3bb5e8f3f54cdba0eb08d1a5619c313d39496d03016e97874b31e7aa550"
+    },
+    {
+      "path": "dose/training/run.json",
+      "bytes": 454908,
+      "sha256": "73013069580d48fe6a3b80291b7935c28889a7007aca594b05413d38ed8df71f"
+    },
+    {
+      "path": "driver.log",
+      "bytes": 86166,
+      "sha256": "0fd963f5c816b405864634a22ae9da6c2ec40837e182c4d190826bce5b1ccbc7"
+    },
+    {
+      "path": "trained-manifest.json",
+      "bytes": 5949,
+      "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
+    }
+  ],
+  "model_weights_not_downloaded": [
+    {
+      "path": "dose/training/adapter-step192/adapter_model.safetensors",
+      "bytes": 489840816,
+      "runner_sha256": "d5ab6baa7db656537c18c461bde2acb6ff84bacdcb76ea9fb046b5fc627410e9",
+      "remote_size_verified": true,
+      "remote_sha256_independently_verified": false
+    },
+    {
+      "path": "dose/training/adapter-step384/adapter_model.safetensors",
+      "bytes": 489840816,
+      "runner_sha256": "8bdf6d7e77cf86adac7c9535531d16accd8dc05aeeb9f0ff69ac9f8ebde176a4",
+      "remote_size_verified": true,
+      "remote_sha256_independently_verified": false
+    },
+    {
+      "path": "dose/training/adapter-step96/adapter_model.safetensors",
+      "bytes": 489840816,
+      "runner_sha256": "9ce60bb921ba2be91796570f5a616b5f2317a30768cc7ed23a8a29cab777b884",
+      "remote_size_verified": true,
+      "remote_sha256_independently_verified": false
+    },
+    {
+      "path": "dose/training/admission-adapter-step20/adapter_model.safetensors",
+      "bytes": 489840816,
+      "runner_sha256": "36bfeb8f5a2a37aa1bf47cb791c93463ae7a33a98388ba3ada24fe8410e49a1a",
+      "remote_size_verified": true,
+      "remote_sha256_independently_verified": false
+    }
+  ],
+  "small_file_sha256_readback_verified": true,
+  "downloaded_evidence_bytes": 896608
+}

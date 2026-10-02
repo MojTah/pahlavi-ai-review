@@ -1,0 +1,19 @@
+# Independent technical result audit — PARTIAL
+
+Job `6abd57e0fbc85ba68235c601`. Reviewer `/root/dose_design_critic`. This bounded closeout records only checks actually completed. **No contradiction was found in the inspected receipts, but an independent full integrity PASS is not established.**
+
+I read the terminal/provider receipt, observed launch rate, recovered manifest structure, training/run receipts, both evaluation receipts, and driver-log endpoints. I independently parsed exactly384 trainer-loss records from the driver log using `ast.literal_eval`; first and final records contain numeric strings as expected. I did not finish checking every numeric value for finiteness.
+
+The final progress event records384updates,6144forwarded slots and8003.701seconds training (133m24s). Snapshot receipts show96/192/384 optimizer and scheduler steps with1536/3072/6144slots. Initial, step20,96,192 and384 tensor-digest strings differ; these are recorded server identities, not independently reread tensor bytes. The receipt declares four passes, fresh optimization and matching final stream hashes. Independent reconstruction of the complete cycle arrays and token masks was not finished, so these remain inspected execution claims rather than independently reproduced checks in this audit.
+
+Baseline/final evaluation receipts show29+69=98successful recorded attempts, with no active or unattempted cases, and passed reference/dose96/dose192/dose384 prefill canaries. Both numerical records specify601quantized parameters, NF4 double quantization/BF16 computation and nonquantized FP32. The larger final FP32 parameter count is consistent with loading four adapters rather than one. The masked-loss canary records equal native/manual loss2.3988394737243652. The child reports frozen adapter verification after inference and completed training. I did not finish recomputing all prompt, token, text and identity hashes or directly inspect optimizer/buffer tensors.
+
+Provider timestamps report RUNNING from2026-09-30 18:41:43.151UTC to21:26:58.043UTC:165m14.892s. At the launch-observedUSD0.041667/minute, the continuous-duration estimate is aboutUSD6.89;166rounded minutes gives aboutUSD6.92. These are compute estimates, not an invoice or refreshed balance. The recorded20/96/192admissions retain6600seconds evaluation plus300seconds reload.
+
+The recovery receipt reports896608bytes of small evidence with SHA256readback and four cloud adapter files of489840816bytes each. Its explicit `remote_sha256_independently_verified:false` is correct: model bytes were not downloaded or independently hash-read locally. The server manifest hash is `f39f94514eb7b83d7daa39e2f80afd4e4485ded9123632fb69f4c821a8e8c664`. I inspected this binding but did not independently rehash the complete recovered inventory in this result-audit turn. Root separately reports that full small-output hashing and coverage checks pass; that is root evidence, not an independent duplicate check by this reviewer.
+
+## Unfinished boundaries
+
+Independent frozen-input/proposal rehashing, all6144row/mask/cycle-hash reconstruction, all384progress/numeric checks, per-output prefix/content identities, recovery/blind-packet implementation inspection,126-entry mapping/rating arithmetic and final OUTCOME claim verification were not completed before the requested bounded closeout. Root reports completing126rating coverage, paired counts and safety gates. I did not inspect or re-rate semantic answers or reviewer files.
+
+No cloud access, training, credential access, model download, commit or nested delegation was performed. Only this report and `technical-verification.json` were written. This PARTIAL technical audit supplies no model promotion, quality certification or authorization for paid follow-up. The prelaunch exact-contract approval remains a separate earlier artifact and must not be represented as a completed independent post-run audit.

@@ -190,6 +190,13 @@ def execute_nllb(settings, bootstrap):
         raise failure
 
 
+try:
+    from .training_admission import draft
+except ImportError:
+    from training_admission import draft
+
+
+@draft
 def specification(run_id=None,phase='canary',canary=None):
     run_id = uuid.uuid4().hex if run_id is None else run_id
     if not re.fullmatch('[a-f0-9]{32}', run_id):

@@ -1,0 +1,60 @@
+{
+  "authorization_status": "NOT_AUTHORIZED",
+  "excluded_from_transfer": [
+    "references.jsonl",
+    "binding.json",
+    "census.json",
+    "local model/adapter weights",
+    "job-spec.json",
+    "job-receipt.json",
+    "handoff.json"
+  ],
+  "local_files": {
+    "job-receipt.json": {
+      "bytes": 3130,
+      "sha256": "1c11f4b12099475fccee19e59363f2f3ca9f21d9ad77ce26f0903dbcfba7177d"
+    },
+    "job-spec.json": {
+      "bytes": 159637,
+      "sha256": "15ee39c4c7692b8f515a6412b64a39428410f8ce9fa9e23f113ba1311b7f23ff"
+    },
+    "learning-diagnosis-02c5ecc82e187847.jsonl": {
+      "bytes": 15474,
+      "sha256": "02c5ecc82e187847377d5891c31fcb9fc5fb0d3714ea4aa66e686c0a3fabce3c"
+    }
+  },
+  "output_prefix": "learning-diagnosis/7352dda33542431abb025b1443087aed",
+  "permitted_changes": [
+    "run_id",
+    "output_prefix",
+    "labels.trial_id",
+    "decoded_command_sha256",
+    "command_sha256",
+    "command_arg_utf8_bytes",
+    "command_total_utf8_bytes_with_nul"
+  ],
+  "provider_submitted": false,
+  "remote_staging_verified": false,
+  "reviewed_receipt_sha256": "036e4107429dc41cd2e2d4559fed940354048016a02596e4fc9d45bdae716ba7",
+  "reviewed_runtime_check_sha256": "474b947a0325dcd7b2f6161cc2099f0d234a71b1f859899d7bba50935448c1dc",
+  "reviewed_spec_sha256": "78cbd278b45e0a5db76a8faf949dc49e30db171adc772f32523e967713b5a521",
+  "run_id": "7352dda33542431abb025b1443087aed",
+  "sdk_serialization_passed": true,
+  "status": "NOT_SUBMITTED",
+  "transfer_inventory": [
+    {
+      "bytes": 15474,
+      "content": "case_id and prompt only",
+      "local_path": "experiments\\readiness-repair-20260930\\execution-proposal\\learning-diagnosis-02c5ecc82e187847.jsonl",
+      "remote_path": "inputs/learning-diagnosis-02c5ecc82e187847.jsonl",
+      "sha256": "02c5ecc82e187847377d5891c31fcb9fc5fb0d3714ea4aa66e686c0a3fabce3c"
+    },
+    {
+      "bytes": 6372448,
+      "content": "existing qualified bundle; not copied",
+      "local_path": "[USER_HOME]\\Documents\\ChatGPT\\Pahlavi language\\resources\\local\\cloud-pilot-qualified-20260927.zip",
+      "remote_path": "inputs/cloud-pilot-qualified-20260927.zip",
+      "sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9"
+    }
+  ]
+}

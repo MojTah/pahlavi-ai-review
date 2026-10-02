@@ -1,0 +1,59 @@
+{
+  "status": "PROVISIONAL_SOURCE_REFERENCE_QUALIFICATION_NOT_EXPERT_GOLD",
+  "selection": "Complete paired edition spans chosen by arrival, obligation and allocation/sealing structure; no model outputs inspected for selection.",
+  "derived_pairs": "resources/local/plain-target-preparation-20261001/data/learning-projections.jsonl",
+  "artifact_sha256": {
+    "resources/local/plain-target-preparation-20261001/data/learning-projections.jsonl": "b91a80ef92bc8f6adc3ae9ccae2f174ded02662b2d7445e7c29ac7350d6bfb17",
+    "experiments/data-qualification-20260928/archive-alignment.jsonl": "051b4644ef0a4613f48232b9149398242a953f19726f36670919b10eb320019c",
+    "experiments/data-qualification-20260928/kanheri-candidates.jsonl": "d01b002f17641f3d62a98e67538bd79ba12712624ca62cd5645ba82ec7bec242",
+    "experiments/train-audit-20260927/qualified-v1/train.jsonl": "15b13f63b518882fe82697ff27cc1656011f3868a318f910bb9de9e2422925dc",
+    "resources/local/training-ready-v2-20260929/data/train.jsonl": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/fdc359f33218d482e5c678ad3c851bcb085f80cc66c4c953181c11cbe89fb903.source": "5231da441d557ae5fe3c5a5ecb2d818f040c417fcd6001dbf5aff274d88203d0",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/78e7909f87d92135e87088ef17fdd2d08127bc45df4afae0d7fc0f67c0b0e813.source": "8d604e22fe3657a6bb4e49c24c322bf19978ca327411f3c57ac4d1cafe5a7c64",
+    "sources/local/public-texts-2026-09-20/berkeley/raw/acc8f488cad6d02f5948a96ff559cb627413bd1c7640d2e0f641c68367d1e896.source": "f0d49cd03d95c351558bc96aae9ba8347549263f3f058a1e3de2d7f257b62b48",
+    "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/raw/b385981ef422d96884dc19c958c274bf2e9efb0aefd923d83dbb71a2ae9fca1f.pdf": "720d3db41ea76865c65d4a6875f0c03bf785dcae1a37f20dd6365a6e1501800f",
+    "sources/local/public-texts-2026-09-20/qualification-source-search-20260928/inspection/kanheri/page10.png": "8c1c81e43ec7ed8f6af0d1ccefa84c6b07294a961b6a09286d47da685ce7ae83"
+  },
+  "cases": [
+    {
+      "case_id": "KANHERI01", "pair_id": "KANHERI-ARTICLE-01-ARRIVAL", "derived_line": 9963,
+      "witness": "parsig:201001001", "broader_group": "Kanheri", "scope": "Complete finite arrival clause only; PDF10/printed116 lines15-16, paired Persian line.",
+      "source_codepoints": 30, "source_sha256": "6477a00977ad8f6ca2e901034f137d1cc15de5b04c2717023ca42dda5a1017c1",
+      "target_codepoints": 22, "target_sha256": "0785e0f902b2e35607789636c81f13dd98115ea992ef224c240277ba30b0f056",
+      "reviewer": "/root/clause_reference_a", "disposition": "ELIGIBLE_PROVISIONAL",
+      "supported_meaning": ["Plural coreligionists/fellow believers arrived at this place/here.", "Past/completed arrival, not departure or a future obligation."],
+      "uncertainty": ["Finer aspect distinctions are not independently qualified.", "No patient, transferred object, recipient, cause or parent-clause content is licensed."],
+      "optional_editorial": ["Exact reference wording is not required."],
+      "limit": "Published paired translation, not an independent grammatical analysis or a new witness."
+    },
+    {
+      "case_id": "AMOL1", "pair_id": "openampd:MP0602:full", "derived_line": 9913, "alignment_line": 5,
+      "witness": "Āmol Doc.1", "broader_group": "Central Iran", "scope": "Supplied nine-line edition span; transcription MP0602_trc-p1 and English MP0602_trans-p1; Weber_2015b103-104 citation unresolved beyond source ID.",
+      "source_codepoints": 247, "source_sha256": "87e723c8e61ce2102bac16d37cf885412b91d020b145d28ebd4c634e704778e8",
+      "target_codepoints": 407, "target_sha256": "676495000af55fe1c52d8b900907c52828c3d6d02fc0306a421768fb8685f5c1",
+      "reviewer": "/root/clause_reference_b", "disposition": "ELIGIBLE_PROVISIONAL_WITH_UNRESOLVED_TERMS",
+      "supported_meaning": ["Dādēnwindād; account of the very fortunate ōstāndār in Yazdānābestān, to bun.", "From month Ābān of year40 and day Ābān onwards; need/refining of lamp oil in that same month, at Yazdānpādār's.", "Obligation/intended giving of1000šānčak to Mihr-Ādur, not completed payment.", "Yazdānpādār completed sealing the čak; sealer is not thereby the giver."],
+      "uncertainty": ["bun and šānčak remain unresolved technical terms; preserve or mark unresolved, never require an invented institutional sense or unit conversion.", "Dādēnwindād is the natural antecedent of supplied 'he', not a separately explicit giver; do not require certainty about giver identity.", "pēš/at Yazdānpādār's does not establish ownership, purchase, approval or supervision.", "No end date; no certainty about a refining technique or čāk's precise document type.", "A specific disputed technical interpretation is uncertain/unadjudicable, never automatically accepted or rejected against the terse reference."],
+      "optional_editorial": ["Calendar month/day ordinals and grammar line pointers need not be translated.", "English parenthesis wording is not a mandatory target format; its substantive obligation and temporal/causal meanings remain required."],
+      "limit": "Source-pair qualification only; no first-edition commentary or manuscript-reading certification; uncertain private-collection locality is not independent-family evidence."
+    },
+    {
+      "case_id": "BERLIN6", "pair_id": "openampd:MP0406:full", "derived_line": 9943, "alignment_line": 44,
+      "witness": "Berlin6", "broader_group": "Central Iran", "scope": "Supplied seven-line edition span only, XML133-139/144-149; a metadata versoline is unencoded; not a complete physical-document claim.",
+      "source_codepoints": 138, "source_sha256": "6ff181cac86c7697c8302f7864ef279c860601b1c434530a025e03e74cc69bfb",
+      "target_codepoints": 218, "target_sha256": "93b0d1c0c64683472f01d87e7edfff20b8879cac034f34d7f0c6970e87dde4aa",
+      "reviewer": "/root/clause_reference_a", "disposition": "ELIGIBLE_PROVISIONAL_WITH_UNRESOLVED_READING",
+      "supported_meaning": ["Friyag, manager in Namēwar, completed allocation of3grīw barley to Dādēn for this month Ardwahišt's ration.", "Year3(9), retaining the restoration's uncertainty; unmarked certain39 erases it.", "Dādēn has a responsibility role; Zādānfarrox completed sealing."],
+      "uncertainty": ["*poultry is a tentative lexical reading, not independently resolved by the XML. Mark a proposed poultry sense tentative or preserve the unresolved source form; alternate specific readings require adjudication.", "No conversion of grīw; no purchase/debt/future-giving event; no specified seal object required."],
+      "optional_editorial": ["Second-month calendar ordinal is optional.", "[6] is an editorial line pointer, not six birds; do not turn it into a quantity."],
+      "limit": "Paired published interpretation only; all related Central Iran administrative witnesses grouped conservatively."
+    }
+  ],
+  "held": [
+    {"pair_id": "openampd:MP5651:full", "derived_line": 9924, "alignment_line": 19, "disposition": "HOLD_FOR_COMPLETE_TRANSLATION_MEASUREMENT", "reviewer": "/root/clause_reference_a", "reason": "Terse striking/payment reference does not resolve worker apposition, agent/patient, shared agency or recipient. Need Cereti etal2022pp463-464 syntactic commentary; catalogue citation does not resolve this. Preserve original archival qualification, which certifies bounded edition pairing rather than complete syntactic gold."}
+  ],
+  "protected_work_ids": [103,104,110,111,112,114,116,117,118,120,124,130,132,138,152,517],
+  "protected_screen": "Specific documentary/Kanheri witness screen passed; quote/fuzzy/formula and pretrained exposure not certified. No protected answer bodies used.",
+  "witnesses": 3, "conservative_broader_groups": 2,
+  "expert_certified": false, "unseen_claim_allowed": false, "training_admitted": false, "paid_run_admitted": false
+}

@@ -1,0 +1,316 @@
+[
+  {
+    "id": "KANHERI06-I",
+    "text": "```json\n{\n  \"relation_or_event\": \"kinship\",\n  \"participants\": [\n    {\n      \"person\": \"Ābāngušnasp\",\n      \"role\": \"child\"\n    },\n    {\n      \"person\": \"Farroxān\",\n      \"role\": \"parent\"\n    }\n  ],\n  \"number_and_scope\": 1,\n  \"unresolved\": []\n}\n```",
+    "technical_status": "success",
+    "output_tokens": 101,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B06",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The son-specific relation is implicit in the patronymic context rather than explicitly distinguished from generic child-parent kinship."
+        ]
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B06",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "KANHERI06-R",
+    "text": "آبانگشنسب پسر فرخانی",
+    "technical_status": "success",
+    "output_tokens": 10,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B02",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The parent name appears as فرخانی, a spelling variation whose exact correspondence to Farroxān is uncertain."
+        ]
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B02",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "KANHERI06-S",
+    "text": "آبانگشنسب پسر فرّوخان",
+    "technical_status": "success",
+    "output_tokens": 11,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B12",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B12",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "BERK25-R",
+    "text": "به بهمن اورمزد دادن.",
+    "technical_status": "success",
+    "output_tokens": 9,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B04",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The infinitival wording leaves the giver implicit and does not assert a finite past event."
+        ]
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B04",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The infinitival wording leaves the unidentified giver implicit."
+        ]
+      }
+    }
+  },
+  {
+    "id": "BERK25-S",
+    "text": "۱۰ سبوی می به بهمن اورمزد داد",
+    "technical_status": "success",
+    "output_tokens": 12,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B09",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Adds ten ewers of wine despite the instruction to express only the giving event and participant roles."
+        ],
+        "uncertainties": []
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B09",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Adds ten ewers of wine despite the instruction to express only the giving event and participant roles."
+        ],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "BERK25-I",
+    "text": "```json\n{\n  \"relation_or_event\": \"dād\",\n  \"participants\": {\n    \"giver\": \"unidentified\",\n    \"recipient\": \"Wahman-Ohrmazd\"\n  },\n  \"number_and_scope\": \"may 10 sabōy\",\n  \"unresolved\": []\n}\n```",
+    "technical_status": "success",
+    "output_tokens": 78,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B08",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": "SUPPORTED",
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B08",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": "SUPPORTED",
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "TB3-S",
+    "text": "ماه مُهر نهاد",
+    "technical_status": "success",
+    "output_tokens": 6,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B05",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B05",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "TB3-I",
+    "text": "```json\n{\n  \"relation_or_event\": \"muhr abar nihād\",\n  \"participants\": {\n    \"agent\": \"māh ī mow ī (?) ārānān\"\n  },\n  \"number_and_scope\": null,\n  \"unresolved\": [\n    \"mow\",\n    \"ārānān\",\n    \"nihād\"\n  ]\n}\n```",
+    "technical_status": "success",
+    "output_tokens": 92,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B03",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The output lists nihād as unresolved despite retaining the sealing predicate and assigning its agent."
+        ]
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B03",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": [
+          "The output lists nihād as unresolved while retaining the predicate and its Māh agent."
+        ]
+      }
+    }
+  },
+  {
+    "id": "TB3-R",
+    "text": "ماه مُهر زد.",
+    "technical_status": "success",
+    "output_tokens": 6,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B01",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B01",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "ZAND301-S",
+    "text": "آن مکان‌ها و روستاها",
+    "technical_status": "success",
+    "output_tokens": 7,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B10",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B10",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "ZAND301-R",
+    "text": "آن مکان‌ها و روستاها",
+    "technical_status": "success",
+    "output_tokens": 7,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B11",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B11",
+        "primary_judgment": "SUPPORTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [],
+        "uncertainties": []
+      }
+    }
+  },
+  {
+    "id": "ZAND301-I",
+    "text": "```json\n{\n  \"relation_or_event\": \"demonstrative reference\",\n  \"participants\": [\n    {\n      \"entity\": \"ōyšān\",\n      \"role\": \"demonstrative\"\n    },\n    {\n      \"entity\": \"gyāg rōstāg\",\n      \"role\": \"referent\"\n    }\n  ],\n  \"number_and_scope\": {\n    \"number\": 1,\n    \"scope\": \"gyāg rōstāg\"\n  },\n  \"unresolved\": []\n}\n```",
+    "technical_status": "success",
+    "output_tokens": 133,
+    "ratings": {
+      "/root/stage_assessor_a": {
+        "blind_id": "B07",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Explicit number 1 conflicts with the attributed plural reference of both gyāg and rōstāg.",
+          "The two nouns are combined into one referent entry without preserving their distinct coordinated list status."
+        ],
+        "uncertainties": [
+          "This judgment concerns compatibility with the supplied conditional reading, not definitive source correctness."
+        ]
+      },
+      "/root/stage_assessor_b": {
+        "blind_id": "B07",
+        "primary_judgment": "CONTRADICTED",
+        "secondary_judgment": null,
+        "format_issue": false,
+        "critical_errors": [
+          "Explicit number 1 conflicts with the attributed plural reference of both gyāg and rōstāg.",
+          "The two nouns are combined into one referent entry without preserving their distinct coordinated list status."
+        ],
+        "uncertainties": [
+          "The assessment concerns compatibility with the attributed conditional reading; it does not establish the source reading."
+        ]
+      }
+    }
+  }
+]

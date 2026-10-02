@@ -1,0 +1,25 @@
+{"phase": "learning_case_recorded", "case_id": "LD-018", "arm": "reference", "status": "success", "recorded_outputs": 44}
+{"phase": "learning_case_recorded", "case_id": "LD-019", "arm": "reference", "status": "success", "recorded_outputs": 45}
+{"phase": "learning_case_recorded", "case_id": "LD-019", "arm": "candidate", "status": "success", "recorded_outputs": 46}
+{"phase": "learning_case_recorded", "case_id": "LD-020", "arm": "candidate", "status": "success", "recorded_outputs": 47}
+{"phase": "learning_case_recorded", "case_id": "LD-020", "arm": "reference", "status": "success", "recorded_outputs": 48}
+{"phase": "learning_case_recorded", "case_id": "LD-021", "arm": "reference", "status": "success", "recorded_outputs": 49}
+{"phase": "learning_case_recorded", "case_id": "LD-021", "arm": "candidate", "status": "success", "recorded_outputs": 50}
+{"phase": "learning_case_recorded", "case_id": "LD-022", "arm": "candidate", "status": "success", "recorded_outputs": 51}
+{"phase": "learning_case_recorded", "case_id": "LD-022", "arm": "reference", "status": "success", "recorded_outputs": 52}
+{"phase": "learning_case_recorded", "case_id": "LD-023", "arm": "reference", "status": "success", "recorded_outputs": 53}
+{"phase": "learning_case_recorded", "case_id": "LD-023", "arm": "candidate", "status": "success", "recorded_outputs": 54}
+{"phase": "learning_case_recorded", "case_id": "LD-024", "arm": "candidate", "status": "success", "recorded_outputs": 55}
+{"phase": "learning_case_recorded", "case_id": "LD-024", "arm": "reference", "status": "success", "recorded_outputs": 56}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.494110+00:00", "path": "base-provenance.json", "bytes": 2322, "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.524633+00:00", "path": "bundle-manifest.json", "bytes": 1825, "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.561076+00:00", "path": "candidate-manifest.json", "bytes": 10066, "sha256": "4ccf49623f1753efffc922a97f882cdbadbfcecabbda5ebccbe30e9f3e084dac"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.592565+00:00", "path": "diagnostic-status.json", "bytes": 3051, "sha256": "2983457ca1177a93151330bbfea395f90d953b758a68bbc5ca303aa0ce4f3957"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.621153+00:00", "path": "driver.log", "bytes": 9306, "sha256": "5a82e8047fd6d85b5c39b599d75ceabb563274cfce0c02010fa9384c54b76a89"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.651541+00:00", "path": "evaluation/evaluation/predictions.jsonl", "bytes": 62374, "sha256": "84345a9473714373fb87de01b9381e59d900d7694b41e6c32f3829f5ee62bb35"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.652423+00:00", "path": "evaluation/evaluation/run.json", "bytes": 15161, "sha256": "c539c1a862f0745514676b4d65787d071733009105d082d35f153cd0e56553f1"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.653119+00:00", "path": "evaluation/numerical-state.json", "bytes": 682, "sha256": "ac75a3dfdb8624231d90611facbca733aab5cc8cdb7187662d9e8eb549330586"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.654127+00:00", "path": "evaluation/run.json", "bytes": 13146, "sha256": "0712fc59111c08e5a02301b5a49b537fa1f290b79d4b853a25132323a528f850"}
+{"stage": "artifact_closed", "utc": "2026-09-30T16:50:41.681768+00:00", "path": "reference-manifest.json", "bytes": 5949, "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"}
+{"stage": "ready_to_persist", "utc": "2026-09-30T16:50:41.708162+00:00", "manifest_sha256": "923fc090fc866205ed3272bbcd6644c2b2cb981a1811974ccef5c96468300e34", "exported_files": 10, "evaluation_status": "finished_see_per_attempt_status"}
+{"stage": "persistence_window_expired", "utc": "2026-09-30T16:51:41.708331+00:00", "remote_inventory_verified": false}

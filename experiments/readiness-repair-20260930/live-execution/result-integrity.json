@@ -1,0 +1,26 @@
+{
+  "job_id": "6abd2a1d404719ba376138e8",
+  "provider_status": "COMPLETED",
+  "provider_run_seconds": 877.174,
+  "conservative_compute_estimate_usd": "0.625005",
+  "cost_is_invoice": false,
+  "recovered_bytes": 126844,
+  "remote_readback_hashes_verified": true,
+  "manifest_log_hash_verified": true,
+  "optimizer_updates": 0,
+  "both_gpu_canaries_passed": true,
+  "final_adapters_unchanged": true,
+  "full_ordered_first_attempts": 56,
+  "status_counts": {
+    "success": 56
+  },
+  "caps_timeouts_missing": 0,
+  "prompt_prefix_parity_verified": true,
+  "generation_seconds": 356.7447429774329,
+  "generation_median_seconds": 3.7371448545600288,
+  "generation_max_seconds": 40.27385972090997,
+  "output_tokens": 2099,
+  "different_paired_texts": 25,
+  "semantic_quality_scored": false,
+  "no_weights_downloaded": true
+}

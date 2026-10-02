@@ -1,0 +1,259 @@
+{
+  "adapter_files": {
+    "training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "training/adapter/adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+    "training/provenance.json": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69",
+    "training/status.json": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"
+  },
+  "automatic_full_resume_supported": false,
+  "bootstrap_hashes": {
+    "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7",
+    "runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d"
+  },
+  "bundle_name": "cloud-pilot-qualified-20260927.zip",
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "compute_seconds": 5100,
+  "cross_job_sha256_verified": false,
+  "data_manifest_name": "mixed-data-manifest-157531204582.json",
+  "data_manifest_sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54",
+  "evaluation_complete": true,
+  "export_reserve_seconds": 600,
+  "files": {
+    "base-provenance.json": {
+      "bytes": 2322,
+      "sha256": "faa80192709b8a18653acf5dacd1e7be920c49f2c8911aad72074eb15a55d472"
+    },
+    "bundle-manifest.json": {
+      "bytes": 1825,
+      "sha256": "fc62c9138d926139dc1fa4e6b943f06a653aa8cb438ce5963628c24b77f853cd"
+    },
+    "data-manifest.json": {
+      "bytes": 62848,
+      "sha256": "157531204582c50f2d8f73aaa76ce8aca0c83e2c6e624d60bbc8c8daa1515b54"
+    },
+    "driver.log": {
+      "bytes": 25299,
+      "sha256": "9cc0acccda3d7c9c208796201f6b30f159d6c3d52285b52ba5c3404def1353fa"
+    },
+    "mixed-status.json": {
+      "bytes": 7276,
+      "sha256": "2834f2497f12a949bda6769c42304a0aac748fec40c814fed1c8406cb0f738f3"
+    },
+    "mixed/evaluation/predictions.jsonl": {
+      "bytes": 36589,
+      "sha256": "edfa62482d80b5d9070b82c3f2289759f43bb1a5350c6160ab5d72e66147d4f1"
+    },
+    "mixed/evaluation/run.json": {
+      "bytes": 9179,
+      "sha256": "ad4ec32da151f8b67e055a68ae51bc29eef6017be1b5b6dce2beaba6a1d279b0"
+    },
+    "mixed/run.json": {
+      "bytes": 8356,
+      "sha256": "8315ae3dfaa484c5ffd3fffeda3b7b325c0ca0708c082983dcab4330aefd510a"
+    },
+    "mixed/training/adapter/README.md": {
+      "bytes": 5218,
+      "sha256": "7c9b4d2af671a9e5b5199489e83c12728c5f38228fb039d6a8192fc3c7d513d9"
+    },
+    "mixed/training/adapter/adapter_config.json": {
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    "mixed/training/adapter/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "sha256": "c2305fc9cdc1fb99a346e58c92ae2ba1faa030ff6961bf0be1452f75006a8df0"
+    },
+    "mixed/training/bounded-adapter-step20/README.md": {
+      "bytes": 5218,
+      "sha256": "7c9b4d2af671a9e5b5199489e83c12728c5f38228fb039d6a8192fc3c7d513d9"
+    },
+    "mixed/training/bounded-adapter-step20/adapter_config.json": {
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    "mixed/training/bounded-adapter-step20/adapter_model.safetensors": {
+      "bytes": 489840816,
+      "sha256": "429bc12b412969452ad60303d438212832ba63f389aeb73cbc352748c1907dbe"
+    },
+    "mixed/training/progress.jsonl": {
+      "bytes": 9464,
+      "sha256": "27b24a98b766e110801cfbbf42e01805e82df9e4243d450ed6f16189ae5faceb"
+    },
+    "mixed/training/run.json": {
+      "bytes": 55373,
+      "sha256": "6185521d2b21e18f3d5ab0ca1fca7620a6163a047e44d3466fcca61aa54d666f"
+    },
+    "trained-manifest.json": {
+      "bytes": 5949,
+      "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
+    }
+  },
+  "inputs_name": "qualitydev1-06ac58310bf6.jsonl",
+  "inputs_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "internal_seconds": 5700,
+  "latest_optimizer_checkpoint": null,
+  "local_model_verified": false,
+  "max_export_bytes": 2147483648,
+  "maximum_wait_seconds": 300,
+  "mixed_status": "complete",
+  "native_timeout_minutes": 100,
+  "operation": "mixed_supervision",
+  "prompt_identities": [
+    {
+      "id": "QUALITYDEV1-001:plain",
+      "input_tokens": 182,
+      "rendered_input_ids_sha256": "2727e3513cf5392c9de4ae92101c39b982afca5987d305ee996b840028803fe4"
+    },
+    {
+      "id": "QUALITYDEV1-007:plain",
+      "input_tokens": 192,
+      "rendered_input_ids_sha256": "15d5a762f8aa7f0c08515b0be5ca9104b187a8046ee95d50a9d9c26b51b4ab92"
+    },
+    {
+      "id": "QUALITYDEV1-013:plain",
+      "input_tokens": 204,
+      "rendered_input_ids_sha256": "8e1c1f8942571371fe5225e929321287fbee856beea0efc16fb2420367ccdc57"
+    },
+    {
+      "id": "QUALITYDEV1-019:plain",
+      "input_tokens": 228,
+      "rendered_input_ids_sha256": "2815c480b2ce22990aa5be52afdc99a493518b79f2b2b98b72cb3a5d2b779572"
+    },
+    {
+      "id": "QUALITYDEV1-002:plain",
+      "input_tokens": 185,
+      "rendered_input_ids_sha256": "04d59898680a5390ff5074dc78b41215780c4863a7386a9d6f5b09a23667d028"
+    },
+    {
+      "id": "QUALITYDEV1-008:plain",
+      "input_tokens": 217,
+      "rendered_input_ids_sha256": "0b8e6020a7c4fc6f722dd6e07b18a4a0d1f4b27631dbf4dc69e086d8cc839d88"
+    },
+    {
+      "id": "QUALITYDEV1-014:plain",
+      "input_tokens": 227,
+      "rendered_input_ids_sha256": "3b5dc8535532d60b72885cba6eae71d6e2ca2a201d2e84370813f0cb3e0eaedf"
+    },
+    {
+      "id": "QUALITYDEV1-020:plain",
+      "input_tokens": 257,
+      "rendered_input_ids_sha256": "157e4cd8809392a6c062d81366574fb80a5d39a31fbece181c53a993d4415903"
+    },
+    {
+      "id": "QUALITYDEV1-003:plain",
+      "input_tokens": 190,
+      "rendered_input_ids_sha256": "d096289270f6902729266996e5597f42aa64ff6c087f0a7303527565d8b0f402"
+    },
+    {
+      "id": "QUALITYDEV1-009:plain",
+      "input_tokens": 222,
+      "rendered_input_ids_sha256": "ca92d96668f973dca591acc99d00b9ee2bc668cc5e7eca7b9a34d4cc15ad5a52"
+    },
+    {
+      "id": "QUALITYDEV1-015:plain",
+      "input_tokens": 249,
+      "rendered_input_ids_sha256": "0f42b3c0b22e447378e9785f276dbb83829ebe4b92a79c4f49a00a63803a5a83"
+    },
+    {
+      "id": "QUALITYDEV1-021:plain",
+      "input_tokens": 291,
+      "rendered_input_ids_sha256": "f04c9e5dc2f735a6f7d75f859879ad1074d0acbbc888bcfdcb6417e7a58341f4"
+    },
+    {
+      "id": "QUALITYDEV1-004:plain",
+      "input_tokens": 189,
+      "rendered_input_ids_sha256": "375de30cb2bc9549346bc2d4c3cbab98ca03fcb5c509fb000847f9d0da6e6563"
+    },
+    {
+      "id": "QUALITYDEV1-010:plain",
+      "input_tokens": 247,
+      "rendered_input_ids_sha256": "0a8482e3a4fe8066ed8c18677da91a29fb4a04544110cc7a41d30ac4822e2cdf"
+    },
+    {
+      "id": "QUALITYDEV1-016:plain",
+      "input_tokens": 256,
+      "rendered_input_ids_sha256": "d095e448fc3c891172d2d2a9319c84229eb82fb4abce196b5d421e648f5f4555"
+    },
+    {
+      "id": "QUALITYDEV1-022:plain",
+      "input_tokens": 345,
+      "rendered_input_ids_sha256": "46d521c5056d9bf7a4be8a17d0f17a1cb714f6f68bfe910540326841e3219c2d"
+    },
+    {
+      "id": "QUALITYDEV1-005:plain",
+      "input_tokens": 198,
+      "rendered_input_ids_sha256": "ae11f5ba28c2f90932185af64371d138d7ce0b60512df12f0d46aea186a1deaa"
+    },
+    {
+      "id": "QUALITYDEV1-011:plain",
+      "input_tokens": 297,
+      "rendered_input_ids_sha256": "7f577d46557305de4c10e4b9c082230add8a9f6557a1040c5a8483bb8c6975c0"
+    },
+    {
+      "id": "QUALITYDEV1-017:plain",
+      "input_tokens": 275,
+      "rendered_input_ids_sha256": "26d97730773bf5656e19ddcb1ec7e8eae6b22137e3f0ab6fc27937a93f4f95f0"
+    },
+    {
+      "id": "QUALITYDEV1-023:plain",
+      "input_tokens": 400,
+      "rendered_input_ids_sha256": "f7bac0e54791acc5184e2ebb9e4768333962574388907667e182f279e1136143"
+    },
+    {
+      "id": "QUALITYDEV1-006:plain",
+      "input_tokens": 277,
+      "rendered_input_ids_sha256": "0edb2c1719349b64409a05dce836cec96dc9e302bbc7928dc56b27a81cf4a337"
+    },
+    {
+      "id": "QUALITYDEV1-012:plain",
+      "input_tokens": 359,
+      "rendered_input_ids_sha256": "3721e1c69420ac896e222411a119da30a33a2a10d909bff0afb55e8d306d8d0d"
+    },
+    {
+      "id": "QUALITYDEV1-018:plain",
+      "input_tokens": 288,
+      "rendered_input_ids_sha256": "5db5b015088e0f3a48dd091d388ce155ba085e2680d0284cd2d1ba91181a9f3a"
+    },
+    {
+      "id": "QUALITYDEV1-024:plain",
+      "input_tokens": 456,
+      "rendered_input_ids_sha256": "78f82faed8ce2c6439d69f8261c5654d5f7215e7e00961949539483214f79254"
+    }
+  ],
+  "quality_validated": false,
+  "remote_inventory_verified": false,
+  "run_id": "157531204582c50f2d8f73aaa76ce8ac",
+  "scheduled_outputs": 24,
+  "schema_version": 1,
+  "script_hashes": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "contextual_train.py": "86ce4762a9a4e9356803ba2ed6e1c4c6689982a4cee3dab9b5e4bedd62b38122",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dev_diagnostic.py": "9d459482f3b7189cc2109bd68e36d14e77693df64f41574ff952d71bc6725d11",
+    "mixed_run.py": "1326526a5a32d9200ee58851d75cb9acda4e039ea95f9b594abc64e997287249",
+    "mixed_train.py": "b81dd8dcd873f5e6134780def3541b7e1c9ce5e813041e5da224b78ac161adf4",
+    "palref_eval.py": "050a38880c68113ca5e5ebc4abd26945d05959eeda52f5df64f00292acfe4a49"
+  },
+  "steps": 96,
+  "train_name": "mixed-train-22266b73d3a0.jsonl",
+  "train_sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+  "trained_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "trained_prefix": "continuations/1ae0f16dae9c4dffa36d15a24345fded",
+  "training_schedule_completed": true,
+  "training_settings": {
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_epsilon": 1e-08,
+    "bf16": true,
+    "gradient_accumulation_steps": 16,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "linear",
+    "max_grad_norm": 1.0,
+    "max_steps": 96,
+    "optim": "adamw_torch",
+    "seed": 3407,
+    "warmup_steps": 4,
+    "weight_decay": 0.0
+  }
+}

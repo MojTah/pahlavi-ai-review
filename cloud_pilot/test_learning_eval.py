@@ -66,7 +66,7 @@ class LearningEvaluationTest(unittest.TestCase):
         self.rows = [{'case_id': f'LD-{i:03d}', 'prompt': 'exact original task'} for i in range(1, 29)]
         self.prepared = {r['case_id']: [2, 3, 4] for r in self.rows}
         self.identity = {'adapters': {a: {'adapter_model.safetensors': a * 8} for a in run.ARMS}}
-        self.deadline = (datetime.now(timezone.utc) + timedelta(minutes=3)).isoformat()
+        self.deadline = (datetime.now(timezone.utc) + timedelta(hours=3)).isoformat()
         # Windows indexing can briefly hold atomic JSON replacements. Retry only
         # local filesystem replacement, never generation or production code.
         original_replace = os.replace
@@ -143,6 +143,15 @@ class LearningEvaluationTest(unittest.TestCase):
         stopper = run.GenerationDeadline(0, datetime.now(timezone.utc) - timedelta(seconds=1))
         self.assertTrue(stopper(None, None))
         self.assertEqual(stopper.reason, 'global_deadline')
+
+    def test_insufficient_full_cycle_budget_prevents_first_attempt(self):
+        self.deadline = (datetime.now(timezone.utc) + timedelta(seconds=5099)).isoformat()
+        model = StubModel()
+        with self.assertRaisesRegex(TimeoutError, 'all 56 first attempts'): self.generate(model)
+        state = run.runtime.read_json(self.output / 'run.json')
+        self.assertEqual((state['status'], state['attempted_outputs'], model.calls), ('incomplete', 0, 0))
+        self.assertEqual(len(state['unattempted_output_ids']), 56)
+        self.assertTrue(all(c['status'] == 'passed' for c in state['canaries'].values()))
 
     def test_frozen_input_and_real_original_token_prefixes(self):
         from transformers import AutoTokenizer

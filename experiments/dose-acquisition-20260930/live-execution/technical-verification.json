@@ -1,0 +1,49 @@
+{
+  "status": "PARTIAL",
+  "reviewer_id": "/root/dose_design_critic",
+  "job_id": "6abd57e0fbc85ba68235c601",
+  "scope": "Bounded independent technical closeout; incomplete independent reconstruction explicitly retained.",
+  "checks_completed": [
+    "Read provider terminal record, launch receipt, launch rate record, recovered manifest structure, child run, training receipt, both evaluation receipts, and beginning/end of driver log.",
+    "Independently parsed driver.log with ast.literal_eval for trainer loss records: exactly384 records; inspected first and final numeric-string records.",
+    "Inspected training progress final event: step384, consumed_slots6144, elapsed8003.701140032965 seconds.",
+    "Inspected saved snapshot receipts at96/192/384: optimizer and scheduler steps agree with named checkpoint; slot counts1536/3072/6144.",
+    "Inspected three saved admission forecasts at20/96/192, each admitted with evaluation6600seconds and reload300seconds.",
+    "Inspected both evaluation receipts:29baseline and69post-training successful first attempts; no active or unattempted outputs; four named prefill canaries recorded passed.",
+    "Inspected baseline/final NF4 numerical records and masked-loss canary:601quantized parameters, NF4 double quantization with BF16 compute, nonquantized FP32; native/manual canary losses both2.3988394737243652.",
+    "Inspected recovery receipt inventory: small-file SHA256 readback reported,896608downloaded bytes; four adapter sizes489840816bytes each; independent remote adapter byte hashing explicitlyfalse."
+  ],
+  "observed_receipt_values": {
+    "completed_updates": 384,
+    "consumed_slots": 6144,
+    "declared_passes": 4,
+    "scheduled_and_successful_outputs": 98,
+    "training_seconds": 8003.701140032965,
+    "provider_running_seconds": 9914.892,
+    "manifest_sha256": "f39f94514eb7b83d7daa39e2f80afd4e4485ded9123632fb69f4c821a8e8c664",
+    "final_training_loss": 0.42321272949144867
+  },
+  "cost_estimate": {
+    "observed_usd_per_minute": 0.041667,
+    "running_minutes": 165.2482,
+    "continuous_estimate_usd": 6.8853967494,
+    "rounded_166_minute_estimate_usd": 6.916722,
+    "invoice_verified": false
+  },
+  "unfinished_independent_verification": [
+    "Did not independently rehash the recovered inventory or freeze/proposal bindings during this result-audit turn.",
+    "Did not finish independent reconstruction of all6144row masks, cycle/stream hashes and per-output prompt/token/text/identity hashes.",
+    "Did not check finiteness of every numeric log value or reconstruct every learning-rate value; only384recordcount and endpoint records were independently parsed.",
+    "Did not independently validate all384progress rows, all pass-exposure ID arrays, or actual optimizer/buffer tensors; no tensors or optimizer states downloaded.",
+    "Did not inspect new recover_results.py or prepare_review.py implementations,126-entry blind mapping, semantic ratings, aggregate arithmetic, or OUTCOME.md.",
+    "No fresh authenticated cloud check, remote model-byte hash, GPU replay, or semantic judgment performed."
+  ],
+  "root_reported_not_independently_repeated": [
+    "Root reports frozen-output hash/coverage checks pass.",
+    "Root reports126rating coverage and paired counts/safety gate checks pass."
+  ],
+  "quality_validated": false,
+  "model_promotion_supported": false,
+  "new_paid_action_authorized": false,
+  "conclusion": "No contradiction found in inspected receipts, but this independent result audit is PARTIAL. Root verification must carry the uncompleted boundaries; do not describe this artifact as an independent full integrity PASS."
+}

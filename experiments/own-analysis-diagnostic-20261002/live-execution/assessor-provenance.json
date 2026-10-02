@@ -1,0 +1,25 @@
+{
+  "all_final_slots_per_rater": 6,
+  "allowed_reads": {
+    "a": [
+      "reviewer-a/INSTRUCTIONS.md",
+      "reviewer-a/packet.jsonl"
+    ],
+    "b": [
+      "reviewer-b/INSTRUCTIONS.md",
+      "reviewer-b/packet.jsonl"
+    ]
+  },
+  "assessor_agents": {
+    "a": "/root/own_final_blind_a",
+    "b": "/root/own_final_blind_b"
+  },
+  "common_rubric": "Existing DEV semantic merit, unchanged",
+  "distinct_contexts": true,
+  "expert_adjudicated": false,
+  "forked_context": "none",
+  "independently_calibrated_instruments": false,
+  "lead_agent": "/root",
+  "ratings_frozen_before_analysis_inspection": true,
+  "validators_passed": true
+}

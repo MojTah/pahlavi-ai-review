@@ -1,0 +1,1340 @@
+{
+  "mixed-supervision-20260929": {
+    "path": "resources\\local\\mixed-supervision-20260929\\data\\train.jsonl",
+    "sha256": "c32a7f21639c34107fd4a86c1c8dae3a8815b40c8107ff8c3075e0167535dc4a",
+    "groups": {
+      "historical-control-fa": {
+        "rows": 1152,
+        "labels": 58105,
+        "target_text_tokens": 55801,
+        "terminator_tokens": 2304,
+        "terminator_equal_example_fraction": 0.07615980871258227,
+        "short_content_tokens": {
+          "4": 6,
+          "5": 18
+        }
+      },
+      "lexical-en": {
+        "rows": 64,
+        "labels": 2046,
+        "target_text_tokens": 1918,
+        "terminator_tokens": 128,
+        "terminator_equal_example_fraction": 0.06536864803261462,
+        "short_content_tokens": {}
+      },
+      "lexical-fa": {
+        "rows": 96,
+        "labels": 783,
+        "target_text_tokens": 591,
+        "terminator_tokens": 192,
+        "terminator_equal_example_fraction": 0.30190223507705377,
+        "short_content_tokens": {
+          "1": 1,
+          "2": 10,
+          "3": 23,
+          "4": 10,
+          "5": 8
+        }
+      },
+      "documentary-en": {
+        "rows": 57,
+        "labels": 5378,
+        "target_text_tokens": 5264,
+        "terminator_tokens": 114,
+        "terminator_equal_example_fraction": 0.055131621901876544,
+        "short_content_tokens": {
+          "2": 1
+        }
+      },
+      "edition-spans-en": {
+        "rows": 4,
+        "labels": 143,
+        "target_text_tokens": 135,
+        "terminator_tokens": 8,
+        "terminator_equal_example_fraction": 0.08205393640176248,
+        "short_content_tokens": {}
+      },
+      "pedagogy-fa": {
+        "rows": 127,
+        "labels": 651,
+        "target_text_tokens": 397,
+        "terminator_tokens": 254,
+        "terminator_equal_example_fraction": 0.42949591965339984,
+        "short_content_tokens": {
+          "1": 18,
+          "2": 35,
+          "3": 30,
+          "4": 24,
+          "5": 9
+        }
+      },
+      "lexical-mmp-en": {
+        "rows": 32,
+        "labels": 299,
+        "target_text_tokens": 235,
+        "terminator_tokens": 64,
+        "terminator_equal_example_fraction": 0.25154798600522293,
+        "short_content_tokens": {
+          "3": 7,
+          "4": 1,
+          "5": 4
+        }
+      },
+      "inscription-fa": {
+        "rows": 4,
+        "labels": 51,
+        "target_text_tokens": 43,
+        "terminator_tokens": 8,
+        "terminator_equal_example_fraction": 0.1996212121212121,
+        "short_content_tokens": {
+          "4": 1
+        }
+      },
+      "ALL": {
+        "rows": 1536,
+        "labels": 67456,
+        "target_text_tokens": 64384,
+        "terminator_tokens": 3072,
+        "terminator_equal_example_fraction": 0.12224415889910632,
+        "short_content_tokens": {
+          "1": 19,
+          "2": 46,
+          "3": 60,
+          "4": 42,
+          "5": 39
+        }
+      },
+      "AUX": {
+        "rows": 384,
+        "labels": 9351,
+        "target_text_tokens": 8583,
+        "terminator_tokens": 768,
+        "terminator_equal_example_fraction": 0.26049720945867844,
+        "short_content_tokens": {
+          "1": 19,
+          "2": 46,
+          "3": 60,
+          "4": 36,
+          "5": 21
+        }
+      },
+      "AUX_EN": {
+        "rows": 157,
+        "labels": 7866,
+        "target_text_tokens": 7552,
+        "terminator_tokens": 314,
+        "terminator_equal_example_fraction": 0.10002450458769731,
+        "short_content_tokens": {
+          "2": 1,
+          "3": 7,
+          "4": 1,
+          "5": 4
+        }
+      }
+    },
+    "short_rows": [
+      {
+        "id": "S22GRAM-032",
+        "task": "pedagogy-fa",
+        "line": 47,
+        "content": "که",
+        "content_tokens": 1
+      },
+      {
+        "id": "FAINV:lex:3a7138be8fd5f899b74db22a8a26b24a329da8d997b100a5483d75f4ffd804ff",
+        "task": "lexical-fa",
+        "line": 61,
+        "content": "زدن",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-061",
+        "task": "pedagogy-fa",
+        "line": 64,
+        "content": "همیشه",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-091",
+        "task": "pedagogy-fa",
+        "line": 80,
+        "content": "و",
+        "content_tokens": 1
+      },
+      {
+        "id": "FAINV:lex:01623e045f7a1d3612416fe2a8af855dc289c45f4c3372825f2c7e3b34c7f9cf",
+        "task": "lexical-fa",
+        "line": 93,
+        "content": "رامش",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-120",
+        "task": "pedagogy-fa",
+        "line": 95,
+        "content": "یک سوم",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:9600eac496b25ee2eab3e306292c859c661639bb607a71632d9cff9cc7dcdd07",
+        "task": "lexical-fa",
+        "line": 142,
+        "content": "مرض",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-043",
+        "task": "pedagogy-fa",
+        "line": 160,
+        "content": "هر کدام",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-011",
+        "task": "pedagogy-fa",
+        "line": 175,
+        "content": "دید",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-113",
+        "task": "pedagogy-fa",
+        "line": 176,
+        "content": "پنجم",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-054",
+        "task": "pedagogy-fa",
+        "line": 191,
+        "content": "فراز",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:907f252109d3d564526196c7dd94ec31e0d47585fe92da53421ed48475e68792",
+        "task": "lexical-fa",
+        "line": 221,
+        "content": "داشتن",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-037",
+        "task": "pedagogy-fa",
+        "line": 224,
+        "content": "شاد می‌شود",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-053",
+        "task": "pedagogy-fa",
+        "line": 240,
+        "content": "کننده",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-042",
+        "task": "pedagogy-fa",
+        "line": 287,
+        "content": "کننده",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-104",
+        "task": "pedagogy-fa",
+        "line": 288,
+        "content": "21",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:aa122d6349e556b860354d6d552b87ec5e4cf89838d7441a833fc48b7b321ddd",
+        "task": "lexical-fa",
+        "line": 301,
+        "content": "بودن",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-027",
+        "task": "pedagogy-fa",
+        "line": 383,
+        "content": "-شان",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:8469b42cc4762ee0aa8548c662825bc22ab871d36e8fd973dc26344f10178bc4",
+        "task": "lexical-fa",
+        "line": 398,
+        "content": "کمان",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-016",
+        "task": "pedagogy-fa",
+        "line": 415,
+        "content": "من",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-040",
+        "task": "pedagogy-fa",
+        "line": 463,
+        "content": "کس",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-036",
+        "task": "pedagogy-fa",
+        "line": 464,
+        "content": "کدام",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-055",
+        "task": "pedagogy-fa",
+        "line": 479,
+        "content": "کشان",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-079",
+        "task": "pedagogy-fa",
+        "line": 496,
+        "content": "کجا",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-082",
+        "task": "pedagogy-fa",
+        "line": 528,
+        "content": "به",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-049",
+        "task": "pedagogy-fa",
+        "line": 544,
+        "content": "حرکت",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-058",
+        "task": "pedagogy-fa",
+        "line": 560,
+        "content": "پس",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-108",
+        "task": "pedagogy-fa",
+        "line": 575,
+        "content": "بیور",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-064",
+        "task": "pedagogy-fa",
+        "line": 735,
+        "content": "اکنون",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-037",
+        "task": "pedagogy-fa",
+        "line": 736,
+        "content": "خود",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-031",
+        "task": "pedagogy-fa",
+        "line": 799,
+        "content": "که",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-111",
+        "task": "pedagogy-fa",
+        "line": 815,
+        "content": "ی",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-076",
+        "task": "pedagogy-fa",
+        "line": 831,
+        "content": "نه",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-017",
+        "task": "pedagogy-fa",
+        "line": 832,
+        "content": "بکن",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:c4befba111ceb93c238e3c7b9eab06cddf2a6fdca1d02e2f84a185f84aa8b068",
+        "task": "lexical-fa",
+        "line": 862,
+        "content": "خواص",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-029",
+        "task": "pedagogy-fa",
+        "line": 879,
+        "content": "این",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-034",
+        "task": "pedagogy-fa",
+        "line": 880,
+        "content": "چه",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22CLAUSE-007",
+        "task": "pedagogy-fa",
+        "line": 927,
+        "content": "رفته بودم",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-030",
+        "task": "pedagogy-fa",
+        "line": 1007,
+        "content": "آن",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-041",
+        "task": "pedagogy-fa",
+        "line": 1055,
+        "content": "چیز",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-026",
+        "task": "pedagogy-fa",
+        "line": 1103,
+        "content": "-تان",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-018",
+        "task": "pedagogy-fa",
+        "line": 1120,
+        "content": "بگو",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:037e66f2587fa97700fb22ca9f7ea213d32d1bfcfd0085f2ef766201edf84aad",
+        "task": "lexical-fa",
+        "line": 1149,
+        "content": "احتکاری",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-040",
+        "task": "pedagogy-fa",
+        "line": 1151,
+        "content": "مرده",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-087",
+        "task": "pedagogy-fa",
+        "line": 1152,
+        "content": "به سوی",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-084",
+        "task": "pedagogy-fa",
+        "line": 1168,
+        "content": "اندر",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-035",
+        "task": "pedagogy-fa",
+        "line": 1215,
+        "content": "کدام",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-022",
+        "task": "pedagogy-fa",
+        "line": 1232,
+        "content": "-م",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-072",
+        "task": "pedagogy-fa",
+        "line": 1263,
+        "content": "هم",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-103",
+        "task": "pedagogy-fa",
+        "line": 1279,
+        "content": "11",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-059",
+        "task": "pedagogy-fa",
+        "line": 1280,
+        "content": "پیش",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-039",
+        "task": "pedagogy-fa",
+        "line": 1295,
+        "content": "شاد شد",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:442a34cade3a06c0bd47ac1f006fc27269979f659b1db554f62b69ad69260aab",
+        "task": "lexical-fa",
+        "line": 1309,
+        "content": "بردن",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-044",
+        "task": "pedagogy-fa",
+        "line": 1343,
+        "content": "تنها",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-028",
+        "task": "pedagogy-fa",
+        "line": 1344,
+        "content": "این",
+        "content_tokens": 1
+      },
+      {
+        "id": "FAINV:lex:072edc830a9f30f59ef3e0a62a017851005df7e1a678fd463c01e85fc754261d",
+        "task": "lexical-fa",
+        "line": 1374,
+        "content": "پسند",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-068",
+        "task": "pedagogy-fa",
+        "line": 1375,
+        "content": "پایه",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-023",
+        "task": "pedagogy-fa",
+        "line": 1391,
+        "content": "-ت",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-010",
+        "task": "pedagogy-fa",
+        "line": 1407,
+        "content": "دیدی",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-020",
+        "task": "pedagogy-fa",
+        "line": 1423,
+        "content": "شما",
+        "content_tokens": 2
+      },
+      {
+        "id": "openampd:MP0003:endorsement",
+        "task": "documentary-en",
+        "line": 1440,
+        "content": "Correct.",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-075",
+        "task": "pedagogy-fa",
+        "line": 1472,
+        "content": "چنین",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-020",
+        "task": "pedagogy-fa",
+        "line": 1488,
+        "content": "برود",
+        "content_tokens": 2
+      },
+      {
+        "id": "FAINV:lex:61b987ba03286f67d3f0bafb819468dd9b5910d0d62206c403ecb158fbc7bbf0",
+        "task": "lexical-fa",
+        "line": 1501,
+        "content": "خواندن",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-089",
+        "task": "pedagogy-fa",
+        "line": 1535,
+        "content": "بجز",
+        "content_tokens": 2
+      }
+    ]
+  },
+  "training-ready-v2-20260929": {
+    "path": "resources\\local\\training-ready-v2-20260929\\data\\train.jsonl",
+    "sha256": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+    "groups": {
+      "historical-control-fa": {
+        "rows": 1152,
+        "labels": 58141,
+        "target_text_tokens": 55837,
+        "terminator_tokens": 2304,
+        "terminator_equal_example_fraction": 0.07602335332020799,
+        "short_content_tokens": {
+          "4": 6,
+          "5": 17
+        }
+      },
+      "lexical-en": {
+        "rows": 64,
+        "labels": 2618,
+        "target_text_tokens": 2490,
+        "terminator_tokens": 128,
+        "terminator_equal_example_fraction": 0.053931853948183554,
+        "short_content_tokens": {}
+      },
+      "lexical-fa": {
+        "rows": 96,
+        "labels": 1558,
+        "target_text_tokens": 1366,
+        "terminator_tokens": 192,
+        "terminator_equal_example_fraction": 0.13061945622485735,
+        "short_content_tokens": {}
+      },
+      "documentary-en": {
+        "rows": 53,
+        "labels": 5021,
+        "target_text_tokens": 4915,
+        "terminator_tokens": 106,
+        "terminator_equal_example_fraction": 0.05516884144737875,
+        "short_content_tokens": {
+          "2": 1
+        }
+      },
+      "edition-spans-en": {
+        "rows": 4,
+        "labels": 143,
+        "target_text_tokens": 135,
+        "terminator_tokens": 8,
+        "terminator_equal_example_fraction": 0.08205393640176248,
+        "short_content_tokens": {}
+      },
+      "pedagogy-fa": {
+        "rows": 131,
+        "labels": 669,
+        "target_text_tokens": 407,
+        "terminator_tokens": 262,
+        "terminator_equal_example_fraction": 0.43088535722123494,
+        "short_content_tokens": {
+          "1": 19,
+          "2": 36,
+          "3": 31,
+          "4": 25,
+          "5": 9
+        }
+      },
+      "lexical-mmp-en": {
+        "rows": 32,
+        "labels": 523,
+        "target_text_tokens": 459,
+        "terminator_tokens": 64,
+        "terminator_equal_example_fraction": 0.1289366434756334,
+        "short_content_tokens": {}
+      },
+      "inscription-fa": {
+        "rows": 4,
+        "labels": 51,
+        "target_text_tokens": 43,
+        "terminator_tokens": 8,
+        "terminator_equal_example_fraction": 0.1996212121212121,
+        "short_content_tokens": {
+          "4": 1
+        }
+      },
+      "ALL": {
+        "rows": 1536,
+        "labels": 68724,
+        "target_text_tokens": 65652,
+        "terminator_tokens": 3072,
+        "terminator_equal_example_fraction": 0.10950039912314768,
+        "short_content_tokens": {
+          "1": 19,
+          "2": 37,
+          "3": 31,
+          "4": 32,
+          "5": 26
+        }
+      },
+      "AUX": {
+        "rows": 384,
+        "labels": 10583,
+        "target_text_tokens": 9815,
+        "terminator_tokens": 768,
+        "terminator_equal_example_fraction": 0.20993153653196697,
+        "short_content_tokens": {
+          "1": 19,
+          "2": 37,
+          "3": 31,
+          "4": 26,
+          "5": 9
+        }
+      },
+      "AUX_EN": {
+        "rows": 153,
+        "labels": 8305,
+        "target_text_tokens": 7999,
+        "terminator_tokens": 306,
+        "terminator_equal_example_fraction": 0.07078284696877213,
+        "short_content_tokens": {
+          "2": 1
+        }
+      }
+    },
+    "short_rows": [
+      {
+        "id": "S22GRAM-032",
+        "task": "pedagogy-fa",
+        "line": 47,
+        "content": "که",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-061",
+        "task": "pedagogy-fa",
+        "line": 64,
+        "content": "همیشه",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-091",
+        "task": "pedagogy-fa",
+        "line": 80,
+        "content": "و",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-120",
+        "task": "pedagogy-fa",
+        "line": 95,
+        "content": "یک سوم",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-017",
+        "task": "pedagogy-fa",
+        "line": 128,
+        "content": "تو",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-043",
+        "task": "pedagogy-fa",
+        "line": 160,
+        "content": "هر کدام",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-011",
+        "task": "pedagogy-fa",
+        "line": 175,
+        "content": "دید",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-113",
+        "task": "pedagogy-fa",
+        "line": 176,
+        "content": "پنجم",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-054",
+        "task": "pedagogy-fa",
+        "line": 191,
+        "content": "فراز",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-037",
+        "task": "pedagogy-fa",
+        "line": 224,
+        "content": "شاد می‌شود",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-053",
+        "task": "pedagogy-fa",
+        "line": 240,
+        "content": "کننده",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-042",
+        "task": "pedagogy-fa",
+        "line": 287,
+        "content": "کننده",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-104",
+        "task": "pedagogy-fa",
+        "line": 288,
+        "content": "21",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-027",
+        "task": "pedagogy-fa",
+        "line": 383,
+        "content": "-شان",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-016",
+        "task": "pedagogy-fa",
+        "line": 415,
+        "content": "من",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-040",
+        "task": "pedagogy-fa",
+        "line": 463,
+        "content": "کس",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-036",
+        "task": "pedagogy-fa",
+        "line": 464,
+        "content": "کدام",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-055",
+        "task": "pedagogy-fa",
+        "line": 479,
+        "content": "کشان",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-079",
+        "task": "pedagogy-fa",
+        "line": 496,
+        "content": "کجا",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-082",
+        "task": "pedagogy-fa",
+        "line": 528,
+        "content": "به",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-049",
+        "task": "pedagogy-fa",
+        "line": 544,
+        "content": "حرکت",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-058",
+        "task": "pedagogy-fa",
+        "line": 560,
+        "content": "پس",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-108",
+        "task": "pedagogy-fa",
+        "line": 575,
+        "content": "بیور",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-064",
+        "task": "pedagogy-fa",
+        "line": 735,
+        "content": "اکنون",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-037",
+        "task": "pedagogy-fa",
+        "line": 736,
+        "content": "خود",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-031",
+        "task": "pedagogy-fa",
+        "line": 799,
+        "content": "که",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-111",
+        "task": "pedagogy-fa",
+        "line": 815,
+        "content": "ی",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-076",
+        "task": "pedagogy-fa",
+        "line": 831,
+        "content": "نه",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-017",
+        "task": "pedagogy-fa",
+        "line": 832,
+        "content": "بکن",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-029",
+        "task": "pedagogy-fa",
+        "line": 879,
+        "content": "این",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-034",
+        "task": "pedagogy-fa",
+        "line": 880,
+        "content": "چه",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22CLAUSE-007",
+        "task": "pedagogy-fa",
+        "line": 927,
+        "content": "رفته بودم",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-043",
+        "task": "pedagogy-fa",
+        "line": 943,
+        "content": "برنده",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-030",
+        "task": "pedagogy-fa",
+        "line": 1007,
+        "content": "آن",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-041",
+        "task": "pedagogy-fa",
+        "line": 1055,
+        "content": "چیز",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-026",
+        "task": "pedagogy-fa",
+        "line": 1103,
+        "content": "-تان",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-018",
+        "task": "pedagogy-fa",
+        "line": 1120,
+        "content": "بگو",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-040",
+        "task": "pedagogy-fa",
+        "line": 1151,
+        "content": "مرده",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-087",
+        "task": "pedagogy-fa",
+        "line": 1152,
+        "content": "به سوی",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-084",
+        "task": "pedagogy-fa",
+        "line": 1168,
+        "content": "اندر",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-035",
+        "task": "pedagogy-fa",
+        "line": 1215,
+        "content": "کدام",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-022",
+        "task": "pedagogy-fa",
+        "line": 1232,
+        "content": "-م",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-072",
+        "task": "pedagogy-fa",
+        "line": 1263,
+        "content": "هم",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22GRAM-103",
+        "task": "pedagogy-fa",
+        "line": 1279,
+        "content": "11",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-059",
+        "task": "pedagogy-fa",
+        "line": 1280,
+        "content": "پیش",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-039",
+        "task": "pedagogy-fa",
+        "line": 1295,
+        "content": "شاد شد",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-044",
+        "task": "pedagogy-fa",
+        "line": 1343,
+        "content": "تنها",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-028",
+        "task": "pedagogy-fa",
+        "line": 1344,
+        "content": "این",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-068",
+        "task": "pedagogy-fa",
+        "line": 1375,
+        "content": "پایه",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-023",
+        "task": "pedagogy-fa",
+        "line": 1391,
+        "content": "-ت",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22SUP-010",
+        "task": "pedagogy-fa",
+        "line": 1407,
+        "content": "دیدی",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-020",
+        "task": "pedagogy-fa",
+        "line": 1423,
+        "content": "شما",
+        "content_tokens": 2
+      },
+      {
+        "id": "openampd:MP0003:endorsement",
+        "task": "documentary-en",
+        "line": 1440,
+        "content": "Correct.",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-075",
+        "task": "pedagogy-fa",
+        "line": 1472,
+        "content": "چنین",
+        "content_tokens": 1
+      },
+      {
+        "id": "S22SUP-020",
+        "task": "pedagogy-fa",
+        "line": 1488,
+        "content": "برود",
+        "content_tokens": 2
+      },
+      {
+        "id": "S22GRAM-089",
+        "task": "pedagogy-fa",
+        "line": 1535,
+        "content": "بجز",
+        "content_tokens": 2
+      }
+    ]
+  },
+  "unicode_census": {
+    "mixed-supervision-20260929": {
+      "pool_sources": {
+        "records": 10152,
+        "strings": 10218,
+        "NFC_changed_strings": 16,
+        "NFC_changed_records": 16,
+        "counts": {
+          "U+00A0 NO-BREAK SPACE": 933,
+          "U+200C ZERO WIDTH NON-JOINER": 1,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 6850,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 1026,
+          "U+01F0 LATIN SMALL LETTER J WITH CARON": 543,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 17637,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 9735,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 5315,
+          "U+02BE MODIFIER LETTER RIGHT HALF RING": 46,
+          "U+1E6F LATIN SMALL LETTER T WITH LINE BELOW": 1,
+          "U+02BF MODIFIER LETTER LEFT HALF RING": 1,
+          "U+0304 COMBINING MACRON": 140,
+          "U+030C COMBINING CARON": 25
+        },
+        "nonNFC_examples": [
+          "Dādēnwindād az ān ī az\nmar ī farroxtar ōstāndār ī andar\nYazdānābestān ō bun ēn\nmāh Ābān ī sāl 40 ud rōz Ābān\naz-iš wēxtan ī rōγn ī\nčirāγ ī ham māh Ābān pēš Yazdānpādār\nabāyist rāy šānčak 1000 ō\nMihr-Ādur dādan čak Yazdānpādār\nāwišt",
+          "Dādēnwindād ī pad Yazdān-ābestān dārīg\nēn māh Mihr ī sāl 40 ud rõz\nzāmyād dō-rōzag pad asp 1\nud xar 3 ī Dēnbānag ī\nSarm ǰaw g(rīw) 2 aspast\n10 gird ō Dēnbānag\ndād čak\nōstāndār\nāwišt"
+        ]
+      },
+      "pool_targets": {
+        "records": 10152,
+        "strings": 15116,
+        "NFC_changed_strings": 11,
+        "NFC_changed_records": 11,
+        "counts": {
+          "U+200C ZERO WIDTH NON-JOINER": 2266,
+          "U+064A ARABIC LETTER YEH": 134,
+          "U+0643 ARABIC LETTER KAF": 95,
+          "U+06CC ARABIC LETTER FARSI YEH": 16614,
+          "U+06A9 ARABIC LETTER KEHEH": 6055,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 41,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 16,
+          "U+01F0 LATIN SMALL LETTER J WITH CARON": 1,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 226,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 56,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 27,
+          "U+02BF MODIFIER LETTER LEFT HALF RING": 1,
+          "U+0304 COMBINING MACRON": 24,
+          "U+030C COMBINING CARON": 4
+        },
+        "nonNFC_examples": [
+          "کوه هفتم، که گیاه و سرسبزی... بسیار بر آن بروید، و دام و چهارپای بسیار بر آن بچرند، پس آنانند که در هر زمان خوب و نیکرای و خیِّرند. و هرگز حرص بر ایشان نبود. و به فرزندان ایزدان شاد و مسرور بودند",
+          "Dādēnwindād from that which (belongs) from\nthe account of the very fortunate ōstāndār in\nYazdānābestān to the bun: (from az-iš postpos. line 5) this\nmonth Ābān (8th month) of year 40 and day Ābān (10th day)\nonwards because of (rāy, line 7) refining lamp oil which was of want (abāyist, line 7) in the same month Ābān at Yazdānpādār's\nšānčak 1000 to\nMihr-Ādur (he was) to give. Yazdānpādār\nsealed the čak."
+        ]
+      },
+      "selected_sources": {
+        "records": 1536,
+        "strings": 1542,
+        "NFC_changed_strings": 16,
+        "NFC_changed_records": 16,
+        "counts": {
+          "U+00A0 NO-BREAK SPACE": 543,
+          "U+200C ZERO WIDTH NON-JOINER": 1,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 3502,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 484,
+          "U+01F0 LATIN SMALL LETTER J WITH CARON": 220,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 9786,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 5484,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 3011,
+          "U+02BE MODIFIER LETTER RIGHT HALF RING": 44,
+          "U+0304 COMBINING MACRON": 140,
+          "U+030C COMBINING CARON": 25
+        },
+        "nonNFC_examples": [
+          "⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ (pad) dast ī hamē farroxtar ōstāndār (rāst?)\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ ⟦supplied resp='#DW'⟧W⟦/supplied⟧indādburzmihr-ābād\ndārīg (ēn) māh Šahrewar ī sāl\n(48) ka yazdānbānag ōstāndār\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ az xānag\nō dast[gir]d kē garmak k(abīz) (6)\nōstāndār g(rīw) 1 k(abīz) 4 ud (pad ēn)\nēg pādīrāy-ēw āwišt ud be\nēn sūd pad kār zāyistan nē\nabāyist ud ēn pādīrāy Mihrpanāh\npad gugāy-muhrīhā ī Zādanfarrox ī\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ (āwišt)",
+          "(V) uzīd ī garmīh ī māh Hordād ī sāl 38"
+        ]
+      },
+      "selected_decoded_payloads": {
+        "records": 1536,
+        "strings": 1536,
+        "NFC_changed_strings": 11,
+        "NFC_changed_records": 11,
+        "counts": {
+          "U+200C ZERO WIDTH NON-JOINER": 1539,
+          "U+064A ARABIC LETTER YEH": 134,
+          "U+0643 ARABIC LETTER KAF": 95,
+          "U+06CC ARABIC LETTER FARSI YEH": 10129,
+          "U+06A9 ARABIC LETTER KEHEH": 3260,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 33,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 15,
+          "U+01F0 LATIN SMALL LETTER J WITH CARON": 1,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 207,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 50,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 26,
+          "U+0304 COMBINING MACRON": 24,
+          "U+030C COMBINING CARON": 4
+        },
+        "nonNFC_examples": [
+          "⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ on trust of the always very fortunate Ōstāndār truly (?)\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ ⟦supplied resp='#DW'⟧W⟦/supplied⟧indādburzmihr-ābād\nmanager [this] month Šahrewar of the year\n48 when the Ōstāndār, standing under the protection of the gods,\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ from the \"House\"\nto the Estate (for) which 6 kabīz of garmak,\n(for the) Ōstāndār 1 grīw 4 kabīz and over this\nthen (only) one receipt he sealed and apart\n(from) this profit for the transaction it was not necessary to demand (another one)\nand this receipt Mihrpanāh\nwith the witnesses' seals of Zādanfarrox\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ (sealed).",
+          "کوه هفتم، که گیاه و سرسبزی... بسیار بر آن بروید، و دام و چهارپای بسیار بر آن بچرند، پس آنانند که در هر زمان خوب و نیکرای و خیِّرند. و هرگز حرص بر ایشان نبود. و به فرزندان ایزدان شاد و مسرور بودند"
+        ]
+      },
+      "historical_5xx": 198
+    },
+    "training-ready-v2-20260929": {
+      "pool_sources": {
+        "records": 9973,
+        "strings": 10039,
+        "NFC_changed_strings": 16,
+        "NFC_changed_records": 16,
+        "counts": {
+          "U+00A0 NO-BREAK SPACE": 929,
+          "U+200C ZERO WIDTH NON-JOINER": 1,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 6810,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 1018,
+          "U+01F0 LATIN SMALL LETTER J WITH CARON": 537,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 17515,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 9667,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 5282,
+          "U+02BE MODIFIER LETTER RIGHT HALF RING": 46,
+          "U+1E6F LATIN SMALL LETTER T WITH LINE BELOW": 1,
+          "U+02BF MODIFIER LETTER LEFT HALF RING": 1,
+          "U+0304 COMBINING MACRON": 140,
+          "U+030C COMBINING CARON": 25
+        },
+        "nonNFC_examples": [
+          "Dādēnwindād az ān ī az\nmar ī farroxtar ōstāndār ī andar\nYazdānābestān ō bun ēn\nmāh Ābān ī sāl 40 ud rōz Ābān\naz-iš wēxtan ī rōγn ī\nčirāγ ī ham māh Ābān pēš Yazdānpādār\nabāyist rāy šānčak 1000 ō\nMihr-Ādur dādan čak Yazdānpādār\nāwišt",
+          "Dādēnwindād ī pad Yazdān-ābestān dārīg\nēn māh Mihr ī sāl 40 ud rõz\nzāmyād dō-rōzag pad asp 1\nud xar 3 ī Dēnbānag ī\nSarm ǰaw g(rīw) 2 aspast\n10 gird ō Dēnbānag\ndād čak\nōstāndār\nāwišt"
+        ]
+      },
+      "pool_targets": {
+        "records": 9973,
+        "strings": 15120,
+        "NFC_changed_strings": 11,
+        "NFC_changed_records": 11,
+        "counts": {
+          "U+200C ZERO WIDTH NON-JOINER": 2214,
+          "U+064A ARABIC LETTER YEH": 134,
+          "U+0643 ARABIC LETTER KAF": 95,
+          "U+06CC ARABIC LETTER FARSI YEH": 16585,
+          "U+06A9 ARABIC LETTER KEHEH": 6046,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 33,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 14,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 208,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 50,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 26,
+          "U+02BF MODIFIER LETTER LEFT HALF RING": 1,
+          "U+0304 COMBINING MACRON": 24,
+          "U+030C COMBINING CARON": 4
+        },
+        "nonNFC_examples": [
+          "کوه هفتم، که گیاه و سرسبزی... بسیار بر آن بروید، و دام و چهارپای بسیار بر آن بچرند، پس آنانند که در هر زمان خوب و نیکرای و خیِّرند. و هرگز حرص بر ایشان نبود. و به فرزندان ایزدان شاد و مسرور بودند",
+          "Dādēnwindād from that which (belongs) from\nthe account of the very fortunate ōstāndār in\nYazdānābestān to the bun: (from az-iš postpos. line 5) this\nmonth Ābān (8th month) of year 40 and day Ābān (10th day)\nonwards because of (rāy, line 7) refining lamp oil which was of want (abāyist, line 7) in the same month Ābān at Yazdānpādār's\nšānčak 1000 to\nMihr-Ādur (he was) to give. Yazdānpādār\nsealed the čak."
+        ]
+      },
+      "selected_sources": {
+        "records": 1536,
+        "strings": 1542,
+        "NFC_changed_strings": 16,
+        "NFC_changed_records": 16,
+        "counts": {
+          "U+00A0 NO-BREAK SPACE": 541,
+          "U+200C ZERO WIDTH NON-JOINER": 1,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 3493,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 482,
+          "U+01F0 LATIN SMALL LETTER J WITH CARON": 219,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 9777,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 5478,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 3011,
+          "U+02BE MODIFIER LETTER RIGHT HALF RING": 44,
+          "U+0304 COMBINING MACRON": 140,
+          "U+030C COMBINING CARON": 25
+        },
+        "nonNFC_examples": [
+          "⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ (pad) dast ī hamē farroxtar ōstāndār (rāst?)\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ ⟦supplied resp='#DW'⟧W⟦/supplied⟧indādburzmihr-ābād\ndārīg (ēn) māh Šahrewar ī sāl\n(48) ka yazdānbānag ōstāndār\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ az xānag\nō dast[gir]d kē garmak k(abīz) (6)\nōstāndār g(rīw) 1 k(abīz) 4 ud (pad ēn)\nēg pādīrāy-ēw āwišt ud be\nēn sūd pad kār zāyistan nē\nabāyist ud ēn pādīrāy Mihrpanāh\npad gugāy-muhrīhā ī Zādanfarrox ī\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ (āwišt)",
+          "(V) uzīd ī garmīh ī māh Hordād ī sāl 38"
+        ]
+      },
+      "selected_decoded_payloads": {
+        "records": 1536,
+        "strings": 1536,
+        "NFC_changed_strings": 11,
+        "NFC_changed_records": 11,
+        "counts": {
+          "U+200C ZERO WIDTH NON-JOINER": 1494,
+          "U+064A ARABIC LETTER YEH": 134,
+          "U+0643 ARABIC LETTER KAF": 95,
+          "U+06CC ARABIC LETTER FARSI YEH": 10143,
+          "U+06A9 ARABIC LETTER KEHEH": 3262,
+          "U+0161 LATIN SMALL LETTER S WITH CARON": 28,
+          "U+010D LATIN SMALL LETTER C WITH CARON": 14,
+          "U+0101 LATIN SMALL LETTER A WITH MACRON": 193,
+          "U+0113 LATIN SMALL LETTER E WITH MACRON": 45,
+          "U+014D LATIN SMALL LETTER O WITH MACRON": 25,
+          "U+0304 COMBINING MACRON": 24,
+          "U+030C COMBINING CARON": 4
+        },
+        "nonNFC_examples": [
+          "⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ on trust of the always very fortunate Ōstāndār truly (?)\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ ⟦supplied resp='#DW'⟧W⟦/supplied⟧indādburzmihr-ābād\nmanager [this] month Šahrewar of the year\n48 when the Ōstāndār, standing under the protection of the gods,\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ from the \"House\"\nto the Estate (for) which 6 kabīz of garmak,\n(for the) Ōstāndār 1 grīw 4 kabīz and over this\nthen (only) one receipt he sealed and apart\n(from) this profit for the transaction it was not necessary to demand (another one)\nand this receipt Mihrpanāh\nwith the witnesses' seals of Zādanfarrox\n⟦gap extent='several words' reason='smudge'⟧⟦/gap⟧ (sealed).",
+          "کوه هفتم، که گیاه و سرسبزی... بسیار بر آن بروید، و دام و چهارپای بسیار بر آن بچرند، پس آنانند که در هر زمان خوب و نیکرای و خیِّرند. و هرگز حرص بر ایشان نبود. و به فرزندان ایزدان شاد و مسرور بودند"
+        ]
+      },
+      "historical_5xx": 198
+    },
+    "DEV24": {
+      "records": 24,
+      "strings": 24,
+      "NFC_changed_strings": 0,
+      "NFC_changed_records": 0,
+      "counts": {
+        "U+00A0 NO-BREAK SPACE": 19,
+        "U+0161 LATIN SMALL LETTER S WITH CARON": 107,
+        "U+010D LATIN SMALL LETTER C WITH CARON": 11,
+        "U+01F0 LATIN SMALL LETTER J WITH CARON": 1,
+        "U+0101 LATIN SMALL LETTER A WITH MACRON": 295,
+        "U+0113 LATIN SMALL LETTER E WITH MACRON": 161,
+        "U+014D LATIN SMALL LETTER O WITH MACRON": 84,
+        "U+02BE MODIFIER LETTER RIGHT HALF RING": 2,
+        "U+1E6F LATIN SMALL LETTER T WITH LINE BELOW": 1
+      },
+      "nonNFC_examples": [],
+      "works": {
+        "parsig:112": 6,
+        "parsig:103": 6,
+        "parsig:517": 6,
+        "parsig:138": 6
+      },
+      "reference_markers": {
+        "equals": 13,
+        "bracket": 19
+      }
+    }
+  }
+}

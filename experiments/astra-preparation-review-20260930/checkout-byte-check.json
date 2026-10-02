@@ -1,0 +1,52 @@
+{
+  "source_commit": "e4fd2bdc71b983f395b1a8459044159f1f527a75",
+  "method": "Read-only git cat-file --filters HEAD:path; no checkout or source mutation",
+  "core_autocrlf": "true",
+  "files": [
+    {
+      "path": "experiments/corrected-learning-diagnosis-20260930/inputs.jsonl",
+      "working_sha256": "02c5ecc82e187847377d5891c31fcb9fc5fb0d3714ea4aa66e686c0a3fabce3c",
+      "git_blob_sha256": "02c5ecc82e187847377d5891c31fcb9fc5fb0d3714ea4aa66e686c0a3fabce3c",
+      "checkout_sha256": "dc08b8040c4108ec3f9e60c72e0f00b17aa193585101249c3c826323aa87e9f2",
+      "checkout_matches_working": false,
+      "working_bytes": 15474,
+      "checkout_bytes": 15502
+    },
+    {
+      "path": "experiments/corrected-learning-diagnosis-20260930/references.jsonl",
+      "working_sha256": "5d1818d925ac30fa249688ddc10e92ec5a58510cfa7525420666a2f00a09c186",
+      "git_blob_sha256": "5d1818d925ac30fa249688ddc10e92ec5a58510cfa7525420666a2f00a09c186",
+      "checkout_sha256": "2d2654b8a862201b10bd5ffce802fe9cb9936424dbd24485a7f7776885f910d2",
+      "checkout_matches_working": false,
+      "working_bytes": 132974,
+      "checkout_bytes": 133002
+    },
+    {
+      "path": "cloud_pilot/training_admission.py",
+      "working_sha256": "32faeb2a9c2ddda411d87abf7dafc7260a2c6e1016ba6c192de903bfdade8ca4",
+      "git_blob_sha256": "32faeb2a9c2ddda411d87abf7dafc7260a2c6e1016ba6c192de903bfdade8ca4",
+      "checkout_sha256": "f556e8311839604111a33563f3bcb530db4d69c5ff7c710aeb2fc3e596b47165",
+      "checkout_matches_working": false,
+      "working_bytes": 12870,
+      "checkout_bytes": 13115
+    },
+    {
+      "path": "cloud_pilot/hf_learning_eval.py",
+      "working_sha256": "b4e918cb776bba3d317ab934088e5ae33d4ea3dec89d2595e26bab6279b2926e",
+      "git_blob_sha256": "b4e918cb776bba3d317ab934088e5ae33d4ea3dec89d2595e26bab6279b2926e",
+      "checkout_sha256": "cd4f571e1c9e5b4f6b34d6e448348b76c3c7e659253b2afb69eaf0da324a12d2",
+      "checkout_matches_working": false,
+      "working_bytes": 12700,
+      "checkout_bytes": 12908
+    },
+    {
+      "path": "cloud_pilot/bundle.py",
+      "working_sha256": "60094706124ee58b78a2b73b6a43c30eb9310a2a1d3786f83749e95b597b1a2d",
+      "git_blob_sha256": "60094706124ee58b78a2b73b6a43c30eb9310a2a1d3786f83749e95b597b1a2d",
+      "checkout_sha256": "60094706124ee58b78a2b73b6a43c30eb9310a2a1d3786f83749e95b597b1a2d",
+      "checkout_matches_working": true,
+      "working_bytes": 26771,
+      "checkout_bytes": 26771
+    }
+  ]
+}

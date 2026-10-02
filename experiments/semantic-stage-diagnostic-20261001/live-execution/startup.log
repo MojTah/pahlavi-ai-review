@@ -1,0 +1,21 @@
+{"stage": "bootstrap_started", "utc": "2026-10-01T17:56:34.799995+00:00", "training": false}
+{"stage": "input_verified", "files": {"runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d", "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"}}
+Found existing installation: spin 0.17
+Uninstalling spin-0.17:
+  Successfully uninstalled spin-0.17
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Collecting accelerate==1.14.0 (from -r requirements-linux.lock (line 5))
+  WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out. (read timeout=15)")': /packages/a8/db/253133d7e7cb40d3af384bb2f5c0b4a2b7fdcffbc95c688cc67a20a3c103/accelerate-1.14.0-py3-none-any.whl
+  WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out. (read timeout=15)")': /packages/a8/db/253133d7e7cb40d3af384bb2f5c0b4a2b7fdcffbc95c688cc67a20a3c103/accelerate-1.14.0-py3-none-any.whl
+  Downloading accelerate-1.14.0-py3-none-any.whl (389 kB)
+Collecting annotated-doc==0.0.5 (from -r requirements-linux.lock (line 12))
+  Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting anyio==4.15.1 (from -r requirements-linux.lock (line 17))
+  Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Collecting bitsandbytes==0.50.2 (from -r requirements-linux.lock (line 22))
+  Downloading bitsandbytes-0.50.2-py3-none-manylinux_2_24_x86_64.whl (43.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 135.9 MB/s  0:00:00
+Collecting certifi==2026.7.22 (from -r requirements-linux.lock (line 30))
+  Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Collecting click==8.5.0 (from -r requirements-linux.lock (line 37))
+  Downloading click-8.5.0-py3-none-any.whl (125 kB)

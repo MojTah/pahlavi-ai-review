@@ -1,0 +1,20 @@
+{
+  "adapter_unchanged_reported": true,
+  "canary": "passed",
+  "critic_agent": "/root/plain_package_critic",
+  "dependency_receipts": "all three P inputs preserve first same-case A verbatim, hashes/token receipts/P-done snapshot; D/A static receipts match",
+  "estimated_compute_usd": "0.44679871325",
+  "invoice_verified": false,
+  "job_id": "6abf6e59fbc85ba682369cf0",
+  "lead_agent": "/root",
+  "manifest_sha256": "2f065307220a3c791573c6a26234ecadb736ebba12fa419ec487a0ac4deb20b9",
+  "optimizer_updates": 0,
+  "provider_interval_seconds": 643.385,
+  "recipe": "step280/BF16 base/FP32 LoRA/eager/greedy/no-thinking/fresh contexts",
+  "remaining_blockers": [],
+  "scope": "Independent local hash/accounting/provenance verification against saved provider evidence; no linguistic ratings or live provider calls.",
+  "successful_outputs": 9,
+  "verdict": "PASS",
+  "verified_bytes": 223206,
+  "verified_files": 46
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-01T15:39:18.239919+00:00",
+  "status": "pass",
+  "checker_sha256": "52c012567d76fe6323dfad88159873b546472e1fe8d396e962964d7ac0be79aa",
+  "script_hashes": {
+    "component_eval.py": "cafdaeed4e9f0544b886b74cb9e4f88e0530c1d7080bc1691cf7066bb22942d2",
+    "component_helpers.py": "887b21031c27d427c838c7835585ca6388aab0fc8596b5d55df0334a79adff05"
+  },
+  "real_tokenizer_receipts": 12,
+  "maximum_prompt_tokens": 887,
+  "mock_generation_scenarios": 4,
+  "immutable_snapshots": true,
+  "interrupted_denominator": 12,
+  "sdk_serialization": true,
+  "cloud_gpu_exercised": false,
+  "frozen_packet_mutation_checks": 6,
+  "autocode_critic_gate": "pass"
+}

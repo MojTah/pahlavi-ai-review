@@ -1,0 +1,46 @@
+{
+  "selected_ids": [
+    "FAINV:lex:b581b5452a8fdb9dc541db93ebb307d5a5f9dc256148489d60e4ae7dff36bc2a",
+    "FAINV:lex:9e611c483f3c81baa8d5f7278ed24055e35aebbc7439a4b9542ca5feb010bdf7",
+    "kosh:cpd:71901c0e95a24a19c96dfc0100e4fbf81329cf84:block:0",
+    "recovered:kosh:mmp:1567",
+    "KANHERI-ARTICLE-03-OPENING"
+  ],
+  "candidate_counts_before_panel_mutual_exclusion": {
+    "lexical-fa": 1552,
+    "lexical-en": 1831,
+    "lexical-mmp-en": 778,
+    "inscription-fa": 1
+  },
+  "selection_rule": "SHA256(dose-confirmation-v1:ID), task quota; no model output read",
+  "train_rows_excluded": 1536,
+  "fixed_evaluation_rows_excluded": 52,
+  "checks": {
+    "exact_train_id_overlap": 0,
+    "exact_train_prompt_token_prefix_overlap": 0,
+    "exact_fixed_prompt_overlap": 0,
+    "lexical_normalized_forms_overlap_with_train": 0,
+    "lexical_observation_entry_family_overlap_with_train": 0,
+    "inscription_work_group_overlap_with_train": 0
+  },
+  "input_sha256": {
+    "resources/local/training-ready-v2-20260929/data/pool.jsonl": "00ef3a141205262766b0b19f04dceaf9a5b7710551ff6f88512c582458d02a77",
+    "resources/local/training-ready-v2-20260929/data/train.jsonl": "22266b73d3a0f3c697aa4ced00f32d07e4d0198c11d36507778d4b6084a3ac59",
+    "resources/local/training-ready-v2-20260929/data/learning-projections.jsonl": "d3e1ebee3cec70f748b95d241652f6e78ae265f084f1e09f83b809901a40d772",
+    "resources/local/training-ready-v2-20260929/data/parent-map.jsonl": "1893c382a2662096eebf5a8ddf0b46a298f0c7a0720c8b1ec171755ec6102dc9",
+    "resources/local/training-ready-v2-20260929/data/row-audit.jsonl": "fa0c2924c3fba8f6c90fc4bc94f526755abf79ad3cefbb66784be25a19cd70e9",
+    "resources/local/qualitydev1-inputs.roundtrip.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/corrected-learning-diagnosis-20260930/inputs.jsonl": "02c5ecc82e187847377d5891c31fcb9fc5fb0d3714ea4aa66e686c0a3fabce3c"
+  },
+  "output_sha256": {
+    "inputs.jsonl": "90a87b2316e3caf9f0be5ddb0c8ca397eae84c58992e13baa1cf8c8419ac8b88",
+    "references.jsonl": "6e7d70d59f125cd6a747f43f8c26fbc6ba281033c201a50983e9e484fc470dd9"
+  },
+  "limitations": [
+    "Pilot-heldout only; step280/base pretraining exposure unknown.",
+    "Lexical source editions overlap training; exclusion is normalized form and observation entry identity, not edition independence.",
+    "Normalization is a conservative string check, not expert lemmatization; related derivational families cannot be exhaustively certified.",
+    "No unused documentary/edition spans; unused historical and pedagogy rows share training work/context families. Only one unused inscription is group-disjoint.",
+    "Five-case diagnostic is not broad translation/generalization validation."
+  ]
+}

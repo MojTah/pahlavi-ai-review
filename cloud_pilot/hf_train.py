@@ -106,6 +106,13 @@ def canary_body(settings, stage, deadline, output):
     return publish(artifacts, output, deadline, identity)
 
 
+try:
+    from .training_admission import draft
+except ImportError:
+    from training_admission import draft
+
+
+@draft
 def specification(bundle_name, bundle_sha256, run_id=None):
     run_id = uuid.uuid4().hex if run_id is None else run_id
     if not isinstance(run_id, str) or not re.fullmatch(r"[a-f0-9]{32}", run_id):

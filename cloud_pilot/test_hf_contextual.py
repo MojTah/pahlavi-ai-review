@@ -34,7 +34,7 @@ class ContextualJobTests(unittest.TestCase):
     def decoded(self, spec, settings):
         compiled = []
         namespace = {"exec": compiled.append}
-        exec(spec["command"][3], namespace)
+        exec(settings["training_admission"]["intended_command"], namespace)
         self.assertEqual(len(compiled), 1)
         self.assertEqual(compiled[0].co_filename, "hf-contextual")
         data = namespace["_contextual_code"]
@@ -273,14 +273,14 @@ class ContextualJobTests(unittest.TestCase):
         original, _ = job.hf_preflight.specification("cuda")
         self.assertEqual(spec["command"][:3], original["command"][:3])
         self.assertEqual(spec["command"][4:], original["command"][4:])
-        lengths, total = job.command_lengths(spec["command"])
+        lengths, total = job.command_lengths(identity["training_admission"]["job"]["spec"]["command"])
         self.assertEqual(lengths, identity["command_arg_utf8_bytes"])
         self.assertEqual(total, identity["command_total_utf8_bytes_with_nul"])
         self.assertLess(max(lengths), 100 * 1024)
         self.assertLess(total, 1024**2)
-        self.assertEqual(job.compressed_command(decoded), spec["command"][3])
+        self.assertEqual(job.compressed_command(decoded), identity["training_admission"]["intended_command"])
         with self.assertRaisesRegex(ValueError, "checksum"):
-            exec(spec["command"][3].replace(identity["decoded_command_sha256"], "0" * 64), {})
+            exec(identity["training_admission"]["intended_command"].replace(identity["decoded_command_sha256"], "0" * 64), {})
         for command in (["x" * (100 * 1024)], ["x" * (99 * 1024)] * 11):
             with self.assertRaisesRegex(ValueError, "argument or 1 MiB"):
                 job.command_lengths(command)
