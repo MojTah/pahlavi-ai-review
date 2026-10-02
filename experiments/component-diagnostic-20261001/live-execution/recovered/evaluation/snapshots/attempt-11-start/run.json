@@ -1,0 +1,102 @@
+{
+  "run_id": "2fb3023097664133acb41e068fc6ee1e",
+  "inputs_sha256": "c9aedede8750f4f6650db112eab60be618c53c91845af5c1362feae8ab0b909e",
+  "script_hashes": {
+    "component_eval.py": "cafdaeed4e9f0544b886b74cb9e4f88e0530c1d7080bc1691cf7066bb22942d2",
+    "component_helpers.py": "887b21031c27d427c838c7835585ca6388aab0fc8596b5d55df0334a79adff05"
+  },
+  "base_files": {
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "config.json": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+    "generation_config.json": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de",
+    "model-00001-of-00002.safetensors": "eeef8791537bc04f110967c513149e037d2a9ae97d49add7291ebfa62806bbfa",
+    "model-00002-of-00002.safetensors": "018912220f559f7025d60333e0996183cd538aa77ad6f4988a89ce47be681f10",
+    "model.safetensors.index.json": "d4aff3b976d69c123a29d1c085d7ba4de1ac3f4ca1726a7f81e1b11462a64ea2",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+  },
+  "model_id": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "adapter_files": {
+    "adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "adapter_model.safetensors": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf"
+  },
+  "adapter_step": 280,
+  "environment": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.13.1",
+      "peft": "0.21.0",
+      "bitsandbytes": "0.50.2",
+      "accelerate": "1.14.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.23.0",
+      "safetensors": "0.8.0"
+    },
+    "runtime_sha256": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d",
+    "gpu": {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "bytes": 85093777408
+    }
+  },
+  "precision": "bf16_base_fp32_retained_lora",
+  "attention": "eager",
+  "enable_thinking": false,
+  "max_new_tokens": 256,
+  "max_generation_seconds": 90,
+  "context_limit": 2048,
+  "seed": 42,
+  "do_sample": false,
+  "eos_token_ids": [
+    1,
+    106,
+    50
+  ],
+  "pad_token_id": 0,
+  "num_beams": 1,
+  "fresh_context_each_output": true,
+  "optimizer_updates": 0,
+  "scoring_performed": false,
+  "expert_adjudicated": false,
+  "deadline_utc": "2026-10-01T16:31:01.097193+00:00",
+  "identity_sha256": "5d931b9315bc658d0e2b727792e81e98b3c7b0f74d25de3e7a1cb88cfc6a4456",
+  "status": "running",
+  "schedule": [
+    "KANHERI06-A",
+    "KANHERI06-B",
+    "KANHERI06-C",
+    "BERK25-B",
+    "BERK25-C",
+    "BERK25-A",
+    "TB3-C",
+    "TB3-A",
+    "TB3-B",
+    "ZAND301-C",
+    "ZAND301-B",
+    "ZAND301-A"
+  ],
+  "scheduled_outputs": 12,
+  "attempted_outputs": 11,
+  "recorded_outputs": 10,
+  "successful_outputs": 10,
+  "active_output_id": "ZAND301-B",
+  "unattempted_output_ids": [
+    "ZAND301-A"
+  ],
+  "last_result": null,
+  "canary": {
+    "status": "passed",
+    "id": "BERK25:C",
+    "input_tokens": 887,
+    "rendered_input_ids_sha256": "37ab1815932c2ddca25044ec54b5fe7d181612a9a247e39a73a9ba3e4990604c",
+    "elapsed_seconds": 0.9554006010293961,
+    "peak_allocated_bytes": 64228685824,
+    "peak_reserved_bytes": 64621641728,
+    "output_generated": false,
+    "experimental_attempts": 0,
+    "deadline_utc": "2026-10-01T16:31:01.097193+00:00"
+  }
+}
