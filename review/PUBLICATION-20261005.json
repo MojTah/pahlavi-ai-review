@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-05T22:22:38.313068+00:00",
+  "repository": "https://github.com/MojTah/pahlavi-ai-review",
+  "visibility": "PUBLIC",
+  "anonymous_api_access": true,
+  "public_main_commit": "7487370d3c905bbf8d063de4e6b3289a9e4b3bd5",
+  "repository_blob_inventory_and_git_hash_parity": true,
+  "repository_files": 2391,
+  "tree_truncated": false,
+  "release_url": "https://github.com/MojTah/pahlavi-ai-review/releases/tag/gemma-step280-research-v1",
+  "release_published_at": "2026-10-05T22:22:22Z",
+  "release_draft": false,
+  "release_target_commit": "7487370d3c905bbf8d063de4e6b3289a9e4b3bd5",
+  "assets": [
+    {
+      "name": "adapter_model.safetensors",
+      "bytes": 489840816,
+      "sha256": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+      "github_digest": "sha256:a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+      "anonymous_download_url": "https://github.com/MojTah/pahlavi-ai-review/releases/download/gemma-step280-research-v1/adapter_model.safetensors"
+    },
+    {
+      "name": "gemma-step280-metadata.zip",
+      "bytes": 11969,
+      "sha256": "7d54fcb0817b7fe1264aae4fcf4ccff49234f479b7a0ee7d743b703bad7ca0f0",
+      "github_digest": "sha256:7d54fcb0817b7fe1264aae4fcf4ccff49234f479b7a0ee7d743b703bad7ca0f0",
+      "anonymous_download_url": "https://github.com/MojTah/pahlavi-ai-review/releases/download/gemma-step280-research-v1/gemma-step280-metadata.zip"
+    }
+  ],
+  "anonymous_raw_readback": [
+    {
+      "path": "README.md",
+      "status": 200,
+      "sha256": "8cb12dbc42b93b0fe0ce153b859b448754a4a05f8e9c3807f546a311286ebd09"
+    },
+    {
+      "path": "review/MANIFEST.json",
+      "status": 200,
+      "sha256": "a049d4e7fbf84da4113e4b1ef32af058448fcdbd3084cad6380f222b62d49064"
+    },
+    {
+      "path": "review/DATA-ACCESS.md",
+      "status": 200,
+      "sha256": "75274a0671d7cec209a3b938ab7aac2091bbcc0567aaf6126244eb7bdf5bb5fc"
+    },
+    {
+      "path": "models/gemma-step280/adapter_config.json",
+      "status": 200,
+      "sha256": "8ffa6b7cc06cedfd66acf2b8c8fe38ea2762506bd51b5f2bc3268e908965164c"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/OUTCOME.md",
+      "status": 200,
+      "sha256": "a307c29a638fbb6f7b50dc584a5b1893ef3e3df338fce8aaa15ea8253b568c10"
+    },
+    {
+      "path": "sources/local/public-texts-2026-09-20/berkeley/manifest.json",
+      "status": 200,
+      "sha256": "f1e7ae7efeaaad7de987fa2f71b40ce2d48fd9d26429582e20dfbe7d888773dc"
+    }
+  ],
+  "anonymous_metadata_zip_byte_parity": true,
+  "anonymous_binary_range_status": 206,
+  "adapter_remote_identity_basis": "Saved pin/local full SHA256 + GitHub server whole-file SHA256 digest + anonymous matching prefix; no full second binary download",
+  "data_gap": "8768 enumerated restricted or uncleared source/canonical files remain withheld; not a full retraining-data release",
+  "model_loading_exercised": false
+}

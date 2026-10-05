@@ -7385,8 +7385,8 @@
     },
     {
       "path": "GITHUB-REVIEW.md",
-      "bytes": 15618,
-      "sha256": "1be5a6805b47d6c43157ed5aeb44312b5bed7431e850b8b50f05141f388abeeb"
+      "bytes": 15748,
+      "sha256": "768d2075cc9607ade9ffd5c373281db904b62f2623e8a14b068d4f2b9387e4bb"
     },
     {
       "path": "GOAL.md",
@@ -7515,8 +7515,8 @@
     },
     {
       "path": "MODEL-AND-TRAINING-RECIPE.md",
-      "bytes": 20359,
-      "sha256": "d41f8d175376c1fdebba9b0f7e5048b165a12137f3b1a04107361695376a32a4"
+      "bytes": 20489,
+      "sha256": "5451e43810d859ce0812834b811d5519a255eac0478a1eb43d75896bb9cea28c"
     },
     {
       "path": "models/gemma-step280/adapter_config.json",
@@ -7785,8 +7785,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15619,
-      "sha256": "8cb12dbc42b93b0fe0ce153b859b448754a4a05f8e9c3807f546a311286ebd09"
+      "bytes": 15749,
+      "sha256": "a30997c033b836a2a8e75616a8a51a04acae3fb35c49f047e9e16d2aa9867cd0"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -10600,8 +10600,8 @@
     },
     {
       "path": "review/DATA-ACCESS.md",
-      "bytes": 4896,
-      "sha256": "75274a0671d7cec209a3b938ab7aac2091bbcc0567aaf6126244eb7bdf5bb5fc"
+      "bytes": 5013,
+      "sha256": "0fb64bde8bf8a93518235f28792bf23bbcd1b88d2ce146c52d6f45f797e34b45"
     },
     {
       "path": "review/DATA-LICENSES.json",
@@ -10615,8 +10615,8 @@
     },
     {
       "path": "review/MODEL-RELEASE-READINESS-20261005.md",
-      "bytes": 2664,
-      "sha256": "7329a73e5f40f80d9e94301664509ec0a4ec7d602338ec9b414aebcdc603a410"
+      "bytes": 2991,
+      "sha256": "32dd86744f776bab8606d8b025dff44aafb9510aa59926f2337610506dcb0f77"
     },
     {
       "path": "review/OMISSIONS.json",
@@ -10635,8 +10635,8 @@
     },
     {
       "path": "review/PACKAGE.md",
-      "bytes": 1582,
-      "sha256": "cf07cb171de1716d5f4c50fdd27d3e25ff68ed915ad2df6f8373a3f5d32f6ff4"
+      "bytes": 1569,
+      "sha256": "4fb2be90e68a76e1feeab390df0fb9968cf6140d2a40be4b1da6337cd2bca3d2"
     },
     {
       "path": "review/PUBLIC-COPY-CHANGES.json",
@@ -10644,9 +10644,14 @@
       "sha256": "7f3f70ff659239916d3c42557743c6a4e0cd7ee735c0f567d2f99f46107adf6a"
     },
     {
+      "path": "review/PUBLICATION-20261005.json",
+      "bytes": 3023,
+      "sha256": "7568ec16046da8e5d54c18dbfeb4376bfbd3e2fbf05e024388063eb8891544d8"
+    },
+    {
       "path": "review/SPECIALIST-PUBLICATION-GATE-20261005.md",
-      "bytes": 5762,
-      "sha256": "4bd738917b88565c8c74779eece8eb15c41cc4f337c8c4c4fedfe0bbb2017a7a"
+      "bytes": 6341,
+      "sha256": "850c271b08259bd49279f946b5f06d8d80cd56b3fb676704f6cc90a85b75fa17"
     },
     {
       "path": "review/VALIDATION.md",
@@ -10655,13 +10660,13 @@
     },
     {
       "path": "REVIEW-PROMPT.md",
-      "bytes": 14042,
-      "sha256": "3f5585c1fb55cdf63c0b649bc8b3d59a3c50e758705b97474a3a99e471083ce2"
+      "bytes": 14172,
+      "sha256": "7cb0a4c570cd340e3782e35e85ae7d44e1d63b219b0eae3704f0472c1ffb079b"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 15619,
-      "sha256": "8cb12dbc42b93b0fe0ce153b859b448754a4a05f8e9c3807f546a311286ebd09"
+      "bytes": 15749,
+      "sha256": "a30997c033b836a2a8e75616a8a51a04acae3fb35c49f047e9e16d2aa9867cd0"
     },
     {
       "path": "scripts/analyze_train_fit.py",
@@ -11962,14 +11967,14 @@
       "bytes": 489840816,
       "sha256": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
       "url": "https://github.com/MojTah/pahlavi-ai-review/releases/download/gemma-step280-research-v1/adapter_model.safetensors",
-      "state": "RECOVERED_AND_PREPARED"
+      "state": "PUBLISHED"
     },
     {
       "name": "gemma-step280-metadata.zip",
       "bytes": 11969,
       "sha256": "7d54fcb0817b7fe1264aae4fcf4ccff49234f479b7a0ee7d743b703bad7ca0f0",
       "url": "https://github.com/MojTah/pahlavi-ai-review/releases/download/gemma-step280-research-v1/gemma-step280-metadata.zip",
-      "state": "RECOVERED_AND_PREPARED"
+      "state": "PUBLISHED"
     }
   ]
 }

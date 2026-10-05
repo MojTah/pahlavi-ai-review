@@ -1,6 +1,6 @@
 # Exact retained adapter publication
 
-5 October 2026. State: **RECOVERED_AND_PREPARED**. The owner explicitly approved using the existing Hugging Face credential to recover and publicly publish only this exact retained adapter. The tensor's size and SHA256 now match saved provenance. No base weights, inference, training, paid job, credential change or bucket/GitHub visibility change was performed.
+5 October 2026. State: **PUBLISHED**. The owner explicitly approved using the existing Hugging Face credential to recover and publicly publish only this exact retained adapter. The tensor's size and SHA256 now match saved provenance. No base weights, inference, training, paid job, credential change or bucket/GitHub visibility change was performed.
 
 | Identity | Verified value |
 | --- | --- |
@@ -18,3 +18,5 @@ The first native Xet transfer failed with Windows socket/DNS errors; the escalat
 The pinned upstream public Gemma4 inventory contains no separate LICENSE/NOTICE; its README links [Google's Apache2.0 license](https://ai.google.dev/gemma/docs/gemma_4_license) and credits Google DeepMind. The package includes the full license, attribution and prominent adaptation/configuration notices. It makes no blanket open-license claim for third-party training/source text.
 
 Verification: actual streaming binary SHA256 and size; safetensors header/dtypes/contiguous offset bounds; exact original metadata hashes; exactly two changed config fields; ZIP byte parity; publication manifest and Git/remote checks. A full model load was not exercised. The CUDA loading example requires the separately obtained 62.5 GB base and substantial memory. Semantic ratings are provisional; latest fixed screens failed and identical controls reveal rating variability. Full data/retraining reproduction remains incomplete; see [data access](DATA-ACCESS.md) and [omissions](OMISSIONS.json).
+
+Publication receipt: [PUBLICATION-20261005.json](PUBLICATION-20261005.json) verifies the release-target commit, complete Git blob inventory, anonymous raw reads, both GitHub whole-file SHA256 digests, metadata ZIP byte parity and anonymous adapter range access. This final documentation checkpoint is verified separately after its push.
