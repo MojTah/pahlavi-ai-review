@@ -9,7 +9,7 @@
 | Ezafe research features, five CSV inputs and original README/license | `sources/local/public-texts-2026-09-20/ezafe-modeling-mp/` | Recorded MIT notice and original source attribution |
 | Three openly licensed papers | `sources/parsipy-2025.pdf`, `sources/01+-+Nima+Asefi.pdf`, `sources/qt2kq5107p.pdf` | BY 4.0, BY-NC 4.0 and BY-NC-ND 4.0 respectively; unchanged PDFs, exact citations/notices in source manifest |
 | Complete recovered dictionary A/B evidence, first outputs, blinded packets and reviews | `resources/local/dictionary-ab-results-20261005/d68800b3b35c44a4a97adc0c5129a3de/` | Bounded research/reference excerpts with existing attribution; no blanket license asserted |
-| New faithfulness prompts and contract | `resources/local/dictionary-faithfulness-20261005/` | Prepared inputs only; no final result recovered for this publication |
+| New faithfulness prompts and contract | `resources/local/dictionary-faithfulness-20261005/` | Prepared inputs and the exact closed final evidence below; no completed semantic result at the frozen checkpoint |
 
 The source-family manifests map hash-named `.source` files back to original URLs and filenames.
 `DATA-LICENSES.json` records each family, credited contributors and license evidence.
@@ -22,6 +22,6 @@ The retained Gemma step280 adapter is cloud-only: 489,840,816 bytes, SHA256 `a51
 
 An earlier publication receipt records a planned return to private on 6 October at 07:00 America/Halifax. The app now confirms exact automation id `restore-pahlavi-review-repository-privacy` does not exist (`deleteStatus: not_found`, `snapshot: null`). The historical receipt does not represent an active schedule. Current public visibility is checked after the update.
 
-The pinned Gemma 4 tokenizer is included unchanged under `resources/local/cloud-pilot-qualified-20260927/tokenizer/`, with an Apache 2.0 license copy. Dictionary A/B inputs, contract and common-DEV reviewer packets are also included under `resources/local/dev-comparability-20261003/`. These support local token replay and evidence inspection without model weights. Full launch-preview/scorer execution still depends on excluded operational preview receipts and additional private training files.
+The pinned Gemma 4 tokenizer is included unchanged under `resources/local/cloud-pilot-qualified-20260927/tokenizer/`, with an Apache 2.0 license copy. Dictionary A/B inputs, contract and common-DEV reviewer packets are also included under `resources/local/dev-comparability-20261003/`. These support local token replay and evidence inspection without model weights. The completed faithfulness run's 104 byte-verified final artifacts are also included under `resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/final/`. Fresh semantic review remained in progress at source revision `f710698`. Full launch-preview/scorer execution still depends on excluded operational preview receipts and additional private training files.
 
 Exact retained adapter publication preparation: [MODEL-RELEASE-READINESS-20261005.md](MODEL-RELEASE-READINESS-20261005.md). Credential-backed recovery remains HOLD under the owner's explicit approval gate.

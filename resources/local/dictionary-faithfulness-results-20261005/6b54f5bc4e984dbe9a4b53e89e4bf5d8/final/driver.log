@@ -1,0 +1,203 @@
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:20.877334+00:00", "path": "run.json", "bytes": 6315, "sha256": "79895ee590c33899e349a1c1a31c2844d667328f2befd5b874ded25bc7a18f96"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:20.877996+00:00", "name": "loading", "manifest_sha256": "d8f9deab1260d1b394dafb7668a3c1ee3b7f746c119c36e02ea78fb4c736b666", "remote_inventory_verified": false}
+
+Loading weights:   0%|          | 0/1188 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 33/1188 [00:01<00:36, 31.96it/s][A
+Loading weights:   8%|▊         | 90/1188 [00:02<00:24, 45.12it/s][A
+Loading weights:  13%|█▎        | 158/1188 [00:03<00:18, 54.73it/s][A
+Loading weights:  18%|█▊        | 215/1188 [00:04<00:17, 55.16it/s][A
+Loading weights:  24%|██▎       | 282/1188 [00:05<00:15, 58.76it/s][A
+Loading weights:  29%|██▊       | 341/1188 [00:06<00:14, 58.26it/s][A
+Loading weights:  34%|███▍      | 407/1188 [00:07<00:12, 60.48it/s][A
+Loading weights:  39%|███▉      | 468/1188 [00:08<00:12, 59.68it/s][A
+Loading weights:  45%|████▍     | 531/1188 [00:09<00:10, 60.24it/s][A
+Loading weights:  50%|████▉     | 592/1188 [00:10<00:09, 60.10it/s][A
+Loading weights:  55%|█████▌    | 656/1188 [00:11<00:08, 61.24it/s][A
+Loading weights:  60%|██████    | 718/1188 [00:12<00:07, 60.83it/s][A
+Loading weights:  66%|██████▌   | 780/1188 [00:13<00:06, 60.53it/s][A
+Loading weights:  86%|████████▌ | 1018/1188 [00:14<00:01, 113.07it/s][ALoading weights: 100%|██████████| 1188/1188 [00:14<00:00, 81.86it/s] 
+/usr/local/lib/python3.12/dist-packages/peft/utils/save_and_load.py:300: UserWarning: Could not find a config file in /tmp/pahlavi-continuation-eeafv33l/base - will assume that the vocabulary was not modified.
+  warnings.warn(
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:42.790995+00:00", "path": "run.json", "bytes": 6757, "sha256": "6e4e096947430bf53d993985c36b86ba8a5c5dbba7ccac670d3bcbad945a465a"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:42.791638+00:00", "name": "prefill-passed", "manifest_sha256": "af35e496e401316d7cdaf7bf0a965208cb28c3d7d88c56f03f7afd2cb463eb6b", "remote_inventory_verified": false}
+{"stage": "component_prefill_passed", "utc": "2026-10-05T05:58:42.791668+00:00", "status": "passed", "id": "QUALITYDEV1-006:B", "input_tokens": 5156, "rendered_input_ids_sha256": "0dea13dea2e21a0c6b746c2732515fc656fcc32509689bb06f65ffaca78ad023", "elapsed_seconds": 4.516019948292524, "peak_allocated_bytes": 76998739968, "peak_reserved_bytes": 81447092224, "output_generated": false, "experimental_attempts": 0, "deadline_utc": "2026-10-05T07:38:25.918211+00:00"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:42.793121+00:00", "path": "run.json", "bytes": 6828, "sha256": "4bea2fe51ba5dc6d9878d3562fb2bf3db50b285c6257591392d8713bc7b7da89"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:42.793650+00:00", "name": "attempt-01-start", "manifest_sha256": "792c09e76429b5c6ef863f7af864d823098eeed74282bff936917d48c274d741", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:44.902462+00:00", "path": "result.json", "bytes": 5759, "sha256": "bb15ead2ddf27c8c82256e3dead6226aedd02ad1237eb92223b1ceacc66d195e"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:44.902928+00:00", "path": "run.json", "bytes": 12884, "sha256": "38e7350a7509535c71c9bddea33b6b32403fb7472d7e5c4b796e080fcfb3ddb8"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:44.903670+00:00", "name": "attempt-01-done", "manifest_sha256": "91f2c3f8d64dde7d21aca674b55f89719bb284ae883c811a82e93f56bcb8a708", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:58:44.903698+00:00", "id": "QUALITYDEV1-002:A", "status": "success", "recorded_outputs": 1, "scheduled_outputs": 30, "elapsed_seconds": 2.105896552093327}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:44.904805+00:00", "path": "run.json", "bytes": 6803, "sha256": "77466259c3b60f2f2f882e636a153001165420187c166c1cf6ce615f1e15755f"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:44.905317+00:00", "name": "attempt-02-start", "manifest_sha256": "aaec57528c94709d8aac228990d01121d0be6fa0c266d8d46222db6f578cfb0a", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:46.903339+00:00", "path": "result.json", "bytes": 5888, "sha256": "43afed6a58eab165e113746ffa11b65766975d7532a559a49ac029332b537649"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:46.903810+00:00", "path": "run.json", "bytes": 12988, "sha256": "cdd2480e813b465fcfcbb34de6634874334e8e0767054a3dc6310294cf7f50d6"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:46.904521+00:00", "name": "attempt-02-done", "manifest_sha256": "d9a35aecb92420d65b7f151b31e4347668e9833267d6beef3334f33503bd6c06", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:58:46.904549+00:00", "id": "QUALITYDEV1-002:B", "status": "success", "recorded_outputs": 2, "scheduled_outputs": 30, "elapsed_seconds": 1.9951925626955926}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:46.905687+00:00", "path": "run.json", "bytes": 6778, "sha256": "0e87c7b107182d88dab143f75d98a23bb5b899a3604c118f93966aaa75840b60"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:46.906171+00:00", "name": "attempt-03-start", "manifest_sha256": "9d185de3876ab0b2502dab26d414b0af120108981ae8ea5f67aba6f312d32c53", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:49.086907+00:00", "path": "result.json", "bytes": 4663, "sha256": "5de343f207a0a6481637b8f9085d897f916d8eca1f4e60acd0ec84b9e813dc73"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:49.087376+00:00", "path": "run.json", "bytes": 11759, "sha256": "648bc15d99944d233f12fd3bd162ec3fc7ed6cc39500099c9e862a16c779e04b"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:49.088121+00:00", "name": "attempt-03-done", "manifest_sha256": "ba9bad008af706f7e9a6e29484bde197d62f9b30817975588aba9c95eec67625", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:58:49.088149+00:00", "id": "QUALITYDEV1-003:B", "status": "success", "recorded_outputs": 3, "scheduled_outputs": 30, "elapsed_seconds": 2.178029629867524}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:49.089221+00:00", "path": "run.json", "bytes": 6753, "sha256": "a8ffdc91d3cf62d71a47f67ec6724c927f5a13edff5464f55a4e76a39c4d65f3"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:49.089704+00:00", "name": "attempt-04-start", "manifest_sha256": "3a14e96bf23eeba71ebfff0e0c7fda966cc87f923ae9d9371d053fbf03825ff4", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:53.175445+00:00", "path": "result.json", "bytes": 4651, "sha256": "53a014a64712e46fb2f62aed7f8c86eaf69608269f1771ce886ebd2c8501c2c9"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:53.175917+00:00", "path": "run.json", "bytes": 11806, "sha256": "803f426c36b2aeaeb14b476a628a704427cc7c09aa0847e161dd86dd18c507e8"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:53.176640+00:00", "name": "attempt-04-done", "manifest_sha256": "8ad964674052627c6c75e4f6bd29404cb35959898a6dc1dde5db2b9e522f816a", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:58:53.176668+00:00", "id": "QUALITYDEV1-003:A", "status": "success", "recorded_outputs": 4, "scheduled_outputs": 30, "elapsed_seconds": 4.082597973756492}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:53.177742+00:00", "path": "run.json", "bytes": 6728, "sha256": "72c8fa02e6dc84ca2e15c1159daa757124ba09719f070fc9803f9b2ef9f00da8"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:53.178227+00:00", "name": "attempt-05-start", "manifest_sha256": "3c9ed24715b753239022c1a84b39c0091a2a44f4950e7ede4051f866b7872c39", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:58.451020+00:00", "path": "result.json", "bytes": 7782, "sha256": "c021efd61eb40d8b60bfad670916f1caad93e3571fb18561a5e9a532b0dd1f7a"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:58.451505+00:00", "path": "run.json", "bytes": 14933, "sha256": "b6bbd0c94852cbe1e3711e8d6aa09a4e8f54ab4baa251888947d200a55841a74"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:58.452219+00:00", "name": "attempt-05-done", "manifest_sha256": "d1c671d9863c5c87a27506e7da6ab55f946d04b66f72f010716f4b808f0c3a60", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:58:58.452247+00:00", "id": "QUALITYDEV1-005:A", "status": "success", "recorded_outputs": 5, "scheduled_outputs": 30, "elapsed_seconds": 5.269519004039466}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:58:58.453286+00:00", "path": "run.json", "bytes": 6703, "sha256": "5db2b58e02d17f1950e7713a6ac5717a40736699f71ce841b64ac94368bc3fe9"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:58:58.453774+00:00", "name": "attempt-06-start", "manifest_sha256": "d859371a161311005d6946a1c6f0723ef0ad879196336cf78287aae8cff88f49", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:03.699775+00:00", "path": "result.json", "bytes": 7909, "sha256": "c6488291230c6b5f8f2018ec2399c0a863930f725a78d471a2c891f2dfa8f9cc"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:03.700264+00:00", "path": "run.json", "bytes": 15035, "sha256": "c44ace26ae76c793a440c2f47626739119cd349e8ca84e3ffb6ca43d7e9a257c"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:03.700975+00:00", "name": "attempt-06-done", "manifest_sha256": "494c1ba87397f96060ae6af08213afe101f846de4db47d3568ca4b53681124a6", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:03.701003+00:00", "id": "QUALITYDEV1-005:B", "status": "success", "recorded_outputs": 6, "scheduled_outputs": 30, "elapsed_seconds": 5.24299047794193}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:03.702076+00:00", "path": "run.json", "bytes": 6678, "sha256": "dfade07a230066a1668f9052a566b415e2d21335cb9e2b05bf9278bcb15468ba"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:03.702548+00:00", "name": "attempt-07-start", "manifest_sha256": "68ec4069bcee417500144ddc9810cce94157a4ad609e453cb80307e73160ba4b", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:19.390839+00:00", "path": "result.json", "bytes": 18329, "sha256": "f0d966ab1d4174f31b283eac741d41d486023a1485868eaf4b8d96f3176872d4"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:19.391357+00:00", "path": "run.json", "bytes": 25752, "sha256": "0c71fbea7216d887aafd596eb4b5d9e1b2d662f1855b361bf28e8138276693ad"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:19.392160+00:00", "name": "attempt-07-done", "manifest_sha256": "38fc136c891d605188fd55c1df40d58be987eed71e2e7c2f1f4e90b4d6544954", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:19.392188+00:00", "id": "QUALITYDEV1-006:B", "status": "success", "recorded_outputs": 7, "scheduled_outputs": 30, "elapsed_seconds": 15.68369835568592}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:19.393272+00:00", "path": "run.json", "bytes": 6653, "sha256": "3ec1ea7932cece8a497293d99c98bd792a720096b06686938b1a4e4d46e7198a"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:19.393773+00:00", "name": "attempt-08-start", "manifest_sha256": "8c057b0a77ad9b45274b7de63a0a283631cf96a82ba9e87456f5cfeb3df9ac55", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:35.990569+00:00", "path": "result.json", "bytes": 18199, "sha256": "d08bd3d1bdcf3e8392e166e02c04c716bb751c74dbbb3fa2d7f7e0eab24f4909"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:35.991094+00:00", "path": "run.json", "bytes": 25597, "sha256": "b71ce0bf30ebe7954d216e3be89ed6f0e95c89d57a5b0c4ab22a6ca2d892d636"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:35.991924+00:00", "name": "attempt-08-done", "manifest_sha256": "e935aa43b526a8f92b1a90ba1e89e35d013a4914e1b2d9c12fd80ceb6d042e34", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:35.991952+00:00", "id": "QUALITYDEV1-006:A", "status": "success", "recorded_outputs": 8, "scheduled_outputs": 30, "elapsed_seconds": 16.592595431022346}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:35.993065+00:00", "path": "run.json", "bytes": 6628, "sha256": "14851554be9fcfcfbd6a1544d2d99f244bdabfb9994c64b4e1107f16ce6cd58c"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:35.993607+00:00", "name": "attempt-09-start", "manifest_sha256": "f84ae2180c60767214d590314e7c759867f26485ca27d1e98b6fc5b0cfb22531", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:38.465514+00:00", "path": "result.json", "bytes": 3356, "sha256": "8910a5abc4c786defc2f9d38e054b8bd43062f76af08b694d75f331777016a38"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:38.466012+00:00", "path": "run.json", "bytes": 10323, "sha256": "3c66b5d06f370f06290f5cea2164f34ee76f49482e7b1337eb7b4cba05e2ef23"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:38.466743+00:00", "name": "attempt-09-done", "manifest_sha256": "69e472737167df93983920cb43c417ecb642657e185618d256df88b6c76d974a", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:38.466771+00:00", "id": "QUALITYDEV1-007:A", "status": "success", "recorded_outputs": 9, "scheduled_outputs": 30, "elapsed_seconds": 2.469376742374152}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:38.467832+00:00", "path": "run.json", "bytes": 6604, "sha256": "9d11133b3fd89d6bea43677302b0b2e94bdf36be674ef9c5fdc7de67ef988e8b"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:38.468340+00:00", "name": "attempt-10-start", "manifest_sha256": "a2c4a4d6c48d254188795ee79ba5d63e9c452524618d17abfd31a869b3cffb6f", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:40.961457+00:00", "path": "result.json", "bytes": 3485, "sha256": "6b674fa809db264d1f0df351d266811ffce48dbdd2ac478e63d489ecbd253ed3"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:40.961942+00:00", "path": "run.json", "bytes": 10431, "sha256": "362f36c5df0e0ddfb58e4031f856fc2e2f555b63349d308409cc4c543cd414d7"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:40.962640+00:00", "name": "attempt-10-done", "manifest_sha256": "de5c6e650bc911e93db6da5b2e2b7a35459a049635b67ef14f9c22f3d9a55dc3", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:40.962668+00:00", "id": "QUALITYDEV1-007:B", "status": "success", "recorded_outputs": 10, "scheduled_outputs": 30, "elapsed_seconds": 2.490595886018127}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:40.963733+00:00", "path": "run.json", "bytes": 6582, "sha256": "436a9ddd2fe26c4d038b796a887ef010cc1aa42feca548b346b991af6618d345"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:40.964219+00:00", "name": "attempt-11-start", "manifest_sha256": "632858b3bc862f822317ff42299a6c5f330c4c7f12ad0d40e4e4cb4b36b8291e", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:46.503086+00:00", "path": "result.json", "bytes": 3724, "sha256": "2228bb22169c8a2b639f62abd0371e54fadc85b2a967b382038d4e8812aa6c40"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:46.503557+00:00", "path": "run.json", "bytes": 10778, "sha256": "88d576a7014e1cee5abeabba1017a7b0aa0f6c4f40791a9a415b0878eab28867"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:46.504293+00:00", "name": "attempt-11-done", "manifest_sha256": "80c7e82ebacce51293f2b1f622d4ed5c5d02c469ba3b687d5ce7fbbc077faae6", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:46.504322+00:00", "id": "QUALITYDEV1-008:B", "status": "success", "recorded_outputs": 11, "scheduled_outputs": 30, "elapsed_seconds": 5.535893369000405}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:46.505426+00:00", "path": "run.json", "bytes": 6557, "sha256": "907831eafb289aab69a5faace3a0951ea85b1a7689c7a7c7c45ffa7deef44ca3"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:46.505944+00:00", "name": "attempt-12-start", "manifest_sha256": "6c2fb091164deaa9e2cbf91f30fa7ff2ff33575b75d45d45616bb1541283c821", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:51.744380+00:00", "path": "result.json", "bytes": 3589, "sha256": "874604c01600def6f307e4cf8f17911e9a3cd81cf554afef7cac1d86a4f8142a"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:51.744911+00:00", "path": "run.json", "bytes": 10604, "sha256": "d6b16720301ab7e2da1c42e410953d4d5b797a49a0883a80f07845ed09b793a1"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:51.745656+00:00", "name": "attempt-12-done", "manifest_sha256": "7c41e5b9408d8c9d717458cbf9651e4ed004c033f4b9e12b3148eccf4d85835e", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:51.745685+00:00", "id": "QUALITYDEV1-008:A", "status": "success", "recorded_outputs": 12, "scheduled_outputs": 30, "elapsed_seconds": 5.235710322856903}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:51.746772+00:00", "path": "run.json", "bytes": 6532, "sha256": "d1e7b68b1af28299094eca3197c526c21ae62e975411eee8d5d604338df52ace"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:51.747257+00:00", "name": "attempt-13-start", "manifest_sha256": "9c64591c884caed67affb6aa6551ae9005ff557f4c9d9f98de043b1a6ddb5772", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:58.739469+00:00", "path": "result.json", "bytes": 8639, "sha256": "88f9d1b062792c64adae7cebea50c602b90ad09d05599d052dd9f0fabe0b9dba"}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:58.739969+00:00", "path": "run.json", "bytes": 15657, "sha256": "ed158c715706cf1e23792a2ea5ca6bd0296080a86191751357251c9270623652"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:58.740688+00:00", "name": "attempt-13-done", "manifest_sha256": "6b8755c6ffe6c0be54942f51dd68050df9ba7d31667a1a3147baa6d98be08e99", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T05:59:58.740716+00:00", "id": "QUALITYDEV1-009:A", "status": "success", "recorded_outputs": 13, "scheduled_outputs": 30, "elapsed_seconds": 6.988967326004058}
+{"stage": "artifact_closed", "utc": "2026-10-05T05:59:58.741799+00:00", "path": "run.json", "bytes": 6507, "sha256": "01cedce3f17811da1c4f2cd5bdc39d863ab8df375850d87d359e789a0f76f654"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T05:59:58.742282+00:00", "name": "attempt-14-start", "manifest_sha256": "eefbf5a7e38122847eb2a3694aae0ab8d4c69a37608058915d9e37a8df56a403", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:06.155471+00:00", "path": "result.json", "bytes": 8799, "sha256": "8201e90b839e40b3fd79a6cf4e591478cd5d1ed4f34dadd3be2489c87928fbc5"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:06.155987+00:00", "path": "run.json", "bytes": 15813, "sha256": "3b8427b53e4f5e78cebe3b424dd9b10afc8d275f8e59c3b95a1f49ca9a0a4857"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:06.156723+00:00", "name": "attempt-14-done", "manifest_sha256": "c0c05f79b89b821b65607cec72fac9b8eb745305a6c5a96e300ac83d70107aa2", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:00:06.156750+00:00", "id": "QUALITYDEV1-009:B", "status": "success", "recorded_outputs": 14, "scheduled_outputs": 30, "elapsed_seconds": 7.409733906388283}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:06.157848+00:00", "path": "run.json", "bytes": 6482, "sha256": "57eada0ab2bf6c91adc23acdbcea7d554993ad127a1affcf3a85d387d9421c37"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:06.158374+00:00", "name": "attempt-15-start", "manifest_sha256": "963e4f487bf0f8848f60c59ee2380cd570a8b300280970afef0ae1681b9f85a0", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:17.967360+00:00", "path": "result.json", "bytes": 12600, "sha256": "4e400949dbd0e60929690d6e99f6ddc7f3b8c109df78375a1c307e8839169049"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:17.967875+00:00", "path": "run.json", "bytes": 19729, "sha256": "7d66ed31ea9aa38080fad1cfbe511b84bbbde0c35d4309427425686e35abb0dc"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:17.968706+00:00", "name": "attempt-15-done", "manifest_sha256": "e47b1bbdcd62947332d3fb186fa1386156446c87580212d95222b48d8a2ee130", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:00:17.968734+00:00", "id": "QUALITYDEV1-010:B", "status": "success", "recorded_outputs": 15, "scheduled_outputs": 30, "elapsed_seconds": 11.805292043834925}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:17.969837+00:00", "path": "run.json", "bytes": 6457, "sha256": "ee6cbe77f3e376c7c86e366cd03e65a41f52787e90ea16f6657a147e9750b6a4"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:17.970314+00:00", "name": "attempt-16-start", "manifest_sha256": "74cb82ba0b336b24a12b2c9369be18353fab2094683b9c8bc3d5051d4a2f9f05", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:29.384018+00:00", "path": "result.json", "bytes": 12453, "sha256": "b76682f90f6a228e3d56276aa99ca61984ebe461566ad59efa68139d0c6f137b"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:29.384535+00:00", "path": "run.json", "bytes": 19550, "sha256": "5bc0f212d940dedc673fa3059a4f977f3b77e0c3555249777f7058a1dc51626c"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:29.385303+00:00", "name": "attempt-16-done", "manifest_sha256": "2a314ba904e0d2dff41031069192c94c3dba45115111352323c23a4dd3f9c5c5", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:00:29.385332+00:00", "id": "QUALITYDEV1-010:A", "status": "success", "recorded_outputs": 16, "scheduled_outputs": 30, "elapsed_seconds": 11.409994942136109}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:29.386433+00:00", "path": "run.json", "bytes": 6432, "sha256": "69e2af9f77486d683ba21d510277d756b4907930528edd87760537517013df50"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:29.386923+00:00", "name": "attempt-17-start", "manifest_sha256": "57c4fe0da6971c143751482e339f28c58061d064e1ee2a497c00775203a78d31", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:53.736313+00:00", "path": "result.json", "bytes": 14232, "sha256": "39aa399a74ac8a7966d6d9a7581f1798f6121dc3d6a9f10a53b28739b91ddae0"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:53.736833+00:00", "path": "run.json", "bytes": 21857, "sha256": "1895f32dc12568612a8609a1a48a9ad87d87fdadbd0398c692b2e58a4ed6341b"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:53.737607+00:00", "name": "attempt-17-done", "manifest_sha256": "956b6df099cc974ffbb256a78a9f1613b3a50d2b39bf706c156c75c198b8c27d", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:00:53.737636+00:00", "id": "QUALITYDEV1-012:A", "status": "success", "recorded_outputs": 17, "scheduled_outputs": 30, "elapsed_seconds": 24.345320641063154}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:00:53.738711+00:00", "path": "run.json", "bytes": 6407, "sha256": "294592f99b0a2404d601e533b76036b0efd6362397c7805b591e19488567fd42"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:00:53.739193+00:00", "name": "attempt-18-start", "manifest_sha256": "72c3f154fcc0287eef93160f117a90f0f2d1e3415c8616d88c976de6e0ca4b8c", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:18.491774+00:00", "path": "result.json", "bytes": 14359, "sha256": "45c0f84c010a4ce9bf7f76eeb7fe6ba86650161e769c825f36059fa44a5dccba"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:18.492331+00:00", "path": "run.json", "bytes": 21959, "sha256": "d8da30999b773ec60198ac4266a595ef0aec1ba34343757874ccc0806652175b"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:18.493115+00:00", "name": "attempt-18-done", "manifest_sha256": "125e85821dfce4cc287481f1a9f8a9bbb3ba84ebfe74b8587fa60b2237657827", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:01:18.493143+00:00", "id": "QUALITYDEV1-012:B", "status": "success", "recorded_outputs": 18, "scheduled_outputs": 30, "elapsed_seconds": 24.748045260086656}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:18.494304+00:00", "path": "run.json", "bytes": 6382, "sha256": "60c267dfcf253824a53aba51ab344b3981eecebe5b02d0e6eca199afb2ddcf61"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:18.494821+00:00", "name": "attempt-19-start", "manifest_sha256": "e967c73c87cba468a49db6c0fdc7191aee5234dd38836c4c3e792cc56160f6a0", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:22.745962+00:00", "path": "result.json", "bytes": 5726, "sha256": "88424798ea321b6d092fa214e63353abdd0c11efd4bd9c8c57331da954fc419c"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:22.746439+00:00", "path": "run.json", "bytes": 12503, "sha256": "9d6dd59dc7f09c74a336d5ba1fb125728c996db10316dbd1183e3c740a8bc526"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:22.747178+00:00", "name": "attempt-19-done", "manifest_sha256": "8a189c4f907e9657159fc6a3ea2cf9e8f2188d2682dc4aed98a2b3199be20390", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:01:22.747206+00:00", "id": "QUALITYDEV1-013:B", "status": "success", "recorded_outputs": 19, "scheduled_outputs": 30, "elapsed_seconds": 4.248263145796955}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:22.748296+00:00", "path": "run.json", "bytes": 6357, "sha256": "36ed2b91f2d0d3e469ae794d789f1cccb675cb75bb5f35e7fe99a7fb0546d947"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:22.748771+00:00", "name": "attempt-20-start", "manifest_sha256": "19e772a10c80efb729cf540bf2237668efd9acbd1e09cbf6848b1c2bc6d72a5b", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:27.134572+00:00", "path": "result.json", "bytes": 5596, "sha256": "117a7bf82a9fb8fc3de96bf45c4799835607be88f585dc22a7c1a2aa29604bc4"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:27.135097+00:00", "path": "run.json", "bytes": 12355, "sha256": "3ce5252c2d9f9614eff34a97ba46371ef93cdf39f1e7f48905425152cb153ccf"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:27.135804+00:00", "name": "attempt-20-done", "manifest_sha256": "06c2b9636b42ecb730ec07c80635f7e609abc642ec54be78f28b687d09d40753", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:01:27.135831+00:00", "id": "QUALITYDEV1-013:A", "status": "success", "recorded_outputs": 20, "scheduled_outputs": 30, "elapsed_seconds": 4.382771633099765}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:27.136885+00:00", "path": "run.json", "bytes": 6332, "sha256": "07ab4e911b731f35c189b7691137309052ffd0ec1f07c71199b2fc22f372a305"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:27.137368+00:00", "name": "attempt-21-start", "manifest_sha256": "419f292c2eeaecc42916dc227ad0fafa04fe5842ea93dcba9e1da05b2840561e", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:35.570743+00:00", "path": "result.json", "bytes": 12001, "sha256": "14675a56c97ca5a27d4162c7366f33ab826ece5997900116d8cd3847e903f65d"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:35.571250+00:00", "path": "run.json", "bytes": 18840, "sha256": "6013b372a238c9098f340c9af7c1852d65d495e551850ec99a675a3b3df8f2f3"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:35.571979+00:00", "name": "attempt-21-done", "manifest_sha256": "aae3ca5c24586e167a6de89af30a0c6d49bcbeb84bbd29c882b242315962b5fc", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:01:35.572007+00:00", "id": "QUALITYDEV1-014:A", "status": "success", "recorded_outputs": 21, "scheduled_outputs": 30, "elapsed_seconds": 8.429908492136747}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:35.573090+00:00", "path": "run.json", "bytes": 6307, "sha256": "d6d025ba0e4c28eef66ee99f4a37549508977a3181545bfea425a74ca873ab1c"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:35.573582+00:00", "name": "attempt-22-start", "manifest_sha256": "4356ae52a3539d1fabadd738bb096b7c7cd516418acbb8d711c6e84ff873b294", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:43.456206+00:00", "path": "result.json", "bytes": 12111, "sha256": "81c65829a07670d0b555494644d5851e8ad81d7c26cd6a4caa12938d0c0929ba"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:43.456815+00:00", "path": "run.json", "bytes": 18911, "sha256": "3ada0dc541643b77a76e79880b4689a4280a0946bf366bdda7b6cb49893de8f6"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:43.457699+00:00", "name": "attempt-22-done", "manifest_sha256": "d15d9129f328a3622e7fe3248a359d9d19a8911148533adaecbc0dc4c2b517ec", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:01:43.457731+00:00", "id": "QUALITYDEV1-014:B", "status": "success", "recorded_outputs": 22, "scheduled_outputs": 30, "elapsed_seconds": 7.877628074027598}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:43.458849+00:00", "path": "run.json", "bytes": 6282, "sha256": "c9740c7e8767a0e553f5c1f085ed9e96649587a371b677c5811966298db3212a"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:43.459358+00:00", "name": "attempt-23-start", "manifest_sha256": "689af00daf04ccd3cf200a9868ef898d634bd75c1acc8f2739dda9ae9b9bb32a", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:54.326414+00:00", "path": "result.json", "bytes": 13810, "sha256": "624a2df78013a92141f0c5a09926fded7f1175ea2656f0b7fb77b586fbb772e0"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:54.326938+00:00", "path": "run.json", "bytes": 20676, "sha256": "c89cc2d05f5ad15456842e96b24a25ac1b0e1eab7e435c171ef6b58e15e72ddc"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:54.327697+00:00", "name": "attempt-23-done", "manifest_sha256": "0da93202dea8505e0ffa4eafcc7413e3e77ce78f14131615695f0a7fdea0dca7", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:01:54.327725+00:00", "id": "QUALITYDEV1-015:B", "status": "success", "recorded_outputs": 23, "scheduled_outputs": 30, "elapsed_seconds": 10.862985081039369}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:01:54.328792+00:00", "path": "run.json", "bytes": 6257, "sha256": "c091f23d13e068358b4d60999987656d6f631c64b0ae36011c6b1842fc401a0a"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:01:54.329272+00:00", "name": "attempt-24-start", "manifest_sha256": "4543aee67b14cea4072c32c72af8131e186d31272e9e166da5598e68f4a629d2", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:04.574448+00:00", "path": "result.json", "bytes": 13666, "sha256": "ca1b8a7ef07400373f49bb2605d515ed3af177c9fd14807fe281a9d14cf58f80"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:04.574997+00:00", "path": "run.json", "bytes": 20493, "sha256": "0d79512aaa9544b0f689457d574c25de5de99ad0914d299182ba6b77ce3491e0"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:04.575761+00:00", "name": "attempt-24-done", "manifest_sha256": "eb3a81596e75ec4fe2a0a9c5d0d1acecd309bb6fd3ef9840081c70b13e72acd9", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:02:04.575789+00:00", "id": "QUALITYDEV1-015:A", "status": "success", "recorded_outputs": 24, "scheduled_outputs": 30, "elapsed_seconds": 10.241528474725783}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:04.576894+00:00", "path": "run.json", "bytes": 6232, "sha256": "854f23129742f3c70d9fc2c4100cf4ea4fa42ee97f574d6957efb1a747569d09"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:04.577387+00:00", "name": "attempt-25-start", "manifest_sha256": "40a80b0e873e8c00478adfd14d438e6a9937b97d053ee5c6fb72eff06d85314b", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:19.999079+00:00", "path": "result.json", "bytes": 16898, "sha256": "4a6aae1e5aa1adcd81bbc5cf42fd568e5a336597f296d2c35c85d64f138e94a4"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:19.999638+00:00", "path": "run.json", "bytes": 23875, "sha256": "f67d933b83590e69874b313c449173de93633206488fdd21c07ae9dff4998076"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:20.000428+00:00", "name": "attempt-25-done", "manifest_sha256": "477b02f8d28089b93aa854b16b173a37720b8d1dca267b3c09823640ee1d3fd2", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:02:20.000458+00:00", "id": "QUALITYDEV1-017:A", "status": "success", "recorded_outputs": 25, "scheduled_outputs": 30, "elapsed_seconds": 15.417545347008854}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:20.001562+00:00", "path": "run.json", "bytes": 6207, "sha256": "c364a5713e89a7f090a3d551fe3540fe55036832f40325946c09d549b1242387"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:20.002065+00:00", "name": "attempt-26-start", "manifest_sha256": "e4eed4246b55076c11922460152794ec948f80ba18dbf24c143d6fc13eae5589", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:35.200619+00:00", "path": "result.json", "bytes": 17036, "sha256": "af962d2c159ada3666510f6d9ffa3a036824e75d14ec32e9bef85ff5942abc4a"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:35.201157+00:00", "path": "run.json", "bytes": 23995, "sha256": "649b8b29ceff47a533977580ffca3b709a38b15c8057ff45ee893541be89fb99"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:35.201962+00:00", "name": "attempt-26-done", "manifest_sha256": "af44b1485005d3dd2c1dfbe3def59ddc75d9f49f659c5f6709eede7c01423fd7", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:02:35.201992+00:00", "id": "QUALITYDEV1-017:B", "status": "success", "recorded_outputs": 26, "scheduled_outputs": 30, "elapsed_seconds": 15.194293359294534}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:35.203085+00:00", "path": "run.json", "bytes": 6182, "sha256": "680710381aff134c9105808cac03fedc9c621a9e87215e9b7f7f245f43a4ad1a"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:35.203576+00:00", "name": "attempt-27-start", "manifest_sha256": "889b256debc1cb39cd7e54b5419a796413f348506085b0e71d7a6c5eaba208ae", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:46.381871+00:00", "path": "result.json", "bytes": 10179, "sha256": "8c2cf4a3edcb13d7542b3c862a57b08f998866352644a15e77c5812059322358"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:46.382394+00:00", "path": "run.json", "bytes": 17022, "sha256": "41edff8978e76e0ef69a94f684f60e6d94285d8f6b63efdbd7a29a4cf97fa683"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:46.383159+00:00", "name": "attempt-27-done", "manifest_sha256": "e766d32f3793d6f5e87010612823dae52244961af7f2eb60aa329312ec3e8b7e", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:02:46.383190+00:00", "id": "QUALITYDEV1-020:B", "status": "success", "recorded_outputs": 27, "scheduled_outputs": 30, "elapsed_seconds": 11.17470639012754}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:46.384306+00:00", "path": "run.json", "bytes": 6157, "sha256": "b54b7c2f93ca9abb973a1e4c7ec84f547b8310aa03957685ec35648b6dc38c91"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:46.384839+00:00", "name": "attempt-28-start", "manifest_sha256": "582f01cbef1789d6a6902a70f8e3f2c6922908230f77add6a427672ecc3deae8", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:57.807534+00:00", "path": "result.json", "bytes": 10062, "sha256": "c7c71ba3bd489ade9c0610161b476e6e9831f28e947ab94ec6374d4b6d57f8b0"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:57.808041+00:00", "path": "run.json", "bytes": 16894, "sha256": "6e6ea8b840c716104c374c1bdcb1bf55cf5c12b7649fc055595afa6d51276400"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:57.808777+00:00", "name": "attempt-28-done", "manifest_sha256": "34fed6738971bd80ce37d81cafed6240232a90f9f7129099dc302144fe2771bd", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:02:57.808805+00:00", "id": "QUALITYDEV1-020:A", "status": "success", "recorded_outputs": 28, "scheduled_outputs": 30, "elapsed_seconds": 11.419264482799917}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:02:57.809879+00:00", "path": "run.json", "bytes": 6132, "sha256": "64f3a9e2edd828106fc78d0f35469522e8db205c8c4363644268b5b07c025104"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:02:57.810362+00:00", "name": "attempt-29-start", "manifest_sha256": "7ec7331eb8002bca1b2f1737e2aa053725dc68ea4c8c41d323f23025c56bb497", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:03:14.441098+00:00", "path": "result.json", "bytes": 17260, "sha256": "612cda066ca9f0c5d9c03aa0857b2e7e64a96b2068f7432e3804643c108e5362"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:03:14.441630+00:00", "path": "run.json", "bytes": 24207, "sha256": "3e24d13d406367567eaf664424490c7f4548871fdfb5c49573e04796c7df254e"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:03:14.442401+00:00", "name": "attempt-29-done", "manifest_sha256": "ceb8acab6de59837069e931c4a9ecb89d26c87ec392a2caaf6f49dc1ccbcbab8", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:03:14.442430+00:00", "id": "QUALITYDEV1-021:A", "status": "success", "recorded_outputs": 29, "scheduled_outputs": 30, "elapsed_seconds": 16.626784917898476}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:03:14.443478+00:00", "path": "run.json", "bytes": 6105, "sha256": "96623d348f228dde24a57ddd7c825774263be40ebbd0ad07de9f49c2c251ed93"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:03:14.443957+00:00", "name": "attempt-30-start", "manifest_sha256": "104a1f2517d9a9f39a7dbdedec25da95a5ff46c25e1080787d270fa583545f85", "remote_inventory_verified": false}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:03:31.878139+00:00", "path": "result.json", "bytes": 17409, "sha256": "921a81e9be90856bba10a3152e01a9bb9df72eb8fa85045200750bf965d942ad"}
+{"stage": "artifact_closed", "utc": "2026-10-05T06:03:31.878680+00:00", "path": "run.json", "bytes": 24343, "sha256": "cdc66b577bee946236b7277285d6827f0782242a7f7c1bc751030325fd53e3d3"}
+{"stage": "component_snapshot_closed", "utc": "2026-10-05T06:03:31.879486+00:00", "name": "attempt-30-done", "manifest_sha256": "62e94ac70e970df953d77582f3c0ecc47f9095ebf821b8111217a0ba3a3ae615", "remote_inventory_verified": false}
+{"stage": "component_output_finished", "utc": "2026-10-05T06:03:31.879515+00:00", "id": "QUALITYDEV1-021:B", "status": "success", "recorded_outputs": 30, "scheduled_outputs": 30, "elapsed_seconds": 17.42955430690199}

@@ -1,4 +1,8 @@
-# Faithfulness comparison: running
+# Faithfulness comparison: execution record
+
+**Completion and full recovery, 5 October 2026:** The provider reports COMPLETED. All 30 first outputs succeeded, the longest-input GPU canary passed, zero optimizer updates occurred and the retained adapter stayed unchanged. Independent SDK readback verified all 104 final files (103 manifest entries plus the manifest), 1,731,935 bytes. The existing scorer passed closed identity/accounting and actual output-token/text/hash replay, yielding READY_FOR_BLIND_REVIEW. The bounded technical critic passed; its offline checks cannot authenticate the lead-recorded remote observation. Two fresh opaque reviews are now in progress. No semantic quality result, promotion, new GPU job or local weights. [Recovery checks](RECOVERY-CHECKS.json) and [receipt](RECOVERY-RECEIPT.json) preserve current evidence. The startup account observations below are historical, not current balances.
+
+## Historical startup
 
 5 October2026. [Hugging Face job6ac33ad8404719ba37652ccc](https://huggingface.co/jobs/Mojionix/6ac33ad8404719ba37652ccc) was submitted once; provider created it at05:51:20.236UTC and started it at05:51:26.105UTC. At05:52:29UTC it is RUNNING. Bootstrap runtime/requirements checksum verification and bootstrap completion are present in the saved log; base-model download is explicitly server-only. GPU prefill canary,30 translation outputs and semantic quality remain unverified. No training or local weights.
 

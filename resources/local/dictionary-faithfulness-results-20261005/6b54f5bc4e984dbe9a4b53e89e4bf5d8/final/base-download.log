@@ -1,0 +1,46 @@
+{"model_id": "google/gemma-4-31B-it", "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475", "files": 8, "download_bytes": 62578654714, "free_bytes": 1407755706368, "download_requested": true}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+chat_template.jinja:   0%|          | 0.00/18.7k [00:00<?, ?B/s][Achat_template.jinja: 100%|██████████| 18.7k/18.7k [00:00<00:00, 79.4MB/s]
+
+config.json:   0%|          | 0.00/4.62k [00:00<?, ?B/s][Aconfig.json: 100%|██████████| 4.62k/4.62k [00:00<00:00, 22.6MB/s]
+
+generation_config.json:   0%|          | 0.00/208 [00:00<?, ?B/s][Ageneration_config.json: 100%|██████████| 208/208 [00:00<00:00, 2.15MB/s]
+
+model-00001-of-00002.safetensors: reconstructing file:   0%|          |  0.00B / 49.8GB            [Amodel-00001-of-00002.safetensors: downloading bytes:           |  0.00B            model-00001-of-00002.safetensors: downloading bytes:           |  367MB, 30.8MB/s  model-00001-of-00002.safetensors: downloading bytes: ▏         |  897MB, 75.6MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   2%|▏         | 1.02GB / 49.8GB, 6.56MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▎         | 1.73GB,  139MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   4%|▍         | 2.15GB / 49.8GB,  171MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▌         | 2.64GB,  210MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   7%|▋         | 3.29GB / 49.8GB,  248MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▊         | 3.77GB,  286MB/s  model-00001-of-00002.safetensors: downloading bytes: █         | 5.00GB,  365MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  11%|█         | 5.57GB / 49.8GB,  362MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▎        | 6.39GB,  446MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  15%|█▌        | 7.58GB / 49.8GB,  485MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▌        | 7.99GB,  541MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  20%|█▉        | 9.92GB / 49.8GB,  668MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▉        | 9.84GB,  639MB/s  model-00001-of-00002.safetensors: downloading bytes: ██▎       | 11.8GB,  744MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  25%|██▌       | 12.6GB / 49.8GB,  764MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██▋       | 13.4GB,  806MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  30%|███       | 15.2GB / 49.8GB,  913MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▏      | 15.6GB,  923MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  36%|███▌      | 17.8GB / 49.8GB, 1.04GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▋      | 18.2GB, 1.04GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  42%|████▏     | 20.8GB / 49.8GB, 1.15GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████      | 20.2GB, 1.11GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  48%|████▊     | 23.7GB / 49.8GB, 1.31GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████▌     | 22.8GB, 1.23GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  53%|█████▎    | 26.6GB / 49.8GB, 1.42GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████     | 25.0GB, 1.29GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  59%|█████▉    | 29.5GB / 49.8GB, 1.53GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▌    | 27.5GB, 1.39GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  65%|██████▍   | 32.3GB / 49.8GB, 1.62GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▉    | 29.8GB, 1.44GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  72%|███████▏  | 35.7GB / 49.8GB, 1.65GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▍   | 32.3GB, 1.46GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  77%|███████▋  | 38.4GB / 49.8GB, 1.70GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▉   | 34.4GB, 1.50GB/s  model-00001-of-00002.safetensors: downloading bytes: ███████▎  | 36.5GB, 1.49GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  84%|████████▎ | 41.6GB / 49.8GB, 1.69GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███████▊  | 38.9GB, 1.55GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  89%|████████▉ | 44.3GB / 49.8GB, 1.73GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████████▏ | 40.9GB, 1.58GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  94%|█████████▍| 46.8GB / 49.8GB, 1.81GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.60GB/s  model-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.60GB/s  
+model-00001-of-00002.safetensors: reconstructing file: 100%|██████████| 49.8GB / 49.8GB, 1.92GB/s  
+
+model-00002-of-00002.safetensors: reconstructing file:   0%|          |  0.00B / 12.8GB            [Amodel-00002-of-00002.safetensors: downloading bytes:           |  0.00B            model-00002-of-00002.safetensors: downloading bytes: █▌        | 1.99GB,  177MB/s  
+model-00002-of-00002.safetensors: reconstructing file:   9%|▉         | 1.12GB / 12.8GB,   ???B/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ███       | 3.94GB,  331MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  33%|███▎      | 4.16GB / 12.8GB,  278MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ████▋     | 6.03GB,  476MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  54%|█████▎    | 6.84GB / 12.8GB,  514MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ██████▍   | 8.23GB,  629MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  73%|███████▎  | 9.32GB / 12.8GB,  662MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ███████▉  | 10.2GB,  737MB/s  
+model-00002-of-00002.safetensors: reconstructing file:  94%|█████████▍| 12.0GB / 12.8GB,  826MB/s  [Amodel-00002-of-00002.safetensors: downloading bytes: ██████████| 11.0GB,  771MB/s  model-00002-of-00002.safetensors: downloading bytes: ██████████| 11.0GB,  771MB/s  
+model-00002-of-00002.safetensors: reconstructing file: 100%|██████████| 12.8GB / 12.8GB,  925MB/s  
+
+model.safetensors.index.json:   0%|          | 0.00/120k [00:00<?, ?B/s][Amodel.safetensors.index.json: 100%|██████████| 120k/120k [00:00<00:00, 99.4MB/s]
+
+tokenizer.json: reconstructing file:   0%|          |  0.00B / 32.2MB            [Atokenizer.json: downloading bytes:           |  0.00B            tokenizer.json: downloading bytes: ██████████| 8.75MB,  872kB/s  tokenizer.json: downloading bytes: ██████████| 8.75MB,  872kB/s  
+tokenizer.json: reconstructing file: 100%|██████████| 32.2MB / 32.2MB, 3.21MB/s  
+
+tokenizer_config.json:   0%|          | 0.00/3.08k [00:00<?, ?B/s][Atokenizer_config.json: 100%|██████████| 3.08k/3.08k [00:00<00:00, 27.7MB/s]
+{"status": "verified", "directory": "/tmp/pahlavi-component-cmn4qwwd/base", "bytes": 62578654714}
