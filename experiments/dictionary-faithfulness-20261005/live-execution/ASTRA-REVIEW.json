@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED_PASS_BOUNDED_RESULT_HOLD",
+  "requested_at_utc": "2026-10-05T21:16:47.143949+00:00",
+  "thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "host_id": "local",
+  "model": "gpt-6-astra",
+  "checkpoint_sha256": "1793db91270977a6b098222bb10804879dab85c4a8522389de2d27317e71b433",
+  "request_record": "ASTRA-REQUEST.md",
+  "previous_closed_turn": "01a10a83-a435-7520-a244-51f82d136abe",
+  "previous_cursor": "e50977a1-4bab-4568-bf9d-10ce7c130ea0:1",
+  "permission_scope": "Existing user authorization for bounded read-only meaningful checkpoints; no new job/training/access authority",
+  "duplicate_request": false,
+  "verdict": "PASS_BOUNDED_COMPARISON_AND_HOLD",
+  "completed_at_utc": "2026-10-05T21:20:10.066593+00:00",
+  "completed_turn": "01a10dec-3f08-7163-aee9-083f97ac6e8f",
+  "cursor": "e50977a1-4bab-4568-bf9d-10ce7c130ea0:4",
+  "response_record": "ASTRA-COMPLETED-REVIEW.md",
+  "training_or_execution_authority": false
+}

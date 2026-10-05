@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "bucket": "Mojionix/pahlavi-pilot",
+  "object": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_model.safetensors",
+  "bytes": 489840816,
+  "sha256": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+  "verified_at_utc": "2026-10-05T21:48:28.281625+00:00",
+  "sdk_version": "1.23.0",
+  "sdk_wheel_sha256": "b1d604788f5adc7f0eb246e03e0ec19011ca06e38400218c347dccc3dffa64a2",
+  "transfer_method": "HTTPS resolve stream; hub credential stripped on CDN redirect",
+  "scope": "Exact existing adapter only; no base download, inference, training, credential or access change",
+  "release_tag": "gemma-step280-research-v1",
+  "release_url": "https://github.com/MojTah/pahlavi-ai-review/releases/tag/gemma-step280-research-v1",
+  "base_model": "google/gemma-4-31B-it",
+  "base_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "tensor_count": 820,
+  "tensor_dtypes": [
+    "F32"
+  ],
+  "safetensors_header_validated": true,
+  "adapter_tensor_bytes_modified": false,
+  "original_config_sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+  "original_readme_sha256": "94c46ba388bcdeeda6b5e28e71add00decd5509d374f9083ceb2be7699974ba3",
+  "portable_config_changed_fields": [
+    "base_model_name_or_path",
+    "revision"
+  ],
+  "full_model_loading_exercised": false,
+  "base_weights_included": false,
+  "source_commit": "36b814feb9746bb194a80507b867204ef49a965f",
+  "model_license_evidence": "https://ai.google.dev/gemma/docs/gemma_4_license",
+  "upstream_card": "https://huggingface.co/google/gemma-4-31B-it/blob/842da3794eaa0b77d5f08bae87a17459d91ff475/README.md"
+}

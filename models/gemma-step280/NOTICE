@@ -1,0 +1,8 @@
+Pahlavi qualified Gemma step280 research adapter
+Base model: Google DeepMind Gemma 4, google/gemma-4-31B-it
+Base revision: 842da3794eaa0b77d5f08bae87a17459d91ff475
+Google publishes Gemma 4 under Apache License 2.0; the accompanying LICENSE preserves those terms.
+The pinned upstream file inventory contains no separate LICENSE or NOTICE file; its README links Google's license and credits Google DeepMind.
+Adaptation: this project trained fresh LoRA parameters on 2,237 qualified examples for two epochs, 280 updates, rank 16 and alpha 32. This release preserves the original adapter tensor bytes.
+Release-config changes: only base_model_name_or_path and revision were replaced with the public pinned base identity. Original config and placeholder model card are retained under original/.
+This notice does not assign an open license to third-party training/source text or the whole research repository. Source-family restrictions and unresolved training-data rights remain documented in review/DATA-ACCESS.md.

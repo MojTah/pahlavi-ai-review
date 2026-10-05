@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
-  "source_commit": "f710698c6621c2d3775f82ac5717ef0c4237285d",
-  "scope": "Current specialist review with licensed source data and explicit restricted-data/model gaps",
+  "source_commit": "36b814feb9746bb194a80507b867204ef49a965f",
+  "scope": "Completed specialist evidence, licensed source data and exact verified retained adapter release; restricted/uncleared full training/source gaps remain",
   "files": [
     {
       "path": ".gitattributes",
@@ -3024,9 +3024,44 @@
       "sha256": "939fd14a2840c37c4645af4c9af722d440738bc5afed3928ebedb931049f5b8e"
     },
     {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/ASTRA-COMPLETED-REVIEW.md",
+      "bytes": 3008,
+      "sha256": "c7e1d7235b09ab8205f26ce9d6c823d3ab1f1705f054c2065b83882c9d64f8c1"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/ASTRA-REQUEST.md",
+      "bytes": 1296,
+      "sha256": "bcb812790ae6a52718e58cd1146f3b8886dad599dcc62a3dbd6d7a5cd79df21c"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/ASTRA-REVIEW.json",
+      "bytes": 955,
+      "sha256": "f8bf592d61f2f107937c38b55df823e863a03815413e8fc10452c78bd2081e5e"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/comparison.json",
+      "bytes": 31962,
+      "sha256": "1793db91270977a6b098222bb10804879dab85c4a8522389de2d27317e71b433"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/CONTROL-REPEAT-CHECK.json",
+      "bytes": 10509,
+      "sha256": "1c2ca80d2836ff9ced20e9f49329e15af86e253338b869c7520504768c48b154"
+    },
+    {
       "path": "experiments/dictionary-faithfulness-20261005/live-execution/live-inventory.json",
       "bytes": 1734,
       "sha256": "49e036747df70dfdc3888573487741566da7360fdef30cd5aa580033bfcce3dc"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/OUTCOME.md",
+      "bytes": 5865,
+      "sha256": "a307c29a638fbb6f7b50dc584a5b1893ef3e3df338fce8aaa15ea8253b568c10"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/OUTPUT-CHECKS.json",
+      "bytes": 361,
+      "sha256": "554ccc56f7f5f1791c3cf7cb98d92895c1a4c69dff5f4e40e90bc9980c24432c"
     },
     {
       "path": "experiments/dictionary-faithfulness-20261005/live-execution/RECOVERY-CHECKS.json",
@@ -3037,6 +3072,11 @@
       "path": "experiments/dictionary-faithfulness-20261005/live-execution/RECOVERY-RECEIPT.json",
       "bytes": 17677,
       "sha256": "2ea8635a94cebd0675a5d633f033bad72d6ae89c5991fe8b328a5afc0bbbd28a"
+    },
+    {
+      "path": "experiments/dictionary-faithfulness-20261005/live-execution/SEMANTIC-CHECKS.json",
+      "bytes": 1202,
+      "sha256": "3d6df84ec9b33f15cd1cebd399847bdbb5bba1add20e20896c6db077d186a033"
     },
     {
       "path": "experiments/dictionary-faithfulness-20261005/live-execution/staging-verification.json",
@@ -3050,8 +3090,8 @@
     },
     {
       "path": "experiments/dictionary-faithfulness-20261005/live-execution/STATUS.md",
-      "bytes": 4019,
-      "sha256": "2f71859763d68ee86d0edcc8afc18d85af85d1b4e7e3d8056c5cfcfeab061ae1"
+      "bytes": 4397,
+      "sha256": "a6c325daeee9148df9fa202e9a8cb543d280f72b0c6c2a7f0af6c6d6f4476601"
     },
     {
       "path": "experiments/dictionary-faithfulness-20261005/PLAN.md",
@@ -7345,13 +7385,13 @@
     },
     {
       "path": "GITHUB-REVIEW.md",
-      "bytes": 15192,
-      "sha256": "5d5cc1cd99558433661b5bfac1e434cd889c06de61e382e68190e59c090d9fcf"
+      "bytes": 15618,
+      "sha256": "1be5a6805b47d6c43157ed5aeb44312b5bed7431e850b8b50f05141f388abeeb"
     },
     {
       "path": "GOAL.md",
-      "bytes": 24969,
-      "sha256": "8acbc88b49b78cfa015aece6918e5c28ae86eaca628f77c45ae99238b332f341"
+      "bytes": 26367,
+      "sha256": "a455bdf66f0489ed898a6c8bf315edadb5ecc779694c63f3a73cfea96b9400f8"
     },
     {
       "path": "kb/ancestral-counsels-3-study.md",
@@ -7475,8 +7515,48 @@
     },
     {
       "path": "MODEL-AND-TRAINING-RECIPE.md",
-      "bytes": 20012,
-      "sha256": "ad655d619cc2b7619d6a65fd32cfeaeddffead8b4139ef007fe52d34e55f27d6"
+      "bytes": 20359,
+      "sha256": "d41f8d175376c1fdebba9b0f7e5048b165a12137f3b1a04107361695376a32a4"
+    },
+    {
+      "path": "models/gemma-step280/adapter_config.json",
+      "bytes": 1279,
+      "sha256": "8ffa6b7cc06cedfd66acf2b8c8fe38ea2762506bd51b5f2bc3268e908965164c"
+    },
+    {
+      "path": "models/gemma-step280/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "models/gemma-step280/NOTICE",
+      "bytes": 1018,
+      "sha256": "71c6bdf6af6cf17d797ae763b43c22193cfc15ea388fe9469e349f8d84acd7f8"
+    },
+    {
+      "path": "models/gemma-step280/original/adapter_config.json",
+      "bytes": 1215,
+      "sha256": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4"
+    },
+    {
+      "path": "models/gemma-step280/original/README.md",
+      "bytes": 5232,
+      "sha256": "94c46ba388bcdeeda6b5e28e71add00decd5509d374f9083ceb2be7699974ba3"
+    },
+    {
+      "path": "models/gemma-step280/PROVENANCE.json",
+      "bytes": 1687,
+      "sha256": "3f28743bf881df56c2b76da084f1ed498b9862e24c2d0c3c1bf7dfbfd4f3c525"
+    },
+    {
+      "path": "models/gemma-step280/README.md",
+      "bytes": 4698,
+      "sha256": "1545309ceee063db39ac3c49b779407d3adb0b00f0f4b2823d6d4fa37dfc019a"
+    },
+    {
+      "path": "models/gemma-step280/SHA256SUMS",
+      "bytes": 671,
+      "sha256": "ce42d6810f3c0adcc6631f77659cc605b2e1661ac52072146f5ae002f1a18c73"
     },
     {
       "path": "output/pdf/pahlavi-resources-professor-20260926.html",
@@ -7695,8 +7775,8 @@
     },
     {
       "path": "PROJECT_STATE.md",
-      "bytes": 65631,
-      "sha256": "5fbae9d463627dcbfdcea2e7e9d72d0df76a9c3fad1ad3cd06d8feed161080ab"
+      "bytes": 67029,
+      "sha256": "1c6a3fa9ee5520cf06785b9c41c94122715fe08e0a57cb0497fc15da6db38018"
     },
     {
       "path": "PROJECT_STATE_HISTORY_20260928.md",
@@ -7705,8 +7785,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15193,
-      "sha256": "2cbf4f9bb4fa3bb436838f9a8a6305f2daaea4655ea01f29d104bacfff9e4904"
+      "bytes": 15619,
+      "sha256": "8cb12dbc42b93b0fe0ce153b859b448754a4a05f8e9c3807f546a311286ebd09"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -10084,6 +10164,111 @@
       "sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6"
     },
     {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/lead-only/mapping.jsonl",
+      "bytes": 22440,
+      "sha256": "556c5981e1a2ab177d9705daba0b9a882a444b0853a3fb11d32eb36333fbf78e"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/lead-only/provenance.json",
+      "bytes": 22591,
+      "sha256": "ef68526c782bdeaf55801cce116f670d380cc3ed61a4feded95a00d3071facb5"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/lead-only/recovery-receipt.json",
+      "bytes": 17677,
+      "sha256": "2ea8635a94cebd0675a5d633f033bad72d6ae89c5991fe8b328a5afc0bbbd28a"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/lead-only/technical-summary.json",
+      "bytes": 4018,
+      "sha256": "ed5de784acbf133edb83a5ba346f984147c765f77b22a69390e6e19c6cf2d62e"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/reviewer-A/INSTRUCTIONS.md",
+      "bytes": 3273,
+      "sha256": "2198679d4badce8875a10862a98efe59ca34dc94ea26c96d340e79167f20aa9b"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/reviewer-A/packet.jsonl",
+      "bytes": 46365,
+      "sha256": "297a41c0b4dcb9a49873f36d75aebaead990644f2a0ac1b5386ed1ffcfd6c772"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/reviewer-A/reviews.jsonl",
+      "bytes": 25649,
+      "sha256": "085d7a1f94bcba20dd247e8a8d6c86a7a0a45fd200a9c1f33a48e25884716f25"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/reviewer-B/INSTRUCTIONS.md",
+      "bytes": 3273,
+      "sha256": "2198679d4badce8875a10862a98efe59ca34dc94ea26c96d340e79167f20aa9b"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/reviewer-B/packet.jsonl",
+      "bytes": 46365,
+      "sha256": "fee68c347b681660171e7adb419168f883bb3aed2cd692e947b5998b58066bc7"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/packets/reviewer-B/reviews.jsonl",
+      "bytes": 26961,
+      "sha256": "c0e2be9a9b6a0728414e3f9e95debd607e7dbb1e9a90446c6966fe415b34b066"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/comparison.json",
+      "bytes": 31962,
+      "sha256": "1793db91270977a6b098222bb10804879dab85c4a8522389de2d27317e71b433"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/lead-only/mapping.jsonl",
+      "bytes": 22440,
+      "sha256": "556c5981e1a2ab177d9705daba0b9a882a444b0853a3fb11d32eb36333fbf78e"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/lead-only/provenance.json",
+      "bytes": 22591,
+      "sha256": "ef68526c782bdeaf55801cce116f670d380cc3ed61a4feded95a00d3071facb5"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/lead-only/recovery-receipt.json",
+      "bytes": 17677,
+      "sha256": "2ea8635a94cebd0675a5d633f033bad72d6ae89c5991fe8b328a5afc0bbbd28a"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/lead-only/technical-summary.json",
+      "bytes": 4018,
+      "sha256": "ed5de784acbf133edb83a5ba346f984147c765f77b22a69390e6e19c6cf2d62e"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/reviewer-A/INSTRUCTIONS.md",
+      "bytes": 3273,
+      "sha256": "2198679d4badce8875a10862a98efe59ca34dc94ea26c96d340e79167f20aa9b"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/reviewer-A/packet.jsonl",
+      "bytes": 46365,
+      "sha256": "297a41c0b4dcb9a49873f36d75aebaead990644f2a0ac1b5386ed1ffcfd6c772"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/reviewer-A/reviews.jsonl",
+      "bytes": 25649,
+      "sha256": "085d7a1f94bcba20dd247e8a8d6c86a7a0a45fd200a9c1f33a48e25884716f25"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/reviewer-B/INSTRUCTIONS.md",
+      "bytes": 3273,
+      "sha256": "2198679d4badce8875a10862a98efe59ca34dc94ea26c96d340e79167f20aa9b"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/reviewer-B/packet.jsonl",
+      "bytes": 46365,
+      "sha256": "fee68c347b681660171e7adb419168f883bb3aed2cd692e947b5998b58066bc7"
+    },
+    {
+      "path": "resources/local/dictionary-faithfulness-results-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/scored/reviewer-B/reviews.jsonl",
+      "bytes": 26961,
+      "sha256": "c0e2be9a9b6a0728414e3f9e95debd607e7dbb1e9a90446c6966fe415b34b066"
+    },
+    {
       "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/predictions.jsonl",
       "bytes": 15636,
       "sha256": "b646490f996e8467a9156f6957741d1a8f37382a1024adb4bf8c2f7792756759"
@@ -10415,8 +10600,8 @@
     },
     {
       "path": "review/DATA-ACCESS.md",
-      "bytes": 4415,
-      "sha256": "22b69b0680c5faf1defc1679ea5209afde5fe42457df7bd320d9836f13792982"
+      "bytes": 4896,
+      "sha256": "75274a0671d7cec209a3b938ab7aac2091bbcc0567aaf6126244eb7bdf5bb5fc"
     },
     {
       "path": "review/DATA-LICENSES.json",
@@ -10430,8 +10615,8 @@
     },
     {
       "path": "review/MODEL-RELEASE-READINESS-20261005.md",
-      "bytes": 2335,
-      "sha256": "80dedebfc2971a5ea6aa2fcf870ba4c46e022e8c6268e56b183e358c9b2f28f1"
+      "bytes": 2664,
+      "sha256": "7329a73e5f40f80d9e94301664509ec0a4ec7d602338ec9b414aebcdc603a410"
     },
     {
       "path": "review/OMISSIONS.json",
@@ -10450,8 +10635,8 @@
     },
     {
       "path": "review/PACKAGE.md",
-      "bytes": 1039,
-      "sha256": "ced6aa5d753deb03ba5de9b4f00574204bd7111370a32af925c750146b66b776"
+      "bytes": 1582,
+      "sha256": "cf07cb171de1716d5f4c50fdd27d3e25ff68ed915ad2df6f8373a3f5d32f6ff4"
     },
     {
       "path": "review/PUBLIC-COPY-CHANGES.json",
@@ -10460,23 +10645,23 @@
     },
     {
       "path": "review/SPECIALIST-PUBLICATION-GATE-20261005.md",
-      "bytes": 4571,
-      "sha256": "62c09b5d2b2592790f69a20825fd71e99ace6a0c22ff46110825d28f37dabcd4"
+      "bytes": 5762,
+      "sha256": "4bd738917b88565c8c74779eece8eb15c41cc4f337c8c4c4fedfe0bbb2017a7a"
     },
     {
       "path": "review/VALIDATION.md",
-      "bytes": 1264,
-      "sha256": "4c822568673a548af8693e03476e1bd3b7df45d9ddf90880e250bb7a5a629db6"
+      "bytes": 1727,
+      "sha256": "ab53a7ac8518736438ba46f4c216473eab8038256d7a33be730e00167df3c62b"
     },
     {
       "path": "REVIEW-PROMPT.md",
-      "bytes": 13582,
-      "sha256": "016631bb0bff9edb8d8d35c57d89ea3327b9e72809b823de903c123d88387c4f"
+      "bytes": 14042,
+      "sha256": "3f5585c1fb55cdf63c0b649bc8b3d59a3c50e758705b97474a3a99e471083ce2"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 15193,
-      "sha256": "2cbf4f9bb4fa3bb436838f9a8a6305f2daaea4655ea01f29d104bacfff9e4904"
+      "bytes": 15619,
+      "sha256": "8cb12dbc42b93b0fe0ce153b859b448754a4a05f8e9c3807f546a311286ebd09"
     },
     {
       "path": "scripts/analyze_train_fit.py",
@@ -11770,5 +11955,21 @@
     }
   ],
   "source_includes_publication_documentation": true,
-  "source_snapshot_boundary": "Committed recovery checkpoint; ongoing untracked review/scoring files excluded until finalized by their execution owner"
+  "source_snapshot_boundary": "Frozen committed completed comparison/Astra closure; finalized review/scoring bytes independently checked; no in-progress source files",
+  "external_assets": [
+    {
+      "name": "adapter_model.safetensors",
+      "bytes": 489840816,
+      "sha256": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+      "url": "https://github.com/MojTah/pahlavi-ai-review/releases/download/gemma-step280-research-v1/adapter_model.safetensors",
+      "state": "RECOVERED_AND_PREPARED"
+    },
+    {
+      "name": "gemma-step280-metadata.zip",
+      "bytes": 11969,
+      "sha256": "7d54fcb0817b7fe1264aae4fcf4ccff49234f479b7a0ee7d743b703bad7ca0f0",
+      "url": "https://github.com/MojTah/pahlavi-ai-review/releases/download/gemma-step280-research-v1/gemma-step280-metadata.zip",
+      "state": "RECOVERED_AND_PREPARED"
+    }
+  ]
 }

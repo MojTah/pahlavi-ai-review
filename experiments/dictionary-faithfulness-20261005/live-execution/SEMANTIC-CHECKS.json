@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-05T21:14:50.956026+00:00",
+  "status": "HOLD",
+  "screen_status": "fail",
+  "comparison_sha256": "1793db91270977a6b098222bb10804879dab85c4a8522389de2d27317e71b433",
+  "scorer_sha256": "123faa5512a3d3226b93b79dc47d42afa89228859420adffd5db2595cc0007d0",
+  "rubric_changed": false,
+  "ratings_changed_after_aggregation": false,
+  "reviewers": {
+    "A": {
+      "agent_id": "/root/blind_faithfulness_a_20261005",
+      "model": "gpt-6.1-sol",
+      "fork_context": "none",
+      "rows": 30,
+      "sha256": "085d7a1f94bcba20dd247e8a8d6c86a7a0a45fd200a9c1f33a48e25884716f25"
+    },
+    "B": {
+      "agent_id": "/root/blind_faithfulness_b_20261005",
+      "model": "gpt-6.1-sol",
+      "fork_context": "none",
+      "rows": 30,
+      "sha256": "c0e2be9a9b6a0728414e3f9e95debd607e7dbb1e9a90446c6966fe415b34b066"
+    }
+  },
+  "review_schema_hash_span_validation": "PASS by exact pinned score.py entrypoint",
+  "first_review_bytes_preserved": true,
+  "no_repaired_or_replacement_reviews": true,
+  "expert_adjudicated": false,
+  "training_performed": false,
+  "new_gpu_job": false,
+  "local_model_weight_download": false,
+  "astra_completed_result_review": "not_yet_requested"
+}

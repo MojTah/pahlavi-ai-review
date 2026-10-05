@@ -1,0 +1,316 @@
+{
+  "scope": "Historical dictionary-assisted B versus fresh dictionary-assisted control A. No replacement reviews or score edits. Reviewer cohorts are separate and provisional.",
+  "old_predictions_sha256": "2a65d6ac8c4f46348b6a3520932db0014af4d66f98922becf77a6e3a5862dede",
+  "fresh_predictions_sha256": "d952a0c83f785d8e282689c0a0b2382dfc21c903d94e046637d03bc12924dd6b",
+  "pairs": 15,
+  "identical_text_pairs": 15,
+  "identical_output_token_pairs": 15,
+  "identical_recorded_rendered_input_token_hashes": 15,
+  "judgment_changes_on_identical_text": {
+    "A": [
+      "QUALITYDEV1-005",
+      "QUALITYDEV1-006",
+      "QUALITYDEV1-007",
+      "QUALITYDEV1-009",
+      "QUALITYDEV1-013",
+      "QUALITYDEV1-014",
+      "QUALITYDEV1-015"
+    ],
+    "B": [
+      "QUALITYDEV1-005",
+      "QUALITYDEV1-007",
+      "QUALITYDEV1-013",
+      "QUALITYDEV1-014",
+      "QUALITYDEV1-015",
+      "QUALITYDEV1-017"
+    ]
+  },
+  "records": [
+    {
+      "case_id": "QUALITYDEV1-002",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "9ae150912c2cc6af851eccb2b5521574246b89fc1c6522b0e1746c9d80fdde37",
+      "new_output_sha256": "9ae150912c2cc6af851eccb2b5521574246b89fc1c6522b0e1746c9d80fdde37",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "accepted",
+          "new": "accepted"
+        },
+        "B": {
+          "old": "accepted",
+          "new": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-003",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "487952ebd349957b30a32f9d1bbc0bad349cb4bb232baa644948326390ef555f",
+      "new_output_sha256": "487952ebd349957b30a32f9d1bbc0bad349cb4bb232baa644948326390ef555f",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-005",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "dda053b659323493179a86002779e388f456dcae9fbd42a3a822adc53c0fde5e",
+      "new_output_sha256": "dda053b659323493179a86002779e388f456dcae9fbd42a3a822adc53c0fde5e",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "meaning_error",
+          "new": "critical_error"
+        },
+        "B": {
+          "old": "meaning_error",
+          "new": "critical_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-006",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "67e746e29ad67dcd2f0eedd608d9221567f8cbaa9da61496d948f833ade3bf4b",
+      "new_output_sha256": "67e746e29ad67dcd2f0eedd608d9221567f8cbaa9da61496d948f833ade3bf4b",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "critical_error",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "critical_error",
+          "new": "critical_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-007",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "be7a1cebb5886873de92fefc4f87ff12b4adde2c31bb12964da0ec4bd4bcbfa7",
+      "new_output_sha256": "be7a1cebb5886873de92fefc4f87ff12b4adde2c31bb12964da0ec4bd4bcbfa7",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "accepted",
+          "new": "uncertain"
+        },
+        "B": {
+          "old": "accepted",
+          "new": "meaning_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-008",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "8971a64841ceccc5a8fbe2cc332085d2f2d1256d7413651afb909b339d209c19",
+      "new_output_sha256": "8971a64841ceccc5a8fbe2cc332085d2f2d1256d7413651afb909b339d209c19",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "critical_error",
+          "new": "critical_error"
+        },
+        "B": {
+          "old": "critical_error",
+          "new": "critical_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-009",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "f415b39afd617e725829c84bebf067549314adeb0519c4441e92affb9208eb3f",
+      "new_output_sha256": "f415b39afd617e725829c84bebf067549314adeb0519c4441e92affb9208eb3f",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "accepted",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "accepted",
+          "new": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-010",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "95a7fc5bfa801f82fa28ae0e65c8b422ccfbaca464831324afa12ee3206cd42f",
+      "new_output_sha256": "95a7fc5bfa801f82fa28ae0e65c8b422ccfbaca464831324afa12ee3206cd42f",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-012",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "d64bfe7c4ec227c33da9dd24aed867ae9ba935c2964ec2948ff6c4bc12f1baa4",
+      "new_output_sha256": "d64bfe7c4ec227c33da9dd24aed867ae9ba935c2964ec2948ff6c4bc12f1baa4",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-013",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "2012eba27a119d5a81825632955a3fca6cbe31a9591348bb0093d1b2b3c25cf1",
+      "new_output_sha256": "2012eba27a119d5a81825632955a3fca6cbe31a9591348bb0093d1b2b3c25cf1",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "meaning_error",
+          "new": "critical_error"
+        },
+        "B": {
+          "old": "meaning_error",
+          "new": "critical_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-014",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "15d44a8affc006ef4756d11329580475a2a6d41e25f03033bf539801bb153d17",
+      "new_output_sha256": "15d44a8affc006ef4756d11329580475a2a6d41e25f03033bf539801bb153d17",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "accepted",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "accepted",
+          "new": "meaning_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-015",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "14b2ff54600fd075f53cf0fef69bd71a6cecd716e87cd9a8ba533a28c540c459",
+      "new_output_sha256": "14b2ff54600fd075f53cf0fef69bd71a6cecd716e87cd9a8ba533a28c540c459",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "accepted",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "accepted",
+          "new": "meaning_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-017",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "c72b13498b7b8202d5fedb021edd7d0ce8db4f4b111be70490a9ffc959d22d7c",
+      "new_output_sha256": "c72b13498b7b8202d5fedb021edd7d0ce8db4f4b111be70490a9ffc959d22d7c",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "critical_error",
+          "new": "critical_error"
+        },
+        "B": {
+          "old": "meaning_error",
+          "new": "critical_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-020",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "7360b18d426bdaf63a432b048e4bfa80e273768cd6a12041296218896ff3f1d3",
+      "new_output_sha256": "7360b18d426bdaf63a432b048e4bfa80e273768cd6a12041296218896ff3f1d3",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        },
+        "B": {
+          "old": "meaning_error",
+          "new": "meaning_error"
+        }
+      }
+    },
+    {
+      "case_id": "QUALITYDEV1-021",
+      "text_identical": true,
+      "output_token_ids_identical": true,
+      "old_output_sha256": "7e75e462f7dc01bf1ba86645f5656b9df9b54d837627c5f88115739e1f624ee9",
+      "new_output_sha256": "7e75e462f7dc01bf1ba86645f5656b9df9b54d837627c5f88115739e1f624ee9",
+      "input_tokens_identical": true,
+      "rendered_input_ids_sha256_identical": true,
+      "reviewer_judgments": {
+        "A": {
+          "old": "critical_error",
+          "new": "critical_error"
+        },
+        "B": {
+          "old": "critical_error",
+          "new": "critical_error"
+        }
+      }
+    }
+  ],
+  "interpretation": "Matched input hashes do not guarantee identical generation across runs. Changes in labels on byte-identical text demonstrate rating variability, not model regression. Unchanged historical outcomes stay preserved; the new within-run A/B screen is primary."
+}

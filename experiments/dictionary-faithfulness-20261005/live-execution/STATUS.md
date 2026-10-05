@@ -1,5 +1,7 @@
 # Faithfulness comparison: execution record
 
+**Semantic comparison complete:** The unchanged screen fails (reviewer A1/15→2/15, reviewer B2/15→2/15); critical counts are unchanged. All15control outputs are identical to historical dictionary-assisted text despite different fresh ratings. [Outcome](OUTCOME.md) preserves this measurement finding and the local calibration next step. No new job or training is admitted.
+
 **Completion and full recovery, 5 October 2026:** The provider reports COMPLETED. All 30 first outputs succeeded, the longest-input GPU canary passed, zero optimizer updates occurred and the retained adapter stayed unchanged. Independent SDK readback verified all 104 final files (103 manifest entries plus the manifest), 1,731,935 bytes. The existing scorer passed closed identity/accounting and actual output-token/text/hash replay, yielding READY_FOR_BLIND_REVIEW. The bounded technical critic passed; its offline checks cannot authenticate the lead-recorded remote observation. Two fresh opaque reviews are now in progress. No semantic quality result, promotion, new GPU job or local weights. [Recovery checks](RECOVERY-CHECKS.json) and [receipt](RECOVERY-RECEIPT.json) preserve current evidence. The startup account observations below are historical, not current balances.
 
 ## Historical startup

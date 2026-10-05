@@ -1,0 +1,951 @@
+{
+  "status": "HOLD",
+  "screen_status": "fail",
+  "semantic_continuation": false,
+  "reviewers": {
+    "A": {
+      "denominator_per_arm": 15,
+      "counts": {
+        "A": {
+          "meaning_error": 8,
+          "critical_error": 5,
+          "uncertain": 1,
+          "accepted": 1
+        },
+        "B": {
+          "critical_error": 5,
+          "meaning_error": 7,
+          "accepted": 2,
+          "uncertain": 1
+        }
+      },
+      "accepted_counts": {
+        "A": 1,
+        "B": 2
+      },
+      "critical_counts": {
+        "A": 5,
+        "B": 5
+      },
+      "newly_accepted": [
+        "QUALITYDEV1-003"
+      ],
+      "lost_acceptance": [],
+      "net_accepted_change": 1,
+      "works_with_newly_accepted": [
+        "parsig:103"
+      ],
+      "critical_count_change": 0,
+      "accepted_to_critical": [],
+      "by_work": {
+        "parsig:103": {
+          "A": {
+            "accepted": 1,
+            "meaning_error": 2,
+            "critical_error": 1
+          },
+          "B": {
+            "critical_error": 1,
+            "accepted": 2,
+            "meaning_error": 1
+          }
+        },
+        "parsig:112": {
+          "A": {
+            "meaning_error": 3,
+            "uncertain": 1,
+            "critical_error": 1
+          },
+          "B": {
+            "meaning_error": 3,
+            "critical_error": 1,
+            "uncertain": 1
+          }
+        },
+        "parsig:138": {
+          "A": {
+            "critical_error": 2,
+            "meaning_error": 2
+          },
+          "B": {
+            "critical_error": 2,
+            "meaning_error": 2
+          }
+        },
+        "parsig:517": {
+          "A": {
+            "critical_error": 1,
+            "meaning_error": 1
+          },
+          "B": {
+            "critical_error": 1,
+            "meaning_error": 1
+          }
+        }
+      },
+      "screen_checks": {
+        "net_accepted_gain": false,
+        "gains_in_multiple_named_works": false,
+        "no_critical_increase": true,
+        "no_accepted_to_critical": true
+      },
+      "screen_pass": false
+    },
+    "B": {
+      "denominator_per_arm": 15,
+      "counts": {
+        "A": {
+          "critical_error": 6,
+          "meaning_error": 7,
+          "accepted": 2
+        },
+        "B": {
+          "meaning_error": 6,
+          "uncertain": 1,
+          "accepted": 2,
+          "critical_error": 6
+        }
+      },
+      "accepted_counts": {
+        "A": 2,
+        "B": 2
+      },
+      "critical_counts": {
+        "A": 6,
+        "B": 6
+      },
+      "newly_accepted": [
+        "QUALITYDEV1-003"
+      ],
+      "lost_acceptance": [
+        "QUALITYDEV1-009"
+      ],
+      "net_accepted_change": 0,
+      "works_with_newly_accepted": [
+        "parsig:103"
+      ],
+      "critical_count_change": 0,
+      "accepted_to_critical": [],
+      "by_work": {
+        "parsig:103": {
+          "A": {
+            "meaning_error": 1,
+            "accepted": 1,
+            "critical_error": 2
+          },
+          "B": {
+            "accepted": 2,
+            "critical_error": 2
+          }
+        },
+        "parsig:112": {
+          "A": {
+            "accepted": 1,
+            "meaning_error": 3,
+            "critical_error": 1
+          },
+          "B": {
+            "uncertain": 1,
+            "meaning_error": 3,
+            "critical_error": 1
+          }
+        },
+        "parsig:138": {
+          "A": {
+            "critical_error": 2,
+            "meaning_error": 2
+          },
+          "B": {
+            "meaning_error": 2,
+            "critical_error": 2
+          }
+        },
+        "parsig:517": {
+          "A": {
+            "critical_error": 1,
+            "meaning_error": 1
+          },
+          "B": {
+            "meaning_error": 1,
+            "critical_error": 1
+          }
+        }
+      },
+      "screen_checks": {
+        "net_accepted_gain": false,
+        "gains_in_multiple_named_works": false,
+        "no_critical_increase": true,
+        "no_accepted_to_critical": true
+      },
+      "screen_pass": false
+    }
+  },
+  "reviewer_agreement": {
+    "A": {
+      "total": 15,
+      "disagreements": [
+        {
+          "case_id": "QUALITYDEV1-006",
+          "work_id": "parsig:103",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "fail",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "fail",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-007",
+          "work_id": "parsig:112",
+          "reviewer_A": {
+            "judgment": "uncertain",
+            "supported_span_severity": "uncertain",
+            "unknown_span_handling": "uncertain",
+            "categories": {
+              "lexical_meaning": "uncertain",
+              "grammatical_roles": "uncertain",
+              "negation_modality": "not_applicable",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-009",
+          "work_id": "parsig:112",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "accepted",
+            "supported_span_severity": "none",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "pass",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-013",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "fail",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "fail",
+              "names": "pass",
+              "numbers_quantities": "fail",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-014",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "uncertain",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "uncertain",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "pass",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-015",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-017",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "fail",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "pass",
+              "grammatical_roles": "pass",
+              "negation_modality": "fail",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-020",
+          "work_id": "parsig:517",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "pass",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "pass",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-021",
+          "work_id": "parsig:517",
+          "reviewer_A": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "not_applicable",
+              "names": "fail",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        }
+      ],
+      "acceptance_agreement": 14
+    },
+    "B": {
+      "total": 15,
+      "disagreements": [
+        {
+          "case_id": "QUALITYDEV1-006",
+          "work_id": "parsig:103",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "fail",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "fail",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-007",
+          "work_id": "parsig:112",
+          "reviewer_A": {
+            "judgment": "uncertain",
+            "supported_span_severity": "uncertain",
+            "unknown_span_handling": "uncertain",
+            "categories": {
+              "lexical_meaning": "uncertain",
+              "grammatical_roles": "uncertain",
+              "negation_modality": "not_applicable",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-009",
+          "work_id": "parsig:112",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "uncertain",
+            "supported_span_severity": "uncertain",
+            "unknown_span_handling": "uncertain",
+            "categories": {
+              "lexical_meaning": "uncertain",
+              "grammatical_roles": "uncertain",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "pass",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-013",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "fail",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "fail",
+              "names": "pass",
+              "numbers_quantities": "fail",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-014",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "uncertain",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "fail",
+              "omissions": "pass",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "pass",
+              "omissions": "pass",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-015",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-017",
+          "work_id": "parsig:138",
+          "reviewer_A": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "pass",
+              "negation_modality": "fail",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "pass",
+              "grammatical_roles": "pass",
+              "negation_modality": "fail",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "pass",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-020",
+          "work_id": "parsig:517",
+          "reviewer_A": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "pass",
+              "numbers_quantities": "pass",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "meaning_error",
+            "supported_span_severity": "meaning_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "pass",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        },
+        {
+          "case_id": "QUALITYDEV1-021",
+          "work_id": "parsig:517",
+          "reviewer_A": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "not_applicable",
+              "names": "fail",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          },
+          "reviewer_B": {
+            "judgment": "critical_error",
+            "supported_span_severity": "critical_error",
+            "unknown_span_handling": "no_unknown_span",
+            "categories": {
+              "lexical_meaning": "fail",
+              "grammatical_roles": "fail",
+              "negation_modality": "pass",
+              "names": "not_applicable",
+              "numbers_quantities": "not_applicable",
+              "omissions": "fail",
+              "unsupported_additions": "fail",
+              "source_uncertainty": "pass"
+            }
+          }
+        }
+      ],
+      "acceptance_agreement": 15
+    }
+  },
+  "technical": {
+    "status": "READY_FOR_BLIND_REVIEW",
+    "screen_status": "inconclusive",
+    "pipeline_complete": true,
+    "independent_remote_verified": true,
+    "primary_eligible": true,
+    "accounting": {
+      "status": "complete",
+      "scheduled_outputs": 30,
+      "attempted_outputs": 30,
+      "committed_jsonl_outputs": 30,
+      "per_output_status": {
+        "QUALITYDEV1-002:A": "success",
+        "QUALITYDEV1-002:B": "success",
+        "QUALITYDEV1-003:B": "success",
+        "QUALITYDEV1-003:A": "success",
+        "QUALITYDEV1-005:A": "success",
+        "QUALITYDEV1-005:B": "success",
+        "QUALITYDEV1-006:B": "success",
+        "QUALITYDEV1-006:A": "success",
+        "QUALITYDEV1-007:A": "success",
+        "QUALITYDEV1-007:B": "success",
+        "QUALITYDEV1-008:B": "success",
+        "QUALITYDEV1-008:A": "success",
+        "QUALITYDEV1-009:A": "success",
+        "QUALITYDEV1-009:B": "success",
+        "QUALITYDEV1-010:B": "success",
+        "QUALITYDEV1-010:A": "success",
+        "QUALITYDEV1-012:A": "success",
+        "QUALITYDEV1-012:B": "success",
+        "QUALITYDEV1-013:B": "success",
+        "QUALITYDEV1-013:A": "success",
+        "QUALITYDEV1-014:A": "success",
+        "QUALITYDEV1-014:B": "success",
+        "QUALITYDEV1-015:B": "success",
+        "QUALITYDEV1-015:A": "success",
+        "QUALITYDEV1-017:A": "success",
+        "QUALITYDEV1-017:B": "success",
+        "QUALITYDEV1-020:B": "success",
+        "QUALITYDEV1-020:A": "success",
+        "QUALITYDEV1-021:A": "success",
+        "QUALITYDEV1-021:B": "success"
+      },
+      "model_calls_started": 30,
+      "committed_model_calls": 30,
+      "pipeline_complete": true,
+      "unavailable_dependencies_for_unattempted_slots": {},
+      "original_run_status": "completed",
+      "original_evidence_unchanged": true,
+      "primary_comparison_inconclusive": false,
+      "replacements_generated": false,
+      "raw_predictions_sha256": "d952a0c83f785d8e282689c0a0b2382dfc21c903d94e046637d03bc12924dd6b"
+    },
+    "per_output_status": {
+      "QUALITYDEV1-002:A": "success",
+      "QUALITYDEV1-002:B": "success",
+      "QUALITYDEV1-003:B": "success",
+      "QUALITYDEV1-003:A": "success",
+      "QUALITYDEV1-005:A": "success",
+      "QUALITYDEV1-005:B": "success",
+      "QUALITYDEV1-006:B": "success",
+      "QUALITYDEV1-006:A": "success",
+      "QUALITYDEV1-007:A": "success",
+      "QUALITYDEV1-007:B": "success",
+      "QUALITYDEV1-008:B": "success",
+      "QUALITYDEV1-008:A": "success",
+      "QUALITYDEV1-009:A": "success",
+      "QUALITYDEV1-009:B": "success",
+      "QUALITYDEV1-010:B": "success",
+      "QUALITYDEV1-010:A": "success",
+      "QUALITYDEV1-012:A": "success",
+      "QUALITYDEV1-012:B": "success",
+      "QUALITYDEV1-013:B": "success",
+      "QUALITYDEV1-013:A": "success",
+      "QUALITYDEV1-014:A": "success",
+      "QUALITYDEV1-014:B": "success",
+      "QUALITYDEV1-015:B": "success",
+      "QUALITYDEV1-015:A": "success",
+      "QUALITYDEV1-017:A": "success",
+      "QUALITYDEV1-017:B": "success",
+      "QUALITYDEV1-020:B": "success",
+      "QUALITYDEV1-020:A": "success",
+      "QUALITYDEV1-021:A": "success",
+      "QUALITYDEV1-021:B": "success"
+    },
+    "expected_output_ids": [
+      "QUALITYDEV1-002:A",
+      "QUALITYDEV1-002:B",
+      "QUALITYDEV1-003:B",
+      "QUALITYDEV1-003:A",
+      "QUALITYDEV1-005:A",
+      "QUALITYDEV1-005:B",
+      "QUALITYDEV1-006:B",
+      "QUALITYDEV1-006:A",
+      "QUALITYDEV1-007:A",
+      "QUALITYDEV1-007:B",
+      "QUALITYDEV1-008:B",
+      "QUALITYDEV1-008:A",
+      "QUALITYDEV1-009:A",
+      "QUALITYDEV1-009:B",
+      "QUALITYDEV1-010:B",
+      "QUALITYDEV1-010:A",
+      "QUALITYDEV1-012:A",
+      "QUALITYDEV1-012:B",
+      "QUALITYDEV1-013:B",
+      "QUALITYDEV1-013:A",
+      "QUALITYDEV1-014:A",
+      "QUALITYDEV1-014:B",
+      "QUALITYDEV1-015:B",
+      "QUALITYDEV1-015:A",
+      "QUALITYDEV1-017:A",
+      "QUALITYDEV1-017:B",
+      "QUALITYDEV1-020:B",
+      "QUALITYDEV1-020:A",
+      "QUALITYDEV1-021:A",
+      "QUALITYDEV1-021:B"
+    ],
+    "expert_adjudicated": false,
+    "recovery_caveat": "Independent remote verification is a lead-trusted observation recorded in the receipt, not an offline authenticity guarantee. Mounted readback alone does not establish it."
+  },
+  "expert_adjudicated": false,
+  "limits": "Two separate provisional fresh faithfulness fixed-DEV15 reviews. No significance, unseen generalization, expert certification, training admission or automatic promotion.",
+  "review_freeze": {
+    "A": {
+      "sha256": "085d7a1f94bcba20dd247e8a8d6c86a7a0a45fd200a9c1f33a48e25884716f25",
+      "bytes": 25649,
+      "rows": 30,
+      "reviewer_type": "AI",
+      "expert_adjudicated": false
+    },
+    "B": {
+      "sha256": "c0e2be9a9b6a0728414e3f9e95debd607e7dbb1e9a90446c6966fe415b34b066",
+      "bytes": 26961,
+      "rows": 30,
+      "reviewer_type": "AI",
+      "expert_adjudicated": false
+    }
+  },
+  "scorer_sha256": "123faa5512a3d3226b93b79dc47d42afa89228859420adffd5db2595cc0007d0",
+  "packet_provenance_sha256": "ef68526c782bdeaf55801cce116f670d380cc3ed61a4feded95a00d3071facb5",
+  "recovered_manifest_sha256": "c2ede0b02928fccc73a66bbaf30fc8fa1cbbc122ad947d3276da65bc4b637339",
+  "recovery_receipt_sha256": "2ea8635a94cebd0675a5d633f033bad72d6ae89c5991fe8b328a5afc0bbbd28a"
+}

@@ -1,6 +1,8 @@
 # Current model clarification, 5 October 2026
 
-The reference remains qualified Gemma step280. The completed dictionary comparison improves the familiar-DEV inference screen from 2/15 to 5/15 for each reviewer, without training or new weights. The newest faithfulness comparison completed and its 104 final artifacts are recovered; semantic reviews remain in progress at the frozen recovery checkpoint. The retained 489,840,816-byte adapter is stored privately in the cloud, with SHA256 `a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf`; it has not been recovered or publicly released. Local model-sized files in test directories are fixtures. See [data access](review/DATA-ACCESS.md) and [latest outcome](experiments/dictionary-ab-runtime-20261003/live-execution/OUTCOME.md).
+The reference remains qualified Gemma step280. The newest [faithfulness comparison](experiments/dictionary-faithfulness-20261005/live-execution/OUTCOME.md) failed both continuation screens. Its control translations exactly match earlier dictionary-assisted outputs but received different fresh ratings; historical 2/15→5/15 results are provisional observations rather than stable accuracy estimates. No prompt or model is promoted.
+
+The unchanged retained Gemma step280 adapter has been recovered and verified; its GitHub release is prepared and publication is pending. See [the model card](models/gemma-step280/README.md). Base weights are required separately, and complete training-data reproduction remains blocked by the documented source rights gaps. The verified tensor is 489,840,816 bytes, SHA256 `a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf`. Publication downloads no base weights and runs no inference/training. The sections below preserve their original dated model-availability statements; the current release note supersedes those publication statements.
 
 ## Preserved model and training recipe
 
