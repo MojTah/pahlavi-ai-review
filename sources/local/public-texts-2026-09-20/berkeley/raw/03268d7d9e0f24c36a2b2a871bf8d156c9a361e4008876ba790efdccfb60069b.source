@@ -1,0 +1,149 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0008" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0008 / Berk. 8</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Initial edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0008 / Berk. 8.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_2013">
+                  <biblScope unit="page">158–159</biblScope>
+                  <note>The first edition of Berk. 8.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive #8</idno>
+                  <idno type="siglum">Berk. 8</idno>
+                  <idno type="OpenAMPD">MP0008</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">12.5</height>
+                              <width unit="cm">5.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure type="recto" unit="lines" quantity="8">8 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <!-- Use this if required to describe damage, missing text, etc.-->
+                     <!-- <layoutDesc>
+                        <p>This is a vertical rectangle.</p>
+                     </layoutDesc> -->
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom center.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag">az ān ī ō bun</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p>A person called <persName ref="people:CIr002">Dādēn</persName> gives three grīw of wheat to <persName ref="people:CIr003">Māhwindād son of Zōrdār</persName>.</p>
+            <p>The date of the transaction is month Spandarmad of 49 PY, equivalent to May-June 701 CE.</p>
+            <p>The document is sealed by <persName ref="people:CIr001" type="seal">Frāy</persName>.</p>
+         </particDesc>
+         <creation>
+            <date when="0049-12" calendar="#Pahlavi">Spandarmad 49 PY</date>
+            <date when="0701-05" calendar="#Julian">May-June 701 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85222-8.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0008_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/><persName ref="people:CIr002">dʾṭyn'</persName> MN ZK Y ʿL
+               <lb n="2" xml:id="trl-p1-l2"/>bwn' ZNH BYRḤ
+               <lb n="3" xml:id="trl-p1-l3"/>spndrmṭ Y ŠNṬ
+               <lb n="4" xml:id="trl-p1-l4"/>40–3-3–3 lwčyk
+               <lb n="5" xml:id="trl-p1-l5"/>lʾd Ḥg G+3
+               <lb n="6" xml:id="trl-p1-l6"/>ʿL <persName ref="people:CIr003">mʾhwndʾṭ</persName> Y
+               <lb n="7" xml:id="trl-p1-l7"/><persName ref="people:CIr003">zʾwldʾl</persName> YḤBWNṭ' čk'
+               <lb n="8" xml:id="trl-p1-l8"/><persName ref="people:CIr001">plʾd</persName> ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0008_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/><persName ref="people:CIr002">Dādēn</persName> az ān ī ō
+               <lb n="2" xml:id="trc-p1-l2"/>bun ēn māh
+               <lb n="3" xml:id="trc-p1-l3"/>Spandarmad ī sāl
+               <lb n="4" xml:id="trc-p1-l4"/>49 rōzīg
+               <lb n="5" xml:id="trc-p1-l5"/>rāy gandum 3 grīw
+               <lb n="6" xml:id="trc-p1-l6"/>ō <persName ref="people:CIr003">Māh-vindād</persName> ī
+               <lb n="7" xml:id="trc-p1-l7"/><persName ref="people:CIr003">Zōrdār</persName> dād čak
+               <lb n="8" xml:id="trc-p1-l8"/><persName ref="people:CIr001" type="seal">Frāy</persName> āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP0008_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Dādēn, de ce qui (est) dans
+               <lb n="2" xml:id="trans-p1-l2"/>le patrimoine, ce mois de
+               <lb n="3" xml:id="trans-p1-l3"/>de Spandarmad de l’an
+               <lb n="4" xml:id="trans-p1-l4"/>49, comme ration
+               <lb n="5" xml:id="trans-p1-l5"/>a remis trois grīw de blé
+               <lb n="6" xml:id="trans-p1-l6"/>à Māh-vindād fils de
+               <lb n="7" xml:id="trans-p1-l7"/>Zōrdār. Le document,
+               <lb n="8" xml:id="trans-p1-l8"/>Frāy l’a scellé.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

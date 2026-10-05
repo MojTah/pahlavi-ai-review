@@ -1,18 +1,32 @@
+# Pahlavi translation research: specialist review
+
+Updated 5 October 2026 for independent specialist review. Development version: 0.11.7.
+
+Start with the latest completed [dictionary comparison](experiments/dictionary-ab-runtime-20261003/live-execution/OUTCOME.md): both blinded AI reviewers accept 2/15 without dictionary help and 5/15 with it. Five gains and two lost acceptances give net +3. The fixed familiar-DEV continuation screen passes; unseen accuracy and specialist confirmation remain unestablished. This changes supplied inference evidence, not model weights.
+
+The newest [faithfulness comparison](experiments/dictionary-faithfulness-20261005/PLAN.md) tests one general instruction against unsupported glosses using the same retained Gemma step280. Its latest saved [startup receipt](experiments/dictionary-faithfulness-20261005/live-execution/STATUS.md) recorded RUNNING at 05:52:29 UTC on 5 October. Final outputs and a semantic result have not been recovered in this publication checkpoint. That saved status is not a live provider check.
+
+The repository now includes the complete locally collected OpenAMPD, legacy Cologne CPD and Ezafe research-data families with their notices, plus three papers with recorded Creative Commons terms. [Data access and remaining gaps](review/DATA-ACCESS.md) names the full training/candidate arrays and source families still withheld for unresolved or restrictive republication terms. The retained model adapter is cloud-only; model bytes are not included. [Manifest](review/MANIFEST.json) binds every published file, and [omissions](review/OMISSIONS.json) records exact withheld research-file hashes. This is an expanded review repository, not a complete runnable model release.
+
+Specialists should examine sense selection, unsupported explanatory additions, negation, gains/regressions and the validity of the familiar development screen. Preserve disagreement and source attribution. Review does not authorize cloud jobs, training, credential access or contacting anyone.
+
+## Historical review brief: 2 October
+
 # Pahlavi translation research: independent review snapshot
 
 Updated 2 October 2026. Start with [the consultation prompt](REVIEW-PROMPT.md), then inspect the evidence rather than accepting our conclusions. This snapshot supports an independent Opus second opinion for Mojtaba and the continuing Codex researcher. The reviewer provides advice and findings; it does not take over implementation or launch experiments.
 
-## Current evidence and decision
+## Evidence and decision recorded on 2 October
 
-The latest [direct versus own-analysis comparison](experiments/own-analysis-diagnostic-20261002/live-execution/OUTCOME.md) completed nine calls on three provisional development cases using retained Gemma step280. Both assessors accepted the same one of three translations in each arm: no new acceptance. One assessor found a new critical error in the analysis-fed Berlin result; the other assigned a meaning error. Preserve that disagreement. This is not a general accuracy estimate or an expert-certified evaluation.
+The 2 October [direct versus own-analysis comparison](experiments/own-analysis-diagnostic-20261002/live-execution/OUTCOME.md) completed nine calls on three provisional development cases using retained Gemma step280. Both assessors accepted the same one of three translations in each arm: no new acceptance. One assessor found a new critical error in the analysis-fed Berlin result; the other assigned a meaning error. Preserve that disagreement. This is not a general accuracy estimate or an expert-certified evaluation.
 
 The preceding [four-pass acquisition trial](experiments/dose-acquisition-20260930/live-execution/OUTCOME.md) improved taught lexical recall from 0/6 to 5/6, but passage safety and confirmation screens failed. Later [component](experiments/component-diagnostic-20261001/live-execution/OUTCOME.md) and [semantic-stage](experiments/semantic-stage-diagnostic-20261001/live-execution/OUTCOME.md) probes test different tasks and supplied evidence. Their results do not establish a deployable translation pipeline or uniquely locate an internal model failure. Read the [reporting clarification](experiments/semantic-stage-diagnostic-20261001/REPORTING-CLARIFICATION.md) and preserve the disputed Kanheri interpretation.
 
 The current [plain-target resource](experiments/plain-target-preparation-20261001/README.md) has 9,971 candidates, including 7,438 lexical inventories. These are not all Persian sentence translations and were not all consumed by the retained model. The latest [coverage trace](experiments/own-analysis-diagnostic-20261002/live-execution/coverage-trace.json) is spelling-bounded presence evidence, not proof of sense coverage or optimizer exposure.
 
-The proposed next free step is to qualify the same senses and occurrence-specific roles in original, nonpanel training records. A matched base-versus-step280 inference control is only a possible later proposal. No new paid run, training, model promotion or automatic extension is authorized by this review. Challenge this direction if the evidence supports something better.
+The next step proposed on 2 October is to qualify the same senses and occurrence-specific roles in original, nonpanel training records. A matched base-versus-step280 inference control is only a possible later proposal. No new paid run, training, model promotion or automatic extension is authorized by this review. Challenge this direction if the evidence supports something better.
 
-| Latest review priority | Evidence |
+| Review priority recorded on 2 October | Evidence |
 |---|---|
 | Present objective and historical qualifications | `GOAL.md`, `PROJECT_STATE.md`; dated older plans are superseded |
 | Strategy and competing explanations | `experiments/strategy-reset-20261001/REPORT.md` |

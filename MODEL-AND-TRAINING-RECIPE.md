@@ -1,3 +1,9 @@
+# Current model clarification, 5 October 2026
+
+The reference remains qualified Gemma step280. The completed dictionary comparison improves the familiar-DEV inference screen from 2/15 to 5/15 for each reviewer, without training or new weights. The newest faithfulness comparison has only a saved startup receipt in this snapshot. The retained 489,840,816-byte adapter is stored privately in the cloud, with SHA256 `a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf`; it has not been recovered or publicly released. Local model-sized files in test directories are fixtures. See [data access](review/DATA-ACCESS.md) and [latest outcome](experiments/dictionary-ab-runtime-20261003/live-execution/OUTCOME.md).
+
+## Preserved model and training recipe
+
 # Model identities and executed training recipes
 
 Updated 2 October 2026 for static scientific and implementation review. This document describes saved experiments; it does not authorize a new run. No model weights were downloaded, loaded or transferred to prepare it. Weights remain in the project's cloud storage. The public review copy contains descriptions and evidence, not a runnable model distribution; some linked corpus files belong only to the separate research archive.

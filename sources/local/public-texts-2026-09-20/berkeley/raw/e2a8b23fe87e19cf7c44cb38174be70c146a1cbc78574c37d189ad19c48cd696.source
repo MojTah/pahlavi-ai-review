@@ -1,0 +1,152 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0432" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0432 / Berlin 31</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0432 / Berlin 31.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">134–135</biblScope>
+                  <note>The first edition of Berlin 31.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Berlin(?), private collection</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 31</idno>
+                  <idno type="OpenAMPD">MP0432</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">11</height>
+                              <width unit="cm">15</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="11">11 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>             
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0432_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>..................
+               <lb n="2" xml:id="trl-p1-l2"/>..................
+               <lb n="3" xml:id="trl-p1-l3"/>..................
+               <lb n="4" xml:id="trl-p1-l4"/>III ◯ [m](l)ṭbwṭ KN II ◯
+               <lb n="5" xml:id="trl-p1-l5"/>..................
+               <lb n="6" xml:id="trl-p1-l6"/>KN II ◯ plhwʾn KN I ◯
+               <lb n="7" xml:id="trl-p1-l7"/>......... mlṭwyh(?) KN III
+               <lb n="8" xml:id="trl-p1-l8"/>...... Y MN m.. ◯ PRŠYʾn
+               <lb n="9" xml:id="trl-p1-l9"/>GBRʾ-I Y [ ]. ◯ GBRʾ-X Y
+               <lb n="10" xml:id="trl-p1-l10"/>..................
+               <lb n="11" xml:id="trl-p1-l11"/>..................
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0432_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>..................
+               <lb n="2" xml:id="trc-p1-l2"/>..................
+               <lb n="3" xml:id="trc-p1-l3"/>..................
+               <lb n="4" xml:id="trc-p1-l4"/>3 ◯ Mardbūd warrag 2 ◯
+               <lb n="5" xml:id="trc-p1-l5"/>..................
+               <lb n="6" xml:id="trc-p1-l6"/>warrag 2 ◯ Farroxān warrag 1 ◯
+               <lb n="7" xml:id="trc-p1-l7"/>......... Mardweh(?) warrag 3
+               <lb n="8" xml:id="trc-p1-l8"/>...... ī az ... ◯ aswārān
+               <lb n="9" xml:id="trc-p1-l9"/>mard 1 ī [ ]. ◯ mard 10 ī
+               <lb n="10" xml:id="trc-p1-l10"/>..................
+               <lb n="11" xml:id="trc-p1-l11"/>..................
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0432_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>No translation published.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

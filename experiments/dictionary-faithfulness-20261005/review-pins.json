@@ -1,0 +1,10 @@
+{
+  "cloud_pilot/faithfulness_eval.py": "01816f053575e0e7877b54e55b4087853bcb21cdd1481a8dfa30c990555f1756",
+  "cloud_pilot/hf_dictionary_faithfulness.py": "02ecb09f3732a4345dc5190ad6622fe4dbe29546902932a29d492d2d1645a261",
+  "experiments/dictionary-faithfulness-20261005/prepare.py": "afd306c07ecf3245bb43d673dda8c77d60338f3e0428b6add7e66bad5d1355fc",
+  "experiments/dictionary-faithfulness-20261005/prepare_runtime.py": "bbdc255b5414457f3b781d5f6886ffa29a494cb48fd1f26db5fca2cda8df2b75",
+  "experiments/dictionary-faithfulness-20261005/preview.json": "eeca6ab2e14b36e4dad0ace5ffb07c0f899514cb64dedadaf771406324c5b48a",
+  "resources/local/dictionary-faithfulness-20261005/contract.json": "6aebdcea208c3c4d84bb541a55bb71eac76cb8529e0a18dadce79b4e963972db",
+  "resources/local/dictionary-faithfulness-20261005/model-inputs.jsonl": "c53a78920b50598a17ac36cbbf4e50550d609c8838419162902fa7536764eeac",
+  "scripts/score_blind_dev_assisted.py": "b21d70d8e1a92bd7fc1fbb2de73a9eaf7d856aeba0c396c18f9272c5369f1732"
+}

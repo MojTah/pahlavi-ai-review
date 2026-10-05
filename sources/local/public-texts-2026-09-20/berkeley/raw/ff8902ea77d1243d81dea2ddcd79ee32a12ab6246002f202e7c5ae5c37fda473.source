@@ -1,0 +1,157 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2525" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2525 / AIBL-CIS-De Ricci 3</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="SA">
+               <persName>Samra Azarnouche</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP2525 / AIBL-CIS-De Ricci 3.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Azarnouche_Weber_2021">
+                  <biblScope unit="page"/>
+                  <note>The first edition of AIBL-CIS-De Ricci 3.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <institution>AIBL, Archives du cabinet du Corpus inscriptionum semiticarum, Paris</institution>
+                  <idno type="shelfmark">AIBL-CIS-De Ricci 3</idno>
+                  <idno type="siglum">N/A</idno>
+                  <idno type="OpenAMPD">MP2525</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">28cm</height>
+                              <width unit="cm">9cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="4">4 lines</measure>
+                           <measure unit="lines" type="verso" quantity="7">7 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p>Find-site: Fayyum, 1909.</p>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP2525_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʾḤRN-c (yw)mʾy ʿL GBRʾ-I
+               <lb n="2" xml:id="trl-p1-l2"/>GMRʾ ḤMRʾ YḤBWNt ////// III III III
+               <lb n="3" xml:id="trl-p1-l3"/>ʾḤRN-c ẔNH GMRʾ(-c) PWN ḤS YḤBWNt
+               <lb n="4" xml:id="trl-p1-l4"/>S-III	(ʾmʾlšnˈ) GMRʾ II lkynk
+            </ab>
+            <ab xml:id="MP2525_trl-p2">
+               <lb n="1" xml:id="trl-p2-l1"/>ʿL yẕdʾn ʾḇydʾt ʾḤ Y [
+               <lb n="2" xml:id="trl-p2-l2"/>ʾclmyk gwšnsp ʾṭwrˈ nc [
+               <lb n="3" xml:id="trl-p2-l3"/>… … … MNW dʾšn-m (?) pwdšnyh
+               <lb n="4-7" xml:id="trl-p2-l4-7"/>… … …
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2525_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>anī-z (ǰō)mā ō mard-ē(w)
+               <lb n="2" xml:id="trc-p1-l2"/>uštar zar dād ////// 9
+               <lb n="3" xml:id="trc-p1-l3"/>anī-z ēn uštar(-iz) pad may dād
+               <lb n="4" xml:id="trc-p1-l4"/>s(atēr) 3 (āmārišn) uštar 2 lagīnag
+            </ab>
+            <ab xml:id="MP2525_trc-p2">
+               <lb n="1" xml:id="trc-p2-l1"/>ō yazdānayād brād ī [
+               <lb n="2" xml:id="trc-p2-l2"/>āzarmīg Gušnasp-ādur namāz [
+               <lb n="3" xml:id="trc-p2-l3"/>kē dāšn-am (?) pōyišnīh
+               <lb n="4-7" xml:id="trc-p2-l4-7"/> … … …
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP2525_trans-p1">
+               <lb n="1-2" xml:id="trans-p1-l1-2"/>1-2 Autrement, le chameau et l’âne (sont) tous les deux à donner à un (seul) homme [...] neuf,
+               <lb n="3" xml:id="trans-p1-l3"/>en outre, ce chameau (est) aussi à donner pour le vin.
+               <lb n="4" xml:id="trans-p1-l4"/>Trois staters à compter (pour) un chameau et deux lagīnag.
+            </ab>
+            <ab xml:id="MP2525_trans-p2">
+               <lb n="1" xml:id="trans-p2-l1"/>À (mon) honorable frère, dont les dieux se souviennent, Gušnasp-ādur, salutations!
+               <lb n="3-7" xml:id="trans-p2-l3-7"/>… … … qui, mon cadeau (?), en courant … … …
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

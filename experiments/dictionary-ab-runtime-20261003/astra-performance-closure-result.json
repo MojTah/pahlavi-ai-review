@@ -1,0 +1,13 @@
+{
+  "status": "LOCAL_PASS",
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "model_requested": "gpt-6-astra; served identifier not independently verified",
+  "exact_final_hashes_verified": true,
+  "inverse_only_two_mechanical_edits_reproduced_previous_P2_pass_hashes": true,
+  "new_corrections": [],
+  "suite_duplicated_by_astra": false,
+  "root_final_13_pass_result_saved_separately": "FINAL-TEST-RESULT.json",
+  "runtime_review_reopened": false,
+  "paid_launch": "HOLD_EXACT_PERMISSION_AND_LIVE_GATES",
+  "further_review_needed_for_same_edits": false
+}

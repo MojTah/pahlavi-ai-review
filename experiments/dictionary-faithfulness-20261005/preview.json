@@ -1,0 +1,67 @@
+{
+  "GPU_exercised": false,
+  "command_arg_utf8_bytes": [
+    6,
+    2,
+    2,
+    39852,
+    61360,
+    4
+  ],
+  "compute_seconds": 6600,
+  "contract_sha256": "6aebdcea208c3c4d84bb541a55bb71eac76cb8529e0a18dadce79b4e963972db",
+  "credentials_accessed": false,
+  "decode_controls": {
+    "context_limit": 12288,
+    "export_overhead_seconds": 600,
+    "first_attempt_admission_seconds": 3420,
+    "first_attempt_only": true,
+    "input_cap_tokens": 8192,
+    "max_generation_seconds": 90,
+    "max_new_tokens": 4096,
+    "no_truncation": true,
+    "slot_export_reserve_seconds": 20,
+    "tail_reserve_seconds": 120,
+    "timeout_or_output_cap_primary_inconclusive": true
+  },
+  "decoded_command_sha256": "433b91a3fde5b039c4dc4f84bc69dc3dc5eeee4b8f7f218f8559835d10c39fa4",
+  "files": {
+    "job-spec.json": {
+      "bytes": 102457,
+      "path": "resources/local/dictionary-faithfulness-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/job-spec.json",
+      "sha256": "d5c2c5c8ad08724c122ff60ae89147298f4a2f3b0ddcec8a454936c762a8cb83"
+    },
+    "prepared-receipt.json": {
+      "bytes": 4170,
+      "path": "resources/local/dictionary-faithfulness-20261005/6b54f5bc4e984dbe9a4b53e89e4bf5d8/prepared-receipt.json",
+      "sha256": "702f11292c6c1360ca4cfcde09d2d46f737d7a6bd0424756673d2e38b0af108b"
+    }
+  },
+  "frozen_messages_sha256": "c53a78920b50598a17ac36cbbf4e50550d609c8838419162902fa7536764eeac",
+  "helper_origins": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dose_run.py": "2e67952ed6f1649fe92e6b6a760053b19c30a6c440d7cebc23d24bad3e0288df",
+    "hf_baseline.py": "56369c479db6a97fabc93d424c8520b4007d4b9fed49f6f1cb20e6e780ae826e",
+    "hf_convert.py": "d0197f5b8e4b1d8c827b14fc85cd8a6208d1cbc7d223f4f67a40310331db700b",
+    "hf_train.py": "d6fe0c55e79370be91d3dbdeffe29f88cc9daf16c777c068f55a2a9604e794e0"
+  },
+  "internal_seconds": 7020,
+  "native_timeout_minutes": 120,
+  "optimizer_updates": 0,
+  "output_prefix": "dictionary-faithfulness/6b54f5bc4e984dbe9a4b53e89e4bf5d8",
+  "paid_run_admitted": false,
+  "provider_called": false,
+  "run_id": "6b54f5bc4e984dbe9a4b53e89e4bf5d8",
+  "script_hashes": {
+    "component_helpers.py": "201d633421c21d7caa22a750245dd037f016ae081b9f9a677d54f54417a34804",
+    "faithfulness_eval.py": "01816f053575e0e7877b54e55b4087853bcb21cdd1481a8dfa30c990555f1756"
+  },
+  "sdk_roundtrip": true,
+  "sdk_version": "1.23.0",
+  "status": "LOCAL_PREVIEW_ONLY_PAID_HOLD",
+  "submitted": false,
+  "timing_contract": "dictionary-faithfulness-90s-v1",
+  "training_admitted": false,
+  "training_performed": false
+}

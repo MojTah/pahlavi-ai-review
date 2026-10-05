@@ -1,0 +1,150 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0035" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0035 / Berk. 34</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="JW">
+               <persName>Joey Wang</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0035 / Berk. 34.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2013b">
+                  <biblScope unit="page">178–179</biblScope>
+                  <note>The first edition of Berk. 34.</note>
+               </bibl>
+               <bibl corresp="#Gignoux_2019">
+                  <biblScope unit="page">131–132</biblScope>
+               </bibl>
+               <bibl corresp="#Weber_2020a">
+                  <biblScope unit="page">158–159</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 34</idno>
+                  <idno type="siglum">Berk. 34</idno>
+                  <idno type="OpenAMPD">MP0035</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">15</height>
+                              <width unit="cm">13.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="10">10 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions> Bulla(e): Absent. </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs
+                  for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0029" calendar="#Pahlavi">29 PY</date>
+            <date when="0680" calendar="#Julian">680–681 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85249-34.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0035_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʿL hwṭʾykˈ Y̱LYDWNṭ hlṭ-wndʾṭ ʾwsṭʾndʾl nc ʾwhrmẕd-PWN-mgw
+               <lb n="2" xml:id="trl-p1-l2"/>ŠRM KDB Ô W cygwn hwṭʾykˈ B-ʾp̄ʾṭʾnyh Y mdydʾl
+               <lb n="3" xml:id="trl-p1-l3"/>MN hwʾdšnˈ Y L LẔNH ŠNṬ $-III-III-III PWN mdydʾlyh Y
+               <lb n="4" xml:id="trl-p1-l4"/>kwm lwṭsṭʾk plmwṭˈ gwmʾlṭnˈ ẔKL LWṬH hwṭʾykˈ
+               <lb n="5" xml:id="trl-p1-l5"/>pṭmʾn krṭˈ ʾYḴ hmʾy ʾMT B-ʾp̄ʾṭʾnyh ẔWẔN PWN dyn Y
+               <lb n="6" xml:id="trl-p1-l6"/>wcyhšnyk ʾyṭwnˈ cygwn dʾṭ-hdybʾl gwbṭʾlyh ʿL hwṭʾykˈ
+               <lb n="7" xml:id="trl-p1-l7"/>W hwṭʾykˈ ʿL L plmwṭ ʿḆYDWNty ḤṬ-š wylʾdšnˈ W pṭʾn
+               <lb n="8" xml:id="trl-p1-l8"/>Y ẔK CBW lʾd ʾp̄ʾdšnˈ YḆLWNtny L PWN NPŠH ṭnˈ YḆLWNm
+               <lb n="9" xml:id="trl-p1-l9"/>W wcʾlm W ẔNH nʾmk L PWN gwkʾdymwdlyhʾ Y hwṭʾkrṭ ḤṬYMWNṭ
+               <lb n="10" xml:id="trl-p1-l10"/>ʿL [hwṭʾykˈ Y̱LYDWNṭ hlṭ-wndʾṭ ʾwsṭʾndʾl nc ʾwhrmẕd-PWN-mgw]
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0035_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>A1 To the lordly Ōstāndār, born with inherited knowledge, reverence! A2 (From) Ōhrmazd-pad-moγ
+               <lb n="2" xml:id="trans-p1-l2"/>A3 many greetings. B And since You, Sir, with regard to the *protection of the wine‐grower(s)
+               <lb n="3" xml:id="trans-p1-l3"/>because, this year 29 (PYE = 680–681 CE), by my asking regarding wine‐growing of
+               <lb n="4" xml:id="trans-p1-l4"/>the Kōm district, You ordered to commission a man (who) with You, Sir,
+               <lb n="5-6" xml:id="trans-p1-l5-6"/>a contract made (saying) that any time when for *protection a duty (will be due) on (our) separated religion—so as (is) the legal advisor’s speech to You, Sir,
+               <lb n="7" xml:id="trans-p1-l7"/>—You gave me order to do (this), if, because (rāy, line 8) of preparation and *duration
+               <lb n="8" xml:id="trans-p1-l8"/>of that pecuniary affair, You must bring it (i.e. drahm pad dēn), (then) I personally will take (it)
+               <lb n="9" xml:id="trans-p1-l9"/>and will pay. Bz And this letter, by the witnesses’ seals of Xwadāgird, I sealed.
+               <lb n="10" xml:id="trans-p1-l10"/>C1 To [the lordly Ōstāndār, born with inherited knowledge, reverence! C2 Ōhrmazd-pad-moγ].
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

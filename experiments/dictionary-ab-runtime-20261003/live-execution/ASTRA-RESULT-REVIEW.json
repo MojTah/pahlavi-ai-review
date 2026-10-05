@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED_PASS_BOUNDED_SCREEN_AND_REPAIR",
+  "requested_at_utc": "2026-10-05T04:23:24.378550+00:00",
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "reviewer_host": "local",
+  "reviewer_model": "gpt-6-astra",
+  "last_delivered_cursor": "d8882e4f-f04b-4705-bcdf-103f6d5b396b:4",
+  "evidence_sha256": {
+    "OUTCOME.md": "8dfb5f44bd5dd2a847c7ab295a647304a85a3bdfe1e2204f91030b99e14e0151",
+    "comparison.json": "eec7cbf2b6b3b806e51ac487fa414cadc11c39e8afdb8a646e445532ad367d6b",
+    "SEMANTIC-CHECKS.json": "efc30d3205675a80cf5d715902e6230d83c0bbe720b62dd67e08c1da6a183d2a",
+    "RECOVERY-CHECKS.json": "f40fb04e103853fcc12e6c6cc3b768954081c1e9994c33d140ca5a927d0e90ac",
+    "RECOVERY-REPAIR.md": "25925002f201503a8c8454cfce5dfae7c5d37e8ba07a81d1b68aed578d8dcb7e"
+  },
+  "job_id": "6ac124c7fbc85ba68237d56f",
+  "run_id": "d68800b3b35c44a4a97adc0c5129a3de",
+  "scope": "Completed comparison interpretation and unchanged scientific boundary; no execution or rating edits",
+  "no_paid_action": true,
+  "completed_turn": "01a10a4d-5288-7200-a2f8-1101bc8e2640",
+  "response_file": "ASTRA-COMPLETED-REVIEW.md",
+  "training_or_paid_approval": false,
+  "response_sha256": "6db5a5bbb3b9029aef27a02362caabebc6789bd2db9cc6e9a28e3ce75e1a9932"
+}

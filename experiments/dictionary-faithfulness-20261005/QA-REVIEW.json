@@ -1,0 +1,42 @@
+{
+  "status": "PASS_LOCAL_EXTERNAL_QA",
+  "date_utc": "2026-10-05",
+  "agent_id": "/root/anti_gloss_design_critic",
+  "model_and_reasoning": "Inherited parent model and reasoning; no override",
+  "independent_of_implementers": true,
+  "direct_checks": [
+    "6 cached-input tests PASS",
+    "5 read-only runner checks PASS",
+    "Same-run real SDK spec/receipt byte rebuild PASS",
+    "Scorer load_preview and current pins PASS"
+  ],
+  "reviewed": [
+    "A model-visible messages equal old dictionary B; candidate only fixed system suffix",
+    "Only messages reach model; no arm/reference/rating/contract leakage",
+    "All source/user/dictionary senses preserved",
+    "Same retained model/revision/precision and fixed generation/timing controls",
+    "First attempts/fresh caches/recovery/token replay/adapter integrity enforced",
+    "Incomplete/capped/failure primary result HOLD; two complete opaque packets, same merit and per-reviewer rules",
+    "Current scoring fixture pin verified"
+  ],
+  "lead_attributed_checks": [
+    "Runtime implementer:24 tests PASS in34.028s",
+    "Main:19 scoring tests PASS in54.517s"
+  ],
+  "not_exercised": [
+    "GPU",
+    "Provider submission/recovery",
+    "Credentials",
+    "Current funding/rate/private/idle live gates"
+  ],
+  "pins": {
+    "wrapper": "02ecb09f3732a4345dc5190ad6622fe4dbe29546902932a29d492d2d1645a261",
+    "child": "01816f053575e0e7877b54e55b4087853bcb21cdd1481a8dfa30c990555f1756",
+    "scorer": "123faa5512a3d3226b93b79dc47d42afa89228859420adffd5db2595cc0007d0",
+    "preview": "eeca6ab2e14b36e4dad0ace5ffb07c0f899514cb64dedadaf771406324c5b48a",
+    "review_pins": "9e14d7b06eb288c9572f2cdab577b4e193a039b9e42c935f8b8b326653580888",
+    "final_pins": "83fe9cd77b89f67eeac89afc757c0f40645e7f5c812331a4a6a0b1f7da912ca9",
+    "scoring_tests": "fd6ac6d310d3015f31ea8079baf259e655cf26d4c97f1e7e54defed371c371cc"
+  },
+  "no_launch_admission": true
+}

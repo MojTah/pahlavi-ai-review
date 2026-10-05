@@ -1,0 +1,79 @@
+{
+  "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/LICENSE": {
+    "url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/LICENSE",
+    "retrieved_utc": "2026-09-20T20:51:55.828481+00:00",
+    "final_url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/LICENSE",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/9caabb06d1eb6c62fd662d999c67b676479d6e5e1c063d301650e2ead62a6b65.source",
+    "sha256": "663a7506499df89873ef9fb8a200563b6df335f9d905688bf299252f6d23c75a",
+    "bytes": 1068
+  },
+  "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/README.md": {
+    "url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/README.md",
+    "retrieved_utc": "2026-09-20T20:51:56.853295+00:00",
+    "final_url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/c285f6e175111959eb17cbaaf2fc0c53e92d3bf169343a09a104e57b123dbdba.source",
+    "sha256": "6d580a4f56c3f0d621974dafb2fb635158bc103b7eeaca51424a4d5252c3d8bb",
+    "bytes": 8788
+  },
+  "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_final_features.csv": {
+    "url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_final_features.csv",
+    "retrieved_utc": "2026-09-20T20:51:57.966690+00:00",
+    "final_url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_final_features.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/c7edfa67965ca7430d18910fab9469b7b4c1c79db677fd4a632140551e6224b3.source",
+    "sha256": "e76e68919f1b1ea6143ebf978107e764118165a06d96e63e6d54ac08246020d2",
+    "bytes": 5787134
+  },
+  "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_np_inputs.csv": {
+    "url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_np_inputs.csv",
+    "retrieved_utc": "2026-09-20T20:52:02.184330+00:00",
+    "final_url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_np_inputs.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/410961168f4dd62e29da7f368f84cf6c14951e684a7371d1fb9379bf7d1a6503.source",
+    "sha256": "d675dc20169c2c542bd4442060ef7f0e47354eb178206425af6d484e10cd4cac",
+    "bytes": 1682168
+  },
+  "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_target.csv": {
+    "url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_target.csv",
+    "retrieved_utc": "2026-09-20T20:52:11.056724+00:00",
+    "final_url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/lr_target.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/eb7976276c601fbc933d9b1097632ee1df2dab0dde2074fec8e3a57167f69c90.source",
+    "sha256": "689980a955b4410f06bb63eab642227713686005ccc778c1d809db9283a28cc4",
+    "bytes": 69715
+  },
+  "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/rf_features.csv": {
+    "url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/rf_features.csv",
+    "retrieved_utc": "2026-09-20T20:52:12.883059+00:00",
+    "final_url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/rf_features.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/429e8fa172a00fca16bc86a0121d4fec62488a18257902b4a21bed17802598d5.source",
+    "sha256": "b54e96fe4470fe1c9257ef2b76a361bd8c59af7e4d281ae6750d1edf8c3c297e",
+    "bytes": 1142357
+  },
+  "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/rf_inputs.csv": {
+    "url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/rf_inputs.csv",
+    "retrieved_utc": "2026-09-20T20:52:15.077092+00:00",
+    "final_url": "https://raw.githubusercontent.com/middlepersian/ezafe-modeling-mp/217b08968a62c4866788479111bad2b1b21e9ed1/data/rf_inputs.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/35d02e9e39cab74c17b59663cb531cd4ec69bb8ed01ed501d2aed2898f12936d.source",
+    "sha256": "70bb51088dc8caf109864ac7755705aee7b10771704b4ae3e16620d9cda7f3b9",
+    "bytes": 1112921
+  }
+}

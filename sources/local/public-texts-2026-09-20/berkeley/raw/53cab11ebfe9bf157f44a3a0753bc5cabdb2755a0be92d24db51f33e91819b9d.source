@@ -1,0 +1,151 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0425" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0425 / Berlin 25</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0425 / Berlin 25.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">104–107</biblScope>
+                  <note>The first edition of Berlin 25.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Freie Universität Berlin, Institut für Iranistik</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 25</idno>
+                  <idno type="OpenAMPD">MP0425</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">13</height>
+                              <width unit="cm">11.2</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="7">7 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">1 line</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0425_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʾnwšʾḇyȳʾṭ mʾhylwcˈ hmʾy ŠRM W lʾmšnˈ
+               <lb n="2" xml:id="trl-p1-l2"/>YḤWWNʾt ◯ cygwn swṭ Y pṭˈ YDH Y
+               <lb n="3" xml:id="trl-p1-l3"/>zʾṭʾnplhwˈ pṭˈ yʾṭ Y wlʾc ʿL nkʾs
+               <lb n="4" xml:id="trl-p1-l4"/>plyckˈ YKʿYMWNyṭ hmcygwnˈ MN ...-sṭʾn Y
+               <lb n="5" xml:id="trl-p1-l5"/>ẔK swṭ hʾmwdyn QDM ʿL sṭpsṭʾn ʾy
+               <lb n="6" xml:id="trl-p1-l6"/>plmʾyṭ (Y)ḆLWNtny NPŠH hwpˈ bnd Y
+               <lb n="7" xml:id="trl-p1-l7"/>dyn-... LYDWNṭ hlṭ-wndʾṭ ʾwsṭʾndʾl YḤWWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0425_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>anōšayād Māhpērōz hamē drōd ud rāmišn
+               <lb n="2" xml:id="trc-p1-l2"/>bawād ◯ čiyōn sūd ī pad dast ī
+               <lb n="3" xml:id="trc-p1-l3"/>Zādānfarrox pad ǰād ī Warāz ō nigāh
+               <lb n="4" xml:id="trc-p1-l4"/>parrēzag ēstēd ham-čiyōn az ...-stān ī
+               <lb n="5" xml:id="trc-p1-l5"/>ān sūd hāmōyēn abar ō Stabestān ē
+               <lb n="6" xml:id="trc-p1-l6"/>framāyēd burdan xwēš xūb band ī
+               <lb n="7" xml:id="trc-p1-l7"/>Dēn-(?)... zād xrad-windād ōstāndār būd
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0425_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>(Dem) mit unsterblicher Erinnerung versehenen Māh-Pērōz möge immer Gesundheit und Friede sein! Wie
+               <lb n="2" xml:id="trans-p1-l2"/>der Gewinn der in der Hand des
+               <lb n="3" xml:id="trans-p1-l3"/>Zādānfarrox durch Anteil(e) des Warāz der Aufmerksamkeit
+               <lb n="4" xml:id="trans-p1-l4"/>übrigbleibt, ebenso von .........
+               <lb n="5" xml:id="trans-p1-l5"/>jenes Gewinns alles in Stabestān(?) soll er
+               <lb n="6" xml:id="trans-p1-l6"/>anordnen unterzubringen (zu investieren). ......
+               <lb n="7" xml:id="trans-p1-l7"/>Dēn-(?)..., geboren mit erlangter Weisheit, ōstāndār, war.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

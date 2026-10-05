@@ -1,0 +1,391 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP1027" type="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MP1027 / Tab. 24</title>
+                <funder>Adam Benkato / UC Berkeley</funder>
+                <respStmt xml:id="PG">
+                    <persName>Philippe Gignoux</persName>
+                    <resp>Initial edition</resp>
+                </respStmt>
+                <respStmt xml:id="DW">
+                    <persName>Dieter Weber</persName>
+                    <resp>Second edition</resp>
+                </respStmt>
+                <respStmt xml:id="AB">
+                    <persName>Adam Benkato</persName>
+                    <resp>Document preparation and TEI encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AZ">
+                    <persName>Arash Zeini</persName>
+                    <resp>TEI design and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First online OpenAMPD edition of MP1027 / Tab. 24.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <head>Previous edition(s):</head>
+                    <bibl corresp="#Gignoux_2016">
+                        <biblScope unit="page">172–180</biblScope>
+                        <note>The first edition of Tab. 24.</note>
+                    </bibl>
+                    <bibl corresp="#Weber_2019b">
+                        <biblScope unit="page">102–110</biblScope>
+                        <note>The edition used for OpenAMPD.</note>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Unknown</country>
+                        <institution>Private collection</institution>
+                        <idno type="shelfmark">Tab. 24</idno>
+                        <idno type="OpenAMPD">MP1027</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="document">
+                            <supportDesc material="textile">
+                                <support>
+                                    <material>Textile</material>
+                                    <dimensions>
+                                        <height unit="cm">40</height>
+                                        <width unit="cm">35</width>
+                                    </dimensions>
+                                </support>
+                                <extent>
+                                    <measure type="recto" unit="lines" quantity="33">33 lines</measure>
+                                </extent>
+                            </supportDesc>
+                     <!--<layoutDesc>
+                        <p/>
+                     </layoutDesc>-->
+                        </objectDesc>
+                        <additions>
+                    Bulla(e): Bottom right; bears three impressions.
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+                    <p>Bibliographical information is stored in the bibliography.xml file.</p>
+                </prefixDef>
+                <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+                    <p>Information about person in the documents is stored in the people.xml file.</p>
+                </prefixDef>
+                <!-- Base URL and IIIF information currently unknown -->
+                <!-- 
+                <prefixDef ident="tab"
+                    matchPattern="(.+)"
+                    replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+                    <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+                </prefixDef> -->
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="DocType">Legal</term>
+                    <term type="corpus">Tabarestān</term>
+                    <term type="location">*Haspīn-Raz</term>
+                    <term type="tag">Letter</term>
+                    <term type="tag">Earthquake</term>
+                    <term type="tag">Loan</term>
+                </keywords>
+            </textClass>
+            <calendarDesc>
+                <calendar xml:id="Pahlavi">
+                    <p>Post-Yazdgird era (PY)</p>
+                </calendar>
+                <calendar xml:id="Julian">
+                    <p>Julian calendar (CE)</p>
+                </calendar>
+            </calendarDesc>
+            <particDesc>
+                <p>An olive document in which the crop yields are re-evaluated after an earthquake in the year 755 CE.</p>
+                <p>The document contains a list of olive trees and their crop yields, and seems to be a loan contract after said earthquake.</p>
+                <p>The document is sealed by <persName ref="people:Tab015">Windādōhrmazd</persName>, <persName ref="people:Tab016">Windādyazd</persName>, <persName ref="people:Tab017">Wanandpanāh</persName>, and <persName ref="people:Tab018">Yazdfarrox</persName>. A person called <persName ref="people:Tab019">Farrox-Xusrōyān</persName> is also mentioned.</p>
+                <p>The date of the transaction is Day Rašn, month Day, year 103 PY.</p>
+            </particDesc>
+            <settingDesc>
+                <p><placeName>*Haspīn-Raz</placeName></p>
+            </settingDesc>
+            <creation>
+                <date when="0103-10-18" calendar="#Pahlavi">Day Rašn, Month Day, 103 PY</date>
+                <date when="0755-03-09" calendar="#Julian">9 March 755 CE</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transliteration" xml:lang="pal">
+                <pb xml:id="pb-1r-trl"/> <!-- Add later  facs="tab:UNKNOWN" -->
+                <ab xml:id="MP1027_trl-p1">
+                    <lb n="1" xml:id="trl-p1-l1"/>BYRḤ ddwˈ QDM ŠNṬ I-C III Y ʾḤL MN ʿLH bg yẕdkrṭˈ
+                    MLKʾn MLKʾ Y npˈ Y ʿLH bg hwslwḇ Y ʾwhrmẕdʾn W YWM lšnˈ ʾMṬ wnndpnʾh MNW ṭswkˈ Y
+                        <lb n="2" xml:id="trl-p1-l2"/>dyl Y dylʾn Y QDM ṭpwrsṭʾnˈ DYNʾ cygwnyh ṭswkˈ
+                    Y <unclear>swlykʾn</unclear> Y QDM ṭpwrsṭʾnˈ DYNʾ PWN MṬʾ-yhʾ(!) pṭ-š prmʾn(!)
+                    sʾhṭnˈ PWN MṬʾ-yhʾ(!) pwṭk hm ṭswkˈ Y <lb n="3" xml:id="trl-p1-l3"/>dyl Y dylʾn
+                    YḤWWNṭ GBRʾn Y bwhṭˈ ŠM ʿL wnndpnʾh gwpṭˈ ʾYḴ GBRʾn Y plwlṭyn ŠM YḤWWNṭ GBRʾn Y
+                    ʾṭhšbwdkˈ ŠM YḤWWNṭ klṭylyh BRH wspʾn hm ṭswkˈ Y dyl Y dylʾn MN <lb n="4" xml:id="trl-p1-l4"/><supplied reason="omitted-in-original" resp="#DW">ẔK</supplied> <placeName>hsp̄ynlcˈ</placeName> MṬʾ YḤWWNṭ ḤWHd W GBRʾn Y yzdtplhwˈ ŠM dylʾnplhwˈ
+                    BRH GBRʾn Y wndʾṭyzdṭ ŠM GBRʾn Y wndʾṭʾwhrmẕd ŠM zʾṭʾnplhwˈ BRH GBRʾn Y
+                    plhwhwslwḇʾn ŠM plhwhwslwḇ <lb n="5" xml:id="trl-p1-l5"/>BRH MN ẔK hsp̄ynlcˈ MṬʾ
+                    plhwhwslwḇʾn ʿLH plwlṭyn dwhṭ lšnwyh W wndʾṭyzdṭ W wndʾṭʾwhrmẕd W yzdt-plhwˈ ʿLH
+                    ʾṭhšbwdkˈ pwslʾwndʾn W hwʾsṭkdʾlʾn(!) W PWN bwnˈ Y ẔK hsp̄ynlcˈ <lb n="6" xml:id="trl-p1-l6"/>MṬʾ kyšwˈcʾl ẕmyk Y kwpkˈ hʾl-wnykʾn KRYṬNd G-I ʾhng MNW
+                    MN ḤD zyṭˈ Y hwʾsṭkdʾrʾn(!) Y GBRʾn Y yztkrṭˈ ŠM sp̄ncʾnkyh W MNDʿM ʾynyʾ QDM
+                        <supplied reason="omitted-in-original" resp="#DW">nmʾyṭ W</supplied> wzndkˈ
+                    YḤWWNṭ W ʾḤRN GBRʾ W MN ḤD zyṭˈ Y ẕmyk Y hwʾ sṭkdʾrʾn(!) Y <lb n="7" xml:id="trl-p1-l7"/>GBRʾn Y zʾṭʾnplhwˈ ŠM YḤWWNṭ W MN ḤD zyṭˈ Y ẕmyk Y
+                    [[hwʾsṭkpṭmʾdkʾn Y]] mʾhwy ŠM YḤWWNṭ W MN ḤD zyṭˈ Y ẕmyk Y hwʾsṭkdʾrʾn(!) Y
+                    GBRʾn Y mʾhʾnwš (?) ŠM YḤWWNṭ sʾmʾn W ẕmyk Y [[kwpkˈ]] yṭʾlyh KRYṬNd <lb n="8" xml:id="trl-p1-l8"/>G-II ʾhng MNW MN ḤD zyṭˈ Y znd W MN ḤD zyṭˈ Y ẕmyk Y
+                    hwʾsṭkdʾrʾn(!) Y GBRʾn Y dylʾy ŠM YḤWWNṭ W MN ḤD zyṭˈ Y ẕmyk Y hwʾsṭkdʾrʾn(!) Y
+                    GBRʾn Y plhwzʾṭ ŠM YḤWWNṭ <lb n="9" xml:id="trl-p1-l9"/>W MN ḤD zyṭˈ Y ẕmyk Y
+                    hwʾsṭkdʾrʾn(!) Y ʿLH mʾhʾwš W ʾḤRN GBRʾ sʾmʾn W ẕmyk Y kwpkˈ ʾBDNʾklyh KRYṬWNṭ
+                    G-I ʾhng MNW MN ḤD zyṭˈ Y ẕmyk Y GBRʾn Y plhwʾn ŠM W MN ḤD zyṭˈ Y <lb n="10" xml:id="trl-p1-l10"/>ẕmyk Y GBRʾn Y plhwgwšnap̄ˈ ŠM W MN ḤD zyṭˈ Y ẕmyk Y
+                    hwʾsṭkdʾrʾn(!) Y ʿLH dylʾy W MN ḤD zyṭˈ Y ẕmyk Y hm plhwhwslwḇʾn sʾmʾn W ẕmyk Y
+                        <lb n="11" xml:id="trl-p1-l11"/>Y kwpkˈ G-II K-# {IIII} IIII IIII ʾhng MNW
+                    MN ḤD zyṭˈ Y ẕmyk BYṬʾ Y hwʾsṭkdʾrʾn(!) Y GBRʾn Y yzdṭwy ŠM YḤWWNṭ W ʾḤRN GBRʾ W
+                    MN ḤD zyṭˈ Y ẕmyk W BYṬʾ Y hwʾsṭkdʾrʾn(!) Y ʿLH dylʾy <lb n="12" xml:id="trl-p1-l12"/>W ʾḤRN GBRʾ W MN II zyṭˈ Y cnd W lwbšnˈ Y ẕmʾnk ẔWẔN Y
+                    MN ẔK hsp̄ynlcˈ MṬʾ sʾmʾn W BYṬʾ W krṭ lʾd zydʾn ʾdwyn III yʾṭk MN III III <lb n="13" xml:id="trl-p1-l13"/>bʾlk-bʾl W hm ṭswkˈ Y dyl Y dylʾn PWN bwnˈ Y
+                    plwṭˈ MṬˈ lcsṭˈ ẕmyk Y kwpkˈ G-I K-#III II ʾhng(!) MNW MN ḤD zyṭˈ Y lcsṭˈ ẕmyk Y
+                    hwʾsṭkdʾrʾn Y GBRʾn Y whšṭˈn ŠM <lb n="14" xml:id="trl-p1-l14"/>YḤWWNṭ W MN ḤD
+                    zyṭˈ Y ẕmyk Y hwʾsṭkdʾrʾn Y ʿLH ʾṭhšbwdkˈ W MN ḤD zyṭˈ Y ẕmyk Y hwʾsṭkdʾrʾn Y MN
+                    ẔK plwṭˈ MṬʾ W MN ḤD zyṭˈ Y LʿYNˈ sʾmʾn W KRMʾ W slw W MNDʿM ʾynyʾ <lb n="15" xml:id="trl-p1-l15"/>QDM nmʾyṭ W ḤDʾ krṭ lʾd zydʾn ʾdwyn III yʾṭk MN III bʾl
+                    II bʾl W kyšwˈcʾl ẕmyk Y kwpkˈ Y ẔK-c PWN bwnˈ Y ẔK hsp̄ ynlcˈ MṬʾ W mdk-lsṭ
+                    KRYṬNd G-III ʾhng MNW MN zyṭˈ Y <lb n="16" xml:id="trl-p1-l16"/>lyš W MN
+                        <supplied reason="omitted-in-original" resp="#DW">ḤD</supplied> zyṭˈ Y ẕmyk
+                    Y GBRʾn Y whwmndʾṭ ŠM hwʾsṭkdʾrʾn(!) Y GBRʾn Y whwmnpnʾh ŠM YḤWWNṭ W MN II zyṭˈ
+                    Y ẕmyk Y ʾnglʾn sʾmʾn W ẕmyk Y kwpkˈ ʾsp̄tʾcʾn KRYṬNd G-IIII ʾhng MNW MN ḤD <lb n="17" xml:id="trl-p1-l17"/>zyṭˈ Y lyš W MN ḤD zyṭˈ Y ẕmyk Y hwʾsṭkdʾrʾn(!)
+                    Y GBRʾn Y ʾylʾcʾṭ ŠM YḤWWNṭ W MN ḤD zyṭˈ Y ẕmyk Y GBRʾn Y ʾcʾṭhwslwḇ ŠM {W MN ḤD
+                    zyṭˈ Y ẕmyk Y GBRʾn Y ʾcʾṭhwslwḇ ŠM} sʾmʾn W ẕmyk <lb n="18" xml:id="trl-p1-l18"/>Y [[kwpkˈ]] dmynkˈ LʾLʾmṭˈ Yn kyšwˈ Y G-I ʾhng MNW MN ḤD zyṭˈ Y škyhsṭˈ W MN
+                    ḤD zyṭˈ Y ẕmyk Y hwʾsṭkdʾrʾn(!) Y ʿLH dylʾnplhwˈ W MN ḤD zyṭˈ Y ẕmyk Y ʾnglʾn W
+                    MN ḤD zyṭˈ Y ẕmyk Y GBRʾn Y <lb n="19" xml:id="trl-p1-l19"/>dʾbwd ŠM W ʾḤRN GBRʾ
+                    sʾmʾn W ẕmyk Y kwpkˈ hwlʾm KRYṬNd zyṭˈ G-II(I) III ʾhng MNW MN II zyṭˈ Y ẕmyk Y
+                    GBRʾn Y dʾbwd ŠM W ʾḤRN GBRʾ W MN ḤD zyṭˈ Y ẕmyk Y GBRʾn Y wnglṭˈ ŠM W MN ḤD
+                    zyṭˈ Y <lb n="20" xml:id="trl-p1-l20"/>ẕmyk Y GBRʾn Y plwlṭyndʾṭ ŠM sʾmʾn W BYṬʾ
+                    W sp̄ncʾnkyh W kwmcṭ W slw W MNDʿM ʾynyʾ QDM nmʾyṭ W gnʾk krṭ lʾd zydʾn ʾdwyn
+                    ʿLH plwlṭyn NPŠH yṭk W ṭnˈ Y plwlṭyn <lb n="21" xml:id="trl-p1-l21"/>ʾdwyn PWN
+                    ẔK plwlṭyn sʾhṭˈ krṭ lʾd plwlṭyn PWN pṭmʾn Y plwlṭyn krṭˈ dsṭwblyh ʿL hwyšyh W
+                    dʾlšnˈ Y plhw-hwslwḇʾn mṭnˈ yzdṭplhwˈ W wndʾṭʾ whrmẕd W wndʾṭyzdṭ <lb n="22" xml:id="trl-p1-l22"/>ʿLH hwʾsṭkˈ Lʾ YḤWWNṭ MH LWṬH plhwhwslwḇʾn gwpṭnˈ QDM
+                    pṭkʾlṭnˈ Lʾ MNDʿM lʾsṭ W ʾMṬ ḤNʾ CBW ʾwgwn cygwn L gwpṭˈ YḤWWNṭ YKʿYMWNʾṭ wndʾṭʾ
+                    whrmẕd W wndʾṭyzdṭ <lb n="23" xml:id="trl-p1-l23"/>W yzdṭplhwˈ ʿLH hwʾsṭkˈ MNW
+                    LK sʾmʾn PWN nʾmkyhʾ W ʿL hwyšyh W dʾlšnˈ Y plhwhwslwḇʾn mṭnˈ gwpṭˈ Lʾ MN LẔNH
+                    YWM lšnˈ prʾc PWN MNDʿM-c ʾdwynkˈ QDM W LWṬH <lb n="24" xml:id="trl-p1-l24"/>plhwhwslwḇʾn W wndʾṭʾ whrmẕd W wndʾṭyzdṭ W yzdṭplhwˈ ʾknynˈ ʾwgwn cygwn Lʾ
+                    pṭkʾlṭnˈ KRʾ MNW PWN dsṭwblyh Y wndʾṭʾwhrmẕd W wndʾṭyzdṭ W yzdṭplhwˈ ʾknyn[ˈ]
+                        <lb n="25" xml:id="trl-p1-l25"/>W ṭswk-c ydwṭˈ pṭkpyṭ MN plhwhwslwḇʾn
+                    ʾp̄ycʾl W plhwhwslwḇʾn PWN ẔK CBW KSP̱ l-C-I ʾp̄ʾdsṭnˈ W ḤT MND ʿM-c ywdṭl
+                    ʿḆYDWNty KSP̱ II-C-II ẔWẔN ʿL plhwhwslwḇʾn <lb n="26" xml:id="trl-p1-l26"/>YḤBWNṭˈ W glʾwkʾn MNW LWṬH plhwhwslwḇʾn pṭmʾn krṭˈ ʾYḴ LNH lʾsṭ hndʾhṭˈ lʾsṭ
+                    plycʾn Y LK kʾsṭnˈ MNDʿM PWN ẔK ʾywynkˈ MH lʾd pṭkʾlṭˈ pṭmʾn krṭnˈ Lʾ kwhšyṭ <lb n="27" xml:id="trl-p1-l27"/>W lʾsṭ wcʾlšnyh Y LNH ẔK MH MN pṭmʾn krṭˈ Lʾ ʾmṭ
+                    Lʾ ʾywl Lʾ pcgn hm W wndʾṭʾ whrmẕd W wndʾṭyzdṭ W yzdṭplhwˈ ʾkynynˈ W ḤNʾ MN hm
+                    MN ʾd(l)mʾnyh Y <lb n="28" xml:id="trl-p1-l28"/>L PWN-c mwdl Y LK wcyl ḤṬYMWNṭˈ
+                    W L ʿYNˈ LK hc-šʾn PWN dyṭˈ cygwn zyṭyn wcyl Y I nyṭ <pc function="section">○</pc> W ẔK-c wndʾṭʾwhrmẕd W wndʾṭyzdṭ W yzdṭplhwˈ Y
+                        <unclear>bwhṭˈ</unclear> gwpṭˈ L ʿYNˈ wnndpnʾh <lb n="29" xml:id="trl-p1-l29"/>YḤWWNṭ W pṭysṭ<supplied reason="omitted-in-original" resp="#DW">ʾṭ</supplied>
+                    <pc function="section">○</pc> W wndʾṭʾwhrmẕd W wndʾṭyzdṭ W yzdṭplhwˈ gwpṭˈ ʾYK
+                    LẔNH YWM lšnˈ LNH ʾwgwn cygwn bwhṭˈ gwpṭˈ pṭmʾn krṭˈ W yṭšnyk-c ẔK MN bwhṭˈ
+                    gwpṭˈ <lb n="30" xml:id="trl-p1-l30"/>ʾwgwn cygwn bwhṭˈ pṭwkˈ ʾYṬ <pc function="section">○</pc> W QDM ẔNH nʾmkˈ dṭwm sˈhṭ YKʿYMWNṭ cyh(l)ʾn Y
+                    hdybʾlyh Y LK W npšṭˈ <pc function="section">○</pc> W ẔNH nʾmkˈ PWN mwdl Y hm
+                    ṭswkˈ Y <lb n="31" xml:id="trl-p1-l31"/>dyl Y dylʾn cygwnyh hm ṭswkˈ Y
+                        <unclear>swlykʾn</unclear> PWN MṬʾyhʾ(!) pṭ-š prmʾn(!) sʾhṭnˈ MṬʾ PWN
+                    kʾlprmʾn(!) zʾdsṭnˈ W wnndpnʾh <lb n="32" xml:id="trl-p1-l32"/>W dglzmʾn Y dpywr
+                    W mwdl Y dhywpṭʾnʾ MNW krṭˈ W MN GBRʾn Y dʾṭbwlcmṭrˈ ŠM mṭrpnʾh BRH GBRʾn Y
+                    yẕdṭplhwˈ ŠM y(ẕdṭ)pnʾh <lb n="33" xml:id="trl-p1-l33"/>BRH MN ẔK hsp̄ynlcˈ MṬʾ
+                    W QDM ʾywʾcyh gwpṭˈ W wndʾṭʾwhrmẕd W wndʾṭyzdṭ [W wnndpnʾh] W yzdṭplhwˈ ḤṬYMWNṭ
+                        <pc function="section">○○</pc>
+                </ab>
+            </div>
+            <div type="transcription" xml:lang="pal">
+                <ab xml:id="MP1027_trc-p1">
+                    <lb n="1" xml:id="trc-p1-l1"/>A māh Day abar sāl 103 ī pas az ōy bay Yazdgird
+                    šāhān šāh ī nah ī ōy bay Xusrō ī Ōhrmazdān ud rōz Rašn ka <persName ref="people:Tab017">Wanandpanāh</persName> kē tasūg ī
+                        <lb n="2" xml:id="trc-p1-l2"/>Dēl ī Dēlān ī abar Taburestān dādestān čiyōnīh
+                    tasūg ī <unclear>Sūrīgān</unclear> ī abar Taburestān dādestān pad dehīhā(!)
+                    pad-iš framān sāxtan pad dehīhā pūdag ham tasūg ī <lb n="3" xml:id="trc-p1-l3"/>Dēl ī Dēlān būd B mardān ī Bōxt nām ō <persName ref="people:Tab017">Wanandpanāh</persName> guft kū mardān ī Frawardīn
+                    nām būd mardān ī Ātaxšbōyag nām būd kardērīh pus wispān ham tasūg ī Dēl ī Dēlān
+                    az <lb n="4" xml:id="trc-p1-l4"/><supplied>ān</supplied>
+                    <unclear><placeName>Haspīn-raz</placeName></unclear> deh būd hēnd ud mardān ī <persName ref="people:Tab018">Yazdfarrox</persName> nām
+                    Dēlānfarrox pus mardān ī <persName ref="people:Tab016">Windādyazd</persName> nām mardān ī <persName ref="people:Tab015">Windādōhrmazd</persName> nām Zādānfarrox
+                    pus mardān ī <persName ref="people:Tab019">Farrox-Xusrōyān</persName> nām Farrox-Xusrō <lb n="5" xml:id="trc-p1-l5"/>pus
+                    az ān <unclear>Haspīn-raz</unclear> deh <persName ref="people:Tab019">Farrox-Xusrōyān</persName> ōy Frawardīn duxt
+                    Rašnweh ud <persName ref="people:Tab016">Windādyazd</persName> ud <persName ref="people:Tab015">Windādōhrmazd</persName> ud <persName ref="people:Tab018">Yazdfarrox</persName> ōy Ātaxšbōyag pusarāwandān
+                    ud xwāstagdārān B1 ud pad bun ī ān <unclear>Haspīn-raz</unclear>
+                    <lb n="6" xml:id="trc-p1-l6"/>deh kišwzār zamīg ī kōfag xār-wanīgān xwānēnd
+                    g(rīw) I āhang kē az ēw zayt ī zamīg ī xwāstagdārān ​​​ī mardān ī Yazdgird nām
+                    būd ud any mard ud az ēw zayt ī zamīg ī xwāstagdārān ​​ī <lb n="7" xml:id="trc-p1-l7"/>mardān ī Zādānfarrox nām būd ud az ēw zayt ī zamīg ī
+                    [xwāstag-paymāyagān-ī] Māhōy nām būd ud az ēw zayt ī zamīg ī xwāstagdārān ī
+                    mardān ī Māhanōš(?) nām būd sāmān | B2 ud zamīg ī [kōfag] ǰadārīh xwānēnd <lb n="8" xml:id="trc-p1-l8"/>g(rīw) 2 āhang kē az ēw zayt ī zand ud az ēw zayt
+                    ī zamīg ī xwāstagdārān ī Dērā nām būd ud az ēw zayt ī zamīg ī xwāstagdārān ī
+                    mardān ī Farroxzād nām būd <lb n="9" xml:id="trc-p1-l9"/>ud az ēw zayt Ï zamīg ī
+                    xwāstagdārān ī ōy Māh-ōš ud any mard sāmān | B3 ud zamīg ī kōfag wanīgarīh xwand
+                    g(rīw) I āhang kē az ēw zayt ī zamīg ī mardān ī Farroxān nām ud az ēw zayt ī <lb n="10" xml:id="trc-p1-l10"/>zamīg ī mardān ī Farroxgušnasp nām ud az ēw zayt
+                    ī zamīg ī xwāstagdārān ī ōy Dērā ud az ēw zayt ī zamīg ī ham <persName ref="people:Tab019">Farrox-Xusrōyān</persName>
+                    sāmān | B4 zamīg ī <lb n="11" xml:id="trc-p1-l11"/>ī kōfag g(rīw) I k(abīz) 8
+                    āhang kē az ēw zayt ī zamīg ud xānag ī xwastagdārān ī mardān ī Yazdōy nām būd ud
+                    any mard ud az ēw zayt ī zamīg ud xānag ī xwāstagdārān ī mardān ī ōy Dēra <lb n="12" xml:id="trc-p1-l12"/>ud any mard ud az dō zayt ī čand ud rawišn ī
+                    zamānag drahm ī az ān <unclear>Haspīn-raz</unclear> deh sāmān | B5 ud xānag ud
+                    spinǰānagīh ud tis enyā abar <supplied>nimāyēd ud</supplied> wizandag kard rāy
+                    zyān ēwēn sē ǰādag az 6 <lb n="13" xml:id="trc-p1-l13"/>bārag-bār ud ham tasūg ī
+                    Dēl ī Dēlān pad bun ī Frōd deh razists zamīg ī kōfag g(rīw) l k(abīz) 5 āhang kē
+                    az ēw zayt ī razist zamīg ī xwāstagdārān ī mardān ī Wahištān nām <lb n="14" xml:id="trc-p1-l14"/>būd ud az ēw zayt ī zamīg ī xwāstagdārān ī mardān ī ōy
+                    Ātaxšbōyag ud az ēw zayt ī zamīg ī xwāstagdārān ī az ān Frōd deh ud az ēw zayt ī
+                    pēš sāmān | B6 ud raz ud sarw ud tis enyā <lb n="15" xml:id="trc-p1-l15"/>abar
+                    nimāyēd ud ēd kard rāy zyān ēwēn sē ǰadag az sē bār dō bār ud kišwānzār zamīg ī
+                    kōfag ī ān-iz pad bun ī ān <unclear>Haspīn-raz</unclear> deh ud mayg-rist
+                    xwānēnd g(rīw) 3 āhang kē az zayt ī <lb n="16" xml:id="trc-p1-l16"/>rēš ud az
+                        <supplied>ēw</supplied> zayt ī zamīg ī mardān ī Wahmandān nām xwāstagdārān ī
+                    mardān ī Wahmanpanāh nām būd ud az dō zayt ī zamīg ī Anagrān sāmān | B7 ud zamīg
+                    ī kōfag asp-tāzān xwānēnd g(rīw) āhang kē az ēw <lb n="17" xml:id="trc-p1-l17"/>zayt ī rēš ud az ēw zayt ī zamīg ī xwāstagdārān ī mardān ī Ērāzād nām būd ud
+                    az ēw zayt ī zamīg ī mardān ī Āzādxusrō nām {ud az ēw zayt ī zamīg ī mardān ī
+                    Āzādxusrō nām sāmān} | B8 ud zamīg <lb n="18" xml:id="trc-p1-l18"/>ī [kōfag]
+                    damēnag ul-(ā)mad ī kišw ī g(rīw) l āhang kē az ēw zayt ī škihist ud az ēw zayt
+                    ī zamīg ī xwāstagdārān ī ōy Dēlānfarrox ud az ēw zayt ī zamīg ī Anagrān ud az ēw
+                    zayt ī zamīg ī mardān ī <lb n="19" xml:id="trc-p1-l19"/>Dābōy nām ud any mard
+                    sāmān | B9 ud zamīg ī kōfag hurām xwānēnd zayt g(rīw) 6 āhang kē az dō zayt ī
+                    zamīg ī mardān ī Dābōy nām ud any mard uz az ēw zayt ī zamīg ī mardān ī
+                        <unclear>Wangird</unclear> nām ud az ēw zayt ī <lb n="20" xml:id="trc-p1-l20"/>zamīg ī mardān ī Frawardīndād nām sāmān | Bfinal ud
+                    xānag ud spinǰānagīh ud kunǰid ud sarw ud tis enyā abar nimāyēd ud gannāg kard
+                    rāy zyān ēwēn ōy Frawardīn xwēš ǰadag ud tan ī Frawardīn <lb n="21" xml:id="trc-p1-l21"/>ēwēn pad ān Frawardīn saxt kard rāy Frawardīn pad
+                    paymān ī Frawardīn kard dastwarīh ō xwēšīh ud dārišn ī <persName ref="people:Tab019">Farrox-Xusrōyān</persName> madan
+                    <persName ref="people:Tab018">Yazdfarrox</persName> ud <persName ref="people:Tab015">Windādōhrmazd</persName> ud <persName ref="people:Tab016">Windādyazd</persName> <lb n="22" xml:id="trc-p1-l22"/>ōy
+                    xwāstag nē būd čē abāg <persName ref="people:Tab019">Farrox-Xusrōyān</persName> guftan abar pahikārdan nē tis rāst ud ka
+                    ēd xīr ōwōn čiyōn man guft būd ēstād <persName ref="people:Tab015">Windādōhrmazd</persName> ud <persName ref="people:Tab016">Windādyazd</persName> <lb n="23" xml:id="trc-p1-l23"/>ud <persName ref="people:Tab018">Yazdfarrox</persName> ōy xwāstag kē tō sāmān pad nāmagīhā ud ō
+                    xwēšīh ud dārišn ī <persName ref="people:Tab019">Farrox-Xusrōyān</persName> madan guft nē az im rōz Rašn frāz pad tis-iz
+                    ēwēnag abar ud abāg <lb n="24" xml:id="trc-p1-l24"/><persName ref="people:Tab019">Farrox-Xusrōyān</persName> ud
+                    <persName ref="people:Tab015">Windādōhrmazd</persName> ud <persName ref="people:Tab016">Windādyazd</persName> ud <persName ref="people:Tab018">Yazdfarrox</persName> āgenēn ōwōn čiyōn nē pahikārdan harw
+                    kē pad dastwarīh ī Windādōhrmadzd ud <persName ref="people:Tab016">Windādyazd</persName> ud <persName ref="people:Tab018">Yazdfarrox</persName> āgenēn <lb n="25" xml:id="trc-p1-l25"/>ud tasūg-iz ǰud pahikafēd az <persName ref="people:Tab019">Farrox-Xusrōyān</persName> abēzār ud
+                    <persName ref="people:Tab019">Farrox-Xusrōyān</persName> pad ān xīr arz 101 abāyistan ud agar tis-iz ǰuttar kunēd arz 202
+                    drahm ō <persName ref="people:Tab019">Farrox-Xusrōyān</persName> <lb n="26" xml:id="trc-p1-l26"/>dād ud grawagān kē abāg
+                    <persName ref="people:Tab019">Farrox-Xusrōyān</persName> paymān kard kū amā rāst handāxt rāst frēzān ī tō kāstan tis pad
+                    ān ēwēnag čē rāy pahikārd paymān kardan nē kōxšīd <lb n="27" xml:id="trc-p1-l27"/>ud rāst wizārišnīh ī amā ān čē az paymān kard nē āmad nē ēwar nē paččēn ham ud
+                    Windādōhrmad ud <persName ref="people:Tab016">Windādyazd</persName> ud <persName ref="people:Tab018">Yazdfarrox</persName> āgenēn ud ēd az ham az ērmānīh ī <lb n="28" xml:id="trc-p1-l28"/>man pad-iz muhr ī tō wizīr āwišt ud pēš tō
+                    azi-šān pad dīd čiyōn zaytēn wizīr ī l nīd <pc function="section">○</pc> ud
+                    ān-iz <persName ref="people:Tab015">Windādōhrmazd</persName> ud <persName ref="people:Tab016">Windādyazd</persName> ud <persName ref="people:Tab018">Yazdfarrox</persName> ī <unclear>Bōxt</unclear> guft
+                    pēš <persName ref="people:Tab017">Wanandpanāh</persName> <lb n="29" xml:id="trc-p1-l29"/>būd ud
+                        padist<supplied>ād</supplied>
+                    <pc function="section">○</pc> ud <persName ref="people:Tab015">Windādōhrmazd</persName> ud <persName ref="people:Tab016">Windādyazd</persName> ud <persName ref="people:Tab018">Yazdfarrox</persName> guft
+                    kū im rōz Rašn amā ōwōn čiyōn Bōwt guft paymān kard ud ǰadišnīg-iz ān čē Bōxt
+                    guft <lb n="30" xml:id="trc-p1-l30"/>ōwōn čiyōn Bōxt pattūg ast <pc function="section">○</pc> ud abar ēn nāmag didom sāxt ēstād čihrān ī ayārīh
+                    ī tō ud nibišt <pc function="section">○</pc> ud ēn nāmag pad muhr ī ham tasūg ī
+                        <lb n="31" xml:id="trc-p1-l31"/>Dēl ī Dēlān čiyōnīh ham tasūg ī
+                        <unclear>Sūrīgān</unclear> pad dehīhā pad-iš framān sāxtan deh pad kārframān
+                    zāyistan ud <persName ref="people:Tab017">Wanandpanāh</persName> <lb n="32" xml:id="trc-p1-l32"/>ud Dērzamān ī dibīr ud
+                    muhr ī dehbedān kē kard ud az mardān ī Dād-Burz-Mihr nām Mihrpanāh pus mardān ī
+                    <persName ref="people:Tab018">Yazdfarrox</persName> nām Yazdpanāh <lb n="33" xml:id="trc-p1-l33"/>pus az ān
+                        <unclear>Haspīn-raz</unclear> deh ud abar ēwāzīh guft ud <persName ref="people:Tab015">Windādōhrmazd</persName> ud
+                    <persName ref="people:Tab016">Windādyazd</persName> [ud <persName ref="people:Tab017">Wanandpanāh</persName>] ud <persName ref="people:Tab018">Yazdfarrox</persName> āwišt <pc function="section">○○</pc>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <ab xml:id="MP1027_trans-p1">
+                    <lb n="1" xml:id="trans-p1-l1"/>A Month Day (10th month) in the year 103 after
+                    the late Lord Yazdgird, King of Kings, grandson of the late Lord Xusrō, son of
+                    Ōhrmazd, and day Rašn (18th day), when Wanandpanāh who presided over the Law in
+                    the district of <lb n="2" xml:id="trans-p1-l2"/>Dēl ī Dēlān in Taburestān and
+                    likewise in the “Syrian quarter” in Taburestān in the villages (and) therefore
+                    was in charge to prepare orders relating to rotten (crops) in the villages of
+                        <lb n="3" xml:id="trans-p1-l3"/>Dēl ī Dēlān. B The people of Bōxt by name to
+                    Wanandpanāh spoke this: &gt;&gt;The people who belong to Frawardīn by name (and) the
+                    people who belong to Ātaxšbōyag by name, all (of them of) authoritative progeny,
+                    (of) the same tasūg of Dēl ī Dēlān from <lb n="4" xml:id="trans-p1-l4"/><supplied>the</supplied> village of *Haspīn-raz were present and the
+                    people of Yazdfarrox by name, son of Dēlānfarrox, the people of Windādyazd by
+                    name, the people of Windādōhrmazd by name, son of Zādānfarrox, the people of
+                    Farrox-Xusrōyān by name, son of Farrox-Xusrōy, <lb n="5" xml:id="trans-p1-l5"/>from the village of *Haspīn-raz, the sons of Farrox-Xusrōy, Rašnweh, daughter
+                    of the late Frawardīn and Windādyazd and Windādōhrmazd and Yazdfarrox, the sons
+                    and heirs of the late Ātaxšbōyag B1 And disposal (line 7) of a field land on a
+                    slope in charge of the bun of the *Haspīn-raz <lb n="6" xml:id="trans-p1-l6"/>village—“Thorn Groves” they call it—crops of 1 grīw which (are) from one olive
+                    tree of the land which belonged to the heirs of the people of Yazdgird by name
+                    and another man and from one olive tree of the land which belonged to the heirs
+                    of <lb n="7" xml:id="trans-p1-l7"/>the people of Zādānfarrox by name and from
+                    one olive tree of the land which belonged to [the valuers of the property] of
+                    Māhōy by name and from one olive tree of the land which belonged to the heirs of
+                    the people of the late Māhanōš(?) by name and another man. B2 And disposal (line
+                    9) of land [on a slope]—they call (it) “Maintenance”— <lb n="8" xml:id="trans-p1-l8"/>with crops of 2 which (are) from one olive tree of the
+                    community and from one olive tree which belongs to the lands of the heirs of
+                    Dērā by name and from one olive tree of the land which belongs to the heirs of
+                    the people of Farroxzād by name, <lb n="9" xml:id="trans-p1-l9"/>and from one
+                    olive tree of the land of the heirs of the late Māh-ōš and another man. B3 And
+                    disposal (line 10) of crops of 1 grīw from land on a slope they call (it)
+                    “Waste” which come from one olive tree of the land of the people of Farroxān by
+                    name and from one olive tree of <lb n="10" xml:id="trans-p1-l10"/>the land of
+                    the people of Farroxgušnasp by name and from one olive tree of the land of the
+                    heirs of the late Dērā and from one olive-tree of the land of the above
+                    Farrox-Xusrōyān. B4 Disposal of crops from land <lb n="11" xml:id="trans-p1-l11"/>on a slope of 1 grīw 8 kabīz which (comes) from one olive tree of land and
+                    house which belong to the heirs of the people of Yazdōy by name and another man
+                    and from one olive tree of land and house which belong to the heirs of the late
+                    Dērā <lb n="12" xml:id="trans-p1-l12"/>and another man, and from two olive trees
+                    according to the current value from the village of *Haspīn-raz. B5 And the costs
+                    of house and hospitality facilities and other matters you shall take in
+                    consideration and because of the damage due to the earthquake only one third
+                    from 6 <lb n="13" xml:id="trans-p1-l13"/>mount loads. And (in) the same quarter
+                    of Dēl ī Dēlān (which is) in charge of the bun of the “Lower Village”, forested
+                    land on a slope with olives 1 grīw 5 kabīz: these (were) from one olive tree of
+                    forested land which belong to the heirs of the people of Wahištān by name, <lb n="14" xml:id="trans-p1-l14"/>and from one olive-tree of the land of the
+                    heirs of the late Ātaxšbōyag, and from one olive tree of the land of their heirs
+                    which (is) from the “Lower village”, and from one olive tree which (is) before
+                    (the latter one). B6 And disposal of vines and cypresses and other things <lb n="15" xml:id="trans-p1-l15"/>you shall take into consideration and because
+                    of this event a loss of one third of the norm instead of 3 loads only 2 loads
+                    and a field, an acre on a slope which also belongs to the bun of the community
+                    of *Haspīn-raz—they call it “Dead as a Locust”—a crop of 3 grīw which (comes)
+                    from a <lb n="16" xml:id="trans-p1-l16"/>damaged olive tree and from (an) olive
+                    tree of the land which belongs to the people of Wahmandād, heir of the men of
+                    Wahmanpanāh by name, and from 2 olive trees of the land of Anagrān. B7 And
+                    disposal of land of a slope—“Horse Paddock” they call it—the crop of 4 grīw:
+                    these (are) the following: from one <lb n="17" xml:id="trans-p1-l17"/>damaged
+                    olive tree and from one olive tree of the land which belongs to the heirs of the
+                    people of Ērāzād by name and from one olive tree of the land of the people of
+                    Āzādxusrō by name {and from one olive tree of the people of Āzādxusrō by name}.
+                    B8 And disposal of land [of a slope] <lb n="18" xml:id="trans-p1-l18"/>in a fan
+                    (with wind) coming up tillage of 1 grīw: these are the following: from one
+                    broken olive tree and from one olive tree of the people of <lb n="19" xml:id="trans-p1-l19"/>Dābōy by name and another man. B9 And disposal (line
+                    20) of a land of a slope—“the Blissful one” they call it—with a crop of olives:
+                    5 grīw: these (are) the following: from two olive trees of the land of the
+                    people of Dābōy and another man, and from one olive tree of the people of
+                    *Wangird and from one olive tree of <lb n="20" xml:id="trans-p1-l20"/>the land
+                    of the people of Frawardīndād by name. B10 The house and the hospitality
+                    (facilities) and the sesame and the cypresses and something else are involved
+                    and because of the damage (by that) evil event the late Frawardīn’s own share
+                    and body of Frawardīn <lb n="21-22" xml:id="trans-p1-l21-22"/> for that
+                    Frawardīn because of that severe event Frawardīn made an agreement that the
+                    right (of disposal) should pass to the property and maintenance of
+                    Farrox-Xusrōyān (but) should not be in the right (of disposal) of Windādōhrmazd
+                    and Windādyazd and Yazdfarrox, for it (is) by no means proper to proceed against
+                    Farrox-Xusrōyān (and) to submit it. And if this matter (is) such as I have
+                    explained that property (line 23) of Windādōhrmazd and Windādyazd <lb n="23" xml:id="trans-p1-l23"/>and Yazdfarrox of which you said that the disposal
+                    (is) in the books and should suffice for the property and maintenance of
+                    Farrox-Xusrōyān, not from this day Rašn onwards also about (other) things about.
+                    And Against <lb n="24" xml:id="trans-p1-l24"/>Farrox-Xusrōyān and Windādōhrmazd
+                    and Windādyazd and Yazdfarrox jointedly there will be no litigating. Every
+                    person who claims (pahikafēd, line 25) the auctorship of Windādōhrmazd and
+                    Windādyazd and Yazdfarrox jointly <lb n="25" xml:id="trans-p1-l25"/>and also in
+                    another district (is) without means against Farrox-Xusrōyān and he owes 101
+                    drahms to Farrox-Xusrōyān for this matter and if he acts somehow otherwise he
+                    (is obliged) to give (dād, line 26) 202 drahms to Farrox-Xusrōyān. <lb n="26" xml:id="trans-p1-l26"/>And (regarding) the mortgage of the usufruct for
+                    which they made an agreement with Farrox-Xusrōyān, thus: we allotted it equally.
+                    We did not strive to make a contract to diminish your equal dues by that manner
+                    of litigating. <lb n="27" xml:id="trans-p1-l27"/>And our equal payment is that
+                    which did not come from the agreement made (is) neither assured nor a copy. Also
+                    Windādōhrmazd and Windādyazd and Yazdfarrox jointly and together with my
+                    humbleness <lb n="28" xml:id="trans-p1-l28"/>even with your seal they sealed the
+                    document and in Your presence from them under inspection they married out one
+                    “olive decision”. — And exactly that which Bōxt said Windādōhrmazd and
+                    Windādyazd and Yazdfarrox before Wanandpanāh <lb n="29" xml:id="trans-p1-l29"/>confirmed and promised. — And Windādōhrmazd and Windādyazd and Yazdfarrox
+                    said: this day Rašn we, as Bōxt has spoken, made the contract and also on
+                    imponderabilities which Bōxt mentioned. <lb n="30" xml:id="trans-p1-l30"/>are,
+                    as Bōxt (said), permanent – And from this letter he established a second (one),
+                    in the same form with Your assistance, and wrote (it down), — Bz And he sealed
+                    (line 33) this letter with the seal of the same district of <lb n="31" xml:id="trans-p1-l31"/>Dēl ī Dēlān likewise of the Syrian quarter to prepare
+                    an order concerning the villages (and) to investigate (them) by the overseer and
+                    Wanandpanāh <lb n="32" xml:id="trans-p1-l32"/>and Dērzamān the scribe and by the
+                    seals of the landlords who made (the contract) and from the people of
+                    Dād-Burz-Mihr by name, son of Mihrpanāh, the people of Yazdānfarrox by name, son
+                    of Yazdpanāh <lb n="33" xml:id="trans-p1-l33"/>from the village of *Haspīn-raz
+                    and declared (consent) unanimously, and Windādōhrmazd and Windādyazd [and
+                    Wanandpanāh] and Yazdfarrox sealed it. </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP3589" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP3589 / P.Pehl.577</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP3589 / P.Pehl.577.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1983">
+                  <biblScope unit="page">222–223</biblScope>
+                  <note>The first edition of P.Pehl.577 (as P.Rain.Cent. 13,22).</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <institution>Österreichische Nationalbibliothek</institution>
+                  <idno type="shelfmark">Pehl. 00577 Pap</idno>
+                  <idno type="siglum">P.Pehl.577</idno>
+                  <idno type="OpenAMPD">MP3589</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">28</height>
+                              <width unit="cm">20</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="0">10 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): N/A
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP3589_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʿL yẕdʾn hmʾy plhwtl W bwlcynʾtwl
+               <lb n="2" xml:id="trl-p1-l2"/>wslcʾnyktl? krt' PWN hcʾlʾnwšbht
+               <lb n="3" xml:id="trl-p1-l3"/>tn’ ẔY̱ PWN sty plhw' W PWN mynwḵ
+               <lb n="4" xml:id="trl-p1-l4"/>glʾmyk yʾnpʾn? hwslwy W lcpʾnk' W hwdʾt
+               <lb n="5" xml:id="trl-p1-l5"/>ṉc hwtʾyʾn? W ŠRM W drwdstyh
+               <lb n="6" xml:id="trl-p1-l6"/>W ʾplyn' W KRʾplhwyh W lʾm YḤWWNyh
+               <lb n="7" xml:id="trl-p1-l7"/>ʿḆYDWNyh? LWTH psnd W hwšnwtyh [Ẕ](Y̱)?
+               <lb n="8" xml:id="trl-p1-l8"/>yẕdʾn' LẔNH hwtʾyʾn?? PWN[
+               <lb n="9" xml:id="trl-p1-l9"/>](...)[     ]LKWM[
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP3589_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>ō yazdān hamē farroxtar ud burzēn-ātur
+               <lb n="2" xml:id="trc-p1-l2"/>was-arzānīgtar? kard pad hazāranōšbaxt
+               <lb n="3" xml:id="trc-p1-l3"/>tan ī pad asty(?) farrox ud pad mēnōg
+               <lb n="4" xml:id="trc-p1-l4"/>grāmīg *gyānbān? xusrōy ud razbānag ud xwadād
+               <lb n="5" xml:id="trc-p1-l5"/>namāz xwadāyān? ud drōd ud drustīh
+               <lb n="6" xml:id="trc-p1-l6"/>ud āfrīn ud harw farroxīh ud rām bawēh
+               <lb n="7" xml:id="trc-p1-l7"/>kunēh? abāg passand ud hušnūdīh (ī)?
+               <lb n="8" xml:id="trc-p1-l8"/>yazdān īm xwadāyān? pad[
+               <lb n="9" xml:id="trc-p1-l9"/>](...)[     ]ašmā[
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP3589_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Den durch die Götter ganz glückselig(er) und durch das Burzēnfeuer
+               <lb n="2" xml:id="trans-p1-l2"/>(viel würdiger) gemachten, durch das Glück der 1000 Unsterblichen
+               <lb n="3" xml:id="trans-p1-l3"/>(mit einem) Körper, der durch das Sein glückselig und durch Geist(igkeit)
+               <lb n="4" xml:id="trans-p1-l4"/>teuer, den Seelenbeschützern(?), Xusrōy und Razbānag und Xwadād.
+               <lb n="5" xml:id="trans-p1-l5"/>Verehrung den Herren (?), Heil und Gesundheit
+               <lb n="6" xml:id="trans-p1-l6"/>und Segen und alle Glückseligkeit und Freide möge sein.
+               <lb n="7" xml:id="trans-p1-l7"/>Es soll sein (?) verbunden mit Annehmlichkeit und Glück [der (?)]
+               <lb n="8" xml:id="trans-p1-l8"/>Götter dies ... ... ... durch
+               <lb n="9" xml:id="trans-p1-l9"/>]uns[
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

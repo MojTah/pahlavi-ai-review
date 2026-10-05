@@ -1,0 +1,224 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP1025" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP1025 / Tab. 22</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI dencoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP1025 / Tab. 22.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_2012">
+                  <biblScope unit="page">76–81</biblScope>
+                  <note>The first edition of Tab. 22.</note>
+               </bibl>
+               <bibl corresp="#Weber_2019b">
+                  <biblScope unit="page">97–101</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Berlin(?), private collection</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Tab. 22</idno>
+                  <idno type="OpenAMPD">MP1025</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="parchment">
+                        <support>
+                           <material>parchment</material>
+                           <dimensions>
+                              <height unit="cm">14.8</height>
+                              <width unit="cm">28.45</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="31">31 lines</measure>
+                           <measure unit="lines" type="verso" quantity="2">2 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom center.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="corpus">Tabarestān</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0104-11-20" calendar="#Pahlavi">Day Wahrām, Month Wahman, 104 PY</date>
+            <date when="0756-04-05" calendar="#Julian">April 5, 756 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP1025_trl-p1"> 
+               <lb n="1" xml:id="trl-p1-l1"/>ʿL hcʾlʾnwšʾḇyȳʾṭ ʾclmykṭwmʾḤ hlṭzʾṭˈ nc
+               <lb n="2" xml:id="trl-p1-l2"/>wndʾṭhwlšyṭˈ Y plšwʾlgl ltˈ ŠRM W KRʾ plhwyh PWN
+               <lb n="3" xml:id="trl-p1-l3"/>MRʿḤ YḤWWNʾt ◯ bwlcyn-pylwc[ˈ Y] dpywr Y plhwgwšnsp̄ˈ BRH
+               <lb n="4" xml:id="trl-p1-l4"/>Y MN hsp̄ynlcˈ MṬʾ Y PWN BYTʾ Y dyl-dylʾn Y PWN tnˈ
+               <lb n="5" xml:id="trl-p1-l5"/>LWṬH p(y)l(ʾ)[s]ṭk-nkʾl PWN glcšnˈ L ʿYNˈ L YʾṬWNṭ bwlcyn-pylwcˈ
+               <lb n="6" xml:id="trl-p1-l6"/>pʾtlwckˈ PWN ZK pyškˈ W hwšnwṭyh BʿYḤWNsṭnˈ ʿYḴ ʾywynˈ YḤWWNṭˈ
+               <lb n="7" xml:id="trl-p1-l7"/>ḆYN ẔNH ḤD dʾṭgwšnsp̄ˈ ŠM-I ʾṭls BRH LWṬH yẕdṭˈ ŠM-I
+               <lb n="8" xml:id="trl-p1-l8"/>ʾḤ W lʾsṭdʾṭ ŠM-I wšṭʾšp̄ˈ BRH W yzdṭsl ŠM-I dylʾcʾṭ BRH Y
+               <lb n="9" xml:id="trl-p1-l9"/>MN ZK hsp̄ynlcˈ MṬʾ PWN sṭhm W hlwsṭˈ NYŠH ḤD *dycʾy
+               <lb n="10" xml:id="trl-p1-l10"/>ŠM Y pʾṭhšʾdyhʾ bwlcyn-pylwcˈ NYŠH MN tnˈ pylʾykˈ W yʾmkˈ
+               <lb n="11" xml:id="trl-p1-l11"/>W dwcyṭkˈ Y PWN mškˈ KSP̄ˈ S-III-II-C KḤDH QDM ŠRYṬWNtny
+               <lb n="12" xml:id="trl-p1-l12"/>W YḤNCLWNtny gywʾk gywʾk W ZK ʾyʾlkyhʾ PWN ʾywkˈ Y ʾYŠ zʾdsṭnˈ
+               <lb n="13" xml:id="trl-p1-l13"/>BRʾ ḤT QDM ZK CBW plmwṭ GBRʾ GBRʾ BʿYḤWNsṭnˈ W PWN
+               <lb n="14" xml:id="trl-p1-l14"/>ʾp̄ymwsṭyh Y bwlcyn-pylwcˈ wcyl W dʾṭwblyh krṭnˈ MN L ʿL MRʿḤ
+               <lb n="15" xml:id="trl-p1-l15"/>nʾmkˈ YḤWWNyt ʾynyʾ bwlcyn-pylwc ʿL ʾp̄ymwsṭyh mṭnˈ Lʾ
+               <lb n="16" xml:id="trl-p1-l16"/>sʾhṭnˈ W mwsṭˈ YḤWWNṭˈ W PWN ZK (M)NDʿM plmʾn YḤBWNṭˈ L ʿYNˈ L (p)shwˈ
+               <lb n="17" xml:id="trl-p1-l17"/>ḤT ʾYTˈ ẔNH MDNʿM ʾyṭwnˈ cygwn bwlcyn-pylwcˈ glcyṭ PWN ZK
+               <lb n="18" xml:id="trl-p1-l18"/>W ʿLH-šʾn GBRʾ ʾyṭwnˈ prʾc ŠḎṞWNtny Lʾ scytˈ ◯ MRʿḤ
+               <lb n="19" xml:id="trl-p1-l19"/>cygwn bwlcyn-pylwcˈ PWN ẔK ʾdwynkˈ glcyt ḤNʾ-CBW lʾd dʾṭgwšnsp̄ˈ
+               <lb n="20" xml:id="trl-p1-l20"/>W ʿLH-šʾn GBRʾ BRʾ bwṭnˈ W MRYʾ hc-š ʿŠMHNṭ (YKʿYMWNʾṭ) MNʿDM gwwcʾl
+               <lb n="21" xml:id="trl-p1-l21"/>ʿLH-šʾn W pṭ-š ʿL gwšʾnˈ YḤMṬWN[ṭ] ḤT PWN ẔK ʾdwynkˈ Y
+               <lb n="22" xml:id="trl-p1-l22"/>bwlcyn-pylwcˈ gwpṭˈ pyṭʾk YḤWWNyt MH ZK CBW PWN dʾṭgwšnsp̄ˈ
+               <lb n="23" xml:id="trl-p1-l23"/>W ʿLH-šʾn GBRʾ shṭ-š wlhlʾn QDM ḤNḤṬWNd  wcyl W dʾṭwblyh ʾyṭwnˈ ʿBYDWNtny
+               <lb n="24" xml:id="trl-p1-l24"/>ZK PWN bwlcyn-pylwcˈ ʾp̄ycymyh lʾd W PWN lʾs Y dʾṭsṭʾn ʿL
+               <lb n="25" xml:id="trl-p1-l25"/>ʾp̄ymwsṭyh YḤMṬWNʾṭ ḤṬ cym ZK ḆYN Y plmʾn ʾyl ʾdwynkˈ ʾp̄ẕʾdyk (26)
+               <lb n="26" xml:id="trl-p1-l26"/>YḤBWNṭˈ PWN cym Y MNʿDM gwweʾl Wlwšnˈ PWN pshwˈ YKṬYBWN dʾṭgwšnsp̄ˈ-c
+               <lb n="27" xml:id="trl-p1-l27"/>plmʾyṭ GBRʾ gwpṭnˈ W pṭkʾlṭnˈ Y QDM ZK CBW [lʾd] LWṬH bwlcyn-pylwcˈ ʿL ZK GBRʾ
+               <lb n="28" xml:id="trl-p1-l28"/>LʾWḤL wsydy ʿḆYDWNtny nʾmkˈ BYRḤ whwmnˈ QDM ŠNṬ I-C IIII W YWM wlhlʾnˈ
+               <lb n="29" xml:id="trl-p1-l29"/>plmwṭˈ krṭnˈ
+               <lb n="30" xml:id="trl-p1-l30"/>ʿL hcʾlʾnwšʾḇyˈʾṭ ʾclmykṭwm ʾḤ hlṭzʾṭˈ nc
+               <lb n="31" xml:id="trl-p1-l31"/>wndʾṭhwlšyṭˈ Y plšwʾlgl lṭˈ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP1025_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>A1 ō hazār-anōšayād āzarmīgtom brād Xradzād namāz
+               <lb n="2" xml:id="trc-p1-l2"/>A2 Windād-Xw aršēd ī Parišwārgar rad A3 drōd ud harw farroxīh pad
+               <lb n="3" xml:id="trc-p1-l3"/>xw adāy bawād ◯ B Burzēn-Pērōz [ī] dibīr ī Farroxgušnasp pus
+               <lb n="4" xml:id="trc-p1-l4"/>ī az *Haspīn-raz deh ī pad xānag ī Dēl-Dēlān ī pad tan
+               <lb n="5" xml:id="trc-p1-l5"/>abāg payr(ā)[s]tag-nigār pad garzišn pēš man āmad B1 Burzēn-Pērōz
+               <lb n="6" xml:id="trc-p1-l6"/>pādrōzag pad ān pēšag ud hušnūdīh xwāstan kū ēwēn būd
+               <lb n="7" xml:id="trc-p1-l7"/>andar ēn ēw Dādgušnasp nām-ēw *Ātars pus abāg Yazd nām-ēw
+               <lb n="8" xml:id="trc-p1-l8"/>brād ud Rāstdād nām-ēw Wištāsp pus ud Yazdsar nām-ēw Dēlāzād pus ī
+               <lb n="9" xml:id="trc-p1-l9"/>az ān *Haspīn-raz deh pad stahm ud xrōst zan ēw *Dēzā
+               <lb n="10" xml:id="trc-p1-l10"/>nām ī pādixšāyīhā Burzēn-Pērōz zan az tan payrāyag ud ĵāmag
+               <lb n="11" xml:id="trc-p1-l11"/>ud duzīdag ī pad mašk arz s(atēr) 500 hā̂mist abar wišāyēnd
+               <lb n="12" xml:id="trc-p1-l12"/>ud apparēnd gyāg gyāg ud ān ayāragīhā pad ēk ī kas kas zāyistan
+               <lb n="13" xml:id="trc-p1-l13"/>bē agar abar ān xīr framūd mard mard xwāstan ud pad
+               <lb n="14" xml:id="trc-p1-l14"/>abēmustīh ī Burzēn-Pērōz wizīr ud dādwarīh kardan az man ō xwadāy
+               <lb n="15" xml:id="trc-p1-l15"/>nāmag bewēd enyā Burzēn-Pērōz ō abēmustīh maden nē
+               <lb n="16" xml:id="trc-p1-l16"/>sāxtan ud must būd ud pad ān tis framān dād pēš man (pa)ssox 
+               <lb n="17" xml:id="trc-p1-l17"/>agar ast ēn tis ēdōn čiyōn Burzēn-Pērōz garzēd pad ān
+               <lb n="18" xml:id="trc-p1-l18"/>ud awēšān mard ēdōn frāz frēstādan nē sazēd ◯ B2 xwadāy
+               <lb n="19" xml:id="trc-p1-l19"/>čiyōn Burzēn-Pērōz pad ēwēnag garzēd ēd xīr rāy Dādgušnasp
+               <lb n="20" xml:id="trc-p1-l20"/>ud awēšān mard be būdan ud saxwan az-iš āšnūd ēstād tis gōwizār
+               <lb n="21" xml:id="trc-p1-l21"/>awēšān ud pad-iš ō gōšān rasīd agar pad ēwēnag ī
+               <lb n="22" xml:id="trc-p1-l22"/>Burzēn-Pērōz guft paydāg bawēd čē ān xīr pad Dādgušnasp
+               <lb n="23" xml:id="trc-p1-l23"/>ud awēšān mard saxt-īš Wahrām abar nihēnd wizīr ud dādwarīh ēdōn *kunēnd
+               <lb n="24" xml:id="trc-p1-l24"/>ān pad Burzēn-Pērōz abēčimīh rāy ud pad rāh ī dādestān ō
+               <lb n="25" xml:id="trc-p1-l25"/>abēmustīh rasād agar čim ān andar ī framān ayār ēwēnag abzāyīg
+               <lb n="26" xml:id="trc-p1-l26"/>dād pad čim ī tis gōwizār ud rōšn pad passox nibēs Dādgušnasp-iz
+               <lb n="27" xml:id="trc-p1-l27"/>framāyēd mard guftan ud pahikārdan ī abar ān xīr [rāy] abāg Burzēn-Pērōz ō ān mard 
+               <lb n="28" xml:id="trc-p1-l28"/>abāz wisē kardan Bz nāmag māh Wahman abar sāl 104 ud rōz Wahrām
+               <lb n="29" xml:id="trc-p1-l29"/>framūd kardan
+               <lb n="30" xml:id="trc-p1-l30"/>C1 ō hazār-anōšayād āzarmīgtom brād Xradzād namāz
+               <lb n="31" xml:id="trc-p1-l31"/>C2 Windād-Xwaršēd ī Parišwārgar rad
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP1025_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>A1 To thousand-fold remembered very honoured brother Xradzād, reverence!
+               <lb n="2" xml:id="trans-p1-l2"/>A2 Windād-Xw aršēd, the Parišwārgar rad, well-being and all happiness for You
+               <lb n="3" xml:id="trans-p1-l3"/>Sir, shall be! B1 Burzēn-Pērōz, the scribe, son of Farroxgušnasp
+               <lb n="4" xml:id="trans-p1-l4"/>from the village of *Haspīn-raz in the district of Dēl-Dēlān personally
+               <lb n="5" xml:id="trans-p1-l5"/>together with the *painter of adornments* came before me because of a complaint (saying:) B1 (that) Burzēn-Pērōz
+               <lb n="6" xml:id="trans-p1-l6"/>would request to being granted a period of grace for that business and (also) satisfaction that (is) legally binding
+               <lb n="7" xml:id="trans-p1-l7"/>regarding the following (case): one Dādgušnasp by name, son of *Ātars, together with one Yazd by name,
+               <lb n="8" xml:id="trans-p1-l8"/>brother, and one Rāstdād, son of Wištāsp, ane one Yazdsar, son of Dēlāzād,
+               <lb n="9" xml:id="trans-p1-l9"/>from the village of *Haspīn-raz by (an act of) violence and shouting one wife, Dēzā
+               <lb n="10" xml:id="trans-p1-l10"/>by name, the pādixšāy-wife of Burzēn-Pērōz, from her personal belongings jewellery and goblet(s)
+               <lb n="11-12" xml:id="trans-p1-l11-12"/>and how they would open the bag worth a total of 500 staters and carry away the stolen things, (therefore it is necessary) to ask in every place and to check the registers of every single person,
+               <lb n="13-14" xml:id="trans-p1-l13-14"/>—unless on that matter he ordered (it already)—to summon every single man and for satisfaction of Burzēn-Pērōz to make a decision and judgement from me to You, Sir,
+               <lb n="15-16" xml:id="trans-p1-l15-16"/>this (is the purpose of this) letter as otherwise it will not be possible that Burzēn-Pērōz would come to contentment and complaint still remains and regarding that matter having been ordered, (give) me an answer.
+               <lb n="17" xml:id="trans-p1-l17"/>If this matter is such as Burzēn-Pērōz complains for him
+               <lb n="18" xml:id="trans-p1-l18"/>and the (other) men to send further is not suitable. B2 Sir,
+               <lb n="19" xml:id="trans-p1-l19"/>if Burzēn-Pērōz is still complaining in form because of this property Dādgušnasp
+               <lb n="20" xml:id="trans-p1-l20"/>and those (other) men and his statement has been heard
+               <lb n="21" xml:id="trans-p1-l21"/>if it becomes evident (line 22), in this way as
+               <lb n="22" xml:id="trans-p1-l22"/>Burzēn-Pērōz stated that this property belongs to Dādgušnasp
+               <lb n="23" xml:id="trans-p1-l23"/>and those men, when (the day of Wahrām has passed, should reach at a decision and should give a judgement
+               <lb n="24" xml:id="trans-p1-l24"/>this for Burzēn-Pērōz because of the groundlessness and by way of a process
+               <lb n="25" xml:id="trans-p1-l25"/>Will result in satisfaction. If there is proof therein that is also written that order that it be registered in an additional manner
+               <lb n="26" xml:id="trans-p1-l26"/>Concerning the proof of this case write this explicitly and clearly in your answer, also Dādgušnasp
+               <lb n="27" xml:id="trans-p1-l27"/>you should order to name the men and to take a legal action against those who (are involved) in that manner with Burzēn-Pērōz
+               <lb n="28" xml:id="trans-p1-l28"/>to restore (it/them) to the man (preceding line). Bz The letter month Wahman (11th month) in the year 104 and day Wahrām (20th day)
+               <lb n="29" xml:id="trans-p1-l29"/>he ordered to make.—
+               <lb n="30" xml:id="trans-p1-l30"/>C1 To thousand-fold remembered very honoured brother Xradzād, reverence!
+               <lb n="31" xml:id="trans-p1-l32"/>C2 Windād-Xw aršēd, the Parišwārgar rad. 
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

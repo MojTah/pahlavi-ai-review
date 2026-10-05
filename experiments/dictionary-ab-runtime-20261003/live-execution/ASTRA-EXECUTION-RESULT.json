@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "checkpoint_commit": "b88c288",
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "review_turn": "01a102b5-038f-7fb0-9d88-13ae20a3595b",
+  "review_cursor": "a428ddc5-bf0e-453d-a834-0a8ea7559c02:13",
+  "reviewer_model": "gpt-6-astra",
+  "response": "PASS — saved execution checkpoint. No material launch mismatch found. All 15 claim pins and preview/staging bindings match. Recorded claim time precedes provider job creation. The recorded balance covers $5.01 compute plus $0.75 reserve; historical $32.49 usage remains disclosed. Source-only readback and bootstrap hashes match. Startup supports RUNNING/bootstrap only, not completed inference or improved translations. Still unverified: actual weight loading, GPU canary, 30 valid outputs, final charges, independent recovery and semantic results. Recover and score this exact job; no retry, training, recharge or local weight download is admitted. Minor bookkeeping: log_bytes=13097 describes LF-normalized text; the saved CRLF log is 13251 bytes. Clarify that distinction without changing the original log. No provider access or monitoring was performed.",
+  "integrated_at_utc": "2026-10-03T19:00:39.386279+00:00",
+  "correction": {
+    "scope": "Clarification of log length only; original log and startup observation preserved unchanged",
+    "startup_log_bytes_field_meaning": "UTF-8 text length after LF normalization",
+    "normalized_utf8_bytes": 13097,
+    "saved_crlf_file_bytes": 13251,
+    "original_file_sha256": "7a407c817d16a265582bd6747021c4f85a468ad667f09d91f078698fbb81c64f",
+    "verified_locally": true
+  },
+  "material_corrections": [],
+  "original_reviewed_evidence_unchanged": true,
+  "provider_access_or_monitoring_performed": false,
+  "new_job_or_training_admitted": false,
+  "semantic_result_available": false,
+  "notification_required": false
+}

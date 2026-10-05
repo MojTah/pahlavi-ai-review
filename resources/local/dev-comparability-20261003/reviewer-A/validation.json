@@ -1,0 +1,19 @@
+{
+  "complete_count": 143,
+  "unique_count": 143,
+  "validator": "validate_reviews(packet, reviews, expected_count=143)",
+  "validator_outcome": "PASS",
+  "validator_execution": "Unchanged validator function and required schema helpers/constants isolated by AST; no project imports or source loaders executed.",
+  "raw_sha256": "ec92e76eb42eb4fd4cc3ba0ab73ce9bec00174370716bcdd2a84fda4345aa68c",
+  "reviews_sha256": "ec92e76eb42eb4fd4cc3ba0ab73ce9bec00174370716bcdd2a84fda4345aa68c",
+  "raw_final_bytes_identical": true,
+  "structural_fixes": [
+    {
+      "review_id": "A008",
+      "stage": "before initial file append",
+      "reason": "An exact-substring assertion detected a visually similar mixed-script span transcription mismatch. The exact full output was selected as the span and the reason named the term in Latin characters. Judgment, severity and categories were unchanged. The originally submitted fields are preserved in A008.prewrite-original.json."
+    }
+  ],
+  "post_validation_fixes": [],
+  "caveat": "Independent provisional AI linguistic assessments using only this packet and unchanged rubric, not expert adjudication; unresolved readings were marked uncertain."
+}

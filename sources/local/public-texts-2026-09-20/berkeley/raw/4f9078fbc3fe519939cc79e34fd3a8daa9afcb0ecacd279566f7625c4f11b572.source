@@ -1,0 +1,164 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0147" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0147 / Berk. 142</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation fore TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="JW">
+               <persName>Joey Wang</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0147 / Berk. 142.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2022c">
+                  <biblScope unit="page">324–325</biblScope>
+                  <note>The first edition of Berk. 142.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 142</idno>
+                  <idno type="siglum">Berk. 142</idno>
+                  <idno type="OpenAMPD">MP0147</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">18</height>
+                              <width unit="cm">6.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="14">14 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions> Bulla(e): Absent. </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs
+                  for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0035-01-01" calendar="#Pahlavi">~ New Year, Year 35 PY</date>
+            <date when="0686-06-06" calendar="#Julian">June 6, 686 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85360-142.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0147_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʾwhrmẕdʾp̄zwṭˈ nwk-lwcˈ
+               <lb n="2" xml:id="trl-p1-l2"/>Y ŠNṬ $X-III-II lʾd MN
+               <lb n="3" xml:id="trl-p1-l3"/>kwṭkʾn KḤDH ywdṭˈ MN
+               <lb n="4" xml:id="trl-p1-l4"/>ẔK Y ʿL gʾlyk Y
+               <lb n="5" xml:id="trl-p1-l5"/>PWN nmywl ṭkˈ plmwṭ
+               <lb n="6" xml:id="trl-p1-l6"/>krṭnˈ GBʾ ṬWḆ
+               <lb n="7" xml:id="trl-p1-l7"/>hwlṭk pnyl-II W PRG
+               <lb n="8" xml:id="trl-p1-l8"/>mnˈ gwcˈ III-II-C ḤS-X
+               <lb n="9" xml:id="trl-p1-l9"/>dwlkˈ ʿL plsṭʾl Y
+               <lb n="10" xml:id="trl-p1-l10"/>LʿYNˈ ʾMYṭl Y
+               <lb n="11" xml:id="trl-p1-l11"/>yẕdʾnpnʾh
+               <lb n="12" xml:id="trl-p1-l12"/>YḤBWNṭˈ ckˈ
+               <lb n="13" xml:id="trl-p1-l13"/>ʾwsṭʾndʾl
+               <lb n="14" xml:id="trl-p1-l14"/>ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0147_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Ōhrmazdabzūd nōg-rōz
+               <lb n="2" xml:id="trc-p1-l2"/>ī sāl 35 rāy az
+               <lb n="3" xml:id="trc-p1-l3"/>kōdagān hā̆mist ǰud az
+               <lb n="4" xml:id="trc-p1-l4"/>ān ī ō gālīg ī
+               <lb n="5" xml:id="trc-p1-l5"/>pad Namēwar tag framūd
+               <lb n="6" xml:id="trc-p1-l6"/>kardan paymānag did
+               <lb n="7" xml:id="trc-p1-l7"/>xwurdag panīr 2 ud nēm
+               <lb n="8" xml:id="trc-p1-l8"/>man gōz 500 may 10
+               <lb n="9" xml:id="trc-p1-l9"/>dōlag ō paristār ī
+               <lb n="10" xml:id="trc-p1-l10"/>pēš mādar ī
+               <lb n="11" xml:id="trc-p1-l11"/>Yazdānpanāh
+               <lb n="12" xml:id="trc-p1-l12"/>dād čak
+               <lb n="13" xml:id="trc-p1-l13"/>ōstāndār
+               <lb n="14" xml:id="trc-p1-l14"/>āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0147_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Ōhrmazdabzūd ordered (framūd, line 5), on behalf of (rāy, line 2) New Yearˈs day of 
+               <lb n="2" xml:id="trans-p1-l2"/>the year 35, from
+               <lb n="3" xml:id="trans-p1-l3"/>the young, all except 
+               <lb n="4" xml:id="trans-p1-l4"/>those who belong to the *household 
+               <lb n="5-9" xml:id="trans-p1-l5-9"/>of Namēwar, to organize a running, the quota (paymānag) again is 2 and a half man of *cottage cheese*, 500 nuts, 10 dōlag of wine to the maidservant 
+               <lb n="10" xml:id="trans-p1-l10"/>of the mother of 
+               <lb n="11" xml:id="trans-p1-l11"/>Yazdānpanāh 
+               <lb n="12-14" xml:id="trans-p1-l12-14"/>to be given personally. The Ōstāndār sealed the čak.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP5650" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP5650 / Qal‘eh Iraj O. 1</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="CC">
+               <persName>Carlo Cereti</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP5650 / Qal‘eh Iraj O. 1.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Cereti_etal_2022">
+                  <biblScope unit="462-463"/>
+                  <note>The first edition of Qal‘eh Iraj O. 1.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Iran</country>
+                  <institution>Iranian National Museum, Tehran</institution>
+                  <idno type="shelfmark">8077</idno>
+                  <idno type="siglum">Qal‘eh Iraj O. 1</idno>
+                  <idno type="OpenAMPD">MP5650</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Ostraca">
+                        <support>
+                           <material>Ostraca</material>
+                           <dimensions>
+                              <height unit="cm">15.5cm</height>
+                              <width unit="cm">10.5cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="10">10 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="location">Qal‘eh Iraj</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+
+         </particDesc>
+         <settingDesc>
+            <p>Find-site: Qal'eh Iraj, Iran.</p>
+            <p>Location:</p>
+         </settingDesc>
+         <creation>
+            <!-- when="0000" fails the TEI schema: XSD 1.0 gYear has no year
+                 zero. dastwar's Dates section gives a month-only form for a
+                 known month with no derivable Julian date, which for Ardwahišt
+                 would be month 02. Not applied here because "various days" is
+                 not a case the guideline covers. See issue #4. -->
+            <date when="0000" calendar="#Pahlavi">Month Ardwahišt, various days</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP5650_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>BYR(Ḥ) ʾrtwhšt (YW)M ʾš(t)ʾ(t?) W (YW)M ʾsmʾn _ _
+               <lb n="2" xml:id="trl-p1-l2"/>(dyn)ḥwlʾmŠG(I___________d)ʾn(yʾt)X__ __ _
+               <lb n="3" xml:id="trl-p1-l3"/> YHWWNt ʾpzwt _ _spʹ BYN YWM ʾsmʾn gwšnspkn?
+               <lb n="4" xml:id="trl-p1-l4"/>MTʾmʾh(g)wšnspʹY(___šk)bwt____(dʾšn)______X
+               <lb n="5" xml:id="trl-p1-l5"/> mtrʹʾt GBRʾ 14? BYN YWM ʾsmʾn (_ _ ḤS_ _ _ )
+               <lb n="6" xml:id="trl-p1-l6"/>MTʾ____(šnbndkʹ)WBYNYWMʾsmʾn(___ XXIII)[
+               <lb n="7" xml:id="trl-p1-l7"/>dyn_ _mt_ _ʾk ḤS _ (BYN YWM) ʾyltʹ [
+               <lb n="8" xml:id="trl-p1-l8"/>ʾsmʾnWYWM____(t)WYWM(dyn)YḤB___Y[
+               <lb n="9" xml:id="trl-p1-l9"/>]dʾnynʹ ( ?) W (YW)[M] ʾsmʾn W(YW)M w[
+               <lb n="10" xml:id="trl-p1-l10"/>YMR[RWN]yt _ _ _ dʾnkrtʹ Y[
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP5650_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Māh Ardwahišt, rōz Aštād ud rōz Asmān (...)
+               <lb n="2" xml:id="trc-p1-l2"/>Dēnhurām jaw 1(.....)-dān jād 10 (....)
+               <lb n="3" xml:id="trc-p1-l3"/>būd Abzūd (...)sp andar rōz Asmān Gušnaspagān
+               <lb n="4" xml:id="trc-p1-l4"/>deh Māhgušnasp ī (...) škbūd (...) 10
+               <lb n="5" xml:id="trc-p1-l5"/>Mihrād mard 14 andar rōz Asmān (...) may (...)
+               <lb n="6" xml:id="trc-p1-l6"/>deh (... šn bandag) ud andar rōz Asmān (...23)[
+               <lb n="7" xml:id="trc-p1-l7"/>Dēn (...) mad (...)āg may (...) andar rōz Ard[
+               <lb n="8" xml:id="trc-p1-l8"/>Asmān ud rōz (...t) ud rōz (dēn) dād (...) ī [
+               <lb n="9" xml:id="trc-p1-l9"/>]dānēn ud rōz Asmān ud rōz W[
+               <lb n="10" xml:id="trc-p1-l10"/>]gōwēd (...)dāngerd ī
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP5650_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Month Ardwahišt, day Aštād and day Asmān (...)
+               <lb n="2" xml:id="trans-p1-l2"/>Dēnhurām barley 1 (...) measure 10 (....)
+               <lb n="3" xml:id="trans-p1-l3"/>was Abzūd (...)sp on day Asmān Gušnaspagān
+               <lb n="4" xml:id="trans-p1-l4"/>village Māhgušnasp son of (...)škbūd (...) 10
+               <lb n="5" xml:id="trans-p1-l5"/>Mihrād 14 men on day Asmān (...) wine (...)
+               <lb n="6" xml:id="trans-p1-l6"/>village (... šn bandag) and on day Asmān (...23)[
+               <lb n="7" xml:id="trans-p1-l7"/>Dēn (...) mad (...)āg wine (...) on day Ard[
+               <lb n="8" xml:id="trans-p1-l8"/>Asmān and day (...t) and day (Dēn) gave (...) of [
+               <lb n="9" xml:id="trans-p1-l9"/>]dānēn and day Asmān and day W[
+               <lb n="10" xml:id="trans-p1-l10"/>] says (...)dāngerd son of[
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

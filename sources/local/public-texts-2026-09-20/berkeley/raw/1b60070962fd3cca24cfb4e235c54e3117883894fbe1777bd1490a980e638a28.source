@@ -1,0 +1,178 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0085" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0085 / Berk. 80</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Initial edition</resp>
+            </respStmt>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Second edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0085 / Berk. 80.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">7–9</biblScope>
+                  <note>The first edition of Berk. 80.</note>
+               </bibl>
+               <bibl corresp="#Gignoux_2010a">
+                  <biblScope unit="page">80–81</biblScope>
+               </bibl>
+               <bibl corresp="#Weber_2010b">
+                  <biblScope unit="page">54–55</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 80</idno>
+                  <idno type="siglum">Berk. 80</idno>                  
+                  <idno type="OpenAMPD">MP0085</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">14</height>
+                              <width unit="cm">7</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure type="recto" unit="lines" quantity="12">12 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <!-- Use this if required to describe damage, missing text, etc.-->
+                     <!--<layoutDesc>
+                        <p>This is a vertical rectangle.</p>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <additions>
+                     Bulla: Bottom.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Receipt</term>
+               <term type="corpus">Central Iran</term>
+               <term type="location">Yazdān-ābestān</term>
+               <term type="location">Namēwar</term>
+               <term type="location">Dalīgān</term>
+               <term type="location">Paywēr</term>
+               <term type="tag">az ān ī ō bun</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p>A person called <persName ref="people:CIr009">Dādēnwindād</persName> distributes fodder for donkeys.</p>
+            <p>The date of the transaction is day Māh of the month Wahman of the year 40 PY, equivalent to 16 April 692 CE.</p>
+            <p>The document is sealed by the <persName ref="people:CIr010" type="seal">ōstāndār</persName>.</p>
+         </particDesc>
+         <settingDesc>
+            <p>Locations mentioned in this document are <placeName>Yazdān-ābestān</placeName>, <placeName>Namēwar</placeName>, <placeName>Dalīgān</placeName>, and <placeName>Paywēr</placeName>.</p>
+         </settingDesc>
+         <creation>
+            <date when="0040-11-12" calendar="#Pahlavi">Day Māh, Month Wahman, 40 PY</date>
+            <date when="0692-04-16" calendar="#Julian">16 April 692 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85298-80.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0085_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/><persName ref="people:CIr009">dʾṭynwndʾṭˈ</persName> Y PWN
+               <lb n="2" xml:id="trl-p1-l2"/><placeName>yẕdʾnʾpstʾn</placeName> dʾlyk MN ẔK
+               <lb n="3" xml:id="trl-p1-l3"/>Y ʿL bwnˈ ẔNH BYRḤ
+               <lb n="4" xml:id="trl-p1-l4"/>whwmnˈ Y ŠNṬ M
+               <lb n="5" xml:id="trl-p1-l5"/>W YWM mʾh ḤMR&gt;
+               <lb n="6" xml:id="trl-p1-l6"/>III-III Y MN <placeName>nmywl</placeName>
+               <lb n="7" xml:id="trl-p1-l7"/>W <placeName>dlykʾn</placeName> MN nhwmkˈ(?)
+               <lb n="8" xml:id="trl-p1-l8"/>pwd CL <placeName>p(ʾ)ṭwyl</placeName>
+               <lb n="9" xml:id="trl-p1-l9"/>(ḤYṬYWNtny ?) Iʾd ŠG
+               <lb n="10" xml:id="trl-p1-l10"/>K-#III-III ʿL hlbndkʾn
+               <lb n="11" xml:id="trl-p1-l11"/>Y ẔK ḤMRʾn YḤBWNṭˈ
+               <lb n="12" xml:id="trl-p1-l12"/><persName ref="people:CIr010" type="seal">ʾwsṭʾndʾl</persName> ḤTYMWNt
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0085_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/><persName ref="people:CIr009">Dādēnwindād</persName> ī pad
+               <lb n="2" xml:id="trc-p1-l2"/><placeName>Yazdān-ābestān</placeName> dārīg az ān
+               <lb n="3" xml:id="trc-p1-l3"/>ī ō bun ēn māh
+               <lb n="4" xml:id="trc-p1-l4"/>Wahman ī sāl 40
+               <lb n="5" xml:id="trc-p1-l5"/>ud rōz Māh xar
+               <lb n="6" xml:id="trc-p1-l6"/>6 ī az <placeName>Namēwar</placeName>
+               <lb n="7" xml:id="trc-p1-l7"/>ud <placeName>Dalīgān</placeName> az nohomak(?)
+               <lb n="8" xml:id="trc-p1-l8"/>pōy ō <placeName>Paywēr</placeName>
+               <lb n="9" xml:id="trc-p1-l9"/>(ōnīdan ?) rāy ǰaw
+               <lb n="10" xml:id="trc-p1-l10"/>k(abīz) 6 ō xar-bandagān
+               <lb n="11" xml:id="trc-p1-l11"/>ī ān xarān dād
+               <lb n="12" xml:id="trc-p1-l12"/><persName ref="people:CIr010" type="seal">ōstāndār</persName> āwist
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0085_trans-p1">
+               <lb n="1-2" xml:id="trans-p1-l1-2"/><persName>Dādēnwindād</persName>, the manager in Yazdān-ābestān: from
+               <lb n="3" xml:id="trans-p1-l3"/>what (belongs) to the bun, this month
+               <lb n="4" xml:id="trans-p1-l4"/>Wahman (11th month) of the year 40
+               <lb n="5" xml:id="trans-p1-l5"/>and day Māh (12th day), regarding (ray, line 9) 6 donkeys,
+               <lb n="6" xml:id="trans-p1-l6"/>that (have to be brought?) from Namēwar
+               <lb n="7" xml:id="trans-p1-l7"/>and Dalīgān, (for the distance) from the “ninth
+               <lb n="8" xml:id="trans-p1-l8"/>station” (?) to Paywēr,
+               <lb n="9" xml:id="trans-p1-l9"/>barley
+               <lb n="10" xml:id="trans-p1-l10"/>6 kabīz to the donkey drivers
+               <lb n="11" xml:id="trans-p1-l11"/>of these donkeys given.
+               <lb n="12" xml:id="trans-p1-l12"/>The ōstāndār sealed.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

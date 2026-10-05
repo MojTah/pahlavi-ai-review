@@ -1,0 +1,12 @@
+{
+  "chosen_before_inspecting_reassessment_responses": true,
+  "one_per_work_ids": [
+    "QUALITYDEV1-002",
+    "QUALITYDEV1-007",
+    "QUALITYDEV1-013",
+    "QUALITYDEV1-020"
+  ],
+  "selection": "source-feature coverage and one per work; not random or independent accuracy sample",
+  "disagreement_examples": "up to first4case IDs with a disagreement, first sorted arm; separate from representatives",
+  "contact_admitted": false
+}

@@ -1,0 +1,17 @@
+# Local readiness and exact next action
+
+3 October 2026. Local preparation is complete; paid launch remains held. There are no new translations or training in this checkpoint.
+
+The unchanged runtime passed 20 local tests, the legacy 12/12/9 protocol checks and real Windows child timeout/reaping checks. Independent critic and Astra runtime PASS remain valid. The final scorer passed all 13 tests on exact current source, including real CLI preparation, both rehashed token-corruption cases, full two-review gating, fixed denominators, abstentions and critical/cross-work conditions. Main's final run took 81.282 seconds. Astra and the critic separately passed all three focused token/text repair cases on the preceding equivalent validation implementation.
+
+Astra found a genuine missing check: independently hashed output tokens and text could disagree. The repair verifies all three frozen tokenizer files, the exact vocabulary and runtime-equivalent decoding before creating review packets. The original PARTIAL review, old pins and subsequent repair records are preserved.
+
+The first broader repaired suite recorded 12 passes and one 20-second CLI fixture timeout in 843.206 seconds. Profiling then showed 722 vocabulary-size calls cost 66.535 of 85.493 seconds in a passed positive case. Hoisting the unchanged vocabulary bound outside the token loop fixes that predictable cost without weakening validation. The local CLI test allows 180 seconds; cloud and scientific limits are unchanged. The separate CLI recovery test passed in 131.455 seconds. The original planning timebox overran during this local defect/test recovery; no cloud execution, charge or unobserved provider operation was substituted for the missing evidence.
+
+Next is one inference comparison using retained Gemma4 31B step280: 15 familiar exposed DEV passages without dictionary help versus the same 15 with complete automatic exact-form meanings. Full references and ratings stay off the server. Inputs, model, precision, decoding, scientific merit and source/work bindings are pinned. All 30 valid independently recovered first attempts plus two complete blinded reviews precede continuation. This remains a provisional development signal, not unseen accuracy, expert certification or model promotion.
+
+Exact identity: `d68800b3b35c44a4a97adc0c5129a3de`. The preserved native timeout is 120 minutes, cooperative attempt limit 90 seconds and output cap 4096. Proposed compute allowance is USD5.01, subject to fresh live price/funding/cumulative checks and a separate noncompute reserve. There is no automatic retry, recharge, training or local weight download. Detailed source-only transfer, exclusive claim and one-POST admission steps are in `EXECUTION.md`; raw model weights remain in the cloud.
+
+The final mechanical Astra closure is saved when returned. After that, obtain exact permission for existing-credential use, narrow private source transfer and this one paid job. Fresh credit/rate/cumulative spending, idle jobs, private bucket/input readback and fresh output prefix must pass before submission. Longest-input GPU canary is inside the authorized job; GPU execution, provider shutdown, billing and independent remote recovery have not been exercised locally. If those checks fail, hold launch; do not repair by changing the experiment or enlarging the allowance.
+
+Checkpoint is local Git only. No remote is configured; GitHub has not been synchronized from this checkout.

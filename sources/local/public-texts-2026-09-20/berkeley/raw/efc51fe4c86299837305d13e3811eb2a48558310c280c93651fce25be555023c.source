@@ -1,0 +1,143 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2153" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2153 / P.48</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP2153 / P.48.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1992a">
+                  <biblScope unit="page">153</biblScope>
+                  <note>The first edition of P.48.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <institution>Strasbourg, Bibliothèque Nationale et Universitaire</institution>
+                  <idno type="shelfmark">Straßburg Pehl. 4</idno>
+                  <idno type="siglum">P.48</idno>
+                  <idno type="OpenAMPD">MP2153</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions type="Fragment" n="a">
+                              <height unit="cm">6</height>
+                              <width unit="cm">11.5</width>
+                           </dimensions>
+                           <dimensions type="Fragment" n="b">
+                              <height unit="cm">11</height>
+                              <width unit="cm">17.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="4">a. 1 line and remnants of characters, b. 4 lines</measure>
+                           <measure unit="lines" type="verso" quantity="0">a. blank, b. blank</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>Weber (1992a:153): Zwei stark beschädigte Papyrusfragmente aus grobem und dickem Material, von demselben Dokument, dabei in ihrer Stellung, wie sie verglast sind, nicht zusammenpassend; das Fragment rechts oben, aus zwei losen Stücken bestehend, wird als (a), dasjenige links unten als (b) bezeichnet. Reste von Pahlavi-Schrift in schwarzer Tinte, wenig deutbar.</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="corpus">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+             <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP2153_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>](○) s...[ YḤ]BWNṭ'? GMR(ʾ)[
+               <lb n="2" xml:id="trl-p1-l2"/>]. t... ○ GMRʾ $X? ○ GMRʾ//[
+               <lb n="3" xml:id="trl-p1-l3"/>S?]WSYʾ X III ○[ ](.)$? I ○ GMRʾ[
+               <lb n="4" xml:id="trl-p1-l4"/>].... ○ pl.[     ]. SWSYʾ? [
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2153_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>... ... ... dād? uštu(r)
+               <lb n="2" xml:id="trc-p1-l2"/>... ... ... uštur 30?
+               <lb n="3" xml:id="trc-p1-l3"/>asp 13 ... ... uštur
+               <lb n="4" xml:id="trc-p1-l4"/>... ... ... asp?
+            </ab>
+         </div>
+<!--          <div type="translation" xml:lang="de">
+            <ab xml:id="MP2153_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>translation not published
+            </ab>
+         </div> -->
+      </body>
+   </text>
+</TEI>

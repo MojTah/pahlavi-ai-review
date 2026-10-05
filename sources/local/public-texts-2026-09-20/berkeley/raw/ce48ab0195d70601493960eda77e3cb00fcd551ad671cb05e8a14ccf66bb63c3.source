@@ -1,0 +1,219 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP1026" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP1026 / Tab. 22bis</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI dencoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP1026 / Tab. 22bis.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2022b">
+                  <biblScope unit="page">115–118</biblScope>
+                  <note>The first edition of Tab. 22bis.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Private collection, Iran(?)</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Tab. 22bis</idno>
+                  <idno type="OpenAMPD">MP1026</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">N/A</height>
+                              <width unit="cm">N/A</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="26">26 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="corpus">Tabarestān</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0106-01-03" calendar="#Pahlavi">Day Ardwahišt, Month Frawardīn, 106 PY</date>
+            <date when="0757-05-18" calendar="#Julian">May 18, 757 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP1026_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>zdydʾl W mhsṭkˈ Y PWN ʾsp̄gwlṭˈ M
+               <lb n="2" xml:id="trl-p1-l2"/>YWM  ʾrṭwhšṭ ◯ bwlcynpylwcˈ  Y  pʾṭyhšʾy MN ḤNʾ
+               <lb n="3" xml:id="trl-p1-l3"/>ʾsp̄gwlṭˈ MṬʾ LʿYNˈ L YʾṬWNṭ NYŠH Y scʾ ŠM Y
+               <lb n="4" xml:id="trl-p1-l4"/>pʾṭyhšʾy  GBRʾn  Y  hwʾsṭdylʾn  ŠM  W  ẔK ʾsp̄gwlṭˈ MTʾ
+               <lb n="5" xml:id="trl-p1-l5"/>KṬRWNyṭ  BRṬH  Y  MN  YḤWWNṭ  W dsṭwblyh W wcyl W pṭmʾn
+               <lb n="6" xml:id="trl-p1-l6"/>Y  hwʾsṭdylʾn  ḆYN  bwlcynpylwcˈ  krṭˈ  W ḤṬYMWNṭ pyṭʾkˈ ʿL
+               <lb n="7" xml:id="trl-p1-l7"/>NYŠH-yh Y bwlcynpylwcˈ mṭnˈ W scʾ PWN ẔK wcyl
+               <lb n="8" xml:id="trl-p1-l8"/>dsṭwblyh  ḤD-cnd  ʿD  PWN  NYŠH-yh  Y bwlcynpylwc YKṬYBWNṭn
+               <lb n="9" xml:id="trl-p1-l9"/>dʾṭgwšnsp̄ˈ  Y  dpywr  Y  MN  ẔK  ʾsp̄gwlṭˈ MṬʾ scʾ lʾd
+               <lb n="10" xml:id="trl-p1-l10"/>MN  NYŠH-yh   Y   bwlcynpylwcˈ  zʾdndkˈ pʾhlyhṭnˈ W MN yʾmkˈ
+               <lb n="11" xml:id="trl-p1-l11"/>W hw’sṭkˈ Y PWN mškˈ Y cnd W pylʾdkˈ Y LWṬH yhsṭˈ KHDH
+               <lb n="12" xml:id="trl-p1-l12"/>BRʾ ʾSLWNtny W bwlcynpylwcˈ QDM ẔK CBW LʿYNˈ lṭˈ wyš lyhṭ GBʾ
+               <lb n="13" xml:id="trl-p1-l13"/>glcyṭnˈ  nʾmkˈ   Y   ʿLH-šʾn  W  krṭnˈ-c  Y dʾṭgwšnsp̄ˈ ẔK ʾp̄ycymy
+               <lb n="14" xml:id="trl-p1-l14"/>W  ʾdʾṭyh  PWN  bwlcynpylwcˈ  lyš  wcwsṭˈ nʾmkˈ Y PWN mwdl
+               <lb n="15" xml:id="trl-p1-l15"/>Y  ʾywl  LWṬH dʾšṭʾ  W  QDM  ẔK  CBW mwsṭˈ YḤWWNšnˈ gwpṭˈ
+               <lb n="16" xml:id="trl-p1-l16"/>LK   wym  cygwn  bwlcynpylwcˈ  PWN  ẔK ‘dwynkˈ glcyṭ W [ḤNʾ] CBW lʾd
+               <lb n="17" xml:id="trl-p1-l17"/>dhywkʾn  W  mʾṭk  Y  ḤNʾ  MṬʾ  W  scʾ-c pwhšnˈ BʿḤWWNyṭ W MN ʾn MRYʾ
+               <lb n="18" xml:id="trl-p1-l18"/>ʿŠMHNyṭ   cym   Y   ẔK   MNDʿM   BRʾ YDʿYṬNyṭ ʾynyʾ cygwn cym
+               <lb n="19" xml:id="trl-p1-l19"/>(Y  ʾp̄dw)m  W  MRY’  Y  scʾ  MH  ʾdwynkˈ PWN pshwˈ
+               <lb n="20" xml:id="trl-p1-l20"/>(Y  dlwṭ)  YKṬYBWNyṭ  W  scʾ-c  LWṬH mškˈhwʾsṭkʾn cnd (YḤWWNṭ)
+               <lb n="21" xml:id="trl-p1-l21"/>Y    bwlcynpylwcˈ    hm   PWN    nʾmcšṭˈ YMLLWNyṭ W L L ʿYNˈ LK ʾy
+               <lb n="22" xml:id="trl-p1-l22"/>W pšṭ-c dlwhṭ Y  ʾp̄ʾyṭ nydʾc (cym) BYRḤ
+               <lb n="23" xml:id="trl-p1-l23"/>plwlṭynˈ Y ŠNṬ
+               <lb n="24" xml:id="trl-p1-l24"/>I-C III III
+               <lb n="25" xml:id="trl-p1-l25"/>YWM
+               <lb n="26" xml:id="trl-p1-l26"/>(ʾrṭwhšṭ)
+            </ab>
+            <ab xml:id="MP1026_trl-p2">
+               <lb n="1" xml:id="trl-p2-l1"/>MN
+               <lb n="2" xml:id="trl-p2-l2"/>dʾṭbwlcmṭrˈ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP1026_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>zaydār ud mahistag ī pad *Asp-gurd deh
+               <lb n="2" xml:id="trc-p1-l2"/>rōz Ardwahišt ◯ Burzēn-Pērōz ī pādixšāy az ēd
+               <lb n="3" xml:id="trc-p1-l3"/>*Asp-gurd deh pēš man āmad zan ī Sazā nām ī 
+               <lb n="4" xml:id="trc-p1-l4"/>pādixšāy mardān ī Xwāst-Dēlān nām ud ān *Asp-gurd deh 
+               <lb n="5" xml:id="trc-p1-l5"/>mānēd duxt ī az būd ud dastwarīh ud wizīr ud paymān
+               <lb n="6" xml:id="trc-p1-l6"/>ī Xwāst-Dēlān andar Burzēn-Pērōz kard ud āwišt paydāg ō
+               <lb n="7" xml:id="trc-p1-l7"/>zanīh(?) Burzēn-Pērōz madan ud Sazā pad ān wizīr
+               <lb n="8" xml:id="trc-p1-l8"/>dastwarīh ēw-čand tā pad zanīh ī Burzēn-Pērōz nibištan
+               <lb n="9" xml:id="trc-p1-l9"/>Dādgušnasp ī dibīr ī az *Asp-gurd deh Sazā rāy 
+               <lb n="10" xml:id="trc-p1-l10"/>az zanīh ī Burzēn-Pērōz zāyendag pahrēxtan ud az ǰāmag
+               <lb n="11" xml:id="trc-p1-l11"/>ud  xwāstag ī pad mašk ī čand ud payrāyag ī abāg ǰahist hā̆mist
+               <lb n="12" xml:id="trc-p1-l12"/>be bastan ud Burzēn-Pērōz abar ān xīr pēš rad wēš rēxt *paymānag
+               <lb n="13" xml:id="trc-p1-l13"/>garzīdan nāmag ī awēšān ud kardan-iz ī Dādgušnasp ān abēčimīh
+               <lb n="14" xml:id="trc-p1-l14"/>ud adādīh pad Burzēn-Pērōz rēš wizōst nāmag ī pad muhr
+               <lb n="15" xml:id="trc-p1-l15"/>ī ēwar abāg dāšt ud abar ān xīr must bawišn guft
+               <lb n="16" xml:id="trc-p1-l16"/>tō wēm čiyōn Burzēn-Pērōz pad ān ēwēnag garzēd ud [ēd] xīr rāy
+               <lb n="17" xml:id="trc-p1-l17"/>dehgān ud mādag ī ēd deh ud Sazā-z pōhišn xwāhēd ud az ān saxwan
+               <lb n="18" xml:id="trc-p1-l18"/>āšnawēd čim ī ān tis be dānēd enyā čiyōn čim
+               <lb n="19" xml:id="trc-p1-l19"/>(ī abdo)m ud saxwan ī Sazā čē-ēwēnag pad pass dādweh
+               <lb n="20" xml:id="trc-p1-l20"/>(ī drōd)  nibēsēd  ud  Sazā-z  abāg  mašk xwāstagān čand (būd) 
+               <lb n="21" xml:id="trc-p1-l21"/>ī Burzēn-Pērōz ham pad nāmčišt gōwēd ud man pēš tō āyēm
+               <lb n="22" xml:id="trc-p1-l22"/>ud pašt-iz druxt ī abāyēd niyāz (čim) māh
+               <lb n="23" xml:id="trc-p1-l23"/>Frawardīn ī sāl
+               <lb n="24" xml:id="trc-p1-l24"/>106
+               <lb n="25" xml:id="trc-p1-l25"/>rōz
+               <lb n="26" xml:id="trc-p1-l26"/>(Ardwahišt)
+            </ab>
+            <ab xml:id="MP1026_trc-p2">
+               <lb n="1" xml:id="trc-p2-l1"/>az
+               <lb n="2" xml:id="trc-p2-l2"/>dādborzmihr
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP1026_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>(To the) *keeper of the archives and the Elder in the village of *Asp-gurd
+               <lb n="2" xml:id="trans-p1-l2"/>Day Ardwahišt (3rd day). ◯ Burzēn-Pērōz, pādixšāy, from this
+               <lb n="3" xml:id="trans-p1-l3"/>village of *Asp-gurd came before me: the wife, Sazā by name,
+               <lb n="4" xml:id="trans-p1-l4"/>pādixšāy, the people of Xwāst-Dēlān and who live (mānēd, line 5) in the village of *Asp-gurd
+               <lb n="5" xml:id="trans-p1-l5"/>(and) the daughter who is also from there. The statement and entitlement and judement and agreement
+               <lb n="6" xml:id="trans-p1-l6"/>which made and sealed Xwāst-Dēlān for Burzēn-Pērōz
+               <lb n="7" xml:id="trans-p1-l7"/>came to be revealed to entering in marriage with Burzēn-Pērōz and Sazā (who has) the entitlement by this judgement
+               <lb n="8" xml:id="trans-p1-l8"/>as long as she is in matrimony with Burzēn-Pērōz [M]
+               <lb n="9" xml:id="trans-p1-l9"/>Dādgušnasp the scribe from the village of *Asp-gurd because of Sazā
+               <lb n="10" xml:id="trans-p1-l10"/>investigating on the marriage to Burzēn-Pērōz how it was to be cared for and with regard to the goblets
+               <lb n="11" xml:id="trans-p1-l11"/>and much wealth in a bag and jewellery being together with it by chance
+               <lb n="12" xml:id="trans-p1-l12"/>how everything (hā̆mist, line 11) was to be tied up. And Burzēn-Pērōz on this matter before the Rad sifted (the evidence) to that extent
+               <lb n="13" xml:id="trans-p1-l13"/>to be complained in a letter on these things and also to write so by Dādgušnasp on the groundlessness
+               <lb n="14" xml:id="trans-p1-l14"/>and injustice for the loss of Burzēn-Pērōz to be investigated and the document with assured (line 15) seal to be kept (line 15) together
+               <lb n="15" xml:id="trans-p1-l15"/>there is growing complaint on this matter to say:
+               <lb n="16" xml:id="trans-p1-l16"/>You (are) obstinate (lit. “rock”) when Burzēn-Pērōz (still) complains in this way and because of [this] matter
+               <lb n="17" xml:id="trans-p1-l17"/>he would inquire about bribery of the farmers and (their) wives and also Sazā. And from that statement
+               <lb n="18" xml:id="trans-p1-l18"/>he will hear of the reason of the matter he should know, moreover how the final (line 19) reason
+               <lb n="19" xml:id="trans-p1-l19"/>and statement by Sazā what exactly as answer
+               <lb n="20" xml:id="trans-p1-l20"/>of (rightness ?) he should write down and also Sazā and how much walth in the bag
+               <lb n="21" xml:id="trans-p1-l21"/>which Burzēn-Pērōz will confirm is particular and I am coming before you
+               <lb n="22" xml:id="trans-p1-l22"/>(for explaining) the reason why he was cheated even of the agreement: month
+               <lb n="23" xml:id="trans-p1-l23"/>Frawardīn of the year
+               <lb n="24" xml:id="trans-p1-l24"/>106,
+               <lb n="25" xml:id="trans-p1-l25"/>day
+               <lb n="26" xml:id="trans-p1-l26"/>Ardwahišt (3rd day). 
+            </ab>
+            <ab xml:id="MP1026_trans-p2">
+               <lb n="1" xml:id="trans-p2-l1"/>From
+               <lb n="2" xml:id="trans-p2-l2"/>Dādborzmihr
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

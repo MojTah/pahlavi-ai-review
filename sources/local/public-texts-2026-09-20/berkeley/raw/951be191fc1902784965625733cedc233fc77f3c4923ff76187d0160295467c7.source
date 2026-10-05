@@ -1,0 +1,135 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP3024" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP3024 / P.Pehl.14</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP3024 / P.Pehl.14.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1983">
+                  <biblScope unit="page">216</biblScope>
+                  <note>The first edition of P.Pehl.14 (as P.Rain.Cent. 13,1).</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <institution>Österreichische Nationalbibliothek</institution>
+                  <idno type="shelfmark">Pehl. 00014 Pap</idno>
+                  <idno type="siglum">P.Pehl.14</idno>
+                  <idno type="OpenAMPD">MP3024</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">13</height>
+                              <width unit="cm">15</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="4">4 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): N/A
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP3024_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>](PWN) hʾn? (...)[   ]m? ... ... MN ẔY̱?
+               <lb n="2" xml:id="trl-p1-l2"/>](b)[     ]l(...) MNDʿM ʿL? ...-yt
+               <lb n="3" xml:id="trl-p1-l3"/>]... ... ...dʾt... ...
+               <lb n="4" xml:id="trl-p1-l4"/>](.)pl(... ...)[
+            </ab>
+         </div>
+<!--          <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP3024_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Transliteration not published
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP3024_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Translation not published
+            </ab>
+         </div> -->
+      </body>
+   </text>
+</TEI>

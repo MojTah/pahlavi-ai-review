@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<div data-template="browse:is-writeable" class="collection" data-root="">
+    
+    <div>
+        
+        <ul class="documents" data-template="browse:browse" data-template-per-page="10" data-pagination-start="1" data-pagination-total="152"><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0003" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0003 / Berk. 3</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0003 / Berk. 3.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0003" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0004" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0004 / Berk. 4</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0004 / Berk. 4.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0004" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0005" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0005 / Berk. 5</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0005 / Berk. 5.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0005" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0008" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0008 / Berk. 8</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0008 / Berk. 8.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0008" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0009" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0009 / Berk. 9</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0009 / Berk. 9.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0009" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0013" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0013 / Berk. 13</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0013 / Berk. 13.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0013" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0022" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0022 / Berk. 22</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0022 / Berk. 22.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0022" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0023" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0023 / Berk. 23</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0023 / Berk. 23.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0023" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0024" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0024 / Berk. 24</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0024 / Berk. 24.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0024" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li><li class="document">
+                <div class="document-info">
+                    <header data-template="browse:short-header"><div class="tei-teiHeader3">
+      <div class="tei-fileDesc2 header-short"><a href="MP0026" class="tei-titleStmt4" target=""><h5 class="tei-title1">MP0026 / Berk. 26</h5></a><div class="tei-titleStmt5"></div><div class="tei-titleStmt6"></div><div class="tei-titleStmt7 incipit"></div></div><div class="tei-fileDesc3 header-short">
+            <div class="tei-edition">First online OpenAMPD edition of MP0026 / Berk. 26.</div>
+         </div><div class="tei-fileDesc4 header-short"><div class="tei-publicationStmt1"></div></div>
+      
+      
+   </div></header>
+                    
+                    <!-- TODO this toolbar should only appear once per Documents papercard -->
+                    <app-toolbar>
+                        <pb-restricted group="tei">
+                            <pb-ajax url="api/document/MP0026" method="delete" emit="search" event="pb-search-resubmit" confirm="browse.confirmDeletion" quiet="">
+                                <paper-icon-button icon="icons:delete"></paper-icon-button>
+                                <h3 slot="title"><pb-i18n key="browse.delete"></pb-i18n></h3>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <!-- Arash removed the Download link under each document -->
+                        <!--<paper-menu-button>
+                            <paper-button slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
+                                <iron-icon icon="file-download"/>
+                                <span class="label"><pb-i18n key="menu.download.title">Download</pb-i18n></span>
+                            </paper-button>
+                            <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+                                <paper-item data-template="pages:if-supported" data-template-media="print">
+                                    <a href="${app}/print/${ident}" target="_new">Print CSS</a>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-latex">Download</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="latex">
+                                    <pb-download type="tex" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.latex-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.pdf-fo"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="fo">
+                                    <pb-download type="pdf" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source" data-template="browse:download-link">
+                                        <pb-i18n key="menu.download.fo-source"/>
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item data-template="pages:if-supported" data-template-media="epub">
+                                    <pb-download type="epub" src="document1" dialog="downloadDialog" data-template="browse:download-link">
+                                        ePUB
+                                    </pb-download>
+                                </paper-item>
+                                <paper-item>
+                                    <pb-edit-xml data-i18n="[title]menu.download.view-tei" title="i18n(view-tei)" path="${path}">
+                                        XML
+                                    </pb-edit-xml>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>-->
+                    </app-toolbar>
+                </div>
+            </li></ul>
+    </div>
+</div>

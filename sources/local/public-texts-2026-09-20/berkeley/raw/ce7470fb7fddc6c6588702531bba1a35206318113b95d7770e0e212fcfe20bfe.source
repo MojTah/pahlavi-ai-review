@@ -1,0 +1,165 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0410" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0410 / Berlin 10</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0410 / Berlin 10.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">48–51</biblScope>
+                  <note>The first edition of Berlin 10.</note>
+               </bibl>
+               <bibl corresp="#Weber_2015b">
+                  <biblScope unit="page">85–87</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Freie Universität Berlin, Institut für Iranistik</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 10</idno>
+                  <idno type="OpenAMPD">MP0410</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">23.5</height>
+                              <width unit="cm">14</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="11">11 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Top center.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">paymān</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p>Find-site: nan.</p>
+            <p>Location:</p>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0410_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>PWN pṭmʾn Y hcpl npšṭˈ PWN gwsp̄nd
+               <lb n="2" xml:id="trl-p1-l2"/>$X-IIII NKSYʾ S-II lwcyk ḤG G-IIII-IIII
+               <lb n="3" xml:id="trl-p1-l3"/>PWN phlsṭˈ Y G-I K -#III PWN ẔWẔN I whʾk S-I ẔWẔN II
+               <lb n="4" xml:id="trl-p1-l4"/>ʿL dynʾp̄zwṭˈ Y PWN nmywl dʾlyk ʾp̄sp̄ʾlṭˈ
+               <lb n="5" xml:id="trl-p1-l5"/>W PWN bwnˈ Y dynʾp̄zwṭˈ npšṭˈ W ʾmʾl pṭ-š
+               <lb n="6" xml:id="trl-p1-l6"/>krṭˈ MḤŠYʾ-IIII dwlkˈ whʾk S-I ẔWẔN II ○
+               <lb n="7" xml:id="trl-p1-l7"/>KḤDH S-III-II ○ ʿL bʾlkʾn Y PWN nmywl dʾlyk
+               <lb n="8" xml:id="trl-p1-l8"/>ʾp̄sp̄ʾlṭˈ W PWN bwnˈ Y bʾlkʾn npšṭnˈ W ʾmʾl pṭ-š
+               <lb n="9" xml:id="trl-p1-l9"/>krṭnˈ ʾp̄ʾdšnˈ pšm X-II mnˈ ○ mwd-III W PRG
+               <lb n="10" xml:id="trl-p1-l10"/>mnˈ ○ MN dynpylwc ʾp̄ẕwn BʿYḤWNsṭˈ ʾs&lt;p̄&gt;-dwnbkˈ
+               <lb n="11" xml:id="trl-p1-l11"/>IIII ○ mnˈ ʾmʾlhdybʾl M-II ○
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0410_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>pad paymān ī azabar nibišt ud pad gōspand
+               <lb n="2" xml:id="trc-p1-l2"/>34 xwāstag satēr 2 rōzīg gandum grīw 8
+               <lb n="3" xml:id="trc-p1-l3"/>pad pahrist ī grīw 1 kabīz 3 pad drahm 1 wahāg satēr 1 drahm 2
+               <lb n="4" xml:id="trc-p1-l4"/>ō Dēnabzūd ī pad Namēwar dārīg abespārd
+               <lb n="5" xml:id="trc-p1-l5"/>ud pad bun ī Dēnabzūd nibišt ud āmār pad-iš
+               <lb n="6" xml:id="trc-p1-l6"/>kard rōγn 4 dōlag wahāg satēr 1 drahm 2 ○
+               <lb n="7" xml:id="trc-p1-l7"/>hā̆mist satēr 5 ○ ō Bāragān ī pad Namēwar dārīg
+               <lb n="8" xml:id="trc-p1-l8"/>abespārd ud pad bun ī Bāragān nibištan ud āmār pad-iš
+               <lb n="9" xml:id="trc-p1-l9"/>kardan abāyišn pašm 12 man ○ mōy 3 ud nēm
+               <lb n="10" xml:id="trc-p1-l10"/>man ○ az Dēnpērōz abzōn xwāst *as&lt;p&gt;-dumbag
+               <lb n="11" xml:id="trc-p1-l11"/>4 ○ man āmārayār dāng 2 ○
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0410_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>[1] According to the contract as written above for cattle
+               <lb n="2" xml:id="trans-p1-l2"/>34 cash 2 staters, ration of 8 grīw of wheat
+               <lb n="3" xml:id="trans-p1-l3"/>in stock per 1 grīw (and) 3 kabīz for 1 drahm worth 1 stater (and) 2 drahms
+               <lb n="4" xml:id="trans-p1-l4"/>consigned to Dēnabzūd, manager of Namēwar,
+               <lb n="5" xml:id="trans-p1-l5"/>and for the bun of Dēnabzūd made a tax calculation over it
+               <lb n="6" xml:id="trans-p1-l6"/>and 4 dōlag of oil worth 1 stater (and) 2 drahms,
+               <lb n="7" xml:id="trans-p1-l7"/>altogether (worth) 5 staters. For Bāragān, manager on Namēwar,
+               <lb n="8-9" xml:id="trans-p1-l8-9"/>consigned, and for the bun of Bāragān it is necessary to make a tax calculation over it: 12 man of wool, hair(s) 3 and a half
+               <lb n="10-11" xml:id="trans-p1-l10-11"/>man. On behalf of Dēnpērōz he wanted in addition 4 man of (hair) of horses’ tails. The tax consultant 2 dāng.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

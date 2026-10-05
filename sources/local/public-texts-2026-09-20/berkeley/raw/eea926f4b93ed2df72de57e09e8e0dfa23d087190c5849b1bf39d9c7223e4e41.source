@@ -1,0 +1,148 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0030" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0030 / Berk. 30</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Initial edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0030 / Berk. 30.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_2001">
+                  <biblScope unit="page">292–293</biblScope>
+                  <note>The first edition of Berk. 30 (as 'Doc. 4').</note>
+               </bibl>
+               <bibl corresp="#Gignoux_2003">
+                  <biblScope unit="page">86</biblScope>
+                  <note>Edited as 'Doc. 4'.</note>
+               </bibl>
+               <bibl corresp="#Gignoux_2009b">
+                  <biblScope unit="page">89–90</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+               <bibl corresp="#Weber_2022a">
+                  <biblScope>535</biblScope>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive #30</idno>
+                  <idno type="siglum">Berk. 30</idno>
+                  <idno type="PG">Doc. 4</idno>
+                  <idno type="OpenAMPD">MP0030</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">10</height>
+                              <width unit="cm">8.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure type="recto" unit="lines" quantity="5">5 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <!-- Use this if required to describe damage, missing text, etc.-->
+                     <!--<layoutDesc>
+                        <p>This is a vertical rectangle.</p>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag">az ān ī ō bun</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p>A person called <persName ref="people:CIr008">Xwarēn</persName> gives the good scribe 15 dōlag of wine.</p>
+            <p>The document is sealed by <persName ref="people:CIr001" type="seal">Frāy</persName>.</p>
+         </particDesc>
+         <settingDesc>
+            <p>Location unknown.</p>
+         </settingDesc>
+         <creation>
+            <date when="0048-05" calendar="#Pahlavi">Amurdād 48 PY</date>
+            <date when="0699-10" calendar="#Julian">October 699 CE</date>
+         </creation>               
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85244-30.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0030_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/><persName ref="people:CIr008">ḥwlynˈ</persName> MN ẔK Y ʿL bwnˈ ZNH
+               <lb n="2" xml:id="trl-p1-l2"/>BYRḤ ʾmwrdṭ Y ŠNṬ 40-4-4
+               <lb n="3" xml:id="trl-p1-l3"/>lwcyk lʾd ḤS 10-5 dwlkˈ
+               <lb n="4" xml:id="trl-p1-l4"/>ʿL ḥwp SPLʾ YḤBWNṭˈ ckˈ
+               <lb n="5" xml:id="trl-p1-l5"/><persName ref="people:CIr001" type="seal">plʾd</persName> ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0030_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/><persName ref="people:CIr008">Xwarēn</persName> az ān ī ō bun ēn
+               <lb n="2" xml:id="trc-p1-l2"/>māh Amurdād ī sāl 48
+               <lb n="3" xml:id="trc-p1-l3"/>rōzīg rāy may 15 dōlag
+               <lb n="4" xml:id="trc-p1-l4"/>ō xūb dibīr dād cak
+               <lb n="5" xml:id="trc-p1-l5"/><persName ref="people:CIr001" type="seal">Frāy</persName> āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP0030_trans-p1"><persName ref="people:CIr008">Xwarēn</persName>, à partir de ce qui (est) dans le patrimoine, ce mois dʾAmurdād de lˈan 48, pour la ration, a remis quinze cruches de vin au bon scribe. <persName ref="people:CIr001" type="seal">Frāy</persName> a scellé le document.</ab>
+         </div>
+      </body>
+   </text>
+</TEI>

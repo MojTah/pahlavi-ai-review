@@ -1,0 +1,150 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0600" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0600 / Unknown Doc. 1</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0600 / Unknown Doc. 1.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_2019d">
+                  <biblScope unit="page">2-3</biblScope>
+                  <note>The first edition of the text (termed 'Unknown Doc. 1' by OpenAMPD).</note>
+               </bibl>
+               <bibl corresp="#Weber_2020a">
+                  <biblScope unit="page">161-162</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Private collection</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Unknown Doc. 1</idno>
+                  <idno type="OpenAMPD">MP0600</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="9">9 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                  <p/>
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">ayādgār</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!-- add facs="" once an image is available -->
+            <ab xml:id="MP0600_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>dʾṭynwndʾṭ pṭyhwyh
+               <lb n="2" xml:id="trl-p1-l2"/>Y QDM ẔNH p(ʾ)ṭglʾḇ
+               <lb n="3" xml:id="trl-p1-l3"/>npšṭˈ YKʿYMWNyṭ sṭwlʾn
+               <lb n="4" xml:id="trl-p1-l4"/>$ hcpl hwṭʾykˈ lʾd
+               <lb n="5" xml:id="trl-p1-l5"/>ʾL sycˈ Y bwnʾp̄ʾṭˈ Y
+               <lb n="6" xml:id="trl-p1-l6"/>dyn ʾswlyk YḤBWNṭ′ bnd
+               <lb n="7" xml:id="trl-p1-l7"/>Y ẔNH ʾḇyȳṭkʾl PWN
+               <lb n="8" xml:id="trl-p1-l8"/>mwdl Y ʾwsṭndʾl
+               <lb n="9" xml:id="trl-p1-l9"/>ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0600_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Dādē󠌄nwindād padē󠌄xīh
+               <lb n="2" xml:id="trc-p1-l2"/>ī abar 󠌄ēn pādīrāy
+               <lb n="3" xml:id="trc-p1-l3"/>nibišt est󠌄ēd stōrān
+               <lb n="4" xml:id="trc-p1-l4"/>20 azabar xwadāyīg rāy
+               <lb n="5" xml:id="trc-p1-l5"/>ō sē󠌄ǰ ī *bunābād ī
+               <lb n="6" xml:id="trc-p1-l6"/>d󠌄ēn asūrīg dād band
+               <lb n="7" xml:id="trc-p1-l7"/>ī 󠌄ēn āyādgār pad
+               <lb n="8" xml:id="trc-p1-l8"/>muhr ī ōstāndār
+               <lb n="9" xml:id="trc-p1-l9"/>āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0600_trans-p1">
+               <lb n="1-9" xml:id="trans-p1-l1-9"/>Dād󠌄ēnwindād provided 20 mounts for the crops on which this receipt has been written for the sake of the above (mentioned) Sir (= Dād󠌄ēnwindād) to meet the trouble of the bun centre (depository of the bun) of the Nestorians (lit. Syrian religion). He sealed the tie of this reminder with the seal of the Ōstāndār.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

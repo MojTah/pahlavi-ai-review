@@ -1,0 +1,159 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0426" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0426 / Berlin 26</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0426 / Berlin 26.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">108–111</biblScope>
+                  <note>The first edition of Berlin 26.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Freie Universität Berlin, Institut für Iranistik</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 26</idno>
+                  <idno type="OpenAMPD">MP0426</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">10.7</height>
+                              <width unit="cm">12.1</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="12">10 lines + 2 vertical</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0040-05-01" calendar="#Pahlavi">Day Ohrmazd, Month Amurdād, 40 PY</date>
+            <date when="0691-09-30" calendar="#Julian">September 30, 691 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0426_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʾšṭwyh(?) Y pṭˈ CBW Y MṬʾ dʾlyk
+               <lb n="2" xml:id="trl-p1-l2"/>lwcyk Y kwṭkˈ Y bʾyʾsp̄ʾnyh Y pṭˈ bg
+               <lb n="3" xml:id="trl-p1-l3"/>Y krṭˈ ʾcʾt-...-pʾt(?) MN BYRḤ
+               <lb n="4" xml:id="trl-p1-l4"/>ʾrṭwhšṭ Y ŠNṬ $$ W YWM
+               <lb n="5" xml:id="trl-p1-l5"/>ddwˈ pṭˈ ʾṭwrˈ prʾc ʿD BYRḤ
+               <lb n="6" xml:id="trl-p1-l6"/>ʾmwrdṭ Y nzdsṭˈ W YWM ʾwhrmẕḏ
+               <lb n="7" xml:id="trl-p1-l7"/>pṭˈ II BYRḤ W $-II YWM
+               <lb n="8" xml:id="trl-p1-l8"/>ḤG G-IIII-IIII K-#II ʿL
+               <lb n="9" xml:id="trl-p1-l9"/>dynnywlwṭkbhṭˈ
+               <lb n="10" xml:id="trl-p1-l10"/>YḤBWNṭˈ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0426_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Āštwēh(?) ī pad xīr ī deh dārīg
+               <lb n="2" xml:id="trc-p1-l2"/>rōzīg ī kōdak ī bāyāspānīh ī pad bay
+               <lb n="3" xml:id="trc-p1-l3"/>ī kard Āzād-...-pād(?) az māh
+               <lb n="4" xml:id="trc-p1-l4"/>Ardwahišt ī sāl 40 ud rōz
+               <lb n="5" xml:id="trc-p1-l5"/>Day pad Ādur frāz tā māh
+               <lb n="6" xml:id="trc-p1-l6"/>Amurdād ī nazdist ud rōz Ohrmazd
+               <lb n="7" xml:id="trc-p1-l7"/>pad 2 māh ud 22 rōz
+               <lb n="8" xml:id="trc-p1-l8"/>gandum grīw-8 kabīz-2 ō
+               <lb n="9" xml:id="trc-p1-l9"/>Dēn-Nēw-Rōdagbaxt(?)
+               <lb n="10" xml:id="trc-p1-l10"/>dād
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0426_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Āštwēh(?), der Verwalter für die Angelegenheiten des Dorfes:
+               <lb n="2" xml:id="trans-p1-l2"/>Wegen Ration(en) für das Kind aus der bāyāspān-Ehe, die vom Herrn
+               <lb n="3" xml:id="trans-p1-l3"/>gestiftet (lit. gemacht), Āzād-...-pād(?) vom Monat
+               <lb n="4" xml:id="trans-p1-l4"/>Ardwahišt (2. Monat) des Jahres 40 (671/672 n. Chr.) und Tag
+               <lb n="5" xml:id="trans-p1-l5"/>Day pad Ādur (8.Tag) bis hin zum nächsten Monat
+               <lb n="6" xml:id="trans-p1-l6"/>Amurdād (5. Monat) und Tag Ohrmazd (1.Tag),
+               <lb n="7" xml:id="trans-p1-l7"/>(also) für zwei Monate und 22 Tage
+               <lb n="8" xml:id="trans-p1-l8"/>Weizen 8 grīw (und) 2 kabīz der(?)
+               <lb n="9" xml:id="trans-p1-l9"/>Dēn-Nēw-Rōdagbaxt(?)
+               <lb n="10" xml:id="trans-p1-l10"/>gegeben.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

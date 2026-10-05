@@ -1,0 +1,22 @@
+{
+  "status": "CLOSED_PARTIAL_NO_FORMAL_RECOVERY_VERDICT",
+  "requested_at_utc": "2026-10-05T04:12:21.600915+00:00",
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "reviewer_host": "local",
+  "reviewer_model": "gpt-6-astra",
+  "scope": "Local metadata and narrow scorer recovery fix; no semantic packets/provider/access changes",
+  "source_pins": {
+    "experiments/dictionary-ab-runtime-20261003/score_ab.py": "dc27d7f702c7b7f2d0f2bf80adf03a8aab08c3306914468c86c13214f0ce293f",
+    "tests/test_dictionary_ab_scoring.py": "38c74a2378f4a8553d47c1f3c85fdbe3471fae14cd9a54de04b05c945f543271",
+    "experiments/dictionary-ab-runtime-20261003/live-execution/RECOVERY-REPAIR.md": "25925002f201503a8c8454cfce5dfae7c5d37e8ba07a81d1b68aed578d8dcb7e",
+    "experiments/dictionary-ab-runtime-20261003/live-execution/RECOVERY-CHECKS.json": "f40fb04e103853fcc12e6c6cc3b768954081c1e9994c33d140ca5a927d0e90ac"
+  },
+  "job_id": "6ac124c7fbc85ba68237d56f",
+  "run_id": "d68800b3b35c44a4a97adc0c5129a3de",
+  "no_paid_action": true,
+  "original_launch_review_closed": true,
+  "review_turn": "01a10a43-358e-7523-812d-c315b6edc11c",
+  "last_delivered_cursor": "d8882e4f-f04b-4705-bcdf-103f6d5b396b:3",
+  "result_path": "experiments\\dictionary-ab-runtime-20261003\\live-execution\\ASTRA-RECOVERY-RESULT.json",
+  "scope_note": "Returned final response summarized project progress and pending blind reviews; it did not supply the requested formal source-repair verdict. Do not treat this as Astra PASS on that correction. Independent result_recovery_critic PASS and actual tests/preparation are preserved separately."
+}

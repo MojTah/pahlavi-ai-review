@@ -1,0 +1,168 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0451" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0451 / LA 2</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Initial edition</resp>
+            </respStmt>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Second edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0451 / LA 2.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_1996">
+                  <biblScope unit="page">64–65</biblScope>
+                  <note>The first edition of LA 2.</note>
+               </bibl>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">188–191</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>California Museum of Ancient Art, Los Angeles</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">LA2</idno>
+                  <idno type="OpenAMPD">MP0451</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">Unknown</height>
+                              <width unit="cm">Unknown</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="9">9 lines</measure>
+                           <!-- <measure unit="lines" type="verso" quantity="0">N/A</measure> -->
+                        </extent>
+                     </supportDesc>
+                     <!-- Use this if required to describe damage, missing text, etc.-->
+                     <!--<layoutDesc>
+                        <p>This is a vertical rectangle.</p>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <!-- Base URL and IIIF information currently unknown -->
+            <!-- <prefixDef ident="LA"
+               matchPattern="(.+)"
+               replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef> -->
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="corpus">Central Iran</term>
+               <term type="location">*Astōg</term>
+               <term type="tag">Greetings</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p>A short list of greetings and acknowledgement of compensation for a man by the name of *<persName ref="people:CIr014">Tabīg</persName>.</p>
+            <p>People named are <persName ref="people:CIr011">Pērōz-Xusrō ī Spihrdād</persName>, <persName ref="people:CIr012">Warāz ī Ōzōy</persName>, <persName ref="people:CIr013">Spihrdād ī Dēnīg</persName>, and <persName ref="people:CIr014">Tabīg</persName>.</p>
+            <p>The document is undated.</p>
+         </particDesc>
+         <settingDesc>
+            <p><placeName>*Astōg</placeName></p>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb n="1" xml:id="pb-1r-trl"/><!-- Add later facs="LA:UNKNOWN" -->
+            <ab xml:id="MP0451_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʿL hwṭʾy <persName ref="people:CIr011">pylwchwslwy Y spyhldʾṭ'</persName> BRH
+               <lb n="2" xml:id="trl-p1-l2"/>Y PRŠYʾ W ʾyl MN <unclear reason="illegible" resp="#DW">ʾsṭwk'</unclear> MṬʾ nc
+               <lb n="3" xml:id="trl-p1-l3"/><persName ref="people:CIr012">wlʾc' Y ywcwdy</persName> BRH MN ẔK <unclear reason="illegible" resp="#DW">ʾsṭwk'</unclear> MṬʾ
+               <lb n="4" xml:id="trl-p1-l4"/>ŠRM KBD cygwn <persName ref="people:CIr013">spyhldʾṭ' Y dynyk'</persName> BRH YḤWWNṭsic
+               <lb n="5" xml:id="trl-p1-l5"/>MN ẔK <unclear reason="illegible" resp="#DW"><placeName>ʾsṭwk'</placeName></unclear> MṬʾ <unclear reason="illegible" extent="1 word"/> LK ʿLH-šn ʾylʾn'
+               <lb n="6" xml:id="trl-p1-l6"/>ʾP-šʾn(?) wcyl krṭ MNW <persName>spyhldʾṭ</persName> W kʾlʾn Y <unclear reason="illegible" extent="1 word"/>
+               <lb n="7" xml:id="trl-p1-l7"/>NKSYʾ <unclear reason="illegible" resp="#DW">S-III-III</unclear> pṭ' GBRʾ <unclear reason="illegible" resp="#DW"><persName ref="people:CIr014">ṭpyk'</persName></unclear> ŠM YḤWWNyṭ
+               <lb n="8" xml:id="trl-p1-l8"/>hm <unclear reason="illegible" extent="1 word"/> MN <choice><sic resp="#DW" source="#DW">bʾtyk</sic><corr resp="#AZ">bʾtk</corr></choice> <unclear reason="illegible" extent="unclear"/> Y YḤWWNt ḤṬYMWNṭ
+               <lb n="9" xml:id="trl-p1-l9"/><note type="editorial" resp="#DW">(vereinzelt „Köpfe“ von Schriftzeichen)</note>
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0451_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>ō xwadāy <persName ref="people:CIr011">Pērōz-Xusrō ī Spihrdād</persName> pus
+               <lb n="2" xml:id="trc-p1-l2"/>ī aswār ud ēr az <unclear reason="illegible" resp="#DW">*Astōg</unclear> deh namāz
+               <lb n="3" xml:id="trc-p1-l3"/><persName ref="people:CIr012">Warāz ī Ōzōy</persName> pus az ān <unclear reason="illegible" resp="#DW">*Astōg</unclear> deh
+               <lb n="4" xml:id="trc-p1-l4"/>drōd was čiyōn <persName ref="people:CIr013">Spihrdād ī Dēnīg</persName> pus būd
+               <lb n="5" xml:id="trc-p1-l5"/>az ān <unclear reason="illegible" resp="#DW"><placeName>*Astōg</placeName></unclear> deh <unclear reason="illegible" extent="1 word"/> tō ōyšān ērān
+               <lb n="6" xml:id="trc-p1-l6"/>u-šān wizīr kard kē <persName>Spihrdād</persName> ud kārān ī <unclear reason="illegible" extent="1 word"/>
+               <lb n="7" xml:id="trc-p1-l7"/>xwāstag <unclear reason="illegible" resp="#DW">satēr(?)-7</unclear> pad mard <unclear reason="illegible" resp="#DW"><persName ref="people:CIr014">Tabīg</persName></unclear> nām bawēd
+               <lb n="8" xml:id="trc-p1-l8"/><supplied reason="in transliteration" source="#DW" resp="#AZ">ham <unclear reason="illegible" extent="1 word"/> az <choice><sic resp="#DW" source="#DW">bādīg</sic><corr resp="#AZ" type="emendation">bādag</corr></choice> <unclear reason="illegible" extent="unclear"/> ī būd</supplied> āwišt
+               <lb n="9" xml:id="trc-p1-l9"/><note type="editorial" resp="#DW">(vereinzelt „Köpfe“ von Schriftzeichen)</note>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0451_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>An den Herrn Pērōz-Xusrō des Spihrdād, Sohn
+               <lb n="2" xml:id="trans-p1-l2"/>des Ritters und Helden, aus dem Dorf *Astōg(?): Verehrung!
+               <lb n="3" xml:id="trans-p1-l3"/>Warāz, dem Sohn des ōzōy, aus eben dem Dorf *Astōg(?)
+               <lb n="4" xml:id="trans-p1-l4"/>viel Gesundheit, wie Spihrdād, Sohn des Dēnīg, war
+               <lb n="5" xml:id="trans-p1-l5"/>aus eben dem Dorf *Astōg(?) .........
+               <lb n="6" xml:id="trans-p1-l6"/>und sie haben eine Entscheidung getroffen, daß Spihrdād und den (anderen) Leuten des ...
+               <lb n="7" xml:id="trans-p1-l7"/>Vergütung (im Werte von) Satēr(?) 7 für einen Mann namens *Tabīg(?) sei
+               <lb n="8" xml:id="trans-p1-l8"/>... versiegelt
+               <lb n="9" xml:id="trans-p1-l9"/><note type="editorial" resp="#DW">(vereinzelt „Köpfe“ von Schriftzeichen)</note>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

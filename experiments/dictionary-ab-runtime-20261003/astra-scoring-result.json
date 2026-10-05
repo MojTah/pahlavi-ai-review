@@ -1,0 +1,15 @@
+{
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "review_turn": "01a10224-1fe6-7282-bae9-dc2acc2726e0",
+  "model_requested": "gpt-6-astra; existing effort unchanged; served identifier not independently verified",
+  "local_verdict": "PARTIAL_REPAIR_REQUIRED",
+  "paid_launch": "HOLD",
+  "four_pins_verified": true,
+  "independent_tests_passed": 11,
+  "test_seconds": 12.388,
+  "material_finding": "Output token IDs and reviewer text were separately hashed but not decoded and reconciled. Out-of-vocabulary [999999999,1] and inconsistent synthetic [7,1] could be admitted after outer repinning.",
+  "required_narrow_repair": ["verify frozen cached tokenizer pins", "reject out-of-vocabulary output IDs", "decode with exact runtime options and compare recorded text/hash", "encode positive fixtures genuinely and add invalid-ID/wrong-decoded-text negatives"],
+  "runtime_review_reopened": false,
+  "new_semantic_or_provider_work": false,
+  "finding_resolved": false
+}

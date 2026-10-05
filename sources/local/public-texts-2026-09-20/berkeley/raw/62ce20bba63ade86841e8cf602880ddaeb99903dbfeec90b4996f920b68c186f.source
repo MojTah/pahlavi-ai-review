@@ -1,0 +1,206 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP1022" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP1022 / Tab. 19</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI dencoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP1022 / Tab. 19.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_2014">
+                  <biblScope unit="page">54–55</biblScope>
+                  <note>The first edition of Tab. 19.</note>
+               </bibl>
+               <bibl corresp="#Weber_2022b">
+                  <biblScope unit="page">109–111</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Berlin(?), private collection</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Tab. 19</idno>
+                  <idno type="OpenAMPD">MP1022</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">18.5</height>
+                              <width unit="cm">22.59</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="26">26 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom left.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Tabarestān</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0105" calendar="#Pahlavi">105 PY</date>
+            <date when="0756" calendar="#Julian">756–757 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP1022_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>too  badly preserved
+               <lb n="2" xml:id="trl-p1-l2"/>too  badly preserved
+               <lb n="3" xml:id="trl-p1-l3"/>too  badly preserved
+               <lb n="4" xml:id="trl-p1-l4"/>too  badly preserved
+               <lb n="5" xml:id="trl-p1-l5"/>too  badly preserved
+               <lb n="6" xml:id="trl-p1-l6"/>too  badly preserved
+               <lb n="7" xml:id="trl-p1-l7"/>Y scʾ …… BRH
+               <lb n="8" xml:id="trl-p1-l8"/>(...) BRʾ ŠNṬ I-C IIII W hm-ŠNṬ I-C III-II
+               <lb n="9" xml:id="trl-p1-l9"/>
+               <lb n="10" xml:id="trl-p1-l10"/>
+               <lb n="11" xml:id="trl-p1-l11"/>LʾWḤL   YḤBWN-(...)  LẔNH  W  ʾp̄ʾryk dhywkʾnʾn ʾk(nyn N)PŠH kyšwˈcʾl
+               <lb n="12" xml:id="trl-p1-l12"/>zmyk ḤD klṭk(w)kˈ LʾLʾmṭ Y klṭk Y ... MN ḤD zyṭˈ Y
+               <lb n="13" xml:id="trl-p1-l13"/>zmyk Y hwʾsṭkdʾlʾn Y GBRʾn Y plwlṭynˈ
+               <lb n="14" xml:id="trl-p1-l14"/>zmyk Y hwʾsṭkdʾlʾn Y GBRʾn Y ṭhšbwd
+               <lb n="15" xml:id="trl-p1-l15"/>……]ṭˈ Y zmyk Y hwʾsṭkdʾlʾn Y [
+               <lb n="16" xml:id="trl-p1-l16"/>zmyk Y …… (hwʾsṭk)dʾl(?) GBRʾ MN ḤD[
+               <lb n="17" xml:id="trl-p1-l17"/>[............................]
+               <lb n="18" xml:id="trl-p1-l18"/>[............]  ʾsp̄gwlṭˈ MṬʾ sʾmʾn G-II ZK(!) Y PWN plhwgwšnspˈ
+               <lb n="19" xml:id="trl-p1-l19"/>gl[...... ……….. …]Y PWN plhwgwšnspˈ drwdsṭˈ KRʾ
+               <lb n="20" xml:id="trl-p1-l20"/>MNW (?) p-[    ]plhgwšnspˈ PWN ẔK
+               <lb n="21" xml:id="trl-p1-l21"/>CBW ʾknynˈ ...[         ] … L WḤL
+               <lb n="22" xml:id="trl-p1-l22"/> [ʿ]L     plhwgwšnspˈ  YḤ(B)WNym     ḤT MNDʿM-c    ywdṭl[     ʿḆYDWN]ym       ẔK NKSY
+               <lb n="23" xml:id="trl-p1-l23"/>(......)  …  S-III  III  III  ʿL  plhwgwšnsp YḤBWNym
+               <lb n="24" xml:id="trl-p1-l24"/>[...] … … … … … plmwṭ     dhywkʾnʾn    Y hcpl
+               <lb n="25" xml:id="trl-p1-l25"/>[...] npšṭˈ ḤṬYMWNṭ ʾywl(yh lʾd) ... ... ...
+               <lb n="26" xml:id="trl-p1-l26"/>                     ]......[
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP1022_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>too  badly preserved
+               <lb n="2" xml:id="trc-p1-l2"/>too  badly preserved
+               <lb n="3" xml:id="trc-p1-l3"/>too  badly preserved
+               <lb n="4" xml:id="trc-p1-l4"/>too  badly preserved
+               <lb n="5" xml:id="trc-p1-l5"/>too  badly preserved
+               <lb n="6" xml:id="trc-p1-l6"/>too  badly preserved
+               <lb n="7" xml:id="trc-p1-l7"/>ī Sazā ... ... pus
+               <lb n="8" xml:id="trc-p1-l8"/>(...) bē sāl 104 ud ham sāl 105
+               <lb n="9" xml:id="trc-p1-l9"/>az ān *Aspgurd
+               <lb n="10" xml:id="trc-p1-l10"/>deh xwāstag arz s(tatēr)     xwāstag
+               <lb n="11" xml:id="trc-p1-l11"/>abāz  dād(an  ?)  im  ud  abārīg  dehgānān āge(nēn xw)ēš kišwzār
+               <lb n="12" xml:id="trc-p1-l12"/>zamīg ēw k(?)rdagōgNote ul-āmad ī kardag ī ... az ēw zayt
+               <lb n="13" xml:id="trc-p1-l13"/>zamīg ī xwāstagdārān ī mardān ī Frawardīn
+               <lb n="14" xml:id="trc-p1-l14"/>zamīg     ī     xwāstagdārān     ī     mardān    ī  ĀtaxšbōyagNote
+               <lb n="15" xml:id="trc-p1-l15"/>... ...](?)(?) ī zamīg ī xwāstagdārān ī
+               <lb n="16" xml:id="trc-p1-l16"/>zamīg ī ... ... xwāstagdār(?) mard az ēw [
+               <lb n="17" xml:id="trc-p1-l17"/>[...........................]
+               <lb n="18" xml:id="trc-p1-l18"/>[............] *Aspgurd deh sāmān g(rīw) 2 ān ī Farroxgušnasp
+               <lb n="19" xml:id="trc-p1-l19"/>gl[... ...  ... ... ... ... ...]  ī  pad  Farroxgušnasp drust harw
+               <lb n="20" xml:id="trc-p1-l20"/>kē(?) p-[            ]Farroxgušnasp pad ān
+               <lb n="21" xml:id="trc-p1-l21"/>xīr āgenēn ... [     ] ... abāz
+               <lb n="22" xml:id="trc-p1-l22"/>(ō) Farroxgušnasp dahēm agar tis-iz ǰuttar[kun] ēm ān xwāstag
+               <lb n="23" xml:id="trc-p1-l23"/>(... …) … s(atēr) 9 ō Farroxgušnasp dahēm
+               <lb n="24" xml:id="trc-p1-l24"/>[...] ... ... ... ... ... framūd dehgānān ī azabar
+               <lb n="25" xml:id="trc-p1-l25"/>[...] nibišt āwišt ēwar(īh rāy) ... ... ...
+               <lb n="26" xml:id="trc-p1-l26"/>                      ]......[
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP1022_trans-p1">
+               <lb n="1-6" xml:id="trans-p1-l1-6"/>too badly preserved [
+               <lb n="7" xml:id="trans-p1-l7"/>Sazā ...... son ..................
+               <lb n="8" xml:id="trans-p1-l8"/>(...) except year 104 and the same year 105
+               <lb n="9" xml:id="trans-p1-l9"/>from that village (deh, line 10) of *Aspgurd
+               <lb n="10" xml:id="trans-p1-l10"/>money worth staters                               money
+               <lb n="11" xml:id="trans-p1-l11"/>to give back this one and other farmers together their own fields
+               <lb n="12" xml:id="trans-p1-l12"/>a fraction (small bit)Note up(wards) of a portion of ... from one olive tree of
+               <lb n="13" xml:id="trans-p1-l13"/>the land of the heirs of the people of Frawardīn
+               <lb n="14" xml:id="trans-p1-l14"/>the land of the heirs of the people of Ātaxšbōyag
+               <lb n="15" xml:id="trans-p1-l15"/>......].. of the land of the heirs of
+               <lb n="16" xml:id="trans-p1-l16"/>land of ......the hair(?) man from one [
+               <lb n="17" xml:id="trans-p1-l17"/>[...........................]
+               <lb n="18" xml:id="trans-p1-l18"/>[............] village of *Aspgurd boundary 2 grīw that of Farroxgušnasp
+               <lb n="19" xml:id="trans-p1-l19"/>gl[...... ............] which for Farroxgušnasp correct(ly) everything
+               <lb n="20" xml:id="trans-p1-l20"/>which(?) p-[           ]Farroxgušnasp for this
+               <lb n="21" xml:id="trans-p1-l21"/>matter together ...[                                 ] ... back
+               <lb n="22" xml:id="trans-p1-l22"/>to Farroxgušnasp I will give, if I act otherwise this money
+               <lb n="23" xml:id="trans-p1-l23"/>(......) ... 9 staters to Farroxgušnasp I will give
+               <lb n="24" xml:id="trans-p1-l24"/>[...] ..................]           ordered the farmers from above
+               <lb n="25" xml:id="trans-p1-l25"/>[...] written and sealed (and) for certainty .........
+               <lb n="26" xml:id="trans-p1-l26"/>]......[
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

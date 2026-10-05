@@ -1,0 +1,161 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0453" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0453 / LA 4</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Preparation of the document for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0453 / LA 4.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_1996">
+                  <biblScope unit="page">66–70</biblScope>
+                  <note>The first edition of LA 4.</note>
+               </bibl>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">196–197</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>California Museum of Ancient Art, Los Angeles</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">LA 4</idno>
+                  <idno type="OpenAMPD">MP0453</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">Unknown</height>
+                              <width unit="cm">Unknown</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="13">13 lines</measure>
+                           <!-- <measure unit="lines" type="verso" quantity="0">N/A</measure> -->
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <!-- Base URL and IIIF information currently unknown -->
+            <!--<prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>-->
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="---14" calendar="#Pahlavi">Day Gōš</date>
+            <date when-custom="undated" calendar="#Julian">Year Unknown</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!-- Add later facs="LA:UNKNOWN" -->
+            <ab xml:id="MP0453_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>L <persName ref="people:CIr017">ʾbwd</persName> Y ʿL ʾBˈ
+               <lb n="2" xml:id="trl-p1-l2"/>BRʾ YʾTWNṭˈ ʾBˈ
+               <lb n="3" xml:id="trl-p1-l3"/>YCBNHsṭˈ cygwn ʾkʾsyh
+               <lb n="4" xml:id="trl-p1-l4"/>hmgwnkˈ mṭ(?) ẔK *<persName ref="people:CIr016">ysnpʾṭʾl</persName>
+               4bis ʿL ʾBˈ(?)
+               <lb n="5" xml:id="trl-p1-l5"/>...... pṭˈ ṬḆ(?) ......
+               <lb n="6" xml:id="trl-p1-l6"/>... LʾWḤL mṭrˈ
+               <lb n="7" xml:id="trl-p1-l7"/>Y ʾkʾsyh Y MN
+               <lb n="8" xml:id="trl-p1-l8"/>............ cygwn
+               <lb n="9" xml:id="trl-p1-l9"/>plmʾyṭ BRʾ YʾṬWNṭn
+               <lb n="10" xml:id="trl-p1-l10"/>L s-............
+               <lb n="11" xml:id="trl-p1-l11"/>YWM gwš(?) BRʾ YḤWWNm
+               <lb n="12" xml:id="trl-p1-l12"/><persName ref="people:CIr002">dʾṭynˈ</persName> lʾd plmʾy
+               <lb n="13" xml:id="trl-p1-l13"/>npštnˈ
+            </ab>
+         </div>
+         <!--No transcription published
+            <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0453_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>none
+            </ab>
+         </div>
+         -->
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0453_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Ich, Ābōy, zum Vater
+               <lb n="2" xml:id="trans-p1-l2"/>gekommen, der Vater
+               <lb n="3" xml:id="trans-p1-l3"/>wünschte: wie Kenntnis,
+               <lb n="4" xml:id="trans-p1-l4"/>ebenso falsch(?) der *Yasn-pādār
+               <lb n="5" xml:id="trans-p1-l5"/>...
+               <lb n="6" xml:id="trans-p1-l6"/>... wie- der Freundschaft der Kenntnis der von
+               <lb n="7" xml:id="trans-p1-l7"/>...
+               <lb n="8" xml:id="trans-p1-l8"/>......... wie
+               <lb n="9" xml:id="trans-p1-l9"/>er befiehlt zu kommen,
+               <lb n="10" xml:id="trans-p1-l10"/>.........
+               <lb n="11" xml:id="trans-p1-l11"/>Tag Gōš (14. Tag) werde ich da sein
+               <lb n="12" xml:id="trans-p1-l12"/>Wegen Dādēn befiehl
+               <lb n="13" xml:id="trans-p1-l13"/>zu schreiben.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

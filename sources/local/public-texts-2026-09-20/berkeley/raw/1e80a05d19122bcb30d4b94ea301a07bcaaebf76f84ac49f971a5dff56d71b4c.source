@@ -1,0 +1,163 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP6000" type="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MP6000 / P. Dura 154</title>
+                <funder>Adam Benkato / UC Berkeley</funder>
+                <respStmt xml:id="WBH">
+                    <persName>Walter B. Henning</persName>
+                    <resp>Initial edition</resp>
+                </respStmt>
+                <respStmt xml:id="AB">
+                    <persName>Adam Benkato</persName>
+                    <resp>Document preparation and TEI encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AZ">
+                    <persName>Arash Zeini</persName>
+                    <resp>TEI design and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First online OpenAMPD edition of MP6000 / P. Dura 154.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <head>Previous edition(s):</head>
+                    <bibl corresp="#Henning_1959">
+                        <biblScope unit="page">414–417</biblScope>
+                        <note>The first edition of P. Dura 154.</note>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country>
+                        <institution>Beinecke Library, Yale University</institution>
+                        <idno type="shelfmark">P.CtYBR inv. DPg 37</idno>
+                        <idno type="siglum">P. Dura 154</idno>
+                        <idno type="OpenAMPD">MP6000</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="document">
+                            <supportDesc material="parchment">
+                                <support>
+                                    <material>Parchment</material>
+                                    <dimensions>
+                                        <height unit="cm">7.7</height>
+                                        <width unit="cm">9.4</width>
+                                    </dimensions>
+                                </support>
+                                <extent>
+                                    <measure type="recto" unit="lines" quantity="8">8 lines</measure>
+                                    <measure type="verso" unit="lines" quantity="5">5 lines</measure>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <p/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <additions>
+                            <p>Eight lines recto, five lines verso written on <material>parchment</material>.</p>
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+                    <p>Bibliographical information is stored in the bibliography.xml file.</p>
+                </prefixDef>
+                <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+                    <p>Information about person in the documents is stored in the people.xml file.</p>
+                </prefixDef>
+                <!-- Base URL and IIIF information need revision -->
+                <prefixDef ident="beinecke" matchPattern="(.+)" replacementPattern="https://collections.library.yale.edu/iiif/2/$1">
+                    <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="DocType">Letter</term>
+                    <term type="corpus">Dura-Europos</term>
+                    <term type="tag">Letter</term>
+                </keywords>
+            </textClass>
+            <calendarDesc>
+                <calendar xml:id="Pahlavi">
+                    <p>Post-Yazdgird era (PY)</p>
+                </calendar>
+                <calendar xml:id="Julian">
+                    <p>Julian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <particDesc>
+                <p>A Sasanian official writes to another, perhaps lower-ranking official, invoking the authority of <persName ref="people:Dur001">Shapur</persName>.</p>
+                <p>The letter could be dated to about 253 CE based on the known dates of the Sasanian siege and occupation of Dura-Europos</p>
+            </particDesc>
+            <creation>
+                <!-- <date when="0000-00-00" calendar="#Pahlavi"></date> -->
+                <date when="0253" calendar="#Julian">Approx. 253 CE</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transliteration" xml:lang="pal">
+                <pb n="1" xml:id="pb-1r-trl" facs="beinecke:33188301"/>
+                <ab xml:id="MP6000_trl-p1">
+                    <lb n="1" xml:id="trl-p1-l1"/>
+                    <damage extent="unclear"/> <unclear reason="illegible" extent="unclear"/>y ŠRM ʿS(G)D(H) (K)BYR ŠDRWN (K)Lʾ W-KʿT
+                    <lb n="2" xml:id="trl-p1-l2"/>ʾw]gwn ls(y)[k] (W-ʿBDk) ? ʿB(Y)DWN . . . <damage extent="unclear"/>
+                    <lb n="3" xml:id="trl-p1-l3"/>] ʾDYNcyt (YM)LLWN ʾYK c. <damage extent="unclear"/>
+                    <lb n="4" xml:id="trl-p1-l4"/>c](y)gwn dpy-I (MN) ? <persName ref="people:Dur001">šḥpwḥ[ry</persName>
+                    <lb n="5" xml:id="trl-p1-l5"/>
+                    <persName>š](ḥ)pwḥry</persName> ʿL (m)<damage extent="unclear"/>
+                    <lb n="6" xml:id="trl-p1-l6"/>Y[ḤBWN (ʾY)K ? LY <damage extent="unclear"/>
+                    <lb n="7" xml:id="trl-p1-l7"/>ʾ]ynyʾ [Z]K? ʾ<damage extent="unclear"/>
+                    <lb n="8" xml:id="trl-p1-l8"/>
+                    <damage extent="unclear"/>L(y) (W)-L[K ?
+                </ab>
+                <pb n="2" xml:id="pb-1v-trl" facs="beinecke:33188308"/>
+                <ab xml:id="MP6000_154_trl-p2">
+                    <lb n="1" xml:id="trl-p2-l1"/>ʿL (D)krytk lwny bʾly YḤ(YT)YW [
+                    <lb n="2" xml:id="trl-p2-l2"/>LʿYTY KʿNm MNDʿM ŠDRWN ZY[
+                    <lb n="3" xml:id="trl-p2-l3"/>ʾYK LY MNDʿM ḤWH ʾplw(l)[
+                    <lb n="4" xml:id="trl-p2-l4"/>PW(N) [Ḥ]Nʾ kʾly ʾynyʾ ḥ.[
+                    <lb n="5" xml:id="trl-p2-l5"/>
+                    <gap/>
+                    <lb n="6" xml:id="trl-p2-l6"/>?pʾ]lswmy gwn(d)[ ?
+                    <lb n="7" xml:id="trl-p2-l7"/>
+                    <gap/>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <ab xml:id="MP6000_154_trans-p1">
+                    <lb n="1" xml:id="trans-p1-l1"/>“...greetings, homage, much sent (to) all. And now; —
+                    <lb n="2" xml:id="trans-p1-l2"/>... so servants and slaves (?) did ...
+                    <lb n="3" xml:id="trans-p1-l3"/>... then further you said that ...
+                    <lb n="4" xml:id="trans-p1-l4"/>...whereas a rescript from Shapur...
+                    <lb n="5" xml:id="trans-p1-l5"/>...Shapur to M...
+                    <lb n="6" xml:id="trans-p1-l6"/>...gave [instructions?] that I...
+                    <lb n="7" xml:id="trans-p1-l7"/>...apart from ... that ...
+                    <lb n="8" xml:id="trans-p1-l8"/>...I and you (?) ...”
+                </ab>
+                 <ab xml:id="MP6000_154_trans-p2">
+                    <lb n="1" xml:id="trans-p2-l1"/>“Bring the load towards the Tigris...
+                    <lb n="2" xml:id="trans-p2-l2"/>there is not. Now send me something that...
+                    <lb n="3" xml:id="trans-p2-l3"/>where there be something of mine, as extra-load (?)...
+                    <lb n="4" xml:id="trans-p2-l4"/>apart from [that which is] herein required...
+                    <lb n="5" xml:id="trans-p2-l5"/>
+                    <gap/>
+                    <lb n="6" xml:id="trans-p2-l6"/>...the chief (?) army-corps (?)...
+                    <lb n="7" xml:id="trans-p2-l7"/>
+                    <gap/>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

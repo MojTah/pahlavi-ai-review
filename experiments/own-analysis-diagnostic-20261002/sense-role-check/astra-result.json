@@ -1,0 +1,19 @@
+{
+  "thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "turn_id": "01a0fd4f-af87-7f73-8885-36ed306db625",
+  "model_requested": "gpt-6-astra",
+  "turn_duration_ms": 165896,
+  "status": "COMPLETED",
+  "verdict": "PASS_BOUNDED_CHECKPOINT_QUALIFICATION_PARTIAL",
+  "required_corrections": [],
+  "reviewed_artifact_sha256": {
+    "REPORT.md_before_closeout": "50e8dfa01eb781e2e6d09eb84415e5c27b714fe5ead67bd0179e0fb08a8d07f3",
+    "check.py": "6abaa3d50be0f68740afe5cd0f9e0867386fdd72ca9b775061c076ed640fc4d7",
+    "private_inventory": "a41bb4164bd36230d1ce4f64ab7af9ebe29182884e55a8bce3083ac5559bcda1"
+  },
+  "final_text": "PASS for this bounded checkpoint; source qualification remains partial. The read-only checker passed: 51 unique records, 74 overlapping memberships, matching the supplied inventory hash. The report correctly assigns the 21 sealing contexts × four logged forwards to the later rejected model, not retained step280. Polysemy, language differences, doubtful readings and previously tested witnesses remain appropriately separated. The commentary leads are substantive: Benfey discusses sealing participants, Weber identifies the titleholder, and Asefi discusses competing ration syntax and readings. These support further qualification, not automatic acceptance as linguistic truth. No required correction. The next useful step is to document the exact additional relation each source supplies and compare it with the assistance already tested. Novelty remains unproven; cancel the proposed experiment if the information merely repeats earlier assistance. The comparison remains HOLD, with zero admitted cases/jobs. I did not reconstruct step280’s individual training-example history.",
+  "next_decision": "Qualify exact additional occurrence relations against earlier assistance; novelty unproven and comparison HOLD.",
+  "expert_certified": false,
+  "training_admitted": false,
+  "paid_run_admitted": false
+}

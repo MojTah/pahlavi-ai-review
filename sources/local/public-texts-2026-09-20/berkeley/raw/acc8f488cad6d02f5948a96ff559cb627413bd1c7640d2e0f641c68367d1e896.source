@@ -1,0 +1,143 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP5651" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP5651 / Qal‘eh Iraj O. 2</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="CC">
+               <persName>Carlo Cereti</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Preparation of the document for OpenAMPD and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP5651 / Qal‘eh Iraj O. 2.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Cereti_etal_2022">
+                  <biblScope unit="page">463-464</biblScope>
+                  <note>The first edition of Qal‘eh Iraj O. 2 (MP5651).</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Iran</country>
+                  <institution>Iranian National Museum, Tehran</institution>
+                  <idno type="shelfmark">8079</idno>
+                  <idno type="siglum">Qal‘eh Iraj O. 2</idno>
+                  <idno type="OpenAMPD">MP5651</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Ostraca">
+                        <support>
+                           <material>Ostraca</material>
+                           <dimensions>
+                              <height unit="cm">5.3cm</height>
+                              <width unit="cm">5.3cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="5">5 lines</measure>
+                           <measure unit="lines" type="verso" quantity="0">None</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="location">Qal‘eh Iraj</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+            <p/>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p>Find-site: Qal'eh Iraj, Iran.</p>
+            <p>Location:</p>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP5651_trl-p1">
+               <lb n="1" xml:id="trl-p1-l2"/>l(yš)pʾtk'
+               <lb n="2" xml:id="trl-p1-l3"/>ZK kʾl(y)kl
+               <lb n="3" xml:id="trl-p1-l4"/>mtr' p(ʾt)ʾrk'
+               <lb n="4" xml:id="trl-p1-l5"/>MḤYTWNt'
+               <lb n="5" xml:id="trl-p1-l6"/>W ZWZN XXX YḤBW(N)ty'
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP5651_trc-p1">
+               <lb n="1" xml:id="trc-p1-l2"/>Rēšbādag
+               <lb n="2" xml:id="trc-p1-l3"/>ān kāregar (ī)
+               <lb n="3" xml:id="trc-p1-l4"/>Mihrbādārag
+               <lb n="4" xml:id="trc-p1-l5"/>zād
+               <lb n="5" xml:id="trc-p1-l6"/>ud drahm 30 dād
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP5651_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Rēšbādag
+               <lb n="2" xml:id="trans-p1-l2"/>that worker of
+               <lb n="3" xml:id="trans-p1-l3"/>Mihrbādārag
+               <lb n="4" xml:id="trans-p1-l4"/>struck
+               <lb n="5" xml:id="trans-p1-l5"/>and gave 30 drahm
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

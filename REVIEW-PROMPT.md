@@ -1,6 +1,16 @@
-# Opus consultation: independent second opinion, 2 October 2026
+# Independent specialist review, 5 October 2026
 
-Review https://github.com/MojTah/pahlavi-ai-review as an independent senior researcher combining low-resource NLP, experimental design, historical linguistics and ML engineering. We want a skeptical third opinion and useful ideas we have missed, not agreement with previous assistants or a generic fine-tuning checklist. Use the Opus 5.5 model if it is available in your environment; report the actual model used and do not silently substitute it. This is consultation for Mojtaba and the continuing Codex researcher, not a handoff of project execution. Return your report to the person who gave you this prompt; do not contact the project team yourself.
+Review https://github.com/MojTah/pahlavi-ai-review critically using Pahlavi philology, low-resource NLP and experimental-design expertise. Identify the exact commit and inspected evidence. Read the newest dictionary result before the historical October 2 priorities below. If you use an AI assistant, report its actual model and the checks it performed. Send findings to the person who invited you; do not contact others or execute cloud jobs.
+
+Updated 5 October 2026 for independent specialist review. Development version: 0.11.7.
+
+Start with the latest completed [dictionary comparison](experiments/dictionary-ab-runtime-20261003/live-execution/OUTCOME.md): both blinded AI reviewers accept 2/15 without dictionary help and 5/15 with it. Five gains and two lost acceptances give net +3. The fixed familiar-DEV continuation screen passes; unseen accuracy and specialist confirmation remain unestablished. This changes supplied inference evidence, not model weights.
+
+The newest [faithfulness comparison](experiments/dictionary-faithfulness-20261005/PLAN.md) tests one general instruction against unsupported glosses using the same retained Gemma step280. Its latest saved [startup receipt](experiments/dictionary-faithfulness-20261005/live-execution/STATUS.md) recorded RUNNING at 05:52:29 UTC on 5 October. Final outputs and a semantic result have not been recovered in this publication checkpoint. That saved status is not a live provider check.
+
+The repository now includes the complete locally collected OpenAMPD, legacy Cologne CPD and Ezafe research-data families with their notices, plus three papers with recorded Creative Commons terms. [Data access and remaining gaps](review/DATA-ACCESS.md) names the full training/candidate arrays and source families still withheld for unresolved or restrictive republication terms. The retained model adapter is cloud-only; model bytes are not included. [Manifest](review/MANIFEST.json) binds every published file, and [omissions](review/OMISSIONS.json) records exact withheld research-file hashes. This is an expanded review repository, not a complete runnable model release.
+
+Specialists should examine sense selection, unsupported explanatory additions, negation, gains/regressions and the validity of the familiar development screen. Preserve disagreement and source attribution. Review does not authorize cloud jobs, training, credential access or contacting anyone.
 
 ## Access and scope
 
@@ -16,7 +26,7 @@ We want reliable Pahlavi/Middle Persian to Persian translation, preserving ambig
 
 Quality is more important than speed. Eventual inference must be practical on a Windows computer with 8 GB GPU memory, allowing CPU/RAM offload and roughly 10–20 minutes per passage. Research is tightly budgeted. Historical balances and run-specific authorizations are not current spending authority. A proposed next run needs its own verified cost, decision value and owner approval. There is no authorization in this prompt to spend money. Do not propose repeated brute-force training or assume a larger model alone resolves the problem.
 
-## Latest checkpoint to challenge
+## Historical checkpoint to challenge (2 October)
 
 - Read `experiments/strategy-reset-20261001/REPORT.md` to reconstruct why the strategy changed.
 - Acquisition, matched NF4 inference and the four-pass training trial have now run. Read the three `live-execution/OUTCOME.md` files under `readiness-repair-20260930`, `nf4-diagnostic-20260930` and `dose-acquisition-20260930`. The four-pass trial improved taught lexical recall to 5/6 but failed passage safety and confirmation. Do not recommend these completed tests as though they are still pending.

@@ -1,0 +1,24 @@
+{
+  "checkpoint": "DEV comparability and automatic dictionary decision 2026-10-03",
+  "review_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "model_request": "gpt-6-astra; existing effort unchanged",
+  "source_files": {
+    "PROJECT_STATE.md": "feb077dfc9ddff6a52083e3f025b4d36f5bc7187b3785cf0272a69d257d079c7",
+    "GOAL.md": "d210844b0f5f498d16600dd59064d04e36f94040fcd676549c4d120eaeb5df41",
+    "experiments/strategy-reset-20261001/REPORT.md": "dd0ab7e619c15dd1fe475e646c489cdbbcdfde989e417dc53c5e64890ea1adbb",
+    "experiments/dev-comparability-20261003/REPORT.md": "0a02df8d772b8da125b0079d73f7836abb85c2bc2828cb2c1dca815a00a96faa",
+    "experiments/dev-comparability-20261003/review.py": "320df22ed244ecd82be26da21037fc6402ab009df97bbd35751e7f1925ef170f",
+    "experiments/dev-comparability-20261003/automatic_lookup.py": "47dea87f1d1a947da95d9552646ac6bc17d51d97765abd933165d7122c4f23a0",
+    "experiments/dev-comparability-20261003/prepare_ab.py": "7750e4dcf6aff1577ed11e66e84009766068f9dca2d6927cc42742c10e6bdae0",
+    "experiments/dev-comparability-20261003/historical.py": "84587d6f74cd92ed93c2b39d2ed51f916e31879bc91a36aa1702cc11c324b8b8",
+    "experiments/dev-comparability-20261003/evidence.json": "7ead2657d0acd38eecfe435b8d2fa4614cab14b9190af74e758350f3d739e57b"
+  },
+  "private_evidence": "resources/local/dev-comparability-20261003; hashes in evidence.json",
+  "scope": "single read-only local/decision review; no jobs, training, external contacts, protected answer bodies, weights or shared edits",
+  "status": "completed",
+  "next_decision": "Prepare bounded automatic dictionary A/B inference runner; no paid execution admitted",
+  "paid_run_admitted": false,
+  "requested_time_precision": "Tool dispatch previously succeeded; exact server timestamp not returned",
+  "recorded_at_utc": "2026-10-03T10:01:11.551582+00:00",
+  "response": "astra-result.json"
+}

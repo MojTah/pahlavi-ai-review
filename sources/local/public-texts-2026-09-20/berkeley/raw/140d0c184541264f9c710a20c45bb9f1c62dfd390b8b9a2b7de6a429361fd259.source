@@ -1,0 +1,211 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP1029" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP1029 / Tab. 25</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI dencoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP1029 / Tab. 25.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_2016">
+                  <biblScope unit="page">180–182</biblScope>
+                  <note>The first edition of Tab. 25 (3 lines only).</note>
+               </bibl>
+               <bibl corresp="#Weber_2022b">
+                  <biblScope unit="page">119–122</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Berlin(?), private collection</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Tab. 25</idno>
+                  <idno type="OpenAMPD">MP1029</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">15.5</height>
+                              <width unit="cm">24</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="26">26 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom right.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Tabarestān</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0106-05-02" calendar="#Pahlavi">Day Wahman, Month Amurdād, 106 PY</date>
+            <date when="0757-09-14" calendar="#Julian">September 14, 757 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP1029_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>BYRḤ ʾmwrdṭ QDM ŠNṬ I-C III III Y ʾḤL MN ʿLH bg yẕdkrṭˈ
+               <lb n="2" xml:id="trl-p1-l2"/>MLKʾn MLKʾ  Y  npˈ Y  ʿLH bg hwslwḇ  Y ʾwhrmẕdʾn W YWM whwmn ʾMṬ
+               <lb n="3" xml:id="trl-p1-l3"/>wcwlgʾwmyṭˈ  MNW  ṭswkˈ  Y  *dlspʾspṭˈ  Y QDM dnbʾwnd DYNʾ cygwnyh ṭswkˈ
+               <lb n="4" xml:id="trl-p1-l4"/>hm pndk  wnyh  Y  QDM  dnbʾwnd wsp ṭnˈ mwsṭˈ pṭ-š ply YḤWWNṭnˈ PWN
+               <lb n="5" xml:id="trl-p1-l5"/>mʾnyhʾ  swcšnˈ  hm  ṭswkˈ  Y  pndk wnyh YḤWWNṭnˈ GBRʾn Y bwhṭˈ ŠM ʿL wcwlgʾwmyṭˈn
+               <lb n="6" xml:id="trl-p1-l6"/>gwpṭˈ ʾYḴ GBRʾn Y ʾylʾngwšnsp̄ˈ ŠM kwlṭˈ BRH hm ṭswkˈ Y pndk wnyh MN
+               <lb n="7" xml:id="trl-p1-l7"/>hwʾsṭkˈ     swṭˈ     LẔNH    YWM    whwmn ʾylʾngwšnsp̄ˈ NKSYʾ KS ≠ S-III II sym
+               <lb n="8" xml:id="trl-p1-l8"/>dwšyh  Y  GBR (?)n  Y  šṭrdylʾn  ŠM  yẕdṭwy BRH ẔK ʾwpsṭk MṬʾ KṬRWNyṭ
+               <lb n="9" xml:id="trl-p1-l9"/>MN šṭrdylʾn  ʾp̄ʾyṭ  PWN  krṭˈ  ẔK  NKSYʾ KZY wcʾlṭkˈ KRʾ S-III II Ḥ(G?)
+               <lb n="10" xml:id="trl-p1-l10"/>G-III II whš ʿL šṭrdylʾn YḤBWNṭnˈ ṭcʾk ps hmʾy ʾMṬ šṭrdylʾn ḤG
+               <lb n="11" xml:id="trl-p1-l11"/>BʿYḤWNyṭ  PWN  pšṭ  Y  sṭyckˈ ʿL šṭrdylʾn YḤBWNṭnˈ ḤṬ MNDʿM-c ywdṭl
+               <lb n="12" xml:id="trl-p1-l12"/>ʿḆYDWNm  ṭʾwʾn-c  KS≠ S-III  ʿL  šṭrdylʾn YḤBWNṭˈ lʾd whwmn-c
+               <lb n="13" xml:id="trl-p1-l13"/>LWṬH šṭrdylʾn pṭmʾn krṭˈ ʾYḴ ẔNH gwpṭk hm ʿL ṭwcšnˈ YḤMṬWNyṭ
+               <lb n="14" xml:id="trl-p1-l14"/>W pcgn ḤD kwnyh  ʿL LK Lʾ dypʾhr Y L lʾd ʾMṬ LʿYNyn-ṭl Lʾ
+               <lb n="15" xml:id="trl-p1-l15"/>ʾp̄ʾn W whlʾm W ʾylʾngwšnsp̄ˈ ʾknynˈ krṭ Y MNDʿM YḤMṬWNyṭ Y L PWN-c 
+               <lb n="16" xml:id="trl-p1-l16"/>mwdl Y LK wcyl ḤṬYMWNṭnˈ LWṬH LK KRʾ PWN kpyc Y ṭʾwʾn wcyl YḤWWNyṭ
+               <lb n="17" xml:id="trl-p1-l17"/>◯ W ʾylʾngwšnsp̄ˈ-c ẔK bwhṭˈ gwpṭˈ lʾsṭ W wcwlgʾwmyṭˈ W MNW nzd
+               <lb n="18" xml:id="trl-p1-l18"/>KṬRWNsṭ  ◯  W  ʾylʾngwšnsp̄ˈ  gwpṭˈ  ʾYḴ LẔNH BYRḤ ʾmwrdṭ QDM ŠNṬ
+               <lb n="19" xml:id="trl-p1-l19"/>I-C III III W YWM whmn L NKSYʾ KS≠ S-III II sym dwšyh Y
+               <lb n="20" xml:id="trl-p1-l20"/>šṭrdylʾn ẔK bwhṭˈ gwpṭˈ MN šṭrdylʾn Y hm ṭswkˈ hmʾk gwpṭˈ cyg[w]n
+               <lb n="21" xml:id="trl-p1-l21"/>bwhṭˈ  gwpṭˈ  pṭmʾn  krṭˈ  W  MNDʿM-c  Y QDM bwhṭˈ gwpṭˈ ʾw(gw)n
+               <lb n="22" xml:id="trl-p1-l22"/>dṭ YKṬYBWNyṭ  W  gwpṭˈ  ẔK  ◯  W  ẔNH nʾmkˈ PWN mwdl Y pcgnglyh
+               <lb n="23" xml:id="trl-p1-l23"/>Y mṭryk Y hm ṭswkˈ Y *dlspʾspṭˈ cygwnyh Y hm ṭswkˈ Y
+               <lb n="24" xml:id="trl-p1-l24"/>pndk  wnyh  PWN  mwsṭ  pṭ-š  plmwṭ  kyšṭk plmwṭ kyšṭkʾn
+               <lb n="25" xml:id="trl-p1-l25"/>W  wcwlgʾwmyṭˈ  W  lc  MṬʾ  Y-š  dpywrˈ mwdl Y plhwzʾṭˈ
+               <lb n="26" xml:id="trl-p1-l26"/>MNW krṭˈ W ʾylʾngwšnsp̄ˈ ḤṬYMWNṭ(!) ◯◯
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP1029_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>A māh Amurdād abar sāl 106 ī pas az ōy bay Yazdgird
+               <lb n="2" xml:id="trc-p1-l2"/>šāhān šāh ī nab ī ōy bay Xusrō ī Ōhrmazdān ud rōz Wahman ka
+               <lb n="3" xml:id="trc-p1-l3"/>Wazurgummēd ēd kē tasūg ī *dar-espāsbed ī abar Dumbāwand ī dādestān čiyōnīh
+      tasūg
+               <lb n="4" xml:id="trc-p1-l4"/>ham pondik wanīh ī abar Dumbāwand wisp tan must pad-iš friy būdan pad
+               <lb n="5" xml:id="trc-p1-l5"/>mānīhā sōzišn ham tasūg ī pondik wanīh būd B mardān ī Bōxt nām ō 
+      Wazurgummēd
+               <lb n="6" xml:id="trc-p1-l6"/>guft kū mardān ī Ērāngušnasp nām Kurd pus ham tasūg ī pondik wanīh az
+               <lb n="7" xml:id="trc-p1-l7"/>xwāstag sūd im rōz Wahman Ērāngušnasp xwāstag arz s(atēr) 5 sēm
+               <lb n="8" xml:id="trc-p1-l8"/>dōšīh ī mardān ī Šahrdēlān nām Yazdōy pus ān ōbastag deh mānēd
+               <lb n="9" xml:id="trc-p1-l9"/>az Šahrdēlān abāyēd pad kard ān xwāstag ahy wizārdan harw s(atēr) 5 gandum
+               <lb n="10" xml:id="trc-p1-l10"/>g(rīw) 5 waxš ō Šahrdēlān dādan tazāg pas hamē ka Šahrdēlān gandum
+               <lb n="11" xml:id="trc-p1-l11"/>xwāhēd pad pašt ī stēzag ō Šahrdēlān dādan agar tis-iz ǰuttar
+               <lb n="12" xml:id="trc-p1-l12"/>kunēm tāwān-iz arz s(atēr)  3  ō  Šahrdēlān dād rāy Wahman-iz
+               <lb n="13" xml:id="trc-p1-l13"/>abāg Šahrdēlān paymān kard kū en guftag ham ō tōzišn rasēd
+               <lb n="14" xml:id="trc-p1-l14"/>ud paččēn ēw kunēh ō tō nē dēbahr ī man rāy ka pēšēn-tar n
+               <lb n="15" xml:id="trc-p1-l15"/>Ābān ud Wahrām ud Ērāngušnasp āgenēn kard ī tis rasēd ī man pad-iz
+               <lb n="16" xml:id="trc-p1-l16"/>muhr ī tō wizīr āwištan abāg tō harw pad kabīz ī tāwān wizīr bawēd
+               <lb n="17" xml:id="trc-p1-l17"/>◯ ud Ērāngušnasp-iz ān Bōxt guft rāst ud Wazurgummēd ud kē nazd
+               <lb n="18" xml:id="trc-p1-l18"/>mānist ◯ ud Ērāngušnasp guft kū im māh Amurdād abar sāl
+               <lb n="19" xml:id="trc-p1-l19"/>106 ud rōz Wahman man xwāstag arz s(atēr) 5 sēm dōšīh ī
+               <lb n="20" xml:id="trc-p1-l20"/>Šahrdēlān ān Bōxt guft az Šahrdēlān ī ham tasūg hamāg guft čiy[ō]n
+               <lb n="21" xml:id="trc-p1-l21"/>Bōxt guft paymān kard ud tis-iz ī abar Bōxt guft ōwōn
+               <lb n="22" xml:id="trc-p1-l22"/>did nibēsēd ud guft ān ◯ C ud ēn nāmag pad muhr ī paččēngarīh
+               <lb n="23" xml:id="trc-p1-l23"/>ī Mihrīg ī ham tasūg ī *dar-espāsbed čiyōnīh ī ham tasūg ī
+               <lb n="24" xml:id="trc-p1-l24"/>pondik wanīh pad must pad-iš framūd kištag framūd kištagān
+               <lb n="25" xml:id="trc-p1-l25"/>ud Wazurgummēd ud Raz deh ī-š dibīr muhr ī Farroxzād
+               <lb n="26" xml:id="trc-p1-l26"/>kē kard ud Ērāngušnasp āwišt ◯◯
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP1029_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>A month Amurdād (5th month) in the year 106 (757/8 CE) of late Lord Yazdgird,
+               <lb n="2" xml:id="trans-p1-l2"/>King of Kings, grandson of the late Lord Xusrō, son of Ōhrmazd, and day Wahman (2nd day) when
+               <lb n="3-4" xml:id="trans-p1-l3-4"/>Wazurgummēd who was (būd, line 5) responsible in the district of the chief of the service (of the residence) of Dumbāwand over the current (business) of the Law as well as the current (business) of everyone of the living beings (in the district of the) »Hazelnut Groves« of Dumbāwand to provide love instead of violence for
+               <lb n="5" xml:id="trans-p1-l5"/>the burning of the houses in the same district of the »Hazelnut Groves« B The people of Bōxt by name to Wazurgummēd
+               <lb n="6" xml:id="trans-p1-l6"/>said that the people of Ērāngušnasp by name, son of Kurd, also from the district of beyond the vineyards from the profit
+               <lb n="7" xml:id="trans-p1-l7"/>of the possessions this day Wahman Ērāngušnasp a sum worth 5 staters in silver as
+               <lb n="8" xml:id="trans-p1-l8"/>support for the people of Šahrdēlān by name, son of Yazdōy, who lives in the fallen village.
+               <lb n="9" xml:id="trans-p1-l9"/>From Šahrdēlān it is necessary to pay the money for the affair at the soonest all 5 staters
+               <lb n="10" xml:id="trans-p1-l10"/>in addition 5 grīw of wheat to be given to Šahrdēlān (and) afterwards persistently whenever Šahrdēlān asks for wheat
+               <lb n="11" xml:id="trans-p1-l11"/>according to the actual agreement of the quarrel (wheat) is to be given to Šahrdēlān. If I act but a little bit otherwise
+               <lb n="12" xml:id="trans-p1-l12"/>an additional compensation of 3 staters worth to be given to Šahrdēlān, Wahman together
+               <lb n="13" xml:id="trans-p1-l13"/>with Šahrdēlān is to make an agreement that this which has been spoken exactly arrives at (its) rectification
+               <lb n="14-15" xml:id="trans-p1-l14-15"/>and a copy is to be acquired so that you should not become angry when it will be not earlier than day Ābān (10th day) and day Wahrām (20th day) and together with Ērāngušnasp it was determined when the matter is due with your
+               <lb n="16" xml:id="trans-p1-l16"/>seal, there is a decision with you on everything of the quotaNote of the recompense.
+               <lb n="17" xml:id="trans-p1-l17"/>And Ērāngušnasp and that Bōxt said “right” and Wazurgummēd and those who stayed (line 18) nearby.
+               <lb n="18" xml:id="trans-p1-l18"/>And Ērāngušnasp declared this month Amurdād in the year
+               <lb n="19" xml:id="trans-p1-l19"/>106 and day Wahman I affirmed (line 20) money worth of 5 staters in silver as support of
+               <lb n="20" xml:id="trans-p1-l20"/>Šahrdēlān that Bōxt from Šahrdēlān of the same district on the whole as
+               <lb n="21" xml:id="trans-p1-l21"/>Bōxt has spoken he made an agreement even that little on which is to be spoken by Bōxt
+               <lb n="22" xml:id="trans-p1-l22"/>then he should write and he said so (confirmed it). ◯ C And this document with the seal of the *copy office
+               <lb n="23" xml:id="trans-p1-l23"/>of Mihrīg with the responsibility of the same district of the chief of the service (of the residence) and also of the same district of
+               <lb n="24" xml:id="trans-p1-l24"/>the »Hazelnut Grove(s)«. Therefore he demanded seeds and even more seeds forcefully
+               <lb n="25" xml:id="trans-p1-l25"/>and Wazurgummēd and the scribe of the Raz (wine) village (woth) the seal of Farroxzād
+               <lb n="26" xml:id="trans-p1-l26"/>who made (it) and Ērāngušnasp sealed (it). 
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

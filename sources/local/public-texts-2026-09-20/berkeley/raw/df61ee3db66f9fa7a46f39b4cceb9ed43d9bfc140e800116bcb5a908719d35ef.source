@@ -1,0 +1,154 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0075" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0075 / Berk. 70</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0075 / Berk. 70.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_2010a">
+                  <biblScope unit="page">104-105</biblScope>
+                  <note>The first edition of Berk. 70.</note>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 70</idno>
+                  <idno type="siglum">Berk. 70</idno>
+                  <idno type="OpenAMPD">MP0075</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">9.5 cm</height>
+                              <width unit="cm">9 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="7">7 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0047-06" calendar="#Pahlavi">Month Šahrewar, 47 PY</date>
+            <date when="0698-10" calendar="#Julian">January-February, 698 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85288-70.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0075_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>dʾṭynwndʾṭ MN ẔK Y ʿL bwn'
+               <lb n="2" xml:id="trl-p1-l2"/>ẔNH BYRḤ šṭrywr Y
+               <lb n="3" xml:id="trl-p1-l3"/>ŠNṬ 40-4-3 lwcy[k] Y
+               <lb n="4" xml:id="trl-p1-l4"/>kwlṭ dwhṭ' lʾd nmhkswṭ'
+               <lb n="4bis" xml:id="trl-p1-l4bis"/>ḤLYʾ krṭk
+               <lb n="5" xml:id="trl-p1-l5"/>Y BSWLYʾ-10-5 krṭk
+               <lb n="6" xml:id="trl-p1-l6"/>ʿL kwlṭdwhṭ' YḤBWNṭ' ck'
+               <lb n="7" xml:id="trl-p1-l7"/>plʾd ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0075_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Dādēn-vindād az ān ī ō bun
+               <lb n="2" xml:id="trc-p1-l2"/>ēn māh Šahrewar ī
+               <lb n="3" xml:id="trc-p1-l3"/>sāl 47 rōzīg ī
+               <lb n="4" xml:id="trc-p1-l4"/>Kurd-duxt rāy namak-sūd
+               <lb n="4bis" xml:id="trc-p1-l4bis"/>sik kardag
+               <lb n="5" xml:id="trc-p1-l5"/>ī gōšt 15 kardag
+               <lb n="6" xml:id="trc-p1-l6"/>ō Kurd-duxt dād čak
+               <lb n="7" xml:id="trc-p1-l7"/>Frāy awišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP0075_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Dādēnvindād, à partir de ce qu'(il y a) dans le patrimoine,
+               <lb n="2" xml:id="trans-p1-l2"/>ce mois de Šahrevar de
+               <lb n="3" xml:id="trans-p1-l3"/>l'an 47, pour la ration de
+               <lb n="4" xml:id="trans-p1-l4"/>Kurd-duxt, a remis
+               <lb n="4bis" xml:id="trans-p1-l4bis"/>15 portions
+               <lb n="5" xml:id="trans-p1-l5"/>de viande faites au sel et au vinaigre,
+               <lb n="6" xml:id="trans-p1-l6"/>à Kurd-duxt.
+               <lb n="7" xml:id="trans-p1-l7"/>Frāy a scellé le document.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

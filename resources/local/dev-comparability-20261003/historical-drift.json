@@ -1,0 +1,441 @@
+{
+  "historical_source_pins": {
+    "experiments/dev-diagnostic-20260927/reviews.jsonl": "39cdcc239660f659a3c5fdb4b332dc44163fd5e7f7ee69121bbf1c3a7baefb56",
+    "experiments/dev-assisted-qualified-20260927/blind-comparison/lead-only/mapping.jsonl": "310c1ebbdcfad7bad9ea2c22ad3807f2010c3efa53e3850f336da125f4957f0b",
+    "experiments/dev-assisted-qualified-20260927/blind-comparison/reviewer-A/reviews.jsonl": "4e89104f4f26e0f40010add2cf0e04f1f8d219f19a8a22475ad5baf5abc4f2e6",
+    "experiments/dev-assisted-qualified-20260927/blind-comparison/reviewer-B/reviews.jsonl": "55ff464d3d192ab5ea56637d044a19dcb2f96d0db33a6002f7e46ff9f60e413f",
+    "experiments/corrected-review-20260930/lead-only/mapping.jsonl": "e31f0b329b669a9127f139f0fa2b9843b78646931ff50c029c4a954d723b1039",
+    "experiments/corrected-review-20260930/reviewer-A/reviews.jsonl": "2e7ed7c70c4c7a2cda61bf9c7a6c14c41ffb9f7cb39594b755654aa026b1e2d0",
+    "experiments/corrected-review-20260930/reviewer-B/reviews.jsonl": "71c3d8792c60f6fbfc2c89efcf631c0d65331a7bf29264f0310a62eb7880425e",
+    "experiments/dose-acquisition-20260930/live-execution/blind-mapping.json": "a5ac16b2ba43b5c6a4c1eddfb9b2cdd36f78c9bcdde77e88a4388e4a7e436c42",
+    "experiments/dose-acquisition-20260930/live-execution/reviewer-a.jsonl": "781f0805b03c50da4a54774ee5dec1a3058b4dff9f7464865722b4db7512e21c",
+    "experiments/dose-acquisition-20260930/live-execution/reviewer-b.jsonl": "64d94d7571358c02076fde42e43d387476e845b5649092ae048b3fbb523d600f"
+  },
+  "historical_memberships": 270,
+  "comparisons": 540,
+  "changed_comparisons": 86,
+  "old_counts": [
+    {
+      "panel": "assisted",
+      "reviewer": "A",
+      "arm": "step280_assisted",
+      "denominator": 15,
+      "counts": {
+        "meaning_error": 6,
+        "accepted": 3,
+        "critical_error": 6
+      }
+    },
+    {
+      "panel": "assisted",
+      "reviewer": "A",
+      "arm": "step280_plain",
+      "denominator": 15,
+      "counts": {
+        "meaning_error": 10,
+        "accepted": 1,
+        "critical_error": 3,
+        "uncertain": 1
+      }
+    },
+    {
+      "panel": "assisted",
+      "reviewer": "B",
+      "arm": "step280_assisted",
+      "denominator": 15,
+      "counts": {
+        "meaning_error": 5,
+        "critical_error": 5,
+        "uncertain": 2,
+        "accepted": 3
+      }
+    },
+    {
+      "panel": "assisted",
+      "reviewer": "B",
+      "arm": "step280_plain",
+      "denominator": 15,
+      "counts": {
+        "critical_error": 4,
+        "meaning_error": 10,
+        "accepted": 1
+      }
+    },
+    {
+      "panel": "corrected",
+      "reviewer": "A",
+      "arm": "corrected96",
+      "denominator": 15,
+      "counts": {
+        "accepted": 2,
+        "critical_error": 4,
+        "meaning_error": 9
+      }
+    },
+    {
+      "panel": "corrected",
+      "reviewer": "A",
+      "arm": "mixed96",
+      "denominator": 15,
+      "counts": {
+        "critical_error": 7,
+        "meaning_error": 7,
+        "accepted": 1
+      }
+    },
+    {
+      "panel": "corrected",
+      "reviewer": "A",
+      "arm": "step280_plain",
+      "denominator": 15,
+      "counts": {
+        "meaning_error": 10,
+        "critical_error": 4,
+        "accepted": 1
+      }
+    },
+    {
+      "panel": "corrected",
+      "reviewer": "B",
+      "arm": "corrected96",
+      "denominator": 15,
+      "counts": {
+        "meaning_error": 8,
+        "critical_error": 5,
+        "accepted": 2
+      }
+    },
+    {
+      "panel": "corrected",
+      "reviewer": "B",
+      "arm": "mixed96",
+      "denominator": 15,
+      "counts": {
+        "critical_error": 6,
+        "meaning_error": 8,
+        "accepted": 1
+      }
+    },
+    {
+      "panel": "corrected",
+      "reviewer": "B",
+      "arm": "step280_plain",
+      "denominator": 15,
+      "counts": {
+        "critical_error": 4,
+        "meaning_error": 10,
+        "accepted": 1
+      }
+    },
+    {
+      "panel": "dose",
+      "reviewer": "A",
+      "arm": "dose384_nf4",
+      "denominator": 15,
+      "counts": {
+        "critical_error": 5,
+        "meaning_error": 9,
+        "accepted": 1
+      }
+    },
+    {
+      "panel": "dose",
+      "reviewer": "A",
+      "arm": "dose_baseline_nf4",
+      "denominator": 15,
+      "counts": {
+        "meaning_error": 12,
+        "critical_error": 3
+      }
+    },
+    {
+      "panel": "dose",
+      "reviewer": "B",
+      "arm": "dose384_nf4",
+      "denominator": 15,
+      "counts": {
+        "critical_error": 6,
+        "meaning_error": 8,
+        "accepted": 1
+      }
+    },
+    {
+      "panel": "dose",
+      "reviewer": "B",
+      "arm": "dose_baseline_nf4",
+      "denominator": 15,
+      "counts": {
+        "meaning_error": 11,
+        "critical_error": 4
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_a",
+      "arm": "original_D0",
+      "denominator": 7,
+      "counts": {
+        "meaning_error": 4,
+        "critical_error": 3
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_a",
+      "arm": "original_D1",
+      "denominator": 7,
+      "counts": {
+        "meaning_error": 4,
+        "critical_error": 3
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_a",
+      "arm": "original_D2",
+      "denominator": 7,
+      "counts": {
+        "meaning_error": 3,
+        "critical_error": 2,
+        "accepted": 1,
+        "uncertain": 1
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_a",
+      "arm": "original_D3",
+      "denominator": 7,
+      "counts": {
+        "meaning_error": 3,
+        "critical_error": 2,
+        "accepted": 1,
+        "uncertain": 1
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_b",
+      "arm": "original_D0",
+      "denominator": 8,
+      "counts": {
+        "critical_error": 4,
+        "meaning_error": 4
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_b",
+      "arm": "original_D1",
+      "denominator": 8,
+      "counts": {
+        "critical_error": 5,
+        "meaning_error": 3
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_b",
+      "arm": "original_D2",
+      "denominator": 8,
+      "counts": {
+        "uncertain": 2,
+        "accepted": 2,
+        "meaning_error": 2,
+        "critical_error": 2
+      }
+    },
+    {
+      "panel": "original",
+      "reviewer": "/root/dev_blind_b",
+      "arm": "original_D3",
+      "denominator": 8,
+      "counts": {
+        "critical_error": 2,
+        "accepted": 2,
+        "meaning_error": 4
+      }
+    }
+  ],
+  "new_counts": {
+    "A": {
+      "raw_reviews_sha256": "ec92e76eb42eb4fd4cc3ba0ab73ce9bec00174370716bcdd2a84fda4345aa68c",
+      "counts": {
+        "original_D0": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 7,
+            "uncertain": 1
+          }
+        },
+        "original_D1": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 8
+          }
+        },
+        "original_D2": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 6,
+            "meaning_error": 6,
+            "critical_error": 2,
+            "accepted": 1
+          }
+        },
+        "original_D3": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 3,
+            "uncertain": 3,
+            "accepted": 2
+          }
+        },
+        "step280_plain": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 9,
+            "uncertain": 2,
+            "critical_error": 3,
+            "accepted": 1
+          }
+        },
+        "step280_assisted": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 2,
+            "meaning_error": 5,
+            "accepted": 3,
+            "critical_error": 5
+          }
+        },
+        "mixed96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 6,
+            "uncertain": 1,
+            "accepted": 1
+          }
+        },
+        "corrected96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "critical_error": 4,
+            "uncertain": 1,
+            "accepted": 2
+          }
+        },
+        "dose_baseline_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 4,
+            "meaning_error": 9,
+            "critical_error": 2
+          }
+        },
+        "dose384_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 3,
+            "meaning_error": 5,
+            "accepted": 1,
+            "critical_error": 6
+          }
+        }
+      }
+    },
+    "B": {
+      "raw_reviews_sha256": "08cae5f298015037739a0109583676a0f86a3ad02d301c0c3707f62e8cd9db82",
+      "counts": {
+        "original_D0": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "critical_error": 7
+          }
+        },
+        "original_D1": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "critical_error": 7
+          }
+        },
+        "original_D2": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 4,
+            "meaning_error": 7,
+            "critical_error": 2,
+            "accepted": 2
+          }
+        },
+        "original_D3": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 9,
+            "uncertain": 1,
+            "critical_error": 2,
+            "accepted": 3
+          }
+        },
+        "step280_plain": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 10,
+            "critical_error": 3,
+            "accepted": 2
+          }
+        },
+        "step280_assisted": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "accepted": 3,
+            "critical_error": 4,
+            "uncertain": 1
+          }
+        },
+        "mixed96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 9,
+            "critical_error": 5,
+            "accepted": 1
+          }
+        },
+        "corrected96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 11,
+            "critical_error": 2,
+            "accepted": 2
+          }
+        },
+        "dose_baseline_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 11,
+            "critical_error": 3,
+            "accepted": 1
+          }
+        },
+        "dose384_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "accepted": 1,
+            "critical_error": 5,
+            "uncertain": 1
+          }
+        }
+      }
+    }
+  },
+  "warning": "Comparisons count each historical label against both new raters; not independent observations or a temporal improvement measure."
+}

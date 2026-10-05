@@ -1,0 +1,131 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2561" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2561 / P.Pehl. 562</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>Initial edition, TEI design and encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition MP2561 / P.Pehl. 562.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Zeini_2016">
+                  <biblScope unit="page">39–52</biblScope>
+                  <note>The first edition of P.Pehl. 562.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Russia</country>
+                  <institution>St. Petersburg (Originally Papyrussammlung, Österreichische Nationalbibliothek)</institution>
+                  <idno type="shelfmark">P.Pehl. 562 / 451</idno>
+                  <idno type="siglum">P.Pehl. 562</idno>
+                  <idno type="OpenAMPD">MP2561</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">10</height>
+                              <width unit="cm">18</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure type="recto" unit="lines" quantity="4">4 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <p/>
+                     </layoutDesc>-->
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <!-- Base URL and IIIF information currently unknown -->
+            <!-- 
+                <prefixDef ident="egypt"
+                    matchPattern="(.+)"
+                    replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+                    <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+                </prefixDef> -->
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="corpus">Egypt</term>
+               <term type="tag">Private</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p>Fragment of a letter regarding writing of a letter and scribes.</p>
+         </particDesc>
+         <settingDesc>
+            <p>Location unknown.</p>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <!-- <date when="" calendar="#Julian"></date>-->
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb n="1" xml:id="pb-1r-trl"/><!-- Add later facs="egypt:UNKNOWN" -->
+            <ab xml:id="MP2561_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>MRʿḤ <unclear reason="illegible" extent="1 word"/> <damage extent="1word"/>WNty <unclear reason="illegible" extent="1 word"/>
+               <lb n="2" xml:id="trl-p1-l2"/>PWN ʾlcʾnyk[yh] YḤWWNyt ʾwgwn ʾwbš
+               <lb n="3" xml:id="trl-p1-l3"/>ʾy pldcytˈ ʾYK PWN hwtwhšʾn ʿL L
+               <lb n="4" xml:id="trl-p1-l4"/>nʾmkˈ ʿḆYDWNty MRʿḤ ZK Y MŠLWNty
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2561_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>xwadāy <unclear reason="illegible" extent="1 word"/> <damage extent="1word"/>ēd <unclear reason="illegible" extent="1 word"/>
+               <lb n="2" xml:id="trc-p1-l2"/>pad arzānīg[īh] bawēd ōwōn awiš
+               <lb n="3" xml:id="trc-p1-l3"/>ē pardazēd kū pad hutuxšān ō man
+               <lb n="4" xml:id="trc-p1-l4"/>nāmag kunēd xwadāy ān ī čīnēd
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP2561_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Sir! <unclear reason="illegible" extent="1 word"/> <lb n="2" xml:id="trans-p1-l2"/>(if) it is in accordance with the value. So, <lb n="3–4" xml:id="trans-p1-l3-4"/> concerning that you may ensure that you write a letter to me by means of the scribes. Sir! That which he collects ...
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,17 @@
+# Dictionary comparison: submitted
+
+3 October 2026, 12:52:39 America/Halifax (15:52:39 UTC).
+
+Hugging Face accepted one submission of [job 6ac124c7fbc85ba68237d56f](https://huggingface.co/jobs/Mojionix/6ac124c7fbc85ba68237d56f). It reached RUNNING at 12:54:06 America/Halifax (15:54:06 UTC); startup logs verify the bootstrap inputs and show dependency installation. Model loading, GPU canary and translation outputs are not yet verified. This is inference on the retained Gemma4 31B step280 checkpoint: 15 DEV passages, dictionary off/on, 30 first outputs. No optimizer or new training. The independent local launch critic verified all pins, same-ID reconstruction and the real SDK serializer. Existing frozen previews/reviews remain unchanged.
+
+Execution mode: Classic + Critic, with Main as sole execution owner and the distinct dictionary_launch_critic agent performing the bounded read-only local admission review. Its PASS covered the pinned local boundary, not live provider behavior or linguistic quality.
+
+The user's "go ahed" directly follows the exact USD5.01 / 120-minute proposal and supersedes the preceding local-only hold for this single job. Subsequent efficiency steering means early completion when the outputs and persistence finish; it does not expand spending or admit another job. Active polling ends at the long-job handoff to preserve Codex tokens.
+
+Fresh authenticated billing showed USD18.03 available and automatic recharge unset. Displayed Jobs usage was USD1.38 this period plus USD31.11 in the preceding period, USD32.49 combined; these are rounded account observations, not per-job invoices. Prior funding exceptions and this new single-job allowance do not erase cumulative spending or permit automatic recharge. The current funded balance covers USD5.01 compute plus USD0.75 noncompute reserve. At 41667 microUSD/minute, the 120-minute maximum compute estimate is USD5.00004; actual compute stops earlier when finished. This is not a guarantee covering every possible account charge.
+
+No jobs were active, no identity matched, the bucket remained private and the new output prefix was empty before submission. Only the frozen 158719-byte source-only input file was uploaded; its readback matches SHA256 3b4eb9298882868bf197cd45c8144704f9d5522b394e3f2296624a28d4809c76. Reused package and small retained records were independently downloaded and rehashed. Adapter inventory was 489840816 bytes, matching the retained manifest; no model weights were downloaded locally. Two local field-name assumptions were corrected before submission, with no paid job or reviewed runtime change.
+
+Evidence: `live-inventory.json`, `staging-verification.json`, the exclusive `submission-claim.json`, `provider-receipt.json`, and `startup-observation.json`. The claim existed before the single POST. The provider returned the exact reviewed command, flavor and trial identity. No automatic retry or top-up.
+
+Next recover only the exact job's closed manifest and bounded small artifacts; independently verify inventory, bytes/hashes, all 30 first attempts, token/text replay and retained identity. Then use the reviewed scorer and two separate blinded reviews with the unchanged semantic merit. Any failed/capped/missing attempt makes the primary comparison inconclusive. Familiar DEV results do not establish unseen generalization. No promotion or retraining before the result and next decision review.

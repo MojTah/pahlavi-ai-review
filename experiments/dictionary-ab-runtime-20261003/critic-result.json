@@ -1,0 +1,18 @@
+{
+  "critic_id": "/root/dictionary_runtime_critic",
+  "verdict": "PASS_LOCAL_ONLY",
+  "reviewed_at_utc": "2026-10-03T13:51:00Z",
+  "model": "inherited settings; actual served identifier unverified",
+  "runner_suite": {"tests": 15, "seconds": 45.341, "status": "PASS"},
+  "wrapper_suite": {"tests": 5, "seconds": 2.512, "status": "PASS"},
+  "extra_CPU_cases": ["intact EOS abstention", "4096 output tokens ending EOS", "changed input prefix", "global deadline"],
+  "source_sha256": {
+    "cloud_pilot/hf_component.py": "e4037fc0e21c959c54acf2acca0df074770ae662412cd6c7dda4c828cfb96525",
+    "cloud_pilot/component_eval.py": "125840c0f45dd267be058317a1f4352b45f55ffdbfeee2053cb64d9174530e9e",
+    "tests/test_hf_dictionary_wrapper.py": "81c3c2a92a07b9685454e7b883310d09fdbd5512820e3672068ead1dcb5aa27a",
+    "tests/test_dictionary_ab_runner.py": "86b5090806db46f9a8b5fcfe929cb2f7d4b1c394aa54995e15de9304738fea85"
+  },
+  "writes": "own OS Temp only; no shared changes",
+  "not_exercised": ["GPU", "Linux signals", "provider timeout/shutdown", "funding/billing", "independent remote durability"],
+  "paid_launch": "HOLD"
+}

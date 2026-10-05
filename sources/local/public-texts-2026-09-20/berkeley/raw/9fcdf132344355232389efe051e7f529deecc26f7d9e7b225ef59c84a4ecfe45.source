@@ -1,0 +1,190 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0076" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0076 / Berk. 71</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0076 / Berk. 71.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_2010c">
+                  <biblScope unit="page">114-115</biblScope>
+                  <note>The first edition of Berk. 71.</note>
+               </bibl>
+               <bibl corresp="#Weber_2023">
+                  <biblScope unit="page">150-151</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 71</idno>
+                  <idno type="siglum">Berk. 71</idno>
+                  <idno type="OpenAMPD">MP0076</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">13 cm</height>
+                              <width unit="cm">6.5 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="13">13 lines, plus 5 lines perpendicular to text.</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="---15" calendar="#Pahlavi">Day pad Mihr</date>
+            <date when-custom="undated" calendar="#Julian">15th of the month in the Post-Yazdgird era</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85290-71.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0076_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>dʾṭynwndʾṭ ẔNH
+               <lb n="2" xml:id="trl-p1-l2"/>ddw' PWN mṭr'
+               <lb n="3" xml:id="trl-p1-l3"/>ŠG K-#II SWSYʾ
+               <lb n="4" xml:id="trl-p1-l4"/>(ẔK Y) syʾlʾn
+               <lb n="5" xml:id="trl-p1-l5"/>YḤBWNṭ'
+               <lb n="6" xml:id="trl-p1-l6"/>YWM mṭr'
+               <lb n="7" xml:id="trl-p1-l7"/>spʾlk
+               <lb n="8" xml:id="trl-p1-l8"/>ʾsṭl Y
+               <lb n="9" xml:id="trl-p1-l9"/>ʾṭwrdʾṭ' ʾlṭ (?)[
+               <lb n="10" xml:id="trl-p1-l10"/>ŠG K-#I
+               <lb n="11" xml:id="trl-p1-l11"/>whʾk ... (line 12 torn off)
+            </ab>
+            <ab xml:id="MP0076_trl-p2">
+               <addSpan place="top" spanTo="#trl-p2-l5" style="writing-mode: sideways-rl"/>
+               <lb n="1" xml:id="trl-p2-l1"/>(above, vertically)SWSYʾ Y
+               <lb n="2" xml:id="trl-p2-l2"/>plhwzʾṭ'
+               <lb n="3" xml:id="trl-p2-l3"/>YWM mṭr'
+               <lb n="4" xml:id="trl-p2-l4"/>spʾlk'
+               <lb n="5" xml:id="trl-p2-l5"/>K-#II
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0076_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Dādēnwindād ēn
+               <lb n="2" xml:id="trc-p1-l2"/>Day pad Mihr
+               <lb n="3" xml:id="trc-p1-l3"/>ǰaw k(abīz) 2 asp
+               <lb n="4" xml:id="trc-p1-l4"/>(ān ī) syārān
+               <lb n="5" xml:id="trc-p1-l5"/>dād
+               <lb n="6" xml:id="trc-p1-l6"/>rōz Mihr
+               <lb n="7" xml:id="trc-p1-l7"/>spārag
+               <lb n="8" xml:id="trc-p1-l8"/>astar ī
+               <lb n="9" xml:id="trc-p1-l9"/>Ādurdād ārd (?)[
+               <lb n="10" xml:id="trc-p1-l10"/>ǰaw k(abīz) 1
+               <lb n="11" xml:id="trc-p1-l11"/>wahāg...
+            </ab>
+            <ab xml:id="MP0076_trc-p2">
+               <addSpan place="top" spanTo="#trc-p2-l5" style="writing-mode: sideways-rl"/>
+               <lb n="1" xml:id="trc-p2-l1"/>asp ī
+               <lb n="2" xml:id="trc-p2-l2"/>Farroxzād
+               <lb n="3" xml:id="trc-p2-l3"/>rōz Mihr
+               <lb n="4" xml:id="trc-p2-l4"/>spārag
+               <lb n="5" xml:id="trc-p2-l5"/>k(abīz) 2
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0076_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Dādēnwindād this
+               <lb n="2" xml:id="trans-p1-l2"/>(day) Day pad Mihr (15th day)
+               <lb n="3" xml:id="trans-p1-l3"/>2 kabīz of barley horse
+               <lb n="4" xml:id="trans-p1-l4"/>that one with black legs
+               <lb n="5" xml:id="trans-p1-l5"/>is to give
+               <lb n="6" xml:id="trans-p1-l6"/>(and) day Mihr (16th day)
+               <lb n="7" xml:id="trans-p1-l7"/>(actually) binding
+               <lb n="8" xml:id="trans-p1-l8"/>mule of
+               <lb n="9" xml:id="trans-p1-l9"/>Ādurdād flour (?)
+               <lb n="10" xml:id="trans-p1-l10"/>1 kabīz of barley
+               <lb n="11" xml:id="trans-p1-l11"/>and .... 
+            </ab>
+            <ab xml:id="MP0076_trans-p2">
+               <addSpan place="top" spanTo="#trans-p2-l5" style="writing-mode: sideways-rl"/>
+               <lb n="1" xml:id="trans-p2-l1"/>Horse of
+               <lb n="2" xml:id="trans-p2-l2"/>Farroxzād
+               <lb n="3" xml:id="trans-p2-l3"/>on day Mihr (16th day)
+               <lb n="4" xml:id="trans-p2-l4"/>(actually) binding
+               <lb n="5" xml:id="trans-p2-l5"/>2 kabīz.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

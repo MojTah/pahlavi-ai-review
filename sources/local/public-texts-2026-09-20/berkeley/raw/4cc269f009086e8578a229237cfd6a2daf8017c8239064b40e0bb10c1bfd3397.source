@@ -1,0 +1,144 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0038" type="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MP0038 / Berk. 37</title>
+                <funder>Adam Benkato / UC Berkeley</funder>
+                <respStmt xml:id="DW">
+                    <persName>Dieter Weber</persName>
+                    <resp>Initial edition</resp>
+                </respStmt>
+                <respStmt xml:id="AB">
+                    <persName>Adam Benkato</persName>
+                    <resp>Document preparation and TEI encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AZ">
+                    <persName>Arash Zeini</persName>
+                    <resp>TEI design and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First online OpenAMPD edition of MP0038 / Berk. 37.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <head>Previous edition(s):</head>
+                    <bibl corresp="#Weber_2012">
+                        <biblScope unit="page">62–64</biblScope>
+                        <note>The first edition of Berk. 37.</note>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country>
+                        <institution>University of California, Berkeley, Bancroft Library</institution>
+                        <idno type="shelfmark">Pahlavi Archive 37</idno>
+                        <idno type="siglum">Berk. 37</idno>
+                        <idno type="OpenAMPD">MP0038</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="document">
+                            <supportDesc material="parchment">
+                                <support>
+                                    <material>Parchment</material>
+                                    <dimensions>
+                                        <height unit="cm">18.5</height>
+                                        <width unit="cm">13.5</width>
+                                    </dimensions>
+                                </support>
+                                <extent>
+                                    <measure unit="lines" type="recto" quantity="10">10 lines</measure>
+                                </extent>
+                            </supportDesc>
+                     <!-- Use this if required to describe damage, missing text, etc.-->
+                     <!--<layoutDesc>
+                        <p>This is a vertical rectangle.</p>
+                     </layoutDesc>-->
+                        </objectDesc>
+                        <additions>
+                            Bulla(e): Top left; bears three impressions.
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+                    <p>Bibliographical information is stored in the bibliography.xml file.</p>
+                </prefixDef>
+                <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+                    <p>Information about person in the documents is stored in the people.xml file.</p>
+                </prefixDef>
+                <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+                    <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="DocType">Receipt</term>
+                    <term type="corpus">Central Iran</term>
+                    <term type="tag">Economic</term>
+                </keywords>
+            </textClass>
+            <calendarDesc>
+                <calendar xml:id="Pahlavi">
+                    <p>Post-Yazdgird era (PY)</p>
+                </calendar>
+                <calendar xml:id="Julian">
+                    <p>Julian calendar (CE)</p>
+                </calendar>
+            </calendarDesc>
+            <particDesc>
+                <p>Current reading does not indicate personal names.</p>
+            </particDesc>
+            <settingDesc>
+                <p>Location unknown. According to Weber, the document seems to contain a list of (fortified) places or cities and their duties.</p>
+            </settingDesc>
+            <creation>
+                <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+                <!-- <date when="" calendar="#Julian"></date>-->
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transliteration" xml:lang="pal">
+                <pb xml:id="pb-1r-trl" facs="berkeley:recid:85252-37.recto_ii.jpg/full/full/0/default.jpg"/>
+                <ab xml:id="MP0038_trl-p1">
+                    <lb n="1" xml:id="trl-p1-l1"/>dcyhʾ MNW B-ʾsʾdsnˈ pt-s ʾp̄ʾytˈ krtnˈ A
+                    <lb n="2" xml:id="trl-p1-l2"/>III-C-$$$$-X-M ẔWẔN <pc>○</pc> B kwstˈ Y zplʾnkˈ II-C-HII-M <supplied resp="#DW">ẔWẔN</supplied>
+                    <lb n="3" xml:id="trl-p1-l3"/><pc>○</pc> C slṭwydy I-C-$$$$-II-M ẔWẔN <pc>○</pc> D gyʾh
+                    <lb n="4" xml:id="trl-p1-l4"/>II-C-$-X-M ẔWẔN <pc>○</pc> E wglʾtkˈ II-C-M ẔWẔN <pc>○</pc>
+                    <lb n="5" xml:id="trl-p1-l5"/>F ʾp̄lstkˈ $$$$-M ẔWẔN <pc>○</pc> G hcʾn(?) $$$$-M ẔWẔN
+                    <lb n="6" xml:id="trl-p1-l6"/><pc>○</pc> H klmʾl I-C-$$$$-X-M ẔWẔN <pc>○</pc> I ...
+                    <lb n="7" xml:id="trl-p1-l7"/><pc>○</pc> J I-C-X-III-II-M ẔWẔN <pc>○</pc> K bwlʾnlʾnyk[ˈ](?)
+                    <lb n="8" xml:id="trl-p1-l8"/>I-C-2-X-I-M ẔWẔN <pc>○</pc> L klmʾlkˈ $$$$-X-M ẔWẔN
+                    <lb n="9" xml:id="trl-p1-l9"/><pc>○</pc> M I-C-M ẔWẔN <pc>○</pc> N ʾp̄ʾnˈ I-C-X-III-M ẔWẔN <pc>○</pc>
+                    <addSpan place="left" spanTo="#trl-p1-l10" style="writing-mode: sideways-rl"/>
+                        <lb n="11" xml:id="trl-p1-l11"/>wylʾstkˈ PWN
+                        <lb n="12" xml:id="trl-p1-l12"/>$$-XIIIII-M
+                        <lb n="13" xml:id="trl-p1-l13"/>nʾpʾnˈ
+                        <lb n="14" xml:id="trl-p1-l14"/>IIIII (?)
+                    <lb n="10" xml:id="trl-p1-l10"/><pc>○</pc> O klykˈ(?) $$$$-X-III-II-M ẔWẔN <pc>○</pc>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <ab xml:id="MP0038_trans-p1">
+                    <lb n="1-4" xml:id="trans-p1-l1-4"/>Cities (fortified places) for which it is necessary to put into the dépôt (revenue office): A 390,000 drahm, B Kust ī zafarānag 223,000 <supplied resp="#DW">drahm</supplied>, C slṭwydy 182,000 drahm, D Giyāh 230,000 drahm, E Wigrādag 200,000 drahm,
+                    <lb n="5" xml:id="trans-p1-l5"/>F *Abaraštag 80,000 drahm, G hazzān(?) 80,000 drahm, 
+                    <lb n="6" xml:id="trans-p1-l6"/>H *Karmār 190,000 drahm, I ?, 
+                    <lb n="7" xml:id="trans-p1-l7"/>J 115,000 drahm, K *Bōrānrānīg (?)
+                    <lb n="8" xml:id="trans-p1-l8"/>131,000 drahm, L *Karmārag 90,000 drahm, 
+                    <lb n="9" xml:id="trans-p1-l9"/>M 100,000 drahm, N Ābān 113,000 drahm, 
+                    <lb n="10" xml:id="trans-p1-l10"/>O 95,000 drahm.
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

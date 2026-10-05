@@ -1,0 +1,167 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2051" type="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MP2051 / P.52</title>
+                <funder>Adam Benkato / UC Berkeley</funder>
+                <respStmt xml:id="DW">
+                    <persName>Dieter Weber</persName>
+                    <resp>Initial edition</resp>
+                </respStmt>
+                <respStmt xml:id="AB">
+                    <persName>Adam Benkato</persName>
+                    <resp>Document preparation and TEI encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AZ">
+                    <persName>Arash Zeini</persName>
+                    <resp>TEI design and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First online OpenAMPD edition of MP2051 / P.52.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <head>Previous edition(s):</head>
+                    <bibl corresp="#Weber_1992a">
+                        <biblScope unit="page">156–158</biblScope>
+                        <note>The first edition of P.52.</note>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country>
+                        <institution>The Brooklyn Museum, New York City</institution>
+                        <idno type="accession_number">35.1452</idno>
+                        <idno type="OpenAMPD">MP2051</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="document">
+                            <supportDesc material="papyrus">
+                                <support>
+                                    <material>Papyrus</material>
+                                    <dimensions>
+                                        <height unit="cm">28.2</height>
+                                        <width unit="cm">17.5</width>
+                                    </dimensions>
+                                </support>
+                                <extent>
+                                    <measure type="recto" unit="lines" quantity="13">13 lines</measure>
+                                </extent>
+                            </supportDesc>
+                     <!--<layoutDesc>
+                        <p/>
+                     </layoutDesc>-->
+                        </objectDesc>
+                        <additions>
+                            Catalogue description: Papyrus inscribed on both sides in very massive black. Three fragments with text in Pahlavi. The largest fragment has 13 lines of text. The larger of the two small fragments has 3 lines of text on one side, and 2 on the other. The smallest fragment has 2 lines of text.
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+                    <p>Bibliographical information is stored in the bibliography.xml file.</p>
+                </prefixDef>
+                <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+                    <p>Information about person in the documents is stored in the people.xml file.</p>
+                </prefixDef>
+                <!-- Base URL and IIIF information currently unknown -->
+                <!-- 
+                <prefixDef ident="brooklyn"
+                    matchPattern="(.+)"
+                    replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+                    <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+                </prefixDef> -->
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="DocType">Letter</term>
+                    <term type="corpus">Egypt</term>
+                    <term type="tag"/>
+                </keywords>
+            </textClass>
+            <calendarDesc>
+                <calendar xml:id="Pahlavi">
+                    <p>Post-Yazdgird era (PY)</p>
+                </calendar>
+                <calendar xml:id="Julian">
+                    <p>Julian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <particDesc>
+                <p>Context unclear due to the fragmentary nature of the document.</p>
+            </particDesc>
+            <settingDesc>
+                <p>Location unknown.</p>
+            </settingDesc>
+            <creation>
+                <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+                <!-- <date when="" calendar="#Julian"></date> -->
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transliteration" xml:lang="pal">
+                <pb xml:id="pb-1r-trl"/> <!-- Add later facs="brooklyn:UNKNOWN" -->
+                <ab xml:id="MP2051_trl-p1">
+                    <lb n="1" xml:id="trl-p1-l1"/><damage extent="1 line"/><unclear reason="damage"/><damage extent="unclear"/>
+                    <lb n="2" xml:id="trl-p1-l2"/>ŠḆKWNty dʾštnˈ MH<damage type="tear"/>
+                    <lb n="3" xml:id="trl-p1-l3"/><damage/><unclear reason="illegible" extent="1 word"/> MN CBW YMLLWNṭnˈ Y<damage extent="unclear"/>
+                    <lb n="4" xml:id="trl-p1-l4"/>ʿL L ʾkʾsyh ʾy YḤWWNyt <pc function="section">○</pc> <damage extent="unclear"/><note place="below">MRʿḤ</note>
+                    <lb n="5" xml:id="trl-p1-l5"/>dwšʾlmyh <unclear reason="illegible" extent="2 words"/>tny<damage extent="unclear"/>
+                    <lb n="6" xml:id="trl-p1-l6"/>Y MRʿḤ scšnyk <damage extent="unclear"/>
+                    <lb n="7" xml:id="trl-p1-l7"/>Y ʾMT L(Ṭ)MH YMṬ <unclear reason="illegible" extent="1 word">m</unclear> <damage extent="unclear"/>
+                    <lb n="8" xml:id="trl-p1-l8"/><unclear reason="illegible"/>WNʾtˈ mtˈ ẔK <damage extent="unclear"/>
+                    <lb n="9" xml:id="trl-p1-l9"/><unclear reason="faded"/>ytˈ pṭˈ cnd <damage extent="unclear"/>
+                    <lb n="10" xml:id="trl-p1-l10"/>ʿL L ʾkʾ<unclear>syh</unclear> ʾy YḤWWN.<damage extent="unclear"/>
+                    <lb n="11" xml:id="trl-p1-l11"/>ʿL L <unclear reason="illegible">m</unclear><damage extent="1 word" type="torn"/> YḤWWNm <damage extent="unclear"/>
+                    <lb n="12" xml:id="trl-p1-l12"/>ʾsym <unclear reason="illegible" extent="several words"/><damage extent="unclear"/>
+                    <lb n="13" xml:id="trl-p1-l13"/><damage extent="1 line"/>
+                </ab>
+            </div>
+            <div type="transcription" xml:lang="pal">
+                <ab xml:id="MP2051_trc-p1">
+                    <lb n="1" xml:id="trc-p1-l1"/><damage extent="1 line"/><unclear reason="damage"/><damage extent="end of line"/>
+                    <lb n="2" xml:id="trc-p1-l2"/>hilēd dāštan čē<damage type="tear"/>
+                    <lb n="3" xml:id="trc-p1-l3"/><damage/><unclear reason="illegible" extent="1 word"/> az xīr guftan ī<damage extent="end of line"/>
+                    <lb n="4" xml:id="trc-p1-l4"/>ō man āgāhīh ē bawēd <pc function="section">○</pc> <damage extent="unclear"/><note place="below">xwadāy</note>
+                    <lb n="5" xml:id="trc-p1-l5"/>dōšāramih <unclear reason="illegible" extent="2 words"/><damage extent="unclear"/>
+                    <lb n="6" xml:id="trc-p1-l6"/>ī xwadāy sazišnīg <damage extent="unclear"/>
+                    <lb n="7" xml:id="trc-p1-l7"/>ī ka ēdar <unclear reason="illegible" extent="1 word">ēm</unclear><damage extent="unclear"/>
+                    <lb n="8" xml:id="trc-p1-l8"/><unclear reason="illegible"/>ād mih ān <damage extent="unclear"/>
+                    <lb n="9" xml:id="trc-p1-l9"/><unclear reason="faded"/>ēd pad čand <damage extent="unclear"/>
+                    <lb n="10" xml:id="trc-p1-l10"/>ō man āgā<unclear>hīh</unclear> ē baw<damage extent="unclear"/>
+                    <lb n="11" xml:id="trc-p1-l11"/>ō man <unclear reason="illegible">m</unclear><damage extent="1 word" type="torn"/> bawēm <damage extent="unclear"/>
+                    <lb n="12" xml:id="trc-p1-l12"/>asēm <unclear reason="illegible" extent="several words"/><damage extent="unclear"/>
+                    <lb n="13" xml:id="trc-p1-l13"/><damage extent="1 line"/>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="de">
+                <ab xml:id="MP2051_trans-p1">
+                    <lb n="1" xml:id="trans-p1-l1"/><damage extent="1 line"/><unclear reason="damage"/><damage extent="end of line"/>
+                    <lb n="2" xml:id="trans-p1-l2"/>man läßt zu behalten was<damage extent="unclear"/>
+                    <lb n="3" xml:id="trans-p1-l3"/><damage/><unclear reason="illegible" extent="1 word"/>von der Sache zu sprechen <damage extent="unclear"/>
+                    <lb n="4" xml:id="trans-p1-l4"/>mir soll zur Kenntnis werden <pc function="section">○</pc> <note place="below">Herr</note>
+                    <lb n="5" xml:id="trans-p1-l5"/>Liebe <unclear reason="illegible" extent="2 words"/><damage extent="unclear"/>
+                    <lb n="6" xml:id="trans-p1-l6"/>des Herrn geziemend? <damage extent="unclear"/>
+                    <lb n="7" xml:id="trans-p1-l7"/> ... wenn ich hier <unclear reason="illegible" extent="1 word"/><damage extent="unclear"/>
+                    <lb n="8" xml:id="trans-p1-l8"/><unclear reason="illegible"/> falsch jenes <damage extent="unclear"/>
+                    <lb n="9" xml:id="trans-p1-l9"/><unclear reason="faded"/> für so viel(e) <damage extent="unclear"/>
+                    <lb n="10" xml:id="trans-p1-l10"/>mir soll zur Kenntnis werden <damage extent="unclear"/>
+                    <lb n="11" xml:id="trans-p1-l11"/>mir <unclear reason="illegible"/> soll ich werden <damage extent="unclear"/>
+                    <lb n="12" xml:id="trans-p1-l12"/>Silber <unclear reason="illegible" extent="several words"/><damage extent="unclear"/>
+                    <lb n="13" xml:id="trans-p1-l13"/><damage extent="1 line"/>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

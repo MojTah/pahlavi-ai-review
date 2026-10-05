@@ -1,0 +1,19 @@
+{
+  "review_id": "A008",
+  "output_sha256": "d7cc2f3f915fe24ba3958018f98630afe39d357bb0bdf971d45372af19ce00c4",
+  "judgment": "uncertain",
+  "categories": {
+    "lexical_meaning": "uncertain",
+    "grammatical_roles": "uncertain",
+    "negation_modality": "not_applicable",
+    "names": "pass",
+    "numbers_quantities": "not_applicable",
+    "omissions": "uncertain",
+    "unsupported_additions": "pass",
+    "source_uncertainty": "uncertain"
+  },
+  "supported_span_severity": "uncertain",
+  "unknown_span_handling": "uncertain",
+  "reason": "The three commanders and Khorasan, Khwarwaran and Nimruz are retained. The unglossed همگ‌زوهর and its attachment to سپاهبد do not securely convey the supplied hamazor solidarity formula; the mixed-script spelling is not itself treated as a substantive error.",
+  "output_span": "سپاهبدِ همگ‌زوهর خراسان"
+}

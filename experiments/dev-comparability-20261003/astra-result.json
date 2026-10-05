@@ -1,0 +1,12 @@
+{
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "review_turn": "01a10133-afc4-7593-903e-ce9c7ad83bcf",
+  "model_requested": "gpt-6-astra; existing effort unchanged; served identifier not independently verified",
+  "verdict": "PASS_LOCAL_CHECKPOINT_AND_NEXT_QUESTION",
+  "paid_launch": "HOLD",
+  "response_file": "astra-result.txt",
+  "response_sha256": "c70fc5226b273c1a5c58bea03ab3635babf2979034605d0765a9e5803993afea",
+  "checks": "28pins; three actual checks; five summaries reproduced byte-identically with writes intercepted; both143reviews validated",
+  "required_refinements": "all30technically valid before semantic gate; deadlines/runner/recovery; exact cross-work mapping; completed versus missing prerequisites",
+  "integrated_into": "execution-requirements.json; REPORT.md; reviewed specimen unchanged"
+}

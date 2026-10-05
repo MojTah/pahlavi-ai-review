@@ -1,0 +1,152 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0045" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0045 / Berk. 43B</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0045 / Berk. 43B.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_2014b">
+                  <biblScope unit="page">133</biblScope>
+                  <note>The first edition of Berk. 43B.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 43B</idno>
+                  <idno type="siglum">Berk. 43B</idno>
+                  <idno type="OpenAMPD">MP0045</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">12 cm</height>
+                              <width unit="cm">9 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="8">8 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bulla is at lower right.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0048-03" calendar="#Pahlavi">Month Hordād, [48 PY]</date>
+            <date when="0699-08" calendar="#Julian">August-September, 699 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85258-43B.recto.1_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0045_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/><supplied resp="#DW">bhṭybʾl</supplied> Y PWN dsṭkr[ṭ' dʾl]yk
+               <lb n="2" xml:id="trl-p1-l2"/><gap extent="several words" reason="smudge"/> ẔNH BYRḤ hwrdṭ Y (ŠNṬ)
+               <lb n="3" xml:id="trl-p1-l3"/><supplied resp="#DW">$$-IIII-IIII</supplied> ʾMṬ L PWN dsṭkrṭ'
+               <lb n="4" xml:id="trl-p1-l4"/>Y wndʾṭbwlcm(ṭ)rʾp̄ʾṭ' YḤWWN(ṭ)
+               <lb n="5" xml:id="trl-p1-l5"/>Ḥ(WH)m ʾwcyṭ' (W) wndʾṭ' lwd
+               <lb n="6" xml:id="trl-p1-l6"/>LWTḤ L G-$$ K-#III-(IIII) Y b(w)n'
+               <lb n="7" xml:id="trl-p1-l7"/>L kwlʾck ʿL lsykʾn YḤBWN(ṭ')
+               <lb n="8" xml:id="trl-p1-l8"/>ck' kwlṭwy ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0045_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/><supplied resp="#DW">Baxtiyār</supplied> ī pad dastgir[d dār]īg
+               <lb n="2" xml:id="trc-p1-l2"/><gap extent="several words" reason="smudge"/> ēn māh Hordad ī sāl
+               <lb n="3" xml:id="trc-p1-l3"/><supplied resp="#DW">48</supplied> ka man pad dastgird
+               <lb n="4" xml:id="trc-p1-l4"/>ī Windādburzmihr-ābād būd
+               <lb n="5" xml:id="trc-p1-l5"/>hēm uzīd (ud) windād rōy
+               <lb n="6" xml:id="trc-p1-l6"/>abāg man g(rīw) 40 k(abīz) 8 ī bun
+               <lb n="7" xml:id="trc-p1-l7"/>man kulāčag ō rahīgān dād
+               <lb n="8" xml:id="trc-p1-l8"/>čak Kurdōy āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0045_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/><supplied resp="#DW">Baxtiyār</supplied>, the manager of the estate,
+               <lb n="2" xml:id="trans-p1-l2"/><gap extent="several words" reason="smudge"/>, this month Hordad of the year
+               <lb n="3" xml:id="trans-p1-l3"/>(48) when I was on the Estate
+               <lb n="4" xml:id="trans-p1-l4"/>of Windādburzmihr-ābād
+               <lb n="5-6" xml:id="trans-p1-l5-6"/>went out and acquired, with my assistance, 40 grīw 8 kabīz of copper of the bun.
+               <lb n="7" xml:id="trans-p1-l7"/>I gave a small bun (of copper) to the boys.
+               <lb n="8" xml:id="trans-p1-l8"/>Kurdōy sealed the čak.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

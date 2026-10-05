@@ -1,0 +1,151 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0009" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0009 / Berk. 9</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="JW">
+               <persName>Joey Wang</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0009 / Berk. 9.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_2013">
+                  <biblScope unit="page">159–160</biblScope>
+                  <note>The first edition of Berk. 9.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 9</idno>
+                  <idno type="siglum">Berk. 9</idno>
+                  <idno type="OpenAMPD">MP0009</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">11</height>
+                              <width unit="cm">8 </width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="8">8 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">1 line</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>Bulla(e): Absent.</additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs
+                  for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0049-11" calendar="#Pahlavi">Months Day and Wahman, 49 PY</date>
+            <date when="0701-03" calendar="#Julian">March–April, 701 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85224-9.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0009_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>dʾṭynˈ MN ZK Y ʿL bwnˈ 
+               <lb n="2" xml:id="trl-p1-l2"/>lwčyk Y (ʾYṬ) hwzʾṭ ŠM ? Y 
+               <lb n="3" xml:id="trl-p1-l3"/>BYRḤ ddwˈ W BYRḤ whwmnˈ Y
+               <lb n="4" xml:id="trl-p1-l4"/>ŠNṬ 40–3-3–3 l ̓d 
+               <lb n="5" xml:id="trl-p1-l5"/>ḤS-20 dwlkˈ ̔L 
+               <lb n="6" xml:id="trl-p1-l6"/>plsṭʾl ʾYŠ 
+               <lb n="7" xml:id="trl-p1-l7"/>LʿYNˈ YḤBWNṭˈ čkˈ 
+               <lb n="8" xml:id="trl-p1-l8"/>plʾd ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0009_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Dādēn az ān ī ō bun 
+               <lb n="2" xml:id="trc-p1-l2"/>rōzīg  ī Huzād(?) nām ī 
+               <lb n="3" xml:id="trc-p1-l3"/>māh Day ud māh Wahman ī 
+               <lb n="4" xml:id="trc-p1-l4"/>sāl 49 rāy 
+               <lb n="5" xml:id="trc-p1-l5"/>may 20 dōlag ō 
+               <lb n="6" xml:id="trc-p1-l6"/>paristār kas 
+               <lb n="7" xml:id="trc-p1-l7"/>pēš dād čak
+               <lb n="8" xml:id="trc-p1-l8"/>Frāy āwišt </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP0009_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Dādēn, de ce qu’il y a dans le patrimoine,
+               <lb n="2" xml:id="trans-p1-l2"/>comme ration du prénommé Huzād, 
+               <lb n="3" xml:id="trans-p1-l3"/>le mois de Day et le mois de Wahman de 
+               <lb n="4" xml:id="trans-p1-l4"/>l’an 49, 
+               <lb n="5" xml:id="trans-p1-l5"/>a remis vingt cruches de vin (que) 
+               <lb n="6" xml:id="trans-p1-l6"/>quelqu’un avait 
+               <lb n="7" xml:id="trans-p1-l7"/>auparavant données à la servante. Le document, 
+               <lb n="8" xml:id="trans-p1-l8"/>Frāy l’a scellé. </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

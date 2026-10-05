@@ -1,0 +1,148 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2150" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2150 / P.45</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP2150 / P.45.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1992a">
+                  <biblScope unit="page">150</biblScope>
+                  <note>The first edition of P.45.</note>
+               </bibl>
+               <bibl corresp="#Weber_2018b">
+                  <biblScope unit="page">1-2</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+                </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <institution>Strasbourg, Bibliothèque Nationale et Universitaire</institution>
+                  <idno type="shelfmark">Straßburg Pehl. 1</idno>
+                  <idno type="siglum">P.45</idno>
+                  <idno type="OpenAMPD">MP2150</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">18</height>
+                              <width unit="cm">16.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="5">5 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): N/A
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+             <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP2150_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>nʾmk' Y hwṭʾyk' QDM
+               <lb n="2" xml:id="trl-p1-l2"/>lʾdynšn Y TMH ʿL
+               <lb n="3" xml:id="trl-p1-l3"/>DʿYṬWN[sṭn' MH ](P)WN bʾp̄lwn'
+               <lb n="4" xml:id="trl-p1-l4"/>krṭn' LṬMH ZK Y zydʾn' (Y)
+               <lb n="5" xml:id="trl-p1-l5"/>krṭ' lʾd LʿYN' YḤWWNt
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2150_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>nāmag ī xwadāyīg abar
+               <lb n="2" xml:id="trc-p1-l2"/>rāyēnišn ī ānōh ō
+               <lb n="3" xml:id="trc-p1-l3"/>dān[istan čē]pad Bābilōn
+               <lb n="4" xml:id="trc-p1-l4"/>kardan ēdar ān ī zyān (ī)
+               <lb n="5" xml:id="trc-p1-l5"/>kard rāy pēš būd
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP2150_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Your document on
+               <lb n="2" xml:id="trans-p1-l2"/>organizing there for
+               <lb n="3" xml:id="trans-p1-l3"/>knowing [what] to do for Bābilōn (i.e. Old Cairo.)
+               <lb n="4" xml:id="trans-p1-l4"/>here because of the shortage that was
+               <lb n="5" xml:id="trans-p1-l5"/>produced it was done before.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

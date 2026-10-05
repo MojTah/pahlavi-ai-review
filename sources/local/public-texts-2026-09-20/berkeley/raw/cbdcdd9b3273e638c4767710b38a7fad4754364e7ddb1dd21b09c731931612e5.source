@@ -1,0 +1,154 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0420" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0420 / Berlin 20</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0420 / Berlin 20.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">86–89</biblScope>
+                  <note>The first edition of Berlin 20.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Freie Universität Berlin, Institut für Iranistik</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 20</idno>
+                  <idno type="OpenAMPD">MP0420</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">11.7</height>
+                              <width unit="cm">10.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="8">8 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">1 line</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0420_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ẔK ywbʾl YḆLWNty pṭˈ MṬʾ
+               <lb n="2" xml:id="trl-p1-l2"/>krṭnˈ lʾd plmwṭˈ npšṭnˈ
+               <lb n="3" xml:id="trl-p1-l3"/> L LṬMH MNW-m-c ʾdwynkˈ
+               <lb n="4" xml:id="trl-p1-l4"/>pṭˈ msʾn(?) krṭnˈ lʾd ṭwrk(?)
+               <lb n="5" xml:id="trl-p1-l5"/>W pylwcˈ Y LWṬH mʾhʾṭ-wlk[(?)
+               <lb n="6" xml:id="trl-p1-l6"/>Y lsyk ʿL lwcwhwṭʾk(?)
+               <lb n="7" xml:id="trl-p1-l7"/>ksy(?) krṭˈ
+               <lb n="8" xml:id="trl-p1-l8"/>.........
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0420_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>ān ǰuwāl barēd pad deh
+               <lb n="2" xml:id="trc-p1-l2"/>kardan rāy framūd nibištan
+               <lb n="3" xml:id="trc-p1-l3"/>man ēdar kē-m-iz ēwēnag
+               <lb n="4" xml:id="trc-p1-l4"/>pad mehān(?) kardan rāy Tūrag(?)
+               <lb n="5" xml:id="trc-p1-l5"/>ud Pērōz ī abāg Māhād-Warrag[
+               <lb n="6" xml:id="trc-p1-l6"/>ī rahīg ō Rōzwehtāg(?)
+               <lb n="7" xml:id="trc-p1-l7"/>keh(?) kard
+               <lb n="8" xml:id="trc-p1-l8"/>.........
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0420_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Jenen Sack soll er bringen, um für das Dorf
+               <lb n="2" xml:id="trans-p1-l2"/>(etwas) zu tun befohlen zu schreiben
+               <lb n="3" xml:id="trans-p1-l3"/>mir hier, wie auch ich
+               <lb n="4" xml:id="trans-p1-l4"/>(etwas) für die Älteren(?) zu machen Tūrag(?)
+               <lb n="5" xml:id="trans-p1-l5"/>und Pērōz der mit Māhād-Warrag(?)
+               <lb n="6" xml:id="trans-p1-l6"/>dem Jungen dem ... ...
+               <lb n="7" xml:id="trans-p1-l7"/>geringer(?) gemacht.
+               <lb n="8" xml:id="trans-p1-l8"/>.........
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

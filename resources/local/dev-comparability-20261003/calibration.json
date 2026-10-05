@@ -1,0 +1,579 @@
+{
+  "status": "FOR_EVENTUAL_QUALIFIED_REVIEW_NO_CONTACT",
+  "representative_ids_fixed_before_unblinding": [
+    "QUALITYDEV1-002",
+    "QUALITYDEV1-007",
+    "QUALITYDEV1-013",
+    "QUALITYDEV1-020"
+  ],
+  "disagreement_selection": "first differing output in sorted arm order for up to first4case IDs; separately labeled, not representative",
+  "expert_adjudicated": false,
+  "records": [
+    {
+      "kind": "prespecified_one_per_work",
+      "case_id": "QUALITYDEV1-002",
+      "work_id": "parsig:103",
+      "arm": "step280_plain",
+      "context_output_sha256": "cd02470ec8679b2f4a82afe7ef796d24769eb5498edfa59157f88cce7b3dba57",
+      "evidence": {
+        "review_id": "A075",
+        "source_text": "abāg dibīr mard hamēmāl ma bāš.",
+        "references": {
+          "translations": {
+            "fa": {
+              "credit": "(گشتاسب و حاجي‌پور، 1398)",
+              "published": true,
+              "role": "translation",
+              "text": "با مرد دبیر همال (= رقیب، دشمن) مباش."
+            }
+          },
+          "edition": "(Jamasp-Asana, 1913, pp.60-61)",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+        "execution_status": "success",
+        "output_text": "با مرد دبیر هم‌مآل مباش.",
+        "output_sha256": "063c7f3a08d16984ac91b4ba1880dd5d409ea41fc6f65cd6b65b54a13e9bd096"
+      },
+      "review_A": {
+        "review_id": "A075",
+        "output_sha256": "063c7f3a08d16984ac91b4ba1880dd5d409ea41fc6f65cd6b65b54a13e9bd096",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "uncertain",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "uncertain",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "The man-scribe relation and negative imperative are retained. هم‌مآل does not securely identify the supplied rival/enemy sense, although it might be an attempted transcription. I leave that lexical relation uncertain.",
+        "output_span": "هم‌مآل مباش"
+      },
+      "review_B": {
+        "review_id": "B109",
+        "output_sha256": "063c7f3a08d16984ac91b4ba1880dd5d409ea41fc6f65cd6b65b54a13e9bd096",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The scribe and prohibition remain, but same outcome هم‌مآل substitutes for the supplied rival/enemy relation, changing what is forbidden.",
+        "output_span": "هم‌مآل"
+      }
+    },
+    {
+      "kind": "prespecified_one_per_work",
+      "case_id": "QUALITYDEV1-007",
+      "work_id": "parsig:112",
+      "arm": "step280_plain",
+      "context_output_sha256": "a6cd2b55c32345fa6eca1f2cbd727adcfa98b70b10aaac9cfdc876d8e359f936",
+      "evidence": {
+        "review_id": "A132",
+        "source_text": "hamāg-zōhr šāhān-šāh ī mardān pahlom.",
+        "references": {
+          "translations": {
+            "fa": {
+              "credit": "(گشتاسب و حاجي‌پور، 1398)",
+              "published": true,
+              "role": "translation",
+              "text": "همازورِ شاهان‌شاه که برترین مردان [است]."
+            }
+          },
+          "edition": "(Jamasp-Asana, 1913, p.157)",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+        "execution_status": "success",
+        "output_text": "شاهنشاه مردان، پلهوم، همه‌قدرت.",
+        "output_sha256": "f86b61b64d4ff5062921c5ad2ec100ce91416ea82907210514b3c33c79c16f48"
+      },
+      "review_A": {
+        "review_id": "A132",
+        "output_sha256": "f86b61b64d4ff5062921c5ad2ec100ce91416ea82907210514b3c33c79c16f48",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The king-of-kings title and men are retained, and پلهوم may transcribe the best term but is uncertain. همه‌قدرت assigns all-power in place of the hamazor solidarity relation, a supported substantive error independent of the unresolved transcription.",
+        "output_span": "همه‌قدرت"
+      },
+      "review_B": {
+        "review_id": "B060",
+        "output_sha256": "f86b61b64d4ff5062921c5ad2ec100ce91416ea82907210514b3c33c79c16f48",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Unity with the king of kings, best of men, is replaced by king of men, an untranslated pahlom and all-power. The relational blessing and best-of-men meaning are lost.",
+        "output_span": "پلهوم، همه‌قدرت"
+      }
+    },
+    {
+      "kind": "prespecified_one_per_work",
+      "case_id": "QUALITYDEV1-013",
+      "work_id": "parsig:138",
+      "arm": "step280_plain",
+      "context_output_sha256": "0e80a1b6237d8c8f4be31feb21d9ee41ddfd35a33919d1860871bc66ce3eb70b",
+      "evidence": {
+        "review_id": "A042",
+        "source_text": "wastarag ī pad xšwaxš-māngōg šōyišn, ēdōn čiyōn az abestāg paydāg:",
+        "references": {
+          "translations": {
+            "en": {
+              "credit": "(Tavadia, 1930, p.64)",
+              "published": true,
+              "role": "translation",
+              "text": "The clothing, which is to be washed according to the 'xšvaš-måŋhō' (for six months) [statement], is such, as is evident from the Apastāk:"
+            },
+            "fa": {
+              "credit": "(مزداپور، 1369، ص35)",
+              "published": true,
+              "role": "translation",
+              "text": "جامه را که به شیوه «شش ماهه» باید شست، چونان که از اوستا پیدا [است]:"
+            }
+          },
+          "edition": "(Davar, 1912, p.18)",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "Complete introductory clause. Accept technical six-month rule; do not require following instructions or continuous washing for six months.",
+        "execution_status": "success",
+        "output_text": "گسترش در شستشوی خشم‌مانگ (=خشمگین) چنین است که از اوستا پیداست:",
+        "output_sha256": "92c38641e648c1d6d7680c9f76d57a775f980ea89ede58c20017ffa2696b0948"
+      },
+      "review_A": {
+        "review_id": "A042",
+        "output_sha256": "92c38641e648c1d6d7680c9f76d57a775f980ea89ede58c20017ffa2696b0948",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "fail",
+          "names": "pass",
+          "numbers_quantities": "fail",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Expansion replaces the clothing and an anger/angry gloss replaces the six-month technical washing rule. The Avesta introduction is retained but the object and prescribed rule are substantively missing.",
+        "output_span": "خشم‌مانگ (=خشمگین)"
+      },
+      "review_B": {
+        "review_id": "B013",
+        "output_sha256": "92c38641e648c1d6d7680c9f76d57a775f980ea89ede58c20017ffa2696b0948",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "fail",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The six-month washing rule for clothing is explicitly supplied in both references. Expansion and an anger gloss for khashm-mang do not convey either clothing or that technical six-month prescription.",
+        "output_span": "خشم‌مانگ (=خشمگین)"
+      }
+    },
+    {
+      "kind": "prespecified_one_per_work",
+      "case_id": "QUALITYDEV1-020",
+      "work_id": "parsig:517",
+      "arm": "step280_plain",
+      "context_output_sha256": "9ac0a8f9f3941765c19bfd5c49673d3cba21ef99af2f7eefaf86492c12075abb",
+      "evidence": {
+        "review_id": "A079",
+        "source_text": "ud hassār-iz hōšag axtar pad ēw māh yak rōz abzawēd, hān ī ka-šan niwinnēd sardāg az-iš frōd-wišāhēd, ud draxt wirazan sānān, ud pādēz išmīrān, ud hām-kišwar xwarōfrān bawān",
+        "references": {
+          "translations": {
+            "fa": {
+              "credit": "(مصطفوی کاشانی، 1401).",
+              "published": true,
+              "role": "translation",
+              "text": "و نیز به همین گونه، [در] اختر خوشه در یک ماه، یک روز افزوده شود، آنگاه که از آنها نازل شدن سرما و ظهور پژمردگی درختان و به شمار آمدن پاییز و غروب جهان آغاز گردد"
+            }
+          },
+          "edition": "(Boyce, 1975, p.70).",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+        "execution_status": "success",
+        "output_text": "و نیز اختر خوش‌اقبال هر ماه یک روز می‌افروزد، آنجا که آن را می‌نویسند، سرداد از آن فروگشاید و درختان را تباه کند، و پادشاهان را از میان ببرد و کشورها را تباه کند",
+        "output_sha256": "73d36f43e44a31c2a994b2e65a2d8393fff666493137350eb5089c2543f5daa3"
+      },
+      "review_A": {
+        "review_id": "A079",
+        "output_sha256": "73d36f43e44a31c2a994b2e65a2d8393fff666493137350eb5089c2543f5daa3",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "fail",
+          "numbers_quantities": "fail",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The named asterism’s day increase and seasonal cold/autumn/world sunset become a fortunate star flaring, destroying trees, eliminating kings and ruining countries. The royal/country destruction is an invented material event, and the day is no longer an increase.",
+        "output_span": "پادشاهان را از میان ببرد و کشورها را تباه کند"
+      },
+      "review_B": {
+        "review_id": "B022",
+        "output_sha256": "73d36f43e44a31c2a994b2e65a2d8393fff666493137350eb5089c2543f5daa3",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The source concerns Virgo and seasonal cold, withering, autumn and sunset. Removing kings and destroying countries invents violent events absent from the seasonal reference.",
+        "output_span": "پادشاهان را از میان ببرد و کشورها را تباه کند"
+      }
+    },
+    {
+      "kind": "disagreement_example",
+      "case_id": "QUALITYDEV1-002",
+      "work_id": "parsig:103",
+      "arm": "corrected96",
+      "context_output_sha256": "029fa9c3897e965c9aadf5d165d395648c833ff5b9f786adb480cea188b32362",
+      "evidence": {
+        "review_id": "A038",
+        "source_text": "abāg dibīr mard hamēmāl ma bāš.",
+        "references": {
+          "translations": {
+            "fa": {
+              "credit": "(گشتاسب و حاجي‌پور، 1398)",
+              "published": true,
+              "role": "translation",
+              "text": "با مرد دبیر همال (= رقیب، دشمن) مباش."
+            }
+          },
+          "edition": "(Jamasp-Asana, 1913, pp.60-61)",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+        "execution_status": "success",
+        "output_text": "با مرد دبیر هم‌میل مباش.",
+        "output_sha256": "3f5faf59791810f00f8818e26c7276c79fc9d24f58bb3fc4ea8680d0dceff434"
+      },
+      "review_A": {
+        "review_id": "A038",
+        "output_sha256": "3f5faf59791810f00f8818e26c7276c79fc9d24f58bb3fc4ea8680d0dceff434",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "fail",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "hamemal here is rival/enemy in the supplied reference. هم‌میل prohibits being like-minded with the scribe, turning the prohibited adversarial relationship into alignment and changing the essential prohibition.",
+        "output_span": "هم‌میل مباش"
+      },
+      "review_B": {
+        "review_id": "B055",
+        "output_sha256": "3f5faf59791810f00f8818e26c7276c79fc9d24f58bb3fc4ea8680d0dceff434",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Scribe and prohibition are preserved, but same inclination هم‌میل does not express the rival/enemy hamemal relation in the source.",
+        "output_span": "هم‌میل"
+      }
+    },
+    {
+      "kind": "disagreement_example",
+      "case_id": "QUALITYDEV1-003",
+      "work_id": "parsig:103",
+      "arm": "dose384_nf4",
+      "context_output_sha256": "8252f55033bf93567fca43d4e687f7c305c3c2245932ffdb7dd1e86d4135eed2",
+      "evidence": {
+        "review_id": "A136",
+        "source_text": "wahman rōz wistarag ǰāmag ī nōg paymōz.",
+        "references": {
+          "translations": {
+            "fa": {
+              "credit": "(گشتاسب و حاجي‌پور، 1398)",
+              "published": true,
+              "role": "translation",
+              "text": "بهمن روز، لباس [و] جامۀ نو بپوش."
+            }
+          },
+          "edition": "(Jamasp-Asana, 1913, p.69)",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+        "execution_status": "success",
+        "output_text": "روز بهمن جامه نوِ گشاد بیند.",
+        "output_sha256": "bee9bbf7591e1c6443eb5b65e5ca195e5ab474b99661c82e87dcbc4619dd419a"
+      },
+      "review_A": {
+        "review_id": "A136",
+        "output_sha256": "bee9bbf7591e1c6443eb5b65e5ca195e5ab474b99661c82e87dcbc4619dd419a",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "fail",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Bahman day and a new garment remain. The source’s command to put it on is replaced by seeing it, a materially different action; loose is also an unsupported garment requirement.",
+        "output_span": "جامه نوِ گشاد بیند"
+      },
+      "review_B": {
+        "review_id": "B020",
+        "output_sha256": "bee9bbf7591e1c6443eb5b65e5ca195e5ab474b99661c82e87dcbc4619dd419a",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "fail",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "On Bahman day the source commands wearing new clothes. The output says to see a loose new garment, substituting seeing for wearing and adding looseness.",
+        "output_span": "جامه نوِ گشاد بیند"
+      }
+    },
+    {
+      "kind": "disagreement_example",
+      "case_id": "QUALITYDEV1-007",
+      "work_id": "parsig:112",
+      "arm": "dose384_nf4",
+      "context_output_sha256": "72163c14ce6576cb12d9ecbabf9c06f867d97fef13fc4e3ee2844f8828a21474",
+      "evidence": {
+        "review_id": "A068",
+        "source_text": "hamāg-zōhr šāhān-šāh ī mardān pahlom.",
+        "references": {
+          "translations": {
+            "fa": {
+              "credit": "(گشتاسب و حاجي‌پور، 1398)",
+              "published": true,
+              "role": "translation",
+              "text": "همازورِ شاهان‌شاه که برترین مردان [است]."
+            }
+          },
+          "edition": "(Jamasp-Asana, 1913, p.157)",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+        "execution_status": "success",
+        "output_text": "شاهنشاه مردان، همئی زوهر پهلوم.",
+        "output_sha256": "645b730b2efb79f9e1e26d6d2f41d8bbd6b19707ce3583d840fd95c1e6a6d568"
+      },
+      "review_A": {
+        "review_id": "A068",
+        "output_sha256": "645b730b2efb79f9e1e26d6d2f41d8bbd6b19707ce3583d840fd95c1e6a6d568",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "uncertain",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "uncertain",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "King of kings and men are recognizable. زوهر and پهلوم remain unexplained phonetic terms, leaving the hamazor relation and best-among-men predication uncertain rather than securely mistranslated.",
+        "output_span": "همئی زوهر پهلوم"
+      },
+      "review_B": {
+        "review_id": "B072",
+        "output_sha256": "645b730b2efb79f9e1e26d6d2f41d8bbd6b19707ce3583d840fd95c1e6a6d568",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The reference is unity with the king of kings, best of men. همئی زوهر پهلوم leaves unity and best unexplained and disconnects them from the king rather than conveying the stated relationship.",
+        "output_span": "همئی زوهر پهلوم"
+      }
+    },
+    {
+      "kind": "disagreement_example",
+      "case_id": "QUALITYDEV1-008",
+      "work_id": "parsig:112",
+      "arm": "corrected96",
+      "context_output_sha256": "b8aa0511a79e646b71fa20ab9cd5700ade17a1790a6ab3ceef28228815be7ccd",
+      "evidence": {
+        "review_id": "A016",
+        "source_text": "hamāg-zōhr xwarāsān spāhbed hamāg-zōhr xwarwarān spāhbed hamāg-zōhr nēm-rōz spāhbed.",
+        "references": {
+          "translations": {
+            "fa": {
+              "credit": "(گشتاسب و حاجي‌پور، 1398)",
+              "published": true,
+              "role": "translation",
+              "text": "همازورِ سپاهبد خراسان (=مشرق)، همازورِ سپاهبد خاوران (=مغرب)، همازورِ سپاهبد نیمروز (=جنوب)."
+            }
+          },
+          "edition": "(Jamasp-Asana, 1913, p.157)",
+          "notes": [
+            "Paragraph association checked against raw publisher fields; citations extracted; language checks applied. No expert semantic validation. Private research only."
+          ],
+          "reference_screen": "pending",
+          "expert_adjudicated": false
+        },
+        "assessment": "provisional_whole_translation",
+        "constraint": "No obvious issue in the source/reference packet; no specialist certification.",
+        "execution_status": "success",
+        "output_text": "سپهبد همه‌زور خراسان، سپهبد همه‌زور خاوران، سپهبد همه‌زور نیمروز.",
+        "output_sha256": "fb42991303f30798eefd2b37067120dee6d559251bbc7a039aabbfb6d597b644"
+      },
+      "review_A": {
+        "review_id": "A016",
+        "output_sha256": "fb42991303f30798eefd2b37067120dee6d559251bbc7a039aabbfb6d597b644",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "uncertain",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "uncertain",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "Khorasan, Khavaran and Nimruz and their commanders are preserved. همه‌زور may be an attempted rendering of the ritual hamazor term, but the commander-first attachment leaves its solidarity relation uncertain; no failure is inferred solely from word order.",
+        "output_span": "سپهبد همه‌زور خراسان"
+      },
+      "review_B": {
+        "review_id": "B024",
+        "output_sha256": "fb42991303f30798eefd2b37067120dee6d559251bbc7a039aabbfb6d597b644",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The three regional commanders are preserved, but each source hamag-zohr means unity with the commander. Reordering it as همه‌زور modifying سپهبد removes that relationship and reads as a commander epithet.",
+        "output_span": "سپهبد همه‌زور خراسان"
+      }
+    }
+  ]
+}

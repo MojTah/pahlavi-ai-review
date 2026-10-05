@@ -1,0 +1,37 @@
+{
+  "observed_at_utc": "2026-10-05T05:49:38.175419+00:00",
+  "run_id": "6b54f5bc4e984dbe9a4b53e89e4bf5d8",
+  "private_bucket": true,
+  "uploaded_paths": [
+    "inputs/dictionary-faithfulness-c53a78920b50598a.jsonl",
+    "inputs/dictionary-faithfulness-contract-6aebdcea208c3c4d.json"
+  ],
+  "inputs_readback_verified": [
+    {
+      "remote_path": "inputs/dictionary-faithfulness-c53a78920b50598a.jsonl",
+      "bytes": 268738,
+      "sha256": "c53a78920b50598a17ac36cbbf4e50550d609c8838419162902fa7536764eeac"
+    },
+    {
+      "remote_path": "inputs/dictionary-faithfulness-contract-6aebdcea208c3c4d.json",
+      "bytes": 5381,
+      "sha256": "6aebdcea208c3c4d84bb541a55bb71eac76cb8529e0a18dadce79b4e963972db"
+    }
+  ],
+  "retained_manifest_sha256": "b61409386550270efa1ae738fabe962a167cd2fffcd4ced0d7cc3e3f1d78c3f6",
+  "retained_small_file_hashes": {
+    "training/adapter/adapter_config.json": "9e7f2895e1ab5fe3707e7e533653df2b64003b1b7823194e72e79b63372b20f4",
+    "training/provenance.json": "bf706a0666a13ecd5b6af21955bfa5df18eaa2d34097839b516178dd32ffae69",
+    "training/status.json": "a9d89086dbdc7e34b13c340a749e58aa9d71415ec6ca6b27dbc7aea7ccb0562c"
+  },
+  "retained_weights_size_matches_manifest": true,
+  "retained_weights_bytes": 489840816,
+  "bundle_sha256": "41fbbe703b7eb3cfc471c83e344ede16c1e92cae8a604b91f638a57d856477b9",
+  "same_id_sdk_rebuild_matches": true,
+  "local_weights_downloaded": false,
+  "server_weight_rehash_required": true,
+  "submitted": false,
+  "local_readback_dir": "resources/local/dictionary-faithfulness-live/6b54f5bc4e984dbe9a4b53e89e4bf5d8",
+  "transfer_recovery": "Original Xet upload cache denied local filesystem access before submission. Refreshed remote inventory before bounded transfer recovery. Process-only HF_XET_CACHE/TMP/TEMP in fresh project dir; normal credential cache unchanged.",
+  "transfer_cache_dir": "resources/local/hf-faithfulness-transfer-cache-26e53f8813004a80b6ec7c5b9c9c28d3"
+}

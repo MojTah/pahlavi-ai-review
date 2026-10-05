@@ -1,0 +1,10 @@
+{
+  "status": "PARTIAL_NO_FORMAL_VERDICT",
+  "thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "turn_id": "01a10a43-358e-7523-812d-c315b6edc11c",
+  "completed_at_unix": 1791173730,
+  "requested_scope": "Read-only recovery evidence and narrow native-manifest correction; semantic packets excluded",
+  "returned_conclusion": "Real experimental progress, but improved translation quality not yet demonstrated; all30outputs passed technical checks; both blind quality reviews pending at response time. Controlled same-model dictionary comparison and stronger provisional evaluation. Repair changed validation, not translations or scoring standards. Familiar DEV results cannot establish unseen accuracy.",
+  "formal_source_repair_verdict_present": false,
+  "provider_access_by_reviewer": false
+}

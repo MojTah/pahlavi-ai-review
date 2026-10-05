@@ -1,0 +1,65 @@
+{
+  "status": "READY_FOR_BLIND_REVIEW",
+  "job_id": "6ac124c7fbc85ba68237d56f",
+  "run_id": "d68800b3b35c44a4a97adc0c5129a3de",
+  "provider_stage": "COMPLETED",
+  "durations": {
+    "scheduling_secs": 86,
+    "running_secs": 818,
+    "total_secs": 904
+  },
+  "recovered_files": 103,
+  "recovered_bytes": 1282165,
+  "manifest_sha256": "3f03ee4ecf81130b4d17269b437f1581fb62e0d8c501ef64732c03c27ec7a823",
+  "recovery_receipt_sha256": "6fc20c437a4485aa2a7ff4e8b8264475696afb2fdb6e8498f36b91199303b862",
+  "primary_eligible": true,
+  "pipeline_complete": true,
+  "per_output_status": {
+    "QUALITYDEV1-002:A": "success",
+    "QUALITYDEV1-002:B": "success",
+    "QUALITYDEV1-003:B": "success",
+    "QUALITYDEV1-003:A": "success",
+    "QUALITYDEV1-005:A": "success",
+    "QUALITYDEV1-005:B": "success",
+    "QUALITYDEV1-006:B": "success",
+    "QUALITYDEV1-006:A": "success",
+    "QUALITYDEV1-007:A": "success",
+    "QUALITYDEV1-007:B": "success",
+    "QUALITYDEV1-008:B": "success",
+    "QUALITYDEV1-008:A": "success",
+    "QUALITYDEV1-009:A": "success",
+    "QUALITYDEV1-009:B": "success",
+    "QUALITYDEV1-010:B": "success",
+    "QUALITYDEV1-010:A": "success",
+    "QUALITYDEV1-012:A": "success",
+    "QUALITYDEV1-012:B": "success",
+    "QUALITYDEV1-013:B": "success",
+    "QUALITYDEV1-013:A": "success",
+    "QUALITYDEV1-014:A": "success",
+    "QUALITYDEV1-014:B": "success",
+    "QUALITYDEV1-015:B": "success",
+    "QUALITYDEV1-015:A": "success",
+    "QUALITYDEV1-017:A": "success",
+    "QUALITYDEV1-017:B": "success",
+    "QUALITYDEV1-020:B": "success",
+    "QUALITYDEV1-020:A": "success",
+    "QUALITYDEV1-021:A": "success",
+    "QUALITYDEV1-021:B": "success"
+  },
+  "source_pins": {
+    "experiments/dictionary-ab-runtime-20261003/score_ab.py": "dc27d7f702c7b7f2d0f2bf80adf03a8aab08c3306914468c86c13214f0ce293f",
+    "tests/test_dictionary_ab_scoring.py": "38c74a2378f4a8553d47c1f3c85fdbe3471fae14cd9a54de04b05c945f543271"
+  },
+  "tests": {
+    "passed": 15,
+    "seconds": 84.831,
+    "process_env": {
+      "USE_TORCH": "0",
+      "USE_TF": "0"
+    }
+  },
+  "merit_changed": false,
+  "weights_downloaded": false,
+  "new_gpu_compute": false,
+  "semantic_results_pending": true
+}

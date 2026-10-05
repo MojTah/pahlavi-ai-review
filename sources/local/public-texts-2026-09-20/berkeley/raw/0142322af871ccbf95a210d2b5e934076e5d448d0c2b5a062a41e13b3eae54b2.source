@@ -1,0 +1,154 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0023" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0023 / Berk. 23</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Phillipe Gignoux</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0023 / Berk. 23.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_Gyselen_2006">
+                  <biblScope unit="page">liii</biblScope>
+               </bibl>
+               <bibl corresp="#Gignoux_2009b">
+                  <biblScope unit="page">88-89</biblScope>
+                  <note>The first edition of Berk. 23.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 23</idno>
+                  <idno type="siglum">Berk. 23</idno>
+                  <idno type="OpenAMPD">MP0023</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">18 cm</height>
+                              <width unit="cm">5.5 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="12">12 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">Marked</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">padīrāy</term>
+               <term type="location">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0048-07" calendar="#Pahlavi">Month Mihr, 48 PY</date>
+            <date when="0699-11" calendar="#Julian">November-December, 699 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP0023_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>MKBLWNym ḥwlyn'
+               <lb n="2" xml:id="trl-p1-l2"/>Y pṭ' nmṭl dlyk
+               <lb n="3" xml:id="trl-p1-l3"/>ZNH BYRḤ mtr' Y
+               <lb n="4" xml:id="trl-p1-l4"/>ŠNṬ 40-4-4 MN
+               <lb n="5" xml:id="trl-p1-l5"/>mʾḥplḥw' Y pṭ'
+               <lb n="6" xml:id="trl-p1-l6"/>šʾnṭ' dʾlyk pṭ' YDH
+               <lb n="7" xml:id="trl-p1-l7"/>Y mʾḥlwy Y ḥm MN
+               <lb n="8" xml:id="trl-p1-l8"/>šʾnṭ' gʾwls
+               <lb n="9" xml:id="trl-p1-l9"/>G-10-3-3-3 K-2 ◯
+               <lb n="10" xml:id="trl-p1-l10"/>W pṭglʾy ḥm ḥwlyn'
+               <lb n="11" xml:id="trl-p1-l11"/>pṭ' gwkʾdymwdlʾn Y
+               <lb n="12" xml:id="trl-p1-l12"/>plʾd ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0023_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>padīrēm Xwarēn
+               <lb n="2" xml:id="trc-p1-l2"/>ī pad Namtar dārīg
+               <lb n="3" xml:id="trc-p1-l3"/>ēn māh Mihr ī
+               <lb n="4" xml:id="trc-p1-l4"/>sāl 48 az
+               <lb n="5" xml:id="trc-p1-l5"/>Māh-Farrox ī pad
+               <lb n="6" xml:id="trc-p1-l6"/>Šānat(?) dārīg pad dast
+               <lb n="7" xml:id="trc-p1-l7"/>ī Māhrōy ī ham az
+               <lb n="8" xml:id="trc-p1-l8"/>Šānat(?) gāwars
+               <lb n="9" xml:id="trc-p1-l9"/>grīw 19 kabīz 2 ◯
+               <lb n="10" xml:id="trc-p1-l10"/>ud padīrāy ham Xwarēn
+               <lb n="11" xml:id="trc-p1-l11"/>pad gugāy-muhrān ī
+               <lb n="12" xml:id="trc-p1-l12"/>Frāy āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP0023_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Je reçois, (moi) Xwarēn qui (est) possédant à Namtar, ce mois de Mihr de l'an 48, de Māh-Farrox qui (est) possédant à Šānat(?), par l'intermédiaire de Māhrōy qui (est) aussi de Šānat(?), dix-neuf grīw (et) deux kabīz de sorgho (millet géant) ; et le reçu, le même Xwarēn, avec les sceaux qui en témoignent de Fray, (l')a scellé.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

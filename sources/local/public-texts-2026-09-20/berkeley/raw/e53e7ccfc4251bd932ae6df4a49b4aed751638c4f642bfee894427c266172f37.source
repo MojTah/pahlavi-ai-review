@@ -1,0 +1,159 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP6003" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP6003 / Khalili 129</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Initial edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP6003 / Khalili 129.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_2018a">
+                  <biblScope unit="page">99–108</biblScope>
+                  <note>The first edition of Khalili 129.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <institution>Khalili Collection, London</institution>
+                  <idno type="siglum">Khalili 129</idno>
+                  <idno type="shelfmark">Unknown</idno>
+                  <idno type="OpenAMPD">MP6003</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">9.5</height>
+                              <width unit="cm">5.2</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure type="recto" unit="lines" quantity="11">11 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <p/>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <!-- Base URL and IIIF information currently unknown -->
+            <!-- 
+                <prefixDef ident="khalili"
+                    matchPattern="(.+)"
+                    replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+                    <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+                </prefixDef> -->
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Afghanistan (?)</term>
+               <term type="location">γandar (?)</term>
+               <term type="location">*Razišt</term>
+               <term type="tag">čak</term>
+               <term type="tag">cheque</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p>Fragment of a čak document.</p>
+         </particDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb n="1" xml:id="pb-1r-trl"/> <!-- Add later facs="khalili:UNKNOWN" -->
+            <ab xml:id="MP6003_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>MN <persName ref="people:Kha001">whlʾm</persName> ʿL
+                  MRḤ(?)<damage extent="unclear"/>
+               <lb n="2" xml:id="trl-p1-l2"/>ẔY pdkˈ hnblkˈ LK Ẕ<unclear reason="illegible">Y</unclear>
+               <lb n="3" xml:id="trl-p1-l3"/>MN hʾlhʾnkˈ ẔY ʾw<unclear reason="illegible">c</unclear>
+               <lb n="4" xml:id="trl-p1-l4"/><placeName>gndlyh</placeName> ʿL <persName ref="people:Kha001">wʾhlʾm</persName>
+               <lb n="5" xml:id="trl-p1-l5"/><pc>○</pc>
+               <persName ref="people:Kha002">mzdkˈ</persName>
+               <pc>○</pc>
+               <persName ref="people:Kha003">wlkpʾṭˈ</persName>
+               <lb n="6" xml:id="trl-p1-l6"/><pc>○</pc> ʾšṭʾṭkˈ ẔY MN <lb n="7" xml:id="trl-p1-l7"/>pnc ʾndkˈ ẔY <placeName>lcyšṭ</placeName> <lb n="8" xml:id="trl-p1-l8"/>W ẔY-šn YNSḆWNtny <lb n="9" xml:id="trl-p1-l9"/>ckˈ <persName ref="people:Kha004">kwʾṭ</persName> YḤYṬYWNṭ <lb n="10" xml:id="trl-p1-l10"/>ʾYK-ṭ hngʾlšnˈ <lb n="11" xml:id="trl-p1-l11"/>dšnˈ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP6003_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>az <persName ref="people:Kha001">Wahrām</persName> ō
+                  xwadāy<damage extent="unclear"/>
+               <lb n="2" xml:id="trc-p1-l2"/>ī palag hambārag tō <unclear reason="illegible">ī</unclear>
+               <lb n="3" xml:id="trc-p1-l3"/>az xār-xānag ī Ō<unclear reason="illegible">z</unclear>
+               <lb n="4" xml:id="trc-p1-l4"/><placeName>γandarīg</placeName> ō <persName ref="people:Kha001">Wahrām</persName>
+               <lb n="5" xml:id="trc-p1-l5"/><pc>○</pc>
+               <persName ref="people:Kha002">Mazdag</persName>
+               <pc>○</pc>
+               <persName ref="people:Kha003">Wirgbad</persName>
+               <lb n="6" xml:id="trc-p1-l6"/><pc>○</pc> Aštādag ī az <lb n="7" xml:id="trc-p1-l7"/>panǰ andag ī <placeName>*Razišt</placeName> <lb n="8" xml:id="trc-p1-l8"/>ud ī-šān stānēnd <lb n="9" xml:id="trc-p1-l9"/>čak <persName ref="people:Kha004">Kawād</persName> āwurd <lb n="10" xml:id="trc-p1-l10"/>kū-t hangārišn <lb n="11" xml:id="trc-p1-l11"/>dašn
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP6003_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>From Wahrām to you, lord, 
+               <lb n="2" xml:id="trans-p1-l2"/>the storekeeper of the estate, who are 
+               <lb n="3" xml:id="trans-p1-l3"/>from the ruling house, namely Ōz, 
+               <lb n="4" xml:id="trans-p1-l4"/>γandarīg (inhabitant of Gandar), to Wahrām, 
+               <lb n="5" xml:id="trans-p1-l5"/>Mazdag, Wirgbād(?), 
+               <lb n="6" xml:id="trans-p1-l6"/>(and) Aštādag(?), who (are) from 
+               <lb n="7" xml:id="trans-p1-l7"/>the five sub-districts of *Razišt.
+               <lb n="8" xml:id="trans-p1-l8"/> And (as for that) which they should take for them, 
+               <lb n="9" xml:id="trans-p1-l9"/>Kawād has brought the čak (document) 
+               <lb n="10" xml:id="trans-p1-l10"/>so that you (sg.) should consider (the matter) 
+               <lb n="11" xml:id="trans-p1-l11"/>rightly (so that you should give your consent).
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

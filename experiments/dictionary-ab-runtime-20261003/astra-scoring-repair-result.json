@@ -1,0 +1,19 @@
+{
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "review_turn": "01a1022c-1aa6-7b83-9cf9-43ce099da40c",
+  "requested_model": "gpt-6-astra; served identifier not independently verified",
+  "local_verdict": "FOCUSED_P2_CLOSURE_PASS",
+  "scorer_sha256": "3d57cdf23dfc5946e8c4b629d9660922effa57fdb2974be177e2805bded62fd0",
+  "tests_sha256": "a474be3c7f9259dbf4e3a392fb71d40113d54ce055487b0b249861da54547a30",
+  "independent_focused_tests_passed": 3,
+  "test_seconds": 115.392,
+  "tests": [
+    "valid two-work scoring",
+    "rehashed OOV-token rejection before packets",
+    "rehashed valid-token/wrong-text rejection before packets"
+  ],
+  "full_13_tests_repeated_by_astra": false,
+  "paid_launch": "HOLD_EXACT_AUTHORIZATION_AND_LIVE_GATES",
+  "runtime_review_reopened": false,
+  "no_ongoing_reviewer_work": true
+}

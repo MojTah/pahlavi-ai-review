@@ -1,0 +1,205 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0028" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0028 / Berk. 28</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Initial edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Preparation of the document for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0028 / Berk. 28.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_2001">
+                  <biblScope unit="page">298–300</biblScope>
+                  <note>The first edition of Berk. 28 (as 'Doc. 7').</note>
+               </bibl>
+               <bibl corresp="#Gignoux_2003">
+                  <biblScope unit="page">87–89</biblScope>
+               </bibl>
+               <bibl corresp="#Gignoux_2013">
+                  <biblScope unit="page">162–163</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 28</idno>
+                  <idno type="PG">Doc. 7</idno>
+                  <idno type="siglum">Berk. 28</idno>
+                  <idno type="OpenAMPD">MP0028</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">25</height>
+                              <width unit="cm">2.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure type="recto" unit="lines" quantity="22">22 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <!-- Use this if required to describe damage, missing text, etc.-->
+                     <!--<layoutDesc>
+                        <p>This is a vertical rectangle.</p>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag">az ān ī ō bun</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p>A person called <persName ref="people:CIr002">Dādēn</persName> gives four grīw of wheat to various people. These seem to be the <persName ref="people:CIr005">sister of <persName ref="people:CIr004">Farroxzād</persName></persName> and a servant called <persName ref="people:CIr007">Ardašīr</persName>.</p>
+            <p>The date of the transaction is month Day of 49 PY, equivalent to March-April 701 CE.</p>
+            <p>The document is sealed by <persName ref="people:CIr001" type="seal">Frāy</persName>.</p>
+         </particDesc>
+         <settingDesc>
+            <p>Location unknown.</p>
+         </settingDesc>
+         <creation>
+            <date when="0049-10" calendar="#Pahlavi">Day 49 PY</date>
+            <date when="0701-03" calendar="#Julian">March-April 701 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85240-28.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0028_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/><persName ref="people:CIr002">dʾṭyn'</persName> MN ZK Y
+               <lb n="2" xml:id="trl-p1-l2"/>ʿL bwn' ZNH
+               <lb n="3" xml:id="trl-p1-l3"/>BYRḤ ddw' Y
+               <lb n="4" xml:id="trl-p1-l4"/>ŠNṬ [40–3-3–3 ?]
+               <lb n="5" xml:id="trl-p1-l5"/>lw[čyk Y ?]
+               <lb n="6" xml:id="trl-p1-l6"/>
+                    <gap extent="several words" reason="tear"/>
+               <lb n="7" xml:id="trl-p1-l7"/>lʾd Ḥg
+               <lb n="8" xml:id="trl-p1-l8"/>G-4 K#2
+               <lb n="9" xml:id="trl-p1-l9"/>ʿL <persName ref="people:CIr006">plsṭʾl Y
+                  <lb n="10" xml:id="trl-p1-l10"/><persName ref="people:CIr005">ʿḤṬH Y
+                     <lb n="11" xml:id="trl-p1-l11"/><persName ref="people:CIr004">plhwzʾṭ</persName></persName></persName>
+               <lb n="12" xml:id="trl-p1-l12"/>W lwčyk Y
+               <lb n="13" xml:id="trl-p1-l13"/><persName ref="people:CIr007">ʾrṭšṭr
+                  <lb n="14" xml:id="trl-p1-l14"/>Y plsṭʾl</persName>
+               <lb n="15" xml:id="trl-p1-l15"/>Y BYRḤ ʾṭwr'
+               <lb n="16" xml:id="trl-p1-l16"/>[Y hm] ŠNṬ
+               <lb n="17" xml:id="trl-p1-l17"/>[lʾd ?] [Ḥ]g
+               <lb n="18" xml:id="trl-p1-l18"/>G-3 K#3–3
+               <lb n="19" xml:id="trl-p1-l19"/>ʿL <persName ref="people:CIr007">ʾrṭšṭr
+               <lb n="20" xml:id="trl-p1-l20"/>Y plsṭʾl</persName>
+               <lb n="21" xml:id="trl-p1-l21"/>YḤBWNṭ W čk'
+               <lb n="22" xml:id="trl-p1-l22"/><persName ref="people:CIr001" type="seal">plʾd</persName> ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0028_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/><persName ref="people:CIr002">Dādēn</persName> az ān ī
+               <lb n="2" xml:id="trc-p1-l2"/>ō bun ēn
+               <lb n="3" xml:id="trc-p1-l3"/>māh Day ī
+               <lb n="4" xml:id="trc-p1-l4"/>sāl 49 (?)
+               <lb n="5" xml:id="trc-p1-l5"/>rōzīg ī (?)
+               <lb n="6" xml:id="trc-p1-l6"/>
+                    <gap extent="several words" reason="tear"/>
+               <lb n="7" xml:id="trc-p1-l7"/>rāy gandum
+               <lb n="8" xml:id="trc-p1-l8"/>grīw 4 kabīz 2
+               <lb n="9" xml:id="trc-p1-l9"/>ō <persName ref="people:CIr006">paristār ī
+                  <lb n="10" xml:id="trc-p1-l10"/><persName ref="people:CIr005">xwah ī
+                     <lb n="11" xml:id="trc-p1-l11"/><persName ref="people:CIr004">Farroxzād</persName></persName></persName>
+               <lb n="12" xml:id="trc-p1-l12"/>ud rōzīg ī
+               <lb n="13" xml:id="trc-p1-l13"/><persName ref="people:CIr007">Ardašīr
+                  <lb n="14" xml:id="trc-p1-l14"/>ī paristār</persName>
+               <lb n="15" xml:id="trc-p1-l15"/>ī māh Ādur
+               <lb n="16" xml:id="trc-p1-l16"/>[ī ham] sāl
+               <lb n="17" xml:id="trc-p1-l17"/>(rāy ?) gandum
+               <lb n="18" xml:id="trc-p1-l18"/>G+3 K # 3–3
+               <lb n="19" xml:id="trc-p1-l19"/>ō <persName ref="people:CIr007">Ardašīr
+                  <lb n="20" xml:id="trc-p1-l20"/>ī paristār</persName>
+               <lb n="21" xml:id="trc-p1-l21"/>dād ud čak
+               <lb n="22" xml:id="trc-p1-l22"/><persName ref="people:CIr001" type="seal">Frāy</persName> āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP0028_028_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Dādēn, de ce qu’il
+               <lb n="2" xml:id="trans-p1-l2"/>y a dans le patrimoine, ce
+               <lb n="3" xml:id="trans-p1-l3"/>mois de Day de 
+               <lb n="4" xml:id="trans-p1-l4"/>l’an 49 (?), 
+               <lb n="5" xml:id="trans-p1-l5"/>pour la ration de 
+               <lb n="6" xml:id="trans-p1-l6"/>
+                    <gap extent="several words" reason="tear"/>
+               <lb n="7" xml:id="trans-p1-l7"/>a remis du blé: 
+               <lb n="8" xml:id="trans-p1-l8"/>4 grīw, 2 kabīz, 
+               <lb n="9" xml:id="trans-p1-l9"/>pour la servante de 
+               <lb n="10" xml:id="trans-p1-l10"/>la sœur de 
+               <lb n="11" xml:id="trans-p1-l11"/>Farroxzād, 
+               <lb n="12" xml:id="trans-p1-l12"/>et la ration de 
+               <lb n="13" xml:id="trans-p1-l13"/>Ardašīr 
+               <lb n="14" xml:id="trans-p1-l14"/>le serviteur, 
+               <lb n="15" xml:id="trans-p1-l15"/>le mois de Ādur, 
+               <lb n="16" xml:id="trans-p1-l16"/>[de la même] année, 
+               <lb n="17" xml:id="trans-p1-l17"/>du blé: 
+               <lb n="18" xml:id="trans-p1-l18"/>3 grīw, 6 kabīz, 
+               <lb n="19" xml:id="trans-p1-l19"/>pour Ardašīr 
+               <lb n="20" xml:id="trans-p1-l20"/>le serviteur; 
+               <lb n="21" xml:id="trans-p1-l21"/>et le document,
+               <lb n="22" xml:id="trans-p1-l22"/>Frāy l’a scellé.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

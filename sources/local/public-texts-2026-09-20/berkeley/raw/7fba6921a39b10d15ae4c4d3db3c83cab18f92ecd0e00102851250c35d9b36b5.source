@@ -1,0 +1,158 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2300" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2300 / P.55</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="SS">
+               <persName>Stephanie Schmidt</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP2300 / P.55.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Menasce_1953">
+                  <biblScope unit="page">188–192</biblScope>                  
+                  <note>The first edition of P.55.</note>
+               </bibl>
+               <bibl corresp="#Weber_1992a">
+                  <biblScope unit="page">159</biblScope>                   
+               </bibl>
+               <bibl corresp="#Weber_2008d">
+                  <biblScope unit="page">812</biblScope>                   
+               </bibl>
+               <bibl corresp="#Schmidt_2018">
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+               <bibl corresp="#Schmidt_2020">
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <institution>Universität Basel, Universitätsbibliothek</institution>
+                  <idno type="shelfmark">M.i.18</idno>
+                  <idno type="siglum">P.55</idno>
+                  <idno type="OpenAMPD">MP2300</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">15.5</height>
+                              <width unit="cm">18.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="7">7 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">Drawing</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): N/A
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="corpus">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="local:P_55_R.jpg"-->
+            <ab xml:id="MP2300_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>○○ gwnd Y šylk' MN ʾlpnṭydnyʾ 24
+               <lb n="2" xml:id="trl-p1-l2"/>○ MN hlklyʾ 21 ○ MN kwsylynkws
+               <lb n="3" xml:id="trl-p1-l3"/>24 ○ MN kynwn 7 ○ MN ṭyʾdwsypwlys
+               <lb n="4" xml:id="trl-p1-l4"/>10 ○ MN hlmwpwlys 62 ○ MN
+               <lb n="5" xml:id="trl-p1-l5"/>ʾnṭynwk' 6 ○ MN kwswn' 6
+               <lb n="6" xml:id="trl-p1-l6"/>○ MN lykws 20 ○ MN dyʾspwlys
+               <lb n="7" xml:id="trl-p1-l7"/>2 ○ MN mks(mn)wpwlys 1
+               <lb n="8" xml:id="trl-p1-l8"/>[... ? ...]
+            </ab>
+         </div>
+<!--          <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2300_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>transcription not published
+            </ab>
+         </div> -->
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP2300_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>The group of Šērag: from Elephantine 24 (men)
+               <lb n="2" xml:id="trans-p1-l2"/>from Herakleia 21 (men), from Oxyrhynchus
+               <lb n="3" xml:id="trans-p1-l3"/>24 (men), from Kynōn 7 (men), from Theodosiopolis
+               <lb n="4" xml:id="trans-p1-l4"/>10 (men), from Hermopolis 62 (men), from
+               <lb n="5" xml:id="trans-p1-l5"/>Antinoe 6 (men), from Kossōn (men),
+               <lb n="6" xml:id="trans-p1-l6"/>from Lykos (Lykopolis) 20 (men), from Diospolis
+               <lb n="7" xml:id="trans-p1-l7"/>2 (men) from Maxi(mian)opolis 1 (men).
+               <lb n="8" xml:id="trans-p1-l8"/>... ...
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

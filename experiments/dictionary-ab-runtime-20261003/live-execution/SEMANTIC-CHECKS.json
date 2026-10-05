@@ -1,0 +1,48 @@
+{
+  "comparison_sha256": "eec7cbf2b6b3b806e51ac487fa414cadc11c39e8afdb8a646e445532ad367d6b",
+  "review_agents": {
+    "A": "/root/dictionary_blind_rater_a_20261005",
+    "B": "/root/dictionary_blind_rater_b_20261005"
+  },
+  "blind_contexts": "Two fresh fork-none contexts; each read only its own opaque30packet and instructions; no arm/model/history/other-review access was authorized. Similarities may still expose pair relationships. AI reviews may be correlated.",
+  "review_freeze": {
+    "A": {
+      "sha256": "2281078112e9792e55cabdc77f1058267e6fed59f71a30581fedb79bd28de275",
+      "bytes": 27614,
+      "rows": 30,
+      "reviewer_type": "AI",
+      "expert_adjudicated": false
+    },
+    "B": {
+      "sha256": "6a7447d3e0c1bd7582f01851c31313240fd18697063e931881ec9443665565c1",
+      "bytes": 26470,
+      "rows": 30,
+      "reviewer_type": "AI",
+      "expert_adjudicated": false
+    }
+  },
+  "both_reviews_validated": true,
+  "ratings_preserved_byte_for_byte": true,
+  "label_disagreements": [
+    {
+      "id": "QUALITYDEV1-014:A",
+      "reviewer_A": "meaning_error",
+      "reviewer_B": "critical_error"
+    },
+    {
+      "id": "QUALITYDEV1-009:A",
+      "reviewer_A": "meaning_error",
+      "reviewer_B": "uncertain"
+    },
+    {
+      "id": "QUALITYDEV1-017:B",
+      "reviewer_A": "critical_error",
+      "reviewer_B": "meaning_error"
+    }
+  ],
+  "expert_adjudicated": false,
+  "new_paid_job_admitted": false,
+  "new_training_admitted": false,
+  "github_pushed": false,
+  "git_remote_configured": false
+}

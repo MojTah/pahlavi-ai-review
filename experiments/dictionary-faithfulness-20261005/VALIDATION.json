@@ -1,0 +1,29 @@
+{
+  "status": "PASS_LOCAL_CHECKS_GPU_UNEXERCISED",
+  "inputs": {
+    "tests": 6,
+    "duration_seconds": 1.968,
+    "evidence_owner": "Main; independent QA rerun"
+  },
+  "runtime": {
+    "tests": 24,
+    "duration_seconds": 34.028,
+    "evidence_owner": "/root/faithfulness_runtime_impl"
+  },
+  "scoring": {
+    "tests": 19,
+    "duration_seconds": 54.517,
+    "evidence_owner": "Main"
+  },
+  "total_local_tests": 49,
+  "qa_direct_checks": 11,
+  "sdk_roundtrip": true,
+  "no_provider_calls": true,
+  "no_credentials": true,
+  "no_training": true,
+  "no_local_weights": true,
+  "fixture_recovery": "TemporaryDirectory0700 paths inaccessible on Windows restricted execution. Only test fixture setup uses fresh project-local UUID directories; preserved v1/v2 pin maps. Four lingering fixture-parent references repaired; complete19 suite then passes. Runtime/scorer/input/job bytes unchanged.",
+  "score_test_sha256": "fd6ac6d310d3015f31ea8079baf259e655cf26d4c97f1e7e54defed371c371cc",
+  "astra_checkpoint_pending": true,
+  "live_gates_pending": true
+}

@@ -1,0 +1,167 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0003" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0003 / Berk. 3</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Preparation of the document for OpenAMPD and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0003 / Berk. 3.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_2023">
+                  <biblScope unit="page">291-293</biblScope>
+                  <note>The first edition of Berk. 3 (MP0003).</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 3</idno>
+                  <idno type="siglum">Berk. 3</idno>
+                  <idno type="OpenAMPD">MP0003</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">18 cm</height>
+                              <width unit="cm">5.5 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="15">15 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">Marked</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="location">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p>Find-site: Unknown.</p>
+            <p>Location:</p>
+         </settingDesc>
+         <creation>
+            <date when="0049-03" calendar="#Pahlavi">Month Hordad, 49 PY</date>
+            <date when="0700-07" calendar="#Julian">July-Aug, 700 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP0003_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>dʾṭyn' MN ZK Y ʿL
+               <lb n="2" xml:id="trl-p1-l2"/>bwn' ZNH BYRḤ hwrdṭ
+               <lb n="3" xml:id="trl-p1-l3"/>Y ŠNṬ ©©-III-III-III hmʾk'
+               <lb n="4" xml:id="trl-p1-l4"/>Y LʿYN' gwpṭʾl
+               <lb n="5" xml:id="trl-p1-l5"/>lʾd ywdṭ MN ZK Y
+               <lb n="6" xml:id="trl-p1-l6"/>YḤBWNṭ' ʾḤRN
+               <lb n="7" xml:id="trl-p1-l7"/>swpṭk' I
+               <lb n="8" xml:id="trl-p1-l8"/>dwlk' ṭlynk'
+               <lb n="9" xml:id="trl-p1-l9"/>W zylk' ʿL
+               <lb n="10" xml:id="trl-p1-l10"/>ZY-ṭng
+               <lb n="11" xml:id="trl-p1-l11"/>PWN glmyh
+               <lb n="12" xml:id="trl-p1-l12"/>gwhlkdʾn
+               <lb n="13" xml:id="trl-p1-l13"/>YḤBWNṭ'
+               <lb n="14" xml:id="trl-p1-l14"/>ck' ṭl-[
+               <lb n="15" xml:id="trl-p1-l15"/>plʾdy
+            </ab>
+            <ab xml:id="MP0003_trl-p2">
+               <lb n="1" xml:id="trl-p2-l1"/>lʾsṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0003_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Dādēn az ān ī ō
+               <lb n="2" xml:id="trc-p1-l2"/>bun ēn māh Hordād
+               <lb n="3" xml:id="trc-p1-l3"/>ī sāl 49 hamāg
+               <lb n="4" xml:id="trc-p1-l4"/>ī pēš guftār
+               <lb n="5" xml:id="trc-p1-l5"/>rāy ǰud az ān ī
+               <lb n="6" xml:id="trc-p1-l6"/>dād any
+               <lb n="7" xml:id="trc-p1-l7"/>suftag 1
+               <lb n="8" xml:id="trc-p1-l8"/>dōlag tarēnag
+               <lb n="9" xml:id="trc-p1-l9"/>ud zīrag ō
+               <lb n="10" xml:id="trc-p1-l10"/>ī-tang
+               <lb n="11" xml:id="trc-p1-l11"/>pad garmīh
+               <lb n="12" xml:id="trc-p1-l12"/>gōhragdān
+               <lb n="13" xml:id="trc-p1-l13"/>dād
+               <lb n="14" xml:id="trc-p1-l14"/>čak tar-[
+               <lb n="15" xml:id="trc-p1-l15"/>Frāy
+            </ab>
+            <ab xml:id="MP0003_trc-p2">
+               <lb n="1" xml:id="trc-p2-l1"/>rāst
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0003_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>[1] Dādēn from that which belongs to the [2] bun this month Hordād (3rd month) [3-5] of the year 49 (700/701 ce) on behalf of everything which has been promised earlier except what [6] has (already) been given [7–8] 1 pail of juice, pot-herbs [9] and cumin to [10–12] what is short in the stock of the kitchen [13] is to give. [14–15] Frāy (sealed) the čak.
+            </ab>
+            <ab xml:id="MP0003_trans-p2">
+               <lb n="1" xml:id="trans-p2-l1"/>Correct.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

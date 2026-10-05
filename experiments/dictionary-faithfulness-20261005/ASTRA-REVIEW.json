@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETED_PASS_BOUNDED_LOCAL_HANDOFF",
+  "requested_at_utc": "2026-10-05T05:17:35.113476+00:00",
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "reviewer_host": "local",
+  "reviewer_model": "gpt-6-astra",
+  "last_delivered_cursor": "d8882e4f-f04b-4705-bcdf-103f6d5b396b:7",
+  "run_id": "6b54f5bc4e984dbe9a4b53e89e4bf5d8",
+  "evidence_sha256": {
+    "PLAN.md": "ad57a8d0be25eba4c56270a1af2230415fc1a3c89253a054d206d77db8f0d753",
+    "CASE-AUDIT.md": "a6bb20d538b9f5824475466198748594c53f554a758675abdabf543991d7e83c",
+    "EXECUTION.md": "f18123f87b4db1d7e9b788c713267d31282067c32854361b4abedc916afd795b",
+    "VALIDATION.json": "523064b5e97e94382c8c90b5d1c2a13704841a8012ee3e400612dc693ec573f8",
+    "QA-REVIEW.json": "d9fd84e2b66b882a945a41e3129708e82b6e8061e6c795ad310a10e36c8e3e8b",
+    "review-pins.json": "9e14d7b06eb288c9572f2cdab577b4e193a039b9e42c935f8b8b326653580888",
+    "final-pins.json": "939fd14a2840c37c4645af4c9af722d440738bc5afed3928ebedb931049f5b8e",
+    "preview.json": "eeca6ab2e14b36e4dad0ace5ffb07c0f899514cb64dedadaf771406324c5b48a"
+  },
+  "scope": "Frozen one-sentence source/control/measurement/runtime local readiness; no launch authority",
+  "no_paid_action": true,
+  "first_response_file": "ASTRA-RESPONSE-v1.json",
+  "closure_file": "ASTRA-CLOSURE.json",
+  "completed_turn": "01a10a83-a435-7520-a244-51f82d136abe",
+  "followup_current_pin_map_sha256": "939fd14a2840c37c4645af4c9af722d440738bc5afed3928ebedb931049f5b8e",
+  "followup_current_test_sha256": "cfb7fcb0b0b43d6c9a6f813d11552057233d6fb42065b185cc2e59e5d80c35ea",
+  "current_binding_record": "VALIDATION-v2.json",
+  "original_requested_evidence_preserved": true
+}

@@ -1,0 +1,16 @@
+{
+  "reviewer": "B",
+  "count": 143,
+  "validation": "PASS",
+  "expected_count": 143,
+  "raw_first_pass_path": "C:\\Users\\mojta\\AppData\\Local\\Temp\\pahlavi-dev15-B-njv8mbjm\\raw-first-pass.jsonl",
+  "reviews_path": "C:\\Users\\mojta\\AppData\\Local\\Temp\\pahlavi-dev15-B-njv8mbjm\\reviews.jsonl",
+  "raw_first_pass_sha256": "08cae5f298015037739a0109583676a0f86a3ad02d301c0c3707f62e8cd9db82",
+  "reviews_sha256": "08cae5f298015037739a0109583676a0f86a3ad02d301c0c3707f62e8cd9db82",
+  "packet_sha256": "51b8376484429b5540bcc71d8d31b3c83ab0cdd7bc7937b89186fe62ddc35d7a",
+  "structural_repairs": [],
+  "semantic_reratings": 0,
+  "validator_method": "Unmodified validate_reviews function and its schema/helper definitions extracted by AST; no source loaders or module imports executed.",
+  "validated_at_utc": "2026-10-03T09:47:03.763026+00:00",
+  "caveat": "AI judgment is provisional, not expert adjudication. Source evidence is limited to the blinded packet. The scorer was initially displayed in full while locating the schema/validator; generic runner labels were visible in unused code, but no private mapping or packet arm identities were accessed."
+}

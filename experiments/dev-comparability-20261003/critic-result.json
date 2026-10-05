@@ -1,0 +1,31 @@
+{
+  "reviewer": "/root/next_decision_critic",
+  "verdict": "PASS_LOCAL_ENGINEERING",
+  "configured_model": "inherited without override; actual served model not independently verified",
+  "shared_edits": false,
+  "semantic_reviewer_replies_read": false,
+  "executed": [
+    "review.py check",
+    "automatic_lookup.py --check",
+    "prepare_ab.py --check"
+  ],
+  "corruption_rejections": [
+    "membership count",
+    "precision",
+    "hidden prompt",
+    "reference certification",
+    "mapping",
+    "cache-A permission"
+  ],
+  "preserved_meaning_components_checked": 138,
+  "repaired_defect": "Process-dependent audit JSON key ordering; recursive objects identical; canonicalized and all checks pass",
+  "static_only": [
+    "historical.py"
+  ],
+  "not_exercised": [
+    "new GPU inference",
+    "provider command/export/shutdown/billing",
+    "specialist correctness"
+  ],
+  "raw_final_verdict": "PASS for the local engineering gate, after the serialization repair. No unresolved blocker in this local gate. Exact execution-runner binding, paid authorization, completed reassessment and headroom decision remain held prerequisites. historical.py received static inspection only; semantic summarization was not run by critic."
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title data-template="config:app-title">Open Archive of Middle Persian Documents</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16">
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24">
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32">
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64">
+    <link rel="stylesheet" href="resources/css/theme.css">
+    <link rel="stylesheet" href="resources/css/openampd-theme.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.7.0/webcomponents-loader.js"></script><script defer src="https://cdn.jsdelivr.net/npm/web-animations-js/web-animations.min.js"></script><script type="module" src="https://cdn.jsdelivr.net/npm/@teipublisher/pb-components@2.25.2/dist/pb-components-bundle.js"></script>
+</head>
+    <script data-target="script-preload" src="resources/scripts/edition.js"></script>
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved" app-root="/exist/apps/OpenAMPD" template="open-ampd.html" endpoint="/exist/apps/OpenAMPD"><pb-document path="MP0003" root-path="/db/apps/openampd-data" view="div" odd="openampd" source-view="/exist/apps/eXide/index.html" id="document1"></pb-document><app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+    <div class="drawer-content">
+        <pb-media-query query="max-width: 1023px">
+            <!-- language selector -->
+            <pb-lang name="lang" data-template="pages:languages"><paper-item value="sl">Slovenščina</paper-item><paper-item value="it">Italiano</paper-item><paper-item value="tr">Türkçe</paper-item><paper-item value="no">Norsk</paper-item><paper-item value="zh_CN">简体中文</paper-item><paper-item value="cs">Česky</paper-item><paper-item value="de">Deutsch</paper-item><paper-item value="el">ελληνικά</paper-item><paper-item value="fi">Suomi</paper-item><paper-item value="en">English</paper-item><paper-item value="ru">русский</paper-item><paper-item value="es">Español</paper-item><paper-item value="nl">Nederlands</paper-item><paper-item value="uk">Українська</paper-item><paper-item value="ro">Română</paper-item><paper-item value="zh_TW">繁體中文</paper-item><paper-item value="pl">Polski</paper-item><paper-item value="pt">Português</paper-item><paper-item value="fr">Français</paper-item><paper-item value="bg">Български</paper-item><paper-item value="ka">ქართული</paper-item><paper-item value="sv">Svenska</paper-item></pb-lang>
+            <pb-collapse>
+                <h3 slot="collapse-trigger"><pb-i18n key="menu.documentation">Documentation</pb-i18n></h3>
+                <paper-listbox slot="collapse-content">
+                    <paper-item>
+                        <a href="/exist/apps/OpenAMPD/doc/documentation.xml?odd=docbook.odd">
+                            <pb-i18n key="menu.documentation">Documentation</pb-i18n>
+                        </a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="https://faq.teipublisher.com/">FAQ</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="https://www.e-editiones.org/tags/release" target="_blank"><pb-i18n key="menu.news">News</pb-i18n></a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="https://cdn.tei-publisher.com/api.html" target="_blank">Webcomponents API</a>
+                    </paper-item>
+                </paper-listbox>
+            </pb-collapse>
+            <pb-collapse>
+                <h3 slot="collapse-trigger"><pb-i18n key="menu.download.title">Download</pb-i18n></h3>
+                <paper-listbox slot="collapse-content">
+                    <paper-item>
+                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)">
+                            <pb-i18n key="menu.download.pdf-latex"></pb-i18n>
+                        </pb-download>
+                    </paper-item>
+                    <paper-item>
+                        <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.latex-source" title="i18n(pdf-latex)" source="source">
+                            <pb-i18n key="menu.download.latex-source"></pb-i18n>
+                        </pb-download>
+                    </paper-item>
+                    <paper-item>
+                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="pdf-fo">
+                            <pb-i18n key="menu.download.pdf-fo"></pb-i18n>
+                        </pb-download>
+                    </paper-item>
+                    <paper-item>
+                        <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="i18n(pdf-fo)" source="source">
+                            <pb-i18n key="menu.download.fo-source"></pb-i18n>
+                        </pb-download>
+                    </paper-item>
+                    <paper-item>
+                        <pb-download type="epub" src="document1" data-i18n="[title]menu.download.epub" dialog="downloadDialog">
+                            ePUB
+                        </pb-download>
+                    </paper-item>
+                    <paper-item>
+                        <pb-edit-xml src="document1" data-i18n="[title]menu.download.view-tei" title="view-tei">
+                            XML
+                        </pb-edit-xml>
+                    </paper-item>
+                </paper-listbox>
+            </pb-collapse>
+            <pb-restricted>
+                <pb-collapse>
+                    <h3 slot="collapse-trigger"><pb-i18n key="menu.admin.title">Admin</pb-i18n></h3>
+                    <paper-listbox slot="collapse-content">
+                        <paper-item>
+                            <pb-download url="/exist/apps/OpenAMPD/odd-editor.html" source="source" params="root=/db/apps/OpenAMPD/resources/odd&amp;output-root=/db/apps/OpenAMPD/transform&amp;output=transform" data-template="pages:edit-odd-link" src="document1">
+                                <pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>
+                            </pb-download>
+                        </paper-item>
+                        <paper-item>
+                            <a href="/exist/apps/OpenAMPD/manage.html">
+                                <pb-i18n key="menu.admin.appGenerator"></pb-i18n>
+                            </a>
+                        </paper-item>
+                    </paper-listbox>
+                </pb-collapse>
+            </pb-restricted>
+        </pb-media-query>
+        <div class="settings">
+            <h3><pb-i18n key="document.settings">Settings</pb-i18n></h3>
+            <pb-toggle-feature emit="transcription" subscribe="transcription" name="view" on="page" off="div" init-from-view="init-from-view"><pb-i18n key="document.view-type">Page View</pb-i18n></pb-toggle-feature>
+            <pb-edit-xml src="document1">
+                <paper-button alt="Edit source"><iron-icon icon="icons:code"></iron-icon> <pb-i18n key="menu.download.view-tei"></pb-i18n></paper-button>
+            </pb-edit-xml>
+        </div>
+    </div>
+</app-drawer>
+            <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar class="menubar">
+    <a href="/exist/apps/OpenAMPD/landing.html" class="logo"></a>
+    <pb-media-query query="min-width: 1024px">
+        <a href="/exist/apps/OpenAMPD/landing.html">Home</a>
+        <a href="/exist/apps/OpenAMPD/index.html">Explore</a>
+        <a href="/exist/apps/OpenAMPD/biblio">Bibliography</a>
+        <a href="/exist/apps/OpenAMPD/about" data-i18n="[title]menu.about" title="i18n(about)">
+            About
+        </a>
+        <pb-restricted>
+            <paper-menu-button>
+                <a slot="dropdown-trigger">
+                    <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                </a>
+                <paper-listbox slot="dropdown-content">
+                    <paper-item><a href="/exist/apps/OpenAMPD/odd-editor.html?root=/db/apps/OpenAMPD/resources/odd&amp;output-root=/db/apps/OpenAMPD/transform&amp;output=transform&amp;odd=openampd.odd" target="_blank"><pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>: openampd.odd</a></paper-item><paper-item><a href="/exist/apps/OpenAMPD/odd-editor.html?root=/db/apps/OpenAMPD/resources/odd&amp;output-root=/db/apps/OpenAMPD/transform&amp;output=transform&amp;odd=annotations.odd" target="_blank"><pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>: annotations.odd</a></paper-item><paper-item><a href="/exist/apps/OpenAMPD/odd-editor.html?root=/db/apps/OpenAMPD/resources/odd&amp;output-root=/db/apps/OpenAMPD/transform&amp;output=transform&amp;odd=docx.odd" target="_blank"><pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>: docx.odd</a></paper-item><paper-item><a href="/exist/apps/OpenAMPD/odd-editor.html?root=/db/apps/OpenAMPD/resources/odd&amp;output-root=/db/apps/OpenAMPD/transform&amp;output=transform&amp;odd=teipublisher.odd" target="_blank"><pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>: teipublisher.odd</a></paper-item><paper-item><a href="/exist/apps/OpenAMPD/odd-editor.html?root=/db/apps/OpenAMPD/resources/odd&amp;output-root=/db/apps/OpenAMPD/transform&amp;output=transform&amp;odd=vangogh.odd" target="_blank"><pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>: vangogh.odd</a></paper-item><paper-item><a href="/exist/apps/OpenAMPD/odd-editor.html?root=/db/apps/OpenAMPD/resources/odd&amp;output-root=/db/apps/OpenAMPD/transform&amp;output=transform&amp;odd=docx.odd" target="_blank"><pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>: docx.odd</a></paper-item>
+                    <paper-item>
+                        <pb-download url="api/apps/download">
+                            <pb-i18n key="appgen.xar-download">Download App as .xar</pb-i18n>
+                        </pb-download>
+                    </paper-item>
+                    <paper-item>
+                        <a href="/exist/apps/OpenAMPD/api.html" target="_blank">API Documentation</a>
+                    </paper-item>
+                    <paper-item>
+                        <a href="https://cdn.tei-publisher.com/" target="_blank">Webcomponents API</a>
+                    </paper-item>
+                </paper-listbox>
+            </paper-menu-button>
+        </pb-restricted>
+   </pb-media-query>
+
+    <!-- Search input -->
+    <pb-search action="/exist/apps/OpenAMPD/search.html" value="" redirect="redirect"></pb-search>
+    <pb-media-query query="min-width: 1024px">
+       <pb-lang name="lang" data-template="pages:languages"><paper-item value="sl">Slovenščina</paper-item><paper-item value="it">Italiano</paper-item><paper-item value="tr">Türkçe</paper-item><paper-item value="no">Norsk</paper-item><paper-item value="zh_CN">简体中文</paper-item><paper-item value="cs">Česky</paper-item><paper-item value="de">Deutsch</paper-item><paper-item value="el">ελληνικά</paper-item><paper-item value="fi">Suomi</paper-item><paper-item value="en">English</paper-item><paper-item value="ru">русский</paper-item><paper-item value="es">Español</paper-item><paper-item value="nl">Nederlands</paper-item><paper-item value="uk">Українська</paper-item><paper-item value="ro">Română</paper-item><paper-item value="zh_TW">繁體中文</paper-item><paper-item value="pl">Polski</paper-item><paper-item value="pt">Português</paper-item><paper-item value="fr">Français</paper-item><paper-item value="bg">Български</paper-item><paper-item value="ka">ქართული</paper-item><paper-item value="sv">Svenska</paper-item></pb-lang>
+       <pb-login id="login" group="tei"></pb-login>
+    </pb-media-query>
+    
+    <pb-media-query query="(max-width: 1023px)">
+        <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"></paper-icon-button>
+    </pb-media-query>
+    <div id="menubar-after" style="display: none;"></div>
+    <paper-dialog id="downloadDialog">
+        <h2>
+            <pb-i18n key="dialogs.generatingFile">Generating file ...</pb-i18n>
+        </h2>
+        <paper-dialog-scrollable>
+            <pb-i18n key="dialogs.downloadMessage"></pb-i18n>
+        </paper-dialog-scrollable>
+        <div class="buttons">
+            <paper-button dialog-confirm="dialog-confirm" autofocus>
+                <pb-i18n key="dialogs.close">Close</pb-i18n>
+            </paper-button>
+        </div>
+    </paper-dialog>
+</app-toolbar>
+                    <app-toolbar class="toolbar" sticky="sticky">
+    <div id="toolbar-before" style="display: none"></div>
+    <paper-icon-button id="tocToggle" class="toc-toggle" icon="icons:view-carousel"></paper-icon-button>
+    <a id="toolbar-parent" href="/exist/apps/OpenAMPD/index.html?collection=" data-i18n="[title]browse..title" title="">
+        <paper-icon-button icon="icons:folder-open"></paper-icon-button>
+    </a>
+    <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"></pb-zoom>
+    <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"></pb-zoom>
+    <pb-navigation emit="transcription" keyboard="left" subscribe="transcription" direction="backward" unit="page">
+        <paper-icon-button icon="icons:chevron-left"></paper-icon-button>
+    </pb-navigation>
+    <pb-navigation emit="transcription" keyboard="right" subscribe="transcription" direction="forward" unit="page">
+        <paper-icon-button icon="icons:chevron-right"></paper-icon-button>
+    </pb-navigation>
+    <pb-progress subscribe="transcription" indeterminate bottom-item="bottom-item"></pb-progress>
+</app-toolbar>
+                </app-header>
+                <pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+                    <div class="drawer-content">
+                        <pb-load id="toc" url="api/panel-list/{doc}" expand="expand" src="document1" emit="panels" subscribe="toc" load-once="load-once">
+                            <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+                        </pb-load>
+                    </div>
+                </pb-drawer>
+                <section class="title">
+                    <h1 data-template="app:get-title">MP0003 / Berk. 3</h1>
+                </section>
+                <section class="breadcrumbs">
+                    <pb-collapse>
+                        <h2 slot="collapse-trigger">Metadata</h2>
+                        <pb-view slot="collapse-content" src="document1" xpath="//teiHeader" view="single">
+                            <pb-param name="mode" value="commentary"></pb-param>
+                        </pb-view>
+                    </pb-collapse>
+                </section>
+                <main class="content-body" data-template="app:get-templates"><pb-grid id="grid" panels="[0,1,2]" subscribe="transcription" emit="transcription"><template><!-- template used for adding a new column: user can choose between translation, facsimile and notes --><pb-panel emit="transcription"><!-- Added to the toolbar --><pb-grid-action grid="#grid" slot="toolbar" action="remove"><paper-icon-button icon="icons:close"></paper-icon-button></pb-grid-action><template title="Transliteration (PAL)"><pb-view src="document1" xpath="//div[1]" subscribe="transcription"></pb-view></template><template title="Transcription (PAL)"><pb-view src="document1" xpath="//div[2]" subscribe="transcription"></pb-view></template><template title="Translation (EN)"><pb-view src="document1" xpath="//div[3]" subscribe="transcription"></pb-view></template></pb-panel></template></pb-grid></main>
+                <footer>
+    <div class="license"> <p>
+            <span property="dct:title">OpenAMPD</span> © 2023–2024 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
+                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
+                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1">
+                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+            </a>
+        </p> </div>
+</footer>
+            </app-header-layout>
+        </app-drawer-layout></pb-page>
+    <div class="splash"></div>
+</body>
+
+</html>

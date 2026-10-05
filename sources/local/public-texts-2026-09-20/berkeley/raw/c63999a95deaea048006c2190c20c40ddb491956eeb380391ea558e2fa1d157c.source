@@ -1,0 +1,165 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0068" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0068 / Berk. 63</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0068 / Berk. 63.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_2010a">
+                  <biblScope unit="page">44-45</biblScope>
+                  <note>The first edition of Berk. 63.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 63</idno>
+                  <idno type="siglum">Berk. 63</idno>
+                  <idno type="OpenAMPD">MP0068</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">9.5 cm</height>
+                              <width unit="cm">7 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="12">12 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0039-04-04" calendar="#Pahlavi">Day Šahrewar, Month Tīr, 39 PY</date>
+            <date when="0690-09-06" calendar="#Julian">September 6, 690 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85281-63.recto.postT_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0068_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>dʾṭynwdʾṭ Y pṭ' sṭpsṭʾn
+               <lb n="2" xml:id="trl-p1-l2"/>dʾlyk MN ẔK Y ʿL bwn' ẔNH BYRḤ
+               <lb n="3" xml:id="trl-p1-l3"/>ṭyl Y ŠNṬ 30-9 <supplied resp="#PG">W YWM</supplied>
+               <lb n="4" xml:id="trl-p1-l4"/>šṭlwr 
+               <lb n="5" xml:id="trl-p1-l5"/>lʾd pṭ' SWSYʾ-1 Y pylwcʾn Y
+               <lb n="6" xml:id="trl-p1-l6"/>ʾpʾnhwgwšnʾn W 1 Y ʾpʾnhwgwšn' W 1 Y
+               <lb n="7" xml:id="trl-p1-l7"/>plḥwdʾn W 1 Y zʾṭʾnplḥw' W 1 Y
+               <lb n="8" xml:id="trl-p1-l8"/>mʾlṭʾn W 1 Y ʾṭwrʾlmn W 1 Y
+               <lb n="9" xml:id="trl-p1-l9"/>...bwhṭ W 1 Y bwlc(wy) W 1 Y
+               <lb n="10" xml:id="trl-p1-l10"/>Y pnʾh ṬBN' (4)-4 <supplied resp="#PG">dwl</supplied>
+               <lb n="11" xml:id="trl-p1-l11"/>lʾd Šg...
+               <lb n="12" xml:id="trl-p1-l12"/>ck' ʾwsṭʾndʾl <supplied resp="#PG">ḤṬYMWNṭ</supplied>
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0068_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Dādēn-vindād ī pad Stabestān
+               <lb n="2" xml:id="trc-p1-l2"/>dārīg az ān ī ō bun ēn māh
+               <lb n="3" xml:id="trc-p1-l3"/>Tīr ī sāl 39 <supplied resp="#PG">ud rōz ?</supplied>
+               <lb n="4" xml:id="trc-p1-l4"/>Šahrewar ...
+               <lb n="5" xml:id="trc-p1-l5"/>rāy pad asp 1 ī Pērōzān ī
+               <lb n="6" xml:id="trc-p1-l6"/>Ābān-Hugušnān ud 1 ī Ābān-Hugušn ud 1 ī
+               <lb n="7" xml:id="trc-p1-l7"/>Farroxdān ud 1 ī Zādān-Farrox ud 1 ī
+               <lb n="8" xml:id="trc-p1-l8"/>Mārdān ud 1 ī Ādur-Armin ud 1 ī
+               <lb n="9" xml:id="trc-p1-l9"/>...-buxt ud 1 ī Burz(ōy) ud 1 ī
+               <lb n="10" xml:id="trc-p1-l10"/>ī Panāh kāh (8 ?) <supplied resp="#PG">dōl</supplied>
+               <lb n="11" xml:id="trc-p1-l11"/>rāy jaw ...
+               <lb n="12" xml:id="trc-p1-l12"/>cak ōstāndār <supplied resp="#PG">āwišt</supplied>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab xml:id="MP0068_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Dādēnvindād qui (est) propriétaire à Stabestān,
+               <lb n="2" xml:id="trans-p1-l2"/>à partir de ce qu'(il y a) dans le patrimoine, ce mois de
+               <lb n="3" xml:id="trans-p1-l3"/>Tīr de l'an 39 (et le jour de)
+               <lb n="4" xml:id="trans-p1-l4"/>Šahrewar, ...
+               <lb n="5" xml:id="trans-p1-l5"/>pour un cheval de Pērōzān fils de
+               <lb n="6" xml:id="trans-p1-l6"/>Ābān-Hugušn, et un (cheval) de ^ābān-Hugušn, et un de
+               <lb n="7" xml:id="trans-p1-l7"/>Farroxdān, et un de Zādān-Farrox, et un de
+               <lb n="8" xml:id="trans-p1-l8"/>Mārdān, et un de ^ādur-Armin ? et un de ....
+               <lb n="9" xml:id="trans-p1-l9"/>-buxt, et un de Burz(ōy), et un
+               <lb n="10" xml:id="trans-p1-l10"/>de Panāh pour (lesquels) (huit ? seaux) de paille ... et
+               <lb n="11" xml:id="trans-p1-l11"/>... [grīw] d'orge ...
+               <lb n="12" xml:id="trans-p1-l12"/>L'ōstāndār a scellé le document.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

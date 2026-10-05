@@ -1,0 +1,13 @@
+# Automatic dictionary inference runtime
+
+3 October 2026. Classic + Critic. Main owns integration, `hf_component.py`, wrapper tests and documentation. A bounded worker owns `component_eval.py` and its new runner tests; the critic is read-only. This is local implementation, not paid launch or training permission.
+
+Success means the exact 30 frozen A/B messages can be replayed without flattening roles or truncation; the retained step280 BF16-base/FP32-adapter path remains unchanged; first attempts, failures and recovery remain explicit; the full deadline fits a concrete prospective envelope. All 15 outputs per arm must be valid and recovered before semantic continuation. Preserve the prior reviewed specimen and fixed merit.
+
+Local start: 13:23:00 UTC. Expected 55 minutes, warning 60 minutes, hard end 14:33:00 UTC. Worker delivery 13:53, critic initial findings 13:48. One execution owner. Local-only tests, installed dependencies, small temporary evidence; no GPU, weights, credentials, protected answers, cloud requests or paid work. Timing policy/lessons files are absent here. Same-approach retry limit one; at most one justified local estimate revision within the hard end.
+
+The old 1200-second attempt contract does not fit a one-hour proposal. Prepare a separately versioned **90-second first-attempt contract**, preserving the 4096 output-token cap and 8192 input-token cap. This is an explicit prospective censoring limit, not evidence that every prompt completes in 90 seconds. Existing shorter-input inference timings motivate the proposal, but the new 5135-token worst case has not run on GPU. Any timeout/cap makes the primary comparison inconclusive; neither may count as a semantic gain.
+
+Proposed native timeout is 120 minutes: computation 6600 seconds; internal export deadline 7020; native 7200. After loading and the longest-input prefill canary, require at least 3420 seconds for 30 x 90 seconds, 600 seconds of per-attempt snapshots and 120 seconds of tail checks. The 420 seconds after computation include final export and up to 60 seconds of persistence; leave 180 seconds before the native cutoff. Enforce the boundaries; do not silently enlarge them or retry.
+
+Verification: exact message/token replay; malformed identity/schema/role/hash guards; all 30 normal first attempts; interruption before/after journal writes; late startup; per-slot timeout; export/readback failure; final manifest and fixed denominators; unchanged legacy 9/12 protocols; independent critic and one consolidated Astra review. Mocked lifecycle tests prove local behavior only. Live GPU canary, current funding/rate/idle state, remote independent readback and exact one-job permission remain launch prerequisites.

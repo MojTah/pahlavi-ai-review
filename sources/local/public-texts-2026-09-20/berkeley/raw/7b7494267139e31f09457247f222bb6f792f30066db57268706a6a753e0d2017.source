@@ -1,0 +1,143 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP3002" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP3002 / P.116</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP3002 / P.116.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1992a">
+                  <biblScope unit="page">204</biblScope>
+                  <note>The first edition of P.116.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <institution>Österreichische Nationalbibliothek</institution>
+                  <idno type="shelfmark">Wien Pehl. 586</idno>
+                  <idno type="siglum">P.116</idno>
+                  <idno type="OpenAMPD">MP3002</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">11.7</height>
+                              <width unit="cm">8.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="6">6 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">Impressions</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): N/A
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP3002_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>.[].[].[
+               <lb n="2" xml:id="trl-p1-l2"/>ZKL [
+               <lb n="3" xml:id="trl-p1-l3"/>mkwk' pṭ'[
+               <lb n="4" xml:id="trl-p1-l4"/>ŠDRWNʾt' .[
+               <lb n="5" xml:id="trl-p1-l5"/>ʿḆYDWNty? KRʾ?[
+               <lb n="6" xml:id="trl-p1-l6"/>]l[].[
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP3002_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>... ...
+               <lb n="2" xml:id="trc-p1-l2"/>nar ...
+               <lb n="3" xml:id="trc-p1-l3"/>makōg pad ...
+               <lb n="4" xml:id="trc-p1-l4"/>frēstād ...
+               <lb n="5" xml:id="trc-p1-l5"/>kard? harw?[
+               <lb n="6" xml:id="trc-p1-l6"/>... ...
+            </ab>
+         </div>
+<!--         <div type="translation" xml:lang="de">
+            <ab xml:id="MP3002_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Translation not published
+            </ab>
+         </div>-->
+      </body>
+   </text>
+</TEI>

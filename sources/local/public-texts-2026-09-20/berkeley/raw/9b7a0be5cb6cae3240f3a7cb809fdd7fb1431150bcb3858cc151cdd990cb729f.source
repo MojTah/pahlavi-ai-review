@@ -1,0 +1,196 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP1019" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP1019 / Tab. 16</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI dencoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP1019 / Tab. 16.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_2014">
+                  <biblScope unit="page">43–45</biblScope>
+                  <note>The first edition of Tab. 19.</note>
+               </bibl>
+               <bibl corresp="#Weber_2022b">
+                  <biblScope unit="page">106-108</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Berlin(?), private collection</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Tab. 16</idno>
+                  <idno type="OpenAMPD">MP1019</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">N/A</height>
+                              <width unit="cm">N/A</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="24">24 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Tabarestān</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0096-02-28" calendar="#Pahlavi">Day Zamyād, Month Ardwahišt, 96 PY</date>
+            <date when="0747-07-15" calendar="#Julian">July 15, 747 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/>
+            <ab xml:id="MP1019_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>BYRḤ  ʾrtwhšṭˈ  QDM  ŠNṬ  XX-XX-XX-XX-(X-III)-III YWM (zʾ)md[ … … …
+               <lb n="2" xml:id="trl-p1-l2"/>ŠM-I  ʾp̄zwṭ-hwslwḇ  BRH  Y  MN ʾsp̄gwlṭˈ MṬʾ PWN dlspʾs[
+               <lb n="3" xml:id="trl-p1-l3"/>PWN hlykˈ LʿYNˈ MNW hwyškʾlyhʾ gwpṭˈ ʾYḴ dʾbwd ŠM-I[ … … … Y]
+               <lb n="4" xml:id="trl-p1-l4"/>ZK  ʾsp̄gwlṭˈ  MṬʾ  PWN  ZNH  ʾYK  BYN  hwyšyh Y dʾbwd[
+               <lb n="5" xml:id="trl-p1-l5"/>wlcʾkˈ  I-ṭʾkˈ  ʾn whʾkˈ  ʾlcsṭˈ  S-X-III-II  [W [w]yš MNDʿM] BRʾ ʿL L YḤBWNṭ LK … Y ẔK
+               <lb n="6" xml:id="trl-p1-l6"/>pnd lʾd yʾwl-I  ʿD  ẔK  NKSYʾ  YḤBWNṭˈ PWN bwnˈ Y ẔK ʾsp̄gwlṭˈ MṬʾ l[ʾd]
+               <lb n="7" xml:id="trl-p1-l7"/>NPŠH zmyk Y k(yšwˈc)ʾl II klṭkˈ MNW zytˈ Y wyyhmʾn PWN nymlw[c] hmʾk
+               <lb n="8" xml:id="trl-p1-l8"/>YḤYTYWNyṭ BRʾ ʿL dʾbwd YḤBWNṭ … … dʾbwd … KʿN
+               <lb n="9" xml:id="trl-p1-l9"/>MN sʾhṭˈ Y ẔK ẕmyk k(m) ... … //////// W whʾkˈ c-... …
+               <lb n="10" xml:id="trl-p1-l10"/>LʾWḤL  ʿL dʾbwd HD YḤBWNṭ  W  …… (B)[R]ʾ-c MN (ẔK) zmyk
+               <lb n="11" xml:id="trl-p1-l11"/>Y  kyšwˈcʾl  ʾyʾlṭ  Y  ʿL  hw(?)sṭkdʾlʾn(?)  ///  Y dʾbwd [W] KʿN dʾbwd)
+               <lb n="12" xml:id="trl-p1-l12"/>YḤSNNyṭˈ L /// Y NPŠH lʾd … /////////////// lʾd
+               <lb n="13" xml:id="trl-p1-l13"/>L  hmymʾl  L  ʾYṬ  ẔK  KRʾ  PWN  whʾkˈ //////////[
+               <lb n="14" xml:id="trl-p1-l14"/>(ʿ)ḆYDWNṭ W whʾkˈ Y ẔK KRʾ lʾd ẕmyk ʿL [      ] dʾbwd
+               <lb n="15" xml:id="trl-p1-l15"/>Lʾ YḤBWNṭ W ẔK-c zmyk Y //////// L pṭ-š pṭgl(ʾḇ)[      ]... …[
+               <lb n="16" xml:id="trl-p1-l16"/>lʾ(d) dʾbwd  ʾp̄ʾ(m) ʾYṬˈ BRʾ  /////////// ʿL  … …
+               <lb n="17" xml:id="trl-p1-l17"/>sʾhṭˈ BRʾ ḤṬ dʾbwd //////////////////// dʾbwd
+               <lb n="18" xml:id="trl-p1-l18"/>… ḤṬ … … pyṭʾkyh … … … YWM zʾmdʾṭ[
+               <lb n="19" xml:id="trl-p1-l19"/>Y  BYRḤ  hwrdṭ  Y  hm-ŠNṬ  XX-XX-XX-XX-X-III-III //////// LʿYNˈ zw(l)wʾndʾṭwyh
+               <lb n="20" xml:id="trl-p1-l20"/>Y(ʾ)ṬWNm     ḤṬ      MNDʿM-c     ywdṭl ʿḆYDWNm
+               <lb n="21" xml:id="trl-p1-l21"/>KSP  S-III  II  swṭˈ  [ʿ]L  dʾbwd  YḤBWNm … … //////// … dʾṭsṭʾn
+               <lb n="22" xml:id="trl-p1-l22"/>YKʿYMWNyṭ      … … … …      PWN      ʾswṭ … … … … … Y MN ʾsp̄gwlṭˈ
+               <lb n="23" xml:id="trl-p1-l23"/>                  ]... pṭsṭʾk  ḤṬYMWNṭ  W  ʾywlyh lʾd ʾhw MRʿḤ mwdl
+               <lb n="24" xml:id="trl-p1-l24"/>                   QDM ḤNḤṬWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP1019_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>māh Ardwahišt abar sāl 96 rōz Zāmy[ād  ... ...
+               <lb n="2" xml:id="trc-p1-l2"/>nām-ēw  Abzūd-Xusrō  pus  ī  az  *Asp-gurd deh pad dar-espās[
+               <lb n="3" xml:id="trc-p1-l3"/>pad *Halīg pēš kē xwēškārīhā guft kū Dābōy nām-ēw [ ... ... ... ī]
+               <lb n="4" xml:id="trc-p1-l4"/>ān  *Asp-gurd deh pad ēn kū andar xwēšīh ī Dābōy [ 
+               <lb n="5" xml:id="trc-p1-l5"/>warzāg  ēw-tāg  ān  wahāg  arzist  s(atēr)  15 [ud (w)ēš tis] be ō man dād tō ... ī ān
+               <lb n="6" xml:id="trc-p1-l6"/>pand rāy ǰār-ēw tā ān xwāstag dād pad bun ī ān *Asp-gurd deh r[āy]
+               <lb n="7" xml:id="trc-p1-l7"/>xwēš  zamīg  ī  kišwzār  2  kardag  kē  zayt  ī wēhmān pad nēmrō[z] hamāg ī
+               <lb n="8" xml:id="trc-p1-l8"/>āwarēd be ō Dābōy dād ... ... Dābōy ... nūn
+               <lb n="9" xml:id="trc-p1-l9"/>az  sāxt  ī  ān  zamīg  kam  ... ... ... ud  wahāg ... ...ī 
+               <lb n="10" xml:id="trc-p1-l10"/>abāz ō Dābōy ēw dād ud ... ... ... ... zamīg
+               <lb n="11" xml:id="trc-p1-l11"/>ī kišwzār ayārd ī ō xwāstagdārān /// ī Dābōy [ud] nūn Dābōy
+               <lb n="12" xml:id="trc-p1-l12"/>dārēd man /// ī xwēš rāy ... ... ... ... ... rāy
+               <lb n="13" xml:id="trc-p1-l13"/>man hamēmāl man ast ān harw pad wahāg ////////// 
+               <lb n="14" xml:id="trc-p1-l14"/>]kard  ud  wahāg  ī  ān  harw rāy  zamīg  ō  [ ]Dāb
+               <lb n="15" xml:id="trc-p1-l15"/>nē dād ud ān-iz zamīg ī //////// man pad-iš padirāy [       ] ... ...
+               <lb n="16" xml:id="trc-p1-l16"/>Dābōy abām ast bē ... ... ... ... ... ō ... ...
+               <lb n="17" xml:id="trc-p1-l17"/>sāxt bē agar Dābōy ... ... ... ... ... ... ... Dābōy
+               <lb n="18" xml:id="trc-p1-l18"/>... ... ... paydāgīh ... ... ... rōz Zāmyād[ 
+               <lb n="19" xml:id="trc-p1-l19"/>ī ham-sāl 96 ... ... ... pēš Zurwāndādweh
+               <lb n="20" xml:id="trc-p1-l20"/>āyēm agar tis-iz ǰuttar kunēm ... ... ... ... ... ud ān ǰādag
+               <lb n="21" xml:id="trc-p1-l21"/>arz s(atēr) 5 sūd ō Dābōy dahēm ... ... ... ... ... dādestān
+               <lb n="22" xml:id="trc-p1-l22"/>ēstēd   ... ... ... ...  pad  āsūd   ... ... ... ... ...ī  az Aspgurd
+               <lb n="23" xml:id="trc-p1-l23"/>                 ] ... padistā āwišt ud ēwarīh rāy axw xwadāy muhr
+               <lb n="24" xml:id="trc-p1-l24"/>                      abar nihād
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP1019_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>[This month Ard]wahišt (2nd month) in the year 96 day Zāmy[ād (28th day)
+               <lb n="2" xml:id="trans-p1-l2"/>one [... ...] by name, son of Abzūd-Xusrō, from the village of *Asp-gurd before the service of the residence
+               <lb n="3" xml:id="trans-p1-l3"/>at *Halīg before whom he dutifully spoke: One Dābōy by name [... ... ... from]
+               <lb n="4" xml:id="trans-p1-l4"/>the community of *Asp-gurd on behalf of this (case): Under the possessions of Dābōy
+               <lb n="5" xml:id="trans-p1-l5"/>(of) a single tillage by one ploughing ox the value of which is estimated at 15 States [and a little bit more] will give to me ...
+               <lb n="6" xml:id="trans-p1-l6"/>on behalf of the counsel all at once so that that money is to give to the bun of the village of *Asp-gurd
+               <lb n="7" xml:id="trans-p1-l7"/>2 sections of his own land of field which produces olives of large (trees) as desired
+               <lb n="8" xml:id="trans-p1-l8"/>to be given to Dābōy ... now
+               <lb n="9" xml:id="trans-p1-l9"/>from the *produce of the land little
+               <lb n="10-18" xml:id="trans-p1-l10-18"/>too fragmentary ... ... ... day Zāmyād
+               <lb n="19" xml:id="trans-p1-l19"/>[of month Ardwahišt] in the year ... ... ... before Zurwāndādweh
+               <lb n="20" xml:id="trans-p1-l20"/>I will come.
+               <lb n="21" xml:id="trans-p1-l21"/>...
+               <lb n="22" xml:id="trans-p1-l22"/>...
+               <lb n="23-24" xml:id="trans-p1-l23-24"/>] .... he sealed the promise and (for making it) legally binding the Lord put the seal over it.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

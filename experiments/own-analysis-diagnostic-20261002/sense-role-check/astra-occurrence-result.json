@@ -1,0 +1,30 @@
+{
+  "thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "host_id": "local",
+  "reviews": [
+    {
+      "turn_id": "01a0fe7b-9bbb-73d3-968c-6151bbf8c552",
+      "status": "COMPLETED",
+      "verdict": "PASS",
+      "artifact_sha256": {
+        "experiments/own-analysis-diagnostic-20261002/sense-role-check/OCCURRENCE-DIFFERENCE.md": "c0f7b9bc126ed0e0483fd5bad07c4a28987a611378d69f1b5ab958de9b6ee714",
+        "experiments/own-analysis-diagnostic-20261002/sense-role-check/occurrence-check.py": "df40b27090322c574d3454ab8a0e01e3902206e14050e2f9ef35006f295ea1f0",
+        "resources/local/own-analysis-diagnostic-20261002/sense-role-check/occurrence-difference.json": "f1668df3bec81f178f1046407f1fc4ce128ac0f6dfbc25f8ac51152361e108d3",
+        "resources/local/own-analysis-diagnostic-20261002/sense-role-check/primary-inspection.json": "37ba2af3e6e51ea51f1908d3c097ab4edf13469eec3732a26e06f02971617c6e"
+      },
+      "final_reply": "PASS — both leads pass the narrow information-difference check. No correction required. The read-only checker passed and reproduced ledger SHA256: f1668df3bec81f178f1046407f1fc4ce128ac0f6dfbc25f8ac51152361e108d3 The report correctly distinguishes new occurrence-specific information from an already-tested assistance method. It also preserves the important limits: Berk.34’s actor interpretation remains tentative; passive wording does not contradict it. MP0439 supports titleholder/location, not allocation roles. Its four later training forwards do not establish step280 exposure. Neither lead establishes independent references, unseen status or another document family. One next action: assemble one scoped Berk.34 eligibility record linking the exact clause, separately attributed transcription/translation, and Benfey’s tentative participant analysis. Preserve edition differences and unresolved actor attribution; do not turn uncertainty into a corrective training target. The full comparison remains HOLD: zero admitted cases or jobs."
+    },
+    {
+      "turn_id": "01a0fe80-6935-7382-a1fe-6200f98a79a3",
+      "status": "COMPLETED",
+      "verdict": "PASS",
+      "artifact_sha256": {
+        "experiments/own-analysis-diagnostic-20261002/sense-role-check/OCCURRENCE-DIFFERENCE.md": "ec63e438eb93724849d3384bac18a9748b6d1216d58cf492db0e1b8bdab6aac8",
+        "experiments/own-analysis-diagnostic-20261002/sense-role-check/occurrence-check.py": "afad66159802a48cc1b3319c98e0d7be2c94be7ae79da60401c36c47a9cde0e9",
+        "resources/local/own-analysis-diagnostic-20261002/sense-role-check/occurrence-difference.json": "17966d7fac0b023c644d9ee47c5e32841c1c840054a8c1c3c057f45ecbcf3055"
+      },
+      "final_reply": "PASS — no correction required. The checker reproduced the expected ledger: 17966d7fac0b023c644d9ee47c5e32841c1c840054a8c1c3c057f45ecbcf3055 The closing clause correctly excludes ud wizārēm. IEDC and OpenAMPD text layers remain separately attributed; no phonetic layer or cross-edition pairing is invented. Benfey’s interpretation remains tentative, and the failed PDF capture is disclosed. This follow-through is closed. Zero complete cases, training runs or paid jobs are admitted."
+    }
+  ],
+  "scope": "Source identity and narrow information difference only; no linguistic expert gold or execution admission."
+}

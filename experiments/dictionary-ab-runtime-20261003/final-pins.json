@@ -1,0 +1,5 @@
+{
+  "experiments/dictionary-ab-runtime-20261003/score_ab.py": "9b6bdcbeb2596b3612cf877406256095a044abfb69057978b5f790841184a1aa",
+  "tests/test_dictionary_ab_scoring.py": "be5dd043876bdc07375f7b8c037bdf2fe83833938166b1c158623a91a3a0c81a",
+  "experiments/dictionary-ab-runtime-20261003/FINAL-READINESS.md": "529476f9b2ac873e0d122f37a6d1ff98eb79d0820f4906178aa6339646ddad4c"
+}

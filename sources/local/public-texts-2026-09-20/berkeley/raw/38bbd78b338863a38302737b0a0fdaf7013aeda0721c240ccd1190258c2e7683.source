@@ -1,0 +1,154 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0071" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0071 / Berk. 66</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0071 / Berk. 66.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Gignoux_2009b">
+                  <biblScope unit="page">90-91</biblScope>
+                  <note>The first edition of Berk. 66.</note>
+               </bibl>
+               <bibl corresp="#Weber_2020a">
+                  <biblScope unit="page">147</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 66</idno>
+                  <idno type="siglum">Berk. 66</idno>
+                  <idno type="OpenAMPD">MP0071</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Parchment">
+                        <support>
+                           <material>Parchment</material>
+                           <dimensions>
+                              <height unit="cm">7 cm</height>
+                              <width unit="cm">7 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="7">Traces of 7 lines.</measure>
+                           <measure unit="lines" type="verso" quantity="1">Marked</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0048-04" calendar="#Pahlavi">Month Tīr, 48 PY</date>
+            <date when="0699-09" calendar="#Julian">September-October, 699 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85284-66.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0071_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>hwlyn’ MN ẔK Y ʾL bwn’ ẔNH
+               <lb n="2" xml:id="trl-p1-l2"/>BYRḤ ṭyl QDM ŠNT $$-IIII-IIII
+               <lb n="3" xml:id="trl-p1-l3"/>MN lšnyk <gap extent="several words" reason="tear"/> G-III ʾL mzgṭ’
+               <lb n="4" xml:id="trl-p1-l4"/>Y BYRḤ <gap extent="several words" reason="tear"/>ṭn(‘) Y kʾl
+               <lb n="5" xml:id="trl-p1-l5"/>LWṬH <gap extent="several words" reason="tear"/> PWN bwdsṭʾn
+               <lb n="6" xml:id="trl-p1-l6"/>XX <gap extent="several words" reason="tear"/>
+               <lb n="7" xml:id="trl-p1-l7"/><gap extent="several words" reason="tear"/>
+               <lb n="8" xml:id="trl-p1-l8"/><gap extent="several words" reason="tear"/>
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0071_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Xwarin az ān ī ō bun ēn
+               <lb n="2" xml:id="trc-p1-l2"/>māh Tīr abar sāl 48
+               <lb n="3" xml:id="trc-p1-l3"/>az Rašnīg <gap extent="several words" reason="tear"/> g(rīw) 3 ō mazgit
+               <lb n="4" xml:id="trc-p1-l4"/>ī māh <gap extent="several words" reason="tear"/>tan ī kār
+               <lb n="5" xml:id="trc-p1-l5"/>abāg <gap extent="several words" reason="tear"/> pad bōyestān
+               <lb n="6" xml:id="trc-p1-l6"/>20 <gap extent="several words" reason="tear"/>
+               <lb n="7" xml:id="trc-p1-l7"/><gap extent="several words" reason="tear"/>
+               <lb n="8" xml:id="trc-p1-l8"/><gap extent="several words" reason="tear"/>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0071_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Xwarin from that which (belongs) to the bun, this
+               <lb n="2" xml:id="trans-p1-l2"/>month Tīr in the year 48
+               <lb n="3" xml:id="trans-p1-l3"/>from Rašnīg <gap extent="several words" reason="tear"/> 3 grīw to the mosque
+               <lb n="4-8" xml:id="trans-p1-l4-8"/>no coherent translation possible
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

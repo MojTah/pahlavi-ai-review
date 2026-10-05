@@ -1,0 +1,13 @@
+{
+  "status": "LOCAL_PASS_LAUNCH_PERMISSION_PENDING",
+  "runtime_tests_passed": 20,
+  "scoring_tests_passed": 13,
+  "scoring_seconds": 81.282,
+  "astra_runtime_pass": true,
+  "astra_token_text_p2_closed": true,
+  "astra_final_mechanical_changes_pass": true,
+  "runtime_review_reopened": false,
+  "paid_or_training_admitted": false,
+  "live_checks_done": false,
+  "next": "Exact new credential/transfer/one-job authorization, then refreshed live gates before submission."
+}

@@ -1,0 +1,249 @@
+{
+  "status": "LOCAL_REASSESSMENT_COMPLETE_AB_PROPOSAL_NOT_ADMITTED",
+  "timestamp_utc": "2026-10-03",
+  "source_revision": "a14c72e1d214c3f4de91a71d744e4519a9c871ce",
+  "scope": "cached exposed DEV15 only; source-only automatic lookup; no cloud generation or training",
+  "files": {
+    "resources/local/dev-comparability-20261003/freeze.json": "ffce45802a92751998bdae0ea5dd3e575ce0f0df77c257ad51f514351d49b5da",
+    "resources/local/dev-comparability-20261003/ab-contract.json": "71d386912ac9325891bc5121efd51c6ef79dda399c0e7f4dc3f6380675aec21d",
+    "resources/local/dev-comparability-20261003/ab-inputs.jsonl": "3b4eb9298882868bf197cd45c8144704f9d5522b394e3f2296624a28d4809c76",
+    "resources/local/dev-comparability-20261003/automatic-source-receipts.json": "35bb3cf0d232baec3c07aab1c17da2280cabf2d7794e4bde5184039cacdf415f",
+    "resources/local/dev-comparability-20261003/lead-only/prompt-replay.jsonl": "9fd22fc769bf68ccfa0ddbac116101ea4fd4d63c10a9dc44785a3c67770853ee",
+    "resources/local/dev-comparability-20261003/calibration-plan.json": "c2dac2221edc5d0bc6b4293aebfbe84ce4e26b0712b941374789f2ce5f4a2eae",
+    "resources/local/dev-comparability-20261003/summary.json": "bc6c2395038a5c6a47a1bb5b9436025249af49dd7180c929fb4bb81a8c6abab7",
+    "resources/local/dev-comparability-20261003/historical-drift.json": "0ad64d66f0a759a4cc646f30fcdd5a50b2cf47b47ea12a8359a2db0b080bee31",
+    "resources/local/dev-comparability-20261003/historical-label-comparisons.jsonl": "51712ae67994a7670456b3aca8903627b508ac13c547bfe085fce7a2f7a11d24",
+    "resources/local/dev-comparability-20261003/span-offsets.jsonl": "18e990d337c3d9b5742a1703ebdaef0bad0eeb5bc58970045bf95a55ed98b858",
+    "resources/local/dev-comparability-20261003/headroom.json": "5400072f649a958c7176bc1dabf4f97f98faa74cc4ec00c5cd204a22ebf687ab",
+    "resources/local/dev-comparability-20261003/calibration.json": "9ea87eb5d856cfa0a8fa3c38068f5127ddf4462ffeb71707f3d2dd7d8c68a5a1",
+    "resources/local/dev-comparability-20261003/reviewer-A/reviews.jsonl": "ec92e76eb42eb4fd4cc3ba0ab73ce9bec00174370716bcdd2a84fda4345aa68c",
+    "resources/local/dev-comparability-20261003/reviewer-A/raw-first-pass.jsonl": "ec92e76eb42eb4fd4cc3ba0ab73ce9bec00174370716bcdd2a84fda4345aa68c",
+    "resources/local/dev-comparability-20261003/reviewer-A/validation.json": "6a23b5d9d4d38f26918e34b8a8b4083ee3f0edbea5ee6a475643696a81affaa8",
+    "resources/local/dev-comparability-20261003/reviewer-A/A008.prewrite-original.json": "385fc1b3273ac79799932f9bd9a80d5084e4272b764a2d646bede802c9f15cfb",
+    "resources/local/dev-comparability-20261003/reviewer-B/reviews.jsonl": "08cae5f298015037739a0109583676a0f86a3ad02d301c0c3707f62e8cd9db82",
+    "resources/local/dev-comparability-20261003/reviewer-B/raw-first-pass.jsonl": "08cae5f298015037739a0109583676a0f86a3ad02d301c0c3707f62e8cd9db82",
+    "resources/local/dev-comparability-20261003/reviewer-B/validation.json": "8d735565d65c08fbd039bcaa9f01b51e07bc7b38f03609932ab3749091f8f5d9"
+  },
+  "reviewers": [
+    {
+      "id": "/root/blind_dev15_a_20261003",
+      "packet": "reviewer-A",
+      "context": "fresh no history",
+      "model_request": "inherited without override; actual served model not independently verified"
+    },
+    {
+      "id": "/root/blind_dev15_b_20261003",
+      "packet": "reviewer-B",
+      "context": "fresh no history",
+      "model_request": "inherited without override; actual served model not independently verified"
+    }
+  ],
+  "raw_review_policy": "retain exact first-pass bytes and all structural repairs separately; no favorable semantic rerating",
+  "calibration_selection": "fixed before inspecting reassessment responses, one per work plus separately selected disagreements",
+  "initial_status": "LOCAL_PREPARATION_ONLY_ASSESSMENTS_PENDING",
+  "current_counts": {
+    "A": {
+      "original_D0": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 7,
+          "critical_error": 7,
+          "uncertain": 1
+        }
+      },
+      "original_D1": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 7,
+          "critical_error": 8
+        }
+      },
+      "original_D2": {
+        "denominator": 15,
+        "judgments": {
+          "uncertain": 6,
+          "meaning_error": 6,
+          "critical_error": 2,
+          "accepted": 1
+        }
+      },
+      "original_D3": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 7,
+          "critical_error": 3,
+          "uncertain": 3,
+          "accepted": 2
+        }
+      },
+      "step280_plain": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 9,
+          "uncertain": 2,
+          "critical_error": 3,
+          "accepted": 1
+        }
+      },
+      "step280_assisted": {
+        "denominator": 15,
+        "judgments": {
+          "uncertain": 2,
+          "meaning_error": 5,
+          "accepted": 3,
+          "critical_error": 5
+        }
+      },
+      "mixed96": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 7,
+          "critical_error": 6,
+          "uncertain": 1,
+          "accepted": 1
+        }
+      },
+      "corrected96": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 8,
+          "critical_error": 4,
+          "uncertain": 1,
+          "accepted": 2
+        }
+      },
+      "dose_baseline_nf4": {
+        "denominator": 15,
+        "judgments": {
+          "uncertain": 4,
+          "meaning_error": 9,
+          "critical_error": 2
+        }
+      },
+      "dose384_nf4": {
+        "denominator": 15,
+        "judgments": {
+          "uncertain": 3,
+          "meaning_error": 5,
+          "accepted": 1,
+          "critical_error": 6
+        }
+      }
+    },
+    "B": {
+      "original_D0": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 8,
+          "critical_error": 7
+        }
+      },
+      "original_D1": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 8,
+          "critical_error": 7
+        }
+      },
+      "original_D2": {
+        "denominator": 15,
+        "judgments": {
+          "uncertain": 4,
+          "meaning_error": 7,
+          "critical_error": 2,
+          "accepted": 2
+        }
+      },
+      "original_D3": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 9,
+          "uncertain": 1,
+          "critical_error": 2,
+          "accepted": 3
+        }
+      },
+      "step280_plain": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 10,
+          "critical_error": 3,
+          "accepted": 2
+        }
+      },
+      "step280_assisted": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 7,
+          "accepted": 3,
+          "critical_error": 4,
+          "uncertain": 1
+        }
+      },
+      "mixed96": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 9,
+          "critical_error": 5,
+          "accepted": 1
+        }
+      },
+      "corrected96": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 11,
+          "critical_error": 2,
+          "accepted": 2
+        }
+      },
+      "dose_baseline_nf4": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 11,
+          "critical_error": 3,
+          "accepted": 1
+        }
+      },
+      "dose384_nf4": {
+        "denominator": 15,
+        "judgments": {
+          "meaning_error": 8,
+          "accepted": 1,
+          "critical_error": 5,
+          "uncertain": 1
+        }
+      }
+    }
+  },
+  "unique_disagreements": 22,
+  "drift": {
+    "historical_memberships": 270,
+    "changed_comparisons": 86,
+    "comparisons": 540,
+    "independent_observations": false
+  },
+  "engineering_critic": {
+    "id": "/root/next_decision_critic",
+    "verdict": "PASS_LOCAL_ONLY",
+    "actual_commands": [
+      "review.py check",
+      "automatic_lookup.py --check",
+      "prepare_ab.py --check"
+    ],
+    "corruption_probes": 6,
+    "static_only": [
+      "historical.py"
+    ],
+    "repaired_defect": "JSON receipt key order; parsed values unchanged"
+  },
+  "quality_improvement": "No new model outputs or demonstrated new translation improvement",
+  "next_decision": "Prepare one automatic dictionary A/B inference execution contract; no training or paid launch admitted",
+  "astra_review": {
+    "status": "PASS_LOCAL_ONLY",
+    "thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+    "turn_id": "01a10133-afc4-7593-903e-ce9c7ad83bcf",
+    "file": "astra-result.json"
+  },
+  "execution_readiness": "HOLD:36180-second conservative cycle does not fit3600-second proposal; actual runner and exact paid authorization missing",
+  "new_work_completed": "measurement and local automatic lookup preparation; no new translation or training"
+}

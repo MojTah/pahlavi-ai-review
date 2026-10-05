@@ -1,0 +1,167 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0032" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0032 / Berk. 32</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="JW">
+               <persName>Joey Wang</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0032 / Berk. 32.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_2001">
+                  <biblScope unit="page">296–298</biblScope>
+                  <note>The first edition of Berk 32.</note>
+               </bibl>
+               <bibl corresp="#Gignoux_2003">
+                  <biblScope unit="page">86–87</biblScope>
+               </bibl>
+               <bibl corresp="#Gignoux_2010a">
+                  <biblScope unit="page">72–73</biblScope>
+               </bibl>
+               <bibl corresp="#Weber_2010b">
+                  <biblScope unit="page">46–47</biblScope>
+               </bibl>
+               <bibl corresp="#Weber_2022a">
+                  <biblScope unit="page">536–537</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 32</idno>
+                  <idno type="siglum">Berk. 32</idno>
+                  <idno type="OpenAMPD">MP0032</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">12</height>
+                              <width unit="cm">8</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="9">9 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">1 line</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions> Bulla(e): Bottom </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs
+                  for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0040-07-28" calendar="#Pahlavi">Day Zamyād, Month Mihr, 40 PY</date>
+            <date when="0691-12-29" calendar="#Julian">December 29, 691 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85245-32.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0032_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>dʾṭynwndʾṭ Y PWN yzdʾnʾp̄sṭʾn dʾlyk
+               <lb n="2" xml:id="trl-p1-l2"/>ẔNH BYRḤ mṭrˈ Y ŠNṬ 40 W YWM
+               <lb n="3" xml:id="trl-p1-l3"/>zʾmdʾṭ dwlwckˈ PWN SWSYʾ-I
+               <lb n="4" xml:id="trl-p1-l4"/>W ḤMRˈ-III Y dynpˈnkˈ Y
+               <lb n="5" xml:id="trl-p1-l5"/>slm ŠG G-II ˈsp̄sṭˈ
+               <lb n="6" xml:id="trl-p1-l6"/>X glṭˈ ʿL dynpˈnkˈ
+               <lb n="7" xml:id="trl-p1-l7"/>YḤBWNṭˈ ckˈ
+               <lb n="8" xml:id="trl-p1-l8"/>ʾwsṭʾndʾl
+               <lb n="9" xml:id="trl-p1-l9"/>ḤTYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0032_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Dādēnwindād ī pad Yazdān-ābestān dārīg
+               <lb n="2" xml:id="trc-p1-l2"/>ēn māh Mihr ī sāl 40 ud rõz
+               <lb n="3" xml:id="trc-p1-l3"/>zāmyād dō-rōzag pad asp 1
+               <lb n="4" xml:id="trc-p1-l4"/>ud xar 3 ī Dēnbānag ī
+               <lb n="5" xml:id="trc-p1-l5"/>Sarm ǰaw g(rīw) 2 aspast
+               <lb n="6" xml:id="trc-p1-l6"/>10 gird ō Dēnbānag
+               <lb n="7" xml:id="trc-p1-l7"/>dād čak
+               <lb n="8" xml:id="trc-p1-l8"/>ōstāndār
+               <lb n="9" xml:id="trc-p1-l9"/>āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0032_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Dādēnwindād, the manager in Yazdān-ābestān, is to give
+               <lb n="2" xml:id="trans-p1-l2"/>this month Mihr (7th month) of the year 40 and day
+               <lb n="3" xml:id="trans-p1-l3"/>Zāmyād (28th day) a two-day (ration) for one horse
+               <lb n="4" xml:id="trans-p1-l4"/>and three donkeys of Dēnbānag of
+               <lb n="5" xml:id="trans-p1-l5"/>Sarm 2 grīw of barley,
+               <lb n="6" xml:id="trans-p1-l6"/>10 bundles of lucerne to Dēnbānag.
+               <lb n="7" xml:id="trans-p1-l7-9"/>The Ōstāndār sealed the čak.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

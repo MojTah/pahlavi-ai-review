@@ -1,0 +1,150 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2352" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2352 / P.59</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP2352 / P.59.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1992a">
+                  <biblScope unit="page">162</biblScope>
+                  <note>The first edition of P.59.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>UK</country>
+                  <institution>University of Oxford, Bodleian Library</institution>
+                  <idno type="shelfmark">Pers, b. 2 (p)</idno>
+                  <idno type="siglum">P.59</idno>
+                  <idno type="OpenAMPD">MP2352</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">22</height>
+                              <width unit="cm">15.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="7">7 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): N/A
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP2352_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʿL hmʾy pṭ' ///[
+               <lb n="2" xml:id="trl-p1-l2"/>MN? nc? hwdʾhk? hm? cnd...ʾsṭ'
+               <lb n="3" xml:id="trl-p1-l3"/>W nyw....yh? LWṬH ṭn'drwdsṭyh
+               <lb n="4" xml:id="trl-p1-l4"/>W lʾmšn' dʾmyk'? hwlʾm W ʾp̄ymwsṭ' Y
+               <lb n="5" xml:id="trl-p1-l5"/>MRʿḤ lʾd YKṬYBWN(m) ʾp̄ymwsṭ' Y
+               <lb n="6" xml:id="trl-p1-l6"/>MN ẔK nʾmdʾlyh Y p[
+               <lb n="7" xml:id="trl-p1-l7"/>ʿL l...[     ]... pṭ'[
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2352_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>ō hamē pad ....[
+               <lb n="2" xml:id="trc-p1-l2"/>az? namāz? hudāhag? ham? čand... ...
+               <lb n="3" xml:id="trc-p1-l3"/>ud nēw-...-īh abāg tandrustīh
+               <lb n="4" xml:id="trc-p1-l4"/>ud rāmišn ... ...-hurām ud abēmust ī
+               <lb n="5" xml:id="trc-p1-l5"/>xwadāy rāy nibēsē(m) kū
+               <lb n="6" xml:id="trc-p1-l6"/>az ān nāmdārīh ī p[
+               <lb n="7" xml:id="trc-p1-l7"/>ō r... ... pad[
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP2352_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>An den stets mit....[
+               <lb n="2" xml:id="trans-p1-l2"/>aus? Verehrung? wohltätig ... ...
+               <lb n="3" xml:id="trans-p1-l3"/>und Wohl-...-keit, mit Gesundheit
+               <lb n="4" xml:id="trans-p1-l4"/>und Frieden, ... ...-glücklich? und zufrieden,
+               <lb n="5" xml:id="trans-p1-l5"/>des Herrn wegen schreibe ich:
+               <lb n="6" xml:id="trans-p1-l6"/>Aufgrund des Namens? ....[
+               <lb n="7" xml:id="trans-p1-l7"/>zu ... ... mit[
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

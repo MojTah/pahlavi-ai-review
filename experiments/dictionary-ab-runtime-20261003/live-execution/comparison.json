@@ -1,0 +1,340 @@
+{
+  "status": "CONTINUATION_SCREEN_PASS",
+  "screen_status": "pass",
+  "semantic_continuation": true,
+  "reviewers": {
+    "A": {
+      "denominator_per_arm": 15,
+      "counts": {
+        "A": {
+          "meaning_error": 8,
+          "accepted": 2,
+          "critical_error": 4,
+          "uncertain": 1
+        },
+        "B": {
+          "meaning_error": 6,
+          "accepted": 5,
+          "critical_error": 4
+        }
+      },
+      "accepted_counts": {
+        "A": 2,
+        "B": 5
+      },
+      "critical_counts": {
+        "A": 4,
+        "B": 4
+      },
+      "newly_accepted": [
+        "QUALITYDEV1-014",
+        "QUALITYDEV1-002",
+        "QUALITYDEV1-007",
+        "QUALITYDEV1-009",
+        "QUALITYDEV1-015"
+      ],
+      "lost_acceptance": [
+        "QUALITYDEV1-003",
+        "QUALITYDEV1-010"
+      ],
+      "net_accepted_change": 3,
+      "works_with_newly_accepted": [
+        "parsig:103",
+        "parsig:112",
+        "parsig:138"
+      ],
+      "critical_count_change": 0,
+      "accepted_to_critical": [],
+      "by_work": {
+        "parsig:103": {
+          "A": {
+            "meaning_error": 1,
+            "accepted": 1,
+            "uncertain": 1,
+            "critical_error": 1
+          },
+          "B": {
+            "meaning_error": 2,
+            "accepted": 1,
+            "critical_error": 1
+          }
+        },
+        "parsig:112": {
+          "A": {
+            "accepted": 1,
+            "meaning_error": 4
+          },
+          "B": {
+            "meaning_error": 2,
+            "critical_error": 1,
+            "accepted": 2
+          }
+        },
+        "parsig:138": {
+          "A": {
+            "meaning_error": 3,
+            "critical_error": 1
+          },
+          "B": {
+            "meaning_error": 1,
+            "accepted": 2,
+            "critical_error": 1
+          }
+        },
+        "parsig:517": {
+          "A": {
+            "critical_error": 2
+          },
+          "B": {
+            "meaning_error": 1,
+            "critical_error": 1
+          }
+        }
+      },
+      "screen_checks": {
+        "net_accepted_gain": true,
+        "gains_in_multiple_named_works": true,
+        "no_critical_increase": true,
+        "no_accepted_to_critical": true
+      },
+      "screen_pass": true
+    },
+    "B": {
+      "denominator_per_arm": 15,
+      "counts": {
+        "A": {
+          "meaning_error": 6,
+          "critical_error": 5,
+          "accepted": 2,
+          "uncertain": 2
+        },
+        "B": {
+          "meaning_error": 7,
+          "accepted": 5,
+          "critical_error": 3
+        }
+      },
+      "accepted_counts": {
+        "A": 2,
+        "B": 5
+      },
+      "critical_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "newly_accepted": [
+        "QUALITYDEV1-007",
+        "QUALITYDEV1-002",
+        "QUALITYDEV1-015",
+        "QUALITYDEV1-009",
+        "QUALITYDEV1-014"
+      ],
+      "lost_acceptance": [
+        "QUALITYDEV1-010",
+        "QUALITYDEV1-003"
+      ],
+      "net_accepted_change": 3,
+      "works_with_newly_accepted": [
+        "parsig:103",
+        "parsig:112",
+        "parsig:138"
+      ],
+      "critical_count_change": -2,
+      "accepted_to_critical": [],
+      "by_work": {
+        "parsig:103": {
+          "A": {
+            "meaning_error": 1,
+            "critical_error": 1,
+            "uncertain": 1,
+            "accepted": 1
+          },
+          "B": {
+            "accepted": 1,
+            "meaning_error": 2,
+            "critical_error": 1
+          }
+        },
+        "parsig:112": {
+          "A": {
+            "meaning_error": 3,
+            "accepted": 1,
+            "uncertain": 1
+          },
+          "B": {
+            "accepted": 2,
+            "meaning_error": 2,
+            "critical_error": 1
+          }
+        },
+        "parsig:138": {
+          "A": {
+            "critical_error": 2,
+            "meaning_error": 2
+          },
+          "B": {
+            "meaning_error": 2,
+            "accepted": 2
+          }
+        },
+        "parsig:517": {
+          "A": {
+            "critical_error": 2
+          },
+          "B": {
+            "critical_error": 1,
+            "meaning_error": 1
+          }
+        }
+      },
+      "screen_checks": {
+        "net_accepted_gain": true,
+        "gains_in_multiple_named_works": true,
+        "no_critical_increase": true,
+        "no_accepted_to_critical": true
+      },
+      "screen_pass": true
+    }
+  },
+  "technical": {
+    "status": "READY_FOR_BLIND_REVIEW",
+    "screen_status": "inconclusive",
+    "pipeline_complete": true,
+    "independent_remote_verified": true,
+    "primary_eligible": true,
+    "accounting": {
+      "status": "complete",
+      "scheduled_outputs": 30,
+      "attempted_outputs": 30,
+      "committed_jsonl_outputs": 30,
+      "per_output_status": {
+        "QUALITYDEV1-002:A": "success",
+        "QUALITYDEV1-002:B": "success",
+        "QUALITYDEV1-003:B": "success",
+        "QUALITYDEV1-003:A": "success",
+        "QUALITYDEV1-005:A": "success",
+        "QUALITYDEV1-005:B": "success",
+        "QUALITYDEV1-006:B": "success",
+        "QUALITYDEV1-006:A": "success",
+        "QUALITYDEV1-007:A": "success",
+        "QUALITYDEV1-007:B": "success",
+        "QUALITYDEV1-008:B": "success",
+        "QUALITYDEV1-008:A": "success",
+        "QUALITYDEV1-009:A": "success",
+        "QUALITYDEV1-009:B": "success",
+        "QUALITYDEV1-010:B": "success",
+        "QUALITYDEV1-010:A": "success",
+        "QUALITYDEV1-012:A": "success",
+        "QUALITYDEV1-012:B": "success",
+        "QUALITYDEV1-013:B": "success",
+        "QUALITYDEV1-013:A": "success",
+        "QUALITYDEV1-014:A": "success",
+        "QUALITYDEV1-014:B": "success",
+        "QUALITYDEV1-015:B": "success",
+        "QUALITYDEV1-015:A": "success",
+        "QUALITYDEV1-017:A": "success",
+        "QUALITYDEV1-017:B": "success",
+        "QUALITYDEV1-020:B": "success",
+        "QUALITYDEV1-020:A": "success",
+        "QUALITYDEV1-021:A": "success",
+        "QUALITYDEV1-021:B": "success"
+      },
+      "model_calls_started": 30,
+      "committed_model_calls": 30,
+      "pipeline_complete": true,
+      "unavailable_dependencies_for_unattempted_slots": {},
+      "original_run_status": "completed",
+      "original_evidence_unchanged": true,
+      "replacements_generated": false,
+      "raw_predictions_sha256": "2a65d6ac8c4f46348b6a3520932db0014af4d66f98922becf77a6e3a5862dede"
+    },
+    "per_output_status": {
+      "QUALITYDEV1-002:A": "success",
+      "QUALITYDEV1-002:B": "success",
+      "QUALITYDEV1-003:B": "success",
+      "QUALITYDEV1-003:A": "success",
+      "QUALITYDEV1-005:A": "success",
+      "QUALITYDEV1-005:B": "success",
+      "QUALITYDEV1-006:B": "success",
+      "QUALITYDEV1-006:A": "success",
+      "QUALITYDEV1-007:A": "success",
+      "QUALITYDEV1-007:B": "success",
+      "QUALITYDEV1-008:B": "success",
+      "QUALITYDEV1-008:A": "success",
+      "QUALITYDEV1-009:A": "success",
+      "QUALITYDEV1-009:B": "success",
+      "QUALITYDEV1-010:B": "success",
+      "QUALITYDEV1-010:A": "success",
+      "QUALITYDEV1-012:A": "success",
+      "QUALITYDEV1-012:B": "success",
+      "QUALITYDEV1-013:B": "success",
+      "QUALITYDEV1-013:A": "success",
+      "QUALITYDEV1-014:A": "success",
+      "QUALITYDEV1-014:B": "success",
+      "QUALITYDEV1-015:B": "success",
+      "QUALITYDEV1-015:A": "success",
+      "QUALITYDEV1-017:A": "success",
+      "QUALITYDEV1-017:B": "success",
+      "QUALITYDEV1-020:B": "success",
+      "QUALITYDEV1-020:A": "success",
+      "QUALITYDEV1-021:A": "success",
+      "QUALITYDEV1-021:B": "success"
+    },
+    "expected_output_ids": [
+      "QUALITYDEV1-002:A",
+      "QUALITYDEV1-002:B",
+      "QUALITYDEV1-003:B",
+      "QUALITYDEV1-003:A",
+      "QUALITYDEV1-005:A",
+      "QUALITYDEV1-005:B",
+      "QUALITYDEV1-006:B",
+      "QUALITYDEV1-006:A",
+      "QUALITYDEV1-007:A",
+      "QUALITYDEV1-007:B",
+      "QUALITYDEV1-008:B",
+      "QUALITYDEV1-008:A",
+      "QUALITYDEV1-009:A",
+      "QUALITYDEV1-009:B",
+      "QUALITYDEV1-010:B",
+      "QUALITYDEV1-010:A",
+      "QUALITYDEV1-012:A",
+      "QUALITYDEV1-012:B",
+      "QUALITYDEV1-013:B",
+      "QUALITYDEV1-013:A",
+      "QUALITYDEV1-014:A",
+      "QUALITYDEV1-014:B",
+      "QUALITYDEV1-015:B",
+      "QUALITYDEV1-015:A",
+      "QUALITYDEV1-017:A",
+      "QUALITYDEV1-017:B",
+      "QUALITYDEV1-020:B",
+      "QUALITYDEV1-020:A",
+      "QUALITYDEV1-021:A",
+      "QUALITYDEV1-021:B"
+    ],
+    "expert_adjudicated": false,
+    "recovery_caveat": "Independent remote verification is a lead-trusted observation recorded in the receipt, not an offline authenticity guarantee. Mounted readback alone does not establish it."
+  },
+  "expert_adjudicated": false,
+  "limits": "Two separate provisional fixed-DEV15 reviews. No significance, unseen generalization, expert certification, training admission or automatic promotion.",
+  "review_freeze": {
+    "A": {
+      "sha256": "2281078112e9792e55cabdc77f1058267e6fed59f71a30581fedb79bd28de275",
+      "bytes": 27614,
+      "rows": 30,
+      "reviewer_type": "AI",
+      "expert_adjudicated": false
+    },
+    "B": {
+      "sha256": "6a7447d3e0c1bd7582f01851c31313240fd18697063e931881ec9443665565c1",
+      "bytes": 26470,
+      "rows": 30,
+      "reviewer_type": "AI",
+      "expert_adjudicated": false
+    }
+  },
+  "scorer_sha256": "dc27d7f702c7b7f2d0f2bf80adf03a8aab08c3306914468c86c13214f0ce293f",
+  "packet_provenance_sha256": "be2c4d5791087a77fad6bf8a1bb91fe6a055b4f72b80ceea8bde07e368f8e917",
+  "recovered_manifest_sha256": "3f03ee4ecf81130b4d17269b437f1581fb62e0d8c501ef64732c03c27ec7a823",
+  "recovery_receipt_sha256": "6fc20c437a4485aa2a7ff4e8b8264475696afb2fdb6e8498f36b91199303b862"
+}

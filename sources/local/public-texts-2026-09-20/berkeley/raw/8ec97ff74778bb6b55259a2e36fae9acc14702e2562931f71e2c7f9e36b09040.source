@@ -1,0 +1,144 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0450" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0450 / LA 1</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Preparation of the document for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0450 / LA 1.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_1996">
+                  <biblScope unit="page">63–64</biblScope>
+                  <note>The first edition of LA 1.</note>
+               </bibl>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">186–187</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>California Museum of Ancient Art, Los Angeles</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">LA 1</idno>
+                  <idno type="OpenAMPD">MP0450</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">Unknown</height>
+                              <width unit="cm">Unknown</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="4">4 lines</measure>
+                           <!-- <measure unit="lines" type="verso" quantity="0">N/A</measure> -->
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <!-- Base URL and IIIF information currently unknown -->
+            <!-- 
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>-->
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Administration</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag">rōzōg</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0035-09" calendar="#Pahlavi">Month Ādur, 35 PY</date>
+            <date when="0687-02" calendar="#Julian">February-March, 687 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!-- Add later facs="LA:UNKNOWN" -->
+            <ab xml:id="MP0450_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ḤS lwcyk Y <persName ref="people:CIr015">mṭryn</persName> lʾd Y BYRḤ
+               <lb n="2" xml:id="trl-p1-l2"/>ʾṭwrˈ Y ŠNṬ -X-III-II MN ṬLYN ŠNṬk
+               <lb n="3" xml:id="trl-p1-l3"/>YNSḆWNtny X dwlkˈ ◯◯◯◯
+               <lb n="4" xml:id="trl-p1-l4"/>◯◯◯◯◯◯
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0450_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>may rōzīg ī <persName ref="people:CIr015">Mihrēn</persName> rāy ī māh
+               <lb n="2" xml:id="trc-p1-l2"/>Ādur ī sāl 35 az dō-sālag
+               <lb n="3" xml:id="trc-p1-l3"/>stānēnd 10 dōlag ◯◯◯◯
+               <lb n="4" xml:id="trc-p1-l4"/>◯◯◯◯◯◯
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0450_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Bezüglich der Wein-Ration des Mihrēn für Monat
+               <lb n="2" xml:id="trans-p1-l2"/>Ādur (9 Monat) des Jahres 35: von dem zweijährigen
+               <lb n="3" xml:id="trans-p1-l3"/>soll man nehmen 10 Eimer.
+               <lb n="4" xml:id="trans-p1-l4"/>◯◯◯◯◯◯
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

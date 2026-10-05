@@ -1,0 +1,164 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP3584" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP3584 / P.Pehl.572</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP3584 / P.Pehl.572.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1983">
+                  <biblScope unit="page">220-222</biblScope>
+                  <note>The first edition of P.Pehl.572 (as P.Rain.Cent. 13,21).</note>
+               </bibl>
+               <bibl corresp="#Weber_2014b">
+                  <biblScope>143</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <institution>Österreichische Nationalbibliothek</institution>
+                  <idno type="shelfmark">Pehl. 00572 Pap</idno>
+                  <idno type="siglum">P.Pehl.572</idno>
+                  <idno type="OpenAMPD">MP3584</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">13.5</height>
+                              <width unit="cm">17</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="5">5 lines MP + Greek</measure>
+                           <measure unit="lines" type="verso" quantity="7">7 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): N/A
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType"/>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb n="1" xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP3584_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>mʾṭykwlk ḤG G-III-III-III
+               <lb n="2" xml:id="trl-p1-l2"/>msʾp̄ʾt ḤG G-III-III-III
+               <lb n="3" xml:id="trl-p1-l3"/>(wʾs)pwhl ḤG G-III-III-III
+               <lb n="4" xml:id="trl-p1-l4"/>wzlykwl ḤG G-III-III-III
+               <lb n="5" xml:id="trl-p1-l5"/>(yʾt) hʾwšṭ' [lʾd] ḤG G-III ○○○
+            </ab>
+            <pb n="2" xml:id="pb-1v-trl"/><!--facs="local:"-->
+            <ab xml:id="MP3584_trl-p2">
+               <lb n="1" xml:id="trl-p2-l1"/>[ḤG] ḤG G-III-III-III ○ myckʾwst' ḤG
+               <lb n="2" xml:id="trl-p2-l2"/>ḤG G-III-III-III ○ ʾp̄zng ḤG G-III-III-III
+               <lb n="3" xml:id="trl-p2-l3"/>[○ h]šṭʾṭzwlk' ḤG G-III-III-III
+               <lb n="4" xml:id="trl-p2-l4"/>[○] (d)ckdyṭn' ysk kʾl ḤG G-III-III-III
+               <lb n="5" xml:id="trl-p2-l5"/>[○] wlgʾp̄ʾt' ḤG G-IIII-III ○ ʾnwš
+               <lb n="6" xml:id="trl-p2-l6"/>[Ḥ]G G-III --III-III ○○ ...--
+               <lb n="7" xml:id="trl-p2-l7"/>--G-IIII-III-- 
+            </ab>
+         </div>
+<!--          <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP3584_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Transcription not published
+            </ab>
+         </div> -->
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP3584_trans-p1">              
+               <lb n="1" xml:id="trans-p1-l1"/>For the ewe lamb (breeding station) 9 grīw of wheat.
+               <lb n="2" xml:id="trans-p1-l2"/>For the retirement camp 9 grīw of wheat.
+               <lb n="3" xml:id="trans-p1-l3"/>A principal 9 grīw of wheat.
+               <lb n="4" xml:id="trans-p1-l4"/>A cosh-bearer 9 grīw of wheat
+               <lb n="5" xml:id="trans-p1-l5"/>A portion of 3 grīw of wheat on behalf of the apprentices.
+            </ab>
+               <ab xml:id="MP3584_trans-p2">
+               <lb n="1" xml:id="trans-p2-l1"/>9 grīw of [wheat]. The taster
+               <lb n="2" xml:id="trans-p2-l2"/>9 grīw of what. (The workers of) the water-canal 9 grīw of wheat.
+               <lb n="3" xml:id="trans-p2-l3"/>An officer of a troop of eighty (a "centurio") 9 grīw of wheat.
+               <lb n="4" xml:id="trans-p2-l4"/>The treatment of eye disease (trachoma) 9 grīw of wheat.
+               <lb n="5" xml:id="trans-p2-l5"/>The repository of papyri 7 grīw of wheat. For (the supply of) antidote
+               <lb n="6" xml:id="trans-p2-l6"/>3 grīw of [wh]eat... ....
+               <lb n="7" xml:id="trans-p2-l7"/>...
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

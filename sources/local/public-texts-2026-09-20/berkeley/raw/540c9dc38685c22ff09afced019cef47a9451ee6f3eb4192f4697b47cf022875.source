@@ -1,0 +1,191 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0439" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0439 / Berlin 38</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation and TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0439 / Berlin 38.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">158–161</biblScope>
+                  <note>The first edition of Berlin 38.</note>
+                  </bibl>
+               <bibl corresp="#Weber_2012">
+                  <biblScope unit="page">72–74</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <institution>Private collection</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 38</idno>
+                  <idno type="OpenAMPD">MP0439</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">20.5</height>
+                              <width unit="cm">8.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="20">20 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">padīrāy</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag">az ān ī ō bun</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0037-03" calendar="#Pahlavi">Month Hordād, 37 PY</date>
+            <date when="0688-08" calendar="#Julian">August-September, 688 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0439_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>]plykˈ Y PWN nmywl dʾryk
+               <lb n="2" xml:id="trl-p1-l2"/>[MN] (ẔK) Y ʿL bwnˈ ẔNH BYRḤ hwrdṭ Y
+               <lb n="3" xml:id="trl-p1-l3"/>[ŠNṬ] $X-IIII-III lwcyk Y sṭwrʾn
+               <lb n="4" xml:id="trl-p1-l4"/>(Y) mṭrhdybʾlgwšnsp̄ dh-lwckˈ
+               <lb n="5" xml:id="trl-p1-l5"/>Y MN YWM-c ʾwhrmẕd prʾc ʿD
+               <lb n="6" xml:id="trl-p1-l6"/>YWM hwl KRʾ YWM SWSYʾ
+               <lb n="7" xml:id="trl-p1-l7"/>Y sʾhṭkˈ Y ṭˈcyk K #-IIII
+               <lb n="8" xml:id="trl-p1-l8"/>X-III-II glṭˈ lyškˈ
+               <lb n="9" xml:id="trl-p1-l9"/>K #-IIII IIII-III glṭˈ
+               <lb n="10" xml:id="trl-p1-l10"/>yng K #III III-II
+               <lb n="11" xml:id="trl-p1-l11"/>glṭˈ lʾd KḤDH
+               <lb n="12" xml:id="trl-p1-l12"/>ŠG G-XI ◯
+               <lb n="13" xml:id="trl-p1-l13"/>W ʾsp̄sṭˈ II-C
+               <lb n="14" xml:id="trl-p1-l14"/>$$$-X glṭˈ
+               <lb n="15" xml:id="trl-p1-l15"/>ʿL hwlynˈ YḤBWNṭˈ
+               <lb n="16" xml:id="trl-p1-l16"/>W PWN gwkʾdy-mwdlyh
+               <lb n="17" xml:id="trl-p1-l17"/>Y dynyṭʾn
+               <lb n="18" xml:id="trl-p1-l18"/>p(ʾ)ṭglʾḇ
+               <lb n="19" xml:id="trl-p1-l19"/>YNSḆWNtny
+               <lb n="20" xml:id="trl-p1-l20"/>[ʾp̄s](p̄)wlṭˈ (?)
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0439_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>]Friyag ī pad Namēwar dārīg
+               <lb n="2" xml:id="trc-p1-l2"/>[az] (ān) ī ō bun ēn māh Hōrdād ī
+               <lb n="3" xml:id="trc-p1-l3"/>[sāl] 37 rōzīg ī stōrān
+               <lb n="4" xml:id="trc-p1-l4"/>(ī) Mihr-ayār-Gušnasp dah-rōzag
+               <lb n="5" xml:id="trc-p1-l5"/>ī az rōz-iz Ōhrmazd frāz tā
+               <lb n="6" xml:id="trc-p1-l6"/>rōz Xwar harw rōz asp
+               <lb n="7" xml:id="trc-p1-l7"/>ī sāxtag ī tāzīg k(abīz)
+               <lb n="8" xml:id="trc-p1-l8"/>15 gird rahīg
+               <lb n="9" xml:id="trc-p1-l9"/>k(abīz) 4 7 gird
+               <lb n="10" xml:id="trc-p1-l10"/>ǰang k(abīz) 3 5
+               <lb n="11" xml:id="trc-p1-l11"/>gird rāy hammis
+               <lb n="12" xml:id="trc-p1-l12"/>ǰaw grīw 11 ◯
+               <lb n="13" xml:id="trc-p1-l13"/>ud aspast 200
+               <lb n="14" xml:id="trc-p1-l14"/>70 gird
+               <lb n="15" xml:id="trc-p1-l15"/>ō Xwarin dād
+               <lb n="16" xml:id="trc-p1-l16"/>ud pad gugāy-muhrīhā
+               <lb n="17" xml:id="trc-p1-l17"/>ī Dēnyadān
+               <lb n="18" xml:id="trc-p1-l18"/>pā̆dīrāy
+               <lb n="19" xml:id="trc-p1-l19"/>stānēnd
+               <lb n="20" xml:id="trc-p1-l20"/>[abes](p)urd (?)
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0439_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Friyag, manager in Namēwar,
+               <lb n="2" xml:id="trans-p1-l2"/>[from] that which (belongs) to the bun, this month Hōrdād (3rd month) of
+               <lb n="3" xml:id="trans-p1-l3"/>[the year] 37 concerning the ration of the mounts
+               <lb n="4" xml:id="trans-p1-l4"/>of Mihr-ayār-Gušnasp for the duration of ten days
+               <lb n="5" xml:id="trans-p1-l5"/>from the very day Ōhrmazd (1st day) until
+               <lb n="6" xml:id="trans-p1-l6"/>day Xwar (11th day) for each day (for) one horse,
+               <lb n="7" xml:id="trans-p1-l7"/>a trained Arabian, 4 kabīz (of barley),
+               <lb n="8" xml:id="trans-p1-l8"/>15 bundles (of lucerne), (for) the *carriage horse
+               <lb n="9" xml:id="trans-p1-l9"/>4 kabīz (of barley), 7 bundles (of lucerne),
+               <lb n="10" xml:id="trans-p1-l10"/>(for) the war-horse 3 kabīz (of barley), 5
+               <lb n="11" xml:id="trans-p1-l11"/>bundles (of lucerne), altogether
+               <lb n="12" xml:id="trans-p1-l12"/>11 grīw of barley,
+               <lb n="13" xml:id="trans-p1-l13"/>and 200-
+               <lb n="14" xml:id="trans-p1-l14"/>70 bundles of lucerne
+               <lb n="15" xml:id="trans-p1-l15"/>to Xwarin given.
+               <lb n="16-17" xml:id="trans-p1-l16-17"/>And with the witnessesˈ seals of Dēnyadān
+               <lb n="18-19" xml:id="trans-p1-l18-19"/>for keeping the receipt
+               <lb n="20" xml:id="trans-p1-l20"/>[he con](signed it).
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

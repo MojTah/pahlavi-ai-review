@@ -1,0 +1,221 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2100" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2100 / P.44</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP2100 / P.44.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1992a">
+                  <biblScope unit="page">145</biblScope>
+                  <note>The first edition of P.44.</note>
+               </bibl>
+               <bibl corresp="#Weber_2009a">
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Universität Göttingen, Staats- und Universitätsbibliothek</institution>
+                  <idno type="shelfmark">Göttingen, Or. var. 45</idno>
+                  <idno type="siglum">P.44</idno>
+                  <idno type="OpenAMPD">MP2100</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">37.7</height>
+                              <width unit="cm">15.8</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="30">30 lines (vertical)</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="--09" calendar="#Pahlavi">Month Ādur</date>
+            <date when-custom="undated" calendar="#Julian">N/A</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+             <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP2100_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʿL yẕdʾnʾḇydʾṭ' bwlcʾṭr' .[]....[]... ...
+               <lb n="2" xml:id="trl-p1-l2"/>ʾwhrmẕd mʾẕdysnyh mylkyh nc dʾšṭ'
+               <lb n="3" xml:id="trl-p1-l3"/>wyhbwṭ' W ʾp̄ʾryk ʾNŠWṬʾ Y pṭ' šṭr'
+               <lb n="4" xml:id="trl-p1-l4"/>ŠRM W drwdsṭyh W KRʾ pl(h)[wyh]hmʾy
+               <lb n="5" xml:id="trl-p1-l5"/>pṭ' LKWM YḤWWNʾṭ W pṭ.[](L)KWM
+               <lb n="6" xml:id="trl-p1-l6"/>pṭ' drwdsṭyh W lʾmšn' ... ...
+               <lb n="7" xml:id="trl-p1-l7"/>cygwn' ZK Y dšn' LK MRYʾ LKWM
+               <lb n="8" xml:id="trl-p1-l8"/>lʾd pṭ' KRʾ wṭ wš[ʾṭ'     ](ḆYN)
+               <lb n="9" xml:id="trl-p1-l9"/>ʾp̄ʾyṭ pṭ'-c ZNH p...ṭ[].... ʾy
+               <lb n="10" xml:id="trl-p1-l10"/>YḤWWNyt MH ʾNŠWṬʾ Y pṭ' šṭr'
+               <lb n="11" xml:id="trl-p1-l11"/>drwdsṭ' ḤWHnd nʾmk' W dʾšn Y L MRʿḤ
+               <lb n="12" xml:id="trl-p1-l12"/>lʾd MN šṭr' YḤYṬYWNṭ ... [   ]...[]BRʾ
+               <lb n="13" xml:id="trl-p1-l13"/>ŠDRWNyṭ MH-m MN bwlck' ʿŠMH'ṭ
+               <lb n="14" xml:id="trl-p1-l14"/>ʾYḴ-ṭ glṭk' ḤṬYMWNṭ W BRʾ YCBNHyṭ
+               <lb n="15" xml:id="trl-p1-l15"/>YʾṬWNṭn ZK Y mylkyh lʾd .[
+               <lb n="16" xml:id="trl-p1-l16"/>LKWM ḆYN ʾp̄ʾyṭ ʾy Y[ʾṬWN]ynd ḤṬ
+               <lb n="17" xml:id="trl-p1-l17"/>LKWM lʾd ʾp̄ʾyṭ Y BYRḤ ʾṭwr W nkʾs
+               <lb n="18" xml:id="trl-p1-l18"/>ʾy YḤSNNynd W MN nʾmk' Y wšʾṭ'krṭ'
+               <lb n="19" xml:id="trl-p1-l19"/>kʾln(?) ʾṭhš ʾy ʿḆYDWNynd LK lʾd
+               <lb n="20" xml:id="trl-p1-l20"/>hwp' krṭ' ʾMṬ-m pṭ' [].[].[
+               <lb n="21" xml:id="trl-p1-l21"/>pṭgʾm ŠDRWNyṭ ʾYḴ LK[W]M LṬMH
+               <lb n="22" xml:id="trl-p1-l22"/>BRʾ ʾy YʾṬWNyṭ ...[]... dʾšn' .[
+               <lb n="23" xml:id="trl-p1-l23"/>BRʾ ʿL ʾMYṭl ŠDRWNyṭ m[] pṭ' ...[
+               <lb n="24" xml:id="trl-p1-l24"/>... ... gl-... nʾm(k)['?   ].[
+               <lb n="25" xml:id="trl-p1-l25"/>pṭ' YDH LʿYṬ' W lʾs(?) LK y/d-[].[
+               <lb n="26" xml:id="trl-p1-l26"/>ʾP̱-ṭ lʾd MNDʿM (ʾy) ŠDRWNyṭ[
+               <lb n="27" xml:id="trl-p1-l27"/>ŠDRWNʾṭ drwdsṭ(yh) Y LK[WM(?)] lʾd[
+               <lb n="28" xml:id="trl-p1-l28"/>nʾmk' ʿḆYDWN(m)(?) ... ...[
+               <lb n="29" xml:id="trl-p1-l29"/>B... ... lʾd ....[].... nʾmk' .[
+               <lb n="30" xml:id="trl-p1-l30"/>BYRḤ ʾṭwr m[]....[]...[
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2100_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>ō yazdān-ayād Burz-ādur .[].... ]... ...
+               <lb n="2" xml:id="trc-p1-l2"/>Ōhrmazd māzdēsnīh mēragīh namāz dāšt
+               <lb n="3" xml:id="trc-p1-l3"/>Wehbūd ud abārīg mardom ī pad šahr
+               <lb n="4" xml:id="trc-p1-l4"/>drōd ud drustīh ud harw farrox[īh] hamē
+               <lb n="5" xml:id="trc-p1-l5"/>pad ašmā bawād ud p... ... ašmā
+               <lb n="6" xml:id="trc-p1-l6"/>pad drustīh ud rāmišn ... ...
+               <lb n="7" xml:id="trc-p1-l7"/>čiyōn ān ī dašn tō saxwan ašmā
+               <lb n="8" xml:id="trc-p1-l8"/>rāy pad harw wad wi[šād] (andar)
+               <lb n="9" xml:id="trc-p1-l9"/>abāyēd pad-iz im p....[].... ē
+               <lb n="10" xml:id="trc-p1-l10"/>bawēd čē mardom ī pad šahr
+               <lb n="11" xml:id="trc-p1-l11"/>drust hēnd nāmag ud dāšn ī man xwadāy
+               <lb n="12" xml:id="trc-p1-l12"/>rāy az šahr āwurd ... []... []bē
+               <lb n="13" xml:id="trc-p1-l13"/>frēstēd čē-m az Burzag āšnūd
+               <lb n="14" xml:id="trc-p1-l14"/>ku-t girdag awišt ud bē kāmēd
+               <lb n="15" xml:id="trc-p1-l15"/>āmadan ān ī mēragīh rāy .[
+               <lb n="16" xml:id="trc-p1-l16"/>as̄mā andar abāyēd ē ā(y)ēnd agar
+               <lb n="17" xml:id="trc-p1-l17"/>ašmā rāy abāyēd ī māh ^ādur ud nigāh
+               <lb n="18" xml:id="trc-p1-l18"/>ē dārēnd ud az nāmag ī wišād kard
+               <lb n="19" xml:id="trc-p1-l19"/>kārān(?) ātaxš ē kunēnd tō rāy
+               <lb n="20" xml:id="trc-p1-l20"/>xūb kard ka-m pad [
+               <lb n="21" xml:id="trc-p1-l21"/>paygām frēstīd ku aš[m]ā ēdar
+               <lb n="22" xml:id="trc-p1-l22"/>bē ē āyēd ....[]... dāšn .[
+               <lb n="23" xml:id="trc-p1-l23"/>bē ō mādar frēstīd m[] pad ....[
+               <lb n="24" xml:id="trc-p1-l24"/>... ... ... nāmag(?)[
+               <lb n="25" xml:id="trc-p1-l25"/>pad dast nēst ud rāh(?) tō .[].[
+               <lb n="26" xml:id="trc-p1-l26"/>u-t rāy tis (ē) frēstēd[
+               <lb n="27" xml:id="trc-p1-l27"/>frēstād drustīh ī aš[mā? ] rāy[
+               <lb n="28" xml:id="trc-p1-l28"/>nāmag ud kunēm? ... ...[
+               <lb n="29" xml:id="trc-p1-l29"/>... ... rāy ....[].... nāmag .[
+               <lb n="30" xml:id="trc-p1-l30"/>māh Ādur .[]....[]... [
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP2100_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>To Burz-Ādur, remembered by (the) god(s) ... (of)
+               <lb n="2" xml:id="trans-p1-l2"/>marriage according to the Mazdean rite: reverence! Received
+               <lb n="3" xml:id="trans-p1-l3"/>by Wehbūd and the other people in town
+               <lb n="4" xml:id="trans-p1-l4"/>well-being and health and all fortune
+               <lb n="5" xml:id="trans-p1-l5"/>over you (pl.) (may) be and ...
+               <lb n="6" xml:id="trans-p1-l6"/>in health and peace...
+               <lb n="7" xml:id="trans-p1-l7"/>like your (sg.) right word on your (pl.)
+               <lb n="8" xml:id="trans-p1-l8"/>behalf every bad [be dispersed]
+               <lb n="9" xml:id="trans-p1-l9"/>it is necessary, on this ..., too, ... it
+               <lb n="10" xml:id="trans-p1-l10"/>should be becasue people in town
+               <lb n="11" xml:id="trans-p1-l11"/>are in health. My letter and fit
+               <lb n="12" xml:id="trans-p1-l12"/>for you (sg.) he(?) brought from (the) town ...
+               <lb n="13" xml:id="trans-p1-l13"/>For I learnt from Burzag
+               <lb n="14" xml:id="trans-p1-l14"/>that you sealed the bundle and he wants
+               <lb n="15" xml:id="trans-p1-l15"/>to come because of the young husband-ship.
+               <lb n="16" xml:id="trans-p1-l16"/>They would come if
+               <lb n="17" xml:id="trans-p1-l17"/>it is fitting for you (pl.) of month Ādur and
+               <lb n="18" xml:id="trans-p1-l18"/>they would watch and from the letter which had been opened
+               <lb n="19" xml:id="trans-p1-l19"/>(other) people(?) would make a fire, for you (sg.)
+               <lb n="20" xml:id="trans-p1-l20"/>it was made well. When I by ... ...
+               <lb n="21" xml:id="trans-p1-l21"/>sent a message that you (pl.) hither
+               <lb n="22" xml:id="trans-p1-l22"/>should come ... ... gift ...
+               <lb n="23" xml:id="trans-p1-l23"/>to the mother was sent
+               <lb n="24" xml:id="trans-p1-l24"/>... ... letter(?) ...
+               <lb n="25" xml:id="trans-p1-l25"/>in the hand there is not and the road(?) you(sg.)(?) [...]
+               <lb n="26" xml:id="trans-p1-l26"/>and on your (sg.) behalf something he should send [...]
+               <lb n="27" xml:id="trans-p1-l27"/>he will send, because of your (pl.) health
+               <lb n="28" xml:id="trans-p1-l28"/>I write the letter ... ...
+               <lb n="29" xml:id="trans-p1-l29"/>... ... letter ...
+               <lb n="30" xml:id="trans-p1-l30"/>month Ādur ... …
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

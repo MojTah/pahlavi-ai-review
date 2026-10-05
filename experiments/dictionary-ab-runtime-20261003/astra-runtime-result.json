@@ -1,0 +1,18 @@
+{
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "review_turn": "01a1020c-afc2-7ed3-af02-15d17fa787a2",
+  "model_requested": "gpt-6-astra; existing effort unchanged; served identifier not independently verified",
+  "local_verdict": "PASS",
+  "paid_launch": "PARTIAL_HOLD",
+  "source_pins_verified": 12,
+  "independent_tests_passed": 20,
+  "test_seconds": 28.434,
+  "saved_job_and_receipt_exactly_reproduced": true,
+  "decoded_command_sha256": "80a149a4d72a3de6f9e351eb89fb31a9558296ef1e412748252e0dd00d82fe55",
+  "material_runtime_corrections": [],
+  "next_action": "Finish offline recovery/scoring and exclusive one-shot admission handoff bound to this preview.",
+  "remaining_live_gates": ["funding/rate/cumulative spending", "idle/private/input/output inventory", "exact authorization", "GPU longest-input canary", "independent remote final recovery"],
+  "not_exercised": ["Linux signals", "GPU memory/decode", "provider stop/retry", "billing", "independent remote durability"],
+  "reviewer_writes": "own OS Temp only",
+  "runtime_review_closed": true
+}

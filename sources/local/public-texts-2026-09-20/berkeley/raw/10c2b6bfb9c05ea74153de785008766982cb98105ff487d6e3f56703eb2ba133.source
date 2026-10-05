@@ -1,0 +1,158 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0026" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0026 / Berk. 26</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="PG">
+               <persName>Philippe Gignoux</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="JW">
+               <persName>Joey Wang</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0026 / Berk. 26.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Gignoux_Gyselen_2006">
+                 <biblScope unit="page">liv</biblScope>
+                  <note>Image only.</note>
+	       </bibl>
+	       <bibl corresp="#Gignoux_2013">
+	          <biblScope unit="page">161–162</biblScope>
+	          <note>The first edition of Berk. 26.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 26</idno>
+                  <idno type="siglum">Berk. 26</idno>
+                  <idno type="OpenAMPD">MP0026</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">14</height>
+                              <width unit="cm">9</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="8">8 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">1 line</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">padīrāy</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0048-10" calendar="#Pahlavi">Month Day, 48 PY</date>
+            <date when="0700-03" calendar="#Julian">March–April, 700 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl" facs="berkeley:recid:85238-26.recto_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0026_trl-p1">
+              <lb n="1" xml:id="trl-p1-l1"/>MKBLWNym dʾṭynˈ Y pṭˈ
+              <lb n="2" xml:id="trl-p1-l2"/>nmyṭl dʾlyk SWSY ̓ Y
+              <lb n="3" xml:id="trl-p1-l3"/>plhwṭl ʾwsṭʾndʾl lʾd ZNH BYRḤ
+              <lb n="4" xml:id="trl-p1-l4"/>ddwˈ Y ŠNṬ 40–4-4 MN hlbwhṭˈ
+              <lb n="5" xml:id="trl-p1-l5"/>Y pṭˈ šʾnṭˈ ˈ dʾlyk pṭˈ YDH
+              <lb n="6" xml:id="trl-p1-l6"/>Y mʾhlwy ʾspsṭˈ 3–100
+              <lb n="7" xml:id="trl-p1-l7"/>glṭkˈ pṭglʾb dʾṭynˈ pṭˈ gwkʾdymwdlyh ̓
+              <lb n="8" xml:id="trl-p1-l8"/>Y mʾhpylwč ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0026_trc-p1">
+              <lb n="1" xml:id="trc-p1-l1"/>padīrēm Dādēn ī pad
+              <lb n="2" xml:id="trc-p1-l2"/>Namēwar dārīg asp ī
+              <lb n="3" xml:id="trc-p1-l3"/>farroxtar ōstāndār rāy ēn māh
+              <lb n="4" xml:id="trc-p1-l4"/>day ī sāl 48 az Xarbuxt
+              <lb n="5" xml:id="trc-p1-l5"/>ī pad Šanat (?) dārīg pad dast
+              <lb n="6" xml:id="trc-p1-l6"/>ī Māhrōy aspast 300
+              <lb n="7" xml:id="trc-p1-l7"/>girdag padirāy Dādēn pad gugāy-muhrīhā
+              <lb n="8" xml:id="trc-p1-l8"/>ī Māh-Pērōz āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+           <ab xml:id="MP0026_trans-p1">
+              <lb n="1" xml:id="trans-p1-l1"/>Je reçois, (moi) Dādēn qui (est)
+              <lb n="2" xml:id="trans-p1-l2"/>possédant à Namēwar, pour le cheval
+              <lb n="3" xml:id="trans-p1-l3"/>du très honoré ōstāndār, ce mois de
+              <lb n="4" xml:id="trans-p1-l4"/>Day de l’an 48, de la part de Xarbuxt,
+              <lb n="5" xml:id="trans-p1-l5"/>qui (est) possédant à Šanat ( ?), par l’intermédiaire de
+              <lb n="6" xml:id="trans-p1-l6"/>Māhrōy, trois cents bottes de luzerne,
+              <lb n="7" xml:id="trans-p1-l7"/>le reçu a été scellé par les sceaux qui en témoignent
+              <lb n="8" xml:id="trans-p1-l8"/>de Māh-Pērōz.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

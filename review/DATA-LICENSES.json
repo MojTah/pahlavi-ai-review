@@ -1,0 +1,56 @@
+[
+  {
+    "path": "sources/local/public-texts-2026-09-20/berkeley",
+    "license": "CC BY-NC-SA 4.0",
+    "license_evidence_url": "https://mp.melc.berkeley.edu/exist/apps/OpenAMPD/landing.html",
+    "attribution": "UC Berkeley OpenAMPD; Adam Benkato, Arash Zeini, Dieter Weber, Wanying Luo and document-level TEI contributors",
+    "files": 162,
+    "bytes": 2403460,
+    "changes": "Original source and extraction bytes unchanged"
+  },
+  {
+    "path": "sources/local/public-texts-2026-09-20/cologne-legacy-cpd-20260928",
+    "license": "CC BY-NC-SA 3.0",
+    "license_evidence_url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/LICENSE.md",
+    "attribution": "Cologne digital lexicography and original dictionary contributors; 4,218 legacy CPD records, distinct from current Kosh",
+    "files": 7,
+    "bytes": 26613556,
+    "changes": "Original source and extraction bytes unchanged"
+  },
+  {
+    "path": "sources/local/public-texts-2026-09-20/ezafe-modeling-mp",
+    "license": "MIT",
+    "license_evidence_url": "https://github.com/middlepersian/ezafe-modeling-mp",
+    "attribution": "Raha Musavi, 2025, and MPCD source contributors; five grammatical research CSVs",
+    "files": 8,
+    "bytes": 9809580,
+    "changes": "Original source and extraction bytes unchanged"
+  },
+  {
+    "path": "sources/parsipy-2025.pdf",
+    "license": "CC BY 4.0",
+    "evidence": "Publisher notice and exact citation in sources/manifest.json",
+    "changes": "PDF byte-for-byte unchanged; no derivative-text license inferred"
+  },
+  {
+    "path": "sources/01+-+Nima+Asefi.pdf",
+    "license": "CC BY-NC 4.0",
+    "evidence": "See source S23 citation and article notice in sources/manifest.json",
+    "changes": "PDF byte-for-byte unchanged; no derivative-text license inferred"
+  },
+  {
+    "path": "sources/qt2kq5107p.pdf",
+    "license": "CC BY-NC-ND 4.0",
+    "evidence": "See source S25 citation and repository cover notice in sources/manifest.json; unchanged PDF only",
+    "changes": "PDF byte-for-byte unchanged; no derivative-text license inferred"
+  },
+  {
+    "path": "resources/local/cloud-pilot-qualified-20260927/tokenizer",
+    "license": "Apache-2.0",
+    "license_evidence_url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+    "license_copy": "review/licenses/gemma-4-apache-2.0.txt",
+    "attribution": "Google Gemma 4; tokenizer bytes retained without changes",
+    "base_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+    "scope": "Tokenizer only; no base or adapter weights; raw byte hashes in publication manifest"
+  }
+]

@@ -1,0 +1,189 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0067" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0067 / Berk. 62</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0067 / Berk. 62.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_2010b">
+                  <biblScope unit="page">50-53</biblScope>
+                  <note>The first edition of Berk. 62.</note>
+               </bibl>
+               <bibl corresp="#Weber_2020a">
+                  <biblScope unit="page">154-155</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <institution>University of California, Berkeley, Bancroft Library</institution>
+                  <idno type="shelfmark">Pahlavi Archive 62</idno>
+                  <idno type="siglum">Berk. 62</idno>
+                  <idno type="OpenAMPD">MP0067</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">25 cm</height>
+                              <width unit="cm">17 cm</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="13">At least 13 lines</measure>
+                           <measure unit="lines" type="verso" quantity="3">3 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/nanna/api/multimedia/image/v2/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">nāmag ī nēk</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0038-03" calendar="#Pahlavi">Month Hordād, 38 PY</date>
+            <date when="0689-08" calendar="#Julian">August-September, 689 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb n="1" xml:id="pb-1r-trl" facs="berkeley:recid:85279-62.recto.infrared_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0067_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>(R) PWN GṬk' Y nywk' mdyʾncykʾn Y BYRḤ hw[rdṭ
+               <lb n="2" xml:id="trl-p1-l2"/>Y ŠNṬ $X-IIII-IIII ʾwcynyṭ Y dwṭk' Y yẕdʾnpʾ(n)[k'
+               <lb n="3" xml:id="trl-p1-l3"/>Y̱LYDWNṭ hlṭ-wndʾṭ ʾwsṭʾndʾl lʾd ʿL bwn' Y chʾlbwhṭ' Y
+               <lb n="4" xml:id="trl-p1-l4"/>PWN nywbyhkʾn MN plyk' Y PWN nmywl dʾlyk ḤG
+               <lb n="5" xml:id="trl-p1-l5"/>G-I-C $$$$X ○ G-$$X ○ G-$$X ○ G-$$X ○
+               <lb n="6" xml:id="trl-p1-l6"/>○○ MN plyk' gwsp̄nd-I Y $X-III-III kwṭk' ○ (space)
+               <lb n="7" xml:id="trl-p1-l7"/>○○ ʿL bwn' Y pylwc' Y PWN ʾnʾlklʾn MN plhw' Y
+               <lb n="8" xml:id="trl-p1-l8"/>PWN nmywl dʾlyk gwsp̄nd-XI ○ dʾšn' Y PWN bg
+               <lb n="9" xml:id="trl-p1-l9"/>Y mṭr' lʾd gwsp̄nd-II ○ ʾyʾlyṭ' Y Kʾl myl lʾd
+               <lb n="10" xml:id="trl-p1-l10"/>I ○ MN ʾḤRN kʾm Y zʾṭʾnplhw' Y kʾlplmʾn hwkck' Y lykʾn(?)
+               <lb n="11" xml:id="trl-p1-l11"/>II ○ bldʾn I ○ sp̄yṭpʾk III ○ mwlw' III-III ○ mwlwl(ck'?)
+               <lb n="12" xml:id="trl-p1-l12"/>$-IIII-III ○ MN mškʾn ḤYṬYWNṭ ṬWRʾ-I Y I-C-$$X-I[   (space)
+               <lb n="13" xml:id="trl-p1-l13"/>○○ W ʾlṭ Y ḤG MN bwn' Y nhcylkʾn dʾt <gap extent="several words" reason="tear"/>
+               <lb n="14" xml:id="trl-p1-l14"/><gap extent="several words" reason="tear"/> I ○ ʾyʾly<supplied resp="#DW">ṭ' Y</supplied> kʾl <gap extent="several words" reason="tear"/>
+               <lb n="15" xml:id="trl-p1-l15"/><gap extent="several words" reason="tear"/>
+            </ab>
+            <pb n="2" xml:id="pb-1v-trl" facs="berkeley:recid:85279-62.verso.infrared_ii.jpg/full/full/0/default.jpg"/>
+            <ab xml:id="MP0067_trl-p2">
+               <lb n="1" xml:id="trl-p2-l1"/>(V) ʾwcyṭ' Y glmyh Y BYRḤ hwrdṭ Y ŠNṬ $X-IIII-IIII
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0067_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>(R) pad nāmag ī nēk mayānǰīgān ī māh Ho[rdād
+               <lb n="2" xml:id="trc-p1-l2"/>ī sāl 38 uzēnīd ī dūdag ī yazdānbānag
+               <lb n="3" xml:id="trc-p1-l3"/>zād xrad-windād ōstāndār rāy ō bun ī Čahārbōxt
+               <lb n="4" xml:id="trc-p1-l4"/>pad Nēwbēhagān az Friyag ī pad Namēwar dārīg gandum
+               <lb n="5" xml:id="trc-p1-l5"/>g(rīw) 190 ○ g(rīw) 50 ○ g(rīw) 50 ○ g(rīw) 50 ○
+               <lb n="6" xml:id="trc-p1-l6"/>○○ az Friyag gōspand 1 ī 36 kōdag ○ (space)
+               <lb n="7" xml:id="trc-p1-l7"/>○○ ō bun ī Pērōz ī pad Anārgarān az Farrox ī
+               <lb n="8" xml:id="trc-p1-l8"/>pad Namēwar dārīg gōspand 11 ○ dāšn ī pad bay
+               <lb n="9" xml:id="trc-p1-l9"/>ī Mihr rāy gōspand 2 ○ ayārīd ī kār Amīr rāy
+               <lb n="10" xml:id="trc-p1-l10"/>1 ○ az any kām ī Zādānfarrox ī kārframān xūkčak ī Rēgān(?)
+               <lb n="11" xml:id="trc-p1-l11"/>2 ○ briyān 1 ○ spēdbāg 3 ○ murw 6 ○ murw(čak?)
+               <lb n="12" xml:id="trc-p1-l12"/>27 ○ az Maškān ōnīd gāw 1 ī 151[   (space)
+               <lb n="13" xml:id="trc-p1-l13"/>○○ ud ārd ī gandum az bun ī Naxčīragān <gap extent="several words" reason="tear"/>
+               <lb n="14" xml:id="trc-p1-l14"/><gap extent="several words" reason="tear"/> 1 ○ ayārī<supplied resp="#DW">d ī</supplied> kār <gap extent="several words" reason="tear"/>
+               <lb n="15" xml:id="trc-p1-l15"/><gap extent="several words" reason="tear"/>
+            </ab>
+            <ab xml:id="MP0067_trc-p2">
+               <lb n="1" xml:id="trc-p2-l1"/>(V) uzīd ī garmīh ī māh Hordād ī sāl 38
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0067_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>As document of the goods: the mediators of month Ho[rdād]
+               <lb n="2" xml:id="trans-p1-l2"/>of the year 38: on behalf of the expenses of the family of
+               <lb n="3" xml:id="trans-p1-l3"/>the ōstāndār, born with inherited knowledge, to the bun of Čaharbōxt of
+               <lb n="4" xml:id="trans-p1-l4"/>Nēwbēhgān from Friyag who is manage in Namēwar, wheat
+               <lb n="5" xml:id="trans-p1-l5"/>grīw 190, grīw 50, grīw 50.
+               <lb n="6" xml:id="trans-p1-l6"/>From Friyag 1 sheep out of 36 lambs.
+               <lb n="7" xml:id="trans-p1-l7"/>To the bun of Pērōz in Anārgarān form Farrox,
+               <lb n="8" xml:id="trans-p1-l8"/>the manager in Namēwar, 11 sheep. On behalf of the gift for God
+               <lb n="9" xml:id="trans-p1-l9"/>Mihr 2 sheep. On behalf of the Amīr, who evaluated the action
+               <lb n="10" xml:id="trans-p1-l10"/>1 [sheep]. From another purpose of Zādānfarrox, the overseer, piglets of Rēgān(?)
+               <lb n="11" xml:id="trans-p1-l11"/>2. 1 Biryānī. 3 curd (soups?). 6 birds, small birds (?)
+               <lb n="12" xml:id="trans-p1-l12"/>27. From Maškān 1 ox was brought out of 151[ ].
+               <lb n="13" xml:id="trans-p1-l13"/>And wheat flour from the bun of Naxčīragān <gap extent="several words" reason="tear"/>
+               <lb n="14" xml:id="trans-p1-l14"/><gap extent="several words" reason="tear"/>
+               <lb n="15" xml:id="trans-p1-l15"/><gap extent="several words" reason="tear"/>
+            </ab>
+            <ab xml:id="MP0067_trans-p2">
+               <lb n="1" xml:id="trans-p2-l1"/>(V): Gone out from the *bath-house, month Hordād of the year 38.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

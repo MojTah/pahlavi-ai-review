@@ -1,0 +1,159 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0403" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0403 / Berlin 3</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0403 / Berlin 3.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">14–17</biblScope>
+                  <note>The first edition of Berlin 3.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Freie Universität Berlin, Institut für Iranistik</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 3</idno>
+                  <idno type="OpenAMPD">MP0403</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">9.2</height>
+                              <width unit="cm">7.2</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="10">10 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Bottom right.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0031-04-30" calendar="#Pahlavi">Day Anagrān, Month Tīr, 31 PY</date>
+            <date when="0682-10-01" calendar="#Julian">October 1, 682 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0403_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>[ʿL] ʾnwšʾḇyȳʾṭ mʾhkˈ nc zʾṭʾnplhwˈ
+               <lb n="2" xml:id="trl-p1-l2"/>[   ] . plmʾn ŠRM KBD MRʿḤ ẔNH BYRḤ
+               <lb n="3" xml:id="trl-p1-l3"/>[ṭ]yl QDM ŠNṬ $X-I W YWM ʾnglʾn
+               <lb n="4" xml:id="trl-p1-l4"/>[   ] ... *ysnpʾnkˈ ʾwsṭʾndʾl ʿL
+               <lb n="5" xml:id="trl-p1-l5"/>dʾṭ-... plmwṭ YḆLWNtny ʾNŠWṬʾ
+               <lb n="6" xml:id="trl-p1-l6"/>ẔKL I-M pṭˈ YDH Y dsṭwyh(?) ʾy
+               <lb n="7" xml:id="trl-p1-l7"/>YḤWWNšn W MN ẔK Y MRʿḤ GBRʾ ʾp̄ẕwn
+               <lb n="8" xml:id="trl-p1-l8"/>YḤBWNṭn pṭˈ MRʿḤ Y ʾynʾn MN ...
+               <lb n="9" xml:id="trl-p1-l9"/>Y ... ... ʾy YḤWWNšn ŠRM
+               <lb n="10" xml:id="trl-p1-l10"/>ʿL[...]
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0403_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>[ō] anōšayād Māhag namāz Zādānfarrox
+               <lb n="2" xml:id="trc-p1-l2"/>[   ] . framān drōd was xwadāy ēn māh
+               <lb n="3" xml:id="trc-p1-l3"/>[T]īr abar sāl 31 ud rōz Anagrān
+               <lb n="4" xml:id="trc-p1-l4"/>[   ]... *yasn-bānag ōstāndār ō
+               <lb n="5" xml:id="trc-p1-l5"/>Dād-... framūd burdan mardom
+               <lb n="6" xml:id="trc-p1-l6"/>nar 1000 pad dast ī Dastweh(?) ē
+               <lb n="7" xml:id="trc-p1-l7"/>bawišn ud az ān ī xwadāy mard abzōn
+               <lb n="8" xml:id="trc-p1-l8"/>dādan pad xwadāy ī Ērān az ...
+               <lb n="9" xml:id="trc-p1-l9"/>ī ... ... ē bawišn drōd
+               <lb n="10" xml:id="trc-p1-l10"/>ō[...]
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0403_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>[An] den mit unsterblicher Erinnerung versehenen Māhag Verehrung! Zādānfarrox
+               <lb n="2" xml:id="trans-p1-l2"/>[   ] . Befehl, viel Gesundheit, Herr: diesen Monat
+               <lb n="3" xml:id="trans-p1-l3"/>[T]īr (4. Monat) im Jahr 31 und Tag Anagrān (30. Tag)
+               <lb n="4" xml:id="trans-p1-l4"/>… (der) yasn-pflegende ōstāndār dem
+               <lb n="5" xml:id="trans-p1-l5"/>Dād-... befahl er zu nehmen Leute
+               <lb n="6" xml:id="trans-p1-l6"/>männliche 1000 zu Händen des Dastweh(?)
+               <lb n="7" xml:id="trans-p1-l7"/>… und von den Männern des Herrn Zuwachs/Vermehrung
+               <lb n="8" xml:id="trans-p1-l8"/>(zu) geben für den Herrn von Iran …
+               <lb n="9" xml:id="trans-p1-l9"/>des … … Gesundheit!
+               <lb n="10" xml:id="trans-p1-l10"/>Dem [...] 
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

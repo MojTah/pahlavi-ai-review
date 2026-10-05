@@ -1,0 +1,33 @@
+{
+  "status": "PASS_LOCAL_TESTS_V3_QA_ASTRA_EVIDENCE_CLOSURE_PENDING",
+  "inputs": {
+    "tests": 6,
+    "duration_seconds": 1.968,
+    "evidence_owner": "Main; independent QA rerun"
+  },
+  "runtime": {
+    "tests": 24,
+    "duration_seconds": 34.028,
+    "evidence_owner": "/root/faithfulness_runtime_impl"
+  },
+  "scoring": {
+    "tests": 19,
+    "duration_seconds": 54.517,
+    "evidence_owner": "Main"
+  },
+  "total_local_tests": 49,
+  "qa_direct_checks": 11,
+  "sdk_roundtrip": true,
+  "no_provider_calls": true,
+  "no_credentials": true,
+  "no_training": true,
+  "no_local_weights": true,
+  "fixture_recovery": "TemporaryDirectory0700 paths inaccessible on Windows restricted execution. Only test fixture setup uses fresh project-local UUID directories; preserved v1/v2 pin maps. Four lingering fixture-parent references repaired; complete19 suite then passes. Runtime/scorer/input/job bytes unchanged.",
+  "score_test_sha256": "cfb7fcb0b0b43d6c9a6f813d11552057233d6fb42065b185cc2e59e5d80c35ea",
+  "astra_checkpoint_pending": true,
+  "live_gates_pending": true,
+  "final_pins_sha256": "939fd14a2840c37c4645af4c9af722d440738bc5afed3928ebedb931049f5b8e",
+  "supersedes_test_hash_applicability": "VALIDATION.json",
+  "correction": "Original attached v2 QA hash to passing v3 test run. See REVIEW-RECONCILIATION.md; original preserved.",
+  "full_scoring_run_session": 26983
+}

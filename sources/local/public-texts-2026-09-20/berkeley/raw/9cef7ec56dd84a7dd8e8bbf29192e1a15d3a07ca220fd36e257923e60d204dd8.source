@@ -1,0 +1,161 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0412" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0412 / Berlin 12</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0412 / Berlin 12.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">56–59</biblScope>
+                  <note>The first edition of Berlin 12.</note>
+                  </bibl>
+               <bibl corresp="#Weber_2020_2021">
+                  <biblScope unit="page">42–44</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Freie Universität Berlin, Institut für Iranistik</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 12</idno>
+                  <idno type="OpenAMPD">MP0412</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Leather">
+                        <support>
+                           <material>Leather</material>
+                           <dimensions>
+                              <height unit="cm">14</height>
+                              <width unit="cm">6.2</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="10">10 lines</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Top right.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">čak</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0034-10" calendar="#Pahlavi">Month Day, 34 PY</date>
+            <date when="0686-03" calendar="#Julian">March–April, 686 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0412_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>ʾsp̄pʾṭˈ
+               <lb n="2" xml:id="trl-p1-l2"/>ẔNH BYRḤ
+               <lb n="3" xml:id="trl-p1-l3"/>ddwˈ Y ŠNṬ $X-IIII
+               <lb n="4" xml:id="trl-p1-l4"/>cygwn ʾMYṭl Y plhwzʾṭˈ
+               <lb n="5" xml:id="trl-p1-l5"/>lʾsṭʾl lʾd plmwṭ BʿYḤWNsṭn
+               <lb n="6" xml:id="trl-p1-l6"/>ḤLYʾ-III-II dwlkˈ ʿL
+               <lb n="7" xml:id="trl-p1-l7"/>plsṭʾl Y ʾMYṭl Y
+               <lb n="8" xml:id="trl-p1-l8"/>plhwzʾṭˈ YḤBWNṭ ckˈ
+               <lb n="9" xml:id="trl-p1-l9"/>dynʾp̄zʾnytˈ
+               <lb n="10" xml:id="trl-p1-l10"/>ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0412_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Aspbād
+               <lb n="2" xml:id="trc-p1-l2"/>ēn māh
+               <lb n="3" xml:id="trc-p1-l3"/>Day ī sāl 34
+               <lb n="4" xml:id="trc-p1-l4"/>čiyōn mādar ī Farroxzād
+               <lb n="5" xml:id="trc-p1-l5"/>rāstār rāy framūd xwāstan
+               <lb n="6" xml:id="trc-p1-l6"/>sik 5 dōlag ō
+               <lb n="7" xml:id="trc-p1-l7"/>paristār ī mādar ī
+               <lb n="8" xml:id="trc-p1-l8"/>Farroxzād dād čak
+               <lb n="9" xml:id="trc-p1-l9"/>Dēnabzānīd
+               <lb n="10" xml:id="trc-p1-l10"/>āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:id="MP0412_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>[1] Aspbād
+               <lb n="2" xml:id="trans-p1-l2"/>this month
+               <lb n="3" xml:id="trans-p1-l3"/>Day (10th month) of year 34.
+               <lb n="4" xml:id="trans-p1-l4"/>Since the mother of Farroxzād
+               <lb n="5" xml:id="trans-p1-l5"/>on behalf of the *butcher ordered to request:
+               <lb n="6" xml:id="trans-p1-l6"/>he gave 5 pails of vinegar
+               <lb n="7" xml:id="trans-p1-l7"/>to the maidservant of the mother of
+               <lb n="8-10" xml:id="trans-p1-l8-10"/>Farroxzād. Dēnabzānīd sealed the čak.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

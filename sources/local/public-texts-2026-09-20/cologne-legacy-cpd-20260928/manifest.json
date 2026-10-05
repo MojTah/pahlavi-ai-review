@@ -1,0 +1,35 @@
+{
+  "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/LICENSE.md": {
+    "url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/LICENSE.md",
+    "retrieved_utc": "2026-09-28T12:58:07.414632+00:00",
+    "final_url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/LICENSE.md",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/a29f09ce17ec2ccb9e6e35682e0559a011af4e0d8932d129e10fe7304fce32cb.source",
+    "sha256": "89ebdf35de3a06f16f98c7fbe4d939f90750781b4d7d369ed09b6816ef142f22",
+    "bytes": 579
+  },
+  "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/dat/books": {
+    "url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/dat/books",
+    "retrieved_utc": "2026-09-28T12:58:08.197757+00:00",
+    "final_url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/dat/books",
+    "content_type": "text/plain; charset=utf-8",
+    "charset": "utf-8",
+    "status": "ok",
+    "file": "raw/0144f97c14983c3aa54ede94bf3ded7a022ff3ffc8db739693a882c082715da9.source",
+    "sha256": "9e1742f92c75f2c15caf5236e30261a59c67221289ad45b1b7e328327e0abb53",
+    "bytes": 152
+  },
+  "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/sqlite/ganz.txt": {
+    "url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/sqlite/ganz.txt",
+    "retrieved_utc": "2026-09-28T12:58:09.043590+00:00",
+    "final_url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-santam/60bb06c897c4a7bec45a5f45d26695e745044b42/sqlite/ganz.txt",
+    "content_type": "application/octet-stream",
+    "charset": null,
+    "status": "ok",
+    "file": "raw/4ec0ccbf33e7a36f0350a056cda27393e9235fb4c619bcbd2d7940a8f0a496f7.source",
+    "sha256": "ebbb9cb145b65b62e2433ee1b9970decae11699fa77c1fded9403d8932ad3e8f",
+    "bytes": 25933650
+  }
+}

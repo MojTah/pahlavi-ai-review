@@ -1,0 +1,33 @@
+{
+  "status": "CLOSED_EXECUTION_REVIEW_PASS",
+  "requested_at_utc": "2026-10-03T16:59:40Z",
+  "checkpoint_commit": "b88c288",
+  "base_commit": "f24f760",
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "reviewer_host": "local",
+  "reviewer_model": "gpt-6-astra",
+  "last_delivered_cursor": "a428ddc5-bf0e-453d-a834-0a8ea7559c02:13",
+  "scope": "Read-only saved launch evidence and next recovery/scoring boundary; prior runtime/scoring review stays closed",
+  "provider_status_checked": false,
+  "ongoing_job_interrupted": false,
+  "notification_required": false,
+  "evidence_sha256": {
+    "CRITIC-GATE.md": "14c971cdadd2259ea82827311ba84a7a8c4cdad714d72bb1bb4183cd8e4d58ae",
+    "live-inventory.json": "715ac5fc847986472f588634d4f7e5a7673cd7000be028b4845b8d7839da60f7",
+    "provider-receipt.json": "b9720b77693164ee0fd58b61b598778495409ed714b161ed2b0e37ea576c9467",
+    "staging-verification.json": "43de80b3f4bd3c75f10456b8b800490fa43c6b2372ac44de574e820826a2674f",
+    "startup-observation.json": "b1dd8e8e011e45ffb84963736d7b33c4b565729931a3bfea00737a2ec1dab16a",
+    "startup-provider.log": "7a407c817d16a265582bd6747021c4f85a468ad667f09d91f078698fbb81c64f",
+    "STATUS.md": "7f5ab433060ce0b7e62088e8f29f6d8e09a345d813cb4055ea8eb569b3b4a04b",
+    "submission-claim.json": "131c6016cc2cc015af45e4e2bb17f68322e6d59309e3efa6d1e96a726cbaffbc"
+  },
+  "review_turn": "01a102b5-038f-7fb0-9d88-13ae20a3595b",
+  "reviewer_state": "idle",
+  "observed_at_utc": "2026-10-03T19:00:39.402281+00:00",
+  "verdict": "PASS",
+  "result_path": "experiments/dictionary-ab-runtime-20261003/live-execution/ASTRA-EXECUTION-RESULT.json",
+  "result_sha256": "3756d9a935f7edd962e345559feb6d09095174de5d983938201ec2ff872f9d49",
+  "minor_correction_integrated": true,
+  "original_reviewed_evidence_unchanged": true,
+  "new_review_required": false
+}

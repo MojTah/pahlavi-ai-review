@@ -1,0 +1,154 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP0419" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP0419 / Berlin 19</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Edition used for OpenAMPD</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>Document preparation for TEI encoding</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <persName>Wanying Luo</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP0419 / Berlin 19.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD at UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Published edition(s):</head>
+               <bibl corresp="#Weber_2008a">
+                  <biblScope unit="page">82–85</biblScope>
+                  <note>The first edition of Berlin 19.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Freie Universität Berlin, Institut für Iranistik</institution>
+                  <idno type="shelfmark">None known</idno>
+                  <idno type="siglum">Berlin 19</idno>
+                  <idno type="OpenAMPD">MP0419</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Textile">
+                        <support>
+                           <material>Textile</material>
+                           <dimensions>
+                              <height unit="cm">11.7</height>
+                              <width unit="cm">8.4</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="8">8 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">1 line</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     Bulla(e): Absent.
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="berkeley" matchPattern="(.+)" replacementPattern="https://digicoll.lib.berkeley.edu/record/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Receipt</term>
+               <term type="corpus">Central Iran</term>
+               <term type="tag">āz ān ī ō bun</term>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when="0037-09" calendar="#Pahlavi">Month Ādur, 37 PY</date>
+            <date when="0689-02" calendar="#Julian">Feburary-March, 689 CE</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+            <pb xml:id="pb-1r-trl"/><!--facs="berlin"-->
+            <ab xml:id="MP0419_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>plykˈ Y pṭˈ nmṭl dʾlyk
+               <lb n="2" xml:id="trl-p1-l2"/>MN ẔK ʾYŠ ʿL bwnˈ ẔNH BYR[Ḥ]
+               <lb n="3" xml:id="trl-p1-l3"/>ʾṭwrˈ Y ŠNṬ $X-IIII-III
+               <lb n="4" xml:id="trl-p1-l4"/>lwcyk Y pṭˈ S-II Y MN ml
+               <lb n="5" xml:id="trl-p1-l5"/>Y ʾMYṭl Y plhwzʾṭˈ
+               <lb n="6" xml:id="trl-p1-l6"/>lʾd ṬBNʾ-II pṭmʾn
+               <lb n="7" xml:id="trl-p1-l7"/>ʿL plsṭʾlʾn ʾYŠ LʿYNˈ
+               <lb n="8" xml:id="trl-p1-l8"/>YḤBWNṭˈ zʾṭʾnplhwˈ ḤṬYMWNṭ
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP0419_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>Friyag ī pad Namtar dārīg
+               <lb n="2" xml:id="trc-p1-l2"/>az ān kas ō bun ēn mā[h]
+               <lb n="3" xml:id="trc-p1-l3"/>Ādur ī sāl 37
+               <lb n="4" xml:id="trc-p1-l4"/>rōzīg ī pad satēr-2 ī az mar
+               <lb n="5" xml:id="trc-p1-l5"/>ī mādar ī Farroxzād
+               <lb n="6" xml:id="trc-p1-l6"/>rāy kāh-2 paymān
+               <lb n="7" xml:id="trc-p1-l7"/>ō paristārān kas pēš
+               <lb n="8" xml:id="trc-p1-l8"/>dād Zādānfarrox āwišt
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP0419_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>Friyag, der Verwalter in Namtar:
+               <lb n="2" xml:id="trans-p1-l2"/>Von jener Person zur „Zentrale“: Diesen Monat
+               <lb n="3" xml:id="trans-p1-l3"/>Ādur (9.Monat) des Jahres 37 (668/669 n.Chr.).
+               <lb n="4" xml:id="trans-p1-l4"/>Der Tagesration für (im Werte von) 2 Satēr aus dem Vermögen (Zahl)
+               <lb n="5" xml:id="trans-p1-l5"/>der Mutter des Farroxzād
+               <lb n="6" xml:id="trans-p1-l6"/>wegen Stroh 2 Maß(?)
+               <lb n="7" xml:id="trans-p1-l7"/>den Dienern jemand (schon) vorher
+               <lb n="8" xml:id="trans-p1-l8"/>gegeben. Zādānfarrox (hat’s) gesiegelt.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

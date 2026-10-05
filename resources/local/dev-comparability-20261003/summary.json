@@ -1,0 +1,1096 @@
+{
+  "freeze_sha256": "ffce45802a92751998bdae0ea5dd3e575ce0f0df77c257ad51f514351d49b5da",
+  "reviewers": {
+    "A": {
+      "raw_reviews_sha256": "ec92e76eb42eb4fd4cc3ba0ab73ce9bec00174370716bcdd2a84fda4345aa68c",
+      "counts": {
+        "original_D0": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 7,
+            "uncertain": 1
+          }
+        },
+        "original_D1": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 8
+          }
+        },
+        "original_D2": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 6,
+            "meaning_error": 6,
+            "critical_error": 2,
+            "accepted": 1
+          }
+        },
+        "original_D3": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 3,
+            "uncertain": 3,
+            "accepted": 2
+          }
+        },
+        "step280_plain": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 9,
+            "uncertain": 2,
+            "critical_error": 3,
+            "accepted": 1
+          }
+        },
+        "step280_assisted": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 2,
+            "meaning_error": 5,
+            "accepted": 3,
+            "critical_error": 5
+          }
+        },
+        "mixed96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "critical_error": 6,
+            "uncertain": 1,
+            "accepted": 1
+          }
+        },
+        "corrected96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "critical_error": 4,
+            "uncertain": 1,
+            "accepted": 2
+          }
+        },
+        "dose_baseline_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 4,
+            "meaning_error": 9,
+            "critical_error": 2
+          }
+        },
+        "dose384_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 3,
+            "meaning_error": 5,
+            "accepted": 1,
+            "critical_error": 6
+          }
+        }
+      }
+    },
+    "B": {
+      "raw_reviews_sha256": "08cae5f298015037739a0109583676a0f86a3ad02d301c0c3707f62e8cd9db82",
+      "counts": {
+        "original_D0": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "critical_error": 7
+          }
+        },
+        "original_D1": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "critical_error": 7
+          }
+        },
+        "original_D2": {
+          "denominator": 15,
+          "judgments": {
+            "uncertain": 4,
+            "meaning_error": 7,
+            "critical_error": 2,
+            "accepted": 2
+          }
+        },
+        "original_D3": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 9,
+            "uncertain": 1,
+            "critical_error": 2,
+            "accepted": 3
+          }
+        },
+        "step280_plain": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 10,
+            "critical_error": 3,
+            "accepted": 2
+          }
+        },
+        "step280_assisted": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 7,
+            "accepted": 3,
+            "critical_error": 4,
+            "uncertain": 1
+          }
+        },
+        "mixed96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 9,
+            "critical_error": 5,
+            "accepted": 1
+          }
+        },
+        "corrected96": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 11,
+            "critical_error": 2,
+            "accepted": 2
+          }
+        },
+        "dose_baseline_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 11,
+            "critical_error": 3,
+            "accepted": 1
+          }
+        },
+        "dose384_nf4": {
+          "denominator": 15,
+          "judgments": {
+            "meaning_error": 8,
+            "accepted": 1,
+            "critical_error": 5,
+            "uncertain": 1
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "A:original_D0->original_D1": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 7
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 6
+        },
+        {
+          "before": "uncertain",
+          "after": "meaning_error",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 0,
+      "generation_confounds_not_removed": true
+    },
+    "A:original_D0->original_D2": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "uncertain",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 5
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 2
+        },
+        {
+          "before": "uncertain",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-003"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "A:original_D1->original_D3": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "uncertain",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 5
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-003",
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 2,
+      "generation_confounds_not_removed": true
+    },
+    "A:original_D2->original_D3": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 6
+        },
+        {
+          "before": "uncertain",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "uncertain",
+          "count": 3
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "A:step280_plain->step280_assisted": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 5
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 2
+        },
+        {
+          "before": "uncertain",
+          "after": "accepted",
+          "count": 2
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-002",
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 2,
+      "generation_confounds_not_removed": true
+    },
+    "A:step280_plain->mixed96": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 7
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "critical_error",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance_ids": [
+        "QUALITYDEV1-003"
+      ],
+      "net_acceptance": 0,
+      "generation_confounds_not_removed": true
+    },
+    "A:step280_plain->corrected96": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 8
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "critical_error",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "A:mixed96->corrected96": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 4
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 7
+        },
+        {
+          "before": "uncertain",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-003"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "A:step280_plain->dose_baseline_nf4": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 7
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 2
+        },
+        {
+          "before": "uncertain",
+          "after": "uncertain",
+          "count": 2
+        }
+      ],
+      "new_acceptance_ids": [],
+      "lost_acceptance_ids": [
+        "QUALITYDEV1-003"
+      ],
+      "net_acceptance": -1,
+      "generation_confounds_not_removed": true
+    },
+    "A:dose_baseline_nf4->dose384_nf4": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 4
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 4
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "uncertain",
+          "count": 2
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-002"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "B:original_D0->original_D1": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 7
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 8
+        }
+      ],
+      "new_acceptance_ids": [],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 0,
+      "generation_confounds_not_removed": true
+    },
+    "B:original_D0->original_D2": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "uncertain",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 5
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 2
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-003",
+        "QUALITYDEV1-009"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 2,
+      "generation_confounds_not_removed": true
+    },
+    "B:original_D1->original_D3": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 6
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-003",
+        "QUALITYDEV1-009",
+        "QUALITYDEV1-017"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 3,
+      "generation_confounds_not_removed": true
+    },
+    "B:original_D2->original_D3": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 7
+        },
+        {
+          "before": "uncertain",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "uncertain",
+          "after": "meaning_error",
+          "count": 2
+        },
+        {
+          "before": "uncertain",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-017"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "B:step280_plain->step280_assisted": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 6
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-002"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "B:step280_plain->mixed96": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "accepted",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 9
+        }
+      ],
+      "new_acceptance_ids": [],
+      "lost_acceptance_ids": [
+        "QUALITYDEV1-003"
+      ],
+      "net_acceptance": -1,
+      "generation_confounds_not_removed": true
+    },
+    "B:step280_plain->corrected96": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 10
+        }
+      ],
+      "new_acceptance_ids": [],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 0,
+      "generation_confounds_not_removed": true
+    },
+    "B:mixed96->corrected96": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "critical_error",
+          "after": "meaning_error",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 9
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-003"
+      ],
+      "lost_acceptance_ids": [],
+      "net_acceptance": 1,
+      "generation_confounds_not_removed": true
+    },
+    "B:step280_plain->dose_baseline_nf4": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "accepted",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 10
+        }
+      ],
+      "new_acceptance_ids": [],
+      "lost_acceptance_ids": [
+        "QUALITYDEV1-003"
+      ],
+      "net_acceptance": -1,
+      "generation_confounds_not_removed": true
+    },
+    "B:dose_baseline_nf4->dose384_nf4": {
+      "denominator": 15,
+      "transitions": [
+        {
+          "before": "accepted",
+          "after": "meaning_error",
+          "count": 1
+        },
+        {
+          "before": "critical_error",
+          "after": "critical_error",
+          "count": 3
+        },
+        {
+          "before": "meaning_error",
+          "after": "accepted",
+          "count": 1
+        },
+        {
+          "before": "meaning_error",
+          "after": "critical_error",
+          "count": 2
+        },
+        {
+          "before": "meaning_error",
+          "after": "meaning_error",
+          "count": 7
+        },
+        {
+          "before": "meaning_error",
+          "after": "uncertain",
+          "count": 1
+        }
+      ],
+      "new_acceptance_ids": [
+        "QUALITYDEV1-002"
+      ],
+      "lost_acceptance_ids": [
+        "QUALITYDEV1-009"
+      ],
+      "net_acceptance": 0,
+      "generation_confounds_not_removed": true
+    }
+  },
+  "expert_adjudicated": false,
+  "unique_output_disagreements": [
+    {
+      "context_output_sha256": "d790978f94ee04652bf1d5c33f4f397ee409d7ea1890c1c5bd3a15967da653b8",
+      "A": "critical_error",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "8e97868ffb697e07b709bc173564f8692e91b74f1b210e1c2dd67c9b4e3a9232",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "b8aa0511a79e646b71fa20ab9cd5700ade17a1790a6ab3ceef28228815be7ccd",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "426e3e3c6d86432c78e8897be3e7a568545589127703e707acedc3a284c5c925",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "fed7d291472941095ad52d2cbcfccb5b0438e434de3f70b63ec869e5d64f6a27",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "2610e66760fb3285818984bf97fcc9489778d1fdba6462fc3f718bfd33bafede",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "2d54540826e303d54bc4254d99fa6e6210eae04a6444859e5e5ca7a3c1c206fc",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "029fa9c3897e965c9aadf5d165d395648c833ff5b9f786adb480cea188b32362",
+      "A": "critical_error",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "c88fb6a52198a2e5212ccdede91dabcff094a85f760d77e74a5825a53d254914",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "99463b9345ce73ac247ef5d92e855783212d2cedf130c8defe2ab4d38ca8ef01",
+      "A": "uncertain",
+      "B": "accepted"
+    },
+    {
+      "context_output_sha256": "965072585f05f30c64fbdacc1d6c64cb01f2707e719bf9bdd75003ca056436e7",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "72163c14ce6576cb12d9ecbabf9c06f867d97fef13fc4e3ee2844f8828a21474",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "f8a2e1ac9ba67c270fbdac4b7692df49993fff0c4c354fb0e5cb5c34c2edcf2d",
+      "A": "critical_error",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "cd02470ec8679b2f4a82afe7ef796d24769eb5498edfa59157f88cce7b3dba57",
+      "A": "uncertain",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "a5204b10d49ec443855fb9c1f6688e6d09317e4bd752a81fd0765fb5f2a7caca",
+      "A": "meaning_error",
+      "B": "critical_error"
+    },
+    {
+      "context_output_sha256": "19e10ef04847a49bc61ffc4b617f2447dafad4d9f170e0390f64b0007b7dc458",
+      "A": "uncertain",
+      "B": "accepted"
+    },
+    {
+      "context_output_sha256": "027cb6100b99f05d948e01577da30984906831dec3ffa1af119b7d9af7d78baf",
+      "A": "uncertain",
+      "B": "accepted"
+    },
+    {
+      "context_output_sha256": "d0b3247687a1e2250fe7e278fefe671a4b0b65392728b0d58f50099d6ffd82da",
+      "A": "critical_error",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "bf3894ea21866aa9d99f89ea0d96d4ba1e857fb3c3670d32309a25e4debe3ef5",
+      "A": "uncertain",
+      "B": "accepted"
+    },
+    {
+      "context_output_sha256": "989c069958023bb68cee5da40030c3565f564f3fb20788275254293dc2f7d5b9",
+      "A": "critical_error",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "8252f55033bf93567fca43d4e687f7c305c3c2245932ffdb7dd1e86d4135eed2",
+      "A": "critical_error",
+      "B": "meaning_error"
+    },
+    {
+      "context_output_sha256": "aff267900d0ab6c29092ec62420f8c620e65caa3e54d98a64483e01677a53176",
+      "A": "uncertain",
+      "B": "meaning_error"
+    }
+  ]
+}

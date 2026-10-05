@@ -1,0 +1,65 @@
+{
+  "GPU_exercised": false,
+  "command_arg_utf8_bytes": [
+    6,
+    2,
+    2,
+    33836,
+    61360,
+    4
+  ],
+  "compute_seconds": 6600,
+  "credentials_accessed": false,
+  "decode_controls": {
+    "context_limit": 12288,
+    "export_overhead_seconds": 600,
+    "first_attempt_admission_seconds": 3420,
+    "first_attempt_only": true,
+    "input_cap_tokens": 8192,
+    "max_generation_seconds": 90,
+    "max_new_tokens": 4096,
+    "no_truncation": true,
+    "slot_export_reserve_seconds": 20,
+    "tail_reserve_seconds": 120,
+    "timeout_or_output_cap_primary_inconclusive": true
+  },
+  "decoded_command_sha256": "80a149a4d72a3de6f9e351eb89fb31a9558296ef1e412748252e0dd00d82fe55",
+  "files": {
+    "job-spec.json": {
+      "bytes": 96437,
+      "path": "resources/local/dictionary-ab-runtime-20261003/d68800b3b35c44a4a97adc0c5129a3de/job-spec.json",
+      "sha256": "76cacf26bd2704a7ca4b7abec8c72cf58283b5a4075ee4b5bf99653c147cd73a"
+    },
+    "prepared-receipt.json": {
+      "bytes": 3824,
+      "path": "resources/local/dictionary-ab-runtime-20261003/d68800b3b35c44a4a97adc0c5129a3de/prepared-receipt.json",
+      "sha256": "296931092710dd9de0e036709a2056d0a45631de7032004775055d044dd4842b"
+    }
+  },
+  "frozen_messages_sha256": "3b4eb9298882868bf197cd45c8144704f9d5522b394e3f2296624a28d4809c76",
+  "helper_origins": {
+    "contextual_run.py": "ab93adcdc4db96808313b651b721bb815ba6a3008a358560aab305a6532ce77f",
+    "dev_assisted.py": "4334db8c1097c220dbcce75b3d30287a29c43c5482ab71313c3db9cf287fec4d",
+    "dose_run.py": "2e67952ed6f1649fe92e6b6a760053b19c30a6c440d7cebc23d24bad3e0288df",
+    "hf_baseline.py": "56369c479db6a97fabc93d424c8520b4007d4b9fed49f6f1cb20e6e780ae826e",
+    "hf_convert.py": "d0197f5b8e4b1d8c827b14fc85cd8a6208d1cbc7d223f4f67a40310331db700b",
+    "hf_train.py": "d6fe0c55e79370be91d3dbdeffe29f88cc9daf16c777c068f55a2a9604e794e0"
+  },
+  "internal_seconds": 7020,
+  "native_timeout_minutes": 120,
+  "output_prefix": "dictionary-ab-runtime/d68800b3b35c44a4a97adc0c5129a3de",
+  "paid_run_admitted": false,
+  "provider_called": false,
+  "reviewed_specimen_sha256": "71d386912ac9325891bc5121efd51c6ef79dda399c0e7f4dc3f6380675aec21d",
+  "run_id": "d68800b3b35c44a4a97adc0c5129a3de",
+  "script_hashes": {
+    "component_eval.py": "125840c0f45dd267be058317a1f4352b45f55ffdbfeee2053cb64d9174530e9e",
+    "component_helpers.py": "887b21031c27d427c838c7835585ca6388aab0fc8596b5d55df0334a79adff05"
+  },
+  "sdk_roundtrip": true,
+  "sdk_version": "1.23.0",
+  "status": "LOCAL_PREVIEW_ONLY_PAID_HOLD",
+  "submitted": false,
+  "timing_contract": "dictionary-ab-90s-v1",
+  "training_admitted": false
+}

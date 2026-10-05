@@ -1,0 +1,60 @@
+{
+  "status": "frozen_before_review",
+  "scope": "exposed DEV15 only; one reassessment; no new generation",
+  "case_ids": [
+    "QUALITYDEV1-002",
+    "QUALITYDEV1-003",
+    "QUALITYDEV1-005",
+    "QUALITYDEV1-006",
+    "QUALITYDEV1-007",
+    "QUALITYDEV1-008",
+    "QUALITYDEV1-009",
+    "QUALITYDEV1-010",
+    "QUALITYDEV1-012",
+    "QUALITYDEV1-013",
+    "QUALITYDEV1-014",
+    "QUALITYDEV1-015",
+    "QUALITYDEV1-017",
+    "QUALITYDEV1-020",
+    "QUALITYDEV1-021"
+  ],
+  "members": 150,
+  "unique_context_outputs": 143,
+  "whole_work_counts": {
+    "parsig:103": 4,
+    "parsig:112": 5,
+    "parsig:138": 4,
+    "parsig:517": 2
+  },
+  "source_pins": {
+    "experiments/dev-diagnostic-20260927/inputs.jsonl": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+    "experiments/dev-diagnostic-20260927/references.jsonl": "3a6859b50963658b235bbf3bd21ad992fecfa847ac523b1af589dbb67620a9a2",
+    "experiments/dev-diagnostic-20260927/assessment-contract.json": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0",
+    "experiments/dev-diagnostic-20260927/reviewer-clarification.json": "8ed1e87e84d1274507a7910798bbfa32af315a5707b47f3e6f94f320ad5a9e62",
+    "experiments/dev-diagnostic-20260927/predictions.jsonl": "f61fdb91aa5357f95ea5bfb893d116aa5b9c7132c801fff489f3e23b56af306d",
+    "experiments/dev-diagnostic-20260927/run.json": "deb7ef2319545fd2c7f202115ccb8c17a0d8d35091916328a119fec4a08fcb48",
+    "experiments/corrected-review-20260930/lead-only/raw/gemma280/predictions.jsonl": "afda3bdc675b9b5f2cb028f476f8324754f4bb65646fde9de565ee30269c9c19",
+    "experiments/corrected-review-20260930/lead-only/raw/gemma280/run.json": "95cf3d2051ebeb85f5c30f1b128e32b751a0d6e10798d80d51749a7258dfffca",
+    "experiments/corrected-review-20260930/lead-only/raw/mixed96_plain/mixed/evaluation/predictions.jsonl": "f2ce560bf9f239f0ded0802c2e67574630bb24cb78773a5b2227ce80c37a9e0a",
+    "experiments/corrected-review-20260930/lead-only/raw/mixed96_plain/mixed/evaluation/run.json": "d6cb59b5c1777ef32a55a5663a96c8944e1ad4cf7b9467c3d37824ea8019fe1e",
+    "experiments/corrected-review-20260930/lead-only/raw/corrected96_plain/mixed/evaluation/predictions.jsonl": "edfa62482d80b5d9070b82c3f2289759f43bb1a5350c6160ab5d72e66147d4f1",
+    "experiments/corrected-review-20260930/lead-only/raw/corrected96_plain/mixed/evaluation/run.json": "ad4ec32da151f8b67e055a68ae51bc29eef6017be1b5b6dce2beaba6a1d279b0",
+    "experiments/dose-acquisition-20260930/live-execution/recovered/dose/evaluation-baseline/predictions.jsonl": "4dd5b8960bd9bae47d14ed202b39084add28f88abe038dfb143949e6a5272012",
+    "experiments/dose-acquisition-20260930/live-execution/recovered/dose/run.json": "c3a93f105d19f39888e6507dd5e22834105a8288a3e979b864b3ebe44bc5fe36",
+    "experiments/dose-acquisition-20260930/live-execution/recovered/dose/evaluation/predictions.jsonl": "711d913146cc62067f71c526d20d993f807ca04869d0ebfcdf094c4a3a7a84c4",
+    "scripts/prepare_blind_dev_assisted.py": "dbb601e9ec806b4c4fe69c0fb39f2261d8e978441cf0fbf0975918ed4197153e",
+    "scripts/score_blind_dev_assisted.py": "b21d70d8e1a92bd7fc1fbb2de73a9eaf7d856aeba0c396c18f9272c5369f1732",
+    "experiments/dev-comparability-20261003/review.py": "320df22ed244ecd82be26da21037fc6402ab009df97bbd35751e7f1925ef170f"
+  },
+  "files": {
+    "lead-only/members.jsonl": "97a67c72cc1eaa5f5f5b2b37bc1ab0fa707277643ad537ba189c2aca4bf3e69c",
+    "reviewer-A/packet.jsonl": "f31507438597253dedae39e2d45119b32fb8b102ff5c84da0be31e49e9c44201",
+    "reviewer-A/INSTRUCTIONS.md": "eb7c5dbf4051cf7c142cd26bb01a12d12624d2e46e1f1ed4c370c7f75ae87b23",
+    "reviewer-B/packet.jsonl": "51b8376484429b5540bcc71d8d31b3c83ab0cdd7bc7937b89186fe62ddc35d7a",
+    "reviewer-B/INSTRUCTIONS.md": "eb7c5dbf4051cf7c142cd26bb01a12d12624d2e46e1f1ed4c370c7f75ae87b23",
+    "lead-only/mapping.jsonl": "d4a6d235d779d1c62f87808e59eef1c46fd297302c35b57bdfb7753e1060f374"
+  },
+  "rubric": "unchanged meaning rubric; current critical-consistency validator; historical pins untouched",
+  "expert_adjudicated": false,
+  "review_independence": "separate fresh AI contexts; not independent linguistic certification"
+}

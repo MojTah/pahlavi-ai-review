@@ -1,0 +1,16 @@
+{
+  "status": "REVIEW_CLOSED_NO_NEW_SCIENTIFIC_CHECKPOINT",
+  "reviewed_commit": "6ad5d58",
+  "reviewer_thread": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "latest_closure_turn": "01a1023f-e66e-7fe1-b8cf-31776f6e399b",
+  "review_cursor": "a428ddc5-bf0e-453d-a834-0a8ea7559c02:11",
+  "reviewer_idle": true,
+  "verdict": "LOCAL_PASS",
+  "source_pins_unchanged": true,
+  "final_scoring_tests": 13,
+  "runtime_tests": 20,
+  "latest_human_boundary": "Keep everything local for now",
+  "cloud_jobs_transfers_credentials_spending": "HOLD",
+  "new_review_required": false,
+  "notification_required": false
+}

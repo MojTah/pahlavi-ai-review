@@ -1,0 +1,191 @@
+{"stage": "bootstrap_started", "utc": "2026-10-05T05:51:26.659215+00:00", "training": false}
+{"stage": "input_verified", "files": {"runtime.py": "5f42bcc70dd80de22c624130a07b179b134cec767164e33cb28604f1b497298d", "requirements-linux.lock": "e80c606b6c9b89ae9f611459dca2b228749c227ace10edce0999414c9e7a8fd7"}}
+Found existing installation: spin 0.17
+Uninstalling spin-0.17:
+  Successfully uninstalled spin-0.17
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Collecting accelerate==1.14.0 (from -r requirements-linux.lock (line 5))
+  Downloading accelerate-1.14.0-py3-none-any.whl (389 kB)
+Collecting annotated-doc==0.0.5 (from -r requirements-linux.lock (line 12))
+  Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting anyio==4.15.1 (from -r requirements-linux.lock (line 17))
+  Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Collecting bitsandbytes==0.50.2 (from -r requirements-linux.lock (line 22))
+  Downloading bitsandbytes-0.50.2-py3-none-manylinux_2_24_x86_64.whl (43.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 295.8 MB/s  0:00:00
+Collecting certifi==2026.7.22 (from -r requirements-linux.lock (line 30))
+  Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Collecting click==8.5.0 (from -r requirements-linux.lock (line 37))
+  Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Collecting cuda-bindings==12.9.9 (from -r requirements-linux.lock (line 42))
+  Downloading cuda_bindings-12.9.9-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (7.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.6/7.6 MB 384.1 MB/s  0:00:00
+Collecting cuda-pathfinder==1.8.2 (from -r requirements-linux.lock (line 63))
+  Downloading cuda_pathfinder-1.8.2-py3-none-any.whl (62 kB)
+Requirement already satisfied: cuda-toolkit==12.8.1 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 67)) (12.8.1)
+Collecting filelock==4.0.3 (from -r requirements-linux.lock (line 71))
+  Downloading filelock-4.0.3-py3-none-any.whl (108 kB)
+Collecting fsspec==2026.9.0 (from -r requirements-linux.lock (line 78))
+  Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Collecting h11==0.16.0 (from -r requirements-linux.lock (line 85))
+  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting hf-xet==1.6.0 (from -r requirements-linux.lock (line 90))
+  Downloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 698.6 MB/s  0:00:00
+Collecting httpcore==1.0.9 (from -r requirements-linux.lock (line 110))
+  Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Collecting httpx==0.28.1 (from -r requirements-linux.lock (line 115))
+  Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting huggingface-hub==1.23.0 (from -r requirements-linux.lock (line 120))
+  Downloading huggingface_hub-1.23.0-py3-none-any.whl (770 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB 399.9 MB/s  0:00:00
+Collecting idna==3.20 (from -r requirements-linux.lock (line 130))
+  Downloading idna-3.20-py3-none-any.whl (69 kB)
+Requirement already satisfied: jinja2==3.1.6 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 137)) (3.1.6)
+Collecting markdown-it-py==4.2.0 (from -r requirements-linux.lock (line 142))
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Requirement already satisfied: markupsafe==3.0.3 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 147)) (3.0.3)
+Collecting mdurl==0.1.2 (from -r requirements-linux.lock (line 239))
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Requirement already satisfied: mpmath==1.3.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 244)) (1.3.0)
+Collecting networkx==3.7 (from -r requirements-linux.lock (line 249))
+  Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 718.9 MB/s  0:00:00
+Collecting numpy==2.5.3 (from -r requirements-linux.lock (line 254))
+  Downloading numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 630.2 MB/s  0:00:00
+Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 327)) (12.8.4.1)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 336)) (12.8.90)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 342)) (12.8.93)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 348)) (12.8.90)
+Requirement already satisfied: nvidia-cudnn-cu12==9.19.0.56 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 354)) (9.19.0.56)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 360)) (11.3.3.83)
+Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 366)) (1.13.1.3)
+Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 371)) (10.3.9.90)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 377)) (11.7.3.90)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 383)) (12.5.8.93)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 391)) (0.7.1)
+Requirement already satisfied: nvidia-nccl-cu12==2.28.9 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 397)) (2.28.9)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 402)) (12.8.93)
+Requirement already satisfied: nvidia-nvshmem-cu12==3.4.5 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 412)) (3.4.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 417)) (12.8.90)
+Collecting packaging==26.3 (from -r requirements-linux.lock (line 423))
+  Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Collecting peft==0.21.0 (from -r requirements-linux.lock (line 433))
+  Downloading peft-0.21.0-py3-none-any.whl (832 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 832.9/832.9 kB 828.0 MB/s  0:00:00
+Requirement already satisfied: psutil==7.2.2 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 438)) (7.2.2)
+Collecting pygments==2.21.0 (from -r requirements-linux.lock (line 464))
+  Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 573.0 MB/s  0:00:00
+Requirement already satisfied: pyyaml==6.0.3 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 469)) (6.0.3)
+Collecting regex==2026.9.10 (from -r requirements-linux.lock (line 549))
+  Downloading regex-2026.9.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (804 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 804.6/804.6 kB 310.7 MB/s  0:00:00
+Collecting rich==15.0.0 (from -r requirements-linux.lock (line 682))
+  Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting safetensors==0.8.0 (from -r requirements-linux.lock (line 687))
+  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Requirement already satisfied: setuptools==81.0.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 711)) (81.0.0)
+Collecting shellingham==1.5.4 (from -r requirements-linux.lock (line 716))
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Requirement already satisfied: sympy==1.14.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 721)) (1.14.0)
+Collecting tokenizers==0.22.2 (from -r requirements-linux.lock (line 726))
+  Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 706.6 MB/s  0:00:00
+Requirement already satisfied: torch==2.11.0+cu128 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 755)) (2.11.0+cu128)
+Collecting tqdm==4.70.1 (from -r requirements-linux.lock (line 783))
+  Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Collecting transformers==5.13.1 (from -r requirements-linux.lock (line 791))
+  Downloading transformers-5.13.1-py3-none-any.whl (11.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.5/11.5 MB 381.3 MB/s  0:00:00
+Requirement already satisfied: triton==3.6.0 in /usr/local/lib/python3.12/dist-packages (from -r requirements-linux.lock (line 798)) (3.6.0)
+Collecting typer==0.27.2 (from -r requirements-linux.lock (line 815))
+  Downloading typer-0.27.2-py3-none-any.whl (123 kB)
+Collecting typing-extensions==4.16.0 (from -r requirements-linux.lock (line 820))
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, tqdm, shellingham, safetensors, regex, pygments, packaging, numpy, networkx, mdurl, idna, hf-xet, h11, fsspec, filelock, cuda-pathfinder, click, certifi, annotated-doc, markdown-it-py, httpcore, cuda-bindings, anyio, rich, httpx, typer, huggingface-hub, tokenizers, bitsandbytes, accelerate, transformers, peft
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.15.0
+    Uninstalling typing_extensions-4.15.0:
+      Successfully uninstalled typing_extensions-4.15.0
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: packaging
+    Found existing installation: packaging 26.0
+    Uninstalling packaging-26.0:
+      Successfully uninstalled packaging-26.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.4.3
+    Uninstalling numpy-2.4.3:
+      Successfully uninstalled numpy-2.4.3
+  Attempting uninstall: networkx
+    Found existing installation: networkx 3.6.1
+    Uninstalling networkx-3.6.1:
+      Successfully uninstalled networkx-3.6.1
+  Attempting uninstall: idna
+    Found existing installation: idna 3.11
+    Uninstalling idna-3.11:
+      Successfully uninstalled idna-3.11
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2026.2.0
+    Uninstalling fsspec-2026.2.0:
+      Successfully uninstalled fsspec-2026.2.0
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.25.2
+    Uninstalling filelock-3.25.2:
+      Successfully uninstalled filelock-3.25.2
+  Attempting uninstall: cuda-pathfinder
+    Found existing installation: cuda-pathfinder 1.2.2
+    Uninstalling cuda-pathfinder-1.2.2:
+      Successfully uninstalled cuda-pathfinder-1.2.2
+  Attempting uninstall: click
+    Found existing installation: click 8.3.1
+    Uninstalling click-8.3.1:
+      Successfully uninstalled click-8.3.1
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.2.25
+    Uninstalling certifi-2026.2.25:
+      Successfully uninstalled certifi-2026.2.25
+  Attempting uninstall: cuda-bindings
+    Found existing installation: cuda-bindings 12.9.4
+    Uninstalling cuda-bindings-12.9.4:
+      Successfully uninstalled cuda-bindings-12.9.4
+
+Successfully installed accelerate-1.14.0 annotated-doc-0.0.5 anyio-4.15.1 bitsandbytes-0.50.2 certifi-2026.7.22 click-8.5.0 cuda-bindings-12.9.9 cuda-pathfinder-1.8.2 filelock-4.0.3 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.23.0 idna-3.20 markdown-it-py-4.2.0 mdurl-0.1.2 networkx-3.7 numpy-2.5.3 packaging-26.3 peft-0.21.0 pygments-2.21.0 regex-2026.9.10 rich-15.0.0 safetensors-0.8.0 shellingham-1.5.4 tokenizers-0.22.2 tqdm-4.70.1 transformers-5.13.1 typer-0.27.2 typing-extensions-4.16.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+No broken requirements found.
+{"stage": "bootstrap_complete", "utc": "2026-10-05T05:51:45.471396+00:00", "training": false}
+{"stage": "base_download_started", "utc": "2026-10-05T05:51:53.611166+00:00", "server_only": true}
+{"model_id": "google/gemma-4-31B-it", "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475", "files": 8, "download_bytes": 62578654714, "free_bytes": 1407755706368, "download_requested": true}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+chat_template.jinja:   0%|          | 0.00/18.7k [00:00<?, ?B/s][Achat_template.jinja: 100%|██████████| 18.7k/18.7k [00:00<00:00, 79.4MB/s]
+
+config.json:   0%|          | 0.00/4.62k [00:00<?, ?B/s][Aconfig.json: 100%|██████████| 4.62k/4.62k [00:00<00:00, 22.6MB/s]
+
+generation_config.json:   0%|          | 0.00/208 [00:00<?, ?B/s][Ageneration_config.json: 100%|██████████| 208/208 [00:00<00:00, 2.15MB/s]
+
+model-00001-of-00002.safetensors: reconstructing file:   0%|          |  0.00B / 49.8GB            [Amodel-00001-of-00002.safetensors: downloading bytes:           |  0.00B            model-00001-of-00002.safetensors: downloading bytes:           |  367MB, 30.8MB/s  model-00001-of-00002.safetensors: downloading bytes: ▏         |  897MB, 75.6MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   2%|▏         | 1.02GB / 49.8GB, 6.56MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▎         | 1.73GB,  139MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   4%|▍         | 2.15GB / 49.8GB,  171MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▌         | 2.64GB,  210MB/s  
+model-00001-of-00002.safetensors: reconstructing file:   7%|▋         | 3.29GB / 49.8GB,  248MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ▊         | 3.77GB,  286MB/s  model-00001-of-00002.safetensors: downloading bytes: █         | 5.00GB,  365MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  11%|█         | 5.57GB / 49.8GB,  362MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▎        | 6.39GB,  446MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  15%|█▌        | 7.58GB / 49.8GB,  485MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▌        | 7.99GB,  541MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  20%|█▉        | 9.92GB / 49.8GB,  668MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █▉        | 9.84GB,  639MB/s  model-00001-of-00002.safetensors: downloading bytes: ██▎       | 11.8GB,  744MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  25%|██▌       | 12.6GB / 49.8GB,  764MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██▋       | 13.4GB,  806MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  30%|███       | 15.2GB / 49.8GB,  913MB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▏      | 15.6GB,  923MB/s  
+model-00001-of-00002.safetensors: reconstructing file:  36%|███▌      | 17.8GB / 49.8GB, 1.04GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███▋      | 18.2GB, 1.04GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  42%|████▏     | 20.8GB / 49.8GB, 1.15GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████      | 20.2GB, 1.11GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  48%|████▊     | 23.7GB / 49.8GB, 1.31GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████▌     | 22.8GB, 1.23GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  53%|█████▎    | 26.6GB / 49.8GB, 1.42GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████     | 25.0GB, 1.29GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  59%|█████▉    | 29.5GB / 49.8GB, 1.53GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▌    | 27.5GB, 1.39GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  65%|██████▍   | 32.3GB / 49.8GB, 1.62GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: █████▉    | 29.8GB, 1.44GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  72%|███████▏  | 35.7GB / 49.8GB, 1.65GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▍   | 32.3GB, 1.46GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  77%|███████▋  | 38.4GB / 49.8GB, 1.70GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████▉   | 34.4GB, 1.50GB/s  model-00001-of-00002.safetensors: downloading bytes: ███████▎  | 36.5GB, 1.49GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  84%|████████▎ | 41.6GB / 49.8GB, 1.69GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ███████▊  | 38.9GB, 1.55GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  89%|████████▉ | 44.3GB / 49.8GB, 1.73GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ████████▏ | 40.9GB, 1.58GB/s  
+model-00001-of-00002.safetensors: reconstructing file:  94%|█████████▍| 46.8GB / 49.8GB, 1.81GB/s  [Amodel-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.60GB/s  model-00001-of-00002.safetensors: downloading bytes: ██████████| 42.8GB, 1.60GB/s  
+model-00001-of-00002.safetensors: reconstructing file: 100%|██████████| 49.8GB / 49.8GB, 1.92GB/s  

@@ -1,0 +1,82 @@
+{
+  "status": "HOLD_EXECUTION_NOT_READY",
+  "paid_run_admitted": false,
+  "training_admitted": false,
+  "reviewed_specimen_sha256": "71d386912ac9325891bc5121efd51c6ef79dda399c0e7f4dc3f6380675aec21d",
+  "ab_message_file_sha256": "3b4eb9298882868bf197cd45c8144704f9d5522b394e3f2296624a28d4809c76",
+  "original_dev_source_sha256": "06ac58310bf67767fae4124d8e935c808d15debcd8daebce07b583937cd97182",
+  "do_not_rewrite_reviewed_specimen": true,
+  "case_to_work": {
+    "QUALITYDEV1-002": "parsig:103",
+    "QUALITYDEV1-003": "parsig:103",
+    "QUALITYDEV1-005": "parsig:103",
+    "QUALITYDEV1-006": "parsig:103",
+    "QUALITYDEV1-007": "parsig:112",
+    "QUALITYDEV1-008": "parsig:112",
+    "QUALITYDEV1-009": "parsig:112",
+    "QUALITYDEV1-010": "parsig:112",
+    "QUALITYDEV1-012": "parsig:112",
+    "QUALITYDEV1-013": "parsig:138",
+    "QUALITYDEV1-014": "parsig:138",
+    "QUALITYDEV1-015": "parsig:138",
+    "QUALITYDEV1-017": "parsig:138",
+    "QUALITYDEV1-020": "parsig:517",
+    "QUALITYDEV1-021": "parsig:517"
+  },
+  "scope_of_work_mapping": "four named DEV works; no independent corpus-family/statistical confirmation claim",
+  "technical_continuation_gate": {
+    "required_outputs": 30,
+    "denominator_per_arm": 15,
+    "all_first_attempts_technically_valid": true,
+    "all_artifact_bytes_recovered_and_checked": true,
+    "both_full_valid_reviews_required": true,
+    "any_timeout_error_unattempted_cap_without_eos_or_missing_recovery": "primary comparison inconclusive; retain descriptive outcomes and fixed denominators",
+    "failed_A_cannot_be_a_semantic_gain": true,
+    "semantic_gate_applied_only_after_technical_complete": true
+  },
+  "semantic_continuation_gate": {
+    "each_rater_net_new_acceptances_at_least": 2,
+    "newly_accepted_distinct_work_ids_at_least": 2,
+    "critical_count_increase_allowed": false,
+    "accepted_to_critical_allowed": false,
+    "claim": "operational cross-work development signal only"
+  },
+  "completed_prerequisites": [
+    "one frozen common reassessment",
+    "cached headroom by exact case/work",
+    "local source-only selector/projection/token capacity",
+    "consolidated Astra local PASS"
+  ],
+  "remaining_prerequisites": [
+    "actual closed 30-slot arbitrary-message runner and model/token/prompt hashes",
+    "explicit revised timing contract consistent with chosen funded envelope, preserving the reviewed specimen",
+    "full-cycle failure/deadline/export/readback checks and longest-input canary plan",
+    "fresh rate/funding/idle and shutdown/persistence observations",
+    "exact one-job paid authorization"
+  ],
+  "deadline_conflict": {
+    "reviewed_per_attempt_seconds": 1200,
+    "attempts": 30,
+    "legacy_fixed_overhead_seconds": 180,
+    "conservative_cycle_seconds": 36180,
+    "proposed_provider_timeout_seconds": 3600,
+    "fits": false,
+    "resolution": "new prospective contract and exact tested cycle; never silently shorten or auto-increase paid allowance"
+  },
+  "execution_code_reuse_points": [
+    "cloud_pilot/component_eval.py input validation/token replay/fresh cache/journal/BF16-FP32 checkpoint check",
+    "cloud_pilot/dev_assisted.py longest-prompt prefill canary without output",
+    "cloud_pilot/hf_component.py interrupted-call accounting/bootstrap/publish_checked/final export",
+    "cloud_pilot/dose_run.py message-preserving token-hash pattern only"
+  ],
+  "legacy_tests_cover_new_packet": false,
+  "budget_live_or_authorized": false,
+  "followup_prohibited": [
+    "new training",
+    "semantic rerating",
+    "protected answer access",
+    "backbone or precision sweep",
+    "local weights",
+    "automatic retry/recharge"
+  ]
+}

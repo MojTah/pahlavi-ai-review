@@ -1,0 +1,205 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Custom API",
+        "description": "This is the place to add your own path endpoints"
+    },
+    "servers": [
+        {
+            "description": "Endpoint for testing on localhost",
+            "url":"/exist/apps/OpenAMPD"
+        }
+    ],
+    "components": {
+        "securitySchemes": {
+            "basicAuth": {
+                "type": "http",
+                "scheme": "basic"
+            },
+            "cookieAuth": {
+                "type": "apiKey",
+                "name": "teipublisher.com.login",
+                "in": "cookie"
+            }
+        }
+    },
+    "paths": {
+    	"/api/panel-list/{id}": {
+			"get": {
+				"summary": "Get formatted overview of available panels",
+				"tags": ["collection"],
+				"operationId": "custom:panel-list",
+				"parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }],
+				"responses": {
+					"200": {
+						"description": "Returns HTML with the list of available panels",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/works": {
+			"get": {
+				"summary": "Get list of works",
+				"description": "Get list of works",
+				"tags": ["view"],
+				"operationId": "api:works",
+				"parameters": [
+                    {
+                        "name": "sort",
+                        "in": "query",
+                        "schema":{
+                            "type": "string",
+                            "default": "id"
+                        }
+                    },
+					{
+						"name": "category",
+						"in": "query",
+						"schema": {
+							"type": "string"
+						}
+					},		
+                    {
+                        "name": "dir",
+                        "in": "query",
+                        "schema": {
+                            "type": "string",
+                            "default": "asc"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer",
+                            "default": 50
+                        }
+                    },
+                    {
+                        "name": "search",
+                        "in": "query",
+                        "schema":{
+                            "type": "string"
+                        }
+                    }
+                ],
+			"responses": {
+                    "200": {
+                        "description": "List of register entries",
+                        "content": {
+                            "application/json": {
+                                "schema":{
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+         },
+		"/api/work/{id}": {
+			"get": {
+				"summary": "Get information about a specific work",
+				"description": "Get information about a specific work",
+				"tags": ["view"],
+				"operationId": "custom:work-desc",
+				"parameters": [
+					{
+						"name": "id",
+						"in": "path",
+						"description": "ID of the work",
+						"required": true,						
+						"schema":{
+							"type": "string",
+							"default": "Azarpay_2006b"
+						}
+                    }],
+				"responses": {
+					"200": {
+						"description": "Returns HTML fragment with work description",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		 "/biblio": {
+            "get": {
+				"summary": "Landing page for bibliography",
+				"description": "Retrieve an HTML page expanded through eXist templating. This is used to load the top-level HTML pages, e.g. `index.html`.",
+				"tags": ["view"],
+				"operationId": "vapi:html",
+				"x-error-handler": "vapi:handle-error",
+				"parameters": [
+					{
+						"name": "file",
+						"in": "query",
+						"schema": {
+							"type": "string",
+                            "default": "bibliography"
+						}
+					},
+					{
+						"name": "uri",
+						"in": "query",
+						"schema": {
+							"type": "string",
+							"default": "biblio"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML of the page",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+        }
+    },
+    "security": [
+        {
+            "cookieAuth": []
+        },
+        {
+            "basicAuth": []
+        }
+    ]
+}

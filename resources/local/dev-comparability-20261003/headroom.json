@@ -1,0 +1,109 @@
+{
+  "case_ids": [
+    "QUALITYDEV1-002",
+    "QUALITYDEV1-003",
+    "QUALITYDEV1-005",
+    "QUALITYDEV1-006",
+    "QUALITYDEV1-007",
+    "QUALITYDEV1-008",
+    "QUALITYDEV1-009",
+    "QUALITYDEV1-010",
+    "QUALITYDEV1-012",
+    "QUALITYDEV1-013",
+    "QUALITYDEV1-014",
+    "QUALITYDEV1-015",
+    "QUALITYDEV1-017",
+    "QUALITYDEV1-020",
+    "QUALITYDEV1-021"
+  ],
+  "case_selection_unchanged": true,
+  "cached_step280_plain": {
+    "A": {
+      "parsig:103": {
+        "denominator": 4,
+        "nonaccepted": [
+          "QUALITYDEV1-002",
+          "QUALITYDEV1-005",
+          "QUALITYDEV1-006"
+        ],
+        "accepted": [
+          "QUALITYDEV1-003"
+        ]
+      },
+      "parsig:112": {
+        "denominator": 5,
+        "nonaccepted": [
+          "QUALITYDEV1-007",
+          "QUALITYDEV1-008",
+          "QUALITYDEV1-009",
+          "QUALITYDEV1-010",
+          "QUALITYDEV1-012"
+        ],
+        "accepted": []
+      },
+      "parsig:138": {
+        "denominator": 4,
+        "nonaccepted": [
+          "QUALITYDEV1-013",
+          "QUALITYDEV1-014",
+          "QUALITYDEV1-015",
+          "QUALITYDEV1-017"
+        ],
+        "accepted": []
+      },
+      "parsig:517": {
+        "denominator": 2,
+        "nonaccepted": [
+          "QUALITYDEV1-020",
+          "QUALITYDEV1-021"
+        ],
+        "accepted": []
+      }
+    },
+    "B": {
+      "parsig:103": {
+        "denominator": 4,
+        "nonaccepted": [
+          "QUALITYDEV1-002",
+          "QUALITYDEV1-005",
+          "QUALITYDEV1-006"
+        ],
+        "accepted": [
+          "QUALITYDEV1-003"
+        ]
+      },
+      "parsig:112": {
+        "denominator": 5,
+        "nonaccepted": [
+          "QUALITYDEV1-007",
+          "QUALITYDEV1-008",
+          "QUALITYDEV1-010",
+          "QUALITYDEV1-012"
+        ],
+        "accepted": [
+          "QUALITYDEV1-009"
+        ]
+      },
+      "parsig:138": {
+        "denominator": 4,
+        "nonaccepted": [
+          "QUALITYDEV1-013",
+          "QUALITYDEV1-014",
+          "QUALITYDEV1-015",
+          "QUALITYDEV1-017"
+        ],
+        "accepted": []
+      },
+      "parsig:517": {
+        "denominator": 2,
+        "nonaccepted": [
+          "QUALITYDEV1-020",
+          "QUALITYDEV1-021"
+        ],
+        "accepted": []
+      }
+    }
+  },
+  "interpretation": "Every work has nonaccepted cached cases in each new review. This permits an operational two-family proposal; the changed A/B prompt prevents a guaranteed prospective A baseline or power claim. No outcome-based case removal.",
+  "continuation_proposal": "At least2 net new acceptances spanning at least2 work families per reviewer, no critical-count increase or accepted-to-critical transition; not significance or promotion."
+}

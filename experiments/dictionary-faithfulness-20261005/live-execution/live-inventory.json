@@ -1,0 +1,47 @@
+{
+  "observed_at_utc": "2026-10-05T05:44:47.682818+00:00",
+  "account": "Mojionix",
+  "hardware": {
+    "name": "a100-large",
+    "unit_cost_micro_usd": 41667,
+    "unit_label": "minute"
+  },
+  "bucket_private": true,
+  "active_jobs": [],
+  "matching_jobs": [],
+  "empty_output_prefix": true,
+  "retained_inventory": [
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/manifest.json",
+      "size": 5949,
+      "xet_hash": "552e886347ff2fc199c7f3c9e5d094170ede20d3327e02f6804ac002ffd1b6f8"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_config.json",
+      "size": 1215,
+      "xet_hash": "11fb4ff1cd82713fa2078dc011abf39168a0beba16824ed2023f3da31e2adef6"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/adapter/adapter_model.safetensors",
+      "size": 489840816,
+      "xet_hash": "eee3d09facbc624c4a3d417311d371005cde7b78ed2451395d1a00958ee573f2"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/provenance.json",
+      "size": 2108,
+      "xet_hash": "49b016e9c8f8328f6dab43b65f6921a66fc171d3d2ff6c99d7c5575111932bf7"
+    },
+    {
+      "path": "continuations/1ae0f16dae9c4dffa36d15a24345fded/training/status.json",
+      "size": 149,
+      "xet_hash": "3f4c5ac1306fbd45023649056f086534202c29573f4bb8a05b59db2688741453"
+    },
+    {
+      "path": "inputs/cloud-pilot-qualified-20260927.zip",
+      "size": 6372448,
+      "xet_hash": "1ceffc0b2329346b1cee5362870fc4b64bef10d8eb2e71668b427e3b6a43ef00"
+    }
+  ],
+  "weights_downloaded": false,
+  "user_authorization": "go ahead directly following exact single inference permission question"
+}

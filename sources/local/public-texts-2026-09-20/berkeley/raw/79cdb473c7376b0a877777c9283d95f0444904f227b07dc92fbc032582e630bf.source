@@ -1,0 +1,173 @@
+<?teipublisher odd="openampd.odd" view="div" template="open-ampd.html"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MP2101" type="document">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MP2101 / P.109</title>
+            <funder>Adam Benkato / UC Berkeley</funder>
+            <respStmt xml:id="DW">
+               <persName>Dieter Weber</persName>
+               <resp>Text edition</resp>
+            </respStmt>
+            <respStmt xml:id="AB">
+               <persName>Adam Benkato</persName>
+               <resp>TEI encoding and review</resp>
+            </respStmt>
+            <respStmt xml:id="AZ">
+               <persName>Arash Zeini</persName>
+               <resp>TEI design and review</resp>
+            </respStmt>
+            <respStmt xml:id="OC">
+               <persName>Owen Cooksy</persName>
+               <resp>TEI encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First online OpenAMPD edition of MP2101 / P.109.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>This document is published and distributed online by OpenAMPD, UC Berkeley.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Previous edition(s):</head>
+               <bibl corresp="#Weber_1969">
+                  <biblScope unit="page">34-36</biblScope>
+                  <note>The first edition of P.109.</note>
+               </bibl>
+               <bibl corresp="#Weber_1992a">
+                  <biblScope unit="page">199</biblScope>
+                  <note>The edition used for OpenAMPD.</note>
+               </bibl>
+            </listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <institution>Universität Göttingen, Staats- und Universitätsbibliothek</institution>
+                  <idno type="shelfmark">Or. var. 1, XXIII</idno>
+                  <idno type="siglum">P.109</idno>
+                  <idno type="OpenAMPD">MP2101</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc material="Papyrus">
+                        <support>
+                           <material>Papyrus</material>
+                           <dimensions>
+                              <height unit="cm">31</height>
+                              <width unit="cm">13.5</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="lines" type="recto" quantity="13">13 lines</measure>
+                           <measure unit="lines" type="verso" quantity="1">Impressions</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="../registers/bibliography.xml#$1">
+               <p>Bibliographical information is stored in the bibliography.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="people" matchPattern="(.+)" replacementPattern="../registers/people.xml#$1">
+               <p>Information about person in the documents is stored in the people.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="local" matchPattern="(.+)" replacementPattern="/exist/rest/db/apps/openampd-data/data/images/$1">
+               <p>This is the base URL which expands the <code>@facs</code> attribute to form URIs for retrieving the relevant images of the document.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="DocType">Letter</term>
+               <term type="location">Egypt</term>
+               <term type="tag"/>
+            </keywords>
+         </textClass>
+         <calendarDesc>
+            <calendar xml:id="Pahlavi">
+               <p>Post-Yazdgird era (PY)</p>
+            </calendar>
+            <calendar xml:id="Julian">
+               <p>Julian calendar (CE)</p>
+            </calendar>
+         </calendarDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <creation>
+            <date when-custom="undated" calendar="#Pahlavi">Undated</date>
+            <date when-custom="undated" calendar="#Julian">Undated</date>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transliteration" xml:lang="pal">
+             <pb xml:id="pb-1r-trl"/><!--facs="local:"-->
+            <ab xml:id="MP2101_trl-p1">
+               <lb n="1" xml:id="trl-p1-l1"/>krṭn' [drw](sṭ)yh? Y MRʿḤ[
+               <lb n="2" xml:id="trl-p1-l2"/>.[     ].[     ]ʾʾn' Y ẔK[?
+               <lb n="3" xml:id="trl-p1-l3"/>]ʾpʾhṭ l(ʾ)[d ] ʿL L[?
+               <lb n="4" xml:id="trl-p1-l4"/>[     ]... plmʾ[n]
+               <lb n="5" xml:id="trl-p1-l5"/>Y MN drwsṭyh Y MRʿḤ[
+               <lb n="6" xml:id="trl-p1-l6"/>(lʾd l...).ʾkyl L pṭ' .[
+               <lb n="7" xml:id="trl-p1-l7"/>(MN dr)wsṭyh (Y) L.... [
+               <lb n="8" xml:id="trl-p1-l8"/>p(ṭ'? lʾmšn'? ... ...)[
+               <lb n="9" xml:id="trl-p1-l9"/>YḤWWNyh
+               <lb n="10" xml:id="trl-p1-l10"/>(ʿ)L KRʾ plhwyh[
+               <lb n="11" xml:id="trl-p1-l11"/>ʾlcʾnyk hcʾlʾnwšbht B(R)[H? Y?]
+               <lb n="12" xml:id="trl-p1-l12"/>gwndsrdʾl nc pwsʾnwyh[
+               <lb n="13" xml:id="trl-p1-l13"/>Y gwndsrdʾl
+            </ab>
+         </div>
+         <div type="transcription" xml:lang="pal">
+            <ab xml:id="MP2101_trc-p1">
+               <lb n="1" xml:id="trc-p1-l1"/>kardan [dru]stīh? i xwadāy[
+               <lb n="2" xml:id="trc-p1-l2"/>.[     ].[     ]-ān? ī ān[?
+               <lb n="3" xml:id="trc-p1-l3"/>]... ... rā[y ] ō man?[
+               <lb n="4" xml:id="trc-p1-l4"/>[     ]... framā[n ]... ....[
+               <lb n="5" xml:id="trc-p1-l5"/>i az drustīh ī xwadāy
+               <lb n="6" xml:id="trc-p1-l6"/>rāy ... ... ... man pad .[
+               <lb n="7" xml:id="trc-p1-l7"/>az drustīh (ī) man ....[
+               <lb n="8" xml:id="trc-p1-l8"/>pad? rāmišn? ... ....[
+               <lb n="9" xml:id="trc-p1-l9"/>bawēh
+               <lb n="10" xml:id="trc-p1-l10"/>ō harw farroxīh[
+               <lb n="11" xml:id="trc-p1-l11"/>arzānīg hazār-anōšbaxt pu[s? ī?
+               <lb n="12" xml:id="trc-p1-l12"/>gundsālār namāz Pusānweh[
+               <lb n="13" xml:id="trc-p1-l13"/>ī gundsālār
+            </ab>
+         </div>
+         <div type="translation" xml:lang="de">
+            <ab xml:id="MP2101_trans-p1">
+               <lb n="1" xml:id="trans-p1-l1"/>machen [Gesund]heit? des Herrn[
+               <lb n="2" xml:id="trans-p1-l2"/>.[     ].[     ]... desjenigen?[
+               <lb n="3" xml:id="trans-p1-l3"/>]... ... weg[en] zu mir?[
+               <lb n="4" xml:id="trans-p1-l4"/>[     ]... Befeh[l ]... ...[
+               <lb n="5" xml:id="trans-p1-l5"/>der Gesundheit des Herrn[
+               <lb n="6" xml:id="trans-p1-l6"/>wegen ... ... ... mir für .[
+               <lb n="7" xml:id="trans-p1-l7"/>bezüglich) meiner Gesundheit ....[
+               <lb n="8" xml:id="trans-p1-l8"/>in Ruhe? ... ... ...[
+               <lb n="9" xml:id="trans-p1-l9"/>sei!
+               <lb n="10" xml:id="trans-p1-l10"/>An den in allem Glück[     [Glück,
+               <lb n="11" xml:id="trans-p1-l11"/>werten (Sohn?), mit tausendfach unsterblichem
+               <lb n="12" xml:id="trans-p1-l12"/>(des?) Offiziers, Verehrung. Pusānweh,[
+               <lb n="13" xml:id="trans-p1-l13"/>der Offizer.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

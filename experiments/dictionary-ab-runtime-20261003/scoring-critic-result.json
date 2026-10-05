@@ -1,0 +1,18 @@
+{
+  "status": "PASS_LOCAL_ONLY",
+  "reviewer": "/root/dictionary_runtime_critic",
+  "reviewed_at_utc": "2026-10-03T14:20:00Z",
+  "scorer_sha256": "2afe2f5c6b86a4ea02c97d24e13b4bb0dba8d31cfb16ef3d957be14eba2b8c3e",
+  "tests_sha256": "2d642c100ebc820d350e8e12611f36ce0fe9451723bfdcb1ed8eef5ceaad979d",
+  "tests_passed": 11,
+  "test_seconds": 13.653,
+  "lead_test_seconds": 15.581,
+  "worker_test_seconds": 15.454,
+  "additional_probes": ["deterministic packet reconstruction", "60 disjoint opaque IDs", "30 records per rater and 15 per arm", "one passing rater does not admit continuation", "29-row review rejection", "duplicate JSON key rejection", "partial JSONL rejection"],
+  "eos_abstention_net_gain_matches_accepted_difference": true,
+  "runtime_review_reopened": false,
+  "unresolved_material_issues": [],
+  "actual_semantic_ratings": false,
+  "provider_or_GPU_exercised": false,
+  "independent_remote_receipt": "Trusted lead observation, not offline authenticity proof"
+}

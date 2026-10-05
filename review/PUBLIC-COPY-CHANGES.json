@@ -3,510 +3,558 @@
     "path": "GEMINI-REVIEW-HANDOFF.md",
     "source_sha256": "475cc227cccf0fc529e8ea60362c81f65594faf183adc23a3ed87e232d87e008",
     "public_sha256": "86b6fc7c27f31a3d0e6ec5ae461ca6cc6139a2bccd99e66a221b56b565b49028",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "cloud_pilot/checkpoint-resume-evidence.json",
     "source_sha256": "2c8c4d852f4c5f114a106c517c6e0065bc6cbf9b7db62d5bdb09d263f1ef6986",
     "public_sha256": "392a9f00ebf30a4377555c48030d32fc5b0d1ff9f5d700e45d3e12f550419c50",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "data/README.md",
     "source_sha256": "4be14ce441616c6a708ac4e7d989c56ea39b521df9628dbe0eea4f8d77b120dd",
     "public_sha256": "cd2a3af6cc6141ecd35abf9be80a4d8d6ccb66089b1c4c004c762a8c24d65208",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "data/unified-corpus/GEMINI-REVIEW.md",
     "source_sha256": "3e4623457a490866697c3ad4df1702c382269e5ca263701a19f8873b0a1b10d5",
     "public_sha256": "a3be6cc05481f2b5bf48b16cf59c2d516018a78c19c0db3aad71a7fff0d310b8",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "data/unified-corpus/README.md",
     "source_sha256": "96ed7af818279929d6f8644fdac03b0c78a51a9b628807ef006f18c8f0147cb2",
     "public_sha256": "f38c221ed980204410966d289f128f65f60dc264e4456644249d40acd8949af8",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "downloads/README.md",
     "source_sha256": "ed26eb7e83a46080479ffd0a90011c9852caf292f57804056eec94344371ca2c",
     "public_sha256": "604f9e187ba573504e8e7e78dd3edff648f98e53c63dbc6f912f06ecbc4e0670",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "downloads/Start-Text-Download.ps1",
     "source_sha256": "e1bef6cd870cb3a46ff2e5c7acae6729c9e584d29ac5b71d5413ddfac0f6be49",
     "public_sha256": "048ae0871710f0d001ff75561ea5880593e68dbb7710660f80246f65f793cd5c",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "downloads/collection-run.md",
     "source_sha256": "fb94206f39912f4afc9332de5fb9bbfa44de18e3a70fa6d9510c9460d8acdb6b",
     "public_sha256": "b91e77875f3e88048cac9c004aef5e9772880f6dc4b74e0158c038a92cb4e176",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/astra-preparation-review-20260930/DIAGNOSTIC-REVIEW.md",
     "source_sha256": "5c5478a20c9b0355ac91c1f655f544d95f923a08541c5ef6c3fc8406befab8f2",
     "public_sha256": "0bd05e8be0bb3ff667f9ef091f4de334fcbe1fe3d6cc535e23a08cd2d2de1e59",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/astra-preparation-review-20260930/GATE-REVIEW.md",
     "source_sha256": "8845422bcbdb9c6dad2b0fbfca5fe5a4aa10e2948b05d903bb3385a2dd684ea4",
     "public_sha256": "eddb866bcba8f4fb3e84a59552983c18d6b16c6dd472462012b9a4e6c7a82758",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/candidate-review-20260928/README.md",
     "source_sha256": "e855950d7dbd60b1d5343b3a1e39060a1b779fa502488c919e79a55dc0b3a0a8",
     "public_sha256": "b9f4704c648699e9235ccbbba78e8466289262def23142cf04aad694227e0297",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/component-diagnostic-20261001/PROTOCOL.md",
     "source_sha256": "3324ee76779bd77af856bfd49125fafd5b42df869b1dd76bed13988aa610b7f9",
     "public_sha256": "a31069bff1cbba70d6d23c9936b178b01895dbc34474f988ed91992ccb2fb451",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/component-diagnostic-20261001/packet-manifest.json",
     "source_sha256": "08589df191f9ebb2337a59638b30c38f26510f6a5c4394be492920b3cf8decd4",
     "public_sha256": "1e39baf91b648b153a3541135c8f7888043afc3c780f5611b26ff750eb58b1a7",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/component-diagnostic-20261001/prepare.py",
     "source_sha256": "5a6ccbdf74401462e03be3ebe9a677e2158fc1509b2da3f6779a16a348f29c1c",
     "public_sha256": "8ed693a184eef87d6e72a07b78762ec4d5e45158ed5de23d0f8c64465c518504",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/composition-evidence-20260928/format-repair-probe.json",
     "source_sha256": "15e5df1308e599e08aae8710b590c30e4dd6cd826d5b80f11e2c6c81feea1b8c",
     "public_sha256": "1729f324aabf3563017e97b1374988b85fff45d5adb1511d544f5fbeab63c80c",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/composition-evidence-20260928/provenance-recovery.json",
     "source_sha256": "2bf5b6dd7f484ab5ca15e5e1dddf9f8001f26ae94656b3cfe7cce490b9464778",
     "public_sha256": "f6baa4805cc087ceb0eb44099a7990901b7adb5daa930f22ecadef83aeacccd3",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/composition-evidence-20260928/source-copy-screen.json",
     "source_sha256": "3d980d3557818c42aba5e419c82fe5d28415c156700ecfb476562fb23ce8dc3c",
     "public_sha256": "dc554b8f62921dcebac687dd4d7f100384787590a97b517fa7cfd5b9a87bdcc4",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/contextual-supervision-20260927/INTEGRATION-JUDGE.md",
     "source_sha256": "43bc485f98839b050d43a9522dbf8bc89b90babe35ca7f693ca64eda2cac5ba4",
     "public_sha256": "4295faa0d6a2059753479fd99f915e1aeef23ccb15838474ce1c2f5f705f0060",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/contextual-supervision-20260927/core-check.json",
     "source_sha256": "1df2ad5947fd01b0415a54d015ccd5960af51f283320fbd032bb67ca057ec9fd",
     "public_sha256": "149490b9ba92106647673a0e73f55cfa5a6227a903c9a251ac48e9abbf2e4dcc",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/contextual-supervision-20260927/numerical-check/result.json",
     "source_sha256": "0f5dea1bcf369d032bef240e0c345ddec32477e5dfcbf62255dd2426d512554e",
     "public_sha256": "c3b4bb039bcb82f8c3cf27688224b0ebf3d28cc0626fabe8bbb405c504136173",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/contextual-supervision-20260927/token-census/REPORT.md",
     "source_sha256": "dd597194c3466367b78a5fd9dd1828bb4e5bba76802e74c5d5c0bd103693b665",
     "public_sha256": "8255831e95f7329c64dae84a24f85da077ed5845933ffc947b5bcbc008e54a87",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/contextual-supervision-20260927/token-census/census.py",
     "source_sha256": "83a53d66d38bef6a5ceb3d826de010c3088d3b50049536d7b8d2c424dd2969fa",
     "public_sha256": "590ec17799621c2e9f4387ab53f60cbf95c000868f86df8f15ac0101897dfb0a",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/contextual-supervision-20260927/token-census/result.json",
     "source_sha256": "406843264d8c9f9ddef7cfc5d8f40354b7c7d1845165a541dde8ae6d5d2981e7",
     "public_sha256": "43e711c6648863639cd8630ad6e73c1f36dbf932294b510a2897741b9aa96d04",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/corrected-learning-diagnosis-20260930/README.md",
     "source_sha256": "7b090ebc690fc373ad8cca175fc73dd0c3c09d1373845f21e769d462c020367c",
     "public_sha256": "91ed09bee90409450afa8891979d3c13a5739da99365cfa8d3e7d8e6ee884e22",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/data-qualification-20260928/PERSIAN-REVIEW.md",
     "source_sha256": "545d61dfa8eb9bcd7631cda9d09515d67ea40902980fef6ec17344e37bceee5a",
     "public_sha256": "6236f6216b4049c147742f281e741e5eefaf313674a60b3804ef937226517f4a",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/data-qualification-20260928/README.md",
     "source_sha256": "5d547da9775e9af7be2b4b82f76e7b74ad5d794bf7f33679c11d1936c8b98b48",
     "public_sha256": "4f6f271488642b090ad38a8d3c4c4535a1e05c3fff34877087fccf617b077333",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dataset-expansion-20260928/CPD-NOTES.md",
     "source_sha256": "0467add9af0bd340e2faebc6384dbc0308def828ae0a9314bbc2c862c2f54989",
     "public_sha256": "abfdf2b9d55841cc0689934588fbfdcb47bd55b204968ddca49358a9507b8dd1",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dataset-expansion-20260928/PLAN.md",
     "source_sha256": "a2c9b8e83fe044893e5dd26afa0f3ee761a77f2b85e186e93bc2c575eaa723be",
     "public_sha256": "21b902ba64fd46ddaf9b256e48ddb51926b320ca2f93855ad522d4793c214261",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dataset-expansion-20260928/README.md",
     "source_sha256": "0d3ffa726bf4294b92db02410a38ef8edf856e218d6965ca920ae10885d20eb6",
     "public_sha256": "e8255a8fadae64ac4ebca16301d60ab8c59e0cd0d6d5700636905adb6606e6d2",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dev-assisted-qualified-20260927/EXECUTION-PREPARATION-REVIEW.md",
     "source_sha256": "eb69e1f34fe89e8b84505e5f3a6622ec9a85533155a20a874df2b8aab67bbebc",
     "public_sha256": "db2235303f9f7fbcc7cd01d99e7668a1297e90d5b0771837e4f041bb422a2129",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dev-assisted-qualified-20260927/LOCAL-TOKENIZER-CANARY.md",
     "source_sha256": "d46cbe71175f764e8a2e040bbc44b03dd51418fe55f7fddee279e6bd23158352",
     "public_sha256": "29917535f0b3bce041aa1fd7b331405948f6b1860d3a9cfb5400569112ac5a47",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dev-assisted-qualified-20260927/QWEN-RUNTIME-PREFLIGHT.md",
     "source_sha256": "b7f98c8219ee0ce345ce367b7750a674a9a97aceaaca5185d6f5fc170dc69604",
     "public_sha256": "cfdbaed37ab0b6081f9081f17b26c14d45cac8bcc3cfc9db93c9e996d1a6523a",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dev-assisted-qualified-20260927/UNLABELED-DATA-INVENTORY.json",
     "source_sha256": "7eba461256dfcf44e324dde31d2b119cac1b4fae866ca0a53e705217389ba060",
     "public_sha256": "5db60c781553d670b838598f10f22ae1655b68a74e36d6f9c1932b3d5858530f",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/dev-comparability-20261003/astra-request.txt",
+    "source_sha256": "24f2c7e7e341a03c25012a7076afc7e9c2419d05d8589662677fd8cfbae217f5",
+    "public_sha256": "b6b7d8182c4ecbda7af0f7fe9a2b7106d63f4c01dd38c8d0ff6b844ae8bdd606",
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dev-diagnostic-20260927/audit.json",
     "source_sha256": "b2db7414f121b888982d024e3779d42a09dea924782529842a497f9d28ef2be4",
     "public_sha256": "b5fba56eb8e75d288ec389bff3ab326bf2aec97215acdbd6ddab62b75be0f9cf",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/dictionary-ab-runtime-20261003/astra-performance-closure-request.txt",
+    "source_sha256": "bbc4c3fe284e0fe2c96037f5138cece141203152c3d1914aed1068023580835c",
+    "public_sha256": "463d7c6d3326475569508b2fe115157cda43e7adce8f7c120d28d2aa360faf9e",
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/dictionary-ab-runtime-20261003/astra-request.txt",
+    "source_sha256": "9027d7b7b5cafaaa65f22c4d2bbb96f9d38862d531b033f926aa5d2b6d533a71",
+    "public_sha256": "6648c70aa86dcf98c6150f658cba4d44cf58f972032460bc74151c5e50a5ee1d",
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/dictionary-ab-runtime-20261003/astra-runtime-result.txt",
+    "source_sha256": "99ef0a5a33fe50889f33f05cf957f7b62941d04f648e65c4c7f6e2fb061e4b60",
+    "public_sha256": "749476de08ac67c22d52595564e868eed9afbbb0e081484b3db9a17f59454515",
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/dictionary-ab-runtime-20261003/astra-scoring-request.txt",
+    "source_sha256": "9ad36037557ff60d6967f0929f7a312f3cd4cfde10253aa963b8f159dfc7eb6d",
+    "public_sha256": "0f3ab7f7a776fd73a4178f25147a38f817083e149161a54f2bc4660fff8c4f59",
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/dose-acquisition-20260930/confirmation/README.md",
     "source_sha256": "7ab421a48f59dd5f4cc87e6468daf0a719554bbe10508c57b043c335e6b98e8c",
     "public_sha256": "6afffa04568852d68f65d38822685e00ed232a6ebeb392b83381d8a30b16f79e",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/external-review-20260930/DATA-BEHAVIOR-AUDIT.md",
     "source_sha256": "db6dca9a08e6b1e4dd0896a1d83dc307b6f50697dbfdb16e8b7313e9879ac3ef",
     "public_sha256": "df66aaa59a16f1f374fc4bc6658808471a3447c95cf22718169a64bd25f9a16e",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/external-review-20260930/MEASUREMENT-AUDIT.md",
     "source_sha256": "01368c47ceafbe6fc0bd048bc130dcf7c908470c0fdcf4bf8f42d8c694faa21c",
     "public_sha256": "966292bfbea9e527ede24447f6e51abc32a90e41db44eec908320079a27abc08",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/full-pretraining-audit-20260929/HISTORICAL.md",
     "source_sha256": "087c5d2417f1e64a2f115e8efc6cc9c41507910ee5ef23421c5f9961163e961c",
     "public_sha256": "811f7681f91836a8fa078512eb28d858daf6a28c9924c61e91a40e378171cef3",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/full-pretraining-audit-20260929/LEXICAL-FA-MMP.md",
     "source_sha256": "1741065653a1e81927dc938547e96fbcb5aae8847fcd1355ddddd34da0cb707b",
     "public_sha256": "3da6087d6fb29bc2e2c1e374a06ee6a76c886722a9cc1c9a9d1cc53b4da8b3d5",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/full-pretraining-audit-20260929/TRAINING.md",
     "source_sha256": "771e9362806b39962002d83472f967e599be15ce90d803910949a34a91fa3dda",
     "public_sha256": "d1e76aaeac0588877d764199fbad6b8b493472d24a6f20ba8ddac4721fc3046f",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/full-pretraining-audit-20260929/training-audit.json",
     "source_sha256": "5339a4a2e2302a7d9f7d8dbefd5d7cb36070b580527b6127bd882c1fb452341c",
     "public_sha256": "08fa94fee81d5b8998a3f78d79424ac1428b016653d016157afd1814dd2b2272",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/full-pretraining-audit-20260929/training_check.py",
     "source_sha256": "a71f69bd583d22cb61bc5979cc9093e9674a19001115507a0889450c8e259150",
     "public_sha256": "1ea71ac959721098aba4c2f7cf5837e1d1882a5b45d6067c2f15626303ed517c",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/kosh-acquisition-20260928/QUALITY-HANDOFF.md",
     "source_sha256": "f1ad943a7c25e7bc3884e96ce2113263e3654bbbe0e4184e5a7378aaa6899234",
     "public_sha256": "a1a617527ed23f932d8783c4eff0f6881174fd652a37d4e6eda57388d3ec8a42",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/language-choice-dev-v1/READINESS.md",
     "source_sha256": "990649b84604529f1b5540a5c5d41f9c0d7821b676de18047d6e851b7067d09e",
     "public_sha256": "ac09021b06bffb223d88d795fd167e3d4f58526820ac01d7250aa901946e999b",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/learning-diagnosis-20260929/LAUNCH-READINESS.md",
     "source_sha256": "62a779055d4a9969187f79ec489d10d822d66a4ea9f967e264a0a6d643d7e601",
     "public_sha256": "e715bc97b4c4d2cb449280aa87de37a79ba39c834afa495aab41c21efaf8dddb",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/learning-diagnosis-20260929/REPORT.md",
     "source_sha256": "c6b4b6fb58969de67a03206ad781172079f5832759a9d024101ba559a6ae05e7",
     "public_sha256": "09e14955c935641503c410cc8750490c46f33d3159b3aad27b2cc3d91c0150b5",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/nllb-feasibility-20260928/README.md",
     "source_sha256": "3af64150f06275ecb4d0d9492b3af3f99e9c8ea72f82989284b12e7edfa707df",
     "public_sha256": "4d98f070bf1314b85ab5af5754553bd270a079030185c0d337f6b0b0d9b3587b",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/occurrence-evidence-20261001/README.md",
     "source_sha256": "794deec53b78870c567968ba23268b0a3fc51831ff3d9e781c64de477fc17ca6",
     "public_sha256": "bee5fa50dcc22cedb81cfc827ae02334a716cd5af68fbbd26c1f09c67e14d09a",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/README.md",
     "source_sha256": "6873a961a61fa7c1532f809848402fdb70ac5a153fe5e238293e6f017e7911dc",
     "public_sha256": "f6ec19a97ecc6f3e805d030e1d7447a4ad591313b145b1ec594c333551ffa980",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-closure-request.json",
     "source_sha256": "10a4a23cca9a4fe11253b6c619ce36fd97cbaeb8206354f09405f5b0480e62b9",
     "public_sha256": "43142ca33daaf61d926609f5c62e8ae20b70f7309475ee6ac413257679b826a6",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-closure-response.json",
     "source_sha256": "142a3be4d7071cc5a65012ad6c13db6263b04f4264c5f272cf56a4217a59724d",
     "public_sha256": "3756a246f46b84d00c71846235445e9bbecfabd73579006dfc2e4e25bdbb1012",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-launch-review.json",
     "source_sha256": "7a50681fc28f127f6a42a0dc5d96f279d78614bcd60c7ef7ef367eccacc497ec",
     "public_sha256": "f54af5701677b7637a04a706c4f2d2a2b0fb37e6c0ec0096f55725bd8921f2bb",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-result-review-request.json",
     "source_sha256": "968e9ca8173db217dfba676db22bbfd2855919e1aefd27c642c14fdff538c010",
     "public_sha256": "6960690d42806bf54d877bb0867f045782208ba552c98c809463d49113009ea0",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-review-request.json",
     "source_sha256": "126680759e9f7838defe2b712c8f2d66e36957e49505fd05a2635ebbb29bfb37",
     "public_sha256": "19ad4e0b681c1b2d0ea1bc26e26df0c5b0e04a1e6cb42a4ff66a53d81ab27ea4",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-review-response.json",
     "source_sha256": "2ae1c82674f5bace72f2f35bd3b2db43ed041e3e615265d0d8b09b7d1b73ddaf",
     "public_sha256": "b8f40c8d709cec79eeb6f3be1657978e3498f68daeb9605c2722970c8635f92c",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-scoring-closure.json",
     "source_sha256": "07d181c104d0580ebdb42401cbd8748cf4a150f8400e8429dde92de39f34319e",
     "public_sha256": "1c257a6590319637efac8acd1ebccc9d9348f35ab04638615cb64a3490129333",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/own-analysis-diagnostic-20261002/astra-scoring-review.json",
     "source_sha256": "c6560ad77199b6f2cdf5ad9c8a1a943882ce518c1614f6d5e5fb2092b3b1fa26",
     "public_sha256": "16ab7d275bc17bb20d5aa17203e6837cc36d8bae3ab1e63db61cb7a7a55bacb9",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/sense-role-check/astra-occurrence-request.json",
+    "source_sha256": "ea8249d7f3844368392c10bed3a6065ee61675c3b601822ee5c0155c36615766",
+    "public_sha256": "bf7438b2ad1b0416ce58be57cc4685664e5b03b38175754b47641f3b59e23ba8",
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/sense-role-check/astra-request.json",
+    "source_sha256": "641f5b32058c9eeb50cfaf7630831a4f836a5d05e846c921ecaf48b63a3b63bc",
+    "public_sha256": "d7a40d097f6607fa2bbfb854673e11c1658f2e7b4e78d270e97d92c35c1230ad",
+    "change": "Personal path prefixes normalized in public copy only"
+  },
+  {
+    "path": "experiments/own-analysis-diagnostic-20261002/sense-role-check/occurrence-check.py",
+    "source_sha256": "afad66159802a48cc1b3319c98e0d7be2c94be7ae79da60401c36c47a9cde0e9",
+    "public_sha256": "c97860e8a12f8f1a03d73a43f0f5f3e2f9ece174384fd67142f020c2fd3b2255",
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/palref-paired-20260927/lead-only/provenance.json",
     "source_sha256": "8eabb52ffcec796112f4397739c9eb761cf221cd6d4dbae15f55a01b6344a97f",
     "public_sha256": "abdb66508bce5463bba84209e85e561953903517a9ba88c209dab836c5fa886e",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/plain-target-preparation-20261001/README.md",
     "source_sha256": "0660f835ba414a698a8ac447d9a14df0edaf0f21bc925626a64de17c02e03b36",
     "public_sha256": "d7c13107bf716df94ac604c8156ec9e8e8794c8fb84fd0df9c0e4d4cc674ac8a",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/ASTRA-SUBMISSION.md",
     "source_sha256": "b5afded3d16f83530423da8ba9b3563a7c94391651ed9ba5f7ef9bb4f23f4f45",
     "public_sha256": "6f90b9825af9fe18880499a6a28f5083274fb539c1ba47b749ab1fcfc4f8b7dc",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/DIAGNOSTIC-REPAIR.md",
     "source_sha256": "63d61ed7b21c86f1038f7e41e9ff3006a59ee70dcff897c91081db472fb590f0",
     "public_sha256": "874268e83a1c004620f7bf955a2f0c675e1c02c304093318472791725050f004",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/EXECUTION-HANDOFF.md",
     "source_sha256": "b4d92bc1266012d0ab33b76ad0d5a4814e4cc8255f73a81eb83f2e46739b3072",
     "public_sha256": "f968e0b91701c96d13b30c73d5a94183fafb0359697f9c3cda1f78e657b5dcca",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/LOCAL-HANDOFF-IMPLEMENTATION.md",
     "source_sha256": "4735ff98af01184d7fb9218d81413a14eb2e8eb860c91871815ab068f3a68817",
     "public_sha256": "3888eb31d3dc5fc52422baf6367e894fc938038ea22468a56932e40ab8b1d565",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/README.md",
     "source_sha256": "f75dc3453199cf4202e34e7323d502dfd269ce63a4c93c26aaa496622377f6f1",
     "public_sha256": "ec9cabae050da5bc39d68d6456a49f34367041132a9e9417b037a5b6fc35378f",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/SUBMISSION-REPAIR.md",
     "source_sha256": "5dd0493a8f5abe3c203645f8157973e2fcc56d176d7b5f0e46ec63f9e2844d96",
     "public_sha256": "90095a8d47eccc6d4a08a79d5b0ea45a7af982fb2382fc5272430cfca7c1ef2a",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/checkout-check.json",
     "source_sha256": "15fe83b76cfc9f41e9a374ae1b750fe0ff4c2e0ba9ac1a9db0bce974df273f15",
     "public_sha256": "4b7ec307b36706876dc3710f6125cde42e5074561125bc4a1ce016d77f2ca9f8",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/readiness-repair-20260930/execution-proposal/handoff.json",
     "source_sha256": "8ac3af55f4ab6dd9f6c7580b0d79d35a6884ab1c9cf5239f49ead361f19716b5",
     "public_sha256": "f66fed76a64353d3b5c9c77df8882c55f5d6a5f09346f2b648e44aeb37940961",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/semantic-stage-diagnostic-20261001/NEXT-COMPARISON.md",
     "source_sha256": "7d9f19c65a452235beeece713a656425173b91844e0e9dc3c0de90462c8feecb",
     "public_sha256": "ab9809cce81696b4e9021f6f0d85bd6b1bc8526b50827da9c5e257360d5b4f5d",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/train-audit-20260927/corpus-audit-v1/inputs.json",
     "source_sha256": "4b5c0dbf08ca210ab86f96918923e816b9d60cdc4e0b9b94295f2e6039f314e7",
     "public_sha256": "6a34fca57ede0d23f39278a553df04316eb66ece4f978affc55ee23d7a2c6c95",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/train-audit-20260927/corpus-audit-v2/inputs.json",
     "source_sha256": "cfdae6054b37efae1b5df99bd9c60451170c7357632aba0cb89a497915191c6b",
     "public_sha256": "df606ae455ac76c5a3ba1ecc86b2eba441fe5c4908b38604a2262e1cde837326",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/train-audit-20260927/qualified-v1/summary.json",
     "source_sha256": "fc7131ac6600b1acda4351220d5458bf60d5a866b8f17002231eb6797996ebba",
     "public_sha256": "eb1d2b5a53658fbb1a7ea2da084c1cee3750d0ceaaec7c1c4fb3e76183846c25",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/training-admission-20260930/LEGACY-REPAIR.md",
     "source_sha256": "af0f6c2e2818e371558cf1a7908c3be92a064aa30a6ba9a45e2cdb29cc8fd984",
     "public_sha256": "ebf9937e314b3d33a6ba6438f53c8a2c85880d786de353204c1f87094a9de0ae",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/training-admission-20260930/SOL-REVIEW.md",
     "source_sha256": "f352ba6d119f79d23ce2c7f23dc6378997d0cdf79293e4e6a2cf64c95c9a6102",
     "public_sha256": "9903032c576a074de478ba4783d6e6b2f4ac399bb4e055dd9d59b6e8c9073054",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/training-ready-v2-20260929/OUTCOME-QA.md",
     "source_sha256": "09557ce161725c7f15c549c16d75d23c5e4b1e591548ecbd1811bdbc3eb21e7d",
     "public_sha256": "ebdf2ae34d08b02b43fc0d98a7749da3f18b99aafd702afaf03af4fc4047d151",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/training-ready-v2-20260929/READINESS.md",
     "source_sha256": "6410a03ca6d9c6df4bef35442dd8bb12bc7b0aa31c75df80cfca9ea34b587a53",
     "public_sha256": "9741fd1a1c876a438485116fa868b2305bbb7640ad0d15549b039d654aeab9fe",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/training-ready-v2-20260929/lexical-review.md",
     "source_sha256": "cac0448e9e45af08187c2d1af7d5559946b7aa908da25088bd9de6a9544c1be8",
     "public_sha256": "d283151aa0e5e983ba00c58b4dacf533e33dc51295d45f1a2216b6252b63a5a2",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "experiments/usable-resource-20261001/README.md",
     "source_sha256": "c7121251b6b987b64f98c97716cfe710dcb3c8624ab2e0ba056ae9ad4fd4b6fd",
     "public_sha256": "892a4865021cea6f88afcb917950a9927d564e341a457431b766a72cdc049fed",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "output/research-2026-09-25/TRAINING_STRATEGIC_CONSULTATION.md",
     "source_sha256": "7c7044fac303747f02c255374a4be5de3fe4e153d0da5716f15537e3b75e57de",
     "public_sha256": "c851bd3c3b1094477bca4f09c0c2224d775886b025c6b944e972a3e8239611f8",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "output/research-2026-09-25/berkeley-three-source-followup.md",
     "source_sha256": "e1126eee885eeb8f490876335fe09b4b95372fb4ec7889d88c56f15b5e23c74c",
     "public_sha256": "3211c79f4d27188202284ecad4f9fdc7c2be725c339f523fd7b275eae6ac8883",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "output/research-2026-09-25/deep-research-synthesis.md",
     "source_sha256": "87916e335b1dda060ecbac94918d75cc892a91ef8be0e605a53c8f8ed213c903",
     "public_sha256": "9da5fe0da196243dbc54ef3035bba1b668b930cc2926a2c7df72dd4e8bb82836",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "output/research-2026-09-25/translation-ai-handoff.md",
     "source_sha256": "0e1d91d0c672143e97e073965d1b3e97e4b1500c397a1c3c1bbf263f68b75b51",
     "public_sha256": "b61064f6313428f9547ab8d92418f2aeb402b9baeb6437097b2055d37572785d",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "output/research-next-step-20260928/LEARNING-OBJECTIVES.md",
     "source_sha256": "df7b159fc93f2a6497915469b5e77ba682c2539b2ebf3eb8cec36cba36b2822a",
     "public_sha256": "48e45da62089e6209553f7889ad2d094b80af057dfa84e8f1a07fcda118b3360",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "plans/translation-test-strategy-20260926-fa.md",
     "source_sha256": "dd677eaa47ad608d769f237fc34939ab6de7ecd02c312da461362418214c3bdc",
     "public_sha256": "3fe955ff09228f95fd7558b7bf8c9b86a3991e293cc6ec1a13064d94325e0599",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "scripts/audit_training_corpus.py",
     "source_sha256": "9c616eae976683ce16e5428af10b3e4425aa4d72e0f8ac4e33020f5238325abc",
     "public_sha256": "3790738e3c89218936ebd75f11ca9f8d42f3657843797788eb8f15524f8269f9",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   },
   {
     "path": "sources/manifest.json",
     "source_sha256": "58381e5f19ccece4503d0253ed81fda37a72ec8ec71c663e7693daff2c876adc",
     "public_sha256": "a02c2b8eda472bd36a9e730ef9f1b5fcedd622a110625d6535060d9fed731f2c",
-    "change": "Normalize personal local path prefixes in public copy only"
+    "change": "Personal path prefixes normalized in public copy only"
   }
 ]

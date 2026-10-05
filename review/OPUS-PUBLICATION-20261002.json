@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/MojTah/pahlavi-ai-review",
+  "visibility": "PUBLIC",
+  "commit": "6915396b2833fdb7e1041b9c10bde54f956d0fdc",
+  "files": 1598,
+  "remote_tree_matches_local_git_blobs": true,
+  "anonymous_checks": [
+    {
+      "path": "REVIEW-PROMPT.md",
+      "http_status": 200,
+      "anonymous_sha256_match": true
+    },
+    {
+      "path": "review/MANIFEST.json",
+      "http_status": 200,
+      "anonymous_sha256_match": true
+    },
+    {
+      "path": "experiments/component-diagnostic-20261001/live-execution/recovered/evaluation/predictions.jsonl",
+      "http_status": 200,
+      "anonymous_sha256_match": true
+    }
+  ],
+  "verified_at_utc": "2026-10-02T09:52:15.112602+00:00",
+  "restore_automation_id": "restore-pahlavi-review-repository-privacy",
+  "restore_due_utc": "2026-10-06T10:00:00Z",
+  "restore_due_local": "2026-10-06 07:00 America/Halifax",
+  "source_consultation_commit": "028ff5a",
+  "scope": "Selected research review snapshot; corpus omissions retained; no model weights",
+  "copied_data_not_revocable": true,
+  "metadata_readback": "Authenticated gh after anonymous GitHub API rate-limit; all four raw file checks were anonymous",
+  "remote_paths_equal_manifest": true,
+  "all_remote_git_blobs_match_manifest_checked_local_bytes": true
+}
