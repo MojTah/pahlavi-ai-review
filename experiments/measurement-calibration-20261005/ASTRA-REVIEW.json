@@ -1,0 +1,11 @@
+{
+  "thread_title": "Review Solit’s work",
+  "thread_id": "01a0f7ac-6022-7b52-a27f-7cc6481c3c22",
+  "host_id": "local",
+  "turn_id": "01a10e45-97fc-7313-9a8d-60ba38c3bf0a",
+  "cursor": "e50977a1-4bab-4568-bf9d-10ce7c130ea0:5",
+  "status": "completed",
+  "duration_ms": 56791,
+  "verdict": "PASS_BOUNDED_TECHNICAL_HOLD",
+  "response": "PASS—bounded technical review; HOLD remains justified. I directly ran the self-test and scored in memory. The result reproduced the saved comparison byte-for-byte, including both reviewer hashes. Frozen packet identities, 60 memberships/42 unique contexts, all four N=15 denominators, duplicate propagation and original numerical guards passed. Confirmed results: Dictionary: 1→1 accepted for each reviewer; both screens fail. Extra instruction: 1→2 for each; both fail. Reviewer A also records a critical-count increase, 3→4. Disagreement: seven whole-label and 31 scored-field disagreements across 42 contexts. The report correctly preserves historical scores and labels this a post-hoc candidate interpretation. Duplicate consistency is imposed; judging reliability and linguistic correctness remain unestablished. One wording correction for future summaries: say “a candidate operational interpretation with unchanged numerical thresholds,” rather than simply “unchanged merit.” Clause 3 changes how ambiguity is explicitly handled, even though its equivalence to historical practice is unproved. The source audit supports precise specialist questions for 007/014/015 and separate source-versus-severity questions for 017. I checked the saved extracts and corpus hashes; I did not verify print editions or certify Pahlavi readings. Next: obtain source-grounded adjudication through the prepared handoff, then freeze the measurement rules prospectively. Another uncalibrated AI review or GPU run would not resolve this uncertainty. No execution, training or publication approval follows."
+}

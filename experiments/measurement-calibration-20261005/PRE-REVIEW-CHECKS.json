@@ -1,0 +1,28 @@
+{
+  "status": "PASS_FROZEN_BEFORE_REVIEW",
+  "checked_at_utc": "2026-10-05T22:45:11.129904+00:00",
+  "freeze_sha256": "260eff87bb64f22da56d6d3e2787fd9566e919fe589662799072bc0741669515",
+  "criteria_sha256": "4c66dbf829f087e224609b556052311a8c49ad5a21d5a02879dbeb5396e5e146",
+  "review_script_sha256": "81ff587324e76985b09e200c4e5cf74535783f6c1bb19eeca9411659f707c856",
+  "memberships": 60,
+  "unique_contexts_per_reviewer": 42,
+  "duplicate_memberships": 18,
+  "whole_denominator_per_arm": 15,
+  "lead_checks": [
+    "review.py self-test",
+    "review.py prepare",
+    "review.py check"
+  ],
+  "critic_agent": "/root/calibration_pipeline_critic",
+  "critic_verdict": "PASS_BOUNDED_PRE_REVIEW",
+  "critic_executed": [
+    "self-test",
+    "in-memory build",
+    "packet context/opaque-ID parity",
+    "corpus112/138 byte hashes"
+  ],
+  "critic_limits": "No linguistic gold or aggregate candidate ratings assessed. Corpus hashes checked separately; packets preserve original source/reference/constraint bytes.",
+  "fresh_reviews_started": false,
+  "primary_results_replaced": false,
+  "paid_compute": false
+}

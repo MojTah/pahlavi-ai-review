@@ -1,0 +1,1835 @@
+{
+  "protocol": "posthoc-common-dev15-v1",
+  "post_hoc": true,
+  "candidate_sha256": "4c66dbf829f087e224609b556052311a8c49ad5a21d5a02879dbeb5396e5e146",
+  "freeze_sha256": "260eff87bb64f22da56d6d3e2787fd9566e919fe589662799072bc0741669515",
+  "memberships": 60,
+  "unique_contexts": 42,
+  "expert_adjudicated": false,
+  "primary_results_replaced": false,
+  "independent_confirmation": false,
+  "reviewers": {
+    "A": {
+      "review_sha256": "9f42775878b722d7b3f22d2085ba5c5c3548d1fee21c3a5f5d6985eacecba7c8",
+      "rows": 42,
+      "counts": {
+        "dictionary:A": {
+          "meaning_error": 10,
+          "accepted": 1,
+          "uncertain": 1,
+          "critical_error": 3
+        },
+        "dictionary:B": {
+          "meaning_error": 8,
+          "critical_error": 3,
+          "uncertain": 3,
+          "accepted": 1
+        },
+        "faithfulness:A": {
+          "meaning_error": 8,
+          "uncertain": 3,
+          "critical_error": 3,
+          "accepted": 1
+        },
+        "faithfulness:B": {
+          "meaning_error": 7,
+          "accepted": 2,
+          "uncertain": 2,
+          "critical_error": 4
+        }
+      },
+      "dictionary": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          1
+        ],
+        "critical_counts": [
+          3,
+          3
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-002"
+        ],
+        "lost_acceptance": [
+          "QUALITYDEV1-003"
+        ],
+        "net_accepted_change": 0,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 0,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": true,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      },
+      "faithfulness": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          2
+        ],
+        "critical_counts": [
+          3,
+          4
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-003"
+        ],
+        "lost_acceptance": [],
+        "net_accepted_change": 1,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 1,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": false,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      }
+    },
+    "B": {
+      "review_sha256": "dbb352e6e430631005678c89bce511a8e8e0c6527dcbdfcb3c010d43aa7bfc1e",
+      "rows": 42,
+      "counts": {
+        "dictionary:A": {
+          "meaning_error": 10,
+          "accepted": 1,
+          "critical_error": 3,
+          "uncertain": 1
+        },
+        "dictionary:B": {
+          "meaning_error": 8,
+          "uncertain": 3,
+          "accepted": 1,
+          "critical_error": 3
+        },
+        "faithfulness:A": {
+          "meaning_error": 8,
+          "critical_error": 3,
+          "uncertain": 3,
+          "accepted": 1
+        },
+        "faithfulness:B": {
+          "meaning_error": 8,
+          "accepted": 2,
+          "critical_error": 3,
+          "uncertain": 2
+        }
+      },
+      "dictionary": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          1
+        ],
+        "critical_counts": [
+          3,
+          3
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-002"
+        ],
+        "lost_acceptance": [
+          "QUALITYDEV1-003"
+        ],
+        "net_accepted_change": 0,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 0,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "uncertain",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": true,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      },
+      "faithfulness": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          2
+        ],
+        "critical_counts": [
+          3,
+          3
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-003"
+        ],
+        "lost_acceptance": [],
+        "net_accepted_change": 1,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 0,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": true,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      }
+    }
+  },
+  "disagreements": [
+    {
+      "group": "99c39613bcb33c9747e74c5bafebd56cfa5aab421dd9960af4227bb5f8bb7240",
+      "reviewer_A": {
+        "review_id": "r854a6d61102ee17ebb78f083b83c39bf",
+        "output_sha256": "8971a64841ceccc5a8fbe2cc332085d2f2d1256d7413651afb909b339d209c19",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "fail",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The first xwarasan commander is replaced by a second xwarwaran/Khavaran commander, losing the essential eastern versus western distinction. All-capable also supplies an unsupported sense for the ritual formula.",
+        "output_span": "سپاهبد همه‌قادر خاوران، سپاهبد همه‌قادر خاوران، سپاهبد همه‌قادر نیمروز."
+      },
+      "reviewer_B": {
+        "review_id": "r3383002407d005b2167a59fa9e87d5df",
+        "output_sha256": "8971a64841ceccc5a8fbe2cc332085d2f2d1256d7413651afb909b339d209c19",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "fail",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Khurasan is replaced by a repeated Khawaran, changing an essential named region and dropping one distinct commander. All-capable is an unsupported power substitution for the formula relation; Nimruz is preserved.",
+        "output_span": "سپاهبد همه‌قادر خاوران، سپاهبد همه‌قادر خاوران"
+      }
+    },
+    {
+      "group": "c71c091e1a73dfc640f1c7b0948d2d011b3bd6e72477cb9b655994d62d24f3f2",
+      "reviewer_A": {
+        "review_id": "rc6cd96510b770fd4dd0ebc17cdac169d",
+        "output_sha256": "9ae150912c2cc6af851eccb2b5521574246b89fc1c6522b0e1746c9d80fdde37",
+        "judgment": "accepted",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "none",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The prohibition against being an enemy of the scribe is preserved. Enemy is explicitly an allowed sense of hamemal; no additional rival gloss is necessary.",
+        "output_span": ""
+      },
+      "reviewer_B": {
+        "review_id": "rce19692018a9239aeec276af0c765dbd",
+        "output_sha256": "9ae150912c2cc6af851eccb2b5521574246b89fc1c6522b0e1746c9d80fdde37",
+        "judgment": "accepted",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "none",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The negative command not to be an enemy of the scribe preserves the participant relation and prohibition. Enemy is an explicitly permitted sense of hamēmāl; adding rival is unnecessary.",
+        "output_span": ""
+      }
+    },
+    {
+      "group": "4ce4485d9588bc9d61fc5d952bffc429c00cc457dd57c55b682be32175aa833f",
+      "reviewer_A": {
+        "review_id": "rd59e783c5497d146ae26e7dc7c26ba5a",
+        "output_sha256": "97a1cc122aa472e6596c327bdde4e5082585a25305a147837b171b5707f61c1d",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The added event of writing and good-named kings replaces the seasonal account. Shining replaces adding a day; harmless trees replace withering, and the autumn/world-setting relations disappear. These invented participants and events materially change the account.",
+        "output_span": "و نیز اختر خوش‌اقبال هر ماه یک روز می‌درخشد، آنجا که آن را می‌نویسند، سرداد از آن فرو افتد و درختان بی‌آزار چنان، و پادشاهان نیکنام و کشورها خوشرو باشند"
+      },
+      "reviewer_B": {
+        "review_id": "r2fe8ded284b38805ee2f0a3c78a9711c",
+        "output_sha256": "97a1cc122aa472e6596c327bdde4e5082585a25305a147837b171b5707f61c1d",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "fail",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target invents well-named kings and happy-faced countries in place of autumn and world sunset, materially changing the seasonal event. Lucky star replaces the cluster constellation and shining replaces adding a day; the numbers alone do not preserve that operation.",
+        "output_span": "پادشاهان نیکنام و کشورها خوشرو باشند"
+      }
+    },
+    {
+      "group": "e182307d43c0bfab2b0e57a8eb8da9a66ec83f411dc462c07c66894004c0825d",
+      "reviewer_A": {
+        "review_id": "r7debbf3a318351d5b19f28d3befbdd69",
+        "output_sha256": "d64bfe7c4ec227c33da9dd24aed867ae9ba935c2964ec2948ff6c4bc12f1baa4",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The thanks list mostly survives, but fire temples substitute for fires, and good-minded food and perfect-minded perfection replace our good food, splendid feast and best gathering. The first-person plural possessive relationships and gathering proposition are not conveyed by these substitutions.",
+        "output_span": "سپاس اورمزد، سپاس امشاسپندان و سپاس آسروان و سپاس ارتشاران و سپاس کشاورزان و سپاس هوتخشان و سپاس آتشکدان در جهان، سپاس خوانگاران و سپاس هنریگران و سپاس دربانان در درگاه، سپاس این میزبان که این روزگار را آفرید و ساخت و کرد و ترتیب داد؛ نیک‌منش غذا و استبرمنش سور [و] کامل‌منش تکامل و ستودنی و اندیشناک گفتار و کردار سپاسدار برتر [از] سپاسگزاری هیچ چیز دیگر نیست."
+      },
+      "reviewer_B": {
+        "review_id": "r712cfd46f635260b2b61b373443c60b3",
+        "output_sha256": "d64bfe7c4ec227c33da9dd24aed867ae9ba935c2964ec2948ff6c4bc12f1baa4",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target attributes moral disposition to food/feast and replaces our best gathering with perfect-minded development. The source explicitly gives our good food, splendid feast and gathering; those possessions and relations are lost despite the retained gratitude list and concluding supremacy of gratitude.",
+        "output_span": "نیک‌منش غذا و استبرمنش سور [و] کامل‌منش تکامل"
+      }
+    },
+    {
+      "group": "c784cb4a8a5014f4e08a796bbc810653aedd69ca6850cb517444b67f1e670241",
+      "reviewer_A": {
+        "review_id": "rda40f9f7a84f3a1516aa6ad9812e85c1",
+        "output_sha256": "7ca624715261606d9e93132c806e18062b791af5f9e84ea8c6c761457ffde4b5",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target conveys the spatial reach and concluding wishes through ordinary ellipsis. However setayesh denotes praise rather than the afrin benediction/prayer that is to reach those extents, changing the substantive speech act; bi-resad is read as an irregular spelling of reach rather than inferred negation.",
+        "output_span": "ستایش چنان که گفتم برسد، پهنای زمین و درازای رود و بلندی خورشید بی‌رسد. ایدون باد، ایدون‌تر باد."
+      },
+      "reviewer_B": {
+        "review_id": "r5529ae2247b6b4bb4f9c48c051d2e4d5",
+        "output_sha256": "7ca624715261606d9e93132c806e18062b791af5f9e84ea8c6c761457ffde4b5",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The spatial dimensions and optative ending are present, but praise replaces the blessing/prayer that is to extend to them. The punctuation-free relation of the dimensions to بی‌رسد remains awkward and uncertain, without proving a negation reversal.",
+        "output_span": "ستایش چنان که گفتم برسد"
+      }
+    },
+    {
+      "group": "ded9a21d1c6e0dfb4a7f7c64a11750ee791e9578745691dcfa17779184a0dbc3",
+      "reviewer_A": {
+        "review_id": "r034477269a1a25ba07b22fe8d288c682",
+        "output_sha256": "2012eba27a119d5a81825632955a3fca6cbe31a9591348bb0093d1b2b3c25cf1",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "fail",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Clothing is replaced by expansion and the six-month washing rule by desirous washing. The Avesta introduction survives, but neither clothing nor the essential six-month designation is recoverable from the output.",
+        "output_span": "گسترش در شستشوی آرزوماند، ایدون چون از اوستا پیداست:"
+      },
+      "reviewer_B": {
+        "review_id": "rb9b8aa7b69cd3d80da219cef77c5c80e",
+        "output_sha256": "2012eba27a119d5a81825632955a3fca6cbe31a9591348bb0093d1b2b3c25cf1",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "uncertain",
+          "names": "pass",
+          "numbers_quantities": "fail",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "Expansion substitutes for clothing and desirous substitutes for the six-month rule. Washing and Avestan attribution remain, but neither the clothing object nor the rule is conveyed. Following instructions and continuous washing are not demanded.",
+        "output_span": "گسترش در شستشوی آرزوماند"
+      }
+    },
+    {
+      "group": "fc1d9bb61736e1cc8c898852765b8a99536dc41e4c60ad266c6628b4bb5c4205",
+      "reviewer_A": {
+        "review_id": "r044c0c0bf209e9e2a0f2fa1939676358",
+        "output_sha256": "9a3dce9d73123e0f7a89ff6c0cccc56b675b91494b66a3f98cc257d7baeaec2f",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "fail",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The output repeats Khavaran for both the eastern and western commanders, although xwarasan and xwarwaran are distinguished in the source. All-capable also substitutes an unsupported formula gloss; Nimruz survives.",
+        "output_span": "سپهبد همه‌قادر خاوران، سپهبد همه‌قادر خاوران، سپهبد همه‌قادر نیمروز."
+      },
+      "reviewer_B": {
+        "review_id": "r1ffa54723bc220e94716823aac3fe60a",
+        "output_sha256": "9a3dce9d73123e0f7a89ff6c0cccc56b675b91494b66a3f98cc257d7baeaec2f",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "fail",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The first named commander is Khurasan, but the output repeats Khawaran, losing an essential distinct region. All-capable also substitutes a power attribute for the formula relation; Nimruz remains.",
+        "output_span": "سپهبد همه‌قادر خاوران، سپهبد همه‌قادر خاوران"
+      }
+    },
+    {
+      "group": "4383631aba540e611b7b820761608939a9a729732bea54332fd68818b551c9bf",
+      "reviewer_A": {
+        "review_id": "r005954a2e173c841b6f6fe05ec5ae068",
+        "output_sha256": "8563851c96b47bac336eb13167b772ebe62c3aad3f46248ccb71716a250fdaa9",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "uncertain",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "Expansion does not convey the clothing subject. Kheshm-mangoj might attempt retention of the technical rule, so its six-month recoverability is unresolved rather than declared a numerical reversal. Washing and attribution to the Avesta survive, but the separate clothing substitution is demonstrated.",
+        "output_span": "گسترش در شستشوی خشم‌مانگوج، چنان که از اوستا پیداست:"
+      },
+      "reviewer_B": {
+        "review_id": "r544cef0e88b85112d0e2ac3d4615c7cc",
+        "output_sha256": "8563851c96b47bac336eb13167b772ebe62c3aad3f46248ccb71716a250fdaa9",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "uncertain",
+          "names": "pass",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "گسترش substitutes expansion for clothing, losing the object of washing. The unusual خشم‌مانگوج may attempt the technical six-month label and is not failed solely for spelling, but the clothing obligation remains unrecovered; the Avestan attribution is retained.",
+        "output_span": "گسترش در شستشوی خشم‌مانگوج"
+      }
+    },
+    {
+      "group": "b42e1c0b6bf9e9e6aa906941d59b1826177662010f6014c80a7336d3465a2674",
+      "reviewer_A": {
+        "review_id": "r953b500691e2f1f1d0d4511f7d4b3857",
+        "output_sha256": "b851dffb3ba0518c5c860a4ab92c11cf24fcbd1838a02ea2fff5b9fcff1f9832",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Zahag, offspring, is replaced by Zahhak, while the last clause invents throwing them into turmoil. The source instead has Az enter the male and female beings and become lustful in them. The self/as-sheath wording also changes the participant relations; ordinary adjectives are left uninterpreted.",
+        "output_span": "پس آن آز از همۀ آن ضحاک دیوان که از آسمان به زمین افتاده‌اند، آن اسریشنر نر و اسریشنر ماده که شگرکربند و اخشوز و خشمین و بزغ و اپر نامند، پیموخت و خویش را نیام و پیموگ کردند و آنان را در آشوب افکند"
+      },
+      "reviewer_B": {
+        "review_id": "rdbb349554dd40c7f7b0782e610fad07a",
+        "output_sha256": "b851dffb3ba0518c5c860a4ab92c11cf24fcbd1838a02ea2fff5b9fcff1f9832",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "fail",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target invents casting them into turmoil instead of Az becoming lustful within them. ضحاک substitutes a name for the demons offspring; descriptive ordinary words are left untranslated, and making oneself a sheath does not preserve making them Az own clothing/sheath.",
+        "output_span": "آنان را در آشوب افکند"
+      }
+    },
+    {
+      "group": "d7f684989729fd2d4f0f1433a2b950bd8a54eb3058d193eba515c8cecbf4d4e1",
+      "reviewer_A": {
+        "review_id": "r78bd6d6d16ebaae3e34370b71241ec02",
+        "output_sha256": "be7a1cebb5886873de92fefc4f87ff12b4adde2c31bb12964da0ec4bd4bcbfa7",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "uncertain",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "uncertain",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "Shahanshah, men, best and the formula token are present. The appositional sequence may mean the king who is best among men and participates in the formula, but can also mean king of men with isolated adjectives. The target and supplied context do not settle those required attachments; no finite predicate or invented formula gloss is demanded.",
+        "output_span": "شاهنشاه مردان، برترین، همه‌زور."
+      },
+      "reviewer_B": {
+        "review_id": "reb67b64781faa0bbf4d694a90f10f35b",
+        "output_sha256": "be7a1cebb5886873de92fefc4f87ff12b4adde2c31bb12964da0ec4bd4bcbfa7",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "King of kings, men, best and a possible retained formula token all appear. Persian ellipsis may make best among men recoverable, but the comma-separated همه‌زور may attach to the ruler or be isolated; the required formula relation is materially unresolved, without an explicit unsupported power gloss.",
+        "output_span": "شاهنشاه مردان، برترین، همه‌زور"
+      }
+    },
+    {
+      "group": "a2b2993cf7a0a5db0ecc9804574c778bc9fe249b81be28760c367e6b8b397903",
+      "reviewer_A": {
+        "review_id": "reab9cea16a1e4b886a917649b564916f",
+        "output_sha256": "5acbd5afb8f8721f7011156adf9b3711c7dd6a2aa33612f801689cb40ed697da",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The output retains life departure and the social classes, and the presentation fragment might convey the permitted ritual elliptically. But dog is equally/apparently present replaces the exclusive only-dog provision: barabar supplies no exclusive meaning. Presentation attachment remains unresolved, independently of that demonstrated final-clause error.",
+        "output_span": "سوشیان گفت: «آه! تا سگ را به نمایش، همان‌گونه که در آن زمان باشد که جانش برود، آسِرون و ارتشتار و واسترش را کار نیست، زیرا سگ برابر پیداست.»"
+      },
+      "reviewer_B": {
+        "review_id": "rc5bca53b74b780ec68ac7ae506243601",
+        "output_sha256": "5acbd5afb8f8721f7011156adf9b3711c7dd6a2aa33612f801689cb40ed697da",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The source exclusive only-dog provision becomes a dog equally/apparently present, losing exclusivity. The viewing fragment and deceased attachment remain uncertain; permitted directions are accepted, and the post-viewing pollution note is not required.",
+        "output_span": "زیرا سگ برابر پیداست"
+      }
+    },
+    {
+      "group": "f02cdefac363c73ce09b9dda9db90e9062b2964c0edaf703cb0498b8e9b85212",
+      "reviewer_A": {
+        "review_id": "re6e1799991aae2445904bb137ddcb9bf",
+        "output_sha256": "7360b18d426bdaf63a432b048e4bfa80e273768cd6a12041296218896ff3f1d3",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "A day shining replaces a day being added in a month; writing replaces the seasonal onset, and trembling trees replaces withering. Autumn and world-setting tokens preserve part of the setting but cannot repair those explicit event substitutions.",
+        "output_span": "و نیز اختر خوشه در یک ماه یک روز می‌درخشد، آن زمان که آن را می‌نویسند سرداد از آن فرو می‌افتد، و درختان می‌لرزند، و پادیز (=خزان) می‌رسد، و هم‌کشور غروب باشد"
+      },
+      "reviewer_B": {
+        "review_id": "rb194dc869d854e5839d109d8c558489c",
+        "output_sha256": "7360b18d426bdaf63a432b048e4bfa80e273768cd6a12041296218896ff3f1d3",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target preserves a month and a day but shining replaces adding a day. Cold descent is not securely conveyed by سرداد, trembling substitutes for tree withering, and writing is unsupported; the autumn gloss is defensible by itself.",
+        "output_span": "یک روز می‌درخشد"
+      }
+    },
+    {
+      "group": "d2831f7be3a88154017540110e21ce8d4c6699529ae6f3fdb1b18391799425fa",
+      "reviewer_A": {
+        "review_id": "r4d736ee9999f4c170b94febdee4aaf2d",
+        "output_sha256": "d03a0abd375c11b7329e62ce7b6e88ee20fb6aa7b584ba20f50030d1807b6ccd",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The shining-day and writing events replace addition of a day and seasonal onset. A commander falling replaces descending cold, and passing trees replaces withering. The introduced commander is an event-changing participant unsupported by sard ag; autumn and sunset tokens do not preserve the account.",
+        "output_span": "و نیز اختر خوشه در یک ماه یک روز می‌درخشد، آن زمان که آن را می‌نویند سردار از آن فرو می‌افتد، و درختان را می‌گذراند، و پادیز را می‌شمارد، و هم‌کشور غروب باشد"
+      },
+      "reviewer_B": {
+        "review_id": "rf888221a6c4fb6cdc0829ac93401c6ce",
+        "output_sha256": "d03a0abd375c11b7329e62ce7b6e88ee20fb6aa7b584ba20f50030d1807b6ccd",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The source adds one day in one month in the cluster constellation; the target instead makes a day shine. سردار replaces descending cold and the tree clause does not express withering; autumn and world sunset fragments cannot restore those seasonal relations.",
+        "output_span": "یک روز می‌درخشد"
+      }
+    },
+    {
+      "group": "66faef149296c94a3adaa54031f15298bd8fcafeb50804452014989f5d4e3b2f",
+      "reviewer_A": {
+        "review_id": "r15124e0d1d18947b388f9dfebdd1040d",
+        "output_sha256": "aaf42a000f21765f26b977e8834272eb468154ee85df0b3c470e4bde505dc7e0",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The output preserves much of the thanks list, host and arrangement, but good-minded food, stout-minded feast and perfect-minded perfection replace our food, our feast and our best gathering. The concluding absence of anything above gratitude is recoverable, independently of those demonstrated substitutions.",
+        "output_span": "سپاس اورمزد، سپاس امشاسپندان و سپاس آسروان و سپاس ارتشاران و سپاس کشاورزان و سپاس هوتخشان و سپاس آتشکدان در جهان، سپاس خوانگاران و سپاس هنریگران و سپاس دربانان در درگاه، سپاس این میزبان که این روزگار را آفرید و ساخت و کرد و ترتیب داد؛ نیک‌منش غذا و استبرمنش سور [و] کامل‌منش تکامل و ستودنی و اندیشناک گفتار و کردار سپاسدارِ برتر [از] سپاسگزاری چیز دیگری نیست."
+      },
+      "reviewer_B": {
+        "review_id": "r5d21cca1485a682fe92582f2c8327080",
+        "output_sha256": "aaf42a000f21765f26b977e8834272eb468154ee85df0b3c470e4bde505dc7e0",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The source best gathering for us is replaced by perfect-minded development, while food and feast receive moral-disposition adjectives instead of good/splendid and lose our possession. Gratitude in thought/speech/action remains partly recognizable but does not recover the substituted propositions.",
+        "output_span": "کامل‌منش تکامل"
+      }
+    },
+    {
+      "group": "82950fbc13f795dd7c88033799c70f4aa1fd5bf88059a577cb4582daf2c57173",
+      "reviewer_A": {
+        "review_id": "r552902e6fcf0ac5be235564c61cc3a33",
+        "output_sha256": "c72b13498b7b8202d5fedb021edd7d0ce8db4f4b111be70490a9ffc959d22d7c",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "pass",
+          "negation_modality": "fail",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The heavy carcass, preparation of tools and sinful failure to return survive. The final inability-to-return exception says polluted rather than not polluted, removing the explicit negation ne reman and reversing the condition-specific pollution result. This is a factual purity exception rather than a reversed prohibition or obligation.",
+        "output_span": "و اگر لاشه گران است و به تن نمی‌توان آورد، با این اندیشه برود که بروم و ابزار سازم و این لاشه را از آب بیاورم و به گناه باز نگردد؛ تنش ریمن است، مستحق مرگ و چون به بازگشت ناتوان است ریمن."
+      },
+      "reviewer_B": {
+        "review_id": "r8df2b0c4a0c662b249efa5f666eb1c0d",
+        "output_sha256": "c72b13498b7b8202d5fedb021edd7d0ce8db4f4b111be70490a9ffc959d22d7c",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "pass",
+          "negation_modality": "fail",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The inability-to-return exemption explicitly has nē rēman in the source and not polluted in both references, but the target asserts pollution. Heavy carcass, planned implements, culpable non-return and death-worthy liability are otherwise recoverable; this final polarity change materially reverses the exemption.",
+        "output_span": "چون به بازگشت ناتوان است ریمن"
+      }
+    },
+    {
+      "group": "9cef678a61058239baceb92a54d329a61e4ddae1492a7e5575595b012ee8f08b",
+      "reviewer_A": {
+        "review_id": "rc3b968a8455bc682c333cf83210b8c38",
+        "output_sha256": "15d44a8affc006ef4756d11329580475a2a6d41e25f03033bf539801bb153d17",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "The output conveys striking an innocent man, duration until pain subsides and a daily singular sin, with tan-puhl retained as a technical label. Form can classify the sin rather than describe physical shape. To his root may express liability on the striker, but the pronoun can still attach to the innocent man; the supplied evidence does not settle the liability construction. No modern punishment expansion is required.",
+        "output_span": "یک این که اگر کسی مرد بی‌گناهی را بزند تا درد بنشیند، هر روز گناهی به شکل تن‌پوحل به بن او رسد."
+      },
+      "reviewer_B": {
+        "review_id": "r1287d5c872fa2b56aae8a4aec8c6b674",
+        "output_sha256": "15d44a8affc006ef4756d11329580475a2a6d41e25f03033bf539801bb153d17",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "The strike against an innocent man, period until pain subsides and one daily sin survive; تن‌پوحل defensibly retains the technical label and شکل can be classificatory. The liability phrasing and او do not securely establish that the striker bears it, while a faithful attachment remains possible.",
+        "output_span": "گناهی به شکل تن‌پوحل به بن او رسد"
+      }
+    },
+    {
+      "group": "329caeeaeefbb8fa26fed5ade8f46cdb76311f2841cd5c2ae56e70432b00b53b",
+      "reviewer_A": {
+        "review_id": "r171bff42e780dd0d4a316ff946c36395",
+        "output_sha256": "6c946f4bef8cdca710fe3cdb36f072574cbb809de5890d152c2cbd91f5b40ec6",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "All three command regions and their relation to commanders survive. However all-capable turns the retained ritual hamag-zohr relation into an omnipotence characterization unsupported by the supplied formula, rather than simply preserving its technical name.",
+        "output_span": "سپاهبد همه‌قادر خراسان، سپاهبد همه‌قادر خاوران، سپاهبد همه‌قادر نیمروز."
+      },
+      "reviewer_B": {
+        "review_id": "r98bddb2070d180edef02c067004d5991",
+        "output_sha256": "6c946f4bef8cdca710fe3cdb36f072574cbb809de5890d152c2cbd91f5b40ec6",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "All three named commander regions are preserved. The repeated all-capable epithet replaces the hamāg-zōhr ritual formula relation with unsupported power, unlike mere technical-label retention; this is a meaning substitution without a name or participant reversal.",
+        "output_span": "همه‌قادر"
+      }
+    },
+    {
+      "group": "852c9ec00712cd641f802968b0c614764a71afcb3b237ad17949c5935a153364",
+      "reviewer_A": {
+        "review_id": "rbcfe06277cf7157bd8e8012cebcf59ee",
+        "output_sha256": "85f9faf94617974e0163127f8db106b814370cbbe42bde686c206dd8d2fe1843",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Blessing, earth breadth, sun height and the closing wishes survive. Darnay is an untranslated ordinary length word, with a Persian crane reading, rather than conveying river length; the parallel dimensions help identify the intended slot but do not by themselves translate its meaning.",
+        "output_span": "آفرین، چنان گفتم، برسد به پهنای زمین و درنای رود و بالای خورشید. ایدون باد، ایدون‌تر باد."
+      },
+      "reviewer_B": {
+        "review_id": "r38634414512fa3e368d6ab9cbdc0237e",
+        "output_sha256": "85f9faf94617974e0163127f8db106b814370cbbe42bde686c206dd8d2fe1843",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The prayer reaches earth width and solar height with the wishes retained, but درنای رود denotes a river crane or an untranslated malformed word, not the required length of the river. Ordinary dranāy is not licensed as a technical label.",
+        "output_span": "درنای رود"
+      }
+    },
+    {
+      "group": "7c989f46868b03d8b7d8b65fd8c994bab9804bb82127f0d0a90411b8e0250b4f",
+      "reviewer_A": {
+        "review_id": "r6fd3b730a86eccd83a10a742b128754c",
+        "output_sha256": "f415b39afd617e725829c84bebf067549314adeb0519c4441e92affb9208eb3f",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target conveys reaching the breadth of earth, length of river and height of sun through a defensible elliptical dimension construction, and keeps the wishes. The speech act is changed from a benediction/prayer to praise by setayesh.",
+        "output_span": "ستایش، چنان که گفتم، به زمین پهنا و رود درازا و خورشید بالا برسد. ایدون باد، ایدون‌تر باد."
+      },
+      "reviewer_B": {
+        "review_id": "r02ea7b216dbeb45884e3d551cb00474a",
+        "output_sha256": "f415b39afd617e725829c84bebf067549314adeb0519c4441e92affb9208eb3f",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The earth breadth, river length, solar height and optative ending are recoverable through Persian elliptical order. However ستایش means praise rather than the blessing/prayer the source sends across those dimensions, a substantive lexical substitution.",
+        "output_span": "ستایش"
+      }
+    },
+    {
+      "group": "470aa0ff8c3b4aac65954c4346e66461210f90c447b10a4065192550fb0036c5",
+      "reviewer_A": {
+        "review_id": "r878505e40cdb6249e9674b7530552b6f",
+        "output_sha256": "8626b8f51a136f525108aa78a252dc48616eda30fac132efd3a27c558ab7946f",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "Pahlom is left as the ordinary untranslated word pelehom rather than best, so the required excellence among men is not conveyed. The king/men/formula attachment is additionally ambiguous, not a proven role reversal; transliteration of an ordinary adjective is not licensed as a ritual label.",
+        "output_span": "شاهنشاه مردان، پلهوم، همه‌زور."
+      },
+      "reviewer_B": {
+        "review_id": "rb55a496c3e321b8784647e117aea70af",
+        "output_sha256": "8626b8f51a136f525108aa78a252dc48616eda30fac132efd3a27c558ab7946f",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The ordinary superlative pahlom is copied as پلهوم rather than conveying best among men, losing the required characterization. King and men remain, while the isolated formula relation is unresolved; technical-label tolerance does not license this ordinary adjective.",
+        "output_span": "پلهوم"
+      }
+    },
+    {
+      "group": "100b8ddf9444219484ef8b296456acff9944e65025ed675f633b7f596daf6dbd",
+      "reviewer_A": {
+        "review_id": "r8885975e5c90c96b446981353925b961",
+        "output_sha256": "95a7fc5bfa801f82fa28ae0e65c8b422ccfbaca464831324afa12ee3206cd42f",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "fail",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The creator, greatness in spiritual and material realms, and guardian relations survive. The added equivalence all-power changes the ritual label, and bashad expresses third-person being/wish rather than the supplied plural exhortation be hamazor. Whether the following bare formula establishes the intended participation relation remains unresolved.",
+        "output_span": "همه‌زور (= همه‌قدرت) باشد، همه‌زور اورمزد خدا که در مینو و گیتی بزرگترین است که همۀ این آفریدگان و آفرینش را آفرید و نسبت به ایشان پناه و نگاهدارنده است."
+      },
+      "reviewer_B": {
+        "review_id": "r7465d69afe74b490ec54c2378d2e1c99",
+        "output_sha256": "95a7fc5bfa801f82fa28ae0e65c8b422ccfbaca464831324afa12ee3206cd42f",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "uncertain",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "Creation, greatness in spiritual/material realms and protection are retained. The added all-power gloss substitutes an unsupported power meaning for the hamāg-zōhr formula; باشد also leaves its opening exhortation and relation to Ohrmazd unresolved.",
+        "output_span": "همه‌زور (= همه‌قدرت) باشد"
+      }
+    },
+    {
+      "group": "2ec5bb22cdb5db09b342e32a8324a0d087db07c3e614d5c76ffebce63032e6f4",
+      "reviewer_A": {
+        "review_id": "r753ebdff8ca81ae400c7e794e3d51e45",
+        "output_sha256": "063c7f3a08d16984ac91b4ba1880dd5d409ea41fc6f65cd6b65b54a13e9bd096",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Do not be ham-mal preserves negative imperative syntax and the scribe participant, but ham-mal as same outcome/fate does not convey the allowed enemy/rival meaning of hamemal. This is a lexical substitution, not proof of a reversed prohibition.",
+        "output_span": "با مرد دبیر هم‌مآل مباش."
+      },
+      "reviewer_B": {
+        "review_id": "r663efc33ad016a9ed20ed53be948c220",
+        "output_sha256": "063c7f3a08d16984ac91b4ba1880dd5d409ea41fc6f65cd6b65b54a13e9bd096",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The prohibition and scribe participant survive, but هم‌مآل ordinarily suggests sharing an outcome rather than rival/enemy. The packet does not license this ordinary relationship word as a retained technical term, so the required antagonistic relation is lost.",
+        "output_span": "هم‌مآل"
+      }
+    },
+    {
+      "group": "a13fbdf57e91fd733f00e14f1c1ef4e26cfd24e9ed852c8a78019f84ff572713",
+      "reviewer_A": {
+        "review_id": "r47f675a6d1758a20626599728a28a60b",
+        "output_sha256": "265eb91c63e88fd451d88bbd56b540e2276f9c494c5d76cc9b0ac618f50111ae",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "pass",
+          "negation_modality": "fail",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The heavy carcass, tools, water removal intention and culpable nonreturn remain. The final explicit polluted is reverses the not-polluted result when return is impossible. The source distinguishes unwillingness and inability; the target applies pollution to both.",
+        "output_span": "و اگر لاشه گران است و به تن نمی‌توان آورد، با این اندیشه برود که بروم و ابزار سازم و این لاشه را از آب بیاورم و به گناه باز نگردد؛ تنش ریمن و مستحق مرگ است و چون بازگشتش نتواند، ریمن است."
+      },
+      "reviewer_B": {
+        "review_id": "r667658b93aee4e115e241ca3ec572c4a",
+        "output_sha256": "265eb91c63e88fd451d88bbd56b540e2276f9c494c5d76cc9b0ac618f50111ae",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "pass",
+          "negation_modality": "fail",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target explicitly says he is polluted when unable to return, contradicting the source nē rēman exemption. The intention to obtain tools, culpable failure to return and preceding pollution/death-worthiness remain, so the proven critical issue is the final negation reversal.",
+        "output_span": "چون بازگشتش نتواند، ریمن است"
+      }
+    },
+    {
+      "group": "c619e556e2afd85ca049d0d3938a9a93f10f715a49dfc394e58beee62d156b6a",
+      "reviewer_A": {
+        "review_id": "rbbdd5d1c5b7de4cdcac856cd6f793188",
+        "output_sha256": "1e734c15f75a6612c6ddec741fa4f1fefdd976ab9be1e458e99e3dd4a698b030",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "uncertain",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "Striking an innocent man, pain duration and daily singular liability are present. Tan-pahlavan could be a distorted attempt at the technical tanapuhl label but also reads as a body/hero phrase; the supplied evidence does not settle technical-label recovery. The root-of-him phrasing likewise leaves striker versus victim liability unresolved. No numerical punishment is inferred.",
+        "output_span": "یک اینکه اگر کسی مرد بی‌گناه را بزند تا درد بنشیند، هر روز گناهی برابر تن‌پهلوان به بن او رسد."
+      },
+      "reviewer_B": {
+        "review_id": "rfca726fe44196e9fc7258efd8471f9f9",
+        "output_sha256": "1e734c15f75a6612c6ddec741fa4f1fefdd976ab9be1e458e99e3dd4a698b030",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The innocence, strike, pain interval and daily singular sin remain. تن‌پهلوان introduces a body/hero expression instead of a recognizable tanāpuhl technical grade, so that classification is not preserved. به بن او رسد leaves liability attachment ambiguous, without proving a role reversal.",
+        "output_span": "گناهی برابر تن‌پهلوان"
+      }
+    },
+    {
+      "group": "c45be74a1959bd01edafa199809bff08957832bfb218092a547d183715693405",
+      "reviewer_A": {
+        "review_id": "r6fee0bbe7e11b0e640fc49aed37e0aef",
+        "output_sha256": "13d23c553317c343e4b52d8833f022c85e206f3a037092002ec06c628f3d0a3a",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "fail",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Expansion and desirous purification substitute for clothing and the prescribed six-month washing designation. The Avesta attribution remains, but the essential six-month rule and clothing subject cannot be recovered; following instructions are not demanded.",
+        "output_span": "گسترش در پاک‌سازی آرزوماند، ایدون چون از اوستا پیداست:"
+      },
+      "reviewer_B": {
+        "review_id": "r622137d0a6349e2ab3296df8db6c7d59",
+        "output_sha256": "13d23c553317c343e4b52d8833f022c85e206f3a037092002ec06c628f3d0a3a",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "pass",
+          "negation_modality": "uncertain",
+          "names": "pass",
+          "numbers_quantities": "fail",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The clothing to be washed under the six-month rule becomes expansion in desirous purification. Avestan attribution survives, but the clothing object and six-month rule do not. No following procedural instructions are required by the complete introductory-clause constraint.",
+        "output_span": "گسترش در پاک‌سازی آرزوماند"
+      }
+    },
+    {
+      "group": "090e4a0bec2b646db0e41de6baedf3ddbc1811c59d116f198cd69a903b215f3e",
+      "reviewer_A": {
+        "review_id": "rf54fca3f2364b450f66a70ecc2251509",
+        "output_sha256": "ab03465a02d402a72a6587abbee9ca84b1cf14f05c5a1dc303beac88d43c0c89",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The thanks list retains deities and classes, but singers replace cooks, and the ending asserts I am good-minded/strong/perfect-minded instead of our good food, splendid feast and best gathering. Gathering as I have met is not the proposition that meeting is best for us. The supremacy of gratitude remains.",
+        "output_span": "سپاس اورمزد، سپاس امشاسپندان و سپاس اسیرونان و سپاس نظامیان و سپاس کشاورزان و سپاس صنعتگران و سپاس آتش‌ها در جهان، سپاس خوانندگان و سپاس هنرمندان و سپاس دربانان در در، سپاس این مزدبان که این روزگار را آفرید و ساخت و ترتیب داد؛ نیک‌اندیشم، ستوده‌ام، نیرومندم، [و] کامل‌اندیشم، هم‌رسیده‌ام و ستایشگر و اندیشنده و گوینده و کننده سپاسدارم، از بر سپاسداری چیز دیگری نیست."
+      },
+      "reviewer_B": {
+        "review_id": "r31f029382946ab0bc675057ae334b9fd",
+        "output_sha256": "ab03465a02d402a72a6587abbee9ca84b1cf14f05c5a1dc303beac88d43c0c89",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "pass",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target replaces our good food and splendid feast with first-person claims of good thinking, praise and strength; the source nēk-iman pih/stabr-imān sūr explicitly concerns food and feast. Gathering and gratitude remain partly present, but do not recover those lost propositions.",
+        "output_span": "نیک‌اندیشم، ستوده‌ام، نیرومندم"
+      }
+    },
+    {
+      "group": "25587256fbb57af4aed0d81a14b83728ec4f435d9e8d705f41851ad5589d11ee",
+      "reviewer_A": {
+        "review_id": "red708111623b70b9e1dc8391e91c2411",
+        "output_sha256": "7e75e462f7dc01bf1ba86645f5656b9df9b54d837627c5f88115739e1f624ee9",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Offspring becomes bowstrings/strings, lion-shaped remains an untranslated ordinary description, and the ending makes them draw others into desire instead of Az becoming lustful within them. The plural made it their own sheath also reverses the source relation of Az using those beings as its sheath; these are explicit event/participant changes.",
+        "output_span": "پس آن آز از همۀ آن زه‌های دیوان که از آسمان به زمین افتاده‌اند، آن اسریشنر نر و اسریشنر ماده را که شگرکربند، آرزومند و خشمگین، گناهکار و دزد نامند، پوشاند و آن را غلاف و پوشاک خویش کردند و آنان را در آرزومندی کشند"
+      },
+      "reviewer_B": {
+        "review_id": "r5b57181a3600f9e1f8a370ec61c64579",
+        "output_sha256": "7e75e462f7dc01bf1ba86645f5656b9df9b54d837627c5f88115739e1f624ee9",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Az entering/wearing the male and female beings and using them as its sheath/clothes becomes clothing them and a plural agent making it their clothes. This is a material wearer/garment role change. Lion-bodied remains untranslated and drawing them into desire replaces becoming lustful within them.",
+        "output_span": "پوشاند و آن را غلاف و پوشاک خویش کردند"
+      }
+    },
+    {
+      "group": "08de116383c7ab486912b4debaea9e093b02b217e60fb05a7f04757a5a5b7521",
+      "reviewer_A": {
+        "review_id": "rc973c33acf9deaf490e81318e041d374",
+        "output_sha256": "88a521c3994db7159f01d7dd2b1ccc97be4b307dbd4ba2d990777f4504780731",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The innocent victim, striking, pain duration and daily singular sin survive, but like a lash replaces the technical tanapuhl grade with an unsupported ordinary punishment comparison. Liability to his root is additionally unresolved between striker and victim; the comparison does not preserve the technical class.",
+        "output_span": "یک این که اگر کسی مرد بی‌گناهی را بزند تا درد بنشیند، هر روز گناهی همچون تازیانه به بن او رسد."
+      },
+      "reviewer_B": {
+        "review_id": "rc2d384a01dfc5207cce2f90f2581b2bb",
+        "output_sha256": "88a521c3994db7159f01d7dd2b1ccc97be4b307dbd4ba2d990777f4504780731",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "pass",
+          "names": "not_applicable",
+          "numbers_quantities": "pass",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "A daily singular sin and the period until pain subsides remain, but a sin like a whip substitutes a simile for the specified tanāpuhl grade. The literal به بن او رسد leaves the liable striker attachment unresolved rather than proving a reversal.",
+        "output_span": "گناهی همچون تازیانه"
+      }
+    },
+    {
+      "group": "0dba62f2a56c6f20d0f38efc2b2924095d93ed88c83ac18dc60a3623d54bdb9c",
+      "reviewer_A": {
+        "review_id": "r7d2236c1551e839a89566b37dcee6ef1",
+        "output_sha256": "1ca6f080567c42ccb8cde87ce528c31ba79f5ae5e9993462feab0384b3d1bc8e",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "fail",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "Creation, supreme rank in the two realms and continuing guardianship are conveyed. The opening third-person bashad changes the plural exhortation be hamazor. The formula is retained without an invented gloss, but its following bare attachment to Ohrmazd leaves the participation relation unresolved; it is not classified as a proved role reversal.",
+        "output_span": "همه‌زور باشد، همه‌زور اورمزد خدایی که در مینوها و گیتی‌ها بزرگ‌ترین است، که همۀ این آفریدگان و جهان را آفرید و آنان را نگاهدار و حافظ است."
+      },
+      "reviewer_B": {
+        "review_id": "rbf8ccac6bba7e865c6091c73d8827272",
+        "output_sha256": "1ca6f080567c42ccb8cde87ce528c31ba79f5ae5e9993462feab0384b3d1bc8e",
+        "judgment": "uncertain",
+        "categories": {
+          "lexical_meaning": "pass",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "uncertain",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "pass",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "uncertain",
+        "unknown_span_handling": "uncertain",
+        "reason": "The output retains a defensible formula token without an added all-power gloss and conveys Ohrmazd greatness, creation and protection. Its باشد can be a wish rather than the source exhortation, and the formula relation to Ohrmazd remains unclear; faithful and materially different readings are both possible.",
+        "output_span": "همه‌زور باشد، همه‌زور اورمزد"
+      }
+    },
+    {
+      "group": "1d88e56f47f94d8daa94433d641ef93657c8fb3238f6595b1dd57af50e821e24",
+      "reviewer_A": {
+        "review_id": "r32e3b612822bb7c10fb912d171a8dcaf",
+        "output_sha256": "2e8d8b798163dcf4b099cb9e1e138b77b045be61bc1636a900b9211150c57578",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "Offspring becomes strings and lion-shaped is left as shagrkarband. More decisively, the final plural they drew them into desire changes Az becoming lustful in those beings into an event with different agents and patients. Making it their own sheath likewise changes Az using them as its sheath.",
+        "output_span": "پس آن آز از همۀ آن زه‌های دیوان که از آسمان به زمین افتاده‌اند، آن اسریشنر نر و اسریشنر ماده را که شگرکربند، آرزومند و خشمگین، گناهکار و دزد می‌نامند، پوشاند و آن را غلاف و پوشاک خویش کردند و آنان را در آرزومندی کشیدند"
+      },
+      "reviewer_B": {
+        "review_id": "r96af7fe867e57538317035279be8387c",
+        "output_sha256": "2e8d8b798163dcf4b099cb9e1e138b77b045be61bc1636a900b9211150c57578",
+        "judgment": "critical_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "fail",
+          "negation_modality": "not_applicable",
+          "names": "not_applicable",
+          "numbers_quantities": "not_applicable",
+          "omissions": "fail",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "critical_error",
+        "unknown_span_handling": "no_unknown_span",
+        "reason": "The target changes Az entering/wearing the beings and making them its clothing/sheath into clothing them followed by plural agents making it their clothing. This is a material participant-role change. زه‌های loses offspring, lion-bodied is untranslated, and drawing them into desire replaces becoming lustful within them.",
+        "output_span": "پوشاند و آن را غلاف و پوشاک خویش کردند"
+      }
+    },
+    {
+      "group": "fa0a14599ef2284a4b780e196cfab19f0f55479e48399f1fd5cd42aff788b6fd",
+      "reviewer_A": {
+        "review_id": "rfc3b152839182c60a824185919968b23",
+        "output_sha256": "ddbf480236295f47b82f600f1466d87f551464ed3a1e44daf7f050306edf130a",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "fail",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "uncertain"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The target preserves supreme Ohrmazd, creation and protection in spiritual/material domains. All-power is an unsupported explanatory replacement for hamag-zohr, while bashad changes the plural exhortation to third-person being/wish. The bare formula relation to Ohrmazd remains unresolved rather than a demonstrated participant reversal.",
+        "output_span": "همه‌زور (= همه‌قدرت) باشد، همه‌زور اورمزد خدا که در مینویان و گیتیان بزرگترین است که همۀ این آفریدگان و آفرینش را آفرید و نسبت به ایشان پناه و نگاهدارنده است."
+      },
+      "reviewer_B": {
+        "review_id": "rb3b638b5d0f5b5522e843d187cccf322",
+        "output_sha256": "ddbf480236295f47b82f600f1466d87f551464ed3a1e44daf7f050306edf130a",
+        "judgment": "meaning_error",
+        "categories": {
+          "lexical_meaning": "fail",
+          "grammatical_roles": "uncertain",
+          "negation_modality": "uncertain",
+          "names": "pass",
+          "numbers_quantities": "not_applicable",
+          "omissions": "pass",
+          "unsupported_additions": "fail",
+          "source_uncertainty": "pass"
+        },
+        "supported_span_severity": "meaning_error",
+        "unknown_span_handling": "uncertain",
+        "reason": "The supplied source supports the hamāg-zōhr formula, not the explicit added all-power gloss. Ohrmazd as greatest among spiritual/material beings and creator/protector is recoverable; the opening exhortation and formula relation are uncertain.",
+        "output_span": "همه‌زور (= همه‌قدرت) باشد"
+      }
+    }
+  ],
+  "both_reviewers_diagnostic_screen": {
+    "dictionary": false,
+    "faithfulness": false
+  },
+  "limits": "Post-hoc candidate-rule reassessment of familiar archived text, with duplicate propagation by construction. Not replacement primary results, linguistic gold, independent confirmation, unseen accuracy, or training/promotion authority."
+}

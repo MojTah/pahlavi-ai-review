@@ -1,3 +1,9 @@
+# Review update, 6 October 2026
+
+The newest [common archived-output assessment](experiments/measurement-calibration-20261005/REPORT.md) applies an explicitly post-hoc candidate interpretation to 60 memberships/42 unique contexts. Both fresh reviewers find dictionary acceptance 1/15 → 1/15 and added-instruction acceptance 1/15 → 2/15; both diagnostic comparisons remain HOLD. Instruction critical counts are A3→4/B3→3, with disagreements preserved. Ambiguity handling is newly explicit; equivalence to historical judging is unproved. Consistency for duplicate outputs is imposed by construction. Original primary results remain unchanged; no linguistic gold, unseen accuracy or new model is established. [Completed Astra closure](experiments/measurement-calibration-20261005/ASTRA-CLOSURE.md) verifies the bounded technical/HOLD result. Next obtain source-grounded specialist adjudication and prospectively freeze measurement rules before more GPU spending.
+
+The unchanged step280 adapter release remains available. The new assessment generates no translations or weights and promotes no model.
+
 # Current model clarification, 5 October 2026
 
 The reference remains qualified Gemma step280. The newest [faithfulness comparison](experiments/dictionary-faithfulness-20261005/live-execution/OUTCOME.md) failed both continuation screens. Its control translations exactly match earlier dictionary-assisted outputs but received different fresh ratings; historical 2/15→5/15 results are provisional observations rather than stable accuracy estimates. No prompt or model is promoted.

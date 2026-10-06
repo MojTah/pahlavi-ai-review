@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-05",
-  "source_commit": "36b814feb9746bb194a80507b867204ef49a965f",
+  "date": "2026-10-06",
+  "source_commit": "0d4e9a5da34444d3442781da9ccc5805e964782e",
   "scope": "Completed specialist evidence, licensed source data and exact verified retained adapter release; restricted/uncleared full training/source gaps remain",
   "files": [
     {
@@ -4129,6 +4129,66 @@
       "sha256": "ccc387439b5c8860354c4f52a509cc76d557fc460072880aa76b61cc7496ca25"
     },
     {
+      "path": "experiments/measurement-calibration-20261005/ASTRA-CLOSURE.md",
+      "bytes": 1675,
+      "sha256": "93798253c7bb5fdc14f1326fa65cce8ca0789f968d975f33fddb6e8fad441307"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/ASTRA-REVIEW.json",
+      "bytes": 1947,
+      "sha256": "b0cd8412c2cd9bb4177942b45a6bd0b231002a3109807db13958e90bca8b7291"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/CLOSURE-REVIEW.md",
+      "bytes": 1656,
+      "sha256": "d0aef7190f0b4cf79b47afe6da86dd9067cf2c29d0a15a23d06ba00c48c1ee4b"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/CRITERIA-v1.md",
+      "bytes": 5549,
+      "sha256": "4c66dbf829f087e224609b556052311a8c49ad5a21d5a02879dbeb5396e5e146"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/freeze.json",
+      "bytes": 6244,
+      "sha256": "260eff87bb64f22da56d6d3e2787fd9566e919fe589662799072bc0741669515"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/PLAN.md",
+      "bytes": 3780,
+      "sha256": "26181a417977c45daf81fe6b40853a46623afc7ad37a1bda273ef5f79ebf0900"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/PRE-REVIEW-CHECKS.json",
+      "bytes": 1107,
+      "sha256": "ab54e07ea39ff905286ae85526aebe622b1dfbca7a37b0e447a61ef5c84b0e8f"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/REPORT.md",
+      "bytes": 8032,
+      "sha256": "2cc847bd210c540087ae88477bb3182904ca23834614534d67c4193541403b4a"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/REVIEW-GATE.md",
+      "bytes": 2217,
+      "sha256": "6948c9d48f558290e42c9b1688c5ef919c6c76c058012186fab6eff9dcebeaf8"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/review.py",
+      "bytes": 17107,
+      "sha256": "81ff587324e76985b09e200c4e5cf74535783f6c1bb19eeca9411659f707c856"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/SOURCE-AUDIT.md",
+      "bytes": 5486,
+      "sha256": "9650ffa03bd70cc503666d3e5cf99c37961dcba951fcc5908760664bd6310cab"
+    },
+    {
+      "path": "experiments/measurement-calibration-20261005/SUMMARY.json",
+      "bytes": 17824,
+      "sha256": "ce1fe9293946b5709e097f6d9018d9cb8af1116a5a32dc576a728b1660b9e0d9"
+    },
+    {
       "path": "experiments/mixed-review-20260929/lead-only/frozen/assessment-contract.json",
       "bytes": 10438,
       "sha256": "f719bc4568a2fc30c97c76c7b34aab4509b493f96a480d0e42efe8f8425e88a0"
@@ -7385,8 +7445,8 @@
     },
     {
       "path": "GITHUB-REVIEW.md",
-      "bytes": 15748,
-      "sha256": "768d2075cc9607ade9ffd5c373281db904b62f2623e8a14b068d4f2b9387e4bb"
+      "bytes": 16697,
+      "sha256": "18070aa6f90dae75291dcb359eb3158bca93c3e82f345dd47d03cb1d5c14ab61"
     },
     {
       "path": "GOAL.md",
@@ -7515,8 +7575,8 @@
     },
     {
       "path": "MODEL-AND-TRAINING-RECIPE.md",
-      "bytes": 20489,
-      "sha256": "5451e43810d859ce0812834b811d5519a255eac0478a1eb43d75896bb9cea28c"
+      "bytes": 21600,
+      "sha256": "328c562e9dec2b868874ad87655e04c910ce75cb8649ed166dc189170f239f02"
     },
     {
       "path": "models/gemma-step280/adapter_config.json",
@@ -7775,8 +7835,8 @@
     },
     {
       "path": "PROJECT_STATE.md",
-      "bytes": 67029,
-      "sha256": "1c6a3fa9ee5520cf06785b9c41c94122715fe08e0a57cb0497fc15da6db38018"
+      "bytes": 68400,
+      "sha256": "2a394bddb32d56d28aa2e808c99ad69ec43f419a6fe8d3ca169451b850650755"
     },
     {
       "path": "PROJECT_STATE_HISTORY_20260928.md",
@@ -7785,8 +7845,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15749,
-      "sha256": "a30997c033b836a2a8e75616a8a51a04acae3fb35c49f047e9e16d2aa9867cd0"
+      "bytes": 16698,
+      "sha256": "0bb0c2a34a6ff1a1573f762c49bae187908b68ed57e25b84cf9cbff905f2a8d7"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -10269,6 +10329,66 @@
       "sha256": "c0e2be9a9b6a0728414e3f9e95debd607e7dbb1e9a90446c6966fe415b34b066"
     },
     {
+      "path": "resources/local/measurement-calibration-20261005/packets/freeze.json",
+      "bytes": 6244,
+      "sha256": "260eff87bb64f22da56d6d3e2787fd9566e919fe589662799072bc0741669515"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/lead-only/mapping.jsonl",
+      "bytes": 12180,
+      "sha256": "a19d732cfe4bb1944c91f3dd84593fc850a5e8f21b2ec9863c204cb0ad704aae"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/lead-only/members.jsonl",
+      "bytes": 16800,
+      "sha256": "d14019bdce52a93677b44396acaabd7bce3937a388ce318b2064a931d6e0b042"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-A/CRITERIA-v1.md",
+      "bytes": 5549,
+      "sha256": "4c66dbf829f087e224609b556052311a8c49ad5a21d5a02879dbeb5396e5e146"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-A/INSTRUCTIONS.md",
+      "bytes": 3598,
+      "sha256": "71174990febcd7da969971792fd9226ba09eb10e6a3dc05ecb95797ed657b63c"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-A/packet.jsonl",
+      "bytes": 66457,
+      "sha256": "3e5ae7f926cadf0e83a459986afa4b2725ac33392076edb417591d8eb380599f"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-A/reviews.jsonl",
+      "bytes": 43928,
+      "sha256": "9f42775878b722d7b3f22d2085ba5c5c3548d1fee21c3a5f5d6985eacecba7c8"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-B/CRITERIA-v1.md",
+      "bytes": 5549,
+      "sha256": "4c66dbf829f087e224609b556052311a8c49ad5a21d5a02879dbeb5396e5e146"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-B/INSTRUCTIONS.md",
+      "bytes": 3598,
+      "sha256": "71174990febcd7da969971792fd9226ba09eb10e6a3dc05ecb95797ed657b63c"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-B/packet.jsonl",
+      "bytes": 66457,
+      "sha256": "f0b61544167345216cc035e6c754811806484f7eeffc1ac06c1feb7d4ff00b9b"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/packets/reviewer-B/reviews.jsonl",
+      "bytes": 33685,
+      "sha256": "dbb352e6e430631005678c89bce511a8e8e0c6527dcbdfcb3c010d43aa7bfc1e"
+    },
+    {
+      "path": "resources/local/measurement-calibration-20261005/scored/comparison.json",
+      "bytes": 89658,
+      "sha256": "ec25a41270c3f6506b48b523cfa6faeec6e94d855e424cf576cb6f7678bc5f64"
+    },
+    {
       "path": "resources/local/own-analysis-diagnostic-20261002/authorized-execution/recovered/evaluation/predictions.jsonl",
       "bytes": 15636,
       "sha256": "b646490f996e8467a9156f6957741d1a8f37382a1024adb4bf8c2f7792756759"
@@ -10600,8 +10720,8 @@
     },
     {
       "path": "review/DATA-ACCESS.md",
-      "bytes": 5013,
-      "sha256": "0fb64bde8bf8a93518235f28792bf23bbcd1b88d2ce146c52d6f45f797e34b45"
+      "bytes": 5779,
+      "sha256": "25fb9917eacbcdc1e0f6453a3e24dfc5d148da5960c4f77ba7cbd5b5b3185a69"
     },
     {
       "path": "review/DATA-LICENSES.json",
@@ -10650,8 +10770,8 @@
     },
     {
       "path": "review/SPECIALIST-PUBLICATION-GATE-20261005.md",
-      "bytes": 6341,
-      "sha256": "850c271b08259bd49279f946b5f06d8d80cd56b3fb676704f6cc90a85b75fa17"
+      "bytes": 7204,
+      "sha256": "59e77f66fd34f1756336dcb413024211866d9b390076ccda03bd146fa20a5b54"
     },
     {
       "path": "review/VALIDATION.md",
@@ -10660,13 +10780,13 @@
     },
     {
       "path": "REVIEW-PROMPT.md",
-      "bytes": 14172,
-      "sha256": "7cb0a4c570cd340e3782e35e85ae7d44e1d63b219b0eae3704f0472c1ffb079b"
+      "bytes": 15121,
+      "sha256": "255e522ec544e67f5218770b217341bfd06893267c349fa1397fae75535ac54e"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 15749,
-      "sha256": "a30997c033b836a2a8e75616a8a51a04acae3fb35c49f047e9e16d2aa9867cd0"
+      "bytes": 16698,
+      "sha256": "0bb0c2a34a6ff1a1573f762c49bae187908b68ed57e25b84cf9cbff905f2a8d7"
     },
     {
       "path": "scripts/analyze_train_fit.py",
@@ -11960,7 +12080,7 @@
     }
   ],
   "source_includes_publication_documentation": true,
-  "source_snapshot_boundary": "Frozen committed completed comparison/Astra closure; finalized review/scoring bytes independently checked; no in-progress source files",
+  "source_snapshot_boundary": "Frozen committed common post-hoc assessment; original primary results/model assets preserved; only finalized review supplement added",
   "external_assets": [
     {
       "name": "adapter_model.safetensors",

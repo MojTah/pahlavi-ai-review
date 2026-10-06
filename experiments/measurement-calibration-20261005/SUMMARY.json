@@ -1,0 +1,645 @@
+{
+  "protocol": "posthoc-common-dev15-v1",
+  "post_hoc": true,
+  "candidate_sha256": "4c66dbf829f087e224609b556052311a8c49ad5a21d5a02879dbeb5396e5e146",
+  "freeze_sha256": "260eff87bb64f22da56d6d3e2787fd9566e919fe589662799072bc0741669515",
+  "memberships": 60,
+  "unique_contexts": 42,
+  "expert_adjudicated": false,
+  "primary_results_replaced": false,
+  "independent_confirmation": false,
+  "reviewers": {
+    "A": {
+      "review_sha256": "9f42775878b722d7b3f22d2085ba5c5c3548d1fee21c3a5f5d6985eacecba7c8",
+      "rows": 42,
+      "counts": {
+        "dictionary:A": {
+          "meaning_error": 10,
+          "accepted": 1,
+          "uncertain": 1,
+          "critical_error": 3
+        },
+        "dictionary:B": {
+          "meaning_error": 8,
+          "critical_error": 3,
+          "uncertain": 3,
+          "accepted": 1
+        },
+        "faithfulness:A": {
+          "meaning_error": 8,
+          "uncertain": 3,
+          "critical_error": 3,
+          "accepted": 1
+        },
+        "faithfulness:B": {
+          "meaning_error": 7,
+          "accepted": 2,
+          "uncertain": 2,
+          "critical_error": 4
+        }
+      },
+      "dictionary": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          1
+        ],
+        "critical_counts": [
+          3,
+          3
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-002"
+        ],
+        "lost_acceptance": [
+          "QUALITYDEV1-003"
+        ],
+        "net_accepted_change": 0,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 0,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": true,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      },
+      "faithfulness": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          2
+        ],
+        "critical_counts": [
+          3,
+          4
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-003"
+        ],
+        "lost_acceptance": [],
+        "net_accepted_change": 1,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 1,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": false,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      }
+    },
+    "B": {
+      "review_sha256": "dbb352e6e430631005678c89bce511a8e8e0c6527dcbdfcb3c010d43aa7bfc1e",
+      "rows": 42,
+      "counts": {
+        "dictionary:A": {
+          "meaning_error": 10,
+          "accepted": 1,
+          "critical_error": 3,
+          "uncertain": 1
+        },
+        "dictionary:B": {
+          "meaning_error": 8,
+          "uncertain": 3,
+          "accepted": 1,
+          "critical_error": 3
+        },
+        "faithfulness:A": {
+          "meaning_error": 8,
+          "critical_error": 3,
+          "uncertain": 3,
+          "accepted": 1
+        },
+        "faithfulness:B": {
+          "meaning_error": 8,
+          "accepted": 2,
+          "critical_error": 3,
+          "uncertain": 2
+        }
+      },
+      "dictionary": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          1
+        ],
+        "critical_counts": [
+          3,
+          3
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-002"
+        ],
+        "lost_acceptance": [
+          "QUALITYDEV1-003"
+        ],
+        "net_accepted_change": 0,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 0,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "uncertain",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": true,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      },
+      "faithfulness": {
+        "denominator": 15,
+        "accepted_counts": [
+          1,
+          2
+        ],
+        "critical_counts": [
+          3,
+          3
+        ],
+        "newly_accepted": [
+          "QUALITYDEV1-003"
+        ],
+        "lost_acceptance": [],
+        "net_accepted_change": 1,
+        "works_with_gains": [
+          "parsig:103"
+        ],
+        "critical_count_change": 0,
+        "accepted_to_critical": [],
+        "transitions": [
+          {
+            "case_id": "QUALITYDEV1-002",
+            "work_id": "parsig:103",
+            "before": "accepted",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-003",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "accepted"
+          },
+          {
+            "case_id": "QUALITYDEV1-005",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-006",
+            "work_id": "parsig:103",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-007",
+            "work_id": "parsig:112",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-008",
+            "work_id": "parsig:112",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-009",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-010",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-012",
+            "work_id": "parsig:112",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-013",
+            "work_id": "parsig:138",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-014",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-015",
+            "work_id": "parsig:138",
+            "before": "uncertain",
+            "after": "uncertain"
+          },
+          {
+            "case_id": "QUALITYDEV1-017",
+            "work_id": "parsig:138",
+            "before": "critical_error",
+            "after": "critical_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-020",
+            "work_id": "parsig:517",
+            "before": "meaning_error",
+            "after": "meaning_error"
+          },
+          {
+            "case_id": "QUALITYDEV1-021",
+            "work_id": "parsig:517",
+            "before": "critical_error",
+            "after": "critical_error"
+          }
+        ],
+        "screen_checks": {
+          "net_accepted_gain": false,
+          "gains_in_multiple_named_works": false,
+          "no_critical_increase": true,
+          "no_accepted_to_critical": true
+        },
+        "screen_pass": false
+      }
+    }
+  },
+  "both_reviewers_diagnostic_screen": {
+    "dictionary": false,
+    "faithfulness": false
+  },
+  "limits": "Post-hoc candidate-rule reassessment of familiar archived text, with duplicate propagation by construction. Not replacement primary results, linguistic gold, independent confirmation, unseen accuracy, or training/promotion authority.",
+  "full_comparison_sha256": "ec25a41270c3f6506b48b523cfa6faeec6e94d855e424cf576cb6f7678bc5f64",
+  "full_disagreement_contexts": 31,
+  "whole_label_disagreement_contexts": 7,
+  "whole_label_disagreements": [
+    {
+      "memberships": [
+        {
+          "arm": "dictionary:B",
+          "case_id": "QUALITYDEV1-013"
+        },
+        {
+          "arm": "faithfulness:A",
+          "case_id": "QUALITYDEV1-013"
+        }
+      ],
+      "reviewer_A": "critical_error",
+      "reviewer_B": "meaning_error"
+    },
+    {
+      "memberships": [
+        {
+          "arm": "faithfulness:B",
+          "case_id": "QUALITYDEV1-020"
+        }
+      ],
+      "reviewer_A": "critical_error",
+      "reviewer_B": "meaning_error"
+    },
+    {
+      "memberships": [
+        {
+          "arm": "dictionary:B",
+          "case_id": "QUALITYDEV1-017"
+        },
+        {
+          "arm": "faithfulness:A",
+          "case_id": "QUALITYDEV1-017"
+        }
+      ],
+      "reviewer_A": "meaning_error",
+      "reviewer_B": "critical_error"
+    },
+    {
+      "memberships": [
+        {
+          "arm": "faithfulness:B",
+          "case_id": "QUALITYDEV1-017"
+        }
+      ],
+      "reviewer_A": "meaning_error",
+      "reviewer_B": "critical_error"
+    },
+    {
+      "memberships": [
+        {
+          "arm": "dictionary:A",
+          "case_id": "QUALITYDEV1-014"
+        }
+      ],
+      "reviewer_A": "uncertain",
+      "reviewer_B": "meaning_error"
+    },
+    {
+      "memberships": [
+        {
+          "arm": "faithfulness:B",
+          "case_id": "QUALITYDEV1-013"
+        }
+      ],
+      "reviewer_A": "critical_error",
+      "reviewer_B": "meaning_error"
+    },
+    {
+      "memberships": [
+        {
+          "arm": "dictionary:A",
+          "case_id": "QUALITYDEV1-010"
+        }
+      ],
+      "reviewer_A": "meaning_error",
+      "reviewer_B": "uncertain"
+    }
+  ]
+}
