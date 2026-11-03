@@ -4,11 +4,13 @@ This is the public data entry point for **MojTah/pahlavi-ai-review**. No GitHub 
 
 **[Download the public repository ZIP](https://github.com/MojTah/pahlavi-ai-review/archive/refs/heads/main.zip)**, or use the direct links below. The ZIP contains the published code, data and evidence; model release assets are separate and are not needed for data review.
 
-## Complete research package (private)
+## Frozen research snapshot and open scope audit
 
-**[Open the complete Drive folder](https://drive.google.com/drive/folders/1wQ5mPAZauHwYa7v1qVpwFzElsGFt95TQ)** · **[Contents, checksums and access instructions](review/COMPLETE-DATA-PACKAGE-20261103.md)**.
+**[Open the owner-managed Drive destination](https://drive.google.com/drive/folders/1wQ5mPAZauHwYa7v1qVpwFzElsGFt95TQ)** · **[Contents, checksums and access instructions](review/COMPLETE-DATA-PACKAGE-20261103.md)**.
 
-**3 November delivery status: LOCAL ARCHIVE VERIFIED; TRANSFER INCOMPLETE.** The full snapshot includes raw source collections/books, local training-set versions and exports, code/configuration, research notes and actual evaluation results: 40,551 project files, a 2.16 GB ZIP prepared in five parts. Drive currently confirms only `README.md`, `TRANSFER-MANIFEST.json` and `SHA256SUMS.txt`; none of the five archive parts is confirmed online. The complete data cannot yet be downloaded, and friend access has not been granted. The owner must grant your email access after transfer verification. This does not require a GitHub account and does not make the full corpus publicly readable. The public repository ZIP contains only the selected public release.
+**3 November status: CURRENT MAIN ARCHIVE AND THREE-FILE SUPPLEMENT UPLOADED; FULL-PROJECT SCOPE AUDIT OPEN.** The main snapshot contains 40,551 project files (6,808,004,295 original bytes) in a 2.16 GB ZIP split into five parts. It includes source collections/books, selected local training-set versions and exports, code/configuration, research notes and actual evaluation results. As of 22:45:31 UTC, Drive confirms all five parts and the three sidecars by names/sizes. All five parts are required to reconstruct the ZIP; verify the published local SHA256 after download.
+
+The [exclusion audit](review/EXCLUSION-AUDIT-20261103.md) found three omitted staged data exports (118,998,474 bytes) with no exact match in the frozen inventory. The [separately verified 8,443,356-byte supplement](https://drive.google.com/file/d/1gr9jxNDehFw6-D-JPB8pmdUQfmb-3TCY/view) preserves them unchanged; its online name/size/parent are confirmed. This does not establish new semantic examples or approved training records. Git history and other excluded project records are still under review, so this package cannot yet be described as everything in the project. Drive access is owner-managed and restricted; reviewers must use an account granted access. No GitHub account is needed for the selected public repository ZIP.
 
 ## Actual source data
 
@@ -33,6 +35,6 @@ These are **already exposed development/evaluation records**, not material to ad
 
 ## What is NOT published
 
-The **complete training/candidate arrays are not on public GitHub**. Bulk Parsig/TITUS texts, current Kosh inventories, MacKenzie/Nyberg and other supplied books include restrictive or unresolved redistribution terms. The complete review ZIP is verified locally but not yet confirmed online in the private Drive folder above; its source-text payload is not in the public GitHub tree. More detail: [data access and gaps](review/DATA-ACCESS.md), [omission inventory](review/OMISSIONS.json), [training/model recipe](MODEL-AND-TRAINING-RECIPE.md).
+The **complete training/candidate arrays are not on public GitHub**. Bulk Parsig/TITUS texts, current Kosh inventories, MacKenzie/Nyberg and other supplied books include restrictive or unresolved redistribution terms. All five parts of the frozen main review ZIP and its first data supplement are present in the restricted Drive folder above; their source-text payload is not in the public GitHub tree. The scope audit remains open. More detail: [data access and gaps](review/DATA-ACCESS.md), [omission inventory](review/OMISSIONS.json), [training/model recipe](MODEL-AND-TRAINING-RECIPE.md).
 
-A reviewer can inspect the selected public data immediately. The complete local research snapshot will require both a verified full upload and owner-granted Drive access. Source permissions still govern reuse and reproduction. No model weights were downloaded to prepare the complete data package.
+A reviewer can inspect the selected public data immediately. Review of the frozen main ZIP requires all five uploaded parts and owner-managed Drive access; the three-file supplement is a separate download. Further coverage and history review have outstanding steps. Source permissions still govern reuse and reproduction. No model weights were downloaded for this packaging work.

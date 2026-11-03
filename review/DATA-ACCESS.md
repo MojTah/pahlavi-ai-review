@@ -1,6 +1,6 @@
 # Data access for specialists
 
-**3 November: [complete package and transfer status](COMPLETE-DATA-PACKAGE-20261103.md)**. The full local source/training/code/result archive is verified; its Drive transfer is incomplete. Only the three sidecar files are confirmed online, not the five archive parts. Complete data download and friend access are not yet available. Drive access requires the owner's approval; public-republication limits remain. The dated October release notes below preserve their historical scope.
+**3 November: [frozen package and delivery status](COMPLETE-DATA-PACKAGE-20261103.md)**. All five main-archive parts, three sidecars and the separate three-file supplement are confirmed on Drive by names/sizes as of 22:45:31 UTC. The [scope audit](EXCLUSION-AUDIT-20261103.md) found the supplement's staged exports omitted from the frozen main archive. Other excluded history/records remain under review; 100-percent project/data coverage is not established. Drive access is owner-managed and restricted; public-republication limits remain. The dated October release notes below preserve their historical scope.
 
 **[Open the data index: direct dataset links and public ZIP download](../DATA.md).** The complete training corpus remains withheld from public GitHub as explained below.
 

@@ -1,6 +1,6 @@
 # Pahlavi translation research: specialist review
 
-**Looking for all the research data? [Complete package and transfer status](review/COMPLETE-DATA-PACKAGE-20261103.md)**: the full archive is verified locally, but its Drive upload is incomplete. Only three sidecar files are confirmed online; the five archive parts are not. [Public data index](DATA.md) links the openly shared subset. The complete corpus stays private and requires owner-granted Drive access.
+**[Research package, delivery and scope correction](review/COMPLETE-DATA-PACKAGE-20261103.md)**: all five main-archive parts, its three sidecars and the three-file data supplement are confirmed on Drive by names/sizes as of 3 November, 22:45:31 UTC. The frozen main archive holds 40,551 project files; the supplement preserves three previously omitted staged exports. The [scope audit](review/EXCLUSION-AUDIT-20261103.md) remains open, so this is not yet everything in the project or a 100-percent data-coverage certification. [Public data index](DATA.md) links the openly shared subset; access to the restricted Drive folder is managed by the owner.
 
 Delivery status updated 3 November 2026. Scientific review checkpoint: 6 October 2026. Development version: 0.11.7. Packaging has produced no new training or translation-quality result.
 
@@ -92,7 +92,7 @@ All semantic judgments are provisional AI assessments. Reused DEV cases are deve
 
 ## What is available
 
-This is a **public review snapshot with a source-acquisition manifest; the corpus is not fully self-contained**. Code, authored research, selected evaluation evidence, counts, source locators, hashes and data preparation decisions are public. Full dictionaries, textbook extracts, raw source downloads and bulk training text with unestablished redistribution rights remain outside the public repository. The [complete local snapshot and pending private transfer](review/COMPLETE-DATA-PACKAGE-20261103.md) cover the research material omitted from public GitHub, with explicit exclusions. See [exact scope](review/PACKAGE.md) and [omissions](review/OMISSIONS.json).
+This is a **public review snapshot with a source-acquisition manifest; the corpus is not fully self-contained**. Code, authored research, selected evaluation evidence, counts, source locators, hashes and data preparation decisions are public. Full dictionaries, textbook extracts, raw source downloads and bulk training text with unestablished redistribution rights remain outside the public repository. The [uploaded frozen main snapshot and open scope audit](review/COMPLETE-DATA-PACKAGE-20261103.md) cover substantial research material omitted from public GitHub; the [exclusion audit](review/EXCLUSION-AUDIT-20261103.md) documents additional staged exports and unresolved history/record coverage. Literal whole-project completeness is not established. See [exact scope](review/PACKAGE.md) and [omissions](review/OMISSIONS.json).
 
 If the companion data are not supplied, review code, experimental logic and available evidence, and identify the specific unverified data claims. Do not certify the full training set from metadata. No blanket license is granted over third-party sources.
 

@@ -7845,8 +7845,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 17318,
-      "sha256": "84551ddb73b9e1ab0fe82a02acca127359bf4e6b9ded5f6e535fda4daa2d79e7"
+      "bytes": 17728,
+      "sha256": "092dd059aa1a28e6c75e6092a1e803b5943813540a54eba9e9643b6976e7239d"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -10720,8 +10720,8 @@
     },
     {
       "path": "review/DATA-ACCESS.md",
-      "bytes": 6438,
-      "sha256": "207fc3a23269579f029f90d61e9f3f9ccd082184adc27e1eb38ac0d585d7fae1"
+      "bytes": 6567,
+      "sha256": "e748fc1705ee3ef8a728feec760f9dfeac60f91d3178917851605a4b1f721e88"
     },
     {
       "path": "review/DATA-LICENSES.json",
@@ -12080,18 +12080,23 @@
     },
     {
       "path": "DATA.md",
-      "bytes": 5244,
-      "sha256": "7f3c11a29a2bcd63b331297d768d17e13d53397294962dd2a9319496b3fdf1e4"
+      "bytes": 5948,
+      "sha256": "21074563dce91c4618061a7a661d6a6482070daa92408fc39398b9a124601c61"
     },
     {
       "path": "review/COMPLETE-DATA-PACKAGE-20261103.md",
-      "bytes": 4852,
-      "sha256": "d2c2088a2e6dcbc443bd250b69005389ca06dad621c0132082f86763a871e6ec"
+      "bytes": 7380,
+      "sha256": "9d6fb65aacd64a89cf7fd6ae107d2773b6d583b63465d5e6309668c6f37bc629"
     },
     {
       "path": "review/COMPLETE-TRANSFER-MANIFEST-20261103.json",
       "bytes": 1666,
       "sha256": "b2c8bd6755298d8a4b6e6dfaa07ef7dfa300046d097f0f758e81e05799797d54"
+    },
+    {
+      "path": "review/EXCLUSION-AUDIT-20261103.md",
+      "bytes": 3621,
+      "sha256": "da665b171f1dbfafb473e102bb0a6688ccd82c5e7914f450a5f6a28c2d62fd34"
     }
   ],
   "source_includes_publication_documentation": true,
@@ -12118,8 +12123,8 @@
   },
   "delivery_update": {
     "date": "2026-11-03",
-    "status": "LOCAL_ARCHIVE_VERIFIED_TRANSFER_INCOMPLETE",
-    "scope": "Complete local research snapshot prepared for private transfer; public payload remains selected; no new training, weights, quality result or rights change",
+    "status": "CURRENT_MAIN_AND_FIRST_DATA_SUPPLEMENT_UPLOADED_SCOPE_AUDIT_OPEN",
+    "scope": "Frozen main snapshot and first staged-data supplement; literal whole-project/data completeness not established; public source-text payload remains selected; no training or scientific changes",
     "archive": {
       "name": "pahlavi-full-local-review-20261103.zip",
       "bytes": 2159797499,
@@ -12128,15 +12133,66 @@
       "original_bytes": 6808004295
     },
     "drive_folder_url": "https://drive.google.com/drive/folders/1wQ5mPAZauHwYa7v1qVpwFzElsGFt95TQ",
-    "provider_confirmed_files": 3,
+    "provider_confirmed_files": 8,
     "expected_transfer_files": 8,
     "provider_confirmed_names": [
       "README.md",
       "TRANSFER-MANIFEST.json",
-      "SHA256SUMS.txt"
+      "SHA256SUMS.txt",
+      "pahlavi-full-local-review-20261103.zip.001",
+      "pahlavi-full-local-review-20261103.zip.002",
+      "pahlavi-full-local-review-20261103.zip.003",
+      "pahlavi-full-local-review-20261103.zip.004",
+      "pahlavi-full-local-review-20261103.zip.005"
     ],
-    "archive_parts_confirmed": 0,
-    "verification_basis": "Local ZIP membership and per-file SHA256 PASS; all eight mounted Drive-client copies match local SHA256. Provider metadata confirms only three sidecars names/sizes/private status; no provider digest match is claimed.",
-    "friend_access_granted": false
+    "archive_parts_confirmed": 5,
+    "verification_basis": "Local ZIP membership/per-file SHA256 PASS; original eight mounted Drive-client copies match local SHA256. Observed Drive names/sizes confirm all five main parts and three sidecars. Supplement name/size/parent metadata verified. No provider digest match claimed.",
+    "provider_state_as_of_utc": "2026-11-03T22:45:31Z",
+    "counts_scope": "Original five-part archive plus three sidecars only; first supplement tracked separately under scope_audit",
+    "access_status": "Owner-managed restricted sharing; owner plus one user writer observed; no anyone/domain grant observed. Reviewer identity is not established by this record.",
+    "duplicate_sidecars_observed": 2,
+    "duplicate_main_parts_observed": 0
+  },
+  "scope_audit": {
+    "date": "2026-11-03",
+    "status": "OPEN",
+    "record": "review/EXCLUSION-AUDIT-20261103.md",
+    "excluded_metadata_files": 26916,
+    "excluded_metadata_bytes": 9421451806,
+    "staged_data_comparison": {
+      "files_checked": 13,
+      "bytes_checked": 205250429,
+      "exact_matches_to_included_canonical_files": 10,
+      "files_without_exact_inventory_match": 3,
+      "unmatched_bytes": 118998474,
+      "semantic_uniqueness_or_training_admission_established": false
+    },
+    "first_data_supplement": {
+      "name": "pahlavi-data-supplement-20261103.zip",
+      "bytes": 8443356,
+      "sha256": "9cdab6d11a2ecb335df1653050c26012b3ff5c5f293a04a2cc2b110d2ff717a8",
+      "local_membership_per_file_sha256": "PASS",
+      "independent_read_only_check": "PASS",
+      "provider_delivery": "NAME_SIZE_PARENT_VERIFIED",
+      "file_id": "1gr9jxNDehFw6-D-JPB8pmdUQfmb-3TCY",
+      "url": "https://drive.google.com/file/d/1gr9jxNDehFw6-D-JPB8pmdUQfmb-3TCY/view"
+    },
+    "reachable_git_commits": 179,
+    "held_run_access_billing_records": 65,
+    "credential_screening_approval": "APPROVED_FOR_179_COMMITS_AND_65_RECORDS_SCREEN_REDACTED_EXPORT_AND_PRIVATE_UPLOAD",
+    "completeness_claim": "Whole-project and 100-percent data coverage remain unestablished; no exact byte match is not proof of unique semantic examples.",
+    "screened_history_records_export": "PREPARATION_UNDERWAY_NOT_YET_DELIVERED",
+    "additional_ordinary_data_comparison": {
+      "files_checked": 786,
+      "bytes_checked": 301658775,
+      "exact_matches_to_main_or_first_supplement": 174,
+      "matched_bytes": 288919710,
+      "files_without_exact_inventory_match": 612,
+      "unmatched_bytes": 12739065,
+      "roles": "Staged data, Wiktionary drafts, research/audit records and test fixtures; not all real training or model results",
+      "supplement_state": "IN_PREPARATION_NOT_YET_CLAIMED_UPLOADED",
+      "credential_account_access_paths_or_installed_dependencies_in_scope": false
+    },
+    "broader_ordinary_project_audit": "ONGOING"
   }
 }
