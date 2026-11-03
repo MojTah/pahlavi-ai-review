@@ -1,8 +1,8 @@
 # Pahlavi translation research: specialist review
 
-**Looking for the actual data? [START HERE: browse/download datasets and translation evidence](DATA.md).** Public source data are linked directly; the complete mixed-rights training corpus is not published.
+**Looking for all the research data? [Complete package and transfer status](review/COMPLETE-DATA-PACKAGE-20261103.md)**: the full archive is verified locally, but its Drive upload is incomplete. Only three sidecar files are confirmed online; the five archive parts are not. [Public data index](DATA.md) links the openly shared subset. The complete corpus stays private and requires owner-granted Drive access.
 
-Updated 6 October 2026 for independent specialist review. Development version: 0.11.7.
+Delivery status updated 3 November 2026. Scientific review checkpoint: 6 October 2026. Development version: 0.11.7. Packaging has produced no new training or translation-quality result.
 
 The newest [common archived-output assessment](experiments/measurement-calibration-20261005/REPORT.md) applies an explicitly post-hoc candidate interpretation to 60 memberships/42 unique contexts. Both fresh reviewers find dictionary acceptance 1/15 → 1/15 and added-instruction acceptance 1/15 → 2/15; both diagnostic comparisons remain HOLD. Instruction critical counts are A3→4/B3→3, with disagreements preserved. Ambiguity handling is newly explicit; equivalence to historical judging is unproved. Consistency for duplicate outputs is imposed by construction. Original primary results remain unchanged; no linguistic gold, unseen accuracy or new model is established. [Completed Astra closure](experiments/measurement-calibration-20261005/ASTRA-CLOSURE.md) verifies the bounded technical/HOLD result. Next obtain source-grounded specialist adjudication and prospectively freeze measurement rules before more GPU spending.
 
@@ -92,7 +92,7 @@ All semantic judgments are provisional AI assessments. Reused DEV cases are deve
 
 ## What is available
 
-This is a **public review snapshot with a source-acquisition manifest; the corpus is not fully self-contained**. Code, authored research, selected evaluation evidence, counts, source locators, hashes and data preparation decisions are public. Full dictionaries, textbook extracts, raw source downloads and bulk training text with unestablished redistribution rights remain outside the public repository. The owner has separate local companion packages for direct review sharing. See [exact scope](review/PACKAGE.md) and [omissions](review/OMISSIONS.json).
+This is a **public review snapshot with a source-acquisition manifest; the corpus is not fully self-contained**. Code, authored research, selected evaluation evidence, counts, source locators, hashes and data preparation decisions are public. Full dictionaries, textbook extracts, raw source downloads and bulk training text with unestablished redistribution rights remain outside the public repository. The [complete local snapshot and pending private transfer](review/COMPLETE-DATA-PACKAGE-20261103.md) cover the research material omitted from public GitHub, with explicit exclusions. See [exact scope](review/PACKAGE.md) and [omissions](review/OMISSIONS.json).
 
 If the companion data are not supplied, review code, experimental logic and available evidence, and identify the specific unverified data claims. Do not certify the full training set from metadata. No blanket license is granted over third-party sources.
 

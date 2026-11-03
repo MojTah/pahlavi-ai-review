@@ -1,6 +1,8 @@
 # Data access for specialists
 
-**[Open the data index: direct dataset links and public ZIP download](../DATA.md).** The complete training corpus remains withheld as explained below.
+**3 November: [complete package and transfer status](COMPLETE-DATA-PACKAGE-20261103.md)**. The full local source/training/code/result archive is verified; its Drive transfer is incomplete. Only the three sidecar files are confirmed online, not the five archive parts. Complete data download and friend access are not yet available. Drive access requires the owner's approval; public-republication limits remain. The dated October release notes below preserve their historical scope.
+
+**[Open the data index: direct dataset links and public ZIP download](../DATA.md).** The complete training corpus remains withheld from public GitHub as explained below.
 
 5 October 2026. Publication includes actual data as well as code and manifests. It remains incomplete.
 

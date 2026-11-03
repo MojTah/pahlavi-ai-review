@@ -1,0 +1,43 @@
+{
+  "archive": {
+    "archive": "pahlavi-full-local-review-20261103.zip",
+    "bytes": 2159797499,
+    "inventory_sha256": "95ba9bac1217a87f6669b6fec7be2814709fd3bb62ccf3b4bbccbacbdc9dd95d",
+    "membership_and_per_file_sha256": "PASS",
+    "sha256": "a2261165f6fb0d4cd20bb476466829e9dbf60f771ac3e04a0602a9ac317eaa68"
+  },
+  "inventory_sha256": "95ba9bac1217a87f6669b6fec7be2814709fd3bb62ccf3b4bbccbacbdc9dd95d",
+  "parts": [
+    {
+      "name": "pahlavi-full-local-review-20261103.zip.001",
+      "bytes": 471859200,
+      "sha256": "fd1b7d604c26cbdee617b11e405b8d9c2702c2dc82c16740b07705adf81ba021",
+      "md5": "e4ea62aa78b5ee993ba91f0886f1e632"
+    },
+    {
+      "name": "pahlavi-full-local-review-20261103.zip.002",
+      "bytes": 471859200,
+      "sha256": "29cfd63ad29c466309d01745c084b94a922c9ef58108c550285cf7c2a47cd899",
+      "md5": "80959bf0fa660f4607b1ac8d86212641"
+    },
+    {
+      "name": "pahlavi-full-local-review-20261103.zip.003",
+      "bytes": 471859200,
+      "sha256": "ff742ad0b1a273525d90e80054f616db7bab05c4b13d3130948c37f30adff446",
+      "md5": "fd77759e6d13be6fa79d725b3dea6472"
+    },
+    {
+      "name": "pahlavi-full-local-review-20261103.zip.004",
+      "bytes": 471859200,
+      "sha256": "f9e5ea0ee8d94e1ce429ce0272caf1305be17733388bee6c911dace5e5b69b4f",
+      "md5": "ffe56ca0cbcf71fbf0b8d37f3ef94a7c"
+    },
+    {
+      "name": "pahlavi-full-local-review-20261103.zip.005",
+      "bytes": 272360699,
+      "sha256": "fc58e9995d999dc1be0c039a9a1825950eee2874fe87de76edb01829be63de31",
+      "md5": "2c04693d0cf7b897957682dea06474ed"
+    }
+  ],
+  "reassembly_verification": "PASS"
+}

@@ -4,6 +4,12 @@ This is the public data entry point for **MojTah/pahlavi-ai-review**. No GitHub 
 
 **[Download the public repository ZIP](https://github.com/MojTah/pahlavi-ai-review/archive/refs/heads/main.zip)**, or use the direct links below. The ZIP contains the published code, data and evidence; model release assets are separate and are not needed for data review.
 
+## Complete research package (private)
+
+**[Open the complete Drive folder](https://drive.google.com/drive/folders/1wQ5mPAZauHwYa7v1qVpwFzElsGFt95TQ)** · **[Contents, checksums and access instructions](review/COMPLETE-DATA-PACKAGE-20261103.md)**.
+
+**3 November delivery status: LOCAL ARCHIVE VERIFIED; TRANSFER INCOMPLETE.** The full snapshot includes raw source collections/books, local training-set versions and exports, code/configuration, research notes and actual evaluation results: 40,551 project files, a 2.16 GB ZIP prepared in five parts. Drive currently confirms only `README.md`, `TRANSFER-MANIFEST.json` and `SHA256SUMS.txt`; none of the five archive parts is confirmed online. The complete data cannot yet be downloaded, and friend access has not been granted. The owner must grant your email access after transfer verification. This does not require a GitHub account and does not make the full corpus publicly readable. The public repository ZIP contains only the selected public release.
+
 ## Actual source data
 
 These are source collections, **not a combined, fully approved training set**. Counts use different units and must not be added together as translation-pair counts.
@@ -27,6 +33,6 @@ These are **already exposed development/evaluation records**, not material to ad
 
 ## What is NOT published
 
-The **complete training/candidate arrays are not on public GitHub**. Bulk Parsig/TITUS texts, current Kosh inventories, MacKenzie/Nyberg and other supplied books include restrictive or unresolved redistribution terms. Private review ZIPs are not public download links and cannot be obtained from this repository. More detail: [data access and gaps](review/DATA-ACCESS.md), [omission inventory](review/OMISSIONS.json), [training/model recipe](MODEL-AND-TRAINING-RECIPE.md).
+The **complete training/candidate arrays are not on public GitHub**. Bulk Parsig/TITUS texts, current Kosh inventories, MacKenzie/Nyberg and other supplied books include restrictive or unresolved redistribution terms. The complete review ZIP is verified locally but not yet confirmed online in the private Drive folder above; its source-text payload is not in the public GitHub tree. More detail: [data access and gaps](review/DATA-ACCESS.md), [omission inventory](review/OMISSIONS.json), [training/model recipe](MODEL-AND-TRAINING-RECIPE.md).
 
-A reviewer can inspect the published source data and experiment evidence now. Full training-data reproduction requires additional source permissions or a separately agreed, permissible access arrangement; it is not solved by making a repository public. No private corpus or new model weights were uploaded for this navigation fix.
+A reviewer can inspect the selected public data immediately. The complete local research snapshot will require both a verified full upload and owner-granted Drive access. Source permissions still govern reuse and reproduction. No model weights were downloaded to prepare the complete data package.

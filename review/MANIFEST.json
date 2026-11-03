@@ -7845,8 +7845,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 16908,
-      "sha256": "b7dd5d464c91fb6a3d70f779f1a541ef63c94d771f68dc08ed38c9aa9ed09112"
+      "bytes": 17318,
+      "sha256": "84551ddb73b9e1ab0fe82a02acca127359bf4e6b9ded5f6e535fda4daa2d79e7"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -10720,8 +10720,8 @@
     },
     {
       "path": "review/DATA-ACCESS.md",
-      "bytes": 5933,
-      "sha256": "c0e247e320ae9f8e80582df0cb82d5f52da0aedc8843bc5ca43e320cb729ba0d"
+      "bytes": 6438,
+      "sha256": "207fc3a23269579f029f90d61e9f3f9ccd082184adc27e1eb38ac0d585d7fae1"
     },
     {
       "path": "review/DATA-LICENSES.json",
@@ -12080,8 +12080,18 @@
     },
     {
       "path": "DATA.md",
-      "bytes": 4201,
-      "sha256": "a73f973a9adb9757be9efa1023535214c396905d1bdff8a79b99b638c8ecc3df"
+      "bytes": 5244,
+      "sha256": "7f3c11a29a2bcd63b331297d768d17e13d53397294962dd2a9319496b3fdf1e4"
+    },
+    {
+      "path": "review/COMPLETE-DATA-PACKAGE-20261103.md",
+      "bytes": 4852,
+      "sha256": "d2c2088a2e6dcbc443bd250b69005389ca06dad621c0132082f86763a871e6ec"
+    },
+    {
+      "path": "review/COMPLETE-TRANSFER-MANIFEST-20261103.json",
+      "bytes": 1666,
+      "sha256": "b2c8bd6755298d8a4b6e6dfaa07ef7dfa300046d097f0f758e81e05799797d54"
     }
   ],
   "source_includes_publication_documentation": true,
@@ -12105,5 +12115,28 @@
   "navigation_update": {
     "date": "2026-11-03",
     "scope": "Data entry point and clickable public download links only; no newly published corpus, weights, evaluation or rights change"
+  },
+  "delivery_update": {
+    "date": "2026-11-03",
+    "status": "LOCAL_ARCHIVE_VERIFIED_TRANSFER_INCOMPLETE",
+    "scope": "Complete local research snapshot prepared for private transfer; public payload remains selected; no new training, weights, quality result or rights change",
+    "archive": {
+      "name": "pahlavi-full-local-review-20261103.zip",
+      "bytes": 2159797499,
+      "sha256": "a2261165f6fb0d4cd20bb476466829e9dbf60f771ac3e04a0602a9ac317eaa68",
+      "payload_files": 40551,
+      "original_bytes": 6808004295
+    },
+    "drive_folder_url": "https://drive.google.com/drive/folders/1wQ5mPAZauHwYa7v1qVpwFzElsGFt95TQ",
+    "provider_confirmed_files": 3,
+    "expected_transfer_files": 8,
+    "provider_confirmed_names": [
+      "README.md",
+      "TRANSFER-MANIFEST.json",
+      "SHA256SUMS.txt"
+    ],
+    "archive_parts_confirmed": 0,
+    "verification_basis": "Local ZIP membership and per-file SHA256 PASS; all eight mounted Drive-client copies match local SHA256. Provider metadata confirms only three sidecars names/sizes/private status; no provider digest match is claimed.",
+    "friend_access_granted": false
   }
 }
