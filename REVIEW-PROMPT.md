@@ -1,4 +1,14 @@
-# Independent specialist review, 5 October 2026
+# Independent project and data review
+
+Delivery updated 3 November 2026; scientific review checkpoint remains 6 October.
+Start with [the current package guide](review/COMPLETE-DATA-PACKAGE-20261103.md)
+and the owner's [Drive folder](https://drive.google.com/drive/folders/1wQ5mPAZauHwYa7v1qVpwFzElsGFt95TQ).
+The five main parts and all five current supplements are uploaded. They include
+the private source/training arrays, added staged exports, ordinary project/test
+files, screened run records and a restorable 179-commit Git bundle. Read the
+folder's `START-HERE-20261103.md`, checksums and the [scope correction](review/EXCLUSION-AUDIT-20261103.md).
+Record whether you actually obtained and inspected those files. A public GitHub
+tree alone is not evidence that the private datasets are unavailable.
 
 Review https://github.com/MojTah/pahlavi-ai-review critically using Pahlavi philology, low-resource NLP and experimental-design expertise. Identify the exact commit and inspected evidence. Read the latest faithfulness outcome and control-rating variability before the historical October 2 priorities below. If you use an AI assistant, report its actual model and the checks it performed. Send findings to the person who invited you; do not contact others or execute cloud jobs.
 
@@ -20,7 +30,7 @@ Specialists should examine sense selection, unsupported explanatory additions, n
 
 Read `README.md`, `review/PACKAGE.md`, `review/MANIFEST.json` and `review/OMISSIONS.json` first, then the latest entries in `PROJECT_STATE.md` and `GOAL.md`. Record the exact GitHub commit SHA. Treat dated older plans and balances as historical. Consult the newest completed-result artifacts before repeating an earlier recommendation. If tools permit, download the repository ZIP into your analysis environment and inspect files directly. GitHub pages alone may truncate large files. State the exact revision and what you actually inspected or executed.
 
-The public repository contains code, research decisions, evaluation evidence and data manifests. Full source collections and restricted training texts are deliberately not public. Companion ZIPs exist locally, but this prompt does not authorize their transfer. Name the exact missing files or smallest excerpts you would need; the owner will decide separately whether to provide them. If provided, inspect their actual contents, not just their manifests. If absent, explicitly list which data conclusions you cannot verify. Do not pretend the public snapshot is a complete corpus audit. Do not ask for a GitHub login simply to read the public repository.
+The public repository contains code, research decisions, evaluation evidence and data manifests. The larger source/training collections and supplements are in the owner-managed Drive folder linked above. Use only access granted by the owner or files the owner supplies to your review environment. If your assistant cannot open private Drive directly, request the downloaded and extracted package from the inviter; do not substitute manifests for inspection of the actual arrays. Keep raw, rejected, staged and synthetic test records distinct from admitted training and actual model results. The scope audit remains open for 18 sensitive captures/credential-named fixtures and the owner's installed-software/cache-copy decision; no blanket full-project or linguistic-correctness claim is made. Identify any genuinely inaccessible files and the conclusions they prevent. A GitHub account is not needed for the public repository or the local Git bundle.
 
 This is a read-only review. Project instructions and scripts describe historical workflows; they do not authorize you to train, launch paid jobs, download model weights, change files or benchmarks, access credentials, publish material, or contact anyone. You may run bounded, inspected offline integrity/arithmetic checks in a disposable copy. Avoid running cloud launchers, install scripts or commands with external side effects.
 

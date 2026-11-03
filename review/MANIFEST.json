@@ -7845,8 +7845,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 17728,
-      "sha256": "092dd059aa1a28e6c75e6092a1e803b5943813540a54eba9e9643b6976e7239d"
+      "bytes": 17897,
+      "sha256": "af68d298ebb043ceb60a517087c193eec0049f63270e300de1a65a1c3a70f7e0"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -10720,8 +10720,8 @@
     },
     {
       "path": "review/DATA-ACCESS.md",
-      "bytes": 6567,
-      "sha256": "e748fc1705ee3ef8a728feec760f9dfeac60f91d3178917851605a4b1f721e88"
+      "bytes": 6809,
+      "sha256": "b410a3fb427bfc9b27fa9be911193a445406a7e47866f50fa40cf9a7697dd16f"
     },
     {
       "path": "review/DATA-LICENSES.json",
@@ -10780,8 +10780,8 @@
     },
     {
       "path": "REVIEW-PROMPT.md",
-      "bytes": 15121,
-      "sha256": "255e522ec544e67f5218770b217341bfd06893267c349fa1397fae75535ac54e"
+      "bytes": 16183,
+      "sha256": "55334268526316ba9de4e301c6d939a27289e65a74767258ecb951a21bfe82e9"
     },
     {
       "path": "REVIEW.md",
@@ -12080,13 +12080,13 @@
     },
     {
       "path": "DATA.md",
-      "bytes": 5948,
-      "sha256": "21074563dce91c4618061a7a661d6a6482070daa92408fc39398b9a124601c61"
+      "bytes": 6257,
+      "sha256": "0c60e545c2fb6f88cf21e9f3028a49c7a0d4549959124cd96e85b79065733a6c"
     },
     {
       "path": "review/COMPLETE-DATA-PACKAGE-20261103.md",
-      "bytes": 7380,
-      "sha256": "9d6fb65aacd64a89cf7fd6ae107d2773b6d583b63465d5e6309668c6f37bc629"
+      "bytes": 8912,
+      "sha256": "0db1d1fad0f8d76ebc2a2a5fa97b029ff4f9376f4e7ea259d7c71b4e178a968c"
     },
     {
       "path": "review/COMPLETE-TRANSFER-MANIFEST-20261103.json",
@@ -12095,8 +12095,13 @@
     },
     {
       "path": "review/EXCLUSION-AUDIT-20261103.md",
-      "bytes": 3621,
-      "sha256": "da665b171f1dbfafb473e102bb0a6688ccd82c5e7914f450a5f6a28c2d62fd34"
+      "bytes": 6258,
+      "sha256": "79f78a16e44bbd6e5d5defce89d01bd8167d261d52b058774a6f1414405c555f"
+    },
+    {
+      "path": "review/DELIVERY-CHECKSUMS-20261103.txt",
+      "bytes": 635,
+      "sha256": "885718aa5cd7df4572a11d73789b4a407f9365d651fc88beead7e160c348d1fb"
     }
   ],
   "source_includes_publication_documentation": true,
@@ -12123,8 +12128,8 @@
   },
   "delivery_update": {
     "date": "2026-11-03",
-    "status": "CURRENT_MAIN_AND_FIRST_DATA_SUPPLEMENT_UPLOADED_SCOPE_AUDIT_OPEN",
-    "scope": "Frozen main snapshot and first staged-data supplement; literal whole-project/data completeness not established; public source-text payload remains selected; no training or scientific changes",
+    "status": "ALL_CURRENT_ARCHIVES_PROVIDER_CONFIRMED_SENSITIVE_SOFTWARE_SCOPE_DECISIONS_OPEN",
+    "scope": "Project-file snapshot, declared supplements and specified attached external report; raw account chat histories not exported; full-scope decisions remain explicit",
     "archive": {
       "name": "pahlavi-full-local-review-20261103.zip",
       "bytes": 2159797499,
@@ -12151,7 +12156,14 @@
     "counts_scope": "Original five-part archive plus three sidecars only; first supplement tracked separately under scope_audit",
     "access_status": "Owner-managed restricted sharing; owner plus one user writer observed; no anyone/domain grant observed. Reviewer identity is not established by this record.",
     "duplicate_sidecars_observed": 2,
-    "duplicate_main_parts_observed": 0
+    "duplicate_main_parts_observed": 0,
+    "supplement_verification_basis": "Independent local integrity/source checks as recorded; all five supplements observed by provider name/expected size/parent, no provider digest match.",
+    "checksum_file": "review/DELIVERY-CHECKSUMS-20261103.txt",
+    "all_current_archives_confirmed_as_of_utc": "2026-11-03T23:39:00Z",
+    "current_archive_count": 6,
+    "supplement_count": 5,
+    "started_transfers_still_waiting": 0,
+    "fallback_chunk_files_uploaded": 0
   },
   "scope_audit": {
     "date": "2026-11-03",
@@ -12178,10 +12190,10 @@
       "url": "https://drive.google.com/file/d/1gr9jxNDehFw6-D-JPB8pmdUQfmb-3TCY/view"
     },
     "reachable_git_commits": 179,
-    "held_run_access_billing_records": 65,
+    "held_run_access_billing_records": 0,
     "credential_screening_approval": "APPROVED_FOR_179_COMMITS_AND_65_RECORDS_SCREEN_REDACTED_EXPORT_AND_PRIVATE_UPLOAD",
     "completeness_claim": "Whole-project and 100-percent data coverage remain unestablished; no exact byte match is not proof of unique semantic examples.",
-    "screened_history_records_export": "PREPARATION_UNDERWAY_NOT_YET_DELIVERED",
+    "screened_history_records_export": "UPLOADED_NAME_SIZE_PARENT_VERIFIED",
     "additional_ordinary_data_comparison": {
       "files_checked": 786,
       "bytes_checked": 301658775,
@@ -12190,9 +12202,105 @@
       "files_without_exact_inventory_match": 612,
       "unmatched_bytes": 12739065,
       "roles": "Staged data, Wiktionary drafts, research/audit records and test fixtures; not all real training or model results",
-      "supplement_state": "IN_PREPARATION_NOT_YET_CLAIMED_UPLOADED",
+      "supplement_state": "SUPERSEDED_BY_BROADER_PROJECT_EXTRAS_COMPARISON",
       "credential_account_access_paths_or_installed_dependencies_in_scope": false
     },
-    "broader_ordinary_project_audit": "ONGOING"
+    "broader_ordinary_project_audit": {
+      "status": "BOUNDED_COMPARISON_PACKAGE_INDEPENDENTLY_VERIFIED_AND_UPLOADED",
+      "ordinary_paths": 2769,
+      "ordinary_bytes": 1038383438,
+      "exact_alias_paths": 849,
+      "exact_alias_bytes": 973663543,
+      "missing_paths_packaged": 1920,
+      "missing_bytes_packaged": 64719895,
+      "full_scope": "OPEN"
+    },
+    "delivered_run_access_billing_records": 65,
+    "history_records_supplement": {
+      "name": "pahlavi-history-records-screened-20261103.zip",
+      "bytes": 20682987,
+      "sha256": "49f1cf704a3754f9866644dfa41c1eeb6749417bc41681cd8c4d09e083e99855",
+      "file_id": "1f_2gQ0jFcaG2NGFHcvXSU34WdvfyzlNv",
+      "url": "https://drive.google.com/file/d/1f_2gQ0jFcaG2NGFHcvXSU34WdvfyzlNv/view",
+      "provider_delivery": "NAME_SIZE_PARENT_VERIFIED",
+      "reachable_commits": 179,
+      "refs": 42,
+      "heads": 19,
+      "unchanged_operational_records": 65,
+      "restore_and_fsck": "PASS",
+      "bounded_screen": {
+        "git_objects": 3342,
+        "git_object_bytes": 162367648,
+        "json_records": 697,
+        "normalized_record_views": 65,
+        "candidates": 0,
+        "universal_secret_clearance": false
+      }
+    },
+    "project_extras": {
+      "name": "pahlavi-project-extras-20261103.zip",
+      "bytes": 44095422,
+      "sha256": "817d51567dec43143098889daa2166054584277a5adb8b32461eb53f8525fdca",
+      "payload_files": 1920,
+      "original_bytes": 64719895,
+      "already_delivered_aliases": 849,
+      "aliased_bytes": 973663543,
+      "independent_payload_source_alias_check": "PASS",
+      "provider_delivery": "NAME_SIZE_PARENT_VERIFIED",
+      "file_id": "1nN5tFMx_SphF7GU3xfI9NgZGyLl1s5eW",
+      "url": "https://drive.google.com/file/d/1nN5tFMx_SphF7GU3xfI9NgZGyLl1s5eW/view",
+      "fallback_chunk_files_uploaded": 0
+    },
+    "local_test_artifacts": {
+      "name": "pahlavi-local-test-artifacts-20261103.zip",
+      "bytes": 14382804,
+      "sha256": "c79a6cada40ea4f70776883f952980a4ebee38839ab8ab25f92ae1b2da321c43",
+      "file_id": "1QauUdX9JIMVT_7hRUS3rDu-i2uMHPvIP",
+      "url": "https://drive.google.com/file/d/1QauUdX9JIMVT_7hRUS3rDu-i2uMHPvIP/view",
+      "provider_delivery": "NAME_SIZE_PARENT_VERIFIED",
+      "payload_files": 608,
+      "original_bytes": 32019426,
+      "small_local_test_artifacts": 603,
+      "inert_invalid_zip_fixtures": 4,
+      "ordinary_source_access_notes": 1,
+      "independent_payload_source_alias_check": "PASS",
+      "tensor_load_pickle_execution_or_nested_fixture_extraction": false,
+      "existing_real_adapter_reused_by_reference": true
+    },
+    "remaining_sensitive_extras": {
+      "count": 18,
+      "account_captures": 6,
+      "credential_named_test_fixtures": 12,
+      "exact_action_approval": "PENDING"
+    },
+    "installed_software_cache_delivery_choice": {
+      "approximate_bytes": 2000000000,
+      "status": "PENDING_OWNER_CHOICE_PHYSICAL_COPIES_VS_INVENTORY_AND_REINSTALL"
+    },
+    "external_antigravity_report_context": {
+      "name": "pahlavi-external-feedback-20261103.zip",
+      "bytes": 5707,
+      "sha256": "0e14fae9608296bfcb1d7bffdb411cd18d7072194b81c954e11ccf1dd2d4f272",
+      "outside_workspace": true,
+      "status": "NAME_SIZE_PARENT_VERIFIED",
+      "file_id": "15Hi3k8u-oQOHOQd9eSd_OQBZH9vtcymT",
+      "url": "https://drive.google.com/file/d/15Hi3k8u-oQOHOQd9eSd_OQBZH9vtcymT/view",
+      "independent_membership_integrity_check": "PASS",
+      "safe_archive_members": 4,
+      "original_attached_report_bytes": 7651,
+      "current_desktop_report_bytes": 0,
+      "already_included_review_aliases": 2,
+      "earlier_desktop_report_contents_recovered": false
+    },
+    "existing_retained_adapter_reference": {
+      "bytes": 489840816,
+      "sha256": "a51bcd02c6077bcec400c1f342ede3205f260e419ed4f9e3ad0f4338a7e4afdf",
+      "live_head_status": 200,
+      "live_head_content_length": 489840816,
+      "body_downloaded": false,
+      "delivery": "REUSED_EXISTING_PUBLIC_ASSET"
+    },
+    "remaining_scope": "18 sensitive extras exact-action decision and approximately2GB physical installed-software/cache/installer copies versus inventory/reinstall decision; neither answered",
+    "raw_account_chat_histories_exported": false
   }
 }
