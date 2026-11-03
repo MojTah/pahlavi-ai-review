@@ -7845,8 +7845,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 16698,
-      "sha256": "0bb0c2a34a6ff1a1573f762c49bae187908b68ed57e25b84cf9cbff905f2a8d7"
+      "bytes": 16908,
+      "sha256": "b7dd5d464c91fb6a3d70f779f1a541ef63c94d771f68dc08ed38c9aa9ed09112"
     },
     {
       "path": "resources/licenses/dadmatools-LICENSE.txt",
@@ -10720,8 +10720,8 @@
     },
     {
       "path": "review/DATA-ACCESS.md",
-      "bytes": 5779,
-      "sha256": "25fb9917eacbcdc1e0f6453a3e24dfc5d148da5960c4f77ba7cbd5b5b3185a69"
+      "bytes": 5933,
+      "sha256": "c0e247e320ae9f8e80582df0cb82d5f52da0aedc8843bc5ca43e320cb729ba0d"
     },
     {
       "path": "review/DATA-LICENSES.json",
@@ -12077,6 +12077,11 @@
       "path": "tests/test_translation_benchmark.py",
       "bytes": 8186,
       "sha256": "d2b1ddafcd74ed34987e0788d5d8d0ca7bb4dbb53fdbeff48aa905c6e459edeb"
+    },
+    {
+      "path": "DATA.md",
+      "bytes": 4201,
+      "sha256": "a73f973a9adb9757be9efa1023535214c396905d1bdff8a79b99b638c8ecc3df"
     }
   ],
   "source_includes_publication_documentation": true,
@@ -12096,5 +12101,9 @@
       "url": "https://github.com/MojTah/pahlavi-ai-review/releases/download/gemma-step280-research-v1/gemma-step280-metadata.zip",
       "state": "PUBLISHED"
     }
-  ]
+  ],
+  "navigation_update": {
+    "date": "2026-11-03",
+    "scope": "Data entry point and clickable public download links only; no newly published corpus, weights, evaluation or rights change"
+  }
 }

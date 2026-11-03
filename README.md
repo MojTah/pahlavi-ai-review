@@ -1,5 +1,7 @@
 # Pahlavi translation research: specialist review
 
+**Looking for the actual data? [START HERE: browse/download datasets and translation evidence](DATA.md).** Public source data are linked directly; the complete mixed-rights training corpus is not published.
+
 Updated 6 October 2026 for independent specialist review. Development version: 0.11.7.
 
 The newest [common archived-output assessment](experiments/measurement-calibration-20261005/REPORT.md) applies an explicitly post-hoc candidate interpretation to 60 memberships/42 unique contexts. Both fresh reviewers find dictionary acceptance 1/15 → 1/15 and added-instruction acceptance 1/15 → 2/15; both diagnostic comparisons remain HOLD. Instruction critical counts are A3→4/B3→3, with disagreements preserved. Ambiguity handling is newly explicit; equivalence to historical judging is unproved. Consistency for duplicate outputs is imposed by construction. Original primary results remain unchanged; no linguistic gold, unseen accuracy or new model is established. [Completed Astra closure](experiments/measurement-calibration-20261005/ASTRA-CLOSURE.md) verifies the bounded technical/HOLD result. Next obtain source-grounded specialist adjudication and prospectively freeze measurement rules before more GPU spending.

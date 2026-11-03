@@ -1,5 +1,7 @@
 # Data access for specialists
 
+**[Open the data index: direct dataset links and public ZIP download](../DATA.md).** The complete training corpus remains withheld as explained below.
+
 5 October 2026. Publication includes actual data as well as code and manifests. It remains incomplete.
 
 | Included collection | Published location | Terms and provenance |
